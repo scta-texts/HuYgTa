@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Circa textum</title>
+            <author ref="#ThomasStrasbourg">Thomas of Strasbourg</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Circa textum</title>
+               <date when="2020-11-26">November 26, 2020</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="G" n="cod-TxxqU">Genoa 1585</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2020-11-26" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#G" n="P2_56-v"/>
+            <cb ed="#G" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="HuYgTa-202996"><!-- HuYgTa-l3d39et40ct1 -->
+            <head xml:id="HuYgTa-202996-Hd1e108">Circa textum</head>
+            <p xml:id="HuYgTa-202996-d1e111">
+      <!--583.xml-->
+               <pb ed="#G" n="P2_56-v"/>
+               <cb ed="#G" n="a"/>
+               <lb ed="#G" n="1"/>DISTINOTIO XXXVIX ET XL 
+      <lb ed="#G" n="2"/>Ab solutissima harum distinctionum duusio in 
+      <lb ed="#G" n="3"/>quibus tum de periurio, tum de distinctione 
+      <lb ed="#G" n="4"/>sexti ac septum legis praecepti
+      tan<lb ed="#G" n="5" break="no"/>dem peragitir.
+    </p>
+            <p xml:id="HuYgTa-202996-d1e131">
+               <lb ed="#G" n="6"/>VNC DE PERIVRIO. Postquam 
+      <lb ed="#G" n="7"/>Magister determinauit de mendacio 
+      <lb ed="#G" n="8"/>simplici, &amp; officioso: nunc
+      prosequi<lb ed="#G" n="9" break="no"/>tur de mendacio non simplici, sed  
+      <lb ed="#G" n="10"/>iuramento confirmato, scilicet de 
+      <lb ed="#G" n="11"/>periurio. Et diuiditur in duas partes: 
+      <lb ed="#G" n="12"/>nam primo tractat Magister de periu 
+      <lb ed="#G" n="13"/>rio specialiter: Secundo de
+      iuramen<lb ed="#G" n="14" break="no"/>to vniuersaliter, ibi, Si autem quaeritur. Prima in duas: nan 
+      <lb ed="#G" n="15"/>primo ponit periurij descriptionem. Secundo mouet
+      cir<lb ed="#G" n="16" break="no"/>ca periurium duplicem quaestionem, ibi, Hic quaeritur. Et 
+      <lb ed="#G" n="17"/>haec diuiditur in duas partes, secudum quod mouet duas 
+      <lb ed="#G" n="18"/>quaestiones. Secunda ibi, Cum vero quis iurati. Prima in 
+      <lb ed="#G" n="19"/>duas: nam primo de periurio mouet quaest. &amp; circa quesi 
+      <lb ed="#G" n="20"/>tum recitat duplicem opinionem, Secundo ponitsuam inten 
+      <lb ed="#G" n="21"/>tionem, ibi, Sed melius creditur. Sequitur illa pars, Cum 
+      <lb ed="#G" n="22"/>vero quis. Et diuiditur in duas partes, nam Magister
+      pri<lb ed="#G" n="23" break="no"/>mo mouet quaestionem, &amp; soluit. Secundo in contrarium 
+      <lb ed="#G" n="24"/>obiicit, &amp; obiectionem tollit, ibi; Hic opponitur. Sequi 
+      <lb ed="#G" n="25"/>tur illa pars, Si autem quaeritur vtrum. Et diuiditur in 
+      <lb ed="#G" n="26"/>duas partes: nam primo facit inquisitionem de
+      iuramen<lb ed="#G" n="27" break="no"/>tum faciente. Secundo de iuramentum exigente, ibi,
+      Quae<lb ed="#G" n="28" break="no"/>ritur etiam si peccat. Prima in tres partes: nam primo Ma 
+      <lb ed="#G" n="29"/>gister ostendit quando iurare sit licitum, &amp; quando
+      illici<lb ed="#G" n="30" break="no"/>tum. Secundo, ostendit quomodo, vel per quid sit
+      iuran<lb ed="#G" n="31" break="no"/>dum. Tertio, vtrum omne iuramentum sit implendum 
+      <lb ed="#G" n="32"/>Secunda ibi, Quaeritur etiam an liceat iurare Tertia, ibi 
+      <lb ed="#G" n="33"/>Nunc superest, Sequitur illa pars, Queritur etiam. vbi pri 
+      <lb ed="#G" n="34"/>mo ostenditur quomodo ab aliquo licite, vel illicite iura 
+      <lb ed="#G" n="35"/>mentum exigitur, Secundo, ex concilio Aurelian
+      deter<lb ed="#G" n="36" break="no"/>minatum tempus iurandi praefigitur, ibi, Sancta svnodus. 
+      <lb ed="#G" n="37"/>Sequitur dist. 40. &amp; vlt. istius tertij lib. in qua Magister 
+      <lb ed="#G" n="38"/>pertractat duo vltima mandata secundae tabulae, &amp; diuidi 
+      <lb ed="#G" n="39"/>tur in duas partes. Primo illorum duorum praeceptorum 
+      <lb ed="#G" n="40"/>facit expressionem. Secundo, de cuius lege haec sint praece 
+      <lb ed="#G" n="41"/>pta, mouet dubitationem, ibi, Si vero quaeritur. Prima in 
+      <lb ed="#G" n="42"/>tres: nam primo iam dicta duo praecepta exprimit. Secu 
+      <lb ed="#G" n="43"/>do in contrarium satis apparenter arguit. Tertio obiectio 
+      <lb ed="#G" n="44"/>nem argumenti soluit. Secunda ibi, sed videtur praeceptum. 
+      <lb ed="#G" n="45"/>Tertia ibi, Sed in illis duolius. Et haec in duas. Primo
+      pre<lb ed="#G" n="46" break="no"/>dicti argumenti ponit solutionem. Secundo mouet, &amp;
+      tol<lb ed="#G" n="47" break="no"/>lit ex illa solutione incidentem dubitationem, ibi, Sec 
+      <lb ed="#G" n="48"/>cum hic, Sequitur illa pars, Si vero. Quae diuiditur in tres. 
+      <lb ed="#G" n="49"/>Primo de legis vtilitare mouet quaestionem. Secundo, 
+      <lb ed="#G" n="50"/>inter legem, &amp; euangelium assignat distinctionem, ibi, Di 
+      <lb ed="#G" n="51"/>stat autem euangelij. Tertio dictorum de praeceptis facit 
+      <lb ed="#G" n="52"/>epilogationem. ibi, Audisti 1o corda. Et haec diuisio gent 
+      <lb ed="#G" n="53"/>ralis istarum duarum vltimarum dist. istius 3. lib sen.
+      Cir<lb ed="#G" n="54" break="no"/>ca quas in speciali quaero hanc quaestionem. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Circa textum</title>
+            <author ref="#ThomasStrasbourg">Thomas of Strasbourg</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Circa textum</title>
+               <date when="2020-11-26">November 26, 2020</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="G" n="cod-TxxqU">Genoa 1585</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2020-11-26" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#G" n="208-v"/>
+            <cb ed="#G" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="HuYgTa-159504"><!-- HuYgTa-l2d43et44ct1 -->
+            <head xml:id="HuYgTa-159504-Hd1e108">Circa textum</head>
+            <p xml:id="HuYgTa-159504-d1e111">
+      <!--455.xml-->
+               <pb ed="#G" n="208-v"/>
+               <cb ed="#G" n="a"/>
+               <lb ed="#G" n="1"/>DISTINCTIO XLIII ET XLIIII. 
+      <lb ed="#G" n="2"/>Absoluta harum distinctionum diuisio, in quibus,  
+      <lb ed="#G" n="3"/>tum de peccato in spiritum sanctum, tumi 
+      <lb ed="#G" n="4"/>de ortu potentia peccandi 
+      <lb ed="#G" n="5"/>
+               <pc type="indent"/>peragitur.
+    </p>
+            <p xml:id="HuYgTa-159504-d1e133">
+               <lb ed="#G" n="6"/>ST PRATEREA QVODD AM 
+      <lb ed="#G" n="7"/>genus peccati &amp;c. Postquam
+      Magi<lb ed="#G" n="8" break="no"/>ster determinauit generaliter de 
+      <lb ed="#G" n="9"/>communibus peccatis, hic incipit 
+      <lb ed="#G" n="10"/>tractare specialiter de quibusdam 
+      <lb ed="#G" n="11"/>culpis grauissimis, faciendo
+      men<lb ed="#G" n="12" break="no"/>tionem de peccatoribus in spiritum 
+      <lb ed="#G" n="13"/>sanctum peccantibus. Et diuiditur 
+      <lb ed="#G" n="14"/>in duas partes: nam primo considerat de huiusmodi
+      pec<lb ed="#G" n="15" break="no"/>catorum grauitate, ac irremissibilitate. Secundo determi 
+      <lb ed="#G" n="16"/>nat de peccandi potestate ibi, Post praedicta. Prima in
+      dua<lb ed="#G" n="17" break="no"/>nam primo de huiusmodi peccatis tractat penes quorun 
+      <lb ed="#G" n="18"/>dam doctorum assignationem. Secundo has culpas insi 
+      <lb ed="#G" n="19"/>nuat iuxta sanctorum determinationem, ibi, est etiam, &amp; 
+      <lb ed="#G" n="20"/>alia. Prima in tres: quia primo magister peccati in spiritum 
+      <lb ed="#G" n="21"/>sanctum innuit conditionem. Secundo inquirit eiusdem  
+      <lb ed="#G" n="22"/>distinctionem. Et tertio circa praedicta mouet vnam dubi 
+      <lb ed="#G" n="23"/>tationem. Secunda ibi, Sed quaeritur quid sit illud
+      pecca<lb ed="#G" n="24" break="no"/>tum. Tertia ibi, Sed quaeritur vtrum omnis. Et haec in duas 
+      <lb ed="#G" n="25"/>secundum quod primo Magister mouet questionem.
+      Se<lb ed="#G" n="26" break="no"/>cundo recitat circa eam duplicem opinionem, ibi, Quidam 
+      <lb ed="#G" n="27"/>dicunt &amp;c. Sequitur illa pars, est etiam &amp; alia &amp;c. In qua 
+      <lb ed="#G" n="28"/>Magister de praedictis peccatis tractat iuxta sanctorum de 
+      <lb ed="#G" n="29"/>terminationem. Et diuiditur in duas partes, secundum quod 
+      <lb ed="#G" n="30"/>primo Magister recitat sententiam Beati Aug. Secudo bea 
+      <lb ed="#G" n="31"/>ti <name xml:id="HuYgTa-159504-Nd1e191" ref="#Ambrose">Ambrosit.</name> Secunda ibi, De hoc quoque peccato. Tuns 
+      <lb ed="#G" n="32"/>sequitur illa pars, Post praedicta, quae est principium
+      vlti<lb ed="#G" n="33" break="no"/>mae distinctionis istius secundi libri. Et diuiditur in duas 
+      <lb ed="#G" n="34"/>partes: quia primo Magister tractat de potentia peccandi 
+      <lb ed="#G" n="35"/>becundo incidenter determinat de potentia dominandi 
+      <lb ed="#G" n="36"/>ibi, Hic oritur quaestio. Prima in tres, quia primo de
+      cau<lb ed="#G" n="37" break="no"/>sa, a qua habet esse potentia peccandi, mouet quaestionem 
+      <lb ed="#G" n="38"/>Secundo recitat circa hoc minus veram opinionem. Ei 
+      <lb ed="#G" n="39"/>tertio applicat suam determinationem. Secunda ibi, Qu 
+      <lb ed="#G" n="40"/>dam putant &amp;c. Tertia ibi, Sed pluribus sanctorum. Tuni 
+      <lb ed="#G" n="41"/>sequitur illa pars. Hie oritur quaestio. Et diuiditur in tres 
+      <lb ed="#G" n="42"/>partes, nam primo Magister mouet vnam questionem. Se 
+      <lb ed="#G" n="43"/>cundo ex illius quaestionis solutione tractandi de
+      poten<lb ed="#G" n="44" break="no"/>tia dominandi accipit occasionem Et tertio dictorum in 
+      <lb ed="#G" n="45"/>isto secundo libro ad dicenda in tertio facit
+      continuatio<lb ed="#G" n="46" break="no"/>nem. Secunda ibi, sed sciedum est Apostolum. Tertia, ib 
+      <lb ed="#G" n="47"/>lam nunc his. Circa has duas vltimas distinctiones istius 
+      <lb ed="#G" n="48"/>secundilibri quaero hanc quaestionem. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,925 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#ThomasStrasbourg">Thomas of Strasbourg</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2020-11-26">November 26, 2020</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="G" n="cod-TxxqU">Genoa 1585</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2020-11-26" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#G" n="P2_186-r"/>
+            <cb ed="#G" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="HuYgTa-300313"><!-- HuYgTa-l4d46q1 -->
+            <head xml:id="HuYgTa-300313-Hd1e108">Quaestio 1</head>
+            <head xml:id="HuYgTa-300313-Hd1e111" type="question-title">An misericordia et iustitia reperiantur. 
+    in Deo.</head>
+            <p xml:id="HuYgTa-300313-d1e114">
+               <lb ed="#G" n="112"/>
+               <pc type="indent"/>Quaestio.  1. 
+      <lb ed="#G" n="113"/>An misericordia &amp; iustitia reperiantur. 
+      <lb ed="#G" n="114"/>in Deo.
+    </p>
+            <p xml:id="HuYgTa-300313-d1e125">
+               <lb ed="#G" n="115"/>TRVM in Deo sit misericordia, &amp; iusti 
+      <lb ed="#G" n="116"/>tia.
+    </p>
+            <p xml:id="HuYgTa-300313-d1e132">
+      &amp; videtur quod
+      non<lb ed="#G" n="117" break="no"/>Quia in Deo nihil potest esse frustra: es 
+      <lb ed="#G" n="118"/>go in Deo non potest esse aliqua virtusi 
+      <lb ed="#G" n="119"/>moralis. Antecedens est notum, quia cum 
+      <lb ed="#G" n="120"/>i Deus sit purum necesse esse, &amp; princeps 
+      <lb ed="#G" n="121"/>summus, ad quem omnia alia ordinantur, vt patet <ref xml:id="HuYgTa-300313-Rd1e145">12. met.</ref> 
+               <lb ed="#G" n="122"/>igitur impossibile est quod aliquid frustra sit in ipso Deo.
+      C<lb ed="#G" n="123" break="no"/>sequentia etiam patet, quia quando potentia ex se est suffi 
+      <lb ed="#G" n="124"/>cienter determinata ad hoc, vt prompte delectabiliten 
+      <lb ed="#G" n="125"/>&amp; expedite eliciat actu iustitiae, &amp; misericordiae, tunc
+      fru<lb ed="#G" n="126" break="no"/>stra in tali potentia poneretur virtus iustitie, &amp; misericor 
+      <lb ed="#G" n="127"/>dic. Sed potentia diuina est ex se sufficientissime determi 
+      <lb ed="#G" n="128"/>nata ad hoc, quod prompte delectabiliter, &amp; expedite eli 
+      <lb ed="#G" n="129"/>ciat actum institiae, &amp; misericordigeergo &amp;c. Minor patet,  
+      <lb ed="#G" n="130"/>quia si determinatur diuina potentia ad prompte &amp;c vel 
+      <lb ed="#G" n="131"/>determinatur ex se, vel ex aliquo alio. Si primo modo 
+      <!--843.xml-->
+      <pb ed="#G" n="P2_186-v"/>
+               <cb ed="#G" n="a"/>
+               <lb ed="#G" n="1"/>tunc habetur propositum. Si secudo modo, tunc vel illuc 
+      <lb ed="#G" n="2"/>
+               <pc type="indent"/>est in Deo, &amp; sic Deus esset vere compositus, &amp; non esset 
+      <lb ed="#G" n="3"/>purus actus, cuius oppositum patet <ref xml:id="HuYgTa-300313-Rd1e185">12. metaph</ref> vel illud 
+      <lb ed="#G" n="4"/>aliud esset extra Deum, &amp; sic Deus depederet ab aliquo 
+      <lb ed="#G" n="5"/>extra se existente, &amp; per consequens, ipse non esset
+      prim<lb ed="#G" n="6" break="no"/>ceps independes, a quo totum vniuersum noscitur depen 
+      <lb ed="#G" n="7"/>dere: cuius oppositum similiter patet eodem <ref xml:id="HuYgTa-300313-Rd1e196">12: metaph¬</ref> 
+               <lb ed="#G" n="8"/>Probatur etiam maior, quia cum habitus non requiritur 
+      <lb ed="#G" n="9"/>ad substantiam actus, vt tactum est <ref xml:id="HuYgTa-300313-Rd1e204">lib. 3. dist. 25. arnc. 3.</ref> 
+               <lb ed="#G" n="10"/>sequitur, quod solum requiratur ad determinandum po 
+      <lb ed="#G" n="11"/>tentiam modo praedicto. Contrarium patet in multis lo 
+      <lb ed="#G" n="12"/>cis sacrae scripturae, in quibus fit mentio de iustitia, &amp; mi- 
+      <lb ed="#G" n="13"/>sericordia Dei Hic primo videndum est de iustitia Dei 
+      <lb ed="#G" n="14"/>secundum se. Secundo de eius misericordia. Tertio de di 
+      <lb ed="#G" n="15"/>stinctione vnius ab altera. Et quarto, vtrum in oini Dei 
+      <lb ed="#G" n="16"/>opere sit misericordia, &amp; iustitia, 
+    </p>
+            <p xml:id="HuYgTa-300313-d1e224">
+               <lb ed="#G" n="17"/>
+               <pc type="indent"/>RESOLVTI O. 
+      <lb ed="#G" n="18"/>Ted alis quidem iustitia Deo minixie congruit, diffributiita vero, 
+      <lb ed="#G" n="19"/>Perinde vt misericordia, est sibi maxime propria: commut atiua al 
+      <lb ed="#G" n="20"/>tem, &amp; si non vsqeadeo proprie quoquo pacto tamen sibi
+      aseri<lb ed="#G" n="21" break="no"/>bitur, quae sant perfectiones in Deo haud realiter differunt 
+      <lb ed="#G" n="22"/>quamuts in eius earum vtraque operatione lemper concurrat,  
+      <lb ed="#G" n="23"/>nee altera ab altera vmquam in opere separetur. 
+    </p>
+            <p xml:id="HuYgTa-300313-d1e244">
+               <lb ed="#G" n="24"/>
+               <pc type="indent"/>ARTICVLVS 1 
+      <lb ed="#G" n="25"/>
+               <pc type="indent"/>De iustitia Dei secundum se.
+    </p>
+            <p xml:id="HuYgTa-300313-d1e255">
+               <lb ed="#G" n="26"/>VANTVM ad primum est eduertendum, quod
+      se<lb ed="#G" n="27" break="no"/>cundum philosophum s. etihic. duplex est
+      iusti<lb ed="#G" n="28" break="no"/>tia scilicet legalis, &amp; aequalis. Et ibidem aequalis
+      subdiui<lb ed="#G" n="29" break="no"/>ditur in iustitiam distributiuam, &amp; iustitiam,
+      commutati<lb ed="#G" n="30" break="no"/>nam. Et secundum hoc pono tres conclusiones 
+    </p>
+            <p xml:id="HuYgTa-300313-d1e268">
+               <lb ed="#G" n="31"/>
+               <pc type="indent"/>Prima est, quod iustitia legalis non conuenit ipsi Deo. 
+      <lb ed="#G" n="32"/>Quia sicut patet s, ethic. iustitia legalis dicitur virtus vn 
+      <lb ed="#G" n="33"/>uersalis, eo, quod virtuosus secundum hanc virtutem ex;i 
+      <lb ed="#G" n="34"/>quatur iuxta suam possibilitatem opus cuiuslibet
+      virtu<lb ed="#G" n="35" break="no"/>tis: non propter alium finem, nisi vt satisscaiat praecepto 
+      <lb ed="#G" n="36"/>&amp; voluntati ipsius legislatoris, huiusmodi virtutum
+      ope<lb ed="#G" n="37" break="no"/>ra praecipientis: Sed Deus non habet aliquem principem 
+      <lb ed="#G" n="38"/>vel legislatorem super se, cuius praecepto in faciendis vit 
+      <lb ed="#G" n="39"/>tutum operibus ipse debeat satisfacere, vel eius volunta 
+      <lb ed="#G" n="40"/>ti complacere: igitur &amp;c. 
+    </p>
+            <p xml:id="HuYgTa-300313-d1e294">
+               <lb ed="#G" n="41"/>
+               <pc type="indent"/>Forte dicetur, praeclarissima virtutum videtur proprie 
+      <lb ed="#G" n="42"/>Deo conuenire: Sed iustitia elgalis est preclarissima
+      vir<lb ed="#G" n="43" break="no"/>tutum: ergo &amp;c. Maior patet, quia cum aliqua virtus con 
+      <lb ed="#G" n="44"/>ueniat ipsi Deo, igitur propter eius summam claritaten 
+      <lb ed="#G" n="45"/>praeclarissima virtutum sibi videtur necessario conuenire 
+      <lb ed="#G" n="46"/>Minor etiam patet ex 5. ethic, vbi dicitur, quod iustitia le 
+      <lb ed="#G" n="47"/>galis est praeclarissima virtutum, &amp; neque Hesperus, ne 
+      <lb ed="#G" n="48"/>que Fucifer ita admirabilis. Et ibidem dicitur de ista
+      le<lb ed="#G" n="49" break="no"/>gali iustitia, quod non est pars virtutis, sed est tota
+      vir<lb ed="#G" n="50" break="no"/>tus, sicut contraria iniustitia non est pars malitiae, sed est 
+      <lb ed="#G" n="51"/>tota malitia, 
+    </p>
+            <p xml:id="HuYgTa-300313-d1e323">
+               <lb ed="#G" n="52"/>
+               <pc type="indent"/>Respondeo, quod maior non est vera, supposito, quod 
+      <lb ed="#G" n="53"/>talis virtus, quae dicitur praeclarissima, concernat in eo, in 
+      <lb ed="#G" n="54"/>quo habet esse conditionem, repugnantem ipsi Deo: Si 
+      <lb ed="#G" n="55"/>autem est in proposito: quia de ratione eius, qui dicitur 
+      <lb ed="#G" n="56"/>iustus legalis, est, quod habeat principem, &amp; legislatorem 
+      <lb ed="#G" n="57"/>supra se, vt patuit ex iam dictis:igitur Deus, qui est summus 
+      <lb ed="#G" n="58"/>princeps, a quo omnis principatus dependet in coelo, &amp; in 
+      <lb ed="#G" n="59"/>terra, non potest vere dici iustus legalis. Ad probationem, 
+      <lb ed="#G" n="60"/>nego consequentiam, quia istius virturis praeclaritas
+      de<lb ed="#G" n="61" break="no"/>terminat tale sibi subiectu, quod recognoscit se habere di 
+      <lb ed="#G" n="62"/>minum, &amp; legislatorem supra se, cui desiderans obtempo 
+      <lb ed="#G" n="63"/>rare, &amp; complacere, implet omnia legis mandata,
+      exerci<lb ed="#G" n="64" break="no"/>tando se in operibus virtuosis: propter quod licet ista vin 
+      <lb ed="#G" n="65"/>tus sit praeclarissima in subdito, tamen si per impossibile 
+      <lb ed="#G" n="66"/>ratio istius virtutis in Deo poneretur, nullam in eo habi 
+      <lb ed="#G" n="67"/>ret praeclaritatem, sed magis derogaret excellentiae diui¬ 
+      <!--843.xml-->
+      <cb ed="#G" n="b"/>
+               <lb ed="#G" n="68"/>sae praeclaritatis, quae nullius alterius principis legibus di 
+      <lb ed="#G" n="69"/>gnoscitur subiacere. 
+    </p>
+            <p xml:id="HuYgTa-300313-d1e372">
+               <lb ed="#G" n="70"/>
+               <pc type="indent"/>Conclusio secunda est, quod iustitia distributiua
+      pro<lb ed="#G" n="71" break="no"/>prie conuenit ipsi Deo.  
+    </p>
+            <p xml:id="HuYgTa-300313-d1e381">
+               <lb ed="#G" n="72"/>1 Quia quicunque distribuenda pluribus sic distribuit,  
+      <lb ed="#G" n="73"/>quod vnicuique tribuit secundum proportionem suae ca 
+      <lb ed="#G" n="74"/>pacitatis, &amp; exigentiae, illi proprie conuenit virtus iustitia 
+      <lb ed="#G" n="75"/>distributiuae: Sed tam in naturalibus, quam in moralibus 
+      <lb ed="#G" n="76"/>Deus distribuenda creaturis sic distribuit, quod vnicuique 
+      <lb ed="#G" n="77"/>tribuit secundum proportionem suae capacita tis, &amp;
+      exi<lb ed="#G" n="78" break="no"/>gentiae, prut fide tenemus, &amp; etiam multi philosophorum 
+      <lb ed="#G" n="79"/>confitentur: ergo &amp;c. Maior patet, quia propria ratio iusti 
+      <lb ed="#G" n="80"/>tiae distributiuae consistit in obseruantia aequalitatis iuxta 
+      <lb ed="#G" n="81"/>proportionem recipientium. Vnde non oportet, quod iu 
+      <lb ed="#G" n="82"/>stus distributor omnibus, quibus tribuit, simpliciter aequa 
+      <lb ed="#G" n="83"/>liter tribuat, sed requiritur, quod vni plus, &amp; alteri minus 
+      <lb ed="#G" n="84"/>tribuat de praemio, vel de poena, vt sic quilibet recipiar 
+      <lb ed="#G" n="85"/>iuxta gradum sui meriti, vel demeriti; &amp; in hoc seruatur 
+      <lb ed="#G" n="86"/>aequalitas proportionis, quae est de ratione iustitiae
+      di<lb ed="#G" n="87" break="no"/>stributiuae.
+    </p>
+            <p xml:id="HuYgTa-300313-d1e418">
+               <lb ed="#G" n="88"/>2 Praeterea, nullus potest esse perfectus rector, veliu 
+      <lb ed="#G" n="89"/>dex multorum, absque iustitia distributiua: Sed Deus est 
+      <lb ed="#G" n="90"/>perfectus rector, &amp; iudex vniuersorum: ergo &amp;c. 
+    </p>
+            <p xml:id="HuYgTa-300313-d1e427">
+               <lb ed="#G" n="91"/>
+               <pc type="indent"/>Sed contra istam conclusionem, &amp; eius motiua, est op 
+      <lb ed="#G" n="92"/>nio aliquorum philolophorum, negantium ipsum Deum 
+      <lb ed="#G" n="93"/>esse rectorem, vel iudicem eorum, quae sunt extra
+    </p>
+            <p xml:id="HuYgTa-300313-d1e438">
+      se<lb ed="#G" n="94" break="no"/>1 Quia Deus nihil cognoscit extra se: ergo nihil
+      re<lb ed="#G" n="95" break="no"/>git, vel iudicat eorum, quae sunt extra se Consequentia
+      pa<lb ed="#G" n="96" break="no"/>tet, quia actus regendi, &amp; iudicandi, praesupponit actum 
+      <lb ed="#G" n="97"/>cognoscendi: Propter quod dicitur t ethic. Vnusquisque 
+      <lb ed="#G" n="98"/>udicat bene, quae cognoscit, &amp; eorum est bonus iudex 
+      <lb ed="#G" n="99"/>Et sequitur ibidem: Secundum ergo vnumquodque in 
+      <lb ed="#G" n="100"/>vnoquoque iudicat bene eruditus. Antecedens probant 
+      <lb ed="#G" n="101"/>multis rationibus, quas adduxi libro primo, dist. 35. artic,  
+      <lb ed="#G" n="102"/>2. Et eodem modo probatur, quod iustitia distributiua no 
+      <lb ed="#G" n="103"/>sit in Deo, quia omnis ille, qui iuste distribuit, cognoscit 
+      <lb ed="#G" n="104"/>ea, quibus distribuit: Sed Deus &amp;c.
+    </p>
+            <p xml:id="HuYgTa-300313-d1e464">
+               <lb ed="#G" n="105"/>2 Praeterea, nulla virtus moralis est in Deo: ergo nec 
+      <lb ed="#G" n="106"/>iustitia distributiua, Consequentia patet, quia distributis 
+      <lb ed="#G" n="107"/>ua iustitia est virtus moralis, vt patet 5. ethic. Antecedens 
+      <lb ed="#G" n="108"/>habetur ab Arist. 10 ethicevbi ait, quod ridiculum est lau 
+      <lb ed="#G" n="109"/>dare Deos, secundum aliquam virtutem moralem; vel 
+      <lb ed="#G" n="110"/>aliquam actionem moralis virtutis eis attribuere. 
+      <lb ed="#G" n="111"/>3 Praeterea, nullus permittens fieri mala, quae si vull 
+      <lb ed="#G" n="112"/>potest impedire, est iustus iustitia distributiua, seu
+      guber<lb ed="#G" n="113" break="no"/>natiua: Sed Deus permittit mala fieri, quae, si vellet, posi 
+      <lb ed="#G" n="114"/>set minimo nutu voluntatis sue impedire, ne fierent: er- 
+      <lb ed="#G" n="115"/>go &amp;c. Maior patet, quia in illo deficit iusta gubernatio 
+      <lb ed="#G" n="116"/>qui in gubernatis per ipsum non prohibet omne malum, 
+      <lb ed="#G" n="117"/>quod sine difficultate potest prohibere. Minor etiam
+      pa<lb ed="#G" n="118" break="no"/>tet, quia si datur oppositum, tunc Dei voluntas non esset 
+      <lb ed="#G" n="119"/>omnipotens 
+    </p>
+            <p xml:id="HuYgTa-300313-d1e500">
+               <lb ed="#G" n="120"/>4 Praeterea, non omnia gubernata per Deum sunt
+      iu<lb ed="#G" n="121" break="no"/>sta: ergo Deus non est iustus. Antecedens patet, quia sicut  
+      <lb ed="#G" n="122"/>praedictum est, Deus gubernat omnia: ergo non solum
+      iu<lb ed="#G" n="123" break="no"/>sta, verum etiam iniusta gubernat. Probatio consequen 
+      <lb ed="#G" n="124"/>tiae: nam sicut quia Deus est bonus in creando, ideo omne, 
+      <lb ed="#G" n="125"/>quod ab eo creatur, est bonum; sic si esset iustus in gubes 
+      <lb ed="#G" n="126"/>nando, omne, quod ab eo gubernaretur, esset iustum. 
+      <lb ed="#G" n="127"/>Sed ista non concludunt, eo quod scriptura veritatis 
+      <lb ed="#G" n="128"/>dicat ipsi Deo, Psal. 118. lustus es domine, &amp; rectum iudi 
+      <lb ed="#G" n="129"/>cium tuum. Et ibidem, lustitia tua, iustitia in aeternum, &amp; 
+      <lb ed="#G" n="130"/>lex tua veritas, 
+    </p>
+            <p xml:id="HuYgTa-300313-d1e526">
+               <lb ed="#G" n="131"/>
+               <pc type="indent"/>Ad primum, nego antecedens. Ad probationes
+      dicen<lb ed="#G" n="132" break="no"/>dum, quod sicut in primo lib adductae sunt illae
+      probatio<lb ed="#G" n="133" break="no"/>nes, sic ibidem respondi ad eas 
+    </p>
+            <p xml:id="HuYgTa-300313-d1e537">
+               <lb ed="#G" n="134"/>
+               <pc type="indent"/>Ad secundum, nego antecedens, quia quicquid dicit  
+      <lb ed="#G" n="135"/>perfectionem, hoc ponendum est in Deo, &amp; hoc vel
+      forma<lb ed="#G" n="136" break="no"/>liter, si dicit perfectionem simpliciter, vel eminenter, q&amp; 
+      <lb ed="#G" n="137"/>uperaequipollenter. Alias Deus non esset perfectus omni 
+      <lb ed="#G" n="138"/>perfectione, cuius oppositum patet s. meta. Sed quaelibet 
+      <lb ed="#G" n="139"/>virtus moralis aliquo modo dicit perfectionem: ergo
+      ali<lb ed="#G" n="140" break="no"/>quo modo conuenit ipsi Deo. Ad probationem dicendum 
+      <!--844.xml-->
+      <pb ed="#G" n="P2_187-r"/>
+               <cb ed="#G" n="a"/>
+               <lb ed="#G" n="1"/>qu accipiendo Deos, pro idolis, quae gentes adorauerunt 
+      <lb ed="#G" n="2"/>tempore Aristotelis, tuc Aristoteles verum dicit, quia hu 
+      <lb ed="#G" n="3"/>iusmodi idola non fuerunt laudanda, sed magis
+      vituperam<lb ed="#G" n="4" break="no"/>da. Quia &amp; si demones per talia idola loquentes, quando 
+      <lb ed="#G" n="5"/>que simularent aliquem actum virtutis, tamen omni virti 
+      <lb ed="#G" n="6"/>te penitus caruerunt, &amp; vitiis pleni fuerunt; Et tunc
+      ver<lb ed="#G" n="7" break="no"/>ba Aristotelis non sunt ad propositum, quia nos hic loqu 
+      <lb ed="#G" n="8"/>mur de vero Deo, qui est omnium creator, &amp; gubernator 
+      <lb ed="#G" n="9"/>a quo iustitia distributiua nullatenus est neganda 
+    </p>
+            <p xml:id="HuYgTa-300313-d1e583">
+               <lb ed="#G" n="10"/>
+               <pc type="indent"/>Ad tertium dicendum, quod maior non est vera, si permit 
+      <lb ed="#G" n="11"/>tens fuerit talis, quod de huiusmodi malis, quae permitti 
+      <lb ed="#G" n="12"/>scit, &amp; potest magna bona elicere, &amp; etiam in
+      permitten<lb ed="#G" n="13" break="no"/>do, non facit contra aliquam legem, eo, quod ipse non subsit 
+      <lb ed="#G" n="14"/>alicui legi. Sic autem est in proposito: quia secundum Au 
+      <lb ed="#G" n="15"/>gustinum in enchiridion, Deus non permitteret aliqua 
+      <lb ed="#G" n="16"/>mala fieri, nisi sic esset omnipotens, quod sciret bona elice 
+      <lb ed="#G" n="17"/>re de huiusmodi malis. Etiam ipse non subest alicui
+      le<lb ed="#G" n="18" break="no"/>gi, sicut patet ex praedictis. 
+    </p>
+            <p xml:id="HuYgTa-300313-d1e607">
+               <lb ed="#G" n="19"/>
+               <pc type="indent"/>Ad quartum, nego consequentiam. Ad probationem re 
+      <lb ed="#G" n="20"/>spondet Doet hius inilibu de hebdomadibus dicens, quod non 
+      <lb ed="#G" n="21"/>est simile de bono, &amp; iusto: quia bonum dicit conditionem 
+      <lb ed="#G" n="22"/>generalem omni effectui ipsius Dei communicabilem. Sed  
+      <lb ed="#G" n="23"/>iustum dicit conditionem specialem. Et ideo sicut non es 
+      <lb ed="#G" n="24"/>set bonum argumentum, lapis, qui est effectus Dei, non esi 
+      <lb ed="#G" n="25"/>sapiens: ergo Deus non est sabiens, sic in proposito &amp;c 
+    </p>
+            <p xml:id="HuYgTa-300313-d1e627">
+               <lb ed="#G" n="26"/>
+               <pc type="indent"/>Conclusio tertia est, quod iustitia commutatiua, quamui 
+      <lb ed="#G" n="27"/>non proprie, tamen aliquo modo vere conuenit ipsi Deo. 
+    </p>
+            <p xml:id="HuYgTa-300313-d1e637">
+               <lb ed="#G" n="28"/>
+               <pc type="indent"/>quia quicunque recipit aliquid ab aliquo, &amp; secundum 
+      <lb ed="#G" n="29"/>dictamen rectae rationis reddit aequiualens, vel saltem non 
+      <lb ed="#G" n="30"/>minus valens, ille videtur esse iustus iustitia
+      commutati<lb ed="#G" n="31" break="no"/>ua, quam alio nomine Aristoteles appellat iustitiam diri 
+      <lb ed="#G" n="32"/>ctiuam: eo, quod ista iustitia dirigat recipientem, &amp; reddentem, 
+      <lb ed="#G" n="33"/>uit in suis commutationibus, &amp; contractibus seruent aequa 
+      <lb ed="#G" n="34"/>litatem. Sed Deus aliquid recipit ab hominibus, &amp; non 
+      <lb ed="#G" n="35"/>minus reddit de bono, quam recipiat: ergo &amp;c. Maior pa 
+      <lb ed="#G" n="36"/>tet ex dictis Aristotelis, &amp; Tulij, &amp; multorum aliorum phi 
+      <lb ed="#G" n="37"/>lolophorum loquentium de iustitia commutatiua, siue di 
+      <lb ed="#G" n="38"/>rectiua. Minor etiam patet, quia Deus acceptat, &amp; per cor 
+      <lb ed="#G" n="39"/>sequens aliquo modo recipit ea, quae ad honorem ipsius 
+      <lb ed="#G" n="40"/>facimus, &amp; quod pro ipso patiamur, &amp; pro labore, dat re 
+      <lb ed="#G" n="41"/>quiem, pro afflictione, delectationem, pro tristitia, gaudium 
+      <lb ed="#G" n="42"/>&amp; vniuersaliter pro merito, premium; &amp; pro demerito, po 
+      <lb ed="#G" n="43"/>nam, &amp; su plicium 
+    </p>
+            <p xml:id="HuYgTa-300313-d1e676">
+               <lb ed="#G" n="44"/>
+               <pc type="indent"/>Sed contra istam conclusionem est quaedam opinio, quae 
+      <lb ed="#G" n="45"/>ponit, quod iustitia commutatiua nullo modo conuenit 
+      <lb ed="#G" n="46"/>ipsi Deo, quamuis sibi vere, &amp; proprie conueniat iustitia 
+      <lb ed="#G" n="47"/>distributiua 
+    </p>
+            <p xml:id="HuYgTa-300313-d1e689">
+               <lb ed="#G" n="48"/>1 Quia rustitia commutatiua consistit in emptionibus 
+      <lb ed="#G" n="49"/>&amp; venditionibus Sed emptio, &amp; venditio, non possunt at 
+      <lb ed="#G" n="50"/>tendi inter Deum, &amp; creaturam. 
+    </p>
+            <p xml:id="HuYgTa-300313-d1e698">
+               <lb ed="#G" n="51"/>
+               <pc type="indent"/>Praeterea, iustitia commutatiua obligat iustum ac 
+      <lb ed="#G" n="52"/>reddendum debitum. Sed Deus non tenetur aliquid ex 
+      <lb ed="#G" n="53"/>debito alicui creaturae: ergo &amp;c. 
+    </p>
+            <p xml:id="HuYgTa-300313-d1e709">
+               <lb ed="#G" n="54"/>
+               <pc type="indent"/>Preterea, iustitia commutatiua non potest esse inter 
+      <lb ed="#G" n="55"/>dominum, &amp; seruum vt patet s. ethic. Sed Deus est uerus 
+      <lb ed="#G" n="56"/>dominus omnis creaturae.
+    </p>
+            <p xml:id="HuYgTa-300313-d1e720">
+               <lb ed="#G" n="57"/>4 Praeterea, iustitia commutatiua semper in quadam 
+      <lb ed="#G" n="58"/>aequalitate consistit. Sed inter Deum, &amp; creaturam nulla 
+      <lb ed="#G" n="59"/>potest esse aequalitas. Maior patet: quia, sicut iam dictum 
+      <lb ed="#G" n="60"/>est, ista iustitia dirigit ad seruandam aequalitate. Minor est 
+      <lb ed="#G" n="61"/>patet. Quia inter finitum, &amp; infinitum, non potest esse
+      ae<lb ed="#G" n="62" break="no"/>qualitas. Sed Deus est infinitus, &amp; omnis creatura finita 
+      <lb ed="#G" n="63"/>3 Praeterea, si iustitia commutatiua conueniret Deo in 
+      <lb ed="#G" n="64"/>praemiando, vel puniendo hominem, tunc Deus de neces 
+      <lb ed="#G" n="65"/>sitate praemiaret, vel puniret hominem. Consequens est 
+      <lb ed="#G" n="66"/>falsum, quia omne, quod Deus operatur ad extra, hoc libe 
+      <lb ed="#G" n="67"/>re operatur, vt declaraui lib. 2. dist. 1. Probatio
+      consequen<lb ed="#G" n="68" break="no"/>tiae. quia quicunque non facit illud, ad quod tenetur ex iu 
+      <lb ed="#G" n="69"/>stitia commutatiua, ille est iniustus. Sed impossibile est 
+      <lb ed="#G" n="70"/>Deum esse iniustum: ergo si Deus ex iustitia
+      commutati<lb ed="#G" n="71" break="no"/>sa teneretur praemiare aliquem hominem, tunc
+      impossi<lb ed="#G" n="72" break="no"/>bile esset Deum non praemiare talem hominem, &amp; per 
+      <lb ed="#G" n="73"/>consequens necesse esset Deum praemiare huiusmodi ho 
+      <!--844.xml-->
+      <cb ed="#G" n="b"/>
+               <lb ed="#G" n="74"/>minem, quia impossibile non esse, &amp; necesse esse aequipol 
+      <lb ed="#G" n="75"/>let i quarto ordine modaliui, vt apparet 2 perihermenias 
+    </p>
+            <p xml:id="HuYgTa-300313-d1e769">
+               <lb ed="#G" n="76"/>
+               <pc type="indent"/>Sed salua reuerentia istorum doctorum, ista non conclu 
+      <lb ed="#G" n="77"/>dunt. Quia iustitia distributiua praesupponit iustitiam
+      con<lb ed="#G" n="78" break="no"/>mutatiuam. Sed isti doctores dicunt Deo proprie conue 
+      <lb ed="#G" n="79"/>nire iustitiam distributiuam, ergo necessatio habent
+      con<lb ed="#G" n="80" break="no"/>cedere, quod Deo aliquo modo conueniat iustitia
+      com<lb ed="#G" n="81" break="no"/>mutatiua. Maiorem probo: quia etiam, secudum istos, per 
+      <lb ed="#G" n="82"/>iustitiam commutatiuam iustus disponitur, &amp; ordinatur. 
+      <lb ed="#G" n="83"/>seu inclinatur, vt aequalitatem seruet in reddendo illi, a 
+      <lb ed="#G" n="84"/>quo recepit. Sed sine huiusmodi dispositone nullus
+      po<lb ed="#G" n="85" break="no"/>test esse iustus distributor. Sicut enim ad hoc, quod iuste 
+      <lb ed="#G" n="86"/>distribuat, necesse est eum habere prudentiam, qua cogno 
+      <lb ed="#G" n="87"/>scat, quid cui debeat tribuere; sic ad hoc, quod sit iustus di 
+      <lb ed="#G" n="88"/>stributor, necesse est, que intrinsece taliter sit affectus, &amp;
+      in<lb ed="#G" n="89" break="no"/>clinatus, seu dispositus, vt quantum ab isto recepit
+      serui<lb ed="#G" n="90" break="no"/>tium, tantum vel saltem non minus sibi largiatur premiu 
+      <lb ed="#G" n="91"/>Ad primum igitur dicendum, quod minor non est ve 
+      <lb ed="#G" n="92"/>ra, quia regnum coelorum Deus quodammodo vendit, &amp; 
+      <lb ed="#G" n="93"/>homo temporali eleemosvna quodammodo emit illud 
+      <lb ed="#G" n="94"/>sicut patet in Euang. vbi ait Christus ad quendam
+      iuue<lb ed="#G" n="95" break="no"/>nem, Vade, &amp; vende omnia, quae habes, &amp; da pauperibus,  
+      <lb ed="#G" n="96"/>&amp; habebis thesaurum in coelis. Et eodem c. de hac
+      vendi<lb ed="#G" n="97" break="no"/>tione inquirens Beatus Petrus mouet quaestionem domi 
+      <lb ed="#G" n="98"/>no Iesu Christo, dicens, Ecce nos reliquimus omnia, &amp; 
+      <lb ed="#G" n="99"/>secuti sumus te, quid ergo erit nobis: Cui inquisitioni 
+      <lb ed="#G" n="100"/>respondens Christus, ait, Omnis, qui reliquerit domum, 
+      <lb ed="#G" n="101"/>vel fratres, vel sorores, aut patrem, aut matrem, aut
+      vxo<lb ed="#G" n="102" break="no"/>rem, aut filios, aut agros, propter nomen meum,
+      centu<lb ed="#G" n="103" break="no"/>plum accipiet, &amp; vitam aeternam possidebit. Et super 
+      <lb ed="#G" n="104"/>eodem verbo ait Gregorius in Homelia, Regnum
+      coelo<lb ed="#G" n="105" break="no"/>rum tantum valet, quantum habes. Vnde ad huiusmodi 
+      <lb ed="#G" n="106"/>emptionem hortatur Christus quemlibet nostrum,
+      di<lb ed="#G" n="107" break="no"/>tens, Suadeo tibi emere a me aurum ignitum. Vbi per 
+      <lb ed="#G" n="108"/>istud autum intelligitur regnum celorum1 Quod enim 
+      <lb ed="#G" n="109"/>operibus misericordiae quodammodo ematur regnum con 
+      <lb ed="#G" n="110"/>lorum a domino lesu Christo, patet etiam Matth. 25. ubi ad 
+      <lb ed="#G" n="111"/>eos, qui huiusmodi opera exercuerunt,i ait Christus, veni 
+      <lb ed="#G" n="112"/>te benedicti patris mei, percipite regnum. Et subdit
+      cau<lb ed="#G" n="113" break="no"/>sam, dicens, Esuriui enim, &amp; dedistis mihi manducare, siti 
+      <lb ed="#G" n="114"/>ui, &amp; dedistis mihi bibere, hospes eram &amp;c. 
+      <lb ed="#G" n="115"/>Ad secundum dicendum, quod licet, absolute loquendo 
+      <lb ed="#G" n="116"/>minor sit vera, tamen ex suppositione promissionis
+      fa<lb ed="#G" n="117" break="no"/>ctae ab ipso Deo, ipse potest effici debitor creature. Quod 
+      <lb ed="#G" n="118"/>antem promiserit vitam aeternam hominibus virtuosis,  
+      <lb ed="#G" n="119"/>sua propter Christum relinquentibus, patet ex responsio 
+      <lb ed="#G" n="120"/>ne data geato Petro in praecedente solutione. Vnde istud 
+      <lb ed="#G" n="121"/>debitum attendens Apostolus ait, De reliquo reposita 
+      <lb ed="#G" n="122"/>est mihi corona iustitiae, quam reddet mihi in illum dien 
+      <lb ed="#G" n="123"/>iustus iudex, non solum autem mihi: sed &amp; his, qui
+      dili<lb ed="#G" n="124" break="no"/>gunt aduentum eius. 
+    </p>
+            <p xml:id="HuYgTa-300313-d1e880">
+               <lb ed="#G" n="125"/>
+               <pc type="indent"/>Ad tertium dicendum, quod licet maior sit vera,
+      con<lb ed="#G" n="126" break="no"/>siderato domino, vt dominus est serui, tamen non est
+      ve<lb ed="#G" n="127" break="no"/>ra, vt amicus est: Sed Deus sic est dominus electorum, quod 
+      <lb ed="#G" n="128"/>etiam est dilectissimus amicus eorum. Etiam ficut
+      ratio<lb ed="#G" n="129" break="no"/>ne promissi dominus potest effici debitor serui, sic inter 
+      <lb ed="#G" n="130"/>ueniente promisso inter dommum, &amp; seruum, potest esse 
+      <lb ed="#G" n="131"/>iustitia commutatiua.
+    </p>
+            <p xml:id="HuYgTa-300313-d1e900">
+               <lb ed="#G" n="132"/>Ad quartum, dicendum ad minorem, quod licet inter 
+      <lb ed="#G" n="133"/>Deum, &amp; creaturam, non sit aequalitas, tamen inter iliud 
+      <lb ed="#G" n="134"/>quod creatura impendit ipsi Deo, &amp; quod Deus reddit 
+      <lb ed="#G" n="135"/>creaturae, est talis aequalitas quae sufficit ab obseruantiam  
+      <lb ed="#G" n="136"/>iustae: commutationis;
+    </p>
+            <p xml:id="HuYgTa-300313-d1e913">
+               <lb ed="#G" n="137"/>Forte dices, quod nec in his videtur esse aequalitas, quod 
+      <lb ed="#G" n="138"/>Deus multo plus reddit, quam sit illud, quod creatura
+      h<lb ed="#G" n="139" break="no"/>bi impendit: quia, sicut ait Apostolus, Non sunt condigne 
+      <lb ed="#G" n="140"/>passiones huius saeculi ad futuram gloriam, quae reuelabi 
+      <lb ed="#G" n="141"/>tur in nobis. 
+    </p>
+            <p xml:id="HuYgTa-300313-d1e926">
+               <lb ed="#G" n="142"/>
+               <pc type="indent"/>Respondeo, quod plus seu maius est tantundem, &amp; am  
+      <lb ed="#G" n="143"/>plius: ideo, qui reddit plus de bono, quam recipit, licet det 
+      <lb ed="#G" n="144"/>vltra, quam teneatur: tamen, quia cum hoc dat tantundem, 
+      <lb ed="#G" n="145"/>ideo in sua redditione non peccat contra com mutatiuae 
+      <lb ed="#G" n="146"/>iustitiae aequalitatem. 
+      <!--845.xml-->
+      <pb ed="#G" n="P2_187-v"/>
+               <cb ed="#G" n="a"/>
+               <lb ed="#G" n="1"/>Forte adhuc dices, Si ille, qui reddit plus de bono, quam 
+      <lb ed="#G" n="2"/>rece pit, seruat iustitiae equalitatem, eo, quod in illo, quod 
+      <lb ed="#G" n="3"/>reddit, includitur tantundem, quantum recepit, tunc eaden 
+      <lb ed="#G" n="4"/>ratione reddens plus de peena, quam requirat offensa, ser- 
+      <lb ed="#G" n="5"/>uaret aequalitatem in commutatiua iustitia requisitam.  
+      <lb ed="#G" n="6"/>Consequentia patet, quia est in isto, quod talis puniens red 
+      <lb ed="#G" n="7"/>dit, includitur tantundem de pena, quantum reddere debuit. 
+    </p>
+            <p xml:id="HuYgTa-300313-d1e963">
+               <lb ed="#G" n="8"/>
+               <pc type="indent"/>Respondeo, negando consequentiam. Ad probationem 
+      <lb ed="#G" n="9"/>dicendum, quod licet in malis, sicut in bonis illud, quod 
+      <lb ed="#G" n="10"/>est maius, includat quantitatem aequalis: tamen excessus 
+      <lb ed="#G" n="11"/>in redditione mali poenae implicat vitium seueritatis, quod 
+      <lb ed="#G" n="12"/>repugnat virtuti iustitiae: ideo in poena excedente non po 
+      <lb ed="#G" n="13"/>test includi aequalitas poenae debitae tali modo, quo requi  
+      <lb ed="#G" n="14"/>ritur ad iustitiam obseruandam: Sed excessus in
+      redditio<lb ed="#G" n="15" break="no"/>ne boni implicat virtutem liberalitatis, quae nullam
+      ha<lb ed="#G" n="16" break="no"/>bet repuguantiam ad iustitiam: igitur in tali bono exce 
+      <lb ed="#G" n="17"/>dente potest includi aequalis quantitas boni debiti eo mo 
+      <lb ed="#G" n="18"/>do, quo sufficit ad seruandam commutatiuam iustitiam, 
+      <lb ed="#G" n="19"/>ac etiam distributiuam.  
+    </p>
+            <p xml:id="HuYgTa-300313-d1e995">
+               <lb ed="#G" n="20"/>
+               <pc type="indent"/>Ad quintum dicendum, quod istud argumentum non 
+      <lb ed="#G" n="21"/>est magis contra me, quam contra istos doctores, qui
+      te<lb ed="#G" n="22" break="no"/>nent oppositam conclusionem: Nam, sicut dictum est
+      su<lb ed="#G" n="23" break="no"/>pra, isti doctores ponunt iustitiam distributiuam
+      pro<lb ed="#G" n="24" break="no"/>prie Deo conuenire. Istud autem argumentum nen mi- 
+      <lb ed="#G" n="25"/>nus concludit, arguendo de iustitia distributiua, quam de 
+      <lb ed="#G" n="26"/>iustitia commutatiua 
+    </p>
+            <p xml:id="HuYgTa-300313-d1e1015">
+               <lb ed="#G" n="27"/>
+               <pc type="indent"/>Respondendo igitur ad argumentum, nego consequentiam 
+      <lb ed="#G" n="28"/>loquendo de necessitate absoluta, quamuis possit aliquo 
+      <lb ed="#G" n="29"/>modo concedi, loquendo de necessitate conditionata, pu 
+      <lb ed="#G" n="30"/>ta supposito, quod Deus sic acceptauerit actum alicuius,  
+      <lb ed="#G" n="31"/>quod immutabiliter disposuit, &amp; ordinauit eum finaliter 
+      <lb ed="#G" n="32"/>pro tali actu saluare, vel sic reprobauerit, quod ipsum
+      or<lb ed="#G" n="33" break="no"/>dinauit ad peenam. Quomodo etiam Deus possit aliquid 
+      <lb ed="#G" n="34"/>facere de necessitate iustitiae, &amp; quomodo non, aliqualiter 
+      <lb ed="#G" n="35"/>declaraui <ref xml:id="HuYgTa-300313-Rd1e1038">lib 1. dist. 45. artic. 4.</ref> Et per hoc etiam patet ad 
+      <lb ed="#G" n="36"/>probationem ipsius consequentiae. 
+    </p>
+            <p xml:id="HuYgTa-300313-d1e1045">
+               <lb ed="#G" n="37"/>
+               <pc type="indent"/>ARTICVLVS II 
+      <lb ed="#G" n="38"/>
+               <pc type="indent"/>De misericordia Dei.
+    </p>
+            <p xml:id="HuYgTa-300313-d1e1056">
+               <lb ed="#G" n="39"/>VANTVM ad secundum articulum dico breuiter, 
+      <lb ed="#G" n="40"/>N quod misericordia proprie conuenit ipsi Deo.  
+      <lb ed="#G" n="41"/>Quia quicquid est laudabile in ipso rege, siue principe, 
+      <lb ed="#G" n="42"/>hoc Deo debemus tribuere: sed misericordia est
+      huius<lb ed="#G" n="43" break="no"/>modi; ergo &amp;c. Maior patet, quia ipse est rex regum, &amp; do 
+      <lb ed="#G" n="44"/>minus dominantium, vt dicitur 1. ad Tim. Minor etiam 
+      <lb ed="#G" n="45"/>atet, in prouer. vbi dicitur, Misericordia, &amp; veritas, custo 
+      <lb ed="#G" n="46"/>diunt regem, &amp; roboratur clementia thronus eius. Patet 
+      <lb ed="#G" n="47"/>etiam per <ref xml:id="HuYgTa-300313-Rd1e1077">
+                  <name xml:id="HuYgTa-300313-Nd1e1079">Cassio</name>. lib. 2. epistola 9.</ref> vbi ait, benigni qnippe 
+      <lb ed="#G" n="48"/>principis est ad clementiae commodum transire termi- 
+      <lb ed="#G" n="49"/>nos aequitatis: quia sola est misericordia, cui omnes
+      virtu<lb ed="#G" n="50" break="no"/>tes honorabiliter cedere non verentur. 
+    </p>
+            <p xml:id="HuYgTa-300313-d1e1091">
+               <lb ed="#G" n="51"/>2 Praeterea, Dei iustitia est perfecta : ergo non est sine 
+      <lb ed="#G" n="52"/>misericordia. Antecedens patet, quia in Deo nihil est
+      im<lb ed="#G" n="53" break="no"/>perfectum Consequentia probatur auctoritate Cregorii, 
+      <lb ed="#G" n="54"/>qui ait, lustitia sine misericordia multum destituitur. 
+    </p>
+            <p xml:id="HuYgTa-300313-d1e1102">
+               <lb ed="#G" n="55"/>
+               <pc type="indent"/>Praeterea, ista conclusio patet quasi in infinitis
+      lo<lb ed="#G" n="56" break="no"/>tis sacrae scripturae, in quibus semper misericordia
+      attri<lb ed="#G" n="57" break="no"/>buitur ipsi Deo. Et confirmatur, quia non contingit
+      ali<lb ed="#G" n="58" break="no"/>quam rem esse sine suo proprio: Sed misereri est proprium 
+      <lb ed="#G" n="59"/>psius Dei, iuxta quod orat sancta mater ecclesia dicens,  
+      <lb ed="#G" n="60"/>Deus, cui pprium est misereri seper, &amp; parcere, suscipe &amp;c. 
+    </p>
+            <p xml:id="HuYgTa-300313-d1e1121">
+               <lb ed="#G" n="61"/>
+               <pc type="indent"/>Sed contra hanc conclunionem potest argui sic.  
+      <lb ed="#G" n="62"/>llle non habet in se misericordiam, qui nec praeuenit,  
+      <lb ed="#G" n="63"/>nec repellit alienam miseriam, cuius repulsio plene est in 
+      <lb ed="#G" n="64"/>sua potestate. Sed omnium creaturarum miseriae sunt ple 
+      <lb ed="#G" n="65"/>ne in Dei potestate, &amp; tamen Deus non praeuenit eas,
+      quan<lb ed="#G" n="66" break="no"/>do sunt futurae, nec repellit eas, quando sunt praesentes: 
+      <lb ed="#G" n="67"/>ergo &amp;c. Maior patet, quia misericordia est habitus, incli 
+      <lb ed="#G" n="68"/>nans suum subiectum ad praeueniendum alterius miseriam, 
+      <lb ed="#G" n="69"/>si est futura, &amp; ad praesentem repellendam. Minor etiam  
+      <!--845.xml-->
+      <cb ed="#G" n="b"/>
+               <lb ed="#G" n="70"/>atet, quia Deus non solum repellit miserias : verum et  
+      <lb ed="#G" n="71"/>quandoque innocentibus hominibus infert miserias,
+      si<lb ed="#G" n="72" break="no"/>cut apparuit in afflictione ipsius <name xml:id="HuYgTa-300313-Nd1e1155" ref="#Job">Iob</name>, &amp; etiam <name xml:id="HuYgTa-300313-Nd1e1158">Thobiae</name>; 
+      <lb ed="#G" n="73"/>rgo &amp;c.
+    </p>
+            <p xml:id="HuYgTa-300313-d1e1165">
+               <lb ed="#G" n="74"/>2 Praeterea, in Deo non est compassio : ergo in Deo 
+      <lb ed="#G" n="75"/>non est misericordia. Antecedens patet, quia compassio 
+      <lb ed="#G" n="76"/>raesupponit passionem: &amp; in Deo nulla potest esse
+      pas<lb ed="#G" n="77" break="no"/>io, cum sit actus purus Consequentia probatur per Augu 
+      <lb ed="#G" n="78"/>stinum, qui ait. Quid est misericordia, nisi alienae miseria 
+      <lb ed="#G" n="79"/>tompassio, ex qua, si possumus, compellimur subuenire; 
+      <lb ed="#G" n="80"/>Et quasi idem ponit <ref xml:id="HuYgTa-300313-Rd1e1182">Damas. lib. 2. c. 15.</ref> 
+            </p>
+            <p xml:id="HuYgTa-300313-d1e1186">
+               <lb ed="#G" n="81"/>
+               <pc type="indent"/>Ad primum, nego maiorem. Ad probationem
+      dicen<lb ed="#G" n="82" break="no"/>dum, quod misericordia non inclinat ad tollendum
+      o<lb ed="#G" n="83" break="no"/>mnem miseriam cuiuslibet miseri. Cum enim sit virtus 
+      <lb ed="#G" n="84"/>moralis; igitur inclinat secundum dictamen rectae
+      ratio<lb ed="#G" n="85" break="no"/>nis: Sed recta ratio dictat, quod aliqui, propter sua
+      deme<lb ed="#G" n="86" break="no"/>ita, non debeant totaliter a miseria liberari;igitur quam 
+      <lb ed="#G" n="87"/>uis tales Deus posset liberare, &amp; non liberet, ex hoc
+      ta<lb ed="#G" n="88" break="no"/>nen non habetur, quod Deus non sit misericors, quia da 
+      <lb ed="#G" n="89"/>to, quod in illis non reluceat misericordia Dei
+      liberati<lb ed="#G" n="90" break="no"/>ue, tamen relucet in eis mitigatiue, inquantum tales
+      pu<lb ed="#G" n="91" break="no"/>niuntur citra condignum. Et ex hoc patet, quod etiam  
+      <lb ed="#G" n="92"/>minor deficit, quia cuiuslibet creaturae miseriam, quae
+      tam<lb ed="#G" n="93" break="no"/>uam poena peccati esset infligenda, Deus praeuenit, &amp; si 
+      <lb ed="#G" n="94"/>non in toto, tamen in aliqua sui parte: quia &amp; si Deus non 
+      <lb ed="#G" n="95"/>ostendat cuilibet misericordiam lib erantem, tamen
+      cui<lb ed="#G" n="96" break="no"/>libet aliquo modo ostendit misericordiam mitigantem. 
+      <lb ed="#G" n="97"/>Ad probationem, cum dicitur de <name xml:id="HuYgTa-300313-Nd1e1227" ref="#Job">Iob</name>, &amp; <name xml:id="HuYgTa-300313-Nd1e1230">Tobia</name>, dicedum, 
+      <lb ed="#G" n="98"/>uod huiusmodi miseria non infligebatur eis per modum 
+      <lb ed="#G" n="99"/>qenae pro peccatis patiendae, sed tamquam materia virtu 
+      <lb ed="#G" n="100"/>tis exercendae, &amp; per consequens caelestis gloriae, ac
+      beati<lb ed="#G" n="101" break="no"/>tudinis augmentandae; Propter quod nec hic defuit Dei mi- 
+      <lb ed="#G" n="102"/>sericordia, de qua Psal: ait, Misericordia aedificabitur in cae 
+      <lb ed="#G" n="103"/>lis, praeparabitur veritas tua in eis. 
+    </p>
+            <p xml:id="HuYgTa-300313-d1e1247">
+               <lb ed="#G" n="104"/>
+               <pc type="indent"/>Ad secundum, nego consequentiam. Ad probationem 
+      <lb ed="#G" n="105"/>dicendum, quod misericordia dupliciter potest considerari, 
+      <lb ed="#G" n="106"/>Vno modo, secundum Se, &amp; quantum ad suam essentiam. 
+      <lb ed="#G" n="107"/>Alio modo, quantum ad accidens misericordiam
+      conse<lb ed="#G" n="108" break="no"/>uens propter sui subiecti imperfectionem. Primo modo 
+      <lb ed="#G" n="109"/>misericordia est virtus inclinans misericordem ad nolle
+      al<lb ed="#G" n="110" break="no"/>teri inesse miseriam, praesupposito tamen circa hoc
+      dicta<lb ed="#G" n="111" break="no"/>mine rectae rationis, sicut praedictum est. Et isto modo mi 
+      <lb ed="#G" n="112"/>sericordia conuenit Deo, &amp; omnibus beatis, tam angelis.  
+      <lb ed="#G" n="113"/>quam hominibus. Secundo modo misericordia super istud 
+      <lb ed="#G" n="114"/>nolle addit animi commotionem, &amp; aliquo modo afflicti 
+      <lb ed="#G" n="115"/>uam displicentiam, quae est quaedam compassio
+      huiusmo<lb ed="#G" n="116" break="no"/>di alienae miseriae. Et isto modo misericordia non
+      inueni<lb ed="#G" n="117" break="no"/>tur in Deo, nec in aliquo beato, quamuis possit inesse ho 
+      <lb ed="#G" n="118"/>mini viatori, &amp; existentibus in purgatorio: quia tale
+      acci<lb ed="#G" n="119" break="no"/>dens non sequitur misericordiam vniuersaliter, sed solum 
+      <lb ed="#G" n="120"/>n subiecto imperfecto, &amp; aliquo modo misero. Et isto
+      se<lb ed="#G" n="121" break="no"/>cundo modo loquuntur Aug. &amp; Dam as hic de misericor 
+      <lb ed="#G" n="122"/>dia. Non. n. loquuntur vniuersaliter, sed solum particulariter, 
+      <lb ed="#G" n="123"/>vt. shabet esse in his, qui carent persecta beatitudine, 
+    </p>
+            <p xml:id="HuYgTa-300313-d1e1295">
+               <lb ed="#G" n="124"/>
+               <pc type="indent"/>ART ICVLVS I 
+      <lb ed="#G" n="125"/>De distinctione iustitiae &amp; misericordia.
+    </p>
+            <p xml:id="HuYgTa-300313-d1e1304">
+               <lb ed="#G" n="126"/>QVANTVM ad tertium articulum, possunt poni tres 
+      <lb ed="#G" n="127"/>D conclusiones. Prima est, quod iustitia, &amp; misericoi 
+      <lb ed="#G" n="128"/>dia, vt sunt in Deo, non differunt realiter. Secunda, quod 
+      <lb ed="#G" n="129"/>non differunt ex natura rei formaliter. Tertia, quod
+      diffe<lb ed="#G" n="130" break="no"/>runt secundum rationem, seu conceptibiliter. 
+    </p>
+            <p xml:id="HuYgTa-300313-d1e1318">
+               <lb ed="#G" n="131"/>
+               <pc type="indent"/>Prima conclusio patet ex his, quae dici possunt circa sim 
+      <lb ed="#G" n="132"/>licitatem diuinae essentiae, <ref xml:id="HuYgTa-300313-Rd1e1326">lib. 1. dist. 8. q4. 1.</ref> 
+            </p>
+            <p xml:id="HuYgTa-300313-d1e1330">
+               <lb ed="#G" n="133"/>Conclusio secunda patet ex his, quae dixi <ref xml:id="HuYgTa-300313-Rd1e1334">eodem
+      libr<lb ed="#G" n="134" break="no"/>dist. 8. q4.1. artic. 2. &amp; 3.</ref> Patet etiam <ref xml:id="HuYgTa-300313-Rd1e1339">eodem lib. dist. 38.
+      ar<lb ed="#G" n="135" break="no"/>tic. primo,</ref>  
+            </p>
+            <p xml:id="HuYgTa-300313-d1e1345">
+               <lb ed="#G" n="136"/>
+               <pc type="indent"/>Conclusio tertia patet eodem <ref xml:id="HuYgTa-300313-Rd1e1351">lib. dist. 8. art. 4</ref>. Et ideo 
+      <lb ed="#G" n="137"/>le istis conclusionibus causa breuitatis ad praesens nihil 
+      <lb ed="#G" n="138"/>iliud dicam 
+    </p>
+            <p xml:id="HuYgTa-300313-d1e1359">
+      <!--846.xml-->
+               <pb ed="#G" n="P2_188-r"/>
+               <cb ed="#G" n="a"/>
+               <lb ed="#G" n="1"/>ARTI CGVLVS: IIII 
+      <lb ed="#G" n="2"/>Vtrum in omni opere Dersit misericordida 
+      <lb ed="#G" n="3"/>
+               <pc type="indent"/>&amp; iustitia.  
+    </p>
+            <p xml:id="HuYgTa-300313-d1e1377">
+               <lb ed="#G" n="4"/>VANTVM ad quartum articulum, pono duas con 
+      <lb ed="#G" n="5"/> cusiones 
+    </p>
+            <p xml:id="HuYgTa-300313-d1e1384">
+               <lb ed="#G" n="6"/>Prima est, quod iustitia, &amp; misericordia, simul
+      concur<lb ed="#G" n="7" break="no"/>frutifi dmni opere Dei, loquendo de ompere
+      rentribu<lb ed="#G" n="8" break="no"/>inis (Vnde talia opera, sub nomine viarum,
+      exprimen<lb ed="#G" n="9" break="no"/>apheta, ait, vnitirrsae viae demini misericordia, &amp;
+      veri<lb ed="#G" n="10" break="no"/>Quod verbum tractas Cassindorus, dicit has duas vij 
+      <lb ed="#G" n="11"/>ibs, scilicet, misericordiam, &amp; iustitiam in omni opere 
+      <lb ed="#G" n="12"/>ninii fimul conuenire.
+    </p>
+            <p xml:id="HuYgTa-300313-d1e1403">
+               <lb ed="#G" n="13"/>Praeterea, quod iustitia seruetur in omni opere diui 
+      <lb ed="#G" n="14"/>etributionis, patet per Aug. super illo verbo
+      Psal<lb ed="#G" n="15" break="no"/>ne ex tu domine, &amp; omnes viaetuae veritas. Quod au 
+      <lb ed="#G" n="16"/>in e isdem operibus omnibus reluceat misericordia 
+      <lb ed="#G" n="17"/>riquia si in aliquibus operibus diuinae retributioni 
+      <lb ed="#G" n="18"/>gnet misericordia, hoc maxime videretur in iudicro 
+      <lb ed="#G" n="19"/>aroborum.: Sed hoc non: quia nobiliffimus modus iudi 
+      <lb ed="#G" n="20"/>hdi debet Deo attribui: talis autem modus non potest 
+      <lb ed="#G" n="21"/>Labsque misericordia: quia misericordia superexaltat 
+      <lb ed="#G" n="22"/>urdicium, vt dicitur in epist. lacobit.
+    </p>
+            <p xml:id="HuYgTa-300313-d1e1427">
+               <lb ed="#G" n="23"/>Praetetea, ista est intentio beati Augustim in lib de 
+      <lb ed="#G" n="24"/>ordia euangeliorum, vbi ait, Deus, qui res humanas 
+      <lb ed="#G" n="25"/>itat, suste, &amp; misericorditer curat, vt nec misericordia iu 
+      <lb ed="#G" n="26"/>Aram, nec iustitia excludat misericordiam.  
+      <lb ed="#G" n="27"/>Forre dicetur, qud nec iustitia, nec misericordia, sed po 
+      <lb ed="#G" n="28"/>nen iustitia ibi videtur apparere, vbi pro temporali culpa 
+      <lb ed="#G" n="29"/>tifigitur aeterna poena: Sed cuilibet in inferno damnato 
+      <lb ed="#G" n="30"/>culpa temporali, &amp; transitoria, infligitur poena aeter 
+      <lb ed="#G" n="31"/>sergo &amp;c.
+    </p>
+            <p xml:id="HuYgTa-300313-d1e1449">
+               <lb ed="#G" n="32"/>2 Praeterea, misericordia, &amp; iustitia respectu eiusdem  
+      <lb ed="#G" n="33"/>ectus implicant contradictoria; ergo non possunt
+      si<lb ed="#G" n="34" break="no"/>II concurrere respectu eiusdem effectus Consequentia 
+      <lb ed="#G" n="35"/>actet Probatur antecedens, quia iustitia retribuit
+      secun<lb ed="#G" n="36" break="no"/>um merita: sed misericorida tribuit prater merita, &amp; 
+      <lb ed="#G" n="37"/>per consequens, non secundum merita, quae videntur
+      es<lb ed="#G" n="38" break="no"/>se contradictoria.
+    </p>
+            <p xml:id="HuYgTa-300313-d1e1467">
+               <lb ed="#G" n="39"/>Praeterea, in iustificatione impij nulla videtur esse 
+      <lb ed="#G" n="40"/>iustitia, sed pura misericordia quia, sicut ait Apostolus, non 
+      <lb ed="#G" n="41"/>? operibus iustitiae, quae fecimus nos, sed secundum suam mi 
+      <lb ed="#G" n="42"/>sericordiam saluos nos fecit. Et idem Apostolus ait. Si 
+      <lb ed="#G" n="43"/>?atia ex operibus, iam gratia non esset gratia. In obdura 
+      <lb ed="#G" n="44"/>
+               <pc type="indent"/>tione vero impii nulla videtur esse misericordia: Sed
+      iu<lb ed="#G" n="45" break="no"/>stificatio, &amp; obduratio reducuntur ad opera retributionis; 
+    </p>
+            <p xml:id="HuYgTa-300313-d1e1487">
+               <lb ed="#G" n="46"/>
+               <pc type="indent"/>Praeterea, vbi tanta insligitur poena, quanta
+      praeces<lb ed="#G" n="47" break="no"/>reculpa, ibi nulla videtur esse misericordia. Sed in operi 
+      <lb ed="#G" n="48"/>ns retributionis, secundum mensuram culpe, infligitur 
+      <lb ed="#G" n="49"/>ena, iuxta illud Deutero, secundum mensutam peccati 
+      <lb ed="#G" n="50"/>nt plagarum modus. Et in Apoc. dicitur, Quantum se 
+      <lb ed="#G" n="51"/>lonificauit, &amp; in deliciis fuit, tantum date ei tormentum, 
+      <lb ed="#G" n="52"/>Pluctum 
+    </p>
+            <p xml:id="HuYgTa-300313-d1e1507">
+               <lb ed="#G" n="53"/> Praeterea, poena, quae non est correctoria, illa non est 
+      <lb ed="#G" n="54"/>iona, nec per consequens iusta: Sed peena damnatorum 
+      <lb ed="#G" n="55"/>non est correctoria. Maior probatur auctoritate Augusti 
+      <lb ed="#G" n="56"/>ni qui ait, Siue plectendo, siue ignoscendo, hoc solum be 
+      <lb ed="#G" n="57"/>ene agitur, vt vita hominum corrigatur. Minor etiam
+      pa<lb ed="#G" n="58" break="no"/>ter: quia nullus damnatorum ex poena sibi illata,
+      corrigi<lb ed="#G" n="59" break="no"/>tur, nec emendatur. 
+    </p>
+            <p xml:id="HuYgTa-300313-d1e1526">
+               <lb ed="#G" n="60"/>
+               <pc type="indent"/>6 Praeterea, ibi non apparet iustitia, vbi pro inaequali 
+      <lb ed="#G" n="61"/>uipa infligitur aequalis poena; Sed sic fit in inferno: ergo 
+      <lb ed="#G" n="62"/>Se Maior patet: quia cuipa, &amp; poena dobent esse commen 
+      <lb ed="#G" n="63"/>surata, vt patet ex auctoritatibus praeallegatis ex Apoc. 8 
+      <lb ed="#G" n="64"/>Deut ero. Mi nor probatur: quia infinitum non est maius 
+      <lb ed="#G" n="65"/>nfinito: Sed cuiusl ibet in inferno damnati poena est inf 
+      <lb ed="#G" n="66"/>hita, quia est per petuo duratura. Quod autem culpae dam  
+      <lb ed="#G" n="67"/>torum sint inaequales, patet: quia sicut in hoc mundo 
+      <lb ed="#G" n="68"/>inaequales fuerunt, sit iminfemo inaequales erunt.
+    </p>
+            <p xml:id="HuYgTa-300313-d1e1550">
+      <!--846.xml-->
+               <cb ed="#G" n="b"/>
+               <lb ed="#G" n="69"/>2 Praeterea, vbomuius datim supilieium, quam fuerit 
+      <lb ed="#G" n="70"/>peccatum; ibi nec misericors, neciustum videtur esseriudi 
+      <lb ed="#G" n="71"/>cium, sed maius supplicium datur ipsis damnatis, quam 
+      <lb ed="#G" n="72"/>fuerit eorum perratum, quia uper illo verbo Psal ex vsu. 
+      <lb ed="#G" n="73"/>ris; &amp; iniquitate redimet animas corum, &amp; honorabile
+      no<lb ed="#G" n="74" break="no"/>men eorum coram illo, dicit glosa, beccata dicuntur vsu 
+      <lb ed="#G" n="75"/>rae: quia prlus mali inuenitur m supplicus, quam commis 
+      <lb ed="#G" n="76"/>sum est in culpis &amp;c.
+    </p>
+            <p xml:id="HuYgTa-300313-d1e1574">
+               <lb ed="#G" n="77"/>S Praeterea, lacob: 2. dicitur, fudicium sine miferitorai 
+      <lb ed="#G" n="78"/>dia fiet ei, qui non fecit misericordiam Sod damnati non  
+      <lb ed="#G" n="79"/>fecerunt misericordiam. Hoc enimrimproberabit eis,
+      du<lb ed="#G" n="80" break="no"/>minus in extremo iudicio, vt patet Matth. 25: ergo in illo 
+      <lb ed="#G" n="81"/>iudicio, quo ipsi iudicabuntur a Deo, non erit aliqua
+      me<lb ed="#G" n="82" break="no"/>sericordia, quauis hmoi iudicium sit opus retributionis:S 
+      <lb ed="#G" n="83"/>Ad primum potest dici, quod minormon est vera,
+      qui<lb ed="#G" n="84" break="no"/>quantitas culpae communiter penfatur secundum digni: 
+      <lb ed="#G" n="85"/>tatem personae per culpam offensae Cum igitur quilibet 
+      <lb ed="#G" n="86"/>damnatorum per culpam suam offenderit personam infi 
+      <lb ed="#G" n="87"/>nitam, scilicet ipsum Deum, cuius conte mosit mandatum; 
+      <lb ed="#G" n="88"/>ideo talis eulpa aliquo modo est infinita. Etiam ratione 
+      <lb ed="#G" n="89"/>subiecti quodammodo estinfinita, saltem per accidens, eos  
+      <lb ed="#G" n="90"/>quod subiectum, in quo est, sit obstinatum, &amp; incorrigibi 
+      <lb ed="#G" n="91"/>le: propter quod huiusmodi culpa est perpetua, &amp; per con 
+      <lb ed="#G" n="92"/>sequens sibi debetur poena perpetua. Est igitur in ista pus 
+      <lb ed="#G" n="93"/>nitione iustitia, &amp; misericordia. lustitia quidem in hoc, quod 
+      <lb ed="#G" n="94"/>culpa damnati punitur poena infinita extensiue, &amp; perpe 
+      <lb ed="#G" n="95"/>tua duratione, eo, quod subiectum istius culpae sit
+      perpe<lb ed="#G" n="96" break="no"/>tuo incorfigibile est etiam ibi magna misericordid, eo, quod 
+      <lb ed="#G" n="97"/>non punitur pena infinita intensiuc, quamuis illam
+      me<lb ed="#G" n="98" break="no"/>ruerit, eo quod contra personam infinitae dignitatis
+      pec<lb ed="#G" n="99" break="no"/>cauerit: quia etiam, secundum humanas leges, qui contra
+      di<lb ed="#G" n="100" break="no"/>gniorem personam peccauit, salua iustitia, puniri potest in 
+      <lb ed="#G" n="101"/>tensiori, &amp; acerbiori poena. Propter hoc enim ait Aristo. 
+      <lb ed="#G" n="102"/>5. ethic. Si principatum habens percussit; non oportet reo qu 
+      <lb ed="#G" n="103"/>percuti; &amp; si principem percussit, non solum percuti, sed  
+      <lb ed="#G" n="104"/>puniri:igitur infinitae acerbitatis pena posset puniri, salua: 
+      <lb ed="#G" n="105"/>iustitia, ille, qui in mortali offensa Dei, ab hac vita
+      dece<lb ed="#G" n="106" break="no"/>dit: igitur valde misericorditer secum agitur, quando fini 
+      <lb ed="#G" n="107"/>tae acerbitatis poena punitur.
+    </p>
+            <p xml:id="HuYgTa-300313-d1e1644">
+               <lb ed="#G" n="108"/>Ad secundum, nego antecedens. Ad probationem dicen 
+      <lb ed="#G" n="109"/>dum, quod licet iustitia tribuat secundum merita, &amp; misericoi 
+      <lb ed="#G" n="110"/>dia sine meritis; tamen in eodem opere Dei vindicatiuo 
+      <lb ed="#G" n="111"/>apparet iustitia, inquantum punit, &amp; apparet
+      misericor<lb ed="#G" n="112" break="no"/>dia, inquantum non tantum punit, quantum punitus
+      pro<lb ed="#G" n="113" break="no"/>meruit. Et in eodem opere praemiatiuo apparet iustitia 
+      <lb ed="#G" n="114"/>inquantum Deus tantum de bono tribuit, quantum
+      ho<lb ed="#G" n="115" break="no"/>mo meruit; &amp; apparet misericordia, inquantum abundan 
+      <lb ed="#G" n="116"/>tius tribuit, quam meruit.
+    </p>
+            <p xml:id="HuYgTa-300313-d1e1666">
+               <lb ed="#G" n="117"/>Ad tertium, nego maiorem, quia quamuis in
+      iustifica<lb ed="#G" n="118" break="no"/>tioner impu non apparet iustitia, quantum estex iustificati 
+      <lb ed="#G" n="119"/>operatione, est tamen ibi iustitia, quantum est ex iustificam 
+      <lb ed="#G" n="120"/>tis promissione, quia quamuis operatio impij sit inualida 
+      <lb ed="#G" n="121"/>ad promerendum iustificationem, vt bene probant auctori 
+      <lb ed="#G" n="122"/>tates Apostoli ad probationem adductae: tamen quia Deus. 
+      <lb ed="#G" n="123"/>promisit iustificationem impii pro omni repore, quo
+      im<lb ed="#G" n="124" break="no"/>pius fecerit, quod in se est, vt apparet in Exech. ideo quam s 
+      <lb ed="#G" n="125"/>uis in iustificatione impii non si t iustitia ex iustificati con 
+      <lb ed="#G" n="126"/>misso: tamen ibi seruatur iustitia ex iustificantis promisso 
+      <lb ed="#G" n="127"/>lllud autem, quod additur de obduratione, non est ad pro 
+      <lb ed="#G" n="128"/>positum, quia obduratio non est Dei operatio; sed ost at 
+      <lb ed="#G" n="129"/>operatione cessatio; nam secundum Augustinum, sic Deus 
+      <lb ed="#G" n="130"/>obdurat imprum, quod nihil malitiae sibi influit, sed influe 
+      <lb ed="#G" n="131"/>tiam gratiae suae subtrahit, &amp; impetus mouentes ad peeni 
+      <lb ed="#G" n="132"/>tentiam in huiusmodi poccatore non facit. 
+    </p>
+            <p xml:id="HuYgTa-300313-d1e1703">
+               <lb ed="#G" n="133"/>
+               <pc type="indent"/>Ad quartum dicendum, quod minor non accipitur de 
+      <lb ed="#G" n="134"/>bite sub maiori: ista enim deberet esse minor: sed in
+      ope<lb ed="#G" n="135" break="no"/>ribus retributionis tanta infligitur poena, quanta praecessit 
+      <lb ed="#G" n="136"/>culpa, &amp; ista minor est salsa, inquantum tantitas dicit
+      ae<lb ed="#G" n="137" break="no"/>qualitatem quantitatis, licet sit vera, inquantum tantitas 
+      <lb ed="#G" n="138"/>dicit aequalitatem proportionis. Et sub isto sensu maionr 
+      <lb ed="#G" n="139"/>est falsa: quia misericordia potest vere concurrere seruata 
+      <lb ed="#G" n="140"/>proportionis aequalitate. Potest enim quis
+      misericordi<lb ed="#G" n="141" break="no"/>ter vindicare, minus scilicet affligando, quam reus 
+      <!--847.xml-->
+      <pb ed="#G" n="P2_188-v"/>
+               <cb ed="#G" n="a"/>
+               <lb ed="#G" n="1"/>meruit, seruata tamen debita proportione, puta, quod pro 
+      <lb ed="#G" n="2"/>maiori peccato infligat maiorem, &amp; acerbiorem poenam 
+      <lb ed="#G" n="3"/>&amp; pro minori minorem, &amp; minus acerbam. Et ad hunc 
+      <lb ed="#G" n="4"/>sensum vadunt auctoritates, quibus probatur minor,
+      in<lb ed="#G" n="5" break="no"/>quantum trahuntur ad propositum; quia Deus in
+      punie<lb ed="#G" n="6" break="no"/>do non seruat mensuram, &amp; tantitatem secundum aequa 
+      <lb ed="#G" n="7"/>litatem quantitatis, puta, quod tantum det de peena, vel 
+      <lb ed="#G" n="8"/>de acerbitate poenae, quantum ipse reus meruit: Sed ser- 
+      <lb ed="#G" n="9"/>uat mensuram, &amp; tantitatem, secundum aequalitatem pro 
+      <lb ed="#G" n="10"/>portionis: quia maiorem peccatorem magis acerbe
+      pu<lb ed="#G" n="11" break="no"/>nit, &amp; minorem minus 
+    </p>
+            <p xml:id="HuYgTa-300313-d1e1759">
+               <lb ed="#G" n="12"/>
+               <pc type="indent"/>Ad quintum dicendum, quod poenam esse correctoria 
+      <lb ed="#G" n="13"/>potest dupliciter intelligi. Vno modo, quod per huiusmo 
+      <lb ed="#G" n="14"/>di poenam corrigatur ipse punitus. Alio modo, quod ad 
+      <lb ed="#G" n="15"/>exemplum illius punitionis, alii corrigantur. Primo
+      mo<lb ed="#G" n="16" break="no"/>do maior est falsa: quia quandoque iusto iudicio
+      puniun<lb ed="#G" n="17" break="no"/>tur aliqui obstinati in sua malitia. Secundo modo mino 
+      <lb ed="#G" n="18"/>est falsa, quamuis maior sit vera: quia ex hoc, quod praedi 
+      <lb ed="#G" n="19"/>catur talis poena peccatoribus imminere, multi hic in via 
+      <lb ed="#G" n="20"/>corriguntur, &amp; peccatorum suorum excessibus retrahur 
+      <lb ed="#G" n="21"/>tur. Et isto secundo modo debet intelligi auctoritas 
+      <lb ed="#G" n="22"/>Augustini¬ 
+    </p>
+            <p xml:id="HuYgTa-300313-d1e1788">
+               <lb ed="#G" n="23"/>
+               <pc type="indent"/>Ad sextum dicendum, quod aequalitas poenae potest 
+      <lb ed="#G" n="24"/>dupliciter accipi. Vno modo, quantum ad durationem 
+      <lb ed="#G" n="25"/>Alio modo, quantum ad acerbitatem, &amp; afflictionem. Pr 
+      <lb ed="#G" n="26"/>mo modo maior est falsa: quia salua iustitia, vnus pro mi 
+      <lb ed="#G" n="27"/>nori culpa potest octo diebus incarterari sine aliis poeni 
+      <lb ed="#G" n="28"/>adiunctis, &amp; alter pro maiori culpa similiter octo diebus 
+      <lb ed="#G" n="29"/>in peiori carcere poni, &amp; omni die semel fustigari: quorum 
+      <lb ed="#G" n="30"/>poena quantum ad durationem esset aequalis, sed quantum 
+      <lb ed="#G" n="31"/>ad afflictionem esset inaequalis. Sed secundo modo mi- 
+      <lb ed="#G" n="32"/>nor est falsa: quia quamuis poena damnatorum sit
+      aequa<lb ed="#G" n="33" break="no"/>lis durationis, tamen non est aequalis afflictionis. Vt sic,  
+      <lb ed="#G" n="34"/>enim quilibet punitur magis, vel minus altero, secundum 
+      <lb ed="#G" n="35"/>quod eius peccatum maius est, vel minus, quam peccatum 
+      <lb ed="#G" n="36"/>alterius. Et per hoc patet ad probationem minoris: quia 
+      <lb ed="#G" n="37"/>procedit de aequalitate durationis. 
+    </p>
+            <p xml:id="HuYgTa-300313-d1e1825">
+               <lb ed="#G" n="38"/>
+               <pc type="indent"/>Ad septimum, nego minorem. Ad probationem dicen 
+      <lb ed="#G" n="39"/>dum, quod commissum in culpa dupliciter potest intell 
+      <lb ed="#G" n="40"/>gi. Vno modo, quantum ad delectationem, quam
+      pecca<lb ed="#G" n="41" break="no"/>tor consequitur ex actu culpabili. Alio modo, quantum 
+      <lb ed="#G" n="42"/>ad deformitatem peccati, &amp; offensam ipsius Dei. Primo  
+      <lb ed="#G" n="43"/>modo, sunt intelligenda verba illius glosae, &amp; non
+      secun<lb ed="#G" n="44" break="no"/>do modo: nam licet iudicio diuino infligatur maior aces 
+      <lb ed="#G" n="45"/>bitas poenae, quam fuerit delectatio culpae; tamen non in 
+      <lb ed="#G" n="46"/>figitur maior acerbitas poenae, quam fuerit deformitas 
+      <lb ed="#G" n="47"/>culpae, &amp; offensa maiestatis diuinae quae offensa, vt dictum 
+      <lb ed="#G" n="48"/>est supra, quodammodo fuit infinita. 
+    </p>
+            <p xml:id="HuYgTa-300313-d1e1854">
+               <lb ed="#G" n="49"/>
+               <pc type="indent"/>Ad octauum dicendum, quod illud verbum <name xml:id="HuYgTa-300313-Nd1e1860">Beati Iacu 
+      <lb ed="#G" n="50"/>bi</name> est intelligendum de misericordia liberatiua, &amp; non 
+      <lb ed="#G" n="51"/>de misericordia mitigatiua, tales enim impii petientur 
+      <lb ed="#G" n="52"/>iudicium absque misericordia totaliter liberante; sed non 
+      <lb ed="#G" n="53"/>absque misericordia aliqualiter mitigante 
+    </p>
+            <p xml:id="HuYgTa-300313-d1e1873">
+               <lb ed="#G" n="54"/>
+               <pc type="indent"/>Conclufio secunda est, quod iustitia, &amp;
+      misericordi<lb ed="#G" n="55" break="no"/>proprie dicta, non concurrunt vniuersaliter, &amp; absolute 
+      <lb ed="#G" n="56"/>in omni opere Dei: quia non concurrunt in opere
+      crea<lb ed="#G" n="57" break="no"/>tionis: ergo non in omni opere. Consequentia patet de 
+      <lb ed="#G" n="58"/>se. Antecedens probo: quia iustitia aliquo modo
+      presup<lb ed="#G" n="59" break="no"/>ponit merita, misericordia etiam presupponit eum, cui 
+      <lb ed="#G" n="60"/>miseretur, sed actus, vel opus creationis, nihil praesuppo 
+      <lb ed="#G" n="61"/>nit, vt declaraui <ref xml:id="HuYgTa-300313-Rd1e1894">lib. 2. dist. 1. q.</ref> 
+            </p>
+            <p xml:id="HuYgTa-300313-d1e1898">
+               <lb ed="#G" n="62"/>
+               <pc type="indent"/>Ad argumentum principale, nego consequentiam. Ac 
+      <lb ed="#G" n="63"/>probationem, dicendum ad maiorem, quod licet
+      poten<lb ed="#G" n="64" break="no"/>tia, quae ex se est determinata, non indigeat virtute a se 
+      <lb ed="#G" n="65"/>realiter differente: tamen ipsa est virtus, ita, quod virtus 
+      <lb ed="#G" n="66"/>sua est idem, quod essentia sua: Vnde in Deo, propter sua 
+      <lb ed="#G" n="67"/>omnimodam simplicitatem, potentia est idem realiter 
+      <lb ed="#G" n="68"/>cum essentia, &amp; virtus idem, quod potentia &amp; per
+      conse<lb ed="#G" n="69" break="no"/>quens, virtus potentia, &amp; essentia sunt vna res simplicissi 
+      <lb ed="#G" n="70"/>ma, nullo modo composita 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

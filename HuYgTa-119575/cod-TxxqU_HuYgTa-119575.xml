@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Circa textum</title>
+            <author ref="#ThomasStrasbourg">Thomas of Strasbourg</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Circa textum</title>
+               <date when="2020-11-26">November 26, 2020</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="G" n="cod-TxxqU">Genoa 1585</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2020-11-26" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#G" n="157-v"/>
+            <cb ed="#G" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="HuYgTa-119575"><!-- HuYgTa-l2d12ct1 -->
+            <head xml:id="HuYgTa-119575-Hd1e108">Circa textum</head>
+            <p xml:id="HuYgTa-119575-d1e111">
+      <!--353.xml-->
+               <pb ed="#G" n="157-v"/>
+               <cb ed="#G" n="a"/>
+               <lb ed="#G" n="1"/>DISTINCTIO XII. 
+      <lb ed="#G" n="2"/>Breuis ac resoluta huius distinctionis diuisio,  
+      <lb ed="#G" n="3"/>in qua de creatura pure corporali 
+      <lb ed="#G" n="4"/>sermo auspicatim
+    </p>
+            <p xml:id="HuYgTa-119575-d1e129">
+               <lb ed="#G" n="5"/>
+               <pc type="indent"/>AEC DE ANGELICA
+      NATV<lb ed="#G" n="6" break="no"/>R4 &amp;c. Postquam magister deter 
+      <lb ed="#G" n="7"/>minauit de creatura pure spiritua 
+      <lb ed="#G" n="8"/>li, nunc in ista 12. distinctione
+      inci<lb ed="#G" n="9" break="no"/>bit determinare de natura pure con 
+      <lb ed="#G" n="10"/>porali; &amp; diuiditur in duas partes; 
+      <lb ed="#G" n="11"/>nam primo determinat de
+      corpo<lb ed="#G" n="12" break="no"/>ralium rerum creatione; Secundi 
+      <lb ed="#G" n="13"/>de carum ornatu &amp; distinctione, ibi, Prima enim
+      distin<lb ed="#G" n="14" break="no"/>ctionis operatio. Prima in tres: quia primo pertractat
+      cre<lb ed="#G" n="15" break="no"/>tionis ordinem. Secundo quo ad hoc recitat duplice opi 
+      <lb ed="#G" n="16"/>nionem; Tertio specialiter insinuat primae materiae
+      produ<lb ed="#G" n="17" break="no"/>ctionem. Secunda ibi, Quidam namque. Tertia ibi, Se 
+      <lb ed="#G" n="18"/>cundum hanc traditionem. Et haec in tres, quia primo tro 
+      <lb ed="#G" n="19"/>ctat de creatione materiae, Secudo inuestigat de eiusloco 
+      <lb ed="#G" n="20"/>&amp; proprietate; Et tertio manifestat eius perfectionem e- 
+      <lb ed="#G" n="21"/>formarum, quas recipit, actualitate. Secunda ibi, De qua 
+      <lb ed="#G" n="22"/>priusquam. Tertia ibi, Nunc superest vt dispositionem. 
+      <lb ed="#G" n="23"/>Circa istam distinctionem. 12. quaero hanc quaestionem. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

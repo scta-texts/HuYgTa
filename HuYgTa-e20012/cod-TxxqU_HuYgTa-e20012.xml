@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Circa textum</title>
+            <author ref="#ThomasStrasbourg">Thomas of Strasbourg</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Circa textum</title>
+               <date when="2020-11-26">November 26, 2020</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="G" n="cod-TxxqU">Genoa 1585</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2020-11-26" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#G" n="27-v"/>
+            <cb ed="#G" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="HuYgTa-e20012"><!-- HuYgTa-l1d2ct1 -->
+            <head xml:id="HuYgTa-e20012-Hd1e108">Circa textum</head>
+            <p xml:id="HuYgTa-e20012-d1e111">
+      <!--93.xml-->
+               <pb ed="#G" n="27-v"/>
+               <cb ed="#G" n="a"/>
+               <lb ed="#G" n="1"/>DISTINCTIO II 
+      <lb ed="#G" n="2"/>Absolutissima totius operis diuisio, &amp; praesentis
+      di<lb ed="#G" n="3" break="no"/>
+               <pc type="indent"/>stinctionis perspicua subduusio; n qua
+      Magi<lb ed="#G" n="4" break="no"/>
+               <pc type="indent"/>ster aggreditur propositum negotum; agere
+      ne<lb ed="#G" n="5" break="no"/>
+               <pc type="indent"/>pe de Sacro sancto Mysterio trinitatis
+    </p>
+            <p xml:id="HuYgTa-e20012-d1e137">
+               <lb ed="#G" n="6"/>
+               <pc type="indent"/>HOc TTA QVE &amp;c. Post quam 
+      <lb ed="#G" n="7"/>magister in prima distinctione
+      te<lb ed="#G" n="8" break="no"/>tigit materiam istorum quattuor 
+      <lb ed="#G" n="9"/>librorum, &amp; insinuauit ordinem di 
+      <lb ed="#G" n="10"/>cendorum: modo prosequitur de 
+      <lb ed="#G" n="11"/>dicendis. Et quia tractanda in ista 
+      <lb ed="#G" n="12"/>scientia sunt res, &amp; signa, ideo
+      ma<lb ed="#G" n="13" break="no"/>gister primo tractat de rebus. Secu 
+      <lb ed="#G" n="14"/>do de signis. Secunda pars incipit ibi, Samaritanus autem 
+      <lb ed="#G" n="15"/>Res vero sunt multiplices: quia quaedam sunt fruibiles,  
+      <lb ed="#G" n="16"/>quaedam vtibiles, quaedam vtibile, &amp; fruibile simul in se 
+      <lb ed="#G" n="17"/>concludentes. Et secundum hoc prima pars diuiditur in 
+      <lb ed="#G" n="18"/>tres partes: quia primo tractat de fruibilibus. Secundo de 
+      <lb ed="#G" n="19"/>vtibilibus. Tertio de fruibili, &amp; vtibili modo admirabili 
+      <lb ed="#G" n="20"/>in eodem concurrentibus, Secunda incipit ibi,
+      Creatio<lb ed="#G" n="21" break="no"/>nem rerum Tertia ibi. Cum venit ergo plenitudo. Pri 
+      <lb ed="#G" n="22"/>ma diuiditur in duas partes: quia primo magister deter 
+      <lb ed="#G" n="23"/>minat de Deo quantum ad ea, quae sibi conueniunt im 
+      <lb ed="#G" n="24"/>trinsece. Secundo quantum ad ea, quae conueniunt sibi 
+      <lb ed="#G" n="25"/>aliquo modo etiam intrinsece: puta per modum causae; 
+      <lb ed="#G" n="26"/>ibi, Cumque supra &amp;c. Prima in duas: quia primo tractat. 
+      <lb ed="#G" n="27"/>de Deo, &amp; suis perfectionibus intrinsecis Secundo de non 
+      <lb ed="#G" n="28"/>minibus, huiusmodi perfectiones exprimentibus, ibi, Pos 
+      <lb ed="#G" n="29"/>praedicta differendum. Prima diuiditur in tres: quia
+      pri<lb ed="#G" n="30" break="no"/>mo determinat de Deo quantum ad essentiae vnitatem 
+      <lb ed="#G" n="31"/>&amp; personarum trinitatem. Secundo quantum ad persona 
+      <lb ed="#G" n="32"/>lis originis, &amp; distinctionis alietatem. Tertio quatum ad 
+      <lb ed="#G" n="33"/>maiestatis aequalitatem. Secunda pars incipit ibi. Hic
+      ori<lb ed="#G" n="34" break="no"/>tur quaestio Tertia ibi. Nunc postquam &amp;c. Prima in 
+      <lb ed="#G" n="35"/>duas, quia primo magister ostendit diuinae essentiae vnita 
+      <lb ed="#G" n="36"/>tem, &amp; personarum trinitatem ex sacrarum scripturarum 
+      <lb ed="#G" n="37"/>auctoritate. Secundo ratione sumpta ex creaturarum
+      si<lb ed="#G" n="38" break="no"/>militudine ibi, Apostolus naque &amp;c. Prima in duas:
+      qui<lb ed="#G" n="39" break="no"/>primo magister instruit, &amp; informat lectorem istius scien 
+      <lb ed="#G" n="40"/>tiae, &amp; vniuersaliter sactae scripturae. Secundo de essentia 
+      <lb ed="#G" n="41"/>diuinae vnitate, &amp; personarum trinitate incipit determi- 
+      <lb ed="#G" n="42"/>nare ibi Proponamus ergo in medium. Prima diuiditu 
+      <lb ed="#G" n="43"/>in tres partes: quia primo magister ostendit, quod studen; 
+      <lb ed="#G" n="44"/>sacrae scripturae debet virtutibus pollere. Secundo insi 
+      <lb ed="#G" n="45"/>nuat, quid debet praesupponere, &amp; firmiter tenere.
+      Ter<lb ed="#G" n="46" break="no"/>tio quem modum procedendi vniuersaliter debet habe 
+      <lb ed="#G" n="47"/>re. Secunda ibi, Omnes autem catholici. Tertia ibi. Vt in 
+      <lb ed="#G" n="48"/>lib primo de tri. Tunc sequitur illa pars. Proponamus er 
+      <lb ed="#G" n="49"/>go in medium, &amp; diuiditur in duas partes: quia primo at 
+      <lb ed="#G" n="50"/>ctoritatibus veteris testamenti ostendit essentiae diuinae 
+      <lb ed="#G" n="51"/>vnitatem. Secundo diuinarum personarum ostendit tri 
+      <lb ed="#G" n="52"/>nitatem, ibi Personarum quoque pluralitatem. Circa istam 
+      <lb ed="#G" n="53"/>litteram quaero. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

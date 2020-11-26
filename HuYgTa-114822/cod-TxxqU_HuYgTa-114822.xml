@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Circa textum</title>
+            <author ref="#ThomasStrasbourg">Thomas of Strasbourg</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Circa textum</title>
+               <date when="2020-11-26">November 26, 2020</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="G" n="cod-TxxqU">Genoa 1585</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2020-11-26" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#G" n="-r"/>
+            <cb ed="#G" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="HuYgTa-114822"><!-- HuYgTa-l2d8ct1 -->
+            <head xml:id="HuYgTa-114822-Hd1e108">Circa textum</head>
+            <p xml:id="HuYgTa-114822-d1e111">
+               <lb ed="#G" n="89"/>
+               <pc type="indent"/>DISTINCTIO VIII. 
+      <lb ed="#G" n="90"/>Preuissima huius distinctionis diuisio, in qua de 
+      <lb ed="#G" n="91"/>
+               <pc type="indent"/>angelorum in corporibus apparitione. 
+      <lb ed="#G" n="92"/>
+               <pc type="indent"/>distincte determinatuir.
+    </p>
+            <p xml:id="HuYgTa-114822-d1e129">
+               <lb ed="#G" n="93"/>
+               <pc type="indent"/>SO1 ET etiam in quaestione Postquam 
+      <lb ed="#G" n="94"/>
+               <pc type="indent"/>Magister determinauit de malorum 
+      <lb ed="#G" n="95"/>angelorum casu &amp; depressione, hic 
+      <lb ed="#G" n="96"/>prosequitur de corporum assumptio 
+      <lb ed="#G" n="97"/>ne, seu de angelorum in corporibus 
+      <lb ed="#G" n="98"/>apparitione, &amp; diuiditur in duas pai 
+      <lb ed="#G" n="99"/>tes: quia primo inquirit, vtrum talia 
+      <lb ed="#G" n="100"/>corpora ipsis angelis) essentialiter com 
+      <lb ed="#G" n="101"/>ulentur. Secundo vtrum ipsi daemones humanis
+      corpo<lb ed="#G" n="102" break="no"/>ribus, siue animabus hom inum substantialiter
+      illaban<lb ed="#G" n="103" break="no"/>tur ibi, lllud etiam. Prima in duas: nam primo inquirit,  
+      <lb ed="#G" n="104"/>an corpora, in quibus quandoque apparent angeli, sint de 
+      <lb ed="#G" n="105"/>nouo assumpta, vel sint eis naturaliter vnita. Secundo osten 
+      <lb ed="#G" n="106"/>dit, quomodo etiam in corpore quandoque apparet
+      per<lb ed="#G" n="107" break="no"/>sona diuina, Nec dubitandum est, &amp; haec in duas: nam pri 
+      <lb ed="#G" n="108"/>mo ostendit, quod persona diuina quandoque apparuit 
+      <lb ed="#G" n="109"/>in corporali substantia, Secundo probat, quod Deus in 
+      <lb ed="#G" n="110"/>hac mortali vita inuisibilis est in propria sua essentia ibi, 
+      <lb ed="#G" n="111"/>Ceterum haec: Circa istam lectionem quaero hanc
+      quae<lb ed="#G" n="112" break="no"/>stionem. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

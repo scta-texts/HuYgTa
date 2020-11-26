@@ -1,0 +1,648 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#ThomasStrasbourg">Thomas of Strasbourg</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2020-11-26">November 26, 2020</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="G" n="cod-TxxqU">Genoa 1585</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2020-11-26" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#G" n="NaN-v"/>
+            <cb ed="#G" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="HuYgTa-193521"><!-- HuYgTa-l3d27et28q1 -->
+            <head xml:id="HuYgTa-193521-Hd1e108">Quaestio 1</head>
+            <head xml:id="HuYgTa-193521-Hd1e111" type="question-title">
+      An habitus caritatis sit virtus
+    </head>
+            <p xml:id="HuYgTa-193521-d1e114">
+               <lb ed="#G" n="101"/>
+               <pc type="indent"/>Quaestio 1 
+      <lb ed="#G" n="102"/>An habitus caritatis sit virtus.  
+    </p>
+            <p xml:id="HuYgTa-193521-d1e123">
+               <lb ed="#G" n="103"/>
+               <pc type="indent"/>RESOLVTIO. 
+      <lb ed="#G" n="104"/>caritas quidem non virtus solum, verum virtutum etiam
+      omni<lb ed="#G" n="105" break="no"/>
+               <pc type="indent"/>um suprema esse statuitur : neque tamen propterea peculiaris 
+      <lb ed="#G" n="106"/>quoque virtus esse desinit Vnde si quo ad eius actum considere 
+      <lb ed="#G" n="107"/>tur in ordine ad suum principale obiectum, modum, qat
+      men<lb ed="#G" n="108" break="no"/>suram non inuenit.
+    </p>
+            <p xml:id="HuYgTa-193521-d1e143">
+               <lb ed="#G" n="109"/>VTRVM caritas sit virtus. Videtur, quod
+      non<lb ed="#G" n="110" break="no"/>V Quia quod non est vna virtus, hoc non est virtus: 
+      <lb ed="#G" n="111"/>
+               <pc type="indent"/>caritas non est vna virtus. Maior patet: quia
+      se<lb ed="#G" n="112" break="no"/>cundum Noe, omne, quod est ideo est: quia vnum
+      nu<lb ed="#G" n="113" break="no"/>mero est. Patet etiam minor: quia cum caritas sit
+      for<lb ed="#G" n="114" break="no"/>ma omnium virtutum, oportet eam multiplicari
+      secun<lb ed="#G" n="115" break="no"/>dum multiplicationem virtutum: ergo &amp;c. 
+    </p>
+            <p xml:id="HuYgTa-193521-d1e164">
+               <lb ed="#G" n="116"/>
+               <pc type="indent"/>Contra illud, quod maxime repugnat vitio, hoc est 
+      <lb ed="#G" n="117"/>maxime virtus: sed caritas maxime repugnat vitio.
+      Ma<lb ed="#G" n="118" break="no"/>or patet: quia virtus, &amp; vitium sunt opposita. Minor simi 
+      <lb ed="#G" n="119"/>iter patet, quia caritas maxime expellit peccatum iuxta 
+      <lb ed="#G" n="120"/>illud Apostoli, Caritas operit multitudinem
+      peccato<lb ed="#G" n="121" break="no"/>rum: ergo &amp;c 
+      <!--558.xml-->
+      <pb ed="#G" n="P2_44-r"/>
+               <cb ed="#G" n="a"/>
+               <lb ed="#G" n="1"/>Hic quattuor sunt videnda. Primo de principali quaesito 
+      <lb ed="#G" n="2"/>Secundo, vtrum caritas, seu Dei dilectio habeat modum. 
+      <lb ed="#G" n="3"/>Et hoc quantum ad dist. 27. Tertio, vtrum creaturae ira 
+      <lb ed="#G" n="4"/>tionales sint diligendae ex caritate. Quarto, vtrum dae 
+      <lb ed="#G" n="5"/>mones, seu quaecunquae craeaturae peccatrices sint diligen 
+      <lb ed="#G" n="6"/>dae ex caritate. Et hoc quantum ad dist. 28 
+    </p>
+            <p xml:id="HuYgTa-193521-d1e201">
+               <lb ed="#G" n="7"/>
+               <pc type="indent"/>ARTICVLVS 1. 
+      <lb ed="#G" n="8"/>Vtrum habitus caritatis sit virtus.
+    </p>
+            <p xml:id="HuYgTa-193521-d1e210">
+               <lb ed="#G" n="9"/>VANTVM ad primum pono duas conclusiones 
+      <lb ed="#G" n="10"/>C Prima est, quod caritas non solum est virtus, ve 
+      <lb ed="#G" n="11"/>rum etiam est omnium virtutum praecipua. Quia eo mo 
+      <lb ed="#G" n="12"/>do excellentiae, quo conuenit alicui aliqua diffinitio,
+      eo<lb ed="#G" n="13" break="no"/>dem modo sibi conuenit diffinitio, seu descriptio virtutis: 
+      <lb ed="#G" n="14"/>qua dicitur in ethicis, quod virtus est disposito perfecti 
+      <lb ed="#G" n="15"/>ad optimum: excellentissime conuenit caritati: ergo &amp;c 
+    </p>
+            <p xml:id="HuYgTa-193521-d1e228">
+               <lb ed="#G" n="16"/>
+               <pc type="indent"/>Praeterea, habitus cuius actus est maxime virtuosus,  
+      <lb ed="#G" n="17"/>ille est, praecipue virtus: actus caritatis est maxime virtu 
+      <lb ed="#G" n="18"/>sus: quia quanto actus est magis meritorius, tanto
+      magi<lb ed="#G" n="19" break="no"/>est virtuosus: sed actus caritatis est maxime merito 
+      <lb ed="#G" n="20"/>rius cum per sui assistentiam ceteris actibus com 
+      <lb ed="#G" n="21"/>petat esse meritorium. FORTE dicetur, quod 
+      <lb ed="#G" n="22"/>virtus secundum philosophum est circa difficilia: sec 
+      <lb ed="#G" n="23"/>diligere non est difficile: quia vt ait <ref xml:id="HuYgTa-193521-Rd1e249">Aug. in lib confess</ref> 
+               <lb ed="#G" n="24"/>nihil <quote xml:id="HuYgTa-193521-Qd1e255" source="http://scta.info/resource/aconf-l3-d1e102" synch="94-100">dulcius quam amari, &amp; amare</quote>. Respondeo que ly
+      dif<lb ed="#G" n="25" break="no"/>ficilia, vel refertur ad obiectum virtutis, &amp; tunc minor 
+      <lb ed="#G" n="26"/>non est vera: quia caritas est principaliter circa Deum 
+      <lb ed="#G" n="27"/>qui ratione suae excellentiae multum excedit humanam 
+      <lb ed="#G" n="28"/>facultatem, vel refertur ad actus virtutum, &amp; tunc maior 
+      <lb ed="#G" n="29"/>est falsa: quia, licet patiamur difficultatem in actibus, qui 
+      <lb ed="#G" n="30"/>bus virtus acquiritur: tamen non patimur difficultatem 
+      <lb ed="#G" n="31"/>in actibus, qui a virtutibus eliciuntur, cum signum sit
+      ge<lb ed="#G" n="32" break="no"/>nerati habitus habere delectationem, vel tristitiam in
+      o<lb ed="#G" n="33" break="no"/>pere, vt dicitur <ref xml:id="HuYgTa-193521-Rd1e277">2. ethicorum</ref>, delectationem in
+      operatio<lb ed="#G" n="34" break="no"/>ne, scilicet virtutis, &amp; tristitiam in opposito virtutis. 
+    </p>
+            <p xml:id="HuYgTa-193521-d1e283">
+               <lb ed="#G" n="35"/>
+               <pc type="indent"/>Sed contra praedictam conclusionem est quaedam opi- 
+      <lb ed="#G" n="36"/>nio, quam reputo esse erroneam, quae dicit quod fides est 
+      <lb ed="#G" n="37"/>excellentior virtus ipsa caritate. Quod probat primo sic 
+    </p>
+            <p xml:id="HuYgTa-193521-d1e294">
+               <lb ed="#G" n="38"/>
+               <pc type="indent"/>llla virtus est eminentior, per quam homo efficacius 
+      <lb ed="#G" n="39"/>consequitur suum vltimum finem scilicet beatitudinen 
+      <lb ed="#G" n="40"/>fides est huiusmodi: quia dicit Apostolus. Sancti per fidi 
+      <lb ed="#G" n="41"/>vicerunt regna, operati sunt iustitiam, adepti sunt
+      repro<lb ed="#G" n="42" break="no"/>missiones, quarum promissionum vna quasi
+      principali<lb ed="#G" n="43" break="no"/>fuit aeterna beatitudo: ergo &amp;c.
+    </p>
+            <p xml:id="HuYgTa-193521-d1e313">
+               <lb ed="#G" n="44"/>2 Praeterca, sicut se habet prudentia ad virtutes mori 
+      <lb ed="#G" n="45"/>les acquisitas, sic se habet fides ad virtutes insusas: Nam 
+      <lb ed="#G" n="46"/>fides est quaedam prudentia a Deo infusa: quia ipsa est re 
+      <lb ed="#G" n="47"/>cta ratio agibilium ordinatorum ad finem supernatur; 
+      <lb ed="#G" n="48"/>lem, ficut prudentia est recta ratio agibilium ordinatorum 
+      <lb ed="#G" n="49"/>ad finem naturalem, vel politicum: sed prudentia est ni 
+      <lb ed="#G" n="50"/>bilior omni virtute morali, vt patet <ref xml:id="HuYgTa-193521-Rd1e330">8. eth.</ref> ergo fides erit 
+      <lb ed="#G" n="51"/>nobilior caritate 
+    </p>
+            <p xml:id="HuYgTa-193521-d1e336">
+               <lb ed="#G" n="52"/>
+               <pc type="indent"/>Praeterea, virtus, per quam efficimur filij Dei, est no 
+      <lb ed="#G" n="53"/>bilior omni alia virtute: fides est huiusmodi: quia
+      dici<lb ed="#G" n="54" break="no"/>loan. Omnis, qui credit, quoniam lesus est filius Dei, ex 
+      <lb ed="#G" n="55"/>Deo natus est. Et ibidem. Omne, quod natum ex Deo 
+      <lb ed="#G" n="56"/>vincit mundum, &amp; haec est victoria, quae vincit mundum, 
+      <lb ed="#G" n="57"/>fides nostra. Addunt etiam isti per modum corollarij, qui 
+      <lb ed="#G" n="58"/>fides infusa nullo modo potest esse sine caritate:
+      Qui<lb ed="#G" n="59" break="no"/>non est possibile, quod fides insusa sit in aliquo, nisi ipse 
+      <lb ed="#G" n="60"/>fit iustus, &amp; sine peccato mortali: quia omnis, qui natus 
+      <lb ed="#G" n="61"/>est ex Deo, non facit peccatum, quoniam semen ipsius in 
+      <lb ed="#G" n="62"/>eo manet, &amp; non potest peccare: quoniam ex Deo natus 
+      <lb ed="#G" n="63"/>est, vt dicit loan. sed qui credit in nomine Dei, hic ex 
+      <lb ed="#G" n="64"/>Deo natus est, vt patet <ref xml:id="HuYgTa-193521-Rd1e368">lo. 1.</ref> Item <ref xml:id="HuYgTa-193521-Rd1e371">Abacuch</ref> dicit. <quote xml:id="HuYgTa-193521-Qd1e374">Iu 
+        <lb ed="#G" n="65"/>stus ex fide viuit</quote>. Item ait Saluator ad mulierem
+      pec<lb ed="#G" n="66" break="no"/>catricem, de qua septem eiecit demonia. Fides tuat 
+      <lb ed="#G" n="67"/>saluam fecit. Item Apostolus ait. lustificati igitur ex 
+      <lb ed="#G" n="68"/>fide pacem habeamus ad Deum 
+      <!--558.xml-->
+      <cb ed="#G" n="b"/>
+               <lb ed="#G" n="69"/>Et si dicitur istis, quod Apostolus 1. ad Cor. 135. comparan 
+      <lb ed="#G" n="70"/>do caritatem ad fidem, &amp; spem, ait. <quote xml:id="HuYgTa-193521-Qd1e395" source="http://scta.info/resource/Icor13_13" synch="9-13">Maior autem horun 
+        <lb ed="#G" n="71"/>est caritas</quote>. Ipsi respondent, quod hoc pro tanto dixit 
+      <lb ed="#G" n="72"/>Apostolus: quia caritas praesupponit fidem, &amp; spem, &amp; in 
+      <lb ed="#G" n="73"/>cludit ea in sua essentiali diffinitione: nam, vt dicunt, fi- 
+      <lb ed="#G" n="74"/>des est causa cfficiens ipsius caritatis. Et hoc ipsi probani 
+      <lb ed="#G" n="75"/>auctoritate Apostoli vbi ait. Finis praecepti est caritas, de 
+      <lb ed="#G" n="76"/>corde puro &amp; conscientia bona, &amp; fide non ficta 
+      <lb ed="#G" n="77"/>Recolligendo igitur dicta istorum, ipsi quattuor ponun 
+      <lb ed="#G" n="78"/>quae sunt contraria veritati
+    </p>
+            <p xml:id="HuYgTa-193521-d1e416">
+               <lb ed="#G" n="79"/>1 Quorum primum est ipsa principalis conclusio,
+      sci<lb ed="#G" n="80" break="no"/>licet, quod fides sit excellentior caritate: Quia dicit 8. 
+      <lb ed="#G" n="81"/>Det. Estote prudentes, &amp; vigilate in orationibus: ante 
+      <lb ed="#G" n="82"/>omnia autem mutuam in vobismetipsis caritatem
+      conti<lb ed="#G" n="83" break="no"/>nuam habentes: quia caritas operit multitudinem pecca 
+      <lb ed="#G" n="84"/>torum, sed isti spiritualem prudentiam dicunt esse fidem 
+      <lb ed="#G" n="85"/>ergo caritas, ad quam habendam D. Petrus nos hortatur. 
+      <lb ed="#G" n="86"/>ante omnia vniuersaliter, &amp; specialiter ante prudentiam  
+      <lb ed="#G" n="87"/>erit excellentior omnibus vniuersaliter, &amp; fide
+      specia<lb ed="#G" n="88" break="no"/>liter. 
+    </p>
+            <p xml:id="HuYgTa-193521-d1e440">
+               <lb ed="#G" n="89"/>
+               <pc type="indent"/>2 Praeterea, Apostolus loquens de fide a spiritu sar 
+      <lb ed="#G" n="90"/>cto infusa, ait. Alij datur fides in eodem spiritu. &amp;
+      pluri<lb ed="#G" n="91" break="no"/>bus virtutibus, &amp; donis spiritus sancti enumeratis in prir 
+      <lb ed="#G" n="92"/>cipio 14. ca. ait. AEmulamini chai ismata melio.. Et sul 
+      <lb ed="#G" n="93"/>dit excellentiorem viam vobis demonstrabo. Et quod 
+      <lb ed="#G" n="94"/>ista excellentior via sit caritas patet: quia immediate se 
+      <lb ed="#G" n="95"/>quitur. Si linguis loquar hominum, &amp; Anger orum:
+      cari<lb ed="#G" n="96" break="no"/>tatem autem non habeam, factus sum velut aes sonans: 
+      <lb ed="#G" n="97"/>aut cvmbalum tinniens. Et sequitur ibidem. Et si
+      ha<lb ed="#G" n="98" break="no"/>buero omnem fidem ita, vt montes transferam, caritatem 
+      <lb ed="#G" n="99"/>autem non habucro, nihil sum
+    </p>
+            <p xml:id="HuYgTa-193521-d1e469">
+               <lb ed="#G" n="100"/>3 Praeterea, actus caritatis est excellentior actu fidei 
+      <lb ed="#G" n="101"/>ergo caritas excellentior fide. Consecuentia patet:
+      qui<lb ed="#G" n="102" break="no"/>ex actibus iudicamus de habitibus. Antecedens ratet: 
+      <lb ed="#G" n="103"/>quia actus bcatae fruitionis est actus caritatis 
+    </p>
+            <p xml:id="HuYgTa-193521-d1e480">
+               <lb ed="#G" n="104"/>
+               <pc type="indent"/>Patet etiam testimonio Saluatoris, qui loquens de
+      a<lb ed="#G" n="105" break="no"/>ctu caritatis, quo diligimus Deum ex toto corde, ait. 
+      <lb ed="#G" n="106"/>Hoc est maximum, &amp; primum mandatum. Et
+      Aposto<lb ed="#G" n="107" break="no"/>us ait. Plenitudo legis est dilectio. Et Greg. in
+      Homel<lb ed="#G" n="108" break="no"/>Omne praeceptum de sola dilectione est: quia quicquio 
+      <lb ed="#G" n="109"/>praecipitur, in sola dilectione solidatur. Sicut eni m
+      mul<lb ed="#G" n="110" break="no"/>ti arboris rami ex vna radice procedunt, sic multae
+      virtu<lb ed="#G" n="111" break="no"/>tes ex vna caritate generantur. Nec habet aliquid
+      viridi<lb ed="#G" n="112" break="no"/>tatis ramus boni operis, si non manet in radice dilectionis
+    </p>
+            <p xml:id="HuYgTa-193521-d1e505">
+               <lb ed="#G" n="113"/>4 Praeterea, <ref xml:id="HuYgTa-193521-Rd1e509">Augst. 15. de trinit.</ref> loquens de caritate 
+      <lb ed="#G" n="114"/>ait. <quote xml:id="HuYgTa-193521-Qd1e514" source="http://scta.info/resource/adt-l15-d1e1896" synch="3-20">Nullum donum Dei est isto excellentius, quod
+      so<lb ed="#G" n="115" break="no"/>lum diuidit inter filios regni aeterni, &amp; filios perditioni 
+        <lb ed="#G" n="116"/>aeternae</quote>. Et ad probationem istius inducit Aug.
+      auctori<lb ed="#G" n="117" break="no"/>tatem Apostoli supradictam, qua ait. <quote xml:id="HuYgTa-193521-Qd1e524">si habero omnem 
+        <lb ed="#G" n="118"/>fidem</quote> &amp;c. Item Aug. super illud psal. 81. Nonum est com 
+      <lb ed="#G" n="119"/>fiteri Domino &amp;c. ait. Caritas autem, quae nobis tertio 
+      <lb ed="#G" n="120"/>adiungitur ad fidem, &amp; spem: maior est supra fidem, &amp; spe 
+    </p>
+            <p xml:id="HuYgTa-193521-d1e534">
+               <lb ed="#G" n="121"/>
+               <pc type="indent"/>Secundo, isti deficiunr, quod dicunt fidem insusam nul 
+      <lb ed="#G" n="122"/>lo modo posse esse sine caritate 
+    </p>
+            <p xml:id="HuYgTa-193521-d1e543">
+               <lb ed="#G" n="123"/>
+               <pc type="indent"/>Quia tunc frustra fecisset Apostolus totam illam di 
+      <lb ed="#G" n="124"/>ductionem, quam fecit <ref xml:id="HuYgTa-193521-Rd1e551">1. ad Cor. 15.</ref> Si enim fides non 
+      <lb ed="#G" n="125"/>posset separari a caritate, tunc non posset monstrari al 
+      <lb ed="#G" n="126"/>tior via, quam via fidei. Nec etiam possemus aemulari 
+      <lb ed="#G" n="127"/>charismata meliora, quam ea, quae fidei sunt 
+    </p>
+            <p xml:id="HuYgTa-193521-d1e562">
+               <lb ed="#G" n="128"/>
+               <pc type="indent"/>Item, frustra distinxisset Apostolus fidem contra
+      cari<lb ed="#G" n="129" break="no"/>tatem dicens. Si habuero omnem fidem, caritatem
+      au<lb ed="#G" n="130" break="no"/>tem non habuero, nihil sum
+    </p>
+            <p xml:id="HuYgTa-193521-d1e573">
+               <lb ed="#G" n="131"/>2 Praeterea, iam dictum verbum Apostoli
+      exponen<lb ed="#G" n="132" break="no"/>
+               <ref xml:id="HuYgTa-193521-Rd1e579">Aug. 15. de trinit.</ref> ait. <quote xml:id="HuYgTa-193521-Qd1e582" source="http://scta.info/resource/adt-l15-d1e1896" synch="191-201">Sine caritate fides potest esse, sec 
+        <lb ed="#G" n="133"/>non prodesse</quote> : ergo &amp;c. Tertio, deficiunt in hoc, quo 
+      <lb ed="#G" n="134"/>dicunt fidem esse causam efficientem caritatis
+    </p>
+            <p xml:id="HuYgTa-193521-d1e590">
+               <lb ed="#G" n="135"/>1 Quia quauis fides possit dici causa dispositiua respectiu 
+      <lb ed="#G" n="136"/>caritatis secundum quod indignius &amp; imperfectius potel 
+      <lb ed="#G" n="137"/>disponere ad receptionem eius, quod perfectius est: tamen 
+      <lb ed="#G" n="138"/>fides non potest esse causa effectua caritatis, &amp; maxime 
+      <lb ed="#G" n="139"/>secundum quod efficientia probat eminentiam
+      respe<lb ed="#G" n="140" break="no"/>ctu sui effectus, secundum quod isti ad praesens
+      inten<lb ed="#G" n="141" break="no"/>dunt arguere. 
+    </p>
+            <p xml:id="HuYgTa-193521-d1e609">
+      <!--559.xml-->
+               <pb ed="#G" n="P2_44-v"/>
+               <cb ed="#G" n="a"/>
+               <lb ed="#G" n="1"/>2 Praeterea, si &amp;c tunc homo efficeret in se habitunm 
+      <lb ed="#G" n="2"/>caritatis, Consequens est impossibile: quia solus Deus ess 
+      <lb ed="#G" n="3"/>creator, &amp; productor caritatis. Consequentiam probo. 
+      <lb ed="#G" n="4"/>quia fides non posset esse principium effectiuum,
+      carita<lb ed="#G" n="5" break="no"/>tis nisi principium quo, &amp; per consequens homo per fi- 
+      <lb ed="#G" n="6"/>dem esset principium quod.
+    </p>
+            <p xml:id="HuYgTa-193521-d1e631">
+               <lb ed="#G" n="7"/>Quarto, deficiunt in eo, quod dicunt fidem esse de essen 
+      <lb ed="#G" n="8"/>tiali diffiniti one caritatis. 
+    </p>
+            <p xml:id="HuYgTa-193521-d1e638">
+               <lb ed="#G" n="9"/>
+               <pc type="indent"/>1 Quia si hoc esset verum, impossibile esset fidem rea 
+      <lb ed="#G" n="10"/>liter differre a caritate: quia nihil pertinet ad
+      essentia<lb ed="#G" n="11" break="no"/>em diffinitionem alicuius, nisi ipsum pertineat ad
+      essen<lb ed="#G" n="12" break="no"/>tiam eius: Sed falsitas consequentis est nota: tum quia
+      si<lb ed="#G" n="13" break="no"/>des potest esse sine caritate, vt iam probatum est: tum 
+      <lb ed="#G" n="14"/>quia caritas potest esse sine fide, vt apparet in patria, vb 
+      <lb ed="#G" n="15"/>posito, quod maneat fides cum caritate de facto;
+      possibi<lb ed="#G" n="16" break="no"/>le est tamen beatum habere caritatem, &amp; fide carere.
+    </p>
+            <p xml:id="HuYgTa-193521-d1e660">
+               <lb ed="#G" n="17"/>2 Praeterea, illud quartum membrum contradicit ei 
+      <lb ed="#G" n="18"/>quod isti asserunt in tertio membro: nam causa efficiens, 
+      <lb ed="#G" n="19"/>cum necessario differat ab eo, cuius est causa: igitur non 
+      <lb ed="#G" n="20"/>potest pertinere ad essentialem diffinitionem illius,
+      cu<lb ed="#G" n="21" break="no"/>ius est causa 
+    </p>
+            <p xml:id="HuYgTa-193521-d1e673">
+               <lb ed="#G" n="22"/>
+               <pc type="indent"/>Ad primum motiuum eorum dicendum, quod talis vi 
+      <lb ed="#G" n="23"/>ctoria non conueniebat patribus per solam fidem, sed per 
+      <lb ed="#G" n="24"/>fidem caritate informatam. Vnde omnia talia attribuen 
+      <lb ed="#G" n="25"/>da sunt fidei propter caritatem: Et quia propter quod vnum 
+      <lb ed="#G" n="26"/>quodque tale, &amp; ipsum magis, vt dicitur t. posteriorum 
+      <lb ed="#G" n="27"/>ideo Apostolus huiusmodi praerogatiuas soli caritati
+      vi<lb ed="#G" n="28" break="no"/>detur attribuere dicens Caritas omnia suffert, omnia cre 
+      <lb ed="#G" n="29"/>dit, omnia sperat, omnia sustinet &amp;c 
+    </p>
+            <p xml:id="HuYgTa-193521-d1e695">
+               <lb ed="#G" n="30"/>
+               <pc type="indent"/>Ad secundum dicendum, quod quamuis in hoc sit
+      ali<lb ed="#G" n="31" break="no"/>qualis similitudo de prudentia, &amp; fide, quod sicut pruden 
+      <lb ed="#G" n="32"/>tia est recta ron&amp;c tamen in hoc est dissimilitudo: quia pri 
+      <lb ed="#G" n="33"/>dentia potest proprie dici causa cuiuslibet uirtutis mo¬¬ 
+      <lb ed="#G" n="34"/>ralis: nam omnis virtus moralis est in potestate
+      pru<lb ed="#G" n="35" break="no"/>dentis: quia omnis uirtus moralis, vel est actualiter anne 
+      <lb ed="#G" n="36"/>xa prudentiae, vel saltem prudens per prudentiam suam 
+      <lb ed="#G" n="37"/>potest ipsam in seipso efficere: fidelis autem non potest 
+      <lb ed="#G" n="38"/>efficere caritatem: quia solius Dei donum est.  
+    </p>
+            <p xml:id="HuYgTa-193521-d1e720">
+               <lb ed="#G" n="39"/>
+               <pc type="indent"/>Item prudentia adeo est connexa virtuti morali, quod 
+      <lb ed="#G" n="40"/>virtus moralis nullum actum perfectum potest elicere 
+      <lb ed="#G" n="41"/>sine prudentia: sed caritas potissimum suum actum
+      scili<lb ed="#G" n="42" break="no"/>cet fruitionem patriae elicit sine omni sidei cooperatione. 
+    </p>
+            <p xml:id="HuYgTa-193521-d1e733">
+               <lb ed="#G" n="43"/>
+               <pc type="indent"/>Ad tertium dicendum, quod fides facit nos esse filios 
+      <lb ed="#G" n="44"/>Dei, in quantum est informata caritate: &amp; ideo huiusmo 
+      <lb ed="#G" n="45"/>di filiatio principaliter est attribuenda caritati. Vnde
+      sa<lb ed="#G" n="46" break="no"/>tra scriptura hanc filiationem attribuit caritati dicens 
+      <lb ed="#G" n="47"/>videte qualem caritatem dedit nobis Deus pater, vt filij 
+      <lb ed="#G" n="48"/>Dei nominemur. Et Apostolus ait. Qui spiritu Dei agun 
+      <lb ed="#G" n="49"/>tur, hi filij Dei sunt. Tales autem sunt in caritate
+      radica<lb ed="#G" n="50" break="no"/>ti, in quorum cordibus caritas diffusa est per spiritum san 
+      <lb ed="#G" n="51"/>ctum: ergo &amp;c. Et per idem patet ad omnes alias
+      au<lb ed="#G" n="52" break="no"/>ctoritates 
+    </p>
+            <p xml:id="HuYgTa-193521-d1e759">
+               <lb ed="#G" n="53"/>
+               <pc type="indent"/>Secundo dico, quod caritas est virtus specialis saltem 
+      <lb ed="#G" n="54"/>in essendo. Quia illa virtus, cuius obiectum formale for 
+      <lb ed="#G" n="55"/>maliter sumptum distinctum est ab obiecto cuiuscumque 
+      <lb ed="#G" n="56"/>alterius virtutis, est specialis virtus, caritas est
+      huiusmo<lb ed="#G" n="57" break="no"/>di, vt patet ex supradictis 
+    </p>
+            <p xml:id="HuYgTa-193521-d1e775">
+               <lb ed="#G" n="58"/>
+               <pc type="indent"/>Per hoc tamen non intendo negare, quin caritas possit 
+      <lb ed="#G" n="59"/>dici virtus vniuersalis in operando, maxime quantum ad 
+      <lb ed="#G" n="60"/>opus imperatum, &amp; meritorium: quia quo ad hoc caritas 
+      <lb ed="#G" n="61"/>omni virturi cooperatur. 
+    </p>
+            <p xml:id="HuYgTa-193521-d1e788">
+               <lb ed="#G" n="62"/>
+               <pc type="indent"/>porte dicetur, quod modus agendi sequitur modum essen 
+      <lb ed="#G" n="63"/>di: si igitur caritas in essendo est virtus specialis, etiam in 
+      <lb ed="#G" n="64"/>agendo erit virtus specialis. 
+    </p>
+            <p xml:id="HuYgTa-193521-d1e799">
+               <lb ed="#G" n="65"/>
+               <pc type="indent"/>Respondeo, quod caritas est virtus specialis etiam in 
+      <lb ed="#G" n="66"/>agendo quantum ad actum proprium a caritate
+      immedi<lb ed="#G" n="67" break="no"/>te elicitum, puta, quantum ad actum dilectionis: quia t. 
+      <lb ed="#G" n="68"/>lis actus a nulla alia virtute elicitur nisi ab ipsa caritate; 
+      <lb ed="#G" n="69"/>maxime si sit diligere supernaturale, &amp; meritorium. Sed  
+      <lb ed="#G" n="70"/>hoc non obstante, potest dici virtus vniuersalis in agedi 
+      <lb ed="#G" n="71"/>quo ad actum imperatum. Nec refert si dicatur, quod
+      ca<lb ed="#G" n="72" break="no"/>ritas habet pro obiecto Deum, &amp; proximum: Quia vbi 
+      <lb ed="#G" n="73"/>vnum propter alterum, vtrobique tantum vnum, vt di¬ 
+      <!--559.xml-->
+      <cb ed="#G" n="b"/>
+               <lb ed="#G" n="74"/>citur in topicis: sed caritate diligimus proximum propt 
+      <lb ed="#G" n="75"/>Dcum: ergo propter vnitatem principalis obiecti canta 
+      <lb ed="#G" n="76"/>est virtus vna. Vnde sicut in moralibus non obstinte, u 
+      <lb ed="#G" n="77"/>amicitia sit vna, &amp; specialis virtus: tamen eadem amiciti 
+      <lb ed="#G" n="78"/>diligimus amicum, &amp; ea, quae amici sunt: sic eadem cari 
+      <lb ed="#G" n="79"/>tate diligimus Deum, &amp; ea, quaeDei sunt 
+    </p>
+            <p xml:id="HuYgTa-193521-d1e842">
+               <lb ed="#G" n="80"/>
+               <pc type="indent"/>ARTICVLVS I 
+      <lb ed="#G" n="81"/>Vtrum caritas seu dilectio Dei habeat modim
+    </p>
+            <p xml:id="HuYgTa-193521-d1e851">
+               <lb ed="#G" n="82"/>
+               <pc type="indent"/>QVANTVM ad secundum articulum Magister sen 
+      <lb ed="#G" n="83"/>
+               <pc type="indent"/>tentiarum haberet dicere, quod caritas nechi 
+      <lb ed="#G" n="84"/>bet modum, nec mensuram, cum secundum eum carit 
+      <lb ed="#G" n="85"/>sit quid infinitum, &amp; increatum, puta, ipse spiritussanctu 
+      <lb ed="#G" n="86"/>sed secundum nos, qui dicimus caritatem esse virtuten 
+      <lb ed="#G" n="87"/>creatam, necessario habemus dicere, quod caritas in esse 
+      <lb ed="#G" n="88"/>tia sua sit quid limitatum &amp; modificatum
+    </p>
+            <p xml:id="HuYgTa-193521-d1e873">
+               <lb ed="#G" n="89"/>1 Quia secundum Aug. omnia fecit Dominus in modo 
+      <lb ed="#G" n="90"/>pecle, &amp; ordine. Sic etiam ait ille sapiens, quod omnia 
+      <lb ed="#G" n="91"/>fecit Deus in numero, pondere, &amp; mensura
+    </p>
+            <p xml:id="HuYgTa-193521-d1e882">
+               <lb ed="#G" n="92"/>2 Praeterea, omne, quod in certo genere reponitur, ei 
+      <lb ed="#G" n="93"/>ens limitatum, &amp; intrinsece modificatum per propriam 
+      <lb ed="#G" n="94"/>suam differentiam: sed caritas est ad certum genus limia 
+      <lb ed="#G" n="95"/>ta, cum sit vera, &amp; realis qualitas: ergo &amp;c
+    </p>
+            <p xml:id="HuYgTa-193521-d1e893">
+               <lb ed="#G" n="96"/>4 Praeterea, omnis formalis perfectio entis finitiesti 
+      <lb ed="#G" n="97"/>intrinsece modificata: sed caritas est formalis perfecioi 
+      <lb ed="#G" n="98"/>voluntatis creatae, quae est quid finitum: Attamen, sicin 
+      <lb ed="#G" n="99"/>tas consideratur quo ad actum suum in ordine ad suum 
+      <lb ed="#G" n="100"/>principale obiectum, quod est ipsa diuina bonitas,
+      vtsio<lb ed="#G" n="101" break="no"/>proprie non habet modum, cum tale obiectum sit in imi 
+      <lb ed="#G" n="102"/>nitum diligibile, &amp; per consequens a nulla creatura
+      tan<lb ed="#G" n="103" break="no"/>tum diligi potest, quin magis sit diligibile, si ipsa creatu 
+      <lb ed="#G" n="104"/>ra plus posset diligere. Et isto modo intelligendumesi 
+      <lb ed="#G" n="105"/>istud verbum bernm. quo ait in libro de diligendo Deun 
+      <lb ed="#G" n="106"/>Causa diligendi Deum Deus ipse est, modus autem sin 
+      <lb ed="#G" n="107"/>modo diligere. 
+    </p>
+            <p xml:id="HuYgTa-193521-d1e922">
+               <lb ed="#G" n="108"/>
+               <pc type="indent"/>AR TICVLVS II1. 
+      <lb ed="#G" n="109"/>Vtrum creatur ae irrationales sint
+      dili<lb ed="#G" n="110" break="no"/>
+               <pc type="indent"/>gendae ex caritate.
+    </p>
+            <p xml:id="HuYgTa-193521-d1e936">
+               <lb ed="#G" n="111"/>VANTVM ad tertium articulum est aduertendi 
+      <lb ed="#G" n="112"/>quod dupliciter contingit nos diligere. Vnonoi 
+      <lb ed="#G" n="113"/>do amore amicitiae. Alio modo amore concupiseenua 
+      <lb ed="#G" n="114"/>Primo modo, irrationalia non sunt ex caritate diligeli 
+    </p>
+            <p xml:id="HuYgTa-193521-d1e947">
+               <lb ed="#G" n="115"/>1 Quia beneuolentia non potest esse ad irrationalia 
+      <lb ed="#G" n="116"/>vt patet 8. ethicorum, sed amor amicitiae includit benod 
+      <lb ed="#G" n="117"/>uolentiam diligentis ad dilectum: ergo &amp;c. 
+    </p>
+            <p xml:id="HuYgTa-193521-d1e956">
+               <lb ed="#G" n="118"/>2 Praeterea, vt declaraui in primo libro dist. 1. quicqu 
+      <lb ed="#G" n="119"/>diligitur amore amicitiae, illud est diligendum propter sol 
+    </p>
+            <p xml:id="HuYgTa-193521-d1e963">
+               <lb ed="#G" n="120"/>
+               <pc type="indent"/>3 Praeterea, illa diligere debemus amore amicitia 
+      <lb ed="#G" n="121"/>quae vna nobiscum societatem constituere possunt:  
+      <lb ed="#G" n="122"/>irrationalia non sunt talia. Maior patet per August. q 
+      <lb ed="#G" n="123"/>ait, quod non omnia, quibus vtendum est, diligenda sil 
+      <lb ed="#G" n="124"/>ex caritate: sed quae nobiscum societate quadam reb 
+      <lb ed="#G" n="125"/>runtur in Deum 
+    </p>
+            <p xml:id="HuYgTa-193521-d1e981">
+               <lb ed="#G" n="126"/>
+               <pc type="indent"/>Sed secundo modo, scilicet amore concupiseentiem 
+      <lb ed="#G" n="127"/>sumus aliquo modo etiam irrationabilia diligere exes 
+      <lb ed="#G" n="128"/>ritate. Quia cum diligere sit velle bonum alicur, igitur di 
+      <lb ed="#G" n="129"/>aliquem proximum ex caritate diligimus, possumus e&amp; 
+      <lb ed="#G" n="130"/>dem caritate irrationalia bona diligere, in quantum de 
+      <lb ed="#G" n="131"/>mus, quod iste noster dilectus per huiusmodi bona ades 
+      <lb ed="#G" n="132"/>ternam suam salutem poterit promoueri, &amp; vltimo suo 
+      <lb ed="#G" n="133"/>fini coniungi, puta, diuinae bonitati: ergo &amp;c. Addo tamen 
+      <lb ed="#G" n="134"/>aliquo modo: quia actus istius dilectionis non termna 
+      <lb ed="#G" n="135"/>tur proprie ad bonum irrationale, sed ad ipsum dilectum 
+      <lb ed="#G" n="136"/>cui talia bona desideramus Propter quod ipsa inrationo 
+      <lb ed="#G" n="137"/>ia non sunt terminus dilectionis ex caritate, sed sunt ma 
+      <lb ed="#G" n="138"/>teria dilectionis 
+      <!--560.xml-->
+      <pb ed="#G" n="P2_45-r"/>
+               <cb ed="#G" n="a"/>
+               <lb ed="#G" n="1"/>Forte dicetur, quod homo non potest se ipsum
+      dilige<lb ed="#G" n="2" break="no"/>re ex caritate : ergo nec aliqua irrationalia. Consequen 
+      <lb ed="#G" n="3"/>tia patet, quia ex caritate diligenda sunt ea, in quibus es 
+      <lb ed="#G" n="4"/>similitudo Dei: sed expressior est similitudo in homine, 
+      <lb ed="#G" n="5"/>quam in quacumque irrationali creatura. Antecedens po 
+      <lb ed="#G" n="6"/>test probari sic. Amor reprehensibilis non est ex caritate 
+      <lb ed="#G" n="7"/>sed amor sui est reprehensibilis: Quia dicit Apostolu 
+      <lb ed="#G" n="8"/>Erunt homines seipsos amantes. Item Creg. ait, quod 
+      <lb ed="#G" n="9"/>caritas minus, quam inter duos esse non potest: in
+      alte<lb ed="#G" n="10" break="no"/>rum enim caritas tendit. 
+    </p>
+            <p xml:id="HuYgTa-193521-d1e1042">
+               <lb ed="#G" n="11"/>
+               <pc type="indent"/>Respondeo negando antecedens: quia cum homo ex 
+      <lb ed="#G" n="12"/>caritate teneatur diligere proximum suum, sicut seipsum 
+      <lb ed="#G" n="13"/>iuxta praeceptum Saluatoris: igitur oportet, quod seipsum 
+      <lb ed="#G" n="14"/>diligat ex caritate. Vnde etiam in ciuili amicitia forma 
+      <lb ed="#G" n="15"/>diligendi amicum accipitur exemplariter ex forma dili 
+      <lb ed="#G" n="16"/>gendi seipsum: quia amicus est alter ego, vt pater in 9. 
+      <lb ed="#G" n="17"/>ethicorum. Vnde ibidem dicitur, quod amicabilia, qua 
+      <lb ed="#G" n="18"/>sunt ad alterum, ortum habent, seu trahunt ex
+      amicabi<lb ed="#G" n="19" break="no"/>libus, quae sunt ad nos ipsos. Ad probationem dicendum 
+      <lb ed="#G" n="20"/>quod licet, quod homines ament seipsos inordinate, si 
+      <lb ed="#G" n="21"/>vituperabile: tamen, quod diligant seipsos ordinate, non 
+      <lb ed="#G" n="22"/>est reprehensibile, sed valde laudabile. Quis autem de 
+      <lb ed="#G" n="23"/>beat esse ordo in diligendo, in sequenti quaestione pate 
+      <lb ed="#G" n="24"/>bit. Ad dictum reg. dicendum, quod per hoc non inten 
+      <lb ed="#G" n="25"/>dit Creg. dicere, quod homo non possit seipsum diligero 
+      <lb ed="#G" n="26"/>ex caritate: sed vult dicere, quod ex caritate non possit 
+      <lb ed="#G" n="27"/>diligere solum se: quia diligit se in ordine ad alterum, 
+      <lb ed="#G" n="28"/>scilicet ad Deum, &amp; ad proximum: &amp; ideo quamuis
+      di<lb ed="#G" n="29" break="no"/>ligat se: tamen dilectione caritatis tendit in alterum.  
+    </p>
+            <p xml:id="HuYgTa-193521-d1e1089">
+               <lb ed="#G" n="30"/>
+               <pc type="indent"/>ARTICVLVS IIII. 
+      <lb ed="#G" n="31"/>Vtrum Demones seu quecumque creaturae peccatri 
+      <lb ed="#G" n="32"/>ces sint diligendae eax caritate.
+    </p>
+            <p xml:id="HuYgTa-193521-d1e1100">
+               <lb ed="#G" n="33"/>VANTVM ad quartum articulum dico, quod pec 
+      <lb ed="#G" n="34"/>catores possunt esse in duplici statu. Quia, vel 
+      <lb ed="#G" n="35"/>sunt in via, ita quod possibile est eos poenitere, vel sunt 
+      <lb ed="#G" n="36"/>in termino, seu extra viam, ita quod non possunt vlterius 
+      <lb ed="#G" n="37"/>meritorie poenitere. 
+    </p>
+            <p xml:id="HuYgTa-193521-d1e1113">
+               <lb ed="#G" n="38"/>
+               <pc type="indent"/>Primo modo ponam conclusionem affirmatiuam,
+      sci<lb ed="#G" n="39" break="no"/>licet, quod sunt ex caritate diligendi, saltem quantum 
+      <lb ed="#G" n="40"/>ad eorun aturam, secundum quantum sunt ad imaginem Dei 
+      <lb ed="#G" n="41"/>1 Quia quibus benefaciendum est, illi sunt ex
+      carita<lb ed="#G" n="42" break="no"/>te diligendi: sed malis benefaciendum est: quia ad hoc 
+      <lb ed="#G" n="43"/>aborare debemus, vt a suis peccatis conuertantur, quod 
+      <lb ed="#G" n="44"/>cedit ad magnum bonum eorum.
+    </p>
+            <p xml:id="HuYgTa-193521-d1e1133">
+               <lb ed="#G" n="45"/>2 Praeterea, ait Aug. quod sic diligendi sunt homines 
+      <lb ed="#G" n="46"/>vt non diligantur eorum errores. Et idem Aug. ait, quod 
+      <lb ed="#G" n="47"/>in praecepto dilectionis proximi omnis homo continetur, 
+    </p>
+            <p xml:id="HuYgTa-193521-d1e1142">
+               <lb ed="#G" n="48"/>
+               <pc type="indent"/>Contra istam conclusionem a quibusdam arguitur sic 
+      <lb ed="#G" n="49"/>1 Illi, qui non gaudent eisdem, non possunt habere ami- 
+      <lb ed="#G" n="50"/>citiam ad seinuicem, vt patet. <ref xml:id="HuYgTa-193521-Rd1e1152">9. ethicorum</ref>: sed virtuosi, 
+      <lb ed="#G" n="51"/>&amp; vitiosi non gaudent eisdem: sed magis gaudent oppo. 
+      <lb ed="#G" n="52"/>sitis: In eo enim, in quo virtuosus laetatur, vitiosus
+      tri<lb ed="#G" n="53" break="no"/>statur, cum signum sit acquisiti habitus habere delecta. 
+      <lb ed="#G" n="54"/>tionem in opere, quod est secundum illum habitum, v 
+      <lb ed="#G" n="55"/>patet <ref xml:id="HuYgTa-193521-Rd1e1166">2. ethicorum</ref>: sed virtuosus habet habitum virtuo 
+      <lb ed="#G" n="56"/>sum, &amp; vitiosus vitiosum. 
+    </p>
+            <p xml:id="HuYgTa-193521-d1e1173">
+               <lb ed="#G" n="57"/>
+               <pc type="indent"/>2 Praeterea, deficiente causa deficit effectus: sed
+      caus<lb ed="#G" n="58" break="no"/>dilectionis deficit inter iustum, &amp; peccatorem: quia simil 
+      <lb ed="#G" n="59"/>tudo est causa dilectionis. Isti autem sunt valde dissimiles 
+      <lb ed="#G" n="60"/>Respondeo, ad primum, quod, quamuis illa maior si 
+      <lb ed="#G" n="61"/>vera, loquendo de amicitia ciuili, &amp; temporali: tamen 
+      <lb ed="#G" n="62"/>non est vera, loquendo de amicitia diuina, &amp; spirituali 
+      <lb ed="#G" n="63"/>qua etiam inimicos iubemur diligere, &amp; ipsis benefacere 
+      <lb ed="#G" n="64"/>qui nos oderint. vel dicendum, quod maior est vera de 
+      <lb ed="#G" n="65"/>his, qui nec actu, nec aptitudine gaudent eisdem: sed pec 
+      <lb ed="#G" n="66"/>catores, quauis actu non gaudeant eisdem cum bonis, &amp; iu 
+      <lb ed="#G" n="67"/>stis: aptitudine tamen illo gaudio, quamdiu sunt m via 
+      <lb ed="#G" n="68"/>totaliter non priuantur: &amp; ideo ex dilectione, &amp; caritate 
+      <lb ed="#G" n="69"/>sunt iuuandi, vt talis aptitudo in actum reducatur.
+    </p>
+            <p xml:id="HuYgTa-193521-d1e1207">
+      <!--560.xml-->
+               <cb ed="#G" n="b"/>
+               <lb ed="#G" n="70"/>Ad secundum dicendum, quod peccatores quamdit 
+      <lb ed="#G" n="71"/>sunt in via secundum aptitudinem naturalem, sunt
+      simi<lb ed="#G" n="72" break="no"/>les ipsis hominibus virtuosis, sed secundum malitiam 
+      <lb ed="#G" n="73"/>actualem sunt ipsi dissimiles: ideo secundum naturam  
+      <lb ed="#G" n="74"/>sunt ex caritate diligendi: sed secundum malitiam sunt 
+      <lb ed="#G" n="75"/>odier. di¬ 
+    </p>
+            <p xml:id="HuYgTa-193521-d1e1227">
+               <lb ed="#G" n="76"/>
+               <pc type="indent"/>Secundo modo, puta, loquendo de peccatoribus dam  
+      <lb ed="#G" n="77"/>natis extra viam salutis totaliter positis, tunc ponam con 
+      <lb ed="#G" n="78"/>clusionem negatiuam. 1 Quia illi, qui sic se habent,  
+      <lb ed="#G" n="79"/>quod impossibile est eos venire ad vnam societatem
+      no<lb ed="#G" n="80" break="no"/>biscum, illos non tenemur, nec debemus diligere ex
+      ca<lb ed="#G" n="81" break="no"/>ritate: damnati sunt huiusmodi: ergo &amp;c. Minor pates 
+      <lb ed="#G" n="82"/>ex fide. Maior etiam patet ex dicto beati Aug. superium 
+      <lb ed="#G" n="83"/>introducto.
+    </p>
+            <p xml:id="HuYgTa-193521-d1e1249">
+               <lb ed="#G" n="84"/>2 Praeterea, quicumque sunt talis condicionis, quod 
+      <lb ed="#G" n="85"/>respectu eorum amicitia est dissoluenda, illi non sunt
+      di<lb ed="#G" n="86" break="no"/>ligendi ex caritate: damnati sunt huiusmodi. Maior
+      pa<lb ed="#G" n="87" break="no"/>tet. Minorem probo: quia secundum Arist. 8. ethicorum 
+      <lb ed="#G" n="88"/>dissoluenda est amicitia ad eos, qui sunt in malitia
+      obdu<lb ed="#G" n="89" break="no"/>rati, &amp; incurabiles propter malitiam abundantem: Sed,  
+      <lb ed="#G" n="90"/>damnati sunt totaliter obdurati, &amp; penitus incurabiles 
+      <lb ed="#G" n="91"/>seu insanabiles: ergo &amp;c 
+    </p>
+            <p xml:id="HuYgTa-193521-d1e1269">
+               <lb ed="#G" n="92"/>
+               <pc type="indent"/>Praeterea, August. dicit, qui diligit proximum, vel 
+      <lb ed="#G" n="93"/>quia iustus est, vel vt iustus sit, debet diligere: Se d
+      dam<lb ed="#G" n="94" break="no"/>nati, nec sunt iusti, nec possunt fieri iusti : ergo non sunt 
+      <lb ed="#G" n="95"/>diligendi 
+    </p>
+            <p xml:id="HuYgTa-193521-d1e1282">
+               <lb ed="#G" n="96"/>
+               <pc type="indent"/>Forte dicetur, quod omnem rationalem creaturam
+      ho<lb ed="#G" n="97" break="no"/>mo tenetur diligere, quae sibi vtilis est ad beatitudinis 
+      <lb ed="#G" n="98"/>suae augmentum, &amp; ipsum promouet ad virtutem: daemo 
+      <lb ed="#G" n="99"/>nes sunt huiusmodi, qui ex eo, quod nos exercitant hic 
+      <lb ed="#G" n="100"/>in via, augetur in bono homine meritum virtutis in prae 
+      <lb ed="#G" n="101"/>senti, &amp; praemium gloriae in futuro. 
+    </p>
+            <p xml:id="HuYgTa-193521-d1e1300">
+               <lb ed="#G" n="102"/>
+               <pc type="indent"/>Respondeo, quod quamuis maior sit vera de tali
+      ratio<lb ed="#G" n="103" break="no"/>nali creatura, quae per se, &amp; propria intentione est vtilis;  
+      <lb ed="#G" n="104"/>tamen non est vera si solum per accidens, &amp; praeter om- 
+      <lb ed="#G" n="105"/>nem intentionem prodest: sed daemones, quamuis
+      pe<lb ed="#G" n="106" break="no"/>accidens nobis prosint ad virtutem, &amp; beatitudinem: per si 
+      <lb ed="#G" n="107"/>tamen, &amp; quantum in se est, tunc intendunt nos impedire 
+    </p>
+            <p xml:id="HuYgTa-193521-d1e1319">
+               <lb ed="#G" n="108"/>
+               <pc type="indent"/>Ad argumentum principale nego minorem. Ad
+      pro<lb ed="#G" n="109" break="no"/>bationem dicendum, quod caritas non est forma virtuti 
+      <lb ed="#G" n="110"/>sic, quod ipsis virtutibus inhaereat subiectiue: sed dicituri 
+      <lb ed="#G" n="111"/>forma virtutum, eo quod omnibus cooperatur ad hoc, 
+      <lb ed="#G" n="112"/>quod opus eorum sit viuum, &amp; meritorium.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

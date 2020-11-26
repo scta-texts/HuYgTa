@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Circa textum 3</title>
+            <author ref="#ThomasStrasbourg">Thomas of Strasbourg</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Circa textum 3</title>
+               <date when="2020-11-26">November 26, 2020</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="G" n="cod-TxxqU">Genoa 1585</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2020-11-26" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#G" n="-r"/>
+            <cb ed="#G" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="HuYgTa-e17367"><!-- HuYgTa-l1d1ct3 -->
+            <head xml:id="HuYgTa-e17367-Hd1e108">Circa textum 3</head>
+            <p xml:id="HuYgTa-e17367-d1e111">
+               <lb ed="#G" n="30"/>Hic secunda subdiuisionis particula
+      per<lb ed="#G" n="31" break="no"/>pulchre aperitur: in qua Magister dif 
+      <lb ed="#G" n="32"/>ficultates quasdam circa
+      proposi<lb ed="#G" n="33" break="no"/>tam materiam
+      contingen<lb ed="#G" n="34" break="no"/>tes obiter determinat
+    </p>
+            <p xml:id="HuYgTa-e17367-d1e124">
+               <lb ed="#G" n="35"/>CVM AVTEM IOMINES &amp;c 
+      <lb ed="#G" n="36"/>In ista parte circa praedicta
+      magi<lb ed="#G" n="37" break="no"/>ster mouet quaestiones quasdam 
+      <lb ed="#G" n="38"/>&amp; diuiditur in tres partes, secundi 
+      <lb ed="#G" n="39"/>quod tres mouet quaestiones.
+      Pri<lb ed="#G" n="40" break="no"/>ma est, vtrum homo hominibus 
+      <lb ed="#G" n="41"/>debeat frui, vel vti. Secunda vtrum 
+      <lb ed="#G" n="42"/>Deus hominibus fruatur, vel vta 
+      <lb ed="#G" n="43"/>tur. Tertia Vtrum virtutibus vti, vel srui debeamus. Se 
+      <lb ed="#G" n="44"/>cunda ibi, Sed cum Deus diligat nos. Tertia ibi, Hic con 
+      <lb ed="#G" n="45"/>siderandum est. Et quaelibet istarum diuiditur in duas
+      par<lb ed="#G" n="46" break="no"/>tes, secundum quod primo magister praemittit quaestionem, 
+      <lb ed="#G" n="47"/>secundo adiungit quaestioni resposionem: partes patent 
+      <lb ed="#G" n="48"/>Circa materiam istius lectionis quaero hanc quaestionem. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

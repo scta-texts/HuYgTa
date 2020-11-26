@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Circa textum 1</title>
+            <author ref="#ThomasStrasbourg">Thomas of Strasbourg</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Circa textum 1</title>
+               <date when="2020-11-26">November 26, 2020</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="G" n="cod-TxxqU">Genoa 1585</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2020-11-26" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#G" n="NaN-v"/>
+            <cb ed="#G" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="HuYgTa-232343"><!-- HuYgTa-l4d11ct1 -->
+            <head xml:id="HuYgTa-232343-Hd1e108">Circa textum 1</head>
+            <p xml:id="HuYgTa-232343-d1e111">
+               <lb ed="#G" n="102"/>
+               <pc type="indent"/>DISTINCTIO XI 
+      <lb ed="#G" n="103"/>Tractatus de modis conuersionis dilucida diuisio &amp; 
+      <lb ed="#G" n="104"/>praesentis distinctionis non inepta
+      subdi<lb ed="#G" n="105" break="no"/>uisio, in qua de modo &amp; qualitate 
+      <lb ed="#G" n="106"/>conuersionis fucharistie 
+      <lb ed="#G" n="107"/>per agitur.
+    </p>
+            <p xml:id="HuYgTa-232343-d1e129">
+               <lb ed="#G" n="108"/>IVERO QVARITVR. Postquam ma 
+      <lb ed="#G" n="109"/>gister superius determinauit de istius
+      sa<lb ed="#G" n="110" break="no"/>cramenti differenti sumptione: in ista 
+      <lb ed="#G" n="111"/>parte determinat de eiusdem sacramenti 
+      <lb ed="#G" n="112"/>confectione praecedenti. Circa quod ess 
+      <lb ed="#G" n="113"/>gegndgdl aduertendem, quod in ista mrabili
+      conse<lb ed="#G" n="114" break="no"/>tione sunt attendenda tria satis mirabilia: nam in corpus,  
+      <lb ed="#G" n="115"/> sanguinem Christi conuertitur panis, &amp; vini
+      substan<lb ed="#G" n="116" break="no"/>tia, sine subiecto remanent accidentia, &amp; haec fiunt per 
+      <lb ed="#G" n="117"/>verba a sacerdote consecrante prolata, &amp; secundum hoc 
+      <lb ed="#G" n="118"/>residua materia istius benedicti sacramenti ad praesens di 
+      <lb ed="#G" n="119"/>uiditur in tres partes: quia primo magister determinat 
+      <lb ed="#G" n="120"/>de ista admiranda conuersione. Secundo de accidentium 
+      <lb ed="#G" n="121"/>sine subiecto manentium separatione. Tertio de
+      conse<lb ed="#G" n="122" break="no"/>ctantis qualitate, &amp; condicione. Secunda ibi. Si autem 
+      <lb ed="#G" n="123"/>quaeritur de accidentibus. Tertia ibi. Solet etiam quaeri 
+      <lb ed="#G" n="124"/>Prima in duas: quia primo circa iam dictam
+      conuersio<lb ed="#G" n="125" break="no"/>nem mouet quaestionem. Secundo materiae istius conuer 
+      <lb ed="#G" n="126"/>sionis ponit determinationem, ibi. Sub alia autem
+      spe<lb ed="#G" n="127" break="no"/>cie. Prima pars est praesentis lectionis: et diuiditur in 
+      <lb ed="#G" n="128"/>duas partes: quia primo ad motam quaestionem de ista
+      mi<lb ed="#G" n="129" break="no"/>randa conuersione magister, praemisia sui excusatione,
+      ni<lb ed="#G" n="130" break="no"/>titur respondere,. Secundo duas falsas responsiones
+      cona<lb ed="#G" n="131" break="no"/>tur remouere, ibi, Quidam uero sic dicunt. Prima in duas; 
+      <lb ed="#G" n="132"/>uia primo ostendit, quid de ista conuersione sit tenendum, 
+      <lb ed="#G" n="133"/>Secundo qualiter istius conuersionis mvsterium sit
+      ex<lb ed="#G" n="134" break="no"/>primendum, ibi. Fit ergo substantia illa  
+    </p>
+            <p xml:id="HuYgTa-232343-d1e190">
+               <lb ed="#G" n="135"/>
+               <pc type="indent"/>Prima in tres: quia primo ad motam quaestionem dat 
+      <lb ed="#G" n="136"/>suam responsionem. Secundo mouet, &amp; remouet
+      contra<lb ed="#G" n="137" break="no"/>riam obiectionem. Et tertio ostendit modum praedictae 
+      <lb ed="#G" n="138"/>conuersionis excedere humanam inuestigationem. Secu 
+      <lb ed="#G" n="139"/>da ibi, Sed huic sententiae. Tertia ibi, Si vero quaeris modum. 
+    </p>
+            <p xml:id="HuYgTa-232343-d1e206">
+               <lb ed="#G" n="140"/>
+               <pc type="indent"/>Sequitur illa pars, Fit igitur substantia illa. Et
+      diuidi<lb ed="#G" n="141" break="no"/>tur in duas partes: nam primo, circa modum exprimendi 
+      <!--662.xml-->
+      <pb ed="#G" n="P2_96-r"/>
+               <cb ed="#G" n="a"/>
+               <lb ed="#G" n="1"/>praedictam conuerfionem recitat duplicem opinionem. 
+      <lb ed="#G" n="2"/>Secundo, praemittendo vnam distinctionem ponit circa 
+      <lb ed="#G" n="3"/>hoc suam determinationem ibi. Ideo distinguendum
+      vi<lb ed="#G" n="4" break="no"/>detur. Tunc sequitur illa pars, Quidam vero sic dicunt. Et 
+      <lb ed="#G" n="5"/>diuiditur in duas partes: quia primo circa quaestionem 
+      <lb ed="#G" n="6"/>praelibatam duas erroneas recitat responsiones. Secundo 
+      <lb ed="#G" n="7"/>huiusmodi errores sanctorum auctoritatibus improbat,  
+      <lb ed="#G" n="8"/>ibi, Sed quod non sit ibi substantia. Circa hanc
+      lectio<lb ed="#G" n="9" break="no"/>nem quaero huiusmodi quaestionem. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

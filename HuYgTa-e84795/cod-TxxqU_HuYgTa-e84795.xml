@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Circa textum</title>
+            <author ref="#ThomasStrasbourg">Thomas of Strasbourg</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Circa textum</title>
+               <date when="2020-11-26">November 26, 2020</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="G" n="cod-TxxqU">Genoa 1585</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2020-11-26" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#G" n="111-v"/>
+            <cb ed="#G" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="HuYgTa-e84795"><!-- HuYgTa-l1d38et39ct1 -->
+            <head xml:id="HuYgTa-e84795-Hd1e108">Circa textum</head>
+            <p xml:id="HuYgTa-e84795-d1e111">
+      <!--261.xml-->
+               <pb ed="#G" n="111-v"/>
+               <cb ed="#G" n="a"/>
+               <lb ed="#G" n="1"/>DISTINCTIO XXXVIII ET XXXIX. 
+      <lb ed="#G" n="2"/>Dilucida, ac breius diuisio harum distinctionum, in 
+      <lb ed="#G" n="3"/>quibus de comparatione scientiae Dei ad res, &amp; 
+      <lb ed="#G" n="4"/>contra, exacte pertractatur.
+    </p>
+            <p xml:id="HuYgTa-e84795-d1e129">
+               <lb ed="#G" n="5"/>
+               <pc type="indent"/>IVNC ad oppositum &amp;c. Hic Mag 
+      <lb ed="#G" n="6"/>ster facit comparationem scientiae 
+      <lb ed="#G" n="7"/>Dei ad res scitas, &amp; econuerso, &amp; di 
+      <lb ed="#G" n="8"/>uiditur in duas partes: nam primo 
+      <lb ed="#G" n="9"/>Magister inquirit, vtrum scientia Dei 
+      <lb ed="#G" n="10"/>sit causa rerum, secundo vtrum scien 
+      <lb ed="#G" n="11"/>tia Dei mutetur ex mutatione re- 
+      <lb ed="#G" n="12"/>adl rum ibi, Praeterea quaeri solet.
+      Pri<lb ed="#G" n="13" break="no"/>ma in duas: nam primo mouet quaestionem, &amp; ponit eius 
+      <lb ed="#G" n="14"/>solutionem, secundo ex illa solutione mouet aliam
+      inci<lb ed="#G" n="15" break="no"/>dentem dubitationem ibi, Ad hoc autem quod supra 
+      <lb ed="#G" n="16"/>dictum est. Prima in duas; nam primo mouet praedictam 
+      <lb ed="#G" n="17"/>questionem, &amp; procedit tirca eam opinatiue ad vtram 
+      <lb ed="#G" n="18"/>que partem arguendo, secundo determinatiue veritaten 
+      <lb ed="#G" n="19"/>asserendo ibi, Hanc, quae videtur, repugnantiam. Tunc se 
+      <lb ed="#G" n="20"/>quitur illa pars, Praeterea quaeri solet &amp;c. quae est
+      princi<lb ed="#G" n="21" break="no"/>pium distinctionis 38. &amp; diuiditur in tres partes; nam pri 
+      <lb ed="#G" n="22"/>mo Magister proponit quaestionem, secundo interponi 
+      <lb ed="#G" n="23"/>suam responsionem, Tertio opponit quorundam
+      obie<lb ed="#G" n="24" break="no"/>ctionem. Secunda ibi, Ad quod dicimus. Tertia ibi, Hic 
+    </p>
+            <p xml:id="HuYgTa-e84795-d1e177">
+               <lb ed="#G" n="25"/>
+               <pc type="indent"/>opponitur; Et haec in duas, secundum quod contra duc 
+      <lb ed="#G" n="26"/>dicta adducit instantias, seu obiectiones. Secunda ibi, Ei 
+      <lb ed="#G" n="27"/>vero. Prima in tres: nam primo Magister tangit huiusmo 
+      <lb ed="#G" n="28"/>di obiectionem, secundo respondet secundum propriam 
+      <lb ed="#G" n="29"/>intentionem: tertio respondet secundum aliorum
+      opi<lb ed="#G" n="30" break="no"/>nionem. Secunda ibi, Ad quod dicimus Potest quidem 
+      <lb ed="#G" n="31"/>Deus. Tertia ibi Item a quibusdam &amp;c. Sequitur illa pars 
+      <lb ed="#G" n="32"/>Ei vero, quod &amp;c. vbi primo ex dictis beati Hicronym  
+      <lb ed="#G" n="33"/>contra quaedam praedicta adducit instantiam, secundo hu 
+      <lb ed="#G" n="34"/>iusmodi dicta exponit iuxta rectam intelligentiam
+      ibi<lb ed="#G" n="35" break="no"/>Ex tali itaque. Circa istas distinctiones quaero. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

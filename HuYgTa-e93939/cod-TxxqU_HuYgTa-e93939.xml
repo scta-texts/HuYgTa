@@ -1,0 +1,1003 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#ThomasStrasbourg">Thomas of Strasbourg</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2020-11-26">November 26, 2020</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="G" n="cod-TxxqU">Genoa 1585</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2020-11-26" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#G" n="123-v"/>
+            <cb ed="#G" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="HuYgTa-e93939"><!-- HuYgTa-l1d47et48q1 -->
+            <head xml:id="HuYgTa-e93939-Hd1e108">Quaestio 1</head>
+            <head xml:id="HuYgTa-e93939-Hd1e111" type="question-title">
+      An Deus velit aliquid de nouo.
+    </head>
+            <p xml:id="HuYgTa-e93939-d1e114">
+      <!--285.xml-->
+               <cb ed="#G" n="b"/>
+               <lb ed="#G" n="68"/>Quaestio  1. 
+      <lb ed="#G" n="69"/>An Deus velit aliquid de nouo.
+    </p>
+            <p xml:id="HuYgTa-e93939-d1e125">
+               <lb ed="#G" n="70"/>
+               <pc type="indent"/>IRVM si Deus aliquid de nouo vellet,  
+      <lb ed="#G" n="71"/>quod non voluit ab aeterno, ex hoc
+      rea<lb ed="#G" n="72" break="no"/>iter mutaretur,
+    </p>
+            <p xml:id="HuYgTa-e93939-d1e136">
+      &amp; videtur quod non, 
+      <lb ed="#G" n="73"/>Quia realis mutatio non potest fieri in 
+      <lb ed="#G" n="74"/>aliquo, nisi duobus modis. Vno modo, 
+      <lb ed="#G" n="75"/>quod aliquid realiter in eo acquiratur, 
+      <lb ed="#G" n="76"/>Alio modo, quod aliquid realiter in eo deperdatur, seu 
+      <lb ed="#G" n="77"/>ib eo auferatur: Sed realis actio etiam in creaturis
+      con<lb ed="#G" n="78" break="no"/>tinuata potest terminari de nouo ad aliquod obiectum, 
+      <lb ed="#G" n="79"/>ad quod printo non terminabatur sine hoc, quod in
+      agen<lb ed="#G" n="80" break="no"/>te aliquid acquiratur, vel aliquid deperdatur, nec per 
+      <lb ed="#G" n="81"/>consequens agens ex tali terminatione alteratur : ergo 
+      <lb ed="#G" n="82"/>aeterna Dei volitio ad aliquod nouum volitum poterit 
+      <lb ed="#G" n="83"/>terminari absque omni ipsius Dei mutatione. Maior
+      pa<lb ed="#G" n="84" break="no"/>tet : Probo minorem, quia, cum visus fertur in aliquid 
+      <lb ed="#G" n="85"/>primo indistincte, eadem visio continuata suceessiue
+      ter<lb ed="#G" n="86" break="no"/>minatur ad plura distincte, &amp; nihil ibi deperditur, nec 
+      <lb ed="#G" n="87"/>aliquid de nouo acquiritur, eo quod eadem visio
+      conti<lb ed="#G" n="88" break="no"/>nuetur: ergo &amp;c. 
+    </p>
+            <p xml:id="HuYgTa-e93939-d1e174">
+               <lb ed="#G" n="89"/>
+               <pc type="indent"/>Contra, impossibile est fieri transitum de
+      contindicto<lb ed="#G" n="90" break="no"/>rio in contradictorium, nisi fiat mutatio in aliquo, sed non 
+      <lb ed="#G" n="91"/>velle &amp; velle sunt contradictoria maxime dum sumuntur 
+      <lb ed="#G" n="92"/>respectu eiusdem, ergo si Deus de nouo aliquid vellet,  
+      <lb ed="#G" n="93"/>quod non voluit ab aeterno, esset transitus de
+      contradicto<lb ed="#G" n="94" break="no"/>rio in contradictorium, &amp; in volito non est necesse fieri 
+      <lb ed="#G" n="95"/>talem mutationem, ergo esset in uolente. lllam
+      assum<lb ed="#G" n="96" break="no"/>tam probo. s. quod talis mutatio non esset necessario in 
+      <lb ed="#G" n="97"/>volito, quia sicut ex hot, quod Deus voluit ab aeterno
+      Anti<lb ed="#G" n="98" break="no"/>christum esse in fine mundi, non suit ab aeterno aliqua 
+      <lb ed="#G" n="99"/>mutatio in Antichristo: sic, si Deus nunc de nouo vellet 
+      <lb ed="#G" n="100"/>Antichristum esse in fine mundi, ex hoc non fieret aliqua 
+      <lb ed="#G" n="101"/>mutatio nunc in Antichristo: quia nihil nuc esset de
+      An<lb ed="#G" n="102" break="no"/>tichristo, quod esset capax illius mutationis. Circa illas 
+      <lb ed="#G" n="103"/>duas vltimas dist. primi libri quattuor sunt videnda.
+      Pri<lb ed="#G" n="104" break="no"/>mo de eo, quod quaeritur Secundo, vtrum aliquid existens 
+      <lb ed="#G" n="105"/>contra diuinam voluntatem possit cadere sub praecepto, 
+      <lb ed="#G" n="106"/>&amp; hoc quantum ad dist. 27. Tertio, utrum teneamur
+      no<lb ed="#G" n="107" break="no"/>stram uoluntatem conformare diuinae uoluntati. Et quar 
+      <lb ed="#G" n="108"/>to, in quo debeat esse huiusmodi conformitas. Et hoc 
+      <lb ed="#G" n="109"/>quantum ad dist. 28. &amp; ultimam. 
+    </p>
+            <p xml:id="HuYgTa-e93939-d1e224">
+               <lb ed="#G" n="110"/>
+               <pc type="indent"/>RESOLVTIO. 
+      <lb ed="#G" n="111"/>Nihil de nouo Deus vult, quod ab eterno voluit. Vnde quamuis 
+      <lb ed="#G" n="112"/>non nihil, quod tius aduerlatur volunt ati, praecipere
+      videa<lb ed="#G" n="113" break="no"/>tur, id tamen simpliciter non vult, etsi id propter quod
+      prae<lb ed="#G" n="114" break="no"/>ceptum fuit, maxime velit, ex quo intelligi datur, nuliu
+      aber<lb ed="#G" n="115" break="no"/>rare, qui suam illi voluntatem recte conformabit. 
+    </p>
+            <p xml:id="HuYgTa-e93939-d1e242">
+               <lb ed="#G" n="116"/>
+               <pc type="indent"/>ARTICVLVSI 
+      <lb ed="#G" n="117"/>Vtrum si Deus aliquid de nouo vellet, quod non 
+      <lb ed="#G" n="118"/>polut ab aeterno, ex hoc vrealiter 
+      <lb ed="#G" n="119"/>
+               <pc type="indent"/>mutaretur. 
+    </p>
+            <p xml:id="HuYgTa-e93939-d1e258">
+               <lb ed="#G" n="120"/>VANTVM ad primum articulum, vtrum si Deus 
+      <lb ed="#G" n="121"/>aliquid de nouo uellet, quod non uoluit ab aeter 
+      <lb ed="#G" n="122"/>no, ex hoc realiter mutaretur, Dicendum, quod Deus nihil 
+      <lb ed="#G" n="123"/>pot uelle in futurum, seu de nouo, quod non uoluit ab aeterno. 
+    </p>
+            <p xml:id="HuYgTa-e93939-d1e269">
+               <lb ed="#G" n="124"/>
+               <pc type="indent"/>Quia cum diuinum velle mensuretur nunc aeterni¬ 
+      <!--286.xml-->
+      <pb ed="#G" n="124-r"/>
+               <cb ed="#G" n="a"/>
+               <lb ed="#G" n="1"/>tatis: ergo in ipso nulla poterit essa suceessio, sed in eon
+      es<lb ed="#G" n="2" break="no"/>set necessario suceessio, si Deus nunc vellet, quae primo  
+      <lb ed="#G" n="3"/>non voluit, quia velle &amp; non velle respectu eiusdem
+      vo<lb ed="#G" n="4" break="no"/>liti ad eadem voluntate contradicunt, &amp; per consequens 
+      <lb ed="#G" n="5"/>non possunt esse simul: quapropter necessario vnum 
+      <lb ed="#G" n="6"/>succeedet alteri, nec per consequens poterunt mensurari 
+      <lb ed="#G" n="7"/>nunc eternitatis, in quo nulla potest esse suceessio 
+    </p>
+            <p xml:id="HuYgTa-e93939-d1e298">
+               <lb ed="#G" n="8"/>
+               <pc type="indent"/>Et confirmatur: quia mensura propria est vnigenia com 
+      <lb ed="#G" n="9"/>mensurato, igitur non existente suceessione in mensura, 
+      <lb ed="#G" n="10"/>mensuratum oportet, quod sit simul totum 
+    </p>
+            <p xml:id="HuYgTa-e93939-d1e310">
+               <lb ed="#G" n="11"/>
+               <pc type="indent"/>2 Praeterea, si Deus vellet aliquid de nouo, quod ab 
+      <lb ed="#G" n="12"/>eterno non voluit, tunc necessario intrinsece mutaretur, 
+      <lb ed="#G" n="13"/>&amp; esset perfectibilis perfectione ab essentia sua realiter 
+      <lb ed="#G" n="14"/>differente. consequens est impossibile apud
+      philosopho<lb ed="#G" n="15" break="no"/>&amp; theologos. Probo consequentiam. quia si Deus vellet 
+      <lb ed="#G" n="16"/>aliquid de nouo, quod prius non voluit, vel hoc fieret no 
+      <lb ed="#G" n="17"/>no actu volitionis, uel hoc fieret propter nouam
+      habitu<lb ed="#G" n="18" break="no"/>dinem eius ad huiusmodi uolitum. Si primo modo, tunc 
+      <lb ed="#G" n="19"/>de plano habetur propositum quantum ad vtrumque in 
+      <lb ed="#G" n="20"/>conueniens contentum in consequente. Si datur
+      secun<lb ed="#G" n="21" break="no"/>dum, tunc sequitur idem inconueniens: quia sicut
+      noui<lb ed="#G" n="22" break="no"/>tas in re mota vt mota est, necessario praesupponit nouit 
+      <lb ed="#G" n="23"/>tem motionis; sic nouitas uoliti vt volitum est, necessa 
+      <lb ed="#G" n="24"/>rio praesupponit nouitatem uolitionis, &amp; sic sequitur idem 
+      <lb ed="#G" n="25"/>quod primo: quia noua habitudo voluntatis ad volitum 
+      <lb ed="#G" n="26"/>praesupponit nouitatem voliti ut uolitum est, &amp; per
+      con<lb ed="#G" n="27" break="no"/>sequens nonitatem nalitionis.
+    </p>
+            <p xml:id="HuYgTa-e93939-d1e352">
+               <lb ed="#G" n="28"/>1 Sed forte dicetur contra primam rationem, quod 
+      <lb ed="#G" n="29"/>nunc eternitatis propter sui illimitationem excedit ten 
+      <lb ed="#G" n="30"/>pus, &amp; omne instans temporis; Sicut igitur
+      contradicto<lb ed="#G" n="31" break="no"/>ria sibi inuicem possunt succedere in diuersis nunc tem 
+      <lb ed="#G" n="32"/>poris, sic possunt sibi succedere in eodem nunce aeternita 
+      <lb ed="#G" n="33"/>tis, quod coexistit omnibus nunc temporis.
+    </p>
+            <p xml:id="HuYgTa-e93939-d1e368">
+               <lb ed="#G" n="34"/>2 Praeterea, contra secundam rationem sic, Deus
+      po<lb ed="#G" n="35" break="no"/>test facere de nouo, quod non fecit ab aeterno sine sui mu 
+      <lb ed="#G" n="36"/>tatione, ergo potest uelle de nouo, quod non voluit ab 
+      <lb ed="#G" n="37"/>aeterno absque sui mutatione. Antecedens patet ex fide; 
+      <lb ed="#G" n="38"/>quia credimus Deum mundum produxisse in tempore 
+      <lb ed="#G" n="39"/>Consequentia uidetur ex hoc patere, quia non minus d 
+      <lb ed="#G" n="40"/>stant facere &amp; non facere, quam velle &amp; non velle: er- 
+      <lb ed="#G" n="41"/>go &amp;cetera. 
+    </p>
+            <p xml:id="HuYgTa-e93939-d1e388">
+               <lb ed="#G" n="42"/>
+               <pc type="indent"/>3 Praeterea, Deus uult nunc ludam esse damnatum 
+      <lb ed="#G" n="43"/>&amp; quandoque non voluit eum esse damnatum: quia quam 
+      <lb ed="#G" n="44"/>diu riuunt homines, tunc Deus uult omnes homines sa 
+      <lb ed="#G" n="45"/>uos feri, &amp; ad agnitionem veritatis peruenire; ergo vuli 
+      <lb ed="#G" n="46"/>aliquid Deus nunc, quod tunc non voluit, quando luda 
+      <lb ed="#G" n="47"/>vixit, quod est contra conclusionem in se. Maior patet 
+      <lb ed="#G" n="48"/>quia si Deus nunc non vellet ludam esse damnatum,
+      ip<lb ed="#G" n="49" break="no"/>se vtique non esset damnatus, quia vt patet in lib.
+      Heste<lb ed="#G" n="50" break="no"/>in ditione Dei cuncta sunt posita, nec est qui suae possi 
+      <lb ed="#G" n="51"/>resistere voluntati. Propter quod P. August. in enchi. ait 
+      <lb ed="#G" n="52"/>Pogandus est Deus, vt uelit nos facere: quia necesse est fic 
+      <lb ed="#G" n="53"/>ri, si uoluerit. 
+    </p>
+            <p xml:id="HuYgTa-e93939-d1e419">
+               <lb ed="#G" n="54"/>
+               <pc type="indent"/>Sed illa non concludunt 
+      <lb ed="#G" n="55"/>Ad primum igitut dicendum, quod quamuis possit
+      es<lb ed="#G" n="56" break="no"/>se suceessio in talibus, quae proprie tempore, vel diuersi 
+      <lb ed="#G" n="57"/>nunc temporis mensurantur: quia talibus aeternitas, ue 
+      <lb ed="#G" n="58"/>nunc aeternitatis coexistit tamquam aliena mensura, in i 
+      <lb ed="#G" n="59"/>lis tamen, qui proprie mensurantur aeternitate, seu
+      nun<lb ed="#G" n="60" break="no"/>eternitatis, sicut sunt actu immanentes in diuinis, de quo 
+      <lb ed="#G" n="61"/>rum consortio est velle diuinum, nequaquam potest esse  
+      <lb ed="#G" n="62"/>suceessio: quia da oppositum, tunc non erit proportio me 
+      <lb ed="#G" n="63"/>surati ad propriam suam mensuram 
+    </p>
+            <p xml:id="HuYgTa-e93939-d1e445">
+               <lb ed="#G" n="64"/>
+               <pc type="indent"/>Ad secundum dicendum, quod creatio, cum sit actio 
+      <lb ed="#G" n="65"/>transiens, non mensuratur nunc aeternitatis, sed nunc te 
+      <lb ed="#G" n="66"/>poris, vel aliqua alia mensura, vt patebit in secundo libs 
+      <lb ed="#G" n="67"/>quia actio, &amp; actiuum, vt actiuum est, mensurantur eade 
+      <lb ed="#G" n="68"/>mensura, quamuis corpus caeleste secundum sui naturam 
+      <lb ed="#G" n="69"/>non mensuretur tempore, sed aeuo: tamen, vt mouetu 
+      <lb ed="#G" n="70"/>mensuratur eadem mensura, qua motus sinis mensura 
+      <lb ed="#G" n="71"/>tur; &amp; ideo non est, simile de uelle diuino, quod proprio 
+      <lb ed="#G" n="72"/>mensuratur nunc aeternitatis, &amp; de praedictis operatio 
+      <lb ed="#G" n="73"/>nibus transeuntibus
+    </p>
+            <p xml:id="HuYgTa-e93939-d1e472">
+      <!--286.xml-->
+               <cb ed="#G" n="b"/>
+               <lb ed="#G" n="74"/>Ad tertium dicendum, quod sicut Deus ludam nuc uult 
+      <lb ed="#G" n="75"/>esse danatum, sic uoluit ab aeterno, quod nunc esset dam 
+      <lb ed="#G" n="76"/>natus: quia cognouit ab aeterno sic ludam operari in tem 
+      <lb ed="#G" n="77"/>pore, quod suis demeritis exige ntibus merito esset dam  
+      <lb ed="#G" n="78"/>nandus, &amp; nunc deberet esse damnatus; Nec obstat aucto 
+      <lb ed="#G" n="79"/>ritas illa, quod Deus uult omnes homines saluos fieri 
+      <lb ed="#G" n="80"/>quia illa uoluntas est conditionalis, puta hac conditio. 
+      <lb ed="#G" n="81"/>ne stante, quod ipsi obseruent eius mandata: non
+      obser<lb ed="#G" n="82" break="no"/>uantes igitur hanc conditionem sine aliqua sui mutatio 
+      <lb ed="#G" n="83"/>ne Deus aeterna voluntate vult certis suis temporibus 
+      <lb ed="#G" n="84"/>esse damnat os 
+    </p>
+            <p xml:id="HuYgTa-e93939-d1e503">
+               <lb ed="#G" n="85"/>
+               <pc type="indent"/>ARTICVLVS
+      II<lb ed="#G" n="86" break="no"/>Vtrum aliquid existens contra duinam
+      volim<lb ed="#G" n="87" break="no"/>
+               <pc type="indent"/>tatem possit cadere sub praecepto.
+    </p>
+            <p xml:id="HuYgTa-e93939-d1e516">
+               <lb ed="#G" n="88"/>QVANTVM ad secundum articulum, vtrum aliquio  
+      <lb ed="#G" n="89"/> existens contra diuinam voluntatem possit cadere 
+      <lb ed="#G" n="90"/>sub praecepto, dicendum quod quandoque illud, quod a 
+      <lb ed="#G" n="91"/>Deo praecipitur, non est secundum voluntatem Dei,
+      im<lb ed="#G" n="92" break="no"/>mo potest esse contra eam, licet illud, propter quod
+      pre<lb ed="#G" n="93" break="no"/>cipitur, sit de voluntate Dei, sicut apparuit, cum dominus 
+      <lb ed="#G" n="94"/>praecepit Abraae immolationem suit sui lsaac: contra enim 
+      <lb ed="#G" n="95"/>uoluntatem Dei fuisset, quod lsaac fuisset immolatus,  
+      <lb ed="#G" n="96"/>&amp; innoxius sanguis effusus, tamen de voluntate Dei fuit 
+      <lb ed="#G" n="97"/>probatio, &amp; manifestatio, fidei Abraae, quae fides ex hoc 
+      <lb ed="#G" n="98"/>relucebat, quod ipse propter Deum, non obstante
+      dile<lb ed="#G" n="99" break="no"/>ctione vnici filij de libera matre geniti, volebat parere 
+      <lb ed="#G" n="100"/>mandato 
+    </p>
+            <p xml:id="HuYgTa-e93939-d1e547">
+               <lb ed="#G" n="101"/>
+               <pc type="indent"/>Circa illam tamen materiam ab aliquibus dicetur,  
+      <lb ed="#G" n="102"/>quod omne, quod a Deo praecipitur, est a Deo uolitum 
+      <lb ed="#G" n="103"/>voluntate antecedente, quamuis possit esse non uolitum 
+      <lb ed="#G" n="104"/>uoluntate consequente, sicut dicunt apparere de
+      praece<lb ed="#G" n="105" break="no"/>pto immolationis lsaac 
+    </p>
+            <p xml:id="HuYgTa-e93939-d1e563">
+               <lb ed="#G" n="106"/>Sed contra illud arguitur ab aliquibus de nostris sic 
+      <lb ed="#G" n="107"/>Voluntates, quae non sunt oppositae, non possunt es 
+      <lb ed="#G" n="108"/>se de oppositis: Sed oppositum immolationis lsaac fuit a 
+      <lb ed="#G" n="109"/>Deo volitum voluntate consequente : ergo illud, quod 
+      <lb ed="#G" n="110"/>praecipiebatur, non poterat esse volitum voluntate
+      ante<lb ed="#G" n="111" break="no"/>cedente, cum voluntas antecedens non sit opposita
+      uo<lb ed="#G" n="112" break="no"/>untati consequenti 
+    </p>
+            <p xml:id="HuYgTa-e93939-d1e581">
+               <lb ed="#G" n="113"/>
+               <pc type="indent"/>Et confirmatur: quia si voluntas consequens posset
+      es<lb ed="#G" n="114" break="no"/>se de opposito eius, quod est volitum voluntate
+      antece<lb ed="#G" n="115" break="no"/>dente: tunc cum Deus voluntate antecedente velit
+      pec<lb ed="#G" n="116" break="no"/>cata non fieri, ipse voluntate consequente posset eauelle 
+      <lb ed="#G" n="117"/>fieri, quod est inconueniens. Sed quicquid sit de
+      conclu<lb ed="#G" n="118" break="no"/>sione, illa tamen necessario non concludunt. 
+    </p>
+            <p xml:id="HuYgTa-e93939-d1e600">
+               <lb ed="#G" n="119"/>
+               <pc type="indent"/>Ad primum igitur dicendum, quod voluntates, qua 
+      <lb ed="#G" n="120"/>sunt de oppositis, non sunt oppositae necessario, nisi 
+      <lb ed="#G" n="121"/>illae voluntates absolute, &amp; simpliciter sint de eis. Si enim 
+      <lb ed="#G" n="122"/>una uoluntas est de uno oppositorum sub conditione, 
+      <lb ed="#G" n="123"/>alia potest esse de opposito illius absolute, quamuis volum 
+      <lb ed="#G" n="124"/>tates non sint oppositae: sed sic est in proposito, ut patuit 
+      <lb ed="#G" n="125"/>in arti, proxi, precedenti, quia voluntas Dei antecedens 
+      <lb ed="#G" n="126"/>est omnes homines saluos fieri, sub ac conditione, si faciant. 
+      <lb ed="#G" n="127"/>ea, quae precipit, &amp; quae congruunt ordini naturae huma 
+      <lb ed="#G" n="128"/>nae respectu suae salutis: uoluntas tamen Dei consequens, 
+      <lb ed="#G" n="129"/>uae dicitur uoluntas simpliciter, &amp; absoluta, est 
+      <lb ed="#G" n="130"/>quod ille saluetur: scit enim Deus cum bene
+      finali<lb ed="#G" n="131" break="no"/>ter decessurum: &amp; quod ille non saluetur: quia scii 
+      <lb ed="#G" n="132"/>Deus, quod ipse mala sua uoluntate auertet se finaliter; 
+      <lb ed="#G" n="133"/>domino.  
+    </p>
+            <p xml:id="HuYgTa-e93939-d1e637">
+               <lb ed="#G" n="134"/>
+               <pc type="indent"/>Ad confirmationem dicendum, quod quamuis beni 
+      <lb ed="#G" n="135"/>probetur, quod non semper cuiuslibet oppositum, quod 
+      <lb ed="#G" n="136"/>Deus uult uoluntate antecedente, possit uelle uolunta 
+      <lb ed="#G" n="137"/>te consequente: non tamen probatur, quin alicuius
+      uoli<lb ed="#G" n="138" break="no"/>ti uoluntate antecedente oppositum possit uelle volun 
+      <lb ed="#G" n="139"/>tate consequente, &amp; ideo est ibi manifesta fallacia conse 
+      <lb ed="#G" n="140"/>quentis; Non enim sequitur, si vniuersalis affirmatiua sit 
+      <lb ed="#G" n="141"/>falsa, quod propter hoc particularis affirmatiua sit falsa; sic in 
+      <lb ed="#G" n="142"/>proposito &amp;crigitur confirmatio non concludit
+    </p>
+            <p xml:id="HuYgTa-e93939-d1e661">
+      <!--287.xml-->
+               <pb ed="#G" n="124-v"/>
+               <cb ed="#G" n="a"/>
+               <lb ed="#G" n="1"/>ARTICVLVS Mi 
+      <lb ed="#G" n="2"/>Vtrum Teneamur voluntatem nostram
+      con<lb ed="#G" n="3" break="no"/>formare diumae voluntati.
+    </p>
+            <p xml:id="HuYgTa-e93939-d1e677">
+               <lb ed="#G" n="4"/>QVANTVM ad tertium articulum, vtrum
+      tenea<lb ed="#G" n="5" break="no"/>mur nostram voluntatem conformare diuinae vo 
+      <lb ed="#G" n="6"/>luntati, dico, quod sic 
+    </p>
+            <p xml:id="HuYgTa-e93939-d1e686">
+               <lb ed="#G" n="7"/>
+               <pc type="indent"/>1 Quia omnis, qui tenetur ad alicuius obedientiam 
+      <lb ed="#G" n="8"/>tenetur suam voluntatem conformare voluntati illius 
+      <lb ed="#G" n="9"/>cui tenetur obedire: sed omnis homo tenetur obedire 
+      <lb ed="#G" n="10"/>Deo, ergo &amp;c. 
+    </p>
+            <p xml:id="HuYgTa-e93939-d1e699">
+               <lb ed="#G" n="11"/>
+               <pc type="indent"/>2 Praeterea, quilibet tenetur velle, quod sit sanctus &amp;  
+      <lb ed="#G" n="12"/>bonae vitae: cum igitur voluntas Dei sit santificatio nostra, 
+      <lb ed="#G" n="13"/>vt patet per Apostolum, igitur quilibet tenetur volunta 
+      <lb ed="#G" n="14"/>tem suam voluntati diuinae conformare.
+    </p>
+            <p xml:id="HuYgTa-e93939-d1e713">
+               <lb ed="#G" n="15"/>3 Praeterea, quilibet tenetur velle saluari: sed Deus 
+      <lb ed="#G" n="16"/>vult omnes homines saluos fieri, igitur sequitur idem 
+      <lb ed="#G" n="17"/>quod prius. 
+    </p>
+            <p xml:id="HuYgTa-e93939-d1e722">
+               <lb ed="#G" n="18"/>
+               <pc type="indent"/>4 Praeterea, quicumque in actione sua propriis suis 
+      <lb ed="#G" n="19"/>pensatis viribus potest deficere, tenetur se ei conformare 
+      <lb ed="#G" n="20"/>cui per se inest rectitudo, in cuius conformitate permane 
+      <lb ed="#G" n="21"/>do nequaquam potest veficere, sed omnis creata
+      volun<lb ed="#G" n="22" break="no"/>tas in sua actione potest deficere, &amp; sola Dei voluntas ex 
+      <lb ed="#G" n="23"/>sui natura sic est recta, quod omne illud, quod sibi
+      con<lb ed="#G" n="24" break="no"/>formatur rectisicat, ergo omnis homo suam voluntatem 
+      <lb ed="#G" n="25"/>diuinae voluntati tenetur conformare. 
+    </p>
+            <p xml:id="HuYgTa-e93939-d1e744">
+               <lb ed="#G" n="26"/>
+               <pc type="indent"/>3 Praeterea, quilibet homo tenctur uoluntatem suam 
+      <lb ed="#G" n="27"/>conformare tali regulae, in quam secundum suam naturam 
+      <lb ed="#G" n="28"/>reducitur regulanda : sed voluntas diuina est talis regula 
+      <lb ed="#G" n="29"/>quia Ansel in de conceptu virginali probat, qued in aliis Vi 
+      <lb ed="#G" n="30"/>ribus a voluntate non potest esse peccatum: Nam cun 
+      <lb ed="#G" n="31"/>Deus legem eis imposuit, vt voluntati obediant, obedien 
+      <lb ed="#G" n="32"/>do ei faciunt, quae tenentur, propter quod in eis peccatum 
+      <lb ed="#G" n="33"/>&amp; iniustitia esse non potest: voluntas autem immediate 
+      <lb ed="#G" n="34"/>reducitur ad voluntatem diuinam.  
+    </p>
+            <p xml:id="HuYgTa-e93939-d1e768">
+               <lb ed="#G" n="35"/>
+               <pc type="indent"/>Sed forte dicetur, quod relatiua aequiparantiae dicunt 
+      <lb ed="#G" n="36"/>ad conuertentiam: sed conformitas est relatio aequiparam. 
+      <lb ed="#G" n="37"/>tiae, ergo si uoluntas nostra conformaretur uoluntati diui 
+      <lb ed="#G" n="38"/>nae, tunc econtra uoluntas diuina conformaretur
+      uolun<lb ed="#G" n="39" break="no"/>tati nostrae, quod est falsum &amp; impossibile, ergo &amp;c 
+    </p>
+            <p xml:id="HuYgTa-e93939-d1e784">
+               <lb ed="#G" n="40"/>
+               <pc type="indent"/>Respondeo, quod dato, quod aliqua relatio aequiparantiae si 
+      <lb ed="#G" n="41"/>cundum nomen sit intei nos &amp; Deum: Beatus enim
+      loam<lb ed="#G" n="42" break="no"/>nes dicit in canonica sua, quod similes ei erimus, quonis 
+      <lb ed="#G" n="43"/>videbimus eum sicuti est; similitudo autem est relatio 
+      <lb ed="#G" n="44"/>aequiparantiae in re tamen non est aequiparantia in tali 
+      <lb ed="#G" n="45"/>relatione, quia nos dependemus a Deo, &amp; non
+      econuer<lb ed="#G" n="46" break="no"/>so; nam tales similitudines &amp; conformitates innascuntur 
+      <lb ed="#G" n="47"/>ex hoc, quod nos quantum possumus ipsum imitamur, &amp;  
+      <lb ed="#G" n="48"/>non econuerso 
+    </p>
+            <p xml:id="HuYgTa-e93939-d1e808">
+               <lb ed="#G" n="49"/>
+               <pc type="indent"/>Secundo dico, quod quantum ad ea volita, quae Deus 
+      <lb ed="#G" n="50"/>vult voluntate antecedente, semper tenemur nostram 
+      <lb ed="#G" n="51"/>voluntatem conformare voluntati diuinae, quia volunta 
+      <lb ed="#G" n="52"/>te Dei antecedente quilibet ordinatur in vitam aeternam. 
+      <lb ed="#G" n="53"/>Sed quantum ad ea, quae Deus vult voluntate consequen 
+      <lb ed="#G" n="54"/>te, non oportet quemlibet suam voluntatem diuinae
+      vo<lb ed="#G" n="55" break="no"/>luntati in omnibus conformare: ita quod talia velit: quia 
+      <lb ed="#G" n="56"/>voluntate consequente Deus vult damnandos esse dam 
+      <lb ed="#G" n="57"/>natos suo tempore, quod si alicui constaret uoluntas sua 
+      <lb ed="#G" n="58"/>in hoc non posset se conformare diuinae uoluntati, cum 
+      <lb ed="#G" n="59"/>contra omnem inclinationem, &amp; per consequens contra 
+      <lb ed="#G" n="60"/>omnem volitionem sit perpetuo cruciari: In aliis uero 
+      <lb ed="#G" n="61"/>poenosis euentibus a Deo uolitis, puta in morte paren 
+      <lb ed="#G" n="62"/>tum, &amp; etiam in morte propria, si alicui Deus talia se vel 
+      <lb ed="#G" n="63"/>le reuelaret, aestimo, quod si talis homo esset perfectus 
+      <lb ed="#G" n="64"/>in caritate, ipse voluntatem suam diuinae voluntati
+      con<lb ed="#G" n="65" break="no"/>formaret, &amp; diceret cum Apostolo, Cupio dissolui &amp; esse 
+      <lb ed="#G" n="66"/>cum Christo, Si vero adhuc est imperfectus, tunc
+      suf<lb ed="#G" n="67" break="no"/>ficit non tristari. 
+    </p>
+            <p xml:id="HuYgTa-e93939-d1e855">
+      <!--287.xml-->
+               <cb ed="#G" n="b"/>
+               <lb ed="#G" n="68"/>ARTICVLVS III 
+      <lb ed="#G" n="69"/>Vtrum in quo debeat esse conformitas nostrae 
+      <lb ed="#G" n="70"/>voluntatis ad duunam
+    </p>
+            <p xml:id="HuYgTa-e93939-d1e868">
+               <lb ed="#G" n="71"/>QVANTVM ad quartum articulum, in quo
+      de<lb ed="#G" n="72" break="no"/> beat esse conformitas nostrae voluntatis ad
+      diui<lb ed="#G" n="73" break="no"/>nam, est aduertendum, quod de voluntate quandoque
+      loqui<lb ed="#G" n="74" break="no"/>niur large, &amp; sic appetitus sensitiuus quandoque
+      appella<lb ed="#G" n="75" break="no"/>tur voluntas, quandoque proprie, &amp; sic voluntas est poten 
+      <lb ed="#G" n="76"/>tia partis intellectiuae. Et haec potest adhuc considerari du 
+      <lb ed="#G" n="77"/>pliciter, vno modo quantum ad motus primos venientes,  
+      <lb ed="#G" n="78"/>ex naturali instinctu sine deliberatione praeuia, &amp; vt sic,  
+      <lb ed="#G" n="79"/>dicitur voluntas naturalis, Alio modo prout motus, vel 
+      <lb ed="#G" n="80"/>actus eius sequitur deliberationem, &amp; ut sic, dicitur volum 
+      <lb ed="#G" n="81"/>tas deliberatiua. Primis igitur duobus modis non
+      opor<lb ed="#G" n="82" break="no"/>tet insistere, quia planum est, quod accipiendo voluntaten 
+      <lb ed="#G" n="83"/>pro appetitu sensitiuo &amp; naturali, tunc in his, quae contri 
+      <lb ed="#G" n="84"/>stant &amp; nociua sunt sensui, vel naturae, non possumus
+      vo<lb ed="#G" n="85" break="no"/>luntatem nostram conformare voluntati diuinae: si enim 
+      <lb ed="#G" n="86"/>Deus vellet me mori, vtique appetitus meus sensitiuus,  
+      <lb ed="#G" n="87"/>&amp; naturalis instinctus hoc abhorrerent &amp; refutarent 
+      <lb ed="#G" n="88"/>quantum in ipsis esset, Propter quod <ref xml:id="HuYgTa-e93939-Rd1e909">Damaslib. 3.</ref> vult 
+      <lb ed="#G" n="89"/>quod quaelibet res naturaliter desiderat esse; &amp; ibidem 
+      <lb ed="#G" n="90"/>ait, quod Deus factus homo hoc desiderium habuit, &amp; 
+      <lb ed="#G" n="91"/>mori timuit. Sed loquendo ad voluntate tertio modo di 
+      <lb ed="#G" n="92"/>cta pono tres conclusiones. 
+    </p>
+            <p xml:id="HuYgTa-e93939-d1e921">
+               <lb ed="#G" n="93"/>
+               <pc type="indent"/>Prima est, quod ad rectitudinem nostrae voluntatis
+      re<lb ed="#G" n="94" break="no"/>uiritur necessario, vt velimus omne illud, quod euiden 
+      <lb ed="#G" n="95"/>ter &amp; sine ambiguitate uobis constat Deum velle simpl 
+      <lb ed="#G" n="96"/>citer, &amp; absolute. 
+    </p>
+            <p xml:id="HuYgTa-e93939-d1e934">
+               <lb ed="#G" n="97"/>
+               <pc type="indent"/>Quia ille non est verus amicus alicuius, qui voluntate 
+      <lb ed="#G" n="98"/>sua ab eo discordat in iustis &amp; rationabilibus: sed habens 
+      <lb ed="#G" n="99"/>rectam voluntatem est amicus Dei, &amp; omne quod Deus 
+      <lb ed="#G" n="100"/>vult, est iustum &amp; rationabile, ergo &amp;c. Maior patet por 
+      <lb ed="#G" n="101"/>Tullium, qui dicit ad perfectam amicitiam spectare idem 
+      <lb ed="#G" n="102"/>velle &amp; idem nolle. Et. <ref xml:id="HuYgTa-e93939-Rd1e951">9. ethicorum ait Aristo.</ref> quod con 
+      <lb ed="#G" n="103"/>trarietas voluntatum dissoluit amicitiam. Et. <ref xml:id="HuYgTa-e93939-Rd1e956">2.
+      rhetori<lb ed="#G" n="104" break="no"/>corum</ref> dicit, quod ratio amoris consistit in procurare ali 
+      <lb ed="#G" n="105"/>cui, quae in volito ipsius sunt. Minor patet quantum ad 
+      <lb ed="#G" n="106"/>partem primam, quia in Can, primo dicit sposa ipsi Deo, 
+      <lb ed="#G" n="107"/>Recti diligunt te. Patet etiam quantum ad secundam par 
+      <lb ed="#G" n="108"/>tem, quia cum uoluntas diuina sit ipsa aequitas &amp; rectitu 
+      <lb ed="#G" n="109"/>do, &amp; obliquari nequaquam possit, &amp; ideo omne, quod 
+      <lb ed="#G" n="110"/>vult, est iustum &amp; rationabile 
+    </p>
+            <p xml:id="HuYgTa-e93939-d1e975">
+               <lb ed="#G" n="111"/>
+               <pc type="indent"/>a Praeterea, omnis homo habens rectam voluntatem 
+      <lb ed="#G" n="112"/>tenetur uele illud, cuius oppositum si contingeret, neces 
+      <lb ed="#G" n="113"/>ario tolleretur Dei perfectio: sed si fieret oppositum
+      il<lb ed="#G" n="114" break="no"/>ius, quod Deus praecise &amp; determinate uult fieri, tunc 
+      <lb ed="#G" n="115"/>tolleretur diuinae voluntatis perfectio, ergo &amp;c. Maior pr 
+      <lb ed="#G" n="116"/>tet, quia omnis amicus vult illud, cuius oppositum tollis 
+    </p>
+            <p xml:id="HuYgTa-e93939-d1e993">
+               <lb ed="#G" n="117"/>
+               <pc type="indent"/>erfectionem &amp; honorem amici, quem diligit. Minols 
+      <lb ed="#G" n="118"/>etiam patet: quia si fieret oppositum illius, quod Deus 
+      <lb ed="#G" n="119"/>diffinitiue &amp; determinate vellet, tunc uigor &amp; potestas 
+      <lb ed="#G" n="120"/>diuinae uoluntatis tolleretur; ipsa enim esset inualida, 
+      <lb ed="#G" n="121"/>alias non contingeret oppositum eius, quod ipse determ 
+      <lb ed="#G" n="122"/>nate vellet 
+    </p>
+            <p xml:id="HuYgTa-e93939-d1e1012">
+               <lb ed="#G" n="123"/>
+               <pc type="indent"/>3 Praeterea, super illud: Non adhesit mihi cor prauum 
+      <lb ed="#G" n="124"/>dicit. Qlo. Prauum cor &amp; distortum habet, qui non vult
+      il<lb ed="#G" n="125" break="no"/>lud, quod Deus vult, &amp; in eadem Slo. dicitur, quod vo 
+      <lb ed="#G" n="126"/>luntas Dei est regula, cui oportet nos conformari 
+    </p>
+            <p xml:id="HuYgTa-e93939-d1e1025">
+               <lb ed="#G" n="127"/>
+               <pc type="indent"/>Sed contra hoc sunt quidam doctores dicentes, quod 
+      <lb ed="#G" n="128"/>ad rectitudinem nostrae voluntatis non requiritur, quod 
+      <lb ed="#G" n="129"/>conformet se voluntati diuinae in omni uolito, quod
+      sci<lb ed="#G" n="130" break="no"/>mus Deum velle¬ 
+    </p>
+            <p xml:id="HuYgTa-e93939-d1e1038">
+               <lb ed="#G" n="131"/>
+               <pc type="indent"/>Quia beata uirgo mater maxime doluit de passio 
+      <lb ed="#G" n="132"/>ne sui dilectissimi filij, quam tamen passionem non dubiti 
+      <lb ed="#G" n="133"/>uit esse de voluntate Dei: sed hoc nonuidetur quis uelle de 
+      <lb ed="#G" n="134"/>dolet, ergo voluntas virginis matris non fuit conformis 
+      <!--288.xml-->
+      <pb ed="#G" n="125-r"/>
+               <cb ed="#G" n="a"/>
+               <lb ed="#G" n="1"/>voluntati diuinae in volito, &amp; per consequens voluntas 
+      <lb ed="#G" n="2"/>beatae virginis Matris non fuisset recta, quod est nefas 
+      <lb ed="#G" n="3"/>dicere.
+    </p>
+            <p xml:id="HuYgTa-e93939-d1e1064">
+               <lb ed="#G" n="4"/>2 Praeterea, Christus appropinquante passione sua
+      di<lb ed="#G" n="5" break="no"/>xit, it patet in euangelio, Pater si fieri potest, transeat a 
+      <lb ed="#G" n="6"/>me calix iste, verumtamen non mea voluntas, sed tua fiat,  
+      <lb ed="#G" n="7"/>rgo Christi uoluntas, quae rectissima fuit, non erat
+      con<lb ed="#G" n="8" break="no"/>formis voluntati diuinae. 
+    </p>
+            <p xml:id="HuYgTa-e93939-d1e1077">
+               <lb ed="#G" n="9"/>
+               <pc type="indent"/>Praeterea, sequeretur, quod aliquis deberet velle
+      si<lb ed="#G" n="10" break="no"/>bi subtrahi gratiam Dei, &amp; a Deo separari, quod est
+      con<lb ed="#G" n="11" break="no"/>tra omnem rectitudinem voluntatis: quia recta voluntas 
+      <lb ed="#G" n="12"/>non potest velle separari ab eo, a quo depedet omnis sua 
+      <lb ed="#G" n="13"/>persectio: Probatio consequentiae: quia aliquis habens
+      re<lb ed="#G" n="14" break="no"/>ham voluntatem scit, si ceciderit in peccatum, quod Deus 
+      <lb ed="#G" n="15"/>rult, quod ei gratia subtrahatur, &amp; quod factus peccator,  
+      <lb ed="#G" n="16"/>Deo separetur.
+    </p>
+            <p xml:id="HuYgTa-e93939-d1e1099">
+               <lb ed="#G" n="17"/>3 Praeterea, sequeretur, quod aliquis deberet velle suam 
+      <lb ed="#G" n="18"/>pemetuam damnationem. consequens est impossibile, 
+      <lb ed="#G" n="19"/>sicut patet ex auctoritatibus, quas adduxi superius: Proba 
+      <lb ed="#G" n="20"/>uo consequentiae: quia Deus vult aliquorum hominum 
+      <lb ed="#G" n="21"/>emetuam damnationem, qui tamen pro nunc habent 
+      <lb ed="#G" n="22"/>ectam voluntatem, ergo si reuelaret hoc talibus homini 
+      <lb ed="#G" n="23"/>bus, tunc iuxta praedictam conclusionem ipsi tenerentur 
+      <lb ed="#G" n="24"/>poc velle
+    </p>
+            <p xml:id="HuYgTa-e93939-d1e1120">
+               <lb ed="#G" n="25"/>1 Praeterea, quod Deus consulit, hoc vult, sed non
+      te<lb ed="#G" n="26" break="no"/>netur quilibet velle, quod Deus consulit, ergo non tene 
+      <lb ed="#G" n="27"/>ui quilibet velle, quod Deus vult.
+    </p>
+            <p xml:id="HuYgTa-e93939-d1e1129">
+               <lb ed="#G" n="28"/>4Praeterea, arguunt quidam alij, quod nulla voluntas 
+      <lb ed="#G" n="29"/>tata possit conformari voluntati diuinae: Qua
+      nul<lb ed="#G" n="30" break="no"/>am simpliciter finitum potest conformari ei, quod es 
+      <lb ed="#G" n="31"/>Spliciter infinitum: sed omnis voluntas creata est
+      sim<lb ed="#G" n="32" break="no"/>piiner finita: &amp; voluntas diuina est simpliciter
+      infi<lb ed="#G" n="33" break="no"/>rita, ergo &amp;c
+    </p>
+            <p xml:id="HuYgTa-e93939-d1e1145">
+               <lb ed="#G" n="34"/>T Praeterea, sequeretur, quod voluntas creata adaequa 
+      <lb ed="#G" n="35"/>stdiuinam voluntatem, falsitas consequentis patet. Pro 
+      <lb ed="#G" n="36"/>banc consequentiae: quia quicquid attingit alterum tota 
+      <lb ed="#G" n="37"/>ei, hoc adaequat ipsum, sed omne quod conformatur 
+      <lb ed="#G" n="38"/>pliciter simplici hoc totaliter ipsum attingit: quia uel 
+      <lb ed="#G" n="39"/>nitus non att ngit ipsum, &amp; tunc in nullo
+      conformabi<lb ed="#G" n="40" break="no"/>ure, ve si attingit tunc totaliter attingit, alias non es 
+      <lb ed="#G" n="41"/>ei simpliciter simplex
+    </p>
+            <p xml:id="HuYgTa-e93939-d1e1165">
+               <lb ed="#G" n="42"/>ed illa non concludunt; ldeo primo arguam contra i 
+      <lb ed="#G" n="43"/>un opinionem fortificando primam conclusionem,
+      Se<lb ed="#G" n="44" break="no"/>ondo istis motiuis respondebo.
+    </p>
+            <p xml:id="HuYgTa-e93939-d1e1174">
+               <lb ed="#G" n="45"/>1 Primo igitur arguam sic: Sicut se habet intellectus 
+      <lb ed="#G" n="46"/>eetus ad intellectum diuinum, sic voluntas creata ad vo 
+      <lb ed="#G" n="47"/>nntatem diuinam: sed nullus intellectus potest esse
+      re<lb ed="#G" n="48" break="no"/>cus, ieu verus, si taliter est difformis ab intellectu
+      diui<lb ed="#G" n="49" break="no"/>D quod cognoscit illud, quod intellectus diuinus non  
+      <lb ed="#G" n="50"/>enoscit: ergo nulla uoluntas creata poterit esse re 
+      <lb ed="#G" n="51"/>oh in volito non est conformis diuinae voluntati.
+      Ma<lb ed="#G" n="52" break="no"/>patet, Probo minorem: quia cum diuinus intellectus 
+      <lb ed="#G" n="53"/>pomnino verus, si circa aliquod obiectum intellectus 
+      <lb ed="#G" n="54"/>nreatus intelligeret oppositum eius, quod intelligit
+      in<lb ed="#G" n="55" break="no"/>tellectus diuinus, talis intellectus creatus de necessitate 
+      <lb ed="#G" n="56"/>esset falsus. 
+    </p>
+            <p xml:id="HuYgTa-e93939-d1e1203">
+               <lb ed="#G" n="57"/>
+               <pc type="indent"/>Praeterea, homo habens rectam voluntatem,
+      mane<lb ed="#G" n="58" break="no"/>Puiusmodi rectitudine, non potest licite facere contra 
+      <lb ed="#G" n="59"/>solantatem diuinam, ergo nec potest licite velle contra 
+      <lb ed="#G" n="60"/>poluntatem diuinam. Antecedens patet, Probatio
+      conse<lb ed="#G" n="61" break="no"/>nentiae quia quod licitum est velle, licitum est facere, 
+    </p>
+            <p xml:id="HuYgTa-e93939-d1e1220">
+               <lb ed="#G" n="62"/>
+               <pc type="indent"/>Praeterea, non minus deficit a rectitudine repugnams 
+      <lb ed="#G" n="63"/>diinae voluntati, quam repugnans diuinae prouidentiae 
+      <lb ed="#G" n="64"/>Ed vt Ait Augustin impius est, cui non placet diuina pro. 
+      <lb ed="#G" n="65"/>identia.
+    </p>
+            <p xml:id="HuYgTa-e93939-d1e1233">
+               <lb ed="#G" n="66"/> Preterea, recta voluntas debet hoc uelle, quod in 
+      <lb ed="#G" n="67"/>nem niea oratione petit a Deo fieri; sed in signum, quod 
+      <lb ed="#G" n="68"/>ponia Dei voluntas fieri petatur, ideo comprehenditu 
+      <lb ed="#G" n="69"/> psa domimica oratione Dei voluntas tam in celo 
+      <lb ed="#G" n="70"/>tam in terra; Dicitur. n ibi, Fiat voluntas tua ficut in
+      ce<lb ed="#G" n="71" break="no"/>lo &amp; in terra
+    </p>
+            <p xml:id="HuYgTa-e93939-d1e1249">
+               <lb ed="#G" n="72"/>1 Preterea, omnis ordinata voluntas debet praepone¬ 
+      <!--288.xml-->
+      <cb ed="#G" n="b"/>
+               <lb ed="#G" n="73"/>re velle diuinum, seu velle diuinae voluntatis suo proprio 
+      <lb ed="#G" n="74"/>velle. illa patet: quia da oppositum, tunc huiusmodi
+      vo<lb ed="#G" n="75" break="no"/>luntas nec esset recta, nec ordinata: quia peruerteret ordi 
+      <lb ed="#G" n="76"/>nem: quia non praeponeret, quod omnino est
+      praeponen<lb ed="#G" n="77" break="no"/>dum: sed si aliqua uoluntas non conformaret se in uolit 
+      <lb ed="#G" n="78"/>diuinae uoluntati, illa non praeponeret uelle diuinum suo 
+      <lb ed="#G" n="79"/>proprio velle, sed potius econuerso, ergo talis uoluntas 
+      <lb ed="#G" n="80"/>non esset ordinata, nec per consequens recta, igitur
+      argu<lb ed="#G" n="81" break="no"/>menta non concludunt. 
+    </p>
+            <p xml:id="HuYgTa-e93939-d1e1278">
+               <lb ed="#G" n="82"/>
+               <pc type="indent"/>Ad primam igitur rationem alterius opinionis
+      dicen<lb ed="#G" n="83" break="no"/>dum, quod quamuis gloriosa virgo mater ineffabiliter dolus 
+      <lb ed="#G" n="84"/>rit de dolore passionis filij sui, tamen voluntas sua non 
+      <lb ed="#G" n="85"/>fuit difformis a uoluntate diuina: quia sicut Deus patei 
+      <lb ed="#G" n="86"/>soluit filium suum sustinere passionem, &amp; mortem pro si 
+      <lb ed="#G" n="87"/>lute humani generis; sic &amp; magister hoc uoluit uoluntate 
+      <lb ed="#G" n="88"/>deliberatiua: licet maxime doluerit, &amp; compassa sibi
+      sue<lb ed="#G" n="89" break="no"/>rit uoluntate naturali, uel uoluntate sensitiua prout
+      ap<lb ed="#G" n="90" break="no"/>petitus sensitiuus dicitur quandoque uoluntas. Et cum 
+      <lb ed="#G" n="91"/>dicitur in minori, lllud non uidetur quis uelle, de quo 
+      <lb ed="#G" n="92"/>dolet: illa est falsa, si dolor &amp; uelle referuntur ad
+      distin<lb ed="#G" n="93" break="no"/>ctas uires animae, sicut in proposito sunt referenda. Sicut 
+      <lb ed="#G" n="94"/>n aliquis pot ualde dolere de amara potione, uel de
+      me<lb ed="#G" n="95" break="no"/>bri abicisione secundum appetitum sensitiuum, &amp; tamen 
+      <lb ed="#G" n="96"/>uoluntate deliberatiua uult illa, sic in proposito. 
+    </p>
+            <p xml:id="HuYgTa-e93939-d1e1315">
+               <lb ed="#G" n="97"/>
+               <pc type="indent"/>Ad secundam patet per iam dicta: quia illa uerba Chri 
+      <lb ed="#G" n="98"/>sti referenda sunt ad uoluntatem, prout dicitur naturalis,  
+      <lb ed="#G" n="99"/>&amp;lad appetitum sensitiuum. Si. n. Christus uoluntate
+      de<lb ed="#G" n="100" break="no"/>liberatiua non uoluisset respectu illius passionis illud, 
+      <lb ed="#G" n="101"/>quod pater uoluit, tunc per illam passionem nihil
+      me<lb ed="#G" n="102" break="no"/>ruisset, nec per consequens humanum genus redemisset. 
+    </p>
+            <p xml:id="HuYgTa-e93939-d1e1333">
+               <lb ed="#G" n="103"/>
+               <pc type="indent"/>Ad tertiam nego consequentiam. Ad probationem di 
+      <lb ed="#G" n="104"/>tendum, quod subtractio gratiae non est simpliciter, &amp;
+      ab<lb ed="#G" n="105" break="no"/>solute a Deo uolita, sed conditionaliter, puta sub hac
+      con<lb ed="#G" n="106" break="no"/>ditione, si ille ceciderit in peccatum: ergo non est ad
+      pro<lb ed="#G" n="107" break="no"/>positum: quia conclusio posita est de his, quae Deus vult 
+      <lb ed="#G" n="108"/>simpliciter &amp; absolute. 
+    </p>
+            <p xml:id="HuYgTa-e93939-d1e1352">
+               <lb ed="#G" n="109"/>
+               <pc type="indent"/>Vnde notanter est aduertendum, quod quando Deus 
+      <lb ed="#G" n="110"/>uult aliquid conditionaliter, tunc quicunque uult
+      oppo<lb ed="#G" n="111" break="no"/>situm illius conditionis adiectae, ille potest uelle oppo 
+      <lb ed="#G" n="112"/>situm praedicti uoliti, quod Deus uoluit sub illa conditio 
+      <lb ed="#G" n="113"/>ne, permanente tamen conformitate uoluntatis illius ho 
+      <lb ed="#G" n="114"/>minis ad voluntatem Dei. Da igitur, quod aliquis habens 
+      <lb ed="#G" n="115"/>rectam uoluntatem sciat, quod si mortaliter peccauerit, 
+      <lb ed="#G" n="116"/>Deus uult auferre gratiam ab eo, ille debet uelle
+      opposi<lb ed="#G" n="117" break="no"/>tum illius conditionis, puta debet uelle non peccare, 
+      <lb ed="#G" n="118"/>tunc sine difformitate suae uoluntatis ad uoluntatem
+      di<lb ed="#G" n="119" break="no"/>uinam potest uelle, quod Deus gratiam non auferat. 
+      <lb ed="#G" n="120"/>Forte dicetur, quod ille non uult oppositum illius com 
+      <lb ed="#G" n="121"/>ditionis: quia forte uult mortaliter peccare. 
+    </p>
+            <p xml:id="HuYgTa-e93939-d1e1385">
+               <lb ed="#G" n="122"/>
+               <pc type="indent"/>Tunc respondeo, quod talis eo ipso, quod uellet 
+      <lb ed="#G" n="123"/>mortaliter peccate iam non haberet rectam uoluntatem 
+      <lb ed="#G" n="124"/>&amp; per consequens argumentum non esset contra
+      con<lb ed="#G" n="125" break="no"/>clusionem praemissam, quae praesupponit rectitudinem 
+      <lb ed="#G" n="126"/>uoluntatis. 
+    </p>
+            <p xml:id="HuYgTa-e93939-d1e1401">
+               <lb ed="#G" n="127"/>
+               <pc type="indent"/>Ad quartam dicendo nego consequentiam. Ad
+      proba<lb ed="#G" n="128" break="no"/>tionem patet per iam dicta: quia ex quo talis homo pro 
+      <lb ed="#G" n="129"/>tunc supponitur habere rectam uoluntatem, utique pro 
+      <lb ed="#G" n="130"/>tunc habet gratiam, &amp; pro tunc Deus non uult
+      damna<lb ed="#G" n="131" break="no"/>tionem illius, nisi sub hac conditione, si finaliter
+      deces<lb ed="#G" n="132" break="no"/>serit sine gcatia. Etiam in probatione consequentiae
+      assu<lb ed="#G" n="133" break="no"/>mitur unum falsum, &amp; quodammodo impossibile: quis 
+      <lb ed="#G" n="134"/>minimum inconueniens in Deo est impossibile; Sed incon 
+      <lb ed="#G" n="135"/>ueniens esse uidetur, quod alicui reueletur eius damnatio; 
+      <lb ed="#G" n="136"/>quia daretur sibi materia disperandi de Dei misericordia, 
+      <lb ed="#G" n="137"/>ideo non est estimandum, quod alicui reuelatione ueri 
+      <lb ed="#G" n="138"/>dica reueletur eius aeterna damnatio: Si tamen aliquis 
+      <lb ed="#G" n="139"/>perciperet huiusmodi reuelationem, ille uel debet
+      ta<lb ed="#G" n="140" break="no"/>lem reuelationem non putare esse a Deo, sed a
+      demo<lb ed="#G" n="141" break="no"/>ne, qui uellet etiam quandoque bonos homines
+      pone<lb ed="#G" n="142" break="no"/>re in desperationem: vel si non posset uincere talem  
+      <lb ed="#G" n="143"/>conceptum quando putaret talem reuelationem sibi
+      fa<lb ed="#G" n="144" break="no"/>ctam esse a Deo, tunc non deberet putare talem senten¬ 
+      <!--289.xml-->
+      <pb ed="#G" n="125-v"/>
+               <cb ed="#G" n="a"/>
+               <lb ed="#G" n="1"/>tiam esse vltimate diffinitiuam, sed magis comminatoriam 
+      <lb ed="#G" n="2"/>sicut dictum fuit Niniuitis. Adhuc quadraginta dics &amp;N 
+      <lb ed="#G" n="3"/>niue subuertetur; Et ideo talis homo eo cautius &amp;
+      me<lb ed="#G" n="4" break="no"/>lius debet ordinare uitam suam Deo humiliter supplica 
+      <lb ed="#G" n="5"/>do, vt sibi sua pecc ata dimittat, &amp; in gratia, ac caritate vsqu 
+      <lb ed="#G" n="6"/>in finem custodiat 
+    </p>
+            <p xml:id="HuYgTa-e93939-d1e1464">
+               <lb ed="#G" n="7"/>
+               <pc type="indent"/>Potest etiam dici, quod illae duae rationes non sunt con 
+      <lb ed="#G" n="8"/>tra conclusionem: quia Deus simpliciter &amp; absolute non 
+      <lb ed="#G" n="9"/>vult gratiae subtractionem, nec alicuius hominis damna 
+      <lb ed="#G" n="10"/>tionem, sed solum vult alia voluntate permissiua; Vndi 
+      <lb ed="#G" n="11"/>&amp; Deus non vult nos talia uelle; cuius signum est, quia ap 
+      <lb ed="#G" n="12"/>petitum talibus contrarium quasi naturaliter indidit na 
+      <lb ed="#G" n="13"/>turae rationali.¬ 
+    </p>
+            <p xml:id="HuYgTa-e93939-d1e1484">
+               <lb ed="#G" n="14"/>
+               <pc type="indent"/>Ad quintam dicendum, quod non constat nobis euidem 
+      <lb ed="#G" n="15"/>ter quod Deus velit illud simpliciter, quod per modum 
+      <lb ed="#G" n="16"/>consilii nobis insinuatur: Si tamen alicui constaret euidi 
+      <lb ed="#G" n="17"/>ter, quod Deus hoc vellet simpliciter, tunc, si talis
+      habe<lb ed="#G" n="18" break="no"/>ret voluntatem rectam, &amp; in rectitudine permanere
+      de<lb ed="#G" n="19" break="no"/>beret, oporteret eum in huiusmodi volito uoluntatem 
+      <lb ed="#G" n="20"/>suam conformare voluntati diuinae, talis enim insinuatio 
+      <lb ed="#G" n="21"/>absolute voluntatis diuinae aequipolleret praecepto,
+      con<lb ed="#G" n="22" break="no"/>tra quod quis faciens perdit rectitudinem voluntatis. 
+      <lb ed="#G" n="23"/>Ad sextam dicendum, quod quamuis finitum non pos 
+      <lb ed="#G" n="24"/>sit conformari infinito entiatiue, potest tamen ei
+      confor<lb ed="#G" n="25" break="no"/>mari obiectiue, sic scilicet quod voluntas finita &amp; infinita 
+      <lb ed="#G" n="26"/>tendant in idem obiectum conformibus actibus, puta quo 
+      <lb ed="#G" n="27"/>ambo circa idem obiectum eliciant actum uolitionis, vel 
+      <lb ed="#G" n="28"/>ambo actum nolitionis, 
+    </p>
+            <p xml:id="HuYgTa-e93939-d1e1521">
+               <lb ed="#G" n="29"/>
+               <pc type="indent"/>Ad septimam patet per idem: quia argumentum proce 
+      <lb ed="#G" n="30"/>dit de conformitate entitatiua, vel dimensiua, &amp; non de 
+      <lb ed="#G" n="31"/>obiectiua, &amp; ideo non est ad propositum. 
+    </p>
+            <p xml:id="HuYgTa-e93939-d1e1533">
+               <lb ed="#G" n="32"/>
+               <pc type="indent"/>Probat etiam quidam doctor praedictam conformita 
+      <lb ed="#G" n="33"/>tem non esse necessariam, &amp; arguit sic 
+      <lb ed="#G" n="34"/>Nihil est necessarium fieri, nisi haec necessitas oriatur 
+      <lb ed="#G" n="35"/>ex natura rei, vel ex praecepto superioris: sed rem volitam 
+      <lb ed="#G" n="36"/>a Deo non semper tenemur ex natura rei velle, alias si 
+      <lb ed="#G" n="37"/>Deus vellet damnationem alicuius, ille teneretur ea 
+      <lb ed="#G" n="38"/>velle, quod est contra August in lib de trinita. vbi ait, qu 
+      <lb ed="#G" n="39"/>omnes homines naturaliter uolunt esse beati; nec ex pre 
+      <lb ed="#G" n="40"/>cepto: quia nusquam legimus hoc esse praeceptum. 
+    </p>
+            <p xml:id="HuYgTa-e93939-d1e1557">
+               <lb ed="#G" n="41"/>
+               <pc type="indent"/>Prerere a, sicut tenemur voluntatem nostram
+      confor<lb ed="#G" n="42" break="no"/>mare voluntati diuinae, sic tenetur subditus voluntatem 
+      <lb ed="#G" n="43"/>suam propriam conformare voluntati sui praelati, cui sul 
+      <lb ed="#G" n="44"/>est vice Dei: sed si praelatus diceret, audiente subito, volo 
+      <lb ed="#G" n="45"/>quod hoc fiat, subditus adhuc non teneretur hoc facere, enim 
+      <lb ed="#G" n="46"/>si praelatus perciperet ei, vel insinuaret se velle hunc
+      sub<lb ed="#G" n="47" break="no"/>ditum hoc facere, ergo a simili non tenetur quis in
+      parti<lb ed="#G" n="48" break="no"/>culari uelle illud, quod Deus vult, nisi hoc sibi
+      precipia<lb ed="#G" n="49" break="no"/>tur, vel insinuetur, quod Deus uult ipsum hoc velle,
+      er<lb ed="#G" n="50" break="no"/>go &amp;c. 
+    </p>
+            <p xml:id="HuYgTa-e93939-d1e1583">
+               <lb ed="#G" n="51"/>
+               <pc type="indent"/>Praeterea, nullus tenetur ad illud, sine quo potest 
+      <lb ed="#G" n="52"/>saluari, sed sine tali conformitate potest quis saluari. 
+      <lb ed="#G" n="53"/>
+               <pc type="indent"/>Maior patet. Probatur minor: quia sine huiusmodi
+      com<lb ed="#G" n="54" break="no"/>formitate uoluntas hominis potest manere bona, nt
+      pa<lb ed="#G" n="55" break="no"/>tet per Aug. in li, enchiridion vbi ait, quod aliquando bo 
+      <lb ed="#G" n="56"/>na voluntate homo uult, quod Deus non uult, vt puta, 
+      <lb ed="#G" n="57"/>bonus filius uult patrem suum uiuere, &amp; Deus non uult 
+      <lb ed="#G" n="58"/>eum uiuere, quia uult, quod moriatur, ergo &amp;c. 
+    </p>
+            <p xml:id="HuYgTa-e93939-d1e1607">
+               <lb ed="#G" n="59"/>
+               <pc type="indent"/>Praeterea, quandoque contingit, quod duo homines 
+      <lb ed="#G" n="60"/>quorum uter que bonus est, uolunt opposita contrad icto 
+      <lb ed="#G" n="61"/>ria, puta unus uult quod pluat, &amp; alius vult quod non plu 
+      <lb ed="#G" n="62"/>at: Sicut etiam quandoque contingit inter angelos in cae 
+      <lb ed="#G" n="63"/>lo quia sicut patet in Daniele, angelus princeps Persarum  
+      <lb ed="#G" n="64"/>restitit angelo, qui uoluit liberationem ludaeorum posi 
+      <lb ed="#G" n="65"/>septuaginta annos captiuitatis suae, Et, ut ibi patet sanctu; 
+      <lb ed="#G" n="66"/>Michael consensit cum angelo ludaeorum, sed planum est, 
+      <lb ed="#G" n="67"/>quod contradictoria volentes non possunt eidem uolun 
+      <lb ed="#G" n="68"/>tati se conformare in uolito, ergo unius illorum
+      uolun<lb ed="#G" n="69" break="no"/>tas non erit conformis in uolito diuinae uoluntati, &amp; per 
+      <lb ed="#G" n="70"/>consequens non tenebitur ad hoc: quia alias peccaret non 
+      <lb ed="#G" n="71"/>obseruando ad quod teneretur. 
+    </p>
+            <p xml:id="HuYgTa-e93939-d1e1640">
+               <lb ed="#G" n="72"/>
+               <pc type="indent"/>Etiam addunc hic quidam de nostris doctoribus, quod 
+      <!--289.xml-->
+      <cb ed="#G" n="b"/>
+               <lb ed="#G" n="73"/>illa sit intentio fratris AEgidit: quia si alicui constaret de 
+      <lb ed="#G" n="74"/>certo Deum uelle mortem patris sui, tunc dicunt <name xml:id="HuYgTa-e93939-Nd1e1655">fratru 
+        <lb ed="#G" n="75"/>AEgidium</name> dicere, quod sufficit non repugnare uoluntati 
+      <lb ed="#G" n="76"/>diui nae, sed non repugnare non dicit positue conformita 
+      <lb ed="#G" n="77"/>tem ad uoluntatem diuinam, licet neget oppositam con 
+      <lb ed="#G" n="78"/>trarietatem.
+    </p>
+            <p xml:id="HuYgTa-e93939-d1e1667">
+               <lb ed="#G" n="79"/>Sed ut breuiter me expediam de isto ultimo dicto,
+      di<lb ed="#G" n="80" break="no"/>co, quod falsum imponunt fratri AEgidio: nam frater
+      AEgi<lb ed="#G" n="81" break="no"/>dius dicit sic, Si nobis est notum diuinum uolitum, tunc 
+      <lb ed="#G" n="82"/>secundum uoluntatem deliberatiuam &amp; rationalem
+      de<lb ed="#G" n="83" break="no"/>bemus illud uelle; et si non ratione sui, ratione tamen 
+      <lb ed="#G" n="84"/>illius ordiuis: quia est a Deo uolitum, secundum quem 1. Sent. 
+      <lb ed="#G" n="85"/>uandam bonitatem contrahit. Et subdit infra, Non o: Dist. 4&amp;. 
+      <lb ed="#G" n="86"/>portet tamen uiatores adeo conformari diuinis uolitis qult. 
+      <lb ed="#G" n="87"/>appetitu deliberatiuo ut comprehesores, ut si Deus uult 
+      <lb ed="#G" n="88"/>mortem patris alicuius, bonus filius tenetur ea uelle
+      in<lb ed="#G" n="89" break="no"/>quantum est a Deo uolita: sed non oportet, ut in
+      uolen<lb ed="#G" n="90" break="no"/>do eam, de ea gaudeat, sed sufficit non tristari, sicut non 
+      <lb ed="#G" n="91"/>oportet fortem secundum <ref xml:id="HuYgTa-e93939-Rd1e1697">philosophum 3, ethicorum.</ref> 
+               <lb ed="#G" n="92"/>gaudere in periculis bellicis, sed sufficit non tristari: Dea 
+      <lb ed="#G" n="93"/>ti autem cum cognoscunt aliquid uolitum a Deo,
+      deli<lb ed="#G" n="94" break="no"/>berate illud uolunt, &amp; se gaudent uelle. Ista sunt uerba 
+      <lb ed="#G" n="95"/>AEgidii ad littcram: Ex quo patet, quod isti non bene
+      re<lb ed="#G" n="96" break="no"/>spexerunt dicta <name xml:id="HuYgTa-e93939-Nd1e1711">AEgidii</name>: quia pro non tristari ipsi scripse: cap. 9. 
+      <lb ed="#G" n="97"/>runt non repugnare, &amp;cum hoc dimiserunt uerba praece 
+      <lb ed="#G" n="98"/>dentia &amp; etiam consequentia. 
+    </p>
+            <p xml:id="HuYgTa-e93939-d1e1720">
+               <lb ed="#G" n="99"/>
+               <pc type="indent"/>Ad primum igitur dicendum, quod licet de praedicta 
+      <lb ed="#G" n="100"/>conformitate non inueniatur in speciali scriptum esse 
+      <lb ed="#G" n="101"/>raeceptum, tamen ex dictis sancti lacob in canonica sua 
+      <lb ed="#G" n="102"/>hoc possumus deducere sic: Nulli in scripturis indicitur 
+      <lb ed="#G" n="103"/>uerberationis comminatio, nisiuel ex hoc, quod commit 
+      <lb ed="#G" n="104"/>tit, quod non debet, uel ex hoc quod omittit, quod
+      de<lb ed="#G" n="105" break="no"/>bet &amp; tenetur: Sed Beatus lacobus quemsibet hominem 
+      <lb ed="#G" n="106"/>comparans ad ipsum Deum dicit sic, Seruus, qui scit uolum <ref xml:id="HuYgTa-e93939-Rd1e1741">lac. 4</ref> 
+               <lb ed="#G" n="107"/>tatem domini sui, &amp; non facit, plagis uapulabit multis: Luc.
+      ta<lb ed="#G" n="108" break="no"/>sed non minus tenemur nos conformare Deo uoluntate, 
+      <lb ed="#G" n="109"/>quam opere, immo conformitas in uoluntate debet
+      prae<lb ed="#G" n="110" break="no"/>cedere conformitatem in opere, omnis etiam homo
+      te<lb ed="#G" n="111" break="no"/>netur esse seruus Dei iure naturali, tum quia fecit nos, tum 
+      <lb ed="#G" n="112"/>quia redemit nos, ergo quilibet homo secudum dictamen 
+      <lb ed="#G" n="113"/>naturalis iudicii tenetur uelle ea quae euidenter scit deum 
+      <lb ed="#G" n="114"/>uelle simpliciter &amp; absolute; &amp; licet nniuersaliter sic
+      te<lb ed="#G" n="115" break="no"/>neatur omnis homo, tamen in speciali &amp; ex lege priuata 
+      <lb ed="#G" n="116"/>tenetur ad praedicta omnis homo habens rectam
+      uolun<lb ed="#G" n="117" break="no"/>tatem: quia talis non solum est seruus Dei, sed amicus, lu 
+      <lb ed="#G" n="118"/>xta quod in euangelio talibus saluator ait, lam non dica 
+      <lb ed="#G" n="119"/>uos seruos, sed amicos: Sed lex uerae, &amp; non fictae amici 
+      <lb ed="#G" n="120"/>tiae hoc dictat, quod uerus amicus debet uelle omne
+      il<lb ed="#G" n="121" break="no"/>lud, quod de certo cognoscit amicum rationabiliter
+      uel<lb ed="#G" n="122" break="no"/>le: Nunc autem ita est, quod cognoscimus Deum non
+      pos<lb ed="#G" n="123" break="no"/>se aliquid uelle, quod non sit rationabiliter uolitum.  
+    </p>
+            <p xml:id="HuYgTa-e93939-d1e1782">
+               <lb ed="#G" n="124"/>
+               <pc type="indent"/>Ad secundum dicendum, quod de prelato non est simi 
+      <lb ed="#G" n="125"/>le: quia non constat subdito, quod omne uolitum a suo 
+      <lb ed="#G" n="126"/>praelato sit rationabiliter uolitum, sicut scimus esse de 
+      <lb ed="#G" n="127"/>Deo.  
+    </p>
+            <p xml:id="HuYgTa-e93939-d1e1795">
+               <lb ed="#G" n="128"/>
+               <pc type="indent"/>Ad tertium nego minorem. Ad probationem dico, quoad 
+      <lb ed="#G" n="129"/>
+               <name xml:id="HuYgTa-e93939-Nd1e1803">Beatus August</name> per uoluntatem intelligit appetitum sen 
+      <lb ed="#G" n="130"/>sitiuum, uel naturalem, de quibus nihil est ad propositum 
+      <lb ed="#G" n="131"/>prout ex praecedentibus patettuel si loquimur de
+      uolun<lb ed="#G" n="132" break="no"/>tate deliberatiua, tunc intelligendus est loqui de
+      homi<lb ed="#G" n="133" break="no"/>ne, qui non cognoscit euidenter uoluntatem Dei,
+      quan<lb ed="#G" n="134" break="no"/>tum ad illud uolitiuum, cum uult illud, quod Deus non  
+      <lb ed="#G" n="135"/>vult. 
+    </p>
+            <p xml:id="HuYgTa-e93939-d1e1820">
+               <lb ed="#G" n="136"/>
+               <pc type="indent"/>Ad quartum dicendum, quod uel neuter illorum
+      in<lb ed="#G" n="137" break="no"/>tellexit voluntatem Dei circa illa, quae sunt ab eis uolita 
+      <lb ed="#G" n="138"/>uel saltem unus eorum hoc non intelligit: quia dato, quod 
+      <lb ed="#G" n="139"/>ambo sint boni homines, tunc quicunque eorum
+      perci<lb ed="#G" n="140" break="no"/>peret Deum uelle oppositum illius, quod ipse uelle
+      coe<lb ed="#G" n="141" break="no"/>pit, ipse immediate a suo uelle desisteret &amp; conformaret 
+      <lb ed="#G" n="142"/>se uoluntati diuinae: Sic etiam fuit de illis angelis: quia i 
+      <lb ed="#G" n="143"/>le angelus, qui ibi appellatur princeps Persarum pro
+      tan<lb ed="#G" n="144" break="no"/>to, quia a Deo fuit deputatus pro custode &amp;gubernatore 
+      <!--290.xml-->
+      <pb ed="#G" n="126-r"/>
+               <cb ed="#G" n="a"/>
+               <lb ed="#G" n="1"/>illius prouinciae: nondum vidit in speculo sanctissimae tri 
+      <lb ed="#G" n="2"/>itatis venisse tempus liberationis ipsorum ludeorum, &amp; 
+      <lb ed="#G" n="3"/>ideo restitit tamquam bonum illius prouinciae praeferens 
+      <lb ed="#G" n="4"/>cuius suit custos &amp; gubernator, fuerunt enim ludei capti 
+      <lb ed="#G" n="5"/>ui regis Persarum a tempore, quo reges Persarum occide 
+      <lb ed="#G" n="6"/>runt halthasar regem habyloniae, cuius auus, scilicet
+      Na<lb ed="#G" n="7" break="no"/>buchodonosor ludaeos ab Hierusalem ab duxerat i Pabs 
+      <lb ed="#G" n="8"/>lonem: &amp; ideo ille angelus voluit, quod ipsi non
+      dimitte<lb ed="#G" n="9" break="no"/>tentur, donec super hoc perciperet voluntatem Dei: Sed  
+      <lb ed="#G" n="10"/>lichael &amp; angelus, qui fuit custos ludeorum, viderunt &amp; 
+      <lb ed="#G" n="11"/>tognonerunt ex diuina reuelatione hoc tepus aduenisse, &amp;  
+      <lb ed="#G" n="12"/>Deum hoc pro tunc velle; ideo &amp; ipsi hoc voluerunt 
+      <lb ed="#G" n="13"/>Secunda conclusio est, quod conformatio humanae
+      uo<lb ed="#G" n="14" break="no"/>intatis ad diuinam tantummo do in volito, cum
+      praeci<lb ed="#G" n="15" break="no"/>i consormatione, quae attenditur in modo volendi 
+      <lb ed="#G" n="16"/>onsufficit pro rectitudine humanae voluntatis. Quia quod 
+      <lb ed="#G" n="17"/>tonuenit carenti rectitudine voluntatis, hoc non sufficit 
+      <lb ed="#G" n="18"/>ad habendam huiusmodi rectitudinem, sed conformatio 
+      <lb ed="#G" n="19"/>antum in volito conuenit quandoque pessimis hominibus 
+      <lb ed="#G" n="20"/>quia pessimus homo potest velle mortem patris sui pro il 
+      <lb ed="#G" n="21"/>so tunc, in quo etiam Deus vult patrem suum mori, &amp; il 
+      <lb ed="#G" n="22"/>la est intentio Aug. qui ait, Deus quandoqe implet
+      bo<lb ed="#G" n="23" break="no"/>uam suam voluntatem per malas hominum voluntates, 
+      <lb ed="#G" n="24"/>1 Sed forte contra illud dicetur, quod sicut humanus 
+      <lb ed="#G" n="25"/>intellectus se habet ad intellectum diuinum, sic
+      volun<lb ed="#G" n="26" break="no"/>tas ad voluntatem, sed omnis intellectus est rectus, qui 
+      <lb ed="#G" n="27"/>conformat se intellectui diuino in re intellecta, ergo om- 
+      <lb ed="#G" n="28"/>us voluntas est recta, quae conformat se voluntati diuinae 
+      <lb ed="#G" n="29"/>nie volita.
+    </p>
+            <p xml:id="HuYgTa-e93939-d1e1914">
+               <lb ed="#G" n="30"/>2 Praeterea, super illo verbo Psal. Exultate iusti in do 
+      <lb ed="#G" n="31"/>nino, rectos decet collaudatio, dicit Olo. Rectum cor ha 
+      <lb ed="#G" n="32"/>ber, qui vult, quod Deus vult, sed per cor animae
+      intelli<lb ed="#G" n="33" break="no"/>mus voluntatem.
+    </p>
+            <p xml:id="HuYgTa-e93939-d1e1925">
+               <lb ed="#G" n="34"/>Ad primum dicendum, quod non est simile: quia intel 
+      <lb ed="#G" n="35"/>lecus rectificatur in adaequatione ad rem intellectam, vo 
+      <lb ed="#G" n="36"/>luntas vero dicitur recta in ordine ad debitum finem
+      prae<lb ed="#G" n="37" break="no"/>Pposita recta intentione volentis; ideo licet aliquis
+      ue<lb ed="#G" n="38" break="no"/>I aliquod bonum, quod etiam Deus vult, si tamen illus 
+      <lb ed="#G" n="39"/>rui mala intentione, vel in ordine ad malum finem, quen 
+      <!--290.xml-->
+      <cb ed="#G" n="b"/>
+               <lb ed="#G" n="40"/>praetendit, eius voluntas non erit bona, vel recta, sed
+      po<lb ed="#G" n="41" break="no"/>tius mala &amp; obliqua 
+    </p>
+            <p xml:id="HuYgTa-e93939-d1e1950">
+               <lb ed="#G" n="42"/>
+               <pc type="indent"/>Ad secundum dicendum, quod rectum cor habet, qui 
+      <lb ed="#G" n="43"/>vult, quod Deus vult, &amp; ea intentione, qua Deus vult 
+      <lb ed="#G" n="44"/>eum velle 
+    </p>
+            <p xml:id="HuYgTa-e93939-d1e1961">
+               <lb ed="#G" n="45"/>
+               <pc type="indent"/>Tertia conclusio est, quod ad rectitudinem uoluntatis phi 
+      <lb ed="#G" n="46"/>osophice loquendo sufficit, quod voluntas velit bonum in 
+      <lb ed="#G" n="47"/>ordine ad bonum finem, Sed theologice loquendo requi  
+      <lb ed="#G" n="48"/>ritur, quod habitu caritatis informata velit ea, quae secun 
+      <lb ed="#G" n="49"/>lum legem euangelicam sunt uolibilia cum intentione 
+      <lb ed="#G" n="50"/>poni finis; de his tamen ad praesens transeo, eo quod
+      tra<lb ed="#G" n="51" break="no"/>ctabilia sunt circa materiam secundi libri; ibi forte de his 
+      <lb ed="#G" n="52"/>dicetur: in multis enim locis secundi libri potest tangi 
+      <lb ed="#G" n="53"/>sta moralis materia, 
+    </p>
+            <p xml:id="HuYgTa-e93939-d1e1985">
+               <lb ed="#G" n="54"/>
+               <pc type="indent"/>Ad argumentum principale dicendum, quod minor non 
+      <lb ed="#G" n="55"/>est uera. Ad probationem dicendum, quod quando visus
+      ali<lb ed="#G" n="56" break="no"/>quid percipit distincte, quod ante non distincte dicitur us 
+      <lb ed="#G" n="57"/>disse, uel uidit illam rem ante, licet non habuerit actum  
+      <lb ed="#G" n="58"/>udicatiuum circa eam, uel penitus non uidit eam,
+      quo<lb ed="#G" n="59" break="no"/>modocunque dicatur, semper uidens conuincitur esse
+      mu<lb ed="#G" n="60" break="no"/>tatus, eo quod aliquid acquisiuit: Nam si dicatur primum, tunc 
+      <lb ed="#G" n="61"/>licet uidens postquam incepit rem illam discernere, non 
+      <lb ed="#G" n="62"/>acquisiuit nouam uisionem: tamen per actum
+      iudicato<lb ed="#G" n="63" break="no"/>rium acquisiuit circa rem prius uisam nouam
+      discretio<lb ed="#G" n="64" break="no"/>nem, &amp; nouum iudicium: Si autem datur secundum, tund 
+      <lb ed="#G" n="65"/>non solum acquiritur nouum iudicium, sed etiam
+      acqui<lb ed="#G" n="66" break="no"/>titur noua uisio, uel saltem extensior uisio, quam ante ha 
+      <lb ed="#G" n="67"/>bebatur; Sicut in uita beata quamuis eadem beatifica
+      ui<lb ed="#G" n="68" break="no"/>sio in aeternum continuetur: tamen, si Deus alicui beato 
+      <lb ed="#G" n="69"/>una die ostenderet in obiecto beatifico aliqua
+      cognosci<lb ed="#G" n="70" break="no"/>bilia, quae prius sibi non monstrauit, talis beatus in sua ui 
+      <lb ed="#G" n="71"/>sione uere mutaretur, quia licet haberet eandem
+      beati<lb ed="#G" n="72" break="no"/>ficam uisionem, quam habuit primo, tamen sua uisio esset 
+      <lb ed="#G" n="73"/>nunc extensior, quam primo, eo quod ad aliqua
+      cognoscibi<lb ed="#G" n="74" break="no"/>lia se pro nunc extenderet, ad quae antea se non
+      extende<lb ed="#G" n="75" break="no"/>at sua uisio, quamuis essentialiter &amp; uere esset beata, ad 
+      <lb ed="#G" n="76"/>uam uisionem beatificam &amp; gloriosam nos perducat do 
+      <lb ed="#G" n="77"/>ninus lesus Christus noster glorificator, qui cum patre, 
+      <lb ed="#G" n="78"/>&amp; spiritu sancto est omnium gubernator Amen
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

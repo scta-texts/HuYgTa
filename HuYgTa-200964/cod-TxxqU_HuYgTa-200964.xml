@@ -1,0 +1,580 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#ThomasStrasbourg">Thomas of Strasbourg</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2020-11-26">November 26, 2020</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="G" n="cod-TxxqU">Genoa 1585</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2020-11-26" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#G" n="NaN-v"/>
+            <cb ed="#G" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="HuYgTa-200964"><!-- HuYgTa-l3d36q1 -->
+            <head xml:id="HuYgTa-200964-Hd1e108">Quaestio 1</head>
+            <head xml:id="HuYgTa-200964-Hd1e111" type="question-title">
+      An morales virtutes sint connexae inter se
+    </head>
+            <p xml:id="HuYgTa-200964-d1e114">
+               <lb ed="#G" n="60"/>
+               <pc type="indent"/>Quaestio 1. 
+      <lb ed="#G" n="61"/>An morales virtutes sint connexae 
+      <lb ed="#G" n="62"/>inter se
+    </p>
+            <p xml:id="HuYgTa-200964-d1e125">
+      <!--577.xml-->
+               <cb ed="#G" n="b"/>
+               <lb ed="#G" n="63"/>VTRVM omnes virtutes morales sint connexae.
+      Vi<lb ed="#G" n="64" break="no"/>V detur, quod non: Quia illud, quod est contra diuinam  
+      <lb ed="#G" n="65"/>scientiam, hoc a nullo catholico debet poni: sed virtutes) 
+      <lb ed="#G" n="66"/>morales esse connexas est contra diuinam scientiam: er- 
+      <lb ed="#G" n="67"/>go: &amp;c. maior patet: minor probatur auctoritate D. Aug. 
+      <lb ed="#G" n="68"/>qui ait in quadam epist. ad Hier. non est haec diuina scientia 
+      <lb ed="#G" n="69"/>sed humana, qua dicitur, qui habet vnam, habet omnes. 
+    </p>
+            <p xml:id="HuYgTa-200964-d1e147">
+               <lb ed="#G" n="70"/>
+               <pc type="indent"/>Contra, illud, quod in scientia morali dicitur de
+      virtu<lb ed="#G" n="71" break="no"/>tibus moralibus hoc max. est tenendum: sed. <ref xml:id="HuYgTa-200964-Rd1e155">8. eth.</ref> dicit,  
+      <lb ed="#G" n="72"/>Aris. virtutes morales esse connexas: ergo &amp;c. Maior
+      pa<lb ed="#G" n="73" break="no"/>tet: quia vnicuique experto in sua scientia est credendum 
+      <lb ed="#G" n="74"/>Hic quattuor sunt videnda. Primo de eo, quod quaeritur.  
+      <lb ed="#G" n="75"/>Secundo vtrum virtutes theologicae sint connexae. Tertio,  
+      <lb ed="#G" n="76"/>vtrum dona sint connexa. Quarto, vtrum vitia, seu
+      pec<lb ed="#G" n="77" break="no"/>cata sint connexa. 
+    </p>
+            <p xml:id="HuYgTa-200964-d1e173">
+               <lb ed="#G" n="78"/>
+               <pc type="indent"/>RESOLVTIO. 
+      <lb ed="#G" n="79"/>VIvtus quaelibet moralis in sui perfectr one accepta virtutes
+      ce<lb ed="#G" n="80" break="no"/>teras sibi connexas necessario vequirit, licet imperfecte
+      sam<lb ed="#G" n="81" break="no"/>pta hant vespuat connexionem. 
+    </p>
+            <p xml:id="HuYgTa-200964-d1e186">
+               <lb ed="#G" n="82"/>
+               <pc type="indent"/>ARTICVLVSI. 
+      <lb ed="#G" n="83"/>Vtrum virtutes morales sint connecc inter se.
+    </p>
+            <p xml:id="HuYgTa-200964-d1e195">
+               <lb ed="#G" n="84"/>QVANTVM ad primum notandum, quod virtus; 
+      <lb ed="#G" n="85"/>
+               <pc type="indent"/>moralis dupliciter potest considerari. Vno modor 
+      <lb ed="#G" n="86"/>secundum suum esse completum, seu perfectum. Alio
+      se<lb ed="#G" n="87" break="no"/>cundum suum esse imperfectum. Et iuxta hoc pono duas 
+      <lb ed="#G" n="88"/>conclusiones. Prima est, quod quaelibet virtus moralis, se 
+      <lb ed="#G" n="89"/>cundum suum esse completum, &amp; perfectum accenta, t 
+      <lb ed="#G" n="90"/>necessario habet alias sibi connexas. Et intelligo hic per 
+      <lb ed="#G" n="91"/>connexionem, quod vna non possit esse sine alia. Quod 
+      <lb ed="#G" n="92"/>probo sic 
+    </p>
+            <p xml:id="HuYgTa-200964-d1e219">
+               <lb ed="#G" n="93"/>
+               <pc type="indent"/>1 Quandocumque aliqua multitudo sic se habet, quod 
+      <lb ed="#G" n="94"/>quodlibet illius multitudinis coniungitur, seu connecti 
+      <lb ed="#G" n="95"/>tur cuidam tertio in tantum, quod sine ipso esse non
+      po<lb ed="#G" n="96" break="no"/>test, &amp; e conuerso illud tertium sic connectitur cuilibet 
+      <lb ed="#G" n="97"/>illius multitudinis, tunc omnia illius multitudinis sic con 
+      <lb ed="#G" n="98"/>nectuntur inter se, quod vnum sine altero esse nonpotesti 
+      <lb ed="#G" n="99"/>bed tota multitudo moralium virtutum sic connectitur 
+      <lb ed="#G" n="100"/>prudentiae, &amp; econuerso: ergo &amp;c. Maior est nota: quia si 
+      <lb ed="#G" n="101"/>cut illa, quae vni, &amp; eidem sunt eadem, inter se sunt eade, 
+      <lb ed="#G" n="102"/>sic illa, quae taliter sunt vni, &amp; eidem conexa, quod
+      quod<lb ed="#G" n="103" break="no"/>libet eorum ad hoc, vt existat, coexigit illud, &amp;
+      econuer<lb ed="#G" n="104" break="no"/>o coexigitur ab illo, inter se sunt connexa. Minorem. 
+      <lb ed="#G" n="105"/>probo quo ad ambas partes. Primo, quo ad hoc, quod nul 
+      <lb ed="#G" n="106"/>la virtus moralis possit esse sine prudentia: quia secundi 
+      <lb ed="#G" n="107"/>philosophum a2 eth, virtus moralis est habitus elicitiuus 
+      <lb ed="#G" n="108"/>immediate consistens, prout recta ratio determinabit: sed  
+      <lb ed="#G" n="109"/>prudentia est ipsa rectitudo rationis practicae, de qua 
+      <lb ed="#G" n="110"/>ioquitur ibi Aristot. ergo virtus moralis, cum non possit 
+      <lb ed="#G" n="111"/>esse sine recta ratione, non poterit esse sine prudentia. Se 
+      <lb ed="#G" n="112"/>cunda pars probatur sic. Impossibile est eum esse
+      prudem<lb ed="#G" n="113" break="no"/>tem, qui non est bonus: sed quicunque habet defectum ali 
+      <lb ed="#G" n="114"/>cuius virtutis moralis, ille non est bonus: ergo &amp;c. Ma¬¬ 
+      <lb ed="#G" n="115"/>iorem ponit philosophus S. eth. vbi ait. Impossibile est es 
+      <lb ed="#G" n="116"/>se prudentem non entem bonum. Maior etiam patet: quia 
+      <lb ed="#G" n="117"/>quantum vnum quodque diitat a medio, tantum
+      appro<lb ed="#G" n="118" break="no"/>pinquat ad extremum: sed omnis virtus moralis, vt patet 
+      <lb ed="#G" n="119"/>ex dictis <ref xml:id="HuYgTa-200964-Rd1e281">superius distinct. 33</ref>. est medium inter extrema 
+      <lb ed="#G" n="120"/>vitiosat ergo cuicunque deficit aliqua moralis virtus, ille 
+      <lb ed="#G" n="121"/>aliquid habet de extiemo illi virtuti opposito, &amp; per
+      con<lb ed="#G" n="122" break="no"/>sequens aliquo modo est vitiosus: ergo talis non est
+      per<lb ed="#G" n="123" break="no"/>fecte prudens 
+    </p>
+            <p xml:id="HuYgTa-200964-d1e294">
+               <lb ed="#G" n="124"/>
+               <pc type="indent"/>2 Praeterea, illud patet auctoritate theologorum, &amp; 
+      <lb ed="#G" n="125"/>moralium philolophorum: quia <ref xml:id="HuYgTa-200964-Rd1e302">ber. in lib. ad Eug</ref>. sic ait, 
+      <!--578.xml-->
+      <pb ed="#G" n="P2_54-r"/>
+               <cb ed="#G" n="a"/>
+               <lb ed="#G" n="1"/>Aduerte quendam suauissimum concentum, virtutum atque 
+      <lb ed="#G" n="2"/>alteram pendere ex altera. Modum n in omni virtute
+      iu<lb ed="#G" n="3" break="no"/>stitia querit, prudentia inuenit, fortitudo vindicat,
+      tem<lb ed="#G" n="4" break="no"/>perantia possidet 
+    </p>
+            <p xml:id="HuYgTa-200964-d1e321">
+               <lb ed="#G" n="5"/>
+               <pc type="indent"/>3 Item, <ref xml:id="HuYgTa-200964-Rd1e327">Tullius lib, de Tusculanis quaest</ref> sic ait. Si vnam 
+      <lb ed="#G" n="6"/>de cortinis tuis amiseris, nihilominus dicere poteris sup 
+      <lb ed="#G" n="7"/>pellectilem tuam saluam esse: si autem vnam de virtutibus 
+      <lb ed="#G" n="8"/>tuis amiseris, nullam te habere, necesse est, vt confitearis 
+    </p>
+            <p xml:id="HuYgTa-200964-d1e339">
+               <lb ed="#G" n="9"/>
+               <pc type="indent"/>lstam conclusionem tenuerunt omnes Stoici, quamus 
+      <lb ed="#G" n="10"/>eorum probatio fuerit insufficiens: quia ipsi posuersit
+      me<lb ed="#G" n="11" break="no"/>dium, quod est virtus, esse indiuisibile: ideo secundum eo 
+      <lb ed="#G" n="12"/>nullus acquisiuit virtutem, nisi eam acquireret simplici 
+      <lb ed="#G" n="13"/>citer, &amp; omnino perfectam. Cum tali autem omnimoda 
+      <lb ed="#G" n="14"/>perfectione stare non poterat priuatio, seu carentia
+      cuius<lb ed="#G" n="15" break="no"/>cumque virtutis. 
+    </p>
+            <p xml:id="HuYgTa-200964-d1e359">
+               <lb ed="#G" n="16"/>
+               <pc type="indent"/>Sed istud non est verum: quia medium virtutis non  
+      <lb ed="#G" n="17"/>est quod punctale, &amp; simpliciter indiuisibile, alias vnus ho 
+      <lb ed="#G" n="18"/>mo virtuosus non posset esse virtuosior altero, cuius
+      op<lb ed="#G" n="19" break="no"/>positum etiam ad sensum saepias experimur. In eade enin 
+      <lb ed="#G" n="20"/>virtute vnus virtuosus est, &amp; alter virtuosior, &amp; tertius vi 
+      <lb ed="#G" n="21"/>tuosissimus. Virtus enim gradus habet, &amp; magnam latitu 
+      <lb ed="#G" n="22"/>dinem, vt patet per Arist. in eth. &amp; ideo secundum gram 
+      <lb ed="#G" n="23"/>maticos recipit comparationem, quod nequaquam fieret 
+      <lb ed="#G" n="24"/>si in indiuisibili consisteret, nulluque gradum haberet. Ista 
+      <lb ed="#G" n="25"/>etiam conclusio, quamuis ab aliquibus peripateticis neg 
+      <lb ed="#G" n="26"/>tur : princeps tamen peripateticorum, scilicet Arist. ex 
+      <lb ed="#G" n="27"/>presse eam ponit. <ref xml:id="HuYgTa-200964-Rd1e389">8. ethi</ref> ubi euidenter ponit, quod omne 
+      <lb ed="#G" n="28"/>uirtutes morales ratione prudentiae connectuntur. Illi au 
+      <lb ed="#G" n="29"/>tem, qui negant hac conclusionem ex isto forte mouentur. 
+    </p>
+            <p xml:id="HuYgTa-200964-d1e397">
+               <lb ed="#G" n="30"/>1 Quia uirtutes morale, ex operibus, acquiruntur: sed 
+      <lb ed="#G" n="31"/>ho potest se exercere in castis operibus non faciendo
+      o<lb ed="#G" n="32" break="no"/>pera liberalitatis, ergo homo potest habere uirtutem
+      te<lb ed="#G" n="33" break="no"/>perantiae praeter hoc, quod acquirat liberalitatem.
+    </p>
+            <p xml:id="HuYgTa-200964-d1e408">
+               <lb ed="#G" n="34"/>2 Praeterea, secundum <ref xml:id="HuYgTa-200964-Rd1e412">philosophum 4. ethic.</ref> ille, qui 
+      <lb ed="#G" n="35"/>tirca honores medioeres bene se habet, non est magnan 
+      <lb ed="#G" n="36"/>mus: quia magnanimitas est circa magnos honores: sed co 
+      <lb ed="#G" n="37"/>stat, quod ille virtuosus, licet illa uirtus non sit nominata, vi 
+      <lb ed="#G" n="38"/>ibidem ait philosophus. Quandoque etiam illa uirtus non 
+      <lb ed="#G" n="39"/>minatur philotomia, quod rnterpretatur amor rectus circa 
+      <lb ed="#G" n="40"/>honores. Cum igitur illa uirtus sit sinc
+      magnanimitate<lb ed="#G" n="41" break="no"/>ergo non omnes sunt virtutes connexae.
+    </p>
+            <p xml:id="HuYgTa-200964-d1e431">
+               <lb ed="#G" n="42"/>3 Praeterea, contra rationem adductam pro ista
+      conclu<lb ed="#G" n="43" break="no"/>sione uidetur, quod prima pars minoris situera: quia mu 
+      <lb ed="#G" n="44"/>ti sunt homines simplices, qui non sunt prudentes: &amp; ta 
+      <lb ed="#G" n="45"/>men sunt ualde uirtuosi.
+    </p>
+            <p xml:id="HuYgTa-200964-d1e442">
+               <lb ed="#G" n="46"/>4 Item, contra secundam partem eiusdem minoris: 
+      <lb ed="#G" n="47"/>quia multi sunt magni peccatores, qui tamen bene
+      iudi<lb ed="#G" n="48" break="no"/>cant circa agibilia: sed prudentia est recta ratio agibilium; 
+      <lb ed="#G" n="49"/>ergo in istis est prudentia, quauis careant morali uirtute 
+    </p>
+            <p xml:id="HuYgTa-200964-d1e454">
+               <lb ed="#G" n="50"/>
+               <pc type="indent"/>Ad primum dicendum, quod si aliquis exercitat actu 
+      <lb ed="#G" n="51"/>disponentes ad aliquam virtutem, qui tamen manet in ui 
+      <lb ed="#G" n="52"/>tio opposito alicui alteri uirtuti morali, ille non acquirit 
+      <lb ed="#G" n="53"/>virtutem perfecte, licet possit acquirere aliquid simile uit 
+      <lb ed="#G" n="54"/>tuti: quia ex illis actibus frequentatis derelinquitur in ij 
+      <lb ed="#G" n="55"/>so quaedam inclinatio, per quam facilius operatur
+      consi<lb ed="#G" n="56" break="no"/>milia his, quae operatus est 
+    </p>
+            <p xml:id="HuYgTa-200964-d1e474">
+               <lb ed="#G" n="57"/>
+               <pc type="indent"/>Forte dicetur, quod impossibile est, quod homo simul 
+      <lb ed="#G" n="58"/>exerceat opera omnium virtutum, quamuis suceessiue hoc 
+      <lb ed="#G" n="59"/>facere possit: idco saltem illa uirtus, quam primo per
+      as<lb ed="#G" n="60" break="no"/>suefactionem acquirit, illa stabit sola, donec acquirat alia 
+      <lb ed="#G" n="61"/>uirtutes: ergo pro tunc illa uirtus non erit connexa cete 
+      <lb ed="#G" n="62"/>ris uirtutibus 
+    </p>
+            <p xml:id="HuYgTa-200964-d1e492">
+               <lb ed="#G" n="63"/>
+               <pc type="indent"/>Respondeo, quod quamuiscunque aliquis exerceat o- 
+      <lb ed="#G" n="64"/>pera ad aliquam virtutem disponentia: numquam tamen 
+      <lb ed="#G" n="65"/>acquirit illam virtutem, nisi habeat rationem rectam, sius 
+      <lb ed="#G" n="66"/>iudicium practicum rectum, &amp; appetitum purgatum:
+      igi<lb ed="#G" n="67" break="no"/>tur quamuis simul non possit facere opera cuiussibet
+      uir<lb ed="#G" n="68" break="no"/>tutis: hoc tamen debet facere uicissim, ut tollat a se om 
+      <lb ed="#G" n="69"/>ne uitium, quod deordinat rectum iudicium practicum, 
+      <lb ed="#G" n="70"/>&amp; inficit appetitum, quo facto sufficienter tunc, ut dixi <ref xml:id="HuYgTa-200964-Rd1e513">su 
+        <lb ed="#G" n="71"/>perius dist. 33.</ref> prius origine acquirit prudentiam, &amp; in e 
+      <lb ed="#G" n="72"/>dem instanti acquirit omnes alias virtutes morales, quan 
+      <lb ed="#G" n="73"/>nis cuidentius, &amp; magis actualiter acquitat illam, vel illas,  
+      <!--578.xml-->
+      <cb ed="#G" n="b"/>
+               <lb ed="#G" n="74"/>cuius, vel quarum opera magis exercuit ille, qui has
+      vir<lb ed="#G" n="75" break="no"/>tutes, acquirit: omnes tamen alias virtutes,
+      concomitan<lb ed="#G" n="76" break="no"/>ter recipit, eo quod propter, rectitudinem rationis, q&amp;ui 
+      <lb ed="#G" n="77"/>puritatem appetitus, ipse dispositus sit ad omnem
+      mo<lb ed="#G" n="78" break="no"/>ralem virtutem. Et ista videtur esse intentio <ref xml:id="HuYgTa-200964-Rd1e538">P. Hiero. In 
+        <lb ed="#G" n="79"/>epistola ad Pamacium</ref>, vbi ait. Quattuor virtutes
+      de<lb ed="#G" n="80" break="no"/>scribunt Stoiti ita sibi connexas, ut qui vnam non
+      habue<lb ed="#G" n="81" break="no"/>rit omnibus careat, &amp; qui vnam habuerit, omnes habeat. 
+    </p>
+            <p xml:id="HuYgTa-200964-d1e548">
+               <lb ed="#G" n="82"/>
+               <pc type="indent"/>Tanguntur autem hic solum quattuor: quia omnes 
+      <lb ed="#G" n="83"/>aliae ad quattuor Cardinales reducuntur: Et ideo suppon 
+      <lb ed="#G" n="84"/>tur idem esse iudicium de ceteris, sicut de istis quattuor.  
+    </p>
+            <p xml:id="HuYgTa-200964-d1e559">
+               <lb ed="#G" n="85"/>
+               <pc type="indent"/>Sunt autem aliae virtutes morales octo, de quibus
+      tra<lb ed="#G" n="86" break="no"/>ctat Arist. in diueruis locis lib eth. &amp; libs magistrorum mo 
+      <lb ed="#G" n="87"/>ralium, scilicet liberalitas, magnificentia, philotomia, ma 
+      <lb ed="#G" n="88"/>gnanimitas, mansuetudo, amicitia, quae alio nomine
+      dici<lb ed="#G" n="89" break="no"/>tur sodalitas, veracitas, &amp; eutropelia. Istarum autem virtu 
+      <lb ed="#G" n="90"/>tum necessitas, ac etiam sufficientia sic haberi potest. Quia 
+      <lb ed="#G" n="91"/>omne bonum, erea quod versantur mores hominum, 
+      <lb ed="#G" n="92"/>aut est vtile, aut honorabile, aut delectabile : Ergo si
+      ho<lb ed="#G" n="93" break="no"/>mo virtuose se habet circa vtilia, hoc contingit dupliciter,  
+      <lb ed="#G" n="94"/>vel simpliciter, &amp; absolute, sic habetur liberalitas: vel cum 
+      <lb ed="#G" n="95"/>quadam arduitate, seu excellentia, puta magnos sumptus 
+      <lb ed="#G" n="96"/>virtuose faciendo, sic est magnificentia. Si circa honores me 
+      <lb ed="#G" n="97"/>diocres, sic habetur philotomia. Si circa honores arduns,  
+      <lb ed="#G" n="98"/>&amp; circa dignitates magnas, sic est maguanimites. Si cirea 
+      <lb ed="#G" n="99"/>delectabilia, hoc tripliciter fieri potest : vel enim hoc fu 
+      <lb ed="#G" n="100"/>in exteriori conuersatione cum aliis hominibus secundum 
+      <lb ed="#G" n="101"/>actum virtutis irascibilis, sic habetur mansuetudo, vel
+      se<lb ed="#G" n="102" break="no"/>cundum actum virtutis eoncupiscibilie, sic habetur amisi 
+      <lb ed="#G" n="103"/>tia; vel secundum actum virtutis rationalis, &amp; hoc
+      dupli<lb ed="#G" n="104" break="no"/>citer: quia vel hoc contingit in eo, quod virtuosus placide si 
+      <lb ed="#G" n="105"/>habet cum aliis hominibus in dictis, &amp; sic habetur veracti 
+      <lb ed="#G" n="106"/>tas, aut in factis, seu in uestibus, &amp; sic habetur eutropelia 
+      <lb ed="#G" n="107"/>er quam virtutem placide habet se homo virtuosius in 
+      <lb ed="#G" n="108"/>ludis, seu iocis. Et dicitur ab ex, quod est bonum, &amp; tropos 
+      <lb ed="#G" n="109"/>quod est versio: quasi omnia conuertens in bonum. Qu 
+      <lb ed="#G" n="110"/>liter autem omnes istae octo viptutes ad quattuor
+      Cardi<lb ed="#G" n="111" break="no"/>nales reducuntur, quamuis euidenter possem ostendere: 
+      <lb ed="#G" n="112"/>tamen causa breuitatis hoc diligenti lectori committo. 
+    </p>
+            <p xml:id="HuYgTa-200964-d1e624">
+               <lb ed="#G" n="113"/>
+               <pc type="indent"/>Ad secundum cicendum, quod habita philotomia,
+      ha<lb ed="#G" n="114" break="no"/>betur magnanimitas, &amp; si non actu, tamen habitu,
+      cuius<lb ed="#G" n="115" break="no"/>modi habitus, quamuis pro illo tunc homo virtuosus non 
+      <lb ed="#G" n="116"/>eliceret actum: si tamen materia se coner ienter offerret 
+      <lb ed="#G" n="117"/>pro tempore, &amp; loco, ipse eliceret huiusmodi actum. Dixs 
+      <lb ed="#G" n="118"/>autem congruenter: quia forte magni honores, &amp;
+      digni<lb ed="#G" n="119" break="no"/>tates excessiuae non dicerent statum illius hominis:
+      pro<lb ed="#G" n="120" break="no"/>ter quod ab actu desisteret, dato, quod habitum in se 
+      <lb ed="#G" n="121"/>haberet 
+    </p>
+            <p xml:id="HuYgTa-200964-d1e649">
+               <lb ed="#G" n="122"/>
+               <pc type="indent"/>Ad tertium dicendum, quod illi simplices, vel habent 
+      <lb ed="#G" n="123"/>ordinatum, &amp; rectum appetitum finis, &amp; rectum iudicifi 
+      <lb ed="#G" n="124"/>de his quae sunt ad finem, quo circa talia dirigantur,
+      tun<lb ed="#G" n="125" break="no"/>habent virtutem moralem, ac etiam prudentiam, vel non 
+      <lb ed="#G" n="126"/>abent haec, seu carent aliquo istorum, &amp; tunc nec habet 
+      <lb ed="#G" n="127"/>virtutes morales acquisitas, nec prudentiam, nec sunt ueri 
+      <lb ed="#G" n="128"/>virtuosi virtuositate acquisita. Quod addo pro tanto: quia 
+      <lb ed="#G" n="129"/>posito, quod virtutes infundantur habitualiter paruulis 
+      <lb ed="#G" n="130"/>in baptismo, tunc antequam attingant annos discretionis 
+      <lb ed="#G" n="131"/>habitus quidem habent prudentiae, ceterarumque
+      virtu<lb ed="#G" n="132" break="no"/>tum, quamuis nondum talium virtutum habeant exercitium. 
+    </p>
+            <p xml:id="HuYgTa-200964-d1e678">
+               <lb ed="#G" n="133"/>
+               <pc type="indent"/>Ad quartum dicendum, quod iudiciti de agibilibus pe 
+      <lb ed="#G" n="134"/>test dupliciter ficri. Vno modo speculatiue, puta, quu solun 
+      <lb ed="#G" n="135"/>procedit ex naturali lumine intelectus, &amp; sic nonsufficit at 
+      <lb ed="#G" n="136"/>prudentiam sic. n illi, qui naturaliter habet phantasiam
+      magi<lb ed="#G" n="137" break="no"/>ordinatam, &amp; intellectum eleuatum, quamuis sint peccato 
+      <lb ed="#G" n="138"/>res: tamen bene iudicant de agendis. Et eodem modo
+      di<lb ed="#G" n="139" break="no"/>cendum est de illis, qui per doctrinam, &amp; studium sine vir 
+      <lb ed="#G" n="140"/>tutum exercitio queudam habitum boni iudicij acquisis 
+      <lb ed="#G" n="141"/>runt. Omnes enim isti, &amp; si aliquid simile habent pruden 
+      <lb ed="#G" n="142"/>tiae: tamen prudentiam non habent, vt patet per Aristo. 
+      <lb ed="#G" n="143"/>sexto ethicorum. Alio modo iudicium de agibilibus 
+      <lb ed="#G" n="144"/>fit practice, puta, quando procedit non solum ex
+      in<lb ed="#G" n="145" break="no"/>genio, vel studio : sed ex bona qualitate mentis, set 
+      <lb ed="#G" n="146"/>ex dispositione existente in appetitu iudicantis, iuxta 
+      <!--579.xml-->
+      <pb ed="#G" n="P2_54-v"/>
+               <cb ed="#G" n="a"/>
+               <lb ed="#G" n="1"/>quem modum ait Aris in ethicis, qualis vnusquisque est,  
+      <lb ed="#G" n="2"/>scilicet secundum appetitum, talis finis sibi videtur, tale 
+      <lb ed="#G" n="3"/>iudicium procedit a prudentia, &amp; necessario praesupponit 
+      <lb ed="#G" n="4"/>moralem virtutem, per quam appetitus est rectus, &amp; sine 
+      <lb ed="#G" n="5"/>qua non potest esse rectus : Propter quod prudentia non  
+      <lb ed="#G" n="6"/>est in talibus peccatoribus, de quibus arguitur. 
+    </p>
+            <p xml:id="HuYgTa-200964-d1e733">
+               <lb ed="#G" n="7"/>
+               <pc type="indent"/>Secunda conclusio est, quod accipiendo virtutem
+      se<lb ed="#G" n="8" break="no"/>cundum esse imperfectum, quo modo etia disposito ad 
+      <lb ed="#G" n="9"/>virtutem quandoque virtus appellatur, tunc virtutes no 
+      <lb ed="#G" n="10"/>sunt sic connexae, quin vna possit haberi sine alia: quia ex 
+      <lb ed="#G" n="11"/>naturali complexione, vel etiam propter exercitium
+      ope<lb ed="#G" n="12" break="no"/>rum aliquis homo est inclinatus ad vnam virtutem, qui 
+      <lb ed="#G" n="13"/>tamen non est inclinatus ad aliam virtutem. 
+    </p>
+            <p xml:id="HuYgTa-200964-d1e753">
+               <lb ed="#G" n="14"/>
+               <pc type="indent"/>ARTICVLVS II 
+      <lb ed="#G" n="15"/>Vtrum virtutes theologice sint cmmexae.
+    </p>
+            <p xml:id="HuYgTa-200964-d1e762">
+               <lb ed="#G" n="16"/>VANTVM ad secundum articulum est notandum 
+      <lb ed="#G" n="17"/>ee quod virtutes theologicae possunt dupliciter con 
+      <lb ed="#G" n="18"/>siderari. Vno modo, vt virtutes sunt. Alio modo, vt
+      ha<lb ed="#G" n="19" break="no"/>bitus sunt. Primo modo non possunt separari. Quia, quod cari 
+      <lb ed="#G" n="20"/>tas non possit esse sine fide, &amp; spe, satis patet ex dictis
+      su<lb ed="#G" n="21" break="no"/>perius de virtutibus theologicis. Nullums enim potest esse  
+      <lb ed="#G" n="22"/>Deo carus, qui nec actualiter, nec habitualiter sperat in 
+      <lb ed="#G" n="23"/>Deo, nec credit in Deum: sed omnis habens caritatem 
+      <lb ed="#G" n="24"/>est carus Deo: &amp; non habens spem, &amp; fidem, nec actuali 
+      <lb ed="#G" n="25"/>ter, nec habitualiter sperat in Deo, nec credit in Deum: 
+      <lb ed="#G" n="26"/>ergo &amp;c. Quod autem fides, &amp; spes, vt virtutes sunt, non 
+      <lb ed="#G" n="27"/>possint esse sine caritate, patet: quia omnis virtus
+      theo<lb ed="#G" n="28" break="no"/>logica, secundum quod virtus est, sic meritoria est: sed fi- 
+      <lb ed="#G" n="29"/>des, &amp; spes non sunt meritoriae, nisi assistente caritate: 
+      <lb ed="#G" n="30"/>ergo &amp;c. 
+    </p>
+            <p xml:id="HuYgTa-200964-d1e797">
+               <lb ed="#G" n="31"/>
+               <pc type="indent"/>Forte dicetur, quod mortalis peccator perdit caritate; 
+      <lb ed="#G" n="32"/>&amp; tamen non perdit fidem, &amp; spem 
+    </p>
+            <p xml:id="HuYgTa-200964-d1e807">
+               <lb ed="#G" n="33"/>
+               <pc type="indent"/>2 Item in patria manet caritas: &amp; tamen non manet 
+      <lb ed="#G" n="34"/>ibi fides, &amp; spes 
+    </p>
+            <p xml:id="HuYgTa-200964-d1e816">
+               <lb ed="#G" n="35"/>
+               <pc type="indent"/>Ad primum dicendum, quod non manente caritate 
+      <lb ed="#G" n="36"/>non manent fides, &amp; spes secundum quod sunt virtutes 
+      <lb ed="#G" n="37"/>theologicae: quia, vt sic, virtuositatem habent a caritate, 
+      <lb ed="#G" n="38"/>que est forma cuiuslibet virtutis meritoriae. 
+    </p>
+            <p xml:id="HuYgTa-200964-d1e829">
+               <lb ed="#G" n="39"/>
+               <pc type="indent"/>Ad secundum nego assumptam propositionem: quia 
+      <lb ed="#G" n="40"/>fides, &amp; spes manent in patria, vt probaui <ref xml:id="HuYgTa-200964-Rd1e837">superius dist. 
+        <lb ed="#G" n="41"/>31. art. 3.</ref> &amp; idem probaui de fide in <ref xml:id="HuYgTa-200964-Rd1e842">prolo. q. 3. art. 2</ref>. 
+    </p>
+            <p xml:id="HuYgTa-200964-d1e846">
+               <lb ed="#G" n="42"/>
+               <pc type="indent"/>Secunda conclusio, quod virtutes consideratae, vt
+      ha<lb ed="#G" n="43" break="no"/>bitus sunt, sic fides, &amp; spes possunt esse sine caritate: quia 
+      <lb ed="#G" n="44"/>fides, &amp;spes, vt insormes sunt, quauis sint habitus animae 
+      <lb ed="#G" n="45"/>inhaerentes: tamen sunt absque caritate: sed, vt iam
+      di<lb ed="#G" n="46" break="no"/>ctum est, in peccatore mortali informes sunt: ergo &amp;c. 
+    </p>
+            <p xml:id="HuYgTa-200964-d1e862">
+               <lb ed="#G" n="47"/>
+               <pc type="indent"/>ARTICVLVS III. 
+    </p>
+            <p xml:id="HuYgTa-200964-d1e869">
+               <lb ed="#G" n="48"/>
+               <pc type="indent"/>vtrum dond sint conne x4. 
+      <lb ed="#G" n="49"/>VANTVM ad tertium articulum, dico primo, quod 
+    </p>
+            <p xml:id="HuYgTa-200964-d1e879">
+               <lb ed="#G" n="50"/>
+               <pc type="indent"/>7. dona spiritus sancti connexa sunt. Quia nullum 
+      <lb ed="#G" n="51"/>istorum donorum est perfectum sine al tero: sed quodlibet 
+      <lb ed="#G" n="52"/>istorum donorum, vt datur a spiritu sancto, perfectum est: 
+      <lb ed="#G" n="53"/>uia Dei perfecta sunt opera, maxime loquendo de his,  
+      <lb ed="#G" n="54"/>quae Deus in nobis operatur, quales sunt virtutes
+      theo<lb ed="#G" n="55" break="no"/>logicae, &amp; ista dona, de quibus loquens August. ait. Virtus 
+      <lb ed="#G" n="56"/>est bona qualitas mentis, qua recte viuitur, qua nemo 
+      <lb ed="#G" n="57"/>male vtitur, quam Deus in nobis sine nobis operatur 
+      <lb ed="#G" n="58"/>Maiorem ponit <ref xml:id="HuYgTa-200964-Rd1e902">8. Grego. 1. libu moral.</ref> vbi tractans illud 
+      <lb ed="#G" n="59"/>lob ibant filii eius, &amp; faciebant conuiuia per domus
+      vnus<lb ed="#G" n="60" break="no"/>uisque in die suo, comparando septem dona 7. filiis
+      ip<lb ed="#G" n="61" break="no"/>sius <name xml:id="HuYgTa-200964-Nd1e912" ref="#Job">Iob</name>, dicit: sed illud in hoc filiorum conuiuio
+      perscru<lb ed="#G" n="62" break="no"/>tandum video, quod semetipsos inuicem pascunt: quis 
+      <lb ed="#G" n="63"/>valde singula quaelibet virtutum destruitur, si non vna vir 
+      <lb ed="#G" n="64"/>tus alteri virtuti suffragetur. Minor quippe est sapientia 
+      <lb ed="#G" n="65"/>si intellectu careat, &amp; sic valde inutilis est intellectus si 
+      <!--579.xml-->
+      <cb ed="#G" n="b"/>
+               <lb ed="#G" n="66"/>ex sanientia non subsistat quia cum altioram sine sapientiae 
+      <lb ed="#G" n="67"/>ondere penetrat, illum leuitas grauius ruiturum leuat  
+      <lb ed="#G" n="68"/>vile est consilium, cui robur fortitudinis deest: quia, 
+      <lb ed="#G" n="69"/>quod tractado inuenit carens viribus, vsquc ad
+      perfectio<lb ed="#G" n="70" break="no"/>nem operis non perducit: &amp; fortitudo valde destruituri 
+      <lb ed="#G" n="71"/>nisi per consilium fulciatur: quia quo plus se posse
+      con<lb ed="#G" n="72" break="no"/>spicit, eo virtus sine moderamine deterius in praeceps 
+      <lb ed="#G" n="73"/>ruit. Et sic similiter de aliis donis Crego. probat
+      con<lb ed="#G" n="74" break="no"/>nexionem ibidem 
+    </p>
+            <p xml:id="HuYgTa-200964-d1e949">
+               <lb ed="#G" n="75"/>
+               <pc type="indent"/>Secundo dico, quod dona sunt conuexa cum
+      virtuti<lb ed="#G" n="76" break="no"/>tibus, &amp; maxime cum theologicis. 
+    </p>
+            <p xml:id="HuYgTa-200964-d1e958">
+               <lb ed="#G" n="77"/>
+               <pc type="indent"/>1 Quia illud, quod datur in adiutorium alteri, hoc 
+      <lb ed="#G" n="78"/>debet illi assistere, cui datur in adiutorium: sed, vt
+      pro<lb ed="#G" n="79" break="no"/>baui <ref xml:id="HuYgTa-200964-Rd1e968">superius distin. 34.</ref> dona dantur in adiutorium
+      vir<lb ed="#G" n="80" break="no"/>tutum: ergo &amp;c. 
+    </p>
+            <p xml:id="HuYgTa-200964-d1e975">
+               <lb ed="#G" n="81"/>
+               <pc type="indent"/>2 Praeterea, de virtutibus theologicis specialiter istud 
+      <lb ed="#G" n="82"/>probat Crego. vt supra comparans tres silias ipsius <name xml:id="HuYgTa-200964-Nd1e983" ref="#Job">Iob</name>  
+               <lb ed="#G" n="83"/>tribus virturibus theologicis, sic di. Sed habent in nobis 
+      <lb ed="#G" n="84"/>septem filii procul dubio tres sorores: quia quicquid
+      viri<lb ed="#G" n="85" break="no"/>le hi virtutum sensus faciunt, hoc fidei, spei,
+      caritati<lb ed="#G" n="86" break="no"/>que coniungunt, neque ad denarii perfectionem septem 
+      <lb ed="#G" n="87"/>filii perueniunt nisi in fide, &amp; spe, caritate fuerit omne, 
+      <lb ed="#G" n="88"/>uod agunt  
+    </p>
+            <p xml:id="HuYgTa-200964-d1e1000">
+               <lb ed="#G" n="89"/>
+               <pc type="indent"/>corte contra primam conclusionem dicent, quod pro 
+      <lb ed="#G" n="90"/>batio Greg. impedit seipsam in eo, quod ait, minor est 
+      <lb ed="#G" n="91"/>sapientia, si intellectu careat: nam minor sapientia est sa 
+      <lb ed="#G" n="92"/>ientia; quae cum possit esse sinc intellectu: ideo ista
+      do<lb ed="#G" n="93" break="no"/>na non erunt connexa. 
+    </p>
+            <p xml:id="HuYgTa-200964-d1e1016">
+               <lb ed="#G" n="94"/>
+               <pc type="indent"/>Contra secundam conclusionem sic. Virtutes morales 
+      <lb ed="#G" n="95"/>x puris naturalibus possunt acquiri: ergo si connexionem 
+      <lb ed="#G" n="96"/>haberent cum donis spiritus sancti, tuc huiusmodi dona ex 
+      <lb ed="#G" n="97"/>puris naturalibus haberentur, quod fuit haeresis
+      Pelagi<lb ed="#G" n="98" break="no"/>Ad primum respondeo, quod illa minor sapientia 
+      <lb ed="#G" n="99"/>non est donum spiritus sancti, sicut enim intellectus
+      inu<lb ed="#G" n="100" break="no"/>ilis, qui accipitur ex altera parte, non potest esse donum 
+      <lb ed="#G" n="101"/>quia donum spiritus sancti non potest esse inutile, sic 
+      <lb ed="#G" n="102"/>nec huiusmodi minor sapientia potest esse donum
+      spiri<lb ed="#G" n="103" break="no"/>tus sancti. 
+    </p>
+            <p xml:id="HuYgTa-200964-d1e1043">
+               <lb ed="#G" n="104"/>
+               <pc type="indent"/>Ad secundum dicendum, quod quamuis dictum sit per 
+      <lb ed="#G" n="105"/>me, quod dona sint sic connexa virtutibus, quod non sint 
+      <lb ed="#G" n="106"/>sine ipsis: tamen non dixi, quod virtutes morales acquisitae 
+      <lb ed="#G" n="107"/>non possint esse sine donis, sicut procedit argumentum. 
+    </p>
+            <p xml:id="HuYgTa-200964-d1e1056">
+               <lb ed="#G" n="108"/>
+               <pc type="indent"/>ARTICVLVS In 
+      <lb ed="#G" n="109"/>
+               <pc type="indent"/>Vtrum peccata sint connexa.
+    </p>
+            <p xml:id="HuYgTa-200964-d1e1067">
+               <lb ed="#G" n="110"/>VANTVM ad quartum articulum, dico primo, quod 
+      <lb ed="#G" n="111"/>
+               <pc type="indent"/>Cproprie loquendo vitia non sunt connexa. 
+      <lb ed="#G" n="112"/>1 Quia quorum vnum sine altero potest esse, illa non  
+      <lb ed="#G" n="113"/>sunt connexa: sed vitia, seu peccata sunt huiusmodi 
+      <lb ed="#G" n="114"/>quia aliquis potest esse superbus, qui tamen non est
+      lu<lb ed="#G" n="115" break="no"/>xuriosus.
+    </p>
+            <p xml:id="HuYgTa-200964-d1e1085">
+               <lb ed="#G" n="116"/>2 Praeterea, contraria non possunt simul inesse eidem; 
+      <lb ed="#G" n="117"/>sed multa vitia sunt contraria: ergo &amp;c. Maior patet:; 
+      <lb ed="#G" n="118"/>probatur minor: quia cum virtus sit medium inter
+      su<lb ed="#G" n="119" break="no"/>erfluum, &amp; diminutum : ergo circa quamlibet virtutem 
+      <lb ed="#G" n="120"/>contingit esse duo extrema, quae sunt contraria uitia,
+      pu<lb ed="#G" n="121" break="no"/>ta, extrema liberalitatis, parcitas, &amp; prodigalitas: extrema 
+      <lb ed="#G" n="122"/>fortitudinis, audacia, &amp; timiditas, &amp;c. de alijs.  
+    </p>
+            <p xml:id="HuYgTa-200964-d1e1103">
+               <lb ed="#G" n="123"/>
+               <pc type="indent"/>3 Praeterea, quorum causae non possunt simul
+      concur<lb ed="#G" n="124" break="no"/>rere, illa non sunt necessario connexa: sed aliquorum pec 
+      <lb ed="#G" n="125"/>catorum causae non possunt in eodem simul concurrere: 
+      <lb ed="#G" n="126"/>quia aliquorum peccatorum causa est inopinata laetitias 
+      <lb ed="#G" n="127"/>aliquorum vero tristitia, in tantum, quod aliqui ex
+      tristi<lb ed="#G" n="128" break="no"/>tia occidunt seipsos 
+    </p>
+            <p xml:id="HuYgTa-200964-d1e1121">
+               <lb ed="#G" n="129"/>
+               <pc type="indent"/>Forte dicetur sic contra istam conclusionem: Qui est 
+      <lb ed="#G" n="130"/>riuatus omni virtute, habet omne vitium. Ista patet: 
+      <lb ed="#G" n="131"/>uia vitium est priuatio virtutis; sed habens vnum vitium 
+      <lb ed="#G" n="132"/>est priuatus omni virtute: ergo habens vnum vitium
+      ha<lb ed="#G" n="133" break="no"/>pet omne vitium. 
+    </p>
+            <p xml:id="HuYgTa-200964-d1e1138">
+               <lb ed="#G" n="134"/>
+               <pc type="indent"/>Dicendum, quod maior non est vera. Ad probationem 
+      <!--580.xml-->
+      <pb ed="#G" n="P2_55-r"/>
+               <cb ed="#G" n="a"/>
+               <lb ed="#G" n="1"/>dico, quod vitium non dicit simplicem priuationem
+      vir<lb ed="#G" n="2" break="no"/>tutis: sed cum priuatione dicit oppositam qualitatem vn 
+      <lb ed="#G" n="3"/>tuti repugnantem.
+    </p>
+            <p xml:id="HuYgTa-200964-d1e1158">
+               <lb ed="#G" n="4"/>Secundo, dico, quod improprie loquendo de
+      connexio<lb ed="#G" n="5" break="no"/>ne, prout illa dicuntur connexa, quae conueniunt in ali 
+      <lb ed="#G" n="6"/>quo vno communi, sic vitia mortalia omnia sunt conne 
+      <lb ed="#G" n="7"/>xa: quia quamuis differant peccata in conuersione ad bo 
+      <lb ed="#G" n="8"/>num commutabile: omnia tamen conueniunt in auersio 
+      <lb ed="#G" n="9"/>ne a bono incommutabili, Propter quod etiam in
+      poen<lb ed="#G" n="10" break="no"/>peccatis debita, licet sit differentia in poena sensus, quae 
+      <lb ed="#G" n="11"/>respondet conuersioni, quae est in peccato: tamen in
+      poe<lb ed="#G" n="12" break="no"/>na damni, quae respondet auersioni secundum se, non est 
+      <lb ed="#G" n="13"/>differentia: cum carentia diuinae visionis, in qua poena
+      dam<lb ed="#G" n="14" break="no"/>ni consistit, sit omnibus damnatis communis. Et isto
+      mo<lb ed="#G" n="15" break="no"/>do intelligendum est lllud verbum lac vbi dicitur, qui in 
+      <lb ed="#G" n="16"/>vno offenderit, factus est omnium reus.
+    </p>
+            <p xml:id="HuYgTa-200964-d1e1189">
+               <lb ed="#G" n="17"/>Ad argumentum principale dicendum, quod minor est 
+      <lb ed="#G" n="18"/>falsa. Ad probationem dico, quod per illa verba non plus 
+      <lb ed="#G" n="19"/>habetur, nisi quod virtutes esse connexas non est dictum 
+      <lb ed="#G" n="20"/>sacrae scripturae, sed moralis philosophiae.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

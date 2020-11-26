@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Circa textum</title>
+            <author ref="#ThomasStrasbourg">Thomas of Strasbourg</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Circa textum</title>
+               <date when="2020-11-26">November 26, 2020</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="G" n="cod-TxxqU">Genoa 1585</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2020-11-26" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#G" n="81-v"/>
+            <cb ed="#G" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="HuYgTa-e61706"><!-- HuYgTa-l1d22ct1 -->
+            <head xml:id="HuYgTa-e61706-Hd1e108">Circa textum</head>
+            <p xml:id="HuYgTa-e61706-d1e111">
+      <!--201.xml-->
+               <pb ed="#G" n="81-v"/>
+               <cb ed="#G" n="a"/>
+               <lb ed="#G" n="1"/>DISTINCTIO SxII 
+      <lb ed="#G" n="2"/>Persbicua, ac vesolita diuuisio huius distinctionis, in 
+      <lb ed="#G" n="3"/>
+               <pc type="indent"/>qua aggreditur Magister tractatum de
+      nonuni<lb ed="#G" n="4" break="no"/>
+               <pc type="indent"/>bus vnitatem diuinae essentiae, personaru
+      tri<lb ed="#G" n="5" break="no"/>
+               <pc type="indent"/>nitatem, perfectiones atque
+      productio<lb ed="#G" n="6" break="no"/>
+               <pc type="indent"/>nes exprimentibus
+    </p>
+            <p xml:id="HuYgTa-e61706-d1e142">
+               <lb ed="#G" n="7"/>
+               <pc type="indent"/>POST praedicta nobis. Postquam Mi 
+      <lb ed="#G" n="8"/>gister a distinctione secunda vsquoe  
+      <lb ed="#G" n="9"/>huc determinauit de diuinae
+      essen<lb ed="#G" n="10" break="no"/>tiae vnitate, personarum trinitate 
+      <lb ed="#G" n="11"/>ac diuinis perfectionibus &amp; produm 
+      <lb ed="#G" n="12"/>ctionibus Deo intrinsece
+      conue<lb ed="#G" n="13" break="no"/>nientibus, in ista 22. di. Magiste 
+      <lb ed="#G" n="14"/>incipit determinare de nominib 
+      <lb ed="#G" n="15"/>ista exprimentibus; &amp; duo facit: quia primo tractat de
+      hu<lb ed="#G" n="16" break="no"/>iusmodi nominibus; Secudo de proprietatibus, a quibu 
+      <lb ed="#G" n="17"/>talia nomina videntur esse imposita ibi, Nunc de proprit 
+      <lb ed="#G" n="18"/>tatibus. Prima in duas: quia primo magister tractat de hu 
+      <lb ed="#G" n="19"/>usmodi diuinis nominibus in generali; Secundo
+      prose<lb ed="#G" n="20" break="no"/>quitur de eis magis in speciali ibi, Praedictis adiiciendum est 
+      <lb ed="#G" n="21"/>Prima in duas: quia primo ponit duplicem ordinem circa 
+      <lb ed="#G" n="22"/>diuina nomina; Secundo quantum ad vsum talium
+      no<lb ed="#G" n="23" break="no"/>minum instruit nos quadam fideli regula ibi, Sciendum 
+      <lb ed="#G" n="24"/>est igitur Prima in duas, secundum que istorum nominum duc 
+      <lb ed="#G" n="25"/>sunt ordines. Secunda ibi, His adiiciendum. Tunc sequitur  
+      <lb ed="#G" n="26"/>illa pars, Sciendum est igitur, &amp; diuiditur in duas: quia
+      pri<lb ed="#G" n="27" break="no"/>mo regulam praemissam assignat. Secundo circa predicta re 
+      <lb ed="#G" n="28"/>capituiat ibi, Ecce aperte docuit. Circa istam dist. quaero 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Circa textum</title>
+            <author ref="#ThomasStrasbourg">Thomas of Strasbourg</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Circa textum</title>
+               <date when="2020-11-26">November 26, 2020</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="G" n="cod-TxxqU">Genoa 1585</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2020-11-26" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#G" n="-r"/>
+            <cb ed="#G" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="HuYgTa-221718"><!-- HuYgTa-l4d7ct1 -->
+            <head xml:id="HuYgTa-221718-Hd1e108">Circa textum</head>
+            <p xml:id="HuYgTa-221718-d1e111">
+               <lb ed="#G" n="80"/>
+               <pc type="indent"/>DISTINCTIO VII. 
+      <lb ed="#G" n="81"/>compendiosa huius distinctionis diuisio,  
+      <lb ed="#G" n="82"/>m qua de sacramento
+      Confirma<lb ed="#G" n="83" break="no"/>tionis agitur.
+    </p>
+            <p xml:id="HuYgTa-221718-d1e124">
+               <lb ed="#G" n="84"/>VNC DE SACRAMENTO 
+      <lb ed="#G" n="85"/>confirmationis. Postquam
+      magi<lb ed="#G" n="86" break="no"/>ster determinauit de sacramento 
+      <lb ed="#G" n="87"/>paptismi hic determinat de
+      sacra<lb ed="#G" n="88" break="no"/>mento confirmationis, &amp;
+      diuidi<lb ed="#G" n="89" break="no"/>tur in duas partes: quia primo
+      tra<lb ed="#G" n="90" break="no"/>ctat de confirmationis sacramento. 
+      <lb ed="#G" n="91"/>pecundo de eius vsu congruo, &amp; 
+      <lb ed="#G" n="92"/>idoneo, ibi, Hoc sacramentum tantu 
+      <lb ed="#G" n="93"/>a iciunis. Prima in duas: quia primo ostendit istius
+      sacra<lb ed="#G" n="94" break="no"/>nenti perfectionem ex causarum suarum assignatione. 
+      <lb ed="#G" n="95"/>Secundo facit hoc idem ex sui ad baptismum
+      compara<lb ed="#G" n="96" break="no"/>tione, ibi. Scit ote vtrumque esse. Prima in quattuor: nam  
+      <lb ed="#G" n="97"/>primo tangit istius sacramenti causam formalem.
+      Secun<lb ed="#G" n="98" break="no"/>do materialem. Tertio efficientem ministerialem. Et 
+      <lb ed="#G" n="99"/>uarto finalem. Secunda ibi, Cum baptixatos in
+      fonti<lb ed="#G" n="100" break="no"/>bus. Tertia ibi, Quod sacramentum. Quarta ibi. Virtus 
+      <lb ed="#G" n="101"/>vero huiusmodi. Sequitur illa pars, Hoc sacramentum. Et 
+      <lb ed="#G" n="102"/>liuiditur in duas: quia primo ostendit, qualiter se debent 
+      <lb ed="#G" n="103"/>habere illi, quibus, &amp; a quibus sacramentum
+      confirma<lb ed="#G" n="104" break="no"/>ionis debet dari. Secundo ostendit, quod istud sacramen 
+      <lb ed="#G" n="105"/>tum non debet iterari. Secunda ibi, Nec debet
+      iterari<lb ed="#G" n="106" break="no"/>
+               <pc type="indent"/>Hic ergo quaero.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

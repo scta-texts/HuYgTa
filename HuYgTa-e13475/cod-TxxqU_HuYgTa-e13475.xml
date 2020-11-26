@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Circa textum</title>
+            <author ref="#ThomasStrasbourg">Thomas of Strasbourg</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Circa textum</title>
+               <date when="2020-11-26">November 26, 2020</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="G" n="cod-TxxqU">Genoa 1585</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2020-11-26" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#G" n="19-r"/>
+            <cb ed="#G" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="HuYgTa-e13475"><!-- HuYgTa-l1d1ct1 -->
+            <head xml:id="HuYgTa-e13475-Hd1e108">Circa textum</head>
+            <p xml:id="HuYgTa-e13475-d1e111">
+      <!--76.xml-->
+               <pb ed="#G" n="19-r"/>
+               <cb ed="#G" n="a"/>
+               <lb ed="#G" n="1"/>DISTINCTIO I 
+      <lb ed="#G" n="2"/>Clara ac dilucida diuisio primae dictinctionis, in 
+      <lb ed="#G" n="3"/>qua Magister materia huius sibri, reliquo 
+      <lb ed="#G" n="4"/>rumque volummum duusionem insimuat 
+    </p>
+            <p xml:id="HuYgTa-e13475-d1e129">
+               <lb ed="#G" n="5"/>VETERIS Ac
+      no<lb ed="#G" n="6" break="no"/>uae legis &amp;c. Postquam 
+      <lb ed="#G" n="7"/>magister praemisit sui 
+      <lb ed="#G" n="8"/>libri prologum, hic 
+      <lb ed="#G" n="9"/>aggreditur tractatum, 
+      <lb ed="#G" n="10"/>&amp; diuiditur in duas 
+      <lb ed="#G" n="11"/>partes: quia primo 
+      <lb ed="#G" n="12"/>magister inquirit in 
+      <lb ed="#G" n="13"/>vniuersali de his, de 
+      <lb ed="#G" n="14"/>quibus tractandum est 
+      <lb ed="#G" n="15"/>in quattuor libris
+      se<lb ed="#G" n="16" break="no"/>quentibus. Secundo 
+      <lb ed="#G" n="17"/>rosequitur de eis in 
+      <lb ed="#G" n="18"/>principio
+      distinctio<lb ed="#G" n="19" break="no"/>nis secundae, ibi; Hoc itaque &amp;c. Prima in tres, quia pri¬¬ 
+      <lb ed="#G" n="20"/>mo inuestigat materiam illorum quattuor librorum
+      di<lb ed="#G" n="21" break="no"/>uifiue, secundo diffinitiue, &amp; tertio epilogatiue.
+      Secun<lb ed="#G" n="22" break="no"/>da ibi Prui autem Tertia ibi, Omnium ergo, quae dicta 
+      <lb ed="#G" n="23"/>sunt. Prima diuiditur in duas: quia primo ponit vnam
+      di<lb ed="#G" n="24" break="no"/>nisionem, ex qua, vt patebit, haberi potest distinctio quan 
+      <lb ed="#G" n="25"/>ti libri a tribus praecedentibus, Secundo ponit vnius
+      me<lb ed="#G" n="26" break="no"/>bri subdiuisionem, ex qua habetur distinctio primorum 
+      <lb ed="#G" n="27"/>trium librorum. Secunda ibi. lllud ergo in rebus. Prima 
+      <lb ed="#G" n="28"/>in duas: quia primo praemittit iam dictam diuisionem. Se 
+      <lb ed="#G" n="29"/>cundo membrorum diuisionis ponit declarationem,
+      ibi<lb ed="#G" n="30" break="no"/>Proprie autem hic in res. Et eodem modo illa pars. Illud 
+      <lb ed="#G" n="31"/>ergo in rebus, in qua subdiuidit, diuiditur in duas partes. 
+      <lb ed="#G" n="32"/>Quia primo ponit diuisionem. Secundo membrorum ex 
+      <lb ed="#G" n="33"/>planationem. Secunda ibi, llle quibus fruendum est &amp;c. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

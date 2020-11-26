@@ -1,0 +1,491 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#ThomasStrasbourg">Thomas of Strasbourg</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2020-11-26">November 26, 2020</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="G" n="cod-TxxqU">Genoa 1585</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2020-11-26" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#G" n="99-r"/>
+            <cb ed="#G" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="HuYgTa-e75388"><!-- HuYgTa-l1d32q1 -->
+            <head xml:id="HuYgTa-e75388-Hd1e108">Quaestio 1</head>
+            <head xml:id="HuYgTa-e75388-Hd1e111" type="question-title">
+      An pater diligat se spiritu sancto.
+    </head>
+            <p xml:id="HuYgTa-e75388-d1e114">
+      <!--236.xml-->
+               <cb ed="#G" n="b"/>
+               <lb ed="#G" n="69"/>Quaestio.  
+      <lb ed="#G" n="70"/>An pater diligat se spiritu sancto. 
+    </p>
+            <p xml:id="HuYgTa-e75388-d1e125">
+               <lb ed="#G" n="71"/>
+               <pc type="indent"/>TRVM pater diligat se spiritu sancto,
+    </p>
+            <p xml:id="HuYgTa-e75388-d1e132">
+      &amp; 
+      <lb ed="#G" n="72"/>videtur quod non: quia sicut se habet pro 
+      <lb ed="#G" n="73"/>ter ad sapere, sic se habet ad diligere, sed 
+      <lb ed="#G" n="74"/>pater non sapit sapientia genita secundum 
+      <lb ed="#G" n="75"/>
+               <ref xml:id="HuYgTa-e75388-Rd1e142">August. 7. de trinit</ref>. nec per consequen 
+      <lb ed="#G" n="76"/>l sapit filio, qui est sapientia genita in
+      di<lb ed="#G" n="77" break="no"/>uinis, ergo pater non diligit se spiritu sancto, qui est amor 
+      <lb ed="#G" n="78"/>procedens in diuinis. 
+    </p>
+            <p xml:id="HuYgTa-e75388-d1e154">
+               <lb ed="#G" n="79"/>
+               <pc type="indent"/>In contrarium est <ref xml:id="HuYgTa-e75388-Rd1e160">Beatus Aug. 8. de trinitate</ref>, vbi ait, 
+      <lb ed="#G" n="80"/>
+               <quote xml:id="HuYgTa-e75388-Qd1e165" source="http://scta.info/resource/adt-l6-d1e804" synch="27-47">Spiritus sanctus est caritas patris &amp; filij, quo vter que
+      con<lb ed="#G" n="81" break="no"/>iungitur, quo genitus a gignente diligitur</quote>, sed eodem  
+      <lb ed="#G" n="82"/>amore pater diligit se, quo diligit filium, ergo &amp;c. Hic 
+      <lb ed="#G" n="83"/>quattuor sunt videnda. Primo videndum est, vtrum
+      pa<lb ed="#G" n="84" break="no"/>ter &amp; filius diligant se spiritu sancto, &amp; per hoc patebit 
+      <lb ed="#G" n="85"/>etiam ad illud, quod quaeritur. Secundo vtrum diligant 
+      <lb ed="#G" n="86"/>nos spiritu sancto. Tertio vtrum pater sit sapiens sapientia 
+      <lb ed="#G" n="87"/>genita. Quarto vtrum filius sit sapiens sapientia ingenita. 
+    </p>
+            <p xml:id="HuYgTa-e75388-d1e184">
+               <lb ed="#G" n="88"/>
+               <pc type="indent"/>RESOLVTIO. 
+      <lb ed="#G" n="89"/>Quamquam pater diligat se spiritu sancto, quemadmodum, &amp; fi- 
+      <lb ed="#G" n="90"/>lius eodem verbo dicit se, &amp; alia ase, ita tonem amore diligit 
+      <lb ed="#G" n="91"/>se, &amp; alia a se. Nen tamen est sapiens lapientia genit a, sicut nec 
+      <lb ed="#G" n="92"/>filius dicitur sapiens sapientia ingenita, modo ingenitum sonet 
+      <lb ed="#G" n="93"/>personam patris. 
+    </p>
+            <p xml:id="HuYgTa-e75388-d1e202">
+               <lb ed="#G" n="94"/>
+               <pc type="indent"/>ARTICVLVSI 
+      <lb ed="#G" n="95"/>Vtrum pater, &amp; filius diligant se spiritu 
+      <lb ed="#G" n="96"/>sancto.
+    </p>
+            <p xml:id="HuYgTa-e75388-d1e213">
+               <lb ed="#G" n="97"/>VANTVM ad primum, vtrum pater &amp; filius
+      di<lb ed="#G" n="98" break="no"/> ligant se spiritu sancto, est aduertendum, quod ali 
+      <lb ed="#G" n="99"/>qua se diligere potest intelligi dupliciter. Vno modo
+      a<lb ed="#G" n="100" break="no"/>more mutuo; alio modo amore reciproco. Primo modo 
+      <lb ed="#G" n="101"/>est sensus, quod pater diligat filium spiritu sancto, &amp;
+      e<lb ed="#G" n="102" break="no"/>conuerso filius diligat patrem, secundo modo est sensus; 
+      <lb ed="#G" n="103"/>quod pater diligat seipsum, &amp; filius diligat seipsum spi 
+      <lb ed="#G" n="104"/>ritu sancto. Et secundum hoc ponam duas conclusiones 
+      <lb ed="#G" n="105"/>iffirmatiuas 
+    </p>
+            <p xml:id="HuYgTa-e75388-d1e235">
+               <lb ed="#G" n="106"/>
+               <pc type="indent"/>Prima est, quod pater diligit filium spiritu sancto, &amp; 
+      <lb ed="#G" n="107"/>econuerso. 
+    </p>
+            <p xml:id="HuYgTa-e75388-d1e244">
+               <lb ed="#G" n="108"/>
+               <pc type="indent"/>Quia ficut ait <ref xml:id="HuYgTa-e75388-Rd1e250">P. August. 8. de trin.</ref> 
+               <quote xml:id="HuYgTa-e75388-Qd1e253" source="http://scta.info/resource/adt-l6-d1e804" synch="27-47">Spiritus sanctus 
+        <lb ed="#G" n="109"/>est caritas patris &amp; filij, quo vterque coninngitur, quo ge 
+        <lb ed="#G" n="110"/>nitus a gignente diligitur</quote>.
+    </p>
+            <p xml:id="HuYgTa-e75388-d1e262">
+               <lb ed="#G" n="111"/>
+               <pc type="indent"/>2 Praeterea, omnis diligens alium proprie diligit eum 
+      <lb ed="#G" n="112"/>amore a se procedente, vt ait <ref xml:id="HuYgTa-e75388-Rd1e270">
+                  <name xml:id="HuYgTa-e75388-Nd1e272" ref="#HughOfStVictor">Hugo</name> in quadam epistola ad 
+        <lb ed="#G" n="113"/>sanctum bern.</ref> sed spiritus sanctus est amor procedens a 
+      <lb ed="#G" n="114"/>patre &amp; filio, vt superius patuit, ergo &amp;c 
+    </p>
+            <p xml:id="HuYgTa-e75388-d1e281">
+               <lb ed="#G" n="115"/>
+               <pc type="indent"/>Praeterea, <ref xml:id="HuYgTa-e75388-Rd1e287">in eadem epistola ait <name xml:id="HuYgTa-e75388-Nd1e289" ref="#HughOfStVictor">Hugo</name>
+               </ref>, si spiritus
+      san<lb ed="#G" n="116" break="no"/>ctus diceretur amor cordis tui, sicut dicitur amor patris,  
+      <lb ed="#G" n="117"/>&amp; filij, quis negare posset te spiritu sancto diligere. 
+    </p>
+            <p xml:id="HuYgTa-e75388-d1e298">
+               <lb ed="#G" n="118"/>
+               <pc type="indent"/>praeterea, amore perfecto amatur ille, in quem
+      hu<lb ed="#G" n="119" break="no"/>iusmodi amor procedit ab eo, a quo procedit, sed spiritus 
+      <lb ed="#G" n="120"/>sanctus vt amor perfectus procedit a patre in filium, &amp;
+      e<lb ed="#G" n="121" break="no"/>conuerso: ergo &amp;c 
+    </p>
+            <p xml:id="HuYgTa-e75388-d1e311">
+               <lb ed="#G" n="122"/>
+               <pc type="indent"/>Sed contrarium illius tenuit quedam opinio dicens hu¬ 
+      <!--237.xml-->
+      <pb ed="#G" n="99-v"/>
+               <cb ed="#G" n="a"/>
+               <lb ed="#G" n="1"/>iusmodi propositones esse simpiciter falsas; Dicunt etiam  
+      <lb ed="#G" n="2"/>August. tales propositiones retractasse in suo simili, cum 
+      <lb ed="#G" n="3"/>
+               <ref xml:id="HuYgTa-e75388-Rd1e330">in suo primo libro: retractationum</ref> retractat illam, pater est 
+      <lb ed="#G" n="4"/>sapiens sapientia genita. Motiua istius opinionis
+      pote<lb ed="#G" n="5" break="no"/>rant esse illa¬  
+    </p>
+            <p xml:id="HuYgTa-e75388-d1e338">
+               <lb ed="#G" n="6"/>
+               <pc type="indent"/>Pater non est sapiens sapientia genita, ergo non est 
+      <lb ed="#G" n="7"/>diligens amore procedente, seu producto, nec per conse 
+      <lb ed="#G" n="8"/>quens spiritu sancto. consequentia patet: antecedens po 
+      <lb ed="#G" n="9"/>nit <ref xml:id="HuYgTa-e75388-Rd1e351">August. 1 retractationum</ref> &amp; <ref xml:id="HuYgTa-e75388-Rd1e354">3. de trinitate cap.</ref> 
+            </p>
+            <p xml:id="HuYgTa-e75388-d1e358">
+               <lb ed="#G" n="10"/>2 Praeterea, diligere Dei, velle Dei idem est, quod
+      es<lb ed="#G" n="11" break="no"/>se Dei: sed pater &amp; filius non sunt spiritus sanctus, ergo 
+      <lb ed="#G" n="12"/>non diligunt spiritu sancto. 
+    </p>
+            <p xml:id="HuYgTa-e75388-d1e368">
+               <lb ed="#G" n="13"/>
+               <pc type="indent"/>3 Praeterea, si diligerent se spiritu sancto, tunc aliqui  
+      <lb ed="#G" n="14"/>esset in eis per spiritum sanctum, seu a spiritu sancto. con 
+      <lb ed="#G" n="15"/>sequens est falsum: consequentia patet: quia ablatiuus im 
+      <lb ed="#G" n="16"/>portat habitudinem causalem.
+    </p>
+            <p xml:id="HuYgTa-e75388-d1e381">
+               <lb ed="#G" n="17"/>4 Praeterea, <ref xml:id="HuYgTa-e75388-Rd1e385">August. 7. de trinitate</ref> arguit sic. Si pate 
+      <lb ed="#G" n="18"/>esset sapiens sapientia genita, tunc pater esset filio; si 
+      <lb ed="#G" n="19"/>in proposito 
+    </p>
+            <p xml:id="HuYgTa-e75388-d1e393">
+               <lb ed="#G" n="20"/>
+               <pc type="indent"/>Sed illa opinio est contra veritatem, &amp; contra
+      mauife<lb ed="#G" n="21" break="no"/>stam intentionem sanctorum, vt patet per multas aucto. 
+      <lb ed="#G" n="22"/>ritates per <ref xml:id="HuYgTa-e75388-Rd1e403">magistrum adductas in illa distin. 32.</ref> Nec Aug. 
+      <lb ed="#G" n="23"/>huiusmodi propositiones retractauit: quia non est modums 
+      <lb ed="#G" n="24"/>August. aliquid retractare in suo simili; sed in propria fo 
+      <lb ed="#G" n="25"/>ma retractat, quae vult retractare. 
+    </p>
+            <p xml:id="HuYgTa-e75388-d1e414">
+               <lb ed="#G" n="26"/>
+               <pc type="indent"/>2 Praeterea, de libro retractationum remittit ad ea, 
+      <lb ed="#G" n="27"/>quae dixerat in libro de trin Sed <ref xml:id="HuYgTa-e75388-Rd1e422">i5. de trin.</ref> dicit hanc es 
+      <lb ed="#G" n="28"/>se falsam, Pater sapit sapientia genita; &amp; <ref xml:id="HuYgTa-e75388-Rd1e428">eodem libro</ref> di 
+      <lb ed="#G" n="29"/>cit hanc esse veram, <quote xml:id="HuYgTa-e75388-Qd1e433" source="http://scta.info/resource/adt-l15-d1e1912" synch="79-85">Pater diligit filium, &amp; filius patrem</quote> 
+               <lb ed="#G" n="30"/>spiritu sancto, ergo &amp;c. 
+    </p>
+            <p xml:id="HuYgTa-e75388-d1e439">
+               <lb ed="#G" n="31"/>
+               <pc type="indent"/>Ad primum nego consequentiam, nam propter aliam. 
+      <lb ed="#G" n="32"/>&amp; aliam habitudinem, quae concernitur inter sapere, seu 
+      <lb ed="#G" n="33"/>intelligere &amp; diligere potest aliquid concedi de vno, &amp; 
+      <lb ed="#G" n="34"/>negari de alio; nam sapere significat motum rei ad
+      ani<lb ed="#G" n="35" break="no"/>mam, diligere vero significat motum animae ad res; idec 
+      <lb ed="#G" n="36"/>quamuis secundum actum amoris anima possit
+      denomi<lb ed="#G" n="37" break="no"/>nari per illud, quod ab ea procedit, tamen hoc non fit
+      se<lb ed="#G" n="38" break="no"/>cundum actum sapientiae, nisi cum aliquali determinatio 
+      <lb ed="#G" n="39"/>ne, propter, hoc licet haec absolute sitvera; pater diligit fi 
+      <lb ed="#G" n="40"/>lium spiritu sancto, qui per modum amoris procedit,
+      ta<lb ed="#G" n="41" break="no"/>men non intelligit spiritum sanctum, vel seipsum filio, 
+      <lb ed="#G" n="42"/>qui per modum sapientiae, &amp; intellectus procedit,
+      quam<lb ed="#G" n="43" break="no"/>uis possit concedi, quod intelligit se in filio 
+    </p>
+            <p xml:id="HuYgTa-e75388-d1e472">
+               <lb ed="#G" n="44"/>
+               <pc type="indent"/>Ad secundum dicendum, quod quamuis in Deo esse, 
+      <lb ed="#G" n="45"/>&amp; diligere sint idem realiter, differunt tamen ratione, &amp;  
+      <lb ed="#G" n="46"/>habitudine, propter quod aliquid conceditur de vno, quod 
+      <lb ed="#G" n="47"/>non conceditur de alio 
+    </p>
+            <p xml:id="HuYgTa-e75388-d1e486">
+               <lb ed="#G" n="48"/>
+               <pc type="indent"/>Ad tertium dicendum, quod pater, &amp; filius non dicun 
+      <lb ed="#G" n="49"/>tur diligere spiritu sancto tamquam forma, quae sit eis ra 
+      <lb ed="#G" n="50"/>tio, &amp; principium diligendi, seu dilectionis, sed tamquam 
+      <lb ed="#G" n="51"/>constituto, scu producto per actionem, &amp; ideo ille
+      abla<lb ed="#G" n="52" break="no"/>tiuus non tenetur causaliter, 
+    </p>
+            <p xml:id="HuYgTa-e75388-d1e502">
+               <lb ed="#G" n="53"/>
+               <pc type="indent"/>Ad quartum patet per ea, quae dicta sunt ad primumi. 
+      <lb ed="#G" n="54"/>Secunda conclusio est haec, quod pater diligit se
+      spi<lb ed="#G" n="55" break="no"/>ritu sancto. 
+    </p>
+            <p xml:id="HuYgTa-e75388-d1e513">
+               <lb ed="#G" n="56"/>
+               <pc type="indent"/>1 Quia sicut se habet verbum ad dicere, ita se habet 
+      <lb ed="#G" n="57"/>amor procedens ad diligere: sed pater dicit se verbo, er 
+      <lb ed="#G" n="58"/>go diligit se amore, seu spiritu sancto 
+    </p>
+            <p xml:id="HuYgTa-e75388-d1e524">
+               <lb ed="#G" n="59"/>
+               <pc type="indent"/>2 Praeterea, eodem amore pater diligit filium, &amp; scip 
+      <lb ed="#G" n="60"/>sum, sed, vt iam patuit, diligit filium spiritu sancto, quo di 
+      <lb ed="#G" n="61"/>ligunt se, etiam nos, &amp; omnia alia a se 
+    </p>
+            <p xml:id="HuYgTa-e75388-d1e535">
+               <lb ed="#G" n="62"/>
+               <pc type="indent"/>ARTICVLVS I 
+      <lb ed="#G" n="63"/>Vtrum Pater, &amp; filius diligant nos 
+    </p>
+            <p xml:id="HuYgTa-e75388-d1e544">
+               <lb ed="#G" n="64"/>
+               <pc type="indent"/>spiritu sancto. 
+      <lb ed="#G" n="65"/>AT PERR4AC eadem media patet, quid sit dicendi 
+      <lb ed="#G" n="66"/>Lad secundum articulum quaestionis; nam sicut patet 
+      <lb ed="#G" n="67"/>eodem verbo, quo dicit se, dicit etiam omnia alia; sic
+      pa<lb ed="#G" n="68" break="no"/>ter, &amp; filius eodem amore, scilicet spiritu sancto, quo
+      dili<lb ed="#G" n="69" break="no"/>gunt etiam nos, &amp; omnia alia a se¬
+    </p>
+            <p xml:id="HuYgTa-e75388-d1e563">
+      <!--237.xml-->
+               <cb ed="#G" n="b"/>
+               <lb ed="#G" n="70"/>ARTICVLVS III 
+      <lb ed="#G" n="71"/>
+               <pc type="indent"/>Vtrum pater sit sit sapicns
+      sapien<lb ed="#G" n="72" break="no"/>
+               <pc type="indent"/>tia genita
+    </p>
+            <p xml:id="HuYgTa-e75388-d1e581">
+               <lb ed="#G" n="73"/>QVANTVM ad tertium articulum dico, quod
+      pa<lb ed="#G" n="74" break="no"/> ter non debet dici sapiens sapientia genita.
+      Ra<lb ed="#G" n="75" break="no"/>tio quo ad hoc patet per ea, quae dicta sunt in solutione 
+      <lb ed="#G" n="76"/>primi argumenti praecedentis opinionis; nam illo est
+      ali<lb ed="#G" n="77" break="no"/>quis sapiens, quo intelligit, sed pater non intelligit
+      sa<lb ed="#G" n="78" break="no"/>pientia genita, scilicet filio, ergo non est sapiens
+      sapien<lb ed="#G" n="79" break="no"/>tia genita 
+    </p>
+            <p xml:id="HuYgTa-e75388-d1e599">
+               <lb ed="#G" n="80"/>
+               <pc type="indent"/>ARTICVLVS IIII 
+      <lb ed="#G" n="81"/>Vtrum Filius sit sapiens sapientia 
+      <lb ed="#G" n="82"/>
+               <pc type="indent"/>ingenita.
+    </p>
+            <p xml:id="HuYgTa-e75388-d1e612">
+               <lb ed="#G" n="83"/>VANTVM ad quartum articulum, vtrum filius sit 
+      <lb ed="#G" n="84"/> sapiens sapientia ingenita, dico, quod si per
+      in<lb ed="#G" n="85" break="no"/>tenitam sapientiam intelligatur persona patris, tunc
+      il<lb ed="#G" n="86" break="no"/>lud, quod petitur, potest habere duplicem intellectum, 
+      <lb ed="#G" n="87"/>Vnum, quod filius sit sapiens sapientia ingenita tamquam 
+      <lb ed="#G" n="88"/>forma sua. Alium, quod sit sapiens ingenita sapientia
+      tam<lb ed="#G" n="89" break="no"/>quam productiuo suo 
+    </p>
+            <p xml:id="HuYgTa-e75388-d1e630">
+               <lb ed="#G" n="90"/>
+               <pc type="indent"/>1 Primus intellectus est falsus: quia fimpliciter a sua 
+      <lb ed="#G" n="91"/>forma differre non potest: sed filius realiter differt a
+      sa<lb ed="#G" n="92" break="no"/>pientia ingenita, scilicet a patre. Sed secundus
+      intelle<lb ed="#G" n="93" break="no"/>ctus est verus, quia filius est productus a sapientia
+      ingeni<lb ed="#G" n="94" break="no"/>ta, ergo est sapiens sapientia ingenita, secundum quod ali 
+      <lb ed="#G" n="95"/>quid dicitur tale suo productiuo. 
+    </p>
+            <p xml:id="HuYgTa-e75388-d1e648">
+               <lb ed="#G" n="96"/>
+               <pc type="indent"/>2 Praeterea, in diuinis secundum P. August. idem est 
+      <lb ed="#G" n="97"/>esse, &amp; sapere, sed filius est patre, seu sapientia ingenita 
+      <lb ed="#G" n="98"/>tamquam productiuo, ergo vt sic, filius sapit sapientia in 
+      <lb ed="#G" n="99"/>genita, hoc est dictu, quod filius habet esse, &amp; sapere a patri 
+      <lb ed="#G" n="100"/>qui pater est ipsa sapientia ingenita. Et quia doctor
+      no<lb ed="#G" n="101" break="no"/>ster iuxta ea, quae ponit in primo articulo, habet poners 
+      <lb ed="#G" n="102"/>amorem productum se habentem, vt aliquid constitutum 
+      <lb ed="#G" n="103"/>in diuinis, habet etiam ponere iuxta illa sua dicta, &amp; ali 
+      <lb ed="#G" n="104"/>qua superius posita duplicem amorem, scilicet amorem 
+      <lb ed="#G" n="105"/>essentialem, qui est communis tribus; &amp; amorem
+      perso<lb ed="#G" n="106" break="no"/>nalem, qui est ipse spiritus sanctus, quorum contrarium 
+      <lb ed="#G" n="107"/>per ordinem ponit quidam doctor. Primo igitur
+      recita<lb ed="#G" n="108" break="no"/>bo dicta ipsius, secundo respondebo ad ea 
+    </p>
+            <p xml:id="HuYgTa-e75388-d1e682">
+               <lb ed="#G" n="109"/>
+               <pc type="indent"/>Dicit ergo ille doctor primo, quod nullus amor
+      pro<lb ed="#G" n="110" break="no"/>ducitur in diuinis.  
+    </p>
+            <p xml:id="HuYgTa-e75388-d1e691">
+               <lb ed="#G" n="111"/>
+               <pc type="indent"/>1 Quia quandocumque aliqua sunt idem secundum 
+      <lb ed="#G" n="112"/>rem &amp; secundum rationem, si vnum non attingitur per 
+      <lb ed="#G" n="113"/>realem productionem, nec reliquum, sed essentia in diui 
+      <lb ed="#G" n="114"/>nis est idem, quod amor secundum rem, &amp; secundum
+      ra<lb ed="#G" n="115" break="no"/>tionem, &amp; essentia non producitur, vt patet ex determi- 
+      <lb ed="#G" n="116"/>natione concilij, ergo nec amor,  
+    </p>
+            <p xml:id="HuYgTa-e75388-d1e709">
+               <lb ed="#G" n="117"/>
+               <pc type="indent"/>2 Preterea, nulla realitas, quae est in filio, capit essu 
+      <lb ed="#G" n="118"/>per productionem, nisi proprietas personalis filij, &amp; eoden 
+      <lb ed="#G" n="119"/>modo de spiritu sancto: sed intellectio infinita non est 
+      <lb ed="#G" n="120"/>uod filiatio, &amp; amor infinitus non est idem, quod
+      proces<lb ed="#G" n="121" break="no"/>sio, quae sunt proprietates personales verbi &amp; spiritus san 
+      <lb ed="#G" n="122"/>cti, ergo non potest catholice concedi, quod in filio sit al 
+      <lb ed="#G" n="123"/>qua sapientia actualis producta, vt aliquis amor
+      produ<lb ed="#G" n="124" break="no"/>ctus in spiritu sancto. 
+    </p>
+            <p xml:id="HuYgTa-e75388-d1e731">
+               <lb ed="#G" n="125"/>
+               <pc type="indent"/>Secundo dicit idem doctor, quod in diuinis non
+      pos<lb ed="#G" n="126" break="no"/>sunt duo amores, aut duae sapientiae, quorum vnus sit
+      es<lb ed="#G" n="127" break="no"/>sentialis, &amp; alius personalis.  
+    </p>
+            <p xml:id="HuYgTa-e75388-d1e742">
+               <lb ed="#G" n="128"/>
+               <pc type="indent"/>1 Quia impossibile est ponere duas deitates, quarum  
+      <lb ed="#G" n="129"/>vna sit essentialis, &amp; alia personalis; sed amor, &amp; sapientia 
+      <lb ed="#G" n="130"/>sunt perfectiones, &amp; per consequens non sunt aliud, quam 
+      <lb ed="#G" n="131"/>deitas, ergo &amp;c 
+    </p>
+            <p xml:id="HuYgTa-e75388-d1e755">
+               <lb ed="#G" n="132"/>
+               <pc type="indent"/>Et confirmatur: Nam cum amor in diuinis sit
+      formali<lb ed="#G" n="133" break="no"/>ter infinitus, &amp; sapientia formaliter sit infinita, nec amor. 
+      <lb ed="#G" n="134"/>nec sapientia poterunt multiplicari 
+    </p>
+            <p xml:id="HuYgTa-e75388-d1e767">
+      <!--238.xml-->
+               <pb ed="#G" n="100-r"/>
+               <cb ed="#G" n="a"/>
+               <lb ed="#G" n="1"/>2 Praeterea, si in diuinis ponuntur duo amores, vnus 
+      <lb ed="#G" n="2"/>essentialis, &amp; alius subsistens, aut in spiritu sancto est
+      so<lb ed="#G" n="3" break="no"/>lus amor subsistens sine essentiali, aut subsistens cum es 
+      <lb ed="#G" n="4"/>sentiali distinctus realiter, &amp; formaliter, aut distinctus for 
+      <lb ed="#G" n="5"/>maliter, &amp; non realiter, aut indistinctus re, &amp; ratione. No 
+      <lb ed="#G" n="6"/>primum quia error est ponere amorem essentialem non 
+      <lb ed="#G" n="7"/>esse in spiritu sancto. Nec secundum: quia tunc spiritus 
+      <lb ed="#G" n="8"/>sanctus esset amans duplici realitate, cum amores illi sint 
+      <lb ed="#G" n="9"/>beatifici, &amp; infiniti, ipse esset duplici realitate beatus &amp; 
+      <lb ed="#G" n="10"/>infinitus: &amp; sic esset beatior patre, &amp; infinitior patre. Ne 
+      <lb ed="#G" n="11"/>tertium: quia saltem formaliter esset infinitior &amp; beatior 
+      <lb ed="#G" n="12"/>patre. Nec quartum: quia amor essentialis non est
+      subsi<lb ed="#G" n="13" break="no"/>stens, nec productus, nec proprius vni personae, quorum 
+      <lb ed="#G" n="14"/>oppositum verificaretur de alio amore, si daretur, &amp; per 
+      <lb ed="#G" n="15"/>consequens non possent esse indistincti re, &amp; ratione. 
+    </p>
+            <p xml:id="HuYgTa-e75388-d1e809">
+               <lb ed="#G" n="16"/>
+               <pc type="indent"/>Sed Quia ille ad modum Qolvae gladium proprium defert 
+      <lb ed="#G" n="17"/>ad certamen, quo poterit prosternm, ideo dimissis opinio.  
+      <lb ed="#G" n="18"/>nibus, &amp; multorum sanctorum auctoritatibus, quibus in 
+      <lb ed="#G" n="19"/>diuinis afferitur tam sapientia, quam amor essentialis, ac 
+      <lb ed="#G" n="20"/>etiam sapientia, &amp; amor personalis, nec non sapientia ge 
+      <lb ed="#G" n="21"/>nita, &amp; ingenita &amp; amor productus, &amp; improductus: solum 
+      <lb ed="#G" n="22"/>adducam contra eum propria sua dicta, quae <ref xml:id="HuYgTa-e75388-Rd1e828">ille doctor</ref> 
+               <lb ed="#G" n="23"/>ponit in eadem quaestione, in qua ex intentione format 
+      <lb ed="#G" n="24"/>rationes supradictas. 
+    </p>
+            <p xml:id="HuYgTa-e75388-d1e836">
+               <lb ed="#G" n="25"/>
+               <pc type="indent"/>Dicit enim, quod in Deo sint duae sapientiae.  
+      <lb ed="#G" n="26"/>Vna quidem formalis, quae est communis tribus, &amp; ess 
+      <lb ed="#G" n="27"/>perfectio simpliciter, &amp; non est aliud, quam deitas, prout 
+      <lb ed="#G" n="28"/>sunt omnia in prospectu tamquam aperta, &amp; nuda. Alia 
+      <lb ed="#G" n="29"/>est sapientia obiectiua, quae non est persectio simplici 
+      <lb ed="#G" n="30"/>ter, sed est ipsum verbum claudens in se deitatem cum 
+      <lb ed="#G" n="31"/>proprietate indistincta ab ea. Et similiter dicit, quod es 
+      <lb ed="#G" n="32"/>duplex amor: Vnus quidem formalis, qui est perfectio sim 
+      <lb ed="#G" n="33"/>pliciter. Alius vero processiuus, qui non est aliud, qua 
+      <lb ed="#G" n="34"/>spiritus amantis, seu vinculum, communio, vel nexus. Et 
+      <lb ed="#G" n="35"/>quia illa dicta clare contradicunt conclusionibus dictis 
+      <lb ed="#G" n="36"/>contra doctorem nostrum, &amp; quattuor rationibus, quas 
+      <lb ed="#G" n="37"/>ex dictis illius doctoris adduxi, immo quasi per singula 
+      <lb ed="#G" n="38"/>verba rationes illae possunt duci contra vltima sua dicta 
+      <lb ed="#G" n="39"/>&amp; dicta contra rationes, igitur non tenerer, respodere ad 
+      <lb ed="#G" n="40"/>eas, gratia tamen exercitii ad eas respondeo.
+    </p>
+            <p xml:id="HuYgTa-e75388-d1e875">
+               <lb ed="#G" n="41"/>Ad primum ergo dico ad minorem, quod quamuis
+      es<lb ed="#G" n="42" break="no"/>sentia diuina sit idem, quod amor productus, qui est spin 
+      <lb ed="#G" n="43"/>tus sanctus realiter, differunt tamen ratione; quia cum 
+      <lb ed="#G" n="44"/>persona in sua formali ratione formaliter includat
+      pro<lb ed="#G" n="45" break="no"/>prietatem, quam formaliter non includit essentia in sua 
+      <lb ed="#G" n="46"/>formali ratione, patet, quod differunt ratione, &amp; per con 
+      <lb ed="#G" n="47"/>sequens minor illa simpliciter falsa; nam a quocumque 
+      <lb ed="#G" n="48"/>inclusum differt ratione, ab eodem includens differt
+      ratio<lb ed="#G" n="49" break="no"/>ne; sed psonalis pprietas, quae includitur in diuinapsona, 
+      <lb ed="#G" n="50"/>differt ratione a diuina essentia cum essentia secundum
+      su<lb ed="#G" n="51" break="no"/>formalem rationem sit ad se, &amp; proprietas relatiua sit ad 
+      <lb ed="#G" n="52"/>aliud: ergo persona, puta amor productus, seu spiritus sat 
+      <lb ed="#G" n="53"/>ctus includens talem proprietatem ad minus secundum 
+      <lb ed="#G" n="54"/>rationem differt a diuina essentia, cuius oppositum
+      dice<lb ed="#G" n="55" break="no"/>batur in praedicta minori 
+    </p>
+            <p xml:id="HuYgTa-e75388-d1e910">
+               <lb ed="#G" n="56"/>
+               <pc type="indent"/>Ad secundum dicendum, quod quamuis essentia filio 
+      <lb ed="#G" n="57"/>communicetur, &amp; sola proprietas producatur, tamet 
+      <lb ed="#G" n="58"/>illa est vera, quod totus filius est genitus, &amp; productus, &amp; per 
+      <lb ed="#G" n="59"/>consequens sapientia personaliter sumpta potest dici
+      ge<lb ed="#G" n="60" break="no"/>nita, &amp; eodem modo de amore, &amp; spiritu sancto. 
+    </p>
+            <p xml:id="HuYgTa-e75388-d1e926">
+               <lb ed="#G" n="61"/>
+               <pc type="indent"/>Ad primam rationem alterius suae positonis dicendum, 
+      <lb ed="#G" n="62"/>quod quamuis amor personalis non sit aliud realiter, quam 
+      <lb ed="#G" n="63"/>deitas, sicut nec ipsa persona; tamen sicut persona potest 
+      <lb ed="#G" n="64"/>dici producta ratione proprietatis, quam formaliter
+      in<lb ed="#G" n="65" break="no"/>cludit, quae vere est producta, sic &amp; ipse amor. 
+    </p>
+            <p xml:id="HuYgTa-e75388-d1e943">
+               <lb ed="#G" n="66"/>
+               <pc type="indent"/>Ad confirmationem dicendum, quod amor personalis 
+      <lb ed="#G" n="67"/>de quo nos loquimur, est eo modo infinitus, quo quaeli 
+      <!--238.xml-->
+      <cb ed="#G" n="b"/>
+               <lb ed="#G" n="68"/>bet diuina persona est infinita, puta infinitate diuinae
+      es<lb ed="#G" n="69" break="no"/>sentiae, &amp; sicut non obstante, quod persona filij, vel
+      spi<lb ed="#G" n="70" break="no"/>ritus sancti est infinita, tamen est producta; sic &amp; talis 
+      <lb ed="#G" n="71"/>amor est productus, quamuis sit infinitus, &amp; per
+      conse<lb ed="#G" n="72" break="no"/>quens secundum rationem differens ab amore essentiali,  
+      <lb ed="#G" n="73"/>igitur, vt sic, poterit multiplicari. 
+    </p>
+            <p xml:id="HuYgTa-e75388-d1e969">
+               <lb ed="#G" n="74"/>
+               <pc type="indent"/>Ad secundum dicendum, quod vter que amor est in 
+      <lb ed="#G" n="75"/>spiritu sancto indistinctus realiter, distinctus tamen
+      secu<lb ed="#G" n="76" break="no"/>dum rationem, vt superius dixi.
+    </p>
+            <p xml:id="HuYgTa-e75388-d1e980">
+               <lb ed="#G" n="77"/>Ad argumentum principale dicendum, quod non est 
+      <lb ed="#G" n="78"/>simile, quod in maiori sumitur pro simili, de sapere, &amp; di- 
+      <lb ed="#G" n="79"/>ligere: quia secundum dicta sanctorum sapere in diuinis; 
+      <lb ed="#G" n="80"/>tantummodo sumitur essentialiter : Propter hoc diciti 
+      <lb ed="#G" n="81"/>
+               <ref xml:id="HuYgTa-e75388-Rd1e993">August. 7. de tri.</ref> quod si pater esset sapiens sapientia
+      ge<lb ed="#G" n="82" break="no"/>nita, cum sapere sit idem, quod esse pater, esset filius, sed 
+      <lb ed="#G" n="83"/>diligere non solum sumitur essentialiter, verumetiam 
+      <lb ed="#G" n="84"/>notionaliter, ergo &amp;c. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

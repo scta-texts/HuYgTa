@@ -1,0 +1,994 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#ThomasStrasbourg">Thomas of Strasbourg</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2020-11-26">November 26, 2020</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="G" n="cod-TxxqU">Genoa 1585</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2020-11-26" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#G" n="182-r"/>
+            <cb ed="#G" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="HuYgTa-139101"><!-- HuYgTa-l2d25q1 -->
+            <head xml:id="HuYgTa-139101-Hd1e108">Quaestio 1</head>
+            <head xml:id="HuYgTa-139101-Hd1e111" type="question-title">An liberum arbitrium cogi possit</head>
+            <p xml:id="HuYgTa-139101-d1e114">
+               <lb ed="#G" n="95"/>Quaestio. I. 
+      <lb ed="#G" n="96"/>An liberum arbitrium cogi possit 
+    </p>
+            <p xml:id="HuYgTa-139101-d1e121">
+               <lb ed="#G" n="97"/>
+               <pc type="indent"/>IRVM liberum arbitrium possit
+      cogi<lb ed="#G" n="98" break="no"/>Et videtur, quod sic: quia potentia
+      intel<lb ed="#G" n="99" break="no"/>lectiua cogitur: ergo &amp; potentia
+      voliti<lb ed="#G" n="100" break="no"/>ua siue liberum arbitrium.
+      Consequen<lb ed="#G" n="101" break="no"/>tia patet: quia intellectus est aeque
+      im<lb ed="#G" n="102" break="no"/>materialis potentia, sicut ipsa voluntas: 
+      <lb ed="#G" n="103"/>propter quod non magis videtur subesse ratio, quare con 
+      <lb ed="#G" n="104"/>gi possit intellectus, quam voluntas Probo antecedens 
+      <lb ed="#G" n="105"/>nam intellectus necessario assentit primis principiis, &amp;  
+      <lb ed="#G" n="106"/>eis, quae euidenter videt sequi ex talibus principuis: cum 
+      <lb ed="#G" n="107"/>gitur voluntas se habeat ad finem, &amp; ad ea, quae sunt ad 
+      <lb ed="#G" n="108"/>finem: sicut intellectus ad principia, &amp; ad ea, quae
+      sequun<lb ed="#G" n="109" break="no"/>tur ex principiis, ergo &amp;c
+    </p>
+            <p xml:id="HuYgTa-139101-d1e154">
+               <lb ed="#G" n="110"/>In contrarium est <ref xml:id="HuYgTa-139101-Rd1e158">Ansel, in lib de libeno arbitrio</ref>, vbi ait,  
+      <lb ed="#G" n="111"/>quod cum voluntas vincitur, non aliena vincitur potesta 
+      <lb ed="#G" n="112"/>te, sed sua. Et sicut ibidem patet, difficultas impugnare 
+      <lb ed="#G" n="113"/>potest voluntatem: sed expugnare nequit inuitam. Hio 
+      <lb ed="#G" n="114"/>quattuor sunt videnda. Primo vtrum voluntas, prout est 
+      <lb ed="#G" n="115"/>idem, quod liberum arbitrium, possit mouere seipsam. Se 
+      <lb ed="#G" n="116"/>cundo, vtrum possit per motum suum proprium peccare 
+      <lb ed="#G" n="117"/>nullo existente errore in ratione. Tertio, vtrum possit co 
+      <lb ed="#G" n="118"/>si ab aliquo ente creato. Et quarto, vtrum possit cogi a 
+      <lb ed="#G" n="119"/>Deo, seu a bono increato.
+    </p>
+            <p xml:id="HuYgTa-139101-d1e182">
+      <!--403.xml-->
+               <pb ed="#G" n="182-v"/>
+               <cb ed="#G" n="a"/>
+               <lb ed="#G" n="1"/>RESOLVTVO. I 
+      <lb ed="#G" n="2"/>Voluntas quo quo modo seipsam mouet, non quidem actiuando, 
+      <lb ed="#G" n="3"/>
+               <pc type="indent"/>sed determi nando, nulla tamen existente ignorantia in
+      intel<lb ed="#G" n="4" break="no"/>lecta praeuia siue stante in eo vecto iudicio tam in vniuersali,  
+      <lb ed="#G" n="5"/>quam in particulavi ex sua libertate potert proprio motu pecca 
+      <lb ed="#G" n="6"/>re Vnde liberum acbitrium quo ad interiorem actum etiam a 
+      <lb ed="#G" n="7"/>nulla pote s creatura cogi, licet a Deo possit immutari, nen ta 
+      <lb ed="#G" n="8"/>men togi, fiue coerceri. 
+    </p>
+            <p xml:id="HuYgTa-139101-d1e211">
+               <lb ed="#G" n="9"/>
+               <pc type="indent"/>ARTICVLVSI. 
+      <lb ed="#G" n="10"/>Vtrum voluntas prout est idem, quod siberum
+      arbi<lb ed="#G" n="11" break="no"/>
+               <pc type="indent"/>trium. possit mouere se ipsam.
+    </p>
+            <p xml:id="HuYgTa-139101-d1e224">
+               <lb ed="#G" n="12"/>QVANTVM ad primum ponam duas
+      conclu<lb ed="#G" n="13" break="no"/>siones.
+    </p>
+            <p xml:id="HuYgTa-139101-d1e231">
+               <lb ed="#G" n="14"/>Prima est, quod voluntas aliquo modo mouet seipsam. 
+      <lb ed="#G" n="15"/>Secunda est, quod non mouet se proprie seipsam
+      acti<lb ed="#G" n="16" break="no"/>uando, sed seipsam determinando. 
+    </p>
+            <p xml:id="HuYgTa-139101-d1e240">
+               <lb ed="#G" n="17"/>
+               <pc type="indent"/>Primam conclusionem probo sic. 
+      <lb ed="#G" n="18"/> Omnis potentia, quae est super seipsam reflexiua, est 
+      <lb ed="#G" n="19"/>suiipsius motiua: voluntas est super seipsam reflexiua: igi 
+      <lb ed="#G" n="20"/>tur, &amp;c. Maior patet: quia potentia mouetur ab obiecto: 
+      <lb ed="#G" n="21"/>igitur, vt per reflexionem super seipsam est obiectum sui 
+      <lb ed="#G" n="22"/>ipsius, sic etiam est motiua suiipsius. Minor etiam est satis 
+      <lb ed="#G" n="23"/>nota, quia non minus voluntas vult seipsam, quam intel 
+      <lb ed="#G" n="24"/>lectus intelligat seipsum: quia secundum Proclum,
+      om<lb ed="#G" n="25" break="no"/>nis potentia immateriali; est super seipsam conuersiua 
+      <lb ed="#G" n="26"/>ed voluntas non est minus immaterialis, quam
+      intelle<lb ed="#G" n="27" break="no"/>ctus : ergo &amp;c. 
+    </p>
+            <p xml:id="HuYgTa-139101-d1e269">
+               <lb ed="#G" n="28"/>
+               <pc type="indent"/>2 Praeterea, potentia, quae est essentialiter libera,
+      ali<lb ed="#G" n="29" break="no"/>quo modo est suiipsius motiua: sed voluntas est essent
+      ia<lb ed="#G" n="30" break="no"/>liter libera, vt inferius intendo declarare di. 38. Maior po 
+      <lb ed="#G" n="31"/>tet, quia potentia pure passiua non potest esse libera, cum 
+      <lb ed="#G" n="32"/>non habeat in sua potestate pati, vel non pati; sed necessa 
+      <lb ed="#G" n="33"/>rio patitur ad praesentiam actiui: sed secundum Aug. 3 
+      <lb ed="#G" n="34"/>dse libero arbitrio, nihi tam in nostra potestate, quam ip 
+      <lb ed="#G" n="35"/>sa voluntas, est. Et infra subdit. Nec aliud quicquam est in 
+      <lb ed="#G" n="36"/>voluntate nostra, nisi quod volentibus adest: igitur
+      vo<lb ed="#G" n="37" break="no"/>luntas respectu sui actus non est totaliter passiua, &amp;  
+      <lb ed="#G" n="38"/>per consequens seit sim aliquo modo potest mouere 
+      <lb ed="#G" n="39"/>ad actum, 
+    </p>
+            <p xml:id="HuYgTa-139101-d1e301">
+               <lb ed="#G" n="40"/>
+               <pc type="indent"/>Sed contra istam conclufionem arguit quidam doctor 
+      <lb ed="#G" n="41"/>&amp; sui sequaces sic¬ 
+    </p>
+            <p xml:id="HuYgTa-139101-d1e310">
+               <lb ed="#G" n="42"/>
+               <pc type="indent"/>1 Omne, quod mouetur, ab ai; mouetur, vt patet. 7. 
+      <lb ed="#G" n="43"/>phy. ergo voluntas non potest mouere seipsam.
+      Antece<lb ed="#G" n="44" break="no"/>dens patet, quia etiam ipsa animalia, quae dicuntur moue 
+      <lb ed="#G" n="45"/>ni ex se, ab alio moueri ostenduntur, eo quod secundum 
+      <lb ed="#G" n="46"/>vnam partem per se mouent, &amp; secundum aliam per se 
+      <lb ed="#G" n="47"/>mouentur, ita quod semper primo mouens, &amp; primo mo 
+      <lb ed="#G" n="48"/>tum sunt realiter distincta: igitur voluntas non mouet 
+      <lb ed="#G" n="49"/>seipsam. 
+    </p>
+            <p xml:id="HuYgTa-139101-d1e332">
+               <lb ed="#G" n="50"/>
+               <pc type="indent"/>2 Praeterea, impossibile est vnam, &amp; eandem rem sim 
+      <lb ed="#G" n="51"/>plicem simul esse in actu, &amp; in potentia: sed omne
+      mo<lb ed="#G" n="52" break="no"/>uens, secundum quod mouet, est in actu; &amp; omne motum, 
+      <lb ed="#G" n="53"/>secundum quod mouetur, est in potentia; ergo impossibi 
+      <lb ed="#G" n="54"/>le est ipsam voluntatem seipsam mouere; nam simul esset 
+      <lb ed="#G" n="55"/>in actu, &amp; in potentia. 
+    </p>
+            <p xml:id="HuYgTa-139101-d1e350">
+               <lb ed="#G" n="56"/>
+               <pc type="indent"/>Praeterea, praesente actiuo ipsi passiuo, tunc semper 
+      <lb ed="#G" n="57"/>necessario sequitur actio: igitur si voluntas moueret sci 
+      <lb ed="#G" n="58"/>psam ad suum actum, cum semper sibi presens sit,
+      sem<lb ed="#G" n="59" break="no"/>per ipsa esset in actu. 
+    </p>
+            <p xml:id="HuYgTa-139101-d1e363">
+               <lb ed="#G" n="60"/>
+               <pc type="indent"/>4 Praeterea, si voluntas moueret seipsam ad actum, tum, 
+      <lb ed="#G" n="61"/>el esset causa vniuersalis sui actus, aut causa particularis 
+      <lb ed="#G" n="62"/>sed primum dari non potest: quia talis causa est
+      aequiuo<lb ed="#G" n="63" break="no"/>ca, &amp; praehabet effectum nobiliori modo in seipsa, quam 
+      <lb ed="#G" n="64"/>effectus sit in proprio genere; nec per consequens forma 
+      <lb ed="#G" n="65"/>liter perfici poterit huiusmodi effectu; quae omnia falsa 
+      <lb ed="#G" n="66"/>sunt de ipsa voluntate respectu sui actus. Nec secundum 
+      <!--403.xml-->
+      <cb ed="#G" n="b"/>
+               <lb ed="#G" n="67"/>dari potest propter tria. Primo, quia agens partitulare est 
+      <lb ed="#G" n="68"/>formaliter actu tale, quale est passum in potentia; igitur 
+      <lb ed="#G" n="69"/>si voluntas seipsam moueret ad actum, tunc voluntas
+      es<lb ed="#G" n="70" break="no"/>set actu volens, antequam causaret actum volendi: igitur si 
+      <lb ed="#G" n="71"/>causaret actum volendi, tunc duo accidentia solo
+      nume<lb ed="#G" n="72" break="no"/>ro differentia simul essent in eodem subiecto. Secundo, 
+      <lb ed="#G" n="73"/>quia voluntas corrumperetur ad corruptionem sui actus; 
+      <lb ed="#G" n="74"/>nam causa particularis, &amp; effectus particularis simul sunt 
+      <lb ed="#G" n="75"/>&amp; non sunt, vt dicitur. <ref xml:id="HuYgTa-139101-Rd1e406">2. phy</ref> Tertio, quia voluntas esset 
+      <lb ed="#G" n="76"/>eiusdem speciei cum suo actu; nam causa particularis, cum 
+      <lb ed="#G" n="77"/>sit causa vniuoca, eiusdem est speciei cum suo effectu.  
+    </p>
+            <p xml:id="HuYgTa-139101-d1e414">
+               <lb ed="#G" n="78"/>
+               <pc type="indent"/>s Praeterea, causa efficiens non coincidit cum materia, 
+      <lb ed="#G" n="79"/>vt patet, <ref xml:id="HuYgTa-139101-Rd1e422">2. physic</ref>, sed mouens, vt mouens, reducitur ad 
+      <lb ed="#G" n="80"/>causam efficientem; &amp; motum, vt motum, reducitur ad 
+      <lb ed="#G" n="81"/>causam materialem. 
+    </p>
+            <p xml:id="HuYgTa-139101-d1e432">
+               <lb ed="#G" n="82"/>
+               <pc type="indent"/>Sed ista non concludunt, igitur. 
+      <lb ed="#G" n="83"/>Ad primum dicendum, quod quamuis illa proposito 
+      <lb ed="#G" n="84"/>Aristot. habeat veritatem de rebus corporalibus; non est 
+      <lb ed="#G" n="85"/>tamen eam necesse verificari in spiritualibus. Vnde <ref xml:id="HuYgTa-139101-Rd1e445">
+                  <name xml:id="HuYgTa-139101-Nd1e447" ref="#HughOfStVictor">Hugo</name> 
+                  <lb ed="#G" n="86"/>de sacramentis libro primo parte. 5.</ref> loquens de
+      volunta<lb ed="#G" n="87" break="no"/>te angelorum ait, voluntatis erat libertas, quoniam potens 
+      <lb ed="#G" n="88"/>erat ex se moueri, vt vltra iret. Et <ref xml:id="HuYgTa-139101-Rd1e457">
+                  <name xml:id="HuYgTa-139101-Nd1e459">Proclus</name>
+               </ref> ait, <quote xml:id="HuYgTa-139101-Qd1e463">Omne seit 
+        <lb ed="#G" n="89"/>sum mouens primo est ad seipsum conuersiuum</quote> 
+            </p>
+            <p xml:id="HuYgTa-139101-d1e469">
+               <lb ed="#G" n="90"/>
+               <pc type="indent"/>Ad secundum dicendum, quod licet eadem res
+      sim<lb ed="#G" n="91" break="no"/>lex non possit simul esse in actu, &amp; in potentia respectu 
+      <lb ed="#G" n="92"/>eiusdem, actum &amp; potentiam sumendo vniformiter, puta 
+      <lb ed="#G" n="93"/>cum est actu formaliter talis: tunc non potest esse poten 
+      <lb ed="#G" n="94"/>tia formaliter talis. Si tamen sumuntur difform i er, tunc 
+      <lb ed="#G" n="95"/>nihil repugnat: nam vna &amp; eadem res existens actu
+      vir<lb ed="#G" n="96" break="no"/>tualiter talis, potest esse potentia formaliter talis,
+      maxi<lb ed="#G" n="97" break="no"/>me cum esse virtuale inest imperfecte ldem enim vinum 
+      <lb ed="#G" n="98"/>existens actu virtualiter calidum, est potentia formaliter 
+      <lb ed="#G" n="99"/>calidum: quia potest esse actu formaliter frigidum. Vnde 
+      <lb ed="#G" n="100"/>ictus virtualis finitus, &amp; limitatus non est tantae
+      perfe<lb ed="#G" n="101" break="no"/>ctionis, vt excludat omnem potentiam respectu actus for 
+      <lb ed="#G" n="102"/>malis. Et ideo voluntas existens virtualiter actu volens, 
+      <lb ed="#G" n="103"/>otest simul formaliter esse potentia volens 
+      <lb ed="#G" n="104"/>corte dicetur contra istud: quia Sol existens actu virtuali 
+      <lb ed="#G" n="105"/>ter calidus, non potest esse in potentia formaliter calidus 
+      <lb ed="#G" n="106"/>nec numquam poterit scipsum facere formaliter
+      cali<lb ed="#G" n="107" break="no"/>dum; sic &amp;c 
+    </p>
+            <p xml:id="HuYgTa-139101-d1e513">
+               <lb ed="#G" n="108"/>
+               <pc type="indent"/>Respondeo, quod hic accipitur non causa prca: namn, quod  
+      <lb ed="#G" n="109"/>Sol non potest esse formaliter calidus, hoc non est pro tam 
+      <lb ed="#G" n="110"/>to, quia actu est virtualiter calidus: quia si ista esset
+      praeci<lb ed="#G" n="111" break="no"/>sa causa, tunc Saturnus, qui non est virtualiter calidus. pos 
+      <lb ed="#G" n="112"/>set effici formaliter calidus. Item si illa esset sufficiens cau 
+      <lb ed="#G" n="113"/>sa, tunc vinum non posset esse formaliter calidum, cum 
+      <lb ed="#G" n="114"/>sit virtualiter calidum, sed ex hoc repugnat Soli, &amp; omni 
+      <lb ed="#G" n="115"/>bus alijs caelestibus corporibus formaliter recipere
+      calo<lb ed="#G" n="116" break="no"/>rem, quia caeleste corpus est primum alterans
+      inalterabi<lb ed="#G" n="117" break="no"/>le, nec patitur peregrinas impressiones. 
+    </p>
+            <p xml:id="HuYgTa-139101-d1e539">
+               <lb ed="#G" n="118"/>
+               <pc type="indent"/>Ad tertium dicendum, quod voluntas semper est in 
+      <lb ed="#G" n="119"/>actu, saltem semipleno respectu suiipsius quia secundum 
+      <lb ed="#G" n="120"/>Augustinum in libro de trin. voluntas semper diligit se, 
+      <lb ed="#G" n="121"/>espectu tamen ceterorum bonorum non oportet, quod sem 
+      <lb ed="#G" n="122"/>er sit in actu propter absentiam talium obiectorum. 
+    </p>
+            <p xml:id="HuYgTa-139101-d1e555">
+               <lb ed="#G" n="123"/>
+               <pc type="indent"/>Ad quartum dicendum, quod si iste, qui facit hoc argu 
+      <lb ed="#G" n="124"/>mentum, per causam vniuersalem intelligit omnem cau 
+      <lb ed="#G" n="125"/>am suum effectum, seu actum virtualiter praehabentemi 
+      <lb ed="#G" n="126"/>tunc potest concedi, quod voluntas sit causa vniuersalis 
+      <lb ed="#G" n="127"/>respectu sui actus. Ad probationes dicendum, quod non 
+      <lb ed="#G" n="128"/>concludunt de praehabitatione virtuali imperfecta: non 
+      <lb ed="#G" n="129"/>enim oportet nobiliori modo calorem esse in lapide, 
+      <lb ed="#G" n="130"/>uam in igne. Nec est bona consequentia, lapis est virtua 
+      <lb ed="#G" n="131"/>liter calidus; igitur non potest formaliter recipere calorem 
+    </p>
+            <p xml:id="HuYgTa-139101-d1e579">
+               <lb ed="#G" n="132"/>
+               <pc type="indent"/>Posset etiam dici, quod est causa particularis. Ad
+      pro<lb ed="#G" n="133" break="no"/>ationes dicendum, quod praesupponunt vnum falsum, 
+      <lb ed="#G" n="134"/>cilicet quod omne agens particulare sit agens vniuotum; 
+      <lb ed="#G" n="135"/>lapis enim respectu ignis est agens aequiuocum, &amp; tamen 
+      <lb ed="#G" n="136"/>est agens particularce 
+    </p>
+            <p xml:id="HuYgTa-139101-d1e596">
+               <lb ed="#G" n="137"/>
+               <pc type="indent"/>Ad quintum dicendum, quod quamuis causa efficiens 
+      <lb ed="#G" n="138"/>&amp; materialis, cum proprie sumuntur, numquam
+      coinci<lb ed="#G" n="139" break="no"/>dant: possunt tamen adeo large sumi, quod bene poterunt 
+      <!--404.xml-->
+      <pb ed="#G" n="183-r"/>
+               <cb ed="#G" n="a"/>
+               <lb ed="#G" n="1"/>concidere; puta si accipiantur efficiens, &amp; materia pro 
+      <lb ed="#G" n="2"/>mouente &amp; moto in rebus spiritualibus super se ipsas
+      re<lb ed="#G" n="3" break="no"/>fexiuis : sicut etiam est in proposito &amp;c. 
+    </p>
+            <p xml:id="HuYgTa-139101-d1e620">
+               <lb ed="#G" n="4"/>
+               <pc type="indent"/>Quamuis tamen istas rationes soluerim: tamen non  
+      <lb ed="#G" n="5"/>pportuit, quia licet concludant aliquid contra illos, qui 
+      <lb ed="#G" n="6"/>onunt, quod voluntas proprie actiuat seipsam: contra 
+      <lb ed="#G" n="7"/>ne tamen non concludunt, quia vt patebit in sequenti 
+      <lb ed="#G" n="8"/>onclusione, sic pono voluntatem esse sui ipsius motiuam, 
+      <lb ed="#G" n="9"/>quod tamen non pono eam proprie actiuare se ipsam. 
+      <lb ed="#G" n="10"/>Est igitur secunda conclulio, quod voluntas non
+      mo<lb ed="#G" n="11" break="no"/>et seipsam proprie seipsam actiuando, sed seipsam
+      de<lb ed="#G" n="12" break="no"/>terminando.
+    </p>
+            <p xml:id="HuYgTa-139101-d1e644">
+               <lb ed="#G" n="13"/>Ad cuius intellectum sciendum, quod voluntas multi 
+      <lb ed="#G" n="14"/>iciter potest dici seipsam mouere¬
+    </p>
+            <p xml:id="HuYgTa-139101-d1e651">
+               <lb ed="#G" n="15"/>Primo, seipsam determinando ad motum mediante in 
+      <lb ed="#G" n="16"/>pllectu: voluntas enim facta in actu per desiderium finis 
+      <lb ed="#G" n="17"/>onef, imperat intellectui, vt perscrutetur media, per quae 
+      <lb ed="#G" n="18"/>niumodi desideratum finem consequatur: igitur inuen 
+      <lb ed="#G" n="19"/>u talibus mediis, cum ab eis mouetur voluntas, dicitui 
+      <lb ed="#G" n="20"/>olutas aliquo modo, quamuis per accidens, mouere se, quoid 
+      <lb ed="#G" n="21"/>llis motus originaliter processit ab imperio voluntatis. 
+      <lb ed="#G" n="22"/>perundo voluntas mouet se determinatiue, seu
+      deter<lb ed="#G" n="23" break="no"/>uinat se ad motum, non actiue aliquid agendo, sed ab actu 
+      <lb ed="#G" n="24"/>lesistendo: nam cum idem appetibile offertur voluntati 
+      <lb ed="#G" n="25"/>nutrsa, vel opposita ratione, puta fornicatio offerturi 
+      <lb ed="#G" n="26"/>ib ratione boni prosequibilis, quia delectabilis; &amp; sub 
+      <lb ed="#G" n="27"/>fatione mali, &amp; fugibilis, quia contra mandatum Dei;
+      vo<lb ed="#G" n="28" break="no"/>ntas potest ex sua libertate desistere ab actu, prout
+      mo<lb ed="#G" n="29" break="no"/>etur ab vna istarum rationum, quo facto altera in suo 
+      <lb ed="#G" n="30"/>su nigoratur: sicut enim, si duo aeque fortiter me
+      tra<lb ed="#G" n="31" break="no"/>unt, vnus per dex tram, &amp; alter per sinistram, quamdiu 
+      <lb ed="#G" n="32"/>i eorum resisterem, tamdiu nec ad vnam partem, 
+      <lb ed="#G" n="33"/>ad alteram decli narem : sed vni resistendo immedia 
+      <lb ed="#G" n="34"/>alter in suo tractu vigoratur, &amp; per consequens per 
+      <lb ed="#G" n="35"/>tadeterminationem diceret mouere meipsum, vni in 
+      <lb ed="#G" n="36"/>ptractu resistendo, &amp; alteri vel non resistendo, cum
+      pos<lb ed="#G" n="37" break="no"/>mresillere, vel etiam positue sibi in tractu suo
+      consen<lb ed="#G" n="38" break="no"/>endo, cum possem, si vellem sibi minime consentire.
+      si<lb ed="#G" n="39" break="no"/>roposito &amp;c. 
+    </p>
+            <p xml:id="HuYgTa-139101-d1e708">
+               <lb ed="#G" n="40"/>r contra istum modum nostri doctoris arguunt
+      qui<lb ed="#G" n="41" break="no"/>pditentes, quod contradictionem videatur implicare 
+    </p>
+            <p xml:id="HuYgTa-139101-d1e715">
+               <lb ed="#G" n="42"/>
+               <pc type="indent"/>Nam cum deter minatio sit quidam actus: igitur
+      di<lb ed="#G" n="43" break="no"/>quod voluntas determinet se, &amp; tamen non actiuet 
+      <lb ed="#G" n="44"/>ni oppositum in adiecto. 
+    </p>
+            <p xml:id="HuYgTa-139101-d1e727">
+               <lb ed="#G" n="45"/>
+               <pc type="indent"/>Preterea, vel ista determinatio dicit aliquem actum 
+      <lb ed="#G" n="46"/>uint hcut voluntas determinat se, sic etiam actiuabit 
+      <lb ed="#G" n="47"/>ri nullum actum dicit, &amp; tuc penitus nihil erit, &amp; per 
+      <lb ed="#G" n="48"/>equens nihil ex ea sequetur.
+    </p>
+            <p xml:id="HuYgTa-139101-d1e740">
+               <lb ed="#G" n="49"/>Preterea, omnis operatio vel est actio, vel passio: sed  
+      <lb ed="#G" n="50"/>determinatio non potest esse actio voluntatis,
+      qui<lb ed="#G" n="51" break="no"/>ne actiuaret se: nec prassio voluntatis, quia tunc non
+      es<lb ed="#G" n="52" break="no"/>ib ipsa voluntate, sed ab obiecto: ergo &amp;c. 
+      <lb ed="#G" n="53"/>Preterea, arguunt aliij, quod voluntas sit actiua, quia 
+      <lb ed="#G" n="54"/>spotentiae pure passiuae non est in potestate potentiae 
+      <lb ed="#G" n="55"/>ae nam pati non est in potestate patientis, sed agen 
+      <lb ed="#G" n="56"/>sed voluntas, cum sit potentia libera, habet actum suum 
+      <lb ed="#G" n="57"/>potestate sua: ergo &amp;c. 
+    </p>
+            <p xml:id="HuYgTa-139101-d1e762">
+               <lb ed="#G" n="58"/>
+               <pc type="indent"/>praeterea, arguit doctor communis, quod saltem re 
+      <lb ed="#G" n="59"/>an eorum, quae sunt ad finem, voluntas moueat seipsam 
+      <lb ed="#G" n="60"/>emam sicut intellectus motus a principiis, mouet se 
+      <lb ed="#G" n="61"/>m ad conclusiones: sic voluntas actiuata per finem, 
+      <lb ed="#G" n="62"/>et seipiam ad ea, quae sunt ad finem: &amp; sic, vt dicit, idem 
+      <lb ed="#G" n="63"/>in actu, &amp; in potentia, sed non secundum idem 
+      <lb ed="#G" n="64"/>ed ista non concludunt
+    </p>
+            <p xml:id="HuYgTa-139101-d1e782">
+               <lb ed="#G" n="65"/>mma enim tria procedunt ex hoc falso fundamento 
+      <lb ed="#G" n="66"/>determinatio voluntatis sit quidam actus effectiue 
+      <lb ed="#G" n="67"/>tus ab ipsa voluntate: &amp; istud doctor noster manifeste 
+      <lb ed="#G" n="68"/>St. Dicit enim iste doctor reuerendus in suo secundo 
+      <lb ed="#G" n="69"/>to, quod praedicta determinatio non dicit actum, sed 
+      <lb ed="#G" n="70"/>here a tali actu, quo voluntas insufficienter fuit
+      acti<lb ed="#G" n="71" break="no"/>hab altero obiectorum, uel ab eodem obiecto sub
+      al<lb ed="#G" n="72" break="no"/>rratione ostenso; consensus autem in oppositum non 
+      <lb ed="#G" n="73"/>Pactum, sed estuel non contradicere actui, si est con¬ 
+      <!--404.xml-->
+      <cb ed="#G" n="b"/>
+               <lb ed="#G" n="74"/>consensus negatiuus: uel dicit modum recipiendi actum 
+      <lb ed="#G" n="75"/>si est consensus affirmatiuus, puta dicit uoluntarie
+      reci<lb ed="#G" n="76" break="no"/>pere motum, seu actum factum ab obiecto. Igitur, quod 
+      <lb ed="#G" n="77"/>uoluntas actiuetur, hoc habet ab obiecto, quod autem acti 
+      <lb ed="#G" n="78"/>netur hoc modo, puta uoluntarie, hoc habet a seipsa. Ex 
+      <lb ed="#G" n="79"/>quo patet, quod huiusmodi determinatio uoluntatis,
+      quam<lb ed="#G" n="80" break="no"/>is praecise non dicat actum, non est tamen nihil, quia
+      di<lb ed="#G" n="81" break="no"/>cit modum se habendi circa praedictos actus 
+    </p>
+            <p xml:id="HuYgTa-139101-d1e826">
+               <lb ed="#G" n="82"/>
+               <pc type="indent"/>Ad quartum dicendum, quod quamuis uoluntas sit po 
+      <lb ed="#G" n="83"/>tentia passiua: tamen respectu cuiuscuque obiecti, a quo 
+      <lb ed="#G" n="84"/>non sufficienter actiuatur, habet liberam uoluntate con- 
+      <lb ed="#G" n="85"/>sentiendi in actum, uel dissentiendi ab actu: solum enim 
+      <lb ed="#G" n="86"/>respectu illius, quod mouet uoluntatem sub ratione ulti 
+      <lb ed="#G" n="87"/>mi finis, uoluntas non habet huiusmodi in potestater 
+      <lb ed="#G" n="88"/>eo quod a tali obiecto sufficienter actiuetur. 
+    </p>
+            <p xml:id="HuYgTa-139101-d1e846">
+               <lb ed="#G" n="89"/>
+               <pc type="indent"/>Forte dicetur, quod si ista solutio est bona, tunc uolun 
+      <lb ed="#G" n="90"/>tas respectu finis careret libertate, quod non est uerum, 
+      <lb ed="#G" n="91"/>quia potentia essentialiter libera, ad quodcumque
+      com<lb ed="#G" n="92" break="no"/>paretur, semper manet libera 
+    </p>
+            <p xml:id="HuYgTa-139101-d1e860">
+               <lb ed="#G" n="93"/>
+               <pc type="indent"/>Respondeo, quod quamuis uoluntas respectu vltimi finis, u 
+      <lb ed="#G" n="94"/>non habeat libertatem contradictionis, sicut habet respe 
+      <lb ed="#G" n="95"/>ctu corum, quae sunt ad finem, habet tamen respectu
+      vl<lb ed="#G" n="96" break="no"/>timi finis libertatem perfectae complacentiae cum
+      neces<lb ed="#G" n="97" break="no"/>sitate immobilitatis, quia quamuis finem non possit non 
+      <lb ed="#G" n="98"/>uelle, uult tamen ipsum non violenter, sed
+      complacen<lb ed="#G" n="99" break="no"/>ter, &amp; maxime voluntarie, &amp; per consequens liberrime. 
+    </p>
+            <p xml:id="HuYgTa-139101-d1e880">
+               <lb ed="#G" n="100"/>
+               <pc type="indent"/>Nec opinio illius doctoris ualet in hac parte, quia si vo 
+      <lb ed="#G" n="101"/>luntas proprie esset actiua respectu sui ipsius, actiue,
+      scili<lb ed="#G" n="102" break="no"/>cet suum actum eliciendo in seipsa, tunc ipsa uoluntas ne 
+      <lb ed="#G" n="103"/>cessario differret a seipsa: cum potentia actiua sit transmu 
+      <lb ed="#G" n="104"/>tatiua alterius, secundum quod alterum, ut patet. 5. met. 
+    </p>
+            <p xml:id="HuYgTa-139101-d1e896">
+               <lb ed="#G" n="105"/>
+               <pc type="indent"/>Et confirmatur, quia inter actiuum, &amp; passiuum est
+      re<lb ed="#G" n="106" break="no"/>latio realis, cuius extrema sunt realiter distincta: igitur si 
+      <lb ed="#G" n="107"/>soluntas proprie actiuaret seipsam, tunc necessario
+      uolum<lb ed="#G" n="108" break="no"/>tas realiter differret a seipsa, quod est absurdum. 
+    </p>
+            <p xml:id="HuYgTa-139101-d1e909">
+               <lb ed="#G" n="109"/>
+               <pc type="indent"/>Ad quintum dicendum, quod ibi est fallacia
+      cesequen<lb ed="#G" n="110" break="no"/>tis, puta dicendo mouet: ergo actiue mouet, quia ut
+      pa<lb ed="#G" n="111" break="no"/>tuit, voluntas potest se mouere multis aliis modis, quam 
+      <lb ed="#G" n="112"/>actiue, proprie loquendo de actiuo.  
+    </p>
+            <p xml:id="HuYgTa-139101-d1e922">
+               <lb ed="#G" n="113"/>
+               <pc type="indent"/>Praeterea, dato, quod ipsa uoluntas sit in actu respectu fi- 
+      <lb ed="#G" n="114"/>nis, tamen adhuc est in potentia respectu eius, quod est ad 
+      <lb ed="#G" n="115"/>finem: si igitur moueret seipsam ad illud, tunc secundum 
+      <lb ed="#G" n="116"/>idem, &amp; re pectu eiusdem esset in actu, &amp; in potentia 
+    </p>
+            <p xml:id="HuYgTa-139101-d1e935">
+               <lb ed="#G" n="117"/>
+               <pc type="indent"/>Alias inuenitur talis additio. Etiam diceret
+      aduersa<lb ed="#G" n="118" break="no"/>rius, quod intellectus non mouet seipsum ad
+      conclusio<lb ed="#G" n="119" break="no"/>nes, proprie seipsum actiuando: quia ut sic, mouetur ab 
+      <lb ed="#G" n="120"/>obiectis ipsarum conclusionum, &amp; praemissarum 
+    </p>
+            <p xml:id="HuYgTa-139101-d1e949">
+               <lb ed="#G" n="121"/>
+               <pc type="indent"/>ARTICVLVS Il 
+      <lb ed="#G" n="122"/>Vtrum voluntas, pro vt est idem quod liberum
+      a<lb ed="#G" n="123" break="no"/>bitrium, possit per motum suum
+      pecca<lb ed="#G" n="124" break="no"/>re, nullo existente errore in 
+      <lb ed="#G" n="125"/>ratione.
+    </p>
+            <p xml:id="HuYgTa-139101-d1e965">
+               <lb ed="#G" n="126"/>QVANTVM ad secundum articulum dico primo, quod 
+      <lb ed="#G" n="127"/>
+               <pc type="indent"/>nulla existente lignorantia in intellectu praeuia, 
+      <lb ed="#G" n="128"/>n ratione causae, uoluntas ex sua libertate potest proprio 
+      <lb ed="#G" n="129"/>suo motu peccare
+    </p>
+            <p xml:id="HuYgTa-139101-d1e978">
+               <lb ed="#G" n="130"/>1 Quia talis ignorantia, aut esset inuincibilis, &amp; tunc 
+      <lb ed="#G" n="131"/>non esset causa peccati, cum inuincibilis ignorantia excu 
+      <lb ed="#G" n="132"/>set peccatum, ut patuit superius. Aut esset affectata, &amp; nec 
+      <lb ed="#G" n="133"/>tunc esset necessario causa peccati, sed ipsam praecederet 
+    </p>
+            <p xml:id="HuYgTa-139101-d1e989">
+               <lb ed="#G" n="134"/>
+               <pc type="indent"/>Peccatum malae uoluntatis. Aut esset neglecta, &amp; tunc
+      si<lb ed="#G" n="135" break="no"/>militer huiusmodi ignorantia esset aliquo modo per pec 
+      <lb ed="#G" n="136"/>tatum inducta, scilicet per negligentiam ipsius
+      ignoran<lb ed="#G" n="137" break="no"/>is: igitur ante omnem ignorantiam uoluntas potuit
+      la<lb ed="#G" n="138" break="no"/>bi in peccatum. 
+    </p>
+            <p xml:id="HuYgTa-139101-d1e1005">
+               <lb ed="#G" n="139"/>
+               <pc type="indent"/>2 Praeterea, peccatum primi angeli nulla praecessit igno 
+      <lb ed="#G" n="140"/>tantia: alias pena praecessisset culpam, &amp; eodem modo de 
+      <lb ed="#G" n="141"/>primo homine.
+    </p>
+            <p xml:id="HuYgTa-139101-d1e1016">
+      <!--405.xml-->
+               <pb ed="#G" n="183-v"/>
+               <cb ed="#G" n="a"/>
+               <lb ed="#G" n="1"/>3 Praeterea, in quolibet genere illud, quod est
+      mensu<lb ed="#G" n="2" break="no"/>ra omnium, quae sunt in illo genere, hoc necessario est 
+      <lb ed="#G" n="3"/>primum omnium illius generis. ista patet. 1o, met sed ma 
+      <lb ed="#G" n="4"/>la voluntas est mensura omnium peccatorum: quia secun 
+      <lb ed="#G" n="5"/>dum Augustinum in de vera religione, vnumquodque
+      ma<lb ed="#G" n="6" break="no"/>lum tantum est peccatum, quantum est voluntarium. Et 
+      <lb ed="#G" n="7"/>ibidem ait Augusti quod si nullo modo est voluntarium, 
+      <lb ed="#G" n="8"/>nullo modo est peccatum: potest igitur peccatum esse: 
+      <lb ed="#G" n="9"/>voluntate causatum sine ignorantia praeuia in ipsa
+      ratio<lb ed="#G" n="10" break="no"/>ne, ergo &amp;c. 
+    </p>
+            <p xml:id="HuYgTa-139101-d1e1048">
+               <lb ed="#G" n="11"/>
+               <pc type="indent"/>4 Praeterea, ista est expressa intentio <ref xml:id="HuYgTa-139101-Rd1e1054">Aug. tertio de li 
+        <lb ed="#G" n="12"/>bero arbitrio</ref>, vbi ait, voluntas est prima causa peccandi, 
+      <lb ed="#G" n="13"/>nec est, cui recte imputetur, nisi voluntati. Et eandem sen 
+      <lb ed="#G" n="14"/>tentiam ponit Augus primo retractationum
+    </p>
+            <p xml:id="HuYgTa-139101-d1e1064">
+               <lb ed="#G" n="15"/>3 Praeterea, si omne peccatum necessario precederes 
+      <lb ed="#G" n="16"/>ignorantia, tunc numquam committeretur aliquod pec 
+      <lb ed="#G" n="17"/>catum ex certa scientia, quod est contra sanctorum doctu 
+      <lb ed="#G" n="18"/>tum sententiam, &amp; specialiter lsidori, qui in libro de
+      si<lb ed="#G" n="19" break="no"/>no. dicit, quod triplex est peccatum, scilicet ex
+      ignoran<lb ed="#G" n="20" break="no"/>tia, ex infirmitate, &amp; ex industria, seu ex certa scientia, 
+      <lb ed="#G" n="21"/>vel malitia, 
+    </p>
+            <p xml:id="HuYgTa-139101-d1e1082">
+               <lb ed="#G" n="22"/>
+               <pc type="indent"/>Secundo dico, quod stante in ratione, seu in intellectu 
+      <lb ed="#G" n="23"/>recto iudicio, tam in uniuersali, quam etiam in
+      particula<lb ed="#G" n="24" break="no"/>ri, puta dictante intellectu in vniuersali, quod nullum de 
+      <lb ed="#G" n="25"/>lectabile existens contra legem Dei est prosequendum 
+      <lb ed="#G" n="26"/>&amp; in particulari, quod haec fornicatio est quoddam delectabi 
+      <lb ed="#G" n="27"/>le existens contra legem Dei, adhuc voluntas contra
+      hu<lb ed="#G" n="28" break="no"/>iusmodi actuale dictamen rectae rationis potest
+      pecca<lb ed="#G" n="29" break="no"/>re. Et loquor de voluntate per gratiam Dei nondum 
+      <lb ed="#G" n="30"/>confirmata.
+    </p>
+            <p xml:id="HuYgTa-139101-d1e1106">
+               <lb ed="#G" n="31"/>1 Quia pro quocunque tempore, vel momento
+      osten<lb ed="#G" n="32" break="no"/>ditur voluntati aliquid contentum sub suo adaequato obie 
+      <lb ed="#G" n="33"/>cto, pro illo momento voluntas potest ipsum appetere: sed  
+      <lb ed="#G" n="34"/>pro eodem momento, pro quo intellectus iudicat hanc 
+      <lb ed="#G" n="35"/>fornicationem non esse faciendam eo, quod est bonum
+      de<lb ed="#G" n="36" break="no"/>lectabile contra legem Dei, ostenditur voluntati
+      huius<lb ed="#G" n="37" break="no"/>modi delectabile, quod comprehenditur sub obiecto vo 
+      <lb ed="#G" n="38"/>luntatis: ergo pro eodem instanti voluntas potest ipsum at 
+      <lb ed="#G" n="39"/>petere, &amp; per consequens ipsum appetendo peccare, non 
+      <lb ed="#G" n="40"/>obstante recto iudicio rationis.
+    </p>
+            <p xml:id="HuYgTa-139101-d1e1130">
+               <lb ed="#G" n="41"/>2 Preterea, si voluntas non posset oppositum illius eli 
+      <lb ed="#G" n="42"/>gere, quod dictatum, &amp; iudicatum est a recta ratione: tuns 
+      <lb ed="#G" n="43"/>voluntas non esset potentia libera libertate contradictio 
+      <lb ed="#G" n="44"/>nis. Falsitas consequentis patet consequentiam probo 
+      <lb ed="#G" n="45"/>er <ref xml:id="HuYgTa-139101-Rd1e1143">Aristotelem. 9. metaphy.</ref> vbi ipse in hoc ostendit
+      dif<lb ed="#G" n="46" break="no"/>ferentiam potentiarum rationalium, &amp; irrationalium: 
+      <lb ed="#G" n="47"/>quia irrationales necesse est agere, vel pati, quando
+      acti<lb ed="#G" n="48" break="no"/>uum, vel passiuum appropinquat : rationales vero non est
+      ne<lb ed="#G" n="49" break="no"/>cesse. Et sequitur, Hae quidem, scilicet irrationales,  
+      <lb ed="#G" n="50"/>vna vnius factiua, id est determinatae sunt ad vnum: illae 
+      <lb ed="#G" n="51"/>vero, scilicet rationales contrariorum: quare simul
+      fa<lb ed="#G" n="52" break="no"/>cient contraria, quodd si potentiae rationales agerent
+      neces<lb ed="#G" n="53" break="no"/>sario ad praesentiam obiectorum, tunc simul essent
+      facti<lb ed="#G" n="54" break="no"/>uae contrariorum.
+    </p>
+            <p xml:id="HuYgTa-139101-d1e1166">
+               <lb ed="#G" n="55"/>3 Praeterea, quilibet peccator experitur in se ipso, qu 
+      <lb ed="#G" n="56"/>quandoque facit contra conscientiam suam, &amp; contra
+      il<lb ed="#G" n="57" break="no"/>lud, quod sibi recta ratio dictat: quia etiam aliqui in
+      pec<lb ed="#G" n="58" break="no"/>cando cogitant, quod Deum offendunt, &amp; aliquo modo, 
+      <lb ed="#G" n="59"/>licet non ex toto, refroenantur propter timorem
+      vindi<lb ed="#G" n="60" break="no"/>ctae diuinae. 
+    </p>
+            <p xml:id="HuYgTa-139101-d1e1183">
+               <lb ed="#G" n="61"/>
+               <pc type="indent"/>Sed contrarium istarum conclusionum tenet quidam 
+      <lb ed="#G" n="62"/>doctor dicens, quod semper oportet errorem precedere in ra 
+      <lb ed="#G" n="63"/>tione ad hoc, quod sit malitia in voluntate, &amp; hoc est contra 
+      <lb ed="#G" n="64"/>primam conclusionem, &amp; quod voluntas non potest
+      elige<lb ed="#G" n="65" break="no"/>re contra dictamen rectae rationis, &amp; hoc est contra secun 
+      <lb ed="#G" n="66"/>dam conclusionem. Et hoc probat sic.¬ 
+    </p>
+            <p xml:id="HuYgTa-139101-d1e1201">
+               <lb ed="#G" n="67"/>
+               <pc type="indent"/>Quia autem voluntas fertur in illud, quod sibi per
+      ra<lb ed="#G" n="68" break="no"/>tionem ostenditur, &amp; sub ratione, qua ostenditur, aut in 
+      <lb ed="#G" n="69"/>aliquid aliud. Si primo, modo: tunc non poterit esse pecca 
+      <lb ed="#G" n="70"/>tum in voluntate, nisi praefuerit error in ratione. Si secun 
+      <lb ed="#G" n="71"/>do modo, tunc voluntas tenderet in aliquid non cogni 
+      <lb ed="#G" n="72"/>tum, quod est impossibile, cum bonum cognitum sit obi 
+      <lb ed="#G" n="73"/>ctum voluntatis, vt patet per <ref xml:id="HuYgTa-139101-Rd1e1220">Augu. 1o de tri.</ref> vbi dicit, quod 
+      <!--405.xml-->
+      <cb ed="#G" n="b"/>
+               <lb ed="#G" n="74"/>
+               <quote xml:id="HuYgTa-139101-Qd1e1230" source="http://scta.info/resource/adt-l10-d1e1128" synch="172-177"><!-- dbcheck -->inuisa diligere possumus incognita nequaquam</quote>. 
+    </p>
+            <p xml:id="HuYgTa-139101-d1e1235">
+               <lb ed="#G" n="75"/>
+               <pc type="indent"/>2 Praeterea, si voluntas peccaret ratione existente
+      re<lb ed="#G" n="76" break="no"/>cta, tunc voluntas non moueretur ab intellectu, sed
+      po<lb ed="#G" n="77" break="no"/>tius moueretur a seipsa, consequentia patet. Falsitas autem 
+      <lb ed="#G" n="78"/>consequentis probatur: quia inter mouens, &amp; motum est 
+      <lb ed="#G" n="79"/>relatio realis, Vt patet.<ref xml:id="HuYgTa-139101-Rd1e1250"> 5. metaph</ref> eiusdem autem sed
+      ip<lb ed="#G" n="80" break="no"/>sum non est relatio realis, vt patet ibidem: igitur
+      volun<lb ed="#G" n="81" break="no"/>tas non potest mouere seipsam.
+    </p>
+            <p xml:id="HuYgTa-139101-d1e1258">
+               <lb ed="#G" n="82"/>3 Praeterea, communiter dicitur, quod malitiam volunta 
+      <lb ed="#G" n="83"/>tis saltem concomitatur error rationis: si ergo stante
+      iu<lb ed="#G" n="84" break="no"/>dicio recto ipsius rationis, esset peccatum in voluntate: 
+      <lb ed="#G" n="85"/>tunc in eodem instanti ratio esset recta, &amp; non recta.
+    </p>
+            <p xml:id="HuYgTa-139101-d1e1269">
+               <lb ed="#G" n="86"/>4 Praeterea, arguunt quidam alij sic. Si contra rectum 
+      <lb ed="#G" n="87"/>iudicium rationis voluntas posset peccare, tunc malus ho 
+      <lb ed="#G" n="88"/>mo carens morali virtute posset esse prudens Falsitas
+      com<lb ed="#G" n="89" break="no"/>sequentis patet. e. ethi, vbi dicitur, quod impossibile est es 
+      <lb ed="#G" n="90"/>se prudentem non entem bonum. Consequentia
+      proba<lb ed="#G" n="91" break="no"/>tur, quia per habitum prudentiae recte iudicamus de
+      eli<lb ed="#G" n="92" break="no"/>gendis: ergo &amp;c.
+    </p>
+            <p xml:id="HuYgTa-139101-d1e1287">
+               <lb ed="#G" n="93"/>3 Praeterea, istud probatur auctoritate sacrae scripturae 
+      <lb ed="#G" n="94"/>Quia dicunt ipsi peccatores, Frrauimus a via ueritatis,  
+      <lb ed="#G" n="95"/>&amp; iustitiae lumen non luxit nobis, &amp; Sol intelligentiae 
+      <lb ed="#G" n="96"/>non est ortus nobis,
+    </p>
+            <p xml:id="HuYgTa-139101-d1e1299">
+               <lb ed="#G" n="97"/>Item, inquit sapiens, In omnibus operibus tuis
+      memo<lb ed="#G" n="98" break="no"/>rare nouissima tua, &amp; in aeternum non peccabis. 
+    </p>
+            <p xml:id="HuYgTa-139101-d1e1306">
+               <lb ed="#G" n="99"/>
+               <pc type="indent"/>Item cum Apostolus multa peccata enumerasset
+      ipso<lb ed="#G" n="100" break="no"/>rum malorum hominum, subdit, Qui cum iustitiam Dei 
+      <lb ed="#G" n="101"/>cognouissent, non intellexerunt, quoniam qui talia agut,  
+      <lb ed="#G" n="102"/>diguni sunt morte, 
+    </p>
+            <p xml:id="HuYgTa-139101-d1e1319">
+               <lb ed="#G" n="103"/>
+               <pc type="indent"/>Item <ref xml:id="HuYgTa-139101-Rd1e1325">Clemens s. suo libro</ref> multis praemissis de ista ma 
+      <lb ed="#G" n="104"/>teria subdit, Ex his igitur omnibus colligitur, quod origo 
+      <lb ed="#G" n="105"/>totius mali ab ignorantia descendit, &amp; ipsa sit malorum 
+      <lb ed="#G" n="106"/>omnium mater
+    </p>
+            <p xml:id="HuYgTa-139101-d1e1336">
+               <lb ed="#G" n="107"/>3 Praeterea, hoc idem probatur auctoritate <ref xml:id="HuYgTa-139101-Rd1e1340">philoso¬ 
+        <lb ed="#G" n="108"/>phi, qui s. ethicorum</ref> ait sic. lgnorat quidem omnis
+      ma<lb ed="#G" n="109" break="no"/>lus, quae debet operari, &amp; a quibus sugiendum: &amp; propter 
+      <lb ed="#G" n="110"/>tale peccatum iniiusti, &amp; uniuersaliter mali fiunt, 
+    </p>
+            <p xml:id="HuYgTa-139101-d1e1350">
+               <lb ed="#G" n="111"/>
+               <pc type="indent"/>Item, in eodem tertio dicitur, Deceptio propter
+      dele<lb ed="#G" n="112" break="no"/>ctationem uidetur fieri; non enim existens bonum
+      uide<lb ed="#G" n="113" break="no"/>tur bonum esse: ergo uidetur, quod secundum Aristotelem 
+      <lb ed="#G" n="114"/>apparentia boni non existentis praecedat peccatum. 
+    </p>
+            <p xml:id="HuYgTa-139101-d1e1363">
+               <lb ed="#G" n="115"/>
+               <pc type="indent"/>Item. <ref xml:id="HuYgTa-139101-Rd1e1369">7. eth. dicit Aristoteles</ref>, quod in factiuis operari con 
+      <lb ed="#G" n="116"/>festim contingit. Et ibidem uult Aristoteles, quod si
+      ali<lb ed="#G" n="117" break="no"/>quis intellectus dicit in uniuersali, &amp; in particulari
+      ali<lb ed="#G" n="118" break="no"/>quid faciendum, puta, quod omne dulce est gustandum 
+      <lb ed="#G" n="119"/>&amp; hoc est dulce: confestim sequitur operatio, si adsit facul 
+      <lb ed="#G" n="120"/>tas operandi.
+    </p>
+            <p xml:id="HuYgTa-139101-d1e1385">
+               <lb ed="#G" n="121"/>3 Praeterea, concludunt isti, quod si uoluntas posset fa 
+      <lb ed="#G" n="122"/>cere contra iudicium rationis, tunc non esset appetitus 
+      <lb ed="#G" n="123"/>rationalis, quia alias faceret contra propriam suam
+      natu<lb ed="#G" n="124" break="no"/>ram, &amp; diffinitionem. 
+    </p>
+            <p xml:id="HuYgTa-139101-d1e1396">
+               <lb ed="#G" n="125"/>
+               <pc type="indent"/>Sed ista opinio stare non potest. 
+      <lb ed="#G" n="126"/>1 Quia si uoluntas non posset eligere contra iudicium 
+      <lb ed="#G" n="127"/>rationis, &amp; necessario in omni sua electione se conforma 
+      <lb ed="#G" n="128"/>ret iudicio rationis, tunc periret omne meritum &amp; demen 
+      <lb ed="#G" n="129"/>ritum, consequentia patet: quia ex his, quae necessario a 
+      <lb ed="#G" n="130"/>nobis fiunt, nec meremur, nec demeremur. Vnde ea, quae 
+      <lb ed="#G" n="131"/>ure nobis insunt a natura, non sunt in nostra potestate, 
+      <lb ed="#G" n="132"/>sed de necessitate eueniunt: ideo secundum <ref xml:id="HuYgTa-139101-Rd1e1417">philosoph¬ 
+        <lb ed="#G" n="133"/>3. eth.</ref> ex puris naturalibus nec laudamur, nec
+      uitupera<lb ed="#G" n="134" break="no"/>mur: sicut enim in appetitu bruti nullum est peecatum. 
+      <lb ed="#G" n="135"/>neque libertas, quia necessario, &amp; sine contradictione
+      se<lb ed="#G" n="136" break="no"/>quitur apprehensionem, &amp; appetit delectabile
+      appre<lb ed="#G" n="137" break="no"/>hensum, sic &amp;c
+    </p>
+            <p xml:id="HuYgTa-139101-d1e1432">
+               <lb ed="#G" n="138"/>2 Praeterea, contrarium istius opinionis <ref xml:id="HuYgTa-139101-Rd1e1436">Augustinus ex 
+        <lb ed="#G" n="139"/>intentione determinat. 12. de ci. Dei</ref> dicens, quod <quote xml:id="HuYgTa-139101-Qd1e1441" source="http://scta.info/resource/adcd-l12-d1e1695" synch="547-555">si duo
+      ho<lb ed="#G" n="140" break="no"/>mines aequaliter affecti corpore &amp; anima</quote>, &amp; in omibus alij 
+      <lb ed="#G" n="141"/>conditionibus pariter omnino se habentes <quote xml:id="HuYgTa-139101-Qd1e1448" source="http://scta.info/resource/adcd-l12-d1e1695" synch="556-559">videant unius 
+        <lb ed="#G" n="142"/>corporis pulchritudinem</quote> non difformiter eis occurrente 
+      <lb ed="#G" n="143"/>sed potius uniformiter occurrentem eorum aspectibus, unus 
+      <lb ed="#G" n="144"/>eorum potest illicite moueri ad illicite fruendum, &amp; <quote xml:id="HuYgTa-139101-Qd1e1458" source="http://scta.info/resource/adcd-l12-d1e1695" synch="568-573">al¬ 
+        <lb ed="#G" n="145"/>ter in uoluntate pudica stabiliter perseuerare</quote>. Cum
+      igi<lb ed="#G" n="146" break="no"/>tur per primam suppositionem in istis, duobus sit aequali 
+      <!--406.xml-->
+      <!-- unclear what's happening here  -->
+      <pb ed="#G" n="184-r"/>
+               <cb ed="#G" n="a"/>
+               <lb ed="#G" n="1"/> 
+               <lb ed="#G" n="2"/> 
+               <lb ed="#G" n="3"/> 
+            </p>
+            <p xml:id="HuYgTa-139101-d1e1481">
+               <lb ed="#G" n="4"/>
+               <pc type="indent"/> 
+               <lb ed="#G" n="5"/> 
+               <lb ed="#G" n="6"/> 
+               <lb ed="#G" n="7"/> 
+               <lb ed="#G" n="8"/> 
+               <lb ed="#G" n="9"/> 
+               <lb ed="#G" n="10"/> 
+            </p>
+            <p xml:id="HuYgTa-139101-d1e1501">
+               <lb ed="#G" n="11"/>
+               <pc type="indent"/> 
+               <lb ed="#G" n="12"/> 
+               <lb ed="#G" n="13"/> 
+               <lb ed="#G" n="14"/> 
+            </p>
+            <p xml:id="HuYgTa-139101-d1e1514">
+               <lb ed="#G" n="15"/>
+               <pc type="indent"/> 
+               <lb ed="#G" n="16"/> 
+               <lb ed="#G" n="17"/> 
+               <lb ed="#G" n="18"/> 
+               <lb ed="#G" n="19"/> 
+               <lb ed="#G" n="20"/> 
+               <lb ed="#G" n="21"/> 
+            </p>
+            <p xml:id="HuYgTa-139101-d1e1535">
+               <lb ed="#G" n="22"/>
+               <pc type="indent"/> 
+               <lb ed="#G" n="23"/> 
+               <lb ed="#G" n="24"/> 
+               <lb ed="#G" n="25"/> 
+               <lb ed="#G" n="26"/> 
+            </p>
+            <p xml:id="HuYgTa-139101-d1e1551">
+               <lb ed="#G" n="27"/>
+               <pc type="indent"/> 
+               <lb ed="#G" n="28"/> 
+               <lb ed="#G" n="29"/> 
+               <lb ed="#G" n="30"/> 
+               <lb ed="#G" n="31"/> 
+               <lb ed="#G" n="32"/> 
+               <lb ed="#G" n="33"/> 
+               <lb ed="#G" n="34"/> 
+               <lb ed="#G" n="35"/> 
+               <lb ed="#G" n="36"/> 
+               <lb ed="#G" n="37"/> 
+               <lb ed="#G" n="38"/> 
+               <lb ed="#G" n="39"/> 
+               <lb ed="#G" n="40"/> 
+               <lb ed="#G" n="41"/> 
+               <lb ed="#G" n="42"/> 
+               <lb ed="#G" n="43"/> 
+            </p>
+            <p xml:id="HuYgTa-139101-d1e1593">
+               <lb ed="#G" n="44"/>
+               <pc type="indent"/> 
+               <lb ed="#G" n="45"/> 
+               <lb ed="#G" n="46"/> 
+               <lb ed="#G" n="47"/> 
+               <lb ed="#G" n="48"/> 
+               <lb ed="#G" n="49"/> 
+               <lb ed="#G" n="50"/> 
+               <lb ed="#G" n="51"/> 
+               <lb ed="#G" n="52"/> 
+            </p>
+            <p xml:id="HuYgTa-139101-d1e1617">
+               <lb ed="#G" n="53"/>
+               <pc type="indent"/> 
+               <lb ed="#G" n="54"/> 
+               <lb ed="#G" n="55"/> 
+               <lb ed="#G" n="56"/> 
+               <lb ed="#G" n="57"/> 
+            </p>
+            <p xml:id="HuYgTa-139101-d1e1633">
+               <lb ed="#G" n="58"/>
+               <pc type="indent"/> 
+               <lb ed="#G" n="59"/> 
+               <lb ed="#G" n="60"/> 
+               <lb ed="#G" n="61"/> 
+               <lb ed="#G" n="62"/> 
+               <lb ed="#G" n="63"/> 
+               <lb ed="#G" n="64"/> 
+               <lb ed="#G" n="65"/> 
+               <lb ed="#G" n="66"/> 
+               <lb ed="#G" n="67"/> 
+               <lb ed="#G" n="68"/> 
+               <lb ed="#G" n="69"/> 
+               <lb ed="#G" n="70"/> 
+               <lb ed="#G" n="71"/> 
+               <lb ed="#G" n="72"/> 
+               <lb ed="#G" n="73"/> 
+               <!--406.xml-->
+               <cb ed="#G" n="b"/>
+               <lb ed="#G" n="74"/> 
+               <lb ed="#G" n="75"/> 
+               <lb ed="#G" n="76"/> 
+               <lb ed="#G" n="77"/> 
+               <lb ed="#G" n="78"/> 
+            </p>
+            <p xml:id="HuYgTa-139101-d1e1687">
+               <lb ed="#G" n="79"/>
+               <pc type="indent"/> 
+               <lb ed="#G" n="80"/> 
+               <lb ed="#G" n="81"/> 
+               <lb ed="#G" n="82"/> 
+               <lb ed="#G" n="83"/> 
+               <lb ed="#G" n="84"/> 
+            </p>
+            <p xml:id="HuYgTa-139101-d1e1706">
+               <lb ed="#G" n="85"/>
+               <pc type="indent"/> 
+               <lb ed="#G" n="86"/> 
+               <lb ed="#G" n="87"/> 
+               <lb ed="#G" n="88"/> 
+               <lb ed="#G" n="89"/> 
+            </p>
+            <p xml:id="HuYgTa-139101-d1e1722">
+               <lb ed="#G" n="90"/>
+               <pc type="indent"/> 
+               <lb ed="#G" n="91"/> 
+            </p>
+            <p xml:id="HuYgTa-139101-d1e1731">
+               <lb ed="#G" n="92"/>
+               <pc type="indent"/> 
+               <lb ed="#G" n="93"/> 
+               <lb ed="#G" n="94"/> 
+               <lb ed="#G" n="95"/> 
+               <lb ed="#G" n="96"/> 
+               <lb ed="#G" n="97"/> 
+               <lb ed="#G" n="98"/> 
+               <lb ed="#G" n="99"/> 
+               <lb ed="#G" n="100"/> 
+               <lb ed="#G" n="101"/> 
+               <lb ed="#G" n="102"/> 
+               <lb ed="#G" n="103"/> 
+               <lb ed="#G" n="104"/> 
+               <lb ed="#G" n="105"/> 
+               <lb ed="#G" n="106"/> 
+               <lb ed="#G" n="107"/> 
+               <lb ed="#G" n="108"/> 
+               <lb ed="#G" n="109"/> 
+               <lb ed="#G" n="110"/> 
+            </p>
+            <p xml:id="HuYgTa-139101-d1e1777">
+               <lb ed="#G" n="111"/>
+               <pc type="indent"/> 
+               <lb ed="#G" n="112"/> 
+            </p>
+            <p xml:id="HuYgTa-139101-d1e1786">
+               <lb ed="#G" n="113"/>
+               <pc type="indent"/> 
+               <lb ed="#G" n="114"/> 
+               <lb ed="#G" n="115"/> 
+               <lb ed="#G" n="116"/> 
+               <lb ed="#G" n="117"/> 
+               <lb ed="#G" n="118"/> 
+               <lb ed="#G" n="119"/> 
+               <lb ed="#G" n="120"/> 
+               <lb ed="#G" n="121"/> 
+               <lb ed="#G" n="122"/> 
+               <lb ed="#G" n="123"/> 
+               <lb ed="#G" n="124"/> 
+            </p>
+            <p xml:id="HuYgTa-139101-d1e1817">
+               <lb ed="#G" n="125"/>
+               <pc type="indent"/> 
+               <lb ed="#G" n="126"/> 
+               <lb ed="#G" n="127"/> 
+               <lb ed="#G" n="128"/> 
+               <lb ed="#G" n="129"/> 
+            </p>
+            <p xml:id="HuYgTa-139101-d1e1834">
+               <lb ed="#G" n="130"/>
+               <pc type="indent"/> 
+               <lb ed="#G" n="131"/> 
+            </p>
+            <p xml:id="HuYgTa-139101-d1e1843">
+               <lb ed="#G" n="132"/>
+               <pc type="indent"/> 
+            </p>
+            <p xml:id="HuYgTa-139101-d1e1850">
+               <lb ed="#G" n="133"/>
+               <pc type="indent"/> 
+               <lb ed="#G" n="134"/> 
+               <lb ed="#G" n="135"/> 
+               <lb ed="#G" n="136"/> 
+               <lb ed="#G" n="137"/> 
+               <lb ed="#G" n="138"/> 
+               <!--407.xml-->
+               <pb ed="#G" n="184-v"/>
+               <cb ed="#G" n="a"/>
+               <lb ed="#G" n="1"/>est facere, quod repugnat effectui; sed absolute, &amp;
+      suffici<lb ed="#G" n="2" break="no"/>enter cogere voluntatem simpliciter repugat effectui, co 
+      <lb ed="#G" n="3"/>actum enim est inuolunt arium, &amp; per consequens si
+      vo<lb ed="#G" n="4" break="no"/>luntas cogeretur ad hoc, quod vellet aliquid: tunc
+      inuo<lb ed="#G" n="5" break="no"/>luntarium esset voluntarium, &amp; nolitum esset volitum, 
+      <lb ed="#G" n="6"/>Haec autem &amp; multa alia, quae sequerentur,
+      contradictio<lb ed="#G" n="7" break="no"/>nem implicant, &amp; per consequens repugnat effectui. Et 
+      <lb ed="#G" n="8"/>haec est intentio bern in libro de libero arbitrio, vbi ait,  
+      <lb ed="#G" n="9"/>Voluntas pro ingenita nobilitate, nulla cogitur
+      necessi<lb ed="#G" n="10" break="no"/>tate. Quomodo autem voluntas possit ab vltimo fine im 
+      <lb ed="#G" n="11"/>mutabiliter necessitari absque tamen coactione, hoc ostem 
+      <lb ed="#G" n="12"/>
+               <ref xml:id="HuYgTa-139101-Rd1e1899">di. 1. libro. dist. 1. qu. 2</ref> 
+            </p>
+            <p xml:id="HuYgTa-139101-d1e1903">
+               <lb ed="#G" n="13"/>
+               <pc type="indent"/>Sed forte dicetur contra praedictam conclusionem sic 
+      <lb ed="#G" n="14"/>Magis excedit potentia dei liberum arbitrium, quam po 
+      <lb ed="#G" n="15"/>tentia hominis excedat quodcumque ens creatum : sec 
+      <lb ed="#G" n="16"/>homo propter excessum suae potentiae multa entia
+      crea<lb ed="#G" n="17" break="no"/>ta potest sufficienter cogere. Minor de se patet Probatur 
+      <lb ed="#G" n="18"/>maior, quia plus exceditur finitum ab infinito, quam fin 
+      <lb ed="#G" n="19"/>tum a finito, sed potentia Dei est infinita, &amp; potentia hu 
+      <lb ed="#G" n="20"/>mana, ac omnis creatura finita, ergo &amp;c. 
+    </p>
+            <p xml:id="HuYgTa-139101-d1e1925">
+               <lb ed="#G" n="21"/>
+               <pc type="indent"/>Respondeo, quod licet Deus sit infinitae potentiae, &amp;  
+      <lb ed="#G" n="22"/>homo finitae: tamen homo potest quandoque creaturam 
+      <lb ed="#G" n="23"/>corporalem cogere, eo quod talis natura sit capax
+      coactio<lb ed="#G" n="24" break="no"/>nis, &amp; eius coactio non implicat contradictionem: attamen 
+      <lb ed="#G" n="25"/>Deus non potest cogere liberum hominis arbitrium, eo,  
+      <lb ed="#G" n="26"/>quod non sit capax coactionis, nam eius coactio esset con 
+      <lb ed="#G" n="27"/>tradictionis implicatio, quia coactum non est liberum:
+      igi<lb ed="#G" n="28" break="no"/>tur si liberum arbitrium cogeretur, tunc idem esset libe 
+      <lb ed="#G" n="29"/>rum, &amp; non liberum, 
+    </p>
+            <p xml:id="HuYgTa-139101-d1e1949">
+               <lb ed="#G" n="30"/>
+               <pc type="indent"/>Licet autem Deus voluntatem non cogat, potest tamen 
+      <lb ed="#G" n="31"/>voluntatem immutare, quandocumque voluerit. Propter 
+      <lb ed="#G" n="32"/>quod dicitur, Cor regis in manu domini, quocumque vo 
+      <lb ed="#G" n="33"/>luerit inclinabit illud. Et istud immutare potest fieri
+      tri<lb ed="#G" n="34" break="no"/>pliciter. Vno modo alliciendo, puta bona promittendo, 
+      <lb ed="#G" n="35"/>el etiam ostendendo: sicut nutrix mouet puerum osten 
+      <lb ed="#G" n="36"/>dendo illi pomum. Alio modo inducendo, puta
+      mal<lb ed="#G" n="37" break="no"/>poenae comminando, iuxta illud, Multiplicatae sunt
+      infir<lb ed="#G" n="38" break="no"/>mitates eorum, postea accelerauerunt. Et iterum lmple
+      fa<lb ed="#G" n="39" break="no"/>cies eorum ignominia, &amp; quaerent nomen tuum domine 
+      <lb ed="#G" n="40"/>Tertio modo voluntatem melius disponendo, puta
+      pec<lb ed="#G" n="41" break="no"/>catum expellendo, &amp; gratiam infundendo, &amp; hoc Deus 
+      <lb ed="#G" n="42"/>posset facere ita abunde &amp; copiose, quod quamuis volun 
+      <lb ed="#G" n="43"/>tatem non cogeret, ipsam tamen in bonis desideriis
+      pe<lb ed="#G" n="44" break="no"/>nitus immobilitaret; Sicut videtur fecisse in Apostoli 
+      <lb ed="#G" n="45"/>conuersione. 
+    </p>
+            <p xml:id="HuYgTa-139101-d1e1989">
+               <lb ed="#G" n="46"/>
+               <pc type="indent"/>Ad argumentum principale dicendum, quod non om 
+      <lb ed="#G" n="47"/>nis necessitas est contra naturam: ideo nec intellectus,  
+      <lb ed="#G" n="48"/>nec voluntas dicuntur proprie cogi, quamuis
+      necessiten<lb ed="#G" n="49" break="no"/>tur, quia non omnis necessitas est coactio, alias enim cona 
+      <lb ed="#G" n="50"/>ctio caderet in ipsum Deum, quia necessitate
+      immutabi<lb ed="#G" n="51" break="no"/>litatis intelligit se, &amp; vult se. Etiam non est simile de
+      in<lb ed="#G" n="52" break="no"/>tellectu respectu conclusionum, &amp; voluntate respectu ec 
+      <lb ed="#G" n="53"/>rum, quae sunt ad finem: quia res intelliguntur, vt sunt in 
+      <lb ed="#G" n="54"/>intellectu, &amp; ideo nihil consideratur, in conclusionibus 
+      <lb ed="#G" n="55"/>nisi vt sequuntur ex premissis, propter quod intelligens 
+      <lb ed="#G" n="56"/>pre missas, de necessitate intelligit conclusionem, proui 
+      <lb ed="#G" n="57"/>sequitur ex praemissis. Sed res appetuntur, vt sunt in
+      seip<lb ed="#G" n="58" break="no"/>sis, &amp; vt coniunctae sunt suis naturalibus conditionibus; 
+      <lb ed="#G" n="59"/>quae quidem conditiones quandoque sunt displicibiles; 
+      <lb ed="#G" n="60"/>ideo potest aliquis appetere finem, &amp; tamen abhorrere 
+      <lb ed="#G" n="61"/>ea, quae sunt ad finem. Potest enim aliquis immutabiliter 
+      <lb ed="#G" n="62"/>appetere sanitatem, &amp; tamen abhorrere potionem
+      pro<lb ed="#G" n="63" break="no"/>pter annexam amaritudinem, dato etiam, quod sciat sani 
+      <lb ed="#G" n="64"/>tatem non posse inducia nisi per huiusmodi potionem. Vn 
+      <lb ed="#G" n="65"/>de si talia, quae sunt ad finem nihil in se haberent nisi
+      so<lb ed="#G" n="66" break="no"/>lum hoc, quod essent perductiua ad finem: tunc ea neces 
+      <lb ed="#G" n="67"/>sitate, qua quis appeteret finem, etiam appeteret ea, quae 
+      <lb ed="#G" n="68"/>sunt ad finem. Sicut qui assentit principuis, etiam assentit 
+      <lb ed="#G" n="69"/>his, quae necessario sequuntur ex principiis. Nunc autem 
+      <lb ed="#G" n="70"/>quamuis aliquis velit ea, quae sunt ad finem, vt sunt
+      pro<lb ed="#G" n="71" break="no"/>ductiua ad finem: potest tamen ea refutare ratione condi 
+      <lb ed="#G" n="72"/>tionis annexe: ideo &amp;c
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

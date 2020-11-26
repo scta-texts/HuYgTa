@@ -1,0 +1,834 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#ThomasStrasbourg">Thomas of Strasbourg</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2020-11-26">November 26, 2020</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="G" n="cod-TxxqU">Genoa 1585</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2020-11-26" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#G" n="191-r"/>
+            <cb ed="#G" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="HuYgTa-146038"><!-- HuYgTa-l2d32-33q1 -->
+            <head xml:id="HuYgTa-146038-Hd1e108">Quaestio 1</head>
+            <head xml:id="HuYgTa-146038-Hd1e111" type="question-title">
+      An poenae ex originali culpa inflictae 
+      aeque ab omnibus hominibus 
+      participentur.
+    </head>
+            <p xml:id="HuYgTa-146038-d1e114">
+               <lb ed="#G" n="98"/>Quaestio I  
+      <lb ed="#G" n="99"/>An Poenae ex originali culpa inflictae 
+      <lb ed="#G" n="100"/>aeque ab omnibus hominibus 
+      <lb ed="#G" n="101"/>participentur.
+    </p>
+            <p xml:id="HuYgTa-146038-d1e125">
+               <lb ed="#G" n="102"/>TRVM poenae ex originali peccato
+      infli<lb ed="#G" n="103" break="no"/>ctae sint aequaliter in omnibus homini 
+      <lb ed="#G" n="104"/>bus. Et videtur, quod sic: quia aequali po 
+      <lb ed="#G" n="105"/>sita causa ponitur aequalis effectus in
+      su<lb ed="#G" n="106" break="no"/>biecto aequaliter se habente: sed
+      origin<lb ed="#G" n="107" break="no"/>l le peccatum aequaliter est in principio 
+      <lb ed="#G" n="108"/>natiuitatis in quolibet homine; &amp; animae, quae sunt subie 
+      <lb ed="#G" n="109"/>ctum originalis peccati a principio suae creationis, sunt ae 
+      <lb ed="#G" n="110"/>uales secundum suam essentiam: ergo poenae consequen 
+      <lb ed="#G" n="111"/>tes huiusmodi peccatum videntur esse aequales 
+    </p>
+            <p xml:id="HuYgTa-146038-d1e149">
+               <lb ed="#G" n="112"/>
+               <pc type="indent"/>Contra, experientia docet, scilicet, quod fomes
+      pecca<lb ed="#G" n="113" break="no"/>ti, scilicet pronitas peccandi maior, est in vno homine, 
+      <lb ed="#G" n="114"/>quam in alio: vnus enim homo est naturaliter inclinatus 
+      <lb ed="#G" n="115"/>ad fornicandum, alter ad furandum, &amp; sic de aliis vitiis. 
+      <lb ed="#G" n="116"/>lic primo videndum est de eo, quod queritur. Secundo 
+      <lb ed="#G" n="117"/>de qualitate animarum, quod in ipso argumento implica 
+      <lb ed="#G" n="118"/>batur; &amp; hoc quantum ad istam distinctionem, scilicet tr 
+      <lb ed="#G" n="119"/>gesimam secundam. Tertio, vtrum morienti in solo pecca 
+      <lb ed="#G" n="120"/>to originali debeatur poena aeterna. Et quarto vtrum pec 
+      <lb ed="#G" n="121"/>cata parentum proximorum transeant in filios. Et hoc 
+      <lb ed="#G" n="122"/>uantum ad distinctionem trigesimam tertiam.
+    </p>
+            <p xml:id="HuYgTa-146038-d1e179">
+      <!--421.xml-->
+               <pb ed="#G" n="191-v"/>
+               <cb ed="#G" n="a"/>
+               <lb ed="#G" n="1"/>RESOLVTIO. 
+      <lb ed="#G" n="2"/>Ponas quidem, quae per se ab originali culpa deriuantur, aequi 
+      <lb ed="#G" n="3"/>a cunctis hominibus participari fatenum est: ceteras vero. 
+      <lb ed="#G" n="4"/>quae huiusmodi crimen per accideus, &amp; indirecte relpiciunt 
+      <lb ed="#G" n="5"/>non oportet. 
+    </p>
+            <p xml:id="HuYgTa-146038-d1e199">
+               <lb ed="#G" n="6"/>
+               <pc type="indent"/>ARTICVLVS 1 
+      <lb ed="#G" n="7"/>Vtrum Pene ex originali culpa inflictae, aeque ab 
+      <lb ed="#G" n="8"/>omnibus honsuubus participentur.
+    </p>
+            <p xml:id="HuYgTa-146038-d1e210">
+               <lb ed="#G" n="9"/>SE PRIMO breuiter dico, quod aliquae poenae pec 
+      <lb ed="#G" n="10"/>Dcati originalis sunt per se, &amp; primo inflictae ratione 
+      <lb ed="#G" n="11"/>talis peccati, &amp; istae sunt aequaliter in omnibus, in quibus 
+      <lb ed="#G" n="12"/>regnat tale peccatum, &amp; istae poenae directe respiciunt ori 
+      <lb ed="#G" n="13"/>ginale peccatum, puta priuatio originalis iustitiae,
+      caren<lb ed="#G" n="14" break="no"/>tia diuinae gratiae, &amp; carentia visionis diuinae essentiae. Alis 
+      <lb ed="#G" n="15"/>autem sunt poenae indirecte, quae consequuntur ipsum ori 
+      <lb ed="#G" n="16"/>ginale peccatum per accidens, puta sicut causam
+      remo<lb ed="#G" n="17" break="no"/>uentem prohibens: &amp; huiusmodi poenas non oportet
+      es<lb ed="#G" n="18" break="no"/>se aequales in singulis: tales poenae sunt mors corporalis,  
+      <lb ed="#G" n="19"/>infirmitas, &amp;ceterae passiones, &amp; pronitas ad peccandum 
+      <lb ed="#G" n="20"/>quae omnia contingunt in nobis ex rebellione virium in 
+      <lb ed="#G" n="21"/>feriorum ad superiores, &amp; haec rebellio accidit ex
+      remo<lb ed="#G" n="22" break="no"/>tione originalis iustitiae, vt patuit superius. In hac tamen 
+      <lb ed="#G" n="23"/>inaequalitate iustitia indicis, scilicet Dei, non est increpan 
+      <lb ed="#G" n="24"/>da: nam sicut iudex humanus propter aequale delictum con 
+      <lb ed="#G" n="25"/>missum a duobus ambos priuans oculis, non est calumniam 
+      <lb ed="#G" n="26"/>dus, si consequenter vnus illorum propter carentiam ocum 
+      <lb ed="#G" n="27"/>lorum frangit tibiam, &amp; non alter: quia talia per accidens 
+      <lb ed="#G" n="28"/>consequuntur: sic in proposito &amp;c 
+    </p>
+            <p xml:id="HuYgTa-146038-d1e256">
+               <lb ed="#G" n="29"/>
+               <pc type="indent"/>ARTICVLVS IR 
+      <lb ed="#G" n="30"/>De aqualitate animarum.
+    </p>
+            <p xml:id="HuYgTa-146038-d1e265">
+               <lb ed="#G" n="31"/>QVANTVM ad secundum articulum ponam duas 
+      <lb ed="#G" n="32"/>conclusiones.
+    </p>
+            <p xml:id="HuYgTa-146038-d1e272">
+               <lb ed="#G" n="33"/>Prima est, quod omnes animae humanae quantum ad 
+      <lb ed="#G" n="34"/>suas essentias, ac etiam proprietates immediate fundatas 
+      <lb ed="#G" n="35"/>in essentijs, &amp; naturaliter tales essentias consequentes 
+      <lb ed="#G" n="36"/>sunt aequales 
+    </p>
+            <p xml:id="HuYgTa-146038-d1e284">
+               <lb ed="#G" n="37"/>
+               <pc type="indent"/>1 Quia si non, tunc specie differrent: sed consequens 
+      <lb ed="#G" n="38"/>est falsum, quia tunc homines, quorum tales animae suni 
+      <lb ed="#G" n="39"/>substantiales perfectiones, necessario differrent, specle,u 
+      <lb ed="#G" n="40"/>est impossibile consequentiam probo; quia inaequalita 
+      <lb ed="#G" n="41"/>essentialis necessario arguit distinctionem specificam in 
+      <lb ed="#G" n="42"/>formis. Proprietates etiam immediate, &amp; naturaliter
+      es<lb ed="#G" n="43" break="no"/>sentias aliquas consequentes, si inaequales sunt,
+      necessa<lb ed="#G" n="44" break="no"/>rio in essentijs inaequalitatem causaliter praesupponunt 
+    </p>
+            <p xml:id="HuYgTa-146038-d1e306">
+               <lb ed="#G" n="45"/>
+               <pc type="indent"/>2 Praeterea, si formae substantiales aliquorum
+      indiui<lb ed="#G" n="46" break="no"/>luorum essent inaequales secundum suam essentiam, tuo 
+      <lb ed="#G" n="47"/>species inaequaliter predicarentur de indiuiduis; quia
+      es<lb ed="#G" n="48" break="no"/>sentia specifica principaliter sumitur a forma substantia 
+      <lb ed="#G" n="49"/>li: sed oppositum oonsequentis ponit <ref xml:id="HuYgTa-146038-Rd1e321">philosophus. 3. 
+        <lb ed="#G" n="50"/>metaphysic.</ref>  
+            </p>
+            <p xml:id="HuYgTa-146038-d1e327">
+               <lb ed="#G" n="51"/>
+               <pc type="indent"/>3 Praeterea, secundum quod in aliquibus formis eius 
+      <lb ed="#G" n="52"/>dem speciei reperitur inaequalitas penes diuersum gra 
+      <lb ed="#G" n="53"/>dum nobilitatis, secundum hoc reperitur in eis
+      susce<lb ed="#G" n="54" break="no"/>ptio magis &amp; minus. Ista patet. <ref xml:id="HuYgTa-146038-Rd1e340">7. phys.</ref> Si igitur in
+      huma<lb ed="#G" n="55" break="no"/>nis animabus esset huiusmodi inaequalitas, tunc forma 
+      <lb ed="#G" n="56"/>fubstantialis susciperet magis, &amp; minus, quod est contra 
+      <lb ed="#G" n="57"/>
+               <pc type="indent"/>
+               <ref xml:id="HuYgTa-146038-Rd1e351">philosophum in praedicamentis</ref>, vbi ait, quod <quote xml:id="HuYgTa-146038-Qd1e355">substantia 
+        <lb ed="#G" n="58"/>non suscipit magis, &amp; minus:</quote> ergo &amp;c 
+    </p>
+            <p xml:id="HuYgTa-146038-d1e361">
+               <lb ed="#G" n="59"/>
+               <pc type="indent"/>1 Sed forte dicetur, ista conclusio repugnat duobus 
+      <lb ed="#G" n="60"/>Parisiensibus articulis. Quorum primus est quod error est 
+      <lb ed="#G" n="61"/>dicere, quod inconueniens sit aliquos intellectus esse no 
+      <!--421.xml-->
+      <cb ed="#G" n="b"/>
+               <lb ed="#G" n="62"/>biliores alijs: quia tunc anima Christi non esset nobilior 
+      <lb ed="#G" n="63"/>anima ludae 
+    </p>
+            <p xml:id="HuYgTa-146038-d1e381">
+               <lb ed="#G" n="64"/>
+               <pc type="indent"/>Secundus est, quod error est ponere, quod vnus homo 
+      <lb ed="#G" n="65"/>melius intelligit, quam alter, quia habet meliorem intel 
+      <lb ed="#G" n="66"/>lectum passiuum, id est meliorem imaginationem. 
+    </p>
+            <p xml:id="HuYgTa-146038-d1e392">
+               <lb ed="#G" n="67"/>
+               <pc type="indent"/>3 Preterea, ad idem potest argui sic. Sicut materia est 
+      <lb ed="#G" n="68"/>propter formam: sic diuersitas materiae est propter diuer 
+      <lb ed="#G" n="69"/>sitatem &amp; inaequalitatem formae. ista patet per Commen 
+      <lb ed="#G" n="70"/>tatorem, qui primo de anima ait, quod membra cerui &amp;  
+      <lb ed="#G" n="71"/>leonis differunt, quia animae eorum differunt: sed multa 
+      <lb ed="#G" n="72"/>est diuersitas, &amp; inaequalitas in materia corporum
+      huma<lb ed="#G" n="73" break="no"/>norum; ergo &amp;c.
+    </p>
+            <p xml:id="HuYgTa-146038-d1e413">
+               <lb ed="#G" n="74"/>4 Praeterea, si nulla esset inaequalitas in animabus hu 
+      <lb ed="#G" n="75"/>manis secundum suas essentias, &amp; proprietates
+      immedia<lb ed="#G" n="76" break="no"/>te in talibus essentijs fundatas, tunc animae separatae a cor 
+      <lb ed="#G" n="77"/>poribus nullam haberent ab inuicem differentiam
+      falsi<lb ed="#G" n="78" break="no"/>tas istius consequentis cuilibet fideli est nota;
+      consequen<lb ed="#G" n="79" break="no"/>tia etiam patet: quia cum tales animae non differant per 
+      <lb ed="#G" n="80"/>aliquod intrinsece sibi adiunctum: igitur si non differunt 
+      <lb ed="#G" n="81"/>ab intrinseco, tunc videtur, quod nullo modo differant. 
+    </p>
+            <p xml:id="HuYgTa-146038-d1e433">
+               <lb ed="#G" n="82"/>
+               <pc type="indent"/>Ad primum &amp;secundum dicendum, quod illi articuli non 
+      <lb ed="#G" n="83"/>plus intendunt, nisi, quod per coniunctionem ad corpus 
+      <lb ed="#G" n="84"/>vna anima potest sortiri aliquam dignitatem, quae non con 
+      <lb ed="#G" n="85"/>petit alteri animae, quae alteri coniungitur corpori: quod 
+      <lb ed="#G" n="86"/>quidam negabant dicentes, quod talis diuersitas
+      nobili<lb ed="#G" n="87" break="no"/>tatis solum est ex parte corporis, ita quod animae ex sua 
+      <lb ed="#G" n="88"/>coniunctione ad corpora nihil diuersitatis in nobilitate 
+      <lb ed="#G" n="89"/>consequantur: cuius opinionis oppositum apparebit in se 
+      <lb ed="#G" n="90"/>cunda conclusione, 
+    </p>
+            <p xml:id="HuYgTa-146038-d1e457">
+               <lb ed="#G" n="91"/>
+               <pc type="indent"/>Ad tertium dicendum, quod quando formae differunt 
+      <lb ed="#G" n="92"/>specie, tunc diuersitas materiae est propter diuersitaten 
+      <lb ed="#G" n="93"/>formae: sed quando formae sunt eiusdem speciei, tunc econ 
+      <lb ed="#G" n="94"/>uerso formae differunt eo, quod materiae aliquo modo dif 
+      <lb ed="#G" n="95"/>ferunt, &amp; multiplicantur. Ideo 12 meta. dicitur, quod 
+      <lb ed="#G" n="96"/>quae sunt vnum specle, &amp; multa numero, multam habent 
+      <lb ed="#G" n="97"/>materiam, distinctio igitur formarum solo numero
+      diffe<lb ed="#G" n="98" break="no"/>rentium non preintelligitur distinctioni materiae, sed eco 
+      <lb ed="#G" n="99"/>uerso consequitur distinctionem materiae. 
+    </p>
+            <p xml:id="HuYgTa-146038-d1e481">
+               <lb ed="#G" n="100"/>
+               <pc type="indent"/>Ad quartum nego consequentiam. Ad probationem
+      di<lb ed="#G" n="101" break="no"/>co, quod animae separatae differunt per suum esse
+      indiui<lb ed="#G" n="102" break="no"/>duale, quod acquifierunt per coniuctionem, qua suis prom 
+      <lb ed="#G" n="103"/>priis corporibus iungebantur. 
+    </p>
+            <p xml:id="HuYgTa-146038-d1e494">
+               <lb ed="#G" n="104"/>
+               <pc type="indent"/>Secunda conclusio, quod animae humanae possunt esse 
+      <lb ed="#G" n="105"/>inaequales quantum ad suum esse, &amp; quantum ad suas pro 
+      <lb ed="#G" n="106"/>prietates fundatas subiectiue in organo corporali; nam  
+      <lb ed="#G" n="107"/>sicut forma illi, cuius est forma, comunicat alique modum; 
+      <lb ed="#G" n="108"/>sic ab eo, cuius e forma, sortitur alique modum. Et ideo co 
+      <lb ed="#G" n="109"/>teris paribus aia coniuncta nobiliori corpori, semper
+      ha<lb ed="#G" n="110" break="no"/>bet nobiliorem modum essendi, saltem quo ad esse
+      indi<lb ed="#G" n="111" break="no"/>uiduale, quod anima consequitur eo, quod infunditur con 
+      <lb ed="#G" n="112"/>pori. Patet etiam ista conclusio de iam dictis proprietati 
+      <lb ed="#G" n="113"/>bus: quia planum est, quod vnus homo melius audit, quam 
+      <lb ed="#G" n="114"/>alter, &amp; acutius videt secundum quod tales virtutes
+      co<lb ed="#G" n="115" break="no"/>niunctae sunt melioribus &amp; aptioribus organis. Propter 
+      <lb ed="#G" n="116"/>quod <ref xml:id="HuYgTa-146038-Rd1e526">philosophus. 1. de anima</ref> ait, Si senex haberet ocu, 
+      <lb ed="#G" n="117"/>lum vt iuuenis, videret vtique, sicut iuuenis 
+    </p>
+            <p xml:id="HuYgTa-146038-d1e532">
+               <lb ed="#G" n="118"/>
+               <pc type="indent"/>1 Sed contra istud forte dicetur, quod cum intellectui 
+      <lb ed="#G" n="119"/>nullius partis corporis sit actus, vt dicitur. <ref xml:id="HuYgTa-146038-Rd1e540">2. de anima</ref> 
+               <lb ed="#G" n="120"/>ideo non potest dici melior, vel peior per coniunctionem 
+      <lb ed="#G" n="121"/>ad corpus; &amp; per consequens, cum vnus homo, vt asseri 
+      <lb ed="#G" n="122"/>articulus, habeat meliorem intellectum, quam alter;
+      opor<lb ed="#G" n="123" break="no"/>tet, quod talis inaequalitas conueniat animae intellecti, 
+      <lb ed="#G" n="124"/>uae secundum se, &amp; non quantum ad esse, quod sortitur 
+      <lb ed="#G" n="125"/>in corpore. 
+    </p>
+            <p xml:id="HuYgTa-146038-d1e558">
+               <lb ed="#G" n="126"/>
+               <pc type="indent"/>2 Praeterea, nos quandoque videmus aliquos, qui sunt 
+      <lb ed="#G" n="127"/>peioris complexionis, &amp; deteriora habent corpora, esse 
+      <lb ed="#G" n="128"/>magis virtuosos; &amp; econtra illos, qui sunt melioris
+      com<lb ed="#G" n="129" break="no"/>plexionis, &amp; perfectiora ac nobiliora habent corpora,
+      es<lb ed="#G" n="130" break="no"/>se peruerios, &amp; vitiosos: quod esse non posset, si in anima 
+      <lb ed="#G" n="131"/>bus esset inaequalitas dignitatis per comparationem ad 
+      <lb ed="#G" n="132"/>ipsa corpora. 
+    </p>
+            <p xml:id="HuYgTa-146038-d1e578">
+               <lb ed="#G" n="133"/>
+               <pc type="indent"/>Ad primum dicendum, quod vnus homo potest
+      habe<lb ed="#G" n="134" break="no"/>re meliorem intellectum, quam alter tribus modis. vno¬ 
+      <!--422.xml-->
+      <pb ed="#G" n="192-r"/>
+               <cb ed="#G" n="a"/>
+               <lb ed="#G" n="1"/>modo, supernaturaliter ex gratuito Dei dono, secundum 
+      <lb ed="#G" n="2"/>quod spiritus sanctus impleuit Telonarium, &amp; primum 
+      <lb ed="#G" n="3"/>Euangelistam fecit, &amp; impleuit Piscatorem, &amp; principem 
+      <lb ed="#G" n="4"/>Apostolorum fecit. Alio modo naturaliter, puta
+      secun<lb ed="#G" n="5" break="no"/>dum quod ex bonitate complexionis vnus habet magis 
+      <lb ed="#G" n="6"/>ordinatam phantasiam, quam alter, &amp; per consequens 
+      <lb ed="#G" n="7"/>meliori ordine species intelligibiles in virtute luminis in 
+      <lb ed="#G" n="8"/>tellectus agentis recipiuntur in ipso intellectu possibili 
+      <lb ed="#G" n="9"/>Tertio modo, ex frequentiori studio &amp; meliori
+      exerci<lb ed="#G" n="10" break="no"/>tio. Et tamen nullo istorum modorum necesse est
+      ip<lb ed="#G" n="11" break="no"/>sum intellectum secundum se, vel animam intellectiuam 
+      <lb ed="#G" n="12"/>secundum suam essentiam in vno homine esse meliorem, 
+      <lb ed="#G" n="13"/>quam in altero.
+    </p>
+            <p xml:id="HuYgTa-146038-d1e622">
+               <lb ed="#G" n="14"/>Et per hoc patet ad secundum: nam propter malum exer 
+      <lb ed="#G" n="15"/>citium, seu studium, vel consuetudinem ille, qui est bonae 
+      <lb ed="#G" n="16"/>complexionis, potest effici grossus, &amp; vitiosus, &amp;
+      econuer<lb ed="#G" n="17" break="no"/>so, qui est malae complexionis potest effici subtilis, &amp;
+      vir<lb ed="#G" n="18" break="no"/>tuosus: quia consuetudo est altera natura, vt
+      Commenta<lb ed="#G" n="19" break="no"/>tor primo physitorum ait, &amp; philosophus in libro de
+      me<lb ed="#G" n="20" break="no"/>moria &amp; reminiscentia. Ex frequentatis etiam actibus
+      ge<lb ed="#G" n="21" break="no"/>neratur habitus, vt patet. <ref xml:id="HuYgTa-146038-Rd1e641">2. ethicor.</ref> Propter quod legitur 
+      <lb ed="#G" n="22"/>de Socrate, quod grossus fuit natura, subtilis tamen ex 
+      <lb ed="#G" n="23"/>studio. 
+    </p>
+            <p xml:id="HuYgTa-146038-d1e649">
+               <lb ed="#G" n="24"/>
+               <pc type="indent"/>ARTICVLV S II 
+      <lb ed="#G" n="25"/>Vtrum morienti in solo peccato origimali debeatur 
+      <lb ed="#G" n="26"/>
+               <pc type="indent"/>pena eterna.
+    </p>
+            <p xml:id="HuYgTa-146038-d1e662">
+               <lb ed="#G" n="27"/>TVANTVM ad tertium articulum pono tres
+      con<lb ed="#G" n="28" break="no"/> ciusiones.
+    </p>
+            <p xml:id="HuYgTa-146038-d1e669">
+               <lb ed="#G" n="29"/>Prima est, quod decedentibus in solo peccato
+      origina<lb ed="#G" n="30" break="no"/>li non debetur aliqua poena sensus
+    </p>
+            <p xml:id="HuYgTa-146038-d1e677">
+               <lb ed="#G" n="31"/>1 Quia illi peccato non debetur poena sensus, in quo 
+      <lb ed="#G" n="32"/>nulla est conuersio ad aliquod bonum commutabile. Ista 
+      <lb ed="#G" n="33"/>patet: quia sicut poena damni respondet auersioni ab
+      in<lb ed="#G" n="34" break="no"/>commutabili bono: sic poena sensus respondet conuersio 
+      <lb ed="#G" n="35"/>ni ad commutabile bonum, iuxta illud; Quantum
+      glori<lb ed="#G" n="36" break="no"/>ficauit se in delicijs: tantum date illi tormentum, &amp;
+      lu<lb ed="#G" n="37" break="no"/>ctum : sed in peccato originali non est aliqua conuersio ad 
+      <lb ed="#G" n="38"/>commutabile bonum, vt de se patet: ergo &amp;c.
+    </p>
+            <p xml:id="HuYgTa-146038-d1e697">
+               <lb ed="#G" n="39"/>2 Preterea, qui secundum nullum sensum peccauit se 
+      <lb ed="#G" n="40"/>cundum nullum sensum a iusto iudice punietur in
+      aeter<lb ed="#G" n="41" break="no"/>num: sed decedens in solo originali peccato secundum nul 
+      <lb ed="#G" n="42"/>lum sensum peccauit. Maior patet, quia licet iustus iudex 
+      <lb ed="#G" n="43"/>quandoque remuneret vltra condignum: numquam tamen 
+      <lb ed="#G" n="44"/>punit vltra condignum.
+    </p>
+            <p xml:id="HuYgTa-146038-d1e713">
+               <lb ed="#G" n="45"/>3 Praeterea, nulla habitualis disposito vindicatur
+      poe<lb ed="#G" n="46" break="no"/>na sensus: non enim punitur aliquis propter hoc, quod est 
+      <lb ed="#G" n="47"/>habilis ad furandum: sed punitur ex hoc quod furatur: sed 
+      <lb ed="#G" n="48"/>peccatum originale sumptum cum exclusione omnis
+      a<lb ed="#G" n="49" break="no"/>ctualis peccati solum dicit concupiscentiam habitualem, 
+      <lb ed="#G" n="50"/>ergo &amp;c
+    </p>
+            <p xml:id="HuYgTa-146038-d1e729">
+               <lb ed="#G" n="51"/>4 Praeterea, beatus bernardus dicit, quod sola propria 
+      <lb ed="#G" n="52"/>voluntas ardet in inferno, sed peccatum originale accidit 
+      <lb ed="#G" n="53"/>sine propria voluntate. 
+      <lb ed="#G" n="54"/>3 Item, Innocentius tertius in quadam sua decretali 
+      <lb ed="#G" n="55"/>dicit, quod pena sensus debetur peccato actuali: sed
+      pecc<lb ed="#G" n="56" break="no"/>tum originale non est actuale: ergo &amp;c 
+    </p>
+            <p xml:id="HuYgTa-146038-d1e745">
+               <lb ed="#G" n="57"/>
+               <pc type="indent"/>Sed contra istud potest instari
+      sic<lb ed="#G" n="58" break="no"/>
+               <pc type="indent"/>Caro est causa originalis peccati: ergo poena sensus 
+      <lb ed="#G" n="59"/>debetur originali peccato Antecedens patet, nam cum
+      so<lb ed="#G" n="60" break="no"/>lam carnem accipiamus ab Adam, sola caro videtur esse 
+      <lb ed="#G" n="61"/>causa originalis peccati. consequentia etiam patet, quia
+      pe<lb ed="#G" n="62" break="no"/>na debetur illi, quod est causa peccati, sed caro non est ca 
+      <lb ed="#G" n="63"/>pax poenae nisi secundum sensum, ergo &amp;c.
+    </p>
+            <p xml:id="HuYgTa-146038-d1e767">
+               <lb ed="#G" n="64"/>2 Praeterea, peccatum veniale punitur pena sensus:
+      er<lb ed="#G" n="65" break="no"/>go &amp; originale. Antecedens patet ex fide, consequentiam 
+      <lb ed="#G" n="66"/>probo, quia maiori peccato non debetur minor pena, sed  
+      <lb ed="#G" n="67"/>originale est maius, quam veniale, quia veniale potest
+      si<lb ed="#G" n="68" break="no"/>mul stare cum gratia: originale autem non
+    </p>
+            <p xml:id="HuYgTa-146038-d1e781">
+      <!--422.xml-->
+               <cb ed="#G" n="b"/>
+               <lb ed="#G" n="69"/>3 Praeterea, originale peccatum in hac vita punitur pe 
+      <lb ed="#G" n="70"/>na sensibili: ergo &amp; post mortem. Antecedens patet ex prae 
+      <lb ed="#G" n="71"/>redentibus, consequentia etiam videtur tenere ex hoc, 
+      <lb ed="#G" n="72"/>quia non minus, sed grauius puniuntur peccata post hanc 
+      <lb ed="#G" n="73"/>vitam, quam in hac vita.
+    </p>
+            <p xml:id="HuYgTa-146038-d1e799">
+               <lb ed="#G" n="74"/>4 Preterea, istud videntur sonare verba Augustini in 
+      <lb ed="#G" n="75"/>libro de fi. ad Petrum, vbi sic ait, Firmissime tene &amp; nulla 
+      <lb ed="#G" n="76"/>tenus dubites non solum homines iam ratione vtentes, 
+      <lb ed="#G" n="77"/>verum etiam paruulos, qui siue in vteris matrum viuere. 
+      <lb ed="#G" n="78"/>inceperunt, &amp; ibi moriuntur; siue de matribus nati sine 
+      <lb ed="#G" n="79"/>sactamento baptismatis, quod datur in nomine patris &amp;  
+      <lb ed="#G" n="80"/>filij &amp; spiritus sancti, de hoc saeculo transeunt, ignis
+      aeter<lb ed="#G" n="81" break="no"/>ni sempiterno supplicio puniendos, quia si peccatum
+      pro<lb ed="#G" n="82" break="no"/>priae actionis nullum habuerunt, originalis tamen
+      pec<lb ed="#G" n="83" break="no"/>cati damnationem carnali conceptione, &amp; natiuitate 
+      <lb ed="#G" n="84"/>traxerunt. 
+    </p>
+            <p xml:id="HuYgTa-146038-d1e825">
+               <lb ed="#G" n="85"/>
+               <pc type="indent"/>Ad, primum dicendum, quod antecedens non est simpli 
+      <lb ed="#G" n="86"/>citer verum, quia in nullo genere causae proprie
+      loquen<lb ed="#G" n="87" break="no"/>do caro potest dici causa, originalis peccati, nam licet a
+      pro<lb ed="#G" n="88" break="no"/>toplasto huiusmodi defectus descendat in nos per
+      carna<lb ed="#G" n="89" break="no"/>lem concu piscentiam, tamen in ipso genito non habet
+      ra<lb ed="#G" n="90" break="no"/>tionem peccati donec pertingat ad amimam. 
+    </p>
+            <p xml:id="HuYgTa-146038-d1e843">
+               <lb ed="#G" n="91"/>
+               <pc type="indent"/>Ad secundum nego consequentiam. Ad probationem 
+      <lb ed="#G" n="92"/>dico, quod peccatum originale &amp; peccatum veniale sunt alte 
+      <lb ed="#G" n="93"/>rius &amp; alterius rationis, ideo etiam eorum poenae differunt 
+      <lb ed="#G" n="94"/>ratione. Nec proprie possunt esse ad inuicem
+      comparabi<lb ed="#G" n="95" break="no"/>les penes maius, &amp; minus. Vnde quia in peccato veniali 
+      <lb ed="#G" n="96"/>ita est conuersio ad aliquod bonum commutabile, quod
+      ta<lb ed="#G" n="97" break="no"/>men non est auersio a bono incommutabili, ideo ita
+      puni<lb ed="#G" n="98" break="no"/>tur pena sensus, quod non punitur poena perpetua damni, sic 
+      <lb ed="#G" n="99"/>econuerso de originali &amp;c
+    </p>
+            <p xml:id="HuYgTa-146038-d1e867">
+               <lb ed="#G" n="100"/>Ad tertium dicendum, quod poenae sensibiles in hac v 
+      <lb ed="#G" n="101"/>ta per accidens sequuntur ad culpam originalem, ut
+      pa<lb ed="#G" n="102" break="no"/>tuit superius. 
+    </p>
+            <p xml:id="HuYgTa-146038-d1e876">
+               <lb ed="#G" n="103"/>
+               <pc type="indent"/>Ad quartum dicendum, quod secudum doctores, puta
+      AE<lb ed="#G" n="104" break="no"/>i. &amp; Tho. Aug. per talia verba intendit exprimere poenam 
+      <lb ed="#G" n="105"/>damni, quia modus fuit antiquitus sanctorum, quod om- 
+      <lb ed="#G" n="106"/>nem poenam aeternam appellabant poenam ignis. 
+    </p>
+            <p xml:id="HuYgTa-146038-d1e890">
+               <lb ed="#G" n="107"/>
+               <pc type="indent"/>Secunda conclusio est, quod decedentes in solo
+      origi<lb ed="#G" n="108" break="no"/>li peccato puniuntur perpetua priuatione visionis
+      diui<lb ed="#G" n="109" break="no"/>nae essentiae.
+    </p>
+            <p xml:id="HuYgTa-146038-d1e901">
+               <lb ed="#G" n="110"/>1 Nam talis visio, cum sit omnino supernaturalis, non  
+      <lb ed="#G" n="111"/>potest ab aliquo adipisci nisi mediante gratia Dei; ergo 
+      <lb ed="#G" n="112"/>nec per consequens potest habere gloriam, seu beatam  
+      <lb ed="#G" n="113"/>visionem.
+    </p>
+            <p xml:id="HuYgTa-146038-d1e912">
+               <lb ed="#G" n="114"/>2 Praeterea, ista est intentio beati Augustini, &amp;
+      cete<lb ed="#G" n="115" break="no"/>rorum sanctorum doctorum. 
+    </p>
+            <p xml:id="HuYgTa-146038-d1e919">
+               <lb ed="#G" n="116"/>3 Innocentius etiam, vt supra expresse dicit, quod 
+      <lb ed="#G" n="117"/>originali peccato debetur pro poena carentia visionis 
+      <lb ed="#G" n="118"/>diumae. 
+    </p>
+            <p xml:id="HuYgTa-146038-d1e928">
+               <lb ed="#G" n="119"/>
+               <pc type="indent"/>Sed contra istud ab aliquibus antiquis satis apparenter 
+      <lb ed="#G" n="120"/>arguitur sic.
+    </p>
+            <p xml:id="HuYgTa-146038-d1e937">
+               <lb ed="#G" n="121"/>1 Si aliquis homo priuaretur Dei visione, ille esset fru 
+      <lb ed="#G" n="122"/>stra productus a Deo, consequens est falsum, quia, vt patet 
+      <lb ed="#G" n="123"/>
+               <ref xml:id="HuYgTa-146038-Rd1e945">1. de coelo, &amp; mundo</ref> Deus, &amp; natura nihil faciunt frustra, 
+      <lb ed="#G" n="124"/>consequentia probatur, quia illud est frustra, quod non
+      po<lb ed="#G" n="125" break="no"/>test consequi finem suum, vt patet secundo physicorum, 
+      <lb ed="#G" n="126"/>sed videre Deum est finis totius humanae naturae.
+    </p>
+            <p xml:id="HuYgTa-146038-d1e957">
+               <lb ed="#G" n="127"/>2 Praeterea, grauissima poena non debetur peccato ori 
+      <lb ed="#G" n="128"/>inali, sed priuatio diuinae uisionis est poena grauissima, 
+      <lb ed="#G" n="129"/>Maior patet per Augustinum, qui, vt allegat Magister hi 
+      <lb ed="#G" n="130"/>in littera dicit, quod mitissima est pena eorum, qui pro so 
+      <lb ed="#G" n="131"/>lo peccato originali puniuntur, sed minor, probatur aucto 
+      <lb ed="#G" n="132"/>itate &amp; ratione. Auctoritate quidem, quia dicit Chryso 
+      <lb ed="#G" n="133"/>super Matth. quo carentia uisionis diuine est maxima poena 
+      <lb ed="#G" n="134"/>rum, &amp; intolerabilior, quam gcenna. Patet etiam
+      ratio<lb ed="#G" n="135" break="no"/>ne. Nam cum poena sit semper quaedam priuatio alicuius 
+      <lb ed="#G" n="136"/>boni conuenientis ei, cui pena inffigitur igitur illa est ma 
+      <lb ed="#G" n="137"/>ior poena, quae maius bonum tollit, sed priuatio uisionis 
+      <lb ed="#G" n="138"/>diuinae tollit summum bonum hominis, ergo videtur; quod 
+      <lb ed="#G" n="139"/>sit summa poena hominis 
+    </p>
+            <p xml:id="HuYgTa-146038-d1e988">
+               <lb ed="#G" n="140"/>
+               <pc type="indent"/>3 Preterea, ille, qui est dignus misericordia, non
+      de<lb ed="#G" n="141" break="no"/>pet puniri pena perpetua, decedens in originali peccato 
+      <!--423.xml-->
+      <pb ed="#G" n="192-v"/>
+               <cb ed="#G" n="a"/>
+               <lb ed="#G" n="1"/>est dignus ntisericordia, quia dicitur in legibus, dignus est 
+      <lb ed="#G" n="2"/>misericordia, qui alieno vitio laborauit.  
+    </p>
+            <p xml:id="HuYgTa-146038-d1e1008">
+               <lb ed="#G" n="3"/>
+               <pc type="indent"/>4 Praeterea, priuatio non plus priuat, quam ponat
+      ha<lb ed="#G" n="4" break="no"/>bitus oppositus priuationi: sed iustitia originalis, tuius 
+      <lb ed="#G" n="5"/>priuatio est pecatum originale, non posuit visionem diui 
+      <lb ed="#G" n="6"/>nae essentiae: ergo nec originale peccatum tollit huiusmo 
+      <lb ed="#G" n="7"/>di visionem. 
+    </p>
+            <p xml:id="HuYgTa-146038-d1e1024">
+               <lb ed="#G" n="8"/>
+               <pc type="indent"/>3 Praeterea, <ref xml:id="HuYgTa-146038-Rd1e1030">Augustinus in libro de duabus animabus</ref> 
+               <lb ed="#G" n="9"/>ait, Tenere quemquam reum, quia non fecit, quod faceri 
+      <lb ed="#G" n="10"/>non potuit, summae iniustitiae, &amp; insaniae est : sed Deus non 
+      <lb ed="#G" n="11"/>est iniustus, ergo in solo peccato originali decedentem 
+      <lb ed="#G" n="12"/>non tenebit reum, &amp; per consequens non priuabit eum 
+      <lb ed="#G" n="13"/>tali bono, quod sine originali peccato sibi comunicaret 
+    </p>
+            <p xml:id="HuYgTa-146038-d1e1045">
+               <lb ed="#G" n="14"/>
+               <pc type="indent"/>Ad primum dicendum, quod licet Deus nihil faciai 
+      <lb ed="#G" n="15"/>frustra, quia quantum in se est omnia dirigit in suos fines 
+      <lb ed="#G" n="16"/>homo tamen, qui est liberi arbitrij, mala sua voluntate 
+      <lb ed="#G" n="17"/>seipsum suo file frustrare potest. Ideo a Sapien. dicitur, ua 
+      <lb ed="#G" n="18"/>ni sunt omnes homines, in quibus non est scientia Dei¬ 
+    </p>
+            <p xml:id="HuYgTa-146038-d1e1061">
+               <lb ed="#G" n="19"/>
+               <pc type="indent"/>Potest etiam dici, quod quantum ad diuinum ordinem 
+      <lb ed="#G" n="20"/>etiam illi, qui sunt in inferno, non sunt frustra: quia in
+      ip<lb ed="#G" n="21" break="no"/>sis relucet diuina iustitia. Etiam illi, qui decedunt in
+      ori<lb ed="#G" n="22" break="no"/>ginali peccato solo, non sunt frustra, quia quamuis non  
+      <lb ed="#G" n="23"/>consequantur finem supernaturalem, consequuntur ta 
+      <lb ed="#G" n="24"/>men finem naturalem. Possunt enim habere euidentiorem 
+      <lb ed="#G" n="25"/>contemplationem, quod quicumque philosophus vmquam
+      h<lb ed="#G" n="26" break="no"/>bere potuit in hac vita, quae quidem contemplatio est na 
+      <lb ed="#G" n="27"/>turalis finis hominis virtuosi, vt patet. <ref xml:id="HuYgTa-146038-Rd1e1084">10 ethicorum</ref> 
+            </p>
+            <p xml:id="HuYgTa-146038-d1e1089">
+               <lb ed="#G" n="28"/>
+               <pc type="indent"/>Ad secundum dicendum, quod qui in solo originali de 
+      <lb ed="#G" n="29"/>cedunt mitissimam sustinent poenam, quia quamuis
+      ca<lb ed="#G" n="30" break="no"/>reant Dei visione, ex hoc tamen nullum percipiunt
+      cru<lb ed="#G" n="31" break="no"/>ciatum, vt patebit in sequenti conclusione. 
+    </p>
+            <p xml:id="HuYgTa-146038-d1e1102">
+               <lb ed="#G" n="32"/>
+               <pc type="indent"/>Ad tertium dicendum, quod decedens in originali; in 
+      <lb ed="#G" n="33"/>hoc percipit Dei misericordiam, quod nullus adhibetu 
+      <lb ed="#G" n="34"/>sibi eruciatus: non tamen est dignus tali misericordia, vt 
+      <lb ed="#G" n="35"/>vlterius promoueatur ad diuinae visionis consolationem 
+      <lb ed="#G" n="36"/>quia nihil reperitur in tali homine, ratione cuius ad hu 
+      <lb ed="#G" n="37"/>iusmodi visionem digne debeat promoueri. 
+    </p>
+            <p xml:id="HuYgTa-146038-d1e1120">
+               <lb ed="#G" n="38"/>
+               <pc type="indent"/>Ad quartum nego maiorem, quia licet formaliter non 
+      <lb ed="#G" n="39"/>plus priuatio priuet, quam habitus ponat, tamen per mo 
+      <lb ed="#G" n="40"/>dum sequelae multa priuat, quae formaliter non ponit
+      h<lb ed="#G" n="41" break="no"/>bitus. Priuatus enim oculis perpetuo priuatur sacerdo 
+      <lb ed="#G" n="42"/>tio, quamuis posito oculorum praecise non ponat sacet 
+      <lb ed="#G" n="43"/>dotium, sic &amp;c 
+    </p>
+            <p xml:id="HuYgTa-146038-d1e1138">
+               <lb ed="#G" n="44"/>
+               <pc type="indent"/>Ad quintum dicendum, quod licet talis non debea 
+      <lb ed="#G" n="45"/>teneri reus quo ad poenam crucitatiuam &amp; afffictiuam, in 
+      <lb ed="#G" n="46"/>ste tamen potest teneri reus quo ad poenam, quae est vlte 
+      <lb ed="#G" n="47"/>rioris promotionis prohibitiua. Cecus enim natus iuste 
+      <lb ed="#G" n="48"/>priuatur gradum sacerdotalis dignitatis, quamuis suam
+      cae<lb ed="#G" n="49" break="no"/>citatem praeuenire non potuit, sic &amp;c 
+    </p>
+            <p xml:id="HuYgTa-146038-d1e1156">
+               <lb ed="#G" n="50"/>
+               <pc type="indent"/>Tertia conclusio est, quod decedentes in solo peccato 
+      <lb ed="#G" n="51"/>originali ex praedicta catentia diuinae visionis nullum
+      su<lb ed="#G" n="52" break="no"/>stinent crucitatum. 
+    </p>
+            <p xml:id="HuYgTa-146038-d1e1167">
+               <lb ed="#G" n="53"/>
+               <pc type="indent"/>1 Quia nullus prudens crucitatur ex eo, quod sibi non 
+      <lb ed="#G" n="54"/>datur illud, ad quod nullam habet, nec habere potest
+      h<lb ed="#G" n="55" break="no"/>bilitatem; esset enim insipiens homo, qui doleret ex
+      ho<lb ed="#G" n="56" break="no"/>quod non potest volare, vt volat auis: sed animae tales si 
+      <lb ed="#G" n="57"/>paratae habent perfectam prudentiam, &amp; vident, quod nec 
+      <lb ed="#G" n="58"/>sunt habiles ad huiusmodi finem supernaturalem, ne 
+      <lb ed="#G" n="59"/>vnquam ex suis naturalibus habilitari possunt: quia vident 
+      <lb ed="#G" n="60"/>se esse non in via, sed in termino: ergo &amp;c 
+    </p>
+            <p xml:id="HuYgTa-146038-d1e1190">
+               <lb ed="#G" n="61"/>
+               <pc type="indent"/>Preterea, cruciatus, &amp; afflictio tantummodo
+      debe<lb ed="#G" n="62" break="no"/>tur delectationi, quae fuit in culpa, vt apparet in
+      Apoc<lb ed="#G" n="63" break="no"/>ed in originali peccato nulla est delectatio, ergo &amp;c 
+    </p>
+            <p xml:id="HuYgTa-146038-d1e1201">
+               <lb ed="#G" n="64"/>
+               <pc type="indent"/>Sed oppositum istius conclusionis asserit quaedam opi 
+      <lb ed="#G" n="65"/>nio dicens, quod pueri decedentes in solo peccato orig 
+      <lb ed="#G" n="66"/>nali sentiunt afflictionem interiorem ex carentia diuina 
+      <lb ed="#G" n="67"/>visionis: Motiua ipsius opinionis non inueni Potest tamen 
+      <lb ed="#G" n="68"/>sic probari 
+    </p>
+            <p xml:id="HuYgTa-146038-d1e1217">
+               <lb ed="#G" n="69"/>
+               <pc type="indent"/>1 Omne contrarium voluntati contristat volunta 
+      <lb ed="#G" n="70"/>em, vt apparet. <ref xml:id="HuYgTa-146038-Rd1e1225">5. metaphysi</ref>, sed omnis poena est contra 
+      <lb ed="#G" n="71"/>ria voluntati: ergo poena damni, quae est carentia visio 
+      <lb ed="#G" n="72"/>nis diuine contristat voluntatem, &amp; per consequens affli 
+      <lb ed="#G" n="73"/>git eam.
+    </p>
+            <p xml:id="HuYgTa-146038-d1e1236">
+      <!--423.xml-->
+               <cb ed="#G" n="b"/>
+               <lb ed="#G" n="74"/>2 Praeterea, in perpetuum separari ab eo, quem qui 
+      <lb ed="#G" n="75"/>naturaliter amat, non caret afflictione; sed anima
+      dece<lb ed="#G" n="76" break="no"/>dens in solo originali peccato, naturaliter amat Deum; 
+      <lb ed="#G" n="77"/>igitur perpetua separatio ab eius visione est sibi, it
+      vide<lb ed="#G" n="78" break="no"/>tur, afflictio &amp; cruciatus. 
+    </p>
+            <p xml:id="HuYgTa-146038-d1e1254">
+               <lb ed="#G" n="79"/>
+               <pc type="indent"/>3 Praeterea, se cundum sanctos doctores &amp;
+      philoso<lb ed="#G" n="80" break="no"/>phos carentia illius, quod naturaliter appetitur,
+      nonca<lb ed="#G" n="81" break="no"/>ret omnino aflictione: sed secundum Augustinum,
+      om<lb ed="#G" n="82" break="no"/>nes homines naturaliter volunt esse beati; igitur &amp;c
+    </p>
+            <p xml:id="HuYgTa-146038-d1e1267">
+               <lb ed="#G" n="83"/>4 Preterea, secundum sanctos doctores damnati in 
+      <lb ed="#G" n="84"/>inferno plus cruciantur de poena damni, quam de pona 
+      <lb ed="#G" n="85"/>sensus: sed omnis decedens in originali sustinet poenam 
+      <lb ed="#G" n="86"/>damni 
+    </p>
+            <p xml:id="HuYgTa-146038-d1e1279">
+               <lb ed="#G" n="87"/>
+               <pc type="indent"/>3 Praeterea, si dicitur, quod pro tanto damnati dolent 
+      <lb ed="#G" n="88"/>de carentia diuinae visionis, &amp; non illi qui decedunt inso 
+      <lb ed="#G" n="89"/>lo originali peccato, quia cognoscunt se ex suo proprio 
+      <lb ed="#G" n="90"/>delicto poenam damni sustinere, cuius oppositum cogno 
+      <lb ed="#G" n="91"/>scunt ipsi paruuli decedentes in solo originali, Ista solus 
+      <lb ed="#G" n="92"/>tio non valet, quia quandoque videmus, quod magis, ue 
+      <lb ed="#G" n="93"/>saltem non minus cruciatur homo, cum priuatur aliquo 
+      <lb ed="#G" n="94"/>bono sibi proficuo absque sua culpa, quam si priuaretumr 
+      <lb ed="#G" n="95"/>exigente suo delicto.  
+    </p>
+            <p xml:id="HuYgTa-146038-d1e1303">
+               <lb ed="#G" n="96"/>
+               <pc type="indent"/>Ad primum dicendum, quod quamuis minor sit vera, 
+      <lb ed="#G" n="97"/>loquendo de poena, quae est appositua alicuius disconui 
+      <lb ed="#G" n="98"/>mentis, vel etiam de poena, quae est subtractiua alicum 
+      <lb ed="#G" n="99"/>naturaliter conuenientis; tamen non est vera de poena 
+      <lb ed="#G" n="100"/>quae est sub tractiua alicuius supernaturaliter conuemo 
+      <lb ed="#G" n="101"/>tis, maxime cum ille, cui subtrahitur, non habet diffori 
+      <lb ed="#G" n="102"/>mem voluntatem ab eo, qui subtrahit: sic est in propi 
+      <lb ed="#G" n="103"/>sito &amp;c. 
+    </p>
+            <p xml:id="HuYgTa-146038-d1e1325">
+               <lb ed="#G" n="104"/>
+               <pc type="indent"/>Ad secundum dicedum, quod licet sint separati a Dous 
+      <lb ed="#G" n="105"/>quantum ad contemplationem gloriae, quae est finis sups 
+      <lb ed="#G" n="106"/>naturalis, non tamen quantum ad diuinorum contem 
+      <lb ed="#G" n="107"/>plationem naturalem: quia, vt dixi, liberiori modo po 
+      <lb ed="#G" n="108"/>sunt tales animae contemplari de Deo, quam quicumqui 
+      <lb ed="#G" n="109"/>philosophus in vita ista 
+    </p>
+            <p xml:id="HuYgTa-146038-d1e1343">
+               <lb ed="#G" n="110"/>
+               <pc type="indent"/>Ad tertium dicendum, quod istae animae sic deceden 
+      <lb ed="#G" n="111"/>tes, non appetunt beatitudinem gloriae secundum pro 
+      <lb ed="#G" n="112"/>priam rationem, quia, vt sic, non cognoscunt eam, qom 
+      <lb ed="#G" n="113"/>nec habeant luinen gloriae, nec lumen fidei, in quibusl 
+      <lb ed="#G" n="114"/>minibus tantummodo talis beatitudo cognosei potestim 
+      <lb ed="#G" n="115"/>cundum propriam rationem. Appetunt ergo beatitudi 
+      <lb ed="#G" n="116"/>nem solum secundum rationem communem, ad cuius an 
+      <lb ed="#G" n="117"/>petitus satisfactionem, vt transeat sine omni affictiono 
+      <lb ed="#G" n="118"/>sufficit illa perfectio, quam consequitur ex naturali
+      con<lb ed="#G" n="119" break="no"/>templatione 
+    </p>
+            <p xml:id="HuYgTa-146038-d1e1369">
+               <lb ed="#G" n="120"/>
+               <pc type="indent"/>Ad quartum dicendum, quod illi, scilicet damnati, ma 
+      <lb ed="#G" n="121"/>time dolent de tali priuatione, quia eorum voluntas ess 
+      <lb ed="#G" n="122"/>maxime difformis a Dei voluntate actiue infligentis pro 
+      <lb ed="#G" n="123"/>dictam poenam, seu priuationem. Paruulorum autem vm 
+      <lb ed="#G" n="124"/>luntas non est difformis a diuina voluntate, quia sicut in 
+      <lb ed="#G" n="125"/>uita ista numquam habuerunt difformem voluntatemd 
+      <lb ed="#G" n="126"/>voluntate diuina: sic nec in alia vita vmquam eis displicei 
+      <lb ed="#G" n="127"/>bit illud, quod Deus faciet, &amp; per consequens ex nulloed 
+      <lb ed="#G" n="128"/>fectu Dei possunt habere dolorem, quia omnis dolor pre 
+      <lb ed="#G" n="129"/>supponit displicentiam. 
+    </p>
+            <p xml:id="HuYgTa-146038-d1e1395">
+               <lb ed="#G" n="130"/>
+               <pc type="indent"/>Ad quintum dicendum, quod si aliquis dolet de eod 
+      <lb ed="#G" n="131"/>quo priuatur sine sua culpa personali, hoc accidit propteri 
+      <lb ed="#G" n="132"/>duo. Primo: quia illud, quod aufertur, est aliquo modo 
+      <lb ed="#G" n="133"/>sibi debitum, Secundo: quia sua voluntas est dissona a vo 
+      <lb ed="#G" n="134"/>luntate auferentis. Istorum autem duorum oppositum ap 
+      <lb ed="#G" n="135"/>paret in proposito, ergo &amp;c 
+    </p>
+            <p xml:id="HuYgTa-146038-d1e1414">
+               <lb ed="#G" n="136"/>
+               <pc type="indent"/>ARTICVLVS IFII. 
+      <lb ed="#G" n="137"/>Vtrum peccata proximorum
+      paren<lb ed="#G" n="138" break="no"/>
+               <pc type="indent"/>tum transeant in filios.
+    </p>
+            <p xml:id="HuYgTa-146038-d1e1427">
+               <lb ed="#G" n="139"/>QVANTVM ad quartum articulum dicedum, quod 
+      <lb ed="#G" n="140"/>peccata proximorum parentum transire in prola 
+      <lb ed="#G" n="141"/>potest dupliciter intelligi. Vno modo quantum ad
+      cul<lb ed="#G" n="142" break="no"/>pa. Alio modo, quantum ad poenam. Primo modo non 
+      <lb ed="#G" n="143"/>transeunt 
+      <!--424.xml-->
+      <pb ed="#G" n="193-r"/>
+               <cb ed="#G" n="a"/>
+               <lb ed="#G" n="1"/>1 quia proximus parens non potest suam iustitiam in 
+      <lb ed="#G" n="2"/>prolem transsundere: ergo nec suam culpam. Antecedens 
+      <lb ed="#G" n="3"/>patet Probatur consequentia per Anselm. qui dicit, quod 
+      <lb ed="#G" n="4"/>protanto primus parens potuit originalem culpam in ci 
+      <lb ed="#G" n="5"/>teros homines trasfundere, quia originalem iustitiam
+      tras<lb ed="#G" n="6" break="no"/>udisset, si ipsam non perdidisset
+    </p>
+            <p xml:id="HuYgTa-146038-d1e1460">
+               <lb ed="#G" n="7"/>2 Praeterea, generans genito communicat naturam, &amp; 
+      <lb ed="#G" n="8"/>non personam, ergo conmunicat ei defectus naturales, cu 
+      <lb ed="#G" n="9"/>iusmodi sunt peccatum originale; &amp; ea, quae secundum lo 
+      <lb ed="#G" n="10"/>gem communem huiusmodi peccatum consequuntur, &amp;  
+      <lb ed="#G" n="11"/>non communicat ei defectus personales, cuiusmodi sunt 
+      <lb ed="#G" n="12"/>peccata propria, seu actualia. Consequentia patet. Ante 
+      <lb ed="#G" n="13"/>cedens probatur: nam quoe non communicetur persona ge 
+      <lb ed="#G" n="14"/>nerantis, patet: quia persona est quid incommunicabile, 
+      <lb ed="#G" n="15"/>nprobatum est in primo libro. Quod autem communi 
+      <lb ed="#G" n="16"/>tetur natura generantis, patet: quia in omni generatione 
+      <lb ed="#G" n="17"/>imiuoca natura generantis communicatur ipsi genito. 
+    </p>
+            <p xml:id="HuYgTa-146038-d1e1486">
+               <lb ed="#G" n="18"/>
+               <pc type="indent"/>Forte dicetur, quod secundum philosophum in secundo de 
+      <lb ed="#G" n="19"/>generatione, in habentibus svmbolum facilior est
+      transi<lb ed="#G" n="20" break="no"/>tus, sed proles magis assimilatur proximo parenti, quan 
+      <lb ed="#G" n="21"/>primo parenti: ergo magis videtur, quod proximus parens 
+      <lb ed="#G" n="22"/>ossit peccatum suum transfundere in prolem, quam
+      pri<lb ed="#G" n="23" break="no"/>mus parens 
+    </p>
+            <p xml:id="HuYgTa-146038-d1e1504">
+               <lb ed="#G" n="24"/>
+               <pc type="indent"/>Respondeo, quod proprie loquendo, tunc svmbolum, 
+      <lb ed="#G" n="25"/>sen similitudo inter parentes attenditur quantum ad na 
+      <lb ed="#G" n="26"/>turalia quia secundum illa habent ad inuicem conuenii 
+      <lb ed="#G" n="27"/>tiam, &amp; non quantum ad personalia: quia secundum illa 
+      <lb ed="#G" n="28"/>habent ad inuicem suppositalem differentiam, &amp; ideo ex 
+      <lb ed="#G" n="29"/>si argumenti non sequitur, quod aliquod peccatum per 
+      <lb ed="#G" n="30"/>sonale parentis transfundatur in prolem: sed solum origi 
+      <lb ed="#G" n="31"/>lale, quod dicitur peccatum naturale: quia prius inficit na 
+      <lb ed="#G" n="32"/>turam, &amp; mediante infectione naturae inficit personam. 
+    </p>
+            <p xml:id="HuYgTa-146038-d1e1528">
+               <lb ed="#G" n="33"/>
+               <pc type="indent"/>Sed si petitur secundo modo, scilicet vtrum transeant 
+      <lb ed="#G" n="34"/>pantum ad poenam: tunc pono duas conclusiones 
+      <lb ed="#G" n="35"/>Prima est, quod peccata proximorum parentum non 
+      <lb ed="#G" n="36"/>ranscunt in prolem quantum ad poenam aeternam: quia 
+      <lb ed="#G" n="37"/>feundum Deatum Augustinum quicumque obligatur vis 
+      <lb ed="#G" n="38"/>nilo ponae, scilicet aeternae, non est expers delicti: sed pro 
+      <lb ed="#G" n="39"/>leest expers a delicto parentis proximi, vt patuit in
+      pri<lb ed="#G" n="40" break="no"/>parte istius articuli, ergo pro delicto proximi parentis 
+      <lb ed="#G" n="41"/>rn obligatur ad poenam perpetuam. Etiam quantum ac 
+      <lb ed="#G" n="42"/>hm intellectum ait dominus. Filius non portabit
+      ini<lb ed="#G" n="43" break="no"/>btatem patris. Et ibidem Anima, quae paccauerit, ipsa 
+      <lb ed="#G" n="44"/>
+               <pc type="indent"/>rietur. Et ait Adostolus, vnusquisque onus suum portabit 
+      <lb ed="#G" n="45"/>Secunda conclusio est, quod peccata proximorum
+      pa<lb ed="#G" n="46" break="no"/>rentum transeunt in prolem quantum ad penam teporalem 
+    </p>
+            <p xml:id="HuYgTa-146038-d1e1566">
+               <lb ed="#G" n="47"/>
+               <pc type="indent"/>1 Nam sicut patet in iure ciuili, crimen laesae
+      maiesta<lb ed="#G" n="48" break="no"/>r non solum punitur in parente, verum etiam in prole 
+      <lb ed="#G" n="49"/>rm prout proles est quaedam res patris, sic pater potest 
+      <lb ed="#G" n="50"/>
+               <pc type="indent"/>iniri in filio, tamquam in sua re, seu possessione 
+      <lb ed="#G" n="51"/>2 Praeterea, princeps quandoque iuste punitur in suo 
+      <lb ed="#G" n="52"/>Tralo propter coniunctionem populi ad ipsum: ergo  
+    </p>
+            <p xml:id="HuYgTa-146038-d1e1586">
+               <lb ed="#G" n="53"/>
+               <pc type="indent"/>ner in prole, maxime quando proles non est sui iuris: seo 
+      <lb ed="#G" n="54"/>sab dominio patris, tamquam possessio eius.
+      Antece<lb ed="#G" n="55" break="no"/>dens patet. <ref xml:id="HuYgTa-146038-Rd1e1596">2. Reg. c. vlt</ref>. vbi multi legutur ab angelo Dei 
+      <lb ed="#G" n="56"/>interfecti propter peccatum regis Dauid. Patet etiam con 
+      <lb ed="#G" n="57"/>souentia, quia non minor est coniunctio prolis ad paret 
+      <lb ed="#G" n="58"/>tem, quam populi ad secularem principem. Et de hac poe 
+      <lb ed="#G" n="59"/>notest intelligi verbum domini, quando ait. Ego do 
+      <lb ed="#G" n="60"/>
+               <pc type="indent"/>mus vifitans peccata patrum in filios vsque in tertiam,  
+      <lb ed="#G" n="61"/>quartam generationem. 
+    </p>
+            <p xml:id="HuYgTa-146038-d1e1616">
+               <lb ed="#G" n="62"/>
+               <pc type="indent"/>Remplum habemus quo ad hoc in Sen vbi dominus 
+      <lb ed="#G" n="63"/>ropter peccata parentum interfecit paruulos cum
+      pare<lb ed="#G" n="64" break="no"/>pbus in Sodoma, &amp; Comora. Et in Nu interfecit domi- 
+      <lb ed="#G" n="65"/> Chore, &amp; Datham, &amp; Abiton cum paruulis corum. 
+      <lb ed="#G" n="66"/>nem praecepit dominus, vt in regnis Chananaeorum
+      in<lb ed="#G" n="67" break="no"/>frfcerentur omnes, tam paruuli, quam senes 
+      <lb ed="#G" n="68"/>Forte dicetur, quod omues patuuli hic notati, non so 
+      <lb ed="#G" n="69"/>neena temporali, verum etiam pena aeterna punientur 
+      <lb ed="#G" n="70"/>areena damni, quae est carentia diuinae visionis: &amp; hoc 
+      <lb ed="#G" n="71"/>rtur contradicere primae conclusioni.
+    </p>
+            <p xml:id="HuYgTa-146038-d1e1642">
+               <lb ed="#G" n="72"/>nespondeo, quod licet tales parnuli passi fuerunt mor 
+      <lb ed="#G" n="73"/>tempo :aleni propter peccata proximorum parentum 
+      <!--424.xml-->
+      <cb ed="#G" n="b"/>
+               <lb ed="#G" n="74"/>tamen aeternam poenam patientur propter peccatum ori 
+      <lb ed="#G" n="75"/>ginale, &amp; non propter peccata proximotum parentum. 
+    </p>
+            <p xml:id="HuYgTa-146038-d1e1658">
+               <lb ed="#G" n="76"/>
+               <pc type="indent"/>Ad argumentum principale dicendum, quod quamuis 
+      <lb ed="#G" n="77"/>maior sit vera de poena per se, non tamen de pena per ac 
+      <lb ed="#G" n="78"/>cidens, 
+    </p>
+            <p xml:id="HuYgTa-146038-d1e1669">
+               <lb ed="#G" n="79"/>
+               <pc type="indent"/>Alias sic inuenitur. Dicendum, quod quamuis maior 
+      <lb ed="#G" n="80"/>sit vera de effectu per se: non tamen est vera de effectu per 
+      <lb ed="#G" n="81"/>accidens, sed sicut patuit in 1 art, non quaelibet poena es 
+      <lb ed="#G" n="82"/>effectus per se originalis peccati. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

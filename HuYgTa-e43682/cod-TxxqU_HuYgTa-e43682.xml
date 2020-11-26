@@ -1,0 +1,746 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#ThomasStrasbourg">Thomas of Strasbourg</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2020-11-26">November 26, 2020</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="G" n="cod-TxxqU">Genoa 1585</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2020-11-26" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#G" n="57-v"/>
+            <cb ed="#G" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="HuYgTa-e43682"><!-- HuYgTa-l1d10q1 -->
+            <head xml:id="HuYgTa-e43682-Hd1e108">Quaestio 1</head>
+            <head xml:id="HuYgTa-e43682-Hd1e111" type="question-title">
+      An spiritus sanctus procedat per
+      modum voluntatis.
+    </head>
+            <p xml:id="HuYgTa-e43682-d1e114">
+               <lb ed="#G" n="102"/>
+               <pc type="indent"/>Questio. I 
+      <lb ed="#G" n="103"/>An spiritus sanctus procedat per
+      mo<lb ed="#G" n="104" break="no"/>dum voluntatis.
+    </p>
+            <p xml:id="HuYgTa-e43682-d1e125">
+               <lb ed="#G" n="105"/>TRVM SPIRITVS SANe TVS
+      pro<lb ed="#G" n="106" break="no"/>cedat per modum voluntatis.
+    </p>
+            <p xml:id="HuYgTa-e43682-d1e132">
+      Et videtur,  
+      <lb ed="#G" n="107"/>quod nont quia si procederet per modum 
+      <lb ed="#G" n="108"/>voluntatis, tunc possent esse plures
+      spiri<lb ed="#G" n="109" break="no"/>tus sancti, immo quasi infiniti
+      consequen<lb ed="#G" n="110" break="no"/>est falsum: probo consequentiam: quia uo 
+      <lb ed="#G" n="111"/>untas sequitur formam apprehensam: cum ergo tales for 
+      <lb ed="#G" n="112"/>mae possent apprehendi infinitae, tales formae possent esse 
+      <lb ed="#G" n="113"/>infinitae, ergo &amp;c. 
+    </p>
+            <p xml:id="HuYgTa-e43682-d1e151">
+               <lb ed="#G" n="114"/>
+               <pc type="indent"/>Contra, illud, quod procedit ut amor, procedit per mo 
+      <lb ed="#G" n="115"/>dum voluntatis, Spiritus sanctus procedit vt amor, ut dicunt 
+      <lb ed="#G" n="116"/>sancti doctores, ergo &amp;c. Hic primo videndum est, vtrum 
+      <lb ed="#G" n="117"/>aliqua diuina persona proprie dicatur spiritus sanctus.
+      Se<lb ed="#G" n="118" break="no"/>cundo, utrum talis persona procedat per modum vo
+      <lb ed="#G" n="119"/>luntatis. Tertio vtrum tales personae posse nt esse  
+      <lb ed="#G" n="120"/>plures. Et quarto propter uerba
+      bea<lb ed="#G" n="121" break="no"/>ti Aug. videndum est, utrum
+      spi<lb ed="#G" n="122" break="no"/>ritus sanctus proprie
+      di<lb ed="#G" n="123" break="no"/>catur nexus patris,  
+      <lb ed="#G" n="124"/>&amp; filii.
+    </p>
+            <p xml:id="HuYgTa-e43682-d1e180">
+      <!--154.xml-->
+               <pb ed="#G" n="58-r"/>
+               <cb ed="#G" n="a"/>
+               <lb ed="#G" n="1"/>RESOLVTIO 
+      <lb ed="#G" n="2"/>Licet spiritus non simpliciter dici videatur, vt tamen a
+      spiratio<lb ed="#G" n="3" break="no"/>ne dicitur, proprie tertiae personae in diuinis conuenit, quae qui 
+      <lb ed="#G" n="4"/>dem per modum valuntatis vt voluntas libertatem
+      compla<lb ed="#G" n="5" break="no"/>tentiae concernit immut abilit ex procedit: vnde cum in hac pro 
+      <lb ed="#G" n="6"/>ductiane perfecte alaequet suum proprium principium
+      prodi<lb ed="#G" n="7" break="no"/>ctiuum, sequitur, quod plures spiritus sancti esse nequeant
+      so<lb ed="#G" n="8" break="no"/>las igitur spirit ut sanctur, cum sit amor perfectus, erit proprie 
+      <lb ed="#G" n="9"/>nexus patru, &amp; filij 
+    </p>
+            <p xml:id="HuYgTa-e43682-d1e209">
+               <lb ed="#G" n="10"/>
+               <pc type="indent"/>ARTICVLVS I. 
+      <lb ed="#G" n="11"/>Vtrum aliqua diuina persona proprit 
+      <lb ed="#G" n="12"/>dicatur spiritus sanctus.
+    </p>
+            <p xml:id="HuYgTa-e43682-d1e220">
+               <lb ed="#G" n="13"/>QVANTVM ad primum est aduertendum, quod
+      gram<lb ed="#G" n="14" break="no"/> maticaliter loquendo, spiritus vno modo dicitu 
+      <lb ed="#G" n="15"/>a spiritualitate, alio modo a spiratione 
+    </p>
+            <p xml:id="HuYgTa-e43682-d1e229">
+               <lb ed="#G" n="16"/>
+               <pc type="indent"/>Primo modo est nomen commune non solum omni- 
+      <lb ed="#G" n="17"/>bus diuinis personis sed etiam omnibus substantiis 
+      <lb ed="#G" n="18"/>separatis, ac etiam multis corporibus Corpora enim 
+      <lb ed="#G" n="19"/>subtilia saepissime in philosophia spiritus appellantur. 
+      <lb ed="#G" n="20"/>Et licet illo modo sumptum hoc nomen spiritus non sit 
+      <lb ed="#G" n="21"/>nomen proprium alicuius diuinae personae, est tamen
+      ap<lb ed="#G" n="22" break="no"/>propriatum ex vsu scripturarum tertiae personae. Cuius 
+      <lb ed="#G" n="23"/>atio posset esse quia in rebus nobis notis illud spiritum 
+      <lb ed="#G" n="24"/>appellamus, in quo virtutem penetratiuam, &amp; impulsius 
+      <lb ed="#G" n="25"/>percipimus: sed amore nihil est penetratiuius, &amp; impulsi 
+      <lb ed="#G" n="26"/>uius, ergo persona diuina, quae est ipse amor productus ap 
+      <lb ed="#G" n="27"/>propriate dicitur spiritus. Etiam appropriate dicitur
+      san<lb ed="#G" n="28" break="no"/>ctus. Nam secundum Fustratium super 1 ethic iustum con 
+      <lb ed="#G" n="29"/>sistit in aequalitate ad alterum, sanctum autem in ordine 
+      <lb ed="#G" n="30"/>ad Deum. Cum ereo dona, quibus in Deum ordinamur, at 
+      <lb ed="#G" n="31"/>tribuantur amori diuino, ergo illa persona, quae est ipse 
+      <lb ed="#G" n="32"/>amor productus in diuinis, appropriate non solum
+      dici<lb ed="#G" n="33" break="no"/>tur spiritus, sed etiam dicitur spiritus sanctus. 
+    </p>
+            <p xml:id="HuYgTa-e43682-d1e273">
+               <lb ed="#G" n="34"/>
+               <pc type="indent"/>Sed, si hoc nomen spiritus dicitur a spiratione, tuns 
+      <lb ed="#G" n="35"/>non solum appropriate, sed etiam proprie conuenit
+      per<lb ed="#G" n="36" break="no"/>sonae praedictae: quia illa persona proprie dicitur spiritus,  
+      <lb ed="#G" n="37"/>prout spiritus dicitur a spiratione, cuius personalis
+      pro<lb ed="#G" n="38" break="no"/>prietas est ipsum spirare: sed persona diuina predicta ess 
+      <lb ed="#G" n="39"/>huiusmodi, ergo &amp;c 
+    </p>
+            <p xml:id="HuYgTa-e43682-d1e292">
+               <lb ed="#G" n="40"/>
+               <pc type="indent"/>ARTICVLVS II. 
+      <lb ed="#G" n="41"/>Vtrum spiritus sanctus procedat per 
+      <lb ed="#G" n="42"/>modum volintatis.
+    </p>
+            <p xml:id="HuYgTa-e43682-d1e303">
+               <lb ed="#G" n="43"/>QVANTVM ad secundum principale, vtrum
+      spiri<lb ed="#G" n="44" break="no"/>omtus sanctus procedat per modum voluntatis, dice  
+      <lb ed="#G" n="45"/>que voluntas diuina potest dupliciter considerari Vno 
+      <lb ed="#G" n="46"/>modo, vt concernit libertatem contingentiae, siue contra 
+      <lb ed="#G" n="47"/>dictionis. Alio modo, vt concernit libertatem complace 
+      <lb ed="#G" n="48"/>tiae, &amp; dilectionis cum necessitate immutabilitatis 
+      <lb ed="#G" n="49"/>sicut Deus cum maxima complacentia, &amp; liberrime vult 
+      <lb ed="#G" n="50"/>luam bonitatem, &amp; tamen vult eam necessitate immuta 
+      <lb ed="#G" n="51"/>bilitatis, quia non potest eam non velle 
+    </p>
+            <p xml:id="HuYgTa-e43682-d1e325">
+               <lb ed="#G" n="52"/>
+               <pc type="indent"/>Primo modo spiritus sanctus non procedit per modum 
+      <lb ed="#G" n="53"/>voluntatis: quia vt sic, solae creaturae procedunt, sed secudo 
+      <lb ed="#G" n="54"/>modo spiritus sanctus proprie procedit per modum voli 
+      <lb ed="#G" n="55"/>tatis: quia sicut se habet verbum, seu sat entia genita in 
+      <lb ed="#G" n="56"/>diuinis ad intellectum, sic se habet spiritus sanctus, qu 
+      <lb ed="#G" n="57"/>est amor productus, ad voluntatem, sed, vt inferius
+      pate<lb ed="#G" n="58" break="no"/>bit, verbum diuinum procedit per modum intellectus 
+      <lb ed="#G" n="59"/>immutabiliter, ergo &amp;c
+    </p>
+            <p xml:id="HuYgTa-e43682-d1e347">
+               <lb ed="#G" n="60"/>Sed contrarium istius conclusionis quidam doctor ponit 
+      <lb ed="#G" n="61"/>&amp; hoc modo procedit. 
+    </p>
+            <p xml:id="HuYgTa-e43682-d1e354">
+               <lb ed="#G" n="62"/>
+               <pc type="indent"/>Primo enim probat, quod filius in diuinis non
+      produ<lb ed="#G" n="63" break="no"/>catur per actum intellectus, nec spiritus sanctus per 
+      <!--154.xml-->
+      <cb ed="#G" n="b"/>
+               <lb ed="#G" n="64"/>actum voluntatis. 
+    </p>
+            <p xml:id="HuYgTa-e43682-d1e370">
+               <lb ed="#G" n="65"/>
+               <pc type="indent"/>Secundo dicit, quod filius non procedit per modum 
+      <lb ed="#G" n="66"/>intellectus, nec spiritus sanctus per modum voluntatis,  
+      <lb ed="#G" n="67"/>simmo, vt dicit, circumscriptis per intellectum a natur 
+      <lb ed="#G" n="68"/>diuina intellectu, &amp; voluntate cum actibus suis, adhuc es 
+      <lb ed="#G" n="69"/>set in diuinis generatio filij, &amp; spiratio spiritus sancti. 
+    </p>
+            <p xml:id="HuYgTa-e43682-d1e387">
+               <lb ed="#G" n="70"/>
+               <pc type="indent"/>Primum probat sic 
+      <lb ed="#G" n="71"/>1 quia si sic, tunc aut tales actus essent ipsae
+      produ<lb ed="#G" n="72" break="no"/>ctiones personarum, aut huiusmodi actus essent
+      principi<lb ed="#G" n="73" break="no"/>talium productionum. Primum dici non potest propter tria 
+    </p>
+            <p xml:id="HuYgTa-e43682-d1e400">
+               <lb ed="#G" n="74"/>
+               <pc type="indent"/>Primo, quia productiones personarum sunt actus 
+      <lb ed="#G" n="75"/>notionales; sed intelligere, &amp; velle sunt actus essentiales,  
+      <lb ed="#G" n="76"/>ergo intelligere, &amp; velle non sunt ipsae productiones 
+      <lb ed="#G" n="77"/>Vtraque praemissarum, vt dicunt, est proposito per( se nota¬ 
+    </p>
+            <p xml:id="HuYgTa-e43682-d1e413">
+               <lb ed="#G" n="78"/>
+               <pc type="indent"/>2 Secundo, quia cuicumque conuenit aliquis actus 
+      <lb ed="#G" n="79"/>quo persona producitur, sibi conuenit producere personam, 
+      <lb ed="#G" n="80"/>ad quam talis actus terminatur: sed intelligere, &amp; velle con 
+      <lb ed="#G" n="81"/>ueniunt onibus diuinis personis, ergo quaelibet diuina per 
+      <lb ed="#G" n="82"/>sona generaret filium, &amp; spiraret spiritum sanctum 
+    </p>
+            <p xml:id="HuYgTa-e43682-d1e429">
+               <lb ed="#G" n="83"/>
+               <pc type="indent"/>3 Tertio, quia productiones filij, &amp; spiritus sancti
+      dif<lb ed="#G" n="84" break="no"/>ferunt realiter: sed intelligere diuinum, &amp; velle non
+      dif<lb ed="#G" n="85" break="no"/>ferunt realiter: quia nec re absoluta, nec re relata 
+    </p>
+            <p xml:id="HuYgTa-e43682-d1e440">
+               <lb ed="#G" n="86"/>
+               <pc type="indent"/>Nec potest dici secundum, scilicet quod tales actus 
+      <lb ed="#G" n="87"/>sint principia talium productionum: quia illud, cuius con 
+      <lb ed="#G" n="88"/>ditio est opposita fecunditati, non potest esse principium 
+      <lb ed="#G" n="89"/>actus, quo aliquid producitur: quia omnis productio
+      pro<lb ed="#G" n="90" break="no"/>uenit ex saecun ditate: sed conditio actuum volendi, &amp; in 
+      <lb ed="#G" n="91"/>telligendi est opposita saecunditati, quia ex ipsis nihil com 
+      <lb ed="#G" n="92"/>stituitur, vt patet <ref xml:id="HuYgTa-e43682-Rd1e459">9. meta.</ref> 
+            </p>
+            <p xml:id="HuYgTa-e43682-d1e463">
+               <lb ed="#G" n="93"/>
+               <pc type="indent"/>Secundum eorum dictum probant sic 
+      <lb ed="#G" n="94"/>1 Secundum idem proportionabiliter saecunditas con 
+      <lb ed="#G" n="95"/>uenit Deo, &amp; creaturis: sed saecunditas producendi con 
+      <lb ed="#G" n="96"/>senit creaturis non ex eo, quod sunt intelligentes, &amp; vo 
+      <lb ed="#G" n="97"/>lentes, sed per aliquid prius, &amp; communius. Multa enim 
+      <lb ed="#G" n="98"/>intellectu carentia generant, &amp; producunt, ergo natura 
+      <lb ed="#G" n="99"/>diuina, licet sit intelligens, &amp; volens, ex hoc tamen
+      nul<lb ed="#G" n="100" break="no"/>la faecunditas inest sibi ad producendum quamcumqui 
+      <lb ed="#G" n="101"/>personam. Et addunt isti, quod sicut calor ignis, si esset in 
+      <lb ed="#G" n="102"/>telligens, &amp; volens, causaret calorem sibi similem, ex fa 
+      <lb ed="#G" n="103"/>cunditate naturae suae, sicut nunc facit, nec ad hoc aliquid 
+      <lb ed="#G" n="104"/>cooperaret suum intelligere, &amp; velle, sic natura diuina &amp;c 
+    </p>
+            <p xml:id="HuYgTa-e43682-d1e495">
+               <lb ed="#G" n="105"/>
+               <pc type="indent"/>2 Preterea qualis est ordo rerum inter differentia rea 
+      <lb ed="#G" n="106"/>liter, t alis est ordo rationum inter differentia secundum 
+      <lb ed="#G" n="107"/>rationem: sed vbi intellectus, &amp; voluntas differunt a natu 
+      <lb ed="#G" n="108"/>ra, ibi productio est realiter vi naturae, &amp; non vi
+      intelle<lb ed="#G" n="109" break="no"/>ctus, aut voluntatis, ergo &amp; in Deo &amp;c 
+    </p>
+            <p xml:id="HuYgTa-e43682-d1e511">
+               <lb ed="#G" n="110"/>
+               <pc type="indent"/>3 Praeterea, ex dictis aliquorum aliorum potest hoc 
+      <lb ed="#G" n="111"/>idem argui sic. Filius, quia est consubstantialis patri, &amp; 
+      <lb ed="#G" n="112"/>virtute suae productionis sibi communicatur natura 
+      <lb ed="#G" n="113"/>ideo dicitur procedere per modum naturae: sed spititus 
+      <lb ed="#G" n="114"/>sanctus non minus est patri consubstantialis, quam filius,  
+      <lb ed="#G" n="115"/>nec sibi minus diuina natura communicatur, ergo etiam i 
+      <lb ed="#G" n="116"/>procedit per modum naturae 
+    </p>
+            <p xml:id="HuYgTa-e43682-d1e531">
+               <lb ed="#G" n="117"/>
+               <pc type="indent"/>4 Praeterea, spiritus sanctus procedit per modum alium 
+      <lb ed="#G" n="118"/>quam creatura: sed creatura procedit per modum volun 
+      <lb ed="#G" n="119"/>tatis, iuxta illud Hylarii in li de svno. Omnibus c
+      eatu<lb ed="#G" n="120" break="no"/>ris substantiam voluntas Dei attulit, filio vero natura dedit 
+    </p>
+            <p xml:id="HuYgTa-e43682-d1e544">
+               <lb ed="#G" n="121"/>
+               <pc type="indent"/>Et confirmatur: quia productio spiritus sancti maiotem 
+      <lb ed="#G" n="122"/>conuenientiam habet cum productione filij, quam cum pro 
+      <lb ed="#G" n="123"/>ductione creaturae: quia productiones differunt secundi 
+      <lb ed="#G" n="124"/>differentiam terminorum productorum: maior autem
+      dif<lb ed="#G" n="125" break="no"/>erentia est inter spiritu sanctu, &amp; creaturam, quam inter spir 
+      <lb ed="#G" n="126"/>tum sanctu, &amp; filiu: sed productio filij est per modum
+      natu<lb ed="#G" n="127" break="no"/>re, &amp; productio creaturae per modum voluntatis, ergo &amp;c 
+    </p>
+            <p xml:id="HuYgTa-e43682-d1e564">
+               <lb ed="#G" n="128"/>
+               <pc type="indent"/>Praeterea, intellectus &amp; voluntas se habet ad opposi 
+      <lb ed="#G" n="129"/>ta, cum sint potentiae relationes, sed productiones diuinae 
+      <lb ed="#G" n="130"/>sunt determinatae ad vnum 
+    </p>
+            <p xml:id="HuYgTa-e43682-d1e575">
+               <lb ed="#G" n="131"/>
+               <pc type="indent"/>e Praeterea, si aliqua determinata perfectio puta
+      in<lb ed="#G" n="132" break="no"/>tellectus, vel voluntas esset ratio producendi aliquam
+      di<lb ed="#G" n="133" break="no"/>uinam personam, tunc nulla perfectio esset in illa psona, nisi 
+      <lb ed="#G" n="134"/>illa, secudum quam pducitur: quia ipsa pfectio determinata 
+      <lb ed="#G" n="135"/>non posset esse ratio conmunicandi alias perfectiones: quis 
+      <lb ed="#G" n="136"/>eas nec formaliter, nec virtualiter contineret. Etiam qui¬ 
+      <!--155.xml-->
+      <pb ed="#G" n="58-v"/>
+               <cb ed="#G" n="a"/>
+               <lb ed="#G" n="1"/>productum non potest excedere suum principium
+      pro<lb ed="#G" n="2" break="no"/>ductiuum: sed consequens est falsum, quia nulla perfectio 
+      <lb ed="#G" n="3"/>potest deficere alicui diuinae personae. 
+    </p>
+            <p xml:id="HuYgTa-e43682-d1e607">
+               <lb ed="#G" n="4"/>
+               <pc type="indent"/>y Praeterea, principium, quo producitur aliquid natu 
+      <lb ed="#G" n="5"/>rale, est ipsa natura: sed spiritus sanctus est productum nm 
+      <lb ed="#G" n="6"/>turale, cum sit producenti connaturale, ergo &amp;c 
+    </p>
+            <p xml:id="HuYgTa-e43682-d1e618">
+               <lb ed="#G" n="7"/>
+               <pc type="indent"/>S Praeterea, actus voluntatis non potest esse nisi respe 
+      <lb ed="#G" n="8"/>ctu praecogniti, si ergo spiritus sanctus producitur per 
+      <lb ed="#G" n="9"/>modum voluntatis, ipse prius erit cognitus, quam prodi 
+      <lb ed="#G" n="10"/>ctus, sed illa cognitio non posset esse abstractiua: quia
+      o<lb ed="#G" n="11" break="no"/>mnis cognitio, quam habet persona diuina respectu diui 
+      <lb ed="#G" n="12"/>norum, est intuitiua. Cum ergo intuitiua terminetur ac 
+      <lb ed="#G" n="13"/>rem, vt actu existit in propria natura, ergo spiritus sanctu 
+      <lb ed="#G" n="14"/>ante, quam per voluntatem produceretur, existeret, quod 
+      <lb ed="#G" n="15"/>est impossibile, ergo &amp;c 
+    </p>
+            <p xml:id="HuYgTa-e43682-d1e642">
+               <lb ed="#G" n="16"/>
+               <pc type="indent"/>S Praeterea, quae procedunt per modum voluntatis 
+      <lb ed="#G" n="17"/>sunt artificiata, sed &amp;c. 
+    </p>
+            <p xml:id="HuYgTa-e43682-d1e651">
+               <lb ed="#G" n="18"/>
+               <pc type="indent"/>Sed ista opinio a dictis sanctorum doctorum videtur 
+      <lb ed="#G" n="19"/>expresse deuiare. 
+    </p>
+            <p xml:id="HuYgTa-e43682-d1e660">
+               <lb ed="#G" n="20"/>
+               <pc type="indent"/>1 Beatus enim Aug. saepius spiritum sanctum nomi- 
+      <lb ed="#G" n="21"/>nat amorem, siue caritatem, iuxta illud e. de tri. spiritus 
+      <lb ed="#G" n="22"/>sanctus est aliquid commune patris, &amp; filij, quae
+      com<lb ed="#G" n="23" break="no"/>munio consubstantialis, &amp; coaeterna, si amicitia
+      conue<lb ed="#G" n="24" break="no"/>nienter dici potest) dicatur: sed aptius dicitur caritas,  
+      <lb ed="#G" n="25"/>ergo &amp;c. 
+    </p>
+            <p xml:id="HuYgTa-e43682-d1e678">
+               <lb ed="#G" n="26"/>Item <ref xml:id="HuYgTa-e43682-Rd1e682">15. de tri.</ref> ait. <quote xml:id="HuYgTa-e43682-Qd1e685" source="http://scta.info/resource/adt-l15-d1e1912" synch="110-124">Non frustra in illa trinitate solu 
+        <lb ed="#G" n="27"/>spiritus sanctus caritas nuncupatur</quote>. 
+    </p>
+            <p xml:id="HuYgTa-e43682-d1e692">
+               <lb ed="#G" n="28"/>
+               <pc type="indent"/>Item, idem Aug in de cognitione verae vitae ait. Nihil 
+      <lb ed="#G" n="29"/>aliud spiritus sanctus, quam amor Dei, intelligitur 
+    </p>
+            <p xml:id="HuYgTa-e43682-d1e701">
+               <lb ed="#G" n="30"/>
+               <pc type="indent"/>Et Hiero super Ps. 15. ait. Spiritus sanctus nec pater 
+      <lb ed="#G" n="31"/>nec filius, sed dilectio, quam habet pater in filium, &amp; fi- 
+      <lb ed="#G" n="32"/>lius in patrem. 
+    </p>
+            <p xml:id="HuYgTa-e43682-d1e712">
+               <lb ed="#G" n="33"/>
+               <pc type="indent"/>Idem posset deduci ex dictis ceterorum, dimitto
+      ta<lb ed="#G" n="34" break="no"/>men causa breuitatis. Sed constat, quod amor per
+      mo<lb ed="#G" n="35" break="no"/>dum voluntatis procedit, ergo &amp;c. 
+    </p>
+            <p xml:id="HuYgTa-e43682-d1e723">
+               <lb ed="#G" n="36"/>
+               <pc type="indent"/>2 Praeterea isti in declaratione secundae positonis
+      as<lb ed="#G" n="37" break="no"/>sumunt aliqua minus vera: quia illud, in cuius ratione fo 
+      <lb ed="#G" n="38"/>mali includitur notitia, quae est expressiua, &amp; declaratiua 
+      <lb ed="#G" n="39"/>notitiae simplicis, non est possibile produci, nisi principio 
+      <lb ed="#G" n="40"/>intellectiuo, &amp; actu intellectuali: sed verbum, quod est fi 
+      <lb ed="#G" n="41"/>lius Dei patris, est huiusmodi, vt patet per. Rich. 2. de
+      tri<lb ed="#G" n="42" break="no"/>vbi sic ait. Recte verbum Dei patris dicitur, per quem pa 
+      <lb ed="#G" n="43"/>tris, qui fons sapientiae est, notitia manifestatur. Et infra 
+      <lb ed="#G" n="44"/>eodem ca. Dei filius verbum patris dicitur: quia a solo pa 
+      <lb ed="#G" n="45"/>tre oritur, per quem paterna claritas manifestatur, in
+      pa<lb ed="#G" n="46" break="no"/>tre omnis veritatis conceptio, in iverbo omnis vcritatis 
+      <lb ed="#G" n="47"/>prolatio. 
+    </p>
+            <p xml:id="HuYgTa-e43682-d1e754">
+               <lb ed="#G" n="48"/>
+               <pc type="indent"/>3 Praeterea, quod est ipse actus intelligendi, vel termi 
+      <lb ed="#G" n="49"/>nus constitutus per actum intelligendi, necessario requi  
+      <lb ed="#G" n="50"/>rit intellectum, tamquam suum proprium principiun 
+      <lb ed="#G" n="51"/>productiuum, verbum est huiusmodi, ergo circumscripto 
+      <lb ed="#G" n="52"/>intellectu non posset esse verbi generatio, sicut isti assum 
+      <lb ed="#G" n="53"/>serunt, Et eodem modo potest argui de amore, qui es 
+      <lb ed="#G" n="54"/>spiritus sanctus respectu voluntatis. 
+    </p>
+            <p xml:id="HuYgTa-e43682-d1e774">
+               <lb ed="#G" n="55"/>
+               <pc type="indent"/>Ad primum ergo eorum argumentum dico, quod
+      in<lb ed="#G" n="56" break="no"/>telligere, &amp; velle possunt dici productiones verbi, &amp; spiri 
+      <lb ed="#G" n="57"/>tus sancti. Ad primam probationem dico, quod intellige 
+      <lb ed="#G" n="58"/>re, &amp; velle diuinum possunt sumi vel essentialiter, &amp; pro 
+      <lb ed="#G" n="59"/>ut sumuntur essentialiter sunt actus essentiales, prout au 
+      <lb ed="#G" n="60"/>tem sumuntur notionaliter, sunt actus notionales 
+    </p>
+            <p xml:id="HuYgTa-e43682-d1e793">
+               <lb ed="#G" n="61"/>
+               <pc type="indent"/>Ad secundum dicendum, quod soli patri conuenit
+      in<lb ed="#G" n="62" break="no"/>telligere notionale, quo intelligere verbum producitur; 
+      <lb ed="#G" n="63"/>&amp; soli patri, &amp; filio conuenit velle notionale, quo amor 
+      <lb ed="#G" n="64"/>personaliter subsistens producitur. 
+    </p>
+            <p xml:id="HuYgTa-e43682-d1e806">
+               <lb ed="#G" n="65"/>
+               <pc type="indent"/>Ad tertium dicendum, quod intellipere notionale, qo 
+      <lb ed="#G" n="66"/>velle notionale, differunt realiter eodem modo quo ij 
+      <lb ed="#G" n="67"/>sae emanationes differunt. Etiam falsum assumunt in pro 
+      <lb ed="#G" n="68"/>batione alterius partis, cum dicunt, quod conditio actuum 
+      <lb ed="#G" n="69"/>intelligendi, &amp; volendi est opposita faecunditati: quia etiam 
+      <lb ed="#G" n="70"/>secundum philosophum ex frequentatis actibus genera 
+      <lb ed="#G" n="71"/>tur habitus, quauis enim per actus immanentes, maxim 
+      <lb ed="#G" n="72"/>vt speculatiui sunt, non constituatur aliquid ad extra,
+      ta<lb ed="#G" n="73" break="no"/>men ad intra potest aliquid constitui, sicut iam patuit 
+      <!--155.xml-->
+      <cb ed="#G" n="b"/>
+               <lb ed="#G" n="74"/>de habitu 
+    </p>
+            <p xml:id="HuYgTa-e43682-d1e837">
+               <lb ed="#G" n="75"/>
+               <pc type="indent"/>Est tamen hic aduertendum, quod intelligere notio 
+      <lb ed="#G" n="76"/>nale aliqualem similitudinem habet cum actu transeun 
+      <lb ed="#G" n="77"/>te, &amp; cum actu immanente. Nam in eo, quod terminatu 
+      <lb ed="#G" n="78"/>ad terminum suppositaliter existentem extra personan 
+      <lb ed="#G" n="79"/>producentem, in hoc aliquam similitudinem habet cum 
+      <lb ed="#G" n="80"/>actu transeunte: sed in eo, quod talis terminus est eiusdem 
+      <lb ed="#G" n="81"/>naturae cum producente, aliquo modo conuenit cum actu 
+      <lb ed="#G" n="82"/>simmanente: quia quicquid per actum intellectus consti 
+      <lb ed="#G" n="83"/>tuitur, vt est manens, totum manet in intellectu, &amp; est in 
+      <lb ed="#G" n="84"/>tellectualis naturae, siue sit verbum, siue habitus, siue quic 
+      <lb ed="#G" n="85"/>quid aliud sit, &amp; eodem modo est de uelle notionali. 
+    </p>
+            <p xml:id="HuYgTa-e43682-d1e866">
+               <lb ed="#G" n="86"/>
+               <pc type="indent"/>Ad primum secundae suae positonis dicendum, quod 
+      <lb ed="#G" n="87"/>quamuis creaturis non conueniat producere per intelle 
+      <lb ed="#G" n="88"/>ctum, &amp; voluntatem talia, quae non habent ordinem peri 
+      <lb ed="#G" n="89"/>se ad intellectum, &amp; voluntatem: tamen impossibile est 
+      <lb ed="#G" n="90"/>aliquam creaturam generare verbum intellectuale sine 
+      <lb ed="#G" n="91"/>intellectu, vel producere amorem perfectissimum sin 
+      <lb ed="#G" n="92"/>voluntate: sic in proposito: quia filius Dei est verbum
+      in<lb ed="#G" n="93" break="no"/>tellectuale, &amp; spiritus sanctus caritas, vel amor siue
+      dile<lb ed="#G" n="94" break="no"/>ctio, ideo eorum productiones debent esse per modum 
+      <lb ed="#G" n="95"/>intellectus, &amp; voluntatis. Vnde si calor ignis haberet
+      in<lb ed="#G" n="96" break="no"/>tellectum, &amp; voluntatem, vt tu ponis, quamuis
+      caleface<lb ed="#G" n="97" break="no"/>ret tunc, sicut nunc, tamen si verbum, vel amorem produm 
+      <lb ed="#G" n="98"/>ceret, certe non produceret sicut nunc: sed necessario in 
+      <lb ed="#G" n="99"/>talium productione intellectus, &amp; voluntas essent sib 
+      <lb ed="#G" n="100"/>principium, &amp; ratio producendi, sic &amp;c 
+      <lb ed="#G" n="101"/>Ad secundum dicendum, quod etiam in his, vbi
+      intel<lb ed="#G" n="102" break="no"/>lectus, &amp; voluntas differunt a natura, verbum, &amp;
+      amo<lb ed="#G" n="103" break="no"/>procedunt ab intellectu &amp; voluntate. 
+    </p>
+            <p xml:id="HuYgTa-e43682-d1e910">
+               <lb ed="#G" n="104"/>
+               <pc type="indent"/>Ad tertium dicendum, quod quamuis tam filius, quam  
+      <lb ed="#G" n="105"/>spiritus sanctus procedant a natura: quia intellectus, &amp; vt 
+      <lb ed="#G" n="106"/>luntas per modum, quo procedunt, sunt identice ipsa di 
+      <lb ed="#G" n="107"/>uina natura, filius tamen magis dicitur procedere per mo 
+      <lb ed="#G" n="108"/>dum nature, quam spiritus sanctus. Primo: quia filius
+      ge<lb ed="#G" n="109" break="no"/>neratur, generatio autem est opus naturae, vt ait Dam. Se 
+      <lb ed="#G" n="110"/>cundo: quia natura est determinata ad vnum, &amp; ideo in 
+      <lb ed="#G" n="111"/>generatione filij, qui procedit ab vna persona tantum 
+      <lb ed="#G" n="112"/>magis obseruatur modus naturae, quam in productione 
+      <lb ed="#G" n="113"/>spiritus sancti, qui procedit a duabus. 
+    </p>
+            <p xml:id="HuYgTa-e43682-d1e936">
+               <lb ed="#G" n="114"/>
+               <pc type="indent"/>Ad quartum dicendum, quod aliter procedit creatura por 
+      <lb ed="#G" n="115"/>modum voluntatis, &amp; aliter spiritus sanctus: quia
+      volun<lb ed="#G" n="116" break="no"/>tas diuina est principium creaturae secundum quod habet 
+      <lb ed="#G" n="117"/>libertatem contingentiae, &amp; contradictionis, vt est domi 
+      <lb ed="#G" n="118"/>na sui actus, ita quod potest producere, &amp; non producere 
+      <lb ed="#G" n="119"/>iuxta beneplacitum voluntatis: sed vt est principium
+      spi<lb ed="#G" n="120" break="no"/>ritus sancti, est libera libertate complacentiae, quae con 
+      <lb ed="#G" n="121"/>cernit necessitatem immutabilitatis. 
+    </p>
+            <p xml:id="HuYgTa-e43682-d1e959">
+               <lb ed="#G" n="122"/>
+               <pc type="indent"/>Ad confirmationem dico, quod maiorem
+      conuenien<lb ed="#G" n="123" break="no"/>tiam habet productio spiritus sancti cum productione f 
+      <lb ed="#G" n="124"/>lij, quam cum productione creaturae: quia productio filij,  
+      <lb ed="#G" n="125"/>&amp; productio spiritus sancti sunt ambae necessariae, &amp;
+      im<lb ed="#G" n="126" break="no"/>mutabiles; quia quamuis spiritus sanctus procedat por 
+      <lb ed="#G" n="127"/>modum voluntatis, tamen ea necessitate, &amp; immutabilitati 
+      <lb ed="#G" n="128"/>procedit, qua pater diligit filium, &amp; filius diligit patrem  
+      <lb ed="#G" n="129"/>creatura vero contingenter procedit. 
+    </p>
+            <p xml:id="HuYgTa-e43682-d1e981">
+               <lb ed="#G" n="130"/>
+               <pc type="indent"/>Ad quintum patet per iam dicta vel dicendum, quod 
+      <lb ed="#G" n="131"/>quamuis potentiae rationales sint opposita respectu eorum, 
+      <lb ed="#G" n="132"/>quae sunt ad finem, determinate tamen volunt ipsum sine, 
+    </p>
+            <p xml:id="HuYgTa-e43682-d1e992">
+               <lb ed="#G" n="133"/>
+               <pc type="indent"/>Ad sextum dicendum, quod si intellectus, &amp; voluntas 
+      <lb ed="#G" n="134"/>essent huiusmodi principia, vt praescindunt a natura, &amp; cum 
+      <lb ed="#G" n="135"/>conclusione expressa ipsius naturae, tuc bene procederet 
+      <lb ed="#G" n="136"/>argumentum. Sedi sic non dicimus, immo praesupponimus 
+      <lb ed="#G" n="137"/>intellectum, &amp; voluntatem in diuinis esse penitus idem 
+      <lb ed="#G" n="138"/>realiter, quod insa diuina natura, nec ipsam naturam
+      ex<lb ed="#G" n="139" break="no"/>cludimus in praedictis productionibus, immo dicimus, quod 
+      <lb ed="#G" n="140"/>ipsa natura est principium vtriusque productionis, vnius ta 
+      <lb ed="#G" n="141"/>men, vt habet modum intellectus, eo quod talis productis 
+      <lb ed="#G" n="142"/>terminatur ad verbum, &amp; alterius, vt habet modum volb 
+      <lb ed="#G" n="143"/>tatis, eo quoe talis productio terminatur ad amorem 
+    </p>
+            <p xml:id="HuYgTa-e43682-d1e1021">
+               <lb ed="#G" n="144"/>
+               <pc type="indent"/>Forte dicetur mihi, tu dicis, quod spiritus sanctus produci 
+      <lb ed="#G" n="145"/>tur amore, quo pater diligit filium, &amp; filius patre, &amp; iterum 
+      <lb ed="#G" n="146"/>dicis, quod productio spiritus sancti terminatur ad amorem, 
+      <!--156.xml-->
+      <pb ed="#G" n="59-r"/>
+               <cb ed="#G" n="a"/>
+               <lb ed="#G" n="1"/>lorum: quia vbi ex parte intellectus habemus duo
+      voca<lb ed="#G" n="2" break="no"/>bula, puta intelligere, quod est ipsa actio intellectus, &amp;  
+      <lb ed="#G" n="3"/>&amp; verbum, quod est terminus talis actionis, ibi ex parte 
+      <lb ed="#G" n="4"/>roluntatis habemus solum vnum: ideo amor isumitur tam 
+      <lb ed="#G" n="5"/>pro actu, quam pro termino ipsius actus, propter quod spi 
+      <lb ed="#G" n="6"/>rtus sanctus dicitur quandoque produci amore,
+      quando<lb ed="#G" n="7" break="no"/>ue dicitur amor productus. 
+    </p>
+            <p xml:id="HuYgTa-e43682-d1e1054">
+               <lb ed="#G" n="8"/>
+               <pc type="indent"/>Ad septimum dicendum, quod quamuis spiritus sit produm 
+      <lb ed="#G" n="9"/>ctum naturale, tamen quia amor est, ideo per modum vo 
+      <lb ed="#G" n="10"/>luntatis procedit. 
+    </p>
+            <p xml:id="HuYgTa-e43682-d1e1065">
+               <lb ed="#G" n="11"/>
+               <pc type="indent"/>Ad octauum dicendum, quod actus voluntatis potest 
+      <lb ed="#G" n="12"/>comparari ad obiectum, &amp; ad terminum per ipsum
+      pro<lb ed="#G" n="13" break="no"/>ductum. Primo modo semper est respectu cogniti; sed non 
+      <lb ed="#G" n="14"/>secundo modo. vnde nisi Deus cognosceret suam
+      boni<lb ed="#G" n="15" break="no"/>tatem, quae in productione spiritus sancti est obiectum di 
+      <lb ed="#G" n="16"/>uinae voluntatis ipse numquam produceret spiritum
+      san<lb ed="#G" n="17" break="no"/>ctum, sed ex hoc non oportet, quod spiritus sanctus sit con 
+      <lb ed="#G" n="18"/>gnitus, cum in tali productione ipse non sit obiectum vo 
+      <lb ed="#G" n="19"/>luntatis, sed terminus actionis ipsius voluntatis. 
+    </p>
+            <p xml:id="HuYgTa-e43682-d1e1090">
+               <lb ed="#G" n="20"/>
+               <pc type="indent"/>Ad nonum dicendum, quod quamuis ea, quae sic
+      pro<lb ed="#G" n="21" break="no"/>tedunt a diuina voluntate, quod in aliena natura subsistunt, 
+      <lb ed="#G" n="22"/>possint dici artificiata, non tamen spiritus sanctus, qui sua 
+      <lb ed="#G" n="23"/>processione eandem naturam numero capit cum patre 
+      <lb ed="#G" n="24"/>&amp; filio, qui ipsum producunt 
+    </p>
+            <p xml:id="HuYgTa-e43682-d1e1106">
+               <lb ed="#G" n="25"/>
+               <pc type="indent"/>ARTICVLVS III 
+      <lb ed="#G" n="26"/>Vtrum possint esse plures spiritus sancti.
+    </p>
+            <p xml:id="HuYgTa-e43682-d1e1115">
+               <lb ed="#G" n="27"/>VANTVM ad tertium principale, dato, quod
+      spi<lb ed="#G" n="28" break="no"/>Sritus sanctus procedat per modum voluntatis,
+      v<lb ed="#G" n="29" break="no"/>trum tales personae possent esse plures, dico, quod quamuis 
+      <lb ed="#G" n="30"/>spicitus sanctus per modum voluntatis procedat, non pos 
+      <lb ed="#G" n="31"/>sunt tamen esse plures spiritus sancti. 
+    </p>
+            <p xml:id="HuYgTa-e43682-d1e1128">
+               <lb ed="#G" n="32"/>
+               <pc type="indent"/>1 Quia nullum productum perfecte adaequans per suam a 
+      <lb ed="#G" n="33"/>ductionem proprium suum principium productiuum, quan 
+      <lb ed="#G" n="34"/>tum ad modum suae emanationis, potest multiplicari: da 
+      <lb ed="#G" n="35"/>oppofitum, tunc principium per tale productum non
+      fuis<lb ed="#G" n="36" break="no"/>set adaequatum, sed spiritus sanctus adaequat naturam
+      di<lb ed="#G" n="37" break="no"/>ninam quantum ad emanationem immutabilem, qua al 
+      <lb ed="#G" n="38"/>quid immutabiliter producitur per modum voluntatis. 
+      <lb ed="#G" n="39"/>ltam minorem probo sic: quia si eo modo, quo procedit 
+      <lb ed="#G" n="40"/>spiritus sanctus ab eodem principio procederet aliud sup 
+      <lb ed="#G" n="41"/>positum, tunc spiritus sanctus non esset infinitum
+      produ<lb ed="#G" n="42" break="no"/>ctum, nec infinitae perfectionis; infinitum enim productum 
+      <lb ed="#G" n="43"/>adaequat infinitum principium productiuum, saltem quo 
+      <lb ed="#G" n="44"/>ad suum modum producendi.
+    </p>
+            <p xml:id="HuYgTa-e43682-d1e1161">
+               <lb ed="#G" n="45"/>2 Praeterea, in diuinis suppositis non est multitudo, ni 
+      <lb ed="#G" n="46"/>si secundum oppositas relationes: quia vt ait Ansel. om 
+      <lb ed="#G" n="47"/>nia in diuinis sunt idem, vbi non obuiat relationis oppo. 
+      <lb ed="#G" n="48"/>sitio, sed si plura supposita procederent per modum
+      amo<lb ed="#G" n="49" break="no"/>ris sen voluntatis, tunc non caperent oppositas
+      relatio<lb ed="#G" n="50" break="no"/>nes: quia quaecunque secundum eundem modum
+      pro<lb ed="#G" n="51" break="no"/>cederent, caperent formas similes, &amp; non oppositas, ergo 
+      <lb ed="#G" n="52"/>talia supposita essent plura, &amp; non plura, quod est contradictio.  
+    </p>
+            <p xml:id="HuYgTa-e43682-d1e1181">
+               <lb ed="#G" n="53"/>
+               <pc type="indent"/>Sed forte dicetur, si duo angeli, vel duo homines
+      mu<lb ed="#G" n="54" break="no"/>tuo se diligunt, ipsi non eliciunt, siue pducunt eundem amo 
+      <lb ed="#G" n="55"/>rem, cur ergo pater, &amp; filius mutuo se diligentes alium amo 
+      <lb ed="#G" n="56"/>rem non producunt, cum sint realiter distincta supposit al 
+    </p>
+            <p xml:id="HuYgTa-e43682-d1e1195">
+               <lb ed="#G" n="57"/>
+               <pc type="indent"/>Item, sicut ea, quae sic producuntur, quod in materia re 
+      <lb ed="#G" n="58"/>cipiuntur, multiplicantur multitudine principij
+      recepti<lb ed="#G" n="59" break="no"/>ni, sic ea, quae taliter producuntur, qued in nulla materia
+      re<lb ed="#G" n="60" break="no"/>cipiuntur, debent multiplicari multitudine principij pro 
+      <lb ed="#G" n="61"/>ductiui; sed pater, &amp; filius, qui sunt duo distincta supposi 
+      <lb ed="#G" n="62"/>ta, producunt spiritum sanctum in nulla materia receptum, 
+      <lb ed="#G" n="63"/>ergo non erit vnus spiritus sanctus 
+    </p>
+            <p xml:id="HuYgTa-e43682-d1e1215">
+               <lb ed="#G" n="64"/>
+               <pc type="indent"/>Item, spiritus sanctus non est minoris virtutis, quam  
+      <lb ed="#G" n="65"/>ceterae diuinae personae, sed ceterae diuinae personae sunt 
+      <lb ed="#G" n="66"/>productiuae ad intra, ergo &amp; ipse spiritus sanctus, sed non 
+      <lb ed="#G" n="67"/>producet seipsum, cum nihil possit seipsum producere, er 
+      <lb ed="#G" n="68"/>go producet alium spiritum sanctum 
+    </p>
+            <p xml:id="HuYgTa-e43682-d1e1231">
+               <lb ed="#G" n="69"/>
+               <pc type="indent"/>Respondeo ad primum, quod plures homines habent 
+      <!--156.xml-->
+      <cb ed="#G" n="b"/>
+               <lb ed="#G" n="70"/>plures amores: quia absolute distinguuntur, &amp; habet
+      plu<lb ed="#G" n="71" break="no"/>res voluntates, in quibus voluntatibus distinctis distincti 
+      <lb ed="#G" n="72"/>amores continentur, sed pater &amp; filius se diligunt
+      secun<lb ed="#G" n="73" break="no"/>dum vnam, &amp; eandem voluntatem.
+    </p>
+            <p xml:id="HuYgTa-e43682-d1e1251">
+               <lb ed="#G" n="74"/>Ad secundum dico, quod pater &amp; filius, quamuis suppo 
+      <lb ed="#G" n="75"/>sitaliter sint distincti, tamen in produetione spiritus
+      san<lb ed="#G" n="76" break="no"/>eti concurrunt ut vnum principium ratione unius
+      uirtu<lb ed="#G" n="77" break="no"/>tis spiratiuae, quae est diuina essentia, &amp; ratione vnius
+      spi<lb ed="#G" n="78" break="no"/>rationis actiuae, quae vna &amp; indiuisa est in patre &amp; filio; &amp;  
+      <lb ed="#G" n="79"/>ideo cum sint vnum principium spiritus sancti
+      spirantu<lb ed="#G" n="80" break="no"/>num spiritum sanctum, &amp; non plures. 
+    </p>
+            <p xml:id="HuYgTa-e43682-d1e1269">
+               <lb ed="#G" n="81"/>
+               <pc type="indent"/>Ad tertium dico, quod spiritus sanctus non est
+      mino<lb ed="#G" n="82" break="no"/>ris virtutis ceteris diuinis personis: quia habet in se eam 
+      <lb ed="#G" n="83"/>dem potentiam, siue virtutem spiratiuam, quam habet
+      pa<lb ed="#G" n="84" break="no"/>ter, &amp; filius, scilicet diuinam essentiam per modum
+      uolum<lb ed="#G" n="85" break="no"/>tatis immutabiliter diligentis diuinam bonitatem, non ta 
+      <lb ed="#G" n="86"/>men spirat, siue non prorumpit in actum productionis al 
+      <lb ed="#G" n="87"/>terius spiritus sancti: quia huiusmodi virtutem non habet 
+      <lb ed="#G" n="88"/>sub respectu necessario requisito ad actum spirandi; puta 
+      <lb ed="#G" n="89"/>sub spiratione actiua; sed potius habet talem virtutem sub 
+      <lb ed="#G" n="90"/>opposito respectu, puta sub spiratione passiua, 
+    </p>
+            <p xml:id="HuYgTa-e43682-d1e1295">
+               <lb ed="#G" n="91"/>
+               <pc type="indent"/>ARTICVLVS IR 
+      <lb ed="#G" n="92"/>Vtrum spiritus sanctus prop rie dicatur. 
+      <lb ed="#G" n="93"/>nexus patris &amp; filij¬
+    </p>
+            <p xml:id="HuYgTa-e43682-d1e1307">
+               <lb ed="#G" n="94"/>QVANTVM ad quartum principale utrum spiritus
+      san<lb ed="#G" n="95" break="no"/>ctus proprie dicatur nexus patris &amp; filii, dico quod
+      spi<lb ed="#G" n="96" break="no"/>ritus sanctus proprie dicitur nexus patris &amp; filij 
+    </p>
+            <p xml:id="HuYgTa-e43682-d1e1316">
+               <lb ed="#G" n="97"/>
+               <pc type="indent"/>Quia illud, quod est perfectus amor aliquorum, hoc
+      pprie<lb ed="#G" n="98" break="no"/>di nexus eorum, sed spiritus sanctus est perfectus amor patris 
+      <lb ed="#G" n="99"/>&amp; filij. Maior patet per Dio. de di, non ubi dicit, quoid pfectus 
+      <lb ed="#G" n="100"/>amor transformat amante in amatum, ex quo patet, quod amor 
+      <lb ed="#G" n="101"/>haet uirtutem maxime connexiuam: minor patebit inferius 
+      <lb ed="#G" n="102"/>2 Praeterea, illud, i quo consistit unitas, &amp; conio aliquorum 
+      <lb ed="#G" n="103"/>idem uidetur esse nexus eorum, sed <ref xml:id="HuYgTa-e43682-Rd1e1335">P. Aug. 8. de tri.</ref> dicit spiri 
+      <lb ed="#G" n="104"/>tum sanctum esse communionem, &amp; unitatem patris, &amp; filij 
+    </p>
+            <p xml:id="HuYgTa-e43682-d1e1341">
+               <lb ed="#G" n="105"/>
+               <pc type="indent"/>Forte dicitur contra Aug. quod unitas patris, &amp; silij
+      consi<lb ed="#G" n="106" break="no"/>stit in natura diuina, in qua realiter conueniunt, &amp; non in 
+      <lb ed="#G" n="107"/>piritu sancto, a quo realiter differunt. 
+      <lb ed="#G" n="108"/>2 Praeterea, contra conclusionem arguitur sic. Nexus ui 
+      <lb ed="#G" n="109"/>detur esse eorum, quae secundum se sunt separata, sed
+      trini<lb ed="#G" n="110" break="no"/>tas personarum est inseparabilis, ut ait<ref xml:id="HuYgTa-e43682-Rd1e1358"> Aug. 15. de trin</ref>¬ 
+    </p>
+            <p xml:id="HuYgTa-e43682-d1e1362">
+               <lb ed="#G" n="111"/>
+               <pc type="indent"/>Praeterea, semper nexus mediat inter ea, quae nectit, 
+      <lb ed="#G" n="112"/>sed filius, qui a patre productus producit spiritum sanctum, 
+      <lb ed="#G" n="113"/>est media in trinitate persona 
+    </p>
+            <p xml:id="HuYgTa-e43682-d1e1373">
+               <lb ed="#G" n="114"/>4 Preterea, omne, quod nectit aliqua, uidetur habere 
+      <lb ed="#G" n="115"/>rationem principij aliquo modo super illa, sed spiritus
+      san<lb ed="#G" n="116" break="no"/>tus nullo modo habet rationem principij super patre, &amp;  
+      <lb ed="#G" n="117"/>filium, cum ipse sit productus a patre, &amp; filio, ergo &amp;c. 
+    </p>
+            <p xml:id="HuYgTa-e43682-d1e1384">
+               <lb ed="#G" n="118"/>
+               <pc type="indent"/>Ad primum dicendum, quod quauis pater, &amp; filius differant pso, 
+      <lb ed="#G" n="119"/>naliter a spiritu sancto; tamen in hoc uniuntur spiritus
+      am<lb ed="#G" n="120" break="no"/>cto, quod diligunt se spiritu sancto, qui est mutuus amor
+      pa<lb ed="#G" n="121" break="no"/>tris, &amp; filij, &amp; hoc sufficit ad illud propositum, vt spiritus san 
+      <lb ed="#G" n="122"/>ctus proprie dicatur nexus. In essentia autem pater, &amp; filius 
+      <lb ed="#G" n="123"/>non sic uniuntur: sed potius identificantur, popo quod
+      es<lb ed="#G" n="124" break="no"/>entia diuina proprie non habet rationem nexus respectu 
+      <lb ed="#G" n="125"/>diuinarum personarum: quia secundum quod aliqua sunt 
+      <lb ed="#G" n="126"/>idem, ut sic, non dicuntur connexa; nexus enim
+      coniun<lb ed="#G" n="127" break="no"/>git ea, quae distincta sunt, propter quod oportet, quod nexus 
+      <lb ed="#G" n="128"/>sit distinctus ab his, quae nectit, &amp; quae eidem sunt eade, illa  
+      <lb ed="#G" n="129"/>inter se sunt eade: cum ergo diuina essentia sit eade patri, 
+      <lb ed="#G" n="130"/>&amp; filio, &amp; spiritus sactus differat ab utroqee ideo spiritui san 
+      <lb ed="#G" n="131"/>cto conuenit ro nexus respectu patris, &amp; filii &amp; non essentiae. 
+    </p>
+            <p xml:id="HuYgTa-e43682-d1e1420">
+               <lb ed="#G" n="132"/>
+               <pc type="indent"/>Ad secundum dicendum, quod non est necesse ea, quae nectun 
+      <lb ed="#G" n="133"/>tur secundum se esse separata: quia sufficit, quod sint distincta. 
+      <lb ed="#G" n="134"/>modo pater &amp; filius, qui amorose nectuntur spiritu
+      san<lb ed="#G" n="135" break="no"/>cto, quauis non sint separati, sunt tamen psonaliter distincti 
+    </p>
+            <p xml:id="HuYgTa-e43682-d1e1433">
+               <lb ed="#G" n="136"/>
+               <pc type="indent"/>Ad tertium dicendum, quod quamuis nexus, vt in pposito 
+      <lb ed="#G" n="137"/>accipitur, sit medium inter amans, &amp; amatum: tamen non 
+      <lb ed="#G" n="138"/>est medium inter producens, &amp; productum per modum 
+      <!--157.xml-->
+      <pb ed="#G" n="59-v"/>
+               <cb ed="#G" n="a"/>
+               <lb ed="#G" n="1"/>supposit producentis, &amp; producti, quale medium est ipse 
+      <lb ed="#G" n="2"/>filius in diuinis.  
+    </p>
+            <p xml:id="HuYgTa-e43682-d1e1455">
+               <lb ed="#G" n="3"/>
+               <pc type="indent"/>Ad quartum dicendum, quod quamuis maior sit vera 
+      <lb ed="#G" n="4"/>de eo, quod nectit efficienter, &amp; per modum causae mout 
+      <lb ed="#G" n="5"/>tis: non tamen est vera de connectente per modum ame 
+      <lb ed="#G" n="6"/>ris, quo modo nectuntur spiritu sancto pater, &amp; filius.  
+    </p>
+            <p xml:id="HuYgTa-e43682-d1e1468">
+               <lb ed="#G" n="7"/>
+               <pc type="indent"/>Ad argumentum principale nego consequentiam: Ad 
+      <lb ed="#G" n="8"/>probationem dico, quod voluntas non est principium 
+      <lb ed="#G" n="9"/>spiritus sancti, prout apprehenditur quaecunque forma 
+      <lb ed="#G" n="10"/>ted tantummodo ad apprehensionem vnius formae, quae 
+      <lb ed="#G" n="11"/>est bonitas Dei infinita: quamuis consecutiue ad
+      appre<lb ed="#G" n="12" break="no"/>hensionem illius diuinus intellectus apprehendit
+      o<lb ed="#G" n="13" break="no"/>mnem formam. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,990 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#ThomasStrasbourg">Thomas of Strasbourg</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2020-11-26">November 26, 2020</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="G" n="cod-TxxqU">Genoa 1585</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2020-11-26" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#G" n="P2_76-r"/>
+            <cb ed="#G" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="HuYgTa-217436"><!-- HuYgTa-l4d5q1 -->
+            <head xml:id="HuYgTa-217436-Hd1e108">Quaestio 1</head>
+            <head xml:id="HuYgTa-217436-Hd1e111" type="question-title">
+      An ministri malitia baptismi effectus in
+      suscipiente huiusmodi
+      sacramentum frustretur.
+    </head>
+            <p xml:id="HuYgTa-217436-d1e114">
+               <lb ed="#G" n="72"/>
+               <pc type="indent"/>Quaestio 1. 
+      <lb ed="#G" n="73"/>An ministri malitia baptismi effectus in
+      susci<lb ed="#G" n="74" break="no"/>piente huiusmodi
+      sacramen<lb ed="#G" n="75" break="no"/>tum frustretur.
+    </p>
+            <p xml:id="HuYgTa-217436-d1e127">
+               <lb ed="#G" n="76"/>VTRVM ex malitia baptix antis impediatur baptismi 
+      <lb ed="#G" n="77"/> sacramentum. Videtur quod sic. Quia, qui in se
+      macula<lb ed="#G" n="78" break="no"/>tus est, non potest conserre illud, quo alius emundetur: 
+      <lb ed="#G" n="79"/>sed per baptismum ipse baptixatus emundatur: ergo &amp;c 
+      <lb ed="#G" n="80"/>Minor patet ex fide. Maior probatur per Cregorium, qui 
+      <lb ed="#G" n="81"/>ait. Manus, quae sordes abluit, debet esse munda: alias
+      re<lb ed="#G" n="82" break="no"/>uera non mundaret, sed potius inquinaret 
+    </p>
+            <p xml:id="HuYgTa-217436-d1e145">
+               <lb ed="#G" n="83"/>
+               <pc type="indent"/>Contra, quando virtus principalis agentis est omnipo 
+      <lb ed="#G" n="84"/>tens, tunc malitia ministri non potest effectum impedire: 
+      <lb ed="#G" n="85"/>sed virtus Dei, quae est principale agens in baptixando, 
+      <lb ed="#G" n="86"/>est omnipotens, &amp; infinita : ergo &amp;c. 
+    </p>
+            <p xml:id="HuYgTa-217436-d1e159">
+               <lb ed="#G" n="87"/>
+               <pc type="indent"/>Hic quattuor sunt videnda. Primo de quaesito.
+      Secun<lb ed="#G" n="88" break="no"/>do vtrum non habens ordinem possit baptixare. Tertio 
+      <lb ed="#G" n="89"/>a quo baptismus habeat efficaciam. Et quarto vtrum 
+      <lb ed="#G" n="90"/>Christus potuerit ministris tradere potestatem
+      dimit<lb ed="#G" n="91" break="no"/>tendi peccata. 
+    </p>
+            <p xml:id="HuYgTa-217436-d1e175">
+               <lb ed="#G" n="92"/>
+               <pc type="indent"/>RES OLVTIO. 
+      <lb ed="#G" n="93"/>Malitia, quae nulluam necess ario vequisitum ad baptismum non
+      ex<lb ed="#G" n="94" break="no"/>cludit, eiuss non toslit effecrum; quandoquidem per ministroi 
+      <lb ed="#G" n="95"/>malo: baptixati plerum que (nisi Dei gratiae obicem opponant) 
+      <lb ed="#G" n="96"/>&amp; lacramentum, &amp;x rem sacramenti int egre suscipiunt. 
+    </p>
+            <p xml:id="HuYgTa-217436-d1e191">
+               <lb ed="#G" n="97"/>
+               <pc type="indent"/>ARTICVLV S 1. 
+      <lb ed="#G" n="98"/>Vtrum mmistri malitia baptismi effectus in
+      suscipien<lb ed="#G" n="99" break="no"/>
+               <pc type="indent"/>te huusmodi sacramentum frustretur.
+    </p>
+            <p xml:id="HuYgTa-217436-d1e204">
+               <lb ed="#G" n="100"/>QVANTVM ad primum sic procedam. Primo ponam 
+      <lb ed="#G" n="101"/>duas conclusiones. Secundo faciam duas inciden 
+      <lb ed="#G" n="102"/>tes inquisitiones. 
+    </p>
+            <p xml:id="HuYgTa-217436-d1e213">
+               <lb ed="#G" n="103"/>
+               <pc type="indent"/>Conclusio prima est. Supposito, quod minister in baptix
+      am<lb ed="#G" n="104" break="no"/>do vtatur debita materia, &amp; forma verborum superius 
+      <lb ed="#G" n="105"/>expressa, &amp; intendat baptixare eo modo, quo intendit eo 
+      <lb ed="#G" n="106"/>clesia catholica, tunc non impeditur sacramentum,
+      qua<lb ed="#G" n="107" break="no"/>cumque etiam malitia minister sit infectus: quia omissio 
+      <lb ed="#G" n="108"/>illius, quod non est de substantia sacramenti, &amp; admissio 
+      <lb ed="#G" n="109"/>eius oppositi non impedit sacramentum, sed bonitas
+      mi<lb ed="#G" n="110" break="no"/>nistri, dato, quod sit de congruentia: tamen non est de sub 
+      <lb ed="#G" n="111"/>stantia sacramenti. Maior patet. Minorem probo: quia ea, 
+      <lb ed="#G" n="112"/>quae sunt de substantia sacramenti, debent esse certa, sed  
+      <lb ed="#G" n="113"/>bonitas ministri est valde incerta 
+    </p>
+            <p xml:id="HuYgTa-217436-d1e242">
+               <lb ed="#G" n="114"/>
+               <pc type="indent"/>1 Forte contra istam probationem dicetur, quod maior 
+      <lb ed="#G" n="115"/>non sit vera: quia recta intentio ministri est de substantia 
+      <lb ed="#G" n="116"/>sacramenti, &amp; tamen est incerta: quia de certa solus Deui 
+      <lb ed="#G" n="117"/>cognoscit intentionem hominis 
+    </p>
+            <p xml:id="HuYgTa-217436-d1e256">
+               <lb ed="#G" n="118"/>
+               <pc type="indent"/>2 Praeterea contra conclusionem potest argui sic.
+      ll<lb ed="#G" n="119" break="no"/>tud, quod non est erroneum, hoc videtur esse verum, ma 
+      <lb ed="#G" n="120"/>xime loquendo de his, quae spectant ad sacramenta: sed  
+      <lb ed="#G" n="121"/>dicere, quod malitia haeresis, vel scismatis impediat sacra 
+      <lb ed="#G" n="122"/>mentum non est erroneum: ergo videtur esse verum. Ma 
+      <lb ed="#G" n="123"/>ior patet: quia pposito falsa circa ea, quae credenda sunt, 
+      <lb ed="#G" n="124"/>est erronea: ergo a destructione consequentis proposito ta 
+      <lb ed="#G" n="125"/>lis, si non est erronea, non est falsa: &amp; si non est falsa, tuc est 
+      <!--623.xml-->
+      <pb ed="#G" n="P2_76-v"/>
+               <cb ed="#G" n="a"/>
+               <lb ed="#G" n="1"/>vera. Minor probatur: quia hoc non est erroneum, quod 
+      <lb ed="#G" n="2"/>sanctus ab ecclesia approbatus tenuit vsque ad mortem, 
+      <lb ed="#G" n="3"/>nec vnquam inuenitur reuocasse: sed sanctus Cvprianus 
+      <lb ed="#G" n="4"/>tenuit vsque ad mortem, quod haereticus, &amp; scismaticus, si ba 
+      <lb ed="#G" n="5"/>ptixaret, sacramentum non conferret: ergo &amp;c. 
+    </p>
+            <p xml:id="HuYgTa-217436-d1e295">
+               <lb ed="#G" n="6"/>
+               <pc type="indent"/>3 Praeterea, materia indebita, vel forma indebita eua 
+      <lb ed="#G" n="7"/>cuant sacramentum baptismi: ergo &amp; minister inde bitu 
+      <lb ed="#G" n="8"/>Antecedens patet ex praecedentibus, Probatur consequen 
+      <lb ed="#G" n="9"/>tia: quia non minus necessario requiritur minister ad b 
+      <lb ed="#G" n="10"/>ptismum, quam materia, vel forma: sed planum est, quod 
+      <lb ed="#G" n="11"/>malus homo est indebitus minister, quia sicut Aug. ait 
+      <lb ed="#G" n="12"/>iustos oportet esse tanti iudicis ministros.  
+    </p>
+            <p xml:id="HuYgTa-217436-d1e315">
+               <lb ed="#G" n="13"/>
+               <pc type="indent"/>4 Praeterea, membrum mortuum alijs membris non 
+      <lb ed="#G" n="14"/>potest infiuere vitam: quia nihil dat, quod non habet, set 
+      <lb ed="#G" n="15"/>minister malus in ecclesia est membrum mortuum, &amp;
+      pe<lb ed="#G" n="16" break="no"/>sacramentum baptismi vita influitur baptixato: ergo &amp;c 
+    </p>
+            <p xml:id="HuYgTa-217436-d1e328">
+               <lb ed="#G" n="17"/>
+               <pc type="indent"/>3 Praeterea, nullus potest simul duobus dominis
+      ser<lb ed="#G" n="18" break="no"/>uire, vt dicitur in euangelio, maxime si illi domini sin 
+      <lb ed="#G" n="19"/>contrarij, &amp; inimici, sed verus minister baptismi est min 
+      <lb ed="#G" n="20"/>ster Dei: mortalis autem peccator est minister diaboli 
+      <lb ed="#G" n="21"/>qui sunt duo domini maxime contrarij. 
+    </p>
+            <p xml:id="HuYgTa-217436-d1e344">
+               <lb ed="#G" n="22"/>
+               <pc type="indent"/>S Praeterea, <ref xml:id="HuYgTa-217436-Rd1e350">Augustinus lib, de baptismo paruulorum</ref>, 
+      <lb ed="#G" n="23"/>&amp; habetur. 1. q. 1. ait sic. Separati, scilicet ab ecclesia,
+      for<lb ed="#G" n="24" break="no"/>mam habere possunt: virtus tamen in eis esse non potest,  
+      <lb ed="#G" n="25"/>quemadmodum sensus non sequitur membrum; quando 
+      <lb ed="#G" n="26"/>amputatur a corpore. Item <name xml:id="HuYgTa-217436-Nd1e362" ref="#Ambrose">Ambrosius</name> in lib de
+      initian<lb ed="#G" n="27" break="no"/>dis rudibus, &amp; habetur. 1. q4. 1. non sanat, ait, Daptismus per 
+      <lb ed="#G" n="28"/>fidorum non mundat, sed polluit 
+    </p>
+            <p xml:id="HuYgTa-217436-d1e370">
+               <lb ed="#G" n="29"/>
+               <pc type="indent"/>Sed ista non concludunt. Intentio enim sanctorum ex 
+      <lb ed="#G" n="30"/>pressa est pro ipsa conclusione prius posita, vt patet por 
+      <lb ed="#G" n="31"/>auctoritates in littera hic adductas. Vnde etiam ait
+      Au<lb ed="#G" n="32" break="no"/>gustinus super loan. Daptismus talis est, qualis est iste, in 
+      <lb ed="#G" n="33"/>cuius potestate datur, non qualis est minister, a quo
+      da<lb ed="#G" n="34" break="no"/>tur. Item Augustinus contra Crescentium ait. Si non est 
+      <lb ed="#G" n="35"/>melior baptismus, qui per meliorem datur, nullo modo 
+      <lb ed="#G" n="36"/>malus est qui per malum datur,  
+    </p>
+            <p xml:id="HuYgTa-217436-d1e393">
+               <lb ed="#G" n="37"/>
+               <pc type="indent"/>Item, Augustinus ad Orosium dicit, quod ecclesia
+      il<lb ed="#G" n="38" break="no"/>los non rebaptixat, qui ab haereticis foris ecclesiam bapti 
+      <lb ed="#G" n="39"/>cati sunt in nomine patris, &amp; filij, &amp; spiritus sancti 
+    </p>
+            <p xml:id="HuYgTa-217436-d1e404">
+               <lb ed="#G" n="40"/>
+               <pc type="indent"/>Ad primum dicendum, quod intentio dupliciter
+      po<lb ed="#G" n="41" break="no"/>test accipi. Vno modo, vt clausa est intra cordis secreta 
+      <lb ed="#G" n="42"/>Alio modo, vt relucet in exteriori apparentia. Et isto
+      se<lb ed="#G" n="43" break="no"/>cundo modo sufficit ad hoc, quod aliquis non sit rebapti 
+      <lb ed="#G" n="44"/>tandus, vt scilicet minister praetendat extrinsecus se
+      ha<lb ed="#G" n="45" break="no"/>bere rectam intentionem 
+    </p>
+            <p xml:id="HuYgTa-217436-d1e422">
+               <lb ed="#G" n="46"/>
+               <pc type="indent"/>Ad secundum dicendum, quod non quodlibet dictum 
+      <lb ed="#G" n="47"/>falsum de sacramentis est erroneum, nisi vel directe sit con 
+      <lb ed="#G" n="48"/>tra fidem, vel saltem eius oppositum aliquo modo sit por 
+      <lb ed="#G" n="49"/>ecclesiam determinatum. Ergo dictum Cvpriani pro tun 
+      <lb ed="#G" n="50"/>non fuit erroneum, quando vixit Cvprianus: quia ab
+      ec<lb ed="#G" n="51" break="no"/>clesia non fuit oppositum illius dicti determinatum, nec 
+      <lb ed="#G" n="52"/>ipse asseruit cum tali temeritate, quin dicta sua supposue 
+      <lb ed="#G" n="53"/>rit correctioni ecclesiae
+    </p>
+            <p xml:id="HuYgTa-217436-d1e444">
+               <lb ed="#G" n="54"/>Et ista videtur esse intentio beati Augustini in libro, di 
+      <lb ed="#G" n="55"/>vnico baptismo, vbi recitat opinionem Cvpriani¬ 
+    </p>
+            <p xml:id="HuYgTa-217436-d1e451">
+               <lb ed="#G" n="56"/>
+               <pc type="indent"/>Ad tertium dicendum, quod debitum dupliciter dici 
+      <lb ed="#G" n="57"/>otest. Vno modo debitum necessitatis: Alio modo
+      de<lb ed="#G" n="58" break="no"/>bitum congruitatis. Primo modo, aqua etiam si
+      immun<lb ed="#G" n="59" break="no"/>da sit, est debita materia baptismi: nam in necessitate, ci 
+      <lb ed="#G" n="60"/>aqua munda haberi non potest, etiam turbida, &amp; immun 
+      <lb ed="#G" n="61"/>da aqua sufficit ad bantismum: Non est tamen debita ma 
+      <lb ed="#G" n="62"/>teria loquendo de debito congruitatis: quia ad
+      reueren<lb ed="#G" n="63" break="no"/>tiam tanti sacramenti decens, &amp; congruum esse videtur; 
+      <lb ed="#G" n="64"/>quod pro eius materia aqua munda accipatur. Sic licet 
+      <lb ed="#G" n="65"/>homo peccator non sit debitus minister, loquendo de con 
+      <lb ed="#G" n="66"/>gruitate, pro necessitate tamen sufficit 
+    </p>
+            <p xml:id="HuYgTa-217436-d1e480">
+               <lb ed="#G" n="67"/>
+               <pc type="indent"/>Ad quartum dicendum, quod non est simile de
+      mem<lb ed="#G" n="68" break="no"/>bro corporali, &amp; ministro baptixante: quia quamuis a comn 
+      <lb ed="#G" n="69"/>de animalis non deriuentur ad membra remotiora
+      spi<lb ed="#G" n="70" break="no"/>ritus vitales, nisi transeant membra propinquiora: tamen 
+      <lb ed="#G" n="71"/>gratia, quam dat Deus bapticato, ipsum viuificando, non 
+      <lb ed="#G" n="72"/>transit ipsum ministrum, sed immediate causatur a Dec 
+      <lb ed="#G" n="73"/>in ipso baptixato: ideo quamuiscumque minister sit mem 
+      <!--623.xml-->
+      <cb ed="#G" n="b"/>
+               <lb ed="#G" n="74"/>brum aridum: tamen vita spiritualis transit a Deo in
+      ip<lb ed="#G" n="75" break="no"/>sum baptixatum. 
+    </p>
+            <p xml:id="HuYgTa-217436-d1e510">
+               <lb ed="#G" n="76"/>
+               <pc type="indent"/>Ad quintum dicendum, quod aliquis potest dici verus 
+      <lb ed="#G" n="77"/>minister dupliciter. Vno modo, ueritate se tenente ex 
+      <lb ed="#G" n="78"/>parte illius, quod ministratur, puta: quia illud vere sit,
+      re<lb ed="#G" n="79" break="no"/>spectu cuius dicitur esse minister. Alio modo, veritate se 
+      <lb ed="#G" n="80"/>tenente ex parte merito ministrantis, puta, si dignus, &amp; me 
+      <lb ed="#G" n="81"/>ritorius est minister. Modo licet isto secundo modo mi- 
+      <lb ed="#G" n="82"/>nister baptismi sit minister Dei, tamen non semper pri¬¬ 
+      <lb ed="#G" n="83"/>mo modo: quia nullus peccat in eo, quod est minister 
+      <lb ed="#G" n="84"/>Dei, sed aliquis verus minister baptisimi, veritate se teneo 
+      <lb ed="#G" n="85"/>te ex parte baptismi, puta: quia illud, quod confertur per 
+      <lb ed="#G" n="86"/>ipsum, est verus baptismus, quandoque peccat mortaliter 
+      <lb ed="#G" n="87"/>ideo, quod indignus, &amp; peccator existens sine
+      necessita<lb ed="#G" n="88" break="no"/>te praesumit ministrare: ideo, vt sic, minor illius rationis 
+      <lb ed="#G" n="89"/>est falsa. 
+    </p>
+            <p xml:id="HuYgTa-217436-d1e545">
+               <lb ed="#G" n="90"/>
+               <pc type="indent"/>Ad sextum dicendum, quod quamuis in talibus, qui 
+      <lb ed="#G" n="91"/>ab ecclesia sunt praecisi non sit virtus, tamen si aliquis
+      si<lb ed="#G" n="92" break="no"/>ne fraude ab ipsis baptixetur secundum consuetam
+      for<lb ed="#G" n="93" break="no"/>mam ecclesiae, tunc in ipso baptix ato potest esse virtus,  
+      <lb ed="#G" n="94"/>sicut patebit insequenti conclusione. 
+    </p>
+            <p xml:id="HuYgTa-217436-d1e561">
+               <lb ed="#G" n="95"/>
+               <pc type="indent"/>Secunda conclusio est, quod baptixatus per
+      huiusmo<lb ed="#G" n="96" break="no"/>di malum ministrum non solum recipit sacramentum: ve 
+      <lb ed="#G" n="97"/>rum etiam recipit rem sacramenti, dummodo
+      baptina<lb ed="#G" n="98" break="no"/>tus non ponat obicem. Nam, secundum beatum Augusti 
+      <lb ed="#G" n="99"/>num, sicut per canalem lapideum transit aqua ad areolas 
+      <lb ed="#G" n="100"/>aromatum, sic ad opus factum etiam per malum ministrum 
+      <lb ed="#G" n="101"/>Deus transfundit irriguum gratiarum. Sicut enim malus. 
+      <lb ed="#G" n="102"/>eruus non tollit vtilitatem eleemosinae transmissae per 
+      <lb ed="#G" n="103"/>bonum dominum, quinimmo aeque vtilis est recipienti, 
+      <lb ed="#G" n="104"/>sicut si transmitteretur per seruum bonum: sic &amp;c 
+    </p>
+            <p xml:id="HuYgTa-217436-d1e587">
+               <lb ed="#G" n="105"/>
+               <pc type="indent"/>1 Forte dicetur, quandocumque est malus
+      media<lb ed="#G" n="106" break="no"/>tor intercedens pro seruo apud iratum dominum, tunc 
+      <lb ed="#G" n="107"/>dominus non placatur: sed ad maiorem iracundiam
+      pro<lb ed="#G" n="108" break="no"/>uocatur, teste Srego,. qui ait. Cum is, qui displicet, ad
+      in<lb ed="#G" n="109" break="no"/>tercedendum mittitur, irati animus ad deteriora
+      prouo<lb ed="#G" n="110" break="no"/>catur, sed minister sacramenti est mediator inter Deum 
+      <lb ed="#G" n="111"/>&amp; eum, cui amministrat sacramentum: ergo malo
+      mini<lb ed="#G" n="112" break="no"/>stro baptixante Deus non dat gratiam baptixato. 
+    </p>
+            <p xml:id="HuYgTa-217436-d1e609">
+               <lb ed="#G" n="113"/>
+               <pc type="indent"/>2 Praeterea, ecclesiastici. 34 dicitur. Ab immudo quis 
+      <lb ed="#G" n="114"/>mudabitur: quasi dicat, nullus. Sed malus minister est im 
+      <lb ed="#G" n="115"/>mundus: ergo ipso baptixante non mudabitur baptixatus. 
+    </p>
+            <p xml:id="HuYgTa-217436-d1e620">
+               <lb ed="#G" n="116"/>
+               <pc type="indent"/>Praeterea, <ref xml:id="HuYgTa-217436-Rd1e626">Augustinus 2. de lib arbit.</ref> ait, nulla res 
+      <lb ed="#G" n="117"/>potest dare illud, quod non habet : ergo malus minister 
+      <lb ed="#G" n="118"/>non potest dare effectum, seu rem sacramenti puta gratiam 
+      <lb ed="#G" n="119"/>Dei, cum ipse causam non habeat. 
+    </p>
+            <p xml:id="HuYgTa-217436-d1e638">
+               <lb ed="#G" n="120"/>
+               <pc type="indent"/>Ad primum dicendum, quod quamuis maior sit vera,
+      lo<lb ed="#G" n="121" break="no"/>quendo de mediatione per modum meriti: tamen non 
+      <lb ed="#G" n="122"/>est vera loquendo de mediatione per modum simplicis 
+      <lb ed="#G" n="123"/>ministerij, sed baptixans non est mediator primo modo. 
+      <lb ed="#G" n="124"/>nam Deus non dat gratiam suam baptix ato propter
+      me<lb ed="#G" n="125" break="no"/>rita baptixantis: sed propter infallibile promissum suae or- 
+      <lb ed="#G" n="126"/>dinationis, sic enim ordinauit Deus, quod bapticatus in
+      no<lb ed="#G" n="127" break="no"/>mine patris, &amp; filij, &amp; spiritus sancti gratiam consequatur. 
+    </p>
+            <p xml:id="HuYgTa-217436-d1e660">
+               <lb ed="#G" n="128"/>
+               <pc type="indent"/>Ad secundum dicendum, quod minifter non mundat pro 
+      <lb ed="#G" n="129"/>prie loquendo, sed Deus solus est, qui facit mundum de 
+      <lb ed="#G" n="130"/>mmundo conceptum semine, vt patet in libro <name xml:id="HuYgTa-217436-Nd1e670" ref="#Job">Iob</name>  
+            </p>
+            <p xml:id="HuYgTa-217436-d1e674">
+               <lb ed="#G" n="131"/>
+               <pc type="indent"/>Ad tertium dicendum, quod licet nullus possit dare, 
+      <lb ed="#G" n="132"/>quod non habet, tamen aliquis potest facere ministerium, 
+      <lb ed="#G" n="133"/>ratione cuius alter recipit quod non habet ille, qui facit 
+      <lb ed="#G" n="134"/>ministerium. Posset, enm aliquis mihi portare literam Pape 
+      <lb ed="#G" n="135"/>vel lmperatoris, ratione cuius literae magnum recipere 
+      <lb ed="#G" n="136"/>beneficium, licet illius literae transportator beneficiun 
+      <lb ed="#G" n="137"/>nuiusmodi nec haberet, nec vmquam habiturus esset. Sis 
+      <lb ed="#G" n="138"/>n proposito &amp;c 
+    </p>
+            <p xml:id="HuYgTa-217436-d1e696">
+               <lb ed="#G" n="139"/>
+               <pc type="indent"/>lstis ergo conclusionibus praepositis merito dubita 
+      <lb ed="#G" n="140"/>tur, vtrum recipiens baptismum a ministro, quem scit es 
+      <lb ed="#G" n="141"/>se malum peccet mortaliter. Hic est distinguendum, 
+      <lb ed="#G" n="142"/>quia aut malitia talis ministri est tanta, quod ipse est ab 
+      <lb ed="#G" n="143"/>ecclesia per sententiam excommunicationis praecisus,  
+      <lb ed="#G" n="144"/>iut non est ab ecclesia praecisus.
+    </p>
+            <p xml:id="HuYgTa-217436-d1e714">
+               <lb ed="#G" n="145"/>Si primo modo hoc dupliciter: quia vel est articulus ne 
+      <lb ed="#G" n="146"/>cessitatis, puta, si baptixandus est i mortis periculo, vel non 
+      <!--624.xml-->
+      <pb ed="#G" n="P2_77-r"/>
+               <cb ed="#G" n="a"/>
+               <lb ed="#G" n="1"/>Si primo modo, tunc vel potest habere alium ministrum, vel 
+      <lb ed="#G" n="2"/>non potest habere alium ministrum. Si existens in
+      huius<lb ed="#G" n="3" break="no"/>modi periculo potest habere alium, qui baptixet eum, 
+      <lb ed="#G" n="4"/>tunc videtur, si baptixatur voluntarie a praeciso, quod
+      mor<lb ed="#G" n="5" break="no"/>taliter peccet: quia communicare excommunicato in 
+      <lb ed="#G" n="6"/>actibus sacramentalibus videtur esse mortale peccatum. 
+      <lb ed="#G" n="7"/>nisi excu setur aliqua legitima necessitate, quae tamen in 
+      <lb ed="#G" n="8"/>proposito non apparet. Si autem inse baptixandus est in 
+      <lb ed="#G" n="9"/>extrema necessitate, &amp; non potest habere alium, tunc se 
+      <lb ed="#G" n="10"/>cundum opinionem magis communem sine peccato
+      ba<lb ed="#G" n="11" break="no"/>tixari potest a praeciso. Et ista est intentio Beati
+      Augu<lb ed="#G" n="12" break="no"/>stini de baptismo contra Donatistas lib. 8. Tali namque 
+      <lb ed="#G" n="13"/>casu posito potest quis licite etiam a pagano baptitari, vt 
+      <lb ed="#G" n="14"/>expresse habetur de conse. dist. 1. c. Homan¬ 
+    </p>
+            <p xml:id="HuYgTa-217436-d1e758">
+               <lb ed="#G" n="15"/>
+               <pc type="indent"/>Sed contra istud est quaedam opnio, quae ponit, quod 
+      <lb ed="#G" n="16"/>in nullo casu potest aliquis baptismum recipere ab eo,  
+      <lb ed="#G" n="17"/>qui praecisus est ab ecclesia sine mortali peccato propter 
+      <lb ed="#G" n="18"/>praeceptum ecclesiae, quo prohibetur communio cum ex 
+      <lb ed="#G" n="19"/>communicatis, &amp; maxime in actibus sacramentalibus. 
+      <lb ed="#G" n="20"/>Et si dicitur isti, quod ille moreretur sine baptismo, &amp;  
+      <lb ed="#G" n="21"/>per consequens decederet in periculo perpetuae
+      damna<lb ed="#G" n="22" break="no"/>tionis, respondet, quod hoc non est verum
+    </p>
+            <p xml:id="HuYgTa-217436-d1e781">
+               <lb ed="#G" n="23"/>1 Quia ille baptixandus, vel est adultus, vel paruulus 
+      <lb ed="#G" n="24"/>Si est adultus, tuc saluabitur baptismo faminis: quia ipse 
+      <lb ed="#G" n="25"/>est in tali casu, in quo non potest habere baptismum
+      flu<lb ed="#G" n="26" break="no"/>minis propter defectum ministri, cum nullum possit
+      ha<lb ed="#G" n="27" break="no"/>bere sine mortali peccato. In tali enim casu, m quo non 
+      <lb ed="#G" n="28"/>potest haberi minister, tunc sufficit baptismus faminis 
+      <lb ed="#G" n="29"/>ad salutem. Si vero baptixandus est paruulus, tunc ille, 
+      <lb ed="#G" n="30"/>qui offert eum siue sit laicus, siue clericus, siue vir, siuc 
+      <lb ed="#G" n="31"/>mulier debet eum potius personaliter baptitare, quam  
+      <lb ed="#G" n="32"/>offerat eum excommunicato, vt baptiretur ab eo. 
+    </p>
+            <p xml:id="HuYgTa-217436-d1e805">
+               <lb ed="#G" n="33"/>2 Praeterea, arguitur pro istis sic. Quicumque est
+      ali<lb ed="#G" n="34" break="no"/>cui causa mortalis peccati, ille mortaliter peccat: sed re 
+      <lb ed="#G" n="35"/>cipiens baptismum a praeciso est sibi causa mortalis pec 
+      <lb ed="#G" n="36"/>cati: quia cum ipse sit prohibitus a sacramentorum
+      colla<lb ed="#G" n="37" break="no"/>tione; ergo sacramentum conferendo peccat mortaliter. 
+      <lb ed="#G" n="38"/>Sed contra istud dicunt doctores communes, quod plus 
+      <lb ed="#G" n="39"/>ligat mandatum Dei, quam mandatum iudicis ecclesia 
+      <lb ed="#G" n="40"/>stici: sed mandatum Dei est, quod omnes baptixemur ba 
+      <lb ed="#G" n="41"/>ptismo flumins, &amp; mandatum iudicis est non
+      communi<lb ed="#G" n="42" break="no"/>care excommunicato: ergo &amp;c. Propter quod ait August. 
+      <lb ed="#G" n="43"/>super loan. Non exhorreat columba ministerium malorum. 
+    </p>
+            <p xml:id="HuYgTa-217436-d1e831">
+               <lb ed="#G" n="44"/>
+               <pc type="indent"/>Ad rationem istorum dicendum, quod minor non ess 
+      <lb ed="#G" n="45"/>vera: illo enim casu posito excommunicatus non
+      pecca<lb ed="#G" n="46" break="no"/>ret hominem sine sollenitate baptixando: Sicut enim 
+      <lb ed="#G" n="47"/>peccaret, si alicui comunicaret ipsum liberando a morto 
+      <lb ed="#G" n="48"/>riuante vitam corporalem, sicnec hic peccaret,
+      liberan<lb ed="#G" n="49" break="no"/>do hominem a morte priuante vitam aeternalem. 
+    </p>
+            <p xml:id="HuYgTa-217436-d1e849">
+               <lb ed="#G" n="50"/>
+               <pc type="indent"/>Si autem homini minister est malus malitia
+      mor<lb ed="#G" n="51" break="no"/>talis peccati, ita tamen, quod non est praecisus ab ec 
+      <lb ed="#G" n="52"/>clesia: tunc vel illud peccatum non est notorium, puta 
+      <lb ed="#G" n="53"/>nondum induxit scandalum in populo: tunc non debet 
+      <lb ed="#G" n="54"/>vitari, maxime si baptixandus est subditus suus: quia
+      pro<lb ed="#G" n="55" break="no"/>pter peccatum, quod non est notorium, non debet
+      ali<lb ed="#G" n="56" break="no"/>quis in actibus notorijs vitare proximum, &amp; per
+      conse<lb ed="#G" n="57" break="no"/>quens multo minus superiorem, seu praelatum suum. Si 
+      <lb ed="#G" n="58"/>vero peccatum est notorium, adhuc non peccat subditus 
+      <lb ed="#G" n="59"/>petendo pro se, &amp; pro paruulo suo baptismum a tali
+      mi<lb ed="#G" n="60" break="no"/>nistro, &amp; etiam recipiendo ab eo: quia nullus peccat in 
+      <lb ed="#G" n="61"/>eo, quod debitum petit, &amp; recipit ab eo, qui tenetur: sed  
+      <lb ed="#G" n="62"/>sacerdos parochialis, vel vicem eius gerens tenetur
+      sub<lb ed="#G" n="63" break="no"/>ditis suis ministrare ecclesiastica sacramenta: ergo &amp;c. 
+    </p>
+            <p xml:id="HuYgTa-217436-d1e884">
+               <lb ed="#G" n="64"/>
+               <pc type="indent"/>Forte dicetur, quod auctoritas <name xml:id="HuYgTa-217436-Nd1e890" ref="#Ambrose">Ambro.</name> huic dicto vidi 
+      <lb ed="#G" n="65"/>tur repugnare. Nam in li de initiandis rudibus loquens di 
+      <lb ed="#G" n="66"/>malis ministris, &amp; de his, qui ab eis baptismum recipiunt 
+      <lb ed="#G" n="67"/>ait. Ipsis, qui faciunt, &amp; quibus faciunt, nihil prodest, sed 
+      <lb ed="#G" n="68"/>ad iudicium eis est 
+    </p>
+            <p xml:id="HuYgTa-217436-d1e903">
+               <lb ed="#G" n="69"/>2 Praeterea, si iste sacerdos teneretur baptixare peten 
+      <lb ed="#G" n="70"/>tem, tunc ipse esset perplexus: quia baptixando peccaret,  
+      <lb ed="#G" n="71"/>eo quod manifestus peccator non possit sacramenta mi- 
+      <lb ed="#G" n="72"/>nistrare sine peccato de nouo contracto, non baptixande 
+      <lb ed="#G" n="73"/>iterum peccaret, quia non saceret quod teneretur facerc.
+    </p>
+            <p xml:id="HuYgTa-217436-d1e917">
+      <!--624.xml-->
+               <cb ed="#G" n="b"/>
+               <lb ed="#G" n="74"/>Ad primum dicendum, quod auctoritas Amb non est ad 
+      <lb ed="#G" n="75"/>propositum: quia ipse ibi loquitur de haereticis, &amp; de hi- 
+      <lb ed="#G" n="76"/>qui illa intentione baptixatur ab eis, quod haeresim eorum 
+      <lb ed="#G" n="77"/>tenere, &amp; desensare proponunt. 
+    </p>
+            <p xml:id="HuYgTa-217436-d1e933">
+               <lb ed="#G" n="78"/>
+               <pc type="indent"/>Ad secundum dicendum, quod talis sacerdos non est
+      per<lb ed="#G" n="79" break="no"/>lexus: quia Deus miseretur omnibus inuocantibus eum 
+      <lb ed="#G" n="80"/>in veritate: &amp; ideo talis sacerdos debet poenitere de
+      pec<lb ed="#G" n="81" break="no"/>catis suis, &amp; tunc licite poterit baptixare. Si autem
+      ba<lb ed="#G" n="82" break="no"/>tixandus petit, &amp; recipit baptismum ab aliquo notorio 
+      <lb ed="#G" n="83"/>eccatore, qui non habet iurisdictionem super ipsum
+      si<lb ed="#G" n="84" break="no"/>ne necessitatis articulo, &amp; quando potest habere
+      melio<lb ed="#G" n="85" break="no"/>rem: tunc mortaliter peccat: sed si est in articulo
+      neces<lb ed="#G" n="86" break="no"/>sitatis, &amp; non potest habere meliorem: tunc non peccat,  
+      <lb ed="#G" n="87"/>vt patet ex praecedentibus 
+    </p>
+            <p xml:id="HuYgTa-217436-d1e959">
+               <lb ed="#G" n="88"/>
+               <pc type="indent"/>Insuper potest dubitari circa istam materiam posito, 
+      <lb ed="#G" n="89"/>quod diabolus appareret alicui baptixando in specie
+      sa<lb ed="#G" n="90" break="no"/>cerdotis, &amp; baptixaret eum in aqua, dicendo consuetam  
+      <lb ed="#G" n="91"/>formam verborum, vtrum talis vere sit baptixatus 
+    </p>
+            <p xml:id="HuYgTa-217436-d1e972">
+               <lb ed="#G" n="92"/>
+               <pc type="indent"/>Respondeo, quod non esset baptix atus: quia quando 
+      <lb ed="#G" n="93"/>constat de certo, quod ille, qui baptixat, non habet
+      in<lb ed="#G" n="94" break="no"/>tentionem rectam, nec intendit salutem baptixati: sed  
+      <lb ed="#G" n="95"/>magis perditionem, tunc per eum baptixatus iterum est 
+      <lb ed="#G" n="96"/>baptix andus: sed ex scriptura sacra de certo nobis
+      con<lb ed="#G" n="97" break="no"/>stat: quod demon non habet intentionem faciendi ea, quae 
+      <lb ed="#G" n="98"/>spectant ad hominis salutem: sed solum ea, quae faciunt  
+      <lb ed="#G" n="99"/>ad hominis perditionem. 
+    </p>
+            <p xml:id="HuYgTa-217436-d1e994">
+               <lb ed="#G" n="100"/>
+               <pc type="indent"/>ARTICVLVS P 
+      <lb ed="#G" n="101"/>Vtrum non habeus ordinem possit 
+      <lb ed="#G" n="102"/>
+               <pc type="indent"/>baptixare.
+    </p>
+            <p xml:id="HuYgTa-217436-d1e1007">
+               <lb ed="#G" n="103"/>QVANTVM ad secundum articulum dicendum, quod 
+      <lb ed="#G" n="104"/> cum baptismus sit sacramentum maximae necessi 
+      <lb ed="#G" n="105"/>tatis: ideo istud sacramentum, &amp; quantum ad materiam, 
+      <lb ed="#G" n="106"/>&amp; quantum ad ministrum, est omnibus aliis sacramentis 
+      <lb ed="#G" n="107"/>minus limitatum. Vnde sicut in necessitatis articulo
+      om<lb ed="#G" n="108" break="no"/>nis aqua est vera materia baptismi: tamen non ingruenter 
+      <lb ed="#G" n="109"/>necessitate ad reuerentiam sacramenti homo non debet 
+      <lb ed="#G" n="110"/>paptixari, nisi in aqua benedicta, seu per benedictionem 
+      <lb ed="#G" n="111"/>sanctificata: sic eodem modo quantum ad ministrum in 
+      <lb ed="#G" n="112"/>necessitatis articulo quilibet homo potest baptixare: sed  
+      <lb ed="#G" n="113"/>non imminente necessitate, tunc ad honorem sacramenti 
+      <lb ed="#G" n="114"/>olus sacerdos debet baptixare: quia tantummodo
+      sacer<lb ed="#G" n="115" break="no"/>doti conuenit baptixare ex officij auctoritate: licet aliis 
+      <lb ed="#G" n="116"/>conueniat ex permissione iuris. Posito tamen casu, quod 
+      <lb ed="#G" n="117"/>aliquis baptiretur in aqua non benedicta, &amp;a ministro 
+      <lb ed="#G" n="118"/>non sacerdote, cum tamen congrue posset habere
+      sacer<lb ed="#G" n="119" break="no"/>dotem, qui eum baptiaaret in aqua sanctificata, ille
+      qui<lb ed="#G" n="120" break="no"/>dem esset baptixatus, nec esset rebaptix andus: quamuis 
+      <lb ed="#G" n="121"/>baptix ans grauiter peccaret, ac etiam haptixatus, si fuerit 
+      <lb ed="#G" n="122"/>rationis capax, &amp; nouerit statutum ecclesiae. 
+    </p>
+            <p xml:id="HuYgTa-217436-d1e1054">
+               <lb ed="#G" n="123"/>
+               <pc type="indent"/>ARTICVLVS I 
+      <lb ed="#G" n="124"/>Aquo baptismus habeat efficaciam.
+    </p>
+            <p xml:id="HuYgTa-217436-d1e1063">
+               <lb ed="#G" n="125"/>VANTVM ad tertium articulum est aduertendum, 
+      <lb ed="#G" n="126"/>, quod efficacia ipsius baptismi, ac ceterorum
+      sa<lb ed="#G" n="127" break="no"/>tramentorum nouae legis in hoc consistit, quod
+      median<lb ed="#G" n="128" break="no"/>tibus sacramentis nobis confertur gratia: illud ergo ess 
+      <lb ed="#G" n="129"/>causa efficaciae sacramentorum, quod est causa gratiae. Haec 
+      <lb ed="#G" n="130"/>autem causa potest intelligi dupliciter. Vno modo,
+      prin<lb ed="#G" n="131" break="no"/>ipalis, &amp; effectiua. Alio modo, meritoria, &amp;
+      dispositua<lb ed="#G" n="132" break="no"/>Primo modo sola voluntas diuina est causa efficaciae
+      sa<lb ed="#G" n="133" break="no"/>cramentorum: quia ab ipsa principaliter effectiue
+      depen<lb ed="#G" n="134" break="no"/>det omne bonum nostrum. Praeterea, a quo sacramenta 
+      <lb ed="#G" n="135"/>sunt instituta, ab illo principaliter dependet eorum effi- 
+      <lb ed="#G" n="136"/>acia: sed a solo Deo sacramenta nouae legis sunt
+      institu<lb ed="#G" n="137" break="no"/>ta, vt probatum est superius: ergo &amp;c. Sed secundo
+      mo<lb ed="#G" n="138" break="no"/>do, passio Christi est causa huius efficaciae: quia Christus 
+      <!--625.xml-->
+      <pb ed="#G" n="P2_77-v"/>
+               <cb ed="#G" n="a"/>
+               <lb ed="#G" n="1"/>fua passione merebatur nobis gratiam in futuro. Et istuc 
+      <lb ed="#G" n="2"/>patet per glosam ad Ro. 5: vbi ait glosa. Ex latere Christi 
+      <lb ed="#G" n="3"/>dormientis in cruce fluxerunt sacramenta, per quae salus 
+      <lb ed="#G" n="4"/>ta est ecclesia. Ista alia est expressa intentio <ref xml:id="HuYgTa-217436-Rd1e1110">August. 15.  
+      <lb ed="#G" n="5"/>de ciuit. Dei</ref>. vbi ait. Ostium in latere arcae profecto est 
+      <lb ed="#G" n="6"/>vulnus, quo latus sacrificij vulneratum est lancea, hoc quip 
+      <lb ed="#G" n="7"/>pe ingrediuntur viuentes: quia inde sacramenta mana 
+      <lb ed="#G" n="8"/>runt, quibus credentes viuunt: De his etiam tetigi <ref xml:id="HuYgTa-217436-Rd1e1122">supe¬ 
+        <lb ed="#G" n="9"/>rius. lib 3. dist. 10. arti. 1. conclusione secunda</ref>
+            </p>
+            <p xml:id="HuYgTa-217436-d1e1128">
+               <lb ed="#G" n="10"/>1 Sed contra istud potest argui sic. Christus post
+      mor<lb ed="#G" n="11" break="no"/>tem non erat causa meritoria alicuius gratiae: sed vulnus 
+      <lb ed="#G" n="12"/>in latere fuit sibi inflictum post mortem, vt patet. loam. 15. 
+    </p>
+            <p xml:id="HuYgTa-217436-d1e1137">
+               <lb ed="#G" n="13"/>2 Praeterea, si sacramenta nouae legis habent effica 
+      <lb ed="#G" n="14"/>ciam ex passione Christi, aut homo esset, vt illa passio prae 
+      <lb ed="#G" n="15"/>uisa erat, aut, vt executioni mandata. Non primo modo 
+      <lb ed="#G" n="16"/>quia tunc pari ratione sacramenta veteris legis
+      habuis<lb ed="#G" n="17" break="no"/>sent efficaciam ex Christi passione, cum ab aeterno huiu 
+      <lb ed="#G" n="18"/>modi passio a Deo fuerit praeuisa. consequens autem es 
+      <lb ed="#G" n="19"/>falsum: quia sacramenta legalia figurabant gratiam: sec 
+      <lb ed="#G" n="20"/>non habuerunt efficaciam dandi gratiam. Si secundo mo 
+      <lb ed="#G" n="21"/>do, tunc baptismus, &amp; eucharistia non habuissent
+      effica<lb ed="#G" n="22" break="no"/>ciam, cum fuerint instituta ante Christi passionem. 
+    </p>
+            <p xml:id="HuYgTa-217436-d1e1161">
+               <lb ed="#G" n="23"/>
+               <pc type="indent"/>3 Praeterea, nihil potest esse causa gratiae per modum 
+      <lb ed="#G" n="24"/>meriti: ergo passio Christi non potest esse causa
+      merito<lb ed="#G" n="25" break="no"/>ria efficaciae sacramentorum. Consequentia patet: quia 
+      <lb ed="#G" n="26"/>efficacia sacramentorum consistit in collatione gratiae 
+      <lb ed="#G" n="27"/>Antecedens patet per <ref xml:id="HuYgTa-217436-Rd1e1176">Apostolum ad Ro</ref>, vbi dicitur. Si 
+      <lb ed="#G" n="28"/>enim ex meritis iam non est gratia 
+    </p>
+            <p xml:id="HuYgTa-217436-d1e1182">
+               <lb ed="#G" n="29"/>
+               <pc type="indent"/>Praeterea effectus in actu requirit causam in actu; 
+      <lb ed="#G" n="30"/>sed efficacia sacramentorum est modo in actu, &amp; passio 
+      <lb ed="#G" n="31"/>Christi transiuit, &amp; non est in actu: ergo &amp;c. Maior patet 
+      <lb ed="#G" n="32"/>2. Physi. Minor est de se nota: quia praeteritum non es 
+      <lb ed="#G" n="33"/>prae sens 
+    </p>
+            <p xml:id="HuYgTa-217436-d1e1199">
+               <lb ed="#G" n="34"/>Ad primum dicendum, quod sacramenta dicuntur flu 
+      <lb ed="#G" n="35"/>xisse de illo vulnere non ratione incisionis factae in
+      mor<lb ed="#G" n="36" break="no"/>tuo corpore Christi: sed ratione passionis praecedentis, ex 
+      <lb ed="#G" n="37"/>cuius acerbitate, &amp; violentia sanguis, &amp; aqua congrega 
+      <lb ed="#G" n="38"/>bantur circa cor domini lesu Christi, quae postea
+      effsuxe<lb ed="#G" n="39" break="no"/>runt aperto latere Christi vulnere supradicto. 
+    </p>
+            <p xml:id="HuYgTa-217436-d1e1215">
+               <lb ed="#G" n="40"/>
+               <pc type="indent"/>Ad secundum dicendum, quod sacramenta nouae
+      legi<lb ed="#G" n="41" break="no"/>immediate postquam a Deo instituta erant, habuerunt  
+      <lb ed="#G" n="42"/>efficaciam meritorie ex passione Christi, prout passio
+      il<lb ed="#G" n="43" break="no"/>la actu interiori voluntatis Christi exhibebatur, &amp; offere 
+      <lb ed="#G" n="44"/>patur Deo patri pro nobis: Isto. enm actu Christus a primo 
+      <lb ed="#G" n="45"/>instanti suae conceptionis potest dici aliquo modo habuisse 
+      <lb ed="#G" n="46"/>meritum passionis suae: quia sua sanctissima anima ab illo 
+      <lb ed="#G" n="47"/>primo instanti semper hoc obtulit Deo patri, quod
+      volum<lb ed="#G" n="48" break="no"/>tarie pati vellet pro humanae naturae liberatione. Ad foi 
+      <lb ed="#G" n="49"/>mam ergo argumenti dicendum, quod passio Christi est 
+      <lb ed="#G" n="50"/>causa meritoria efficaciae sacramentorum respectu gratiae 
+      <lb ed="#G" n="51"/>initiatae, quae est gratia viae, non solum vt praeuisa, nec
+      so<lb ed="#G" n="52" break="no"/>lum vt excutioni mandata: sed vt voluntarie exhibita, qu 
+      <lb ed="#G" n="53"/>oblata. Mandata vero excutioni est causa efficaciae
+      sacra<lb ed="#G" n="54" break="no"/>mentorum respectu gratiae consummatae, quae est gratia 
+      <lb ed="#G" n="55"/>
+               <pc type="indent"/>atriae: Sic enim Deus incomprehensibili sua disponit sa 
+      <lb ed="#G" n="56"/>ientia, vt Christus prius pateretur, quam ianua vitae
+      aeter<lb ed="#G" n="57" break="no"/>nae homini aperiretur. 
+    </p>
+            <p xml:id="HuYgTa-217436-d1e1261">
+               <lb ed="#G" n="58"/>
+               <pc type="indent"/>Ad tertium dicendum, quod licet carene gratia non pos 
+      <lb ed="#G" n="59"/>sit mereri gratiam de condigno, &amp; ad hunc intellectum 
+      <lb ed="#G" n="60"/>vadunt illa verba Apostoli: tamen existens in gratia po 
+      <lb ed="#G" n="61"/>test mereri gratiam non habenti gratiam: Cum igitur 
+      <lb ed="#G" n="62"/>Christus a primo instanti suae conceptionis fuerit plenis 
+      <lb ed="#G" n="63"/>simus gratiae: ideo non mirum si nobis non habentibus 
+      <lb ed="#G" n="64"/>gratiam potuit mereri gratiam. 
+    </p>
+            <p xml:id="HuYgTa-217436-d1e1281">
+               <lb ed="#G" n="65"/>
+               <pc type="indent"/>Ad quartum dicendum, quod licet Christus modo actu 
+      <lb ed="#G" n="66"/>non patiatur: tamen sua passio est actualiter praesens in 
+      <lb ed="#G" n="67"/>acceptatione diuina, ratione cuius actualis gratitudinis,  
+      <lb ed="#G" n="68"/>qua illam passionem Deus gratanter acceptat pro nobis 
+      <lb ed="#G" n="69"/>assio Christi est etiam nunc actualiter meritoria, &amp; pos 
+      <lb ed="#G" n="70"/>set in infinitum esse meritoria, si mundus duraret in infi 
+      <lb ed="#G" n="71"/>nitum, eo quod in aeternum Dus acceptaret huiusmod 
+      <lb ed="#G" n="72"/>passionem pro peccatis omnium, qui rite perciperent
+      sa<lb ed="#G" n="73" break="no"/>cramenta, &amp; sic sacramenta in aeternum haberent effica¬ 
+      <!--625.xml-->
+      <cb ed="#G" n="b"/>
+               <lb ed="#G" n="74"/>ciam per Christi passionem pro peccatis nostris a Deo 
+      <lb ed="#G" n="75"/>semper actualiter acceptam. 
+    </p>
+            <p xml:id="HuYgTa-217436-d1e1314">
+               <lb ed="#G" n="76"/>
+               <pc type="indent"/>ARTICVLVS IIII 
+      <lb ed="#G" n="77"/>Vtrum Christus potuerit ministris tradere
+      po<lb ed="#G" n="78" break="no"/>
+               <pc type="indent"/>testatem dimittendi peccata.
+    </p>
+            <p xml:id="HuYgTa-217436-d1e1327">
+               <lb ed="#G" n="79"/>VANTVM ad quartum articulum est aduertedum, 
+      <lb ed="#G" n="80"/> quod vt conmuniter dicitur, triplex est potestas 
+      <lb ed="#G" n="81"/>dimittendi peccata, s auctoritatis, excellentiae, &amp;
+      mini<lb ed="#G" n="82" break="no"/>sterij. Potestas auctoritatis est, qua aliquis sic agit, quod
+      nul<lb ed="#G" n="83" break="no"/>lius superioris innititur potestati. Potestas excellentiae esi 
+      <lb ed="#G" n="84"/>qua aliquis sic potest, quod quamuis innitatur potestati, seu 
+      <lb ed="#G" n="85"/>auctoritati alicuius superioris; tamen vsus illius
+      potesta<lb ed="#G" n="86" break="no"/>tis sibi conuenit cum quadam praerogatiua respectu ceti 
+      <lb ed="#G" n="87"/>rorum, quibus eadem potestas aliquo modo dicitur
+      con<lb ed="#G" n="88" break="no"/>uenire, sed potestas ministerij dicitur in proposito talis 
+      <lb ed="#G" n="89"/>potestas, qua quis disponit ad effectum principalis
+      agen<lb ed="#G" n="90" break="no"/>tis, non ex proprio suo merito, sed ex eo, quod aliquid insti 
+      <lb ed="#G" n="91"/>tutum principali facit, quo facto sequitur effectus ipsius 
+      <lb ed="#G" n="92"/>principalis agentis. His praemissis pono tres conclusiones. 
+      <lb ed="#G" n="93"/>Prima est, quod potestas auctoritatis dimittendi peccata 
+      <lb ed="#G" n="94"/>non potest conuenire alicui creaturae: quia potestas, quae 
+      <lb ed="#G" n="95"/>est propria solius Dei, non potest competere alicui
+      crea<lb ed="#G" n="96" break="no"/>turae: sed potestas auctoritatis est propria solius Dei: ergo 
+      <lb ed="#G" n="97"/>&amp;c. Maior patet: ex hoc enim dicitur aliquid pprium, quia 
+      <lb ed="#G" n="98"/>solum illi conuenit, cuius dicitur proprium, &amp; sequitur  
+      <lb ed="#G" n="99"/>suam naturam: Minor etiam patet: quia solus Deus cum 
+      <lb ed="#G" n="100"/>sit agens omnino primum ex sua natura habet, qued in
+      nul<lb ed="#G" n="101" break="no"/>la sua actione innititur virtuti cuiuscumque alterius, ecen 
+      <lb ed="#G" n="102"/>tra vero omnia alia, cum sint secundaria agentia, innitun 
+      <lb ed="#G" n="103"/>tur virtuti diuinae, tamquam virtuti primi agentis: sed  
+      <lb ed="#G" n="104"/>habens potestatem auctoritatis non innititur alteri, vt 
+      <lb ed="#G" n="105"/>dictum est. 
+    </p>
+            <p xml:id="HuYgTa-217436-d1e1389">
+               <lb ed="#G" n="106"/>
+               <pc type="indent"/>Forte dicetur, quod istud est contra <ref xml:id="HuYgTa-217436-Rd1e1395">glosam. 1. ad Cor. 1. c.</ref> 
+               <lb ed="#G" n="107"/>vbi dicit glosa, quoed Deus potuit dare auctoritate baptismi 
+      <lb ed="#G" n="108"/>uibus contulit ministerium 
+    </p>
+            <p xml:id="HuYgTa-217436-d1e1403">
+               <lb ed="#G" n="109"/>Respondeo, quod non loquitur ibi de auctoritate
+      pri<lb ed="#G" n="110" break="no"/>ma, &amp; simpliciter, sed solum de subauctoritate, puta de 
+      <lb ed="#G" n="111"/>auctoritate delegata, vel subdelegata, quae spectat ad
+      au<lb ed="#G" n="112" break="no"/>ctoritatem excellentiae, quae communicabilis est creaturae. 
+    </p>
+            <p xml:id="HuYgTa-217436-d1e1414">
+               <lb ed="#G" n="113"/>
+               <pc type="indent"/>Secunda conclusio est, quod potestas exceslentiae re- 
+      <lb ed="#G" n="114"/>spectu sacramentorum, ac etiam sacramentalium
+      effe<lb ed="#G" n="115" break="no"/>ctuum, licet communicabilis fuerit ministris ecclesiae :ta 
+      <lb ed="#G" n="116"/>men non est ipsis communicata: quia quod soli Christo 
+      <lb ed="#G" n="117"/>est communicatum, secundum quod homo, hoc alijs non efe 
+      <lb ed="#G" n="118"/>coicatum, licet ipsis sit communicabile: sed habere hmont 
+      <lb ed="#G" n="119"/>potestatem excellentiae soli Christo est
+      communica<lb ed="#G" n="120" break="no"/>um, secundum, quod est homo, ergo &amp;c. Maior patet, quia 
+      <lb ed="#G" n="121"/>solum idem est, quod non cum altero, vt patet in topicis 
+      <lb ed="#G" n="122"/>&amp; 1. phy. ergo illud, quod soli Christo est
+      communica<lb ed="#G" n="123" break="no"/>tum, hoc nulli alteri est communicatum: sed eo ipso, quod 
+      <lb ed="#G" n="124"/>sibi est communicatum, secundum quod homo est, sequi 
+      <lb ed="#G" n="125"/>tur, quod ceteris hominibus sit communicabile, alias nec 
+      <lb ed="#G" n="126"/>Chriito posset competere, secundum quoed homo est. Minos 
+      <lb ed="#G" n="127"/>probatur. quia potestas excellentiae idem est, quod potestas 
+      <lb ed="#G" n="128"/>ministerij cum quadam excellentia. Haec autem
+      excelle<lb ed="#G" n="129" break="no"/>tia attenditur in quattuor, quae de facto soli Christo
+      cre<lb ed="#G" n="130" break="no"/>duntur esse conicata. Primum est, quod merito alicuius
+      ho<lb ed="#G" n="131" break="no"/>minis sacramenta habeant efficaciam. Secundum, quod sine 
+      <lb ed="#G" n="132"/>sacramento ad simplex verbum suum Deus alicui
+      confe<lb ed="#G" n="133" break="no"/>rat effectum sacramenti. Tertium est quod sibi liceat
+      in<lb ed="#G" n="134" break="no"/>stituere baptismum, &amp; cetera sacramenta. Et quartum,  
+      <lb ed="#G" n="135"/>quod sui nominis inuocatione aliquis vere baptixetur. 
+      <lb ed="#G" n="136"/>Et haec omnia competebant Christo. Et licet huiusmodi 
+      <lb ed="#G" n="137"/>potestatem Deus alijs hominibus posset communicare: 
+      <lb ed="#G" n="138"/>hoc tamen non fecit, &amp; hoc propter duo. Primo, ne
+      ce<lb ed="#G" n="139" break="no"/>teri homines in aliquo puro homine ponerent spem suae 
+      <lb ed="#G" n="140"/>salutis, Secundo: quia decuit, vt solus ille homo, qui a ver 
+      <lb ed="#G" n="141"/>bo diuino in vnitatem suppositi est assumptus, hanc habe 
+      <lb ed="#G" n="142"/>ret praerogatiuam prae ceteris hominibus 
+    </p>
+            <p xml:id="HuYgTa-217436-d1e1484">
+               <lb ed="#G" n="143"/>
+               <pc type="indent"/>Forte dicetur, si Christo, secundum quod est homo, 
+      <!--626.xml-->
+      <pb ed="#G" n="P2_78-r"/>
+               <cb ed="#G" n="a"/>
+               <lb ed="#G" n="1"/>conuenit praedicta exeellentia, tunc conuenit omni
+      ho<lb ed="#G" n="2" break="no"/>mini: quia eo ipso, quod isocheles habet tres angulo 
+      <lb ed="#G" n="3"/>aequales duobus rectis inquantum est triangulus, seu
+      se<lb ed="#G" n="4" break="no"/>cundum quod est triangulus: idco sequitur, quod omnis 
+      <lb ed="#G" n="5"/>triangulus habeat tres angulos &amp;c. sic in proposito &amp;c 
+    </p>
+            <p xml:id="HuYgTa-217436-d1e1508">
+               <lb ed="#G" n="6"/>
+               <pc type="indent"/>Respondeo, quod Iy secundum, hic in proposito non 
+      <lb ed="#G" n="7"/>est nota reduplicationis: sed solum est infinuatio, quo 
+      <lb ed="#G" n="8"/>communicatio illius excellentiae non excedit capacitatem 
+      <lb ed="#G" n="9"/>humanam: nec trahit hominem, cui communicatur, ex 
+      <lb ed="#G" n="10"/>tra limites humanae speciei. Sed cum dicitur isocheles in 
+      <lb ed="#G" n="11"/>quantum triangulus habet tres angulos ibi in quantum 
+      <lb ed="#G" n="12"/>est nota reduplicationis: ideo non est simile. Et dato, quod 
+      <lb ed="#G" n="13"/>in proposito Iy secundum accipiatur reduplicatiue, tun 
+      <lb ed="#G" n="14"/>non plus posset eoncludi, nisi quod a Deo omni homini 
+      <lb ed="#G" n="15"/>posset praedicta excellentia communicari: sicut de fact 
+      <lb ed="#G" n="16"/>Christo est communicata. Quod etiam concessum est in 
+      <lb ed="#G" n="17"/>praecedentibus 
+    </p>
+            <p xml:id="HuYgTa-217436-d1e1539">
+               <lb ed="#G" n="18"/>
+               <pc type="indent"/>Tertia conclusio est quod potestas ministerij est conces 
+      <lb ed="#G" n="19"/>sa ministris ecclesiae: quia ipsi administrando sactamen 
+      <lb ed="#G" n="20"/>talia operantur circa homines, quae ex diuina institutio 
+      <lb ed="#G" n="21"/>ne sufficienter disponunt homines pro, remissione culpe, 
+      <lb ed="#G" n="22"/>&amp; receptione gratiae 
+    </p>
+            <p xml:id="HuYgTa-217436-d1e1556">
+               <lb ed="#G" n="23"/>
+               <pc type="indent"/>Ex his ergo omnibus corollarie possum inferre
+      quan<lb ed="#G" n="24" break="no"/>tum ad quartum istius quaestionis articulum, quod null 
+      <lb ed="#G" n="25"/>creaturae absolute, &amp; simpliciter potest competere pote 
+      <lb ed="#G" n="26"/>stas dimittendi peccata.
+    </p>
+            <p xml:id="HuYgTa-217436-d1e1569">
+               <lb ed="#G" n="27"/>1 Quia ad hoc solum se extendit potestas auctoritatis; 
+      <lb ed="#G" n="28"/>quae, vt ex praedictis patuit, soli Deo potest conuenire. 
+      <lb ed="#G" n="29"/>2 Praeterea, potentia creandi non potest communicari 
+      <lb ed="#G" n="30"/>creaturae: ergo nec potentia dimittendi peccata.
+      Antece<lb ed="#G" n="31" break="no"/>dens probatum est <ref xml:id="HuYgTa-217436-Rd1e1582">superius dist. 1. 4. 1</ref>. Consequentia
+      pa<lb ed="#G" n="32" break="no"/>tet. Primo quia non minoris potentiae est recreare, quan 
+      <lb ed="#G" n="33"/>creare: sed ex dimissione peccati recreatur anima. Secun 
+      <lb ed="#G" n="34"/>do quia non dimittitur peccatum, nisi detur gratia, qua 
+      <lb ed="#G" n="35"/>est peccatorum formaliter expulsiua, sed solus creator 
+      <lb ed="#G" n="36"/>simpliciter potest dare gratiam, &amp; nulla creatura 
+    </p>
+            <p xml:id="HuYgTa-217436-d1e1596">
+               <lb ed="#G" n="37"/>
+               <pc type="indent"/>Forte dicetur, quod istud corollarium sit contra
+      Au<lb ed="#G" n="38" break="no"/>gustinum, qui super illud loan. 1. hic est, qui baptixat, ait 
+      <lb ed="#G" n="39"/>soannes didicit, quod potestatem mudandi a peccati 
+      <lb ed="#G" n="40"/>Christus dare potuit: sed non dedit 
+    </p>
+            <p xml:id="HuYgTa-217436-d1e1609">
+               <lb ed="#G" n="41"/>Praeterea, Dionvsius de ecclesiastica Hierarchia ait, quo 
+      <lb ed="#G" n="42"/>ad ministros ecclesiae pertinet illuminare, purgare, &amp; 
+      <lb ed="#G" n="43"/>perficere : hoc autem, vt videtur, non possent nisi ad eos 
+      <lb ed="#G" n="44"/>etiam pertineret a peccatis mundare 
+    </p>
+            <p xml:id="HuYgTa-217436-d1e1620">
+               <lb ed="#G" n="45"/>3 Praeterea, actio, cuius principium est aliqua forma 
+      <lb ed="#G" n="46"/>simpliciter, debet attribui habenti talem formam: sed 
+      <lb ed="#G" n="47"/>gratia est principium istius actionis, quae est expulsio pec 
+      <lb ed="#G" n="48"/>cati, ergo homo habens gratiam per se expellit peccatum 
+      <lb ed="#G" n="49"/>&amp; per consequens habet potestatem dimittendi peccata 
+      <lb ed="#G" n="50"/>Habens enim formam, quae est principium alicuius, ha 
+      <lb ed="#G" n="51"/>bet potestate respectu eius: nam ipsa forma est ipsa potestas
+    </p>
+            <p xml:id="HuYgTa-217436-d1e1638">
+               <lb ed="#G" n="52"/>4 Praeterea, cui datur potestas expellendi maius, eidem 
+      <lb ed="#G" n="53"/>potest dari potestas expellendi minus: sed hominibus, pu 
+      <lb ed="#G" n="54"/>ta, Apostolis data fuit potestas expellendi daemonem, qu 
+      <lb ed="#G" n="55"/>magis videtur posse resistere, quam eius seminarium 
+      <lb ed="#G" n="56"/>quod est ipsum peccatum: ergo dc. Et confirmatur, quis 
+      <lb ed="#G" n="57"/>cuicumque datur potestas super aliquam causam, eiden 
+      <lb ed="#G" n="58"/>videtur esse data, vel salte potest dari potestas super
+      effe<lb ed="#G" n="59" break="no"/>ctum illius causae: sed daemon est causa peccati, &amp; pluri 
+      <lb ed="#G" n="60"/>bus hominibus data est potestas super daemonem: ergo &amp;c 
+    </p>
+            <p xml:id="HuYgTa-217436-d1e1661">
+               <lb ed="#G" n="61"/>
+               <pc type="indent"/>3 Praeterea, Saluator dixit discipulis. Accipite spiri 
+      <lb ed="#G" n="62"/>tum sanctum, quorum remiseritis peccata, remittuntu 
+      <lb ed="#G" n="63"/>eis: ergo dedit eis potestatem dimittendi peccata 
+    </p>
+            <p xml:id="HuYgTa-217436-d1e1672">
+               <lb ed="#G" n="64"/>
+               <pc type="indent"/>Praeterea, Christus, secundum quod homo fuit,
+      ha<lb ed="#G" n="65" break="no"/>buit potestatem dimittendi peccata: ergo talis potestas 
+      <lb ed="#G" n="66"/>fuit aliis hominibus communicabilis. Consequentia
+      te<lb ed="#G" n="67" break="no"/>netur ex dictis in secuda conclusione istius articuli. Anti 
+      <lb ed="#G" n="68"/>cedens probo quadrupliciter. 
+    </p>
+            <p xml:id="HuYgTa-217436-d1e1688">
+               <lb ed="#G" n="69"/>rPrimo sic: quia de Christo scribitur. Vt autem sciatis. 
+      <lb ed="#G" n="70"/>quia filius hominis habet potestatem dimittendi
+      pecca<lb ed="#G" n="71" break="no"/>ta, dixit paralitico, surge, &amp; ambula¬ 
+    </p>
+            <p xml:id="HuYgTa-217436-d1e1697">
+               <lb ed="#G" n="72"/>Secundo: quia ad inuocationem nominis Christi in pri 
+      <lb ed="#G" n="73"/>mitiua ecclesia dabatur verus baptismus, &amp; per consequens 
+      <!--626.xml-->
+      <cb ed="#G" n="b"/>
+               <lb ed="#G" n="74"/>remissio peccat orum : ergo Christus habuit potestaten 
+      <lb ed="#G" n="75"/>dimittendi peccata. 
+    </p>
+            <p xml:id="HuYgTa-217436-d1e1713">
+               <lb ed="#G" n="76"/>
+               <pc type="indent"/>Tertio quia dixit loannes Daptista De Christo. Ecce 
+      <lb ed="#G" n="77"/>agnus Dei, ecce qui tollit peccata mundi 
+    </p>
+            <p xml:id="HuYgTa-217436-d1e1722">
+               <lb ed="#G" n="78"/>
+               <pc type="indent"/>Quarto quia non minus est esse Deum, quam haberi 
+      <lb ed="#G" n="79"/>potestatem dimittendi peccata: sed primum
+      communi<lb ed="#G" n="80" break="no"/>catum est Christo homini : ergo &amp; secundum. 
+    </p>
+            <p xml:id="HuYgTa-217436-d1e1734">
+               <lb ed="#G" n="81"/>
+               <pc type="indent"/>Sed ista non concludunt 
+      <lb ed="#G" n="82"/>1 Quia <ref xml:id="HuYgTa-217436-Rd1e1742">Augustin. 85. q.</ref> ait. Quaedam Deus per erea, 
+      <lb ed="#G" n="83"/>turam facit, quaedam vero sibi retinuit vt illuminare an 
+      <lb ed="#G" n="84"/>mas, sed eiusdem est animas illuminare, &amp; tenebras
+      pec<lb ed="#G" n="85" break="no"/>catorum expellere¬ 
+    </p>
+            <p xml:id="HuYgTa-217436-d1e1753">
+               <lb ed="#G" n="86"/>2 Praeterea, illud, quod non potest illabi animae, non 
+      <lb ed="#G" n="87"/>potest sua actione immediate peccata dimittere: quia il 
+      <lb ed="#G" n="88"/>lud, quod peccata sua potestate diluit, hoc oportet, quod 
+      <lb ed="#G" n="89"/>sua actione contingat interiora anime: Nam sicut illa, quae 
+      <lb ed="#G" n="90"/>corporaliter non tangunt, etiam corporaliter non agut 
+      <lb ed="#G" n="91"/>vt patet in <ref xml:id="HuYgTa-217436-Rd1e1768">1. libro de generatione</ref>: sic illa, quae spiritus 
+      <lb ed="#G" n="92"/>liter non tangunt, spiritualiter non agunt: Agens enimi 
+      <lb ed="#G" n="93"/>&amp; patiens oportet, quod sint simul sed, vt patet ex dictis 
+      <lb ed="#G" n="94"/>sanctorum, nulla creatura, sed solus Deus illabitur animae 
+      <lb ed="#G" n="95"/>rationali : ergo &amp;c 
+    </p>
+            <p xml:id="HuYgTa-217436-d1e1780">
+               <lb ed="#G" n="96"/>
+               <pc type="indent"/>Ad primum dicendum, quod illud intelligendum es 
+      <lb ed="#G" n="97"/>de potestate excellentis ministerij, &amp; non de potestat, 
+      <lb ed="#G" n="98"/>dimittendi peccata absolute, &amp; simpliciter. 
+    </p>
+            <p xml:id="HuYgTa-217436-d1e1791">
+               <lb ed="#G" n="99"/>
+               <pc type="indent"/>Ad secundum dicendum, quod licet ministri ecclesiae 
+      <lb ed="#G" n="100"/>possint dispositiue illuminare, &amp; purgare puta, docendo; 
+      <lb ed="#G" n="101"/>sacramenta ministrando, &amp; ad poenitentiam homines pro 
+      <lb ed="#G" n="102"/>uocando, sicut intendit dicere Dionysius: tamen non pos 
+      <lb ed="#G" n="103"/>sunt propter hoc peccata dimittere, &amp; gratiam
+      illuminam<lb ed="#G" n="104" break="no"/>tem dare directe talia efficiende 
+    </p>
+            <p xml:id="HuYgTa-217436-d1e1809">
+               <lb ed="#G" n="105"/>
+               <pc type="indent"/>Ad tertium dicendum, quod duplex est actus formae, 
+      <lb ed="#G" n="106"/>scilicet primus, &amp; secundus, vt patet. <ref xml:id="HuYgTa-217436-Rd1e1817">2. de anima</ref>. Modo 
+      <lb ed="#G" n="107"/>licet maior sit vera loquendo de actione sumpta pro actu 
+      <lb ed="#G" n="108"/>secundo, qui est vsus formae, seu agere mediante forma, 
+      <lb ed="#G" n="109"/>quo modo accipitur actio formae propriae: tamen non est 
+      <lb ed="#G" n="110"/>vera large acciuiendo actionem formae pro ipso actu
+      pri<lb ed="#G" n="111" break="no"/>mo, qui est informare, vel dare esse. Licet enim habens 
+      <lb ed="#G" n="112"/>albedinem disgreget: tamen habens albedinem non dat 
+      <lb ed="#G" n="113"/>esse album: ipsum enim recipit esse album: Sed gratia non 
+      <lb ed="#G" n="114"/>expellit peccatum actu secundo, sed tantummodo actu 
+      <lb ed="#G" n="115"/>primo, scilicet dando esse gratum, quod habet formalem 
+      <lb ed="#G" n="116"/>repugnantiam ad mortale peccatum: Et ideo talis actus 
+      <lb ed="#G" n="117"/>non conuenit effectiue habenti, vel recipienti gratiam: 
+      <lb ed="#G" n="118"/>sed soli Deo, qui dat gratiam: Sicut enim dans
+      albedi<lb ed="#G" n="119" break="no"/>nem est causa effectiua expulsionis ipsius nigredinis: quia 
+      <lb ed="#G" n="120"/>dando albedinem effectiue, dat esse in compossibile cum 
+      <lb ed="#G" n="121"/>nigredine: sic in proposito &amp;c 
+    </p>
+            <p xml:id="HuYgTa-217436-d1e1854">
+               <lb ed="#G" n="122"/>
+               <pc type="indent"/>Ad quartum dicendum, quod Apostolis erat collat, 
+      <lb ed="#G" n="123"/>potestas expellendi daemonem a corporibus ne laederet ho 
+      <lb ed="#G" n="124"/>mines vexatione corporali, &amp; hoc non fuit maius: immo 
+      <lb ed="#G" n="125"/>multo minus quam expellere peccatum, quod expelli 
+      <lb ed="#G" n="126"/>non potest nisi per collationem gratiae 
+    </p>
+            <p xml:id="HuYgTa-217436-d1e1871">
+               <lb ed="#G" n="127"/>
+               <pc type="indent"/>Ad confirmationem dicendum, quod non solus demi 
+      <lb ed="#G" n="128"/>est causa peccati: quia principalis causa peccati est ipsa vi 
+      <lb ed="#G" n="129"/>luntas : Peccatum enim tantum est peccatum quantum 
+      <lb ed="#G" n="130"/>voluntarium, sicut dicit Peatus Augustinus in libro de vera 
+      <lb ed="#G" n="131"/>relig. Et ideo ille habet potestatem super causam pecca 
+      <lb ed="#G" n="132"/>ti, qui habet potestatem super liberam voluntatem, o 
+      <lb ed="#G" n="133"/>hoc est solus Deus: Ipse enim est, cui omne cor patet &amp; 
+      <lb ed="#G" n="134"/>omnis voluntas loquitur, vt ait <ref xml:id="HuYgTa-217436-Rd1e1892">Apostolus ad Hebraeos</ref>. 
+    </p>
+            <p xml:id="HuYgTa-217436-d1e1896">
+               <lb ed="#G" n="135"/>
+               <pc type="indent"/>Ad quintum dicendum, quod Saluator dicendo illa 
+      <lb ed="#G" n="136"/>verba dedit discipulis potestatem ministerialem, de qua 
+      <lb ed="#G" n="137"/>dictum est supra 
+    </p>
+            <p xml:id="HuYgTa-217436-d1e1907">
+               <lb ed="#G" n="138"/>
+               <pc type="indent"/>Ad sextum negandum est antecedens, nisi pro quante 
+      <lb ed="#G" n="139"/>accipitur pot estas ministerij cum excellentia supradicta. 
+    </p>
+            <p xml:id="HuYgTa-217436-d1e1916">
+               <lb ed="#G" n="140"/>
+               <pc type="indent"/>Ad primam probationem dicendum, quod non
+      loqui<lb ed="#G" n="141" break="no"/>tur ibi Christus de potestate, quam habuit inquantum 
+      <lb ed="#G" n="142"/>homo, sed de potestate auctoritatis, quam habuit
+      inquam<lb ed="#G" n="143" break="no"/>tum erat verus Deus : quia per illa verba volebat
+      osten<lb ed="#G" n="144" break="no"/>dere, quod non erat tantummodo homo, sed quod erat 
+      <lb ed="#G" n="145"/>&amp; Deus
+    </p>
+            <p xml:id="HuYgTa-217436-d1e1934">
+               <lb ed="#G" n="146"/>Ad secundam dicendum, quod per hoc non arguitur,  
+      <!--627.xml-->
+      <pb ed="#G" n="P2_78-v"/>
+               <cb ed="#G" n="a"/>
+               <lb ed="#G" n="1"/>nisi, quod habuit potestatem extellentis ministerij, &amp;  
+      <lb ed="#G" n="2"/>hoc potnit etiam Deus conferre ministris ecclesiae: sicus 
+      <lb ed="#G" n="3"/>expresse habetur in <ref xml:id="HuYgTa-217436-Rd1e1951">glosa. 1. ad Chor. 1.</ref> vbi dicitur, quod 
+      <lb ed="#G" n="4"/>potuit Deus Detro, vel Paulo dare, vt ad inmocationem 
+      <lb ed="#G" n="5"/>nominis eius baptisma consecraretur. 
+    </p>
+            <p xml:id="HuYgTa-217436-d1e1959">
+               <lb ed="#G" n="6"/>
+               <pc type="indent"/>Ad tertiam dicendum, quod soannes per illa verba 
+      <lb ed="#G" n="7"/>volebat deitatem domini lesu declarare: &amp; ideo
+      loque<lb ed="#G" n="8" break="no"/>batur ibi de potestate auctoritatis, quae conueniebat ei, 
+      <lb ed="#G" n="9"/>non vt homo erat, sed vt verus Deus erat : Propter quod 
+      <lb ed="#G" n="10"/>Augustinus super loannem ait. Christus, secundum quod 
+      <lb ed="#G" n="11"/>est filius Dei, est vita viuificans animas 
+    </p>
+            <p xml:id="HuYgTa-217436-d1e1978">
+               <lb ed="#G" n="12"/>
+               <pc type="indent"/>Ad quartam dicendum, quod quamuis esse Deum per 
+      <lb ed="#G" n="13"/>naturam non sit minus, quam habere potestatem
+      absolu<lb ed="#G" n="14" break="no"/>tam, seu potestate auctoritatis dimittendi peccata: tamen 
+      <lb ed="#G" n="15"/>esse Deum per gratiam vnionis, &amp; dici Deus per commu 
+      <lb ed="#G" n="16"/>nicationem idiomatum, est minus quam habere praedictam 
+      <lb ed="#G" n="17"/>potestatem: ergo licet Christus, vt erat filius Dei,
+      habe<lb ed="#G" n="18" break="no"/>ret huiusmodi potestatem: quia, vt sic, erat Deus per
+      na<lb ed="#G" n="19" break="no"/>turam: tamen non habuit eam, vt homo erat. 
+    </p>
+            <p xml:id="HuYgTa-217436-d1e2000">
+               <lb ed="#G" n="20"/>
+               <pc type="indent"/>Ad argumentum principale dicedum, dato, quod ille, 
+      <lb ed="#G" n="21"/>qui maculatus est, non possit alium mundare virtute pro 
+      <lb ed="#G" n="22"/>pria: potest tamen facere tale ministerium, ad cuius exe 
+      <lb ed="#G" n="23"/>cutionem virtus diuina immundum emundabit: Sicus 
+      <lb ed="#G" n="24"/>enim medicus infirmus quandoque administrat aliqua ho 
+      <lb ed="#G" n="25"/>mini infirmo, ad quorum administrationem: virtus na 
+      <lb ed="#G" n="26"/>turae sanat illum hominem: medico tamen manente
+      in<lb ed="#G" n="27" break="no"/>firmo: sic in proposito &amp;c 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

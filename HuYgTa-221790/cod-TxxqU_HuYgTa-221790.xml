@@ -1,0 +1,823 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#ThomasStrasbourg">Thomas of Strasbourg</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2020-11-26">November 26, 2020</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="G" n="cod-TxxqU">Genoa 1585</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2020-11-26" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#G" n="NaN-v"/>
+            <cb ed="#G" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="HuYgTa-221790"><!-- HuYgTa-l4d7q1 -->
+            <head xml:id="HuYgTa-221790-Hd1e108">Quaestio 1</head>
+            <head xml:id="HuYgTa-221790-Hd1e111" type="question-title">
+      An confirmatio gratiam conferat.
+    </head>
+            <p xml:id="HuYgTa-221790-d1e114">
+               <lb ed="#G" n="107"/>
+               <pc type="indent"/>Quaestio 1 
+      <lb ed="#G" n="108"/>An confirmatio gratiam conferat.
+    </p>
+            <p xml:id="HuYgTa-221790-d1e123">
+               <lb ed="#G" n="109"/>ITRVM sacramento confirmationis conferatur gra 
+      <lb ed="#G" n="110"/>Vtia ipsi confirmato. Et videtur, quod
+      non<lb ed="#G" n="111" break="no"/>Quia cut illa gratia esset alia ab ea, quae confertur in 
+      <lb ed="#G" n="112"/>papiiimo, aut eadem cum illa. Non potest esse alia: quia 
+      <lb ed="#G" n="113"/>tunc duo accidentia solo numero differentia essent
+      si<lb ed="#G" n="114" break="no"/>mul in eodem subiecto. 
+    </p>
+            <p xml:id="HuYgTa-221790-d1e139">
+               <lb ed="#G" n="115"/>
+               <pc type="indent"/>Nec potest esse eadem: quia aut esset eadem secun¬¬ 
+      <lb ed="#G" n="116"/>dum eundem gradum, aut esset eadem secundum
+      gra<lb ed="#G" n="117" break="no"/>dum intenfiorem. Non primum: quia sicut quod
+      ge<lb ed="#G" n="118" break="no"/>nitum est iterum generari non potest, sic quod
+      colla<lb ed="#G" n="119" break="no"/>um est, amplius conferri non potest. Nec secundo
+      mo<lb ed="#G" n="120" break="no"/>do: quia in forma simplici inhaerente subiecto simplici 
+      <lb ed="#G" n="121"/>non possunt diuersi gradus dari, sed gratia est forma
+      sim<lb ed="#G" n="122" break="no"/>lex, &amp; inhaeret subiecto simplici, scilicet essentiae ipsius 
+      <lb ed="#G" n="123"/>animae: ergo &amp;c. 
+    </p>
+            <p xml:id="HuYgTa-221790-d1e164">
+               <lb ed="#G" n="124"/>
+               <pc type="indent"/>Contra in quolibet sacramento nouae legis rite
+      susce<lb ed="#G" n="125" break="no"/>vto, &amp; ministrato confertur gratia, Vt patet ex dictis
+      san<lb ed="#G" n="126" break="no"/>ctorum adductis per magistrum di. 1. sed confirmatio est 
+      <lb ed="#G" n="127"/>sacramentum nouae legis: ergo &amp;c 
+      <!--634.xml-->
+      <pb ed="#G" n="P2_82-r"/>
+               <cb ed="#G" n="a"/>
+               <lb ed="#G" n="1"/>Hic quattuor sunt videnda. Primo de eo, quod
+      quaeri<lb ed="#G" n="2" break="no"/>tur, Secundo, vtrum sacramento confirmationis
+      impri<lb ed="#G" n="3" break="no"/>matur character ipsi confirmato. Tertio, quis sit idoneums 
+      <lb ed="#G" n="4"/>minister istius sacramenti. Quarto videndum est de
+      ne<lb ed="#G" n="5" break="no"/>cessitate istius sacramenti, scilicet, vtrum eius susceptio 
+      <lb ed="#G" n="6"/>sit necessaria ad salutem. 
+    </p>
+            <p xml:id="HuYgTa-221790-d1e197">
+               <lb ed="#G" n="7"/>
+               <pc type="indent"/>RESOLVTIO. 
+      <lb ed="#G" n="8"/>Gratia quidem gratum faciens in confirmatione confertur,  
+      <lb ed="#G" n="9"/>quae sane gratia non est alia per essentiam a 
+      <lb ed="#G" n="10"/>gratia in baptismo collata
+    </p>
+            <p xml:id="HuYgTa-221790-d1e210">
+               <lb ed="#G" n="11"/>ARTICVLVS 1. 
+      <lb ed="#G" n="12"/>Vtrum confirmatio gratiam conferat.
+    </p>
+            <p xml:id="HuYgTa-221790-d1e217">
+               <lb ed="#G" n="13"/>QVANTVM ad primum primo pono duas
+      conclu<lb ed="#G" n="14" break="no"/>siones. Deinde mouebo vnum dubium ortum ha 
+      <lb ed="#G" n="15"/>bens ex illis conclusionibus 
+    </p>
+            <p xml:id="HuYgTa-221790-d1e226">
+               <lb ed="#G" n="16"/>
+               <pc type="indent"/>Prima conclusio est, quod gratia gratum faciens con 
+      <lb ed="#G" n="17"/>fertur in confirmatione.
+    </p>
+            <p xml:id="HuYgTa-221790-d1e235">
+               <lb ed="#G" n="18"/>1 Quia cuicumque datur spiritus sanctus, illi datur
+      gra<lb ed="#G" n="19" break="no"/>tia gratum faciens, sed ordinate suscipienti sacramentum 
+      <lb ed="#G" n="20"/>confirmationis datur spiritus sanctus. Maior patet ex
+      di<lb ed="#G" n="21" break="no"/>ctis in <ref xml:id="HuYgTa-221790-Rd1e245">primo lib. dist. 14. artic. 4 conclusione secunda</ref>: sed  
+      <lb ed="#G" n="22"/>minor habetur per habanum, qui dicit sic, Per imposito 
+      <lb ed="#G" n="23"/>nem manuum summi sacerdotis spiritus sanctus traditur 
+      <lb ed="#G" n="24"/>baptixato 
+    </p>
+            <p xml:id="HuYgTa-221790-d1e257">
+               <lb ed="#G" n="25"/>
+               <pc type="indent"/>2 Praeterea, nullus confirmatur in bono, nisi per gra 
+      <lb ed="#G" n="26"/>tiam, qua est gratus Deo: sed per istud sacramentum con 
+      <lb ed="#G" n="27"/>frmatur homo in bono. Propter hoc enim dicitur
+      sacra<lb ed="#G" n="28" break="no"/>mentum confirmationis. Vnde etiam ait magister, quod  
+      <lb ed="#G" n="29"/>gratia confirmationis est completiua, &amp; confirmatiua gra 
+      <lb ed="#G" n="30"/>tiae baptismalis: ergo &amp;c 
+    </p>
+            <p xml:id="HuYgTa-221790-d1e275">
+               <lb ed="#G" n="31"/>
+               <pc type="indent"/>1 Forte dicetur, quod illo sacramento non confertur 
+      <lb ed="#G" n="32"/>gratia gratumfaciens, sine quo vere habetur esse gratum: 
+      <lb ed="#G" n="33"/>sed baptixatus sine fictione vere est gratus priusquam con 
+      <lb ed="#G" n="34"/>firmetur: ergo &amp;c
+    </p>
+            <p xml:id="HuYgTa-221790-d1e288">
+               <lb ed="#G" n="35"/>2 Praeterea, aliquis existens in mortali peccato libere, &amp; 
+      <lb ed="#G" n="36"/>audacter confitetur fidem Cristi: ergo confirmatio non
+      con<lb ed="#G" n="37" break="no"/>fert gratiam gratumfacientem. Antecedens patet.
+      Prob<lb ed="#G" n="38" break="no"/>tio consequentiae: quia sacramentum confirmationis ad 
+      <lb ed="#G" n="39"/>hoc datur, vt aliquis bene, &amp; audacter praesumat fidem 
+      <lb ed="#G" n="40"/>Christi confiteri 
+    </p>
+            <p xml:id="HuYgTa-221790-d1e304">
+               <lb ed="#G" n="41"/>
+               <pc type="indent"/>Ad primum dicendum, quod maior non est vera, quia
+      quam<lb ed="#G" n="42" break="no"/>uis ei, qui habet esse gratum, non detur gratia, qua fiat de 
+      <lb ed="#G" n="43"/>non grato gratus, tamen potest ei dari, quo fiat de grato 
+      <lb ed="#G" n="44"/>magis gratus. 
+    </p>
+            <p xml:id="HuYgTa-221790-d1e317">
+               <lb ed="#G" n="45"/>
+               <pc type="indent"/>Ad secundum dicendum, quod consequentia non valet. 
+      <lb ed="#G" n="46"/>Ad probationem dicendum, quod sacramentum confirma 
+      <lb ed="#G" n="47"/>tionis non datur ad confitendum qualitercumque, sed  
+      <lb ed="#G" n="48"/>datur ad confitendum vtiliter, &amp; salubriter. Nunc autem 
+      <lb ed="#G" n="49"/>ita est, quod licet aliquis existens in peccato mortali fidem 
+      <lb ed="#G" n="50"/>quandoque audacter confiteatur, tamen hoc non facit 
+      <lb ed="#G" n="51"/>cum ita bona fiducia, nec ita salubriter, &amp; meritorie, seu 
+      <lb ed="#G" n="52"/>vtiliter, sicut si esset sine peccato. 
+    </p>
+            <p xml:id="HuYgTa-221790-d1e339">
+               <lb ed="#G" n="53"/>
+               <pc type="indent"/>Secunda conclusio est, quod gratia gratumfaciens data in 
+      <lb ed="#G" n="54"/>confirmatione non est alia per essentiam a gratia data in
+      ba<lb ed="#G" n="55" break="no"/>ptismo. 1 Quia sicut se habet caritas confirmati ad
+      ca<lb ed="#G" n="56" break="no"/>ritatem baptixati, sic &amp; gratia ad gratiam, loquendo de 
+      <lb ed="#G" n="57"/>gratia gratumfaciente: sed caritas confirmati non est
+      ali<lb ed="#G" n="58" break="no"/>per essentiam a caritate baptiaati : ergo &amp;c. Maior patet. 
+      <lb ed="#G" n="59"/>quia sicut caritas dat esse carum, sic gratia dat esse gratum: 
+      <lb ed="#G" n="60"/>&amp; sicut caritas est forma suscipiens magis, &amp; potest 
+      <lb ed="#G" n="61"/>augeri, sic &amp; gratia. Minor patet ex his, quae dixi <ref xml:id="HuYgTa-221790-Rd1e362">libro pri 
+        <lb ed="#G" n="62"/>mo distin. 17.</ref> vbi declaraui, quod in omnibus formis
+      in<lb ed="#G" n="63" break="no"/>tensionem suscipientibus eadem est essentia formae inten 
+      <lb ed="#G" n="64"/>sae, &amp; remissae 
+    </p>
+            <p xml:id="HuYgTa-221790-d1e374">
+               <lb ed="#G" n="65"/>
+               <pc type="indent"/>2 Praeterea, eadem est gratia praeueniens, &amp; subse 
+      <lb ed="#G" n="66"/>quens : ergo eadem per essentiam est gratia baptismi, &amp;  
+      <lb ed="#G" n="67"/>confirmationis. Antecedens ponit <ref xml:id="HuYgTa-221790-Rd1e384">magister lib. 2. dist. 
+        <!--634.xml-->
+        <cb ed="#G" n="b"/>
+                  <lb ed="#G" n="68"/>28.</ref> Consequentia patet: quia gratia confirmationis
+      se<lb ed="#G" n="69" break="no"/>quitur gratiam baptismi.¬ 
+    </p>
+            <p xml:id="HuYgTa-221790-d1e397">
+               <lb ed="#G" n="70"/>
+               <pc type="indent"/>Sed contra istud est quedam opinio, quae ponit, quod 
+      <lb ed="#G" n="71"/>gratia, quae datur in baptiimo, &amp; gratia, quae datur in con 
+      <lb ed="#G" n="72"/>firmatione, est essentialiter alia, &amp; alia gratia 
+    </p>
+            <p xml:id="HuYgTa-221790-d1e408">
+               <lb ed="#G" n="73"/>
+               <pc type="indent"/>1 Quia virtutes, &amp; dona essentialiter differunt: ergo 
+      <lb ed="#G" n="74"/>gratia baptismi, &amp; gratia confirmationis essentialiter
+      dif<lb ed="#G" n="75" break="no"/>ferunt. Antecedens patet. Probatur consequentia: quia 
+      <lb ed="#G" n="76"/>gratia baptismalis est causa virtutum, &amp; gratia
+      confirma<lb ed="#G" n="77" break="no"/>tionis est causa donorum. 
+    </p>
+            <p xml:id="HuYgTa-221790-d1e424">
+               <lb ed="#G" n="78"/>
+               <pc type="indent"/>2 Praeterea, sicut morbi distinguuntur, sic medicinae 
+      <lb ed="#G" n="79"/>morborum debent esse distincte: sed morbus peccati mor 
+      <lb ed="#G" n="80"/>talis, cuius medicina est gratia baptismi, est essentialiter 
+      <lb ed="#G" n="81"/>distinctus a morbo pusillanimitatis, cuius medicina est 
+      <lb ed="#G" n="82"/>gratia confirmationis. Maior patet: quia sicut ait
+      Cassio<lb ed="#G" n="83" break="no"/>dorus, varium poscit remedium diuersa qualitas
+      passio<lb ed="#G" n="84" break="no"/>num: non enim idem sanat oculum, &amp; calcancum. 
+    </p>
+            <p xml:id="HuYgTa-221790-d1e444">
+               <lb ed="#G" n="85"/>
+               <pc type="indent"/>3 Praeterea, quaecumque sic se habent, quod vnum pre 
+      <lb ed="#G" n="86"/>cedit alterum tempore, &amp; natura, illa necessario differunt 
+      <lb ed="#G" n="87"/>essentialiter, sed gratia baptismi natura, &amp; tempore prae 
+      <lb ed="#G" n="88"/>cedit gratiam confirmationis: ergo &amp;c 
+    </p>
+            <p xml:id="HuYgTa-221790-d1e457">
+               <lb ed="#G" n="89"/>
+               <pc type="indent"/>4 Praeterea, si daretur eadem gratia in confirmatione, 
+      <lb ed="#G" n="90"/>&amp; non alia, quam illa, quae data est in baptismo, tunc
+      fru<lb ed="#G" n="91" break="no"/>stra confirmaretur homo.¬ 
+    </p>
+            <p xml:id="HuYgTa-221790-d1e469">
+               <lb ed="#G" n="92"/>
+               <pc type="indent"/>3 Praeterea, signa debent esse conformia suis
+      significa<lb ed="#G" n="93" break="no"/>tis: sed baptismus, &amp; confirmatio, quae sunt signa gratiarum 
+      <lb ed="#G" n="94"/>datarum baptixato, &amp; confirmato differunt essentialiter. Maior  
+      <lb ed="#G" n="95"/>atet. Probatur minor: quia differunt in materia, &amp; in 
+      <lb ed="#G" n="96"/>forma: quia materia baptismi est aqua, &amp; forma, ego
+      ba<lb ed="#G" n="97" break="no"/>ptixo te &amp;c. materia vero confirmationis est chrisma,
+      for<lb ed="#G" n="98" break="no"/>ma, signo te signo crucis, confirmo te chrismate salutis. 
+    </p>
+            <p xml:id="HuYgTa-221790-d1e489">
+               <lb ed="#G" n="99"/>
+               <pc type="indent"/>Alij ponunt, quod nouus gradus essentiae ipsius gra 
+      <lb ed="#G" n="100"/>tiae superuenit in ipsa confirmatione, qui tamen facit cum 
+      <lb ed="#G" n="101"/>gratia baptismali vnam integram essentiam: Hac autem 
+      <lb ed="#G" n="102"/>opinionem, &amp; plures alias cum suis motiuis recitaui, &amp;  
+      <lb ed="#G" n="103"/>in suo simili impugnaui <ref xml:id="HuYgTa-221790-Rd1e504">lib. 1. distinct. 17.</ref> ideo de his
+      ni<lb ed="#G" n="104" break="no"/>hil ad praesens 
+    </p>
+            <p xml:id="HuYgTa-221790-d1e510">
+               <lb ed="#G" n="105"/>
+               <pc type="indent"/>Ad primum ergo primae opinionis dicendum, quod 
+      <lb ed="#G" n="106"/>consequentia non valet: Ad probationem dicendum, quod 
+      <lb ed="#G" n="107"/>non est necesse tantam diuersitatem dare in causis sicut in 
+      <lb ed="#G" n="108"/>causatis: idem enim calor numero potest simul causare 
+      <lb ed="#G" n="109"/>liquefactionem, &amp; mollitiem in cera, &amp; exciccationem, &amp;  
+      <lb ed="#G" n="110"/>duritiem in terra 
+    </p>
+            <p xml:id="HuYgTa-221790-d1e528">
+               <lb ed="#G" n="111"/>
+               <pc type="indent"/>Ad secundum nego maiorem: quia quamuis
+      quando<lb ed="#G" n="112" break="no"/>que sit realis distinctio, &amp; essentialis in morbis, &amp;
+      mor<lb ed="#G" n="113" break="no"/>borum curationibus, tamen in medicina non est
+      distin<lb ed="#G" n="114" break="no"/>ctio essentialis, sed solum modalis. Vna enim, &amp; eadem  
+      <lb ed="#G" n="115"/>medicina alio, &amp; alio modo accepta diuersos curat
+      lan<lb ed="#G" n="116" break="no"/>guores. Ad probationes dicendum, quod in vtraque
+      pro<lb ed="#G" n="117" break="no"/>batione est fallacia consequentis, puta, varium: ergo
+      va<lb ed="#G" n="118" break="no"/>rium per essentiam non sequitur: quia multi alij possunt 
+      <lb ed="#G" n="119"/>esse modi varietatis praeter modum varietatis in essentia, 
+      <lb ed="#G" n="120"/>Et similiter non sequitur, non idem: ergo non idem per 
+      <lb ed="#G" n="121"/>essentiam: quia quot modis dicitur vnum oppositorum, 
+      <lb ed="#G" n="122"/>ot modis dicitur &amp; alterum : ergo sicut sunt multi modi 
+      <lb ed="#G" n="123"/>identitatis praeter illum modum, quo aliqua sunt idem 
+      <lb ed="#G" n="124"/>per essentiam in essentiam: sic sunt multi modi non iden 
+      <lb ed="#G" n="125"/>titatis praeter illum modum, quo aliqua sunt non idem 
+      <lb ed="#G" n="126"/>n essentia 
+    </p>
+            <p xml:id="HuYgTa-221790-d1e567">
+               <lb ed="#G" n="127"/>
+               <pc type="indent"/>Ad tertium nego maiorem: quia forma remissa
+      praece<lb ed="#G" n="128" break="no"/>dit seipsam tepore, &amp; natura vt efficitur sub esse intenso 
+      <lb ed="#G" n="129"/>&amp;tamen propter hoc non differt essentialiter a seipsa¬ 
+    </p>
+            <p xml:id="HuYgTa-221790-d1e578">
+               <lb ed="#G" n="130"/>
+               <pc type="indent"/>Praeterea, fundamentum tempore, &amp; natura quandoque 
+      <lb ed="#G" n="131"/>praecedit relationem, quam fundat: &amp; tamen, secundum 
+      <lb ed="#G" n="132"/>communiorem opinionem, relatio comparata ad
+      funda<lb ed="#G" n="133" break="no"/>mentum non differt realiter a fundamento. 
+    </p>
+            <p xml:id="HuYgTa-221790-d1e592">
+               <lb ed="#G" n="134"/>
+               <pc type="indent"/>Ad quartum nego consequentiam, licet enim detur eade 
+      <lb ed="#G" n="135"/>secundum essentiam: datur tamen alia secundum esse, &amp; secu 
+      <lb ed="#G" n="136"/>dum modum essendi: quia intensior crit, &amp; perfectior: est 
+      <lb ed="#G" n="137"/>alium effectum habebit in confirmato propter sui perfectio 
+      <lb ed="#G" n="138"/>nem, quem non habuit in baptixato, puta facit cum
+      for<lb ed="#G" n="139" break="no"/>tem, &amp; confidentem: propter quod non datur frustra: Et 
+      <lb ed="#G" n="140"/>quia isti effectus gratiae sacramentalis quandoque appel¬ 
+      <!--635.xml-->
+      <pb ed="#G" n="P2_82-v"/>
+               <cb ed="#G" n="a"/>
+               <lb ed="#G" n="1"/>lantur gratia, qui quidem effectus sunt essentialiter diuer 
+      <lb ed="#G" n="2"/>si secundum diuersa sacramenta: hinc est, quod aliqui
+      anti<lb ed="#G" n="3" break="no"/>qui doctores dicebant, quod alia, &amp; alia gratia per essentiam 
+      <lb ed="#G" n="4"/>datur in alio, &amp; alio sacramento. 
+    </p>
+            <p xml:id="HuYgTa-221790-d1e627">
+               <lb ed="#G" n="5"/>
+               <pc type="indent"/>Ad quintum dicendum, quod ad veritatem signi sufficit 
+      <lb ed="#G" n="6"/>aliqualis conformitas ad signatum, &amp; non est necesse
+      po<lb ed="#G" n="7" break="no"/>nere omnem modum conformitatis. Vnde signa essentia 
+      <lb ed="#G" n="8"/>liter distincta possunt significare idem secundum
+      essen<lb ed="#G" n="9" break="no"/>tiam, differens secundum esse, &amp; habens diuersos
+      effe<lb ed="#G" n="10" break="no"/>ctus essentialiter distinctos, &amp; hoc maxime cum talia
+      si<lb ed="#G" n="11" break="no"/>gna sunt signa illius in ordine ad illos diuersos effectus; 
+      <lb ed="#G" n="12"/>sicut est in proposito: nam baptismus est signum gratiae 
+      <lb ed="#G" n="13"/>in ordine ad remissionem culpe: sed confirmatio est
+      si<lb ed="#G" n="14" break="no"/>gnum gratiae in ordine ad remissionem poenae, puta ad re 
+      <lb ed="#G" n="15"/>missionem pusillani mitatis, quae non est culpa, sed poena 
+      <lb ed="#G" n="16"/>ex culpa derelicta. 
+    </p>
+            <p xml:id="HuYgTa-221790-d1e658">
+               <lb ed="#G" n="17"/>
+               <pc type="indent"/>Ex his praemissis merito potest dubitari, vtrum gratia 
+      <lb ed="#G" n="18"/>data in confirmatione sit dignior, seu perfectior ea gratia 
+      <lb ed="#G" n="19"/>quae datur in baptismo. Et quaelibet pars contradictionis 
+      <lb ed="#G" n="20"/>stius quaesiti habet suos defensores. 
+    </p>
+            <p xml:id="HuYgTa-221790-d1e671">
+               <lb ed="#G" n="21"/>
+               <pc type="indent"/>Arguunt enim quidam pro gratia confirmationis, quo 
+      <lb ed="#G" n="22"/>sit perfectior, &amp; hoc sic¬ 
+    </p>
+            <p xml:id="HuYgTa-221790-d1e680">
+               <lb ed="#G" n="23"/>1 Cratia ordinata ad excellentiores effectus est excelli 
+      <lb ed="#G" n="24"/>tior: sed gratia confirmationis ordinatur ad excellentio 
+      <lb ed="#G" n="25"/>res effectus, quam gratia baptismi. Maior patet. Probatur 
+      <lb ed="#G" n="26"/>minor: quia effectus gratiae confirmationis est esse confis 
+      <lb ed="#G" n="27"/>matum in iustitia, &amp; fidem publice confiteri mortis peri 
+      <lb ed="#G" n="28"/>culo non obstante: Sed effectus gratiae baptismalis est es 
+      <lb ed="#G" n="29"/>se iustificatum, &amp; articulos fidei credere: sed esse firmum 
+      <lb ed="#G" n="30"/>in iustitia, &amp; fidem publice confiteri est excellentius, quam 
+      <lb ed="#G" n="31"/>esse iustum, &amp; simpliciter credere¬ 
+    </p>
+            <p xml:id="HuYgTa-221790-d1e702">
+               <lb ed="#G" n="32"/>
+               <pc type="indent"/>2 Praeterea, gratia illius sacramenti est excellentior, 
+      <lb ed="#G" n="33"/>cuius dispensatio dignioribus ministris est, commissa: sed  
+      <lb ed="#G" n="34"/>dispensatio confirmationis est commissa episcopis, bapti 
+      <lb ed="#G" n="35"/>mi ergo presbyteris, &amp; in necessitate omnibus
+      homini<lb ed="#G" n="36" break="no"/>bus: ergo &amp;c. 
+    </p>
+            <p xml:id="HuYgTa-221790-d1e719">
+               <lb ed="#G" n="37"/>
+               <pc type="indent"/>3 Praeterea, istius intentionis, vt dicunt, videtur fuisse 
+      <lb ed="#G" n="38"/>Rabanus, qui ait. In baptismo spiritus sanctus descedit ad 
+      <lb ed="#G" n="39"/>habitationem Deo consecrandam: in confirmatione
+      ve<lb ed="#G" n="40" break="no"/>ro eiusdem septiformis gratia cum omni plenitudine 
+      <lb ed="#G" n="41"/>sanctitatis, &amp; virtutis venit in hominem. 
+    </p>
+            <p xml:id="HuYgTa-221790-d1e735">
+               <lb ed="#G" n="42"/>
+               <pc type="indent"/>1 Econtra quidam arguunt pro gratia baptismali
+      sic<lb ed="#G" n="43" break="no"/>llla gratia, quae datur contra peccatum originale, &amp;
+      con<lb ed="#G" n="44" break="no"/>tra omnes eius sequelas, est excellentior, quam illa, qua 
+      <lb ed="#G" n="45"/>datur contra vnam sequelam tantum : sed gratia
+      baptis<lb ed="#G" n="46" break="no"/>malis datur &amp;c. &amp; gratia confirmationis contra
+      pusillani<lb ed="#G" n="47" break="no"/>mitatem tantum: ergo &amp;c 
+    </p>
+            <p xml:id="HuYgTa-221790-d1e753">
+               <lb ed="#G" n="48"/>
+               <pc type="indent"/>2 Praeterea, gratia, quae facit amicum de inimico, est 
+      <lb ed="#G" n="49"/>efficacior, quam illa, quae de amico iam facto facit magis 
+      <lb ed="#G" n="50"/>imicum, sed gratia baptismalis facit amicum de inimico 
+      <lb ed="#G" n="51"/>&amp; gratia confirmationis facit &amp;c. 
+    </p>
+            <p xml:id="HuYgTa-221790-d1e766">
+               <lb ed="#G" n="52"/>
+               <pc type="indent"/>3 Praeterea, gratia, quae morientem immediate facit 
+      <lb ed="#G" n="53"/>ad beatitudinem euolare, &amp; aperit portas coeli, est
+      excel<lb ed="#G" n="54" break="no"/>lentior ea, quae hoc non sacit: sed si bapticatus moreretur 
+      <lb ed="#G" n="55"/>statim iret ad coelum, &amp; non confirmatus: ergo &amp;c 
+    </p>
+            <p xml:id="HuYgTa-221790-d1e779">
+               <lb ed="#G" n="56"/>
+               <pc type="indent"/>Pro concordantia igitur istorum est aduertendum, quod 
+      <lb ed="#G" n="57"/>pratia confirmationis potest dupliciter considerari. Vno 
+      <lb ed="#G" n="58"/>modo, prout includit gratiam baptismalem, puta si vnus 
+      <lb ed="#G" n="59"/>homo hodie baptixatus, retenta gratia baptilmali illaesa 
+      <lb ed="#G" n="60"/>statim postea confirmatur, &amp; sic gratia confirmationis es 
+      <lb ed="#G" n="61"/>excellentior, quam sola gratia baptismalis 
+    </p>
+            <p xml:id="HuYgTa-221790-d1e797">
+               <lb ed="#G" n="62"/>
+               <pc type="indent"/>Quia loquendo de his, quae sunt de genere bonorum 
+      <lb ed="#G" n="63"/>semper includens perfectius est incluso: sed illo casu
+      po<lb ed="#G" n="64" break="no"/>sito, tunc gratia confirmationis includeret gratiam
+      ba<lb ed="#G" n="65" break="no"/>tismalem, sicut forma intensa includit formam
+      remis<lb ed="#G" n="66" break="no"/>sam, quam praesupponit ergo &amp;c. Maior patet: quia quod 
+      <lb ed="#G" n="67"/>n perfectione est tantundem, &amp; amplius, hoc est in
+      per<lb ed="#G" n="68" break="no"/>fectione maius: sed perfectio includens respectu inclusae 
+      <lb ed="#G" n="69"/>dicit tantundem, &amp; amplius. Minor de se patet. Alio mo 
+      <lb ed="#G" n="70"/>do, potest considerari gratia confirmationis, vt
+      praesci<lb ed="#G" n="71" break="no"/>sa a gratia baptismali, puta accipiendo precise gradum 
+      <lb ed="#G" n="72"/>llum, quem addit ipsa confirmatio, sic gratia
+      baptisma<lb ed="#G" n="73" break="no"/>uis videtur esse perfectior: quia praecisae loquendo vir¬ 
+      <!--635.xml-->
+      <cb ed="#G" n="b"/>
+               <lb ed="#G" n="74"/>tus, quae a morte viuificat, est efficacior illa, quae viuum 
+      <lb ed="#G" n="75"/>confortat: sed gratia baptismalis mortuum per
+      pecca<lb ed="#G" n="76" break="no"/>tum viuificat, quem postea gratia confirmationis
+      super<lb ed="#G" n="77" break="no"/>ueniens in vita confortat: ergo &amp;c. Et sic primo modo 
+      <lb ed="#G" n="78"/>procedunt rationes primae partis: secundo modo rationes 
+      <lb ed="#G" n="79"/>alterius partis. 
+    </p>
+            <p xml:id="HuYgTa-221790-d1e846">
+               <lb ed="#G" n="80"/>
+               <pc type="indent"/>ART ICVLVS IIR 
+      <lb ed="#G" n="81"/>Vtrum in sacramento confirmationis imprimatur 
+      <lb ed="#G" n="82"/>character ipsi confirmato.
+    </p>
+            <p xml:id="HuYgTa-221790-d1e857">
+               <lb ed="#G" n="83"/>QVANTVM ad secundum articulum pono tres con 
+      <lb ed="#G" n="84"/>clusiones. Prima est, quod in sacramento
+      confir<lb ed="#G" n="85" break="no"/>mationis realis character imprimitur. Et quamuis ista 
+      <lb ed="#G" n="86"/>conclusio probata sit quaestione proxima praecedentes 
+      <lb ed="#G" n="87"/>tamen adhuc potest sic suaderi. 
+    </p>
+            <p xml:id="HuYgTa-221790-d1e870">
+               <lb ed="#G" n="88"/>
+               <pc type="indent"/>1 Quia in exercitu bene ordinato non solum his,  
+      <lb ed="#G" n="89"/>ui sunt de exercitu, datur signum commune, quo
+      om<lb ed="#G" n="90" break="no"/>es pariter distinguuntur ab aduersarijs in contrario 
+      <lb ed="#G" n="91"/>exercitu existentibus: verum etiam in eodem exercitu 
+      <lb ed="#G" n="92"/>distinguuntur milites a popularibus, &amp; duces ab
+      vtris<lb ed="#G" n="93" break="no"/>que: sed exercitus militantis ecclesiae est bene ordinatus: 
+      <lb ed="#G" n="94"/>ergo existentes de hoc exercitu non solum sunt
+      signa<lb ed="#G" n="95" break="no"/>ti charactere baptismi, quo distinguuntur ab aduersarijs,  
+      <lb ed="#G" n="96"/>&amp; non baptixatis: verum etiam ad pugnae militiam
+      prae<lb ed="#G" n="97" break="no"/>electi signantur charactere confirmationis, &amp; duces exer 
+      <lb ed="#G" n="98"/>citus, puta ordinati, &amp; maxime sacerdotes fignantur
+      cha<lb ed="#G" n="99" break="no"/>ractere ordinis. 
+    </p>
+            <p xml:id="HuYgTa-221790-d1e901">
+               <lb ed="#G" n="100"/>
+               <pc type="indent"/>2 Praeterea, non solum diuinae clementiae; verum 
+      <lb ed="#G" n="101"/>ctiam potentiae, &amp; sapientiae debemus conformari, seu 
+      <lb ed="#G" n="102"/>configurari: sed sicut charactere baptismi configuramur 
+      <lb ed="#G" n="103"/>liuinae clementiae, sic charactere confirmationis
+      confi<lb ed="#G" n="104" break="no"/>guramur diuinae potentiae, &amp; charactere ordinis diuinae 
+      <lb ed="#G" n="105"/>apientiae.  
+    </p>
+            <p xml:id="HuYgTa-221790-d1e919">
+               <lb ed="#G" n="106"/>
+               <pc type="indent"/>Forte dic etur, quod pugna spiritualis debet esse 
+      <lb ed="#G" n="107"/>communis omnibus fidelibus: ergo character confir¬¬ 
+      <lb ed="#G" n="108"/>mationis, quo quis signatur ad spiritualem pugnam  
+      <lb ed="#G" n="109"/>on erit distinctiuus fidelis a fideli, nec per consequens 
+      <lb ed="#G" n="110"/>liffert a charactere baptismi, qui est comunis omnibus 
+      <lb ed="#G" n="111"/>fidelibus 
+    </p>
+            <p xml:id="HuYgTa-221790-d1e937">
+               <lb ed="#G" n="112"/>
+               <pc type="indent"/>Respondeo, quod spiritualis pugna quo ad praesens du 
+      <lb ed="#G" n="113"/>pliciter potest accipi. Vno modo, prout pugnare
+      debe<lb ed="#G" n="114" break="no"/>mus contra omnia, quae nos inducunt ad vitia seu
+      pecca<lb ed="#G" n="115" break="no"/>ta. Alio modo, prout pugnare debemus specialiter
+      con<lb ed="#G" n="116" break="no"/>tra eos, qui fideles conantur seducere falsae fidei
+      persua<lb ed="#G" n="117" break="no"/>sione, &amp; vere fidei impugnatione. Et isto secundo modo 
+      <lb ed="#G" n="118"/>signatur fidelis ad pugnam spiritualem charactere confir. 
+      <lb ed="#G" n="119"/>mationis: Instantia autem procedit de primo modo
+      pu<lb ed="#G" n="120" break="no"/>gnandi: ideo non est ad propositum.
+    </p>
+            <p xml:id="HuYgTa-221790-d1e962">
+               <lb ed="#G" n="121"/>Conclusio secunda est, quod character, qui in
+      confir<lb ed="#G" n="122" break="no"/>matione recipitur, subiectiue habet esse in voluntate, 
+      <lb ed="#G" n="123"/>rout voluntas virtualiter comprehendit perfectio¬¬ 
+      <lb ed="#G" n="124"/>nem virtutis irascibilis.  
+    </p>
+            <p xml:id="HuYgTa-221790-d1e973">
+               <lb ed="#G" n="125"/>
+               <pc type="indent"/>Quia, cuius est potentia, eius est &amp; actus, &amp;
+      econuer<lb ed="#G" n="126" break="no"/>so, vt dicitur primo de somno, &amp; vigilia: sed character 
+      <lb ed="#G" n="127"/>confirmationis est quaedam potentia, seu potestas
+      ordi<lb ed="#G" n="128" break="no"/>nata ad actum bellandi contra aduersarios catholicae
+      fi<lb ed="#G" n="129" break="no"/>dei, qui quidem actus competit proprie voluntati, secun 
+      <lb ed="#G" n="130"/>dum quod virtualiter comprehendit virtutem
+      irascibi<lb ed="#G" n="131" break="no"/>em: ideo &amp;c.
+    </p>
+            <p xml:id="HuYgTa-221790-d1e993">
+               <lb ed="#G" n="132"/>t Forte dicetur, quod sicut se habet habitus
+      natura<lb ed="#G" n="133" break="no"/>lis ad habitum supernaturalem, sic potentia naturalis. 
+      <lb ed="#G" n="134"/>d potentiam supernaturalem: sed habitus naturalis non  
+      <lb ed="#G" n="135"/>est subiectum habitus supernaturalis: ergo potentia
+      na<lb ed="#G" n="136" break="no"/>turalis non erit subiectum potentiae supernaturalis, nec 
+      <lb ed="#G" n="137"/>per consequens character confirmationis, qui est
+      quae<lb ed="#G" n="138" break="no"/>dam potentia supernaturalis, poterit subiectiue fundari 
+      <lb ed="#G" n="139"/>in voluntate, qui est potentia animae naturalis.
+    </p>
+            <p xml:id="HuYgTa-221790-d1e1013">
+      <!--636.xml-->
+               <pb ed="#G" n="P2_83-r"/>
+               <cb ed="#G" n="a"/>
+               <lb ed="#G" n="1"/>2 Praeterea, proprium est potentiae immediate
+      funda<lb ed="#G" n="2" break="no"/>ri in essentia : ergo character confirmationis subiectiue 
+      <lb ed="#G" n="3"/>erit in essentia animae, &amp; non in voluntate. Consequentia 
+      <lb ed="#G" n="4"/>patet: quia character confirmationis est quaedam potentia 
+    </p>
+            <p xml:id="HuYgTa-221790-d1e1031">
+               <lb ed="#G" n="5"/>
+               <pc type="indent"/>Ad primum dicendum, quod non est simile de habitu
+      na<lb ed="#G" n="6" break="no"/>turali, &amp; de potentia naturali: quia habitus proprie
+      lo<lb ed="#G" n="7" break="no"/>quendo nullius potest esse subiectum, sed potentiae
+      natu<lb ed="#G" n="8" break="no"/>rali non repugnat esse subiectum, &amp; ideo quamuis habi 
+      <lb ed="#G" n="9"/>tus supernaturalis non possit subiectiue fundari in habi 
+      <lb ed="#G" n="10"/>tu naturali: tamen potentia supernaturalis potest
+      subie<lb ed="#G" n="11" break="no"/>ctiue esse in potentia naturali.
+    </p>
+            <p xml:id="HuYgTa-221790-d1e1051">
+               <lb ed="#G" n="12"/>Ad secundum dicendum, quod licet maior sit vera,
+      lo<lb ed="#G" n="13" break="no"/>quendo de potentia naturali tamen non est vera loquer 
+      <lb ed="#G" n="14"/>do de potentia supernaturali. Sicut autem hic probatum 
+      <lb ed="#G" n="15"/>est, characterem confirmationis esse subiectiue in
+      poten<lb ed="#G" n="16" break="no"/>tia volitiua, sic simili ratione potest probari, characterem 
+      <lb ed="#G" n="17"/>ordinis esse subiectiue in potentia intellectiua: quia
+      cha<lb ed="#G" n="18" break="no"/>racter ordinis datur homini pro fidelium
+      multiplicatio<lb ed="#G" n="19" break="no"/>ne per doctrinam sanam, sed actus doctrinae competit ho 
+      <lb ed="#G" n="20"/>mini secundum intellectum : ergo character ordinis, qui 
+      <lb ed="#G" n="21"/>est quaedam potestas homini collata pro huiusmodi
+      do<lb ed="#G" n="22" break="no"/>ctrinae exercitio, debet esse in intellectu. 
+    </p>
+            <p xml:id="HuYgTa-221790-d1e1078">
+               <lb ed="#G" n="23"/>
+               <pc type="indent"/>Tertia conclusio est, quod quilibet istorum
+      characte<lb ed="#G" n="24" break="no"/>rum suo subiecto indelebiliter inest, puta character
+      baptis<lb ed="#G" n="25" break="no"/>mi essentiae animae, character confirmationis voluntati, qu 
+      <lb ed="#G" n="26"/>character ordinis intellectui.
+    </p>
+            <p xml:id="HuYgTa-221790-d1e1091">
+               <lb ed="#G" n="27"/>1 Quia si character deleretur, vel hoc fieret destructio 
+      <lb ed="#G" n="28"/>ne subiecti, vel approximatione contrarij, vel
+      subtractio<lb ed="#G" n="29" break="no"/>ne sui effectiui principij. Non primo modo: quia tam
+      es<lb ed="#G" n="30" break="no"/>sentia animae, quam potentia, scilicet voluntas, &amp;
+      intel<lb ed="#G" n="31" break="no"/>lectus, quae sunt subiecta characterum, sunt simpliciter
+      in<lb ed="#G" n="32" break="no"/>corruptibilia. Nec secundo modo: quia tale contrarium 
+      <lb ed="#G" n="33"/>vel esset culpa, &amp; hoc non: quia tunc malus sacerdos
+      per<lb ed="#G" n="34" break="no"/>deret characterem ordinis, &amp; per consequens esset
+      reor<lb ed="#G" n="35" break="no"/>dinandus, &amp; malus Christianus esset rebaptixandus, vel 
+      <lb ed="#G" n="36"/>ignorantia, &amp; hoc non: quia tunc paruuli cum sint
+      igno<lb ed="#G" n="37" break="no"/>rantes non reciperent characterem. Nec tertio modo 
+      <lb ed="#G" n="38"/>quia Deus nullum bonum spirituale destruit in nobis. 
+      <lb ed="#G" n="39"/>nisi in quantum tale bonum est incompossibile cum cul 
+      <lb ed="#G" n="40"/>pa, vel ignorantia, sed vt iam patuit; ipse character non 
+      <lb ed="#G" n="41"/>nabet repugnantiam ad culpam, nec ad ignorantiam. 
+    </p>
+            <p xml:id="HuYgTa-221790-d1e1126">
+               <lb ed="#G" n="42"/>
+               <pc type="indent"/>2 Praeterea, sicut in perfectione matrimonij contrahi 
+      <lb ed="#G" n="43"/>tur vinculum indissolubile, sic in praedictis tribus
+      sacra<lb ed="#G" n="44" break="no"/>mentis, in quibus Christianus singulariter Deo
+      sponsa<lb ed="#G" n="45" break="no"/>tur, imprimitur signum indelebile¬ 
+    </p>
+            <p xml:id="HuYgTa-221790-d1e1139">
+               <lb ed="#G" n="46"/>
+               <pc type="indent"/>1 Forte contra istud dicetur, quod character bestiae non 
+      <lb ed="#G" n="47"/>potest simul stare cum charactere sacramenti, sed multi 
+      <lb ed="#G" n="48"/>sunt signati charactere bestiae, vt patet Apoc. 15. ergo &amp;c. 
+    </p>
+            <p xml:id="HuYgTa-221790-d1e1150">
+               <lb ed="#G" n="49"/>
+               <pc type="indent"/>2 Praeterea, quicquid subest humanae voluntati, hoc 
+      <lb ed="#G" n="50"/>est variabile, sed character subest humanae voluntati: quia 
+      <lb ed="#G" n="51"/>recipitur voluntarie. 
+    </p>
+            <p xml:id="HuYgTa-221790-d1e1161">
+               <lb ed="#G" n="52"/>
+               <pc type="indent"/>3 Praeterea, si character esset indelebilis, vel hoc esset 
+      <lb ed="#G" n="53"/>ratione efficientis, a quo producitur, vel ratione subiecti, 
+      <lb ed="#G" n="54"/>in quo recipitur. Non primum: quia Deus producit
+      cari<lb ed="#G" n="55" break="no"/>tatem, &amp; gratiam, quae tamen desentur ab ipso
+      peccato<lb ed="#G" n="56" break="no"/>re. Nec ratione secundi: quia tunc omnia, quae
+      recipiun<lb ed="#G" n="57" break="no"/>tur in anima rationali essent inuariabilia.  
+    </p>
+            <p xml:id="HuYgTa-221790-d1e1180">
+               <lb ed="#G" n="58"/>
+               <pc type="indent"/>4 Praeterea, character aliquo modo habilitat ad
+      gra<lb ed="#G" n="59" break="no"/>tiam: sed in damnato nulla manet habilitas ad gratiam: 
+      <lb ed="#G" n="60"/>ergo saltem a damnatis delebitur ipse character. 
+      <lb ed="#G" n="61"/>Ad primum dicendum, quod maior non est vera: quia 
+      <lb ed="#G" n="62"/>character bestiae est mortale peccatum cum aliqua
+      obsti<lb ed="#G" n="63" break="no"/>natione, qua anima quodammodo disponitur ad
+      quan<lb ed="#G" n="64" break="no"/>dam perpetuitatem, sed vt iam dictum est, per nullum 
+      <lb ed="#G" n="65"/>mortale peccatum deletur sacramentalis character. 
+    </p>
+            <p xml:id="HuYgTa-221790-d1e1202">
+               <lb ed="#G" n="66"/>
+               <pc type="indent"/>Ad secundum dicendum, quod licet passiue
+      chara<lb ed="#G" n="67" break="no"/>cter voluntarie recipiatur: tamen actiue non dependet 
+      <lb ed="#G" n="68"/>character ab humana voluntate: nec etiam aliquis actus 
+      <lb ed="#G" n="69"/>humanae voluntatis habet formalem repugnantiam ad 
+      <lb ed="#G" n="70"/>characterem: ideo deletio characteris non subest
+      huma<lb ed="#G" n="71" break="no"/>nae voluntati. 
+    </p>
+            <p xml:id="HuYgTa-221790-d1e1220">
+               <lb ed="#G" n="72"/>
+               <pc type="indent"/>Ad tertium dicendum, quod diuisio est insufficiens: 
+      <lb ed="#G" n="73"/>quia pro tanto character est indelebilis: quia nullam  
+      <!--636.xml-->
+      <cb ed="#G" n="b"/>
+               <lb ed="#G" n="74"/>repugnantiam patitur in suo subiecto, non obstantibus 
+      <lb ed="#G" n="75"/>quibuscumque actibus humanis variantibus humanam  
+      <lb ed="#G" n="76"/>voluntatem.  
+    </p>
+            <p xml:id="HuYgTa-221790-d1e1240">
+               <lb ed="#G" n="77"/>
+               <pc type="indent"/>Ad quartum dicendum, quod licet character
+      habili<lb ed="#G" n="78" break="no"/>tet ad gratiam hominem existentem in via: tamen non 
+      <lb ed="#G" n="79"/>habilitat existentem extra viam
+    </p>
+            <p xml:id="HuYgTa-221790-d1e1251">
+               <lb ed="#G" n="80"/>Forte dices, ad quid ergo manet character in ipso dam 
+      <lb ed="#G" n="81"/>nato: Dico, quod manet ad maiorem confusionem dam  
+      <lb ed="#G" n="82"/>nati, vt in perpetuum appareat, quod quamuis Deus
+      in<lb ed="#G" n="83" break="no"/>ter oues suas ipsum signauerit: ipse tamen propter suam 
+      <lb ed="#G" n="84"/>malitiam a dominico ouili recessit, &amp; huiusmodi
+      signa<lb ed="#G" n="85" break="no"/>tionem inutilem sibi fecit.  
+    </p>
+            <p xml:id="HuYgTa-221790-d1e1267">
+               <lb ed="#G" n="86"/>
+               <pc type="indent"/>ARTICVLVS IIL 
+      <lb ed="#G" n="87"/>Quis sit idoneus minister sacramenti 
+      <lb ed="#G" n="88"/>
+               <pc type="indent"/>confirmationis.
+    </p>
+            <p xml:id="HuYgTa-221790-d1e1281">
+               <lb ed="#G" n="89"/>VANTVM ad tertium articulum pono duas
+      con<lb ed="#G" n="90" break="no"/>e clusiones. Prima est, quod secundum cursum
+      con<lb ed="#G" n="91" break="no"/>munem non quilibet sacerdos, sed solus episcopus debet 
+      <lb ed="#G" n="92"/>conferre sacramentum confirmationis.
+    </p>
+            <p xml:id="HuYgTa-221790-d1e1292">
+               <lb ed="#G" n="93"/>Quia quod in primitiua ecclesia solum licuit
+      Aposto<lb ed="#G" n="94" break="no"/>lis, hoc modo solum licet episcopis: quia sicut simplices 
+      <lb ed="#G" n="95"/>resbyteri sunt suceessores 72. discipulorum, sic episcopi 
+      <lb ed="#G" n="96"/>sunt suceessores ipsorum Apostolorum, vt patet in <ref xml:id="HuYgTa-221790-Rd1e1302">decre 
+        <lb ed="#G" n="97"/>tis distinct. 2. 1. cap. in nouo</ref>, sed in primitiua ecclesia soli 
+      <lb ed="#G" n="98"/>Apostoli dabant sacramentum confirmationis: quia, vt pa 
+      <lb ed="#G" n="99"/>et in actibus Apostolorum, Philippus diaconus non con 
+      <lb ed="#G" n="100"/>firmabat eos, quos baptix abat: sed reliquit eos Apostolis 
+      <lb ed="#G" n="101"/>confirmandos.
+    </p>
+            <p xml:id="HuYgTa-221790-d1e1317">
+               <lb ed="#G" n="102"/>Secunda conclusio est, quod de priuilegio, &amp;
+      dispensa<lb ed="#G" n="103" break="no"/>tione singulari summus Pontisex potest simplici sacerdo 
+      <lb ed="#G" n="104"/>ti dare auctoritate conferendi sacramentum confirmatio 
+      <lb ed="#G" n="105"/>nis: quia auctoritate Papae sacerdoti potest committi au 
+      <lb ed="#G" n="106"/>ctoritas conferendi ordines: ergo &amp; confirmandi.
+      Ante<lb ed="#G" n="107" break="no"/>cedens patet: quia sacerdos Cardinalis potest conferre 
+      <lb ed="#G" n="108"/>minores ordines. Patet etiam consequentia: quia cui po 
+      <lb ed="#G" n="109"/>test committi maius, eidem potest committi etiam mi 
+      <lb ed="#G" n="110"/>nus, sed maius, &amp; excellentius esse videtur conferre or- 
+      <lb ed="#G" n="111"/>dinom, quam confirmare.
+    </p>
+            <p xml:id="HuYgTa-221790-d1e1341">
+               <lb ed="#G" n="112"/>2 Praeterea, de facto Papa Crego. auctoritatem confir 
+      <lb ed="#G" n="113"/>mandi simplicibus sacerdotibus contulit, sicut patet do 
+      <lb ed="#G" n="114"/>conse distis. c. peruenit, vbi Gregorius Papa lanuario Epi 
+      <lb ed="#G" n="115"/>copo sic scribit. Peruenit ad nos, quosdam
+      scandalixa<lb ed="#G" n="116" break="no"/>tos fuisse, quod presbyteros tangere eos chrismate, qui 
+      <lb ed="#G" n="117"/>baptixati sunt, prohibuimus. Et sequitur ibidem. Si om- 
+      <lb ed="#G" n="118"/>nino de hac re aliqui contristantur, vbi Episcopi desunt, 
+      <lb ed="#G" n="119"/>vt presbvteri baptixatos etiam tangere chrismate in fron 
+      <lb ed="#G" n="120"/>tibus debeant, concedimus.  
+    </p>
+            <p xml:id="HuYgTa-221790-d1e1363">
+               <lb ed="#G" n="121"/>
+               <pc type="indent"/>Sed ad istam auctoritatem dicunt quidam, quod isti sa 
+      <lb ed="#G" n="122"/>cerdotes auctoritate Papae non conferebant
+      sacramen<lb ed="#G" n="123" break="no"/>tum confirmationis, sed solum dabant aliquid
+      sacramen<lb ed="#G" n="124" break="no"/>tale, sicut quandoque alicui datur panis benedictus pro 
+      <lb ed="#G" n="125"/>cucharistia. 
+    </p>
+            <p xml:id="HuYgTa-221790-d1e1379">
+               <lb ed="#G" n="126"/>
+               <pc type="indent"/>Sed istud non valet: quia Papa Srego grauiter peccas 
+      <lb ed="#G" n="127"/>et, si huiusmodi simulationem, &amp; deceptionem populi 
+      <lb ed="#G" n="128"/>admisisset. Valde enim damnabilis fuisset illa deceptio: 
+      <lb ed="#G" n="129"/>nam homines credidissent se recipere sacramentum
+      con<lb ed="#G" n="130" break="no"/>firmationis, &amp; non recepissent 
+    </p>
+            <p xml:id="HuYgTa-221790-d1e1396">
+               <lb ed="#G" n="131"/>
+               <pc type="indent"/>Et ideo alij dixerunt, quod tanta est auctoritas
+      Pa<lb ed="#G" n="132" break="no"/>pae, quod vnicuique homini Papa potest dare potestatem 
+      <lb ed="#G" n="133"/>conferendi illud, quod habet, puta, si homo est
+      confir<lb ed="#G" n="134" break="no"/>matus, tunc auctoritate Papae potest alium confirmare: 
+      <lb ed="#G" n="135"/>si est sacerdos, potest auctoritate Papae ordinem
+      sacerdo<lb ed="#G" n="136" break="no"/>tij alteri dare, si diaconus, potest ordinem diaconit 
+      <lb ed="#G" n="137"/>conferre: sed non ordinem sacerdotij: quia eo ipso, quod 
+      <lb ed="#G" n="138"/>illum non habet, non potest eum alteri dare etiam
+      au<lb ed="#G" n="139" break="no"/>ctoritate Papae.
+    </p>
+            <p xml:id="HuYgTa-221790-d1e1420">
+      <!--637.xml-->
+               <pb ed="#G" n="P2_83-v"/>
+               <cb ed="#G" n="a"/>
+               <lb ed="#G" n="1"/>Sed nec istud valet, &amp; est sine probatione assumptum 
+      <lb ed="#G" n="2"/>&amp; est contra dicta sanctorum doctorum, qui ponunt, quod 
+      <lb ed="#G" n="3"/>sacer ordo non potest dari nisi ab Episcopo, nec
+      confir<lb ed="#G" n="4" break="no"/>matio potest dari a laico quamuiscumque confirmato. 
+      <lb ed="#G" n="5"/>s 
+    </p>
+            <p xml:id="HuYgTa-221790-d1e1440">
+               <lb ed="#G" n="6"/>
+               <pc type="indent"/>Forte dicetur, quod vnumquodque potest agere
+      secun<lb ed="#G" n="7" break="no"/>dum formam, quam habet: quia vnumquodque agit,
+      se<lb ed="#G" n="8" break="no"/>cundum quod est in actu, sed laicus confirmatus habet 
+      <lb ed="#G" n="9"/>characterem confirmationis: ergo potest agere
+      secun<lb ed="#G" n="10" break="no"/>dum huiusmodi characterem, &amp; per consequens
+      produ<lb ed="#G" n="11" break="no"/>cere sibi simile¬ 
+    </p>
+            <p xml:id="HuYgTa-221790-d1e1458">
+               <lb ed="#G" n="12"/>
+               <pc type="indent"/>Respondeo, quod ad hoc, vt aliquis possit confirmare 
+      <lb ed="#G" n="13"/>necesse est, vt habeat talem characterem, quo charactere 
+      <lb ed="#G" n="14"/>ipse constituitur minister ecclesiae: sed per characterem  
+      <lb ed="#G" n="15"/>confirmationis non constituitur quis minister ecclesiae: 
+      <lb ed="#G" n="16"/>ergo quamuis aliquis sit in actu secundum characterem  
+      <lb ed="#G" n="17"/>confirmationis non habens characterem ordinis, quo
+      con<lb ed="#G" n="18" break="no"/>stituitur minister ecclesiae, non poterit alteri characteri 
+      <lb ed="#G" n="19"/>confirmationis conferre, 
+    </p>
+            <p xml:id="HuYgTa-221790-d1e1480">
+               <lb ed="#G" n="20"/>
+               <pc type="indent"/>ARTICVLVS III 
+      <lb ed="#G" n="21"/>Vtrum susceptio sacramenti confirmationis 
+      <lb ed="#G" n="22"/>sit necessaria ad salutem.
+    </p>
+            <p xml:id="HuYgTa-221790-d1e1491">
+               <lb ed="#G" n="23"/>VANTVM ad quartum articulum pono duas cor 
+      <lb ed="#G" n="24"/>S clusiones. Prima est, quod susceptio istius
+      sacra<lb ed="#G" n="25" break="no"/>menti non est absolute, &amp; simpliciter loquendo necessa 
+      <lb ed="#G" n="26"/>ria ad salutem. 
+    </p>
+            <p xml:id="HuYgTa-221790-d1e1503">
+               <lb ed="#G" n="27"/>
+               <pc type="indent"/>1 Quia illud, sine quo potest quis saluari, hoc
+      simpli<lb ed="#G" n="28" break="no"/>citer loquendo non est necessarium ad salutem, sed non 
+      <lb ed="#G" n="29"/>confirmatus potest saluari, iuxta illud. Qui crediderit, &amp; 
+      <lb ed="#G" n="30"/>baptixatus fuerit hic saluus erit 
+    </p>
+            <p xml:id="HuYgTa-221790-d1e1516">
+               <lb ed="#G" n="31"/>
+               <pc type="indent"/>2 Praeterea, omnis decedens in gratia Dei saluatur,  
+      <lb ed="#G" n="32"/>sed immediate decedens post baptismum decedit in
+      gra<lb ed="#G" n="33" break="no"/>tia Dei, vt patet ex praecedentibus: ergo &amp;c 
+    </p>
+            <p xml:id="HuYgTa-221790-d1e1527">
+               <lb ed="#G" n="34"/>
+               <pc type="indent"/>Forte dicetur, quod nullus potest saluari, nisi sit plene 
+      <lb ed="#G" n="35"/>Christianus: sed sine sacramento confirmationis non es 
+      <lb ed="#G" n="36"/>aliquis plene Christianus, quod patet de consec. distin. s 
+      <lb ed="#G" n="37"/>vbi dicitur. Omnes sideles per manus impositionem
+      Epi<lb ed="#G" n="38" break="no"/>scoporum post baptismum spiritum sanctum suscipere de 
+      <lb ed="#G" n="39"/>bent, vt pleni Christiani inueniantur. 
+    </p>
+            <p xml:id="HuYgTa-221790-d1e1545">
+               <lb ed="#G" n="40"/>
+               <pc type="indent"/>Ad tollendam istam instantiam pono pro secunda con 
+      <lb ed="#G" n="41"/>clusione, quod susceptio confirmationis homini adulto 
+      <lb ed="#G" n="42"/>necessaria est ad salutem, supposito, quod plenariam
+      ha<lb ed="#G" n="43" break="no"/>beat opportunitatem ipsam suscipiendi, priusquam
+      mo<lb ed="#G" n="44" break="no"/>riatur: quia nullus contemnens sacramentum potest
+      sal<lb ed="#G" n="45" break="no"/>uari: sed habens plenam, &amp; omnimodam opportunit, 
+      <lb ed="#G" n="46"/>tem suscipiendi confirmationem, &amp; non suscipit, ac
+      mo<lb ed="#G" n="47" break="no"/>ritur sine ea, videtur contemnere sacramentum: ergo &amp;c 
+      <lb ed="#G" n="48"/>Et per hoc patet ad instantiam: quia contemnens non 
+      <lb ed="#G" n="49"/>est plenus Christianus, vt dicitur in <ref xml:id="HuYgTa-221790-Rd1e1571">glosa extra de sente. 
+      <lb ed="#G" n="50"/>excommunicationis</ref>. <ref xml:id="HuYgTa-221790-Rd1e1576">Decretum</ref> autem allegatum
+      lo<lb ed="#G" n="51" break="no"/>quitur de adultis sufficientem opportunitatem
+      habenti<lb ed="#G" n="52" break="no"/>bus suscipiendi istud sacramentum, qui si morerentur
+      si<lb ed="#G" n="53" break="no"/>ne eo: ratione contemptus non essent pleni Christiani¬ 
+    </p>
+            <p xml:id="HuYgTa-221790-d1e1586">
+               <lb ed="#G" n="54"/>
+               <pc type="indent"/>Ad argumentum principale dicendum, quod gratis 
+      <lb ed="#G" n="55"/>data in confirmatione quamuis sit eadem secundum
+      es<lb ed="#G" n="56" break="no"/>
+               <pc type="indent"/>sentiam cum gratia data in baptismo: tamen
+      dupli<lb ed="#G" n="57" break="no"/>
+               <pc type="indent"/>citer differt ab ea. Primo quidem: quia addit 
+      <lb ed="#G" n="58"/>
+               <pc type="indent"/>ad gratiam baptismi gradum intenfiorem. 
+      <lb ed="#G" n="59"/>
+               <pc type="indent"/>non quidem gradum secundum 
+      <lb ed="#G" n="60"/>essentiam, sed secundum esse,  
+      <lb ed="#G" n="61"/>
+               <pc type="indent"/>sicut dictum est de
+      cari<lb ed="#G" n="62" break="no"/>
+               <pc type="indent"/>tate <ref xml:id="HuYgTa-221790-Rd1e1622">lib. 1. dist. 17. </ref>
+               <lb ed="#G" n="63"/>
+               <pc type="indent"/>Secundo: quia 
+      <lb ed="#G" n="64"/>
+               <pc type="indent"/>gratia 
+      <lb ed="#G" n="65"/>confirmationis aliquem habet
+      effe<lb ed="#G" n="66" break="no"/>
+               <pc type="indent"/>ctum, quem non habet
+      gra<lb ed="#G" n="67" break="no"/>
+               <pc type="indent"/>tia baptismi, vt
+      pa<lb ed="#G" n="68" break="no"/>
+               <pc type="indent"/>tet ex prae¬¬ 
+      <lb ed="#G" n="69"/>
+               <pc type="indent"/>dictis.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

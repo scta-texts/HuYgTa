@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Circa textum 1</title>
+            <author ref="#ThomasStrasbourg">Thomas of Strasbourg</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Circa textum 1</title>
+               <date when="2020-11-26">November 26, 2020</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="G" n="cod-TxxqU">Genoa 1585</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2020-11-26" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#G" n="134-r"/>
+            <cb ed="#G" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="HuYgTa-101117"><!-- HuYgTa-l2d2ct1 -->
+            <head xml:id="HuYgTa-101117-Hd1e108">Circa textum 1</head>
+            <p xml:id="HuYgTa-101117-d1e111">
+      <!--306.xml-->
+               <pb ed="#G" n="134-r"/>
+               <cb ed="#G" n="a"/>
+               <lb ed="#G" n="1"/>DISTINCTIO II 
+      <lb ed="#G" n="2"/>Tractatus de creaturarum conditi one absolutissima 
+      <lb ed="#G" n="3"/>dunsio, atque praesentis distinctionis perspicua 
+      <lb ed="#G" n="4"/>subdiuisio, m qua, &amp; tempus, &amp; locus 
+      <lb ed="#G" n="5"/>ange iorum ereationis explicatir. 
+    </p>
+            <p xml:id="HuYgTa-101117-d1e131">
+               <lb ed="#G" n="6"/>
+               <pc type="indent"/>E ANGEIICa itaque natura &amp;c 
+      <lb ed="#G" n="7"/>Postquam Magister determinauit 
+      <lb ed="#G" n="8"/>de creatione rerum in generali,  
+      <lb ed="#G" n="9"/>hic de ea prosequitur in speciali 
+      <lb ed="#G" n="10"/>&amp; diuiditur in tres partes: nam pri 
+      <lb ed="#G" n="11"/>mo determinat de creatura pure 
+      <lb ed="#G" n="12"/>spirituali: Secundo de creatura po 
+      <lb ed="#G" n="13"/>re corporali, Et tertio de partim 
+      <lb ed="#G" n="14"/>sbi rituali, &amp; partim corporali, puta de homine: qui secun 
+      <lb ed="#G" n="15"/>dum corpus conuenit cum creatura corporali, &amp;
+      secun<lb ed="#G" n="16" break="no"/>dum animam cum spirituali. Secunda incipit ibi, Haec de an 
+      <lb ed="#G" n="17"/>gelicae naturae Tertia ibi, His excursis. Prima induas; quia 
+      <lb ed="#G" n="18"/>primo tractando de spirituali creatura praemittit
+      proce<lb ed="#G" n="19" break="no"/>dendi ordinem: Secundo inxta praemissum ordinem
+      an<lb ed="#G" n="20" break="no"/>nectit executionem ibi, Quaedam auctoritates: &amp; haec 
+      <lb ed="#G" n="21"/>in duas; nam primo ostendit quando &amp; vbi ipsi angeli 
+      <lb ed="#G" n="22"/>sint creati: Secundo, in quali natura sint creati &amp; quibus 
+      <lb ed="#G" n="23"/>perfectionibus decorati ibi, Ecce ostensum est. Prima in 
+      <lb ed="#G" n="24"/>duas: quia primo tractat de tempore creationis ipsorum 
+      <lb ed="#G" n="25"/>angelorum, Secundo de loco creationis eorum ibi, lam 
+      <lb ed="#G" n="26"/>ostensum est. Quantum ad primum est aduertendum, quod 
+      <lb ed="#G" n="27"/>cirea initium creationis ipsorum angelorum aliquae
+      au<lb ed="#G" n="28" break="no"/>ctoritates sacrae scripturae sibi mutuo videntur
+      repugna<lb ed="#G" n="29" break="no"/>re, ideo Magister sic procedit, quia primo ex huiusm odi 
+      <lb ed="#G" n="30"/>auctoritatibus inducit dubitationem circa angelorum 
+      <lb ed="#G" n="31"/>rreationem, Secundo ponit suam responsionem, Tertio 
+      <lb ed="#G" n="32"/>suae resposionis subiungit probationem, Quarto auctori. 
+      <lb ed="#G" n="33"/>tate Heronvmi inducit obiectionem, &amp; quinto illius 
+      <lb ed="#G" n="34"/>obiectionis subdit absolutionem. Secunda ibi, videtur 
+      <lb ed="#G" n="35"/>itaque Tertia ibi, Quod antem simul. Quarta ibi
+      Hicro<lb ed="#G" n="36" break="no"/>nymus tamen super epistolam. Quinta ibi. Nos autem 
+      <lb ed="#G" n="37"/>quod prius. Et haec est sententia istius primae partis distin 
+      <lb ed="#G" n="38"/>ctionis secundae in generali, circa quam quaero hanc 
+      <lb ed="#G" n="39"/>quaestionem. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Circa textum 2</title>
+            <author ref="#ThomasStrasbourg">Thomas of Strasbourg</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Circa textum 2</title>
+               <date when="2020-11-26">November 26, 2020</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="G" n="cod-TxxqU">Genoa 1585</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2020-11-26" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#G" n="-r"/>
+            <cb ed="#G" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="HuYgTa-e46503"><!-- HuYgTa-l1d11ct2 -->
+            <head xml:id="HuYgTa-e46503-Hd1e108">Circa textum 2</head>
+            <p xml:id="HuYgTa-e46503-d1e111">
+               <lb ed="#G" n="8"/>
+               <pc type="indent"/>Secundae particulae principalis huius
+      distinctio<lb ed="#G" n="9" break="no"/>nis non obscura subdiuusio, m qua quiden 
+      <lb ed="#G" n="10"/>controuersia, quae versatur inter ora 
+      <lb ed="#G" n="11"/>cos, &amp; Latinos de processione spi 
+      <lb ed="#G" n="12"/>ritus sancti, explicatur.  
+    </p>
+            <p xml:id="HuYgTa-e46503-d1e127">
+               <lb ed="#G" n="13"/>
+               <pc type="indent"/>RAECI TAMEN &amp;c. Hic
+      magi<lb ed="#G" n="14" break="no"/>ster ostendit discordiam Crecorum 
+      <lb ed="#G" n="15"/>a doctrina latinorum; et diuiditur in 
+      <lb ed="#G" n="16"/>duas: quia primo ostendit in quo Orae 
+      <lb ed="#G" n="17"/>ci praecise dissentiunt alatinis, Se 
+      <lb ed="#G" n="18"/>cundo manifestat, in quo doctores 
+      <lb ed="#G" n="19"/>Craecorum conueniunt cum latinis 
+      <lb ed="#G" n="20"/>Secunda ibi, Sciendum est tamen 
+      <lb ed="#G" n="21"/>Prima in duas: quia primo ponit Oraecorum contra lati 
+      <lb ed="#G" n="22"/>nos argumentationes, Secundo respondet ad eorum ra 
+      <lb ed="#G" n="23"/>tiones ibi, Nos autem illa verba. Tunc sequitur illa pars 
+      <lb ed="#G" n="24"/>Sciendum est tamen, Et diuiditur in duas; quia primo 
+      <lb ed="#G" n="25"/>ostendit, in quo omnes craeci conueniunt cum latinis,  
+      <lb ed="#G" n="26"/>Secundo in quo catholici oraecorum concordant cum la 
+      <lb ed="#G" n="27"/>tinis, Vnde etiam quidam eorum. Circa istam litteram quaero 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

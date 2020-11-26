@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Circa textum</title>
+            <author ref="#ThomasStrasbourg">Thomas of Strasbourg</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Circa textum</title>
+               <date when="2020-11-26">November 26, 2020</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="G" n="cod-TxxqU">Genoa 1585</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2020-11-26" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#G" n="-r"/>
+            <cb ed="#G" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="HuYgTa-e79564"><!-- HuYgTa-l1d35ct1 -->
+            <head xml:id="HuYgTa-e79564-Hd1e108">Circa textum</head>
+            <p xml:id="HuYgTa-e79564-d1e111">
+               <lb ed="#G" n="57"/>
+               <pc type="indent"/>DISTINCTIO XXXV. 
+      <lb ed="#G" n="58"/>Secundae particulae principalis huius volumiinis
+      ab<lb ed="#G" n="59" break="no"/>solutissima diuisio, atque praesentis
+      distinctioni<lb ed="#G" n="60" break="no"/>breus subdiuisio, in qua perfectiones, quae 
+      <lb ed="#G" n="61"/>extrmscece quodammodo ipsum Deum 
+      <lb ed="#G" n="62"/>vespiciunt, explicari incipuint 
+    </p>
+            <p xml:id="HuYgTa-e79564-d1e129">
+               <lb ed="#G" n="63"/>
+               <pc type="indent"/>VM QVE supra disseruerimus. Postquam 
+      <lb ed="#G" n="64"/>magister huc vsque determinauit de
+      hi<lb ed="#G" n="65" break="no"/>quae Deo conueniunt secundum
+      intrin<lb ed="#G" n="66" break="no"/>sec as perfectiones, hic vlterius vsque ad  
+      <lb ed="#G" n="67"/>finem primi libri determinat de his, quo 
+      <lb ed="#G" n="68"/>non solum Deo conueniunt ad intra, ve 
+      <!--247.xml-->
+      <cb ed="#G" n="b"/>
+               <lb ed="#G" n="69"/>rumetiam sibi videntur competere secundum extrinse. 
+      <lb ed="#G" n="70"/>cas operationes: haec autem sunt tria, scilicet scientia, po 
+      <lb ed="#G" n="71"/>tentia, &amp; voluntas. Et secundum hoc, residua pars istius 
+      <lb ed="#G" n="72"/>primi libri diuiditur in tres partes: nam primo tractat do 
+      <lb ed="#G" n="73"/>Dei scientia, Secundo de potentia, Tertio de diuinae
+      vo<lb ed="#G" n="74" break="no"/>luntatis efficacia Secunda pars incipit ibi, Nunc de omni 
+      <lb ed="#G" n="75"/>otentia Tertia ibi, lam de voluntate. Prima in duas: 
+      <lb ed="#G" n="76"/>Nam primo agit de scientia Dei generaliter; Secundo in 
+      <lb ed="#G" n="77"/>comparatione ad rationalem creaturam specialiter ibi, 
+      <lb ed="#G" n="78"/>Praedestinatio vero de bonis Prima in duas; nam primo 
+      <lb ed="#G" n="79"/>determinat de scientia Dei secundum se: Secundo
+      tra<lb ed="#G" n="80" break="no"/>ctat de ea comparatiue ibi, Solet hic queri. Prima in tres 
+      <lb ed="#G" n="81"/>Quia primo magister praemittit ea, de quibus vsque ad 
+      <lb ed="#G" n="82"/>finem istius primi libri intendit facere mentionem, Secun 
+      <lb ed="#G" n="83"/>do ostendit scientiae Dei multiplicem fore acceptionem 
+      <lb ed="#G" n="84"/>&amp; tertio de Dei scientia mouet quaestionem. Secunda 
+      <lb ed="#G" n="85"/>ibi, Sciendum est ergo. Tertia ibi, Hic considerari opori 
+      <lb ed="#G" n="86"/>tet, &amp; haec in tres, nam primo mouet quaestionem, Secun 
+      <lb ed="#G" n="87"/>do recitat circa eam duplicem opinionem, Tertio ponit 
+      <lb ed="#G" n="88"/>suam determinationem. Secunda ibi, Ad hoc autem. Ter 
+      <lb ed="#G" n="89"/>tia ibi, Ad hoc iuxta modulum; &amp; ista in tres; nam primo 
+      <lb ed="#G" n="90"/>circa praedictam quaestionem determinate insinuat suum 
+      <lb ed="#G" n="91"/>propositum, Secundo infert triplex corollarium ibi,
+      Scie<lb ed="#G" n="92" break="no"/>tia Vero; &amp; diuiditur in tres partes, secundum quod
+      tri<lb ed="#G" n="93" break="no"/>nfert corollaria, in quorum primo concludit omnia ab aeter 
+      <lb ed="#G" n="94"/>no fuisse a Deo scita; in secundo, quod omnia ab aeternd 
+      <lb ed="#G" n="95"/>fuerunt in Dei scientia In tertio, quod omnia sunt Ded 
+      <lb ed="#G" n="96"/>potentia. Secunda ibi, lose autem omnia. Tertia ibi, Inde 
+      <lb ed="#G" n="97"/>est quod omnia. Circa hanc. dist. 35. quaero. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Circa textum 1</title>
+            <author ref="#ThomasStrasbourg">Thomas of Strasbourg</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Circa textum 1</title>
+               <date when="2020-11-26">November 26, 2020</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="G" n="cod-TxxqU">Genoa 1585</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2020-11-26" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#G" n="51-r"/>
+            <cb ed="#G" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="HuYgTa-e38393"><!-- HuYgTa-l1d8ct1 -->
+            <head xml:id="HuYgTa-e38393-Hd1e108">Circa textum 1</head>
+            <p xml:id="HuYgTa-e38393-d1e111">
+      <!--140.xml-->
+               <pb ed="#G" n="51-r"/>
+               <cb ed="#G" n="a"/>
+               <lb ed="#G" n="1"/>DISTINCTIO VIII
+      <lb ed="#G" n="2"/>Fatisis, ac breuis diuisio huius distinctionis, in qua de 
+      <lb ed="#G" n="3"/>
+               <pc type="indent"/>diuiua agitiar natura, quae realiter nil aliud 
+      <lb ed="#G" n="4"/>
+               <pc type="indent"/>est, quam potentia generaudi:itaque
+      Ma<lb ed="#G" n="5" break="no"/>
+               <pc type="indent"/>gister quasdam eius proprietates. 
+      <lb ed="#G" n="6"/>
+               <pc type="indent"/>muestigat, ac patefacit. 
+    </p>
+            <p xml:id="HuYgTa-e38393-d1e142">
+               <lb ed="#G" n="7"/>
+               <pc type="indent"/>VNC DE VERITATE &amp;c 
+      <lb ed="#G" n="8"/>Postquam magister determinauit 
+      <lb ed="#G" n="9"/>de potentia generandi, quae est ipsa 
+      <lb ed="#G" n="10"/>diuina natura, hic manifestat quas 
+      <lb ed="#G" n="11"/>dam proprietates conuenientes
+      il<lb ed="#G" n="12" break="no"/>li naturae, Et diuiditur in tres: quia 
+      <lb ed="#G" n="13"/>primo tractat de diuinae naturae
+      en<lb ed="#G" n="14" break="no"/>titate, &amp; veritate, secundo de eius 
+      <lb ed="#G" n="15"/>incommutabilitate, &amp; tertio de eius simplicitate. Secun 
+      <lb ed="#G" n="16"/>da ibi, Dei etiam solius essentia. Tertia ibi, fademque
+      sola<lb ed="#G" n="17" break="no"/>Prima in tres: quia primo ostendit, quomodo hoc nomen 
+      <lb ed="#G" n="18"/>essentia proprie conuenit ipsi Deo, Secundo ostendit 
+      <lb ed="#G" n="19"/>quomodo ex dicto Hicronvmi oritur quoddam dubium 
+      <lb ed="#G" n="20"/>in proposito, Et tertio respondet huius modi dubio.
+      Se<lb ed="#G" n="21" break="no"/>cunda ibi, Hic diligenter &amp;c. Tertia ibi, lllud ergo qud &amp;c 
+      <lb ed="#G" n="22"/>Tunc sequitur illa pars. Eademque &amp;c. In qua magister tam 
+      <lb ed="#G" n="23"/>git de diuinae essentiae simplicitate, &amp; diuiditur in duas 
+      <lb ed="#G" n="24"/>partes: quia primo declarat diuinae essentiae simplicitate 
+      <lb ed="#G" n="25"/>per comparationem ad extra, secundo per comparationem 
+      <lb ed="#G" n="26"/>ad intra. Secunda ibi, Hic diligenter. Prima in duas: quia 
+      <lb ed="#G" n="27"/>primo declarat huiusm odi simplicitatem per comparatio 
+      <lb ed="#G" n="28"/>nem ad creaturas corporales, Secundo ad incorporales. 
+      <lb ed="#G" n="29"/>Secunda ibi, Creatura quoque spiritualis. Quia in ista 8. dis 
+      <lb ed="#G" n="30"/>magister tractat de diuina simplicitate; ideo quaero. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

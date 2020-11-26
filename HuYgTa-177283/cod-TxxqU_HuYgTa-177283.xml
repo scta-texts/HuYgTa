@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Circa textum</title>
+            <author ref="#ThomasStrasbourg">Thomas of Strasbourg</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Circa textum</title>
+               <date when="2020-11-26">November 26, 2020</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="G" n="cod-TxxqU">Genoa 1585</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2020-11-26" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#G" n="-r"/>
+            <cb ed="#G" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="HuYgTa-177283"><!-- HuYgTa-l3d12ct1 -->
+            <head xml:id="HuYgTa-177283-Hd1e108">Circa textum</head>
+            <p xml:id="HuYgTa-177283-d1e111">
+               <lb ed="#G" n="13"/>
+               <pc type="indent"/>DISTINCTIO XI 
+      <lb ed="#G" n="14"/>Facilis huius distinctionis diuisio, in qua inquiritur,  
+      <lb ed="#G" n="15"/>
+               <pc type="indent"/>An homo ille semper fuerit, vel
+      quando<lb ed="#G" n="16" break="no"/>
+               <pc type="indent"/>que caoeperit esse
+    </p>
+            <p xml:id="HuYgTa-177283-d1e129">
+               <lb ed="#G" n="17"/>POST PREDICTA &amp;c. Haec est distin 
+      <lb ed="#G" n="18"/>ctio 12. in qua Magister inquirit, vtrum 
+      <lb ed="#G" n="19"/>homo Christus habuit esse inceptum 
+      <lb ed="#G" n="20"/>vel inchoatum. Et diuiditur in duas
+      par<lb ed="#G" n="21" break="no"/>tes: quia primo quaerit de iam dicto
+      de<lb ed="#G" n="22" break="no"/>fectu mensurae, qui vniuersaliter
+      compe<lb ed="#G" n="23" break="no"/>tit omni creaturae. Secundo de quibusdam particularibus 
+      <lb ed="#G" n="24"/>defectibus hominibus competentibus distincte ex parte 
+      <lb ed="#G" n="25"/>coporis, &amp; animae ibi, ldeo non immerito. Prima in duas: 
+      <lb ed="#G" n="26"/>quia primo mouet quaestionem principalem, puta, vtrum 
+      <lb ed="#G" n="27"/>homo, qui est Christus, esse inceperit. Secundo adiungi 
+      <lb ed="#G" n="28"/>quaestionem incidentalem, puta, vtrum aliunde hominem 
+      <lb ed="#G" n="29"/>quam de genere Adae Deus assumere potuerit ibi, Solet 
+      <lb ed="#G" n="30"/>etiam quaeri. Sequitur illa pars, ldeo non immerito. In 
+      <lb ed="#G" n="31"/>qua Magister &amp;c. Et diuiditur in duas partes; nam primo,  
+      <lb ed="#G" n="32"/>inquirit de defectu contingente circa potentiam spiritualem. 
+      <lb ed="#G" n="33"/>Secundo, de defectu accidente circa potentiam corporalem 
+      <lb ed="#G" n="34"/>puta, circa virtutem generatiuam: quia raro, vel numquam 
+      <lb ed="#G" n="35"/>generatur femella, nisi sit defectus in generatiua
+      poten<lb ed="#G" n="36" break="no"/>tia non potente sufficienter subiicere inobedientem
+      ge<lb ed="#G" n="37" break="no"/>nerationis materiam. Secunda ibi, Solet etiam requiri 
+      <lb ed="#G" n="38"/>Prima in tres: quia primo de potentia peccandi mouet 
+      <lb ed="#G" n="39"/>questionem. Secundo ad motam quaestionem respondeti 
+      <lb ed="#G" n="40"/>Et tertio quorundam obiectionem remouet. Secunda 
+      <lb ed="#G" n="41"/>ibi, Hic distinctione opus est. Tertia ibi; Quidam tamen 
+      <lb ed="#G" n="42"/>probare. Hic quaero. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

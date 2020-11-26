@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Circa textum</title>
+            <author ref="#ThomasStrasbourg">Thomas of Strasbourg</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Circa textum</title>
+               <date when="2020-11-26">November 26, 2020</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="G" n="cod-TxxqU">Genoa 1585</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2020-11-26" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#G" n="-r"/>
+            <cb ed="#G" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="HuYgTa-158090"><!-- HuYgTa-l2d42ct1 -->
+            <head xml:id="HuYgTa-158090-Hd1e108">Circa textum</head>
+            <p xml:id="HuYgTa-158090-d1e111">
+               <lb ed="#G" n="40"/>
+               <pc type="indent"/>DISIINCTIO XLII. 
+      <lb ed="#G" n="41"/>Lucida buius distinctionis diuisio, in qua
+      no<lb ed="#G" n="42" break="no"/>
+               <pc type="indent"/>xiarum, criminumque differentiae
+      ma<lb ed="#G" n="43" break="no"/>
+               <pc type="indent"/>nifestantir. 
+    </p>
+            <p xml:id="HuYgTa-158090-d1e129">
+               <lb ed="#G" n="44"/>VM AVTEM VOLVNTAS 
+      <lb ed="#G" n="45"/>
+               <pc type="indent"/>Haec est distinctio quadragesimase 
+      <lb ed="#G" n="46"/>cunda, in qua Magister petractat. 
+      <lb ed="#G" n="47"/>aliqualiter peccatorum
+      distincti<lb ed="#G" n="48" break="no"/>ua. Et diuiditur in duas partes,  
+      <lb ed="#G" n="49"/>quia primo mouet aliquas questio 
+      <lb ed="#G" n="50"/>. nes, Secundo procedit ad modorum 
+      <lb ed="#G" n="51"/>peccandi distinctiones, ibi,
+      Mo<lb ed="#G" n="52" break="no"/>di autem peccatorum Prima diuiditur in duas, setudum 
+      <lb ed="#G" n="53"/>quod duas mouet questiones, quarum prima est, vtrum 
+      <lb ed="#G" n="54"/>mala voluntas, &amp; exterior operatio, secundum
+      huiusmo<lb ed="#G" n="55" break="no"/>di malam voluntatem, sit tantummodo vnum peccatum. 
+      <lb ed="#G" n="56"/>Secunda, vtrum, cessonte actu, quo committitur peccatum, 
+      <lb ed="#G" n="57"/>adhuc remaneat ipsum peccatum. Secunda ibi, Praeterea 
+      <lb ed="#G" n="58"/>solet quaeri. Prima in duas, quia primo mouet quaestionem, 
+      <lb ed="#G" n="59"/>&amp; respondet ad eam secundum vnam opinionem. Secundo 
+      <lb ed="#G" n="60"/>penes aliam opinionem obiicit contra datam
+      responsio<lb ed="#G" n="61" break="no"/>nem ibi, Alij vero dicunt. Et haec in tres, secundum quod 
+      <lb ed="#G" n="62"/>tres obiectiones adducit, &amp; cuilibet obiectioni iuxta
+      pri<lb ed="#G" n="63" break="no"/>mam opinionem responsionem adiungit. Secunda ibi, Sed  
+      <lb ed="#G" n="64"/>adhuc eidem. Tertia ibi, Item adhuc. Sequitur illa pars 
+      <lb ed="#G" n="65"/>Praeterea quaeri solet &amp;c. Et diuiditur in tres partes, quia 
+      <lb ed="#G" n="66"/>primo mouet quaestionem. Secundo dat responsionem. Ter 
+      <lb ed="#G" n="67"/>tio cuiusdam termini inresponsione accepti ponit distin 
+      <lb ed="#G" n="68"/>ctionem. Secunda ibi, Sed non est ignoradum. Tertia ibi, 
+      <lb ed="#G" n="69"/>Reatus autem Sequitur illa pars, Modi autem peccatorum. 
+      <!--451.xml-->
+      <cb ed="#G" n="b"/>
+               <lb ed="#G" n="70"/>Et diuiditur in tres, quia primo Magister distinguit
+      poc<lb ed="#G" n="71" break="no"/>cata modaliter, Secundo vocaliter. Tertio generaliter. Se 
+      <lb ed="#G" n="72"/>cunda ibi, Variam quoque Tertia, Praeterea sciendum. Pri. 
+      <lb ed="#G" n="73"/>ma in tres, secundum quod tres modales ponit distinctio. 
+      <lb ed="#G" n="74"/>nes, Secunda ibi, Alibi vero. Tertia ibi, Dicitur quoque 
+      <lb ed="#G" n="75"/>homo peccare Sequitur illa pars, Praeterea sciendum.
+      In<lb ed="#G" n="76" break="no"/>qua Magister primo distinguit septem capitalia, seu
+      ge<lb ed="#G" n="77" break="no"/>neralia vitia. Secundo ostendit, quod omnia alia peccata 
+      <lb ed="#G" n="78"/>oriuntur ex superbia, &amp; auaritia, ibi, Ex superbia
+      tamen<lb ed="#G" n="79" break="no"/>Circa istam lectionem quero hanc quaestionem. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

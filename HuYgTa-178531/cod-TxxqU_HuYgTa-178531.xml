@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Circa textum</title>
+            <author ref="#ThomasStrasbourg">Thomas of Strasbourg</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Circa textum</title>
+               <date when="2020-11-26">November 26, 2020</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="G" n="cod-TxxqU">Genoa 1585</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2020-11-26" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#G" n="-r"/>
+            <cb ed="#G" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="HuYgTa-178531"><!-- HuYgTa-l3d13ct1 -->
+            <head xml:id="HuYgTa-178531-Hd1e108">Circa textum</head>
+            <p xml:id="HuYgTa-178531-d1e111">
+      <!--518.xml-->
+               <cb ed="#G" n="b"/>
+               <lb ed="#G" n="62"/>DISTINCTIO XIII 
+      <lb ed="#G" n="63"/>Resoluta histus distinctionis duusio n qua 
+      <lb ed="#G" n="64"/>agitir de perfectionibus costatis
+      hu<lb ed="#G" n="65" break="no"/>mane naturae assumptae.
+    </p>
+            <p xml:id="HuYgTa-178531-d1e127">
+               <lb ed="#G" n="66"/>RAETEREA SCIENDVM &amp;c. 
+      <lb ed="#G" n="67"/>Postquam Magister determinauit de hu 
+      <lb ed="#G" n="68"/>manae nature ad vnitatem diuini
+      suppo<lb ed="#G" n="69" break="no"/>siti assumptione, hic in principio is dist. 
+      <lb ed="#G" n="70"/>incipit determinare de assumptae naturae 
+      <lb ed="#G" n="71"/>collata perfectione: Et diuiditur in duas 
+      <lb ed="#G" n="72"/>partes. Primo namque considerat absolute
+      perfectio<lb ed="#G" n="73" break="no"/>nes collatas humanae naturae in praedicta vnione, seu
+      as<lb ed="#G" n="74" break="no"/>sumptione. Secundo considerat easdem persectiones
+      re<lb ed="#G" n="75" break="no"/>pectu diuinarum perfectionum quadam comparatione 
+      <lb ed="#G" n="76"/>ibi; Hic quaeri opus est. Prima in tres: quia primo
+      o<lb ed="#G" n="77" break="no"/>stendit, quod Christus a principio suae conceptionis reco 
+      <lb ed="#G" n="78"/>sit plenitudinem gratiae, &amp; sapientiae. secundo opponit 
+      <lb ed="#G" n="79"/>simul contra donum vtrumque. Tertio obiicit
+      distin<lb ed="#G" n="80" break="no"/>cte contra donum sapientiae. Secunda ibi, Huic autem 
+      <lb ed="#G" n="81"/>sententiae videtur obuiare &amp;c. Tertia ibi, Alibi tamen 
+      <lb ed="#G" n="82"/>scriptum. Istarum partium secunda diuiditur in obiectio 
+      <lb ed="#G" n="83"/>nem, &amp; obiectionis solutionem. Secunda ibi, Ad quod  
+      <lb ed="#G" n="84"/>sane. Tertia pars diuiditur in tres partes: quia primo ex 
+      <lb ed="#G" n="85"/>dictis <name xml:id="HuYgTa-178531-Nd1e172" ref="#Ambrose">Ambrosi</name> contra praedicta opponit. Secundo:: lud 
+      <lb ed="#G" n="86"/>quod in illis dictis manifestam continet veritatem,
+      seor<lb ed="#G" n="87" break="no"/>sum ponit. Tertio quod continet dubietatem determi- 
+      <lb ed="#G" n="88"/>nat, &amp; exponit. Secunda ibi, Haec verba <name xml:id="HuYgTa-178531-Nd1e182" ref="#Ambrose">Ambrosi.</name>
+      Ter<lb ed="#G" n="89" break="no"/>tia ibi, Sed ex qua causa. Haec est diuisio, &amp; sententia 
+      <lb ed="#G" n="90"/>istius distinctionis 13. istius tertim libri in generali, Circa 
+      <lb ed="#G" n="91"/>quam quaero in speciali. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

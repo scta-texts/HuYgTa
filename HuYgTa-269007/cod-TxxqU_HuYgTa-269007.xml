@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Circa textum</title>
+            <author ref="#ThomasStrasbourg">Thomas of Strasbourg</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Circa textum</title>
+               <date when="2020-11-26">November 26, 2020</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="G" n="cod-TxxqU">Genoa 1585</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2020-11-26" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#G" n="-r"/>
+            <cb ed="#G" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="HuYgTa-269007"><!-- HuYgTa-l4d24ct1 -->
+            <head xml:id="HuYgTa-269007-Hd1e108">Circa textum</head>
+            <p xml:id="HuYgTa-269007-d1e111">
+               <lb ed="#G" n="86"/>
+               <pc type="indent"/>DISTINCTIO. XXIIII 
+      <lb ed="#G" n="87"/>Tractatus de sacramentis commimemstatum
+      eccle<lb ed="#G" n="88" break="no"/>sic iuuantibus generalis diuisio, ac praesentis distin 
+      <lb ed="#G" n="89"/>ctionis aperta subdiuisio, in qua de facramento on 
+      <lb ed="#G" n="90"/>dinis exacte pertractatur. 
+    </p>
+            <p xml:id="HuYgTa-269007-d1e127">
+               <lb ed="#G" n="91"/>
+               <pc type="indent"/>VNC ad considerationem.
+      Post<lb ed="#G" n="92" break="no"/>qua Magister tractauit de3.
+      sa<lb ed="#G" n="93" break="no"/>cramentis respicientibus in specia 
+      <lb ed="#G" n="94"/>i vtilitatem fidelis personae : nunc 
+      <lb ed="#G" n="95"/>incipit tractare de duobus
+      sacra<lb ed="#G" n="96" break="no"/>mentis valentibus in generali pro 
+      <lb ed="#G" n="97"/>statu totius Ecclesiae. Et diuiditur 
+      <lb ed="#G" n="98"/>in duas partes: nam primo tractat 
+      <lb ed="#G" n="99"/>de sacramento erdinis, quod
+      va<lb ed="#G" n="100" break="no"/>let ad fidelium generationem spiritualem. Secundo de 
+      <lb ed="#G" n="101"/>sacramento matrimonii, quod pertinet ad eorum gene 
+      <lb ed="#G" n="102"/>rationem naturalem, ibi, Cum alia sacramenta. Prima 
+      <lb ed="#G" n="103"/>n duas: nam primo considerat de ordinum
+      distinctio<lb ed="#G" n="104" break="no"/>ne: Secundo considerat de eorum collatione, ibi, Solet 
+      <lb ed="#G" n="105"/>etiam quaeri Prima in duas: quia primo agit de
+      quibus<lb ed="#G" n="106" break="no"/>dam dispositonibus sactamentum ordinis
+      praecedenti<lb ed="#G" n="107" break="no"/>bus Secundo de officiis, &amp; dignitatibus huiusmodi
+      sa<lb ed="#G" n="108" break="no"/>cramentum consequentibus, ibi, Sunt &amp; alia Prima in 
+      <lb ed="#G" n="109"/>duas; quia primo insinuat huiusmo di dispositones
+      sa<lb ed="#G" n="110" break="no"/>cramentum ordinis ordinare praecedentes Secundo de 
+      <lb ed="#G" n="111"/>clarat, qualiter istud sacramentum comprehendit diuer 
+      <lb ed="#G" n="112"/>sos ordines, ibi, Hostiarii. Prima in tres: quia primo
+      Ma<lb ed="#G" n="113" break="no"/>ister ostendit, quid requiritur ex parte animae;
+      Secun<lb ed="#G" n="114" break="no"/>do, quid ex parte totius personae; Tertio, quid requiritur 
+      <lb ed="#G" n="115"/>in corpore Ostendit enim, quod ordinandus debet
+      ha<lb ed="#G" n="116" break="no"/>bere in anima spiritus sancti gratiam, in persona tota do 
+      <lb ed="#G" n="117"/>ctrinam, &amp; honestam vitam, &amp; in capitis tonsura clerica 
+      <lb ed="#G" n="118"/>lem coronam, vecunda, ibi, Tales autem Tertia, ibi,
+      Co<lb ed="#G" n="119" break="no"/>rona decus regale. Sequitur illa pars, Hostiarii Et
+      diuidi<lb ed="#G" n="120" break="no"/>tur in 7. partes, secundum quod Magister tractat de 7 on 
+      <lb ed="#G" n="121"/>dinibus, quorum primi quattuor dicuntur ordines
+      mi<lb ed="#G" n="122" break="no"/>nores, tres autem sequentes dicuntur ordines maiores. 
+      <lb ed="#G" n="123"/>Et partes patent inlittera. Sequitur illa pars, cunt &amp; 
+      <lb ed="#G" n="124"/>alia. Et diuiditur in duas partes: nam primo tangit
+      sa<lb ed="#G" n="125" break="no"/>cramentum ordinis consequentia ad dignitatem
+      perti<lb ed="#G" n="126" break="no"/>nentia. Secundo tangit nomina quaedam officia
+      specia<lb ed="#G" n="127" break="no"/>liter exprimentia, ibi, vates a vi mentis Prima in duas; 
+      <lb ed="#G" n="128"/>nam primo tangit de Episcopali dignitate, Secundo de 
+      <lb ed="#G" n="129"/>
+               <pc type="indent"/>illius dignitatis distinctione, &amp; diuersitate, ibi,
+      Or<lb ed="#G" n="130" break="no"/>
+               <pc type="indent"/>do autem. Haec diuisio, &amp; per consequens
+      sen<lb ed="#G" n="131" break="no"/>
+               <pc type="indent"/>tentia istius 23. dist. n generali,  
+      <lb ed="#G" n="132"/>
+               <pc type="indent"/>circa quam quaero in 
+      <lb ed="#G" n="133"/>
+               <pc type="indent"/>speciali
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

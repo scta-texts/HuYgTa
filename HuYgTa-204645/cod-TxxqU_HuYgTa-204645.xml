@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Circa textum 1</title>
+            <author ref="#ThomasStrasbourg">Thomas of Strasbourg</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Circa textum 1</title>
+               <date when="2020-11-26">November 26, 2020</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="G" n="cod-TxxqU">Genoa 1585</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2020-11-26" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#G" n="-r"/>
+            <cb ed="#G" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="HuYgTa-204645"><!-- HuYgTa-l4d1ct1 -->
+            <head xml:id="HuYgTa-204645-Hd1e108">Circa textum 1</head>
+            <p xml:id="HuYgTa-204645-d1e111">
+      <!--588.xml-->
+               <cb ed="#G" n="b"/>
+               <lb ed="#G" n="73"/>DISTINCTIOI 
+      <lb ed="#G" n="74"/>bilucida buius distinctionis duuisio, in qua de salutise 
+      <lb ed="#G" n="75"/>ris signis homini per percatum vulnerato
+      me<lb ed="#G" n="76" break="no"/>delam afferentibus imcipit pertractari. 
+      <lb ed="#G" n="77"/>AMARITANVS ENIM. Postquam 
+      <lb ed="#G" n="78"/>Magister in primis tribus libris tractauit 
+      <lb ed="#G" n="79"/>de rebus tam fruibilibus, quam
+      vtibili<lb ed="#G" n="80" break="no"/>bus distinctis, ac etiam in vno
+      conuenien<lb ed="#G" n="81" break="no"/>tibus: nunc in isto quarto libro incipit 
+      <lb ed="#G" n="82"/>tractare de signis salutiferis vulnerato 
+      <lb ed="#G" n="83"/>homini per peccatum medicinam salutis efficaciter
+      con<lb ed="#G" n="84" break="no"/>ferentibus. Et diuiditur in duas partes: quia primo
+      Ma<lb ed="#G" n="85" break="no"/>gister manifestando intentionem suam, quasi videtur prae 
+      <lb ed="#G" n="86"/>mittere huic libro proemium, Secundo iuxta
+      huiusmo<lb ed="#G" n="87" break="no"/>di praemissionem prosequitur suum tractatum, Sactamen 
+      <lb ed="#G" n="88"/>tum est. Quantum ad primum est aduertendum, quod 
+      <lb ed="#G" n="89"/>intentio prooemiantis dupliciter manifestatur. Primo 
+      <lb ed="#G" n="90"/>si materia totius libri, seu tractatus vniuersaliter reuelam 
+      <lb ed="#G" n="91"/>tur. Secundo si suus modus tractandi aliqualiter
+      infinua<lb ed="#G" n="92" break="no"/>tur. Igitur Magister in isto prologo duo nobis proponiti 
+      <lb ed="#G" n="93"/>Primo enim ostendit materiam, de qua est agendum 
+      <lb ed="#G" n="94"/>Secundo innuit modum, quo est procedendum, ibi De
+      qui<lb ed="#G" n="95" break="no"/>bus quattuor. Prima in duas: quia primo Magister
+      osten<lb ed="#G" n="96" break="no"/>dit humanae naturae necessitatem, &amp; indigentiam.
+      Secun<lb ed="#G" n="97" break="no"/>do praesentis materiae faecunditatem, &amp; sufficientiam, 
+      <lb ed="#G" n="98"/>ibi, Curationi &amp;c. Et haec diuiditur in duas partes. Ad 
+      <lb ed="#G" n="99"/>cuius intellectum est aduertendum, quod quamuis quan 
+      <lb ed="#G" n="100"/>doque aliqua medicina sit nobiliter praeparata, tamen non 
+      <lb ed="#G" n="101"/>peratur, nisi ad ipsum morbum fuerit applicata: idoc 
+      <lb ed="#G" n="102"/>primo Magister ostendit praedictae sufficientiae, &amp; nostrae 
+      <lb ed="#G" n="103"/>indigentiae ad inuicem coniunctionem. Secundo innuit 
+      <lb ed="#G" n="104"/>ex illa coniunctione totius nostrae infirmitatis
+      sufficien<lb ed="#G" n="105" break="no"/>tem curationem. Secunda pars incipit ibi. Quia contra 
+      <lb ed="#G" n="106"/>eccati originalis. Et haec est sententia istius prooemij in 
+      <lb ed="#G" n="107"/>generali, circa quod, quaero in speciali.  
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

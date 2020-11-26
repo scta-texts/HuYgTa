@@ -1,0 +1,538 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 2</title>
+            <author ref="#ThomasStrasbourg">Thomas of Strasbourg</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 2</title>
+               <date when="2020-11-26">November 26, 2020</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="G" n="cod-TxxqU">Genoa 1585</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2020-11-26" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#G" n="47-r"/>
+            <cb ed="#G" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="HuYgTa-e35649"><!-- HuYgTa-l1d6q2 -->
+            <head xml:id="HuYgTa-e35649-Hd1e108">Quaestio 2</head>
+            <head xml:id="HuYgTa-e35649-Hd1e111" type="question-title">
+      An Pater necessitate, seu voluntate filium genuerit.
+    </head>
+            <p xml:id="HuYgTa-e35649-d1e114">
+               <lb ed="#G" n="135"/>
+               <pc type="indent"/>Quaestio  II 
+      <lb ed="#G" n="136"/>An Pater necessitate, seu voluntate 
+      <lb ed="#G" n="137"/>filium genuerit.
+    </p>
+            <p xml:id="HuYgTa-e35649-d1e125">
+               <lb ed="#G" n="138"/>VTRVM PATER genuerit filium necessitate, vel 
+      <lb ed="#G" n="139"/>I voluntate.
+    </p>
+            <p xml:id="HuYgTa-e35649-d1e132">
+      Et videtur quod necessitate: quia illud pro 
+      <!--133.xml-->
+      <pb ed="#G" n="47-v"/>
+               <cb ed="#G" n="a"/>
+               <lb ed="#G" n="1"/>ter producit necessitate, quod non potest producere: sed  
+      <lb ed="#G" n="2"/>pater non potest filium non producere. Maior patet ex e. 
+      <lb ed="#G" n="3"/>Perihermenias, vbi in quarto ordine modalium non possi 
+      <lb ed="#G" n="4"/>bile non esse conuertitur cum necesse esse: minorem
+      de<lb ed="#G" n="5" break="no"/>claro: quia si posset ipsum non producere, tunc
+      contin<lb ed="#G" n="6" break="no"/>genter produceret ipsum. Nam possibile non esse, &amp; con 
+      <lb ed="#G" n="7"/>tingens esse aequipollent in secundo ordine modalium; 
+      <lb ed="#G" n="8"/>sed nullum contingenter productum ex vi suae productio 
+      <lb ed="#G" n="9"/>nis est formaliter necesse esse, nec per consequens potest 
+      <lb ed="#G" n="10"/>esse Deus, ergo si pater posset filium non producere, fi 
+      <lb ed="#G" n="11"/>lius non esset Deus. Ex quo patet, quod illa est falsa, po 
+      <lb ed="#G" n="12"/>ter potest filium non producere, &amp; per consequens eius 
+      <lb ed="#G" n="13"/>contradictoria erit vera, scilicet ista, pater non potest
+      fi<lb ed="#G" n="14" break="no"/>lium non producere: quia prima est in secundo Angulo 
+      <lb ed="#G" n="15"/>modalium, &amp; alia in quarto, quae semper contradicunt 
+    </p>
+            <p xml:id="HuYgTa-e35649-d1e175">
+               <lb ed="#G" n="16"/>
+               <pc type="indent"/>Contra, delectabilissima operatio non potest esse
+      si<lb ed="#G" n="17" break="no"/>ne actu voluntatis: sed generare diuinum est
+      delectabi<lb ed="#G" n="18" break="no"/>lissima operatio, ergo &amp;c. Maior patet: quia nulla potest 
+      <lb ed="#G" n="19"/>esse delectatio absque complacentia voluntatis: minorem 
+      <lb ed="#G" n="20"/>probo: quia operatio perfectissima est delectabilissima, vt 
+      <lb ed="#G" n="21"/>patet 1. &amp; 10. ethico, sed generare diuinum est operatio 
+      <lb ed="#G" n="22"/>perfectissima. nam actus, &amp; operationes cum
+      specificen<lb ed="#G" n="23" break="no"/>tur ex terminis, tanto quaelibet operatio est perfectiori 
+      <lb ed="#G" n="24"/>uanto terminus per ipsa productus est perfectior: sed fi- 
+      <lb ed="#G" n="25"/>lius, qui est terminus diuinae generationis, est infinitae por 
+      <lb ed="#G" n="26"/>fectionis. Hic quattuor breuiter faciam: Primo ad
+      decla<lb ed="#G" n="27" break="no"/>rationem terminorum ponam duas distinctiones. Secun 
+      <lb ed="#G" n="28"/>do ostendam quomodo pater necessitate dicitur genera 
+      <lb ed="#G" n="29"/>re filium. Tertio, quomodo voluntate. Quarto adducam 
+      <lb ed="#G" n="30"/>aliqua contra me, &amp; respondebo ad ea¬ 
+    </p>
+            <p xml:id="HuYgTa-e35649-d1e212">
+               <lb ed="#G" n="31"/>
+               <pc type="indent"/>RESOLVTIO. 
+      <lb ed="#G" n="32"/>Veritas est, quod pater necessit ate quidem tum formalis
+      exigen<lb ed="#G" n="33" break="no"/>tiae, tum immut abilitatis filium genuerit. Vnde cum id fine 
+      <lb ed="#G" n="34"/>summa complacentia fieri non possit, volunt ate quoque
+      eun<lb ed="#G" n="35" break="no"/>dem genuis e comprobatur. 
+    </p>
+            <p xml:id="HuYgTa-e35649-d1e228">
+               <lb ed="#G" n="36"/>
+               <pc type="indent"/>ARTICVLVS 
+      <lb ed="#G" n="37"/>Ad dectarationem terminorum ponuntur 
+      <lb ed="#G" n="38"/>due distinctiones.
+    </p>
+            <p xml:id="HuYgTa-e35649-d1e239">
+               <lb ed="#G" n="39"/>QVANTVM ad primum, primo distinguam de ne 
+      <lb ed="#G" n="40"/>Sessitate, secundo de voluntate: Necessarium enim 
+      <lb ed="#G" n="41"/>multis modis dicitur, vt patet 5. metaph tamen quia pra 
+      <lb ed="#G" n="42"/>sens quaestio videtur quaerere de necessitate per respectum 
+      <lb ed="#G" n="43"/>ad causam, siue ad principium: ideo, ceteris modis praemis 
+      <lb ed="#G" n="44"/>is, est sciendum, quod secundum 4. causarum genera 
+      qua<lb ed="#G" n="45" break="no"/>drupliciter per relationem ad principium, siue causam, 
+      <lb ed="#G" n="46"/>aliqua dicuntur necessaria, &amp; secundum hoc 4 erunt
+      mo<lb ed="#G" n="47" break="no"/>di necessitatis.
+    </p>
+            <p xml:id="HuYgTa-e35649-d1e261">
+               <lb ed="#G" n="48"/>Primus respectu causae materialis, &amp; haec necessitas
+      di<lb ed="#G" n="49" break="no"/>citur indigentiae, puta illud habet materiam partem sui 
+      <lb ed="#G" n="50"/>siue in isto est aliquid ad modum materiae, puta
+      poten<lb ed="#G" n="51" break="no"/>tia passiua, ideo necessario indiget conseruante: quia sibi 
+      <lb ed="#G" n="52"/>derelictum necessario destruetur. 
+    </p>
+            <p xml:id="HuYgTa-e35649-d1e274">
+               <lb ed="#G" n="53"/>
+               <pc type="indent"/>Secundus modus respectu causae formalis, &amp; haec
+      ne<lb ed="#G" n="54" break="no"/>cessitas dicitur exigentiae, puta ignis est necessario
+      cali<lb ed="#G" n="55" break="no"/>dus, quia natura sua hoc exigit. 
+    </p>
+            <p xml:id="HuYgTa-e35649-d1e286">
+               <lb ed="#G" n="56"/>
+               <pc type="indent"/>Tertius attribuitur causae efficienti, &amp; hoc dupliciter; 
+      <lb ed="#G" n="57"/>quia vel tale agens huiusmodi necessitatem consequitur 
+      <lb ed="#G" n="58"/>ex principio sibi intrinsece inexistente, &amp; haec potest dici 
+      <lb ed="#G" n="59"/>necessitas immutabilitatis, sicut ignis quantum est ex
+      par<lb ed="#G" n="60" break="no"/>te sui immutabiliter calefacit, quamuis per accidens pos 
+      <lb ed="#G" n="61"/>set impediri, puta si deficeret sibi materia: vel tale agens 
+      <lb ed="#G" n="62"/>consequitur huiusmodi necessitatem a principio
+      extrin<lb ed="#G" n="63" break="no"/>seco, nullam sibi virtutem intrinsece conferente, &amp; haec 
+      <lb ed="#G" n="64"/>dicitur necessitas coactionis, puta lapis aerem
+      necessa<lb ed="#G" n="65" break="no"/>rio mouet, quia a proiiciente impellitur violenter. 
+    </p>
+            <p xml:id="HuYgTa-e35649-d1e312">
+               <lb ed="#G" n="66"/>
+               <pc type="indent"/>Quartus respectu causae finalis, &amp; haec dicitur necessi 
+      <!--133.xml-->
+      <cb ed="#G" n="b"/>
+               <lb ed="#G" n="67"/>tas conditionis, siue conditionata, puta si talem finem vis 
+      <lb ed="#G" n="68"/>consequi, necesse est te talibus mediis vti. 
+    </p>
+            <p xml:id="HuYgTa-e35649-d1e328">
+               <lb ed="#G" n="69"/>
+               <pc type="indent"/>Voluntas etiam, vt ad praesens spectat, dupliciter
+      po<lb ed="#G" n="70" break="no"/>test sumi; vno modo pro potentia volitiua, siue principio 
+      <lb ed="#G" n="71"/>volitiuo, alio, modo pro actu perfecto ipsius voluntatis 
+      <lb ed="#G" n="72"/>siue principij volitiui, modo, quo dicitur in ethicis, quod  
+      <lb ed="#G" n="73"/>voluntas est ipsius sinis, electio eorum, quae sunt ad fine 
+    </p>
+            <p xml:id="HuYgTa-e35649-d1e344">
+               <lb ed="#G" n="74"/>
+               <pc type="indent"/>ARTICVLVSII 
+      <lb ed="#G" n="75"/>ostenditur quomodo pater necessitate. 
+      <lb ed="#G" n="76"/>dicitur generare filium.
+    </p>
+            <p xml:id="HuYgTa-e35649-d1e355">
+               <lb ed="#G" n="77"/>TIS PR AEM1SSIS, quo ad secundum principale; 
+      <lb ed="#G" n="78"/>2 L scilicet quomodo pater dicitur filium necessitati 
+      <lb ed="#G" n="79"/>generare, dico, quod primus modus necessitatis in Deo 
+      <lb ed="#G" n="80"/>ullo modo potest poni: quiae cum ipse sit purus actus; in 
+      <lb ed="#G" n="81"/>ipso nec erit materia, nec aliquid materiale, &amp; per conso 
+      <lb ed="#G" n="82"/>uens nihil proueniens ex necessitate materiae in ipso lo 
+      <lb ed="#G" n="83"/>cum habet. Nec quartus modus proprie in Deo potest po 
+      <lb ed="#G" n="84"/>ni: quia Deus cum omnino sit in seipso sibi sufficiens; &amp;  
+      <lb ed="#G" n="85"/>omnem habeat perfectionem, ipse non agit propter
+      ali<lb ed="#G" n="86" break="no"/>uem finem consequendum: tamen quia bene agit Deus 
+      <lb ed="#G" n="87"/>propter bonitatem suam communicandam, aliquo
+      mo<lb ed="#G" n="88" break="no"/>do necessitas quarto modo dicta, cum sit conditionata. 
+      <lb ed="#G" n="89"/>potest Deo conuenire, puta si Deus vult suam honitatem 
+      <lb ed="#G" n="90"/>communicare homini, necesse est, vt hominem produs 
+      <lb ed="#G" n="91"/>cat: quia ei quod omnino nihil est, nihil communicari 
+      <lb ed="#G" n="92"/>potest. Secunda particula tertij modi penitus a Deo
+      de<lb ed="#G" n="93" break="no"/>bet excludi: quia cum sit omnipotens, a nullo extrimiseco 
+      <lb ed="#G" n="94"/>violentari potest.
+    </p>
+            <p xml:id="HuYgTa-e35649-d1e397">
+               <lb ed="#G" n="95"/>Quaestio igitur praesens, his praedicts exclusis, supra
+      se<lb ed="#G" n="96" break="no"/>cundo modo necessitatis, &amp; supra prima particula tertij 
+      <lb ed="#G" n="97"/>modi vertetur. Ideo dico, quod loquendo de secudo
+      mo<lb ed="#G" n="98" break="no"/>do necessitatis, tunc genetatio filij est necessario in diui 
+      <lb ed="#G" n="99"/>nis: quia natura diuina, quae est forma purissima, siue
+      pu<lb ed="#G" n="100" break="no"/>rus actus, hoc necessario exigit, quod in tribus subsistat
+      per<lb ed="#G" n="101" break="no"/>sonis: sed trinitas in diuinis esse non potest, nisi pater go 
+      <lb ed="#G" n="102"/>neret filium, &amp; vter que producat spiritum sanctum; ergo 
+      <lb ed="#G" n="103"/>de necessitate naturalis, siue formalis exigentiae filius in 
+      <lb ed="#G" n="104"/>diuinis a patre generatur. Coquendo etiam de prima par 
+      <lb ed="#G" n="105"/>ticula ipsius tertij modi, pater necessario generat filium; 
+      <lb ed="#G" n="106"/>quia immutabiliter determinatur ad generationem, filij 
+      <lb ed="#G" n="107"/>per suam naturalem proprietatem. Vnde hos duos
+      mo<lb ed="#G" n="108" break="no"/>dos necessitatis videtur in diuinis approbare Nich. 8. de 
+      <lb ed="#G" n="109"/>trin sic di. Nihil itaque ibi est, scilicet in diuinis iuxta do 
+      <lb ed="#G" n="110"/>num largientis gratiae: sed totum iuxta proprietatem ex 
+      <lb ed="#G" n="111"/>entis naturae, &amp; hoc quantum ad primum modum
+      ne<lb ed="#G" n="112" break="no"/>cessitatis, quem posui esse in diuinis. Et subdit
+      immedia<lb ed="#G" n="113" break="no"/>te Rich. di. Sicut enim innascibili naturale est ab alio non 
+      <lb ed="#G" n="114"/>procedere, sic sane ei naturale est de se procedentem ha 
+      <lb ed="#G" n="115"/>bere. Cum igitur secundum philosophums: metaph.
+      po<lb ed="#G" n="116" break="no"/>tissimus modus necessitatis sit in eo, quod impossibile 
+      <lb ed="#G" n="117"/>est aliter se habere, igitur, cum ille modus in vtroque la 
+      <lb ed="#G" n="118"/>dicto modo in diuinis implicetur, videturmihi, saluo 
+      <lb ed="#G" n="119"/>semper meliori iudicio, quod possit sane concedi haec propo 
+      <lb ed="#G" n="120"/>sitio, pater generat filium necessitate. 
+    </p>
+            <p xml:id="HuYgTa-e35649-d1e457">
+               <lb ed="#G" n="121"/>
+               <pc type="indent"/>ARTICVLVS III. 
+      <lb ed="#G" n="122"/>ostenditur quando pater volintate dicitur 
+      <lb ed="#G" n="123"/>
+               <pc type="indent"/>generare filium. 
+    </p>
+            <p xml:id="HuYgTa-e35649-d1e470">
+               <lb ed="#G" n="124"/>QVANTVM ad tertium principale, scilicet,
+      quo<lb ed="#G" n="125" break="no"/>modo pater dicitur filium voluntate generare, 
+      <lb ed="#G" n="126"/>dico ex secunda distinctione, quod si voluntas sumitur 
+      <lb ed="#G" n="127"/>pro potentia productiua eius, quod per modum volunta 
+      <lb ed="#G" n="128"/>tis procedit, tunc pater non generat filium voluntate. 
+    </p>
+            <p xml:id="HuYgTa-e35649-d1e483">
+               <lb ed="#G" n="129"/>
+               <pc type="indent"/>1 Quia illa persona diuina, quae non est amor, vel non 
+      <lb ed="#G" n="130"/>procedit per modum amoris, non producitur hoc modo 
+      <lb ed="#G" n="131"/>voluntate, filius non procedit per modum amoris; sed  
+      <!--134.xml-->
+      <pb ed="#G" n="48-r"/>
+               <cb ed="#G" n="a"/>
+               <lb ed="#G" n="1"/>per modum verbi intellectualis, ergo, &amp;c 
+    </p>
+            <p xml:id="HuYgTa-e35649-d1e503">
+               <lb ed="#G" n="2"/>
+               <pc type="indent"/>2 Praeterea, prima persona producta non potest
+      pro<lb ed="#G" n="3" break="no"/>cedere, nisi per modum primae potentiae: sed secundum 
+      <lb ed="#G" n="4"/>nostrum modum intelligendi, intellectus est prior
+      po<lb ed="#G" n="5" break="no"/>tentia, quam voluntas, &amp; filius est prima persona
+      pro<lb ed="#G" n="6" break="no"/>ducta, ergo &amp;c. 
+    </p>
+            <p xml:id="HuYgTa-e35649-d1e519">
+               <lb ed="#G" n="7"/>
+               <pc type="indent"/>Istam autem primam conclusionem probant quidam 
+      <lb ed="#G" n="8"/>sed medio impertinenti, dicentes, quod eorum
+      tantum<lb ed="#G" n="9" break="no"/>modo voluntas est principium, quae possunt esse, &amp;
+      non<lb ed="#G" n="10" break="no"/>esse, &amp; quae possunt aliter se habere, sed generatio filij non 
+      <lb ed="#G" n="11"/>potest aliter se habere¬ 
+    </p>
+            <p xml:id="HuYgTa-e35649-d1e535">
+               <lb ed="#G" n="12"/>
+               <pc type="indent"/>Sed illa ratio est contra seipsos; quia ipsi met ponunt 
+      <lb ed="#G" n="13"/>quod voluntas est principium productionis spiritus sancti 
+      <lb ed="#G" n="14"/>&amp; non potest tamen productio spiritus sancti non esse, &amp;  
+      <lb ed="#G" n="15"/>non minus est immutabilis, quam filij generatio. 
+    </p>
+            <p xml:id="HuYgTa-e35649-d1e549">
+               <lb ed="#G" n="16"/>
+               <pc type="indent"/>Si autem voluntas sumitur secundo modo, puta pro 
+      <lb ed="#G" n="17"/>actu perfecto voluntatis, sic concurrit ad generationem filij 
+    </p>
+            <p xml:id="HuYgTa-e35649-d1e558">
+               <lb ed="#G" n="18"/>
+               <pc type="indent"/>1 Quia illa nobilissima generatio esse non potest
+      si<lb ed="#G" n="19" break="no"/>ne perfectissima complacentia, constat autem, quod talis 
+      <lb ed="#G" n="20"/>perfecta complacentia est proprie actus voluntatis, &amp; ma 
+      <lb ed="#G" n="21"/>xime, respectu summi boni. Et illo modo posset intellig 
+      <lb ed="#G" n="22"/>verbum Rich. e. de trin cum ait. Ingenitum velle de si 
+      <lb ed="#G" n="23"/>habere conformem, atque condignum; idem videtur mihi 
+      <lb ed="#G" n="24"/>quod gignere. 
+    </p>
+            <p xml:id="HuYgTa-e35649-d1e578">
+               <lb ed="#G" n="25"/>
+               <pc type="indent"/>2 Praeterea, verbum perfectum produci non potest
+      si<lb ed="#G" n="26" break="no"/>ne amore: quia secundum Aug. verbum est notitia cum 
+      <lb ed="#G" n="27"/>amore. Cum ergo verbi productio sit verbi generatio, &amp;  
+      <lb ed="#G" n="28"/>amor sit actus voluntatis &amp;c 
+    </p>
+            <p xml:id="HuYgTa-e35649-d1e591">
+               <lb ed="#G" n="29"/>
+               <pc type="indent"/>Isto etiam modo verificatur dictum euangelicum 
+      <lb ed="#G" n="30"/>quo pater filium protestatur di. Hic est filius meus
+      dile<lb ed="#G" n="31" break="no"/>ctus, in quo mili benc complacui; ipsum audite. 
+    </p>
+            <p xml:id="HuYgTa-e35649-d1e602">
+               <lb ed="#G" n="32"/>
+               <pc type="indent"/>Et iuxta hunc sensum vult <ref xml:id="HuYgTa-e35649-Rd1e608">Aug. 15. de trin</ref>, quod sicus 
+      <lb ed="#G" n="33"/>Deus natura est Deus, &amp; tamen complacet sibi in eo, quam 
+      <lb ed="#G" n="34"/>est Deus, sic pater filium natura genuit, &amp; tamen in sui 
+      <lb ed="#G" n="35"/>generatione sibi complacuit 
+    </p>
+            <p xml:id="HuYgTa-e35649-d1e619">
+               <lb ed="#G" n="36"/>
+               <pc type="indent"/>ARTICVLVS II. 
+      <lb ed="#G" n="37"/>Adducuntur aliqua in contrarium, &amp;
+      subum<lb ed="#G" n="38" break="no"/>
+               <pc type="indent"/>guntur solitiones eorum.
+    </p>
+            <p xml:id="HuYgTa-e35649-d1e633">
+               <lb ed="#G" n="39"/>SED CONTRA illam primam conclusionem posset 
+      <lb ed="#G" n="40"/>Dargui, quod diuina voluntas habeat rationem
+      princi<lb ed="#G" n="41" break="no"/>pij in generatione filij¬ 
+    </p>
+            <p xml:id="HuYgTa-e35649-d1e642">
+               <lb ed="#G" n="42"/>
+               <pc type="indent"/>Quia si actio naturae praecederet in diuinis actionem 
+      <lb ed="#G" n="43"/>voluntatis, ratio libertatis totaliter tolleretur: quia cum 
+      <lb ed="#G" n="44"/>natura sit determinata ad vnum, si natura praeueniret
+      vo<lb ed="#G" n="45" break="no"/>luntatem, ipsa determinate mouebit voluntatem ad vnum 
+      <lb ed="#G" n="46"/>tantum. Nihil igitur libere a Deo posset procedere, si ij 
+      <lb ed="#G" n="47"/>sa generatio, quae est prima Dei actio, esset naturalis
+      vo<lb ed="#G" n="48" break="no"/>luntas, igitur erit eius principium, alias nullam
+      creatu<lb ed="#G" n="49" break="no"/>ram Deus posset libere producere, quod est erroneum 
+    </p>
+            <p xml:id="HuYgTa-e35649-d1e664">
+               <lb ed="#G" n="50"/>
+               <pc type="indent"/>2 Praeterea, beatus August exponens illud, Ipse dixit 
+      <lb ed="#G" n="51"/>&amp; facta sunt, ait sic, id est verbum genuit, in quo erat, vt 
+      <lb ed="#G" n="52"/>fieret. Ex quo dicto vult August. quod verbum sit ratio 
+      <lb ed="#G" n="53"/>producendi creaturas. Si ergo verbum a patre
+      naturali<lb ed="#G" n="54" break="no"/>ter procederet, &amp; non per imperium voluntatis, omni 
+      <lb ed="#G" n="55"/>creatura a Deo precederet necessario 
+    </p>
+            <p xml:id="HuYgTa-e35649-d1e682">
+               <lb ed="#G" n="56"/>
+               <pc type="indent"/>3 Praeterea, Hilarius dicit. Si quis nolente patre natu 
+      <lb ed="#G" n="57"/>dicit filium, Anathema sit, ergo pater genuit volens 
+    </p>
+            <p xml:id="HuYgTa-e35649-d1e691">
+               <lb ed="#G" n="58"/>
+               <pc type="indent"/>4 Item idem Hilarius ait, quod non naturali ductus 
+      <lb ed="#G" n="59"/>necessitate pater genuit filium.  
+    </p>
+            <p xml:id="HuYgTa-e35649-d1e700">
+               <lb ed="#G" n="60"/>
+               <pc type="indent"/>3 Item Dion. in de di non ait. Diuinus amor non
+      per<lb ed="#G" n="61" break="no"/>mifit ipsum esse sine germine; igitur pater genuit volems 
+    </p>
+            <p xml:id="HuYgTa-e35649-d1e710">
+               <lb ed="#G" n="62"/>
+               <pc type="indent"/>Sed illa non concludunt 
+      <lb ed="#G" n="63"/>1 Quia sicut ait <ref xml:id="HuYgTa-e35649-Rd1e718">August. 8. de trin</ref> filius Dei procedit 
+      <lb ed="#G" n="64"/>a patre naturaliter, sicut splendor ab igne¬ 
+    </p>
+            <p xml:id="HuYgTa-e35649-d1e724">
+               <lb ed="#G" n="65"/>
+               <pc type="indent"/>2 Praeterea, si voluntas esset principium generationis 
+      <lb ed="#G" n="66"/>filij, vel hoc esset voluntas accidens, vel antecedens, 
+      <lb ed="#G" n="67"/>vel comaeua. 
+    </p>
+            <p xml:id="HuYgTa-e35649-d1e735">
+               <lb ed="#G" n="68"/>
+               <pc type="indent"/>Non primo modo: quia ille fuit error Funomij, qui, vt 
+      <lb ed="#G" n="69"/>ait <ref xml:id="HuYgTa-e35649-Rd1e743">Aug. 15. de tin</ref> dixit filium esse filium voluntatis vo 
+      <!--134.xml-->
+      <cb ed="#G" n="b"/>
+               <lb ed="#G" n="70"/>luntate antecedente. Contra quem errorem ibidem dispu 
+      <lb ed="#G" n="71"/>tans August. ait, quod Deus esset mutabilis: quia aliqua 
+      <lb ed="#G" n="72"/>voluntas sibi de nouo adueniret 
+    </p>
+            <p xml:id="HuYgTa-e35649-d1e758">
+               <lb ed="#G" n="73"/>
+               <pc type="indent"/>Nec Secundo modo: quia quae voluntate antecedenti 
+      <lb ed="#G" n="74"/>a Deo procedunt, creata sunt, &amp; sic esset error Arrij, qui 
+      <lb ed="#G" n="75"/>filium asseruit esse creaturam.
+    </p>
+            <p xml:id="HuYgTa-e35649-d1e769">
+               <lb ed="#G" n="76"/>Nec tertio modo: quia vt sic sequeretur error
+      Sabel<lb ed="#G" n="77" break="no"/>lij, qui confusionem posuit personarum. Nam volunta 
+      <lb ed="#G" n="78"/>Deo coaeua quantum ad emanationem, quae est ad intra 
+      <lb ed="#G" n="79"/>est adaequata per productionem spiritus sancti. Si enim 
+      <lb ed="#G" n="80"/>non adaequaret huiusmodi productio suum principium 
+      <lb ed="#G" n="81"/>tunc non esset omnino perfecta. quia ipsum principium 
+      <lb ed="#G" n="82"/>eam excedens posset aliquid perfectius producere: sed a 
+    </p>
+            <p xml:id="HuYgTa-e35649-d1e787">
+               <lb ed="#G" n="83"/>
+               <pc type="indent"/>rincipio adaequato alicui producto non potest aliquid 
+      <lb ed="#G" n="84"/>procedere differens a tali producto. Si igitur filius
+      gene<lb ed="#G" n="85" break="no"/>retur a patre per voluntatem coaeuam, ipse a spiritu
+      san<lb ed="#G" n="86" break="no"/>cto esset penitus indistinctus.
+    </p>
+            <p xml:id="HuYgTa-e35649-d1e801">
+               <lb ed="#G" n="87"/>Forte hic dicetur, quod si spiritus sanctus procedit per 
+      <lb ed="#G" n="88"/>modum voluntatis, &amp; non filius, tunc nobilior esset
+      pro<lb ed="#G" n="89" break="no"/>cessio spiritus sancti, quam filij: quia processio, cuius prin 
+      <lb ed="#G" n="90"/>cipium est voluntas, est libera, liberum autem est
+      nobi<lb ed="#G" n="91" break="no"/>lius non libero. 
+    </p>
+            <p xml:id="HuYgTa-e35649-d1e814">
+               <lb ed="#G" n="92"/>
+               <pc type="indent"/>Item id, quod procedit per modum artis, videtur esse 
+      <lb ed="#G" n="93"/>voluntarium. Ista patet dupliciter 
+    </p>
+            <p xml:id="HuYgTa-e35649-d1e823">
+               <lb ed="#G" n="94"/>Primo: quia quod procedit per modum artis non
+      po<lb ed="#G" n="95" break="no"/>test procedere per modum naturae, cum ars &amp; natura sint 
+      <lb ed="#G" n="96"/>principia condutincta, vt patet. <ref xml:id="HuYgTa-e35649-Rd1e831">8. ethico</ref>. Igitur
+      proce<lb ed="#G" n="97" break="no"/>det voluntarie. 
+    </p>
+            <p xml:id="HuYgTa-e35649-d1e837">
+               <lb ed="#G" n="98"/>
+               <pc type="indent"/>Secundo, quia voluntas est principium artificialium,  
+      <lb ed="#G" n="99"/>vt patet <ref xml:id="HuYgTa-e35649-Rd1e845">3. de anima</ref>, &amp; <ref xml:id="HuYgTa-e35649-Rd1e848">9 ethicorum</ref>, sed filius procedit 
+      <lb ed="#G" n="100"/>per modum artis, cum ipse sit ars omnipotentis Dei,
+      ple<lb ed="#G" n="101" break="no"/>na rationibus omnium, vt ait <ref xml:id="HuYgTa-e35649-Rd1e856">August. In lib. 8. de trinitate</ref>. 
+    </p>
+            <p xml:id="HuYgTa-e35649-d1e860">
+               <lb ed="#G" n="102"/>
+               <pc type="indent"/>Item Ceneratio filij vel est volita a patre, vel non est 
+      <lb ed="#G" n="103"/>volita: si est volita, tunc &amp; genitum erit volitum, &amp; per 
+      <lb ed="#G" n="104"/>consequens voluntas erit principium ipsius filij quia om  
+      <lb ed="#G" n="105"/>ne quod procedit vt volitum, illius voluntas est principium; 
+      <lb ed="#G" n="106"/>si autem non est volita: tunc non esset deliciosa, sed
+      poe<lb ed="#G" n="107" break="no"/>nosa, &amp; hoc dicere videtur esse Anathema, vt patet por 
+      <lb ed="#G" n="108"/>Hilarium in lib de Svnodis, igitur ab his desistamus, 
+      <lb ed="#G" n="109"/>lstae autem instantie non infringunt praedictam rationem 
+    </p>
+            <p xml:id="HuYgTa-e35649-d1e882">
+               <lb ed="#G" n="110"/>
+               <pc type="indent"/>Ad primum igitur dico, quod sicut spiritus sancti pro 
+      <lb ed="#G" n="111"/>cessio sic est libera, quod non est contingens ad vtrum 
+      <lb ed="#G" n="112"/>libet, sed immutabilis, &amp; determinatissima, sic filij
+      oene<lb ed="#G" n="113" break="no"/>ratio sic est naturalis, &amp; necessaria, quod tamen est
+      liber<lb ed="#G" n="114" break="no"/>rima, non tamen libertate contradictionis, sed libertate 
+      <lb ed="#G" n="115"/>perfectissimae complacentiae, quae est multo maior
+      liber<lb ed="#G" n="116" break="no"/>tas, &amp; nobilior, quam ea est, quae contradictionis 
+      <lb ed="#G" n="117"/>Ast secundum dicendum, quod aliquid procedere po 
+      <lb ed="#G" n="118"/>test per modum artis dupliciter. Vno modo, quia ars es 
+      <lb ed="#G" n="119"/>eius principium, alio modo: quia ipsum est ars procedens 
+      <lb ed="#G" n="120"/>modo, quo dicitur creatura salis; id est creatura, quae est 
+      <lb ed="#G" n="121"/>sal. Primo modo procedens per modum artis est ip¬¬ 
+      <lb ed="#G" n="122"/>sum artificiatum, &amp; omne tale sic est volitum, quod etiam 
+      <lb ed="#G" n="123"/>poluntas est suum principium. Secundo modo licet obio 
+      <lb ed="#G" n="124"/>ctiue possit dici volitum, non tamen productiue, ita quod 
+      <lb ed="#G" n="125"/>voluntas sit suae productionis principium. Sed filius secu 
+      <lb ed="#G" n="126"/>do modo procedit per modum artis, ipsae vero creaturae 
+      <lb ed="#G" n="127"/>primo modo
+    </p>
+            <p xml:id="HuYgTa-e35649-d1e927">
+               <lb ed="#G" n="128"/>Ad primam probationem maioris dicendum, quod il 
+      <lb ed="#G" n="129"/>lud, quod procedit per modum artis secundo modo,
+      il<lb ed="#G" n="130" break="no"/>lius natura est principium: quia naturale ingenium inue 
+      <lb ed="#G" n="131"/>nit artem. &amp; cum dicitur natura &amp; ars sunt principia con 
+      <lb ed="#G" n="132"/>distincta, dico quod ipsa sunt condistincta principia ratio 
+      <lb ed="#G" n="133"/>ne distinctorum suorum productorum, non tamen
+      pro<lb ed="#G" n="134" break="no"/>prie debent dici condistincta principia. Illa enim proprie 
+      <lb ed="#G" n="135"/>dicuntur condistincta principia, quorum neutrum est ex 
+      <lb ed="#G" n="136"/>altero, sed, vt iam dixi, natura est principium artis. 
+    </p>
+            <p xml:id="HuYgTa-e35649-d1e949">
+               <lb ed="#G" n="137"/>
+               <pc type="indent"/>Ad secundam probationem dicendum, quod quamuis 
+      <lb ed="#G" n="138"/>voluntas sit principium ipsorum artificialium, non tamen 
+      <lb ed="#G" n="139"/>proprie est ipsius artis principium: filius autem non ess 
+      <lb ed="#G" n="140"/>artificiatum, sed est ipsa ars patris. 
+    </p>
+            <p xml:id="HuYgTa-e35649-d1e962">
+               <lb ed="#G" n="141"/>
+               <pc type="indent"/>Ad tertium dicendum, quod generatio filij est volita 
+      <lb ed="#G" n="142"/>per modum obiecti voluntatis, &amp; eodem modo ipse fi¬ 
+      <!--135.xml-->
+      <pb ed="#G" n="48-v"/>
+               <cb ed="#G" n="a"/>
+               <lb ed="#G" n="1"/>linus genitus est voluntas, non tamen ex hoc sequitur, quo 
+      <lb ed="#G" n="2"/>sit per voluntatem prodiictus: quia si illa consequentis 
+      <lb ed="#G" n="3"/>esset bona, tunc ipse pater esset a voluntate productus cum 
+      <lb ed="#G" n="4"/>ipse per modum obiecti sit volitus, immo voluntas
+      pro<lb ed="#G" n="5" break="no"/>duceret se ipsam, cum ipsa velit seipsam. est ergo in proba 
+      <lb ed="#G" n="6"/>tione consequentiae fallacia consequentis, puta est
+      uoli<lb ed="#G" n="7" break="no"/>tum, ergo procedit vt volitum, quia dato quod filius pro 
+      <lb ed="#G" n="8"/>cedat ut volitum obiectiue, non tamen procedit vt
+      voli<lb ed="#G" n="9" break="no"/>tum productiue, puta quod ipsa voluntas sit suae
+      produ<lb ed="#G" n="10" break="no"/>ctionis principium. 
+    </p>
+            <p xml:id="HuYgTa-e35649-d1e999">
+               <lb ed="#G" n="11"/>
+               <pc type="indent"/>Ad primum eorum, quae adduxi contra primam
+      con<lb ed="#G" n="12" break="no"/>clusionem tertij articuli dicendum, quod natura quae es 
+      <lb ed="#G" n="13"/>ssentialiter libera, non dicit libertatem, sed natura diui 
+      <lb ed="#G" n="14"/>na est essentialiter libera. Etiam potest negari prima con 
+      <lb ed="#G" n="15"/>sequentia: quia quamuis in nobis actus naturae precedat 
+      <lb ed="#G" n="16"/>actum voluntatis, non tamen tollitur libertas a nobis. 
+      <lb ed="#G" n="17"/>Etiam dato, quod natura determinet creatam voluntate 
+      <lb ed="#G" n="18"/>respectu vltimi finis, tamen nec tollitur respectu vltimi 
+      <lb ed="#G" n="19"/>finis libertas complacentiae, nec respectu eorum, quae sunt 
+      <lb ed="#G" n="20"/>ad finem, libertas contradictionis. Et similiter nec in Deo 
+      <lb ed="#G" n="21"/>respectu eorum, quae producuntur ad intra, tollitur liber 
+      <lb ed="#G" n="22"/>tas complacentiae, nec respectu eorum, quae producuntur 
+      <lb ed="#G" n="23"/>ad extra libertas contradictionis, 
+    </p>
+            <p xml:id="HuYgTa-e35649-d1e1032">
+               <lb ed="#G" n="24"/>
+               <pc type="indent"/>Ad secundum dicendum, quod filius est ratio producendi 
+      <lb ed="#G" n="25"/>creaturas, sicut ars est ratio producendi artificialia,
+      scili<lb ed="#G" n="26" break="no"/>cet cum proposito, &amp; determinatione voluntatis.  
+    </p>
+            <p xml:id="HuYgTa-e35649-d1e1043">
+               <lb ed="#G" n="27"/>
+               <pc type="indent"/>Ad tertium patet ex praecedentibus 
+      <lb ed="#G" n="28"/>Ad quartum dicendum, quod Hylarius ibi loquitur 
+      <lb ed="#G" n="29"/>de necessitate coactionis, &amp; violentiae, quam etiam ego a 
+      <lb ed="#G" n="30"/>Deo penitus excludo. 
+    </p>
+            <p xml:id="HuYgTa-e35649-d1e1057">
+               <lb ed="#G" n="31"/>
+               <pc type="indent"/>Ad quintum dicendum, quod Dionv. ibi loquitur di 
+      <lb ed="#G" n="32"/>productione creaturarum. 
+    </p>
+            <p xml:id="HuYgTa-e35649-d1e1066">
+               <lb ed="#G" n="33"/>
+               <pc type="indent"/>Argumenta posita principaliter ad quaestionem ambo 
+      <lb ed="#G" n="34"/>concedo iuxta ea, quae dixi in distinctionibus supradictis. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

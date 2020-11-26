@@ -1,0 +1,571 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#ThomasStrasbourg">Thomas of Strasbourg</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2020-11-26">November 26, 2020</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="G" n="cod-TxxqU">Genoa 1585</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2020-11-26" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#G" n="69-v"/>
+            <cb ed="#G" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="HuYgTa-e52807"><!-- HuYgTa-l1d16q1 -->
+            <head xml:id="HuYgTa-e52807-Hd1e108">Quaestio 1</head>
+            <head xml:id="HuYgTa-e52807-Hd1e111" type="question-title">
+      An species, quibus nobis spiritus sanctus
+      apparuit, fuerint reales.
+    </head>
+            <p xml:id="HuYgTa-e52807-d1e114">
+               <lb ed="#G" n="81"/>
+               <pc type="indent"/>Questio.  
+      <lb ed="#G" n="82"/>An species, quibus nobis spiritus sanctus 
+      <lb ed="#G" n="83"/>apparuit, fuerint reales.
+    </p>
+            <p xml:id="HuYgTa-e52807-d1e125">
+               <lb ed="#G" n="84"/>VTRVM species, in quibus spiritus sanctus
+      tempora<lb ed="#G" n="85" break="no"/>liter missus apparuit, fuerint imaginariae, vel vere t 
+      <lb ed="#G" n="86"/>reales, seu corporales.
+    </p>
+            <p xml:id="HuYgTa-e52807-d1e134">
+      Et videtur quod fuerint
+      imagina<lb ed="#G" n="87" break="no"/>riae: Quia secundum <ref xml:id="HuYgTa-e52807-Rd1e138">Augustinum de trinitate</ref>, Missio
+      vi<lb ed="#G" n="88" break="no"/>sibilis propter hoc fit, <quote xml:id="HuYgTa-e52807-Qd1e143" source="http://scta.info/resource/adt-l2-d1e226" synch="126-141">vt corda hominum commota exte 
+        <lb ed="#G" n="89"/>rioribus visis conuertantur secundum intellectum ad oc 
+        <lb ed="#G" n="90"/>cultam aeternitatem</quote>, sed a fantasmatibus; &amp; imaginariis. 
+      <lb ed="#G" n="91"/>speciebus mouetur intellectus, igitur &amp;c 
+    </p>
+            <p xml:id="HuYgTa-e52807-d1e154">
+               <lb ed="#G" n="92"/>
+               <pc type="indent"/>Contra, in euangelio dicitur, quod columba, in qua
+      ap<lb ed="#G" n="93" break="no"/>paruit sprritus sanctus, descendit corporali specle, ergo 
+      <lb ed="#G" n="94"/>habuit verum corpus, &amp; non fantasticum, seu imaginarisi. 
+      <lb ed="#G" n="95"/>Hic quattuor sunt videnda Primo, vtrum missio visibilis. 
+      <lb ed="#G" n="96"/>conueniat alicui diuinae personae. Secundo vtrum
+      perso<lb ed="#G" n="97" break="no"/>na visibiliter missa secundum quod apparet in corporali
+      spe<lb ed="#G" n="98" break="no"/>cie, sit minor persona, quaemitrit eam Tertio de eo, quod 
+      <lb ed="#G" n="99"/>quaeritur. Quarto, vtrum tales species formentur
+      mini<lb ed="#G" n="100" break="no"/>sterio angelorum 
+    </p>
+            <p xml:id="HuYgTa-e52807-d1e178">
+               <lb ed="#G" n="101"/>
+               <pc type="indent"/>RESOLVTIO. 
+      <lb ed="#G" n="102"/>cum visibilis missio nil alidsit, quam diuinae personae ad
+      homi<lb ed="#G" n="103" break="no"/>nem quempiam destinatiosab tali signo visibili, quo nobis
+      ma<lb ed="#G" n="104" break="no"/>nifestatur, vel manifestari potect emamatio personae quae mitti 
+      <lb ed="#G" n="105"/>tur: &amp; sanctitas hominit ad quem mittitur; planum prafecto. 
+      <lb ed="#G" n="106"/>erit his duabus dutaxat persanis filio nempe, &amp; spiritui
+      san<lb ed="#G" n="107" break="no"/>cta: quos quidem silum diuina protestatur seriptura
+      visibili<lb ed="#G" n="108" break="no"/>ter apparuisse, missionem pasliuam conuenire: Nec tamen
+      pro<lb ed="#G" n="109" break="no"/>pter hoc persona missa mmor esse perhibetur persona mittente, 
+      <lb ed="#G" n="110"/>nisi ratione naturae assumptae in vnit atem supposit; Quo sit, vt 
+      <lb ed="#G" n="111"/>species illae, quibus diuina emanatio, hommisque sanctificatia 
+      <lb ed="#G" n="112"/>nobis innot escit, nun admodum sint nobis manifertae, vt pota 
+      <lb ed="#G" n="113"/>quae ministerio Angelorum fuerint fabrieatae. 
+    </p>
+            <p xml:id="HuYgTa-e52807-d1e211">
+               <lb ed="#G" n="114"/>
+               <pc type="indent"/>ARTICVLVSL. 
+      <lb ed="#G" n="115"/>Vtrum missio visibilis conueniat alicist 
+      <lb ed="#G" n="116"/>diuuinae persone
+    </p>
+            <p xml:id="HuYgTa-e52807-d1e222">
+               <lb ed="#G" n="117"/>VANTVM ad primum, vtrum missio visibilis con 
+      <lb ed="#G" n="118"/>ueniat alicui uiuinaepersonae, est aduertendum, quod 
+      <lb ed="#G" n="119"/>missio praedicta sic describi potest 
+    </p>
+            <p xml:id="HuYgTa-e52807-d1e231">
+               <lb ed="#G" n="120"/>
+               <pc type="indent"/>Missio visibilis est diuinae personae ad aliquem hominem 
+      <lb ed="#G" n="121"/>destinatio sub tali visibili signo, quo manifestatur, vel ma 
+      <lb ed="#G" n="122"/>nifestari potest aliquo modo emanatio personae, quae mit 
+      <lb ed="#G" n="123"/>titur, &amp; sanctitas hominis, ad quem mittitur, Ex quibus, 
+      <!--178.xml-->
+      <pb ed="#G" n="70-r"/>
+               <cb ed="#G" n="a"/>
+               <lb ed="#G" n="1"/>patet, quod missio visibilis tria includit, scilicet diuinae 
+      <lb ed="#G" n="2"/>personae aeternam emanationem, animae deuotae internam 
+      <lb ed="#G" n="3"/>sanctificationem, &amp; vtriusque scilicet emanationis, &amp;
+      san<lb ed="#G" n="4" break="no"/>ctificationis externam apparitionem, seu manisestationem 
+      <lb ed="#G" n="5"/>&amp; hoc de facto, vel secundum aptitudinem: quia licet tali 
+      <lb ed="#G" n="6"/>signo haec duo non semper manifestentur, tamen
+      huius<lb ed="#G" n="7" break="no"/>modi signum est aptum natum ad hoc, vt mediante ipso 
+      <lb ed="#G" n="8"/>haec manifestentur. 
+    </p>
+            <p xml:id="HuYgTa-e52807-d1e268">
+               <lb ed="#G" n="9"/>
+               <pc type="indent"/>Ex his etiam apparet quid dicendum sit ad illud, quod 
+      <lb ed="#G" n="10"/>quaeritur in isto articulo. Nam patri non potest
+      compe<lb ed="#G" n="11" break="no"/>tere visibilis missio.
+    </p>
+            <p xml:id="HuYgTa-e52807-d1e280">
+               <lb ed="#G" n="12"/>1 Quia cui repugnat inuisibilis missio, eidem repu 
+      <lb ed="#G" n="13"/>gnat uisibilis missio, sed patri repugnat inuisibilis missio 
+      <lb ed="#G" n="14"/>vt patet ex praecedentibus, ergo &amp;c. Maior patet: quia cu 
+      <lb ed="#G" n="15"/>repugnat inclusum, eidem repugnat includens, sed mis 
+      <lb ed="#G" n="16"/>sio visibilis includit missionem inuisibilem, sicut ex ian 
+      <lb ed="#G" n="17"/>dictis patet. 
+    </p>
+            <p xml:id="HuYgTa-e52807-d1e296">
+               <lb ed="#G" n="18"/>2 Praeterea, cui repugnat emanatio, ei non competis 
+      <lb ed="#G" n="19"/>uisibilis missio. llla patet: quia cui repugnat emanatio, ei 
+      <lb ed="#G" n="20"/>dem repugnat potestatis delegatio passiua, seu commu 
+      <lb ed="#G" n="21"/>nicatio, quae necessaria est in misso, vel legato, sed patri ri 
+      <lb ed="#G" n="22"/>pugnat emanatio, cum non habeat personam origine pri 
+      <lb ed="#G" n="23"/>rem se, a qua possit emanare. Vnde si quandoque legitur, quo 
+      <lb ed="#G" n="24"/>persona patris manifestauerit se in aliquo sensibili signo 
+      <lb ed="#G" n="25"/>hoc non debet dici missio; sed potius apparitio: quia qua 
+      <lb ed="#G" n="26"/>uis ei, qui habet auctoritatem autenticam a se, &amp; non ab 
+      <lb ed="#G" n="27"/>alio, repugnat mitti, vel legari; sibi tamen non repugnat 
+      <lb ed="#G" n="28"/>apparere, vel manifestari. 
+    </p>
+            <p xml:id="HuYgTa-e52807-d1e322">
+               <lb ed="#G" n="29"/>
+               <pc type="indent"/>De Filio autem, &amp; spiritu sancto planum est in scriptu 
+      <lb ed="#G" n="30"/>ris, quod eis competat missio uisibilis.  
+    </p>
+            <p xml:id="HuYgTa-e52807-d1e331">
+               <lb ed="#G" n="31"/>
+               <pc type="indent"/>De filio enim dicit Apostolus, Misit Deus filium suum 
+      <lb ed="#G" n="32"/>factum ex muliere, factum sub lege, vt eos, qui sub lege 
+      <lb ed="#G" n="33"/>erant redimeret. 
+    </p>
+            <p xml:id="HuYgTa-e52807-d1e342">
+               <lb ed="#G" n="34"/>
+               <pc type="indent"/>Et Daruch dicit de filio Dei. Post haec in terris uisus 
+      <lb ed="#G" n="35"/>est: &amp; cum hominibus conuersatus est 
+    </p>
+            <p xml:id="HuYgTa-e52807-d1e351">
+               <lb ed="#G" n="36"/>
+               <pc type="indent"/>Etiam spiritus sanctus in sancto euangelio quater le 
+      <lb ed="#G" n="37"/>gitur missus visibiliter, scilicet in columbae specie circa 
+      <lb ed="#G" n="38"/>Christi baptiaationem. 
+    </p>
+            <p xml:id="HuYgTa-e52807-d1e363">
+               <lb ed="#G" n="39"/>
+               <pc type="indent"/>In nube circa Christi transfigurationem. 
+      <lb ed="#G" n="40"/>In flatu post Christi resurrectionem, cum insufflauit in 
+      <lb ed="#G" n="41"/>Discipulos dicens, Accipite spiritum sanctum &amp;c. 
+    </p>
+            <p xml:id="HuYgTa-e52807-d1e374">
+               <lb ed="#G" n="42"/>
+               <pc type="indent"/>Et in linguis igneis post CnR1S TI ascensionem. 
+      <lb ed="#G" n="43"/>Ratio autem illarum visibilium apparitionum ex causa 
+      <lb ed="#G" n="44"/>finali potest assignari. 
+    </p>
+            <p xml:id="HuYgTa-e52807-d1e385">
+               <lb ed="#G" n="45"/>
+               <pc type="indent"/>Apparuit enim circa baptismum in specie columbae in 
+      <lb ed="#G" n="46"/>signum innocentiae, quam debemus recipere, cum bapti 
+      <lb ed="#G" n="47"/>aamur virtute illius, qui tunc baptixabatur, qui erat a 
+      <lb ed="#G" n="48"/>gnus Dei, qui tollit peccata mundi 
+    </p>
+            <p xml:id="HuYgTa-e52807-d1e398">
+               <lb ed="#G" n="49"/>
+               <pc type="indent"/>Circa transfigurationem apparuit in similitudine
+      nu<lb ed="#G" n="50" break="no"/>bis lucidae, vt signum haberemus futurae gloriae, quae reue 
+      <lb ed="#G" n="51"/>labitur in nobis: dona enim gratiae &amp; gloriae
+      approprian<lb ed="#G" n="52" break="no"/>tur spiritui sancto 
+    </p>
+            <p xml:id="HuYgTa-e52807-d1e411">
+               <lb ed="#G" n="53"/>
+               <pc type="indent"/>Post resurrectionem autem, cum Christus dedit
+      Apo<lb ed="#G" n="54" break="no"/>stolis potestatem remittendi peccata, missus est eis
+      spiri<lb ed="#G" n="55" break="no"/>tus sanctus in specie venti, seu flatus, in signum quod Apo 
+      <lb ed="#G" n="56"/>stoli tantae potentiae receperunt ibi virtutem, qua omnia 
+      <lb ed="#G" n="57"/>peccata nostra possent exufflare. Vnde dictum est eis a 
+      <lb ed="#G" n="58"/>Christo, Accipite spiritum sanctum, quorum remiseri 
+      <lb ed="#G" n="59"/>tis peccata remittuntur eis, &amp; quorum retinueritis
+      re<lb ed="#G" n="60" break="no"/>tenta sunt 
+    </p>
+            <p xml:id="HuYgTa-e52807-d1e433">
+               <lb ed="#G" n="61"/>
+               <pc type="indent"/>Sed post ascensionem missus est Apostolis in linguis 
+      <lb ed="#G" n="62"/>igneis, vt ex uisibili signo appareret, quod Apostoli esse  
+      <lb ed="#G" n="63"/>debebant uerbis proflui, &amp; caritate feruidi: quia in om 
+      <lb ed="#G" n="64"/>nem terram debebat exire sonus eorum, &amp; in fines orbis 
+      <lb ed="#G" n="65"/>terrae verba eorum 
+    </p>
+            <p xml:id="HuYgTa-e52807-d1e450">
+               <lb ed="#G" n="66"/>
+               <pc type="indent"/>Sed forte contra illam conclusionem dicetur sic. 
+      <lb ed="#G" n="67"/>lilud, quod omnino est inuisibile, hoc non potest
+      uisi<lb ed="#G" n="68" break="no"/>biliter apparere sine fictione, sed spiritus sancti persona 
+      <lb ed="#G" n="69"/>est simpliciter inuisibilis, iuxta illud, quod dicitur. Lucem 
+      <lb ed="#G" n="70"/>inhabitat inaceessibilem, quem nullus hominum uidit; 
+      <lb ed="#G" n="71"/>sed nec videre potest. Et spiritui sancto non conuenit
+      ali<lb ed="#G" n="72" break="no"/>quafictio, cum ipse sit spiritus veritatis, vt dicitur in 
+      <lb ed="#G" n="73"/>euangelijs, &amp; spiritus sanctus disciplinae effugiet fictum 
+      <!--178.xml-->
+      <cb ed="#G" n="b"/>
+               <lb ed="#G" n="74"/>ut dicitur.
+    </p>
+            <p xml:id="HuYgTa-e52807-d1e479">
+               <lb ed="#G" n="75"/>2 Praeterea, si spiritus sanctus esset missus in aliqua
+      ui<lb ed="#G" n="76" break="no"/>sibili creatura, runc preter modos comunes, quibus Dens 
+      <lb ed="#G" n="77"/>est in omni creatura per essentiam, potentiam, &amp;
+      praesen<lb ed="#G" n="78" break="no"/>tiam, spiritus sanctus, esset in illa creatura, in qua
+      mit<lb ed="#G" n="79" break="no"/>teretur, hoc autem esset vel per gratiae infusionem, vel 
+      <lb ed="#G" n="80"/>per illius creaturae in vnitatem suppositi
+      assumptio<lb ed="#G" n="81" break="no"/>nem, uel per repraesentationem, puta quod esset in re, sicut 
+      <lb ed="#G" n="82"/>in signo.
+    </p>
+            <p xml:id="HuYgTa-e52807-d1e499">
+               <lb ed="#G" n="83"/>Non primo modo: quia talis creatura cum non sit
+      ra<lb ed="#G" n="84" break="no"/>tionalis, non est capax gratiae. 
+    </p>
+            <p xml:id="HuYgTa-e52807-d1e506">
+               <lb ed="#G" n="85"/>
+               <pc type="indent"/>Nec secundo modo: quia tunc creatura irrationalis es 
+      <lb ed="#G" n="86"/>set assumpta a diuino supposito, quod nullus sanae mentis 
+      <lb ed="#G" n="87"/>poneret. 
+    </p>
+            <p xml:id="HuYgTa-e52807-d1e517">
+               <lb ed="#G" n="88"/>
+               <pc type="indent"/>Nec tertio modo: quia vel esset in ea sicut in signo
+      na<lb ed="#G" n="89" break="no"/>rurali, vel vniuersali, &amp; tunc mitteretur in omni creatura 
+      <lb ed="#G" n="90"/>quia in omni creatura reperitur vestigium creatoris, ut pa 
+      <lb ed="#G" n="91"/>tuit superius distinctione 1 vel sicut in signo gratuito, &amp; 
+      <lb ed="#G" n="92"/>tunc in omni sacramento mitteretur spiritus sanctus, cum 
+      <lb ed="#G" n="93"/>sacramentum sit signum gratuitum. 
+    </p>
+            <p xml:id="HuYgTa-e52807-d1e535">
+               <lb ed="#G" n="94"/>
+               <pc type="indent"/>Respondeo, ad primum dicendum, quod aliquid
+      uisi<lb ed="#G" n="95" break="no"/>biliter apparere potest intelligi dupliciter. Vno modo
+      fo<lb ed="#G" n="96" break="no"/>maliter determinatione intrinseca. Alio modo
+      denomi<lb ed="#G" n="97" break="no"/>natiue solum denominatione extrinseca, sicut causa
+      quam<lb ed="#G" n="98" break="no"/>doque denominatur ab effectu. Primo modo maior est 
+      <lb ed="#G" n="99"/>vera, sed non secundo modo: unde spiritus sanctus dicitur 
+      <lb ed="#G" n="100"/>uisibiliter apparere, non quod ipse uideatur, sed quia
+      ali<lb ed="#G" n="101" break="no"/>quid aliud videtur, per cuius contemplationem nos
+      ma<lb ed="#G" n="102" break="no"/>nuducimur in cognitionem aliqualem emanationis
+      spi<lb ed="#G" n="103" break="no"/>ritus sancti, &amp; manifestationem sanctitatis illius, ad quem 
+      <lb ed="#G" n="104"/>mittitur, ergo &amp;c
+    </p>
+            <p xml:id="HuYgTa-e52807-d1e565">
+               <lb ed="#G" n="105"/>Ad secundum dicendum, quod apparet ibi sicut in signo. 
+      <lb ed="#G" n="106"/>Ad probationem dicendum, quod Deus tanquam in signo 
+      <lb ed="#G" n="107"/>multipliciter potest apparere, Primo sicut in signo
+      natu<lb ed="#G" n="108" break="no"/>rali, &amp; sic relucet in omni creatura tamquam in vestigio 
+      <lb ed="#G" n="109"/>becundo sicut in signo reuelatiuo, seu illuminatiuo, &amp; sic 
+      <lb ed="#G" n="110"/>apparuit patribus in veteri testamento. Tertio sicut in
+      si<lb ed="#G" n="111" break="no"/>gno gratuito, &amp; hoc tripliciter: quia uel illud signum nul 
+      <lb ed="#G" n="112"/>lo modo est causa gratiae, licet ipsum consequatur gratia, 
+      <lb ed="#G" n="113"/>&amp; tale signum fuit circuncisio, &amp; aliqua sacramenta
+      vere<lb ed="#G" n="114" break="no"/>ris legis. Vel aliquo modo est causa gratiae, &amp; tale signun 
+      <lb ed="#G" n="115"/>est sacramentum nouae legis, quod aliquo modo efficit 
+      <lb ed="#G" n="116"/>quod figurat, ut patet per magistrum. Vel huiusmodi
+      si<lb ed="#G" n="117" break="no"/>gnum praesupponit gratiam, quam demonstrat, seu
+      osten<lb ed="#G" n="118" break="no"/>dit, &amp; tale est signum, quo fieri dicitur personae diuinae
+      visi<lb ed="#G" n="119" break="no"/>bilis missio, 
+    </p>
+            <p xml:id="HuYgTa-e52807-d1e600">
+               <lb ed="#G" n="120"/>
+               <pc type="indent"/>ARTICVLVS II. 
+      <lb ed="#G" n="121"/>Vtrum Persona visibiliter missa sciendum quod 
+      <lb ed="#G" n="122"/>apparet in corporali specie, sit minor per 
+      <lb ed="#G" n="123"/>soud quae mitit cam.
+    </p>
+            <p xml:id="HuYgTa-e52807-d1e613">
+               <lb ed="#G" n="124"/>QVANTVM ad secundum articulum, utrum
+      perso<lb ed="#G" n="125" break="no"/>Cua uisibiliter missa secundum quoed apparet in corpora 
+      <lb ed="#G" n="126"/>li specie sit minor persona: quae mittit eam, distinguen 
+      <lb ed="#G" n="127"/>dum est de creatura in qua apparet persona. Vel quia illa 
+      <lb ed="#G" n="128"/>creatura est assumpta in vnitatem suppositi diuini
+      appa<lb ed="#G" n="129" break="no"/>rentis in ea, vel non. Si sic, tunc pono conclusionem
+      at<lb ed="#G" n="130" break="no"/>firmatiuam
+    </p>
+            <p xml:id="HuYgTa-e52807-d1e631">
+               <lb ed="#G" n="131"/>1 Quia quandocunque duae naturae sunt eiusdem sup 
+      <lb ed="#G" n="132"/>positi, illud, quod per se praedicatur de vna saltem ex con 
+      <lb ed="#G" n="133"/>sequenti praedicatur de altera, maxime si illae duae naturs 
+      <lb ed="#G" n="134"/>in terminis concretis proferuntur: quia vt sic implicat sup 
+      <lb ed="#G" n="135"/>positum, quod est vtriqu commune: sed planum est, quod 
+      <lb ed="#G" n="136"/>natura assumpta est minor persona diuina, quae ipsam non 
+      <lb ed="#G" n="137"/>assumpsit, ergo propter communicationem idiomatum 
+      <lb ed="#G" n="138"/>persona assumens dicetur minor persona non assumente 
+      <lb ed="#G" n="139"/>immo filius Dei, vt sic, dicetur minor seipso, iuxta quod 
+      <!--179.xml-->
+      <pb ed="#G" n="70-v"/>
+               <cb ed="#G" n="a"/>
+               <lb ed="#G" n="1"/>ait <ref xml:id="HuYgTa-e52807-Rd1e661">Apostolus</ref>, <quote xml:id="HuYgTa-e52807-Qd1e664" source="http://scta.info/resource/phil2_7" synch="2-7">Exinaniuit semetipsum formam serui accipiens</quote>.  
+    </p>
+            <p xml:id="HuYgTa-e52807-d1e668">
+               <lb ed="#G" n="2"/>
+               <pc type="indent"/>Sed forte dicetut, quod illud sit contra Hylarium in 
+      <lb ed="#G" n="3"/>libro de trinitate, vbi ait, quod pater est maior filio, filius 
+      <lb ed="#G" n="4"/>tamen non est minor patre. 
+    </p>
+            <p xml:id="HuYgTa-e52807-d1e679">
+               <lb ed="#G" n="5"/>
+               <pc type="indent"/>Dicendum ad hoc, qud illud non est contra illud
+      pro<lb ed="#G" n="6" break="no"/>positum: quia Hylarius loquitur ibi de filio Dei secundum 
+      <lb ed="#G" n="7"/>se, &amp; non quantum ad assumptam naturam. 
+    </p>
+            <p xml:id="HuYgTa-e52807-d1e691">
+               <lb ed="#G" n="8"/>
+               <pc type="indent"/>Sed sic dicendo oritur duplex difficultas: quia tunc di 
+      <lb ed="#G" n="9"/>ctum Hylarij esset contra dictum Augustini: quia stando 
+      <lb ed="#G" n="10"/>precise in diuina natura, filius est aequalis patri secundum 
+      <lb ed="#G" n="11"/>dicta Beati Augustini. Item cum maius relatiue dicatur 
+      <lb ed="#G" n="12"/>respectu minoris, ergo maior dicitur minore maior: sec 
+      <lb ed="#G" n="13"/>vnum relatiuum non potest poni sine reliquo, ergo
+      di<lb ed="#G" n="14" break="no"/>cendo contra Hvlarium non videtur, quod pater possit 
+      <lb ed="#G" n="15"/>dici maior filio, nisi filius dicatur minor patre. 
+      <lb ed="#G" n="16"/>Fuerunt igitur quidam, qui hanc difficultatem ex
+      di<lb ed="#G" n="17" break="no"/>ctis Hylarij resultantem euadere cupientes dixerunt, qu 
+      <lb ed="#G" n="18"/>quia in patre sunt plures relationes, quam in filio,
+      acci<lb ed="#G" n="19" break="no"/>piendo relationem negatiue, puta inmascibilitas est in pa 
+      <lb ed="#G" n="20"/>tre, cui non correspondet aliqua relatio in filio; ideo pa 
+      <lb ed="#G" n="21"/>ter dicitur maior filio, quamuis ex hoc filius non dicatur 
+      <lb ed="#G" n="22"/>minor patre. 
+    </p>
+            <p xml:id="HuYgTa-e52807-d1e728">
+               <lb ed="#G" n="23"/>
+               <pc type="indent"/>Sed isti deficiunt hic tripliciter. 
+      <lb ed="#G" n="24"/>Primo : quia cum relatio nullam perfectionem dicat 
+      <lb ed="#G" n="25"/>de se, ideo propter relationum pluralitatem non potest 
+      <lb ed="#G" n="26"/>aliquid maius dici.
+    </p>
+            <p xml:id="HuYgTa-e52807-d1e741">
+               <lb ed="#G" n="27"/>Secundo: quia sic dicendo, filius esset maior spiritu san 
+      <lb ed="#G" n="28"/>cto, quod tamen nullus ponit; probatio consequentiae; 
+      <lb ed="#G" n="29"/>quia spiritus sanctus habet solam vnam relationem, puta 
+      <lb ed="#G" n="30"/>spirationem passiuam: sed filius habet plures, scilicet filia 
+      <lb ed="#G" n="31"/>tionem, qua refertur ad patrem, &amp; comunem spirationem, 
+      <lb ed="#G" n="32"/>seu actiuam spirationem, qua resertur ad spiritum sanctum. 
+    </p>
+            <p xml:id="HuYgTa-e52807-d1e757">
+               <lb ed="#G" n="33"/>
+               <pc type="indent"/>certio deficiunt, quia cuius posito est causa, quare
+      ali<lb ed="#G" n="34" break="no"/>quid dicatur maius; eiusdem negatio erit causa, quare ali 
+      <lb ed="#G" n="35"/>quid dicatur minus; igitur si pluralitas relationum in
+      pa<lb ed="#G" n="36" break="no"/>tre est causa, quare pater sit maior filio, negatio illius plu 
+      <lb ed="#G" n="37"/>ralitatis, seu paucitas relationum erit causa, quare filius 
+      <lb ed="#G" n="38"/>sit minor patre, nisi aliud dicatur. 
+    </p>
+            <p xml:id="HuYgTa-e52807-d1e775">
+               <lb ed="#G" n="39"/>
+               <pc type="indent"/>Et ideo posset dici, qud in illo proposito maius est idem, 
+      <lb ed="#G" n="40"/>quod dignius, vbicumque ergo condicio dantis spectat 
+      <lb ed="#G" n="41"/>id dignitatem, ita tamen, quod condicio recipientis non spo 
+      <lb ed="#G" n="42"/>ctat ad aliquam indignitatem, sed ad personalem proprie 
+      <lb ed="#G" n="43"/>tatem, tunc ille, qui dat, ita dicetur maior recipiente, quod 
+      <lb ed="#G" n="44"/>tamen recipiens non debet dici minor dante, maxime si 
+      <lb ed="#G" n="45"/>recipiens recipit omnem perfectionem a dante, &amp; eande 
+      <lb ed="#G" n="46"/>naturam, quae est in dante, sed sic est in proposito inter pa 
+      <lb ed="#G" n="47"/>trem &amp; filium, ergo &amp;c. Vnde non est differentia inter
+      pa<lb ed="#G" n="48" break="no"/>trem, &amp; filium quantum ad perfectionem habitam: quia om 
+      <lb ed="#G" n="49"/>nem perfectionem, quam habet pater, habet filius, sed solum 
+      <lb ed="#G" n="50"/>differunt in modo habedi: quia filius habet a patre, sed pa 
+      <lb ed="#G" n="51"/>ter non habet a filio, sed a seipso. Et illa etiam videtur esse 
+      <lb ed="#G" n="52"/>intentio Hylarij: quia ibidem sic ait Hylarius. Maior itaqu 
+      <lb ed="#G" n="53"/>donans, sed non minor filius, cui vnum esse donatur, cui 
+      <lb ed="#G" n="54"/>tantum donat esse, quantus est ipse qui donat; filius
+      igi<lb ed="#G" n="55" break="no"/>tur est aequalis patri in re habita, quamuis pater dicatur 
+      <lb ed="#G" n="56"/>maior filio in modo habendi. Et hoc de prima
+      conclusio<lb ed="#G" n="57" break="no"/>ne secundi articuli 
+    </p>
+            <p xml:id="HuYgTa-e52807-d1e821">
+               <lb ed="#G" n="58"/>
+               <pc type="indent"/>Conclusio secunda. Si autem creatura, in qua apparet 
+      <lb ed="#G" n="59"/>persona diuina, non est assumpta in vnitatem supposit a 
+      <lb ed="#G" n="60"/>tali persona, tunc illa persona non est minor ceteris
+      per<lb ed="#G" n="61" break="no"/>sonis diuinis propter hoc, qued in tali creatura appareat. 
+      <lb ed="#G" n="62"/>1 Quia ea, quae distincte subsistunt, non communicam 
+      <lb ed="#G" n="63"/>sibi mutuo sua idiomata, sed cum persona diuina apparet 
+      <lb ed="#G" n="64"/>in aliqua creatura non assumendo eam, tunc persona
+      di<lb ed="#G" n="65" break="no"/>uina, &amp; illa creatura distincte subsistunt, ergo non
+      com<lb ed="#G" n="66" break="no"/>municant sibi mutuo sua idiomata, &amp; per consequeni 
+      <lb ed="#G" n="67"/>non potest inferri, quod illa persona sit minor ceteris
+      di<lb ed="#G" n="68" break="no"/>uinis personis propter hoc, quod talis creatura minor est eis. 
+      <lb ed="#G" n="69"/>Et illa est intentio <ref xml:id="HuYgTa-e52807-Rd1e851">Beati Augustini 2. de trinitate</ref>, vbi ait,  
+      <lb ed="#G" n="70"/>
+               <quote xml:id="HuYgTa-e52807-Qd1e856" source="http://scta.info/resource/adt-l2-d1e229" synch="5-20">nusquam scriptum esse, quod Deus pater sit maior spiritu 
+        <lb ed="#G" n="71"/>sancto, vel spiritus sanctus minor Deo patre</quote>. 
+      <!--179.xml-->
+      <cb ed="#G" n="b"/>
+               <lb ed="#G" n="72"/>ARTICVLVS III 
+      <lb ed="#G" n="73"/>Vtrum species, in quibus apparuit spiritus
+      sanctu<lb ed="#G" n="74" break="no"/>temporaliter missus, fuerimt imagmarie, vcl 
+      <lb ed="#G" n="75"/>
+               <pc type="indent"/>vere reales seu corporales.
+    </p>
+            <p xml:id="HuYgTa-e52807-d1e878">
+               <lb ed="#G" n="76"/>QVANTVM ad tertium articulum, vtrum species, cap.
+      e<lb ed="#G" n="77" break="no"/>in quibus apparuit spiritus sanctus temporaliter tom.i 
+      <lb ed="#G" n="78"/>missus, fucrint imaginariae, vel vere reales, seu corporales,  
+      <lb ed="#G" n="79"/>est aduertendum, quod de aliquibus speciebus, in quibus ap 
+      <lb ed="#G" n="80"/>paruit spiritus sanctus, est magnum dubium, vtrum
+      fue<lb ed="#G" n="81" break="no"/>rint reales, vel fatasticae, seu imaginariae: Vnde de linguis,  
+      <lb ed="#G" n="82"/>in quibus apparuit in dic penthecostes Augu. mouet
+      il<lb ed="#G" n="83" break="no"/>lam quaestionem in propria forma 2. de trin. Et propter 
+      <lb ed="#G" n="84"/>sui difficultatem dimittit eam insolutam, Vnde ait sic 
+      <lb ed="#G" n="85"/>Quamquam de illo igne disceptari potest, vtrum oculis,  
+      <lb ed="#G" n="86"/>an spiritu visus sit; Et causam huius dubitationis trahit 
+      <lb ed="#G" n="87"/>Augustinus ex libro actuum apostolorum: ibi enim nos 
+      <lb ed="#G" n="88"/>habemus, Apparuerunt illis dispartitae linguae: alia
+      trans<lb ed="#G" n="89" break="no"/>latio, quam allegat Augustinus, habet, visae sunt eis
+      diui<lb ed="#G" n="90" break="no"/>sae linguae. Et ideo post predicta subdit Augustinus. Non 
+      <lb ed="#G" n="91"/>enim viderunt linguas velut ignem, sed visae sunt eis. Ne 
+      <lb ed="#G" n="92"/>enim sub eadem significatione solemus dicere, visum est 
+      <lb ed="#G" n="93"/>mihi, qua dicimus vidi. Et in illis quidem spiritualibus ui 
+      <lb ed="#G" n="94"/>sis imaginum corporalium solet dici, &amp; visum est mihi, &amp; 
+      <lb ed="#G" n="95"/>vid; In illis vero, quae per expressam corporalem speciem 
+      <lb ed="#G" n="96"/>oculis demonstrantur, non solet dici, usum est mihi, sed 
+      <lb ed="#G" n="97"/>vidi. Et quamuis Beatus August. neutram partem hic
+      as<lb ed="#G" n="98" break="no"/>serat determinate; sunt tamen quidam, qui dicunt, quod 
+      <lb ed="#G" n="99"/>illae linguae igneae non fuerunt imaginariae, sed reales 
+      <lb ed="#G" n="100"/>uia, vt dicunt.
+    </p>
+            <p xml:id="HuYgTa-e52807-d1e935">
+               <lb ed="#G" n="101"/>1 Veritas non debet fictionibus manifestari; nam in 
+      <lb ed="#G" n="102"/>operibus veritatis nulla debet esse fictio, sed apparitiones 
+      <lb ed="#G" n="103"/>fantasticae sunt quaedam fictiones.
+    </p>
+            <p xml:id="HuYgTa-e52807-d1e944">
+               <lb ed="#G" n="104"/>2 Preterea, illud, quod est in imaginatione vnius, non  
+      <lb ed="#G" n="105"/>apparet alteri; sed illae linguae non solum apparuerunt 
+      <lb ed="#G" n="106"/>Apostolis, quibus in illo signo mittebatur spiritus
+      san<lb ed="#G" n="107" break="no"/>ctus, sed &amp; pluribus aliis apparuerunt, qui cum Apostolis 
+      <lb ed="#G" n="108"/>in illa domo fuerunt. Sed quid sit hic tenedum, determi- 
+      <lb ed="#G" n="109"/>nate asserere non praesumo, maxime cum tantus doctor 
+      <lb ed="#G" n="110"/>sicut erat August. neutram parte determinate asseruerit. 
+    </p>
+            <p xml:id="HuYgTa-e52807-d1e962">
+               <lb ed="#G" n="111"/>
+               <pc type="indent"/>Sed nec rationes illorum concludunt, 
+      <lb ed="#G" n="112"/>Ad primum igitur dicendum, quod minor non est vera: quia 
+      <lb ed="#G" n="113"/>multi prophetae receperunt veritatem suae prophetiae per 
+      <lb ed="#G" n="114"/>pecies fantasticas, &amp; imaginarias, in qua tamen
+      prophe<lb ed="#G" n="115" break="no"/>tia nulla fuit fictio falsitatis. 
+    </p>
+            <p xml:id="HuYgTa-e52807-d1e978">
+               <lb ed="#G" n="116"/>
+               <pc type="indent"/>Ad secundum dicendum, quod illud signum virture 
+      <lb ed="#G" n="117"/>diuina, vel angelica poterat multiplicari in fantasiis om- 
+      <lb ed="#G" n="118"/>nium illorum, quibus apparuerunt illae linguae. De colus 
+      <lb ed="#G" n="119"/>ba vero, in qua apparuit spiritus sanctus baptix ato domi- 
+      <lb ed="#G" n="120"/>no, dicit beatus Aug. libro superius allegato, non esse du 
+      <lb ed="#G" n="121"/>bium, quin fuerit verum corpus reale, cum scriptura eam 
+      <lb ed="#G" n="122"/>corporali specie asserat descendisse¬ 
+    </p>
+            <p xml:id="HuYgTa-e52807-d1e998">
+               <lb ed="#G" n="123"/>
+               <pc type="indent"/>ARTICVLVS IIIt 
+      <lb ed="#G" n="124"/>Vtrum tales species, in quibus spiritus sanctus missus 
+      <lb ed="#G" n="125"/>
+               <pc type="indent"/>est, formentur ministerio angelorum.
+    </p>
+            <p xml:id="HuYgTa-e52807-d1e1012">
+               <lb ed="#G" n="126"/>QVANTVM ad quartum articulum, vtrum tales 
+      <lb ed="#G" n="127"/>species, in quibus spiritus sanctus missus est, formen 
+      <lb ed="#G" n="128"/>tur ministerio Angelorum, dicendum, quod quia Dens 
+      <lb ed="#G" n="129"/>administat corporalem creaturam mediante sprritualis 
+      <lb ed="#G" n="130"/>lex enim deitatis est infima per media reducere in
+      supre<lb ed="#G" n="131" break="no"/>ma, vt patet per Dionysium in de angelica Hicrarchias 
+      <lb ed="#G" n="132"/>ideo congrue dici potest, omnes illas species, in quibus 
+      <lb ed="#G" n="133"/>modo praedicto diuinae personae apparent, ita tamen, quod 
+      <lb ed="#G" n="134"/>non sint assumptae in vnitatem suppositi diuini, esse
+      for<lb ed="#G" n="135" break="no"/>matas ministerio angelorum. 
+    </p>
+            <p xml:id="HuYgTa-e52807-d1e1036">
+               <lb ed="#G" n="136"/>
+               <pc type="indent"/>Si autem aliqua illarum rerum assumeretur a diuino 
+      <lb ed="#G" n="137"/>supposito, tunc ratione suae dignitatis sine aliquo creato 
+      <!--180.xml-->
+      <pb ed="#G" n="71-r"/>
+               <cb ed="#G" n="a"/>
+               <lb ed="#G" n="1"/>agente medio formaretur immediate per ipsum Deum 
+      <lb ed="#G" n="2"/>ficut factum fuisse creditur de humanitate domini nostri 
+      <lb ed="#G" n="3"/>lesu Christi. 
+    </p>
+            <p xml:id="HuYgTa-e52807-d1e1058">
+               <lb ed="#G" n="4"/>
+               <pc type="indent"/>Forte dicetur contra primam conclusionem, quod cum 
+      <lb ed="#G" n="5"/>Angelus format aliquod corpus, tunc ipse Angelus appa 
+      <lb ed="#G" n="6"/>ret in tali formato corpote, &amp; ideo si Angelus formaret 
+      <lb ed="#G" n="7"/>praedictas species, tunc in talibus speciebus non fieret mis 
+      <lb ed="#G" n="8"/>sio diuinae personae, sed potius Angeli, qui in talibus
+      spe<lb ed="#G" n="9" break="no"/>ciebus appareret 
+    </p>
+            <p xml:id="HuYgTa-e52807-d1e1076">
+               <lb ed="#G" n="10"/>
+               <pc type="indent"/>Respondeo, quod hoc non sequitur: quia licet Angelus ha 
+      <lb ed="#G" n="11"/>beat causalitatem super talis rei formatione, non tamen 
+      <lb ed="#G" n="12"/>habet causalitatem super dono gratuito, quod a solo Deo 
+      <lb ed="#G" n="13"/>intus formatur, &amp; efficitur in mente illius, ad quem
+      di<lb ed="#G" n="14" break="no"/>citur fieri huiusmodi missio, quod quidem donum
+      signi<lb ed="#G" n="15" break="no"/>ficatur per speciem extrinsecus ministerialiter formatam 
+      <lb ed="#G" n="16"/>per Angelum, &amp; ideo licet Angelus formet huiusmodi 
+      <lb ed="#G" n="17"/>corpus mediante motu locali facto in aere, &amp; ceteris
+      ele<lb ed="#G" n="18" break="no"/>mentis ad hoc congruentibus; tamen si donum
+      significa<lb ed="#G" n="19" break="no"/>tum huiusmodi corpore, seu specie nullo modo subest po 
+      <lb ed="#G" n="20"/>testati angelicae, sed tantummodo dependet a diuina
+      po<lb ed="#G" n="21" break="no"/>testate, tunc non debet dici apparere, vel mitti Angelus,  
+      <lb ed="#G" n="22"/>sed potius persona diuina, cuius appropriatum respicit hu 
+      <lb ed="#G" n="23"/>iusmodi donum, puta si illud donum se habet per
+      mo<lb ed="#G" n="24" break="no"/>dum sapientiae, tunc mittitur filius, cuius appropriatum 
+      <lb ed="#G" n="25"/>est sapientia; si per modum amoris, vel caritatis, tunc mit 
+      <lb ed="#G" n="26"/>titur spiritus sanctus, cui bonitas approprintur in diuinis: 
+      <lb ed="#G" n="27"/>Si autem tale donum respicit singulariter potestate, vel 
+      <lb ed="#G" n="28"/>maiestatem diuinam, tunc quia potestas appropriatur pa 
+      <lb ed="#G" n="29"/>tri, potest dici que in specie tunc apparente pater apparet,  
+      <lb ed="#G" n="30"/>tamen ex hoc non debet inferri, quod pater sit missus, quia 
+      <lb ed="#G" n="31"/>apparitio in plus se habet, quam missio: quia sicut patet 
+      <lb ed="#G" n="32"/>ex praecedentibus superius, personae non productae
+      repu<lb ed="#G" n="33" break="no"/>gnat mitti, quamuis sibi non repugnet apparere; apparuit 
+      <lb ed="#G" n="34"/>enim pater in voce dicente, Hic est filius meus dilectus 
+      <lb ed="#G" n="35"/>tamen ex hoc non debet dici missus
+    </p>
+            <p xml:id="HuYgTa-e52807-d1e1137">
+               <lb ed="#G" n="36"/>Ad argumenta principalia patet: quia neutrum est con 
+      <lb ed="#G" n="37"/>tra ea, quae hic dicta sunt 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

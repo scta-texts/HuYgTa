@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Circa textum</title>
+            <author ref="#ThomasStrasbourg">Thomas of Strasbourg</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Circa textum</title>
+               <date when="2020-11-26">November 26, 2020</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="G" n="cod-TxxqU">Genoa 1585</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2020-11-26" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#G" n="-r"/>
+            <cb ed="#G" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="HuYgTa-e89763"><!-- HuYgTa-l1d44ct1 -->
+            <head xml:id="HuYgTa-e89763-Hd1e108">Circa textum</head>
+            <p xml:id="HuYgTa-e89763-d1e111">
+               <lb ed="#G" n="41"/>
+               <pc type="indent"/>DISTINCTIO XLIIII. 
+      <lb ed="#G" n="42"/>Breius, ac clara buius distinctionis diuisio, in qua de 
+      <lb ed="#G" n="43"/>Dei potentia per collationem ad
+      creatura<lb ed="#G" n="44" break="no"/>rum bonitatem pertr actatur. 
+    </p>
+            <p xml:id="HuYgTa-e89763-d1e124">
+               <lb ed="#G" n="45"/>VN c illud restat discutiendum.
+      Hi<lb ed="#G" n="46" break="no"/>Magister tractat de potentia Dei 
+      <lb ed="#G" n="47"/>per comparationem ad creaturari 
+      <lb ed="#G" n="48"/>bonitatem, &amp; diuiditur ista
+      distin<lb ed="#G" n="49" break="no"/>ctio in tres partes, secundum quod 
+      <lb ed="#G" n="50"/>tres mouentur quaestiones, quarum 
+      <lb ed="#G" n="51"/>rima est, vtrum Deus potest ali 
+      <lb ed="#G" n="52"/>quid melius farere, quam facit,
+      Se<lb ed="#G" n="53" break="no"/>cunda, vtrum alio modo, vel melio 
+      <lb ed="#G" n="54"/>ri modo, quam facit; Tertia, utrum Deus semper possit omne, 
+      <lb ed="#G" n="55"/>que olim potuit. Secunda pars incipit ibi, Posi liaec conside 
+      <lb ed="#G" n="56"/>radum Tertia ibi, preterea queri solet. Prima in duas; nam pri 
+      <lb ed="#G" n="57"/>mo quorundam errorem recitat. Secundo huiusmodi er- 
+      <lb ed="#G" n="58"/>rorem reprobat, &amp; veritatem determinat ibi, verum hi 
+      <lb ed="#G" n="59"/>ab eis, Sequitur illa pars, Post haec considerandum, &amp; diui 
+      <lb ed="#G" n="60"/>ditur in duas: nam primo mouet questionem. Secimdo 
+      <lb ed="#G" n="61"/>respondet per quandam distinctionem ibi, Si modus ope 
+      <lb ed="#G" n="62"/>rationis, Sequitur illa pars, Praeterea queri solet, &amp;
+      diui<lb ed="#G" n="63" break="no"/>ditur in tres partes; nam primo circa illam quaestionem 
+      <lb ed="#G" n="64"/>tangit quandam falsam opinionem, Secui: do respondet 
+      <lb ed="#G" n="65"/>secundum suam propriam intentionem, Et tertio per pri 
+      <lb ed="#G" n="66"/>dictorum epilogationem confirmat suam responsionem. 
+      <lb ed="#G" n="67"/>Secunda ibi; Ad quod dicimus &amp;c Tertia, Fateamur &amp;c. 
+      <lb ed="#G" n="68"/>Hic quaero hanc quaestionem.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

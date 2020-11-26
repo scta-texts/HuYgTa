@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Circa textum</title>
+            <author ref="#ThomasStrasbourg">Thomas of Strasbourg</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Circa textum</title>
+               <date when="2020-11-26">November 26, 2020</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="G" n="cod-TxxqU">Genoa 1585</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2020-11-26" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#G" n="P2_58-v"/>
+            <cb ed="#G" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="HuYgTa-204270"><!-- HuYgTa-l4prol -->
+            <head xml:id="HuYgTa-204270-Hd1e108">Circa textum</head>
+            <p xml:id="HuYgTa-204270-d1e111">
+      <!--587.xml-->
+               <pb ed="#G" n="P2_58-v"/>
+               <cb ed="#G" n="a"/>
+               <lb ed="#G" n="1"/>ED IT AEISSVS
+      Vo<lb ed="#G" n="2" break="no"/>cEM SVAM. Abacuch 
+      <lb ed="#G" n="3"/>. Vt supra patuit
+      distin<lb ed="#G" n="4" break="no"/>guendo verba iam dicta, 
+      <lb ed="#G" n="5"/>Magister in quarto senten 
+      <lb ed="#G" n="6"/>tiarum libro considerat 
+      <lb ed="#G" n="7"/>lurimorum infirmorum ef 
+      <lb ed="#G" n="8"/>ficacissimam curationem. Ex 
+      <lb ed="#G" n="9"/>eccato enim primorum 
+      <lb ed="#G" n="10"/>parentum totum genni 
+      <lb ed="#G" n="11"/>humanum iacebat
+      aegro<lb ed="#G" n="12" break="no"/>tum, variisque aerumnis,
+      in<lb ed="#G" n="13" break="no"/>numeris quoque miseriis saucitatum, testante P. Aug. in lib  
+      <lb ed="#G" n="14"/>de expositone svmboli sermone primo, vbi sic ait, Ad 
+      <lb ed="#G" n="15"/>hoc facti sumus vt creaturis ceteris dominaremur: sed per 
+      <lb ed="#G" n="16"/>eccatum in primo homine lapsi sumus, &amp; in mortis here 
+      <lb ed="#G" n="17"/>ditatem omnes deuenimus, facti sumus humiles,
+      morta<lb ed="#G" n="18" break="no"/>les, impleti sumus timoribus, erroribusque: &amp; hoc merito 
+      <lb ed="#G" n="19"/>eccati, in quo merito, &amp; reatu nascitur omnis
+      homo<lb ed="#G" n="20" break="no"/>stam etiam aerumnam, laborem, &amp; miseriam
+      consideran<lb ed="#G" n="21" break="no"/>lsido. in principio libelli de cedula svnonvma Ciceronis 
+      <lb ed="#G" n="22"/>in persona dolentis hominis flebiliter lamentatur sic
+      d<lb ed="#G" n="23" break="no"/>Anima mea in angustiis est, spiritus meus aestuat, cor meu 
+      <lb ed="#G" n="24"/>sluctuat, angustia animi affligit me, circundatus sum 
+      <lb ed="#G" n="25"/>malis, circumsaeptus erumnis, circumclusus aduersis,
+      obsi<lb ed="#G" n="26" break="no"/>tus miseriis, opertus inselicitate, oppressus anxietate,
+      nus<lb ed="#G" n="27" break="no"/>quam reperio tanti mali praefugium, tanti doloris
+      inue<lb ed="#G" n="28" break="no"/>nio argumentum. lam dicto igitur modo toto genere hu 
+      <lb ed="#G" n="29"/>mano ab Hierusalem descendente in Hierico, a
+      latro<lb ed="#G" n="30" break="no"/>nibus spoliato, in naturalibus vulnerato, &amp; plagis
+      mul<lb ed="#G" n="31" break="no"/>tis impositis, seminiuo tandem relicto, hunc languidum 
+      <lb ed="#G" n="32"/>dum transiret sacerdos, &amp; leuita, lex, scilicet naturae, &amp;  
+      <lb ed="#G" n="33"/>lex Mosaica: nulla tamen cura sanitatis suit adhibita; 
+      <lb ed="#G" n="34"/> Sic enim lex infirmitatem prodidit: quod tamen nullam  
+      <lb ed="#G" n="35"/>contulit sanitatem. Vltimo superuenit verus
+      Samari<lb ed="#G" n="36" break="no"/>tanus, qui tam animarum, quam corporum dignoscitur 
+      <lb ed="#G" n="37"/>esse custos, verbum scilicet incarnatum, a patre in
+      mun<lb ed="#G" n="38" break="no"/>dum destinatum, pro nostro sanando languore, vinum 
+      <lb ed="#G" n="39"/>infundens, &amp; oleum vulneribus semiuiui, vinum scilicet 
+      <lb ed="#G" n="40"/>doloris, &amp; compunctionis contra praesumptionem, &amp;
+      o<lb ed="#G" n="41" break="no"/>leum dulcoris, &amp; consolationis contra desperationem: 
+      <lb ed="#G" n="42"/>gene autem praemittitur vinum, quod est vulneris pur¬ 
+      <!--587.xml-->
+      <cb ed="#G" n="b"/>
+               <lb ed="#G" n="43"/>gatiuum, ante ipsum oleum, quod est carnis
+      mollifi<lb ed="#G" n="44" break="no"/>catiuum, &amp; cicatricis superductiuum: quia, sicut ait 
+      <lb ed="#G" n="45"/>Hicronvmus in epistola ad Pacomium, &amp; Oceanum. 
+      <lb ed="#G" n="46"/>non est fidelis medicus, qui ante digestam
+      putredi<lb ed="#G" n="47" break="no"/>nem superducit vulneri cicatricem: Et quia infuso
+      vi<lb ed="#G" n="48" break="no"/>no, &amp; oleo, debita requiritur vulneris alligatio, ideo 
+      <lb ed="#G" n="49"/>idem Samaritanus sacramentorum fascia ligauit
+      praedi<lb ed="#G" n="50" break="no"/>cta vulnera, sicut tangit Magister in principio istius 
+    </p>
+            <p xml:id="HuYgTa-204270-d1e233">
+               <lb ed="#G" n="51"/>
+               <pc type="indent"/>uarti libri, dicens, Samaritanus vulnerato
+      appropin<lb ed="#G" n="52" break="no"/>uans curationi eius sacramentorum alligamenta
+      adhi<lb ed="#G" n="53" break="no"/>buit: quia contra peccati originalis, &amp; actualis
+      vulne<lb ed="#G" n="54" break="no"/>ra sacramentorum remedia Deus instituit.
+      Huiusmo<lb ed="#G" n="55" break="no"/>di autem curatio notatur in verbis principaliter
+      intro<lb ed="#G" n="56" break="no"/>ductis cum vltimo subinfertur suam. Et quia pronomen 
+      <lb ed="#G" n="57"/>relatiuum de se non significat, nisi in quantum
+      coniungi<lb ed="#G" n="58" break="no"/>tur ei, quod refert: ideo oportet me hic replicare Iy
+      vo<lb ed="#G" n="59" break="no"/>cem, &amp; secundum hoc de iam dicta curatione virtuosis. 
+      <lb ed="#G" n="60"/>sima potest exponi illud Dsal. Ecce dabit voci suae
+      vo<lb ed="#G" n="61" break="no"/>cem virtutis, date gloriam Deo super lsracl,
+      magnifi<lb ed="#G" n="62" break="no"/>centia eius, &amp; virtus eius in nubibus. In quibus
+      ver<lb ed="#G" n="63" break="no"/>is satis expresse tangitur materia quarti libri. De
+      tri<lb ed="#G" n="64" break="no"/>bus enim principaliter in hoc libro determinatur:
+      Pri<lb ed="#G" n="65" break="no"/>mo enim Magister ostendit peccatorum remissionem, 
+      <lb ed="#G" n="66"/>&amp; gratuitorum donationem fieri per sacramentalem
+      in<lb ed="#G" n="67" break="no"/>luentiam. SE CVND o mortuorum resurrectionem, 
+      <lb ed="#G" n="68"/>&amp; obstinatorum condemnationem per iudicialem
+      sen<lb ed="#G" n="69" break="no"/>tentiam. Et tertio beatorum fruitionem, &amp; ipsorum illu 
+      <lb ed="#G" n="70"/>strationem per supernaturalem refulgentiam. Ex istis
+      tri<lb ed="#G" n="71" break="no"/>bus clausulis in isto quarto sententiarum libro descriptis,  
+      <lb ed="#G" n="72"/>somo languens, &amp; debilis, quasi quadam nobilissima me 
+      <lb ed="#G" n="73"/>dicina mire restauratiua in perfectissima reponitur
+      sani<lb ed="#G" n="74" break="no"/>tate. Ad cuius intellectum est aduertendum, quod ad 
+      <lb ed="#G" n="75"/>noc quod aliquis infirmus perfectam sanitatem consequa 
+      <lb ed="#G" n="76"/>tur, tria sunt necessaria: nam primo radices infirmitatis 
+      <lb ed="#G" n="77"/>debent lextirpari. Secundo fanatus a non santtis debet 
+      <lb ed="#G" n="78"/>sequestrari. Tertio adiumentis sanitatis debet
+      roborari<lb ed="#G" n="79" break="no"/>Haec autem quo ad infirmum hominem fiunt in praemissis; 
+      <lb ed="#G" n="80"/>nam homo languens, &amp; debilis ab infecta qualitate totali 
+      <lb ed="#G" n="81"/>er liberatur per sacramentorum collationem, a suspecta 
+      <lb ed="#G" n="82"/>ocietate iudicialiter separatur per meritorum discussionem, 
+      <lb ed="#G" n="83"/>&amp; in perfecta sanitate aeternaliter confirmatur per corpo 
+      <lb ed="#G" n="84"/>ris, &amp; animae glorificationem. Istorum primum notatur in au¬ 
+      <!--588.xml-->
+      <pb ed="#G" n="P2_59-r"/>
+               <cb ed="#G" n="a"/>
+               <lb ed="#G" n="1"/>ctoritate iam assumpta cum praemittitur. DAEIT voci 
+      <lb ed="#G" n="2"/>SVA VOCEM VIRTVTIS. SECVNDVM, Cum posi 
+      <lb ed="#G" n="3"/>ponitur. MA GNIFICENTIA EIVS, ET VIRTVS 
+      <lb ed="#G" n="4"/>EIVS INNVD IPVS. TERTIVM, Cum medio sub 
+      <lb ed="#G" n="5"/>infertur. DATE SFORIAM DFO SVPER ISRAEI. 
+    </p>
+            <p xml:id="HuYgTa-204270-d1e329">
+               <lb ed="#G" n="6"/>
+               <pc type="indent"/>Dico ergo primo, quod in prima parte istius quarti
+      li<lb ed="#G" n="7" break="no"/>bri tractatur de peccatorum remissione, &amp; gratuitorum 
+      <lb ed="#G" n="8"/>donatione, &amp; monstratur, quomodo haec fiant
+      sacramen<lb ed="#G" n="9" break="no"/>torum collatione, qua infirmus homo ab insecta
+      quali<lb ed="#G" n="10" break="no"/>tate totaliter liberatur. Et hoc notatur in verbis
+      praemis<lb ed="#G" n="11" break="no"/>sis cum dicitur. DAEIT voe1 SV2 vocEM VIRTVTIS. 
+      <lb ed="#G" n="12"/>luxta enim doctrinam Beati Augustini super loan.
+      quan<lb ed="#G" n="13" break="no"/>do verbum accedit ad elementum, &amp; fit sacramentum  
+      <lb ed="#G" n="14"/>tunc Deus dat vici suae triplicem virtutem contra
+      tripli<lb ed="#G" n="15" break="no"/>cem humani generis infirmitatem; puta, virtutem
+      pur<lb ed="#G" n="16" break="no"/>gatiuam contra concupiscentiae prauitatem; virtutem 
+      <lb ed="#G" n="17"/>alluminatiuam contra nescientiae caecitatem: &amp; virtutem 
+      <lb ed="#G" n="18"/>roboratiuam contra impotentiae debilitatem. Ratione 
+      <lb ed="#G" n="19"/>primi dicit Dsal. Vox domini super aquas, Deus
+      maie<lb ed="#G" n="20" break="no"/>statis intonuit, dominus super aquas multas. Ratione
+      se<lb ed="#G" n="21" break="no"/>cundi dicitur ibidem. Vox domini intercidentis
+      fiam<lb ed="#G" n="22" break="no"/>mam ignis, vox domini concutientis desertum, &amp;
+      com<lb ed="#G" n="23" break="no"/>mouebit dominus desertum Cades. Ratione tertii
+      dici<lb ed="#G" n="24" break="no"/>tur eodem Psal. Vox domini praeparantis ceruos, &amp; re- 
+      <lb ed="#G" n="25"/>uelabit condensa, &amp; in templo eius omnes dicent
+      glo<lb ed="#G" n="26" break="no"/>riam: Scitis enim, quod proprium aquae officium est
+      pur<lb ed="#G" n="27" break="no"/>gare, ignis illuminare; &amp; cerui ad fontem aquae viuae cum 
+      <lb ed="#G" n="28"/>desiderio properare. Quorum primum respondet
+      virtu<lb ed="#G" n="29" break="no"/>ri purgatiuae. Secundum illuminatiuae. Tertium
+      confor<lb ed="#G" n="30" break="no"/>tatiuae. Applicationes huiusmodi patent: ideo transeo, &amp; 
+      <lb ed="#G" n="31"/>eas gratia breuitatis omitto. Dixi secundo, quod in se 
+      <lb ed="#G" n="32"/>cunda parte huius libri quarti tractatur de mortuorum 
+      <lb ed="#G" n="33"/>resurrectione, &amp; obstinatorum condemnatione, &amp;
+      mon<lb ed="#G" n="34" break="no"/>stratur, quomodo haec fiant meritorum discussione, qua 
+      <lb ed="#G" n="35"/>iam sanatus homo a suspecta societate iudicaliter
+      separa<lb ed="#G" n="36" break="no"/>tur. Et hoc notatur in verbis praemissis, cum dicitur. 
+    </p>
+            <p xml:id="HuYgTa-204270-d1e401">
+               <lb ed="#G" n="37"/>MA GNIFICENTIA ELVS, ET VIRTVS EIVS 
+      <lb ed="#G" n="38"/>IN NVEIEVS. Sicut enim recitat Magister dist. 48. 
+      <lb ed="#G" n="39"/>istius quati libri, in hora extremi iudicii dominus
+      ap<lb ed="#G" n="40" break="no"/>parebit in nubib ex opposito montis Qliueti super valle 
+      <lb ed="#G" n="41"/>losaphat, &amp; tunc magnificentia suae liberalitatis
+      appa<lb ed="#G" n="42" break="no"/>rebit in bonorum retributione, quibus a dextris suis
+      assi<lb ed="#G" n="43" break="no"/>stentibus dicet. Venite benedicti patris mei, percipite 
+      <lb ed="#G" n="44"/>regnum, quod vobis paratum est ab origine mundi. Sec 
+      <lb ed="#G" n="45"/>virtus suae iustitiae, &amp; aequitatis apparebit in malorum 
+      <lb ed="#G" n="46"/>condemnatione, quibus ad sinistram suam constitutis
+      iu<lb ed="#G" n="47" break="no"/>diciali sua sententia, dicet. Ite maledicti in ignem
+      aeter<lb ed="#G" n="48" break="no"/>num &amp;c. Dixi tertio, quod in tertia parte illius quarti 
+      <lb ed="#G" n="49"/>libri tractatur de beatorum fruitione, &amp; ipsorum illustra 
+      <lb ed="#G" n="50"/>tione, &amp; monstratur, quomodo haec contingant
+      corpo<lb ed="#G" n="51" break="no"/>ris &amp; animae glorificationi, qua ia beatus homo in
+      per<lb ed="#G" n="52" break="no"/>fecta sanitate aeternaliter confirmatur. Et hoc notatur 
+      <lb ed="#G" n="53"/>in verbis praeassumptis, cum dicitur. DATE OI ORIAM 
+      <lb ed="#G" n="54"/>DEO SVPER ISRAE1. Quasi dicat. Cognoscite 
+      <lb ed="#G" n="55"/>Deum esse glorificatorem israelis, idest, corum, qui
+      vi<lb ed="#G" n="56" break="no"/>dent Deum; nam huiusmodi gloria non
+      communica<lb ed="#G" n="57" break="no"/>tur impiis caecis Deum videre non potentibus, de
+      qui<lb ed="#G" n="58" break="no"/>bus Sapiens dicit. Excecauit illos malitia eorum, &amp;
+      ne<lb ed="#G" n="59" break="no"/>scierunt sacramenta Dei, neque mercedem sperauerunt 
+      <lb ed="#G" n="60"/>iustitiae, nec iudicauerunt honorem animarum
+      sancta<lb ed="#G" n="61" break="no"/>rum. Tunc enim tolletur impius, ne videat gloriam  
+      <lb ed="#G" n="62"/>Dei; vt dicit lsa. Communicatur ergo talis gloria
+      so<lb ed="#G" n="63" break="no"/>lummodo piis fidelibus, qui collirio poenitentiae, &amp;  
+      <lb ed="#G" n="64"/>operibus misericordiae, seu clementiae suos mentales
+      o<lb ed="#G" n="65" break="no"/>culos taliter purgauerunt, quod in extremo iudicio 
+      <lb ed="#G" n="66"/>Deum videre beatifice merebuntur. Vnde cuilibet tal 
+      <lb ed="#G" n="67"/>in illa beatifica visione constituto tunc dici poterit
+      il<lb ed="#G" n="68" break="no"/>lud Isa. Surge illuminare Hierusalem: quia venit lumen 
+      <lb ed="#G" n="69"/>tuum, &amp; gloria domini super te orta est. Cuius
+      visio<lb ed="#G" n="70" break="no"/>nis gloriosae nos participes faciat glorificator
+      saluando<lb ed="#G" n="71" break="no"/>rum, qui cum patre, &amp; spiritu sancto viuit, &amp; regnat in
+      sae<lb ed="#G" n="72" break="no"/>cula saeculorum, 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

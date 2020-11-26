@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Circa textum</title>
+            <author ref="#ThomasStrasbourg">Thomas of Strasbourg</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Circa textum</title>
+               <date when="2020-11-26">November 26, 2020</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="G" n="cod-TxxqU">Genoa 1585</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2020-11-26" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#G" n="-r"/>
+            <cb ed="#G" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="HuYgTa-193383"><!-- HuYgTa-l3d27et28ct1 -->
+            <head xml:id="HuYgTa-193383-Hd1e108">Circa textum</head>
+            <p xml:id="HuYgTa-193383-d1e111">
+               <lb ed="#G" n="45"/>
+               <pc type="indent"/>DISTINCTIO XVII ET XXVIII 
+      <lb ed="#G" n="46"/>Tractatus de habitu caritatis artificiosa
+      di<lb ed="#G" n="47" break="no"/>
+               <lb ed="#G" n="48"/>uisio, ac harum distimctionimi distincta 
+      <lb ed="#G" n="49"/>subduisio, in quibus, quid sit
+      ca<lb ed="#G" n="50" break="no"/>ritas, ac modus diligendi 
+      <lb ed="#G" n="51"/>per caritatem
+      insi<lb ed="#G" n="52" break="no"/>nuatur
+    </p>
+            <p xml:id="HuYgTa-193383-d1e133">
+               <lb ed="#G" n="53"/>VM AVTEM GMRISTVS &amp;c. Post 
+      <lb ed="#G" n="54"/>quam Magister determinauit de fide, &amp; 
+      <lb ed="#G" n="55"/>spe, hic incipit tractare de ipsa caritate 
+      <lb ed="#G" n="56"/>Et diuiditur in duas partes: quia prima; 
+      <lb ed="#G" n="57"/>Magister tractat de caritate quantum ac 
+      <lb ed="#G" n="58"/>suam essentiam, &amp; quidditatem.
+      Secun<lb ed="#G" n="59" break="no"/>do quantum ad sui permanentiam, &amp; stabilitatem, ibi. Il 
+      <lb ed="#G" n="60"/>ud quoque non est praetereundum. Prima in duas: quia 
+      <lb ed="#G" n="61"/>primo dat modum ipsam caritatem diffiniendi. Secundo 
+      <lb ed="#G" n="62"/>insinuat ordinem ex caritate diligendi, ibi, Post praedi¬ 
+      <!--557.xml-->
+      <cb ed="#G" n="b"/>
+               <lb ed="#G" n="63"/>cta de ordine. Prima in duas: quia primo ponit caritatis 
+      <lb ed="#G" n="64"/>diffinitionem, seu descriptionem. Secundo diligendorum 
+      <lb ed="#G" n="65"/>ex caritate certam numerationem, ibi, Hic quaeri potest. 
+      <lb ed="#G" n="66"/>Prima in duas: nam primo Magister insinuat modum
+      de<lb ed="#G" n="67" break="no"/>scribendi ipsam caritatem. Secundo modum diligendi 
+      <lb ed="#G" n="68"/>secundum caritatem, ibi. Consequenter modum 
+      <lb ed="#G" n="69"/>vtriusque. Prima in duas: quia primo Magister prosequi 
+      <lb ed="#G" n="70"/>tur diffinitiue de caritatis entitate. Secundo inquisitiue 
+      <lb ed="#G" n="71"/>de caritatis vnitate, ibi, Hic quaeritur si, &amp;c. Prima in 
+      <lb ed="#G" n="72"/>duas: nam primo Magister ostendit in Christo fuisse cari 
+      <lb ed="#G" n="73"/>tatem, seu dilectionem, &amp; subiungit dicendorum ordina 
+      <lb ed="#G" n="74"/>tionem. Secundo innuit caritatis descriptionem, ibi,
+      Ca<lb ed="#G" n="75" break="no"/>ritas est dilectio. Sequitur illa pars, Consequenter
+      mo<lb ed="#G" n="76" break="no"/>dum. Et diuiditur in duas partes: quia primo insinuat di 
+      <lb ed="#G" n="77"/>lectionis modum. Secundo manifestat dilectionis
+      prae<lb ed="#G" n="78" break="no"/>ceptum, ibi, lllud etiam preceptum. Prima in duas 
+      <lb ed="#G" n="79"/>quia primo tangitur modus diligendi proximum. Secun 
+      <lb ed="#G" n="80"/>do modus diligendi Deum, ibi, Dilectionis autem
+      Dei<lb ed="#G" n="81" break="no"/>Sequitur illa pars, lllud etiam. Et diuiditur in duas
+      par<lb ed="#G" n="82" break="no"/>tes: nam primo ostendit, quod praeceptum de dilectione. 
+      <lb ed="#G" n="83"/>Dei in praesenti vita perfecte non implebitur. Secundo 
+      <lb ed="#G" n="84"/>inquirit, si non potest impleri: propter quid tunc
+      praeci<lb ed="#G" n="85" break="no"/>bitur, ibi, Sed cur praecipitur. Sequitur distinctio 28.  
+      <lb ed="#G" n="86"/>Et potest sic continuari ad praecedentem
+      distinctionem<lb ed="#G" n="87" break="no"/>Postquam Magister &amp;c. vt supra. Et diuiditur in tres 
+      <lb ed="#G" n="88"/>artes: nam primo praemisso quaternario diligendorum 
+      <lb ed="#G" n="89"/>numero, Magister ostendit, quod totus homo, puta,
+      in<lb ed="#G" n="90" break="no"/>terior, &amp; exterior diligendus ostenditur sub dilectione 
+      <lb ed="#G" n="91"/>proximi. Secundo innuit, quod etiam sub dilectione 
+      <lb ed="#G" n="92"/>proximi comprehenditur dilectio Angelorum, &amp;
+      Chri<lb ed="#G" n="93" break="no"/>sti. Tertio ostendit, quod significatio proximi in plura 
+      <lb ed="#G" n="94"/>potest diuidi. Secunda ibi, Oritur autem &amp;c. Tertia 
+      <lb ed="#G" n="95"/>ibi, Hic autem notandum. Prima in duas: nam primo 
+      <lb ed="#G" n="96"/>Magister determinat quaestionem principalem. Secundo 
+      <lb ed="#G" n="97"/>ex responsione accepta occasione mouet, &amp; determinat 
+      <lb ed="#G" n="98"/>quaestionem incidentalem, ibi, Hic videtur tradere
+      Au<lb ed="#G" n="99" break="no"/>tustinus. Haec est sententia, &amp; diuisio istarum
+      distin<lb ed="#G" n="100" break="no"/>ctionum in generali, circa quas quaero in speciali 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

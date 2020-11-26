@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Circa textum 2</title>
+            <author ref="#ThomasStrasbourg">Thomas of Strasbourg</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Circa textum 2</title>
+               <date when="2020-11-26">November 26, 2020</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="G" n="cod-TxxqU">Genoa 1585</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2020-11-26" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#G" n="5-r"/>
+            <cb ed="#G" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="HuYgTa-d1e285"><!-- HuYgTa-l1prolct2 -->
+            <head xml:id="HuYgTa-d1e285-Hd1e108">Circa textum 2</head>
+            <p xml:id="HuYgTa-d1e285-d1e111">
+      <!--48.xml-->
+               <pb ed="#G" n="5-r"/>
+               <cb ed="#G" n="a"/>
+               <lb ed="#G" n="1"/>EREVIS ET DILVOIDA 
+      <lb ed="#G" n="2"/>diuisio totius contextus prologi 
+      <lb ed="#G" n="3"/>Magistri sententiarum, 
+      <lb ed="#G" n="4"/>quae ad distinctam, &amp;o perfectam
+      in<lb ed="#G" n="5" break="no"/>tellectionem eiusdem plurimum 
+      <lb ed="#G" n="6"/>confert.
+    </p>
+            <p xml:id="HuYgTa-d1e285-d1e133">
+               <lb ed="#G" n="7"/>
+               <quote xml:id="HuYgTa-d1e285-Qd1e137">CVPIENTES</quote> &amp;c. Praesupposita 
+      <lb ed="#G" n="8"/>notitia, &amp; declaratione causarum 
+      <lb ed="#G" n="9"/>libri senten ad formam tractatus 
+      <lb ed="#G" n="10"/>accedo, in qua attenditur libri
+      di<lb ed="#G" n="11" break="no"/>uisio. Diuiditur iste liber in dua 
+      <lb ed="#G" n="12"/>partes. Nam primo praemittit
+      Ma<lb ed="#G" n="13" break="no"/>gister huic operi prologum, seu 
+      <lb ed="#G" n="14"/>prooemium. Secundo exequitur 
+      <lb ed="#G" n="15"/>tractatum ibi, veteris, ac nouae legis. Quantum ad
+      pri<lb ed="#G" n="16" break="no"/>mum est aduertendum, quod satis communiter in
+      scien<lb ed="#G" n="17" break="no"/>tiis prologix antes, circa addiscentes eorum doctrinam  
+      <lb ed="#G" n="18"/>tria intendunt. Nam primo eos alliciunt, vt sint beneuo. 
+      <lb ed="#G" n="19"/>li. Secundo, vt sint attenti. Tertio, vt sint dociles. Primi 
+      <lb ed="#G" n="20"/>fit satis congrue, si auctor ipsius scientiae praemittit suam 
+      <lb ed="#G" n="21"/>humilitatem. Secundum, si ostendit tractandae materia 
+      <lb ed="#G" n="22"/>arduitatem. Et tertium, si innuit suae scientiae ordinem 
+      <lb ed="#G" n="23"/>Nam sicut superbia doctoris consueuit displicere discipu 
+      <lb ed="#G" n="24"/>lis, &amp; per consequens facit eos maleuolos: sic eius humili 
+      <lb ed="#G" n="25"/>tas placet ipsis discipulis, &amp; facit eos beneuolos. Et sicut  
+      <lb ed="#G" n="26"/>materia communis, &amp; facilis contemnitur a studentibus; 
+      <lb ed="#G" n="27"/>&amp; per consequens reddit eos vagos: sic materia ardua, &amp; 
+      <lb ed="#G" n="28"/>difficilis diligenter attenditur, &amp; facit eos sollertes &amp; at 
+      <lb ed="#G" n="29"/>tentos. Et sicut doctrina confusa, &amp; inordinata indocilen 
+      <lb ed="#G" n="30"/>reddit hominem, &amp; tortuosum: sic econuerso doctrina on 
+      <lb ed="#G" n="31"/>dinate tradita reddit hominem docilem, &amp; studiosum 
+      <lb ed="#G" n="32"/>Hunc igitur modum communem <name xml:id="HuYgTa-d1e285-Nd1e194">Magister</name> in praesenti 
+      <lb ed="#G" n="33"/>prologo obseruando tria facit. Nam primo praemittit 
+      <lb ed="#G" n="34"/>uam numilitatem. Secundo ostendit praesentis operis dis 
+      <lb ed="#G" n="35"/>ficultatem. Et tertio indicat istius scientiae ordinem, vt ra 
+      <lb ed="#G" n="36"/>tione primi reddamur beneuoli: ratione secundi diliger 
+      <lb ed="#G" n="37"/>tes, &amp; attenti: &amp; ratione tertij dociles, &amp; studiosi.
+      Secun<lb ed="#G" n="38" break="no"/>dapars incipit ibi, Ardua scandere. Tertia ibi, Horum 
+      <lb ed="#G" n="39"/>igitur Deo odibilem. Prima diuiditur in duas partes; 
+      <lb ed="#G" n="40"/>Quia primo ostendit suam humilitatem secundum se 
+      <lb ed="#G" n="41"/>Secundo in exteriore comparatione, ibi, Cum
+      pauper<lb ed="#G" n="42" break="no"/>cula. Caxophilacium dicitur a gaxa, quod est diuitiae,  
+      <lb ed="#G" n="43"/>&amp; philasse, quod est conseruatorium quasi diuitiarum 
+      <lb ed="#G" n="44"/>conseruatorium. Et ideo gaxophilacium domini ad
+      prae<lb ed="#G" n="45" break="no"/>sens significat sacram scripturam: in qua thesautri
+      scien<lb ed="#G" n="46" break="no"/>tiae &amp; lapientiae Dei sunt absconditi, &amp; conseruati. Se¬- 
+      <lb ed="#G" n="47"/>quitur illa pars, Ardua scandere, in qua Magister
+      senten<lb ed="#G" n="48" break="no"/>reddit nos attentos, &amp; hoc ex praesentis operis diffi 
+      <lb ed="#G" n="49"/>cultate; &amp; diuiditur in duas partes. Nam primo
+      osten<lb ed="#G" n="50" break="no"/>dit praesentis operis, seu tractatus difficultatem ex tracta 
+      <lb ed="#G" n="51"/>dorum eximia sublimitate. Secundo ex inuidorum nimio 
+      <lb ed="#G" n="52"/>dolo, ibi. Quamuis non ambigamus. Quantum ad
+      pri<lb ed="#G" n="53" break="no"/>mum est aduertendum, quod tanta difficultas erat circa 
+      <lb ed="#G" n="54"/>materiam istius libri, quod magister aliquo modo
+      retra<lb ed="#G" n="55" break="no"/>hebatur, ne librum inchoaret, &amp; quandoque econuerso 
+      <lb ed="#G" n="56"/>attrahebatur, vt ipsum inciperet. Igitur magister illud 
+      <lb ed="#G" n="57"/>bellum cogitationum suarum describens, primo simu 
+      <lb ed="#G" n="58"/>ponderat attrahentia &amp; retrahentia. Secundo ostendit 
+      <lb ed="#G" n="59"/>causam victoriae, per quam attrahentia vincunt
+      retrahen<lb ed="#G" n="60" break="no"/>tia, Secunda ibi, Quam vincit xelus. Quo ad primum ite 
+      <lb ed="#G" n="61"/>rum est sciendum, quod tria fuerunt impedientia, &amp; re 
+      <lb ed="#G" n="62"/>trahentia magistrum ab isto, opere, scilicet stupor aggre 
+      <lb ed="#G" n="63"/>diendi, labor exequendi, &amp; timor deficiendi. Econtra
+      fue<lb ed="#G" n="64" break="no"/>runt tria ad illud opus magistrum attrahentia si oblatio 
+      <lb ed="#G" n="65"/>diuini adiutorip &amp; delectatio praemij, &amp; affectio proficien 
+      <lb ed="#G" n="66"/>di. Et secundum hoc magister tria facit: quia primo ponit 
+      <lb ed="#G" n="67"/>primum retractiuum, cum suo opposito attractiuo. Se¬ 
+      <!--48.xml-->
+      <cb ed="#G" n="b"/>
+               <lb ed="#G" n="68"/>cundo ponit secundum attractiuum cum suo retractiuo.  
+      <lb ed="#G" n="69"/>&amp; tertio ponit tertium, Secunda ibi, Delectat nos: Ter- 
+      <lb ed="#G" n="70"/>tia, ibi, Desidcrium hortatur. Quaelibet istarum partium. 
+      <lb ed="#G" n="71"/>posset diuidi in attractiuum, &amp; retractiuum, &amp; partes
+      pa<lb ed="#G" n="72" break="no"/>tent. Sequitur illa pars, Quam vincit &amp;c. vbi magister. 
+      <lb ed="#G" n="73"/>ostendit causam victoriae ipsorum attrahentium. Causa 
+      <lb ed="#G" n="74"/>vero istius victoriae erat caritas, seu amor. Et quia duplex 
+      <lb ed="#G" n="75"/>est amor siDei, &amp; proximi: ideo primo magister ascribit 
+      <lb ed="#G" n="76"/>hanc victoriam caritati Dei. Secundo caritati proximi, 
+      <lb ed="#G" n="77"/>ibi, Non valentes studiosorum. Quia magister dicit in lit 
+      <lb ed="#G" n="78"/>tera penultimae particulae istius lectionis, quod vult theo. 
+      <lb ed="#G" n="79"/>ogicarum inquisitionum abdita aperire. ldeo quaero hac 
+      <lb ed="#G" n="80"/>quaestionem, 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

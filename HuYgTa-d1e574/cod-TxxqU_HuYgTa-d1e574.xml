@@ -1,0 +1,1959 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 3</title>
+            <author ref="#ThomasStrasbourg">Thomas of Strasbourg</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 3</title>
+               <date when="2020-11-26">November 26, 2020</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="G" n="cod-TxxqU">Genoa 1585</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2020-11-26" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#G" n="8-v"/>
+            <cb ed="#G" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="HuYgTa-d1e574"><!-- HuYgTa-l1prolq3 -->
+            <head xml:id="HuYgTa-d1e574-Hd1e108">Quaestio 3</head>
+            <head xml:id="HuYgTa-d1e574-Hd1e111" type="question-title">An euidens notitia credibilium possit viatori communicari</head>
+            <p xml:id="HuYgTa-d1e574-d1e114">
+               <lb ed="#G" n="77"/>
+               <pc type="indent"/>Questio 3. prologi. 
+      <lb ed="#G" n="78"/>An euidens notitia credibilium possit viatori 
+      <lb ed="#G" n="79"/>communicari.
+    </p>
+            <p xml:id="HuYgTa-d1e574-d1e125">
+               <lb ed="#G" n="80"/>VTRVM CERTA SCIENTIA. &amp;
+      <lb ed="#G" n="81"/>euidens notitia eorum, quae ponit fide; 
+      <lb ed="#G" n="82"/>catholica, per diuinam potentiam possit 
+      <lb ed="#G" n="83"/>communicari viatori infra terminos 
+      <lb ed="#G" n="84"/>viae simpliciter permanenti. Videtur 
+      <lb ed="#G" n="85"/>quod sic. 
+    </p>
+            <p xml:id="HuYgTa-d1e574-d1e141">
+               <lb ed="#G" n="86"/>Quia quicquid continetur sub obiecto adaequato
+      ali<lb ed="#G" n="87" break="no"/>cuius potentiae, in hoc potest illa potentia: sed omnia, quae 
+      <lb ed="#G" n="88"/>ponit fides, continentur sub obiecto adaequato nostri in 
+      <lb ed="#G" n="89"/>tellectus, ergo &amp;c. Maior patet ex ipsa adaequatione. Nam  
+      <lb ed="#G" n="90"/>in adaequatis, nec debet esse excedens, nec excessum.
+      Mi<lb ed="#G" n="91" break="no"/>nor apparet: Tertio enim de anima dicitur, quod intellectus 
+      <lb ed="#G" n="92"/>possibilis est omnia fieri, &amp; exprimitur ibi intelligere sui 
+      <lb ed="#G" n="93"/>per fieri: quia ut in eodem. 3. patet, intelligere est quoddam 
+      <lb ed="#G" n="94"/>pati: ergo omne id, quod est alicuius veritatis, &amp;
+      entita<lb ed="#G" n="95" break="no"/>tis, videtur comprehendi sub adaequato obiecto nostri in 
+      <lb ed="#G" n="96"/>tellectus, &amp; per consequens etiam ipsa veritas per
+      articu<lb ed="#G" n="97" break="no"/>los fidei expressa
+    </p>
+            <p xml:id="HuYgTa-d1e574-d1e171">
+               <lb ed="#G" n="98"/>Contra, quod vere facit hominem beatum, non est con 
+      <lb ed="#G" n="99"/>municabile uiatori, sed euidens cognitio trinitatis vere 
+      <lb ed="#G" n="100"/>facit hominem beatum, ergo talis cognitio non est
+      com<lb ed="#G" n="101" break="no"/>municabilis viatori. Maior nota: quia beatus non potes 
+      <lb ed="#G" n="102"/>esse viator. Minor patet: quia secundum <name xml:id="HuYgTa-d1e574-Nd1e184" ref="#Augustine">P. August.</name> res,  
+      <lb ed="#G" n="103"/>quae nos beatos faciunt, sunt pater, &amp; filius, &amp; spiritus san 
+      <lb ed="#G" n="104"/>ctus. Haec est enim vita eterna, vt cognoscant te Deum 
+      <lb ed="#G" n="105"/>verum, &amp; vnigenitum, quem misisti, lesum Christum, ut 
+      <lb ed="#G" n="106"/>dicitur <ref xml:id="HuYgTa-d1e574-Rd1e195">Io. 17</ref> 
+            </p>
+            <p xml:id="HuYgTa-d1e574-d1e199">
+               <lb ed="#G" n="107"/>
+               <pc type="indent"/>In ista questione quattuor sunt videnda. Primo id, quid 
+      <lb ed="#G" n="108"/>questio querit. Secundo, data tali perfecta notitia siue in 
+      <lb ed="#G" n="109"/>uia, siue in patria, utrum simul cum ea possit uera fides pro 
+      <lb ed="#G" n="110"/>manere. Tertio, utrum fides, &amp; opinio sint compossibilia 
+      <lb ed="#G" n="111"/>circa idem. Et quarto ad articuli primi intelligentiam, ui 
+      <lb ed="#G" n="112"/>denda sunt aliqua de nostri intellectus adaequato obiecto. 
+    </p>
+            <p xml:id="HuYgTa-d1e574-d1e217">
+               <lb ed="#G" n="113"/>RESOLVTIO 
+      <lb ed="#G" n="114"/>In hoc quidem quaesito elicitur praecipue ex intentione Doctoris, 
+      <lb ed="#G" n="115"/>quod Deus de potentia absoluta, potest communicare Viatori 
+      <lb ed="#G" n="116"/>omnem veritatem, quam Beatus intuetur in diuina
+      essentia<lb ed="#G" n="117" break="no"/>non ponendo eum extra terminos Viae, 
+    </p>
+            <p xml:id="HuYgTa-d1e574-d1e230">
+               <lb ed="#G" n="118"/>
+               <pc type="indent"/>ARTICVLVS I. 
+    </p>
+            <p xml:id="HuYgTa-d1e574-d1e237">
+               <lb ed="#G" n="119"/>
+               <pc type="indent"/>Id quod quaestio querit. 
+      <lb ed="#G" n="120"/>VANTVM ad primum, quia hic tangitur de
+      diui<lb ed="#G" n="121" break="no"/>N na potentia, quae est mira&amp; incoprehensibilis, quia 
+      <lb ed="#G" n="122"/>infinita, quam semper collaudantes, potius dilatare, quam  
+      <!--56.xml-->
+      <pb ed="#G" n="9-r"/>
+               <cb ed="#G" n="a"/>
+               <lb ed="#G" n="1"/>restrincere debemus, vbi nulla repugnantia contr adictio 
+      <lb ed="#G" n="2"/>nis implicatur; ideo teneo partem affirmatiuam.  
+    </p>
+            <p xml:id="HuYgTa-d1e574-d1e261">
+               <lb ed="#G" n="3"/>
+               <pc type="indent"/>1 Quia omne, quod videt beatus in diuina essentia, po 
+      <lb ed="#G" n="4"/>terit Deus per suam potentiam scientifice, &amp; euidenter 
+      <lb ed="#G" n="5"/>reuelare viatori, ipso permanente infra limites viatoris 
+      <lb ed="#G" n="6"/>ergo per diuinam potentiam euidens notitia
+      articulo<lb ed="#G" n="7" break="no"/>rum fidei, &amp; veritatis in ipsis contentae, viatori poterit ri 
+      <lb ed="#G" n="8"/>uelari. Consequentia est nota, quia beati aperte, &amp;
+      eui<lb ed="#G" n="9" break="no"/>denter vident in diuina essentia Veritatem in articuli 
+      <lb ed="#G" n="10"/>compre hensam. Antecedens habet duas partes.
+      Pri<lb ed="#G" n="11" break="no"/>ma, quod omnem veritatem, quam videt beatus in diuina es 
+      <lb ed="#G" n="12"/>sentia, Deus per suam potentiam possit viatori reuela 
+      <lb ed="#G" n="13"/>re. Secunda, quod ipse tamen remancat viator.
+      Pro<lb ed="#G" n="14" break="no"/>babo primo primam, secundo secundam. 
+      <lb ed="#G" n="15"/>Ratio primae est: quia sicut se habet Deus respectu
+      pri<lb ed="#G" n="16" break="no"/>mae materiae, quae est pura potentia in genere sensibiliu 
+      <lb ed="#G" n="17"/>inducendo formas sensibiles; sic se habet respectu nostr 
+      <lb ed="#G" n="18"/>intellectus, qui est pura potentia in genere intelligibi 
+      <lb ed="#G" n="19"/>lium, inducendo formas intelligibiles: sed Deus in
+      ma<lb ed="#G" n="20" break="no"/>teriam omnem formam immediate potest inducere, &amp;  
+      <lb ed="#G" n="21"/>non solum illam, ad quam est in potentia naturali, sed 
+      <lb ed="#G" n="22"/>etiam illas, ad quas est in potentia obedientiali, ergo &amp; 
+      <lb ed="#G" n="23"/>in intellectu nostro omnem formam intellig ibilem
+      po<lb ed="#G" n="24" break="no"/>terit immediate inducere, &amp; non solum illam, ad quam
+      in<lb ed="#G" n="25" break="no"/>tellectus est in potentia naturali, verumetiam illas,  
+      <lb ed="#G" n="26"/>ad quas est in potentia obedientiali. Planum est
+      au<lb ed="#G" n="27" break="no"/>tem, quod ad praedictas fidei veritates est intellectu 
+      <lb ed="#G" n="28"/>noster in potentia obedientiali, quia alias nec in uita 
+      <lb ed="#G" n="29"/>beata posset nostet intellectus huiusmodi veritates
+      con<lb ed="#G" n="30" break="no"/>templari 
+    </p>
+            <p xml:id="HuYgTa-d1e574-d1e327">
+               <lb ed="#G" n="31"/>
+               <pc type="indent"/>Secundam partem antecedentis probo sic, quia
+      tan<lb ed="#G" n="32" break="no"/>din viator manet viator, quandiu nec est damnatus, nec 
+      <lb ed="#G" n="33"/>beatus, nec ad purgatorium destinatus, sed stante
+      praedi<lb ed="#G" n="34" break="no"/>cta reuelatione, talis homo nec est necessario damnatus, 
+      <lb ed="#G" n="35"/>quia potest esse informatus caritate, &amp; sine peccato mos 
+      <lb ed="#G" n="36"/>tali: nec beatus, quia potest esse sine fruitione, cum Deus 
+      <lb ed="#G" n="37"/>per suam potentiam possit suspendere actum
+      volunta<lb ed="#G" n="38" break="no"/>tis, sine quo fruitio esse non potest, vt patebit in prima 
+      <lb ed="#G" n="39"/>distinctione, actum intellectus perfecte conseruando
+      ma<lb ed="#G" n="40" break="no"/>xime cum intellectus, tam in essendo, quam in agendo 
+      <lb ed="#G" n="41"/>sit naturaliter prior voluntate. Nec est necesse
+      hu<lb ed="#G" n="42" break="no"/>uismodi hominem poni in purgatorio, quia possibile 
+      <lb ed="#G" n="43"/>est, eum habere tantam abundantiam diuinae gratiae, quod 
+      <lb ed="#G" n="44"/>nihil in ipso vlterius est purgabile: ergo talis homo
+      ma<lb ed="#G" n="45" break="no"/>nebit viator. 
+    </p>
+            <p xml:id="HuYgTa-d1e574-d1e364">
+               <lb ed="#G" n="46"/>
+               <pc type="indent"/>2 Praeterea, si esset impossibile, viatorem per diuinam 
+      <lb ed="#G" n="47"/>potentiam euidenter cognoscere veritatem ab articulis 
+      <lb ed="#G" n="48"/>edei contentam, vel illud repugnaret ex parte Dei,
+      ve<lb ed="#G" n="49" break="no"/>ex natura nostri intellectus, vel ex indispositione
+      poten<lb ed="#G" n="50" break="no"/>tiae intellectiuae, vel ex incompossibilitate fidei viatoris 
+      <lb ed="#G" n="51"/>&amp; euidentis scientiae. Non primum, quia non est impos 
+      <lb ed="#G" n="52"/>sibile apud Deum omne verbum. Nec secundum, quia 
+      <lb ed="#G" n="53"/>si naturae intellectus talis cognitio repugnaret, tunc non 
+      <lb ed="#G" n="54"/>solum in statu praesenti, sed etiam in quocunque statu,
+      ta<lb ed="#G" n="55" break="no"/>lis cognitio sibi repugnaret, sicut repugnat talis cognitio 
+      <lb ed="#G" n="56"/>equo vel asino. Nec tertium obuiat, quia omnem
+      dis<lb ed="#G" n="57" break="no"/>positionem, cuius intellectus capax est, Deus potest in in 
+      <lb ed="#G" n="58"/>stanti inducere, etiam ipsum lumen gloriae. 
+    </p>
+            <p xml:id="HuYgTa-d1e574-d1e397">
+               <lb ed="#G" n="59"/>
+               <pc type="indent"/>Dices forte, quod tunc esset beatus, &amp; non viator. 
+      <lb ed="#G" n="60"/>Dico, quod si Deus lumen gloriae influeret intellectui 
+      <lb ed="#G" n="61"/>suspendendo tamen voluntatem penitus ab actu suo, &amp;  
+      <lb ed="#G" n="62"/>nihil illi influendo, adhuc ille maneret viator, &amp; non
+      es<lb ed="#G" n="63" break="no"/>set beatus, quia visio non beatificat, nisi concurrente
+      com<lb ed="#G" n="64" break="no"/>placentia voluntatis aliquo modo. Nec quartum obstat 
+      <lb ed="#G" n="65"/>quia sicut patebit in secundo articulo huius quaestionis,  
+      <lb ed="#G" n="66"/>udes, &amp; clara notitia simul se compatiuntur. 
+    </p>
+            <p xml:id="HuYgTa-d1e574-d1e419">
+               <lb ed="#G" n="67"/>
+               <pc type="indent"/>Ad illam etiam conclusionem probandam quidam do 
+      <lb ed="#G" n="68"/>ctor multa ponit, quae non minus videntur dubia, quam  
+      <lb ed="#G" n="69"/>ipsa conclusio, sed magis, vt apparebit in processu. Et vt 
+      <lb ed="#G" n="70"/>breuiter transeam, ex dictis eius formetur talis ratio. 
+    </p>
+            <p xml:id="HuYgTa-d1e574-d1e432">
+               <lb ed="#G" n="71"/>
+               <pc type="indent"/>Cuicunque potest dari cognitio perfecta, &amp;
+      quiddita<lb ed="#G" n="72" break="no"/>tiua subiecti sub propria eius ratione, illi manifestari pos¬ 
+      <!--56.xml-->
+      <cb ed="#G" n="b"/>
+               <lb ed="#G" n="73"/>sunt scientifice omnes veritates virtualiter contente in 
+      <lb ed="#G" n="74"/>ratione subiecti: ista patet, quia secundum Lincon.
+      pri<lb ed="#G" n="75" break="no"/>mo posteri. cognitio praedicati virtualiter continetur in 
+      <lb ed="#G" n="76"/>subiecto, &amp; per consequens perfecte cognita quidditate 
+      <lb ed="#G" n="77"/>subiecti, cognosci potest tota proposito: sed perfecta non 
+      <lb ed="#G" n="78"/>titia deitatis sub ratione propria deitatis,
+      communicabi<lb ed="#G" n="79" break="no"/>lis est viatori, ergo omnes fidei veritates possunt sibi
+      per<lb ed="#G" n="80" break="no"/>fecte manifestari, quaedam scilicet de possibili, quae a
+      li<lb ed="#G" n="81" break="no"/>bero Dei arbitrio videntur depedere, vt quod Deus
+      po<lb ed="#G" n="82" break="no"/>tuit incarnari, &amp; similia,; quaedam de facto, quae Deo con 
+      <lb ed="#G" n="83"/>ueniunt intrinsece, vt quod sit trinus &amp; vnus. Ad
+      proba<lb ed="#G" n="84" break="no"/>tionem minoris, ille doctor in suo quolibet. quaest. 8. po 
+      <lb ed="#G" n="85"/>nit hanc distinctionem, quod quaedam est cognitio
+      intel<lb ed="#G" n="86" break="no"/>lectualis abstractiua, quaedam intuitiua. Abstractiua
+      di<lb ed="#G" n="87" break="no"/>citur esse obiecti existentis, &amp; non existentis, praesentis,  
+      <lb ed="#G" n="88"/> non praesentis, sicut rosam ita perfecte quidditatiue com 
+      <lb ed="#G" n="89"/>gnosco, quando non existit, sicut quando existit, &amp; ita per 
+      <lb ed="#G" n="90"/>fecte eam cognosco absentem, sicut praesentem. Sed
+      in<lb ed="#G" n="91" break="no"/>tuitiua est rei existentis, vt existentis, &amp; praesentis, vt
+      prae<lb ed="#G" n="92" break="no"/>sentis. Abstractiua igitur, vt dicunt, non potest esse
+      bea<lb ed="#G" n="93" break="no"/>tifica, quantumlibet per eam essentia diuina perfecte, &amp; 
+      <lb ed="#G" n="94"/>uidditatiue, &amp; per propriam rationem deitatis
+      cogno<lb ed="#G" n="95" break="no"/>catur, quia alias beatitudo posset esse, obiecto beatifico 
+      <lb ed="#G" n="96"/>non existente, sicut ipso existente, quod est impossibile 
+      <lb ed="#G" n="97"/>Intuitiua autem est beatifica. ldeo abstractiua notitia 
+      <lb ed="#G" n="98"/>deitatis potest viatori communicari, &amp; non intuitiua, quia 
+      <lb ed="#G" n="99"/>naec necessario poneret ipsum extra terminos viae. 
+      <lb ed="#G" n="100"/>Quod autem essentia diuina possit cognosci abstracti. 
+      <lb ed="#G" n="101"/>ue, probant sic: quia quidquid Deus potest facere median 
+      <lb ed="#G" n="102"/>te sua essentia, hoc immediate potest sola sua voluntate 
+      <lb ed="#G" n="103"/>ed mediante sua essentia mouet intellectum cuiuslibet 
+      <lb ed="#G" n="104"/>beati ad cognitionem claram, &amp; nudam, quae est intuiti 
+      <lb ed="#G" n="105"/>ua, cum sit ad essentiam praesentialiter existentem; ergo 
+      <lb ed="#G" n="106"/>per solam suam voluntatem, sine praesentia essentiae,
+      po<lb ed="#G" n="107" break="no"/>terit intellectu humanum mouere ad sui essentiae notitia 
+      <lb ed="#G" n="108"/>claram, &amp; nudam, quae erit abstractiua, cum non
+      termine<lb ed="#G" n="109" break="no"/>tur ad praesentialem existentiam essentiae, vt praesentem 
+      <lb ed="#G" n="110"/>Minor patet: probatur maior, quia voluntas diuina est
+      cau<lb ed="#G" n="111" break="no"/>sa prima, &amp; vniuersalis respectu omnis motionis ad extra 
+      <lb ed="#G" n="112"/>essentia autem in ratione obiecti est causa quasi
+      contra<lb ed="#G" n="113" break="no"/>cta &amp; secundaria, sed quicquid Deus potest mediante cau 
+      <lb ed="#G" n="114"/>sa secunda, hoc potest per voluntatem suam, quae habet 
+      <lb ed="#G" n="115"/>rationem causae immediate primae.  
+    </p>
+            <p xml:id="HuYgTa-d1e574-d1e539">
+               <lb ed="#G" n="116"/>
+               <pc type="indent"/>lsta etiam conclusio probatur ab alijs sic 
+      <lb ed="#G" n="117"/>1 Deus potest sine voluntate nostra talem assensum cau 
+      <lb ed="#G" n="118"/>sare in nostro intellectu, respectu articulorum fidei,
+      qua<lb ed="#G" n="119" break="no"/>lem facit mediante ea, quia omne, quod potest mediante 
+      <lb ed="#G" n="120"/>causa secunda, potest &amp; sine ea: sed talis assensus cum non 
+      <lb ed="#G" n="121"/>esset ex voluntate inclinante, oporteret, quod fieret ex 
+      <lb ed="#G" n="122"/>ei euidentia, non autem intuitiua cum non sit
+      commu<lb ed="#G" n="123" break="no"/>nicabilis viatori, ergo abstractiua 
+    </p>
+            <p xml:id="HuYgTa-d1e574-d1e562">
+               <lb ed="#G" n="124"/>
+               <pc type="indent"/>2 Praeterea, in quocunque esse, &amp; essentia differunt 
+      <lb ed="#G" n="125"/>conceptibiliter; illius essentia potest cognosci abstractiur 
+      <lb ed="#G" n="126"/>sed in Deo esse &amp; essentia differunt conceptibiliter, ergo 
+      <lb ed="#G" n="127"/>&amp;c. Minor probatur: quia essentia diuina potest
+      conci<lb ed="#G" n="128" break="no"/>pi absque veritate, &amp; bonitate, &amp; alio quocunque attribu 
+      <lb ed="#G" n="129"/>to, ergo concipi potest sine esse¬ 
+    </p>
+            <p xml:id="HuYgTa-d1e574-d1e580">
+               <lb ed="#G" n="130"/>
+               <pc type="indent"/>4 Praeterca, deitas potest concipi absque praesentialita 
+      <lb ed="#G" n="131"/>te ad nos, ergo abstractiue. consequentia patet ex
+      praedi<lb ed="#G" n="132" break="no"/>ctis, probatur antecedens, quia praesentialitas illa est
+      qui<lb ed="#G" n="133" break="no"/>dam respectus rationis. modo diuina essentia potest con 
+      <lb ed="#G" n="134"/>sipi absque omni relatione rationis 
+    </p>
+            <p xml:id="HuYgTa-d1e574-d1e596">
+               <lb ed="#G" n="135"/>
+               <pc type="indent"/>s Praeterea, non minus est essentia diuina
+      cognoscibi<lb ed="#G" n="136" break="no"/>lis a nobis, quam essentia creaturaesed rosa a nobis est
+      co<lb ed="#G" n="137" break="no"/>gnoscibilis non solu intuitiue, sed etiam abstractiue, ergo &amp;c. 
+    </p>
+            <p xml:id="HuYgTa-d1e574-d1e607">
+               <lb ed="#G" n="138"/>
+               <pc type="indent"/>Preterea, prius secundum intellectum potest separa 
+      <lb ed="#G" n="139"/>ri ab omni posteriori, sed essentia diuina est prior
+      secun<lb ed="#G" n="140" break="no"/>dum intellectum ipso esse, &amp; omni attributo, ergo &amp;c 
+    </p>
+            <p xml:id="HuYgTa-d1e574-d1e618">
+               <lb ed="#G" n="141"/>
+               <pc type="indent"/>3 Preterea, in quocunque intellectu relinquitur
+      me<lb ed="#G" n="142" break="no"/>moria ex actu intuitiuo praecedente, in illo potest esse comn 
+      <lb ed="#G" n="143"/>nitio abstractiua eiusdem obiecti: sed, vt patet 2. ad Co 
+      <lb ed="#G" n="144"/>rint. 12. Paulus recordabatur, se raptum fuisse vsque ad  
+      <!--57.xml-->
+      <pb ed="#G" n="9-v"/>
+               <cb ed="#G" n="a"/>
+               <lb ed="#G" n="1"/>tertium coelum, per quod tertium coelum etiam
+      secun<lb ed="#G" n="2" break="no"/>dum <name xml:id="HuYgTa-d1e574-Nd1e641" ref="#Augustine">August.</name> intelligitur nuda deitas, ergo &amp;c 
+    </p>
+            <p xml:id="HuYgTa-d1e574-d1e645">
+               <lb ed="#G" n="3"/>
+               <pc type="indent"/>S Praeterea, eodem genere cognitions, quo aliquis 
+      <lb ed="#G" n="4"/>potest cognoscere actum, &amp; respectum ad obiectum,
+      po<lb ed="#G" n="5" break="no"/>test cognoscere, &amp; ipsum obiectum: sed actus beatificus,  
+      <lb ed="#G" n="6"/>&amp; respectus ad obiectum beatificum possunt abctracti 
+      <lb ed="#G" n="7"/>ue viatori reuelari, &amp; ab ipso cognosci, cum sint
+      crea<lb ed="#G" n="8" break="no"/>turae, ergo &amp; ipsum obiectum beatificum, quod est
+      di<lb ed="#G" n="9" break="no"/>uina essentia. 
+    </p>
+            <p xml:id="HuYgTa-d1e574-d1e666">
+               <lb ed="#G" n="10"/>
+               <pc type="indent"/>Sed illa non concludunt; igitur hoc ordine
+      proce<lb ed="#G" n="11" break="no"/>dam. Primo soluam has rationes. Secundo adducam 
+      <lb ed="#G" n="12"/>rationes in contrarium. Tertio ostendam, quomodo 
+      <lb ed="#G" n="13"/>nuiusmodi a rationes quibusdam praedictae opinionis
+      sol<lb ed="#G" n="14" break="no"/>uuntur, &amp; cassabo huiusmodi solutiones. Quarto
+      po<lb ed="#G" n="15" break="no"/>nam duas conclusiones, quae duabus praedicti doctori; 
+      <lb ed="#G" n="16"/>conclusionibus simpliciter contradicunt 
+    </p>
+            <p xml:id="HuYgTa-d1e574-d1e686">
+               <lb ed="#G" n="17"/>
+               <pc type="indent"/>Quantum ad primum est sciendum, quod quamuis 
+      <lb ed="#G" n="18"/>reputem, conclusionem praedictam esse veram cum 
+      <lb ed="#G" n="19"/>principali ratione, quam ille doctor adducit: modifi 
+      <lb ed="#G" n="20"/>cationem tamen minoris, qua dicit huiusmodi
+      cogni<lb ed="#G" n="21" break="no"/>tionem non posse fore intuitiuam, sed tantum modo
+      ab<lb ed="#G" n="22" break="no"/>stractiuam, nego. 
+    </p>
+            <p xml:id="HuYgTa-d1e574-d1e704">
+               <lb ed="#G" n="23"/>
+               <pc type="indent"/>Ad primum igitur, quo probatur cognitio
+      abstracti<lb ed="#G" n="24" break="no"/>ua diuinae essentiae, dico, quod maior est falsa, quia caden 
+      <lb ed="#G" n="25"/>ratione sequeretur, quod quicquid potest Deus median 
+      <lb ed="#G" n="26"/>te diuina potentia, posset immediate per solam volunt, 
+      <lb ed="#G" n="27"/>tem suam sine potentia; &amp; sic posset sine potentia; quod 
+      <lb ed="#G" n="28"/>est contradictio: consequentia patet, quia diuina
+      volun<lb ed="#G" n="29" break="no"/>tas non habet magis rationem prioris respectu
+      essen<lb ed="#G" n="30" break="no"/>tiae quam respectu potentiae, &amp; cuiuscunque alterius 
+      <lb ed="#G" n="31"/>attributi. 
+    </p>
+            <p xml:id="HuYgTa-d1e574-d1e728">
+               <lb ed="#G" n="32"/>
+               <pc type="indent"/>2 Item, cum diuina essentia secundum se, sit
+      quod<lb ed="#G" n="33" break="no"/>dam pelagus infinitum, vt per Damas: patet, non
+      vide<lb ed="#G" n="34" break="no"/>tur intelligibile, quod voluntas, vel aliquod attributum, 
+      <lb ed="#G" n="35"/>respectu diuinae essentiae, habeat rationem prioris; quia 
+      <lb ed="#G" n="36"/>nec voluntati, nec alicui alteri attributo competit infi 
+      <lb ed="#G" n="37"/>nita virtus, nisi inquantum idemtificatur essentiae diuina 
+      <lb ed="#G" n="38"/>quae ex se est formaliter infinita, vt patuit in prima
+      quae<lb ed="#G" n="39" break="no"/>stione. si enim alicui attributo hoc competeret
+      secun<lb ed="#G" n="40" break="no"/>dum se, tunc vbicuque inueniretur, esset infinitum, quod 
+      <lb ed="#G" n="41"/>atet esse falsum, cum inueniatur in creaturis. 
+    </p>
+            <p xml:id="HuYgTa-d1e574-d1e754">
+               <lb ed="#G" n="42"/>
+               <pc type="indent"/>3 Praeterea, contra eandem maiorem arguo sic. Si- 
+      <lb ed="#G" n="43"/>cut se habet voluntas finita ad voluntatem infinitam, sis 
+      <lb ed="#G" n="44"/>se habet essentia finita ad essentiam infinitam: ergo, con 
+      <lb ed="#G" n="45"/>mutando, sicut se habet voluntas finita ad essentiam fi- 
+      <lb ed="#G" n="46"/>nitam, sic se habet voluntas infinita ad essentiam
+      infini<lb ed="#G" n="47" break="no"/>tam, sed voluntas finita non potest sine essentia finita quod 
+      <lb ed="#G" n="48"/>potest mediante ea, ergo &amp;c. 
+    </p>
+            <p xml:id="HuYgTa-d1e574-d1e774">
+               <lb ed="#G" n="49"/>
+               <pc type="indent"/>4 Praeterea, vel hoc competeret voluntati diuine, vt 
+      <lb ed="#G" n="50"/>voluntas est, vel vt diuina est: non primo modo, quia tuc 
+      <lb ed="#G" n="51"/>competeret omni voluntati: nec secundo modo, quia vt 
+      <lb ed="#G" n="52"/>sic, voluntas est realiter idem cum essentia diuina; ergo 
+      <lb ed="#G" n="53"/>in nulla actione reali potest praescindi ab ea; ergo &amp;c. 
+    </p>
+            <p xml:id="HuYgTa-d1e574-d1e791">
+               <lb ed="#G" n="54"/>
+               <pc type="indent"/>3 Praeterea, omnem actiuitatem habet voluntas
+      ma<lb ed="#G" n="55" break="no"/>is ab essentia quam econuerso, cum essentia formaliter 
+      <lb ed="#G" n="56"/>it primus, &amp; purissimus actus. Primum autem in
+      quoli<lb ed="#G" n="57" break="no"/>pet genere est causa omnium aliorum, &amp; hoc realiter in 
+      <lb ed="#G" n="58"/>his, quae realiter differunt, vel saltem secudum rationem 
+      <lb ed="#G" n="59"/>in his; quae ratione differunt 
+    </p>
+            <p xml:id="HuYgTa-d1e574-d1e809">
+               <lb ed="#G" n="60"/>
+               <pc type="indent"/>&amp; Praeterea, eundem ordinem obseruant aliqua secun 
+      <lb ed="#G" n="61"/>dum rationem, vbi differunt ratione, quem tenent
+      reali<lb ed="#G" n="62" break="no"/>ter, vbi differunt realiter: sed voluntas nullam
+      priorita<lb ed="#G" n="63" break="no"/>em realem habet respectu essentiae, sed magis
+      econuer<lb ed="#G" n="64" break="no"/>so in his, vbi realiter differt ab essentia: ergo eodem
+      mo<lb ed="#G" n="65" break="no"/>do vbi differunt sola ratione 
+      <lb ed="#G" n="66"/>Sed forte dices, quod illa omnia concludunt de
+      essen<lb ed="#G" n="67" break="no"/>tia diuina, vt absolute sumitur, non autem vt habet ratio 
+      <lb ed="#G" n="68"/>nem obiecti, quia vt sic habet contractam rationem. 
+    </p>
+            <p xml:id="HuYgTa-d1e574-d1e833">
+               <lb ed="#G" n="69"/>
+               <pc type="indent"/>Istud non valet, quia essentia diuina, respectu
+      intelle<lb ed="#G" n="70" break="no"/>ctus diuini, verissime habet rationem obiecti, &amp; tamen 
+      <lb ed="#G" n="71"/>vt sic, non est contracta, sed absolutissime sumpta, si ergo 
+      <lb ed="#G" n="72"/>aliqua contractio, vel praecisio videtur esse in essentia
+      re<lb ed="#G" n="73" break="no"/>spectu intellectus creati, hoc non est ex eo, quod essen¬ 
+      <!--57.xml-->
+      <cb ed="#G" n="b"/>
+               <lb ed="#G" n="74"/>tia habet rationem obiecti, sed magis ratione illius, icui 
+      <lb ed="#G" n="75"/>obijcitur. 
+    </p>
+            <p xml:id="HuYgTa-d1e574-d1e857">
+               <lb ed="#G" n="76"/>
+               <pc type="indent"/>Ad secundum dicendum, quod concessa maiori, &amp; mi- 
+      <lb ed="#G" n="77"/>nori, non habes plus, quam quod Deus talem adhaesionem 
+      <lb ed="#G" n="78"/>facere potest sine nostra voluntate, qualem nunc facit 
+      <lb ed="#G" n="79"/>mediante ea: sed illa nunc non est ex clara cognitione, er 
+      <lb ed="#G" n="80"/>go nec illa tunc, cum dicis, quod esset ex rei euidentia, 
+      <lb ed="#G" n="81"/>tum non fieret per voluntatem, &amp; intellectum
+      inclinan<lb ed="#G" n="82" break="no"/>tem ad talem adhaesionem. Dico, quod non minus
+      vo<lb ed="#G" n="83" break="no"/>luntas diuina potest nostrum intellectum inclinare, quam volun 
+      <lb ed="#G" n="84"/>tas nostra, ergo talis adhaesio non fieret ex euidentia rei con 
+      <lb ed="#G" n="85"/>gnitae, sed ex inclinatione, facta per diuinam potentiam¬ 
+    </p>
+            <p xml:id="HuYgTa-d1e574-d1e883">
+               <lb ed="#G" n="86"/>
+               <pc type="indent"/>Ad tertium dicendum quod si illud conceptibiliter 
+      <lb ed="#G" n="87"/>lifferre innascitur ex differentia intrinseca ipsius rei mo 
+      <lb ed="#G" n="88"/>uentis ad tales distinctos conceptus: sicut essentia &amp; esse 
+      <lb ed="#G" n="89"/>rosae, propter intrinsecam eorum differentiam ex natura 
+      <lb ed="#G" n="90"/>sui habent, quod possunt intellectum ad distinctos conce 
+      <lb ed="#G" n="91"/>tus mouere: tunc maior est vera, si autem innascitur ex 
+      <lb ed="#G" n="92"/>lefectu concipientis, tunc impossibile est, quod
+      abstracti<lb ed="#G" n="93" break="no"/>ua, quam talis intellectus haberet de huiusmodi essentia; 
+      <lb ed="#G" n="94"/>sit perfecta notitia, sed valde diminuta. Ad minorem 
+      <lb ed="#G" n="95"/>dico, quod hoc non est ratione rei conceptae, sed ratione 
+      <lb ed="#G" n="96"/>defectus ipsius concipientis: quicunque enim perfecto 
+      <lb ed="#G" n="97"/>Deum conciperet, essentiam suam, &amp; esse, vnico conceptu 
+      <lb ed="#G" n="98"/>conciperet. 
+    </p>
+            <p xml:id="HuYgTa-d1e574-d1e916">
+               <lb ed="#G" n="99"/>
+               <pc type="indent"/>Ad quartum dicendum, quod antecedens non est
+      ve<lb ed="#G" n="100" break="no"/>rum loquendo de conceptione perfecta: quia omne quod 
+      <lb ed="#G" n="101"/>cognoscitur, oportet, quod sit psens intellectui vel in se vel 
+      <lb ed="#G" n="102"/>in sua similitudine: sed nulla creatura potest representare 
+      <lb ed="#G" n="103"/>erfecte diuinam essentiam. Si igitur perfecte cognosci 
+      <lb ed="#G" n="104"/>tur, oportet quod actualiter sit praesens: illam
+      praesen<lb ed="#G" n="105" break="no"/>tialitatem poteris vocare respectum rationis, siue quo 
+      <lb ed="#G" n="106"/>cunque modo aliter volueris; imperfecte tamen potest 
+      <lb ed="#G" n="107"/>diuina essentia cognosci in similitudine creata, modo¬ 
+    </p>
+            <p xml:id="HuYgTa-d1e574-d1e941">
+               <lb ed="#G" n="108"/>
+               <pc type="indent"/>uo dicit Apostolus. Inuisibilia Dei per ea, quae facta 
+      <lb ed="#G" n="109"/>iunt, a creatura mundi intellecta conspiciuuntur,
+      sempi<lb ed="#G" n="110" break="no"/>terna quoque virtus eius &amp; deitas. 
+    </p>
+            <p xml:id="HuYgTa-d1e574-d1e952">
+               <lb ed="#G" n="111"/>
+               <pc type="indent"/>Ad quintum dicendum, quod maior non est vera, quia 
+      <lb ed="#G" n="112"/>t dicitur 2. metaph sicut se habet oculus noctuae ad
+      lu<lb ed="#G" n="113" break="no"/>cem solis, sic se habet animae nostrae intellectus ad ea, que 
+      <lb ed="#G" n="114"/>unt manifestissima in natura, &amp; ideo, nisi Deus seipsum 
+      <lb ed="#G" n="115"/>ntuitiue ostendat, imperfectius cognoscitur a nobis, quam 
+      <lb ed="#G" n="116"/>rosa: quia rosa, quantum ad cognitionem abstractiuam, 
+      <lb ed="#G" n="117"/>potest habere repraesentatiuum, quod essentia diuina 
+      <lb ed="#G" n="118"/>non potest aliquo modo, propter sui infinitam, &amp;
+      illimi<lb ed="#G" n="119" break="no"/>tatam perfectionem. 
+    </p>
+            <p xml:id="HuYgTa-d1e574-d1e976">
+               <lb ed="#G" n="120"/>
+               <pc type="indent"/>Ad sextum dicendum, quod illud est contra te: quia tua ra 
+      <lb ed="#G" n="121"/>tio assumpsit, quod essentia diuina, vt habet rationem
+      ob<lb ed="#G" n="122" break="no"/>iecti, est posterior voluntate, hoc autem dicis, vel saltem 
+      <lb ed="#G" n="123"/>ui dicunt, quod est prius omni attributo, cum ergo
+      vo<lb ed="#G" n="124" break="no"/>luntas sit attributum, ergo videtur, quod in istis dictis sit 
+      <lb ed="#G" n="125"/>contradictio. Hoc tamen dimisso, dico, quod talis prio 
+      <lb ed="#G" n="126"/>itas est apud intellectum deficientem, non autem apud 
+      <lb ed="#G" n="127"/>ntellectum, deum perfecte cognoscentem. 
+    </p>
+            <p xml:id="HuYgTa-d1e574-d1e998">
+               <lb ed="#G" n="128"/>
+               <pc type="indent"/>Ad septimum dicendum, quod in Paulo remansit
+      im<lb ed="#G" n="129" break="no"/>erfecta cognitio, vt euidenter patet per <name xml:id="HuYgTa-d1e574-Nd1e1006" ref="#Augustine">August.</name> super 
+      <lb ed="#G" n="130"/>illo verbo. <ref xml:id="HuYgTa-d1e574-Rd1e1012">1. ad Cor. 15.</ref> 
+               <quote xml:id="HuYgTa-d1e574-Qd1e1015">Nunc cognosco ex parte, tuns 
+      <lb ed="#G" n="131"/>utem facie ad faciem</quote>, vbi ait <name xml:id="HuYgTa-d1e574-Nd1e1020" ref="#Augustine">August.</name> Non solum
+      alij<lb ed="#G" n="132" break="no"/>sed ctiam Paulus obscure cognouit. Hoc autem verbum 
+      <lb ed="#G" n="133"/>dixit Paulus ante raptum: quia etiam secundum te, ipse 
+      <lb ed="#G" n="134"/>raptus fuit in sua conuersione. 
+    </p>
+            <p xml:id="HuYgTa-d1e574-d1e1030">
+               <lb ed="#G" n="135"/>
+               <pc type="indent"/>Ad octauum dicendum, quod maior non est vera: quia 
+      <lb ed="#G" n="136"/>cum actus, &amp; respectus sint quid creatum, &amp; finitum, ipsis 
+      <lb ed="#G" n="137"/>non repugnat abstractiue in aliqua similitudine creata por 
+      <lb ed="#G" n="138"/>fecte representari: essentiae autem diuinae hoc repugnat, cum 
+      <lb ed="#G" n="139"/>it infinita, nec etiam perfecta notitia effectus ducit in co 
+      <lb ed="#G" n="140"/>nitionem quidditatiuam ipsius causae, nisi talis effectus sit 
+      <lb ed="#G" n="141"/>adaequatus ipsi causae. Omnes igitur illae rationes vel
+      ni<lb ed="#G" n="142" break="no"/>hil concludunt de cognitione abstractiua diuinae essentiae. 
+      <lb ed="#G" n="143"/>vel tantummodo ostendunt, quod imperfecte potest
+      co<lb ed="#G" n="144" break="no"/>gnosci ex aliquibus similitudinibus, repertis in creaturis. 
+    </p>
+            <p xml:id="HuYgTa-d1e574-d1e1056">
+               <lb ed="#G" n="145"/>
+               <pc type="indent"/>His igitur expeditis, quantum ad secundum promissum, ad 
+      <lb ed="#G" n="146"/>ducam aliquas rationes contra istam abstractiuam, quam ipsi 
+      <!--58.xml-->
+      <pb ed="#G" n="10-r"/>
+               <cb ed="#G" n="a"/>
+               <lb ed="#G" n="1"/>appellant perfectam essentiae diuinae notitiam. Primo 
+      <lb ed="#G" n="2"/>quidem arguit contra maiorem rationis suae sic. 
+    </p>
+            <p xml:id="HuYgTa-d1e574-d1e1077">
+               <lb ed="#G" n="3"/>
+               <pc type="indent"/>Si voluntas diuina potest immediate quicquid Deus 
+      <lb ed="#G" n="4"/>facit in nobis mediante diuina essentia, tunc, cum Deus 
+      <lb ed="#G" n="5"/>intuitiuam cognitionem causet in nobis mediante essen 
+      <lb ed="#G" n="6"/>tia, voluntas diuina sine essentia potest huiusmodi in tui 
+      <lb ed="#G" n="7"/>tiuam causare: &amp; sic esset intuitiua, &amp; non esset intuitiua: 
+      <lb ed="#G" n="8"/>quia secundum te, intuitiua terminatur ad essentiam, vi 
+      <lb ed="#G" n="9"/>existens, &amp; praesens est 
+    </p>
+            <p xml:id="HuYgTa-d1e574-d1e1097">
+               <lb ed="#G" n="10"/>
+               <pc type="indent"/>2 Praeterea aut ista abstractiua est magis perfecta, quam 
+      <lb ed="#G" n="11"/>Intuitiua aut aeque perfecta, aut minus perfecta: non
+      pri<lb ed="#G" n="12" break="no"/>mis duobus modis, quia tunc, sicut intuitiua est beatifica, 
+      <lb ed="#G" n="13"/>sic &amp; illa esset, quod tu negas: nec tertio modo, quia, cum 
+      <lb ed="#G" n="14"/>Deus creaturas, antequam fiant, cognoscat cognitione 
+      <lb ed="#G" n="15"/>abstractiua, &amp; postquam creatae sunt, cognoscat eas
+      intui<lb ed="#G" n="16" break="no"/>tiue, tunc cognitio diuina esset de imperfecto ad
+      perfe<lb ed="#G" n="17" break="no"/>ctum, &amp; ex progressu rerum in esse cognitio Dei
+      profice<lb ed="#G" n="18" break="no"/>ret, quod est impossibile 
+    </p>
+            <p xml:id="HuYgTa-d1e574-d1e1121">
+               <lb ed="#G" n="19"/>
+               <pc type="indent"/>3 Praeterea, quando duae notitiae sunt de eodem obie 
+      <lb ed="#G" n="20"/>cto, &amp; sub eadem ratione ambae nudae, &amp; perfectae, si vna 
+      <lb ed="#G" n="21"/>est beatifica, &amp; altera: sed secundum te, abstractiua, &amp;
+      in<lb ed="#G" n="22" break="no"/>tuitiua sunt huiusmodi, ergo &amp;c. 
+    </p>
+            <p xml:id="HuYgTa-d1e574-d1e1134">
+               <lb ed="#G" n="23"/>
+               <pc type="indent"/>4 Praeterea, sola relatio rationis, addita alicui notitiae,  
+      <lb ed="#G" n="24"/>non potest eam facere beatificam: nisi ipsa de se sit
+      beati<lb ed="#G" n="25" break="no"/>fica: sed praesentialitas obiecti (quam praesentialitatem 
+      <lb ed="#G" n="26"/>tu, &amp; tui dicunt esse relationem rationis) addita notitiae 
+      <lb ed="#G" n="27"/>abstractiuae facit notitiam intuitiuam: ergo si
+      abstractiu<lb ed="#G" n="28" break="no"/>non esset beatifica, nec intuitiua esset beatifica. 
+    </p>
+            <p xml:id="HuYgTa-d1e574-d1e1152">
+               <lb ed="#G" n="29"/>
+               <pc type="indent"/>3 Praeterea, illud non potest concipi abstractiue, in 
+      <lb ed="#G" n="30"/>euius conceptu quidditatiuo clauditur esse, sed essentia 
+      <lb ed="#G" n="31"/>diuina est huiusmodi, ergo &amp;c. Maior patet, quia
+      secun<lb ed="#G" n="32" break="no"/>dum te cognitio abstractiua abstrahit ab esse, &amp; non
+      es<lb ed="#G" n="33" break="no"/>se minot est nota, quia Deus est summe necesse esse, &amp;  
+      <lb ed="#G" n="34"/>non potest concipi non esse. 
+    </p>
+            <p xml:id="HuYgTa-d1e574-d1e1170">
+               <lb ed="#G" n="35"/>
+               <pc type="indent"/>e Praeterea, omnis cognitio abstractiua praesupponit 
+      <lb ed="#G" n="36"/>cognitionem intuitiuam, sed secundum te essentia
+      diui<lb ed="#G" n="37" break="no"/>na non potest a viatore cognosci intuitiue, ergo nec abstra 
+      <lb ed="#G" n="38"/>ctiue. Minor patet inductiue, quia Deus prius secundum 
+      <lb ed="#G" n="39"/>rationem cognoscit essentiam suam intuitiue, quam res 
+      <lb ed="#G" n="40"/>fendas abstractiue. In angelis quia angelus prius
+      cogno<lb ed="#G" n="41" break="no"/>scit essentiam propriam intuitiue, quam alia a se
+      abstra<lb ed="#G" n="42" break="no"/>tiue. In hominibus, quia omnem hominis
+      cognitio<lb ed="#G" n="43" break="no"/>nem abstractam praecedit sensitiua intuitiua. Et in bestiis 
+      <lb ed="#G" n="44"/>maginatiuam abstractiuam praecedit sensitiua intuitiua. 
+    </p>
+            <p xml:id="HuYgTa-d1e574-d1e1197">
+               <lb ed="#G" n="45"/>
+               <pc type="indent"/>Preterea, quidquid viator cognoscit abstractiue, hoc 
+      <lb ed="#G" n="46"/>abstrahit a phantasmate: sed essentiae diuinae nullum
+      po<lb ed="#G" n="47" break="no"/>test esse phantasma, ergo &amp;c. 
+    </p>
+            <p xml:id="HuYgTa-d1e574-d1e1208">
+               <lb ed="#G" n="48"/>
+               <pc type="indent"/>lsti respondet quidam doctor. Ad primum dicit, quod 
+      <lb ed="#G" n="49"/>notanter dicitur in ratione illa, quicquid potest diuina 
+      <lb ed="#G" n="50"/>roluntas mediante essentia diuina &amp;c. &amp; non dicitur om 
+      <lb ed="#G" n="51"/>ne ad aliquid, quia intuitiua includit necessario respecti 
+      <lb ed="#G" n="52"/>ad actualitatem obiecti, &amp; quia Deus non potest illum re 
+      <lb ed="#G" n="53"/>spectum facere sine praesentialitate tormini: ideo Deus 
+      <lb ed="#G" n="54"/>non potest facere intuitiuam, nisi mediante essentia, sicut  
+      <lb ed="#G" n="55"/>non potest facere filium sine patre: abstractiuam autem 
+      <lb ed="#G" n="56"/>potest. quia non includit respectum ad essentiam, &amp; eius 
+      <lb ed="#G" n="57"/>actualitatem. 
+    </p>
+            <p xml:id="HuYgTa-d1e574-d1e1234">
+               <lb ed="#G" n="58"/>
+               <pc type="indent"/>Sed illud non valet, nam omnis cognitio refertur ad 
+      <lb ed="#G" n="59"/>obiectum, vt mensuratum ad mensuram: &amp; ideo realem  
+      <lb ed="#G" n="60"/>includit respectum ab obiectum: quia vt patet 5.
+      metaph<lb ed="#G" n="61" break="no"/>quamuis mensura referatur secundum rationem ad
+      men<lb ed="#G" n="62" break="no"/>suratum, econuerso tamen, ipsum mensuratum realiter 
+      <lb ed="#G" n="63"/>refertur ad mensuram, &amp; ideo nec abstractiua, nec
+      intui<lb ed="#G" n="64" break="no"/>tiua potest absolui ab huinsmodi respectu, maxime si
+      nu<lb ed="#G" n="65" break="no"/>de &amp; perfecte cognoscitur essentia: sicut tu ponis. Etiam 
+      <lb ed="#G" n="66"/>dicta tua destruunt hanc solutionem: quia tu inferius in 
+      <lb ed="#G" n="67"/>eadem quaestione probas, quod intuitiua cognitio potest 
+      <lb ed="#G" n="68"/>absolui a respectu predicto, &amp; est illa ratio tua. Res
+      de<lb ed="#G" n="69" break="no"/>pendens realiter, &amp; res, quae non dependet realiter, non 
+      <lb ed="#G" n="70"/>sunt eadem res: sed intuitiua notitia, secundum suam
+      en<lb ed="#G" n="71" break="no"/>titatem absolutam, est independens formaliter ab omni 
+      <lb ed="#G" n="72"/>alio extra se, licet effectiue dependeat a Deo &amp; ab
+      obie<lb ed="#G" n="73" break="no"/>cto, sed respectus, fundatus in ea ad obiectum intuitum, 
+      <!--58.xml-->
+      <cb ed="#G" n="b"/>
+               <lb ed="#G" n="74"/>est res dependens realiter : ergo differunt realiter, &amp;
+      po<lb ed="#G" n="75" break="no"/>terunt per diuinam potentiam ad inuicem separari. Ista 
+      <lb ed="#G" n="76"/>sunt verba tua, quae tollunt penitus praedictam solutionem 
+    </p>
+            <p xml:id="HuYgTa-d1e574-d1e1284">
+               <lb ed="#G" n="77"/>
+               <pc type="indent"/>Ad secundum dicit ille doctor, quod est ignobilior in 
+      <lb ed="#G" n="78"/>tuitiua. Ad probationem dicit, quod Deus ab aeterno habuit 
+      <lb ed="#G" n="79"/>cognitionem intuitiuam de rebus ipsis non existentibus, 
+    </p>
+            <p xml:id="HuYgTa-d1e574-d1e1295">
+               <lb ed="#G" n="80"/>
+               <pc type="indent"/>Sed ista solutio est contra doctorem, pro quo tu
+      res<lb ed="#G" n="81" break="no"/>pondes, quia ipse ponit, &amp; in hoc benc dicit, quod
+      intui<lb ed="#G" n="82" break="no"/>tiua est rei praesentis vt praesentis, &amp; existentis, vt
+      existen<lb ed="#G" n="83" break="no"/>is, sed existentia creaturarum non fuit ab aeterno. 
+    </p>
+            <p xml:id="HuYgTa-d1e574-d1e1308">
+               <lb ed="#G" n="84"/>
+               <pc type="indent"/>Ad tertium dicit, quod licet illae duae notitiae sint de 
+      <lb ed="#G" n="85"/>eodem, non tamen transeunt vniformiter super ipsum: &amp; 
+      <lb ed="#G" n="86"/>ideo non oportet, si vna est beatifica, quod altera sit beatific. 
+      <lb ed="#G" n="87"/>Sed illud nihil te iuuat, cum opinio, pro qua
+      respon<lb ed="#G" n="88" break="no"/>des, ponit, quod per ambas notitias perfecte, &amp; aperte
+      co<lb ed="#G" n="89" break="no"/>gnoscatur obiectum, ergo si obiectum vnam facit
+      beatifi<lb ed="#G" n="90" break="no"/>cam, &amp; aliam. Ad idem, tu nihil respondes, cum
+      im<lb ed="#G" n="91" break="no"/>plicetur in argumento. 
+    </p>
+            <p xml:id="HuYgTa-d1e574-d1e1331">
+               <lb ed="#G" n="92"/>
+               <pc type="indent"/>Ad quartum dicit, quod relatio praesentialitatis non beati 
+      <lb ed="#G" n="93"/>ficat intuentem, sed ipsa diuina essentia nobilissimo
+      mo<lb ed="#G" n="94" break="no"/>do cognoscendi comprehensa¬ 
+    </p>
+            <p xml:id="HuYgTa-d1e574-d1e1342">
+               <lb ed="#G" n="95"/>
+               <pc type="indent"/>Sed nec illud valet, quia sicut relatio non beatificat, sic 
+      <lb ed="#G" n="96"/>nec modus, sed ipsa diuina essentia: &amp; ideo eodem modo 
+      <lb ed="#G" n="97"/>arguetur de modo, sicut de relatione. 
+    </p>
+            <p xml:id="HuYgTa-d1e574-d1e1353">
+               <lb ed="#G" n="98"/>
+               <pc type="indent"/>Ad quintum dicit dupliciter. Primo aat, quod essentia 
+      <lb ed="#G" n="99"/>ei, &amp; suum esse differunt conceptibiliter. Sed illud 
+      <lb ed="#G" n="100"/>reprobaui superius. 
+    </p>
+            <p xml:id="HuYgTa-d1e574-d1e1364">
+               <lb ed="#G" n="101"/>
+               <pc type="indent"/>2 Praeterea, concipiendo essentiam diuinam, vel
+      con<lb ed="#G" n="102" break="no"/>cibis eam, vt ens omnino necesse esse, vel ens possibile 
+      <lb ed="#G" n="103"/>esse: si, primo modo, tunc esse erit de intrinseco conceptu 
+      <lb ed="#G" n="104"/>ssentiae, &amp; per consequens non differunt conceptibiliter 
+      <lb ed="#G" n="105"/>i autem secundo modo, tunc conceptus tuus omnino 
+      <lb ed="#G" n="106"/>est falsus : &amp; contradicit philosophiae, &amp; theologiae.
+      Se<lb ed="#G" n="107" break="no"/>cundo dicit, quod esse, &amp; actualitas dei potest cognosci 
+      <lb ed="#G" n="108"/>quasi imaginarie, &amp; abstractiue¬ 
+    </p>
+            <p xml:id="HuYgTa-d1e574-d1e1386">
+               <lb ed="#G" n="109"/>
+               <pc type="indent"/>Sed nec illud valet: quia sicut quaecunque essentia
+      ad<lb ed="#G" n="110" break="no"/>iuncto sibi esse, existit, siue est existens, sic essentia
+      cogni<lb ed="#G" n="111" break="no"/>ta cum suo esse cognoscitur vt existens, sed (vt superius 
+      <lb ed="#G" n="112"/>st dictum) intuitiua est existentis vt existens est, ergo
+      ta<lb ed="#G" n="113" break="no"/>lis cognitio, quam ponis, abstractiua erit intuitiua. 
+    </p>
+            <p xml:id="HuYgTa-d1e574-d1e1402">
+               <lb ed="#G" n="114"/>
+               <pc type="indent"/>Ad sextum dicit, quod illa abstractiua non acquiritui 
+      <lb ed="#G" n="115"/>mediante intuitiua, sed a Deo in intellectu creatur 
+    </p>
+            <p xml:id="HuYgTa-d1e574-d1e1412">
+               <lb ed="#G" n="116"/>
+               <pc type="indent"/>Sedlicet rationem illam modicum ponderem, solutio 
+      <lb ed="#G" n="117"/>tamen potest calumniari: quia dato, quod Deus creet hu 
+      <lb ed="#G" n="118"/>iusmodi notitiam, oportet tamen, quod ipsa terminetur 
+      <lb ed="#G" n="119"/>ad obiectum, a quo etiam specificatur, vel ergo termina 
+      <lb ed="#G" n="120"/>bitur ad essentiam diuinam mediante aliquo creato, &amp; 
+      <lb ed="#G" n="121"/>tunc imperfecte cognoscetur essentia, quia illud medium 
+      <lb ed="#G" n="122"/>non continet virtualiter, &amp; perfecte essentiam diuinam,  
+      <lb ed="#G" n="123"/>vel immediate, &amp; tunc erit cognitio intuitiua, ponendo 
+      <lb ed="#G" n="124"/>gitur abstractiuam necessario ponis intuitiuam. 
+    </p>
+            <p xml:id="HuYgTa-d1e574-d1e1436">
+               <lb ed="#G" n="125"/>
+               <pc type="indent"/>Ad septimum dicit ficut ad 8. &amp; ideo eodem modo 
+      <lb ed="#G" n="126"/>potest reprobari. 
+    </p>
+            <p xml:id="HuYgTa-d1e574-d1e1445">
+               <lb ed="#G" n="127"/>
+               <pc type="indent"/>Quantum ad quartum, ponam duas conclusiones, quas 
+      <lb ed="#G" n="128"/>romisi. Prima est, quod perfecta notitia intuitiua essen 
+      <lb ed="#G" n="129"/>tiae diuinae per potentiam Dei communicabilis est
+      viato<lb ed="#G" n="130" break="no"/>ri. Secunda, quod perfecta cognitio abstractiua essentiae 
+      <lb ed="#G" n="131"/>diuinae nec viatori, nec cuicunque alteri potest
+      commu<lb ed="#G" n="132" break="no"/>nicari. Pro prima conclusione sunt directe illae duae
+      ra<lb ed="#G" n="133" break="no"/>iones, quas in principio istius questionis pro primario at 
+      <lb ed="#G" n="134"/>ticulo satis euidenter deduxi. 
+    </p>
+            <p xml:id="HuYgTa-d1e574-d1e1467">
+               <lb ed="#G" n="135"/>
+               <pc type="indent"/>Praeterea, ad idem arguo sic. De absoluta Dei
+      poten<lb ed="#G" n="136" break="no"/>tia damnatus manens damnatus, potest intuitiue
+      vide<lb ed="#G" n="137" break="no"/>e essentiam Dei, ergo per eandem potentiam viator 
+      <lb ed="#G" n="138"/>manens viator, intuitiue poterit eam videre,
+      consequen<lb ed="#G" n="139" break="no"/>ia tenet per locum a minori affirmatiue; probo
+      antece<lb ed="#G" n="140" break="no"/>dens pro vtraque sua parte. Et primo quod damnatus 
+      <lb ed="#G" n="141"/>de potentia Dei possit videre essentiam Dei, quia natura 
+      <lb ed="#G" n="142"/>ia, etiam ipsius luciferi, ceterorumque complicum
+      suo<lb ed="#G" n="143" break="no"/>tum, integra remanserunt, vt patet per <name xml:id="HuYgTa-d1e574-Nd1e1490" ref="#Augustine">Aug.</name> &amp; alios
+      san<lb ed="#G" n="144" break="no"/>ctos doctores. Cum ergo Deus sit intime praesens cuilibet 
+      <lb ed="#G" n="145"/>creaturae, potest se tali intellectui, puta lucifero, vel alteri 
+      <lb ed="#G" n="146"/>damnato angelo, per modum obiecti intuitiue reuelare 
+      <!--59.xml-->
+      <pb ed="#G" n="10-v"/>
+               <cb ed="#G" n="a"/>
+               <lb ed="#G" n="1"/>Praeterea, sicut Deus, sine prquia dispositione in
+      instam<lb ed="#G" n="2" break="no"/>ti quancumque formam potest inducere in sensibilem ma 
+      <lb ed="#G" n="3"/>teriam, eo quod sit agens primum,; &amp; per consequens in 
+      <lb ed="#G" n="4"/>agendo nihil praesupponat, &amp; agat sine motu &amp;
+      transmu<lb ed="#G" n="5" break="no"/>tatione, fic intellectui tali, quantumlibet disposito, pe 
+      <lb ed="#G" n="6"/>suam potentiam huiusmodi dispositiones supplendo, vel 
+      <lb ed="#G" n="7"/>non requirendo, Deus potest inducere sui notitiam in 
+      <lb ed="#G" n="8"/>tuitiuam: quantumlibet enim infirmus sit oculus non 
+      <lb ed="#G" n="9"/>ctuae: posset tamen Deus per suam potentiam facere, quo 
+      <lb ed="#G" n="10"/>clarius solem videret, quam quaecumque aquila. Sed quod 
+      <lb ed="#G" n="11"/>talis non sit necessario beatus, sed possit manere damna 
+      <lb ed="#G" n="12"/>tus, probo, quia sine caritate nullus potest esse beatus 
+      <lb ed="#G" n="13"/>sed ille relinqui poterit sine caritate, quia caritas non esi 
+      <lb ed="#G" n="14"/>virtus acquisita, vel acquisibilis a nobis, sed a solo Deo 
+      <lb ed="#G" n="15"/>creata, vel creabilis; &amp; Deus non necessitatur ad
+      crean<lb ed="#G" n="16" break="no"/>dum caritatem in voluntate ex hoc, quod praedicto mo 
+      <lb ed="#G" n="17"/>do operatur circa intellectum, ergo talis angelus potes 
+      <lb ed="#G" n="18"/>manere damnatus 
+    </p>
+            <p xml:id="HuYgTa-d1e574-d1e1546">
+               <lb ed="#G" n="19"/>
+               <pc type="indent"/>Dices forte, quod non sit bona consequentia, non est 
+      <lb ed="#G" n="20"/>beatus, ergo manet damnatus: quia potest manere
+      via<lb ed="#G" n="21" break="no"/>tor, &amp; sic mediat inter damnatum, &amp; beatum. 
+    </p>
+            <p xml:id="HuYgTa-d1e574-d1e1557">
+               <lb ed="#G" n="22"/>
+               <pc type="indent"/>Respondeo, quod sicut Deus non necessitabatur ad 
+      <lb ed="#G" n="23"/>dandum illi caritatem, sic non necessitatur ad dandum 
+      <lb ed="#G" n="24"/>illi spatium paenitentiae, &amp; sic necessario sequitur, si non  
+      <lb ed="#G" n="25"/>est beatus, quod maneat damnatus. Et idem modus
+      arguen<lb ed="#G" n="26" break="no"/>di potest deduci de viatore peccatore: ergo multo
+      magi<lb ed="#G" n="27" break="no"/>Deus potest hoc in intellectu iusti viatoris 
+    </p>
+            <p xml:id="HuYgTa-d1e574-d1e1576">
+               <lb ed="#G" n="28"/>
+               <pc type="indent"/>Praeterea, non apparet, quare magis negare debeamu 
+      <lb ed="#G" n="29"/>Deum per sui potentiam huiusmodi mirabilia posse
+      fa<lb ed="#G" n="30" break="no"/>cere in natura spirituali, quam in natura corporali, cum 
+      <lb ed="#G" n="31"/>intellectiua anima, quae est perfecta gratia, &amp; caritate, 
+      <lb ed="#G" n="32"/>maiorem inclinationem habe at ad intuitiuam visionem 
+      <lb ed="#G" n="33"/>Dei, quam ista corporalia ad ea, quae per diuina miracul 
+      <lb ed="#G" n="34"/>saepius in eis facta leguntur. Quae enim conformitas con 
+      <lb ed="#G" n="35"/>poris humani ad statuam salis: in quam tamen conuer 
+      <lb ed="#G" n="36"/>sum est per diuinam potentiam, vt patet &amp;en. 18. Ve 
+      <lb ed="#G" n="37"/>pulueris per terram, &amp; mare dispersi ad verum corpus 
+      <lb ed="#G" n="38"/>humanum integrandum, sicut fiet per diuinam potentiam 
+      <lb ed="#G" n="39"/>in resurrectione mortuorum: &amp; sic de aliis multis mira 
+      <lb ed="#G" n="40"/>bilibus Dei miraculis, in quibus ad propositum semper 
+      <lb ed="#G" n="41"/>potest argui, &amp; vel per locum a simili, vel per locum a 
+      <lb ed="#G" n="42"/>minori affirmatiue¬ 
+    </p>
+            <p xml:id="HuYgTa-d1e574-d1e1613">
+               <lb ed="#G" n="43"/>
+               <pc type="indent"/>Praeterea, dominus lesus Christus fuit verus viator,  
+      <lb ed="#G" n="44"/>tamen numquam destitit inituitiue videre diuinam 
+      <lb ed="#G" n="45"/>essentiam. 
+    </p>
+            <p xml:id="HuYgTa-d1e574-d1e1624">
+               <lb ed="#G" n="46"/>
+               <pc type="indent"/>Hic dices forte, quod ipse etiam fuerit vere beatus. 
+      <lb ed="#G" n="47"/>Dico, quod fuit beatus quandocumque voluit,
+      quam<lb ed="#G" n="48" break="no"/>uis non semper beatus fuerit, quia si in beatifica
+      fruitio<lb ed="#G" n="49" break="no"/>ne continue permansisset, nullum dolorem sensisset. Cum 
+      <lb ed="#G" n="50"/>enim modica stilla spiritualis iucunditatis, &amp; refrigeri 
+      <lb ed="#G" n="51"/>fecerit martvres quandoque in acerbissimis, &amp; exquisiti 
+      <lb ed="#G" n="52"/>cormentis passiones quasi pro nihilo ducere, teste Lau 
+      <lb ed="#G" n="53"/>rentio, qui positus super craticulam dixit ad tvrannum 
+      <lb ed="#G" n="54"/>Carbones tui mihi refrigerium praestant, tibi autem
+      ae<lb ed="#G" n="55" break="no"/>ternum supplicium. Si igitur Christus viator existens 
+      <lb ed="#G" n="56"/>semper beatus fuisset, videtur, quod quasi nihil passu 
+      <lb ed="#G" n="57"/>fuisset. Hoc tamen ad praesens solum dico disputatiuc 
+      <lb ed="#G" n="58"/>quia in tertio libro distinctione 15. forte oppositum 
+      <lb ed="#G" n="59"/>istius tenebo. 
+    </p>
+            <p xml:id="HuYgTa-d1e574-d1e1659">
+               <lb ed="#G" n="60"/>
+               <pc type="indent"/>Praeterea, pro iam dicta conclusione videtur esse ma 
+      <lb ed="#G" n="61"/>nifeste auctoritas sanctorum. Beatus enim <name xml:id="HuYgTa-d1e574-Nd1e1667" ref="#Ambrose">Ambros</name>:
+      su<lb ed="#G" n="62" break="no"/>per illud verbum Luc. 1. Angelus domini apparuit Sa 
+      <lb ed="#G" n="63"/>tharie, sic ait. Non immerito angelus domini apparuit 
+      <lb ed="#G" n="64"/>sacerdoti, quia veri sacerdotis nunciabatur aduentus, in 
+      <lb ed="#G" n="65"/>euius voluntate fuit videri, cuius naturae est non
+      vide<lb ed="#G" n="66" break="no"/>ri. videtur enim, si vult, non videtur, si non vult. Vnde 
+      <lb ed="#G" n="67"/>&amp; <name xml:id="HuYgTa-d1e574-Nd1e1683" ref="#Augustine">beatus Aug.</name> in lib de videndo Deum, illud iam dictu 
+      <lb ed="#G" n="68"/>
+               <name xml:id="HuYgTa-d1e574-Nd1e1689" ref="#Ambrose">Ambrosij</name> commendans sic ait, Cum Deus absens
+      puta<lb ed="#G" n="69" break="no"/>tur, videtur, si vult: &amp; cum praesens est, non videtur, si 
+      <lb ed="#G" n="70"/>non vult, quia non est in potestate nostra videre, sed in 
+      <lb ed="#G" n="71"/>sua voluntate est apparere. Et subdit <name xml:id="HuYgTa-d1e574-Nd1e1698" ref="#Augustine">August.</name> Si queris 
+      <lb ed="#G" n="72"/>quomodo Deus dictus est inuisibilis, si potest videri.
+      He<lb ed="#G" n="73" break="no"/>spodendum estinuisibilem esse natura, videri autem, cum 
+      <!--59.xml-->
+      <cb ed="#G" n="b"/>
+               <lb ed="#G" n="74"/>vult, &amp; sicut vult. Ex quibus verbis euidenter apparet 
+      <lb ed="#G" n="75"/>
+               <name xml:id="HuYgTa-d1e574-Nd1e1715" ref="#Augustine">Augustinum</name> illud sentire, quod superius dixi, alias non  
+      <lb ed="#G" n="76"/>diceret, quod videtur, cum vult, &amp; sicut vult 
+    </p>
+            <p xml:id="HuYgTa-d1e574-d1e1721">
+               <lb ed="#G" n="77"/>
+               <pc type="indent"/>Praeterea, non minus dependet accidens a substantia in 
+      <lb ed="#G" n="78"/>essendo, &amp; operando, quam intellectus a voluntate, sed 
+      <lb ed="#G" n="79"/>per potentiam Dei accidens &amp; in essendo, &amp; in operando 
+      <lb ed="#G" n="80"/>separatur a substantia, ergo poterit intellectus habere o¬- 
+      <lb ed="#G" n="81"/>perationem perfectam sine operatione voluntatis, &amp; per 
+      <lb ed="#G" n="82"/>consequens sine beatitudine. Maior patet: quia plus
+      de<lb ed="#G" n="83" break="no"/>pendet posterius a priori, quam prius a posteriori: sec 
+      <lb ed="#G" n="84"/>intellectus in sua operatione est naturaliter prior
+      vo<lb ed="#G" n="85" break="no"/>luntate, cum bonum cognitum sit nostrae voluntatis 
+      <lb ed="#G" n="86"/>obiectum, sed accidens est posterius substantia, vt
+      ua<lb ed="#G" n="87" break="no"/>tet 7. physicorum. Minor patet in sacramento altaris: 
+      <lb ed="#G" n="88"/>vbi accidentia sunt sine subiecto, &amp; tamen omnem
+      ope<lb ed="#G" n="89" break="no"/>rationem exercent, quam habuerunt in subiecto;
+      quan<lb ed="#G" n="90" break="no"/>titas enim locum occupat, albedo disgregat, &amp; sic de alius 
+      <lb ed="#G" n="91"/>accidentibus 
+    </p>
+            <p xml:id="HuYgTa-d1e574-d1e1758">
+               <lb ed="#G" n="92"/>
+               <pc type="indent"/>Sed his dictis videtur repugnare sententia
+      venerabi<lb ed="#G" n="93" break="no"/>lis nostri doctoris, qui expresse tenet, quod impossibile 
+      <lb ed="#G" n="94"/>sit essentiam diuinam ab intellectu aperte videri; &amp; 
+      <lb ed="#G" n="95"/>voluntatem non diligere: in actu enim intellectus, vt ipse 
+      <lb ed="#G" n="96"/>ait, necessario requiritur intentio voluntatis propter tria¬ 
+    </p>
+            <p xml:id="HuYgTa-d1e574-d1e1775">
+               <lb ed="#G" n="97"/>
+               <pc type="indent"/>Primo, quia si non adesset intentio voluntatis,
+      intel<lb ed="#G" n="98" break="no"/>lectus posset auerti ab obiecto 
+    </p>
+            <p xml:id="HuYgTa-d1e574-d1e1784">
+               <lb ed="#G" n="99"/>
+               <pc type="indent"/>Secundo, quia licet multae species sint in intellectu, 
+      <lb ed="#G" n="100"/>nulla tamen potest mouere intellectum ad actum
+      pro<lb ed="#G" n="101" break="no"/>prium intelligendum, nisi per intentionem voluntatis 
+      <lb ed="#G" n="102"/>feramur super phantasmata: quia species de se non est
+      tam<lb ed="#G" n="103" break="no"/>tae actualitatis, quod possit causare actum intelligendi, 
+      <lb ed="#G" n="104"/>praeter huiusmodi intentionem voluntatis 
+    </p>
+            <p xml:id="HuYgTa-d1e574-d1e1802">
+               <lb ed="#G" n="105"/>
+               <pc type="indent"/>Tertio, requiritur intentio, propter ordinatum, &amp;
+      de<lb ed="#G" n="106" break="no"/>bitum iudicium, sicut oculo enim dormientis posset fieri 
+      <lb ed="#G" n="107"/>lucis impressio, nullum tamen esset iudicium, sic, vt ait,  
+      <lb ed="#G" n="108"/>non implicat contradictionem, quod in nostro
+      intelle<lb ed="#G" n="109" break="no"/>ctu fiat impressio a diuina essentia, &amp; huiusmodi
+      impres<lb ed="#G" n="110" break="no"/>sio a Deo conseruetur absque intentione voluntatis: 
+      <lb ed="#G" n="111"/>sed impossibile est, qued ibi, ex tali impressione, sit aliquod 
+      <lb ed="#G" n="112"/>iudicium sine voluntatis intentione 
+    </p>
+            <p xml:id="HuYgTa-d1e574-d1e1824">
+               <lb ed="#G" n="113"/>
+               <pc type="indent"/>Sed salua semper reuerentia istius illustrissimi
+      docto<lb ed="#G" n="114" break="no"/>ris, illud ad praesens non intelligo. nam, cum Deus om  
+      <lb ed="#G" n="115"/>ne genus causae possit supplere, excepto genere causae 
+      <lb ed="#G" n="116"/>materialis, &amp; formalis inherentis, inquantum aliquid 
+      <lb ed="#G" n="117"/>mperfectionis includunt; non video, quin Deus, respectu 
+      <lb ed="#G" n="118"/>erfectae intellectionis, possit supplere huius voluntatis 
+      <lb ed="#G" n="119"/>intentionem, maxime cum talis intentio voluntatis non 
+      <lb ed="#G" n="120"/>sit causa materialis istius intellectionis, nec inhereat
+      in<lb ed="#G" n="121" break="no"/>tellectui: quia est actus voluntatis a voluntate elicitus. 
+      <lb ed="#G" n="122"/>Quicquid igitur voluntas per talem intentionem causat 
+      <lb ed="#G" n="123"/>in intellectu, hoc causare videtur secundum oenus
+      cau<lb ed="#G" n="124" break="no"/>sae efficientis: &amp; per consequens a Deo potest
+      perfectis<lb ed="#G" n="125" break="no"/>sime suppleri 
+    </p>
+            <p xml:id="HuYgTa-d1e574-d1e1857">
+               <lb ed="#G" n="126"/>
+               <pc type="indent"/>Primum igitur non videtur concludere: quia Deus 
+      <lb ed="#G" n="127"/>perfectiori modo potest firmare potentiam circa obiectum 
+      <lb ed="#G" n="128"/>quam quaecumque intentio voluntatis. 
+    </p>
+            <p xml:id="HuYgTa-d1e574-d1e1868">
+               <lb ed="#G" n="129"/>
+               <pc type="indent"/>Secundum non valet in proposito: quia etiam
+      secun<lb ed="#G" n="130" break="no"/>dum illum doctorem, Deus non intelligitur per speciem 
+      <lb ed="#G" n="131"/>etiam in his, quae intelliguntur per speciem Deus posset 
+      <lb ed="#G" n="132"/>maiorem actualitate causare in specle, quam talis species 
+      <lb ed="#G" n="133"/>vmquam ab intentione voluntatis posset percipere. 
+      <lb ed="#G" n="134"/>Nec tertium obstat, vt iam patuit: etiam posset Deus 
+      <lb ed="#G" n="135"/>sine contradictione annihilare voluntatem, &amp;
+      intelle<lb ed="#G" n="136" break="no"/>ctum cum essentia animae conseruare, &amp; sua potentia ipsis 
+      <lb ed="#G" n="137"/>intellectui ad perfectam operationem cooperari. Nec va¬ a 
+      <lb ed="#G" n="138"/>set illud, quod doctor iam dictus addit, dicens, quod
+      si<lb ed="#G" n="139" break="no"/>sola impressio sufficeret ad cognitionem: tunc etiam ipse 
+      <lb ed="#G" n="140"/>aer videret. Non est simile: quia ipse aer non habet
+      po<lb ed="#G" n="141" break="no"/>tentiam visiuam, igitur eius impressio non est visio. Sec 
+      <lb ed="#G" n="142"/>dato, quod haberet visum, bene sequeretur, quod talis 
+      <lb ed="#G" n="143"/>impressio esset visio: quia etiam ille reuerendus doctor 
+      <lb ed="#G" n="144"/>in prima sua quaestione de cognitione angelorum
+      saepis<lb ed="#G" n="145" break="no"/>sime dicit, quod impressio speciei in pupilla sit realiter, 
+      <lb ed="#G" n="146"/>ipsa visio.  
+      <!--60.xml-->
+      <pb ed="#G" n="11-r"/>
+               <cb ed="#G" n="a"/>
+               <lb ed="#G" n="1"/>I Praetrea, etiam secundum illum doctorem,
+      volun<lb ed="#G" n="2" break="no"/>tas non fertur in ipsum obiectum, nisi cognitum sed boni 
+      <lb ed="#G" n="3"/>cognitum est per se, &amp; proprium obiectum voluntatis: sed  
+      <lb ed="#G" n="4"/>primus actus potentiae est circa proprium obiectum: ergo 
+      <lb ed="#G" n="5"/>necessario, antequam voluntas eliciat actum intentionis 
+      <lb ed="#G" n="6"/>intellectus, vere cognoscit, alias enim voluntas ferretur 
+      <lb ed="#G" n="7"/>in non cognitum, igitur ante voluntatis intentionem ess 
+      <lb ed="#G" n="8"/>in intellectu intellectio realis, &amp; proprie dicta, ex impres 
+      <lb ed="#G" n="9"/>sione obiecti, siue suae similitudinis. 
+    </p>
+            <p xml:id="HuYgTa-d1e574-d1e1939">
+               <lb ed="#G" n="10"/>
+               <pc type="indent"/>Ad confirmandum autem dictum fratris AEgidij, ar 
+      <lb ed="#G" n="11"/>guit quidam alius doctor sic. Si posset subtrahi actus frui 
+      <lb ed="#G" n="12"/>tionis, manente aperta vifione, tunc manente huiusmodi 
+      <lb ed="#G" n="13"/>visione, subtraheretur a voluntate praesentia obiecti
+      frui<lb ed="#G" n="14" break="no"/>bilis, consequens est impossibile, ergo &amp; antecedens; con 
+      <lb ed="#G" n="15"/>sequentia probatur, quia si aliqua causa est, lquare actus 
+      <lb ed="#G" n="16"/>fruitionis tolli possit, haec erit potissime, ablatio obiecti 
+      <lb ed="#G" n="17"/>fruibilis, quae est causam imediata talis actus: falsitas conse 
+      <lb ed="#G" n="18"/>quentis patet, quia constat, quod obiectum fruibile non 
+      <lb ed="#G" n="19"/>sit praesens voluntati, nisi per apertam eius visionem: 
+      <lb ed="#G" n="20"/>ergo nec potest tolli sua praesentia; nisi tollatur talis
+      vi<lb ed="#G" n="21" break="no"/>sio. Nec valet, vt ipse ait, si dicatur, quod potentia volun 
+      <lb ed="#G" n="22"/>tatis suspenditur a suo actu; quia cum actus resultet in 
+      <lb ed="#G" n="23"/>potentia ex debita proportione, quae est inter potentiam  
+      <lb ed="#G" n="24"/>&amp; obiectum, oportet quod talis proportio dissoluatur an 
+      <lb ed="#G" n="25"/>tequam tollatur huiusmodi actus.  
+      <lb ed="#G" n="26"/>Sed nec illud impedit iam superius probatam
+      verita<lb ed="#G" n="27" break="no"/>tem: quia non minoris efficaciae est diuina virtus, seu
+      po<lb ed="#G" n="28" break="no"/>tentia, quam cuiuscunque creaturae: sed efficacia virtutis 
+      <lb ed="#G" n="29"/>creatae est tanta, quod in actuali praesentia obiecti potest 
+      <lb ed="#G" n="30"/>potentiam ab actu suspendere, ergo &amp; hoc poterit potentia 
+      <lb ed="#G" n="31"/>diuina. Maior nota: probo minorem, planum est enim 
+      <lb ed="#G" n="32"/>emod per figuras; seu characteres, &amp; verba potest fieri 
+      <lb ed="#G" n="33"/>quod aliquis stans coram oculis apertis alterius,
+      omni<lb ed="#G" n="34" break="no"/>no non videatur ab eo, &amp; tamen per modum obiecti,
+      prae<lb ed="#G" n="35" break="no"/>sens est quia manet coloratus vt primo quando
+      videba<lb ed="#G" n="36" break="no"/>tur, &amp; in eadem corpulenta statura, quod patet: quia tan 
+      <lb ed="#G" n="37"/>gi potest, licet non videtur. 
+    </p>
+            <p xml:id="HuYgTa-d1e574-d1e2004">
+               <lb ed="#G" n="38"/>
+               <pc type="indent"/>2 Praeterea, postpositis talibus, quae magis propter. 
+      <lb ed="#G" n="39"/>hominuminequitiam, quam propter facti in se malitiam 
+      <lb ed="#G" n="40"/>sunt a sancta matre ecclesia pro nostra salute prohibita 
+      <lb ed="#G" n="41"/>adhuc idem apparet virtute naturali; quia, sicut
+      testan<lb ed="#G" n="42" break="no"/>tur veridici doctores, lapis quidem est, quam homo
+      con<lb ed="#G" n="43" break="no"/>tingens nuda manu, seu nuda cute, immediate
+      reddi<lb ed="#G" n="44" break="no"/>ti inuisibilis in praesentia quorumque hominum
+      con<lb ed="#G" n="45" break="no"/>stitutus, muisibilitas autem haec non contingit sic, quod 
+      <lb ed="#G" n="46"/>tollatur color, vel aliquid aliud ab obiecto, ratione
+      cu<lb ed="#G" n="47" break="no"/>ius ablationis, obiectum in praesentia constitutum non 
+      <lb ed="#G" n="48"/>fit actu visibile, quod patet, quia immediate deposito 
+      <lb ed="#G" n="49"/>lapide, talis homo videtur sicut prius, ergo hoc
+      solum<lb ed="#G" n="50" break="no"/>modo videtur contingere ex hoc, quod virtus lapidis 
+      <lb ed="#G" n="51"/>suspendit, &amp; prohibet virtutem visiuam hominis. Nolo 
+      <lb ed="#G" n="52"/>igitur tantum abbreuiare manum altissimi: vt hoc, quod 
+      <lb ed="#G" n="53"/>etiam possunt minimae creaturae, puta, in praesentia
+      obie<lb ed="#G" n="54" break="no"/>cti suspendere actum potentiae propriae, &amp; proportionatae, 
+      <lb ed="#G" n="55"/>denegem virtuti diuinae, 
+    </p>
+            <p xml:id="HuYgTa-d1e574-d1e2048">
+               <lb ed="#G" n="56"/>
+               <pc type="indent"/>3 Praeterea, legitur iu gestis Alexandri magni, quod 
+      <lb ed="#G" n="57"/>Alexander habuit quendam lapidem modicae quantit. 
+      <lb ed="#G" n="58"/>tis, qui in vna parte staterae positus nudus, &amp; non cooper 
+      <lb ed="#G" n="59"/>tus, praeponderabat omni auro, quantumlibet multipli 
+      <lb ed="#G" n="60"/>cato in altera lance staterae. Cum ergo aurum sit om- 
+      <lb ed="#G" n="61"/>nium metallorum grauissimum, &amp; per consequens
+      ten<lb ed="#G" n="62" break="no"/>dat deorsum, sicut : in suum finem naturalem: &amp; nihilo 
+      <lb ed="#G" n="63"/>minus per virtutem illius lapidis, atali tendentia
+      pro<lb ed="#G" n="64" break="no"/>hibetur, &amp; suspenditur, nullo medio resistente, immo me 
+      <lb ed="#G" n="65"/>dio existente optime disposito ad descendendum, siue ad 
+      <lb ed="#G" n="66"/>descensum ipsius grauis per ipsum, cur Deus noster non 
+      <lb ed="#G" n="67"/>posset suspendere tendentiam ipsius voluntatis in
+      obie<lb ed="#G" n="68" break="no"/>ctum etiam presentialiter oblatum.  
+      <lb ed="#G" n="69"/>Sed dicet forte, quod actus descendendi ipsius auri non 
+      <lb ed="#G" n="70"/>suspenditur, seda virture ipsius lapidis aurum violenter 
+      <lb ed="#G" n="71"/>retrahitur, ne descendat, sicut contingit in tractu
+      magne<lb ed="#G" n="72" break="no"/>tis respectu ferri 
+      <lb ed="#G" n="73"/>lstud non valet, quia si esset tractus talis, tunc lapide 
+      <!--60.xml-->
+      <cb ed="#G" n="b"/>
+               <lb ed="#G" n="74"/>descendente, vel nianente, aurum descederet, vel saltem 
+      <lb ed="#G" n="75"/>non ascenderet, cuius oppositum contingit, quia vt
+      scri<lb ed="#G" n="76" break="no"/>bunt aliqui doctores in suis postillis super Exo. posito illo 
+      <lb ed="#G" n="77"/>tapide in vna lance staterae, &amp; auro in alia, tunc lanx cum 
+      <lb ed="#G" n="78"/>lapide descendit, &amp; altera cum auro ascendit. Cum er- 
+      <lb ed="#G" n="79"/>go non trahat talis lapis aurum ad se, &amp; aurum
+      formali<lb ed="#G" n="80" break="no"/>ter in pristina grauitate remaneat, nescio quo nomine 
+      <lb ed="#G" n="81"/>magis proprie illud, quod ibi fit in auro, possi exprimero 
+      <lb ed="#G" n="82"/>nisi quod dicatur suspensio tendentiae ipsius grauis in
+      fi<lb ed="#G" n="83" break="no"/>nem proprium, praesente tamen fine. 
+      <lb ed="#G" n="84"/>Item forte posset aliquis aestimare, quod lapis ille sit
+      tan<lb ed="#G" n="85" break="no"/>tae grauitatis, quod sua ponderositate formali vincat
+      gra<lb ed="#G" n="86" break="no"/>uitatem auri. 
+      <lb ed="#G" n="87"/>Nec illud est verum. quia vt scribitur de eodem lapide 
+      <lb ed="#G" n="88"/>si puluere terrestri operitur: descensum auri amplius non  
+      <lb ed="#G" n="89"/>uspendet, sed immediate in statera praedicta aurum
+      de<lb ed="#G" n="90" break="no"/>scendet, &amp; lapis ascendet cum puluere sibi adiuncto 
+    </p>
+            <p xml:id="HuYgTa-d1e574-d1e2133">
+               <lb ed="#G" n="91"/>
+               <pc type="indent"/>4 Praeterea, corpus glorificatum in praesentia hominisi 
+      <lb ed="#G" n="92"/>constitutum, quandoque videtur, quandoque non
+      vide<lb ed="#G" n="93" break="no"/>tur, &amp; cum non videtur, manens tamen in eadem praesen 
+      <lb ed="#G" n="94"/>tia, hoc non contingit ex eo, quod corpus illud colorem, 
+      <lb ed="#G" n="95"/>uum amittat, vel aliquid, quod in eo prius erat visibile,
+      per<lb ed="#G" n="96" break="no"/>dat: sed magis videtur esse suspensio virtutis visiuae quo 
+      <lb ed="#G" n="97"/>ad actum proprium in praesentia obiecti visibilis: quod  
+      <lb ed="#G" n="98"/>euidentius ex hoc apparet, quod idem corpus
+      quando<lb ed="#G" n="99" break="no"/>que videtur ab vno, &amp; non videtur ab alio, quibus tamen 
+      <lb ed="#G" n="100"/>ambobus est aeque praesens 
+      <lb ed="#G" n="101"/>3 Praeterea, Fuc. 24. dicitur. Oculi eorum
+      tene<lb ed="#G" n="102" break="no"/>pantur, ne eum agnoscerent. 
+    </p>
+            <p xml:id="HuYgTa-d1e574-d1e2164">
+               <lb ed="#G" n="103"/>
+               <pc type="indent"/> Item, Sen. 15. eos, qui erant foris percusserunt ceciti 
+      <lb ed="#G" n="104"/>tate ita, vt ostium inuenire non possent: Isti autem
+      se<lb ed="#G" n="105" break="no"/>cundum expositores non erant caeci simpliciter sed solum 
+      <lb ed="#G" n="106"/>quo ad intuitionem ipsius ostij. 
+      <lb ed="#G" n="107"/>3 Praeterea, simile patuit de corpore assumpto ab
+      an<lb ed="#G" n="108" break="no"/>elo, qui Palaam obuiauit, quod corpus asina vidit &amp; non 
+      <lb ed="#G" n="109"/>Dalaam: quamuis directe contra faciem suam staret, &amp; po 
+      <lb ed="#G" n="110"/>stea idem corpus halaam vidit, &amp; famuli ipsum
+      comitan<lb ed="#G" n="111" break="no"/>tes non viderunt, vt patet Numer. 
+      <lb ed="#G" n="112"/>S Praeterea, etiam Christus in sui presentia, potentiam. 
+      <lb ed="#G" n="113"/>isiuam ludaeorum suspendens respectu sui, exiuit de tem 
+      <lb ed="#G" n="114"/>plo, cum ipsum vellent lapidare. Et eodem modo
+      tran<lb ed="#G" n="115" break="no"/>iens per medium illorum ibat, qui ipsum de supercilio 
+      <lb ed="#G" n="116"/>montis volebant praecipit are. 
+    </p>
+            <p xml:id="HuYgTa-d1e574-d1e2199">
+               <lb ed="#G" n="117"/>
+               <pc type="indent"/>Ex quibus omnibus euidenter apparet, quod virtute di 
+      <lb ed="#G" n="118"/>uina, potentia creaturae, potest a suo actu suspendi,
+      quan<lb ed="#G" n="119" break="no"/>tum libet obioctum praesentialiter offeratur. Et per
+      hoc<lb ed="#G" n="120" break="no"/>atet, quod tam consequentia deficit, quam probatio 
+      <lb ed="#G" n="121"/>consequentiae, quibus ille doctor proxime superius
+      vte<lb ed="#G" n="122" break="no"/>batur. Etiam patet responsio ad instantiam factam
+      per<lb ed="#G" n="123" break="no"/>eundem: quia Deus per suam potentiam suspendere
+      po<lb ed="#G" n="124" break="no"/>test potentiam, sicut iam in multis declaraui, sine dissolu 
+      <lb ed="#G" n="125"/>tione proportionis obiecti ad potentiam. Ex praemissis 
+      <lb ed="#G" n="126"/>gitur omnibus concludo, quod per diuinam potentiam  
+      <lb ed="#G" n="127"/>potest sieri elara, &amp; intuitiua notitia essentiae diuinae in 
+      <lb ed="#G" n="128"/>intellectu viatoris, voluntate existente suspensa ab omni- 
+      <lb ed="#G" n="129"/>actu, circa tale obiectum, non obstante actuali praesentia. 
+      <lb ed="#G" n="130"/>obiecti; &amp; per consequens talis manebit viator. 
+      <lb ed="#G" n="131"/>Quia etiam secundum contrarie opinantes, sola
+      perfe<lb ed="#G" n="132" break="no"/>cta beatitudo, ponit viatorem extra termino viaes: sed bea 
+      <lb ed="#G" n="133"/>titudo vera haberi non potest sine actu voluntatis: fruitio 
+      <lb ed="#G" n="134"/>enim in qua consistit essentialiter, &amp; principaliter
+      beati<lb ed="#G" n="135" break="no"/>tudo ipsa, est proprius actus voluntatis, cum frui sit alicub 
+      <lb ed="#G" n="136"/>amore inhaerere propter seipsum. Item, fruimur
+      cogni<lb ed="#G" n="137" break="no"/>tis, in quibus voluntas propter se ipsa delectata
+      conquie<lb ed="#G" n="138" break="no"/>scit, vt ait <ref xml:id="HuYgTa-d1e574-Rd1e2251">
+                  <name xml:id="HuYgTa-d1e574-Nd1e2253" ref="#Augustine">Aug.</name> 1o. de trini.</ref>
+            </p>
+            <p xml:id="HuYgTa-d1e574-d1e2259">
+               <lb ed="#G" n="139"/>2 Praeterea, quicquid declarationis est in omnibus
+      po<lb ed="#G" n="140" break="no"/>tentijs, non solum innascitur ex actibus potentiarum e 
+      <lb ed="#G" n="141"/>sed ex complacentia voluntatis, sine qua nihil est 
+      delecta<lb ed="#G" n="142" break="no"/>bile; etiam in quacunque potentia: sed voluntate
+      suspen<lb ed="#G" n="143" break="no"/>sa ab actu proprio, non poterit esse huiusmodi
+      compla<lb ed="#G" n="144" break="no"/>centia, nec per consequens beatifica fruitio, quae in
+      sua<lb ed="#G" n="145" break="no"/>diffinitione includit amorem, &amp; delectationem.47 
+    </p>
+            <p xml:id="HuYgTa-d1e574-d1e2277">
+               <lb ed="#G" n="146"/>
+               <pc type="indent"/>3 Praeterea, dato que Deus modo, quo dictu est, volun¬ 
+      <!--61.xml-->
+      <pb ed="#G" n="11-v"/>
+               <cb ed="#G" n="a"/>
+               <lb ed="#G" n="1"/>tatem non suspenderet: sed ipsam suae naturali valetu 
+      <lb ed="#G" n="2"/>dini derelinqueret, &amp; per creationem non infunderet ha 
+      <lb ed="#G" n="3"/>bitum caritatis, &amp; gratiae, non obstante intuit iua visione 
+      <lb ed="#G" n="4"/>diuinae essentiae in intellectu, adhuc talis maneret viator: 
+      <lb ed="#G" n="5"/>quia non haberet beatitudinem, nisi eo modo, quo philo 
+      <lb ed="#G" n="6"/>lophi videntur posuisse beatitudinem, puta per
+      coniun<lb ed="#G" n="7" break="no"/>ctionem ad substantias separatas secundum actum
+      perse<lb ed="#G" n="8" break="no"/>ctum potentiae intellectiuae: talis autem beatitudo nul 
+      <lb ed="#G" n="9"/>lum poneret extra viam: quia ex parte voluntatis non
+      es<lb ed="#G" n="10" break="no"/>set nisi dilectio naturalis.  
+    </p>
+            <p xml:id="HuYgTa-d1e574-d1e2312">
+               <lb ed="#G" n="11"/>
+               <pc type="indent"/>Sed contra praedicta aliquis dicere posset, quod illud 
+      <lb ed="#G" n="12"/>non est communicabile viatori, per quod status viae distin 
+      <lb ed="#G" n="13"/>uitur a statu patriae: sed cognitio intuitiua diuinae
+      essen<lb ed="#G" n="14" break="no"/>tiae est huiusmodi, ergo &amp;c. Maior patet: minorem videtur 
+      <lb ed="#G" n="15"/>onere apostolus, cum dicit. Nunc aut em videmus per 
+      <lb ed="#G" n="16"/>peculum, &amp; in enigmate, tunc autem facie ad faciem.  
+    </p>
+            <p xml:id="HuYgTa-d1e574-d1e2330">
+               <lb ed="#G" n="17"/>
+               <pc type="indent"/>2 Praeterea, id non est communicabile damnato sine 
+      <lb ed="#G" n="18"/>implicatione contradictionis, cuius oppositum est de
+      in<lb ed="#G" n="19" break="no"/>trinseca ratione poenae damni, sed visio intuitiua essentiae 
+      <lb ed="#G" n="20"/>diuinae est huiusmodi, ergo &amp;c. Maior est nota: probo mi 
+      <lb ed="#G" n="21"/>norem: quia communiter sic diffinitur, poena damni est ca 
+      <lb ed="#G" n="22"/>rentia visionis diuinae essentiae 
+    </p>
+            <p xml:id="HuYgTa-d1e574-d1e2348">
+               <lb ed="#G" n="23"/>
+               <pc type="indent"/>3 Item Fulgentius videtur dicere, quod facies Dei 
+      <lb ed="#G" n="24"/>est ita gloriosa, quod si eam viderent omnes damnati, mox 
+      <lb ed="#G" n="25"/>nullam poenam sentirent. 
+    </p>
+            <p xml:id="HuYgTa-d1e574-d1e2359">
+               <lb ed="#G" n="26"/>
+               <pc type="indent"/>Sed si breuiter de hist, &amp; de omnibus consimilibus me 
+      <lb ed="#G" n="27"/>vellem expedire, dicerem; quod omnia talia sunt
+      intelligen<lb ed="#G" n="28" break="no"/>da secundum modum, &amp; ordinem, quem a Dei potentia 
+      <lb ed="#G" n="29"/>ordinata credimus institutum, non autem de potentia 
+      <lb ed="#G" n="30"/>Dei absoluta. 
+      <lb ed="#G" n="31"/>Vel soluendo distincte, dico ad primum, quod non in
+      so<lb ed="#G" n="32" break="no"/>la visione, sed magis in consummata dilectione, siue
+      frui<lb ed="#G" n="33" break="no"/>tione, talem visionem consequente, attendenda est talis 
+      <lb ed="#G" n="34"/>distinctio: quia ait <ref xml:id="HuYgTa-d1e574-Rd1e2382">
+                  <name xml:id="HuYgTa-d1e574-Nd1e2384" ref="#Augustine">Aug.</name> in lib. 1. de trin.</ref> 
+               <quote xml:id="HuYgTa-d1e574-Qd1e2389" source="http://scta.info/resource/adt-l1-d1e93" synch="26-43">Hoc est plenum 
+      <lb ed="#G" n="35"/>gaudium, frui trinitate, ad cuius imaginem facti sumus</quote>. 
+      <lb ed="#G" n="36"/>Propter quod Dauid prophetarum eximius huiusmodi 
+      <lb ed="#G" n="37"/>distinctionem euidenter insinuas ait. Inebriabuntur ab 
+      <lb ed="#G" n="38"/>vbertate domus tuae, &amp; torrente voluptatis tuae potabis 
+      <lb ed="#G" n="39"/>eos. Et quia huiusmodi fruitiua inebriatio non est sine prae 
+      <lb ed="#G" n="40"/>uia visione, ideo subdit. Quoniam apud te est fons vitae; 
+      <lb ed="#G" n="41"/>&amp; in lumine tuo videbimus lumen 
+    </p>
+            <p xml:id="HuYgTa-d1e574-d1e2409">
+               <lb ed="#G" n="42"/>
+               <pc type="indent"/>Ad secundum dicendum, quod poena damni dicitur ca 
+      <lb ed="#G" n="43"/>rentia diuinae visionis pro tanto, quod secundum
+      poten<lb ed="#G" n="44" break="no"/>tiam Dei ordinatam, carentia diuinae visionis necessario 
+      <lb ed="#G" n="45"/>ineludit carentiam fruitionis beatae in qua principaliter 
+      <lb ed="#G" n="46"/>consistit pena damni, sicut in eius positone principaliter. 
+      <lb ed="#G" n="47"/>consistit aeterna beatitudo.  
+    </p>
+            <p xml:id="HuYgTa-d1e574-d1e2427">
+               <lb ed="#G" n="48"/>
+               <pc type="indent"/>Ad tertium dictum <name xml:id="HuYgTa-d1e574-Nd1e2433">Fulgentij</name> dicendum, quod illa
+      be<lb ed="#G" n="49" break="no"/>ne sunt compossibilia, quod aliquis nullam poenam
+      sen<lb ed="#G" n="50" break="no"/>tiat, &amp; per consequens non sit damnatus poena sensus, &amp;  
+      <lb ed="#G" n="51"/>tamen maneat damnatus pena damni: eo quod beata frui 
+      <lb ed="#G" n="52"/>tione careat per suspensionem suae voluntatis. Si autem 
+      <lb ed="#G" n="53"/>alicubi inuenitur in dictis Fulgentij, vel alicuius alterius 
+      <lb ed="#G" n="54"/>doctoris, quod si Deus nudam faciem suam damnato osten 
+      <lb ed="#G" n="55"/>deret, quod tunc damnatus esset beatus: hoc sic
+      intelli<lb ed="#G" n="56" break="no"/>gendum est, quod Deus voluntatem illius non
+      suspende<lb ed="#G" n="57" break="no"/>ret, sed potius sibi cooperando caritatem infunderet; &amp; 
+      <lb ed="#G" n="58"/>sic per Dei potentiam absolutam, qui fuit damnatus,
+      fie<lb ed="#G" n="59" break="no"/>ret beatus, &amp; hoc puto, quod nullus catholicus diuinae 
+      <lb ed="#G" n="60"/>potentiae habeat denegare. 
+    </p>
+            <p xml:id="HuYgTa-d1e574-d1e2463">
+               <lb ed="#G" n="61"/>
+               <pc type="indent"/>Duod autem perfecta notitia diuinae essentiae
+      abstra<lb ed="#G" n="62" break="no"/>ctiua sit impossibilis, nec per consequens alicui
+      commu<lb ed="#G" n="63" break="no"/>nicabilis, probo sic quia illa notitia ferretur, aut
+      imme<lb ed="#G" n="64" break="no"/>diate super diuinam essentiam, vel mediate: si primo
+      mo<lb ed="#G" n="65" break="no"/>do, tunc esset simpliciter intuitiua: si secundo modo, aut 
+      <lb ed="#G" n="66"/>llud medium mediat vt obiectum cognitum, aut vt ratio 
+      <lb ed="#G" n="67"/>cognoscendi tantum, &amp; non vt medium cognitum:
+      pri<lb ed="#G" n="68" break="no"/>mo modo est impossibile: quia omne tale medium, aut 
+      <lb ed="#G" n="69"/>continet id, quod per ipsum, siue in ipso cognoscitur
+      vir<lb ed="#G" n="70" break="no"/>tualiter &amp; perfecte: sicut causa continet effectum, qui in 
+      <lb ed="#G" n="71"/>cognitione causae cognoscitur virtualiter: aut saltem aequa 
+      <lb ed="#G" n="72"/>tur illi, quod per ipsum, siue in ipso quidditatiue, &amp; perfe 
+      <lb ed="#G" n="73"/>sc cognoscitur, ficut effectus adaequatus causae ducit in 
+      <!--61.xml-->
+      <cb ed="#G" n="b"/>
+               <lb ed="#G" n="74"/>cognitionem quidditatis eausae: sed nullum medium eres 
+      <lb ed="#G" n="75"/>tum essentiam diuinam continet virtualiter &amp; perfecte, 
+      <lb ed="#G" n="76"/>nec illi poterit adaequari; ergo nullatenus poterit dari 
+      <lb ed="#G" n="77"/>medium, se habens per modum obiecti cogniti, in quo 
+      <lb ed="#G" n="78"/>liuina essentia perfecte, &amp; quidditatiue cognoscatur. 
+      <lb ed="#G" n="79"/>ec secundus modus est possibilis propter tria. Primor  
+      <lb ed="#G" n="80"/>quia tale medium nunquam requiritur, nisi propter
+      ab<lb ed="#G" n="81" break="no"/>sentiam obiecti, siue ad supplendam praesentiam
+      obie<lb ed="#G" n="82" break="no"/>cti, quod per seipsum praesens esse non potest, vt patet3. 
+      <lb ed="#G" n="83"/>de anima vbi dicitur, Lapis non est in anima, sed
+      spe<lb ed="#G" n="84" break="no"/>cies lapidis: sed Deus intimior, &amp; praesentialior est cuili 
+      <lb ed="#G" n="85"/>bet rei, quam res sibiipsi, vt dicit <ref xml:id="HuYgTa-d1e574-Rd1e2525">
+                  <name xml:id="HuYgTa-d1e574-Nd1e2527" ref="#Augustine">August.</name> in libro 3 con</ref> 
+               <lb ed="#G" n="86"/>cs. Secundo, quia tale medium semper est spiritualius a 
+      <lb ed="#G" n="87"/>eo, quod cognoscitur per ipsum : sed Deo nihil potest 
+      <lb ed="#G" n="88"/>esse spiritualius. Tertio, quia posito tali medio
+      respe<lb ed="#G" n="89" break="no"/>ctu essentiae diuinae, ipsa cognitio non erit abstractiua, 
+      <lb ed="#G" n="90"/>sed simpliciter intuitiua: si enim species medians in
+      co<lb ed="#G" n="91" break="no"/>gnitione impediret intuitionem: tunc cognitio coloris,  
+      <lb ed="#G" n="92"/>um fiat per speciem, non esset intuitiua. Multi etiam  
+      <lb ed="#G" n="93"/>posuerunt cognitionem patriae fieri per speciem, qua 
+      <lb ed="#G" n="94"/>est medium quo, siue ratio cognoscendi: non tamen 
+      <lb ed="#G" n="95"/>propter hoc negauerunt eam esse intuitiuam.
+      Cogni<lb ed="#G" n="96" break="no"/>tio enim per speciem non est abstractiua, nisi
+      inquan<lb ed="#G" n="97" break="no"/>tum essentia ret cognitae est abstrahibilis, mediante
+      hu<lb ed="#G" n="98" break="no"/>iusmodi specle, a sua actuali existentia: essentia autem 
+      <lb ed="#G" n="99"/>diuina a sua existentia, siue a suo esse, abstrahi non potest 
+      <lb ed="#G" n="100"/>cognitione perfecta: cum tale esse sit de ratione quiddita 
+      <lb ed="#G" n="101"/>tiua essentiae diuinae.  
+    </p>
+            <p xml:id="HuYgTa-d1e574-d1e2567">
+               <lb ed="#G" n="102"/>
+               <pc type="indent"/>Nec valet, quod aliqui sequaces Scoti dicunt, quod 
+      <lb ed="#G" n="103"/>cognitio abstractiua feratur super nudam essentiam
+      di<lb ed="#G" n="104" break="no"/>uinam immediate, volentes in hoc intentionem dicti 
+      <lb ed="#G" n="105"/>doctoris saluare. Nam in hoc, manifeste sibi contra 
+      <lb ed="#G" n="106"/>dicunt: quia ipse aperte ponit oppositum in suo quolibet 
+      <lb ed="#G" n="107"/>uaestio. S vbi sic ait. Actus beatificus intellectus non s 
+      <lb ed="#G" n="108"/>otest esse cognitio abstractiua, sed necessario intuitiua: 
+      <lb ed="#G" n="109"/>quia abstractiua posset esse aeque existentis, &amp; non
+      exi<lb ed="#G" n="110" break="no"/>tentis; &amp; tunc beatitudo posset esse, obiecto non existen 
+      <lb ed="#G" n="111"/>te, quod est impossibile. Et subdit ille doctor
+      imme<lb ed="#G" n="112" break="no"/>diate. Abstractiua enim posset haberi, licet ipsum
+      ob<lb ed="#G" n="113" break="no"/>iectum non attingeretur in se, sed in similitudine
+      par<lb ed="#G" n="114" break="no"/>ticipata : beatitudo autem nunquam habetur; nisi ipsum 
+      <lb ed="#G" n="115"/>obiectum in se attingatur immediate. Ex quibus verbis 
+      <lb ed="#G" n="116"/>expresse patet, quod ille doctor abstractiuam ponit
+      fie<lb ed="#G" n="117" break="no"/>ri per medium creatum, siue in medio creato: quia dicit 
+      <lb ed="#G" n="118"/>n similitudine participata: &amp; ideo sequitur contra cum, 
+      <lb ed="#G" n="119"/>quod talis cognitio non sit quidditatiua &amp; perfecta: quia 
+      <lb ed="#G" n="120"/>secundum philosophos, &amp; theologos, haec est
+      differen<lb ed="#G" n="121" break="no"/>tia inter effectum adaequatum causae &amp; non adaequatum: 
+    </p>
+            <p xml:id="HuYgTa-d1e574-d1e2615">
+               <lb ed="#G" n="122"/>
+               <pc type="indent"/>uia licet effectus adaequatus causae ducat in
+      cognitio<lb ed="#G" n="123" break="no"/>nem quid est causa: tamen effectus non adaequatus non  
+      <lb ed="#G" n="124"/>ducit in cognitionem quid est, sed solum in
+      cognitio<lb ed="#G" n="125" break="no"/>nem quia esti quia ergo nulla res creari potest, quae
+      aeque<lb ed="#G" n="126" break="no"/>tur essentiae diuinae, ergo notitia abstractiua num quam
+      pote<lb ed="#G" n="127" break="no"/>tit esse respectu essentiae diuinae quidditatiua, &amp; perfecta 
+    </p>
+            <p xml:id="HuYgTa-d1e574-d1e2633">
+               <lb ed="#G" n="128"/>
+               <pc type="indent"/>ARTICVLVS I 
+      <lb ed="#G" n="129"/>Vtrum habitus fidei infufae, &amp;x intuitiua notitia 
+      <lb ed="#G" n="130"/>patriae simul possint manere. 
+    </p>
+            <p xml:id="HuYgTa-d1e574-d1e2645">
+               <lb ed="#G" n="131"/>
+               <pc type="indent"/>VANTVM ad secundum articulum quaestionis
+      vi<lb ed="#G" n="132" break="no"/>dendum est, vtrum habitus fidei infusae, &amp;
+      intui<lb ed="#G" n="133" break="no"/>tiua noritia patriae simul possunt maticre. Et dico, quod sic¬ 
+    </p>
+            <p xml:id="HuYgTa-d1e574-d1e2656">
+               <lb ed="#G" n="134"/>
+               <pc type="indent"/>Quia non minus se compatiuntur sides, &amp; clara visio, 
+      <lb ed="#G" n="135"/>uam lumen fidei, &amp; lumen gloriae, sed illa possunt simul 
+      <lb ed="#G" n="136"/>stare, ergo &amp; illa. Maior patet, quia quando antece dentia sunt 
+      <lb ed="#G" n="137"/>compossibilia, eorum consequentia se de necessitate compatiun 
+      <lb ed="#G" n="138"/>ur, sed clata visio est consequens ad lumen gloriae, &amp;
+      habi<lb ed="#G" n="139" break="no"/>tus fidei, vel emt idem, quod lumen fidei, vel necessario consequitur 
+      <lb ed="#G" n="140"/>ad ipsum, ergo &amp;c. Mmorem probo,. quia illa sunt compossibilia 
+    </p>
+            <p xml:id="HuYgTa-d1e574-d1e2676">
+               <lb ed="#G" n="141"/>
+               <pc type="indent"/>uae nec materialem, nec formalem ad inuice habet repugnam 
+      <lb ed="#G" n="142"/>iam, sed illa duo lumina nec habent materialem repu¬ 
+      <!--62.xml-->
+      <pb ed="#G" n="12-r"/>
+               <cb ed="#G" n="a"/>
+               <lb ed="#G" n="1"/>mantiam, sicut duae albedines respectu eiusdem
+      subie<lb ed="#G" n="2" break="no"/>cti: quia illa lumina non sunt eiusdem speciei, specie 
+      <lb ed="#G" n="3"/>differentia autem non habet materialem repugnantiam, 
+      <lb ed="#G" n="4"/>nec repugnant formaliter: quia repugnantia formaliter,  
+      <lb ed="#G" n="5"/>superinnascitur ex aliquo genere oppositonis, sed duo 
+      <lb ed="#G" n="6"/>lumina non opponuntur contradictorie, nec priuatiue 
+      <lb ed="#G" n="7"/>quia vtrumque dicit ens vere posituum: nec contrarie 
+      <lb ed="#G" n="8"/>quia lumen luminis non contrariatur, sed tenebre. Item 
+      <lb ed="#G" n="9"/>sicut fides contrariatur insidelitati, sic lumen fidei
+      tene<lb ed="#G" n="10" break="no"/>btae infidelitatis: sed vnum vni est contrarium. Nec oppo 
+      <lb ed="#G" n="11"/>nitur relatiue, sicut de se patet: quia relatiua sunt simu 
+      <lb ed="#G" n="12"/>natura, &amp; posita se ponunt, &amp; perempta se perimunt, fides 
+      <lb ed="#G" n="13"/>autem praecedit gloriam. 
+    </p>
+            <p xml:id="HuYgTa-d1e574-d1e2720">
+               <lb ed="#G" n="14"/>
+               <pc type="indent"/>Sed contra hant veritatem potest argui sic. Fides, &amp; 
+      <lb ed="#G" n="15"/>scientia non possunt stare simul, igitur nec fides, &amp; clara 
+      <lb ed="#G" n="16"/>visio poterunt stare simul: consequentia patet, quia fides 
+      <lb ed="#G" n="17"/>&amp; intuitiua visio magis videntur repugnare, quam fides, qui 
+      <lb ed="#G" n="18"/>scientia, Sed antecedens a multis probatur multipliciter. 
+      <lb ed="#G" n="19"/>Primo sic. Fuidens, &amp; non euidens conrradicunt, &amp; 
+      <lb ed="#G" n="20"/>per consequens in eodem respectu eiusdem se non
+      com<lb ed="#G" n="21" break="no"/>patiuntur, sed de ratione scientiae est euidentia, cum sit 
+      <lb ed="#G" n="22"/>habitus demonstratiuus, de ratione fidei est ineuidentia, 
+      <lb ed="#G" n="23"/>quia fides est credere quod non vides, ergo &amp;c 
+      <lb ed="#G" n="24"/>2 Praeterea, fides, &amp; opinio non possunt simul stare, 
+      <lb ed="#G" n="25"/>ergo nec fides &amp; scientia : consequentia patet: probatur 
+      <lb ed="#G" n="26"/>antecedens quia de ratione opinionis est adhaerere cun 
+      <lb ed="#G" n="27"/>formidine, de ratione fidei est adhaerere firmiter, &amp; sin 
+      <lb ed="#G" n="28"/>omni formidine; ergo &amp;c 
+      <lb ed="#G" n="29"/>3 Praeterea, possibile non assentire, &amp; non possibile 
+      <lb ed="#G" n="30"/>non assentire, contradicunt, quia vna est de secundo
+      an<lb ed="#G" n="31" break="no"/>gulo modalium, &amp; alia de quarto, sed habens fidem po 
+      <lb ed="#G" n="32"/>test non assentire: quia vt ait <name xml:id="HuYgTa-d1e574-Nd1e2765" ref="#Augustine">Aug.</name> cum cetera possit
+      ho<lb ed="#G" n="33" break="no"/>mo, volens credere non potest nisi volens, sed sciens non 
+      <lb ed="#G" n="34"/>potest non assentire, cum demonstratio aggenerans scien 
+      <lb ed="#G" n="35"/>tiam sit necessario concludens 
+      <lb ed="#G" n="36"/>4 Praeterea, nullum medium compatitur alterum 
+      <lb ed="#G" n="37"/>extremorum secundum suam perfectam naturam, sed fi- 
+      <lb ed="#G" n="38"/>des est medium inter scientiam, &amp; opinionem ergo &amp;c 
+      <lb ed="#G" n="39"/>Maior patet, quia secundum philosophum. 53. physicorum 
+      <lb ed="#G" n="40"/>medium comparatum ad alterum extremorum, habet 
+      <lb ed="#G" n="41"/>rationem contrarij, &amp; sortitur condicionem alterius
+      ex<lb ed="#G" n="42" break="no"/>tremi, sed minorem ponit Hugo lib. 1. de sacramentis. 
+      <lb ed="#G" n="43"/>Praeterea, accidentia ordinata ad opposita, &amp;
+      con<lb ed="#G" n="44" break="no"/>traria se habentia ad ea, illa sunt opposita, &amp; simul
+      incon<lb ed="#G" n="45" break="no"/>possibilia, vt albedo, &amp; nigredo, quia ordinantur ad
+      dis<lb ed="#G" n="46" break="no"/>gregare, &amp; congregare &amp;c. sed fides, &amp; scientia
+      ordinan<lb ed="#G" n="47" break="no"/>tur ad non videre, &amp; videre siue ad obscure videre &amp;
+      cla<lb ed="#G" n="48" break="no"/>retvidere, ergo &amp;c 
+    </p>
+            <p xml:id="HuYgTa-d1e574-d1e2804">
+               <lb ed="#G" n="49"/>
+               <pc type="indent"/>4 Praeterea, eadem potentia respectu eiusdem obie 
+      <lb ed="#G" n="50"/>cti, non potest simul esse perfecta &amp; imperfecta, sed
+      noti<lb ed="#G" n="51" break="no"/>tia fidei est imperfecta, scientiae vero est persecta, ergo &amp;c. 
+      <lb ed="#G" n="52"/>2 Praeterea, sicut impossibile est in eadem parte ocul 
+      <lb ed="#G" n="53"/>simul esse duas dispositiones respectu eiusdem obiecti, 
+      <lb ed="#G" n="54"/>quarum vna disponitur ad clare videndum ficut aquila 
+      <lb ed="#G" n="55"/>&amp; altera ad obscure videndum sicut noctua. Sic impossi 
+      <lb ed="#G" n="56"/>bile est &amp;c. 
+    </p>
+            <p xml:id="HuYgTa-d1e574-d1e2826">
+               <lb ed="#G" n="57"/>
+               <pc type="indent"/>3 Praeterea, fides facit adherere credibilibus solum
+      pro<lb ed="#G" n="58" break="no"/>pter auctoritatem dicetis, sed solum est dictio exclusiua, 
+      <lb ed="#G" n="59"/>&amp; per consequens excludet omnem aliam adhaesionem 
+      <lb ed="#G" n="60"/>9 Praeterea, ad idem arguitur sic. Perfectum, &amp;
+      imper<lb ed="#G" n="61" break="no"/>fectum secundum idem genus non se compatiuntur in 
+      <lb ed="#G" n="62"/>eodem, sed scientia, &amp; fides distinguutur in genere assen 
+      <lb ed="#G" n="63"/>sus, sicut perfectum &amp; imperfectum: quia scientia facit
+      as<lb ed="#G" n="64" break="no"/>sensum perfectum &amp; fides imperfectum 
+      <lb ed="#G" n="65"/>10 Praeterea, si fides &amp; scientia starent simul, tunc vnus 
+      <lb ed="#G" n="66"/>&amp; idem intellectus inclinaretur in idem oblectum diuersis 
+      <lb ed="#G" n="67"/>inclinationibus, quarum vna esset simpliciter perfecta:
+      con<lb ed="#G" n="68" break="no"/>sequens est falsum, ergo &amp; antecedens consequentia
+      pa<lb ed="#G" n="69" break="no"/>tet, probatur falsitas consequentis dupliciter. Primo, 
+      <lb ed="#G" n="70"/>quia impossibile est vnum &amp; idem mobile in vnum, u 
+      <lb ed="#G" n="71"/>eundem terminum inclinari diuersis inclinationibus 
+      <lb ed="#G" n="72"/>nisi pro tanto, quod quaelibet illarum est imperfecta. Se 
+      <lb ed="#G" n="73"/>cundo, quia licet idem intellectus diuersis demonstra¬ 
+      <!--62.xml-->
+      <cb ed="#G" n="b"/>
+               <lb ed="#G" n="74"/>tionibus inclinari possit in eandem conclusionem,
+      opor<lb ed="#G" n="75" break="no"/>tet tamen, quod nulla illarum sit potissima: quia si vna 
+      <lb ed="#G" n="76"/>illarum esset potissima aggregans omnes causas, illa
+      om<lb ed="#G" n="77" break="no"/>nes alias euacuaret: nec aliquam aliam secum
+      compate<lb ed="#G" n="78" break="no"/>retur, sic &amp;c. 
+    </p>
+            <p xml:id="HuYgTa-d1e574-d1e2884">
+               <lb ed="#G" n="79"/>
+               <pc type="indent"/>1 Praeterea, sicut se habet opinio ad formidinem, sic 
+      <lb ed="#G" n="80"/>fides ad enigma: sed formido est de intrinseca ratione 
+      <lb ed="#G" n="81"/>opinionis, propter quod non compatitur scientiam secun 
+      <lb ed="#G" n="82"/>in, eodem intellectu, respectu eiusdem obiecti, ergo enigma 
+      <lb ed="#G" n="83"/>erit de intrinseca, &amp; essentiali ratione fidei, ergo &amp;c. 
+      <lb ed="#G" n="84"/>Sed illa non concludunt: ergo contra praedictum
+      an<lb ed="#G" n="85" break="no"/>tecedens arguo sic. Abstractiua, &amp; intuitiua cognitio, 
+      <lb ed="#G" n="86"/>respectu eiusdem obiecti creati: simul se compatiuntur in 
+      <lb ed="#G" n="87"/>eodem intellectu angelico, ergo fides, &amp; scientia
+      respe<lb ed="#G" n="88" break="no"/>ctu eiusdem obiecti simul se compati poterunt in eodem 
+      <lb ed="#G" n="89"/>intellectu humano: consequentia patet: quia tota repugnam 
+      <lb ed="#G" n="90"/>tia fidei ad scientiam (et vt dicitur ab aduersariis) esti quia 
+      <lb ed="#G" n="91"/>fides concernit ineuidentiam, scientia vero euidentia sed  
+      <lb ed="#G" n="92"/>euidens &amp; non euidens non magis videtur repugnare, quam 
+      <lb ed="#G" n="93"/>presens, &amp; non praesens: quia abstrahit ab esse &amp; non esse in 
+      <lb ed="#G" n="94"/>tuitiua vero concetnit necessario praesentiam rei intuitae: 
+      <lb ed="#G" n="95"/>atet, quod non maior est repugnantia fidei ad scientiam, 
+      <lb ed="#G" n="96"/>quam abstractiuae ad intuitiuam : cum non magis
+      repu<lb ed="#G" n="97" break="no"/>gnet videns, &amp; non euidens, quam praesens, &amp; non
+      prae<lb ed="#G" n="98" break="no"/>sens. Antecedens patet: quia angelus habens notitiam  
+      <lb ed="#G" n="99"/>abstractiuam ipsius eclipsis, vel cuiuscumque alterius res 
+      <lb ed="#G" n="100"/>antequam fiat: &amp; postea huiusmodi re posita in actuali 
+      <lb ed="#G" n="101"/>praesentia, non amittit cognitionem illam abstractiuam 
+      <lb ed="#G" n="102"/>per hoc, quod ipsam tunc praesentialiter positam
+      cogno<lb ed="#G" n="103" break="no"/>icit intuitiue, quia tunc in angelo caderet obliuio
+      praete<lb ed="#G" n="104" break="no"/>ritorum, quod est falsum, ergo &amp;c. 
+      <lb ed="#G" n="105"/>12 Praeterea, ad idem arguit quidam doctor sic. Ratio 
+      <lb ed="#G" n="106"/>nes formales fidei, &amp; scientiae sunt compossibiles; ergo 
+      <lb ed="#G" n="107"/>&amp; ipsa sunt compossibilia consequentia patet, probatur. 
+      <lb ed="#G" n="108"/>antecedens, quia assentire propter auctoritatem dicentis 
+      <lb ed="#G" n="109"/>est de ratione fidei; &amp; assentire propter demonstrationem, 
+      <lb ed="#G" n="110"/>est de roioe scientiae: sed si quis ab aliquo experto astrologo 
+      <lb ed="#G" n="111"/>audiret, quod luna est minor terra; &amp; hoc sibi credens po 
+      <lb ed="#G" n="112"/>stea hoc idem perciperet ratione, puta videret, quod
+      vm<lb ed="#G" n="113" break="no"/>pra terrae, quae tamen est minor, quam terra, obumbrat,  
+      <lb ed="#G" n="114"/>aue eclipsat totam lunam, &amp; per consequens, est maiori 
+      <lb ed="#G" n="115"/>quam luna habita huius euidenti notitia, non ex
+      hoc<lb ed="#G" n="116" break="no"/>perderet fidem, quam prius habuit, sed magis in ea
+      fir<lb ed="#G" n="117" break="no"/>maretur, quod patet etiam ratione, quia quandoenmque 
+      <lb ed="#G" n="118"/>sunt duo assensus eiusdem rationis, quicquid non
+      repu<lb ed="#G" n="119" break="no"/>gnat, vni, nec alteri, sed assensus acquisitus per
+      demon<lb ed="#G" n="120" break="no"/>strationem, quae praecedit fidem, &amp; auctoritatem, est
+      eius<lb ed="#G" n="121" break="no"/>dem rationis cum assensu acquisito per demostrationem. 
+      <lb ed="#G" n="122"/>sequentem auctoritatem, &amp; primus non repugnat fidei, 
+      <lb ed="#G" n="123"/>immo facit, quod facilius creditur dicentis auctoritati, 
+      <lb ed="#G" n="124"/>ergo nec secundus. Et confirmatur, quia quandocumque 
+      <lb ed="#G" n="125"/>duo assensus sunt eiusdem rationis; id qudper se inclinat in 
+      <lb ed="#G" n="126"/>vnum per se, non tollit alium, sed potius ipsum confirmat: 
+      <lb ed="#G" n="127"/>sed demonstratio sequens vnam auctoritatem, &amp;
+      praece<lb ed="#G" n="128" break="no"/>lens aliam, facit, quod in secunda auctoritate facilius 
+      <lb ed="#G" n="129"/>creditur dicenti, quia naturaliter citius credimus dictis. 
+      <lb ed="#G" n="130"/>llius, cuius pristinam auctoritatem euidens
+      demonstra<lb ed="#G" n="131" break="no"/>tio est subsecuta; igitur demonstratio praecedentis
+      au<lb ed="#G" n="132" break="no"/>ctoritatis fidem, siue assensum non euacuat. Sed magis. 
+      <lb ed="#G" n="133"/>confirmat 
+    </p>
+            <p xml:id="HuYgTa-d1e574-d1e3008">
+               <lb ed="#G" n="134"/>
+               <pc type="indent"/>13 Praeterea, praehabita demonstratione alicuius con 
+      <lb ed="#G" n="135"/>clusionis, saepius Aristoteles induxit auctoritatem
+      cete<lb ed="#G" n="136" break="no"/>rorum, quem modum ctiam obseruant alij doctores, tam  
+      <lb ed="#G" n="137"/>catholici, quam philosophi: quod totum frustra fieret, nisi 
+      <lb ed="#G" n="138"/>udes ex auctoritate posset simul manere cum euidenti 
+      <lb ed="#G" n="139"/>scientia. Da oppositum, tunc vel auctoritas sequens
+      de<lb ed="#G" n="140" break="no"/>strueret assensum demonstrationis praeuiae, quod est
+      im<lb ed="#G" n="141" break="no"/>possibile, vel nihil generaret in intellectu; &amp; tunc
+      totali<lb ed="#G" n="142" break="no"/>ter frustra &amp; inutiliter adduceretur. 
+    </p>
+            <p xml:id="HuYgTa-d1e574-d1e3032">
+               <lb ed="#G" n="143"/>
+               <pc type="indent"/>Ad primam ergo probationem antecedentis superius 
+      <lb ed="#G" n="144"/>posit, dico, quod ad hoc, quod aliqua sint
+      contradi<lb ed="#G" n="145" break="no"/>ctoria, non sufficit, quod sumantur respectu eiusdem, sed  
+      <lb ed="#G" n="146"/>etiam oportet, quod sumantur secundum idem:licet igi¬ 
+      <!--63.xml-->
+      <pb ed="#G" n="12-v"/>
+               <cb ed="#G" n="a"/>
+               <lb ed="#G" n="1"/>tur euidens secundum scientiam, contradicat non euidem 
+      <lb ed="#G" n="2"/>ti secundum scientiam, euidens tamen secundum
+      scien<lb ed="#G" n="3" break="no"/>tiam non repugnat ineuidenti secundum fidem. Etiam 
+      <lb ed="#G" n="4"/>minor est falsa, quia habens certam scientiam, adhuc
+      ap<lb ed="#G" n="5" break="no"/>prehendens auctoritatem, cui prius per fidem adhaesit, ei 
+      <lb ed="#G" n="6"/>dem poterit, post habitam scientiam, firmiter adhaerere, &amp; 
+      <lb ed="#G" n="7"/>ideo ineuidentia non est sic de intrinseca ratione fidei, quam 
+      <lb ed="#G" n="8"/>necessario euidentiam scientiae excludat, ergo &amp;c 
+    </p>
+            <p xml:id="HuYgTa-d1e574-d1e3069">
+               <lb ed="#G" n="9"/>
+               <pc type="indent"/>Ad secundum nego antecedens, quia licet opinio quam 
+      <lb ed="#G" n="10"/>tum ad id, quod imperfectionis dicit: non possit simul sti 
+      <lb ed="#G" n="11"/>re cum fide; quantum tamen ad substantiam habitus,
+      ex<lb ed="#G" n="12" break="no"/>clusa imperfectione, simul stat cum fide Propter quod di 
+      <lb ed="#G" n="13"/>citur. 4 topicorum, quod fides est opinio vehemens. E 
+      <lb ed="#G" n="14"/>similiter probatio deficit, quia illud non est de ratione op 
+      <lb ed="#G" n="15"/>nionis, quod minuitur, &amp; destruitur per opinionem: nihil 
+      <lb ed="#G" n="16"/>enim minuit id, quod est de sua ratione essentiali, sed quam 
+      <lb ed="#G" n="17"/>to opinio magis inualescit, respectu alicuius conclusionis 
+      <lb ed="#G" n="18"/>tanto magis formido minuitur. Propter quod ait Poctius 
+      <lb ed="#G" n="19"/>Argumentum est ratio rei dubiae faciens fidem. Et appel 
+      <lb ed="#G" n="20"/>lat ibi argumentum, rationem topicam generantem opi- 
+      <lb ed="#G" n="21"/>nionem. Praeterea, opinio confirmat fidem, ergo potest 
+      <lb ed="#G" n="22"/>stare cum ea. Antecedens probatur, quia videns Christum 
+      <lb ed="#G" n="23"/>mortuos suscitare, habet probabile argumentum, &amp; per 
+      <lb ed="#G" n="24"/>consequens opinionem, quod ipse sit Deus, &amp; mentiri non 
+      <lb ed="#G" n="25"/>possit, quo posito confirmatur in eo articulus trinitatis 
+      <lb ed="#G" n="26"/>quia Christus fecit mentionem de patre, &amp; filio, &amp; spititu 
+      <lb ed="#G" n="27"/>sancto. Sciendum tamen, quod opinio dupliciter potest conside 
+      <lb ed="#G" n="28"/>rari. Vno modo, secundum quod opinans existimat id, di 
+      <lb ed="#G" n="29"/>quo est opinio, posse aliter se habere. Et vt sic opinio 
+      <lb ed="#G" n="30"/>nec potest simul stare cum fide, nec cum scientia. Et illu 
+      <lb ed="#G" n="31"/>modo, ait philosophus. 1. posteriorum, quod idem homo 
+      <lb ed="#G" n="32"/>non potest simul de eodem habere scientiam, &amp;
+      opinio<lb ed="#G" n="33" break="no"/>nem: Alio modo, accipitur opinio, secundum quod opi- 
+      <lb ed="#G" n="34"/>nans per medium probabile, concludit aliquid sic esse, non 
+      <lb ed="#G" n="35"/>actualiter attendens vtrum aliter, vel non aliter possit se 
+      <lb ed="#G" n="36"/>habere. Et sic opinio potest simul stare tam cum fide, quam 
+      <lb ed="#G" n="37"/>cum scientia, alias enim frustra Aristo. saepius adduxisse 
+      <lb ed="#G" n="38"/>rationes probabiles, postquam adduxerat ad eandem con 
+      <lb ed="#G" n="39"/>clusionem rationes necessarias. 
+    </p>
+            <p xml:id="HuYgTa-d1e574-d1e3141">
+               <lb ed="#G" n="40"/>
+               <pc type="indent"/>Ad tertium dicendum, quod possibile non assentire, qui 
+      <lb ed="#G" n="41"/>non possibile non assentire, non contradicunt, nisi suman 
+      <lb ed="#G" n="42"/>tur secundum eundem habitum. 
+    </p>
+            <p xml:id="HuYgTa-d1e574-d1e3152">
+               <lb ed="#G" n="43"/>
+               <pc type="indent"/>Ad quartum dicendum, quod duplex est medium, quod 
+      <lb ed="#G" n="44"/>dam quod virtualiter participat vtrunque extremum, vt 
+      <lb ed="#G" n="45"/>rubrum, quod mediat inter album &amp; nigrum. Aliud es 
+    </p>
+            <p xml:id="HuYgTa-d1e574-d1e3164">
+               <lb ed="#G" n="46"/>
+               <pc type="indent"/>medium large dictum, quod secundum vnam conditio 
+      <lb ed="#G" n="47"/>nem conuenit cum vno extremo, secundum aliam cun 
+      <lb ed="#G" n="48"/>alio, sicut quantitas medium dicitur inter substantiam, qu 
+      <lb ed="#G" n="49"/>qualitatem: conuenit enim cum substantia: quia etiam diui 
+      <lb ed="#G" n="50"/>na virtute separata subiicitur qualitati, conuenit cum qua 
+      <lb ed="#G" n="51"/>litate, quia sibi derelicta, inhaeret substantiae, sicut &amp; qual 
+      <lb ed="#G" n="52"/>tas. Sic &amp; demostratio, quia mediat inter svllogismum proi 
+      <lb ed="#G" n="53"/>babilem, &amp; demonstrationem propter quid, habet enim 
+      <lb ed="#G" n="54"/>maiorem certitudinem, quam ratio probabilis; &amp;
+      mino<lb ed="#G" n="55" break="no"/>rem quam demonstratio propter quid. Et illo secundo 
+      <lb ed="#G" n="56"/>modo sumendo medium; maior est falsa: quia tale medit 
+      <lb ed="#G" n="57"/>non excludit extrema, est tamen illa maior aliquo modi 
+      <lb ed="#G" n="58"/>vera de medio primo modo dicto. Et quia fides est me 
+      <lb ed="#G" n="59"/>dium inter scientiam &amp; opinionem secundo modo, &amp; non 
+      <lb ed="#G" n="60"/>primo, ergo ratio non concludit 
+    </p>
+            <p xml:id="HuYgTa-d1e574-d1e3201">
+               <lb ed="#G" n="61"/>
+               <pc type="indent"/>Forte dicetur, quod eodem modo poterit responderi ac 
+      <lb ed="#G" n="62"/>secundam rationem factam contra Henricum superius 
+      <lb ed="#G" n="63"/>quaestione 2 artic. i¬ 
+    </p>
+            <p xml:id="HuYgTa-d1e574-d1e3212">
+               <lb ed="#G" n="64"/>
+               <pc type="indent"/>lstud non valet, quia medium, quod ponit Henricus,  
+      <lb ed="#G" n="65"/>videtur esse medium primo modo dictum, quod patet pe 
+      <lb ed="#G" n="66"/>exemplum aurorae, quo declarat suum propositum: quia 
+      <lb ed="#G" n="67"/>ibi est medium compositonis, seu participationis: vbi mi 
+      <lb ed="#G" n="68"/>dium sic intenditur respectu vinus extremi, quod remitti 
+      <lb ed="#G" n="69"/>tur respectu alterius extremi: sed sic est de aurora, sicut 
+      <lb ed="#G" n="70"/>patet per deductionem, quam ipsemet facit, ergo &amp;c. Sed 
+      <lb ed="#G" n="71"/>in proposito non est sic: quia per accessum fidei ad
+      scien<lb ed="#G" n="72" break="no"/>tiam: opinio non debilitatur: sed magis fortificatur. 
+    </p>
+            <p xml:id="HuYgTa-d1e574-d1e3236">
+               <lb ed="#G" n="73"/>
+               <pc type="indent"/>Ad quintum dicendum, quod minor non est vera. Ad 
+      <!--63.xml-->
+      <cb ed="#G" n="b"/>
+               <lb ed="#G" n="74"/>probationem dico, quod clare, &amp; obscure videre, in eodem  
+      <lb ed="#G" n="75"/>genere cognitionis sunt opposita: non autem imalio, &amp;  
+      <lb ed="#G" n="76"/>alio: sicut est in proposito: quod patet: quia clara notitia 
+      <lb ed="#G" n="77"/>rerum in verbo, &amp; obscura in proprio genere, non repugnanm 
+    </p>
+            <p xml:id="HuYgTa-d1e574-d1e3256">
+               <lb ed="#G" n="78"/>
+               <pc type="indent"/>Ad sextum dicendum, qued idem subiectum potest esse s 
+      <lb ed="#G" n="79"/>mul perfectum, &amp; imperfectum, secundum diuersa, &amp;
+      de<lb ed="#G" n="80" break="no"/>sperata accidentia: idem enim pomum potest esse simu 
+      <lb ed="#G" n="81"/>perfecte rubrum, &amp; imperfecte dulce: &amp; sic maior non est 
+      <lb ed="#G" n="82"/>vera, &amp; similiter minor deficit, quia intellectus potest di 
+      <lb ed="#G" n="83"/>ci perfectus, tam secundum fidem, quam secundum scier 
+      <lb ed="#G" n="84"/>tiam, quia &amp; fides perfecte perficit modo fidei, &amp; scientia 
+      <lb ed="#G" n="85"/>modo scientiae 
+    </p>
+            <p xml:id="HuYgTa-d1e574-d1e3278">
+               <lb ed="#G" n="86"/>
+               <pc type="indent"/>Ad septimum dicendum, quod illa similitudo non es 
+      <lb ed="#G" n="87"/>ad propositum: quia illae dispositiones oculorum essent eius 
+      <lb ed="#G" n="88"/>dem speciei: &amp; ideo haberent repugnantiam materialem  
+      <lb ed="#G" n="89"/>&amp; simul in eodem subiecto esse non possent: non autem 
+      <lb ed="#G" n="90"/>sic est de fide, &amp; scientia, vt patet per iam dicta. 
+    </p>
+            <p xml:id="HuYgTa-d1e574-d1e3295">
+               <lb ed="#G" n="91"/>
+               <pc type="indent"/>Ad octauum, dicendum, quod Iy solum, vel tenet se ex 
+      <lb ed="#G" n="92"/>parte fidei vt sit sensus, quod fides quantum est de se non 
+      <lb ed="#G" n="93"/>habet aliunde, vnde faciat assensum, nisi per auctoritatem 
+      <lb ed="#G" n="94"/>&amp; sic maior aliquo modo est vera: vel se tenet ex parte ha 
+      <lb ed="#G" n="95"/>bentis fidem, vt sit sensus, quod habens fidem non possit 
+      <lb ed="#G" n="96"/>aliter adhaerere, nisi per auctoritatem, &amp; sic est falsa. 
+    </p>
+            <p xml:id="HuYgTa-d1e574-d1e3313">
+               <lb ed="#G" n="97"/>
+               <pc type="indent"/>Ad nonum dicendum, quod maior non est vera, quis 
+      <lb ed="#G" n="98"/>rubrum, &amp; dulce sunt eiusdem generis etiam propinqui  
+      <lb ed="#G" n="99"/>&amp; subalterni, &amp; tamen idem potest esse perfecte rubrum 
+      <lb ed="#G" n="100"/>&amp; imperfecte dulce: si autem per idem genus intelligis 
+      <lb ed="#G" n="101"/>eandem speciem, tunc minor est falsa: quia assensus fidei, 
+      <lb ed="#G" n="102"/>&amp; assensus scientiae differunt specie sicut, &amp; fides, &amp;
+      scien<lb ed="#G" n="103" break="no"/>tia: quia in per se ordinatis non potest esse maior differen 
+      <lb ed="#G" n="104"/>tia in causis, quam in causatis. 
+    </p>
+            <p xml:id="HuYgTa-d1e574-d1e3335">
+               <lb ed="#G" n="105"/>
+               <pc type="indent"/>Ad decimum dicendum, quod consequens non est falsum 
+      <lb ed="#G" n="106"/>ambae enim probationes falsum assumunt. Prima, quia ni 
+      <lb ed="#G" n="107"/>hil obstat idem mobile, simul habere perfectam &amp; imper 
+      <lb ed="#G" n="108"/>fectam inclinationem, respectu tamen diuersorum: sicu 
+      <lb ed="#G" n="109"/>idem plumbum potest habere perfectam inclinationem 
+      <lb ed="#G" n="110"/>ad descendendum deorsum, ratione suae grauitatis, cum 
+      <lb ed="#G" n="111"/>sit quasi grauissimum metallorum, &amp; vnumquodque, quanto 
+      <lb ed="#G" n="112"/>prauius tanto perfectius inclinatur ad terminum, qui ess 
+      <lb ed="#G" n="113"/>deorsum: eidem tamen plumbo potest, respectu eiusdem  
+      <lb ed="#G" n="114"/>termini, competere inclinatio imperfecta ratione figurae 
+      <lb ed="#G" n="115"/>uta si sit latae figurae: quia vt testatur philosophus in pho 
+      <lb ed="#G" n="116"/>ficis, figura lata retardat motum. Secundo deficit
+      secun<lb ed="#G" n="117" break="no"/>da probatio, quia vnum &amp; idem potest esse causa &amp;
+      causa<lb ed="#G" n="118" break="no"/>tum, vt patet. 2. physic. Dato igitur quod talis res in quam 
+      <lb ed="#G" n="119"/>tum est causata, demonstretur per omnes suas causas, qu 
+      <lb ed="#G" n="120"/>er consequens potissime, &amp; a priori: diceres, quod eadem res 
+      <lb ed="#G" n="121"/>in quantum est causa, non possit notificari, &amp;
+      demonstra<lb ed="#G" n="122" break="no"/>ria posteriori demonstratione, quia esset quasi ignorare 
+      <lb ed="#G" n="123"/>scientiam libri posteriorum 
+    </p>
+            <p xml:id="HuYgTa-d1e574-d1e3381">
+               <lb ed="#G" n="124"/>
+               <pc type="indent"/>Ad vndecimum dicendum, quod minor tripliciter
+      de<lb ed="#G" n="125" break="no"/>ficit. Primo, quia, vt patuit, formido non est de intrinseca 
+      <lb ed="#G" n="126"/>rati one opinionis: non enim distinguitur opinio a scientia 
+      <lb ed="#G" n="127"/>per formidinem: vel fides per ineuidentiam: sed
+      distin<lb ed="#G" n="128" break="no"/>guuntur ad inuicem, quia scientia innascitur per rationem 
+      <lb ed="#G" n="129"/>necessariam, opinio per probabilem, fides vero per
+      aucto<lb ed="#G" n="130" break="no"/>ritatem  
+    </p>
+            <p xml:id="HuYgTa-d1e574-d1e3401">
+               <lb ed="#G" n="131"/>
+               <pc type="indent"/>Secundo qua, quado opinio augetur, formido diminuitu 
+      <lb ed="#G" n="132"/>Tertio, quia opinio est quidam habitus positiuus,
+      for<lb ed="#G" n="133" break="no"/>mido autem est quid priuatiuum. 
+    </p>
+            <p xml:id="HuYgTa-d1e574-d1e3412">
+               <lb ed="#G" n="134"/>
+               <pc type="indent"/>Has autem tres instantias videntes aliquo modo
+      illi<lb ed="#G" n="135" break="no"/>quorum est ratio iam dicta, nituntur eas tollere
+      quan<lb ed="#G" n="136" break="no"/>tum possunt 
+    </p>
+            <p xml:id="HuYgTa-d1e574-d1e3424">
+               <lb ed="#G" n="137"/>
+               <pc type="indent"/>Ad primum igitur dicunt, quod eo ipso; quod facit adhaereri 
+      <lb ed="#G" n="138"/>er medium probabile, sequitur necessario, quod illa adhae 
+      <lb ed="#G" n="139"/>sio sit incerta, &amp; formidolosa 
+      <lb ed="#G" n="140"/>Sed illud non valet, quia illa formido non inest opi- 
+      <lb ed="#G" n="141"/>nantis intellectui ratione probabilitatis ipsius opinionis 
+      <lb ed="#G" n="142"/>praecise, sed ratione carentiae habitus scientifici, vel fidei, 
+      <lb ed="#G" n="143"/>quae faciunt firmiter adhaerere. Vnde formido non solum 
+      <lb ed="#G" n="144"/>non est de intrinseca ratione opinionis, sed nec etiam  
+      <lb ed="#G" n="145"/>praecise, &amp; per se sequitur ad positionem opinionis: sed per 
+      <lb ed="#G" n="146"/>se sequitur ad priuationem, siue carentiam scientiae, vel al 
+      <!--64.xml-->
+      <pb ed="#G" n="13-r"/>
+               <cb ed="#G" n="a"/>
+               <lb ed="#G" n="1"/>terius habitus per se facientis firmiter adherere, cuius 
+      <lb ed="#G" n="2"/>manifestum signum esse potest, quia dato, quod
+      intelle<lb ed="#G" n="3" break="no"/>ctus non haberet opinionem respectu alicuius conclusio 
+      <lb ed="#G" n="4"/>nis, non propter hoc minorem pateretur formidinem ad 
+      <lb ed="#G" n="5"/>haerendi; dum tantummodo careat scientia, &amp; alijs
+      ha<lb ed="#G" n="6" break="no"/>bitibus facientibus firmiter adhaerere. De intrinseca igi 
+      <lb ed="#G" n="7"/>tur ratione opinionis non est, nisi quod faciat probabili 
+      <lb ed="#G" n="8"/>ter adhaerere: formido autem est sibi quid extrinsecum 
+      <lb ed="#G" n="9"/>quia aduenit intellectui opinantis ratione carentiae
+      ha<lb ed="#G" n="10" break="no"/>bituum praedictorum, propter quod illis habitibus positis 
+      <lb ed="#G" n="11"/>tollitur ipsa formido, etiam opinione permanente 
+    </p>
+            <p xml:id="HuYgTa-d1e574-d1e3481">
+               <lb ed="#G" n="12"/>
+               <pc type="indent"/>Ad secundum dicunt, quod augmentum adueniens 
+      <lb ed="#G" n="13"/>opinioni cum diminutione formidinis, non competit es 
+      <lb ed="#G" n="14"/>secundum quod est opinio, sed secundum quod est via in 
+      <lb ed="#G" n="15"/>scientiam, vel fidem 
+    </p>
+            <p xml:id="HuYgTa-d1e574-d1e3494">
+               <lb ed="#G" n="16"/>
+               <pc type="indent"/>Sed illud bene volo tecum: cum hac tamen additione. 
+      <lb ed="#G" n="17"/>quod sicut opinioni conuenit diminuta formido, non vt 
+      <lb ed="#G" n="18"/>opinio est, sed vt via in scientiam: sic etiam magna formi 
+      <lb ed="#G" n="19"/>do, &amp; quaelibet alia formido sibi conueniet: non vt est opi 
+      <lb ed="#G" n="20"/>nio, sed vt est via in habitus supradictos: quia formido 
+      <lb ed="#G" n="21"/>magna sibi conueniet, vt est via longa, multum distans a 
+      <lb ed="#G" n="22"/>scientia: formido parua, vt est via breuis modicum distans 
+      <lb ed="#G" n="23"/>a scientia medioeris, vt mediocris, &amp; sic de alijs. Et ex hoc 
+      <lb ed="#G" n="24"/>apparet, quod nulla formido opinioni erit essentialis, q&amp; 
+      <lb ed="#G" n="25"/>intrinseca: quia nulla sibi conuenit: vt opinio est 
+    </p>
+            <p xml:id="HuYgTa-d1e574-d1e3520">
+               <lb ed="#G" n="26"/>
+               <pc type="indent"/>Ad tertium dicunt, quod illa instantia procedit ex fal 
+      <lb ed="#G" n="27"/>sa imaginatione: puta enim, quod formido sit quaedam pri 
+      <lb ed="#G" n="28"/>uatio annexa opinioni: vel enigma sit quedam priuatio 
+      <lb ed="#G" n="29"/>annexa fidei, sic autem non est: sed formido in opinion 
+      <lb ed="#G" n="30"/>est ipsamet opinio, quae nihil aliud est essentialiter, quan 
+      <lb ed="#G" n="31"/>habitus formidolosus: &amp; eodem modo de enigmate, &amp; fi 
+      <lb ed="#G" n="32"/>de: quia si enigma esset priuatio annexa fidei, tunc lumer 
+      <lb ed="#G" n="33"/>fidei posset transferri ab esse enigmatico ad esse clarum 
+      <lb ed="#G" n="34"/>quia subiectum potest transferri a priuatione, &amp; sic lumen 
+      <lb ed="#G" n="35"/>fideim esset lumen gloriae: &amp; pari ratione, lumen gloriae
+      pos<lb ed="#G" n="36" break="no"/>set transferri a sua claritate ad obscuritatem fidei: quia su 
+      <lb ed="#G" n="37"/>biectum potest transferri ab habitu in priuationem 
+    </p>
+            <p xml:id="HuYgTa-d1e574-d1e3551">
+               <lb ed="#G" n="38"/>
+               <pc type="indent"/>Sed nec illud valet, quia talis priuatio non fundatur 
+      <lb ed="#G" n="39"/>in lumine fidei, sed fundatur in intellectu hominis habe 
+      <lb ed="#G" n="40"/>tis fidem: &amp; ideo non sequitur, quod lumen fidei possii 
+      <lb ed="#G" n="41"/>trans ferri in luminis gloriae claritatem, vel econuerso, lu 
+      <lb ed="#G" n="42"/>men gloriae in enigma fidei: sed bene sequitur, quod Deu 
+      <lb ed="#G" n="43"/>dans apertam visionem, siue lumen gloriae, tollit ab inte 
+      <lb ed="#G" n="44"/>lectu huiusmodi tenebram, siue enigma, vel priuationem. E 
+      <lb ed="#G" n="45"/>iterum si Deus auferret lumen gloriae, huiusmodi intello 
+      <lb ed="#G" n="46"/>ctus subijceretur tali tenebrae prout primo, manente sem 
+      <lb ed="#G" n="47"/>per lumine gloriae secundum suam substantiam penitu 
+      <lb ed="#G" n="48"/>non mutato 
+    </p>
+            <p xml:id="HuYgTa-d1e574-d1e3580">
+               <lb ed="#G" n="49"/>
+               <pc type="indent"/>Per praedicta etiam patet, qualiter sit respondendum 
+      <lb ed="#G" n="50"/>ad aliquas sanctorum auctoritates, quae predictae
+      conclu<lb ed="#G" n="51" break="no"/>sioni videntur repugnare, puta cum dicitur per
+      <name xml:id="HuYgTa-d1e574-Nd1e3590" ref="#Augustine">Augusti<lb ed="#G" n="52" break="no"/>num</name>. Fides e credere, quod non vides. Et Grego. Fides non  
+      <lb ed="#G" n="53"/>habet meritum, vbi ratio humana praebet experimentum 
+      <lb ed="#G" n="54"/>Et ad <ref xml:id="HuYgTa-d1e574-Rd1e3600">Hebr. 11.</ref> dicitur, quod <quote xml:id="HuYgTa-d1e574-Qd1e3603" source="http://scta.info/resource/hebr11_1">fides est substantia
+      speran<lb ed="#G" n="55" break="no"/>darum rerum, argumentum non apparentium</quote>: vbi dicit 
+      <lb ed="#G" n="56"/>gloss. Sic de visis non est fides, sed agnitio, quod autem
+      cre<lb ed="#G" n="57" break="no"/>ditur non videtur. Nam &amp; Thomas cui dictum est. Quia 
+      <lb ed="#G" n="58"/>vidisti me, Thoma credidisti, non hoc credidit, quod vi 
+      <lb ed="#G" n="59"/>dit: sed aliud vidit, aliud credidit, vidit enim hominem 
+      <lb ed="#G" n="60"/>sed credidit Deum. Item, Ex parte 1, ad Coriut credimus 
+      <lb ed="#G" n="61"/>&amp; ex parte prophetamus: cum autem venerit quod perfu 
+      <lb ed="#G" n="62"/>ctum est: euacuabitur quod ex parte es 
+    </p>
+            <p xml:id="HuYgTa-d1e574-d1e3625">
+               <lb ed="#G" n="63"/>
+               <pc type="indent"/>Ad primum dico, quod per hoc vult <name xml:id="HuYgTa-d1e574-Nd1e3631" ref="#Augustine">Augustinus</name>, quod 
+      <lb ed="#G" n="64"/>veram fidem in via habere possimus sine aperta visione 
+      <lb ed="#G" n="65"/>sed quod fides non possit simul esse cum habitu scientiae 
+      <lb ed="#G" n="66"/>mediante quo, licet non mediante fide possit intellectus 
+      <lb ed="#G" n="67"/>elicere claram visionem, hoc non habes per verba <name xml:id="HuYgTa-d1e574-Nd1e3643" ref="#Augustine">August.</name> 
+            </p>
+            <p xml:id="HuYgTa-d1e574-d1e3647">
+               <lb ed="#G" n="68"/>
+               <pc type="indent"/>Ad secundum patet: quia in patria non meremur. 
+      <lb ed="#G" n="69"/>Ad tertium dicedum quod tam Apostolus, quam gloss, 
+      <lb ed="#G" n="70"/>loquuntur de fide prout est in viatore, &amp; de facto: sed non 
+      <lb ed="#G" n="71"/>prout est in comprehensore, vel etiam de possibli in via 
+      <lb ed="#G" n="72"/>tore, quia, vt supra patuit, clara visio de potentia Dei ab  
+      <lb ed="#G" n="73"/>soluta posset communicari viatori: quo de facto, talis via¬ 
+      <!--64.xml-->
+      <cb ed="#G" n="b"/>
+               <lb ed="#G" n="74"/>tor non perderet de necessitate habitum fidei, sicut nec 
+      <lb ed="#G" n="75"/>modo in patria 
+    </p>
+            <p xml:id="HuYgTa-d1e574-d1e3673">
+               <lb ed="#G" n="76"/>
+               <pc type="indent"/>Ad quartum dicunt quidam, quod euacu abitur
+      quan<lb ed="#G" n="77" break="no"/>tum ad id, quod est imperfectionis, tamen manet
+      quan<lb ed="#G" n="78" break="no"/>tum ad substantiam, &amp; perfectionem. 
+    </p>
+            <p xml:id="HuYgTa-d1e574-d1e3684">
+               <lb ed="#G" n="79"/>
+               <pc type="indent"/>Sed nisi aliud dicatur, tunc non apparet quomodo fi- 
+      <lb ed="#G" n="80"/>des magis euacuetur, quam caritas: quia etiam ipsa
+      cari<lb ed="#G" n="81" break="no"/>tas cuacuatur quantum ad imperfectionem sibi annexam 
+      <lb ed="#G" n="82"/>in via, puta quantum ad tepiditatem, vel remissionem
+      fer<lb ed="#G" n="83" break="no"/>uoris, quia in patria erit in pleno feruore 
+    </p>
+            <p xml:id="HuYgTa-d1e574-d1e3700">
+               <lb ed="#G" n="84"/>
+               <pc type="indent"/>Dicedum est igitur, quod aliter euacuatur fides, quam 
+      <lb ed="#G" n="85"/>caritas: quia fides cessabit quantum ad actum credendi, licet 
+      <lb ed="#G" n="86"/>non quantum ad habitum. Sed caritas nec cessabit quan 
+      <lb ed="#G" n="87"/>tum ad actum, nec quantum ad habitum. 
+    </p>
+            <p xml:id="HuYgTa-d1e574-d1e3713">
+               <lb ed="#G" n="88"/>
+               <pc type="indent"/>Sed Forte dices, quod frustra ponitur talis habitus, qui 
+      <lb ed="#G" n="89"/>numquam erit in actu¬ 
+    </p>
+            <p xml:id="HuYgTa-d1e574-d1e3723">
+               <lb ed="#G" n="90"/>
+               <pc type="indent"/>Dico, quod non est frustra, quia ponetur ad
+      perfectio<lb ed="#G" n="91" break="no"/>nem, &amp; decorem ipsius animae, sicut etiam multa
+      ponen<lb ed="#G" n="92" break="no"/>tur in corpore glorificato, non propter aliqua opera, sed 
+      <lb ed="#G" n="93"/>propter decorem corporalem: sic etiam in proposito. Om 
+      <lb ed="#G" n="94"/>nis enim habitus animae sanctae est quidam decor animae. 
+      <lb ed="#G" n="95"/>Et sicut post resurrectionem mortuorum anima beata erit 
+      <lb ed="#G" n="96"/>decorata habitibus temperantiae, &amp; fortitudinis: non
+      ta<lb ed="#G" n="97" break="no"/>nen erunt operationes talium habituum, quia anima 
+      <lb ed="#G" n="98"/>beata non habet materiam, in quam agat secundum
+      ta<lb ed="#G" n="99" break="no"/>les habitus: sic in proposito, ergo &amp;c. Item, dato, quod ali 
+      <lb ed="#G" n="100"/>uo modo possimus in patria elicere actum creditiuum 
+      <lb ed="#G" n="101"/>mediante fide, adhuc possumus saluare maiorem euacua 
+      <lb ed="#G" n="102"/>tionem in patria tam quo ad fidem, quam quo ad catitatem:  
+      <lb ed="#G" n="103"/>quia fides ceuacuatur quantum ad actus necessitatem, non 
+      <lb ed="#G" n="104"/>autem caritas. Actus. eni fidei, stante clara visione, non est 
+      <lb ed="#G" n="105"/>necessarius: actus autem caritatis erit necessarius: quia
+      si<lb ed="#G" n="106" break="no"/>ne eo impossibile est, esse hominem perfecte beatum. Si 
+      <lb ed="#G" n="107"/>cut igitur scientia rerum creatarum in proprio genere 
+      <lb ed="#G" n="108"/>manet in patria:, &amp; quantum ad actu, &amp; quantum ad habitum quida 
+      <lb ed="#G" n="109"/>actus ille secundum <name xml:id="HuYgTa-d1e574-Nd1e3770" ref="#Augustine">August.</name> est notitia, siue visio vesper 
+      <lb ed="#G" n="110"/>tina, &amp; tamen dicit Apostolus. Siue prophetiae cessabunt 
+      <lb ed="#G" n="111"/>siue scientia destruetur: attendens quod huiusmodi scientia 
+      <lb ed="#G" n="112"/>destruetur quantum ad necessitate actus: quia ille actu 
+      <lb ed="#G" n="113"/>non est necessarius in patria: vbi eedem res multo
+      cla<lb ed="#G" n="114" break="no"/>rius videntur in verbo, siue in diuina essentia: quam in 
+      <lb ed="#G" n="115"/>proprio genere: sic eodem modo dicere possumus de fi- 
+      <lb ed="#G" n="116"/>dei euacuatione, quod fiat quantum ad necessitatem actus,  
+      <lb ed="#G" n="117"/>non autem quantum ad actum, vel habitum secundum 
+      <lb ed="#G" n="118"/>se sumptum. Dixi autem notanter, si liceret, quia illud 
+      <lb ed="#G" n="119"/>pro nunc non licet ponere, propter nouum statutum Pa 
+      <lb ed="#G" n="120"/>pae henedicti; in quo dicitur, quod visio diuinae essentiae eiu 
+      <lb ed="#G" n="121"/>que fruitio actus fidei, &amp; spei euacuant in beatis: prout fi- 
+      <lb ed="#G" n="122"/>des, &amp; spes proprie theologicae sunt virtutes. 
+    </p>
+            <p xml:id="HuYgTa-d1e574-d1e3802">
+               <lb ed="#G" n="123"/>
+               <pc type="indent"/>ARTICVLVS I 
+      <lb ed="#G" n="124"/>Vtrum Fides, &amp; opimo sint compossi¬ 
+    </p>
+            <p xml:id="HuYgTa-d1e574-d1e3811">
+               <lb ed="#G" n="125"/>
+               <pc type="indent"/>bilia circa idem 
+      <lb ed="#G" n="126"/>VANTVM ad tertium articulum. Transeo: quia 
+      <lb ed="#G" n="127"/>in isto secundo articulo satis tactum est, quomo 
+      <lb ed="#G" n="128"/>do fides, &amp; opinio possunt simul stare Potest etiam de
+      ho<lb ed="#G" n="129" break="no"/>ficri mentio specialis in tertio libro, cum tractabo de ha 
+      <lb ed="#G" n="130"/>bitu intellectus. 
+    </p>
+            <p xml:id="HuYgTa-d1e574-d1e3829">
+               <lb ed="#G" n="131"/>
+               <pc type="indent"/>ARTICVLVS IIII. 
+      <lb ed="#G" n="132"/>Quid sit obiectum adaequatum nostri intellectus. 
+    </p>
+            <p xml:id="HuYgTa-d1e574-d1e3838">
+               <lb ed="#G" n="133"/>
+               <pc type="indent"/>VANTVM ad quartum articulum. Est breuiter 
+    </p>
+            <p xml:id="HuYgTa-d1e574-d1e3845">
+               <lb ed="#G" n="134"/>
+               <pc type="indent"/>aduertendum, quod secundum duplicem capaci 
+      <lb ed="#G" n="135"/>tatem intellectus, dupliciter loqui possumus de eius obie 
+      <lb ed="#G" n="136"/>cto adaequato. Possumus enim considerare intellectunm 
+      <lb ed="#G" n="137"/>humanum secundum suam capacitate naturalem, preci 
+      <lb ed="#G" n="138"/>sum ab omni dispositone, siue infiuentia supernaturali. 
+      <!--65.xml-->
+      <pb ed="#G" n="13-v"/>
+               <cb ed="#G" n="a"/>
+               <lb ed="#G" n="1"/>Alio modo, secundum suam potentiam, siue capacitatem 
+      <lb ed="#G" n="2"/>obedientialem, puta quantum sine contradictione
+      intel<lb ed="#G" n="3" break="no"/>lectus possit recipere, Deo influente, &amp; supernaturaliter 
+      <lb ed="#G" n="4"/>cooperante. Et secundum hoc duplex habebit obiectum 
+      <lb ed="#G" n="5"/>adaequatum. Si enim sumitur primo modo, tunc
+      dico<lb ed="#G" n="6" break="no"/>quod eius obiectum adaequatum est ens fantasiabile
+      me<lb ed="#G" n="7" break="no"/>diate, vel immediate. Et appello ens fantasiabile
+      imme<lb ed="#G" n="8" break="no"/>diate, quod proprie cadit sub fantasmate. Sed mediate 
+      <lb ed="#G" n="9"/>cuius cognitio argutiue, vel illatiue, vel quocumque alio 
+      <lb ed="#G" n="10"/>modo deducibilis est ex fantasmate, siue ex notitia eius,  
+      <lb ed="#G" n="11"/>quod proprie cadit sub fantalimate. Si autem capacitas in 
+      <lb ed="#G" n="12"/>tellectus sumitur secundo modo, tunc dico, quod eius 
+      <lb ed="#G" n="13"/>obiectum adaequatum est ens inquantum ens, siue ens 
+      <lb ed="#G" n="14"/>vniuersaliter sumptum, comprehendens creaturam &amp; 
+      <lb ed="#G" n="15"/>creatorem, creatum, &amp; creabile¬ 
+    </p>
+            <p xml:id="HuYgTa-d1e574-d1e3901">
+               <lb ed="#G" n="16"/>
+               <pc type="indent"/>Conclusionem primam probo sic. 
+      <lb ed="#G" n="17"/>lllud est nostri intellectus secundum suam capacitate 
+      <lb ed="#G" n="18"/>naturalem obiectum adaequatum, quod omne id claudit,  
+      <lb ed="#G" n="19"/>&amp; comprehendit infra ambitum suae continentiae, quod 
+      <lb ed="#G" n="20"/>intellectus naturaliter potest cognoscere, &amp; nihil tamen 
+      <lb ed="#G" n="21"/>comprehendit, in cuius notitiam naturaliter intellectus 
+      <lb ed="#G" n="22"/>non possit deuenire. Sed ens fantasiabile tam mediate, 
+      <lb ed="#G" n="23"/>quam immediate est huiusmodi, ergo &amp;c. Maior patet. 
+      <lb ed="#G" n="24"/>quia inter adaequata nec debet esse excedens, nec
+      exces<lb ed="#G" n="25" break="no"/>sum. Minorem probo: quia nihil est in intellectu: quin 
+      <lb ed="#G" n="26"/>prius fuerit in sensu: quod est verum vel mediate, vel im 
+      <lb ed="#G" n="27"/>mediate: ergo omne, quod intelligitur (naturaliter
+      lo<lb ed="#G" n="28" break="no"/>quendo) oportet, quod aliquo modo sit fantasiabile. Oim 
+      <lb ed="#G" n="29"/>ne etiam tale est ab intellectu nostro cognoscibile, vt pa 
+      <lb ed="#G" n="30"/>tet. 3. de anima. 
+    </p>
+            <p xml:id="HuYgTa-d1e574-d1e3938">
+               <lb ed="#G" n="31"/>
+               <pc type="indent"/>pecundam conclusionem probo sic. 
+      <lb ed="#G" n="32"/>lllud est obiectum adaequatum nostri inte llectus
+      se<lb ed="#G" n="33" break="no"/>cundum suam aptitudinem, seu capacitatem obedientia 
+      <lb ed="#G" n="34"/>lem respectu diuinae potentiae, quod omne id ambit, &amp; 
+      <lb ed="#G" n="35"/>comprehendit, quod Deus potest nostro intellectui reue 
+      <lb ed="#G" n="36"/>lare, &amp; quod mediante diuina potentia noster intellectus 
+      <lb ed="#G" n="37"/>pot cognoscere, sed ens inquantum ens est huiusmodi: er 
+      <lb ed="#G" n="38"/>go &amp;c. Maior nota est ex superiori declaratione. Minorem 
+      <lb ed="#G" n="39"/>probo: quia Deus seipsum potest reuelare intellectui, vt 
+      <lb ed="#G" n="40"/>patuit superius, &amp; etiam fide tenemus, ergo multo magis 
+      <lb ed="#G" n="41"/>quodcumque aliud ens creatum, vel creabile Deus illi 
+      <lb ed="#G" n="42"/>poterit reuclare. Etiam ipse intellectus est in potentia 
+      <lb ed="#G" n="43"/>obedientiali, ad cognoscendum Deum per essentiam, vt 
+      <lb ed="#G" n="44"/>patet ex predictis; ergo multo magis erit in tali
+      poten<lb ed="#G" n="45" break="no"/>tia respectu omnis entis tam creati, quam creabilis.  
+    </p>
+            <p xml:id="HuYgTa-d1e574-d1e3975">
+               <lb ed="#G" n="46"/>
+               <pc type="indent"/>Sed forte dicetur, quod ego dictis superius
+      contradi<lb ed="#G" n="47" break="no"/>cam: quia in prima quaestione dixi, quod Deus non potest 
+      <lb ed="#G" n="48"/>esse subiectum in theologia nostra sub ratione absoluta 
+      <lb ed="#G" n="49"/>siue infinita: quia alias nostra scientia aequaretur scientia 
+      <lb ed="#G" n="50"/>Dei: quia sub ratione infinita omnia
+      comprehenderen<lb ed="#G" n="51" break="no"/>tur: puta Deus, &amp; creatura, creatum, &amp; creabile, hic auten 
+      <lb ed="#G" n="52"/>illud pono, ergo contradico. 
+    </p>
+            <p xml:id="HuYgTa-d1e574-d1e3995">
+               <lb ed="#G" n="53"/>
+               <pc type="indent"/>Respondeo dupliciter. Vno modo sic, quia intellectu 
+      <lb ed="#G" n="54"/>beatum posse scire omnia, dupliciter potest intelligi. Vno 
+      <lb ed="#G" n="55"/>modo simul, &amp; semel, &amp; illo modo fuit negatum superius 
+      <lb ed="#G" n="56"/>Deum esse subiectum scientiae creatae sub infinita, &amp;
+      ab<lb ed="#G" n="57" break="no"/>soluta ratione deitatis: quia quicumque intellectus com 
+      <lb ed="#G" n="58"/>prehendit perfecte illam abyssalem rationem deitatis, il 
+      <lb ed="#G" n="59"/>le cognoscit omnia simul, cum ergo beati saltem
+      intuiti<lb ed="#G" n="60" break="no"/>se comprehendant rationem subiecti theologiae, &amp; per 
+      <lb ed="#G" n="61"/>consequens perfecte ipsi omnia simul cognoscerent, &amp; 
+      <lb ed="#G" n="62"/>sic aequarentur Deo. Alio modo possumus dicere, intelle 
+      <lb ed="#G" n="63"/>ctum obedienter posse snia, non simul, sed vnum 
+      <lb ed="#G" n="64"/>quodque per se; sicut Deus per suam voluntatem
+      volue<lb ed="#G" n="65" break="no"/>rit reuelare: &amp; illo modo hic pono; nec hoc
+      praecedenti<lb ed="#G" n="66" break="no"/>bus in aliquo contradicit. 
+    </p>
+            <p xml:id="HuYgTa-d1e574-d1e4030">
+               <lb ed="#G" n="67"/>
+               <pc type="indent"/>becundo possum dicere, quod loquendo de lege
+      com<lb ed="#G" n="68" break="no"/>muni: ipsa creabilia cum dependeant a mera Dei liberta 
+      <lb ed="#G" n="69"/>te, non cognoscuntur ab aliquo intellectu creato, sed
+      ip<lb ed="#G" n="70" break="no"/>so Deo reuelante omnia talia ab intellectu nostro sunt 
+      <lb ed="#G" n="71"/>cognoscibilia, &amp; si nen omnia simul, vnumquodque
+      ta<lb ed="#G" n="72" break="no"/>men per se. Primo modo debent intelligi dicta in prima 
+      <lb ed="#G" n="73"/>quaestione illius prologi. Secundo modo debent intelli¬ 
+      <!--65.xml-->
+      <cb ed="#G" n="b"/>
+               <lb ed="#G" n="74"/>gi illa hic immediate posita. Et sic patet quomodo
+      intel<lb ed="#G" n="75" break="no"/>ligenda est prima ratio principalis istius quaestionis.  
+      <lb ed="#G" n="76"/>Ad argumentum in contrarium dicendum, quod
+      ma<lb ed="#G" n="77" break="no"/>ior est vera, sed minor est falsa, sumendo cognitionem
+      pre<lb ed="#G" n="78" break="no"/>cise sine dilectione, sine qua nullus potest esse beatus: 
+      <lb ed="#G" n="79"/>quia visio non est beatifica absque complacentia volunta 
+      <lb ed="#G" n="80"/>tis concurrente, vel in se, vel in suo aequipollente
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

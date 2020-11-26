@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Circa textum 2</title>
+            <author ref="#ThomasStrasbourg">Thomas of Strasbourg</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Circa textum 2</title>
+               <date when="2020-11-26">November 26, 2020</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="G" n="cod-TxxqU">Genoa 1585</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2020-11-26" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#G" n="29-r"/>
+            <cb ed="#G" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="HuYgTa-e21574"><!-- HuYgTa-l1d2ct2 -->
+            <head xml:id="HuYgTa-e21574-Hd1e108">Circa textum 2</head>
+            <p xml:id="HuYgTa-e21574-d1e111">
+               <lb ed="#G" n="127"/>
+               <pc type="indent"/>ERSONARVM QVO RVE 
+      <lb ed="#G" n="128"/>PLVR ALITATEM, &amp;c. 
+      <lb ed="#G" n="129"/>Postquam magister declarauit
+      di<lb ed="#G" n="130" break="no"/>uinae essentiae vnitatem, hic
+      niti<lb ed="#G" n="131" break="no"/>tur probare personarum pluralita 
+      <lb ed="#G" n="132"/>tem: seu trinitatem. Et
+      diuidi<lb ed="#G" n="133" break="no"/>tur in duas partes: Quia primo  
+      <lb ed="#G" n="134"/>hoc facit auctoritatibus veteris te 
+      <lb ed="#G" n="135"/>stamenti: secundo auctoritatibus 
+      <lb ed="#G" n="136"/>noui testamenti, ibi. Nunc vero prius testimonia, Prima 
+      <lb ed="#G" n="137"/>in duas; quia primo ostendit personarum diuinarum plu 
+      <lb ed="#G" n="138"/>ralitatem, non exprimendo nomina personarum:
+      Secun<lb ed="#G" n="139" break="no"/>do exprimendo alienaliter nomina earum, ibi.
+      Nun<lb ed="#G" n="140" break="no"/>ergo ad propositum. Et haec in duas: quia primo
+      ad<lb ed="#G" n="141" break="no"/>ducit auctoritates sonantes diuinae essentiae vnitatem, &amp; 
+      <lb ed="#G" n="142"/>personarum realem, &amp; vocalem distinctionem: Secundo ma 
+      <!--97.xml-->
+      <pb ed="#G" n="29-v"/>
+               <cb ed="#G" n="a"/>
+               <lb ed="#G" n="1"/>nifestat huiusmodi distinctionem tangendo personarur 
+      <lb ed="#G" n="2"/>diuinarum processionem. Secunda pars incipit ibi. Dauic 
+      <lb ed="#G" n="3"/>quoque. Et haec in duas: quia primo manifestat propositum 
+      <lb ed="#G" n="4"/>per filij generationem, secundo per spititus sancti proces 
+      <lb ed="#G" n="5"/>sionem, ibi. De spiritu sancto etiam expressa. Hic quaero 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

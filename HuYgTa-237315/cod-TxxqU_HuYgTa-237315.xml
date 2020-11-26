@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Circa textum 1</title>
+            <author ref="#ThomasStrasbourg">Thomas of Strasbourg</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Circa textum 1</title>
+               <date when="2020-11-26">November 26, 2020</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="G" n="cod-TxxqU">Genoa 1585</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2020-11-26" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#G" n="-r"/>
+            <cb ed="#G" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="HuYgTa-237315"><!-- HuYgTa-l4d12ct1 -->
+            <head xml:id="HuYgTa-237315-Hd1e108">Circa textum 1</head>
+            <p xml:id="HuYgTa-237315-d1e111">
+               <lb ed="#G" n="103"/>
+               <pc type="indent"/>DISTINCTIO XII. 
+      <lb ed="#G" n="104"/>Absolutissima huius distinctionis diuuisio, in qua
+      agi<lb ed="#G" n="105" break="no"/>
+               <pc type="indent"/>tur de accidentibus panis, ac panis sine 
+      <lb ed="#G" n="106"/>
+               <pc type="indent"/>subiecto conseruatione.
+    </p>
+            <p xml:id="HuYgTa-237315-d1e129">
+               <lb ed="#G" n="107"/>AVTEM QVERITVR. Postquam magi 
+      <lb ed="#G" n="108"/>ster determinauit de panis, &amp; vini in con 
+      <lb ed="#G" n="109"/>pus, &amp; sanguinem Christi admiranda com 
+      <lb ed="#G" n="110"/>uersione: nunc in ista 12. dist. determi- 
+      <lb ed="#G" n="111"/>nat de accidentium panis, &amp; vini, sine
+      sub<lb ed="#G" n="112" break="no"/>iecto mirabili conseruatione. Et
+      diuidi<lb ed="#G" n="113" break="no"/>tur in duas partes: quia primo magister tractat de
+      acci<lb ed="#G" n="114" break="no"/>dentibus in isto sacramento extrinsecus apparentibus. Se 
+      <lb ed="#G" n="115"/>tundo de vtilitatibus intrinsecus existentibus, ibi, Sed 
+      <lb ed="#G" n="116"/>caueat quisque. Prima in duas: quia primo mouet
+      quae<lb ed="#G" n="117" break="no"/>stionem de istorum accidentium existentia. Secundo
+      per<lb ed="#G" n="118" break="no"/>tractat ad eorum fracturam, &amp; diuisionem pertinentiam, 
+      <lb ed="#G" n="119"/>ibi, Solet etiam quaeri de fractione. Prima est praesentis 
+      <lb ed="#G" n="120"/>lectionis. Et diuiditur in duas: quia primo iam dictam  
+      <lb ed="#G" n="121"/>mouet quaestionem. Secundo eius assionat responsionem, 
+      <lb ed="#G" n="122"/>ibi, Potius mihi videtur. Circa istam lectionem in
+      spe<lb ed="#G" n="123" break="no"/>ciali quaero hanc quaestionem 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

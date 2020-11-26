@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Circa textum</title>
+            <author ref="#ThomasStrasbourg">Thomas of Strasbourg</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Circa textum</title>
+               <date when="2020-11-26">November 26, 2020</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="G" n="cod-TxxqU">Genoa 1585</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2020-11-26" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#G" n="-r"/>
+            <cb ed="#G" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="HuYgTa-303484"><!-- HuYgTa-l4d48ct1 -->
+            <head xml:id="HuYgTa-303484-Hd1e108">Circa textum</head>
+            <p xml:id="HuYgTa-303484-d1e111">
+      <!--851.xml-->
+               <cb ed="#G" n="b"/>
+               <lb ed="#G" n="72"/>DISTINCTIO XLVIII 
+      <lb ed="#G" n="73"/>Aperta huius distinctionis duuisio, m qua iuditis con 
+      <lb ed="#G" n="74"/>
+               <pc type="indent"/>ditiones explicantur. 
+    </p>
+            <p xml:id="HuYgTa-303484-d1e127">
+               <lb ed="#G" n="75"/>
+               <pc type="indent"/>OLETETIAM quaeri. Postquam 
+      <lb ed="#G" n="76"/>Magister determinauit de quibusdam 
+      <lb ed="#G" n="77"/>pertinentibus ad iudicarium ordinem 
+      <lb ed="#G" n="78"/>nunc in ista quadragesima octaua di 
+      <lb ed="#G" n="79"/>stinctione determinat de aliquibus 
+      <lb ed="#G" n="80"/>specialiter pertinentibus ad ipsum 
+      <lb ed="#G" n="81"/>iudicem. Et diuiditur in duas partes 
+      <lb ed="#G" n="82"/>E Quia primo tangit iudicis conditio 
+      <lb ed="#G" n="83"/>nes intrinsecas. Secundo innuit quasdam eius conditio 
+      <lb ed="#G" n="84"/>nes extrinsecas, ibi, Putant quidam. Prima in tres. Nam  
+      <lb ed="#G" n="85"/>primo ostendit, quod licet Christus vere habeat forma 
+      <lb ed="#G" n="86"/>diuinam, &amp; humanam, tamen iudicando apparebit in for 
+      <lb ed="#G" n="87"/>ma humana, Secundo inquirit, utrum illa forma humana 
+      <lb ed="#G" n="88"/>appareat in indicio glorificata, vel non glorificata. Et
+      ter<lb ed="#G" n="89" break="no"/>tio incidenter tangit de Christi potentia, quae est mortuo 
+      <lb ed="#G" n="90"/>rum resuscitatiua: Secunda, ibi, Sed cum in forma
+      humana<lb ed="#G" n="91" break="no"/>Tertia, ibi, Et sicut dicitur Christus, Sequitur illa pats, Pu 
+      <lb ed="#G" n="92"/>tant quidam. Et diuiditur in duas partes. Quia primo osten 
+      <lb ed="#G" n="93"/>dit, quomodo Christus ad iudicis locum descendit. Secu 
+      <lb ed="#G" n="94"/>do aliquas scripturas, quae pro tunc verificantur, declarat 
+      <lb ed="#G" n="95"/>&amp; exponit, ibi; veniente aute, Et haec est diuisio, &amp; sentem 
+      <lb ed="#G" n="96"/>tia istius distinctionis in generali, circa quam in speciali 
+      <lb ed="#G" n="97"/>quaero hanc quaestionem, 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

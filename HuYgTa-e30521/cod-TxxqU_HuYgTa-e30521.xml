@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Circa textum</title>
+            <author ref="#ThomasStrasbourg">Thomas of Strasbourg</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Circa textum</title>
+               <date when="2020-11-26">November 26, 2020</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="G" n="cod-TxxqU">Genoa 1585</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2020-11-26" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#G" n="-r"/>
+            <cb ed="#G" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="HuYgTa-e30521"><!-- HuYgTa-l1d5ct1 -->
+            <head xml:id="HuYgTa-e30521-Hd1e108">Circa textum</head>
+            <p xml:id="HuYgTa-e30521-d1e111">
+               <lb ed="#G" n="77"/>
+               <pc type="indent"/>DISTINCTIO V. 
+      <lb ed="#G" n="78"/>preuis admodum, ac distincta diuisio huius
+      distin<lb ed="#G" n="79" break="no"/>ctionis: in qua quidem magister sedulo
+      inqu<lb ed="#G" n="80" break="no"/>rit, an scilicet diuima essentia
+      gene<lb ed="#G" n="81" break="no"/>retur, seu generet.
+    </p>
+            <p xml:id="HuYgTa-e30521-d1e127">
+               <lb ed="#G" n="82"/>
+               <pc type="indent"/>POSTRAEC QVAERITVR &amp;c. 
+      <lb ed="#G" n="83"/>Hic magister quaerit an diuina
+      es<lb ed="#G" n="84" break="no"/>sentia generetur, vel generet. Et 
+      <lb ed="#G" n="85"/>diuiditur in tres partes: quia
+      pri<lb ed="#G" n="86" break="no"/>mo magister proponit praedictas 
+      <lb ed="#G" n="87"/>quaestiones. Secundo respodet ad 
+      <lb ed="#G" n="88"/>eas. Et tertio ostendit quomodo 
+      <lb ed="#G" n="89"/>sint intelligendae auctoritates
+      di<lb ed="#G" n="90" break="no"/>centes, quod filius est genitus de substantia patris. Secunda 
+      <lb ed="#G" n="91"/>ibi. Ad quod catholicis tractatoribus. Tertia ibi, Dicitur 
+      <lb ed="#G" n="92"/>quoque &amp;c. Secunda pars diuiditur in duas. Nam primo 
+      <lb ed="#G" n="93"/>ostendit, quod essentia diuina non generatur. Secundo ostet 
+      <lb ed="#G" n="94"/>dit, quod non generat. Secunda ibi, ltaque etiam non est 
+      <lb ed="#G" n="95"/>dicendum &amp;c. Prima in duas, quia primo ponit suam
+      de<lb ed="#G" n="96" break="no"/>terminationem, &amp; confirmat eam rationibus. Secudo ad 
+      <lb ed="#G" n="97"/>ducit contra se quandam obiectionem, &amp; respondet ad 
+      <lb ed="#G" n="98"/>cam. Secunda ibi. Huic videtur contrarium &amp;c. Tunc
+      se<lb ed="#G" n="99" break="no"/>quitur illa pars. Itaque etiam &amp;c. in qua magister
+      osten<lb ed="#G" n="100" break="no"/>dit, quod essentia diuina non generat, Et diuiditur in duas; 
+      <lb ed="#G" n="101"/>quia primo ostendit magister, quod essentia diuina nec gene 
+      <lb ed="#G" n="102"/>rat essentiam, nec generat filiu, Secudo ex dictis sanctorum
+      o<lb ed="#G" n="103" break="no"/>bijcit incontrarium. ibi Praedictis autem videtur. Et haec diuid 
+      <lb ed="#G" n="104"/>tur in quattuor, quia primo obijcit ex dictis Augu. Secun 
+      <lb ed="#G" n="105"/>do exponit huiusmodi dicta, ostendens ea non esse con 
+      <lb ed="#G" n="106"/>traria praedictae veritati. Tertio obijcit ex dictis Hilarum, 
+      <lb ed="#G" n="107"/>Et quarto ostendit, quomodo verba Hilarii debeant
+      in<lb ed="#G" n="108" break="no"/>telligi, Secunda ibi, Sed haec ita determinamus.
+      Terti<lb ed="#G" n="109" break="no"/>ibi, Huic uero &amp;c. Quarta ibi, Sed quia haec verba. Hic 
+      <lb ed="#G" n="110"/>quaero hanc quaestionem. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Circa textum</title>
+            <author ref="#ThomasStrasbourg">Thomas of Strasbourg</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Circa textum</title>
+               <date when="2020-11-26">November 26, 2020</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="G" n="cod-TxxqU">Genoa 1585</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2020-11-26" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#G" n="P2_41-v"/>
+            <cb ed="#G" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="HuYgTa-191790"><!-- HuYgTa-l3d26ct1 -->
+            <head xml:id="HuYgTa-191790-Hd1e108">Circa textum</head>
+            <p xml:id="HuYgTa-191790-d1e111">
+      <!--553.xml-->
+               <pb ed="#G" n="P2_41-v"/>
+               <cb ed="#G" n="a"/>
+               <lb ed="#G" n="1"/>DISTINCTIO XXVI. 
+      <lb ed="#G" n="2"/>Preuissima huius dictinctionis diuisio, in qua de 
+      <lb ed="#G" n="3"/>babuu spei perspicue pertractatur.
+    </p>
+            <p xml:id="HuYgTa-191790-d1e127">
+               <lb ed="#G" n="4"/>ST AVTEM SPES &amp;c. Postquam Ma 
+      <lb ed="#G" n="5"/>gister determinauit de habitu fidei, hi 
+      <lb ed="#G" n="6"/>prosequitur de habitu spei. Et diuiditur 
+      <lb ed="#G" n="7"/>in tres partes: nam primo Magister 
+      <lb ed="#G" n="8"/>considerat de spe, ipsam accipiendo
+      es<lb ed="#G" n="9" break="no"/>sentialiter, &amp; quidditatiue. Secundo 
+      <lb ed="#G" n="10"/>terminaliter, &amp; obiectiue. Tertio, subiectaliter, &amp; per- 
+      <lb ed="#G" n="11"/>fectiue. Secunda ibi, Et sicut fides &amp;c. Tertia ibi, Poss 
+      <lb ed="#G" n="12"/>hoc superest. Et haec in duas: nam primo inuestigat,
+      v<lb ed="#G" n="13" break="no"/>trum spes subiectiue habuerit esse in Christo, &amp; in
+      bea<lb ed="#G" n="14" break="no"/>tis spiritibus. Secundo, vtrum spes fuerit in antiquis
+      pa<lb ed="#G" n="15" break="no"/>tribus ante Christi resurrectionem in limbo existentibus,  
+      <lb ed="#G" n="16"/>ibi, De antiquis vero patribus. Circa hanc 2c.
+      distinctio<lb ed="#G" n="17" break="no"/>nem quaero hanc quaestionem. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

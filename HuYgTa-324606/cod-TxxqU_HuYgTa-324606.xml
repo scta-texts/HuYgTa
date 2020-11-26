@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Circa textum 2</title>
+            <author ref="#ThomasStrasbourg">Thomas of Strasbourg</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Circa textum 2</title>
+               <date when="2020-11-26">November 26, 2020</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="G" n="cod-TxxqU">Genoa 1585</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2020-11-26" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#G" n="-r"/>
+            <cb ed="#G" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="HuYgTa-324606"><!-- HuYgTa-l4d50ct2 -->
+            <head xml:id="HuYgTa-324606-Hd1e108">Circa textum 2</head>
+            <p xml:id="HuYgTa-324606-d1e111">
+               <lb ed="#G" n="20"/>postremae particule huius postremi voluminis non mu 
+      <lb ed="#G" n="21"/>
+               <pc type="indent"/>tilis subdiuisio, in qua tandem ad comendationem 
+      <lb ed="#G" n="22"/>eorum, quae in us voluminibus tradita sunt, horum 
+      <lb ed="#G" n="23"/>materia sub epilogo retenseti. 
+    </p>
+            <p xml:id="HuYgTa-324606-d1e124">
+               <lb ed="#G" n="24"/>
+               <pc type="indent"/>Ec de pedibus, &amp;c. Postquam magistei 
+      <lb ed="#G" n="25"/>copiose pertractauit suorum quattuor li 
+      <lb ed="#G" n="26"/>brorum matetiam: nuc in ista vltima quan 
+      <lb ed="#G" n="27"/>ti lib clausula epilogat circa eam. Et
+      di<lb ed="#G" n="28" break="no"/>uiditur in duas partes: quia primo magi 
+      <lb ed="#G" n="29"/>ster seipsum humiliat, &amp; auditorem istius 
+      <lb ed="#G" n="30"/>scientiae praefert, &amp; eleuat: secundo materiam istorum
+      li<lb ed="#G" n="31" break="no"/>brorum tangendo recapitulat, ibi. Qui a facie exorsus
+      se<lb ed="#G" n="32" break="no"/>dentis. Et haec in quattuor partes potest diuidi: quia pri 
+      <lb ed="#G" n="33"/>mo magister tangit materiam primi li, secundo secundi. 
+      <lb ed="#G" n="34"/>tertio ipsius quarti, &amp; quarto tertij. Secunda, ibi, Per
+      me<lb ed="#G" n="35" break="no"/>dia. Tertia; ibi; Ad pedes vsque. Quarta, ibi, via duce
+      per<lb ed="#G" n="36" break="no"/>uenit. Tangit enim hic magister materiam primi li, cum
+      di<lb ed="#G" n="37" break="no"/>cit, qui, scilicet scriptor exorsus, 1 incepitla facie sedentis 
+      <lb ed="#G" n="38"/>Per sedentem enim intelligit ipsum Deum, vt patet ex 
+      <lb ed="#G" n="39"/>textu immediate precedenti. Per faciem autem intelligit 
+      <lb ed="#G" n="40"/>ea, quae conueniunt Deo adintra ratione suae deitatis. Deu 
+      <lb ed="#G" n="41"/>quibus specialiter tractatur in. 1. li. Vnde Movses
+      deside<lb ed="#G" n="42" break="no"/>tans illa intranea Dei videre, dixit ipsi Deo: Si ergo
+      inue<lb ed="#G" n="43" break="no"/>ni gratiam in oculis tuis, ostende mihi faciem tuam, vt
+      ha<lb ed="#G" n="44" break="no"/>betur in Exo etiam tangit materiam secudi li cum dicit,  
+      <lb ed="#G" n="45"/>per media. ii per creaturas: creaturae enimide quibus
+      tra<lb ed="#G" n="46" break="no"/>ctatur in 2. li, sunt quaedam media ad cognoscendum ea, qua 
+      <lb ed="#G" n="47"/>Deo conueniunt ad intra: quia sicut ait Apostolus ad Ro 
+      <lb ed="#G" n="48"/>ma. Inuisibilia Dei per ea, quae facta sunt, intellecta
+      con<lb ed="#G" n="49" break="no"/>spiciuntur, sempiterna quoque virtus eius, &amp; deitas. Mate 
+      <lb ed="#G" n="50"/>riam vero tertij libri tangit cum dicit, via duce. In tertio 
+      <lb ed="#G" n="51"/>enim libro tractatur de domino Tesu Christo, qui in loam 
+      <lb ed="#G" n="52"/>nit de seipso. Ego sum uia, ueritas, &amp; uita. Sed materiam 
+      <lb ed="#G" n="53"/>quarti li tangit cum ait, Ad pedes. Omnia n. quae tractan 
+      <lb ed="#G" n="54"/>tur in quarto lib uidentur ordinari ad ea, quae fiunt in ex 
+      <lb ed="#G" n="55"/>tremo iudicio, quod quidem iudicium per pedes sedentis 
+      <lb ed="#G" n="56"/>in throno merito significatur: eo, quod in ipso tamquam  
+      <lb ed="#G" n="57"/>in parte extrema totum praesens saeculum finitur, &amp; termi 
+      <lb ed="#G" n="58"/>natur. Hi autem pedes cherubicis alis perhibentur esse 
+      <lb ed="#G" n="59"/>velatii, absconditi, quia a plenitudine scientiae, quae cheri 
+      <lb ed="#G" n="60"/>bin interpretatur, omnis puri homines respectu istorum 
+      <lb ed="#G" n="61"/>pedum videntur omnino deficere. De hora enim illa,
+      sci<lb ed="#G" n="62" break="no"/>icet de hora iudicij nemo scit, vt ait, Saluator, Maith. Vn 
+      <lb ed="#G" n="63"/>le quatum ad istam horam ipse suis dilectis, &amp; praeelectis 
+      <lb ed="#G" n="64"/>discipulis ait Act. Non est uestrum nosse tempora, uel
+      mo<lb ed="#G" n="65" break="no"/>menta, quae pater posuit in sua potestate. Et notanter ista 
+      <lb ed="#G" n="66"/>alae dicuntur esse duae: quia respectu praedictae horae huma 
+      <lb ed="#G" n="67"/>nus intellectus deficit non solum quo ad naturalem cogni 
+      <lb ed="#G" n="68"/>tionem: sed etiam quo ad supernaturalem reuelationem 
+      <lb ed="#G" n="69"/>quia haec hora nulli puro homini creditur reuelata. Et in 
+      <lb ed="#G" n="70"/>hoc terminatur diuisio, &amp; sententia istius epilogationis., 
+      <!--907.xml-->
+      <cb ed="#G" n="b"/>
+               <lb ed="#G" n="71"/>&amp; per consequens totius quarti libs in gentrali, citea qui 
+      <lb ed="#G" n="72"/>quaerendo in speciali conformiter ad epilogationem magi 
+      <lb ed="#G" n="73"/>stri etiam ego aliqua epilogare propono, quae inlibson 
+      <lb ed="#G" n="74"/>sententiarum principiis contra me sunt repicata. &amp;mai 
+      <lb ed="#G" n="75"/>me ea, quae in illis principijs tacta sunt de beatis, &amp;
+      dam<lb ed="#G" n="76" break="no"/>natis. llla enim pro nunc sunt magis ad propositum: eo,  
+      <lb ed="#G" n="77"/>cum per uentum fuerit ad pedes sedentis in throno in e¬¬ 
+      <lb ed="#G" n="78"/>tremo, siudicio, mali condemnentur, &amp; boni remuneten 
+      <lb ed="#G" n="79"/>tur. Est ergo quaestio talis. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Circa textum</title>
+            <author ref="#ThomasStrasbourg">Thomas of Strasbourg</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Circa textum</title>
+               <date when="2020-11-26">November 26, 2020</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="G" n="cod-TxxqU">Genoa 1585</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2020-11-26" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#G" n="139-r"/>
+            <cb ed="#G" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="HuYgTa-105391"><!-- HuYgTa-l2d3ct1 -->
+            <head xml:id="HuYgTa-105391-Hd1e108">Circa textum</head>
+            <p xml:id="HuYgTa-105391-d1e111">
+               <lb ed="#G" n="109"/>
+               <pc type="indent"/>DISTINCTIO III
+      <lb ed="#G" n="110"/>Resoluta huius distinctionis di iusio, in qua
+      na<lb ed="#G" n="111" break="no"/>
+               <pc type="indent"/>tura, ac perfectiones angelorum 
+      <lb ed="#G" n="112"/>
+               <pc type="indent"/>uiuestigantur.
+    </p>
+            <p xml:id="HuYgTa-105391-d1e129">
+               <lb ed="#G" n="113"/>
+               <pc type="indent"/>CCE OSTENSVM EST &amp;c. 
+      <lb ed="#G" n="114"/>Hic Magister nititur inuestigare 
+      <lb ed="#G" n="115"/>n quali natura angeli suerint crea 
+      <lb ed="#G" n="116"/>ti, &amp; qualibus perfectionibus deco 
+      <lb ed="#G" n="117"/>rati, &amp; diuiditur in partes duas: nam 
+      <lb ed="#G" n="118"/>primo tractat de natura, &amp;
+      perfe<lb ed="#G" n="119" break="no"/>ctione angelorum per comparatio 
+      <lb ed="#G" n="120"/>nem ad culpam &amp; innocentiam: 
+      <lb ed="#G" n="121"/>Secundo per comparationem ad gloriam &amp; miseriam ibi, 
+      <lb ed="#G" n="122"/>Post haec videndum: Prima in duas; quia primo ostendit 
+      <lb ed="#G" n="123"/>quales fuerunt angeli in primordio suae creationis
+      quan<lb ed="#G" n="124" break="no"/>tum ad perfectiones naturales; Secundo quales fu: runt 
+      <lb ed="#G" n="125"/>quantum ad perfectiones morales ibi, lllud quoque &amp;c. 
+      <lb ed="#G" n="126"/>prima in duas: nam primo ostendit in quibusdam natura 
+      <lb ed="#G" n="127"/>libus perfectionibus angelorum differentiam: Secundo 
+      <lb ed="#G" n="128"/>ostendit eorum conuenientiam ibi, Et sicut in praedictis; 
+      <lb ed="#G" n="129"/>Prima est praesentis lectionis, &amp; diuiditur in tres partes; 
+      <lb ed="#G" n="130"/>nam primo quattuor attributa vniuersaliter angelis conue 
+      <lb ed="#G" n="131"/>nientia enumerat, Secundo inuestigat, vtrum talium
+      attri<lb ed="#G" n="132" break="no"/>butorum participatio omnibus angelis aequaliter
+      conue<lb ed="#G" n="133" break="no"/>niat, Tertio huiusmodi inquisitionis veritatem determinat 
+      <lb ed="#G" n="134"/>pecunda ibi, Hic considerandum est. Tertia ibi, llle ergo &amp;c 
+      <!--317.xml-->
+      <pb ed="#G" n="139-v"/>
+               <cb ed="#G" n="a"/>
+               <lb ed="#G" n="1"/>Quia secuudum primum istorum quattuor attributorum 
+      <lb ed="#G" n="2"/>Magister dicit quemlibet angelum habere simplicem
+      es<lb ed="#G" n="3" break="no"/>sentiam: ideo quaero hanc¬ 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

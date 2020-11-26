@@ -1,0 +1,523 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#ThomasStrasbourg">Thomas of Strasbourg</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2020-11-26">November 26, 2020</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="G" n="cod-TxxqU">Genoa 1585</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2020-11-26" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#G" n="P2_40-r"/>
+            <cb ed="#G" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="HuYgTa-190886"><!-- HuYgTa-l3d24et25q1 -->
+            <head xml:id="HuYgTa-190886-Hd1e108">Quaestio 1</head>
+            <head xml:id="HuYgTa-190886-Hd1e111" type="question-title">
+      An fidei possit subesse falsum. 
+    </head>
+            <p xml:id="HuYgTa-190886-d1e114">
+               <lb ed="#G" n="73"/>
+               <pc type="indent"/>Quaestio. 1 
+      <lb ed="#G" n="74"/>An fidei possit subesse falsum. 
+    </p>
+            <p xml:id="HuYgTa-190886-d1e123">
+               <lb ed="#G" n="75"/>
+               <pc type="indent"/>RESOLVTIO. 
+      <lb ed="#G" n="76"/>tisi 
+    </p>
+            <p xml:id="HuYgTa-190886-d1e132">
+               <lb ed="#G" n="77"/>VTRVM fidei possit subesse falsum.
+    </p>
+            <p xml:id="HuYgTa-190886-d1e138">
+      Videtur, quod 
+      <lb ed="#G" n="78"/>sic: quia spei potest subesse falsum: ergo &amp; fidei,
+      Con<lb ed="#G" n="79" break="no"/>sequentia patet: quia ambae sunt virtutes theologicae,  
+      <lb ed="#G" n="80"/>Probo antecedens: quia aliquis praescitus sperat saluari: 
+      <lb ed="#G" n="81"/>huiusmodi autem spes falsa est, cum praescientia Dei sit 
+      <lb ed="#G" n="82"/>infallib ilis 
+    </p>
+            <p xml:id="HuYgTa-190886-d1e151">
+               <lb ed="#G" n="83"/>
+               <pc type="indent"/>Contra scientiae humanitus acquisitae non potest
+      sub<lb ed="#G" n="84" break="no"/>esse falsum: ergo nec fidei diuinitus infusae poterit subesso 
+      <lb ed="#G" n="85"/>falsum. Antecedens patet 1. posteriorum. Probo
+      conse<lb ed="#G" n="86" break="no"/>uentiam: nam infallibilior est fides diuinitus infusa, quam 
+      <lb ed="#G" n="87"/>scientia humanitus acquisita. Hic quattuor sunt videndi 
+      <lb ed="#G" n="88"/>Primo, quid sit obiectum fidei. Secundo, de quaesito; e 
+      <lb ed="#G" n="89"/>hoc quantum ad distinc. 24. Tertio, quot, &amp; qui sint
+      ar<lb ed="#G" n="90" break="no"/>ticuli fidei. Et quarto, de fide requisita tempore legis
+      na<lb ed="#G" n="91" break="no"/>turae, &amp; Mosavcae. Et hoc quo ad distinctionem 35. 
+    </p>
+            <p xml:id="HuYgTa-190886-d1e175">
+               <lb ed="#G" n="92"/>
+               <pc type="indent"/>RESOLVTIO. 
+      <lb ed="#G" n="93"/>Catholica sant fide; infusa, cuius quidem peculiare ac principale 
+      <lb ed="#G" n="94"/>obiectum ert ipse deus totius veritatis auctor, ne vllam  
+      <lb ed="#G" n="95"/>quidem in se complectitur falsitatem
+    </p>
+            <p xml:id="HuYgTa-190886-d1e188">
+               <lb ed="#G" n="96"/>ARTICV LVSI 
+      <lb ed="#G" n="97"/>SVANTVM ad primum est aduertendum, quod
+      si<lb ed="#G" n="98" break="no"/>Tcut obiectum scientiae dupliciter potest accipi. Vno 
+      <lb ed="#G" n="99"/>modo pro eo, de quo aliquid principaliter cousideratur,  
+      <lb ed="#G" n="100"/>seu scitur, &amp; sic sumitur proprie, &amp; est incomplexum,
+      pu<lb ed="#G" n="101" break="no"/>ta ipsum subiectu conclusionis principaliter demonstrate, 
+      <lb ed="#G" n="102"/>Alio modo sumitur pro eo, quod scitur, &amp; tunc est ipsa 
+      <lb ed="#G" n="103"/>conclusio, &amp; est ens complexum. Et posset etiam illud 
+      <lb ed="#G" n="104"/>vlterius diuidi in conclusionem principalem, &amp; consequen 
+      <lb ed="#G" n="105"/>ter se habentem, vel accessorie: quia multa
+      consideran<lb ed="#G" n="106" break="no"/>tur, &amp; sciuntur in scientia, quae tamen non sunt
+      principa<lb ed="#G" n="107" break="no"/>liter intenta. Sic etiam possumus loqui de obiecto fidei 
+      <lb ed="#G" n="108"/>Et secundum hoc ponam duas conclusiones. 
+      <lb ed="#G" n="109"/>Prima est, quod loquendo primo modo de obiecto, 
+      <lb ed="#G" n="110"/>tunc obiectum fidei est solus Deus. 
+    </p>
+            <p xml:id="HuYgTa-190886-d1e223">
+               <lb ed="#G" n="111"/>
+               <pc type="indent"/>Quia illud est principale obiectum catholicae fide 
+      <lb ed="#G" n="112"/>tamquam illud, de quo principaliter credimus ea, quae 
+      <lb ed="#G" n="113"/>credenda sunt, ad quod omnia credenda principaliter
+      re<lb ed="#G" n="114" break="no"/>ducuntur : Deus est huiusmodi : ergo &amp;c.
+    </p>
+            <p xml:id="HuYgTa-190886-d1e236">
+               <lb ed="#G" n="115"/>2 Preterea, principale obiectum virtutis theologicae 
+      <lb ed="#G" n="116"/>est ens increatum, in hoc enim differt virtus theologica 
+      <lb ed="#G" n="117"/>ab aliis virtutibus naturaliter acquisitis: quia principale 
+      <lb ed="#G" n="118"/>earum obiectum potest esse ens creatum: sed sides (de 
+    </p>
+            <p xml:id="HuYgTa-190886-d1e248">
+               <lb ed="#G" n="119"/>
+               <pc type="indent"/>ua loquimur) est virtus theologica. 
+      <lb ed="#G" n="120"/>3 Praeterea, idem est obiectum fidei hic in via, &amp; clare 
+      <lb ed="#G" n="121"/>visionis in patria: sed obiectum clarae visionis est
+      princi<lb ed="#G" n="122" break="no"/>paliter ipse Deus : ergo principale obiectum fidei est
+      so<lb ed="#G" n="123" break="no"/>lus Deus.
+    </p>
+            <p xml:id="HuYgTa-190886-d1e264">
+               <lb ed="#G" n="124"/>4 Praeterea, ista est intentio Dion de di. no. ca. 7. vbi 
+      <lb ed="#G" n="125"/>ait. Fides diuina est circa simplicem, &amp; semper
+      exinsten<lb ed="#G" n="126" break="no"/>tem veritatem: talis autem veritas est ipse Deus. 
+    </p>
+            <p xml:id="HuYgTa-190886-d1e273">
+               <lb ed="#G" n="127"/>
+               <pc type="indent"/>1 Forte dicetur, quod huic conclusioni repugnat di¬ 
+      <!--551.xml-->
+      <pb ed="#G" n="P2_40-v"/>
+               <cb ed="#G" n="a"/>
+               <lb ed="#G" n="1"/>ctum Apostoli vbi diffiniens fidem ait. Fides est
+      substan<lb ed="#G" n="2" break="no"/>tia sperandarum rerum non apparentium argumentum: sec 
+      <lb ed="#G" n="3"/>llud, quod nos speramus, est nostra beatitudo, quae est 
+      <lb ed="#G" n="4"/>quid creatum.
+    </p>
+            <p xml:id="HuYgTa-190886-d1e295">
+               <lb ed="#G" n="5"/>2 Item, August. dicit, quod fides est de bonis, &amp; de 
+      <lb ed="#G" n="6"/>malis, praesentibus, praeteritis, &amp; futuris. 
+    </p>
+            <p xml:id="HuYgTa-190886-d1e302">
+               <lb ed="#G" n="7"/>
+               <pc type="indent"/>Respondeo ad primum, quod nostra beatitudo potest 
+      <lb ed="#G" n="8"/>dupliciter considerari. Vno modo formaliter, &amp; sic non 
+      <lb ed="#G" n="9"/>est, pluraliter res speranda: quia est vna res. Alio modo 
+      <lb ed="#G" n="10"/>obiectiue, &amp; sic essentialiter est vna res, personaliter
+      ta<lb ed="#G" n="11" break="no"/>men trina. luxta quod ait Aug. Res, quae nos beatos
+      fa<lb ed="#G" n="12" break="no"/>ciunt, sunt pater, &amp; filius, &amp; spiritus sanctus. Et isto
+      se<lb ed="#G" n="13" break="no"/>cundo modo: fides dicitur substanria sperandarum rerum 
+      <lb ed="#G" n="14"/>Ad dictum Aug. dicendum, quod non loquitur ibi Aug.¬ 
+      <lb ed="#G" n="15"/>de obiecto fidei principali, &amp; formali¬ 
+    </p>
+            <p xml:id="HuYgTa-190886-d1e326">
+               <lb ed="#G" n="16"/>
+               <pc type="indent"/>Secunda conclusio est, quod loquendo de obiecto fidei 
+      <lb ed="#G" n="17"/>secundo modo, puta large loquendo de obiecto in
+      quan<lb ed="#G" n="18" break="no"/>tum illud, quod creditur, dicitur obiectum fidei, sic omnes 
+      <lb ed="#G" n="19"/>articuli fidei, &amp; etiam multa alia, quae ipsis sunt annexa, 
+      <lb ed="#G" n="20"/>
+               <pc type="indent"/>possunt dici obiectum fidei: quia omnia talia de
+      necessi<lb ed="#G" n="21" break="no"/>tate salutis credenda sunt, vel implicite, vel explicite, vt 
+      <lb ed="#G" n="22"/>infra dicetur. 
+    </p>
+            <p xml:id="HuYgTa-190886-d1e349">
+               <lb ed="#G" n="23"/>
+               <pc type="indent"/>ARTICVLVS I1. 
+      <lb ed="#G" n="24"/>vtrum Fidei possit subesse falsum. 
+    </p>
+            <p xml:id="HuYgTa-190886-d1e358">
+               <lb ed="#G" n="25"/>VANTVM ad secundum articulum dico primo, 
+      <lb ed="#G" n="26"/>Anquod fidei infusae a Deo non potest subesse salsum. 
+    </p>
+            <p xml:id="HuYgTa-190886-d1e365">
+               <lb ed="#G" n="27"/>1 Quia auctor totius veritatis creatae, qui est ipsa ve 
+      <lb ed="#G" n="28"/>ritas increata, non infundit animabus aliquid, quo ab ipso 
+      <lb ed="#G" n="29"/>infundente valeant deuiare, alias enim esset oppositum 
+      <lb ed="#G" n="30"/>in adiecto: quia ipsa veritas seduceret illum, quem
+      in<lb ed="#G" n="31" break="no"/>strueret: sed Deus infundens fidem est ipsa veritas increa 
+      <lb ed="#G" n="32"/>ta, &amp; est auctor omnis veritatis create: ergo &amp;c 
+    </p>
+            <p xml:id="HuYgTa-190886-d1e381">
+               <lb ed="#G" n="33"/>2 Praeterea, habitus, qui sic se habet, quod omnia ea, 
+      <lb ed="#G" n="34"/>uae ponit, vel sunt simpliciter necessaria, vel
+      contingen<lb ed="#G" n="35" break="no"/>tia in diuinam ordinationem reducta, tali habitui non  
+      <lb ed="#G" n="36"/>potest subesse aliquod falsum. Ista patet: nam quamuis 
+      <lb ed="#G" n="37"/>contingentia (vt contingentia sunt) possint non
+      eueni<lb ed="#G" n="38" break="no"/>re: tamen, vt in diuinam ordinationem reducuntur, &amp; 
+      <lb ed="#G" n="39"/>vt a Deo sunt ordinata, necessario eueniunt, &amp; per conse 
+      <lb ed="#G" n="40"/>quens habitui ponenti ea, vta Deo ordinata sunt, non 
+      <lb ed="#G" n="41"/>accidit aliquod falsum ex eorum contingentia: sed fides 
+      <lb ed="#G" n="42"/>nihil ponit, nisi ea, vel quae sunt summe necessaria, vt ea, 
+      <lb ed="#G" n="43"/>quae profitemut de Deo, quo ad intra, vel si sunt
+      contin<lb ed="#G" n="44" break="no"/>gentia: tamen fides ipsa ponit, vt a Deo praeuisa, &amp;
+      ordi<lb ed="#G" n="45" break="no"/>nata sunt, vt ea, quae ad extra Deo per fidem
+      attribui<lb ed="#G" n="46" break="no"/>mus: ergo &amp;c.
+    </p>
+            <p xml:id="HuYgTa-190886-d1e414">s
+      <lb ed="#G" n="47"/>3 Preterea, quandocumque aliquis assentit secudum 
+      <lb ed="#G" n="48"/>liquem habitum alicui conclusioni per tale medium, 
+      <lb ed="#G" n="49"/>quod nullo modo potest deficere, illius assensus non
+      po<lb ed="#G" n="50" break="no"/>test esse fulsus, nec per consequens tali habitui poterit 
+      <lb ed="#G" n="51"/>subesse falsum: sed fidelis assentit articulis fidei per
+      ve<lb ed="#G" n="52" break="no"/>ritatem diuinae auctoritatis, quae nequaquam potest
+      de<lb ed="#G" n="53" break="no"/>ficere: ergo &amp;c. 
+    </p>
+            <p xml:id="HuYgTa-190886-d1e432">
+               <lb ed="#G" n="54"/>
+               <pc type="indent"/>Sed huic conclusioni videtur obuiare aliquo modo 
+      <lb ed="#G" n="55"/>quaedam opinio, quae dicit, quod quamuis fidei formatae 
+      <lb ed="#G" n="56"/>non possit subesse salsum: fidei tamen informi, quamuis 
+      <lb ed="#G" n="57"/>sit infusa, potest subesse falsum. Sed illud ipsi non probant. 
+      <lb ed="#G" n="58"/>ideo eadem facilitate, qua hoc asserunt, ego potero
+      ne<lb ed="#G" n="59" break="no"/>gare. Vnde si quis habet fidem informem, qua credit
+      ca<lb ed="#G" n="60" break="no"/>quae falsa sunt, illa fides a Deo non est infusa, sed ab ipso 
+      <lb ed="#G" n="61"/>tredente ficta, vel aliunde acquisita.
+    </p>
+            <p xml:id="HuYgTa-190886-d1e455">
+               <lb ed="#G" n="62"/>Sunt etiam aliqui, qui directe sine distinctione arguunt 
+      <lb ed="#G" n="63"/>contra praedictam conclusionem. Primo sic¬
+    </p>
+            <p xml:id="HuYgTa-190886-d1e462">
+               <lb ed="#G" n="64"/>1 Cumini prophetico potest subesse falsum: ergo &amp; lu 
+      <lb ed="#G" n="65"/>mini fidei. Consequentia patet: quia lumen prophetici 
+      <lb ed="#G" n="66"/>est clarius, quam lumen simplicis fidelis. Probatur ante 
+      <lb ed="#G" n="67"/>cedens: quia lsa. dixit Exechiae regi. Dispone domui tuae, 
+      <lb ed="#G" n="68"/>morteris etenim, &amp; non viues: &amp; tamen ille rex postea vi 
+      <lb ed="#G" n="69"/>xit 15 annis. Item, lonas dixit. Adhuc quadraginta, dics,  
+      <!--551.xml-->
+      <cb ed="#G" n="b"/>
+               <lb ed="#G" n="70"/>&amp; Niniue subuertetur: &amp; tamen non fuit ciuitas subuersa.
+    </p>
+            <p xml:id="HuYgTa-190886-d1e484">
+               <lb ed="#G" n="71"/>2 Praeterea, aliquis fidelis existens tempore, quo Chri 
+      <lb ed="#G" n="72"/>stus fuit incarnatus, post hanc incarnationem credidit
+      ip<lb ed="#G" n="73" break="no"/>sum incarnandum, &amp; hoc eadem side, qua credidit ipsum 
+      <lb ed="#G" n="74"/>incarnandum antequam esset incarnatus, eo quod ipsum 
+      <lb ed="#G" n="75"/>latuerit momentum incarnationis: sed qui credit
+      incar<lb ed="#G" n="76" break="no"/>nandum cum, qui est incarnatus, falsum credit: ergo &amp;c.
+    </p>
+            <p xml:id="HuYgTa-190886-d1e500">
+               <lb ed="#G" n="77"/>3 Praeterea, actui latriae, que fides imperat, potest
+      sub<lb ed="#G" n="78" break="no"/>sse falsum: ergo &amp; ipsi fidei. Consequentia patet.
+      Ante<lb ed="#G" n="79" break="no"/>cedens probatur: quia aliquis sidelis potest adorare ho¬¬ 
+      <lb ed="#G" n="80"/>stiam non consecratam credens eam esse consecratam.
+    </p>
+            <p xml:id="HuYgTa-190886-d1e511">
+               <lb ed="#G" n="81"/>4 Praeterea, postquam Abraham habuit fidem de hbe 
+      <lb ed="#G" n="82"/>atione humam generis per Christi passionem, Deus
+      a<lb ed="#G" n="83" break="no"/>lio modo potuit liberare genus humanum: ergo fidei
+      A<lb ed="#G" n="84" break="no"/>prahae potuit subesse falsum.
+    </p>
+            <p xml:id="HuYgTa-190886-d1e522">
+               <lb ed="#G" n="85"/>Praeterea, non magis repugnat fidei apparens, &amp; non 
+      <lb ed="#G" n="86"/>existens verum, quam repugnet caritati apparens, &amp; non 
+      <lb ed="#G" n="87"/>existens bonum: sed ex caritate potest diligi apparens, 
+      <lb ed="#G" n="88"/>&amp; non existens bonum, puta homo hypocrita, qui reputa 
+      <lb ed="#G" n="89"/>ur bonus, &amp; est malus: ergo ex fide potest credi apparens 
+      <lb ed="#G" n="90"/>verum, &amp; non existens, seu existens falsum. ET
+      quam<lb ed="#G" n="91" break="no"/>uis aliqui haeretici contra immaculatam fidem his, &amp; con 
+      <lb ed="#G" n="92"/>similibus sophismatibus possint arguere: tamen
+      supradi<lb ed="#G" n="93" break="no"/>ctis bene intellectis ad omnia talia de facili respondetur 
+    </p>
+            <p xml:id="HuYgTa-190886-d1e545">
+               <lb ed="#G" n="94"/>
+               <pc type="indent"/>Ad primum igitur dicendum, quod praedicti non
+      dice<lb ed="#G" n="95" break="no"/>bant falsum: lsaias enin cum dixit, illum regem immedia 
+      <lb ed="#G" n="96"/>te moriturum: loquebatur quo ad cursum naturae: quis 
+      <lb ed="#G" n="97"/>ipse vidit in lumine prophetico, sic ad mortem regem
+      es<lb ed="#G" n="98" break="no"/>se dispositum, quod nec ars, nec natura ipsum a morte po 
+      <lb ed="#G" n="99"/>terat liberare. Et hoc etiam ex parte Dei reuelantis ipsi 
+      <lb ed="#G" n="100"/>regi denunciauit. Cum autem postea idem propheta
+      ei<lb ed="#G" n="101" break="no"/>dem regi nunciauit vitam suam esse prolongatam 15.
+      an<lb ed="#G" n="102" break="no"/>is, hoc fuit de diuina potentia, non de naturali
+      infuen<lb ed="#G" n="103" break="no"/>tia: Et ideo vtrumque dictum lsaiae isto modo acceptum 
+      <lb ed="#G" n="104"/>uit verum. Esimiliter prophetia lonae fuit conditiona 
+      <lb ed="#G" n="105"/>lis, saltem condicione subintellecta fuit enim
+      subintel<lb ed="#G" n="106" break="no"/>lecta ista condicio. Si Niniuitae manerent in suo malo 
+      <lb ed="#G" n="107"/>proposito, &amp; non agerent poenitentiam infra
+      quadragin<lb ed="#G" n="108" break="no"/>ta dies, tunc ciuitas subuerteretur: Et quia huiusmodi con 
+      <lb ed="#G" n="109"/>ditio fuit mutata per hoc quod egerunt poenitentiam: 
+      <lb ed="#G" n="110"/>ideo (salua veritate ipsius prophetiae) ciuitas non funt 
+      <lb ed="#G" n="111"/>subuersa 
+    </p>
+            <p xml:id="HuYgTa-190886-d1e589">
+               <lb ed="#G" n="112"/>
+               <pc type="indent"/>Ad secundum dicendum, quod actus ille quo talis homo 
+      <lb ed="#G" n="113"/>credidit Christum incarnandum postquam fuit
+      incarna<lb ed="#G" n="114" break="no"/>tus, non fuit elicitus mediante fide illi homini infusa, sed  
+      <lb ed="#G" n="115"/>solum ab opinione sua, credere enim in liberatorem e¬- 
+      <lb ed="#G" n="116"/>rat actus fidei tam in antiquo testamento, quam in nouo: 
+      <lb ed="#G" n="117"/>Sed determinate credere horam incarnationis, puta, ipsum 
+      <lb ed="#G" n="118"/>credere venturum, vel venisse, non erat actus fidei in
+      ue<lb ed="#G" n="119" break="no"/>teri testamento, &amp; nullus credulitatem suam ad hoc
+      te<lb ed="#G" n="120" break="no"/>nebatur determinare, nisi fuisset sibi a Deo, vel mediate, 
+      <lb ed="#G" n="121"/>vel immediate specialiter reuelatum. in nouo autem 
+      <lb ed="#G" n="122"/>testamento tenemur credere eum ia venisse propter
+      scri<lb ed="#G" n="123" break="no"/>turas hoc asserentes, &amp; propter auctoritatem ecclesiae 
+      <lb ed="#G" n="124"/>huiuimodi scripturas approbantem. 
+    </p>
+            <p xml:id="HuYgTa-190886-d1e622">
+               <lb ed="#G" n="125"/>
+               <pc type="indent"/>Ad tertium dicendem, quod actus latriae non est
+      sim<lb ed="#G" n="126" break="no"/>pliciter adorare immediate visa hostia, sed cum hac
+      con<lb ed="#G" n="127" break="no"/>dicione adiecta, vel actuali, vel saltem habituali: si rite sit 
+      <lb ed="#G" n="128"/>acta ipsa consecratio. Et quia cum hac condicione fides 
+      <lb ed="#G" n="129"/>mperat huiusmodi actum: ideo actui latriae (vt afide est 
+      <lb ed="#G" n="130"/>imperatus) numquam potest subesse falsum. 
+    </p>
+            <p xml:id="HuYgTa-190886-d1e640">
+               <lb ed="#G" n="131"/>
+               <pc type="indent"/>Ad quartum dicendum, quod licet per absolutam suam 
+      <lb ed="#G" n="132"/>otentiam Deus poterir alio modo liberare genus hu¬¬ 
+      <lb ed="#G" n="133"/>manum: tamen, vt iste modus reducitur in diuinam
+      ordi<lb ed="#G" n="134" break="no"/>ationem, sic iste modus fuit fimpliciter immutabilis. 
+      <lb ed="#G" n="135"/>ideo fidei Abrahae non potuit falsum subesse: quia fides 
+      <lb ed="#G" n="136"/>illa non fuit de modo liberations, vt reducitur in
+      abso<lb ed="#G" n="137" break="no"/>utam Dei potentiam, sed vt reducitur in ordinatum Dei 
+      <lb ed="#G" n="138"/>otentam 
+    </p>
+            <p xml:id="HuYgTa-190886-d1e662">
+               <lb ed="#G" n="139"/>
+               <pc type="indent"/>Ad quintum est dicendum, quod maior potest negari 
+      <lb ed="#G" n="140"/>quia caritate diligendo innitimur humanae cognitioni, 
+      <lb ed="#G" n="141"/>uae decipi potest: Sed fide credendo innitimur diuinae 
+      <lb ed="#G" n="142"/>auctoritati, quae infallibilis est: Et ideo dato, quod carita¬ 
+      <!--552.xml-->
+      <pb ed="#G" n="P2_41-r"/>
+               <cb ed="#G" n="a"/>
+               <lb ed="#G" n="1"/>ti ratione humanae cognitionis possit aliquid
+      deceptio<lb ed="#G" n="2" break="no"/>nis subesse, hoc tamen de fide non contingit. Etiam
+      mi<lb ed="#G" n="3" break="no"/>nor potest negari: quia ex caritate infusa non diligimus 
+      <lb ed="#G" n="4"/>hominem, vt in se est, sed vt in Deo est: ergo quamuis 
+      <lb ed="#G" n="5"/>homo in se sit fictus, tamen vt caritate ipsum diligimus,  
+      <lb ed="#G" n="6"/>sic non est fictum, sed existens bonum: quia vnumquodque 
+      <lb ed="#G" n="7"/>vt in Deo est existens, bonum est 
+    </p>
+            <p xml:id="HuYgTa-190886-d1e697">
+               <lb ed="#G" n="8"/>
+               <pc type="indent"/>Secundo dico, quod fidei acquisitae potest subesse
+      fal<lb ed="#G" n="9" break="no"/>sum Et illud non oportet aliter probare nisi per opposi 
+      <lb ed="#G" n="10"/>tum illarum trium rationum, quibus probam primam 
+      <lb ed="#G" n="11"/>conclusionem. 
+    </p>
+            <p xml:id="HuYgTa-190886-d1e711">
+               <lb ed="#G" n="12"/>
+               <pc type="indent"/>ARTICVLVS IIL 
+      <lb ed="#G" n="13"/>Quot, &amp; qui sint articuli fidei.
+    </p>
+            <p xml:id="HuYgTa-190886-d1e720">
+               <lb ed="#G" n="14"/>SVANTVM ad tertium articulum est aduertendum, 
+      <lb ed="#G" n="15"/>Acu quod triplex svmbolum legitur in ecclesia 
+      <lb ed="#G" n="16"/>Quorum primum dicitur svmbolum Apostolorum; 
+      <lb ed="#G" n="17"/>eo, quod ab Apostolis immediate fuerit compositum. Ei 
+      <lb ed="#G" n="18"/>dicitur a svn, quod est con, &amp; bolus, quod congregatio b 
+      <lb ed="#G" n="19"/>lorum: eo quod quilibet Apostolus suam assertionem 
+      <lb ed="#G" n="20"/>quasi suum bolum in illo svmbolo posuerit. Aliud
+      svm<lb ed="#G" n="21" break="no"/>bolum dicitur Nicenum; eo quod in Niceno concilio fus 
+      <lb ed="#G" n="22"/>rit compositum. Tertium dicitur Athanasij, eo quod a 
+      <lb ed="#G" n="23"/>Athanasio fuerit compilatum. Primum dicitur in
+      princi<lb ed="#G" n="24" break="no"/>pio diei, &amp; in fine, puta in prima, &amp; in completorio, ec 
+      <lb ed="#G" n="25"/>quod quilibet Christianus a principio suae spiritualis vitae 
+      <lb ed="#G" n="26"/>vsque ad horam mortis suae tale svmbolum, &amp; in eo cun 
+      <lb ed="#G" n="27"/>tenta debeat asseuerare. Dicitur autem illud svmbolum 
+      <lb ed="#G" n="28"/>sub silentio, eo quod in ipso primordio ecclesiae veritas 
+      <lb ed="#G" n="29"/>in illo svmbolo contenta, nondum fuerat aperte
+      praedi<lb ed="#G" n="30" break="no"/>cata. Dicitur etiam svmbolum maius, non pluralitate ver 
+      <lb ed="#G" n="31"/>borum, sed maioritate auctorum: quia (vt dixi)
+      immedi<lb ed="#G" n="32" break="no"/>te factum fuit ab Apostolis. Svmbolum autem Nicenun 
+      <lb ed="#G" n="33"/>aperte diebus sollenibus cantatur in ecclesia, eo quod
+      il<lb ed="#G" n="34" break="no"/>lo tempore per totum mudum fides suit solleniter
+      reue<lb ed="#G" n="35" break="no"/>lata: Svmbolum autem Athanasij dicitur de mane tantum 
+      <lb ed="#G" n="36"/>post noctis recessum, in signum, quod contra haereticorum 
+      <lb ed="#G" n="37"/>obscuritatem fuerat compositum, 
+    </p>
+            <p xml:id="HuYgTa-190886-d1e775">
+               <lb ed="#G" n="38"/>
+               <pc type="indent"/>Et quamuis eadem veritas in his tribus svmbolis su 
+      <lb ed="#G" n="39"/>expressa, &amp; magis explicite per svmbola duo sequentia 
+      <lb ed="#G" n="40"/>quia huiusmodi declaratione indiguit ecclesia propter 
+      <lb ed="#G" n="41"/>versutiam haereticorum : tamen articuli fidei omni fidel 
+      <lb ed="#G" n="42"/>populo exprimi consueuerunt, vt in primo svmbolo suni 
+      <lb ed="#G" n="43"/>contenta: ideo referendo articulos in suos Auctores,  
+      <lb ed="#G" n="44"/>tunc 12. sunt articuli secundum numerum 12. Apostolo 
+      <lb ed="#G" n="45"/>rum. Et sic distinguuntur: nam primum articulum (vt 
+      <lb ed="#G" n="46"/>asserunt doctores) dixit Petrus, scilicet. Credo in Deum 
+      <lb ed="#G" n="47"/>patrem omnipotentem creatorem coeli &amp; terrae.
+      Secun<lb ed="#G" n="48" break="no"/>dum dixit soannes. Et in lesum Christum filium eiu 
+      <lb ed="#G" n="49"/>vnicum dominum nostrum. Tertium lacobus vebedei 
+      <lb ed="#G" n="50"/>Qui conceptus est de spritu sancto, natus ex Maria
+      Vi<lb ed="#G" n="51" break="no"/>gine. Quartum Andreas. Passus sub Pontio Pilato cru 
+      <lb ed="#G" n="52"/>cifixus, mortuus, &amp; sepultus. Quintum Philippus: Desces 
+      <lb ed="#G" n="53"/>dit ad inferos. Sextum Thomas. Tertia die resurrexit: 
+      <lb ed="#G" n="54"/>mortuis. Septimum Partholomaeus. Ascendit ad coelos 
+      <lb ed="#G" n="55"/>sedet ad dexteram Dei patris omnipotentis. Octauun 
+      <lb ed="#G" n="56"/>Matthaeus, Inde venturus est iudicare viuos, &amp; mortuos.  
+      <lb ed="#G" n="57"/>Nonum lacobus AIphaei. Credo in spiritum sanctum, 
+      <lb ed="#G" n="58"/>Decimum Svmon. Sanctam ecclesiam catholicam san 
+      <lb ed="#G" n="59"/>ctorum communionem. Vndecimum ludas.
+      Remis<lb ed="#G" n="60" break="no"/>sionem peccatorum: Duodecimum Matthias, Carnis 
+      <lb ed="#G" n="61"/>resurrectionem, &amp; vitam aeternam  
+    </p>
+            <p xml:id="HuYgTa-190886-d1e832">
+               <lb ed="#G" n="62"/>
+               <pc type="indent"/>Aliqui etiam aliter istos articulos distinguunt, vt appa 
+      <lb ed="#G" n="63"/>rent in libro vocabulorum Pritonis in expositone
+      hu<lb ed="#G" n="64" break="no"/>ius uocabuli svmbolum : referendo autem articulos ad 
+      <lb ed="#G" n="65"/>materiam, de qua sunt, tunc aliqui doctores assignan 
+      <lb ed="#G" n="66"/>I4 articulos, quorum septem pertinent ad naturam diui 
+      <lb ed="#G" n="67"/>nam cum personis, &amp; operibus ipsis appropriatis, vel soli 
+      <lb ed="#G" n="68"/>Deo conuenientibus in praedicto svmbolo expressis. Alij 
+      <lb ed="#G" n="69"/>septem pertinent ad Christi humanitatem. Quia tamer 
+      <!--552.xml-->
+      <cb ed="#G" n="b"/>
+               <lb ed="#G" n="70"/>isti Deum esse vnum, sine vnitatem diuinae essentiae, &amp;  
+      <lb ed="#G" n="71"/>Deum esse rerum creatorem, ponunt duos esse articulos 
+      <lb ed="#G" n="72"/>quorum tamen vtrumque est demonstrabile: ideo mihi 
+      <lb ed="#G" n="73"/>videtur, quod prima distinctio articulorum, quam recitaui, 
+      <lb ed="#G" n="74"/>melior sit: tum quia secundum Apostolum fides est spe 
+      <lb ed="#G" n="75"/>randarum rerum substantia, argumentum non
+      apparen<lb ed="#G" n="76" break="no"/>tium: tum quia secundum August. fides est credere quod 
+      <lb ed="#G" n="77"/>non vides: tum quia secundum Srego. fides non habe 
+      <lb ed="#G" n="78"/>meritum, cui humana ratio praebet experimentum 
+    </p>
+            <p xml:id="HuYgTa-190886-d1e878">
+               <lb ed="#G" n="79"/>
+               <pc type="indent"/>AR TICVLVS 1IIj. 
+      <lb ed="#G" n="80"/>De fide requisita tempore legis naturae 
+      <lb ed="#G" n="81"/>
+               <pc type="indent"/>&amp; Mosaoce.
+    </p>
+            <p xml:id="HuYgTa-190886-d1e891">
+               <lb ed="#G" n="82"/>QVANTVM ad quartum articulum dico breuiter 
+      <lb ed="#G" n="83"/>cum <name xml:id="HuYgTa-190886-Nd1e897">Hugone de sancto victore</name> in libro suo sen 
+      <lb ed="#G" n="84"/>tentiarum, quod ante legem Mosavcam de necessitate sa 
+      <lb ed="#G" n="85"/>lutis fuit, vt Deus creator esse crederetur, &amp; ab eo salus 
+      <lb ed="#G" n="86"/>redemptio expectaretur, per que vero, &amp; quomodo salus 
+      <lb ed="#G" n="87"/>illa percipienda esset, exceptis paucis, quibus hoc Deus 
+      <lb ed="#G" n="88"/>specialiter reuelauit, communiter a fidelibus illius status 
+      <lb ed="#G" n="89"/>non cognoscebatur. Tempore autem legis persona
+      Me<lb ed="#G" n="90" break="no"/>diatoris inittenda praedicabatur. Quod autem ipsa
+      perso<lb ed="#G" n="91" break="no"/>sona esset homo, vel angelus, vel Deus, nondum clare ma 
+      <lb ed="#G" n="92"/>nifestabatur: Soli enim hoc noucrant, qui per spiritum 
+      <lb ed="#G" n="93"/>sanctum ad hoc illuminati erant. Tempore autem gratia 
+      <lb ed="#G" n="94"/>manifeste praedicatur modus redemptionis, &amp; qualitas 
+      <lb ed="#G" n="95"/>personae redemptoris. Ex qua Hugonis sententia satis 
+      <lb ed="#G" n="96"/>clarum esse videtur, quod ante legem euangelicam non 
+      <lb ed="#G" n="97"/>fuit de necessitate salutis habere fidem explicitam, &amp; di- 
+      <lb ed="#G" n="98"/>stinctam quantum ad singulos fidei articulos: quia hoc 
+      <lb ed="#G" n="99"/>impossibile fuit hominibus, eo quod ad hoc humana
+      ra<lb ed="#G" n="100" break="no"/>tio nullatenus sufficere potuit sine Dei speciali
+      reuela<lb ed="#G" n="101" break="no"/>tione. Erat tamen credendorum explicite aliqua
+      mensu<lb ed="#G" n="102" break="no"/>ra, ad quam sufficere poterat ratio naturalis per gratiam  
+      <lb ed="#G" n="103"/>Dei illuminata, quae nulli vmquam adulto defecit, qui ex 
+      <lb ed="#G" n="104"/>suis demeritis obicem non posuit, &amp; totum fecit, quod in 
+      <lb ed="#G" n="105"/>se fuit. Et de huiusmodi mensura tangit idem <ref xml:id="HuYgTa-190886-Rd1e948">
+                  <name xml:id="HuYgTa-190886-Nd1e950">Hugo</name>
+      li<lb ed="#G" n="106" break="no"/>bro sententiarum</ref> dicens Haec sunt, quibus ab initio fides 
+      <lb ed="#G" n="107"/>recta numquam minus habere potuit, videlicet vnum 
+      <lb ed="#G" n="108"/>Deum esse creatorem omnium, dominum, &amp; rectorem 
+      <lb ed="#G" n="109"/>vniuersorum, ipsumque non esse mali actorem, &amp; eorum 
+      <lb ed="#G" n="110"/>qui in malis misericordiam eius quaererent, &amp; expectarem 
+      <lb ed="#G" n="111"/>futurum redemptorem. Vnde idem <name xml:id="HuYgTa-190886-Nd1e967" ref="#HughOfStVictor">Hugo</name> ait, quod post 
+      <lb ed="#G" n="112"/>peccatum duo proposita sunt credenda, scilicet creator 
+      <lb ed="#G" n="113"/>&amp; Saluator. Et illud etiam Apostolus videtur innuere d 
+      <lb ed="#G" n="114"/>cens. Antecedentem ad Deum oportet credere, quod est 
+      <lb ed="#G" n="115"/>&amp; inquirentibus se remunerator sit 
+    </p>
+            <p xml:id="HuYgTa-190886-d1e981">
+               <lb ed="#G" n="116"/>
+               <pc type="indent"/>1 Sed forte dicetur, quod dictum Aug. praedictis sit con 
+      <lb ed="#G" n="117"/>trarium: Ait enim August. quod eadem fides Mediato 
+      <lb ed="#G" n="118"/>ris, quae nos saluat, saluos fecit &amp; antiquos.  
+      <lb ed="#G" n="119"/>2 Praeterea, sicut se habet caritas ad diligenda, sic se ha 
+      <lb ed="#G" n="120"/>bet fides ad credenda: sed antiquis necessaria erat caritas 
+      <lb ed="#G" n="121"/>respectu omnium diligendorum, quae nos tenemur diligere; 
+      <lb ed="#G" n="122"/>ergo etiam ipsis necessaria fuit fides respectu omnium
+      cre<lb ed="#G" n="123" break="no"/>dendorum, quae nos tenemur credere
+    </p>
+            <p xml:id="HuYgTa-190886-d1e1003">
+               <lb ed="#G" n="124"/>Respondeo ad primum, quod eadem est fides antiquo 
+      <lb ed="#G" n="125"/>rum, &amp; modernorum, sed non aeque explicita, seu
+      expres<lb ed="#G" n="126" break="no"/>se distincta, &amp; declarata 
+    </p>
+            <p xml:id="HuYgTa-190886-d1e1012">
+               <lb ed="#G" n="127"/>
+               <pc type="indent"/>Ad secundum dicendum, quod non est simile: quia ad 
+      <lb ed="#G" n="128"/>diligendorum noritiam sufficit naturalis instinctus natu 
+      <lb ed="#G" n="129"/>rae, non autem ad credendorum 
+    </p>
+            <p xml:id="HuYgTa-190886-d1e1023">
+               <lb ed="#G" n="130"/>
+               <pc type="indent"/>Ad argumentum principale dicendum, quod
+      antece<lb ed="#G" n="131" break="no"/>dens non est verum, loquendo de vera spe, quae est virtu 
+      <lb ed="#G" n="132"/>a Deo infusa: quia illa spe non sperat homo se consequ 
+      <lb ed="#G" n="133"/>beatitudinem, nisi praesuppositis meritis: &amp; quia omnis 
+      <lb ed="#G" n="134"/>in fine vitae huius habens merita aeternae beatitudinis,  
+      <lb ed="#G" n="135"/>vtique saluabitur: ideo tali spei numquam subest falsum. 
+      <lb ed="#G" n="136"/>Vnde quamuis reprobatus non saluetur: tamen ista
+      con<lb ed="#G" n="137" break="no"/>dicionalis est vera, si reprobatus in fine vitae habuerit me 
+      <lb ed="#G" n="138"/>rita vitae aeternae, tunc saluabitur, &amp; hoc sufficit ad hoc,  
+      <lb ed="#G" n="139"/>vt spei non subfit falsum. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

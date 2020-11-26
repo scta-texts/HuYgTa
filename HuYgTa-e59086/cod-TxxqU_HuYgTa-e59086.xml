@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Circa textum</title>
+            <author ref="#ThomasStrasbourg">Thomas of Strasbourg</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Circa textum</title>
+               <date when="2020-11-26">November 26, 2020</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="G" n="cod-TxxqU">Genoa 1585</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2020-11-26" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#G" n="77-v"/>
+            <cb ed="#G" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="HuYgTa-e59086"><!-- HuYgTa-l1d19ct1 -->
+            <head xml:id="HuYgTa-e59086-Hd1e108">Circa textum</head>
+            <p xml:id="HuYgTa-e59086-d1e111">
+               <lb ed="#G" n="116"/>
+               <pc type="indent"/>DISTINCTIO XIX. 
+      <lb ed="#G" n="117"/>Lucida, &amp; aperta diuisio buius distinctionis, in qua 
+      <lb ed="#G" n="118"/>quidem Magister tractatum de aequalitate 
+      <lb ed="#G" n="119"/>personarum auspicatur. 
+    </p>
+            <p xml:id="HuYgTa-e59086-d1e124">
+               <lb ed="#G" n="120"/>
+               <pc type="indent"/>VNC POSTQVVM &amp;c. Hucusqu 
+      <lb ed="#G" n="121"/>Magister determinauit de
+      diui<lb ed="#G" n="122" break="no"/>nae essentiae vnitate, personarum  
+      <lb ed="#G" n="123"/>trinitate, ac personalis originis
+      di<lb ed="#G" n="124" break="no"/>stinctione &amp; alietate, hic in ista re 
+      <lb ed="#G" n="125"/>dist. incipit tractare de praedictarum 
+      <lb ed="#G" n="126"/>personarum aequalitate; Et
+      diuidi<lb ed="#G" n="127" break="no"/>tur in duas partes, quia primo oste 
+      <lb ed="#G" n="128"/>dit diuinarum personarum aequalem maiestatem.
+      Secun<lb ed="#G" n="129" break="no"/>do ostendit ex praedictis oriri quandam singulatem diffi 
+      <!--194.xml-->
+      <pb ed="#G" n="78-r"/>
+               <cb ed="#G" n="a"/>
+               <lb ed="#G" n="1"/>tulutem ibi, Hic oritur quaestio trahens &amp;c. Prima in 
+      <lb ed="#G" n="2"/>duas, quia primo ostendit personarum aequalitatem ex hoc 
+      <lb ed="#G" n="3"/>quod habent eandem magnitudinem, &amp; maiestatem in 
+      <lb ed="#G" n="4"/>essendo, Secundo ex hoc, quod habent eadem virtutem, 
+      <lb ed="#G" n="5"/>potestatem in agendo ibi, Nunc ostendemus. Prima di 
+      <lb ed="#G" n="6"/>uditur in tres quia primo magister ostendit, in quo
+      con<lb ed="#G" n="7" break="no"/>filit personarum aequalitas in communi, scilicet in
+      aeter<lb ed="#G" n="8" break="no"/>nitate, magnitudine, &amp; potestate. Secundo probat hec
+      tri<lb ed="#G" n="9" break="no"/>on differre re, sed sola ratione. Et tertio prosequitur per 
+      <lb ed="#G" n="10"/>onarum aequalitatem in speciali, prout attenditur in ips 
+      <lb ed="#G" n="11"/>nagnitudine. Secunda ibi, Cumque enumerentur ista 
+      <lb ed="#G" n="12"/>sertia ibi. Quod autem aeternitate. Et haec diuiditur in 
+      <lb ed="#G" n="13"/>res, quia primo ostendit diuinarum personarum
+      magni<lb ed="#G" n="14" break="no"/>udinis aequalitatem propter consubstantialitatis
+      vnita<lb ed="#G" n="15" break="no"/>tem, Secundo propter totalitatis immunitatem, Et
+      ter<lb ed="#G" n="16" break="no"/>tio propter simplicitatis puritatem. Secunda ibi, Sed iam  
+      <lb ed="#G" n="17"/>tune Tertia ibi, Sciendum est igitur. Prima diuiditur in 
+      <lb ed="#G" n="18"/>dias quia primo probat intentum ex hoc, quod tres diui 
+      <lb ed="#G" n="19"/>apersonae sunt realiter vna natura, Secundo ex hoc, quod 
+      <lb ed="#G" n="20"/>melibet diuina persona habet esse in alia persona. Secur 
+      <lb ed="#G" n="21"/>nibi, Et inde est, quod pater dicitur esse. Tunc sequitur illa 
+      <lb ed="#G" n="22"/>tan Sed iam nunc; Et diuiditur in tres, quia primo ponit 
+      <lb ed="#G" n="23"/>entatis intentae declarationem, Sccundo econtra ducit 
+      <lb ed="#G" n="24"/>atatentem obiectionem, Tertio huius obiectionis sub 
+      <lb ed="#G" n="25"/>di solutionem. Secunda ibi, His videntur aduersari;
+      Ter<lb ed="#G" n="26" break="no"/>taibi, Haec, quae hic dicuntur. Prima in tres: quia primo  
+      <lb ed="#G" n="27"/>cundit, quod natura respectu diuinarum personarum non 
+      <lb ed="#G" n="28"/>rbet rationem totius integralis: Secundo, quod non habet 
+      <lb ed="#G" n="29"/>rxionem totius vniuersalis; Et tertio, quod non habet se 
+      <lb ed="#G" n="30"/>nratione partis materialis, vel formalis. Secunda ibi,
+      Hli<lb ed="#G" n="31" break="no"/>Miicendum est. Tertia ibi, Notandum etiam, quod essentia. 
+      <lb ed="#G" n="32"/>sunc sequitur illa pars, Sciendum est igitur; Et diuiditur 
+      <lb ed="#G" n="33"/>nires quia primo magister probat diuinam simplicitat. 
+      <lb ed="#G" n="34"/>neo, quo vna persona non est minor personis pluribus.
+      Se<lb ed="#G" n="35" break="no"/>tinda infert ex praedictis, quod Deus non debet dici triplex 
+      <lb ed="#G" n="36"/>sed mnus. Tertio ostendit, quod modus his oppositus
+      in<lb ed="#G" n="37" break="no"/>initur in rebus corporalibus. Secunda ibi, Praeterea cum 
+      <lb ed="#G" n="38"/>ens Tertia ibi, In rebus corporeis. Hic quaero. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

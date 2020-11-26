@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Circa textum</title>
+            <author ref="#ThomasStrasbourg">Thomas of Strasbourg</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Circa textum</title>
+               <date when="2020-11-26">November 26, 2020</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="G" n="cod-TxxqU">Genoa 1585</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2020-11-26" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#G" n="-r"/>
+            <cb ed="#G" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="HuYgTa-174411"><!-- HuYgTa-l3d9et10ct1 -->
+            <head xml:id="HuYgTa-174411-Hd1e108">Circa textum</head>
+            <p xml:id="HuYgTa-174411-d1e111">
+               <lb ed="#G" n="56"/>
+               <pc type="indent"/>DISTINCTIO IX. 
+      <lb ed="#G" n="57"/>Fatilis,  harum distinctimum generalis ditisio, an 
+      <lb ed="#G" n="58"/>quibus quidem determinatur de quibuisdam  
+      <lb ed="#G" n="59"/>praedicatis ad christi dignitatem 
+      <lb ed="#G" n="60"/>ratione, humanitatis. 
+      <lb ed="#G" n="61"/>pertientibus
+    </p>
+            <p xml:id="HuYgTa-174411-d1e129">
+               <lb ed="#G" n="62"/>PRATEREA INVESTIGARI
+      o<lb ed="#G" n="63" break="no"/>PORTE T. Postquam Magister
+      inqui<lb ed="#G" n="4" break="no"/>fiuit de quibusdam, quae ex vi vnionis 
+      <lb ed="#G" n="65"/>videbantur conuenire diuinae naturae: 
+      <lb ed="#G" n="66"/>hic tractat de quibusdam, quae ex
+      supra<lb ed="#G" n="67" break="no"/>dicta vnione videntur conuenire ipsi hu 
+      <lb ed="#G" n="68"/>manae naturae. Et diuiditur in duas partet, quia primo in¬ 
+      <!--507.xml-->
+      <cb ed="#G" n="b"/>
+               <lb ed="#G" n="69"/>quirit de eo, quod videtur conuenire humana naturm e 
+      <lb ed="#G" n="70"/>co, quod unita est diuinae naturae, ac diuino supposito &amp;¬ 
+      <lb ed="#G" n="71"/>cundo inquirit de quibusdam, quae videntur conueni 
+      <lb ed="#G" n="72"/>psi Christo ex eo, quod claudit humanam naturam in 
+      <lb ed="#G" n="73"/>se ipso; distinctione 1o. Solet etiam a quibusdam inquini 
+      <lb ed="#G" n="74"/>Prima in duas: quia primo de adoratione assumptae hu 
+      <lb ed="#G" n="75"/>manitatis monet quaestionem. Secundo subdit variam 
+      <lb ed="#G" n="76"/>responsionem, ibi, ldeo quibusdam videtur. Et haec in duas, 
+      <lb ed="#G" n="77"/>am primo respondet secundum quorundam opinionem 
+      <lb ed="#G" n="78"/>uae non videtur esse tenenda. Secundo respondet
+      secun<lb ed="#G" n="79" break="no"/>dum aliam opinionem, quae videtur esse veridica, ibi; Alij 
+      <lb ed="#G" n="80"/>autem placet. Et haec in duas: quia primo recitat illam  
+      <lb ed="#G" n="81"/>opinionem. Secundo pro opinione adducit probationum 
+      <lb ed="#G" n="82"/>ibi, De hoc loant ita ait. Tunc sequitur illa pars, Soletetia  
+      <lb ed="#G" n="83"/>quibusdam inquiri &amp;c. quae est principium io.
+      distinlu<lb ed="#G" n="84" break="no"/>qua Magister &amp;c. Et diuiditur in duas partes, eo quodum 
+      <lb ed="#G" n="85"/>lia, quae videntur Christo conuenire ratione humane ni 
+      <lb ed="#G" n="86"/>turae, duplicia videntur esse in genere: quedam, scilices 
+      <lb ed="#G" n="87"/>spectantia ad dignitatem, quaedam spectantia ad
+      indigni<lb ed="#G" n="88" break="no"/>tatem. Primo igitur inquirit Magister de his; quae spectas 
+      <lb ed="#G" n="89"/>ad dignitatem. Secundo de talibus, quae spectant
+      adin<lb ed="#G" n="90" break="no"/>dignitatem, distinct. 11. ibi, Solet etiam quaeri. Prima pas 
+      <lb ed="#G" n="91"/>adhuc est praesentis lectionis. Et diuiditur in tres partes, 
+      <lb ed="#G" n="92"/>secundum quod spectantia ad dignitatem tripartita esse 
+      <lb ed="#G" n="93"/>vid entur: quia quaedam respiciunt naturam, quaedam
+      gri<lb ed="#G" n="94" break="no"/>tiam, &amp; quaedam gloriam. Personam enim esse spectat ad 
+      <lb ed="#G" n="95"/>dignitatem naturae: adoptatum esse ad dignitatem
+      gr<lb ed="#G" n="96" break="no"/>tiae : sed praedestinatum esse respicit proprie dignitatem  
+      <lb ed="#G" n="97"/>loriae. Primo ergo Magister inquirit de
+      personalitate<lb ed="#G" n="98" break="no"/>pecundo. de adoptione. Tertio de praedestinatione
+      Secu<lb ed="#G" n="99" break="no"/>da ibi, Si vero quaeritur. Tertia ibi, Deinde si quaeritin 
+      <lb ed="#G" n="100"/>Prima in quattuor: quia primo arguendo ad vnam pa 
+      <lb ed="#G" n="101"/>tem mouet quaestionem. Secundo ad motam quaestiones 
+      <lb ed="#G" n="102"/>ssignat quorundam responsionem. Et tertio ponit
+      prin<lb ed="#G" n="103" break="no"/>sipalis argumenti solutionem. Et quarto contra respono 
+      <lb ed="#G" n="104"/>ionem inducit obiectionem: Secunda ibi, Propter haed 
+      <lb ed="#G" n="105"/>inconuenientia. Tertia ibi, lllud tamen &amp;c. Quartam 
+      <lb ed="#G" n="106"/>Sed adhuc aliter, &amp; haec in duas: nam primo ponitur od 
+      <lb ed="#G" n="107"/>iectio. Secundo obiectionis solutio ibi; Ad quod am  
+      <lb ed="#G" n="108"/>potest. Sequitur illa pars, Si vero quaeritur: Et diuidin 
+      <lb ed="#G" n="109"/>m tres partes: quia primo quaerit, vtrum Christus sitbo 
+      <lb ed="#G" n="110"/>ius adoptiuus, &amp; respondet negando ipsum esse filium 
+      <lb ed="#G" n="111"/>adoptiuum. Secundo obijcit contrarium. Tertio solud 
+      <lb ed="#G" n="112"/>do tollit obiectum. Secunda ibi, Sed ad hoc opponitm 
+      <lb ed="#G" n="113"/>Tertia ibi, Ad quod dici potest. Et haec est sententiaisbis 
+      <lb ed="#G" n="114"/>tum duarum distinctionum in generali; circa quas quod 
+      <lb ed="#G" n="115"/>co hanc quaestionem. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

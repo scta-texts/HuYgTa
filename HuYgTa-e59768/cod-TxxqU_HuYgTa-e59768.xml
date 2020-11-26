@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Circa textum</title>
+            <author ref="#ThomasStrasbourg">Thomas of Strasbourg</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Circa textum</title>
+               <date when="2020-11-26">November 26, 2020</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="G" n="cod-TxxqU">Genoa 1585</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2020-11-26" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#G" n="-r"/>
+            <cb ed="#G" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="HuYgTa-e59768"><!-- HuYgTa-l1d20ct1 --><!-- heading accidently says 19, but it is actually 20 -->
+            <head xml:id="HuYgTa-e59768-Hd1e109">Circa textum</head>
+            <p xml:id="HuYgTa-e59768-d1e112">
+               <lb ed="#G" n="100"/>
+               <pc type="indent"/>DISTINCTIO <sic>XIX</sic>. <!-- actually 20 --> 
+      <lb ed="#G" n="101"/>preussima, ac vesolotissia diuusio huius distinctionis 
+      <lb ed="#G" n="102"/>
+               <pc type="indent"/>m qua quidem de duinarum personarum aequa 
+      <lb ed="#G" n="103"/>
+               <pc type="indent"/>litate pulcbre peragitur.
+    </p>
+            <p xml:id="HuYgTa-e59768-d1e135">
+               <lb ed="#G" n="104"/>
+               <pc type="indent"/>VNC OSTENDEM VS &amp;c. Haec 
+      <lb ed="#G" n="105"/>est distinctio 2o. In qua Magister 
+      <lb ed="#G" n="106"/>ostendit diuinarum personarum 
+      <lb ed="#G" n="107"/>equalitatem ex eo quod habent 
+      <lb ed="#G" n="108"/>virtutem &amp; potestatem, &amp;
+      diuidi<lb ed="#G" n="109" break="no"/>tur in duas partes; quia primo Ma 
+      <lb ed="#G" n="110"/>gister istud probat auctoritate: Se- 
+      <lb ed="#G" n="111"/>cundo ratione ibi, Item alio
+      mo<lb ed="#G" n="112" break="no"/>do. Prima in duas; quia primo circa illud propositum veri 
+      <lb ed="#G" n="113"/>tatem, quam sentit, ponit, &amp; auctoritatibus sanctorum
+      mu<lb ed="#G" n="114" break="no"/>nit, Secundo, quandam cauillationem, quae huic veritati 
+      <lb ed="#G" n="115"/>videtur esse contraria, tollit ibi, Sed inquis pater. Tuns 
+      <lb ed="#G" n="116"/>sequitur illa pars, Item alio modo; vbi magister primo 
+      <lb ed="#G" n="117"/>probat suum propositum; Secundo remouet quod suo 
+      <lb ed="#G" n="118"/>proposito videtur esse contrarium ibi, Sed forte dices &amp;c 
+      <lb ed="#G" n="119"/>Prima in duas, quia primo probat intentum ratione
+      du<lb ed="#G" n="120" break="no"/>cente ad impossibile; Secundo ratione ac cepta ex simili¬ 
+    </p>
+            <p xml:id="HuYgTa-e59768-d1e177">
+               <lb ed="#G" n="121"/>
+               <pc type="indent"/>tudine ibi, Hoc autem per similitudinem. Circa hanc
+      di<lb ed="#G" n="122" break="no"/>stinctionem quaero hanc quaestionem.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

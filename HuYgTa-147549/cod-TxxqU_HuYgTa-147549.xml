@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Circa textum</title>
+            <author ref="#ThomasStrasbourg">Thomas of Strasbourg</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Circa textum</title>
+               <date when="2020-11-26">November 26, 2020</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="G" n="cod-TxxqU">Genoa 1585</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2020-11-26" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#G" n="-r"/>
+            <cb ed="#G" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="HuYgTa-147549"><!-- HuYgTa-l2d34ct1 -->
+            <head xml:id="HuYgTa-147549-Hd1e108">Circa textum</head>
+            <p xml:id="HuYgTa-147549-d1e111">
+               <lb ed="#G" n="83"/>
+               <pc type="indent"/>DISTINCTIO XXXIIII 
+      <lb ed="#G" n="84"/>Absoluta huius distinctionis duisio in qua de
+      actua<lb ed="#G" n="85" break="no"/>
+               <pc type="indent"/>li culpa peragitir. 
+    </p>
+            <p xml:id="HuYgTa-147549-d1e124">
+               <lb ed="#G" n="86"/>
+               <pc type="indent"/>POST PRADICTA &amp;c.
+      Pof<lb ed="#G" n="87" break="no"/>quam Magister determinauit di 
+      <lb ed="#G" n="88"/>peccato paruulorum, quod dicitui 
+      <lb ed="#G" n="89"/>originale, hic prosequitur de
+      pec<lb ed="#G" n="90" break="no"/>cato adultorum, quod dicitur
+      a<lb ed="#G" n="91" break="no"/>ctuale. Et diuiditur in duas partes 
+      <lb ed="#G" n="92"/>secundum, quod primo praemittit
+      or<lb ed="#G" n="93" break="no"/>dinem de dicendis. Secundo pro 
+      <lb ed="#G" n="94"/>sequitur de eis ibi, Causa &amp; origo. Et haec in duas: quia 
+      <lb ed="#G" n="95"/>rimo tractat succincte de iam dicti peccati radice. Secun 
+      <lb ed="#G" n="96"/>do de huiusmodi radice prosequitur Magister extense
+      i<lb ed="#G" n="97" break="no"/>bi, Post praedicta de voluntate. Prima in duas: quia
+      pri<lb ed="#G" n="98" break="no"/>mo Magister tractat de peccato habendo respectum ad 
+      <lb ed="#G" n="99"/>eccati defectum. Secundo habendo respectum ad ipsius 
+      <lb ed="#G" n="100"/>peccati actum, ibi, Post haec videndum est &amp;c. Prima in 
+      <lb ed="#G" n="101"/>duas, quia primo osteci radicem &amp; causam peccati, a qua 
+      <lb ed="#G" n="102"/>habet esse. Secundo ostendit causam, in qua habet esse 
+      <lb ed="#G" n="103"/>ibi, Ostensa igitur origine. Et haec in tres: quia primo mo 
+      <lb ed="#G" n="104"/>uet quaestionem, &amp; subdit eius determinationem. Secun 
+      <lb ed="#G" n="105"/>do adducit contrariam obiectionem. Et tertio secudum 
+      <lb ed="#G" n="106"/>Augustinum illius obiectionis ponit solutionem. Secunda 
+      <lb ed="#G" n="107"/>ibi, Ad hoc autem Teri ia ibi, Hoc autem Augustinus in li 
+      <lb ed="#G" n="108"/>bro eodem. Prima in tres: quia primo ostendit, quod in 
+      <lb ed="#G" n="109"/>bono fundatur malum, vecundo, quod idem potest dici 
+      <lb ed="#G" n="110"/>bonum, &amp; malum. Tertio asserit, quod in his fallit
+      quae<lb ed="#G" n="111" break="no"/>dam regula contrariorum. Secunda ibi, Ex quo sensu. Ter 
+      <lb ed="#G" n="112"/>tia ibi, ldeoque in his contrarijs. Circa istam. 34. dist. quae 
+      <lb ed="#G" n="113"/>ro hanc quaestionem 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

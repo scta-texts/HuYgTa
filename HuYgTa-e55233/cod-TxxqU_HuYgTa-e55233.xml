@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Circa textum 2</title>
+            <author ref="#ThomasStrasbourg">Thomas of Strasbourg</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Circa textum 2</title>
+               <date when="2020-11-26">November 26, 2020</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="G" n="cod-TxxqU">Genoa 1585</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2020-11-26" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#G" n="73-r"/>
+            <cb ed="#G" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="HuYgTa-e55233"><!-- HuYgTa-l1d17ct2 -->
+            <head xml:id="HuYgTa-e55233-Hd1e108">Circa textum 2</head>
+            <p xml:id="HuYgTa-e55233-d1e111">
+      <!--184.xml-->
+               <pb ed="#G" n="73-r"/>
+               <cb ed="#G" n="a"/>
+               <lb ed="#G" n="1"/>Dostremae particulae buius distinctiouis clara, &amp; aper 
+      <lb ed="#G" n="2"/>tasubdiuisio, n qua quidem Magister de
+      aug<lb ed="#G" n="3" break="no"/>
+               <pc type="indent"/>mento caritatis determmans, opintioni 
+      <lb ed="#G" n="4"/>
+               <pc type="indent"/>oppositae suae sententiae conctur 
+      <lb ed="#G" n="5"/>
+               <pc type="indent"/>satisfacere.
+    </p>
+            <p xml:id="HuYgTa-e55233-d1e137">
+               <lb ed="#G" n="6"/>C QVARITVR SI CARITAS &amp;c. 
+      <lb ed="#G" n="7"/>In ista parte magister inquirit di 
+      <lb ed="#G" n="8"/>augmento caritatis. Et tria faciti 
+      <lb ed="#G" n="9"/>quia primo circa hoc mouet
+      quae<lb ed="#G" n="10" break="no"/>stionem. Secundo ponit suam res 
+      <lb ed="#G" n="11"/>ponsionem. Et tertio addit respon 
+      <lb ed="#G" n="12"/>sionis suae confirmationem.
+      Secun<lb ed="#G" n="13" break="no"/>da ibi, His itaque respodemus.
+      Ter<lb ed="#G" n="14" break="no"/>ua ibi, Vt autem certius &amp;c. Tunc sequitur illa pars,
+      Su<lb ed="#G" n="15" break="no"/>pra dictum est &amp;c. In qua magister adducit opinionem si 
+      <lb ed="#G" n="16"/>pradictis contrariam, &amp; diuiditur in duas partes: quia
+      pri<lb ed="#G" n="17" break="no"/>mo ad hoc quod caritas, qua Deum &amp; proximum diligimus 
+      <lb ed="#G" n="18"/>no sit spiritus sanctus, adducit istius opinionis
+      probatio<lb ed="#G" n="19" break="no"/>nt Secundo adiungit quandam aliam quaestionem ibi,
+      Hi<lb ed="#G" n="20" break="no"/>paeritus cum spiritus sanctus. Prima diuiditur in tres, se 
+      <lb ed="#G" n="21"/>undum quod tenentes opinionem istam triplicite r pro 
+      <lb ed="#G" n="22"/>bant suam intentionem. Primo scilicet ex caritatis
+      diui<lb ed="#G" n="23" break="no"/>na &amp; numanae distinctione. Secundo ex spiritus sancti o 
+      <lb ed="#G" n="24"/>peratione, seu causatione. Et tertio ex caritatis humana 
+      <lb ed="#G" n="25"/>beicrintione Secunda ibi, Sed aliud est inquiunt. Tertiam 
+      <lb ed="#G" n="26"/>i, Alias quoque inducunt. Quaelibet istarum partium 
+      <lb ed="#G" n="27"/>huiditur in duias, secundum quod magister primo
+      addu<lb ed="#G" n="28" break="no"/>tistius opinionis probationem. Secundo econtra opp. 
+      <lb ed="#G" n="29"/>m suam respo nsionem, &amp; partes de se patent. Circa han 
+      <lb ed="#G" n="30"/>lctionem quaero. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

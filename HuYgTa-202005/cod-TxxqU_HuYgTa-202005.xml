@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Circa textum</title>
+            <author ref="#ThomasStrasbourg">Thomas of Strasbourg</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Circa textum</title>
+               <date when="2020-11-26">November 26, 2020</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="G" n="cod-TxxqU">Genoa 1585</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2020-11-26" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#G" n="-r"/>
+            <cb ed="#G" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="HuYgTa-202005"><!-- HuYgTa-l3d37et38ct1 -->
+            <head xml:id="HuYgTa-202005-Hd1e108">Circa textum</head>
+            <p xml:id="HuYgTa-202005-d1e111">
+               <lb ed="#G" n="21"/>DISTINCTIO XXXVII ET XXXVIII 
+      <lb ed="#G" n="22"/>Facilis harum distinctionum diuisio in quibus 
+      <lb ed="#G" n="23"/>de diuinorum mandatorum
+      acti<lb ed="#G" n="24" break="no"/>bus peragitur.
+    </p>
+            <p xml:id="HuYgTa-202005-d1e122">
+               <lb ed="#G" n="25"/>ED IAM DISTRIEVTIO Post quam 
+      <lb ed="#G" n="26"/>Magister a. distin. 23. inclusiue
+      determi<lb ed="#G" n="27" break="no"/>nauit de animae humanae perfectionibus 
+      <lb ed="#G" n="28"/>se habentibus per modum habitus, hic 
+      <lb ed="#G" n="29"/>vlterius prosequitur de animae
+      perfe<lb ed="#G" n="30" break="no"/>ctionibus se habentibus per modum actus. 
+      <lb ed="#G" n="31"/>vel continentur sic. Postquam Magister determinauit 
+      <lb ed="#G" n="32"/>de habitibus virtutum, &amp; donorum, hic incipit
+      determi<lb ed="#G" n="33" break="no"/>nare de operibus, seu actibus diuinorum mandatorum, &amp;  
+      <lb ed="#G" n="34"/>diuiditur in duas partes: nam primo, determinat de ope- 
+      <lb ed="#G" n="35"/>ribus, seu actibus mandatotum primae tabulae. Secundo 
+      <lb ed="#G" n="36"/>de actibus mandatorum secundae tabulae, ibi, In secunda 
+      <lb ed="#G" n="37"/>uero tabula. Prima diuiditur in tres partes: nam primo 
+      <lb ed="#G" n="38"/>Magister tangit vniuersaliter numerum mandatorum, qu 
+      <lb ed="#G" n="39"/>prosequitur de mandato primo. Secundo de secundo. 
+      <lb ed="#G" n="40"/>Tertio de tertio, Secunda ibi, Secundum praeceptum, Ter 
+      <lb ed="#G" n="41"/>tia ibi, Tertium vero,. Sequitur illa pars, In secunda Veri 
+      <lb ed="#G" n="42"/>tabula. Et diuiditur in7. partes secundum quod sunt 7.
+      prae<lb ed="#G" n="43" break="no"/>cepta secundae tabulae, de quibus Magister tractat vsquo 
+      <lb ed="#G" n="44"/>id finem istius tertij libus Secunda ibi, Secundum est non 
+      <lb ed="#G" n="45"/>occides. Tertia ibi, Tertium est non mechaberis. Quarta, 
+      <lb ed="#G" n="46"/>ibi, Quartum est non furtum facies. Quinta ibi, Quintum 
+      <lb ed="#G" n="47"/>praeceptum. Sexta ibi, oextum praeceptum. Septima ibi 
+      <lb ed="#G" n="48"/>Septimum est non concupisces. Sequitur illa pars,
+      Quar<lb ed="#G" n="49" break="no"/>tum est &amp;c. Et diuiditur in tres partes: nam primo da 
+      <lb ed="#G" n="50"/>quarti praecepti saecundae tabulae veram intellectionem. 
+      <lb ed="#G" n="51"/>pecundo, cuiusdam peccati militantis contra illud praece 
+      <lb ed="#G" n="52"/>ptum ponit distinctionem. Tertio mouet incidentem dubi 
+      <lb ed="#G" n="53"/>tationem. Secunda ibi, Sacrilegium tribus modis. Tertia 
+      <lb ed="#G" n="54"/>ibi, Si vero quaeritur. Et haec diuiditur in quattuor: quia 
+      <lb ed="#G" n="55"/>primo quaestionem proponit. Secundo responsionem
+      ap<lb ed="#G" n="56" break="no"/>ponit. Tertio, contra responsionem opponit 
+    </p>
+            <p xml:id="HuYgTa-202005-d1e194">
+               <lb ed="#G" n="57"/>
+               <pc type="indent"/>Quarto, obiectionem deponit. Secunda ibi,
+      Dici<lb ed="#G" n="58" break="no"/>e¬ 
+      <lb ed="#G" n="59"/>mus eos. Tertia ibi, Hic opponitur. Quarta ibi, Sed ibi 
+      <lb ed="#G" n="60"/>subintelligendum est. Sequitur illa pars, Quintum
+      prae<lb ed="#G" n="61" break="no"/>ceptum. Et diuiditur in duas Primo ostendit, quod illud 
+      <lb ed="#G" n="62"/>mandatum se extendit ad medacii, &amp; periurij prohibitio 
+      <lb ed="#G" n="63"/>nem. Secundo, de vtroque istorum facit specialem
+      men<lb ed="#G" n="64" break="no"/>tionem ibi, Solet autem quaeri. Haec in duas. Primo, men 
+      <lb ed="#G" n="65"/>tionem facit de mendacio. Secundo de periurio ibi, Nuns 
+      <lb ed="#G" n="66"/>de periurio videamus. Prima in tres: quia primo qquo ac 
+      <lb ed="#G" n="67"/>illius mandati prohibitionem de mendacio facit
+      quae<lb ed="#G" n="68" break="no"/>stionem. Secundo, circa quaesitum recitat vnam opinio. 
+      <lb ed="#G" n="69"/>nem. Tertio ad euidentiorem veritatis determinationem 
+      <lb ed="#G" n="70"/>de mandato facit distinctionem. Secunda ibi, Quidam di 
+      <!--580.xml-->
+      <cb ed="#G" n="b"/>
+               <lb ed="#G" n="71"/>cunt. Tertia incipit, ibi, Secudum tamen tria esse Haec in duas 
+      <lb ed="#G" n="72"/>Primo tractando de mendacio procedit diuisiue.
+      Secun<lb ed="#G" n="73" break="no"/>do diffinitiue ibi, Hic videndum est. Prima in duas, secur 
+      <lb ed="#G" n="74"/>dum quod de mendacio ponit duas diuisiones. 
+      <lb ed="#G" n="75"/>Secunda ibi, Sciendum etiam est, octo esse genera. Sequi 
+      <lb ed="#G" n="76"/>tur illa pars, Hic videdum est. Et diuiditur in duas partes 
+      <lb ed="#G" n="77"/>Primo ostendit, quomodo diffinitur mendacium,
+      Se<lb ed="#G" n="78" break="no"/>cundo, innuit omne medacium esse peccatum ibi. Quod 
+      <lb ed="#G" n="79"/>vero omne mendacium. Prima in duas. Primo ipsius men 
+      <lb ed="#G" n="80"/>dacij, &amp; mentiri ponit distinctam diffinitionem. Secundo 
+      <lb ed="#G" n="81"/>mouet, &amp; soluit vnam incidentem dubitationem ibi, Hic 
+      <lb ed="#G" n="82"/>solet quaeri. Sequitur illa pars, Quod vero omne. Et diui 
+      <lb ed="#G" n="83"/>ditur in tres partes. Primo ostendit, quod omne
+      menda<lb ed="#G" n="84" break="no"/>cium ex dictis sanctorum, peccatum esse probatur. Secun 
+      <lb ed="#G" n="85"/>do ostendit, quod interdum sine peccato erratur ibi.
+      ll<lb ed="#G" n="86" break="no"/>lud quoque sciendum. Tertio, quomodo lacob. dicens se 
+      <lb ed="#G" n="87"/>esse Esau a peccato excusatur: Secunda ibi, lllud quoque 
+      <lb ed="#G" n="88"/>sciendum est. Tertia ibi, Solet quaeri de lacob. Circa has 
+      <lb ed="#G" n="89"/>duas dist. quaero. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

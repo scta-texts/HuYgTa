@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Circa textum</title>
+            <author ref="#ThomasStrasbourg">Thomas of Strasbourg</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Circa textum</title>
+               <date when="2020-11-26">November 26, 2020</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="G" n="cod-TxxqU">Genoa 1585</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2020-11-26" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#G" n="94-r"/>
+            <cb ed="#G" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="HuYgTa-e71631"><!-- HuYgTa-l1d30ct1 -->
+            <head xml:id="HuYgTa-e71631-Hd1e108">Circa textum</head>
+            <p xml:id="HuYgTa-e71631-d1e111">
+               <lb ed="#G" n="130"/>
+               <pc type="indent"/>DISTINCTIO XXX. 
+      <lb ed="#G" n="131"/>Resoluta diuisio buius distinctionis, in qua de
+      tempo<lb ed="#G" n="132" break="no"/>ralibus relationibus sermo mcboatur.
+    </p>
+            <p xml:id="HuYgTa-e71631-d1e122">
+               <lb ed="#G" n="133"/>
+               <pc type="indent"/>VGT ENIM Quaedam &amp;c. Post. 
+      <lb ed="#G" n="134"/>quam magister determinauit de di 
+      <lb ed="#G" n="135"/>uinarum personarum aeternis
+      mo<lb ed="#G" n="136" break="no"/>tionibus, nunc in ista 30.
+      distinctio<lb ed="#G" n="137" break="no"/>ne tractat de earundem personatu 
+      <lb ed="#G" n="138"/>temporalibus relationibus, &amp;
+      diui<lb ed="#G" n="139" break="no"/>ditur in duas partes: quia primo 
+      <lb ed="#G" n="140"/>magister ostendit, quod quaedam 
+      <!--227.xml-->
+      <pb ed="#G" n="94-v"/>
+               <cb ed="#G" n="a"/>
+               <lb ed="#G" n="1"/>temporales appellationes Deo conueniant, secundo
+      o<lb ed="#G" n="2" break="no"/>stendit qualiter, &amp; per quem modum Deo conuenire
+      va<lb ed="#G" n="3" break="no"/>leant ibi., Quomodo ergo. Prima in tres: nam primo
+      ma<lb ed="#G" n="4" break="no"/>gister praemittit suam intentionem, secundo contra suam 
+      <lb ed="#G" n="5"/>assertiorem adducit obiectionem, &amp; tertio illius
+      obiectio<lb ed="#G" n="6" break="no"/>nis innuit dissolutionem. Secunda ibi, Sed hic aliquis
+      di<lb ed="#G" n="7" break="no"/>cet. Tertia ibi, Ad quod dici potest. Sequitur illa pars 
+      <lb ed="#G" n="8"/>uomodo ergo, Et diuiditur in duas pates: nam primo 
+      <lb ed="#G" n="9"/>ostendit supradictorum possibilitatem, secundo ex hic di 
+      <lb ed="#G" n="10"/>ctis ostendit esse solutam quandam superius tactam
+      difficul<lb ed="#G" n="11" break="no"/>tatem ibi, Hic potest solui quaestio. Circa istam dist. quero. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

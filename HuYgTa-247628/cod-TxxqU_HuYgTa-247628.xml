@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Circa textum</title>
+            <author ref="#ThomasStrasbourg">Thomas of Strasbourg</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Circa textum</title>
+               <date when="2020-11-26">November 26, 2020</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="G" n="cod-TxxqU">Genoa 1585</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2020-11-26" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#G" n="P2_116-r"/>
+            <cb ed="#G" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="HuYgTa-247628"><!-- HuYgTa-l4d14ct1 -->
+            <head xml:id="HuYgTa-247628-Hd1e108">Circa textum</head>
+            <p xml:id="HuYgTa-247628-d1e111">
+      <!--702.xml-->
+               <pb ed="#G" n="P2_116-r"/>
+               <cb ed="#G" n="a"/>
+               <lb ed="#G" n="1"/>DISTINCTIO XIIII. 
+      <lb ed="#G" n="2"/>Tractatus de penitentia non inepta diuuisic 
+      <lb ed="#G" n="3"/>
+               <pc type="indent"/>ac praelentis distinctionis chara 
+      <lb ed="#G" n="4"/>
+               <pc type="indent"/>subduusio. 
+      <lb ed="#G" n="5"/>OST haec de penitenria.
+      Post<lb ed="#G" n="6" break="no"/>quam magister determinauit de 
+      <lb ed="#G" n="7"/>tribus sacramentis. sebaptismo 
+      <lb ed="#G" n="8"/>confirmatione, &amp; fucharistia, 
+      <lb ed="#G" n="9"/>quorum i primo gratia donaturi 
+      <lb ed="#G" n="10"/>&amp; in secundo roboratur, &amp; in ter 
+      <lb ed="#G" n="11"/>tio consummatur, nunc ista.
+      14<lb ed="#G" n="12" break="no"/>dist. incipit tractare de
+      peniten<lb ed="#G" n="13" break="no"/>tia, qua gratia si fuerit amissa misericorditer
+      recupera<lb ed="#G" n="14" break="no"/>tur. Et diuiditur in tres partes: quia primo agit de
+      peni<lb ed="#G" n="15" break="no"/>entia quantum ad illud, quod est penitentiae proprium. 
+      <lb ed="#G" n="16"/>eundo, de ministrorum auctoritate penitentiam
+      in<lb ed="#G" n="17" break="no"/>gentium. Tertio, de peccatorum remissione ex parte 
+      <lb ed="#G" n="18"/>tipientium. Secunda, Hic quaeri solet. Tertia,
+      Scien<lb ed="#G" n="19" break="no"/>n est. Prima in duas; quia primo tractat de
+      peniten<lb ed="#G" n="20" break="no"/>in generali. Secundo de partibus penitentiae in
+      spe<lb ed="#G" n="21" break="no"/>ui, ibi. In perfectione aute penitentiae. Prima in duas 
+      <lb ed="#G" n="22"/>a primo e xcludit errorem eorum, qui dicunt, quod 
+      <lb ed="#G" n="23"/>era penitentia non potest iterari. Secundo refellit fa 
+      <lb ed="#G" n="24"/>n opinionem, quae ponit, quod penitentia potest
+      di<lb ed="#G" n="25" break="no"/>iputa, quod manente vno peccato mortali, de alio 
+      <lb ed="#G" n="26"/>ssit vera penitentia fieri,. Secunda ibi. Et sicut
+      praedi<lb ed="#G" n="27" break="no"/>Prima in duas quia primo ponit penitentiae descri 
+      <lb ed="#G" n="28"/>ionem. Secundo circa hoc recitat praedictum erro 
+      <lb ed="#G" n="29"/>ibi. His verbis quidam vehementius. Prima in 
+      <lb ed="#G" n="30"/>is: quia primo tangit penitentiae vtilitatem.
+      Secun<lb ed="#G" n="31" break="no"/>nnuit eiusdem dignitatem, ibi, Apenitentia caepit. 
+      <lb ed="#G" n="32"/>uitur illa pars, His Verbis quidam vehementius. Ei 
+      <lb ed="#G" n="33"/>uditur in tres partes: quia primo praedictum errorem 
+      <lb ed="#G" n="34"/>suis motiuis recitat. Secundo auctoritates, supel 
+      <lb ed="#G" n="35"/>sibus fundatur, dando verum intellectum explanat. 
+      <lb ed="#G" n="36"/>rtio veritatem huic errori contrariam sanctorum
+      au<lb ed="#G" n="37" break="no"/>ritate confirmat. Secunda, ibi, Sed <name xml:id="HuYgTa-247628-Nd1e204" ref="#Ambrose">Ambro.</name> dicit. Ter 
+      <lb ed="#G" n="38"/>ibi, Quod vero penitentia. Secunda istarum in qua 
+      <lb ed="#G" n="39"/>or, secundum quod primo exponit auctoritatem
+      Creg<lb ed="#G" n="40" break="no"/>ecundum lsid. Tertio Aug. Et quarto, <name xml:id="HuYgTa-247628-Nd1e213" ref="#Ambrose">Ambr.</name>
+      Secun<lb ed="#G" n="41" break="no"/>
+               <pc type="indent"/>sibi, ltrisor autem ille est. Tertia, ibi, Item illud inanis 
+      <lb ed="#G" n="42"/>Quarta, ibi, lllud autem, quod <name xml:id="HuYgTa-247628-Nd1e223" ref="#Ambrose">Ambr.</name> ait. Hec est 
+      <lb ed="#G" n="43"/>ntentia istius distin in generali, circa quam quaero 
+      <lb ed="#G" n="44"/>speciali.  
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,882 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#ThomasStrasbourg">Thomas of Strasbourg</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2020-11-26">November 26, 2020</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="G" n="cod-TxxqU">Genoa 1585</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2020-11-26" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#G" n="NaN-v"/>
+            <cb ed="#G" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="HuYgTa-186777"><!-- HuYgTa-l3d21et22q1 -->
+            <head xml:id="HuYgTa-186777-Hd1e108">Quaestio 1</head>
+            <head xml:id="HuYgTa-186777-Hd1e111" type="question-title">
+      An anima, et corpus Christi post eorum 
+      inter se separationem diuinitati 
+      remanserint unita.
+    </head>
+            <p xml:id="HuYgTa-186777-d1e114">
+               <lb ed="#G" n="111"/>
+               <pc type="indent"/>Quaestio 1. 
+      <lb ed="#G" n="112"/>An anima, &amp; corpus Christi post eorum 
+      <lb ed="#G" n="113"/>inter se separationem diuinitati 
+      <lb ed="#G" n="114"/>remanserint vnita.
+    </p>
+            <p xml:id="HuYgTa-186777-d1e127">
+               <lb ed="#G" n="115"/>VTRVM non obstante morte Christi, qua anima fu 
+      <lb ed="#G" n="116"/>it separata a corpore: anima, &amp; corpus Christi remam 
+      <lb ed="#G" n="117"/>serint vnita deitati, seu personae verbi.
+    </p>
+            <p xml:id="HuYgTa-186777-d1e136">
+      Et videtur 
+      <lb ed="#G" n="118"/>quod non: quia virtute vnionis in Christo facta est
+      com<lb ed="#G" n="119" break="no"/>municatio idiomatum : propter hoc enim homo dicitur 
+      <lb ed="#G" n="120"/>Deus, &amp; Deus homo: quia humanitas in persona verbi ve 
+      <lb ed="#G" n="121"/>re est vnita deitati: sed in triduo mortis Christi istae pro 
+      <lb ed="#G" n="122"/>positones non erant verae: Deus est anima, vel Deus es 
+      <lb ed="#G" n="123"/>corpus: ergo nec anima nec corpus in triduo fuerunt vni 
+      <lb ed="#G" n="124"/>ta deitati.
+    </p>
+            <p xml:id="HuYgTa-186777-d1e155">
+               <lb ed="#G" n="125"/>INCONTRARIVM est Aug. qui ait. Mors ad
+      tem<lb ed="#G" n="126" break="no"/>pus animam, &amp; corpus separauit sed neutrum a verbo. Hic 
+      <!--540.xml-->
+      <pb ed="#G" n="P2_35-r"/>
+               <cb ed="#G" n="a"/>
+               <lb ed="#G" n="1"/>quatiuor sunt videnda Primo de principali quaesito. Se 
+      <lb ed="#G" n="2"/>cundo si corpus Christi diu mansisset ab anima separatum 
+      <lb ed="#G" n="3"/>fuisset incineratum ad modum aliorum corporum. Et ho 
+      <lb ed="#G" n="4"/>quantum ad 11 dist. Tertio vtrum Christus in triduo fue 
+      <lb ed="#G" n="5"/>nt verus homo. Et quarto vtrum post mortem
+      descende<lb ed="#G" n="6" break="no"/>rit ad infernum. Et hoc quo ad 22. distinctionem. 
+    </p>
+            <p xml:id="HuYgTa-186777-d1e181">
+               <lb ed="#G" n="7"/>
+               <pc type="indent"/>RESOLVTIO. 
+      <lb ed="#G" n="8"/>Ptvrporis christi, ita eiusdem animae vnio tum diuinitate
+      num<lb ed="#G" n="9" break="no"/>quam soluta fuit: cum praesertim clamet Apostolus, sine paeniter 
+      <lb ed="#G" n="10"/>tiasunt dona Dei Verunt amen christi corpus, quamditt
+      diui<lb ed="#G" n="11" break="no"/>nitati coniuncta stetisset. intinerationem numquam fuisset 
+      <lb ed="#G" n="12"/>Perpessum: situs autem si suis naturalibus esset derelictum. 
+    </p>
+            <p xml:id="HuYgTa-186777-d1e199">
+               <lb ed="#G" n="13"/>
+               <pc type="indent"/>ARTICVLV S ti. 1. 
+      <lb ed="#G" n="14"/>Vtrum anima, &amp; corpus christi post eorum inter se 
+      <lb ed="#G" n="15"/>
+               <pc type="indent"/>separationem diuinitati remanserint vnita.
+    </p>
+            <p xml:id="HuYgTa-186777-d1e212">
+               <lb ed="#G" n="16"/>QVANTVM ad primum ponam duas conclusiones. 
+      <lb ed="#G" n="17"/>Prima est, quod numquam soluta fuit vnio corporis 
+      <lb ed="#G" n="18"/>Christi cum deitate. 1 Quia dicit Apost. quod sine poeniter 
+      <lb ed="#G" n="19"/>tia sunt dona Dei. Et ex illo dicto Apostoli trahitur, quo 
+      <lb ed="#G" n="20"/>quidquid per gratiam Dei conceditur, numquam absque culp 
+      <lb ed="#G" n="21"/>reuocatur: sed ex mirifica Dei gratia corpus illud per
+      as<lb ed="#G" n="22" break="no"/>sumptionem verbi deitati fuit vnitum, nec vmquam illud con 
+      <lb ed="#G" n="23"/>quocumque peccato fuerat maculatu: ergo numquam 
+      <lb ed="#G" n="24"/>lhuiusmodi vnione extitit destitutum.
+    </p>
+            <p xml:id="HuYgTa-186777-d1e234">
+      2 Praeterea, si 
+      <lb ed="#G" n="25"/>
+               <pc type="indent"/>vnio in triduo fuisset dissoluta, tunc aut filius Dei fuis 
+      <lb ed="#G" n="26"/>no sepultus, vel non potuit dici vere sepultus, cuius
+      op<lb ed="#G" n="27" break="no"/>situm habetur in fvmbolo: aut de nouo facta fuisset 
+      <lb ed="#G" n="28"/>fporis illius assumptio, quod est falsum: quia nusquam leg 
+      <lb ed="#G" n="29"/>nus filium Dei pluries, quam semel corpus Christi assum 
+      <lb ed="#G" n="30"/>Pise Consequentia patet quo ad primam sui parte: quia ea, 
+      <lb ed="#G" n="31"/>ae soli corpori conueniunt, non dicutur de filio Dei nisi 
+      <lb ed="#G" n="32"/>Rri vnionis, qua vnitus est corpori: sed esse sepultum ci 
+      <lb ed="#G" n="33"/>senit solum corpori: ergo si dissoluitur vnio, filius Dei non 
+      <lb ed="#G" n="34"/>pterit dici sepultus: vel dissoluta prima vnione
+      oporte<lb ed="#G" n="35" break="no"/>ct aliam vnionem fieri, &amp; aliam assumptionem, quod fuit 
+      <lb ed="#G" n="36"/>secunda pars praedictae consequentiae. Sed contra ho 
+      <lb ed="#G" n="37"/>detur esse quidam doctor, qui ait. 1 Quod si in homi 
+      <lb ed="#G" n="38"/>snon est alia forma substantialis praeter animam intelle 
+      <lb ed="#G" n="39"/>luam, tunc necessario dissoluta fuit per mortem Christ 
+      <lb ed="#G" n="40"/>nio supradicta: quia uno vnitorum destructo, necessario 
+      <lb ed="#G" n="41"/>llitur vnio: facta autem praedicta suppositione, tunc con 
+      <lb ed="#G" n="42"/>Christi vere corrumpebatur, quia perdidit formam, 
+      <lb ed="#G" n="43"/>a sibi dabat esse corporeum, quae fuit de intrinseca, &amp; 
+      <lb ed="#G" n="44"/>intiali rone illius corporis, puta, aiam intellectiuam: er- 
+      <lb ed="#G" n="45"/>soluta fuit vnio, qua corpus Christi vnitu fuit deitati 
+    </p>
+            <p xml:id="HuYgTa-186777-d1e284">
+               <lb ed="#G" n="46"/>
+               <pc type="indent"/>praeterea, hoc idem potest probari sic. Remoto medio,  
+      <lb ed="#G" n="47"/>so aliqua vniuntur, dissoluitur eorum vnio, sed (vt
+      su<lb ed="#G" n="48" break="no"/>trius patuit) verbum Dei assumpsit carnem mediante 
+      <lb ed="#G" n="49"/>nima cum igitur in morte Christi anima fuerit a
+      cor<lb ed="#G" n="50" break="no"/>re separata: ergo &amp;c.
+    </p>
+            <p xml:id="HuYgTa-186777-d1e301">
+               <lb ed="#G" n="51"/>Praeterea, si vnio corporis Christi mansisset cum
+      dei<lb ed="#G" n="52" break="no"/>se indissoluta in triduo, tunc corpus Christi non fuisset 
+      <lb ed="#G" n="53"/>ere mortuum Consequens est haereticum: quia est haere 
+      <lb ed="#G" n="54"/>Oalanitarum, vt ait lsidorus, &amp; habetur in decretis 24 
+    </p>
+            <p xml:id="HuYgTa-186777-d1e312">
+               <lb ed="#G" n="55"/>
+               <pc type="indent"/>Probatio consequentiae: quia maior est virtus viuifica. 
+      <lb ed="#G" n="56"/>ndeitatis, q animae: sed corpus non moritur nisi
+      sepa<lb ed="#G" n="57" break="no"/>tur ab aia:ergo nec mori poterit, quadiu remanet
+      vni<lb ed="#G" n="58" break="no"/>n deitati. Ad primum nego consequentiam. Ad pro 
+      <lb ed="#G" n="59"/>tionem dico que ro procedit ex ignorantia distinctionis,  
+      <lb ed="#G" n="60"/>inter corpus, quod est directe in praedicamento substam 
+      <lb ed="#G" n="61"/>pe corpus, quod est altera pars composit, quod solum por 
+      <lb ed="#G" n="62"/>otionem est in praedicamento. Nam primum est composi 
+      <lb ed="#G" n="63"/>n ex materia, &amp; forma substantiali &amp; praedicatur per se 
+      <lb ed="#G" n="64"/>orte, &amp; de ceteris indiuiduis corporeae substantiae, cum 
+      <lb ed="#G" n="65"/>enus subalternum praedicamenti substantiae, Corpus 
+      <lb ed="#G" n="66"/>rrm, quod est altera pars composit, dicit materiam cum 
+      <!--540.xml-->
+      <cb ed="#G" n="b"/>
+               <lb ed="#G" n="67"/>inclusione cuiusdam modi quantitatiui, quae fortitur a cor 
+      <lb ed="#G" n="68"/>pore, quod est de praedicamento quantitatis. Nec illud cor 
+      <lb ed="#G" n="69"/>pus predicatur de eo, cuius est corpus: quia pars integrali 
+      <lb ed="#G" n="70"/>non predicatur de suo toto. Sicut. n aia, quae est pars forma 
+      <lb ed="#G" n="71"/>lis, non praedicatur de eo, cuius est anima, sic nec corpus: 
+      <lb ed="#G" n="72"/>quod est altera pars composit. Et ideo quauis non fuerit in 
+      <lb ed="#G" n="73"/>Christo aliqua forma substantialis, nisi sola anima
+      intel<lb ed="#G" n="74" break="no"/>lectiua, tamen per separationem aiae intellectiuae corpus
+      Chri<lb ed="#G" n="75" break="no"/>sti non corrumpebatur quantum ad esse corporis: quia non per 
+      <lb ed="#G" n="76"/>didit modum quantitatiuum, quem addit corpus, vt corpus 
+      <lb ed="#G" n="77"/>est, super ipsam materiam, quauis posset dici corruptum quan 
+      <lb ed="#G" n="78"/>tum ad esse vitale: quia non remansit viuu. Forte dicetur 
+      <lb ed="#G" n="79"/>que tunc in triduo remasit corpus Christi sine omni form: 
+      <lb ed="#G" n="80"/>substantiali. Respondeo, quod hoc nullum reputo esse
+      in<lb ed="#G" n="81" break="no"/>conueniens: quia quamuis materia quanta naturaliter non 
+      <lb ed="#G" n="82"/>possit subsistere sine forma substant,iali, vt tamen vnita est per 
+      <lb ed="#G" n="83"/>sonae diuinae actualiter potest subsistere, &amp; existere sine 
+      <lb ed="#G" n="84"/>omni forma substantiali. Si: nm sola voluntate diuina quan 
+      <lb ed="#G" n="85"/>titas in sacramento altaris existit sine materia, &amp; sine
+      for<lb ed="#G" n="86" break="no"/>ma substantiali, quanto magis materia quanta verbo Dei 
+      <lb ed="#G" n="87"/>personaliter vnita potest existere sine forma substantiali¬ 
+    </p>
+            <p xml:id="HuYgTa-186777-d1e393">
+               <lb ed="#G" n="88"/>
+               <pc type="indent"/>Ad secundum dicendum, que in tali assumptione anima 
+      <lb ed="#G" n="89"/>non fuit medium necessitatis, sed solum cuiusdam congruitatis. 
+    </p>
+            <p xml:id="HuYgTa-186777-d1e402">
+               <lb ed="#G" n="90"/>
+               <pc type="indent"/>Ad tertium nego consequentiam. Ad probationem dici 
+      <lb ed="#G" n="91"/>dum, quod licet omnis virtus viuificatiua competat deitati 
+      <lb ed="#G" n="92"/>effectiue, non tamen competit sibi formaliter viuificare,
+      si<lb ed="#G" n="93" break="no"/>cut competit ipsi animae: ideo anima vnita corpori ipsum 
+      <lb ed="#G" n="94"/>formaliter viuificat, non autem deitas. Secundo dico, quod 
+      <lb ed="#G" n="95"/>vnio animae Christi cum deitate numquam fuit soluta, ita 
+      <lb ed="#G" n="96"/>que anima Christi haberet esse separatum a deitate. Quia 
+      <lb ed="#G" n="97"/>perfectior, &amp; per consequens indissolubilior est vnio, quam 
+      <lb ed="#G" n="98"/>est per assumptionem cum beata fruitione, quam quae est 
+      <lb ed="#G" n="99"/>er fruitionem sine assumptione: Sed secunda est indossolu 
+      <lb ed="#G" n="100"/>bilis: alias n illi, qui sunt in vita aeterna non essent perfe 
+      <lb ed="#G" n="101"/>cte beati, nisi essent certi de aeterna permansione suae vnio 
+      <lb ed="#G" n="102"/>nis cum Deo secundum beatam fruitionem: ergo numquam fuit 
+      <lb ed="#G" n="103"/>dissoluta animae Christi vnio cum deitate, quae non solum 
+      <lb ed="#G" n="104"/>fuit secundum fruitionem, verum etiam per personae diuina 
+      <lb ed="#G" n="105"/>assumptionem.
+    </p>
+            <p xml:id="HuYgTa-186777-d1e441">
+      2 Praeterea, si anima Christi fuisset in 
+      <lb ed="#G" n="106"/>triduo separata a deitate, tunc filius Dei non descedisset 
+      <lb ed="#G" n="107"/>ad inferna: quia hoc praedicatum solum ratione animae sibi 
+      <lb ed="#G" n="108"/>conueniebat: ergo &amp;c.
+    </p>
+            <p xml:id="HuYgTa-186777-d1e450">
+      3 Praeterea, aima Christi
+      num<lb ed="#G" n="109" break="no"/>quam peccauit: ergo gratiam vnionis numquam perdidit 
+      <lb ed="#G" n="110"/>Antecedens est notum. Consequentia patet ex preceden 
+      <lb ed="#G" n="111"/>tibus. Forte dicetur, quod natura humana numquam
+      pecca<lb ed="#G" n="112" break="no"/>uit, &amp; tamen gratiam vnionis perdidit. Respondeo, quod 
+      <lb ed="#G" n="113"/>non proprie dicitur, quod natura humana inChristo perdide 
+      <lb ed="#G" n="114"/>rit vnionem: quia illa vnio non fuit dissoluta per humana 
+      <lb ed="#G" n="115"/>naturae separationem a verbo: sed per humanae naturae 
+      <lb ed="#G" n="116"/>mortem, seu corruptionem : numquam enim habuit illa na 
+      <lb ed="#G" n="117"/>tura esse sine vnito esse ad verbum Dei, &amp; ad ipsam deita 
+      <lb ed="#G" n="118"/>te.
+    </p>
+            <p xml:id="HuYgTa-186777-d1e475">
+      4 Praeterea, ista est expressa intentio Dam. tertio
+      li<lb ed="#G" n="119" break="no"/>bro, vbi ait, Etsi Christus mortuus est, vt homo, &amp; sancta 
+      <lb ed="#G" n="120"/>eius anima ab incontaminato diuisa est corpore, deitas 
+      <lb ed="#G" n="121"/>tamen inseparabilis ab vtrisque permansit, ab anima dico 
+      <lb ed="#G" n="122"/>corpore. 
+    </p>
+            <p xml:id="HuYgTa-186777-d1e486">
+               <lb ed="#G" n="123"/>
+               <pc type="indent"/>Forte dicetur, quod si praedictae duae conclusiones sunt 
+      <lb ed="#G" n="124"/>verae, tunc anima Christi numquam fuisset separata ab 
+      <lb ed="#G" n="125"/>eius corpore. Consequens est contra fidem: quia tunc 
+      <lb ed="#G" n="126"/>Christus non fuisset mortuus. Probo consequentiam  
+      <lb ed="#G" n="127"/>quia sicut illa, quae sunt eadem eidem, sunt eadem intel 
+      <lb ed="#G" n="128"/>e; sic illa, quae sunt vnita eidem, sunt vnita inter se: sed
+      se<lb ed="#G" n="129" break="no"/>cundum has conclusiones anima, &amp; corpus Christi sem 
+      <lb ed="#G" n="130"/>per fuerunt vnita deitati : ergo semper fuerunt vnita 
+      <lb ed="#G" n="131"/>inter se 
+    </p>
+            <p xml:id="HuYgTa-186777-d1e510">
+               <lb ed="#G" n="132"/>
+               <pc type="indent"/>Respondeo negando consequentiam. Ad probationem 
+      <lb ed="#G" n="133"/>dicendum, quod sicut illa, quae sunt idem tertio, quamuis sin 
+      <lb ed="#G" n="134"/>idem inter se entitate illius tertij, tamen inter se possun 
+      <lb ed="#G" n="135"/>realiter manere distincta, vt patet de tribus diuinis
+      per<lb ed="#G" n="136" break="no"/>sonis, quae sunt idem essentiae diuinae, &amp; sunt idem
+      in<lb ed="#G" n="137" break="no"/>tei se entitate diuinae essentiae, &amp; tamen differunt
+      rea<lb ed="#G" n="138" break="no"/>iter inter se: sic illa, quae sunt vnita tertio, quamuis 
+      <lb ed="#G" n="139"/>ratione illius tertij possint dici aliquo modo vnita:tamen 
+      <!--541.xml-->
+      <pb ed="#G" n="P2_35-v"/>
+               <cb ed="#G" n="a"/>
+               <lb ed="#G" n="1"/>inter se poteruit vere manere distincta. Potest enim vnio 
+      <lb ed="#G" n="2"/>aliquorum fieri in aliquo tertio, quae tamen inter se
+      ma<lb ed="#G" n="3" break="no"/>nent distincta loco, &amp; subiecto: ergo non valet. 
+    </p>
+            <p xml:id="HuYgTa-186777-d1e545">
+               <lb ed="#G" n="4"/>
+               <pc type="indent"/>ARTICVLVS II 
+      <lb ed="#G" n="5"/>Vtrum si corpus chrisui diu mansisset ab anima 
+      <lb ed="#G" n="6"/>seporatum, fusset incineratum ad
+      mo<lb ed="#G" n="7" break="no"/>dum aliorum corporum.
+    </p>
+            <p xml:id="HuYgTa-186777-d1e558">
+               <lb ed="#G" n="8"/>QVANTVM ad secundum articulum dico primo,  
+      <lb ed="#G" n="9"/>A, quod corpus Christi suis naturalibus derelictun 
+      <lb ed="#G" n="10"/>vere fuit incinerabile, &amp; potuit in elementa resolui, si por 
+      <lb ed="#G" n="11"/>resumptionem animae non fuisset resuscitatum: quia
+      om<lb ed="#G" n="12" break="no"/>ne compositum ex elementis est resolubile in elementa 
+      <lb ed="#G" n="13"/>maxime si suis naturalibus fuerit derelictum, sed corpu 
+      <lb ed="#G" n="14"/>Christi vere fuit compositum ex elementis, sicut etiam 
+      <lb ed="#G" n="15"/>corpora ceterorum hominum. Maior patet non solun 
+      <lb ed="#G" n="16"/>per phylosophos, verum etiam patet per <ref xml:id="HuYgTa-186777-Rd1e579">August. 10. de 
+        <lb ed="#G" n="17"/>ciuit. Dei</ref>, vbi ait, quod <quote xml:id="HuYgTa-186777-Qd1e584" source="http://scta.info/resource/adcd-l19-d1e3121" synch="216-245">si corpus humanum naturali cur 
+          <lb ed="#G" n="18"/>sui relinquatur, tamdiu quodammodo transmutatur,
+      do<lb ed="#G" n="19" break="no"/>nec mudi conueniat elementis</quote>. Minor etiam nota est: quia si 
+      <lb ed="#G" n="20"/>no fuisset compositum ex elementis, tunc non fuisset de sphi 
+      <lb ed="#G" n="21"/>ra actiuorum, &amp; passiuorum, sed de natura coelesti 
+      <lb ed="#G" n="22"/>Secundo dico, quod corpus Christi numquam fuisset 
+      <lb ed="#G" n="23"/>ineineratum, supposito, quod deitati manserit semper vn 
+      <lb ed="#G" n="24"/>tum, dato etiam, quod per resurrectionem numquam fui 
+      <lb ed="#G" n="25"/>set animae suae reunitum: quia agens non valens
+      attinge<lb ed="#G" n="26" break="no"/>re quacumque sua actione actualem subsistentiam
+      alicu<lb ed="#G" n="27" break="no"/>ius corporis, hoc nullo modo potest ipsum corrumpere 
+      <lb ed="#G" n="28"/>seu incinerare: sed nullum agens naturale potest attinge 
+      <lb ed="#G" n="29"/>re esse substantiae corporis Christi vniti deitati per assum 
+      <lb ed="#G" n="30"/>ptionem verbi: quia illud esse, est esse personae diuinae, vi 
+      <lb ed="#G" n="31"/>patet ex dictis superius: ergo &amp;c 
+    </p>
+            <p xml:id="HuYgTa-186777-d1e618">
+               <lb ed="#G" n="32"/>
+               <pc type="indent"/>Sed sic dicendo, oritur duplex difficultas contra me 
+      <lb ed="#G" n="33"/>Vna est: quia eadem ratione homo Christus non potuit 
+      <lb ed="#G" n="34"/>oceidi: quia suae existentiae esse fuit esse verbi. Secunda 
+      <lb ed="#G" n="35"/>est, quia hic dico corpus Christi compositum ex
+      elemen<lb ed="#G" n="36" break="no"/>tis: in primo autem articulo istius quaestionis dixi, quod 
+      <lb ed="#G" n="37"/>corpus, quod est altera pars composit dicit solam
+      mate<lb ed="#G" n="38" break="no"/>tiam cum quodam modo quantitatiuo. Cum igitur ma 
+      <lb ed="#G" n="39"/>teria nec componatur ex elementis, nec resoluatur in eli 
+      <lb ed="#G" n="40"/>mentatideo posset alicui videri, quod dicta in secundo al 
+      <lb ed="#G" n="41"/>ticulo non se compatiantur cum eis, quae dicta sunt in 
+      <lb ed="#G" n="42"/>primo articulo.  
+    </p>
+            <p xml:id="HuYgTa-186777-d1e648">
+               <lb ed="#G" n="43"/>
+               <pc type="indent"/>Respondeo ad primum dicendum, quod ille homo
+      onc<lb ed="#G" n="44" break="no"/>cidi potuit, hoc fuit ex dispensatione diuinae voluntatis: 
+      <lb ed="#G" n="45"/>quia praesupposita sui cum verbo personali vnione, &amp; per 
+      <lb ed="#G" n="46"/>consequens beata fruitione, ipse non minus suisset im 
+      <lb ed="#G" n="47"/>nortalis, quam quicumque alius homo beatus resumpto 
+      <lb ed="#G" n="48"/>suo corpore, nisi interuenisset singularis dispensatio diui 
+      <lb ed="#G" n="49"/>nae voluntatis. 
+    </p>
+            <p xml:id="HuYgTa-186777-d1e668">
+               <lb ed="#G" n="50"/>
+               <pc type="indent"/>Ad secundum dicendum, quod quamuis nuda materia 
+      <lb ed="#G" n="51"/>non possit dici ex elementis composita, tamen materia hu 
+      <lb ed="#G" n="52"/>mana dicitur composita ex elementis, eo quod ratione 
+      <lb ed="#G" n="53"/>qualitatum elementarium in ipsa fundatarum temperate, 
+      <lb ed="#G" n="54"/>&amp; in esse remisso virtualiter im se contineat elementa 
+    </p>
+            <p xml:id="HuYgTa-186777-d1e684">
+               <lb ed="#G" n="55"/>
+               <pc type="indent"/>t Etiam contra secundam conclusionem sunt quidam 
+      <lb ed="#G" n="56"/>magni doctores, quorum vnus ait, quod causa incorruptionis 
+      <lb ed="#G" n="57"/>corporis Christi fuit acceleratio suae relurrectionis, &amp; al  
+      <lb ed="#G" n="58"/>legat dictum D. Petri fundatum super illo verbo Psal. Ne 
+      <lb ed="#G" n="59"/>dabis sanctum tuum videre corruptionem.
+    </p>
+            <p xml:id="HuYgTa-186777-d1e700">
+               <lb ed="#G" n="60"/>2 Praeterea, Christus habuit corpus humanum vniuoce 
+      <lb ed="#G" n="61"/>tum ceteris hominibus: sed omnes ceteri habent corpus 
+      <lb ed="#G" n="62"/>incinerabile, si diu manet separatum ab anima: ergo &amp; 
+      <lb ed="#G" n="63"/>ipse Christus habuit corpus incinerabile.
+    </p>
+            <p xml:id="HuYgTa-186777-d1e711">
+               <lb ed="#G" n="64"/>3 Praeterea, Christus assumpsit corpus humanum cum 
+      <lb ed="#G" n="65"/>defectibus poenalibus consequentibus vniuersaliter natu 
+      <lb ed="#G" n="66"/>ram humanam, sed vnus illorum defectuum est corporum 
+      <lb ed="#G" n="67"/>ncineratio, vt de se patet. Maior etiam est nota per
+      Apo<lb ed="#G" n="68" break="no"/>stolum, qui vult, quod Christus per omnia debuit fratri 
+      <lb ed="#G" n="69"/>bus assimilari praeter peccatum 
+    </p>
+            <p xml:id="HuYgTa-186777-d1e727">
+               <lb ed="#G" n="70"/>
+               <pc type="indent"/>4 Praeterea, inaequalitas complexionis, &amp; dissipatio ar¬ 
+      <!--541.xml-->
+      <cb ed="#G" n="b"/>
+               <lb ed="#G" n="71"/>moniae prius infuit corpori Christi, quam anima ab eo sepin 
+      <lb ed="#G" n="72"/>retur, sed talis inaequalitas est via ad incinerationem. qui 
+      <lb ed="#G" n="73"/>ex hoc vnus humor alteri supereminet, &amp; naturaliter com 
+      <lb ed="#G" n="74"/>sumit ipsum.
+    </p>
+            <p xml:id="HuYgTa-186777-d1e748">
+      5 Praeterea, actiuum approximatum passi¬ Aa 
+      <lb ed="#G" n="75"/>no, &amp; non impeditum, naturaliter agit in ipsum, sed con 
+      <lb ed="#G" n="76"/>pus Christi post separationem animae, fuit passiuum nati 
+      <lb ed="#G" n="77"/>raliter: quia non fuit glorificatum, &amp; fuit approximatum 
+      <lb ed="#G" n="78"/>actiuo, puta calori corporis circustantis, ac etiam habuit 
+      <lb ed="#G" n="79"/>calorem proprium intrinsecum: ergo si non fuisset
+      putre<lb ed="#G" n="80" break="no"/>factum, hoc fuisset per singulare miraculum.
+    </p>
+            <p xml:id="HuYgTa-186777-d1e764">
+               <lb ed="#G" n="81"/>Respondeo ad primum, quod D. Petrus inducit illum textum di 
+      <lb ed="#G" n="82"/>tantummodo in testimonium resurrectionis Christi, &amp; in 
+      <lb ed="#G" n="83"/>testimonium, quod lesus fuerat ille, qui secundum vatid 
+      <lb ed="#G" n="84"/>nium prophetarum, venturus erat pro salute humam ge 
+      <lb ed="#G" n="85"/>neris.
+    </p>
+            <p xml:id="HuYgTa-186777-d1e777">
+      Ad secundum dicendum, quod licet Christus habe 
+      <lb ed="#G" n="86"/>ret corpus vniuocum cum ceteris hominibus,
+      tamenil<lb ed="#G" n="87" break="no"/>lud corpus non habuit esse subsistentiae vniuocum cum 
+      <lb ed="#G" n="88"/>ceteris corporibus hominum.
+    </p>
+            <p xml:id="HuYgTa-186777-d1e786">
+      Ad tertium dicendum 
+      <lb ed="#G" n="89"/>quod Christus assumpsit poenalitates corporales morten 
+      <lb ed="#G" n="90"/>praecedentes: quia talibus Christus mereri potuit, &amp;pe 
+      <lb ed="#G" n="91"/>eas nostra redemptio promota fuit, tales autem poenalit 
+      <lb ed="#G" n="92"/>tes, quae sequuntur mortem, Christus non assumpsit: quia 
+      <lb ed="#G" n="93"/>non deseruiebant ad finem suae incarnationis, puta adsa 
+      <lb ed="#G" n="94"/>lutem humani generis. Et per hoc patet ad quartu: quia 
+      <lb ed="#G" n="95"/>speciali diuina dispensatione permissum est, quod talis 
+      <lb ed="#G" n="96"/>fflictio potuit esse in corpore informato per animam
+      bea<lb ed="#G" n="97" break="no"/>tifice diuinam essentiam contemplantem, ad quam
+      ami<lb ed="#G" n="98" break="no"/>ctionem pro salute humani generis sequebatur
+      corpora<lb ed="#G" n="99" break="no"/>lis armoniae distemperatio; post mortem autem
+      predi<lb ed="#G" n="100" break="no"/>cta incineratio, seu putrefactio nullo modo ualuit nostrx 
+      <lb ed="#G" n="101"/>redemptioni, immo potius diuinae dignitati derogasset qui 
+      <lb ed="#G" n="102"/>corbus sibi personaliter vnitum, fuisset putrefactum erg 
+      <lb ed="#G" n="103"/>talis diuina dispensatio, cuius permissione fiebat, quod 
+      <lb ed="#G" n="104"/>gentia naturalia in illud corpus benedictum agere
+      po<lb ed="#G" n="105" break="no"/>terant, dum vixit: illa (inquam) dispensatio non habuit lo 
+      <lb ed="#G" n="106"/>tum postquam illud corpus mortuum fuit. Et ideo datoi 
+      <lb ed="#G" n="107"/>quod anima Christi numquam fuisset reassumota, comos 
+      <lb ed="#G" n="108"/>illud perpetuo gauisum fuisset illo excellentissimo pri 
+      <lb ed="#G" n="109"/>legio hypostaticae vnionis cum diuina persona, quo pri 
+      <lb ed="#G" n="110"/>legio semper fuisset praeseruatum ab omni actione desto 
+      <lb ed="#G" n="111"/>ctiua cuiuscunque creaturae.
+    </p>
+            <p xml:id="HuYgTa-186777-d1e838">
+               <lb ed="#G" n="112"/>Ad quinctum dicendum, quod non fuisset singulare m 
+      <lb ed="#G" n="113"/>raculum quod calor destructiuus non egisset in taie copu 
+      <lb ed="#G" n="114"/>cuius existentiam talis calor, nec aliqua creatura potur 
+      <lb ed="#G" n="115"/>attingere, immo magis fuisset miraculum, si egisset inod 
+      <lb ed="#G" n="116"/>sum: quia hoc merito attribuendum est miraculo, quo 
+      <lb ed="#G" n="117"/>sine speciali diuina dispensatione fieri non potest. Etad 
+      <lb ed="#G" n="118"/>falsum assumitur, cum dicitur, quod illud corpus postou 
+      <lb ed="#G" n="119"/>parationem animae naturaliter fuit passiuum : hoc enis 
+      <lb ed="#G" n="120"/>non est verum, nisi cursui suae naturae fuisset derelictud 
+      <lb ed="#G" n="121"/>vt superius dixi in prima conclusione. 
+    </p>
+            <p xml:id="HuYgTa-186777-d1e862">
+               <lb ed="#G" n="122"/>
+               <pc type="indent"/>ARTICLVS TIT 
+      <lb ed="#G" n="123"/>Vtrum Christus n triduo fuerit verus homo¬ 
+    </p>
+            <p xml:id="HuYgTa-186777-d1e872">
+               <lb ed="#G" n="124"/>
+               <pc type="indent"/>QVANTVM ad tertium articulum primo ponam u 
+      <lb ed="#G" n="125"/>onclusionem. Deinde ducam aliquorum magnom 
+      <lb ed="#G" n="126"/>opiniones in contrarium, &amp; eorum motiuis respondebi 
+    </p>
+            <p xml:id="HuYgTa-186777-d1e883">
+               <lb ed="#G" n="127"/>
+               <pc type="indent"/>Conclusio est haec, quod Christus in triduo non fuit vera 
+      <lb ed="#G" n="128"/>homo. 1 Quia homo mortuus non est verus homo Sd 
+      <lb ed="#G" n="129"/>Christus in triduo fuit homo mortuus. Maior patet qu 
+      <lb ed="#G" n="130"/>sicut per generationem humanam illud, quod generati 
+      <lb ed="#G" n="131"/>incipit esse homo: eo quod esse humanum per huiumm 
+      <lb ed="#G" n="132"/>di generationem acquirat, sic illud quod corrumpitd 
+      <lb ed="#G" n="133"/>scu moritur morte humana, desinit esse homo, eo quo 
+      <lb ed="#G" n="134"/>esse humanum perdat per huiusmodi corruptionem: Nii 
+      <lb ed="#G" n="135"/>nor paret ex catholica fide.
+    </p>
+            <p xml:id="HuYgTa-186777-d1e907">
+               <lb ed="#G" n="136"/>2 Preterea, Christus in illo triduo non fuit animalenmd 
+      <lb ed="#G" n="137"/>no fuit homo. Consequentia patet: quia a quocunque ro 
+      <lb ed="#G" n="138"/>re negatur superius, ab eodem vere negatur inferius Am 
+      <lb ed="#G" n="139"/>tecedens probo: quia Christus in illo triduo non fuit sabid 
+      <lb ed="#G" n="140"/>tia animata sensibilis: quia nec deitas fuit animata: quo 
+      <lb ed="#G" n="141"/>non fuit aia informata, nec aia Christi potuit dici anm¬ 
+      <!--542.xml-->
+      <pb ed="#G" n="P2_36-r"/>
+               <cb ed="#G" n="a"/>
+               <lb ed="#G" n="1"/>ta: quia tunc fuisset per aliam animam informata, nec
+      cot<lb ed="#G" n="2" break="no"/>pus Christi fuit animatum: quia per mortem fuit ab
+      ani<lb ed="#G" n="3" break="no"/>ma separatum. 
+    </p>
+            <p xml:id="HuYgTa-186777-d1e936">
+               <lb ed="#G" n="4"/>
+               <pc type="indent"/>SED contrarium videtur tenere Magister hic in litte 
+      <lb ed="#G" n="5"/>ra. Et ista opinio, vt aliqui dicunt, potest confirmari sic 
+    </p>
+            <p xml:id="HuYgTa-186777-d1e945">
+               <lb ed="#G" n="6"/>
+               <pc type="indent"/>Animam rationalis, &amp; caro coniunctae in vna hypostasi, 
+      <lb ed="#G" n="7"/>faciunt verum hominem: Sed in triduo caro, &amp; anima 
+      <lb ed="#G" n="8"/>fuerunt, seu mansuerunt coniunctae vni hypostasi, scilicet 
+      <lb ed="#G" n="9"/>personae verbi.
+    </p>
+            <p xml:id="HuYgTa-186777-d1e958">
+               <lb ed="#G" n="10"/>2 Praeterea, Christus in triduo suit Christus: ergo Chri 
+      <lb ed="#G" n="11"/>stus in triduo fuit homo. Consequentia patet, quia sicut  
+      <lb ed="#G" n="12"/>ad destructionem superioris sequitur destructio
+      inferio<lb ed="#G" n="13" break="no"/>ris, sic econuerso ad positionem inferioris sequitur
+      posi<lb ed="#G" n="14" break="no"/>tio superibris. Antecedens patet: quia nulla verior ess 
+      <lb ed="#G" n="15"/>praedicatio, quam illa, in qua idem praedicatur de se ipso. 
+    </p>
+            <p xml:id="HuYgTa-186777-d1e975">
+               <lb ed="#G" n="16"/>
+               <pc type="indent"/>Praeterea, ista videtur esse intentio Beati Athan. qui 
+      <lb ed="#G" n="17"/>ait. Maledictus, qui dicit Christum deposuisse hominem 
+      <lb ed="#G" n="18"/>quem semel assumpsit.
+    </p>
+            <p xml:id="HuYgTa-186777-d1e986">
+               <lb ed="#G" n="19"/>SED ista non concludunt. Dicendo igitur ad primi 
+      <lb ed="#G" n="20"/>nego malorem, nisi sic coniungantur illi hypostasi, quod 
+      <lb ed="#G" n="21"/>etiam inter se coniungantur per modum informantis, &amp;  
+      <lb ed="#G" n="22"/>informati. Sed sic non fuit in proposito: quia quamuis 
+      <lb ed="#G" n="23"/>tam anima, quam caro. Christi manerent vnitae hypostasi 
+      <lb ed="#G" n="24"/>filum Dei, tamen ab inuicem sic fuerant separatae, quod illa  
+      <lb ed="#G" n="25"/>anima catnem non informabat: Nam corpus Christi fuit 
+      <lb ed="#G" n="26"/>in sepulcro, &amp; anima fuit in inferno, &amp; per consequens hu 
+      <lb ed="#G" n="27"/>iusmodi anima cum tali carne naturam humanam non 
+      <lb ed="#G" n="28"/>constituebat. 
+    </p>
+            <p xml:id="HuYgTa-186777-d1e1010">
+               <lb ed="#G" n="29"/>
+               <pc type="indent"/>Ad secundum nego consequentiam: quia si esset bona, 
+      <lb ed="#G" n="30"/>tunc ego probarem tibi, quod Plato, qui ante mille
+      an<lb ed="#G" n="31" break="no"/>nos desut esse homo, nunc esset homo: quia Plato nunc 
+      <lb ed="#G" n="32"/>est Plato: Idem enim praedicatur de se ipso secundum 
+      <lb ed="#G" n="33"/>omnem differentiam temporis, etiam si nulla realitas im 
+      <lb ed="#G" n="34"/>portetur per terminum repetitum de se ipso: nam
+      Chi<lb ed="#G" n="35" break="no"/>mera est chimera, chimera fuit chimera, &amp; chimera erit 
+      <lb ed="#G" n="36"/>chimera, licet in se nihil sit. Sic licet Christus non
+      fue<lb ed="#G" n="37" break="no"/>rit in illo triduo: ista tamen fuit vera ratione habitudini 
+      <lb ed="#G" n="38"/>terminorum, Christus fuit Christus in illo triduo. Quod  
+      <lb ed="#G" n="39"/>autem Christus non fuerit in illo triduo, patet: quia secu 
+      <lb ed="#G" n="40"/>dum August. Christus dicit diuinam personam in
+      dua<lb ed="#G" n="41" break="no"/>bus naturis existentem, diuina scilicet, &amp; humana: cum 
+      <lb ed="#G" n="42"/>igitur humana natura Christi in illo triduo corrupta fue 
+      <lb ed="#G" n="43"/>rit: ideo Christus in illo triduo non fuit
+    </p>
+            <p xml:id="HuYgTa-186777-d1e1047">
+               <lb ed="#G" n="44"/>Ad tertium dicendum est, quod quamuis Christus ma 
+      <lb ed="#G" n="45"/>nens viuus numquam deposuerit illum hominem,
+      Chri<lb ed="#G" n="46" break="no"/>stus tamen mortuus deposuit illum hominem: quia
+      de<lb ed="#G" n="47" break="no"/>posuit se ipsum secundum humanam naturam. Vel
+      di<lb ed="#G" n="48" break="no"/>cendum, quod quamuis filius Dei numquam deposuerit 
+      <lb ed="#G" n="49"/>illum hominem materialiter: quia semper retinuit
+      par<lb ed="#G" n="50" break="no"/>tes essentiales, puta animam, &amp; copus illius hominis
+      vni<lb ed="#G" n="51" break="no"/>tas sibi, quae sunt totus homo saltem materialiter, depo 
+      <lb ed="#G" n="52"/>suit tamen illum hominem formaliter: quia non retinuit 
+      <lb ed="#G" n="53"/>in illo triduo naturam humanam compositam ex
+      predi<lb ed="#G" n="54" break="no"/>ctis partibus.
+    </p>
+            <p xml:id="HuYgTa-186777-d1e1073">
+               <lb ed="#G" n="55"/>SECVND oO contra conclusionem praedictam vide 
+      <lb ed="#G" n="56"/>tur esse opinio <ref xml:id="HuYgTa-186777-Rd1e1079">
+                  <name xml:id="HuYgTa-186777-Nd1e1081">Hugonis de sancto victore</name> qui 2. lib de fa 
+        <lb ed="#G" n="57"/>cramentis parte prima</ref> ponit, quod tota personalitas ho 
+      <lb ed="#G" n="58"/>minis consistit in sola anima. Quod probat tripliciter.
+    </p>
+            <p xml:id="HuYgTa-186777-d1e1090">
+               <lb ed="#G" n="59"/>1 Primo, quia dicit Dohetius in libro de duabus natu 
+      <lb ed="#G" n="60"/>ris, &amp; vna persona Christi. Persona est rationalis naturae 
+      <lb ed="#G" n="61"/>indiuidua substantia: Sed sola anima in homine est ratio 
+      <lb ed="#G" n="62"/>nalis substantia: ergo &amp;c. 
+    </p>
+            <p xml:id="HuYgTa-186777-d1e1102">
+               <lb ed="#G" n="63"/>
+               <pc type="indent"/>2 Praeterea, dicitur in svmbolo, quod sicut anima
+      ra<lb ed="#G" n="64" break="no"/>tionalis, &amp; caro vnus est homo, ita Deus, &amp; homo vnus 
+      <lb ed="#G" n="65"/>est Christus : cum igitur in Christo tota personalitas
+      su<lb ed="#G" n="66" break="no"/>matur ex parte Dei: ergo in homine tota personalitas su 
+      <lb ed="#G" n="67"/>mitur ex parte anime.
+    </p>
+            <p xml:id="HuYgTa-186777-d1e1118">
+               <lb ed="#G" n="68"/>3 Praeterea, vult idem <name xml:id="HuYgTa-186777-Nd1e1122" ref="#HughOfStVictor">Hugo</name>, quod sicut homo dicitur 
+      <lb ed="#G" n="69"/>corpus, sic etiam ista sit vera, homo est anima, cum anima 
+      <lb ed="#G" n="70"/>sit multo nobilior pars hominis, quam corpus. Et ex his 
+      <lb ed="#G" n="71"/>concluditur ab aliquibus, quod <name xml:id="HuYgTa-186777-Nd1e1132" ref="#HughOfStVictor">Hugonis</name> intentio fuerit, quod 
+      <lb ed="#G" n="72"/>Christus in triduo fuerit verus homo cum anima sua, quae 
+      <lb ed="#G" n="73"/>principaliter dicitur homo, vel persona humana secundum 
+      <!--542.xml-->
+      <cb ed="#G" n="b"/>
+               <lb ed="#G" n="74"/>dictum <name xml:id="HuYgTa-186777-Nd1e1146" ref="#HughOfStVictor">Hugonis</name> numquam fuerit a deitate separata. 
+    </p>
+            <p xml:id="HuYgTa-186777-d1e1150">
+               <lb ed="#G" n="75"/>
+               <pc type="indent"/>SED ista opinio si affereretur esset multum periculoso. 
+      <lb ed="#G" n="76"/>1 Primo, quia sequeretur, quod indomino lesu Christo 
+      <lb ed="#G" n="77"/>due fuissent personae, diuina scilicet &amp; humana, quod est
+      su<lb ed="#G" n="78" break="no"/>perits tamquam erroneum reprobatum.
+    </p>
+            <p xml:id="HuYgTa-186777-d1e1163">
+               <lb ed="#G" n="79"/>2 Secundo: quia illud, cui nec conuenit per se esse 
+      <lb ed="#G" n="80"/>nec per se agere, illud non est persona: nam omnis
+      perso<lb ed="#G" n="81" break="no"/>na est suppositum, suppositorum autem est per se esse, &amp;  
+      <lb ed="#G" n="82"/>per se agere, vt patet i: metaph: sed animae nec conuenit 
+      <lb ed="#G" n="83"/>er se esse cum sit pars: parti enim non conuenit esse nisi 
+      <lb ed="#G" n="84"/>in quantum totum est, nec conuenit per se agere, vt patet 
+      <lb ed="#G" n="85"/>t. de anima, vbi negat philosophus ipsam animam etiam 
+      <lb ed="#G" n="86"/>intelligere, quod tamen magis sibi conuenire videtur.
+    </p>
+            <p xml:id="HuYgTa-186777-d1e1183">
+               <lb ed="#G" n="87"/>ET si dicitur, quod anima saltem a corpore separata por 
+      <lb ed="#G" n="88"/>e est, &amp; per se agit. RESnoNpFo, quod etiam separatae
+      a<lb ed="#G" n="89" break="no"/>nimae talia non conueniunt absolute, sed in ordine, &amp; cum 
+      <lb ed="#G" n="90"/>nclinatione ad corpus: vt per Augu patet 12. super Qen 
+      <lb ed="#G" n="91"/>propter quod nec, vt separata, proprie habet rationem perso 
+      <lb ed="#G" n="92"/>nae vel suppositi: quia supposito absolute conuenit esse, &amp; 
+      <lb ed="#G" n="93"/>agere secundum se sine inclinatione ad alterum.
+    </p>
+            <p xml:id="HuYgTa-186777-d1e1201">
+               <lb ed="#G" n="94"/>3 Preterea, quicquid aduenit enti completo, non
+      po<lb ed="#G" n="95" break="no"/>test secum facere compositionem essentialem, sed solum 
+      <lb ed="#G" n="96"/>accidentalem: sed persona dicit ens perfectum, &amp; comple 
+      <lb ed="#G" n="97"/>tum: ideo si anima humana esset persona, tunc ex ipsa, &amp;  
+      <lb ed="#G" n="98"/>corpore non fieret composito essentialis, nec per
+      conse<lb ed="#G" n="99" break="no"/>quens ex ipsis fieri posset vna humana natura
+    </p>
+            <p xml:id="HuYgTa-186777-d1e1218">
+               <lb ed="#G" n="100"/>Ad primum dicendum, quod tota humana natura compo 
+      <lb ed="#G" n="101"/>sita ex anima, &amp; corpore est rationalis substantia, quaui 
+      <lb ed="#G" n="102"/>principium formale, quo sibi hoc conuenit, sit ipsa anima 
+      <lb ed="#G" n="103"/>rationalis.
+    </p>
+            <p xml:id="HuYgTa-186777-d1e1229">
+               <lb ed="#G" n="104"/>Ad secundum dicendum, qud illa similitudo non currit 
+      <lb ed="#G" n="105"/>per omnes pedes, sicut nec quaecunque alia: Si. n. in
+      nul<lb ed="#G" n="106" break="no"/>lo differret, tunc non esset ibi similitudo sed identitas. 
+      <lb ed="#G" n="107"/>Vnde per illam similitudinem Athanasius non plus inten 
+      <lb ed="#G" n="108"/>dit, quam quoed Christus integratur ex natura diuina, &amp;
+      hu<lb ed="#G" n="109" break="no"/>mana, quarum quacumque ab ipso filio Dei negata, ipse non 
+      <lb ed="#G" n="110"/>est Christus, sicut verus homo constat &amp; integratur ex car 
+      <lb ed="#G" n="111"/>ne, &amp; anima rationali, quarum quacunque non existente; 
+      <lb ed="#G" n="112"/>non erit verus homo.
+    </p>
+            <p xml:id="HuYgTa-186777-d1e1251">
+               <lb ed="#G" n="113"/>Ad tertium dicendum, quod corpus praedicatum de homi 
+      <lb ed="#G" n="114"/>ne, non est pars hominis: quia pars non praedicatur de to 
+      <lb ed="#G" n="115"/>to essentialiter, sed tantum modo concretiue, &amp; ideo (vt 
+      <lb ed="#G" n="116"/>superius dixi) illud corpus, quod praedicatur de homine, est 
+      <lb ed="#G" n="117"/>genus subalternum praedicamenti substantiae: &amp; ideo prae 
+      <lb ed="#G" n="118"/>dicatur de homine, sicut totum vniuersale de sua parte 
+      <lb ed="#G" n="119"/>subiectiua
+    </p>
+            <p xml:id="HuYgTa-186777-d1e1269">
+               <lb ed="#G" n="120"/>Tertio contra supradictam conclusionem videtur esse 
+      <lb ed="#G" n="121"/>quaedam opinio, quae ponit quod forma sit tota quidditas re 
+      <lb ed="#G" n="122"/>quae opinio si esset vera, cum anima Christi fuerit in
+      tri<lb ed="#G" n="123" break="no"/>duo, tota quidditas sua fuisset, &amp; per consequens tota
+      na<lb ed="#G" n="124" break="no"/>tura: quia quidditas, &amp; natura idem sunt: &amp; sic Christus in 
+      <lb ed="#G" n="125"/>triduo suisset verus homo: quia habuisset veram humanam 
+      <lb ed="#G" n="126"/>naturam. Motiua autem illius opinionis sunt haec. 
+    </p>
+            <p xml:id="HuYgTa-186777-d1e1287">
+               <lb ed="#G" n="127"/>
+               <pc type="indent"/>lllud non est de quidditate rei, quo res potest es 
+      <lb ed="#G" n="128"/>se, &amp; non esse: quia quidditas rei est ingenerabilis, &amp;
+      in<lb ed="#G" n="129" break="no"/>corruptibilis, Vt patet <ref xml:id="HuYgTa-186777-Rd1e1297">7. metaph</ref> sed materia est illud 
+      <lb ed="#G" n="130"/>quo res potest esse, &amp; non esse, vt patet in eodem 
+    </p>
+            <p xml:id="HuYgTa-186777-d1e1304">
+               <lb ed="#G" n="131"/>
+               <pc type="indent"/>2 Preterea, illud est principium cognoscendi ipsam re 
+      <lb ed="#G" n="132"/>quod pertinet ad qudditatem eius; sed materia non est princi 
+      <lb ed="#G" n="133"/>ium cognoscendi illud, cuius est materia: quia materta se 
+      <lb ed="#G" n="134"/>cundum se est ignota, vt patet <ref xml:id="HuYgTa-186777-Rd1e1317">1. physicorum</ref> &amp; <ref xml:id="HuYgTa-186777-Rd1e1320">7. metaph</ref>¬ 
+    </p>
+            <p xml:id="HuYgTa-186777-d1e1325">
+               <lb ed="#G" n="135"/>
+               <pc type="indent"/>Praeterea, in eodem septimo dicitur, quod animalium 
+      <lb ed="#G" n="136"/>anima est substantia animati, &amp; species, &amp; quod quid erat essi 
+    </p>
+            <p xml:id="HuYgTa-186777-d1e1334">
+               <lb ed="#G" n="137"/>
+               <pc type="indent"/>Praeterea, <ref xml:id="HuYgTa-186777-Rd1e1340">Commentator 1o, ethicorum</ref> ait, quod in 
+      <lb ed="#G" n="138"/>tellectus est verus homo. 
+    </p>
+            <p xml:id="HuYgTa-186777-d1e1346">
+               <lb ed="#G" n="139"/>
+               <pc type="indent"/>Sed ista opinio nec potest stare, catholice loquendo, 
+      <lb ed="#G" n="140"/>nec philosophice. 
+    </p>
+            <p xml:id="HuYgTa-186777-d1e1355">
+               <lb ed="#G" n="141"/>1 Non quidem catholice: quia existente eadem
+      quid<lb ed="#G" n="142" break="no"/>ditate humana, semper est idem homo: ergo si anima Sor 
+      <lb ed="#G" n="143"/>tis in resurrectione mortuorum assumeret corpus aliud,  
+      <lb ed="#G" n="144"/>uam suum, siue illud esset humanum, siue equitium, sem 
+      <lb ed="#G" n="145"/>per maneret idem homo, quod nullus theologus sanae
+      men<lb ed="#G" n="146" break="no"/>tis diceret.
+    </p>
+            <p xml:id="HuYgTa-186777-d1e1371">
+      <!--543.xml-->
+               <pb ed="#G" n="P2_36-v"/>
+               <cb ed="#G" n="a"/>
+               <lb ed="#G" n="1"/>2 Praeterea, in morte Christi natura humana non fuis 
+      <lb ed="#G" n="2"/>set corrupta: quia mansisset tota quidditas, quae est idem 
+      <lb ed="#G" n="3"/>quod natura, eo quod manserit tota anima Christi, que 
+      <lb ed="#G" n="4"/>est forma eius, &amp; quidditas secundum istos. 
+    </p>
+            <p xml:id="HuYgTa-186777-d1e1389">
+               <lb ed="#G" n="5"/>
+               <pc type="indent"/>3 Nec potest ista opinio stare philosophise. Quia vmnu 
+      <lb ed="#G" n="6"/>per se vnum habet per se quidditatem vnam, &amp; per
+      con<lb ed="#G" n="7" break="no"/>sequens omnia, ex quibus fit per se vnum, ex illis fit per se 
+      <lb ed="#G" n="8"/>quidditas vna: sed secundum omnes philosophantes ex ma 
+      <lb ed="#G" n="9"/>teria, &amp; forma fit per se vnum: ergo ex ipsis fit per se
+      quiddi<lb ed="#G" n="10" break="no"/>tas vna, &amp; per consequens ipsa materia, sicut spectat por 
+      <lb ed="#G" n="11"/>se ad rei vnitatem, sic sipectat per se ad rei quidditatem. 
+    </p>
+            <p xml:id="HuYgTa-186777-d1e1410">
+               <lb ed="#G" n="12"/>
+               <pc type="indent"/>4 Praeterea, cum quidditas substantiae dicat esse com 
+      <lb ed="#G" n="13"/>pletum, sequitur ad istam positionem, sicut ad
+      praeceden<lb ed="#G" n="14" break="no"/>tem, quod composito ex materia, &amp; forma sit
+      composi<lb ed="#G" n="15" break="no"/>tio accidentalis.
+    </p>
+            <p xml:id="HuYgTa-186777-d1e1423">
+               <lb ed="#G" n="16"/>3 Praeterea, illud quod ingreditur perfectam diffinitio 
+      <lb ed="#G" n="17"/>nem rei, hoc spectat ad quidditatem rei: sed materia
+      in<lb ed="#G" n="18" break="no"/>greditur perfectam diffinitionem rei, vt patet 2.
+      physico<lb ed="#G" n="19" break="no"/>tum, vbi dicitur, quod quedam partes in diffinitione sunt 
+      <lb ed="#G" n="20"/>materia. ldem patet 7. &amp; 8. meta. vbi philosophus
+      appro<lb ed="#G" n="21" break="no"/>pat diffinitiones, quae diffiniunt per materiam, &amp; formam 
+      <lb ed="#G" n="22"/>Item <ref xml:id="HuYgTa-186777-Rd1e1440">Commentator 7. metaphysicae</ref> ait, quod
+      impossibi<lb ed="#G" n="23" break="no"/>e est intelligere hominem sine carnibus, &amp; ossibus.
+    </p>
+            <p xml:id="HuYgTa-186777-d1e1446">
+               <lb ed="#G" n="24"/> Praeterea, contra omnes istas opiniones est <ref xml:id="HuYgTa-186777-Rd1e1450">Aug. 15. 
+        <lb ed="#G" n="25"/>de ciuitate Dei</ref>, vbi ait, <quote xml:id="HuYgTa-186777-Qd1e1455" source="http://scta.info/resource/adcd-l13-d1e1912" synch="10-24">quod homo non est corpus solum 
+          <lb ed="#G" n="26"/>nec anima sola, sed quod ex anima constat, &amp; corpore</quote> 
+            </p>
+            <p xml:id="HuYgTa-186777-d1e1461">
+               <lb ed="#G" n="27"/>
+               <pc type="indent"/>Ad primum motiuum eorum dicendum, quod lices 
+      <lb ed="#G" n="28"/>illud, quo res potest esse, &amp; non esse, non sit de
+      quiddita<lb ed="#G" n="29" break="no"/>te rei inco rruptibilis. potest tamen bene esse de quid 
+      <lb ed="#G" n="30"/>ditate rei corruptibilis. Philolophus etiam, cum ait, quod 
+      <lb ed="#G" n="31"/>quidditas est ingenerabilis, &amp; icorruptibis, ipse loquitur 
+      <lb ed="#G" n="32"/>de quidditate in vniuersali, &amp; specifice sumpta: &amp; non in 
+      <lb ed="#G" n="33"/>particulari, seu in hoc indiuiduo sumpta. Potest etiam  
+      <lb ed="#G" n="34"/>dici ad minorem, quod materia, ratione qua materia non 
+      <lb ed="#G" n="35"/>est principium corruptionis, sed ratione qua priuationi 
+      <lb ed="#G" n="36"/>habet annexam. Nam (vt superius in secundo libro
+      pro<lb ed="#G" n="37" break="no"/>baui) in celo est vera materia, attamen celum est
+      incor<lb ed="#G" n="38" break="no"/>ruptibile¬ 
+    </p>
+            <p xml:id="HuYgTa-186777-d1e1492">
+               <lb ed="#G" n="39"/>
+               <pc type="indent"/>Ad secundum dicendum, quod sicut materia non es 
+      <lb ed="#G" n="40"/>omnino ignota: sed cognoscitur per analogiam ad
+      for<lb ed="#G" n="41" break="no"/>mam: sic non est verum dicere, quod non spectet ad rei 
+      <lb ed="#G" n="42"/>quidditatem : sed verum est dicere quod spectat ad rei quio 
+      <lb ed="#G" n="43"/>ditatem mediante forma, seu in ordine ad formam: quia 
+      <lb ed="#G" n="44"/>vt sic, est principium, &amp; cognoscendi rem, &amp; diffiniendi; 
+    </p>
+            <p xml:id="HuYgTa-186777-d1e1510">
+               <lb ed="#G" n="45"/>
+               <pc type="indent"/>Ad tertium, dicendum, quod per illa verba non inter 
+      <lb ed="#G" n="46"/>dit Aristoteles dicere, quod sola forma sit quidditas rei; 
+      <lb ed="#G" n="47"/>sed intendit dicere, quod licet materia, &amp; forma intrent 
+      <lb ed="#G" n="48"/>quidditatem rei; forma tamen est principalis pars
+      quid<lb ed="#G" n="49" break="no"/>ditatis, quod noc ego nego. 
+    </p>
+            <p xml:id="HuYgTa-186777-d1e1527">
+               <lb ed="#G" n="50"/>
+               <pc type="indent"/>Ad quartum dicendum, quod cum hoc, quod Commen 
+      <lb ed="#G" n="51"/>non est in hoc tenendus, ipse etiam contradicit his, qua 
+      <lb ed="#G" n="52"/>de intellectu dixit in <ref xml:id="HuYgTa-186777-Rd1e1537">3. lib de anima</ref>, vbi dixit,
+      intelle<lb ed="#G" n="53" break="no"/>ctum esse substantiam separatam. 
+    </p>
+            <p xml:id="HuYgTa-186777-d1e1544">
+               <lb ed="#G" n="54"/>
+               <pc type="indent"/>ARTICVLVS IIII 
+      <lb ed="#G" n="55"/>Vtrum Christus post mortem descenderit 
+      <lb ed="#G" n="56"/>
+               <pc type="indent"/>ad infernum
+    </p>
+            <p xml:id="HuYgTa-186777-d1e1557">
+               <lb ed="#G" n="57"/>QVANTVM ad quartum articulum est
+      aduerten<lb ed="#G" n="58" break="no"/>dum, quod Christus descenderit post mortem ad 
+      <lb ed="#G" n="59"/>infernum est articulus fidei, &amp; per consequens non est
+      pone<lb ed="#G" n="60" break="no"/>dum in dubio. Sed cum infernus diuidatur in multas pa 
+      <lb ed="#G" n="61"/>tes, quarum vna est pars superior, quae dicitur limbus
+      pa<lb ed="#G" n="62" break="no"/>trum, &amp; alio nomine sinus Abrahae, alia pars est infima; 
+    </p>
+            <p xml:id="HuYgTa-186777-d1e1573">
+               <lb ed="#G" n="63"/>
+               <pc type="indent"/>uae est locus perpetuus damnatorum, puta, illorum, qui 
+      <lb ed="#G" n="64"/>in mortali peccato, &amp; sine poenitentia ab hoc saeculo 
+      <lb ed="#G" n="65"/>decesserunt. Tertia pars est locus medius, qui dicitur
+      lo<lb ed="#G" n="66" break="no"/>eus purgatorius. De primo non vertitur in dubium, quin 
+      <lb ed="#G" n="67"/>ad eum descenderit, &amp; sanctos patres inde liberauerit De 
+      <lb ed="#G" n="68"/>secundo similiter non dubitatur: quia quos non
+      libera<lb ed="#G" n="69" break="no"/>uit, ad illos non descendit, sed illos non liberauit, qui 
+      <!--543.xml-->
+      <cb ed="#G" n="b"/>
+               <lb ed="#G" n="70"/>erant in infimo loco inferni, cum eorum (vt praemissum 
+      <lb ed="#G" n="71"/>est) damnatio sit perpetua. Vnde de illo intelligitur
+      in<lb ed="#G" n="72" break="no"/>erno cum dicitur. In inferno nulla est redemptio. De 
+      <lb ed="#G" n="73"/>loco autem medio dubitatur. 
+    </p>
+            <p xml:id="HuYgTa-186777-d1e1606">
+               <lb ed="#G" n="74"/>
+               <pc type="indent"/>Sed quia in re dubia ad partem magis piam
+      declinan<lb ed="#G" n="75" break="no"/>dum est, vbi hoc sine periculo fidei potest fieri ideo ad 
+      <lb ed="#G" n="76"/>praesens teneo hanc partem, quod Christus secundum a 
+      <lb ed="#G" n="77"/>nimam suam vnitam deitati descendit non solum ad
+      si<lb ed="#G" n="78" break="no"/>num Abrahae liberando sanctos patres, verum etiam su 
+      <lb ed="#G" n="79"/>liberatiua virtute descendit ad purgatorium captiuos ibi 
+      <lb ed="#G" n="80"/>dem misericorditer liberando.
+    </p>
+            <p xml:id="HuYgTa-186777-d1e1626">
+               <lb ed="#G" n="81"/>1 Quia sacramentum baptismi liberat hominem a
+      cul<lb ed="#G" n="82" break="no"/>pa, &amp; a poena, nisi homo ponat obicem: ergo passione 
+      <lb ed="#G" n="83"/>Christi existentes in purgatorio a poena fuerunt absoluti 
+      <lb ed="#G" n="84"/>Antecedens fide tenemus. Consequentia etiam patet; 
+      <lb ed="#G" n="85"/>quia virtus baptismi est ex passione Christi; &amp; non soli 
+      <lb ed="#G" n="86"/>pro illis, qui erant in limbo, verum etiam pro illis, qui erant 
+      <lb ed="#G" n="87"/>in purgatorio, Christus fuit passus.
+    </p>
+            <p xml:id="HuYgTa-186777-d1e1645">
+               <lb ed="#G" n="88"/>2 Praeterea, In aduentu nouo summi principis, puta 
+      <lb ed="#G" n="89"/>lmperatoris omnes captiui liberantur, qui non sunt re 
+      <lb ed="#G" n="90"/>mortis, nec sunt inimici principis, &amp; quorum liberatio 
+      <lb ed="#G" n="91"/>nulli est preiudicialis, sed pro tunc existentes in purgat 
+      <lb ed="#G" n="92"/>rio, quando Christus ad inferna descendit, non erant res 
+      <lb ed="#G" n="93"/>mortis: quia erant sine mortali peccato, nec erant
+      inimi<lb ed="#G" n="94" break="no"/>ci principis: quia caritate informati erant, &amp; per
+      conse<lb ed="#G" n="95" break="no"/>quens non solum non fuerunt inimici, verum etiam ami 
+      <lb ed="#G" n="96"/>ci fuerunt, nec corum liberatio praeiudicabat alicui:
+      er<lb ed="#G" n="97" break="no"/>go verisimiliter poterit sustineri, quod in aduentu il 
+      <lb ed="#G" n="98"/>lius summi principis, &amp; regis gloriae ipsi fuerint liberati.
+    </p>
+            <p xml:id="HuYgTa-186777-d1e1671">
+               <lb ed="#G" n="99"/>3 Praeterea, beatus Petrus dicit de Christo. Quen 
+      <lb ed="#G" n="100"/>Deus suscitauit a mortuis solutis doloribus inferni: sed  
+      <lb ed="#G" n="101"/>hoc non potest intelligi praecise de limbo patrum: quia 
+      <lb ed="#G" n="102"/>ibi nullus fuit dolor: nam dolor est poena sensibilis:
+      pa<lb ed="#G" n="103" break="no"/>tres autem sancti solum patiebantur poenam damni vsque 
+      <lb ed="#G" n="104"/>ad tempus suae liberationis. Si enim habuissent poenam 
+      <lb ed="#G" n="105"/>sensus temporalem, tunc fuissent in purgatorio: Ergu 
+      <lb ed="#G" n="106"/>videtur quod Christus pro tunc soluerit, seu
+      destruxe<lb ed="#G" n="107" break="no"/>rit poenas; &amp; dolores purgatorij. Et ista videtur esse
+      in<lb ed="#G" n="108" break="no"/>tentio Beati August. qui in epistola ad fuodium tra 
+      <lb ed="#G" n="109"/>ctans iam dicta verba beati Petri ait. Quomodo
+      intelli<lb ed="#G" n="110" break="no"/>gatur Abraham, in cuius sinum prius pauper susceptus 
+      <lb ed="#G" n="111"/>est, in illis fuisse doloribus, ego quidem non video. Et 
+      <lb ed="#G" n="112"/>infra in eadem epistola subdit. Quapropter si in illum 
+      <lb ed="#G" n="113"/>Abrahae sinum Christum mortuum descendisse sancta 
+      <lb ed="#G" n="114"/>scriptura dixisset, non nominato inferno eiusque
+      dolo<lb ed="#G" n="115" break="no"/>ribus, miror si quisquam ad inferos eum descendisse
+      au<lb ed="#G" n="116" break="no"/>deret asserere. Sed quia euidentia testimonia infernum 
+      <lb ed="#G" n="117"/>commemorant, &amp; dolores, nulla causa occurrit, cur illi 
+      <lb ed="#G" n="118"/>credatur venisse Saluator, nisi vt ab eis doloribus saluos 
+      <lb ed="#G" n="119"/>faceret.  
+    </p>
+            <p xml:id="HuYgTa-186777-d1e1719">
+               <lb ed="#G" n="120"/>
+               <pc type="indent"/>Sed obuiare videtur praedictae conclusioni verbu Chri 
+      <lb ed="#G" n="121"/>sti, qui dixit latroni. Hodie mecum eris in paradiso, vt 
+      <lb ed="#G" n="122"/>scribitur <ref xml:id="HuYgTa-186777-Rd1e1729">Lucae 23</ref>. Si ergo cum latrone fuit illa dic in
+      pa<lb ed="#G" n="123" break="no"/>radiso: ergo non videtur fuisse in inferno. 
+    </p>
+            <p xml:id="HuYgTa-186777-d1e1736">
+               <lb ed="#G" n="124"/>
+               <pc type="indent"/>Respondeo, quod ibi nomine paradisi intelligitur
+      cla<lb ed="#G" n="125" break="no"/>ra visio diuinae essentiae: quia omnes liberati per
+      Chri<lb ed="#G" n="126" break="no"/>stum immediate post mortem eius clare viderunt
+      diui<lb ed="#G" n="127" break="no"/>nam essentiam: quia per mortem Christi ablatum fuit 
+      <lb ed="#G" n="128"/>medium prohibens huiusmodi visionem. In hunc etiam  
+      <lb ed="#G" n="129"/>paradisum raptus fuit Apostolus, vt ipsemet fatetur. Etiam 
+      <lb ed="#G" n="130"/>consequentia non valet: quia dato, quod vna hora illius 
+      <lb ed="#G" n="131"/>diei fuisset in terrestri paradiso, alia hora potuit esse in 
+      <lb ed="#G" n="132"/>inferno.
+    </p>
+            <p xml:id="HuYgTa-186777-d1e1760">
+               <lb ed="#G" n="133"/>Ad argumentum principale dicendum, quod praedict 
+      <lb ed="#G" n="134"/>vnio solum facit communicationem idiomatum secundi 
+      <lb ed="#G" n="135"/>terminos concretos, qui secundum suum modum 
+      <lb ed="#G" n="136"/>significandi important suppositum: quia huius 
+      <lb ed="#G" n="137"/>modi communicatio fit ratione suppositi, 
+      <lb ed="#G" n="138"/>sed anima, &amp; corpus, quod est pars 
+      <lb ed="#G" n="139"/>Christi, non habet rationem 
+      <lb ed="#G" n="140"/>supposit: ideo non 
+      <lb ed="#G" n="141"/>predicantur 
+      <lb ed="#G" n="142"/>
+               <pc type="indent"/>de Deo.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

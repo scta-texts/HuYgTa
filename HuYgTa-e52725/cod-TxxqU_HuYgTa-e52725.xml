@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Circa textum</title>
+            <author ref="#ThomasStrasbourg">Thomas of Strasbourg</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Circa textum</title>
+               <date when="2020-11-26">November 26, 2020</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="G" n="cod-TxxqU">Genoa 1585</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2020-11-26" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#G" n="-r"/>
+            <cb ed="#G" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="HuYgTa-e52725"><!-- HuYgTa-l1d16ct1 -->
+            <head xml:id="HuYgTa-e52725-Hd1e108">Circa textum</head>
+            <p xml:id="HuYgTa-e52725-d1e111">
+               <lb ed="#G" n="51"/>
+               <pc type="indent"/>DISTINCTIO SVL. 
+      <lb ed="#G" n="52"/>Secundae particulae principalis tractatus de
+      tempo<lb ed="#G" n="53" break="no"/>rali spiritus sancti processione non obscura
+      di<lb ed="#G" n="54" break="no"/>iusio, atque praesentis distinctionis clara, 
+      <lb ed="#G" n="55"/>&amp; aperta subdiuisio, n qua
+      qu<lb ed="#G" n="56" break="no"/>dem modus missionis spiritus. 
+      <lb ed="#G" n="57"/>sancti incipu 
+      <lb ed="#G" n="58"/>patefieri.
+    </p>
+            <p xml:id="HuYgTa-e52725-d1e133">
+               <lb ed="#G" n="59"/>VMC DE SPIRITVSANCTO 
+      <lb ed="#G" n="60"/>&amp;c. Postquam magister determina 
+      <lb ed="#G" n="61"/>uit de temporalis missionis princi 
+      <lb ed="#G" n="62"/>io; hic incipit determinare de
+      e<lb ed="#G" n="63" break="no"/>iusdem missionis modo, Et
+      diuidi<lb ed="#G" n="64" break="no"/>tur in duas partes, secundum quod 
+      <lb ed="#G" n="65"/>dupliciter mittitut spiritus sanctus. 
+      <lb ed="#G" n="66"/>scilicet visibiliter &amp; inuisibiliter 
+      <lb ed="#G" n="67"/>Primo igitur hic determinatur de 
+      <!--177.xml-->
+      <cb ed="#G" n="b"/>
+               <lb ed="#G" n="68"/>spiritus fancti missione visibili. Secundo de inuisibili ibis il 
+      <lb ed="#G" n="69"/>lam nunc accedamus Prima in duas: quia primo
+      praemis<lb ed="#G" n="70" break="no"/>sa distinctione de visibili &amp; inuisibili missione, magister. 
+      <lb ed="#G" n="71"/>prosequitur primum membrum, scilicet visibilem missio 
+      <lb ed="#G" n="72"/>nem. Secundo inter missionem filij, &amp; missionem
+      spiri<lb ed="#G" n="73" break="no"/>tus sancti facit comparationem ibi, Sed prius quaerendum 
+      <lb ed="#G" n="74"/>est. Et haec diuiditur in tres: quia primo ostendit, quod
+      spiri<lb ed="#G" n="75" break="no"/>tus sanctus ex hoc, quod mittitur non debet dici minor. 
+      <lb ed="#G" n="76"/>patre. Secundo quod filius secundum quoed homo est minor 
+      <lb ed="#G" n="77"/>tota trinitate. Et tertio ostendit, quod Deus pater etiam
+      con<lb ed="#G" n="78" break="no"/>siderata deitate maior est filio ex donantis auctoritate. 
+      <lb ed="#G" n="79"/>Secunda ibi, Notandum autem, quod filius. Tertia ibi,
+      Hy<lb ed="#G" n="80" break="no"/>larius autem. Circa istam distinctionem quaero. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Circa textum</title>
+            <author ref="#ThomasStrasbourg">Thomas of Strasbourg</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Circa textum</title>
+               <date when="2020-11-26">November 26, 2020</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="G" n="cod-TxxqU">Genoa 1585</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2020-11-26" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#G" n="-r"/>
+            <cb ed="#G" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="HuYgTa-111995"><!-- HuYgTa-l2d6ct1 -->
+            <head xml:id="HuYgTa-111995-Hd1e108">Circa textum</head>
+            <p xml:id="HuYgTa-111995-d1e111">
+               <lb ed="#G" n="20"/>
+               <pc type="indent"/>DISTINCTIO VI. 
+      <lb ed="#G" n="21"/>Dilucida diusio huius distinctionis, in qua 
+      <lb ed="#G" n="22"/>d e bonorum angelorum conuersione, 
+      <lb ed="#G" n="23"/>
+               <pc type="indent"/>ac de malorum quersione
+      pa<lb ed="#G" n="24" break="no"/>
+               <pc type="indent"/>riter pertractatur. 
+    </p>
+            <p xml:id="HuYgTa-111995-d1e131">
+               <lb ed="#G" n="25"/>
+               <pc type="indent"/>PRAETEREA sciri oportet. Pos 
+      <lb ed="#G" n="26"/>
+               <pc type="indent"/>quam Magister determinauit de 
+      <lb ed="#G" n="27"/>bonorum agclorum conuersione, 
+      <lb ed="#G" n="28"/>&amp; malorum auersione, hic
+      prose<lb ed="#G" n="29" break="no"/>quitur de auersorum miseria, &amp;  
+      <lb ed="#G" n="30"/>conuersorum gloria, &amp; diuiditur 
+      <lb ed="#G" n="31"/>in duas partes, secundum quod 
+      <lb ed="#G" n="32"/>primo determinat de malorum 
+      <lb ed="#G" n="33"/>angelorum miserrima damnatione. Secundo de
+      bono<lb ed="#G" n="34" break="no"/>rum angelorum pulcherrima ordinatione, ibi. Post praedi 
+      <lb ed="#G" n="35"/>cta: Prima in duas, nam primo tractat de malorum
+      an<lb ed="#G" n="36" break="no"/>gelorum casu, &amp; damnatione; Secundo de angelorum 
+      <lb ed="#G" n="37"/>in aliquibus corporibus apparitione ibi, Solet etiam. 
+      <lb ed="#G" n="38"/>Prima in duas; Nam primo recitat Magister malorum 
+      <lb ed="#G" n="39"/>angelorum casum localem. Secundo declarat casum
+      eo<lb ed="#G" n="40" break="no"/>rum spiritualem ibi, Supra dictum est. Prima in tres: na 
+      <lb ed="#G" n="41"/>primo Magister ostendit, qualiter Lucifer &amp; socii eius pro 
+      <lb ed="#G" n="42"/>pter peccata sua ceciderunt. Secundo describit termini 
+      <lb ed="#G" n="43"/>a quo proiecti fuerunt, Tertio assignat terminum, ad quoi 
+      <lb ed="#G" n="44"/>descenderunt. Secunda ibi. Et tantae superbiae; Tertia 
+      <lb ed="#G" n="45"/>ibi, Non est enim eis. Et haec in duas: quia primo osten 
+      <lb ed="#G" n="46"/>dit, quod in istum aerem caliginosum ceciderunt, Secun 
+      <lb ed="#G" n="47"/>do quomodo aliqui eorum ad infernum descenderunt 
+      <lb ed="#G" n="48"/>ibi, Solet autem queri. Prima in duas: quia primo de 
+      <lb ed="#G" n="49"/>cribit ipsorum daemonum habitationem; Secundo
+      ma<lb ed="#G" n="50" break="no"/>nifestat inter eos esse prelationem ibi, Et sicut inter. 
+      <lb ed="#G" n="51"/>Sequitur illa pars, Solet autem quaeri, &amp; diuiditur in tres 
+      <lb ed="#G" n="52"/>partes: nam primo ostendit aliquos daemones ad inferni 
+      <lb ed="#G" n="53"/>descendere, Secundo quid sentiendum sit de Luciferi lo 
+      <lb ed="#G" n="54"/>co &amp; potestate, &amp; tertio ostendit ceterorum daemo 
+      <lb ed="#G" n="55"/>num potestatem deficere, cum auiris sanctis 
+      <lb ed="#G" n="56"/>vincuntur in temperatione. Secunda ibi, 
+      <lb ed="#G" n="57"/>De Lucifero autem; rertia
+      ibi<lb ed="#G" n="58" break="no"/>Aliis quoque &amp;c. Circa istam. 
+      <lb ed="#G" n="59"/>sextam distinctionem 
+      <lb ed="#G" n="60"/>quaero hanc
+      quae<lb ed="#G" n="61" break="no"/>stionem.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

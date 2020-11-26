@@ -1,0 +1,615 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#ThomasStrasbourg">Thomas of Strasbourg</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2020-11-26">November 26, 2020</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="G" n="cod-TxxqU">Genoa 1585</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2020-11-26" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#G" n="P2_164-r"/>
+            <cb ed="#G" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="HuYgTa-283743"><!-- HuYgTa-l4d34q1 -->
+            <head xml:id="HuYgTa-283743-Hd1e108">Quaestio 1</head>
+            <head xml:id="HuYgTa-283743-Hd1e111" type="question-title">
+      An impedimentum aliquod dissoluat matrimonium iam contractum. 
+    </head>
+            <p xml:id="HuYgTa-283743-d1e114">
+               <lb ed="#G" n="55"/>
+               <pc type="indent"/>Quaestio 1. 
+      <lb ed="#G" n="56"/>An impedimentum aliquod dissoluat 
+      Matri<lb ed="#G" n="57" break="no"/>monium iam contractum. 
+    </p>
+            <p xml:id="HuYgTa-283743-d1e125">
+               <lb ed="#G" n="58"/>VVTRVM aliquod impedimentum dissoluat
+      matri<lb ed="#G" n="59" break="no"/>V monium iam contractum Et videtur, quod
+      non<lb ed="#G" n="60" break="no"/>Quia, quod de sui natura est indissolubile, hoc nulli 
+      <!--798.xml-->
+      <cb ed="#G" n="b"/>
+               <lb ed="#G" n="61"/>impedimento dissolui potest: Sed matrimonium de sui 
+      <lb ed="#G" n="62"/>natura implicat indissolubile vinculum, vt patet ex
+      di<lb ed="#G" n="63" break="no"/>ctis superius, ergo &amp;c.
+    </p>
+            <p xml:id="HuYgTa-283743-d1e145">
+               <lb ed="#G" n="64"/>In contrarium sunt iura canonica, quae multa
+      matri<lb ed="#G" n="65" break="no"/>monii assignant impedimenta, vt in processu istius qua 
+      <lb ed="#G" n="66"/>stionis patebit. Hic quattuor sunt videnda. Primo de im 
+      <lb ed="#G" n="67"/>pedimentis matrimons in generali Secundo in speciali 
+      <lb ed="#G" n="68"/>de impotentia comeundi. Tertio de inhabilitate ad
+      con<lb ed="#G" n="69" break="no"/>trahendum hominis furiosi. Et quarto de impedimento 
+      <lb ed="#G" n="70"/>accidente ex vitio hominis incestuosi 
+    </p>
+            <p xml:id="HuYgTa-283743-d1e164">
+               <lb ed="#G" n="71"/>
+               <pc type="indent"/>RESOLVTIO. 
+      <lb ed="#G" n="72"/>Impedimenta quidem Matrimonij in duplici constituutur casse, 
+    </p>
+            <p xml:id="HuYgTa-283743-d1e173">
+               <lb ed="#G" n="73"/>
+               <pc type="indent"/>In altera enim prohibitiones Ecclesiae esse ferimtur, imn altera 
+      <lb ed="#G" n="74"/>vero feriae: quarum vtraeque us complectuntur carminibus. 
+    </p>
+            <p xml:id="HuYgTa-283743-d1e182">
+               <lb ed="#G" n="75"/>
+               <pc type="indent"/>Error, Conditio, Votum, cognatio Crimen 
+      <lb ed="#G" n="76"/>cultus disparitas, vis, ordo, ligamen, Honestas. 
+      <lb ed="#G" n="77"/>Si sit Affinis, si forte coire nequibis 
+      <lb ed="#G" n="78"/>Haec socianda vetant connubia, iicta retractant. 
+      <lb ed="#G" n="79"/>lmpediunt, sed non dirimunt vetitum feriaeque 
+    </p>
+            <p xml:id="HuYgTa-283743-d1e198">
+               <lb ed="#G" n="80"/>
+               <pc type="indent"/>ARTICVLVS 1. 
+      <lb ed="#G" n="81"/>De impedimentis matrimonij in generali.
+    </p>
+            <p xml:id="HuYgTa-283743-d1e207">
+               <lb ed="#G" n="82"/>QVANTVM ad primum est aduertendum, quod 
+      <lb ed="#G" n="83"/>quaedam sunt impedimenta, propter quae
+      prohibe<lb ed="#G" n="84" break="no"/>tur matrimonium contrahendum, sed non dirimitur com 
+      <lb ed="#G" n="85"/>tractum. Alia, propter quae prohibetur contrahendum, &amp;  
+      <lb ed="#G" n="86"/>etiam dirimitur, quod videbatur esse contractum 
+    </p>
+            <p xml:id="HuYgTa-283743-d1e220">
+               <lb ed="#G" n="87"/>
+               <pc type="indent"/>Prima impedimenta sunt in genere duplicia, quia
+      quae<lb ed="#G" n="88" break="no"/>dam dicuntur prohibitiones ecclesiae. Alia dicuntur
+      fe<lb ed="#G" n="89" break="no"/>riae. Et istud comprehenditur hoc versu. Impediunt, sed  
+      <lb ed="#G" n="90"/>non dirimunt vetitum feriaeque 
+    </p>
+            <p xml:id="HuYgTa-283743-d1e234">
+               <lb ed="#G" n="91"/>
+               <pc type="indent"/>Ad intellectum primi impedimenti, scilicet, cum dici 
+      <lb ed="#G" n="92"/>tur vetitum, idest prohibitum, est aduertendum, quod
+      ec<lb ed="#G" n="93" break="no"/>clesia quandoque prohibet per modum statuti, irritando 
+      <lb ed="#G" n="94"/>omne illud, quod in contrarium attentatur, &amp; sic non
+      ac<lb ed="#G" n="95" break="no"/>cipitur in proposito prohibitio: quia talis prohibitio non 
+      <lb ed="#G" n="96"/>solum impediret matrimonium contrahedum, sed etiam 
+      <lb ed="#G" n="97"/>dirimeret contractum, sicut quandoque ecclesia prohibet 
+      <lb ed="#G" n="98"/>ne aliquis ducat suam consanguineam, vel affinem in vxo 
+      <lb ed="#G" n="99"/>rem. Quandoque autem prohibet prohibitione simplici
+      si<lb ed="#G" n="100" break="no"/>ne irritatione eius, quod fit in contrarium, sicut <ref xml:id="HuYgTa-283743-Rd1e260">extra de 
+      <lb ed="#G" n="101"/>e. &amp; re, prohibetur ille</ref>, qui sacerdotem occidit, ne
+      vm<lb ed="#G" n="102" break="no"/>uam contrahat matrimonium omnibus diebus vitae
+      suae<lb ed="#G" n="103" break="no"/>et sic est in proposito: quia dato, quod contra huiusmodi 
+      <lb ed="#G" n="104"/>simplice prohibitionem homo contrahat matrimonium, 
+      <lb ed="#G" n="105"/>tunc quamuis fic contrahens mortaliter peccet,
+      tam<lb ed="#G" n="106" break="no"/>quam transgressor Apostolici praecepti, tamen matrimo 
+      <lb ed="#G" n="107"/>nium manet contractum, &amp; non dirimitur in futurum Ad 
+      <lb ed="#G" n="108"/>intellectum etiam secundi impedimenti, scilicet de feriis,  
+      <lb ed="#G" n="109"/>est aduertendum, quod dies feriati sunt tribus vicibus 
+      <lb ed="#G" n="110"/>in anno, vt patet. 3; q4.4e. non oportet, scilicet ab
+      adue<lb ed="#G" n="111" break="no"/>tu Domini, vsque post Epiphaniam, &amp; septuagesima
+      vs<lb ed="#G" n="112" break="no"/>que ad octauam paschae, &amp; tribus septimanis ante
+      fe<lb ed="#G" n="113" break="no"/>stum loannis Daptistae, quae tres septimanae debent
+      inci<lb ed="#G" n="114" break="no"/>bi tribus diebus ante Ascensionem domini, &amp; terminari 
+      <lb ed="#G" n="115"/>in octaua penthecostes, vt determinatum est <ref xml:id="HuYgTa-283743-Rd1e295">extra de fe 
+        <lb ed="#G" n="116"/>riis, c Capellanus</ref>. Et nota, quod praedictis diebus non  
+      <lb ed="#G" n="117"/>prohibetur contractus sponsalium, vel etiam matrimonii 
+      <lb ed="#G" n="118"/>fieri, sed prohibetur sollenixatio matrimonii per
+      sacer<lb ed="#G" n="119" break="no"/>dotalem benedictionem, ac etiam consummatio matrimonii 
+      <lb ed="#G" n="120"/>per carnale copulam, sicut patet <ref xml:id="HuYgTa-283743-Rd1e309">33. q4u 4 coportet, &amp;
+      duo<lb ed="#G" n="121" break="no"/>bus capitulis sequentibus</ref>, Concordant etiam in hoc docto 
+      <lb ed="#G" n="122"/>res iuris, ac etiam theologiae. Et ratio illius prohibitionis 
+      <lb ed="#G" n="123"/>comuniter assignatur, quia in illis tribus festiuitatibus,  
+      <lb ed="#G" n="124"/>scilicet, Natiuitatis domini, Paschae, &amp; Penthecostes, ho 
+      <lb ed="#G" n="125"/>mines debent se parare ad recipiendum sacram
+      com<lb ed="#G" n="126" break="no"/>munionem, &amp; ideo circa illa tepora debent sibi cauere
+    </p>
+            <p xml:id="HuYgTa-283743-d1e326">
+      <!--799.xml-->
+               <pb ed="#G" n="P2_164-v"/>
+               <cb ed="#G" n="a"/>
+               <lb ed="#G" n="1"/>4 talibus mundanis negotiis, quibus solito modo
+      occu<lb ed="#G" n="2" break="no"/>pantur homines in sollemnitatibus nuptiarum. 
+    </p>
+            <p xml:id="HuYgTa-283743-d1e339">
+               <lb ed="#G" n="3"/>
+               <pc type="indent"/>Alia impedimenta, propter quae dirimitur
+      matrimo<lb ed="#G" n="4" break="no"/>nium, quod videtur esse contractum. 12 esse videntur, &amp;  
+      <lb ed="#G" n="5"/>his versibus comprehenduntur. 
+    </p>
+            <p xml:id="HuYgTa-283743-d1e350">
+               <lb ed="#G" n="6"/>
+               <pc type="indent"/>Error, conditio, votum, cognatio, crimen, 
+      <lb ed="#G" n="7"/>Cultus dispatitas, vis, ordo, ligamen, honestas,  
+      <lb ed="#G" n="8"/>Si sis affinis, si forte coire nequibis. 
+      <lb ed="#G" n="9"/>Haec socianda vetant connubia, iuncta retractant. 
+      <lb ed="#G" n="10"/>lsta duodecim impedimenta notauit <ref xml:id="HuYgTa-283743-Rd1e365">
+                  <name xml:id="HuYgTa-283743-Nd1e367">Hostiensis</name> in ru 
+        <lb ed="#G" n="11"/>bricella de matrimonio, c 8. qualiter impediatur</ref> 
+            </p>
+            <p xml:id="HuYgTa-283743-d1e374">
+               <lb ed="#G" n="12"/>
+               <pc type="indent"/>Ad pleniorem igitur intellectum eorum, quae in ian 
+      <lb ed="#G" n="13"/>dictis versibus continentur, est sciendum, 
+    </p>
+            <p xml:id="HuYgTa-283743-d1e383">
+               <lb ed="#G" n="14"/>
+               <pc type="indent"/>Quod error significat errorem personae, de quo dictu 
+      <lb ed="#G" n="15"/>est <ref xml:id="HuYgTa-283743-Rd1e391">superius, dist. 30.</ref> 
+            </p>
+            <p xml:id="HuYgTa-283743-d1e396">
+               <lb ed="#G" n="16"/>
+               <pc type="indent"/>Conditio significat seruitutem, de qua patet ibidem 
+      <lb ed="#G" n="17"/>Dicetur etiam de hoc <ref xml:id="HuYgTa-283743-Rd1e404">infra dist. 30.</ref> 
+            </p>
+            <p xml:id="HuYgTa-283743-d1e408">
+               <lb ed="#G" n="18"/>
+               <pc type="indent"/>Votum non accipitur hic qualitercunque, sed votun 
+      <lb ed="#G" n="19"/>continentiae sollemne: Votum enim continentiae priuatum 
+      <lb ed="#G" n="20"/>quamuis impediat matrimonium contrahendum, tamen 
+      <lb ed="#G" n="21"/>non dirimit contractum, vt patebit <ref xml:id="HuYgTa-283743-Rd1e421">infra, dist. 38.</ref> 
+            </p>
+            <p xml:id="HuYgTa-283743-d1e425">
+               <lb ed="#G" n="22"/>
+               <pc type="indent"/>Cognatio est triplex, Vna catnalis, &amp; de hac videbi 
+      <lb ed="#G" n="23"/>tur dist. 2c. Alia spiritualis. Et tertia legalis. Et de his dua 
+      <lb ed="#G" n="24"/>bus patebit, <ref xml:id="HuYgTa-283743-Rd1e435">dist. 4.2.</ref> 
+            </p>
+            <p xml:id="HuYgTa-283743-d1e439">
+               <lb ed="#G" n="25"/>
+               <pc type="indent"/>Crimen. Aliqua crimina prohibent matrimonium con 
+      <lb ed="#G" n="26"/>trahendum, &amp; dirimunt contractum. Aliqua vero non 
+      <lb ed="#G" n="27"/>dirimunt contractum, quamuis prohibeant
+      contrahen<lb ed="#G" n="28" break="no"/>dum, vt patebit <ref xml:id="HuYgTa-283743-Rd1e452">dist. 37.</ref> 
+            </p>
+            <p xml:id="HuYgTa-283743-d1e456">
+               <lb ed="#G" n="29"/>
+               <pc type="indent"/>Cultus disparitas, puta, quando de duobus
+      coniugi<lb ed="#G" n="30" break="no"/>bus infidelibus vnus conuertitur ad fidem chr istianam,  
+      <lb ed="#G" n="31"/>alio perseuerante in sua infidelitate, tunc fidelis potes 
+      <lb ed="#G" n="32"/>cont rahere matrimonium de nouo cum persona
+      fideli<lb ed="#G" n="33" break="no"/>&amp; dissoluitur primum matrimonium, eo modo, quo
+      di<lb ed="#G" n="34" break="no"/>ctum est <ref xml:id="HuYgTa-283743-Rd1e473">supra, di. 27 ar. 1 in solutione quintae instantiae</ref> 
+               <lb ed="#G" n="35"/>Et de hoc etiam patebit <ref xml:id="HuYgTa-283743-Rd1e478">infra, di. 30.</ref> 
+            </p>
+            <p xml:id="HuYgTa-283743-d1e482">
+               <lb ed="#G" n="36"/>
+               <pc type="indent"/>vis, idest violentia, vel coactio, de qua dictum est, <ref xml:id="HuYgTa-283743-Rd1e488">di¬ 
+        <lb ed="#G" n="37"/>28. artic. 1</ref> 
+            </p>
+            <p xml:id="HuYgTa-283743-d1e495">
+               <lb ed="#G" n="38"/>
+               <pc type="indent"/>Ordo non quilibet, sed sacer ordo prohibet contrahen 
+      <lb ed="#G" n="39"/>dum, &amp; dirimit contractum, vt patebit <ref xml:id="HuYgTa-283743-Rd1e503">dist. 37</ref> 
+            </p>
+            <p xml:id="HuYgTa-283743-d1e507">
+               <lb ed="#G" n="40"/>
+               <pc type="indent"/>Ligamen, puta, si habet legitimam vxorem viuentem 
+      <lb ed="#G" n="41"/>&amp; contrahit cum alia, tunc propter ligamen vinculi ma 
+      <lb ed="#G" n="42"/>trimonialis, quo alligatus est vxori primae, non tenet ma 
+      <lb ed="#G" n="43"/>trimonium, quo se alligauit vxori secundae, quia de iure 
+      <lb ed="#G" n="44"/>naturali, vna debet esse vxor vnius, vt dictum est, <ref xml:id="HuYgTa-283743-Rd1e522">d ist. 3</ref> 
+               <lb ed="#G" n="45"/>
+               <pc type="indent"/>conclusione prima: De isto etiam impedimento patebit 
+      <lb ed="#G" n="46"/>dist. 35. &amp; 27. circa finem. 
+    </p>
+            <p xml:id="HuYgTa-283743-d1e532">
+               <lb ed="#G" n="47"/>
+               <pc type="indent"/>Honestas, idest publicae honestatis iustitia, de qua
+      pa<lb ed="#G" n="48" break="no"/>tebit, dist. 4i 
+    </p>
+            <p xml:id="HuYgTa-283743-d1e541">
+               <lb ed="#G" n="49"/>
+               <pc type="indent"/>Affinis, De isto impedimento, quod dicitur affinitas 
+      <lb ed="#G" n="50"/>similiter dicetur, dist. 4i. 
+    </p>
+            <p xml:id="HuYgTa-283743-d1e550">
+               <lb ed="#G" n="51"/>
+               <pc type="indent"/>Coire nequibis, hoc significat impotentiam coneundi, 
+      <lb ed="#G" n="52"/>de qua dicetur immediate in articulo sequenti. 
+    </p>
+            <p xml:id="HuYgTa-283743-d1e559">
+               <lb ed="#G" n="53"/>
+               <pc type="indent"/>ARTICVLVS Il 
+      <lb ed="#G" n="54"/>
+               <pc type="indent"/>De impotentia cocundi.
+    </p>
+            <p xml:id="HuYgTa-283743-d1e571">
+               <lb ed="#G" n="55"/>QVANTVM igitur ad hoc est aduertendum, quod 
+      <lb ed="#G" n="56"/>huiusmodi impotentia tripliciter potest accide 
+      <lb ed="#G" n="57"/>re. Vno modo ex parte viri; Alio modo, ex parte mulie 
+      <lb ed="#G" n="58"/>ris. Tertio modo, ex parte vtriusque. Ex parte viri
+      triplici<lb ed="#G" n="59" break="no"/>ter. Vno modo, ex frigiditate naturali, puta, si ex nimia 
+      <lb ed="#G" n="60"/>suae complexionis frigiditate non potest habere tantam er- 
+      <lb ed="#G" n="61"/>ctionem virilis virge, quod possit naturali modo coniungi 
+      <lb ed="#G" n="62"/>cum aliqua muliere, Secundo modo ex laesione acciden 
+      <lb ed="#G" n="63"/>tali, puta, si ex sectione caret vtroquetestitulo, vel alias sic 
+      <lb ed="#G" n="64"/>laesus est in membris genitalibus, quod omnino est inu 
+      <lb ed="#G" n="65"/>tilis ad actu carnalis copulae. Tertio modo, ex prauitate 
+      <lb ed="#G" n="66"/>sortilegiali, puta, si ex diabolica deceptione, seu incanta 
+      <lb ed="#G" n="67"/>tione est maleficiatus. Sed primo modo, vel illa
+      frigidi<lb ed="#G" n="68" break="no"/>tas est temporalis, &amp; transitoria, &amp; tunc propter impoti 
+      <lb ed="#G" n="69"/>tiam ex tali frigiditate contingentem non sunt diuortia ma 
+      <!--799.xml-->
+      <cb ed="#G" n="b"/>
+               <lb ed="#G" n="70"/>trimonii celebranda. Si aut huiusmodi frigiditas est
+      per<lb ed="#G" n="71" break="no"/>petua, tunc ratione eius prohibetur matrimonium
+      contra<lb ed="#G" n="72" break="no"/>hendum, &amp; dirimitur contractum, eo, quod via naturae sit im 
+      <lb ed="#G" n="73"/>possibile talem hominem debitum carnalis copulae redde 
+      <lb ed="#G" n="74"/>re alicui mulieri. Est tamen valde necessarium, vt episco 
+      <lb ed="#G" n="75"/>pus, vel eius vicem gerens inter aliquas personas
+      cele<lb ed="#G" n="76" break="no"/>brans diuortium propter huiusmodi perpetuam
+      frigidita<lb ed="#G" n="77" break="no"/>te naturae, &amp; diligenter percipiat veritaten, ante, quam fe 
+      <lb ed="#G" n="78"/>rat sententiam, quia calor naturalis in aliquibus
+      homi<lb ed="#G" n="79" break="no"/>nibus ex suceessu temporis vigoratur, quando per
+      cor<lb ed="#G" n="80" break="no"/>porale crementum debitam staturam corporis adepti sunt,  
+      <lb ed="#G" n="81"/>qui prius debilis videbatur quantum ad officium virtutis 
+      <lb ed="#G" n="82"/>generatiuae, quando natura huiusmodi calorem, quasi
+      to<lb ed="#G" n="83" break="no"/>taliter direxit ad officium virtutis nutritiuae, pro
+      perfi<lb ed="#G" n="84" break="no"/>ciendo corpore vsque ad mensuram debitae staturae. Et ideo 
+      <lb ed="#G" n="85"/>praecipitur in iure <ref xml:id="HuYgTa-283743-Rd1e644">extra de frigidis, &amp; maleficiatis, c. lau 
+      <lb ed="#G" n="86"/>dabilem</ref>, quod per triennium debent simul cohabitare, 
+      <lb ed="#G" n="87"/>&amp; sine fraude, quantum aptiori modo possunt, debent pro 
+      <lb ed="#G" n="88"/>bare, vtrum possint carnaliter conuenire. Et, si, elapso trier 
+      <lb ed="#G" n="89"/>nio, conuenire non poterunt, tunc si ab inuicem volunt 
+      <lb ed="#G" n="90"/>separari, oportet eos ambos iurare de predicta impoten 
+      <lb ed="#G" n="91"/>tia cum septima manu, idest cum septem hominibus
+      pro<lb ed="#G" n="92" break="no"/>pinquis, vel vicinis, qui septem homines iurabunt, quod 
+      <lb ed="#G" n="93"/>credunt istos coniuges verum dicere de praedictis. Et 
+      <lb ed="#G" n="94"/>hoc fasto episcopus, vel eius vicem gerens dabit
+      mulie<lb ed="#G" n="95" break="no"/>ri licentiam, vt alteri possit nubere, si noluerit
+      contine<lb ed="#G" n="96" break="no"/>re, virum autem prohibebit, ne de cetero contrahat ma 
+      <lb ed="#G" n="97"/>trimonium Si tamen contra huiusmodi prohibitionem 
+      <lb ed="#G" n="98"/>alibi contraxerit &amp; repertum suerit, quod possit
+      mulie<lb ed="#G" n="99" break="no"/>rem carnaliter cognoscere, tunc separandus est a secun 
+      <lb ed="#G" n="100"/>da, &amp; cogendus est, quod reuertatur ad primam, etiam  
+      <lb ed="#G" n="101"/>non obstante, quod prima vxor fuerit interim altero vi 
+      <lb ed="#G" n="102"/>ro matrimonialiter copulata. Nota etiam, quod
+      secun<lb ed="#G" n="103" break="no"/>dum gloss. super praedicto, capitulo, si ante triennium 
+      <lb ed="#G" n="104"/>posset haberi euidens certitudo per experientiam medi 
+      <lb ed="#G" n="105"/>corum de perpetuitate praedictae frigiditatis, tunc iam di 
+      <lb ed="#G" n="106"/>ctum tempus triennii posset per iudicem abbreuiari. Si 
+      <lb ed="#G" n="107"/>secundo modo, tunc sine dilatione temporis
+      immedia<lb ed="#G" n="108" break="no"/>te mulier potest licentiari vt contrahat cum alio viro, si 
+      <lb ed="#G" n="109"/>a primo petierit separari, &amp; noluerit continere, &amp; vir per 
+      <lb ed="#G" n="110"/>petuae priuandus est matrimoni ali coniugio: quia ex suc 
+      <lb ed="#G" n="111"/>cessu temporis non potest esse spes, quod carens vtroque 
+      <lb ed="#G" n="112"/>testiculo, vmquam fiat aptus ad matrimonium
+      consummam<lb ed="#G" n="113" break="no"/>dum. Si tertio modo, tunc eodem modo faciendum esti 
+      <lb ed="#G" n="114"/>sicut praedictum est de frigiditate, &amp; per easdem
+      distin<lb ed="#G" n="115" break="no"/>ctiones respondendum Perpetuum enim reputatur ma 
+      <lb ed="#G" n="116"/>leficium, &amp; non temporale, quando per triennium
+      con<lb ed="#G" n="117" break="no"/>iuges commorantes, probauerunt se fideliter, quantun 
+      <lb ed="#G" n="118"/>potuerunt &amp; tamen numquam actum carnalis copulae 
+      <lb ed="#G" n="119"/>perficere potuerunt. Vnde in hoc solo videtur esse diffe 
+      <lb ed="#G" n="120"/>tentia, faciendo diuortium propter maleficium
+      perpe<lb ed="#G" n="121" break="no"/>tuum, &amp; propter frigiditatem perpetuam, quod quamuis 
+      <lb ed="#G" n="122"/>frigido negetur licentia cum alia contrahendi, tame in 
+      <lb ed="#G" n="123"/>diuortio propter maleficium non solum mulier, sed etia 
+      <lb ed="#G" n="124"/>vir in hoc relinquitur suae voluntati. Cuius ratio esse vi 
+      <lb ed="#G" n="125"/>detur, quia per maleficium non efficitur quis impotens 
+      <lb ed="#G" n="126"/>respectu cuiuscunque mulieris, sed respectu huius
+      mu<lb ed="#G" n="127" break="no"/>lieris, cum qua deberet, si posset, matrimonium consum 
+      <lb ed="#G" n="128"/>mare Si enim esset impotens respectu cuiuscunque mu 
+      <lb ed="#G" n="129"/>lieris, tunc talis impotentia non imputaretur maleficio, 
+      <lb ed="#G" n="130"/>sed potius frigiditati: Et ideo, elapso praedicto triennio, 
+      <lb ed="#G" n="131"/>quamuis non concedatur frigido, quod cum alia mulie 
+      <lb ed="#G" n="132"/>re possit contraheret eo, quod ita inutilis esset secundae, 
+      <lb ed="#G" n="133"/>sicut fuit primae, tamen hoc conceditur maleficiato, eo 
+      <lb ed="#G" n="134"/>quod possit esse vtilis mulieri secundae, quamuis
+      inutili<lb ed="#G" n="135" break="no"/>fuerit primae 
+    </p>
+            <p xml:id="HuYgTa-283743-d1e756">
+               <lb ed="#G" n="136"/>
+               <pc type="indent"/>Sed contra istud sunt duae opiniones: Quarum vnapo 
+      <lb ed="#G" n="137"/>nit, quod maleficium nihil sit in rei veritate, sed solum 
+      <lb ed="#G" n="138"/>in talium hominum aestimatione: qui effectus, quorum 
+      <lb ed="#G" n="139"/>tausae quandoque sunt occultae, maleficiis demonum so 
+      <lb ed="#G" n="140"/>sent deputare. Sicut et am terrores, quos homo ex sua 
+      <lb ed="#G" n="141"/>timida aestimatione sibiipsi facit, imputat daemoni. 
+    </p>
+            <p xml:id="HuYgTa-283743-d1e774">
+               <lb ed="#G" n="142"/>
+               <pc type="indent"/>Sed ista opinio est contra dicta sanctorum, vt apparet 
+      <!--800.xml-->
+      <pb ed="#G" n="P2_165-r"/>
+               <cb ed="#G" n="a"/>
+               <lb ed="#G" n="1"/>expresse ex his, quae dixi. <ref xml:id="HuYgTa-283743-Rd1e789">lib. 2. dist. 8. artic. 2</ref>. Oppositum 
+      <lb ed="#G" n="2"/>etiam istius opinionis expresse apparet in legenda de 8 
+      <lb ed="#G" n="3"/>Cvpriano, &amp; lustina virgine. Est etiam ista opinio contra 
+      <lb ed="#G" n="4"/>acram scripturam, quae in Exo. facit mentionem de ma 
+      <lb ed="#G" n="5"/>leficis regis Pharaonis, &amp; 1. Reg. 28. de phitonissa. Et in 
+      <lb ed="#G" n="6"/>bial, fit mentio de veneficio, seu serpentum incantatione. 
+      <lb ed="#G" n="7"/>lgitur multo magis potest esse maleficium, seu hominum 
+      <lb ed="#G" n="8"/>incantatio.  
+    </p>
+            <p xml:id="HuYgTa-283743-d1e808">
+               <lb ed="#G" n="9"/>
+               <pc type="indent"/>Alia est opinio, quae ponit, quod quamuis maleficium 
+      <lb ed="#G" n="10"/>vere quandoque contingat circa aliquos homines,
+      quam<lb ed="#G" n="11" break="no"/>tum ad carnalis copulae impedimentum, nullum tamen 
+      <lb ed="#G" n="12"/>m aleficium dirimit matrimonium contractum, quia, vt 
+      <lb ed="#G" n="13"/>dicunt, nullum maleficium est per petuum: nam
+      diabo<lb ed="#G" n="14" break="no"/>lus non habet potestatem, nisi super peccatores, &amp; ideo, 
+      <lb ed="#G" n="15"/>dleleto peccato per peenitentiam, tollitur maleficium, 
+      <lb ed="#G" n="16"/>etiam vnum maleficium potest tolli per altetum maleficium 
+      <lb ed="#G" n="17"/>Potest etiam tolli per exorcismos ecclesiae, qui sunt ordi 
+      <lb ed="#G" n="18"/>nati ad reprimendum daemonis potestatem. 
+    </p>
+            <p xml:id="HuYgTa-283743-d1e834">
+               <lb ed="#G" n="19"/>
+               <pc type="indent"/>Sed nec ista opinio valet, quia expresse est contra ius 
+      <lb ed="#G" n="20"/>canonicum, &amp; contra determinationem sanctae matris 
+      <lb ed="#G" n="21"/>ecclesiae, quae habetur 33 qei c. si per sortiarias, vbi
+      dici<lb ed="#G" n="22" break="no"/>tur, quod si maleficiati sanari non potetunt, tunc ab inui 
+      <lb ed="#G" n="23"/>cem separari valebunt. Etiam istud expresse habetur
+      ex<lb ed="#G" n="24" break="no"/>tra de frig. &amp; male. c.litterae vestre in quo capitulo idem 
+      <lb ed="#G" n="25"/>modus separationis ponit de maleficiatis post triennium, 
+      <lb ed="#G" n="26"/>qui prius positus est de incurabili frigiditate, in capitulo 
+      <lb ed="#G" n="27"/>laudabilem 
+    </p>
+            <p xml:id="HuYgTa-283743-d1e858">
+               <lb ed="#G" n="28"/>
+               <pc type="indent"/>Ad rationem dicendum, quod ex permissione diuina 
+      <lb ed="#G" n="29"/>quandoque remanet poena, &amp; vexatio, daemonis, etiam  
+      <lb ed="#G" n="30"/>cessante culpa. Nec etiam licet christiano vnum
+      male<lb ed="#G" n="31" break="no"/>ficium tollere per alterum maleficium, quia non posset 
+      <lb ed="#G" n="32"/>procurare secundum maleficium sine mortali peccato. 
+      <lb ed="#G" n="33"/>Etiam dato quod aliquis se exponat huiusmodi mortali 
+      <lb ed="#G" n="34"/>peccato, tentando vnum maleficium tollere per alterum, 
+      <lb ed="#G" n="35"/>adhuc sua intentione frustratur, prout quandoque aliqui  
+      <lb ed="#G" n="36"/>sunt experti: Propter quod etiam quandoque aliqui ma 
+      <lb ed="#G" n="37"/>lefici dicunt, quod non quodlibet maleficium potest tol 
+      <lb ed="#G" n="38"/>li per alterum maleficium. Etiam, Deo permittente,
+      sae<lb ed="#G" n="39" break="no"/>pe visum est, quod exorcismi, &amp; coniurationes ecclesiae 
+      <lb ed="#G" n="40"/>non valent semper ad tollendum corporales molestias, 
+      <lb ed="#G" n="41"/>illatas hominibus ab ipsis daemonibus, nec sunt
+      ordina<lb ed="#G" n="42" break="no"/>ti exorcismi ad tollendum quaslibet molestias diaboli,  
+      <lb ed="#G" n="43"/>sed determinate ad hoc sunt ordinati, vt diabolus non
+      a<lb ed="#G" n="44" break="no"/>uertat homines a perceptione baptismi, vt patet ex
+      di<lb ed="#G" n="45" break="no"/>ctis <ref xml:id="HuYgTa-283743-Rd1e901">magistri, circa finem. vi dis: istius quarti libri.</ref> 
+            </p>
+            <p xml:id="HuYgTa-283743-d1e906">
+               <lb ed="#G" n="46"/>
+               <pc type="indent"/>Si autem ex parte mulieris accidit predicta
+      impoten<lb ed="#G" n="47" break="no"/>tia, puta, quia mulier est ita arta, quod vir non potest es 
+      <lb ed="#G" n="48"/>carnaliter coniugi, hoc potest esse dupliciter. Quia, vel 
+      <lb ed="#G" n="49"/>illa mulier sine sui corporis periculo potest per arte
+      me<lb ed="#G" n="50" break="no"/>dicine, vel qualitercumque aliter absque mortali pecca 
+      <lb ed="#G" n="51"/>to taliter aptari, quod vir, cum quo contraxit, ipsam pos 
+      <lb ed="#G" n="52"/>fit carnaliter cognoscere, &amp; tunc non est dirimendum 
+      <lb ed="#G" n="53"/>matrimonium inter huiusmodi persona contractum, vel 
+      <lb ed="#G" n="54"/>non potest illa mulet ab huiusmodi impedimento curari 
+      <lb ed="#G" n="55"/>sine sui corporis piculo, vel etm sine mortali peccato, tums 
+      <lb ed="#G" n="56"/>sufficienter probata huiusmodi incurabilitate, si vir petit 
+      <lb ed="#G" n="57"/>diuortium, debent ab inuicem separari, &amp; licitum est
+      vi<lb ed="#G" n="58" break="no"/>ro contrahere matrimonium cum alia muliere, mulier 
+      <lb ed="#G" n="59"/>vero innupta debet perpetua manere. Si tamen
+      contra<lb ed="#G" n="60" break="no"/>xerit de facto cum alio viro, &amp; ab illo carnaliter fuerit 
+      <lb ed="#G" n="61"/>cognita, tunc si ex vsu istius secudi viri facta est apta, pro 
+      <lb ed="#G" n="62"/>primo viro, cogenda est, ut reuertatur ad primum, &amp;
+      di<lb ed="#G" n="63" break="no"/>nittat secundum, quia ecclesia decepta fuit in ferendo 
+      <lb ed="#G" n="64"/>sententiam diuortij. Nam impedimentum, quod huius 
+      <lb ed="#G" n="65"/>modi mulier habuit respectu primi viri, non fuit
+      incura<lb ed="#G" n="66" break="no"/>bile, sicut probatur. Ista patent <ref xml:id="HuYgTa-283743-Rd1e955">extra de frigidis, &amp; male 
+      <lb ed="#G" n="67"/>fic. c fraternitatis</ref>.
+    </p>
+            <p xml:id="HuYgTa-283743-d1e961">
+               <lb ed="#G" n="68"/>Sed intertio casu, puta, quando vir impotens
+      contra<lb ed="#G" n="69" break="no"/>xit cum muliere nimis arcta, tunc simul debent
+      cohabi<lb ed="#G" n="70" break="no"/>tare, sicut frater, &amp; soror, quia istud consulitur, quando 
+      <lb ed="#G" n="71"/>impedimentum solum est ex parte vnius, puta, quando 
+      <lb ed="#G" n="72"/>vir potens contraxit cum muliere nimis arta, vel mulier 
+      <lb ed="#G" n="73"/>ad matrimonium apta contraxit cum viro impotente: er 
+      <!--800.xml-->
+      <cb ed="#G" n="b"/>
+               <lb ed="#G" n="74"/>go multo magis istud est obseruandum, quando impedi 
+      <lb ed="#G" n="75"/>mentum coeundi est ex parte vtriusque. Consequentia 
+      <lb ed="#G" n="76"/>patet. Antecedens autem expresse habetur <ref xml:id="HuYgTa-283743-Rd1e987">extra de
+      fri<lb ed="#G" n="77" break="no"/>&amp; malefi. c. consultationi</ref>, vbi dicitur: Romana ecclesia 
+      <lb ed="#G" n="78"/>consueuit iudicare, vt quas tamquam vxores habere 
+      <lb ed="#G" n="79"/>non possunt, habeant ut sorores. Et ne ista decretalis
+      vi<lb ed="#G" n="80" break="no"/>deatur contradicere dictis precedentibus, vbi allegatum 
+      <lb ed="#G" n="81"/>est pro viro potente, quod sibi debet darilicentia, seu li 
+      <lb ed="#G" n="82"/>bera facultas contrahendi cum alia muliere, est aduerte 
+      <lb ed="#G" n="83"/>dum, quod secundum iuristas, ista decretalis loquitur de 
+      <lb ed="#G" n="84"/>eo, qui contraxit cum muliere, quam ante, quam contra 
+      <lb ed="#G" n="85"/>heret, nouit esse ineptam, &amp; nimis artam: decretalis au 
+      <lb ed="#G" n="86"/>tem praecedens loquitur de eo, qui hoc igncrauit, &amp; per 
+      <lb ed="#G" n="87"/>consequens, magis benigne est agedum cum eo, qui per 
+      <lb ed="#G" n="88"/>huiusmodi ignorantiam excusatur. Est etiam secundo non 
+      <lb ed="#G" n="89"/>tandum, quod ista decretalis consultationi non est abso 
+      <lb ed="#G" n="90"/>lute preceptiua, sed persuasiua, &amp; io posito, quod contra 
+      <lb ed="#G" n="91"/>mandatum iam dictum ipse vir contraheret cum alia 
+      <lb ed="#G" n="92"/>tunc debet manere cum secunda, quia cum prima non  
+      <lb ed="#G" n="93"/>nabuit matrimonium supposito, quod impotentia concum 
+      <lb ed="#G" n="94"/>di se tenens ex parte primae fuerit simpliciter
+      incurabi<lb ed="#G" n="95" break="no"/>is, vt patet <ref xml:id="HuYgTa-283743-Rd1e1031">extra de frigi. &amp; malefa. c. quod sedem</ref>, vbi di 
+      <lb ed="#G" n="96"/>citur, Qui impotentes sunt, minime apti ad
+      contrahen<lb ed="#G" n="97" break="no"/>dum matrimonium reputantur. 
+    </p>
+            <p xml:id="HuYgTa-283743-d1e1039">
+               <lb ed="#G" n="98"/>
+               <pc type="indent"/>Forte dicetur, quod actus carnalis copulae non est de 
+      <lb ed="#G" n="99"/>esse matrimonit: ergo impotentia coeundi, siue se teneat 
+      <lb ed="#G" n="100"/>ex parte uiri praecise, siue ex parte mulieris praecise:
+      siue<lb ed="#G" n="101" break="no"/>ex parte utriusque simul, non impedit matrimonium con 
+      <lb ed="#G" n="102"/>trahendum, nec dirimit contractum. Antecedens potest 
+      <lb ed="#G" n="103"/>probari per ea, quae dicta sunt, distin. 30. de matrimonio 
+      <lb ed="#G" n="104"/>Mariae virginis. Consequentia etiam patet, quia propter 
+      <lb ed="#G" n="105"/>impotentiam illius, quod non est de esse alituius non vi 
+      <lb ed="#G" n="106"/>detur illud dissolui, erg o &amp;c 
+    </p>
+            <p xml:id="HuYgTa-283743-d1e1063">
+               <lb ed="#G" n="107"/>
+               <pc type="indent"/>Dicendum, quod consequentia non est bona, quia
+      quam<lb ed="#G" n="108" break="no"/>uis actus carnalis copulae non sit de essentia matrimonii 
+      <lb ed="#G" n="109"/>tamen potestas reddendi huiusmodi actum, est de essen 
+      <lb ed="#G" n="110"/>tia, vel de necessitate matrimonii, propter quod impoten 
+      <lb ed="#G" n="111"/>tia coeundi, excludens huiusmodi potestatem, impedit 
+      <lb ed="#G" n="112"/>contractum veri matrimoni. Nec valet probatio, quia quam 
+      <lb ed="#G" n="113"/>uis ridere non sit de necessitate hominis, tamen non 
+      <lb ed="#G" n="114"/>posse ridere sufficienter tollit hominem, quia
+      necessa<lb ed="#G" n="115" break="no"/>ria consequentia sequitur, hoc non est risibile, ergo non 
+      <lb ed="#G" n="116"/>est homo. Etiam creare, non est de essentia Dei, cum
+      De<lb ed="#G" n="117" break="no"/>is ab aeterno fuerit, &amp; tamen ab aeterno non creauerit, ta 
+      <lb ed="#G" n="118"/>men non posse creare sufficienter infert non esse Deum: 
+      <lb ed="#G" n="119"/>Sic in proposito, ergo &amp;c. 
+    </p>
+            <p xml:id="HuYgTa-283743-d1e1096">
+               <lb ed="#G" n="120"/>
+               <pc type="indent"/>A RTICV LVS IR 
+      <lb ed="#G" n="121"/>De inbabilitate ad contrabendum
+      ho<lb ed="#G" n="122" break="no"/>minis furiosi.
+    </p>
+            <p xml:id="HuYgTa-283743-d1e1107">
+               <lb ed="#G" n="123"/>VANTVM ad tertium articulum est aduertendum, 
+      <lb ed="#G" n="124"/>
+               <pc type="indent"/>quod furiosus, vel habet aliqua lucida interu al 
+      <lb ed="#G" n="125"/>la, &amp; tunc pro tempore, quo liberum habet vsum
+      ratio<lb ed="#G" n="126" break="no"/>nis, potest contrahere matrimonium, quia pro tali tepo 
+      <lb ed="#G" n="127"/>re potest se obligare ad ea, quae ad uerum matrimonium 
+      <lb ed="#G" n="128"/>requiruntur vel furor eius est continuus absque omni lu 
+      <lb ed="#G" n="129"/>cido interuallo, tunc huiusmodi furore durante, non po 
+      <lb ed="#G" n="130"/>test contrahere matrimonium, &amp; dato, quod contrahat,  
+      <lb ed="#G" n="131"/>tamen huuismodi contractus non obligat contrahentes. 
+    </p>
+            <p xml:id="HuYgTa-283743-d1e1132">
+               <lb ed="#G" n="132"/>
+               <pc type="indent"/>1 Quia deficiente libero consensu, non contrabitur 
+      <lb ed="#G" n="133"/>matrimonium, Sed talis furiosus non potest habere libe 
+      <lb ed="#G" n="134"/>rum consensum: ergo non potest contrahere
+      matrimo<lb ed="#G" n="135" break="no"/>nium. Maior patet ex his, quae dixi dist. 2vtartic.1.
+      Mino<lb ed="#G" n="136" break="no"/>rem probo, quia vbi tot aliter deficit vsus rationis, ibi nec 
+      <lb ed="#G" n="137"/>consensus, nec aliquis actus voluntatis potest esse vere li 
+      <lb ed="#G" n="138"/>ber: Sed continuo existente surore, tunc totaliter deficit 
+      <lb ed="#G" n="139"/>vsus rationis, ergo &amp;c
+    </p>
+            <p xml:id="HuYgTa-283743-d1e1154">
+               <lb ed="#G" n="140"/>2 Praeterea, carens usu rationis non potest se in his; 
+      <lb ed="#G" n="141"/>quae ad uerum spectant matrimortum, perpetuo obliga 
+      <lb ed="#G" n="142"/>re: ergo non potest matrimonium contrabere. Antecedens 
+      <!--801.xml-->
+      <pb ed="#G" n="P2_165-v"/>
+               <cb ed="#G" n="a"/>
+               <lb ed="#G" n="1"/>patet, &amp; similiter consequentia. Cum igitur continue fu 
+      <lb ed="#G" n="2"/>riosus continue careat vsu rationis, ergo &amp;c 
+    </p>
+            <p xml:id="HuYgTa-283743-d1e1174">
+               <lb ed="#G" n="3"/>
+               <pc type="indent"/>Forte dicetur, quod furor non est aliquod de illis duo 
+      <lb ed="#G" n="4"/>decim impedimentis recitatis in primo artio. istius quae 
+      <lb ed="#G" n="5"/>stionis: ergo vel ista conclusio est falsa, vel numerus
+      im<lb ed="#G" n="6" break="no"/>pedimentorum in primo arti. positus exstitit diminutus 
+      <lb ed="#G" n="7"/>Consequentia patet. Antecedens probatur, quia
+      distur<lb ed="#G" n="8" break="no"/>rendo per singula, non inuenietur, quod furor sit aliquoc 
+      <lb ed="#G" n="9"/>illorum impedimentorum. 
+    </p>
+            <p xml:id="HuYgTa-283743-d1e1194">
+               <lb ed="#G" n="10"/>
+               <pc type="indent"/>Dicendum, quod iste furor reducitur ad primum illo 
+      <lb ed="#G" n="11"/>rum impedimentorum, scilicet ad errorem: quia qui
+      to<lb ed="#G" n="12" break="no"/>taliter caret vsu rationis, ille in omni suo contractu vide 
+      <lb ed="#G" n="13"/>tur errare, &amp; dato, quod quandoque non erret, hoc non 
+      <lb ed="#G" n="14"/>est per se, &amp; ex sua industria, sed est per accidens, &amp; a casu¬ 
+    </p>
+            <p xml:id="HuYgTa-283743-d1e1210">
+               <lb ed="#G" n="15"/>
+               <pc type="indent"/>ARTICVLVS ui 
+      <lb ed="#G" n="16"/>De impedimento euidente &amp; vitio homi 
+      <lb ed="#G" n="17"/>
+               <pc type="indent"/>nis incestuosi.
+    </p>
+            <p xml:id="HuYgTa-283743-d1e1223">
+               <lb ed="#G" n="18"/>QVANTVM ad quartum articulum est sciendum, 
+      <lb ed="#G" n="19"/>RN2 quod incestus potest dupliciter considerari. Vno 
+      <lb ed="#G" n="20"/>modo ratione criminis, quo incestuosus inficitur, &amp; sic 
+      <lb ed="#G" n="21"/>prohibet matrimonium contrahendum, licet non
+      diri<lb ed="#G" n="22" break="no"/>mat contra huiusmodi prohibitionem contractum. 
+      <lb ed="#G" n="23"/>Alio modo, ratione atfinitatis, quam interdum ipse in 
+      <lb ed="#G" n="24"/>cestuosus acquirit, &amp; sic non solum prohibet
+      matrimo<lb ed="#G" n="25" break="no"/>nium contrahendum, sed etiam dirimit contra huiusmo 
+      <lb ed="#G" n="26"/>di prohibitionem contractum. Istorum primum declara 
+      <lb ed="#G" n="27"/>bitur dist. 37. vbi agit magister de impedimento
+      crimi<lb ed="#G" n="28" break="no"/>nis, Secundum dist. 2. vbi agit magister de impedimento 
+      <lb ed="#G" n="29"/>affinitatis. Ideo ad praesens circa horum declarationem 
+      <lb ed="#G" n="30"/>non insisto. 
+    </p>
+            <p xml:id="HuYgTa-283743-d1e1255">
+               <lb ed="#G" n="31"/>
+               <pc type="indent"/>Ad argumentum principale dicendum ad minorem, 
+      <lb ed="#G" n="32"/>quod quamuis matrimonium inter fideles personas
+      le<lb ed="#G" n="33" break="no"/>gitime, &amp; vere contractum, &amp; carnaliter consummatum 
+      <lb ed="#G" n="34"/>sit indissolubile, tamen quocumque istorum trium non 
+      <lb ed="#G" n="35"/>existente, tunc non est indissolubile. Si enim vnus
+      con<lb ed="#G" n="36" break="no"/>iugum ad fidem Christi conuertitur, altero in sua
+      infide<lb ed="#G" n="37" break="no"/>litate permanente, tunc dissolui poterit matrimonium 
+      <lb ed="#G" n="38"/>tuius ratio patebit dist. 38. Etiam si matrimonium est fi 
+      <lb ed="#G" n="39"/>ctum, &amp; non verum, seu legitimum, tunc non est indisso 
+      <lb ed="#G" n="40"/>lubile: sed matrimonium fictum est, &amp; non verum, seu le 
+      <lb ed="#G" n="41"/>gitimum, quando contractum matrimonium praecedit 
+      <lb ed="#G" n="42"/>aliquod praedictorum impedimentorum Etiam quamuis 
+      <lb ed="#G" n="43"/>verum sit matrimonium, tamen si per catnalem compulam 
+      <lb ed="#G" n="44"/>non est consummatum, tunc sollemni voto continentia 
+      <lb ed="#G" n="45"/>infra duos menses a prima die contractus ipsius matri 
+      <lb ed="#G" n="46"/>monii potest irritari, sicut patet ex dictis superius,
+      distin<lb ed="#G" n="47" break="no"/>37. articul, tertio.  
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

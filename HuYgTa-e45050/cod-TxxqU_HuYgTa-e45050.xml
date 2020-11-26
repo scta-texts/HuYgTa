@@ -1,0 +1,778 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#ThomasStrasbourg">Thomas of Strasbourg</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2020-11-26">November 26, 2020</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="G" n="cod-TxxqU">Genoa 1585</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2020-11-26" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#G" n="59-v"/>
+            <cb ed="#G" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="HuYgTa-e45050"><!-- HuYgTa-l1d11q1 -->
+            <head xml:id="HuYgTa-e45050-Hd1e108">Quaestio 1</head>
+            <head xml:id="HuYgTa-e45050-Hd1e111" type="question-title">
+      An spiritus sanctus a solo patre procedat. 
+    </head>
+            <p xml:id="HuYgTa-e45050-d1e114">
+               <lb ed="#G" n="33"/>
+               <pc type="indent"/>Quaestio. I 
+      <lb ed="#G" n="34"/>An spiritus sanctus a solo patre 
+      <lb ed="#G" n="35"/>
+               <pc type="indent"/>procedat.
+    </p>
+            <p xml:id="HuYgTa-e45050-d1e127">
+               <lb ed="#G" n="36"/>PRVM SPIRITVS sanctus
+      produ<lb ed="#G" n="37" break="no"/>catur a solo patre.
+    </p>
+            <p xml:id="HuYgTa-e45050-d1e134">
+      Et videtur, quod
+      sic<lb ed="#G" n="38" break="no"/>quia pater aut perfecte spirat, aut non 
+      <lb ed="#G" n="39"/>bi primo modo, tunc superflue, &amp;
+      fru<lb ed="#G" n="40" break="no"/>stra spiraret ipse filius. Deus autem, &amp; 
+      <lb ed="#G" n="41"/> natura nihil faciunt frustra, vt dicitur 
+      <lb ed="#G" n="42"/>1. celi &amp; mundi. Si secundo modo, tunc aliqua
+      imperfe<lb ed="#G" n="43" break="no"/>ctio esset in patre 
+    </p>
+            <p xml:id="HuYgTa-e45050-d1e151">
+               <lb ed="#G" n="44"/>
+               <pc type="indent"/>in contrarium est <ref xml:id="HuYgTa-e45050-Rd1e157">Aug. 15. de tri</ref>. Hic primo videndi 
+      <lb ed="#G" n="45"/>est de eo, quod quaeritur: Secundo dato, quod pater, &amp; fi 
+      <lb ed="#G" n="46"/>lius producant spiritum sanctum, videndum est, vtrum 
+      <lb ed="#G" n="47"/>sint vnum principium respectu illius productionis.
+      Ter<lb ed="#G" n="48" break="no"/>tio, dato quod sic, videndum est, vtrum hoc non obstante 
+      <lb ed="#G" n="49"/>ipsi possint dici plures spiratores. Et quarto, vtrum poten 
+      <lb ed="#G" n="50"/>tia spiratiua dicat quid, vel ad aliquid
+    </p>
+            <p xml:id="HuYgTa-e45050-d1e174">
+      <!--157.xml-->
+               <cb ed="#G" n="b"/>
+               <lb ed="#G" n="51"/>RESOLVTIO. 
+      <lb ed="#G" n="52"/>Spiritum sanctum procedent a patve. &amp; a ftlio tatholite fartmi 
+      <lb ed="#G" n="53"/>tur asanttis viris. at tum pater, &amp; filius in hac product oni 
+      <lb ed="#G" n="54"/>sint plures prodirtentes non tam n vt plures, sed vt vnun 
+      <lb ed="#G" n="55"/>principium pvoductiuum pvodutum, vnde plures spiratorei di 
+      <lb ed="#G" n="56"/>ci nullo pacto possunt, cum vtrisque tadem conueniat viri 
+      <lb ed="#G" n="57"/>tus spiratiua. 
+    </p>
+            <p xml:id="HuYgTa-e45050-d1e196">
+               <lb ed="#G" n="58"/>
+               <pc type="indent"/>ARTICVLVS I. 
+      <lb ed="#G" n="59"/>Vtrum spiritus sanctus a solo patrt 
+      <lb ed="#G" n="60"/>procedat.
+    </p>
+            <p xml:id="HuYgTa-e45050-d1e207">
+               <lb ed="#G" n="61"/>QVANTVM ad primum, vtrum spiritus sanctus pro ( 
+      <lb ed="#G" n="62"/> ducatur a solo patre, sic procedam. Primo ponam F 
+      <lb ed="#G" n="63"/>vnam catholicam conclusionem, Secundo indueam ali¬; 
+      <lb ed="#G" n="64"/>qua motiua Oraecorum, quibus moueri poterant ad
+      ne<lb ed="#G" n="65" break="no"/>gandam huiusmodi conclusionem, &amp; tertio ad ea respodebo. 
+    </p>
+            <p xml:id="HuYgTa-e45050-d1e220">
+               <lb ed="#G" n="66"/>
+               <pc type="indent"/>Primo igitur dico, quod spiritus sanctus procedit a pa 
+      <lb ed="#G" n="67"/>tre &amp; filio: quia pater generando filium omnia communi 
+      <lb ed="#G" n="68"/>cat filio, in quibus ad filium non habet oppositionem.
+      Il<lb ed="#G" n="69" break="no"/>la patet per <ref xml:id="HuYgTa-e45050-Rd1e233">Aug. 15 de trini</ref>. vbi ait. <quote xml:id="HuYgTa-e45050-Qd1e236" source="http://scta.info/resource/adt-l15-d1e1848" synch="87-105">Pater non integre 
+        <lb ed="#G" n="70"/>se persecteque dixisset, si aliquid minus, vel amplius esset 
+        <lb ed="#G" n="71"/>in eius verbo, quam in ipso</quote>. Sed nullam oppositionem
+      h<lb ed="#G" n="72" break="no"/>bet pater ad filium, nec secundum virtutem spiratiuam. 
+      <lb ed="#G" n="73"/>quae est diuina essentia, nec secundum respectum, sub 
+      <lb ed="#G" n="74"/>quo talis virtus in actum spirationis prorumpit, qui
+      res<lb ed="#G" n="75" break="no"/>pectus est spiratio actiua; ergo pater generando filium il 
+      <lb ed="#G" n="76"/>li communicat virtutem spiratiuam, cum respectu
+      pro<lb ed="#G" n="77" break="no"/>posito ad spirandum, puta cum spiratione actiua. 
+    </p>
+            <p xml:id="HuYgTa-e45050-d1e257">
+               <lb ed="#G" n="78"/>
+               <pc type="indent"/>Sed contra illam rationem arguunt quidam
+      sic<lb ed="#G" n="79" break="no"/>1 Omne quod habet filius, vt genitus, habet cum
+      op<lb ed="#G" n="80" break="no"/>posito respectu ad generantem: sed omne, quod habet fi- 
+      <lb ed="#G" n="81"/>lius a patre, habet vt genitus, ergo etiam ipsam virtutem 
+      <lb ed="#G" n="82"/>spiratiuam habebit ipse filius cum opposito respectu ad 
+      <lb ed="#G" n="83"/>spirandum, sicut etiam virtutem generatiuam cum
+      op<lb ed="#G" n="84" break="no"/>posito respectu ad generandum accipit a patre¬ 
+    </p>
+            <p xml:id="HuYgTa-e45050-d1e278">
+               <lb ed="#G" n="85"/>
+               <pc type="indent"/>2 Praeterea, instant quidam alij sic. Si in diuinis produ 
+      <lb ed="#G" n="86"/>ducens omne illud communicat producto, in quo sibi non 
+      <lb ed="#G" n="87"/>opponitur, tunc pater communicaret spiritui sancto
+      ip<lb ed="#G" n="88" break="no"/>sum generare actiuum: quia in eo patet spiritui sancto non 
+      <lb ed="#G" n="89"/>opponitur, &amp; sic spiritus sanctus filium generaret, &amp; etiam 
+      <lb ed="#G" n="90"/>filius communicaret spiritui sancto generationem
+      passi<lb ed="#G" n="91" break="no"/>uam: quia in ca sibi non opponitur. Sed illa non
+      infrin<lb ed="#G" n="92" break="no"/>gunt rationem supradictam, 
+    </p>
+            <p xml:id="HuYgTa-e45050-d1e300">
+               <lb ed="#G" n="93"/>
+               <pc type="indent"/>Ad primum ergo dico, quod filius habet omnia cum 
+      <lb ed="#G" n="94"/>opposito respectu ad generantem, vt gencrans est: Sed op 
+      <lb ed="#G" n="95"/>positus respectus ad generantem, vt generans est, est sola 
+      <lb ed="#G" n="96"/>filiatio: quia propositus respectus generantis, vt generans 
+      <lb ed="#G" n="97"/>est, est sola paternitas, siue generatio actiua. Non conclu 
+      <lb ed="#G" n="98"/>dit igitur instantia tua, quod intendis, scilicet quod filius 
+      <lb ed="#G" n="99"/>vt genitus, capiat velle siue potentiam spiratiuam cum 
+      <lb ed="#G" n="100"/>opposito respectu ad spirationem actiuam, quae est in
+      pa<lb ed="#G" n="101" break="no"/>tre: quia per potentiam spiratiuam pater non dicitur
+      ge<lb ed="#G" n="102" break="no"/>nerans. Etiam instantia tua est contra te: quia tu mer
+      po<lb ed="#G" n="103" break="no"/>nis, quod pater communicat filio potentiam sprrandi cum 
+      <lb ed="#G" n="104"/>proposito respectu: quia alias filius non spiraret sparieuns 
+      <lb ed="#G" n="105"/>sanctum, quod error Sraecorum. 
+    </p>
+            <p xml:id="HuYgTa-e45050-d1e333">
+               <lb ed="#G" n="106"/>
+               <pc type="indent"/>Ad secundum dicendum, quod persona producens in 
+      <lb ed="#G" n="107"/>diuinis personae productae communicat omnia in quibus 
+      <lb ed="#G" n="108"/>ci non opponitur, quae sunt communicabilia: sed
+      proprie<lb ed="#G" n="109" break="no"/>tas personalis tam in creaturis, quam in diuinis est
+      com<lb ed="#G" n="110" break="no"/>municabilis: quia ex quo personam in esse personali
+      consti<lb ed="#G" n="111" break="no"/>tuit, si communicaretur, tunc esset confusio personarum. 
+      <lb ed="#G" n="112"/>Cum igitur generatio actiua personam patris
+      constituae<lb ed="#G" n="113" break="no"/>&amp; generatio passiua personam filij, spiratio autem
+      com<lb ed="#G" n="114" break="no"/>munis non constituat, ideo spiratio communis est
+      com<lb ed="#G" n="115" break="no"/>municabilis, non autem generate, vel generari 
+    </p>
+            <p xml:id="HuYgTa-e45050-d1e359">
+      <!--158.xml-->
+               <pb ed="#G" n="60-r"/>
+               <cb ed="#G" n="a"/>
+               <lb ed="#G" n="1"/>Praedictam etiam conclusionem confirmo sic. 
+      <lb ed="#G" n="2"/>2 Vbicunque aliqua plura sunt sine omni consusione. 
+      <lb ed="#G" n="3"/>ibi necessario inter illa est ordo, vel originis, puta, quod hoc 
+      <lb ed="#G" n="4"/>est ab hoc, vel ordo prioris, &amp; posterioris, puta, quod hoc 
+      <lb ed="#G" n="5"/>est post hoc. Sed pater &amp; filius &amp; spiritus sanctus sunt plu 
+      <lb ed="#G" n="6"/>ra supposita absque omni confusione, siue ordine prioris,  
+      <lb ed="#G" n="7"/>&amp; posterioris, quo hoc dicitur esse post hoc, vt patuit
+      su<lb ed="#G" n="8" break="no"/>perius, ergo inter quaslibet duas diuinas personas erit or 
+      <lb ed="#G" n="9"/>do originis. 
+    </p>
+            <p xml:id="HuYgTa-e45050-d1e388">
+               <lb ed="#G" n="10"/>3 Praeterea, pater communicat filio omne illud, quod 
+      <lb ed="#G" n="11"/>filio non repugnat, sed spirare non repugnat filio, ergo &amp;c 
+      <lb ed="#G" n="12"/>Maior patet: quia quaecunque res non nabet omnia, quae 
+      <lb ed="#G" n="13"/>sibi non repugnant, illa non est omnino perfecta: quia non 
+      <lb ed="#G" n="14"/>dum habet aliquid, quod tamen possibile est ipsam
+      ha<lb ed="#G" n="15" break="no"/>bere: sed filius in diuinis est perfecte a patre productus 
+      <lb ed="#G" n="16"/>ergo habet a patre omne illud, quod sibi non repugnat. 
+      <lb ed="#G" n="17"/>Minorem probo: quia omne, quod repugnat filio, vel re 
+      <lb ed="#G" n="18"/>pugnat ei ratione essentiae, hel ratione relationis 
+      <lb ed="#G" n="19"/>puta ratione filiationis: quia omne, quod est in fi- 
+      <lb ed="#G" n="20"/>lio, vel est essentia, vel relatio; sed spirare non
+      repu<lb ed="#G" n="21" break="no"/>gnat filio ratione essentiae: quia tunc etiam repugnaret 
+      <lb ed="#G" n="22"/>patri, cum eadem essentia, quae est in filio, sit in patre. 
+      <lb ed="#G" n="23"/>Nec ratione filiationis: quia nullam oppositionem habet 
+      <lb ed="#G" n="24"/>d filiationem. 
+    </p>
+            <p xml:id="HuYgTa-e45050-d1e423">
+               <lb ed="#G" n="25"/>4 Praeterea, illud firmiter tenere debemus, ad cuius 
+      <lb ed="#G" n="26"/>oppositum sequitur haeresis manifesta: Sed ad oppositum 
+      <lb ed="#G" n="27"/>llius propositonis, spiritus sanctus procedit a filio,
+      sequi<lb ed="#G" n="28" break="no"/>tur haeresis manifesta: quia si spiritus sanctus a filio non 
+      <lb ed="#G" n="29"/>procederet, spiritus sanctus a filio non esset persona
+      di<lb ed="#G" n="30" break="no"/>stincta, vt patebit in quaestione proxima sequenti, ergo se 
+      <lb ed="#G" n="31"/>cundum fidem sanctam firmiter debemus asserere spiritum 
+      <lb ed="#G" n="32"/>anctum a filio procedere. 
+    </p>
+            <p xml:id="HuYgTa-e45050-d1e444">
+               <lb ed="#G" n="33"/>3 Preterea, illam veritatem ponit expresse <ref xml:id="HuYgTa-e45050-Rd1e448">Aug. 15. de 
+        <lb ed="#G" n="34"/>tri.</ref> &amp; in multis alijs locis. Illa enim veritas, quod spiritus san 
+      <lb ed="#G" n="35"/>ctus procedit a patre &amp; filio, tempore Aug. ita
+      vniformi<lb ed="#G" n="36" break="no"/>ter tenebatur, quod tempore Aug. opposita opinio videtur 
+      <lb ed="#G" n="37"/>non fuisse: quia Aug. nusquam videtur secisse mentionem 
+      <lb ed="#G" n="38"/>de opposita opinione. Cum igitur nouae fantasiae deriuan 
+      <lb ed="#G" n="39"/>tes ab his, quae vniuersaliter tota Dei ecclesia tenuit, sint 
+      <lb ed="#G" n="40"/>penitus repudiandae, ergo &amp;c. Praedictae etiam veritati con 
+      <lb ed="#G" n="41"/>sentiunt ceteri catholici doctores, quos magister allegat 
+      <lb ed="#G" n="42"/>in littera, scilicet <name xml:id="HuYgTa-e45050-Nd1e470">Athanasius</name>, <name xml:id="HuYgTa-e45050-Nd1e474">Didimus</name>, <name xml:id="HuYgTa-e45050-Nd1e477">Cvrillus</name>, <name xml:id="HuYgTa-e45050-Nd1e480">Chryso 
+        <lb ed="#G" n="43"/>stomus</name>, &amp; plures alij.  
+    </p>
+            <p xml:id="HuYgTa-e45050-d1e486">
+               <lb ed="#G" n="44"/>
+               <pc type="indent"/>Sed contrarium istius tenet error Oraecorum, &amp; potest 
+      <lb ed="#G" n="45"/>robari sic. 
+    </p>
+            <p xml:id="HuYgTa-e45050-d1e495">
+               <lb ed="#G" n="46"/>Non minus conuenit spiritus sanctus eum patre, quam 
+      <lb ed="#G" n="47"/>silius, sed spiritus sanctus non conuenit cum patre in
+      pro<lb ed="#G" n="48" break="no"/>ductione filij, ergo nec filius conuenit cum patre in
+      pro<lb ed="#G" n="49" break="no"/>ductione spiritus sancti. 
+    </p>
+            <p xml:id="HuYgTa-e45050-d1e506">
+               <lb ed="#G" n="50"/>2 Praeterea, vnum simplex productum requirit vnum 
+      <lb ed="#G" n="51"/>simplex producens, da oppositum, tunc secundum se
+      to<lb ed="#G" n="52" break="no"/>tum, &amp; totaliter acceptum dependeret a pluribus, quod 
+      <lb ed="#G" n="53"/>est impossibile: sed persona spiritus sancti est vnum
+      sim<lb ed="#G" n="54" break="no"/>plex productum: ergo &amp;c. 
+    </p>
+            <p xml:id="HuYgTa-e45050-d1e519">
+               <lb ed="#G" n="55"/>
+               <pc type="indent"/>3 Praeterea, si spiritus sanctus procederet a patre, &amp; fi- 
+      <lb ed="#G" n="56"/>lio, tune vnum &amp; idem per eandem relationem
+      referre<lb ed="#G" n="57" break="no"/>tur ad duos terminos, puta idem spiritus sanctus per
+      ean<lb ed="#G" n="58" break="no"/>dem spirationem passiuam referretur ad patrem, &amp; filiu  
+      <lb ed="#G" n="59"/>consequens est falsum, ergo &amp; antecedens
+    </p>
+            <p xml:id="HuYgTa-e45050-d1e535">
+               <lb ed="#G" n="60"/>4 Praeterea, illo modo debemus loqui de diuinarum per 
+      <lb ed="#G" n="61"/>sonarum emanatione, quo modo huiusmodi
+      emanatio<lb ed="#G" n="62" break="no"/>nem exprimit scriptura sacra: sed scriptura sancta de
+      spi<lb ed="#G" n="63" break="no"/>ritu sancto dicit, quod procedit a patre, &amp; nusquam in ea 
+      <lb ed="#G" n="64"/>egimus, quod procedit a filio, ergo &amp;c 
+    </p>
+            <p xml:id="HuYgTa-e45050-d1e549">
+               <lb ed="#G" n="65"/>3 Praeterea, illud non est tenendum, cuius oppositum 
+      <lb ed="#G" n="66"/>inuenitir in dictis Apostolorum, &amp; sanctorum doctorum 
+      <lb ed="#G" n="67"/>sed spiritum sanctum procedere a filio est huiusneodi,
+      er<lb ed="#G" n="68" break="no"/>go &amp;c. Maior patet, minorem probo: quia sacerdotes
+      A<lb ed="#G" n="69" break="no"/>chaiae dicebant, se hanc fidem a sancto Andrea apostolo 
+      <lb ed="#G" n="70"/>didicisse, scilicet quod spiritus sanctus a patre procedit, &amp; 
+      <lb ed="#G" n="71"/>in filio requiescit. 
+    </p>
+            <p xml:id="HuYgTa-e45050-d1e567">
+               <lb ed="#G" n="72"/>
+               <pc type="indent"/>Sed in quo quis requiescit ab eo non procedit. 
+      <lb ed="#G" n="73"/>Et <ref xml:id="HuYgTa-e45050-Rd1e575">Damasce. lib. 1.</ref> Credimus in vnum spiritum sanctu 
+      <!--158.xml-->
+      <cb ed="#G" n="b"/>
+               <lb ed="#G" n="74"/>Deum viuificantem, ex patre procedentem, &amp; in filio
+      quie<lb ed="#G" n="75" break="no"/>centem etiam ait. Spiritum sanctum ex patre dicimus, &amp;  
+      <lb ed="#G" n="76"/>piritum patris nominamus. llle autem liber a summo po 
+      <lb ed="#G" n="77"/>tifice est approbatus, vt patet in prologo eiusdem libri, ergo 
+    </p>
+            <p xml:id="HuYgTa-e45050-d1e592">
+               <lb ed="#G" n="78"/>
+               <pc type="indent"/>Item, ista minot patet a <ref xml:id="HuYgTa-e45050-Rd1e598">Dionysio 2. de di, no,</ref> vbi ait. P.  
+      <lb ed="#G" n="79"/>ter est fontana deitas, filius autem, &amp; spiritus sanctus pul 
+      <lb ed="#G" n="80"/>lulationes diuinae naturae. Sed vna pullulatio non
+      proce<lb ed="#G" n="81" break="no"/>lit ab alia, sed quaelibet immediate procedit ab arbore. 
+      <lb ed="#G" n="82"/>ergo &amp;c. 
+    </p>
+            <p xml:id="HuYgTa-e45050-d1e611">
+               <lb ed="#G" n="83"/>
+               <pc type="indent"/>Sed istis pestiferis persuasionibus nulla mens
+      catholic<lb ed="#G" n="84" break="no"/>lebet assentire: quia ex sancto Dei euangelio iste error 
+      <lb ed="#G" n="85"/>poterit aperte reprobari; nulla enim persona diuina
+      acci<lb ed="#G" n="86" break="no"/>pit aliquid ab alia, nisi procedat ab ea: sed filius dicit de 
+      <lb ed="#G" n="87"/>spiritu sancto, ipse de meo accipiet, igitur &amp;c. Item in epi 
+      <lb ed="#G" n="88"/>stolis apostolicis, ipse saepissime dicitur spiritus filii: vel
+      igi<lb ed="#G" n="89" break="no"/>tur ipse est spiritus filiij formaliter, vel originaliter; Non 
+      <lb ed="#G" n="90"/>formaliter: quia tunc filius, &amp; spiritus sanctus non essent 
+      <lb ed="#G" n="91"/>personaliter distincti, ergo ipse est spiritus filij
+      originali<lb ed="#G" n="92" break="no"/>ter, &amp; productiue¬ 
+    </p>
+            <p xml:id="HuYgTa-e45050-d1e637">
+               <lb ed="#G" n="93"/>
+               <pc type="indent"/>Ad Primum igitur dicendum, quod spiritus sanctus non 
+      <lb ed="#G" n="94"/>otest concurrere ad verbi productionem, quia illud, quod 
+      <lb ed="#G" n="95"/>procedit per modum amoris, praesupponit illud, quod 
+      <lb ed="#G" n="96"/>procedit per modum verbi, &amp; cognitionis; sed talis
+      prae<lb ed="#G" n="97" break="no"/>supposito non impedit, quin filius possit concurrere ad 
+      <lb ed="#G" n="98"/>productionem spiritus sancti, cum verbum non praesuppo 
+      <lb ed="#G" n="99"/>nat amorem, sed econuerso. 
+    </p>
+            <p xml:id="HuYgTa-e45050-d1e657">
+               <lb ed="#G" n="100"/>
+               <pc type="indent"/>Ad secundum dicendum, quod vnum simplex productum 
+      <lb ed="#G" n="101"/>cequirit vnum simplex producens, vel plura,
+      conuenien<lb ed="#G" n="102" break="no"/>tia tamen in vno simplici principio pruductiuo, &amp; sic 
+      <lb ed="#G" n="103"/>est in proposito: quia filius cum patre est vnum simplex prin 
+      <lb ed="#G" n="104"/>cipium spiritus sancti, &amp; non plura principia, prout conue 
+      <lb ed="#G" n="105"/>niunt in vna virtute spiratiua, &amp; in vna communi
+      notio<lb ed="#G" n="106" break="no"/>ne, siue actiua spiratione, quae est vna &amp; penitus indiuisa 
+      <lb ed="#G" n="107"/>in patre &amp; filio : propter quod spiritus sanctus a patre &amp; 
+      <lb ed="#G" n="108"/>filio non procedit pluribus productionibus, sed vna
+      tan<lb ed="#G" n="109" break="no"/>tum, ergo &amp;c. 
+    </p>
+            <p xml:id="HuYgTa-e45050-d1e684">
+               <lb ed="#G" n="110"/>
+               <pc type="indent"/>Ad tertium dicedum, quod pater, &amp; filius respectu spiritus
+      san<lb ed="#G" n="111" break="no"/>cti, non habet rationem plurium terminorum, sed unius 
+      <lb ed="#G" n="112"/>antum, sicut enim tota trinitas terminat omnem
+      relatio<lb ed="#G" n="113" break="no"/>nem creaturae, sub ratione tamen unius termini, eo quod in 
+      <lb ed="#G" n="114"/>ominibus tribus personis sit una uirtus creatiua, sic &amp;c 
+    </p>
+            <p xml:id="HuYgTa-e45050-d1e700">
+               <lb ed="#G" n="115"/>
+               <pc type="indent"/>Ad quartum dicendum, quod filius Dei, qui semet
+      ip<lb ed="#G" n="116" break="no"/>sum exinaniuit formam serui accipiens, uolens in omni- 
+      <lb ed="#G" n="117"/>bus profundissimam humilitatem suam ostendere, &amp;
+      pa<lb ed="#G" n="118" break="no"/>tris sublimissimam dignitatem, non dicit, qui a me proce 
+      <lb ed="#G" n="119"/>dit, sed qui a patre procedit; dixit tamen implicite
+      aequi<lb ed="#G" n="120" break="no"/>ualentem istius, cum ait. Ipse me clarificabit: quia de meo 
+      <lb ed="#G" n="121"/>accipiet. nihil enim ab ipso acciperet, si ab ipso non 
+      <lb ed="#G" n="122"/>procederet 
+    </p>
+            <p xml:id="HuYgTa-e45050-d1e722">
+               <lb ed="#G" n="123"/>
+               <pc type="indent"/>Ad quintum nego minorem. Ad probationem, cum di 
+      <lb ed="#G" n="124"/>titur de sancto Andrea &amp;c. dico, quod per talia uerba non ex 
+      <lb ed="#G" n="125"/>cluditur ratio principij respectu spiritus sancti ab ipso
+      fi<lb ed="#G" n="126" break="no"/>io, sed tantum modo exprimitur principalitas
+      auctorita<lb ed="#G" n="127" break="no"/>tis, quae est in patre, puta datur intelligi, quod uirtutem pro 
+      <lb ed="#G" n="128"/>lucendi spiritum sanctu filius habet a patre, &amp; non a se, 
+      <lb ed="#G" n="129"/>ater autem huiusmodi uirtutem habet a se ipso. 
+    </p>
+            <p xml:id="HuYgTa-e45050-d1e742">
+               <lb ed="#G" n="130"/>
+               <pc type="indent"/>Et cum additur, quod quiescit in aliquo non procedit 
+      <lb ed="#G" n="131"/>ab eo, illa est falsissima in diuinis: quia in sancto
+      euange<lb ed="#G" n="132" break="no"/>io silius dicitur quieseero in sinu patris, &amp; tamen per
+      ae<lb ed="#G" n="133" break="no"/>ternam generationem procedit a patre. In diuinis enim
+      li<lb ed="#G" n="134" break="no"/>cet persona producta procedat a producente ratione
+      ori<lb ed="#G" n="135" break="no"/>pinis huiusmodi psonas personaliter distinguentis,
+      quie<lb ed="#G" n="136" break="no"/>scit tamen producta in producente ratione unius, &amp;
+      eius<lb ed="#G" n="137" break="no"/>dem penitus indiuisae naturae 
+    </p>
+            <p xml:id="HuYgTa-e45050-d1e764">
+               <lb ed="#G" n="138"/>
+               <pc type="indent"/>Ad dictum Dam. patet per iam dicta. 
+      <lb ed="#G" n="139"/>Est tamen ibi sciendum, quod sicut dicunt doctores
+      m<lb ed="#G" n="140" break="no"/>ni in Oraecoa lingua haec proposito ex, sonat in
+      quan<lb ed="#G" n="141" break="no"/>dam principalitatem, sicut in latino haec praeposito apud 
+      <lb ed="#G" n="142"/>conuenientius enim latino sermone dicitur. Miles est 
+      <lb ed="#G" n="143"/>apud regem, quam rex est apud militem Et ideo
+      habe<lb ed="#G" n="144" break="no"/>ntus hanc in usu nostro, uerbum est apud Deum, uel apud 
+      <lb ed="#G" n="145"/>atrem, quamuis eam non conuertamus, insinuantes 
+      <lb ed="#G" n="146"/>er hoc auctoritatem productiuam, quam pater habet 
+      <!--159.xml-->
+      <pb ed="#G" n="60-v"/>
+               <cb ed="#G" n="a"/>
+               <lb ed="#G" n="1"/>respectu filij, &amp; non econuerso: eadem ergo ratione
+      Crae<lb ed="#G" n="2" break="no"/>to more Dam. dixit, spiritum sanctum ex filio non dicimus 
+      <lb ed="#G" n="3"/>er hoc insinuans filiu huiusmodi auctoritatem a
+      semet<lb ed="#G" n="4" break="no"/>ipso non habere, sed a patre 
+    </p>
+            <p xml:id="HuYgTa-e45050-d1e803">
+               <lb ed="#G" n="5"/>
+               <pc type="indent"/>Et quod per verba praedicta non fuerit intentio Damas 
+      <lb ed="#G" n="6"/>negare spiritum sanctum procedere a filio, patet per
+      ver<lb ed="#G" n="7" break="no"/>ba sequentia in eo lib. 1. vbi sic ait. Spiritus sanctus est vit 
+      <lb ed="#G" n="8"/>tus sanctificatiua empostases, id est, in hipostasi existens 
+      <lb ed="#G" n="9"/>a patre, &amp; filio indistanter procedens. Et ideo idem
+      Da<lb ed="#G" n="10" break="no"/>mas postquam dixit non spiritum sanctu ex filio dicimus, vt 
+      <lb ed="#G" n="11"/>daret intelligi per talia verba, se nolle negare originem 
+      <lb ed="#G" n="12"/>ipsius spiritus sancti a filio, sed tantummodo principalita 
+      <lb ed="#G" n="13"/>tem originis importatam per hanc praepositionem ex
+      sub<lb ed="#G" n="14" break="no"/>dit ibidem post verba praedicta. Sicut ex sole est radius 
+      <lb ed="#G" n="15"/>&amp; splendor, sic a patre est filius &amp; spiritus sanctus, per
+      ra<lb ed="#G" n="16" break="no"/>dium tamen nobis splendor traditur 
+    </p>
+            <p xml:id="HuYgTa-e45050-d1e835">
+               <lb ed="#G" n="17"/>
+               <pc type="indent"/>Ad dictum Dionysij patet per iam dicta. 
+    </p>
+            <p xml:id="HuYgTa-e45050-d1e842">
+               <lb ed="#G" n="18"/>
+               <pc type="indent"/>ARTICVLVS I 
+      <lb ed="#G" n="19"/>Vtrum pater od filius sint vnum principium respectu 
+      <lb ed="#G" n="20"/>productionis spiritus sancti.
+    </p>
+            <p xml:id="HuYgTa-e45050-d1e853">
+               <lb ed="#G" n="21"/>VANTVM ad secundum principale, vtrum patet 
+      <lb ed="#G" n="22"/>&amp; filius sint vnum principium respectu productio 
+      <lb ed="#G" n="23"/>nis spiritus sancti, dicendum, quod quamuis possit dici,  
+      <lb ed="#G" n="24"/>quod pater &amp; filius in spiritus sancti productione sint plu 
+      <lb ed="#G" n="25"/>res producentes, eo quod sint singulariter, seu suppositaliter 
+      <lb ed="#G" n="26"/>distincti, &amp; <quote xml:id="HuYgTa-e45050-Qd1e868" source="http://scta.info/resource/aristmet-l1-RRX9nn" synch="41-49">actiones sint singularium</quote>, vt patet <ref xml:id="HuYgTa-e45050-Rd1e871">1. metaph</ref> 
+               <lb ed="#G" n="27"/>tamen non debet dici, quod spiritum sanctum producant,  
+      <lb ed="#G" n="28"/>vt plures sunt, sed vt vnum principium sunt
+    </p>
+            <p xml:id="HuYgTa-e45050-d1e879">
+               <lb ed="#G" n="29"/>1 Quia ly vt est nota reduplicationis, reduplicatio au 
+      <lb ed="#G" n="30"/>tem respectum habet ad causam, seu principium
+      produ<lb ed="#G" n="31" break="no"/>ctiuum: quod cum sit vnum in patre, &amp; filio, puta vna
+      di<lb ed="#G" n="32" break="no"/>uina essentia Vt voluntas faecunda sumpta sub respectu 
+      <lb ed="#G" n="33"/>proposito ad spirandum, puta sub actiua spiratione; ideo 
+      <lb ed="#G" n="34"/>pater &amp; filius sunt vnum principium spiritus sancti, &amp;
+      de<lb ed="#G" n="35" break="no"/>bet dici, quod ipsum spirant, vt vnum principium sunt
+      ratio<lb ed="#G" n="36" break="no"/>ne vnius virtutis spiratiuae indiuisibiliter existentis in 
+      <lb ed="#G" n="37"/>vtroque, quo ad talem productionem.
+    </p>
+            <p xml:id="HuYgTa-e45050-d1e901">
+               <lb ed="#G" n="38"/>2 Praeterea, sicut se habet tota trinitas in actu creatio 
+      <lb ed="#G" n="39"/>nis ad creaturam, sic se habet pater &amp; filius in actu
+      spira<lb ed="#G" n="40" break="no"/>tionis ad spiritum sanctum. Sed totam trinitatem
+      dici<lb ed="#G" n="41" break="no"/>mus vnum Deum, &amp; vnum principium creaturae eo, quod 
+      <lb ed="#G" n="42"/>essentia diuina cum respectu ad creaturam sit vna toti
+      tri<lb ed="#G" n="43" break="no"/>nitati communis; igitur pater &amp; filius sunt vnum
+      princi<lb ed="#G" n="44" break="no"/>pium spiritus sancti propter vnam virtutem spiratiuam, 
+      <lb ed="#G" n="45"/>uae est ambobus communis. Et illa est intentio <ref xml:id="HuYgTa-e45050-Rd1e920">beati 
+        <lb ed="#G" n="46"/>August</ref>. qui ait, <quote xml:id="HuYgTa-e45050-Qd1e925" source="http://scta.info/resource/adt-l5-d1e756" synch="151-172">Sicut pater &amp; filius, &amp; spiritus sanctus
+      re<lb ed="#G" n="47" break="no"/>latiue ad creaturam sunt vnum principium, vnus creator. 
+          <lb ed="#G" n="48"/>vnus dominus, sic pater &amp; filius relatiue ad spiritum
+      san<lb ed="#G" n="49" break="no"/>ctum sunt vnum principium</quote>. 
+    </p>
+            <p xml:id="HuYgTa-e45050-d1e935">
+               <lb ed="#G" n="50"/>
+               <pc type="indent"/>istam conclusionem etiam quidam doctor declarat sic 
+      <lb ed="#G" n="51"/>Voluntas enim, vt ait, perfectam faecunditatem habere 
+      <lb ed="#G" n="52"/>non potest ad producendum spiritum sanctum, nisi in 
+      <lb ed="#G" n="53"/>duabus existat personis, quae faecunditas voluntatis
+      con<lb ed="#G" n="54" break="no"/>sistit in plenitudine perfecti amoris, qui esse non potest 
+      <lb ed="#G" n="55"/>nisi ad minus in duobus, dicente <ref xml:id="HuYgTa-e45050-Rd1e952">Rich. 3. de tri.</ref> Non
+      po<lb ed="#G" n="56" break="no"/>test esse amor iucudus, nisi ipse sit mutuus, vt scilicet sit,  
+      <lb ed="#G" n="57"/>qui amorem impendat, &amp; qui amorem rependat. Et sic 
+      <lb ed="#G" n="58"/>praedictus doctor concludit, quod pater, &amp; filius, sunt vnum 
+      <lb ed="#G" n="59"/>principium spiritus sancti inquantum concordant in vno 
+      <lb ed="#G" n="60"/>principio elicitiuo actus spirandi, scilicet in vna
+      volun<lb ed="#G" n="61" break="no"/>tate saecunda modo praedicto, quod tamen principium 
+      <lb ed="#G" n="62"/>ratione, qua dicit voluntatem concordem in amore
+      im<lb ed="#G" n="63" break="no"/>penso, &amp; repenso, connotat distinctionem. 
+    </p>
+            <p xml:id="HuYgTa-e45050-d1e974">
+               <lb ed="#G" n="64"/>
+               <pc type="indent"/>Sed contra istam declarationem arguitur sic 
+    </p>
+            <p xml:id="HuYgTa-e45050-d1e981">
+               <lb ed="#G" n="65"/>
+               <pc type="indent"/>In quocunque signo nature, vel originis in supposito 
+      <lb ed="#G" n="66"/>vel suppositis est dare principium productiuum perfectum,
+      ne<lb ed="#G" n="67" break="no"/>cesse est ex tali principio produci terminum, nisi
+      impedia<lb ed="#G" n="68" break="no"/>tur. Sed prius natura, quam pater amet filiui, vel ametura 
+      <lb ed="#G" n="69"/>filio, pater &amp; filius habent voluntatem faecundam ad spi¬ 
+      <!--159.xml-->
+      <cb ed="#G" n="b"/>
+               <lb ed="#G" n="70"/>randum spiritum sanctum; nec in diuinis obulat aliquod 
+      <lb ed="#G" n="71"/>impedimentum, ergo ante productus est spiritus sanctus, 
+      <lb ed="#G" n="72"/>quam sit ille amor impensus, &amp; repensus, quem tuponis 
+      <lb ed="#G" n="73"/>spiritus sancti esse productiuum. Maior patet, minor
+      pro<lb ed="#G" n="74" break="no"/>batur: quia in illo signo, in quo pater &amp; filius habent
+      es<lb ed="#G" n="75" break="no"/>sentiam diuinam praesentem sibi sub ratione summi
+      dili<lb ed="#G" n="76" break="no"/>gibilis, habent principium perfecte faecundum ad
+      produ<lb ed="#G" n="77" break="no"/>cendum amorem infinitum adaequatum tali principio 
+      <lb ed="#G" n="78"/>ed antequam pater &amp; filius mutuo se diligant, est
+      essen<lb ed="#G" n="79" break="no"/>tia diuina praesens voluntati eorum sub ratione summi 
+      <lb ed="#G" n="80"/>amabilis, &amp; vt actu amata amore essentiali.  
+      <lb ed="#G" n="81"/>2 Praeterea, ratio quare in nobis reamatio requiritur 
+      <lb ed="#G" n="82"/>ad perfectum amorem est: quia aliquod additur diligenti. 
+      <lb ed="#G" n="83"/>btatim enim cum alicui amanti constat, quod reamatur 
+      <lb ed="#G" n="84"/>intenfius diligit predilectum. Sed in diuinis nihil additui 
+      <lb ed="#G" n="85"/>supposito dilipenti ex ipsa reamatione: quia tota ratiso 
+      <lb ed="#G" n="86"/>perfectionis illius dilectionis est essentia diuina existens 
+      <lb ed="#G" n="87"/>in infinitum diligibilis, ergo ex reamatione non faecun 
+      <lb ed="#G" n="88"/>datur voluntas
+    </p>
+            <p xml:id="HuYgTa-e45050-d1e1042">
+               <lb ed="#G" n="89"/>3 Praeterea, si de ratione amoris iucundissimi est, quod sit 
+      <lb ed="#G" n="90"/>mutuus, cum tali amore pater sit beatus, sequitur quod 
+      <lb ed="#G" n="91"/>pater formaliter sit beatus dilectione filij, &amp; non dilectio 
+      <lb ed="#G" n="92"/>ne essentiae, &amp; sic dependeret pater a filio, quo ad suam 
+      <lb ed="#G" n="93"/>beatitudinem perfectam  
+    </p>
+            <p xml:id="HuYgTa-e45050-d1e1055">
+               <lb ed="#G" n="94"/>
+               <pc type="indent"/>Praeterea, reamatio non facit ad dilectionem
+      ama<lb ed="#G" n="95" break="no"/>tis, nisi cognoscatur, quantumcumque enim aliquis
+      dile<lb ed="#G" n="96" break="no"/>ctus a me reamet me, nisi cognoscam ipsum reamare me, 
+      <lb ed="#G" n="97"/>non perficitur, nec augetur mea dilectio ex sua reamatio 
+      <lb ed="#G" n="98"/>ne: si ergo reamatio saceret ad productionem spiritus san 
+      <lb ed="#G" n="99"/>cti, tunc pater &amp; filius producerent spiritum sanctum,
+      in<lb ed="#G" n="100" break="no"/>uantum scientes, seu cognoscentes, &amp; vltimata &amp;
+      com<lb ed="#G" n="101" break="no"/>pletiua ratio spirandi erit cognitio, &amp; per consequens 
+      <lb ed="#G" n="102"/>piritus sanctus non procederet libere, &amp; per modum
+      vo<lb ed="#G" n="103" break="no"/>luntatis, sed magis ex necessitate scientiae. 
+    </p>
+            <p xml:id="HuYgTa-e45050-d1e1081">
+               <lb ed="#G" n="104"/>
+               <pc type="indent"/>Sed illa non concludunt 
+      <lb ed="#G" n="105"/>Ad primum igitur dico, quod ratio illa praesupponit prius Sol 
+      <lb ed="#G" n="106"/>&amp; posterius in diuinis ex natura rei: hoc autem proximo 
+      <lb ed="#G" n="107"/>superius improbaui dist 8. Etiam praesupponit, quod
+      pa<lb ed="#G" n="108" break="no"/>ter prius diligat essentiam diuinam, quam filium, &amp; filius 
+      <lb ed="#G" n="109"/>rius diligat essentiam diuinam, quam patrem, &amp; hoc
+      si<lb ed="#G" n="110" break="no"/>militer nego: quia cum essentia diuina non possit
+      cogno<lb ed="#G" n="111" break="no"/>sci seorsum a suppositis: quia nullum habet esse praeter quod 
+      <lb ed="#G" n="112"/>habet in suppositis, ideo non potest prius amari, quam 
+      <lb ed="#G" n="113"/>amentur supposita. Non ergo est ibi naturaliter prius
+      a<lb ed="#G" n="114" break="no"/>matio quam reamatio, nisi sumatur prius ratione solum 
+      <lb ed="#G" n="115"/>uo modo superius est declaratum prius esse in diuinis.  
+    </p>
+            <p xml:id="HuYgTa-e45050-d1e1112">
+               <lb ed="#G" n="116"/>
+               <pc type="indent"/>Ad secundum dicendum, quod reamatio in diuinis non 
+      <lb ed="#G" n="117"/>addit realiter aliquid super amationem: quia non est ibi 
+      <lb ed="#G" n="118"/>ealiter prius dare amorem, quam reamorem, sed simul 
+      <lb ed="#G" n="119"/>aturaliter sunt ibi amor &amp; reamor: sicut autem amor 
+      <lb ed="#G" n="120"/>n diuinis praecedit reamorem secundum rationem, sic 
+      <lb ed="#G" n="121"/>reamor potest addere super amorem aliquid secundum 
+      <lb ed="#G" n="122"/>rationem. 
+    </p>
+            <p xml:id="HuYgTa-e45050-d1e1133">
+               <lb ed="#G" n="123"/>
+               <pc type="indent"/>Ad tertium dicendum, quod non sequitur, quod pater 
+      <lb ed="#G" n="124"/>sit formaliter beatus filio, vel quod patris beatitudo
+      depen<lb ed="#G" n="125" break="no"/>deat a filio, sed bene sequitur quod pater non possit esse  
+      <lb ed="#G" n="126"/>beatus sine filio: quia nullius sine socio est iucunda posser 
+      <lb ed="#G" n="127"/>sio, sicut ait <name xml:id="HuYgTa-e45050-Nd1e1148" ref="#Boethius">Boethius</name>, hoc autem non arguit aliquam prae 
+      <lb ed="#G" n="128"/>rogatiuam in filio, qua patrem praecedat, nec in patre
+      ali<lb ed="#G" n="129" break="no"/>uam dependentiam derogantem suae dignitati: quia sicut 
+      <lb ed="#G" n="130"/>pater cognitione beatifica non potest non cognoscere 
+      <lb ed="#G" n="131"/>creaturam, vt superius declaraui dist. 8. non tamen
+      de<lb ed="#G" n="132" break="no"/>endet a creatura sic &amp;c. Et quid mirum si pater non
+      po<lb ed="#G" n="133" break="no"/>est diligere non diligendo filium, &amp; non reamante flio 
+      <lb ed="#G" n="134"/>cum pater non possit esse non existente filios  
+    </p>
+            <p xml:id="HuYgTa-e45050-d1e1167">
+               <lb ed="#G" n="135"/>
+               <pc type="indent"/>Ad quartum dicendum, quod ex hoc non sequitur, quod 
+      <lb ed="#G" n="136"/>pater, &amp; filius producant spiritum sanctum vt scientes, sec 
+      <lb ed="#G" n="137"/>vt amantes, quamuis ex hoc bene possit concludi, quod 
+      <lb ed="#G" n="138"/>productio spiritus sancti praesupponit notitiam, &amp; ver- 
+      <lb ed="#G" n="139"/>bi productionem. in omni enim amore praesupponitur 
+      <lb ed="#G" n="140"/>cognitio : cum bonum cognitum sit obiectum volucatisa 
+      <lb ed="#G" n="141"/>Etiam rationon est ad propositum: quia in diuinis non  
+      <lb ed="#G" n="142"/>est ex rematione augmentum amoris, sicut ratio prae¬ 
+      <!--160.xml-->
+      <pb ed="#G" n="61-r"/>
+               <cb ed="#G" n="a"/>
+               <lb ed="#G" n="1"/>supponit, sed amor &amp; reamor, &amp; notitia vtriusque, omnia 
+      <lb ed="#G" n="2"/>sunt vnum in diuinis, &amp; simul natura. Quicquid igitur sit di 
+      <lb ed="#G" n="3"/>dictis istius doctoris ad praesens non curo, cum non sit con 
+      <lb ed="#G" n="4"/>tra me, patet tamen quod ille rationes non concludunt 
+    </p>
+            <p xml:id="HuYgTa-e45050-d1e1204">
+               <lb ed="#G" n="5"/>
+               <pc type="indent"/>ARTICVLVS III 
+      <lb ed="#G" n="6"/>Vtrum pater, &amp; filius sint vnum principium
+      ves<lb ed="#G" n="7" break="no"/>pestu productionis spiritus sancti.
+    </p>
+            <p xml:id="HuYgTa-e45050-d1e1215">
+               <lb ed="#G" n="8"/>QVANTVM ad tertium principale, vtrum pater, &amp;  
+      <lb ed="#G" n="9"/>filius respectu productionis spiritus sancti possint 
+      <lb ed="#G" n="10"/>dici plures spiratores, dicit doctor noster, quod sicut vna
+      dei<lb ed="#G" n="11" break="no"/>tas vnit tres diuinas personas in creando: sic eadem
+      dei<lb ed="#G" n="12" break="no"/>tas vnit patrem, &amp; filium in spirando, differenter tamen 
+      <lb ed="#G" n="13"/>nam prout tres diuinae personae creant, ita hoc eis compi 
+      <lb ed="#G" n="14"/>tit per vnam deitatem, in qua vniuntur, quod &amp; ipsa deitas 
+      <lb ed="#G" n="15"/>creat: sed prout pater, &amp; filius spirant spiritum sanctum, 
+      <lb ed="#G" n="16"/>fic hoc eis competit per vnamuirtutem spiratiuam, qua 
+      <lb ed="#G" n="17"/>est ipsa deitas, quod tamen ipsa deitas non spirat, &amp; ideo non 
+      <lb ed="#G" n="18"/>dicuntur plures creatores propter vnitatem vnius
+      crea<lb ed="#G" n="19" break="no"/>tricis essentiae, quae &amp; ipsa creat, sed possunt dici plures 
+      <lb ed="#G" n="20"/>piratores, cum diuina essentia non spirat. 
+    </p>
+            <p xml:id="HuYgTa-e45050-d1e1246">
+               <lb ed="#G" n="21"/>
+               <pc type="indent"/>Sed contra ista dicta, quamuis rationabiliter posita,
+      ar<lb ed="#G" n="22" break="no"/>guit quidam doctor. Et primo probat, qud illa non est pro 
+      <lb ed="#G" n="23"/>ria, essentia diuina creat. 
+    </p>
+            <p xml:id="HuYgTa-e45050-d1e1257">
+               <lb ed="#G" n="24"/>
+               <pc type="indent"/>Quia actus sunt suppositorum, vt patet <ref xml:id="HuYgTa-e45050-Rd1e1263">1. metaph.</ref> 
+               <lb ed="#G" n="25"/>&amp; 2 ethicorum, sed essentia diuina secundum se non est 
+      <lb ed="#G" n="26"/>uppositum, quia alias haberemus quattuor supposita in 
+      <lb ed="#G" n="27"/>diuinis: ergo diuinae essentiae non competit per se creare, 
+      <lb ed="#G" n="28"/>el apere
+    </p>
+            <p xml:id="HuYgTa-e45050-d1e1277">
+               <lb ed="#G" n="29"/>2 Praeterea, anima rationalis quamuis sit separabilis a 
+      <lb ed="#G" n="30"/>corpore, dum tamen est in corpore non conuenit sibi ali 
+      <lb ed="#G" n="31"/>qua operatio per se, quia si aliquis dixerit animam per se 
+      <lb ed="#G" n="32"/>intelligere, dicit eam texere, vel edificare, vt dicitur 1. di 
+      <lb ed="#G" n="33"/>anima, ergo multo fortius cum essentia diuina non possit 
+      <lb ed="#G" n="34"/>separari a diuinis suppositis, ergo tanquam agenti non po 
+      <lb ed="#G" n="35"/>test sibi attribui aliqua operatio. 
+    </p>
+            <p xml:id="HuYgTa-e45050-d1e1295">
+               <lb ed="#G" n="36"/>
+               <pc type="indent"/>Tertio ipse praeuenit responsionem ad haec dicta, &amp; 
+      <lb ed="#G" n="37"/>ait, quod non valet, si dicitur, Creare est actus essentialis,  
+      <lb ed="#G" n="38"/>&amp; ideo potest conuenire essentiae, quae est principium es 
+      <lb ed="#G" n="39"/>sentiale: quia sicut actus notionalis est a virture generat 
+      <lb ed="#G" n="40"/>ua, vel spitatiua, non quod virtus huiusmodi talem actum 
+      <lb ed="#G" n="41"/>elici at suppositiue, sed solum formaliter, est ratio eliciet 
+      <lb ed="#G" n="42"/>di actum notionalem: sic &amp; si creare sit actus essentialis,  
+      <lb ed="#G" n="43"/>non tamen debet attribui essentiae diuinae tanquam agen 
+      <lb ed="#G" n="44"/>ti, sed tanquam ratione agendi. 
+    </p>
+            <p xml:id="HuYgTa-e45050-d1e1319">
+               <lb ed="#G" n="45"/>
+               <pc type="indent"/>Sed illa non videntur esse vera 
+      <lb ed="#G" n="46"/>1 Quia omnis essentia, quae per se habet esse per se, po 
+      <lb ed="#G" n="47"/>test agere, maxime quo ad actus essentiales, quorum hu 
+      <lb ed="#G" n="48"/>iusmodi natura poterit esse principium ipsi supposito. Si 
+      <lb ed="#G" n="49"/>enim natura ignis p se haberet esse, ipsa posset esse prin 
+      <lb ed="#G" n="50"/>cipium quod, siue producens respectu omnis operationis 
+      <lb ed="#G" n="51"/>emus est principium quo, siue principium productiuum; 
+      <lb ed="#G" n="52"/>sed essentia diuina per se habet esse. Non enim diuina
+      es<lb ed="#G" n="53" break="no"/>sentia capit esse, ex eo, quod producatur i supposito: quia 
+      <lb ed="#G" n="54"/>ipsa improducibilis est. Si enim caperet esse ex eo, quod 
+      <lb ed="#G" n="55"/>est in suppositis, tunc necessario essentia numcraretur nu 
+      <lb ed="#G" n="56"/>meratione suppositorum, quod est haereticum dicere, er- 
+      <lb ed="#G" n="57"/>go diuinae essentiae competit per se agere secundun 
+      <lb ed="#G" n="58"/>actus essentiales
+    </p>
+            <p xml:id="HuYgTa-e45050-d1e1354">
+               <lb ed="#G" n="59"/>2 Praeterea, de quocunque vere, &amp; proprie praedicatui 
+      <lb ed="#G" n="60"/>nomen verbale deriuatum a verbo significante aliquem  
+      <lb ed="#G" n="61"/>actum, illi proprie conuenit elicere talem actum, sed crea 
+      <lb ed="#G" n="62"/>trix est nomen verbale descendens ab vltimo supino
+      il<lb ed="#G" n="63" break="no"/>lius verbi creo, as, aeque grammaticaliter sicut creator, &amp; 
+      <lb ed="#G" n="64"/>proprie praedicatur de diuina essentia: quia omnes sanct. 
+      <lb ed="#G" n="65"/>doctores dicunt deitate, siue essentiam diuinam esse
+      crea<lb ed="#G" n="66" break="no"/>trice, ergo actus, qui dicitur creare, proprie sibi conuenit 
+    </p>
+            <p xml:id="HuYgTa-e45050-d1e1374">
+               <lb ed="#G" n="67"/>
+               <pc type="indent"/>Ad primum ergo cum dicitur, quod actus sunt supposi 
+      <lb ed="#G" n="68"/>torum, dico, quod textus Aristotelis non habet supposito 
+      <lb ed="#G" n="69"/>rum, sed singularium, modo licet essentia diuina non sit sup 
+      <!--160.xml-->
+      <cb ed="#G" n="b"/>
+               <lb ed="#G" n="70"/>positum absolutum, potest tamen sine omni
+      inconuenie<lb ed="#G" n="71" break="no"/>tia dici hoc singulare absolutum, eo quod per se habet hoc 
+      <lb ed="#G" n="72"/>esse, puta diuinum. Et si in aliqua translatione, quam ege 
+      <lb ed="#G" n="73"/>tamen numquam recordor me vidisse, inueniretur, quod 
+      <lb ed="#G" n="74"/>ctiones sunt suppositorum, dicerem, quod Aristoteles 
+      <lb ed="#G" n="75"/>pro tanto fic striberet, quia loquebatur ibi de rebus,
+      qua<lb ed="#G" n="76" break="no"/>rum naturae per se non habent esse, sed acquirunt esse in 
+      <lb ed="#G" n="77"/>suppositis, &amp; ideo per se non poterunt agere 
+    </p>
+            <p xml:id="HuYgTa-e45050-d1e1407">
+               <lb ed="#G" n="78"/>
+               <pc type="indent"/>Ad secundum dicendum, quod animae humanae dum 
+      <lb ed="#G" n="79"/>est in corpore per se non competit agere, quia dum est in cor 
+      <lb ed="#G" n="80"/>pore, per se non habet esse, sed dato, quod per se haberet esse, 
+      <lb ed="#G" n="81"/>sicut negare non poteris de essentia diuina, tunc dicerem 
+      <lb ed="#G" n="82"/>quod haberet per se agere, &amp; non minus per se ageret dum 
+      <lb ed="#G" n="83"/>esset in corpore, quam dum esset separata a corpore. 
+    </p>
+            <p xml:id="HuYgTa-e45050-d1e1426">
+               <lb ed="#G" n="84"/>
+               <pc type="indent"/>Ad tertium dicendum, quod non est simile de actu
+      essen<lb ed="#G" n="85" break="no"/>tiali &amp; notionali: quia ex parte actus notionalis esset
+      ma<lb ed="#G" n="86" break="no"/>nifesta contradictionis implicatio: quia omne productum 
+      <lb ed="#G" n="87"/>differt necessario a producente, cum impossibile sit idem 
+      <lb ed="#G" n="88"/>producere seipsum, sed essentia diuina a nullo producto 
+      <lb ed="#G" n="89"/>in diuinis potest differre, quia a quocunque re aliter differi 
+      <lb ed="#G" n="90"/>essentia diuina, illud non potest esse Deus, ergo si
+      essen<lb ed="#G" n="91" break="no"/>tiae diuinae competeret actus notionalis, tunc ipsa a
+      pro<lb ed="#G" n="92" break="no"/>ducto differret, &amp; non differret, &amp; per consequens produm 
+      <lb ed="#G" n="93"/>ceret, &amp; non produceret. Istorum autem inconuenientium 
+      <lb ed="#G" n="94"/>nullum sequitur, posito quod essentiae diuinae competat 
+      <lb ed="#G" n="95"/>per se agere secundum actus essentiales, 
+    </p>
+            <p xml:id="HuYgTa-e45050-d1e1457">
+               <lb ed="#G" n="96"/>
+               <pc type="indent"/>Addit etiam dictus doctor ad dicta praecedentia,
+      qui<lb ed="#G" n="97" break="no"/>bus modo responsum est, quod causa quare non possunt dici 
+      <lb ed="#G" n="98"/>plures creatores, est, quia uis creatiua, puta essentia
+      diui<lb ed="#G" n="99" break="no"/>na, non multiplicatur, nec connotat aliquam
+      distinctio<lb ed="#G" n="100" break="no"/>nem suppositorum: quia si esset in vno tantummodo, ad 
+      <lb ed="#G" n="101"/>huc illud suppositum crearet. 
+    </p>
+            <p xml:id="HuYgTa-e45050-d1e1475">
+               <lb ed="#G" n="102"/>
+               <pc type="indent"/>Sed illud expresse contradicit alijs suis dictis: quia
+      ip<lb ed="#G" n="103" break="no"/>se manifeste ponit, quod emanatio creaturarum necessa 
+      <lb ed="#G" n="104"/>rio presupponat emanationem personarum, quod si verum 
+      <lb ed="#G" n="105"/>est, tunc non esset possibilis creatio, si essentia diuina tan 
+      <lb ed="#G" n="106"/>tum haberet esse in vno supposito, quia tunc non esset 
+      <lb ed="#G" n="107"/>personarum emanatio, 
+    </p>
+            <p xml:id="HuYgTa-e45050-d1e1493">
+               <lb ed="#G" n="108"/>
+               <pc type="indent"/>Quidam etiam alij dicunt, quod hoc nomen spirator,  
+      <lb ed="#G" n="109"/>vel creator, potest teneri adiectiue, vel substantiue. Primo 
+      <lb ed="#G" n="110"/>modo stant talia nomina pro suppositis, &amp; sic possunt dici 
+      <lb ed="#G" n="111"/>duo spiratores, &amp; tres creatores. Sed secundo modo
+      de<lb ed="#G" n="112" break="no"/>pent dici vnus creator, &amp; vnus spirator
+    </p>
+            <p xml:id="HuYgTa-e45050-d1e1509">
+               <lb ed="#G" n="113"/>Sed isti falsum assumunt: quia nomen verbale est
+      tan<lb ed="#G" n="114" break="no"/>tummodo nomen substantiuum, licet suum participium 
+      <lb ed="#G" n="115"/>possit dici adiectiuum, eo quod moueatur de genere in 
+      <lb ed="#G" n="116"/>genus, verbale tamen nomen est mere substantiuum: quia 
+      <lb ed="#G" n="117"/>nec mouetur per terminationes, nec per genera, quae
+      ta<lb ed="#G" n="118" break="no"/>men motio est de natura nominis adiectiui, ergo &amp;c 
+    </p>
+            <p xml:id="HuYgTa-e45050-d1e1525">
+               <lb ed="#G" n="119"/>
+               <pc type="indent"/>Item Doctor comunis in hac materia videtur sibi con 
+      <lb ed="#G" n="120"/>tradicere: quia in scripto super primum sententiarum
+      di<lb ed="#G" n="121" break="no"/>cit, quod actus significantur in verbo, participio, &amp; nomi 
+      <lb ed="#G" n="122"/>ne verbali, cum igitur actus sint suppositorum, vt dicitur 
+      <lb ed="#G" n="123"/>in Prooemio met. ideo ad multitudinem suppositorum 
+      <lb ed="#G" n="124"/>sequitur multiplicatio actuum, &amp; ideo non possumus di 
+      <lb ed="#G" n="125"/>cere, quod pater &amp; filius spiritum sanctum spirat, vel ess 
+      <lb ed="#G" n="126"/>pirans, uel est spirator: sed debemus dicere, quod spirant 
+      <lb ed="#G" n="127"/>&amp; quod sunt spirantes, &amp; quod sunt spiratores, &amp; ideo con 
+      <lb ed="#G" n="128"/>cludit, quod pater &amp; filius sunt duo spiratores, sicut sunt 
+      <lb ed="#G" n="129"/>duo supposita: Sed in <ref xml:id="HuYgTa-e45050-Rd1e1553">prima parte q. 38. artic. 4 in solutio 
+        <lb ed="#G" n="130"/>ne vltimi argumenti</ref>, dicit, quod cum spirans sit nomer 
+      <lb ed="#G" n="131"/>adiectiuum, spirator nomen substantiuum, ideo pater &amp; 
+      <lb ed="#G" n="132"/>filius sunt duo spirantes propter pluralitatem supposito 
+      <lb ed="#G" n="133"/>rum, non autem duo spiratores propter vnam spirationem,. 
+    </p>
+            <p xml:id="HuYgTa-e45050-d1e1566">
+               <lb ed="#G" n="134"/>
+               <pc type="indent"/>ARTICVLVS IR 
+      <lb ed="#G" n="135"/>Vtrum potentia spiratiua dicat quid vel 
+      <lb ed="#G" n="136"/>
+               <pc type="indent"/>ad aliquid
+    </p>
+            <p xml:id="HuYgTa-e45050-d1e1579">
+               <lb ed="#G" n="137"/>QVANTVM ad quartum dico per omnia similiter si 
+      <lb ed="#G" n="138"/>cut dictum est dist. 7. de potentia generandi.
+    </p>
+            <p xml:id="HuYgTa-e45050-d1e1586">
+      <!--161.xml-->
+               <pb ed="#G" n="61-v"/>
+               <cb ed="#G" n="a"/>
+               <lb ed="#G" n="1"/>Ad principale argumentum in oppositum dicendum 
+      <lb ed="#G" n="2"/>quod nec pater imperfecte se habet, nec filius superfluit 
+      <lb ed="#G" n="3"/>in spirando, quia cum vna sit virtus spiratiua sub eodem 
+      <lb ed="#G" n="4"/>espectu ad sprrandum requisito in patre, &amp; filio penitus 
+      <lb ed="#G" n="5"/>indistincto, ergo nec pater sine filio, nec filius sine patre, 
+      <lb ed="#G" n="6"/>spirabit spiritum sanctum, cum ambo sint vnum
+      princi<lb ed="#G" n="7" break="no"/>pium spiritus sancti 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

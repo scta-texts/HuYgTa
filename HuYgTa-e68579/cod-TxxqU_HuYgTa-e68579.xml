@@ -1,0 +1,863 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#ThomasStrasbourg">Thomas of Strasbourg</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2020-11-26">November 26, 2020</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="G" n="cod-TxxqU">Genoa 1585</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2020-11-26" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#G" n="90-r"/>
+            <cb ed="#G" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="HuYgTa-e68579"><!-- HuYgTa-l1d27q1 -->
+            <head xml:id="HuYgTa-e68579-Hd1e108">Quaestio 1</head>
+            <head xml:id="HuYgTa-e68579-Hd1e111" type="question-title">
+      An tot res poni debeant in diuinis, quot relationes
+    </head>
+            <p xml:id="HuYgTa-e68579-d1e114">
+               <lb ed="#G" n="126"/>
+               <pc type="indent"/>Questio. I 
+      <lb ed="#G" n="127"/>An tot res poni debeant in diuinis.  
+      <lb ed="#G" n="128"/>quot relationes
+    </p>
+            <p xml:id="HuYgTa-e68579-d1e125">
+               <lb ed="#G" n="129"/>VTRVM tot debeamus ponere res esse in diuinis, quot 
+      <lb ed="#G" n="130"/>ponim: relationes.
+    </p>
+            <p xml:id="HuYgTa-e68579-d1e132">
+      Et videtur quod sic: qua multiplicato 
+      <!--219.xml-->
+      <pb ed="#G" n="90-v"/>
+               <cb ed="#G" n="a"/>
+               <lb ed="#G" n="1"/>inferiori multiplicatur superius; sed relatio realis est infe 
+      <lb ed="#G" n="2"/>rius respectu, quod est res, ergo quoties multiplicatur realis 
+      <lb ed="#G" n="3"/>relatio multiplicatur vera res, &amp; per consequens tot erunt 
+      <lb ed="#G" n="4"/>in diuinis vere res, quot sunt ibi reales relationes 
+    </p>
+            <p xml:id="HuYgTa-e68579-d1e151">
+               <lb ed="#G" n="5"/>
+               <pc type="indent"/>Contra in diuinis non potest esse nisi trinitas rerum 
+      <lb ed="#G" n="6"/>sed relationes reales in diuinis sunt plures tribus, ergo 
+      <lb ed="#G" n="7"/>non sunt in diuinis tot res, quot sunt ibi relationes
+      rea<lb ed="#G" n="8" break="no"/>les. Hic sunt quattuor videnda. Primo enim videndum 
+      <lb ed="#G" n="9"/>est, quot sint reales relationes in diuinis, Secundo, utrum 
+      <lb ed="#G" n="10"/>sint tot verae res, quot sunt relationes. Tertio, vtrum
+      hu<lb ed="#G" n="11" break="no"/>iusmodi relationes sint posteriores actibus notionalibus. 
+      <lb ed="#G" n="12"/>Et quarto, vtrum verbum dicatur essentialit er, vel
+      notio<lb ed="#G" n="13" break="no"/>naliter in diuinis. De omnibus enim istis magister
+      vide<lb ed="#G" n="14" break="no"/>tur inquirere in illa 27. distinctione. 
+    </p>
+            <p xml:id="HuYgTa-e68579-d1e177">
+               <lb ed="#G" n="15"/>
+               <pc type="indent"/>RESOLVTIO 
+      <lb ed="#G" n="16"/>Relationes vealit ex in diuinis sunt quattuor, trer tamen ves relatae 
+      <lb ed="#G" n="17"/>conceduntur, cum trer tantum personae in diuinis statgantur. 
+    </p>
+            <p xml:id="HuYgTa-e68579-d1e188">
+               <lb ed="#G" n="18"/>
+               <pc type="indent"/>ARTICVLVS L 
+      <lb ed="#G" n="19"/>Quot sint reales relationes in diuinis
+    </p>
+            <p xml:id="HuYgTa-e68579-d1e197">
+               <lb ed="#G" n="20"/>SVANTVM ad primum, quot sint reales relationes in 
+      <lb ed="#G" n="21"/>e diuinis, est aduertendum, que in diuinis est
+      differ<lb ed="#G" n="22" break="no"/>rentia inter notiones, &amp; proprietates.
+    </p>
+            <p xml:id="HuYgTa-e68579-d1e206">
+               <lb ed="#G" n="23"/>1 Omne enm illud dicitur notio, quod personam diuini 
+      <lb ed="#G" n="24"/>notificat, ita quod non est commune tribus; relatio autem; 
+      <lb ed="#G" n="25"/>quo persona ad terminum realem realiter refertur. Proprie 
+      <lb ed="#G" n="26"/>tas vero dicitur, quo persona in esse incomunicabili, sius 
+      <lb ed="#G" n="27"/>proprio, &amp; personali constituitur. Et ideo quinque sunt no 
+      <lb ed="#G" n="28"/>tiones: quia pater notificatur paternitate, &amp; innascibilita 
+      <lb ed="#G" n="29"/>te, &amp; spiratione actiua, quae dicitur conis notio: quia per
+      e<lb ed="#G" n="30" break="no"/>dem notificatur etiam filius, cum ipsa sit vna simpliciter in
+      pa<lb ed="#G" n="31" break="no"/>tre, &amp; in filio, filius vero preter communem notionem noti 
+      <lb ed="#G" n="32"/>ficatur filiatione, &amp; spiritus sanctus notificatur sola spira 
+      <lb ed="#G" n="33"/>tione passiua. Proprietates vero sunt tantum tres: nam cum 
+      <lb ed="#G" n="34"/>personas in esse personali constituant, &amp; personae diuine 
+      <lb ed="#G" n="35"/>sint tantummodo tres, sequitur, quod proprietates diuinae 
+      <lb ed="#G" n="36"/>sint tantummodo tres, scilicet paternitas, filiatio, &amp;
+      passi<lb ed="#G" n="37" break="no"/>ua spiratio. Relationes vero reales sunt quattuor: quia qua 
+      <lb ed="#G" n="38"/>libet relatiua opposito duas requirit relationes; sed in 
+      <lb ed="#G" n="39"/>diuinis sunt tantum duae relatiuae oppositones reales; 
+      <lb ed="#G" n="40"/>vna, qua pater apponitur filio, &amp; econuerso, &amp; alia qua pa 
+      <lb ed="#G" n="41"/>ter &amp; filius opponitur spiritui sancto, &amp; econuerso, ergo 
+      <lb ed="#G" n="42"/>erunt in diuinis tantum quattuor relationes reales
+    </p>
+            <p xml:id="HuYgTa-e68579-d1e252">
+               <lb ed="#G" n="43"/>2 Praeterea, in diuinis non sunt intrinsecae relationes 
+      <lb ed="#G" n="44"/>reales, nisi originis. Quo supposito arguo sic. Quaelibe 
+      <lb ed="#G" n="45"/>origo requirit duas relationes reales: quia alia est relatio 
+      <lb ed="#G" n="46"/>realis, qua producens refertur ad productum, &amp; alia qua 
+      <lb ed="#G" n="47"/>productum refertur ad producens, sed in diuinis sunt 
+      <lb ed="#G" n="48"/>duae verae, &amp; perfectae origines scilicet verbatio, sius 
+      <lb ed="#G" n="49"/>verbi generatio, &amp; processio, siue spiritus sancti productio 
+      <lb ed="#G" n="50"/>ergo erunt ibi quattuor reales relationes, scilicet pater. 
+      <lb ed="#G" n="51"/>nitas, filiatio, actiua spiratio, &amp; passiua spiratio 
+    </p>
+            <p xml:id="HuYgTa-e68579-d1e275">
+               <lb ed="#G" n="52"/>
+               <pc type="indent"/>Preterea, omnis illa relatio est realis, quae habet fur 
+      <lb ed="#G" n="53"/>damentum reale, &amp; terminum realem, sed quaelibet
+      prae<lb ed="#G" n="54" break="no"/>dictarum relationum est huiusmodi, ergo &amp;c 
+    </p>
+            <p xml:id="HuYgTa-e68579-d1e286">
+               <lb ed="#G" n="55"/>
+               <pc type="indent"/>ARTICVLVS II. 
+      <lb ed="#G" n="56"/>Vtrum in diuinis tot sint verae vres, quot sum 
+      <lb ed="#G" n="57"/>
+               <pc type="indent"/>relationes
+    </p>
+            <p xml:id="HuYgTa-e68579-d1e299">
+               <lb ed="#G" n="58"/>QVANTVM ad secundum principale, vtrum in
+      di<lb ed="#G" n="59" break="no"/> uinis sint tot verae res, quot sunt relationes, dico,  
+      <lb ed="#G" n="60"/>quod illae quattuor relationes diuinae non sunt quattuor 
+      <lb ed="#G" n="61"/>res, sed sunt tres tantum  
+    </p>
+            <p xml:id="HuYgTa-e68579-d1e310">
+               <lb ed="#G" n="62"/>
+               <pc type="indent"/>Quia non possunt esse plures res in diuinis, quam sint 
+      <lb ed="#G" n="63"/>personae, sed personae tantummodo sunt tres, vt tenet fi 
+      <lb ed="#G" n="64"/>des catholita, ergo tantummodo erunt tres res in diuinis. 
+      <!--219.xml-->
+      <cb ed="#G" n="b"/>
+               <lb ed="#G" n="65"/>Maior patet, quia si in diuinis essent plures res, quam per 
+      <lb ed="#G" n="66"/>sonae, tunc necessario in aliqua diuinarum personarum es 
+      <lb ed="#G" n="67"/>sent plures res ab inuice realiter differentes, quod est im 
+      <lb ed="#G" n="68"/>possibile: quia talis persona non esset vere simplex 
+      <lb ed="#G" n="69"/>Sed forte dicetur, quod illae plures res non sunt absolutae. 
+      <lb ed="#G" n="70"/>sed merae relationes; ideo non derogant summae simplicita 
+      <lb ed="#G" n="71"/>ti: quia sicut relatio cum diuina essentia in eadem
+      perso<lb ed="#G" n="72" break="no"/>na non derogat simplicitati, sic nec relatio cum relatione. 
+    </p>
+            <p xml:id="HuYgTa-e68579-d1e343">
+               <lb ed="#G" n="73"/>Respondeo, quod omnis multitudo rerum realiter
+      diffe<lb ed="#G" n="74" break="no"/>rentium in eadem persona videtur derogare summae
+      simpli<lb ed="#G" n="75" break="no"/>citati, quod autem additur de essentia &amp; relatione, non 
+      <lb ed="#G" n="76"/>est simile: quia essentis diuina, &amp; relatio non sunt duae 
+      <lb ed="#G" n="77"/>res, sed vna tantum, nulla enim realis differentia est
+      in<lb ed="#G" n="78" break="no"/>ter essentiam diuinam &amp; relationem, sicut infra patebit 
+    </p>
+            <p xml:id="HuYgTa-e68579-d1e359">
+               <lb ed="#G" n="79"/>
+               <pc type="indent"/>2 Praeterea, pauciores res essent i spiritu sancto, quam 
+      <lb ed="#G" n="80"/>in patre &amp; filio quia si communis notio esset alia res a pa 
+      <lb ed="#G" n="81"/>ternitate, vt est in patre, &amp; a filiatione, vt est in filio, tunc 
+      <lb ed="#G" n="82"/>praeter essentiam diuinam essent duae res in patre, puta 
+      <lb ed="#G" n="83"/>aternitas &amp; communis notio: &amp; eodem modo de filio; 
+      <lb ed="#G" n="84"/>sed in spiritu sancto esset solum passiua spiratio, &amp; sic
+      spi<lb ed="#G" n="85" break="no"/>ritus sanctus esset simplicior patre &amp; filio, quod est
+      im<lb ed="#G" n="86" break="no"/>pium confiteri. 
+    </p>
+            <p xml:id="HuYgTa-e68579-d1e382">
+               <lb ed="#G" n="87"/>3 Praeterea, omnia in diuinis sunt idem, vbi non obuiat 
+      <lb ed="#G" n="88"/>relationis opposito, vt patuit per Ans in quaestione
+      prae<lb ed="#G" n="89" break="no"/>cedenti; sed communis notio, nec paternitati, nec filiatio 
+      <lb ed="#G" n="90"/>nhi opponitur relatiue. 
+    </p>
+            <p xml:id="HuYgTa-e68579-d1e393">
+               <lb ed="#G" n="91"/>
+               <pc type="indent"/>ped forte dicetur, quod eadem ratione nec paternitas nec 
+      <lb ed="#G" n="92"/>filiatio differrent a spiratione passiua, quia ad ipsam non 
+      <lb ed="#G" n="93"/>habent oppositionem relatiuam
+    </p>
+            <p xml:id="HuYgTa-e68579-d1e404">
+               <lb ed="#G" n="94"/>Respondeo, quod paternitas &amp; filiatio quamuis non oppo 
+      <lb ed="#G" n="95"/>nuntur directe spirationi passiuae, tamen indirecte ei op- 
+      <lb ed="#G" n="96"/>nuntur, vt patuit superius; sed paternitas, &amp; filiatio nec di 
+      <lb ed="#G" n="97"/>recte, nec indirecte opponuntur spirationi actiue, siue 
+      <lb ed="#G" n="98"/>communi notioni, 
+    </p>
+            <p xml:id="HuYgTa-e68579-d1e417">
+               <lb ed="#G" n="99"/>
+               <pc type="indent"/>4 Item paternitas, &amp; passiua spitatio constituunt
+      distin<lb ed="#G" n="100" break="no"/>cta supposita realiter ad se inuicem opposita, &amp; similiter 
+      <lb ed="#G" n="101"/>fitiatio &amp; passiua spiratio, sed comunis notio non
+      consti<lb ed="#G" n="102" break="no"/>tuit suppositum distinctum a suppesitis constitutis per pa 
+      <lb ed="#G" n="103"/>ternitatem &amp; filiationem, sed est in patre &amp; filio, non ut 
+      <lb ed="#G" n="104"/>duo sunt, sed vt vnum principium spiritus sancti sunt. 
+    </p>
+            <p xml:id="HuYgTa-e68579-d1e435">
+               <lb ed="#G" n="105"/>
+               <pc type="indent"/>Et illa est intentio doctoris nostri in illa distinctione, 
+      <lb ed="#G" n="106"/>cum ait, quod aliunde habet relatio, quod sit relatio, &amp; que 
+      <lb ed="#G" n="107"/>sit res, quia quod sit relatio habet per illud, ad quod est,  
+      <lb ed="#G" n="108"/>uta a termino, seu per terminum ad quem refertur: quia 
+      <lb ed="#G" n="109"/>vt sic, necessario concernit oppositionem, &amp; per
+      conse<lb ed="#G" n="110" break="no"/>quens distinctionem, &amp; ideo secundum duplicem opposi 
+      <lb ed="#G" n="111"/>tionem originis, quam ponimus in diuinis personis,
+      ne<lb ed="#G" n="112" break="no"/>cesse habemus confiteri quattuor relationes: Sed quod sit res 
+      <lb ed="#G" n="113"/>habet ab eo, in quo est, &amp; ideo conmunis spiratio in patre 
+      <lb ed="#G" n="114"/>non poterit esse alia res a paternitate, cum sit in eodem 
+      <lb ed="#G" n="115"/>immediato fundamento cum ea, scilicet in supposito pa 
+      <lb ed="#G" n="116"/>tris, nec poterit esse alia res a filiatione, cum sit in eodem 
+      <lb ed="#G" n="117"/>supposito filij cum ea, quamuis sit alia relatio, quam
+      pa<lb ed="#G" n="118" break="no"/>ternitas, vel filiatio: quia refertur ad alium terminum, puta ad 
+      <lb ed="#G" n="119"/>piritum sanctu, ad que nec refertur paternitas, nec filiatio.  
+    </p>
+            <p xml:id="HuYgTa-e68579-d1e472">
+               <lb ed="#G" n="120"/>
+               <pc type="indent"/>Sed contra ista multipliciter inceditur. Primo enm sunt 
+      <lb ed="#G" n="121"/>aliqui, quod arguunt contra conclusionem in se. Secundo sunt 
+      <lb ed="#G" n="122"/>alii tenentes conclusionem, arguunt tamen contra iam 
+      <lb ed="#G" n="123"/>lictam doctoris declarationem. 
+    </p>
+            <p xml:id="HuYgTa-e68579-d1e486">
+               <lb ed="#G" n="124"/>
+               <pc type="indent"/>1 Primi arguunt sic. Sicut non potest poni aliquid
+      re<lb ed="#G" n="125" break="no"/>le, siue absolutum, siue relatiuum, nisi ponatur res; sic non 
+      <lb ed="#G" n="126"/>potest poni differentia realis, nisi ponatur differentia rei: 
+      <lb ed="#G" n="127"/>sed, vt iam dictum est, quattuor sunt reales relationes in 
+      <lb ed="#G" n="128"/>diuinis, ergo quattuor erunt res. 
+    </p>
+            <p xml:id="HuYgTa-e68579-d1e502">
+               <lb ed="#G" n="129"/>
+               <pc type="indent"/>2 Praeterea, sicut se habent duae relationes secundum 
+      <lb ed="#G" n="130"/>rationem distinctae ad rem rationis, ita se habent duae
+      re<lb ed="#G" n="131" break="no"/>lationes reales realiter distinctae ad rem realiter dictam, 
+      <lb ed="#G" n="132"/>sed impossibile est ponere duas relationes distinctas
+      se<lb ed="#G" n="133" break="no"/>cundum rationem, quin ponantur duae res rationis, ergo &amp;c 
+    </p>
+            <p xml:id="HuYgTa-e68579-d1e518">
+               <lb ed="#G" n="134"/>
+               <pc type="indent"/>3 Praeterea, quando aliqua duo sunt eade alicui
+      ter<lb ed="#G" n="135" break="no"/>tio omni modo realitatis, tunc sunt idem inter se omni 
+      <lb ed="#G" n="136"/>modo realitatis, sed paternitas, &amp; filiatio secundum
+      praedi<lb ed="#G" n="137" break="no"/>ctam positonem sunt idem communi notioni oni modo realitatis,  
+      <!--220.xml-->
+      <pb ed="#G" n="91-r"/>
+               <cb ed="#G" n="a"/>
+               <lb ed="#G" n="1"/>nta re absoluta, &amp; re relata, ergo inter se nec poterunt 
+      <lb ed="#G" n="2"/>differre re absoluta, nec relata, quod est inconueniens 
+      <lb ed="#G" n="3"/>mia tunc pater nullam distinctionem haberet a filio.  
+    </p>
+            <p xml:id="HuYgTa-e68579-d1e544">
+               <lb ed="#G" n="4"/>
+               <pc type="indent"/>4 Praeterea, quandocumque aliqua sic se habent vt su 
+      <lb ed="#G" n="5"/>perius, &amp; inferius, tunc multiplicato inseriori, necessario 
+      <lb ed="#G" n="6"/>multiplicatur &amp; superius: sed res est quid superius ad re- 
+      <lb ed="#G" n="7"/>lationem, ergo tot erunt res, quot relationes. 
+    </p>
+            <p xml:id="HuYgTa-e68579-d1e557">
+               <lb ed="#G" n="8"/>
+               <pc type="indent"/>3 Praeterea, istud posset argui. Si quattuor relationes 
+      <lb ed="#G" n="9"/>liuinae non essent quattuot res, hoc maxime esset pro ta 
+      <lb ed="#G" n="10"/>to, quod communis notio non differt realiter a
+      paterni<lb ed="#G" n="11" break="no"/>tate, &amp; filiatione, quia de aliis tribus patet, quod differunt 
+      <lb ed="#G" n="12"/>sed hoc non obstat, quod potest probari primo sic¬
+    </p>
+            <p xml:id="HuYgTa-e68579-d1e573">
+               <lb ed="#G" n="13"/>1 Illa, quae non possunt conuenire eidem respectu 
+      <lb ed="#G" n="14"/>eiusdem, non sunt idem realiter, sed communis notio, &amp; 
+      <lb ed="#G" n="15"/>paternitas non possunt conuenire patri respectu eiusdem: 
+      <lb ed="#G" n="16"/>quia paternitas competit sibi respectu filiij, &amp; communis 
+      <lb ed="#G" n="17"/>notio respectu spiritus sancti, ergo non possunt esse idem 
+      <lb ed="#G" n="18"/>realiter ad minus re relata 
+    </p>
+            <p xml:id="HuYgTa-e68579-d1e590">
+               <lb ed="#G" n="19"/>
+               <pc type="indent"/>2 Praeterea, sicut se habet paterntas ad filiationem. 
+      <lb ed="#G" n="20"/>sic se habet communis notio ad passiuam spirationem, er 
+      <lb ed="#G" n="21"/>go commutatim sic se habebit paternitas ad communi 
+      <lb ed="#G" n="22"/>notionem, sicut se habet filiatio ad passiuamspiratione 
+      <lb ed="#G" n="23"/>sed filiatio &amp; passiua spiratio sunt duae res, ergo paterni- 
+      <lb ed="#G" n="24"/>tas &amp; communis notio erunt duae res. 
+    </p>
+            <p xml:id="HuYgTa-e68579-d1e608">
+               <lb ed="#G" n="25"/>
+               <pc type="indent"/>2 Praeterea, generatio actiua est alia res ab actiua pro 
+      <lb ed="#G" n="26"/>ressione, ergo paternitas erit alia res a communi
+      notio<lb ed="#G" n="27" break="no"/>ne, consequentia patet: quia sicut generatio actiua est rea 
+      <lb ed="#G" n="28"/>liter idem, quod paternitas, sic processio actiua est
+      reali<lb ed="#G" n="29" break="no"/>ter idem quod communis notio; antecedens probatur: 
+      <lb ed="#G" n="30"/>quia duae passiones, seu illa, quae se habent ad modum 
+      <lb ed="#G" n="31"/>duarum passionum immediate non possunt esse ab vna 
+      <lb ed="#G" n="32"/>actione, sed generatio passiua, quae est a generatione acti 
+      <lb ed="#G" n="33"/>ua, &amp; processio passiua, quae est a processione actiua, sunt 
+      <lb ed="#G" n="34"/>duae emanationes passiuae, ergo generatio actiua, &amp; proces 
+      <lb ed="#G" n="35"/>sio passiua, non possunt esse vna actio, &amp; per consequens 
+      <lb ed="#G" n="36"/>nec vna res.
+    </p>
+            <p xml:id="HuYgTa-e68579-d1e639">
+               <lb ed="#G" n="37"/>4 Praeterea, impossibile est esse eandem relationem 
+      <lb ed="#G" n="38"/>producentis, &amp; producti, etiam dato, quod idem sit
+      pro<lb ed="#G" n="39" break="no"/>ducens, &amp; productum respectu diuersorum, sed filiatio, est 
+      <lb ed="#G" n="40"/>relatio producti, &amp; communis notio est relatio
+      produce<lb ed="#G" n="41" break="no"/>tis, ergo videtur, quod in filio communis notio, &amp; filiatio 
+      <lb ed="#G" n="42"/>differant realiter 
+    </p>
+            <p xml:id="HuYgTa-e68579-d1e655">
+               <lb ed="#G" n="43"/>
+               <pc type="indent"/>Secundo contra modum declarandi doctoris nostri ar 
+      <lb ed="#G" n="44"/>guunt quidam sic¬ 
+    </p>
+            <p xml:id="HuYgTa-e68579-d1e664">
+               <lb ed="#G" n="45"/>
+               <pc type="indent"/>1 Cum dicis, quod relatio habet, quod sit res a
+      funda<lb ed="#G" n="46" break="no"/>mento in quo est, vel per fundamentum intelligis d i-¬ 
+      <lb ed="#G" n="47"/>uinam essentiam, vel diuinum suppositum. No primum; 
+      <lb ed="#G" n="48"/>quia tunc omnes diuinae relationes essent vna res numo 
+      <lb ed="#G" n="49"/>ro, cum diuina essentia sit penitus vna. Nec secundum: 
+      <lb ed="#G" n="50"/>quia principium constitutiuum non habet, quod sit res 
+      <lb ed="#G" n="51"/>ab eo, quod constituit: sed secundum te relatiua
+      proprie<lb ed="#G" n="52" break="no"/>tas constituit suppositum, ergo ex ipso supposito non
+      ha<lb ed="#G" n="53" break="no"/>bet, quod sit res 
+    </p>
+            <p xml:id="HuYgTa-e68579-d1e688">
+               <lb ed="#G" n="54"/>
+               <pc type="indent"/>2 Praeterea, etiam in creaturis super eodem fundamen 
+      <lb ed="#G" n="55"/>to, puta in eadem albedine, respectu tamen diuersorum 
+      <lb ed="#G" n="56"/>fundat similitudo, &amp;dissimilitudo, quae differut realiter 
+    </p>
+            <p xml:id="HuYgTa-e68579-d1e700">
+               <lb ed="#G" n="57"/>
+               <pc type="indent"/>Sed istis non obstantibus praedictam tenebo
+      conclu<lb ed="#G" n="58" break="no"/>ionem, eo, quod magis conformis catholicae fidei vide 
+      <lb ed="#G" n="59"/>tur. Et quia totum pondus in hoc consistit, quod ipsi
+      ni<lb ed="#G" n="60" break="no"/>tuntur probare, quod communis notio differat a paterni 
+      <lb ed="#G" n="61"/>tate, vt est in patre, &amp; a filiatione vt est in filio, tamquam  
+      <lb ed="#G" n="62"/>res a re, igitur oppositum illius arguo sic. 
+    </p>
+            <p xml:id="HuYgTa-e68579-d1e718">
+               <lb ed="#G" n="63"/>
+               <pc type="indent"/>1 Illa, quae de se inuicem praedicantur praedicat
+      o<lb ed="#G" n="64" break="no"/>ne identica, non possunt differre sicut res a re, sed
+      com<lb ed="#G" n="65" break="no"/>munis notio praedicatur identice in patre de ipsa paterni 
+      <lb ed="#G" n="66"/>tate, &amp; in filio de ipsa filiatione, ergo non differt ab eis 
+      <lb ed="#G" n="67"/>sicut res a re: Maior patet: quia eius oppositum implicat 
+      <lb ed="#G" n="68"/>contradictionem quia tunc essent idem; &amp; non essent idem mino 
+      <lb ed="#G" n="69"/>rem pbo; qua omne, quod praedicat de patre in diuinis identice 
+      <lb ed="#G" n="70"/>praedicatur etiam de paternitate in diuinis identice: sed com 
+      <lb ed="#G" n="71"/>munis notio predicatur de patre identice, ergo &amp; de pa 
+      <lb ed="#G" n="72"/>ternitate: mimor patet, probo maiorem, quia quandocum 
+      <lb ed="#G" n="73"/>que aliquid praedicatur identice de aliquo termino con 
+      <!--220.xml-->
+      <cb ed="#G" n="b"/>
+               <lb ed="#G" n="74"/>crete sumpto, quod non praedicatur de eo abstracte
+      sum<lb ed="#G" n="75" break="no"/>to, ille terminus concretus erit aliquid aggregatum, &amp; 
+      <lb ed="#G" n="76"/>deficiet necessario a summa simplicitate, sed quaelibet di 
+      <lb ed="#G" n="77"/>uina persona est summae simplicitatis, ergo quicquid prae 
+      <lb ed="#G" n="78"/>dicatur identice de quacumque diuina persona sub
+      ter<lb ed="#G" n="79" break="no"/>mino concreto prolata, de eiusdem termini concreti ab 
+      <lb ed="#G" n="80"/>stracto pdicabitur, &amp; eodem modo arguitur de filiatione 
+    </p>
+            <p xml:id="HuYgTa-e68579-d1e766">
+               <lb ed="#G" n="81"/>
+               <pc type="indent"/>2 Praeterea, si communis notio, &amp; paternitas in perso 
+      <lb ed="#G" n="82"/>na patris dicerent plures res realiter differentes, tunc in 
+      <lb ed="#G" n="83"/>vna &amp; eadem persona diuina essent formaliter plura sup 
+      <lb ed="#G" n="84"/>posita, consequens est impossibile, ergo &amp; antecedens 
+      <lb ed="#G" n="85"/>probo consequentiam: quia res distincta, quae non est ali 
+      <lb ed="#G" n="86"/>tui inhaerens, necessario est suppositum per se, si ab alte 
+      <lb ed="#G" n="87"/>ro miraculose non sustentatur: sed communis notio secu 
+      <lb ed="#G" n="88"/>dum te est res distincta, &amp; non inhaeret alicui: quia non  
+      <lb ed="#G" n="89"/>st accidens, nec sustentatur miraculose; sicut natura, hu 
+      <lb ed="#G" n="90"/>mana a verbo: quia intrinsece in diuinis quicquid est,
+      na<lb ed="#G" n="91" break="no"/>turaliter est, ergo secundum positionem tuam
+      commu<lb ed="#G" n="92" break="no"/>nis notio de se erit suppositum formaliter praeter
+      suppo<lb ed="#G" n="93" break="no"/>fitum patris, quod est impossibile 
+    </p>
+            <p xml:id="HuYgTa-e68579-d1e799">
+               <lb ed="#G" n="94"/>
+               <pc type="indent"/>3 Praeterea, sub nomine exprimente multitudinem 
+      <lb ed="#G" n="95"/>rerum diuinarum, tenctur quilibet catholicus
+      adora<lb ed="#G" n="96" break="no"/>re Deum: sed nullus Deum adorat sub quaternitatis
+      no<lb ed="#G" n="97" break="no"/>mine, sed solum sub nomine trinitatis, ergo quattuor
+      re<lb ed="#G" n="98" break="no"/>lationes diuinae non sunt quattuor res. 
+    </p>
+            <p xml:id="HuYgTa-e68579-d1e815">
+               <lb ed="#G" n="99"/>
+               <pc type="indent"/>Ad primum ergo adductum contra conclusionem
+      di<lb ed="#G" n="100" break="no"/>endum, quod paternitatem, &amp; communem notionem 
+      <lb ed="#G" n="101"/>licere duas relationes reales potest dupliciter
+      intelligi<lb ed="#G" n="102" break="no"/>Vno modo, quod intrinsece dicant duas realitates. Alio 
+      <lb ed="#G" n="103"/>modo extrinsece &amp; connotatiue. Primo modo est falsus 
+      <lb ed="#G" n="104"/>ntellectus: quia intrinsece sunt vna, &amp; eadem realitas pe 
+      <lb ed="#G" n="105"/>nitus indiuisa, &amp; sub hoc sensu maior illius rationis est ve 
+      <lb ed="#G" n="106"/>ra, sed minor est falsa: quia in diuinis non sunt illo modo 
+      <lb ed="#G" n="107"/>quattuor relationes reales, quod intrinsece dicant
+      quat<lb ed="#G" n="108" break="no"/>tuor realitates, Secundo modo est verus intellectus, eo 
+      <lb ed="#G" n="109"/>quod paternitas, &amp; communis notio extrinsece
+      conexi<lb ed="#G" n="110" break="no"/>gant duos terminos realiter distinctos, ratione quorum 
+      <lb ed="#G" n="111"/>pere dicuntur duae relationes reales realitate extrinseca 
+      <lb ed="#G" n="112"/>Sunt etiam reales realitate intrinseca, quamuis non est 
+      <lb ed="#G" n="113"/>realitas distincta, co quod illud, a quo dicuntur habers 
+      <lb ed="#G" n="114"/>huiusmodi realitatem, sit penitus vna res &amp; indistincta; &amp; 
+      <lb ed="#G" n="115"/>sub hoc sensu maior est falsa: quia non oportet, quod vbi 
+      <lb ed="#G" n="116"/>ponitur differentia realis realitate extrinseca, quod ibi. 
+      <lb ed="#G" n="117"/>ponantur plures res distinctae intrinsece¬ 
+    </p>
+            <p xml:id="HuYgTa-e68579-d1e861">
+               <lb ed="#G" n="118"/>
+               <pc type="indent"/>Ad secundum patet per idem: quia non conuincitur 
+      <lb ed="#G" n="119"/>ex hoc, nisi, quod ponuntur duae res intrinsece
+      denomi<lb ed="#G" n="120" break="no"/>nantes ipsos terminos, extrinsece autem huiusmodi
+      re<lb ed="#G" n="121" break="no"/>lationes, maxime si tales relationes simul se
+      compatiun<lb ed="#G" n="122" break="no"/>tur in eodem diuino supposito. Etiam concessis ambabus 
+      <lb ed="#G" n="123"/>raemissis, non plus concluditur, nisi quod non possunt 
+      <lb ed="#G" n="124"/>dari duae relationes realiter distinctae, nisi dentur duae 
+      <lb ed="#G" n="125"/>es: &amp; hoc non est contra propositum nostrum: quia non  
+      <lb ed="#G" n="126"/>ponimus commune notionem, &amp; paternitatem esse duas 
+      <lb ed="#G" n="127"/>relationes realiter distinctas, licet ponamus, quod sint 
+      <lb ed="#G" n="128"/>duae relationes reales ratione duorum realium terminorum. 
+    </p>
+            <p xml:id="HuYgTa-e68579-d1e891">
+               <lb ed="#G" n="129"/>
+               <pc type="indent"/>Ad tertium dicendum, quod si illa maior per se nota, 
+      <lb ed="#G" n="130"/>vt illi dicunt, tunc sub illa maiore accipiam vnam
+      mino<lb ed="#G" n="131" break="no"/>tem infallibilem, &amp; concludam propositum nostrumi, &amp;  
+      <lb ed="#G" n="132"/>oppositum illius, quod ipsi intendunt: Dicam enim sic,
+      li<lb ed="#G" n="133" break="no"/>la, quae sunt cadem alicui tertio omni modo realitatis,  
+      <lb ed="#G" n="134"/>puta re absoluta &amp; re relata, sunt idem inter se omni modo. 
+      <lb ed="#G" n="135"/>ealitatis: sed communis notio, &amp; paternitas sunt idem 
+      <lb ed="#G" n="136"/>supposito patris omni modo realitatis: quia nec differunt 
+      <lb ed="#G" n="137"/>b eo re absoluta nec re relata, ergo nec differunt inter 
+      <lb ed="#G" n="138"/>se re absoluta, nec re relata. Ad formam tamen argumenti dice  
+      <lb ed="#G" n="139"/>quod aliqua esse eade alicui entitate relatiua potest
+      in<lb ed="#G" n="140" break="no"/>telligi dupliciter. Vno modo positue, alio modo priuati 
+      <lb ed="#G" n="141"/>ue. Si positiue, bene sequitur, quod sint eade inter se
+      en<lb ed="#G" n="142" break="no"/>titate relatiua: sed non secundo modo, verbi gratia 
+      <lb ed="#G" n="143"/>Paternitas, &amp; generatio actiua sunt idem relationi, quae 
+      <lb ed="#G" n="144"/>est patris ad filium re relata positue: quia ambo referun 
+      <lb ed="#G" n="145"/>tur ad eundem terminum scilicet ad filiu: sed paternitas 
+      <lb ed="#G" n="146"/>&amp; filiatio sunt idem diuinae essentiae, non solu re absoluta; 
+      <!--221.xml-->
+      <pb ed="#G" n="91-v"/>
+               <cb ed="#G" n="a"/>
+               <lb ed="#G" n="1"/>sed etiam relata, priuatiue tamen: quia quamuis non
+      re<lb ed="#G" n="2" break="no"/>ferantur ad eundem terminum, ratione cuius relationis 
+      <lb ed="#G" n="3"/>dicerentur idem re relata positiue, tamen non
+      distinguum<lb ed="#G" n="4" break="no"/>tur relatiue ab essentia, cum non habeant oppositionem 
+      <lb ed="#G" n="5"/>ad eam. Sic eodem modo paternitas, &amp; filiatio sunt idem 
+      <lb ed="#G" n="6"/>communi notioni re absoluta ratione diuinae essentiae, &amp;  
+      <lb ed="#G" n="7"/>similiter sunt idem sibi re relata saltem priuatiue: quia, cum 
+      <lb ed="#G" n="8"/>nullam oppositionem habeant ad eam, non possunt
+      rela<lb ed="#G" n="9" break="no"/>tiue distingui ab ea 
+    </p>
+            <p xml:id="HuYgTa-e68579-d1e961">
+               <lb ed="#G" n="10"/>
+               <pc type="indent"/>Et si iterum daretur illa instantia de spiratione
+      passi<lb ed="#G" n="11" break="no"/>ua, quae, cum non opponitur relatiue filiationi, &amp;
+      pater<lb ed="#G" n="12" break="no"/>nitati, non posset differre ab ess 
+    </p>
+            <p xml:id="HuYgTa-e68579-d1e972">
+               <lb ed="#G" n="13"/>
+               <pc type="indent"/>Dico, vt supra dictum est, quod ibi est opposito saltem in 
+      <lb ed="#G" n="14"/>directa, &amp; cum hoc in nullo eodem supposito ponitur spi 
+      <lb ed="#G" n="15"/>ratio passiua cum paternitate, vel filiatione; si enim esset 
+      <lb ed="#G" n="16"/>in eodem supposito cum paternitate, dicerem, quod non 
+      <lb ed="#G" n="17"/>differret a patetnitate. 
+    </p>
+            <p xml:id="HuYgTa-e68579-d1e988">
+               <lb ed="#G" n="18"/>
+               <pc type="indent"/>Ad quartum dicendum, quod plurificato inferiori
+      plurifi<lb ed="#G" n="19" break="no"/>catur superius ea entitate, &amp; realitate, qua plurificatur ij 
+      <lb ed="#G" n="20"/>sum inferius: sed vt iam patuit, plures relationes
+      existen<lb ed="#G" n="21" break="no"/>tes in eodem diuino supposito, non plurificantur quantum 
+      <lb ed="#G" n="22"/>ad realitatem conuenientem ipsis intrinsece, &amp; in recto 
+      <lb ed="#G" n="23"/>sed solum quantum ad realitatem terminorum, quos
+      com<lb ed="#G" n="24" break="no"/>notant &amp; conexigunt, ergo vt sic, ex plurificatione superio 
+      <lb ed="#G" n="25"/>ris, quod est res, non concluditur, quod relationes diuinae in 
+      <lb ed="#G" n="26"/>eodem supposito existentes, secundum se sint plures res; 
+      <lb ed="#G" n="27"/>sed tantummodo ea, quae important conexigitiue, &amp;
+      con<lb ed="#G" n="28" break="no"/>notatiue sint plures res, scilitet termini, respectu quorum 
+      <lb ed="#G" n="29"/>habent relatiuam oppositionem. 
+    </p>
+            <p xml:id="HuYgTa-e68579-d1e1019">
+               <lb ed="#G" n="30"/>
+               <pc type="indent"/>Ad quintum nego minorem. 
+      <lb ed="#G" n="31"/>Ad probationem primam dico, quod maior est falsa, maxi 
+      <lb ed="#G" n="32"/>me si talia sint in eodem supposito simplicissimo, i quo
+      nul<lb ed="#G" n="33" break="no"/>la potest esse diuersitas rerum. vel dicendum, quod ea, qua 
+      <lb ed="#G" n="34"/>non possunt conuenire eidem respectu eiusdem, differunt 
+      <lb ed="#G" n="35"/>realiter realitate extrinseca, non tamen intrinseca 
+    </p>
+            <p xml:id="HuYgTa-e68579-d1e1037">
+               <lb ed="#G" n="36"/>
+               <pc type="indent"/>Ad secundam dicendum, quod commutata proportio pro 
+      <lb ed="#G" n="37"/>prie tenet in terminis quantitatiuis; sed quantitas termi- 
+      <lb ed="#G" n="38"/>norum relatiuorum proprie consistit in eorum opposito 
+      <lb ed="#G" n="39"/>ne: quia opposito terminorum concernit distantiam, &amp; 
+      <lb ed="#G" n="40"/>per consequens quantitatem talium terminorum, ergo ex 
+      <lb ed="#G" n="41"/>ipsa prima proport one non plus habetur, nisi quod sicut  
+      <lb ed="#G" n="42"/>paternitas, &amp; filiatio re latiue opponuntur, sic communis 
+      <lb ed="#G" n="43"/>notio, &amp; passiua spiratio relatiue opponuntur, &amp; per con 
+      <lb ed="#G" n="44"/>sequens ex ipsa commutatione non plus debet inferri 
+      <lb ed="#G" n="45"/>nisi quod sicut primus terminus non opponitur tertio, sic
+      se<lb ed="#G" n="46" break="no"/>cundus non opponitur quarto. In minori igitur illius 
+      <lb ed="#G" n="47"/>commutatae proportionis committitur fallacia figurae di 
+      <lb ed="#G" n="48"/>ctionis: quia de quanto itur ad quid. 
+    </p>
+            <p xml:id="HuYgTa-e68579-d1e1071">
+               <lb ed="#G" n="49"/>
+               <pc type="indent"/>Ad tertiam nego antecedens. Ad probationem dico,  
+      <lb ed="#G" n="50"/>quod maior est falsa, quia ab eadem solis actione possunt 
+      <lb ed="#G" n="51"/>esse multae passiones realiter differentes 
+    </p>
+            <p xml:id="HuYgTa-e68579-d1e1082">
+               <lb ed="#G" n="52"/>
+               <pc type="indent"/>Forte dicetur, quod non est simile de sole, cum sit agens 
+      <lb ed="#G" n="53"/>vniuersale 
+    </p>
+            <p xml:id="HuYgTa-e68579-d1e1091">
+               <lb ed="#G" n="54"/>
+               <pc type="indent"/>Sed illud non obstat: quia idem particularis ignis eade 
+      <lb ed="#G" n="55"/>sua calefactione liquefactionem causat in cera, &amp;
+      exsicca<lb ed="#G" n="56" break="no"/>tionem in ligno, quae sunt duae passiones realiter
+      differe<lb ed="#G" n="57" break="no"/>tes; passiones ergo possunt multiplicari ratione
+      multitudi<lb ed="#G" n="58" break="no"/>nis patientium, stante eade actione ratione vnius agentis 
+    </p>
+            <p xml:id="HuYgTa-e68579-d1e1107">
+               <lb ed="#G" n="59"/>
+               <pc type="indent"/>Ad quartam dicendum, quod non plus concluditur, en 
+      <lb ed="#G" n="60"/>si quod filiatio &amp; communis notio sunt duae relationes, 
+      <lb ed="#G" n="61"/>non tamen ex hoc sequitur, quod sint duae res distincta 
+      <lb ed="#G" n="62"/>realitate intrinseca. 
+    </p>
+            <p xml:id="HuYgTa-e68579-d1e1120">
+               <lb ed="#G" n="63"/>
+               <pc type="indent"/>Ad primum, quod introducitur contra doctorem nostrum 
+      <lb ed="#G" n="64"/>dicendum, quod ipse in illo proposito per fundamentum 
+      <lb ed="#G" n="65"/>intelligit diuinum suppositum, propter quod ipse in eade 
+      <lb ed="#G" n="66"/>quaestione dicit, quod si communis notio esset in patre &amp; fi- 
+      <lb ed="#G" n="67"/>lio, vt duo sunt, tunc communis notio esset duae res: quia 
+      <lb ed="#G" n="68"/>esset in duobus suppositis vt duo sunt, esset tamen tantum 
+      <lb ed="#G" n="69"/>vna relatio propter vnitatem sui termini, ergo econtra 
+      <lb ed="#G" n="70"/>paternitas &amp; talis notio erut vna res, quia sunt in vno sup 
+      <lb ed="#G" n="71"/>posito, &amp; duae relationes propter dualitatem terminorum 
+      <lb ed="#G" n="72"/>Ad probationem dico, quod paternitas vt relatio non con 
+      <lb ed="#G" n="73"/>stituit personam patris, sed secundum nostrum modum intelli¬ 
+      <!--221.xml-->
+      <cb ed="#G" n="b"/>
+               <lb ed="#G" n="74"/>gendi presupponit seipsam, vt proprietas patris est, &amp;  
+      <lb ed="#G" n="75"/>lic, constituit. Nec etiam est imaginandum, quod relatio 
+      <lb ed="#G" n="76"/>habeat entitatem a supposito, in quo est effectiue:
+      quic<lb ed="#G" n="77" break="no"/>quid enim est in patre, a nullo producitur: omne enim, 
+      <lb ed="#G" n="78"/>quod in patre est, improducibile est, &amp; innascibile, nec 
+      <lb ed="#G" n="79"/>etiam filiatio efficieter est a filio, sed a patre producitur 
+      <lb ed="#G" n="80"/>a quo producitur ipse filius. Sed est intelligendum, quod 
+      <lb ed="#G" n="81"/>pro tanto dicitur relatio habere, quod res sint ab eo, in 
+      <lb ed="#G" n="82"/>quo est: quia ex sua natura habet, quod eius realitas
+      re<lb ed="#G" n="83" break="no"/>sultet in illo. 
+    </p>
+            <p xml:id="HuYgTa-e68579-d1e1175">
+               <lb ed="#G" n="84"/>
+               <pc type="indent"/>Ad secundum dicendum, quod non est ad propositum illudi 
+      <lb ed="#G" n="85"/>quod adducitur de similitudine fundata i creatura: qua cum 
+      <lb ed="#G" n="86"/>creatura non sit omnino simplex, non repugnat res distin 
+      <lb ed="#G" n="87"/>ctas esse in eodem fundamento creato respectu
+      diuerso<lb ed="#G" n="88" break="no"/>rum, &amp; ideo dato, quod similitudo, &amp; dissimilitudo dican 
+      <lb ed="#G" n="89"/>diuersas res, adhuc tamen possent simul esse in eodem
+      fun<lb ed="#G" n="90" break="no"/>damento creato: repugnat tamen diuersas res esse in
+      ea<lb ed="#G" n="91" break="no"/>dem diuina persona, quae est omnino simplex 
+    </p>
+            <p xml:id="HuYgTa-e68579-d1e1198">
+               <lb ed="#G" n="92"/>
+               <pc type="indent"/>ARTICVLVS IIR 
+      <lb ed="#G" n="93"/>Vtrum Relationes diuinae sint posteriores actibus 
+      <lb ed="#G" n="94"/>
+               <pc type="indent"/>motionalibus.
+    </p>
+            <p xml:id="HuYgTa-e68579-d1e1211">
+               <lb ed="#G" n="95"/>SANTVM ad tertium principale, vtrum relationes 
+      <lb ed="#G" n="96"/>¬ diuinae sint posteriores actibus notionalibus,
+      sa<lb ed="#G" n="97" break="no"/>tis dictum est superius. Resumpsi tamen ad praesens pop 
+      <lb ed="#G" n="98"/>aliqua dicta doctorum, quae postea inueni, quae illis tue di 
+      <lb ed="#G" n="99"/>ctis videtur repugnare Dixi enim tunc primo, quoe inter pa 
+      <lb ed="#G" n="100"/>ternitate, &amp; generationem actiuam non potest esse prioritas 
+      <lb ed="#G" n="101"/>ex natura rei, eo quod sint idem realiter, Secundo dixi, quod 
+      <lb ed="#G" n="102"/>secundum ratione, &amp; secundum nostrum
+      modumintelligen<lb ed="#G" n="103" break="no"/>di potest esse in ipsis prioritas: quia paternitas considerata 
+      <lb ed="#G" n="104"/>vt proprietas, constituit personam patris, &amp; ideo vt sic, est 
+      <lb ed="#G" n="105"/>prior generatione, quia agere praesupponit esse: sed patet 
+      <lb ed="#G" n="106"/>nitas considerata, vt relatio est, sequitur generationem: 
+      <lb ed="#G" n="107"/>quia secundum nostrum modum intelligendi relationes 
+      <lb ed="#G" n="108"/>originis innascuntur ex actibus. 
+    </p>
+            <p xml:id="HuYgTa-e68579-d1e1244">
+               <lb ed="#G" n="109"/>
+               <pc type="indent"/>Sed contra primum arguit quidam doctor probans, quod 
+      <lb ed="#G" n="110"/>aternitas &amp; generatio actiua differant realiter.
+    </p>
+            <p xml:id="HuYgTa-e68579-d1e1253">
+               <lb ed="#G" n="111"/>1 Quia quando aliqua duo sic se habent, quod unum 
+      <lb ed="#G" n="112"/>est realiter in aliquo, &amp; reliquum est in suo opposito, illa 
+      <lb ed="#G" n="113"/>non sunt realiter idem. illa patet: quia quae realiter
+      sepa<lb ed="#G" n="114" break="no"/>rantur, non sunt realiter idem, sed paternitas, &amp;
+      genera<lb ed="#G" n="115" break="no"/>tio actiua sunt hniusmodi: quia paternitas est in pacre rea 
+      <lb ed="#G" n="116"/>liter, cum per eam sit formaliter pater, sed generatio acti 
+      <lb ed="#G" n="117"/>ua est in filio, &amp; probatur quattuor rationibus, quas addu 
+      <lb ed="#G" n="118"/>xi superius.
+    </p>
+            <p xml:id="HuYgTa-e68579-d1e1273">
+               <lb ed="#G" n="119"/>2 Preterea, quandocunque aliqua sunt idem realiter; 
+      <lb ed="#G" n="120"/>de quocunque praedicatur vnum, de eodem vere praedica 
+      <lb ed="#G" n="121"/>tur aliud; sed paternitas vere praedicatur de diuina
+      essen<lb ed="#G" n="122" break="no"/>tia, &amp; non generare: quia illa est falsa, essentia generat, vt 
+      <lb ed="#G" n="123"/>superius patuit, ergo &amp;c. 
+    </p>
+            <p xml:id="HuYgTa-e68579-d1e1286">
+               <lb ed="#G" n="124"/>
+               <pc type="indent"/>3 Praeterea, generatio actio est idem, quod filius, ergo 
+      <lb ed="#G" n="125"/>differt a paternitate : consequentia patet, probo
+      antece<lb ed="#G" n="126" break="no"/>des: quia sicut se habet creatio actio ad creaturam, sic
+      ge<lb ed="#G" n="127" break="no"/>neratio actio ad filiu ill apatet: quia sicut creatione
+      pro<lb ed="#G" n="128" break="no"/>ducitur creatura, sic generatione producitur genitum, siue 
+      <lb ed="#G" n="129"/>filius, sed creatio actio est idem, quod creatura, ergo gene 
+      <lb ed="#G" n="130"/>ratio actio est idem, quod filius. 
+    </p>
+            <p xml:id="HuYgTa-e68579-d1e1307">
+               <lb ed="#G" n="131"/>
+               <pc type="indent"/>Praeterea, fundamentum non est idem cum
+      funda<lb ed="#G" n="132" break="no"/>to: quia nihil seipsum fundat, sed generatio est
+      fundamen<lb ed="#G" n="133" break="no"/>tum paternitatis: quia relationes producentis, &amp;
+      produ<lb ed="#G" n="134" break="no"/>cti super actione fundantur. 
+    </p>
+            <p xml:id="HuYgTa-e68579-d1e1320">
+               <lb ed="#G" n="135"/>
+               <pc type="indent"/>s Praeterea, quandocunque aliqua sic se habent, quod 
+      <lb ed="#G" n="136"/>vnum manet, alio non manente, illa non sunt idem 
+      <lb ed="#G" n="137"/>realiter, sed paternitas manet, &amp; generatio non manet. 
+      <lb ed="#G" n="138"/>t patet in creaturis, &amp; dato, quod in diuinis semper
+      si<lb ed="#G" n="139" break="no"/>mul maneant, hoc solum prouenit ex diuina immutabi 
+      <lb ed="#G" n="140"/>litate, &amp; non ex conditione paternitatis, &amp; generationis 
+      <lb ed="#G" n="141"/>quia dato per impossibile, quod generare transiret 
+      <!--222.xml-->
+      <pb ed="#G" n="92-r"/>
+               <cb ed="#G" n="a"/>
+               <lb ed="#G" n="1"/>adhuc remaneret paternitas, si filius permaneret.
+    </p>
+            <p xml:id="HuYgTa-e68579-d1e1349">
+               <lb ed="#G" n="2"/>4 Preterea, ea, quae sunt diuersorum generum, non sunt idem 
+      <lb ed="#G" n="3"/>realiter; sed paternitas reducitur ad praedicamentum
+      rela<lb ed="#G" n="4" break="no"/>tionis, generare ad praedicamentum actionis, ergo &amp;c
+    </p>
+            <p xml:id="HuYgTa-e68579-d1e1358">
+               <lb ed="#G" n="5"/>3 Praeterea, idem non est causa sui ipsius, sed
+      genera<lb ed="#G" n="6" break="no"/>no est quasi causa paternitatis: quia pater, est pater, quia 
+      <lb ed="#G" n="7"/>generat 
+    </p>
+            <p xml:id="HuYgTa-e68579-d1e1367">
+               <lb ed="#G" n="8"/>
+               <pc type="indent"/>Sed illa non concludunt 
+      <lb ed="#G" n="9"/>1 Quia si paternitas, &amp; generatio actiua differrent reali 
+      <lb ed="#G" n="10"/>ter, tuc in eade persona patris essent duae proprietates
+      in<lb ed="#G" n="11" break="no"/>comunicabiles, &amp; per consequens in vna persona essent 
+      <lb ed="#G" n="12"/>duae personalitates: qa quaelibet harum proprietatum daret 
+      <lb ed="#G" n="13"/>esse incommunicabile, quod in diuinis est esse personale¬ 
+    </p>
+            <p xml:id="HuYgTa-e68579-d1e1385">
+               <lb ed="#G" n="14"/>
+               <pc type="indent"/>2 Praeterea, si paternitas &amp; generatio actiua differreni 
+      <lb ed="#G" n="15"/>realiter, tunc in versona patris essent quattuor notiones: 
+      <lb ed="#G" n="16"/>da aeque determinate notificaretur persona patris per ge 
+      <lb ed="#G" n="17"/>erationem, sicut per spirationem actiuam, seu paternita 
+      <lb ed="#G" n="18"/>tem: sed sancti doctores communiter ponunt solum
+      tre<lb ed="#G" n="19" break="no"/>notiones in persona patris, scilicet inuascibilitatem,
+      pa<lb ed="#G" n="20" break="no"/>ternitatem, &amp; communem notionem: ergo &amp;c.
+    </p>
+            <p xml:id="HuYgTa-e68579-d1e1406">
+               <lb ed="#G" n="21"/>3 Praeterea, inter duos simplices terminos non potest 
+      <lb ed="#G" n="22"/>esse, nisi vna relatiua opposito, &amp; per consequens in vtro 
+      <lb ed="#G" n="23"/>que extremo, nisi vna tantummodo relatio realis; sed
+      pa<lb ed="#G" n="24" break="no"/>ter, &amp; filius sunt duo termini simplicissimi, ergo
+      paterni<lb ed="#G" n="25" break="no"/>tas &amp; generare in persona patris sunt vna tantummodo 
+      <lb ed="#G" n="26"/>realis relatio, cum secundum vtrumque pater ad filbem  
+      <lb ed="#G" n="27"/>tantummodo referatur. 
+    </p>
+            <p xml:id="HuYgTa-e68579-d1e1424">
+               <lb ed="#G" n="28"/>
+               <pc type="indent"/>Ad primum igitur patet per ea, quae dixi superius
+      vbi<lb ed="#G" n="29" break="no"/>oppositum istius minoris probaui, &amp; respondi ad
+      proba<lb ed="#G" n="30" break="no"/>tiones eius. 
+    </p>
+            <p xml:id="HuYgTa-e68579-d1e1435">
+               <lb ed="#G" n="31"/>
+               <pc type="indent"/>Ad secundum dicendum, quod quamuis essentia
+      diui<lb ed="#G" n="32" break="no"/>sa non generet, gencratio tamen praedicatur de ea
+      iden<lb ed="#G" n="33" break="no"/>tice non minus, quam ipsa paternitas, haec est enim
+      veris<lb ed="#G" n="34" break="no"/>sima, essentia diuina est ipsa generatio diuina, &amp; est ipsum 
+      <lb ed="#G" n="35"/>generare diuinum 
+    </p>
+            <p xml:id="HuYgTa-e68579-d1e1451">
+               <lb ed="#G" n="36"/>
+               <pc type="indent"/>Ad tertium nego antecedens. Ad probationem dico 
+      <lb ed="#G" n="37"/>que non est simile: quia creatio est quid temporale
+      tran<lb ed="#G" n="38" break="no"/>siens in alienam naturam, sed generatio actio est aeterna 
+      <lb ed="#G" n="39"/>&amp; non transit in alienam naturam. 
+    </p>
+            <p xml:id="HuYgTa-e68579-d1e1464">
+               <lb ed="#G" n="40"/>
+               <pc type="indent"/>Ad quartum, nego minorem: quia, vt patet, in creaturis 
+      <lb ed="#G" n="41"/>transeunte actu generationis, manet paternitas: ergo pater 
+      <lb ed="#G" n="42"/>nitas aliud habet fundamentum, quam actum genetationis. 
+    </p>
+            <p xml:id="HuYgTa-e68579-d1e1475">
+               <lb ed="#G" n="43"/>
+               <pc type="indent"/>Ad quintum dicendum, quod sicut ex diuina
+      immutabili<lb ed="#G" n="44" break="no"/>tate prouenit, quod paternitas manere non potest, non
+      ma<lb ed="#G" n="45" break="no"/>nente generatione; sic ex personae patris simplicitate pro 
+      <lb ed="#G" n="46"/>uenit, quod paternitas realiter differre non potest ab ipsa 
+      <lb ed="#G" n="47"/>generatione, quae est in patre., 
+    </p>
+            <p xml:id="HuYgTa-e68579-d1e1492">
+               <lb ed="#G" n="48"/>
+               <pc type="indent"/>Ad sextum nego maiorem: quia, vt patebit, cum de hoc 
+      <lb ed="#G" n="49"/>mihi contigerit disputare, eade res potest esse in diuersis 
+      <lb ed="#G" n="50"/>vraedicamentis sumpta secundum alium &amp; alium modum 
+      <lb ed="#G" n="51"/>Falsum etiam assumitur: quia praedicamentum actionis 
+      <lb ed="#G" n="52"/>quantum ad actiones notionales in diuinis reducitur ad 
+      <lb ed="#G" n="53"/>praedicamentum relationis, &amp; quantum ad actiones
+      ab<lb ed="#G" n="54" break="no"/>solutas reducitur ad substantiam, Propter quod dixit
+      Doe<lb ed="#G" n="55" break="no"/>thius, quod solum duo praedicamenta sunt in diuinis,
+      sci<lb ed="#G" n="56" break="no"/>licet substantia &amp; relatio, 
+    </p>
+            <p xml:id="HuYgTa-e68579-d1e1516">
+               <lb ed="#G" n="57"/>
+               <pc type="indent"/>Ad septimum dicendum, quod illa causalitas est secun 
+      <lb ed="#G" n="58"/>dum nostrum modum intelligendi, qui ortum habet ab 
+      <lb ed="#G" n="59"/>his, quae in creaturis videmus, sed secundum veritatem 
+      <lb ed="#G" n="60"/>rei nulla est in diuinis causalitas inter paternitatem, &amp; 
+      <lb ed="#G" n="61"/>enerationem: quia eodem patet est pater, &amp; generans. 
+      <lb ed="#G" n="62"/> Secundo cum dixi ex dictis doctoris nostri, quod
+      paterni<lb ed="#G" n="63" break="no"/>tas constituit personam patris vt proprietas; Contra
+      ar<lb ed="#G" n="64" break="no"/>guunt quidam sic
+    </p>
+            <p xml:id="HuYgTa-e68579-d1e1538">
+               <lb ed="#G" n="65"/>4 Per idem aliquid constituitur, &amp; distinguitur, sed se 
+      <lb ed="#G" n="66"/>cudum te distinguit in ordine ad oppofitum, siue vt
+      rela<lb ed="#G" n="67" break="no"/>tio est, ergo etiam constituet ia ordine ad oppositum, &amp;  
+      <lb ed="#G" n="68"/>per consequens constituet, vt relatio est.
+    </p>
+            <p xml:id="HuYgTa-e68579-d1e1549">
+               <lb ed="#G" n="69"/>2 Praeterea, sicut se habet proprietas absoluta ad
+      sup<lb ed="#G" n="70" break="no"/>positum absolutum, sic se habet proprictas relatiua ad 
+      <lb ed="#G" n="71"/>suppositum relatiuum, sed proprietas absoluta vt
+      absolu<lb ed="#G" n="72" break="no"/>ta constituit suppositum absolutum, ergo relatio vt
+      rela<lb ed="#G" n="73" break="no"/>tio constituit suppositum relatiuum.
+    </p>
+            <p xml:id="HuYgTa-e68579-d1e1562">
+      <!--222.xml-->
+               <cb ed="#G" n="b"/>
+               <lb ed="#G" n="74"/>Praeterea, si constituit vt proprietas, saltem sub ali 
+      <lb ed="#G" n="75"/>qua ratione constituit, aut ergo illa ratio est absoluta, aus 
+      <lb ed="#G" n="76"/>relatiua, aut indifferens ad absolutum, &amp; relatiuum: si 
+      <lb ed="#G" n="77"/>primo modo, tunc constituet suppositum absolutum, si 
+      <lb ed="#G" n="78"/>secundo modo, tunc habetur intentum contra te: quia 
+      <lb ed="#G" n="79"/>quicquid proprietati relatiui conuenit sub ratione
+      rela<lb ed="#G" n="80" break="no"/>tiua, hoc competit sibi vt relatio est, si tertio modo, tunc 
+      <lb ed="#G" n="81"/>suppositum constitutum nec esset absolutum, nec
+      respe<lb ed="#G" n="82" break="no"/>ctiuum, sed esset indifferens ad vtrumque, ergo &amp;c 
+    </p>
+            <p xml:id="HuYgTa-e68579-d1e1588">
+               <lb ed="#G" n="83"/>
+               <pc type="indent"/>Sed nec illa concludunt: quia secundum nostrum
+      mo<lb ed="#G" n="84" break="no"/>dum intelligendi eundem ordinem attribuimus
+      aliqui<lb ed="#G" n="85" break="no"/>us, vbi differunt sola ratione, quem videmus inter ea, 
+      <lb ed="#G" n="86"/>vbi realiter differunt. Sed in rebus creatis, vbi constituens, 
+      <lb ed="#G" n="87"/>c referens realiter differunt, proprietas relatiua
+      praece<lb ed="#G" n="88" break="no"/>dlit relationem, qua constitutum refertur ad alterum, ergo 
+      <lb ed="#G" n="89"/>ecudum nostrum modum intelligedi in diuinis, vbi haec 
+      <lb ed="#G" n="90"/>sola ratione differunt, concipimus eandem rem, puta ean 
+      <lb ed="#G" n="91"/>dem paternitatem prius constituere vt proprietas est,
+      sci<lb ed="#G" n="92" break="no"/>licet ut tali supposito proprie &amp; incommunicabiliter
+      con<lb ed="#G" n="93" break="no"/>uenit, quam concipiamus eam in ordine ad oppositum, 
+      <lb ed="#G" n="94"/>lue vt relatio est 
+    </p>
+            <p xml:id="HuYgTa-e68579-d1e1620">
+               <lb ed="#G" n="95"/>
+               <pc type="indent"/>Ad primum igitur dicendum, quod quamuis per idem ex 
+      <lb ed="#G" n="96"/>arte rei aliquid distinguatur &amp; constituatur non
+      ta<lb ed="#G" n="97" break="no"/>men secundum idem ex parte nostri modi intelligendi. 
+    </p>
+            <p xml:id="HuYgTa-e68579-d1e1631">
+               <lb ed="#G" n="98"/>
+               <pc type="indent"/>Ad secundum patet per idem: quia quamuis suppositum 
+      <lb ed="#G" n="99"/>relatiuum constituitur vera relatione &amp; vt relatio est, con 
+      <lb ed="#G" n="100"/>siderando quidditatem, seu naturam rei constituentis, ta 
+      <lb ed="#G" n="101"/>men illam rem constituentem concipit intellectus
+      no<lb ed="#G" n="102" break="no"/>ter prius incommunicabiliter in esse constituto, quae est 
+      <lb ed="#G" n="103"/>ratio proprietatis: quam concipiat eam ad esse, siue ad 
+      <lb ed="#G" n="104"/>aliud referri, quae est ratio relationis, 
+    </p>
+            <p xml:id="HuYgTa-e68579-d1e1651">
+               <lb ed="#G" n="105"/>
+               <pc type="indent"/>Ad tertium dicendum, qued intellectus vides principium 
+      <lb ed="#G" n="106"/>constitutiuum suppositi relatiui, nec considerat ipsum sub ra 
+      <lb ed="#G" n="107"/>sione absoluti, nec sub ratione relationis praecise, nec sub 
+      <lb ed="#G" n="108"/>ratione indifferentis sub modo abnegationis vtriusque, ut 
+      <lb ed="#G" n="109"/>isti in proposito accipiunt indifferens, sed considerat
+      ip<lb ed="#G" n="110" break="no"/>sum sub ratione proprietatis relatiuae, omnis. n relatio con 
+      <lb ed="#G" n="111"/>siderata ut proprictas determinate inest ei, cuius est
+      pro<lb ed="#G" n="112" break="no"/>prietas, quamuis tendat ad alterum vt relatiua est. 
+    </p>
+            <p xml:id="HuYgTa-e68579-d1e1673">
+               <lb ed="#G" n="113"/>
+               <pc type="indent"/>ARTICVLVS IIIL 
+      <lb ed="#G" n="114"/>Vtrum verbum in dunus dicatur essentialiter, 
+      <lb ed="#G" n="115"/>
+               <pc type="indent"/>vel notionaliter,
+    </p>
+            <p xml:id="HuYgTa-e68579-d1e1686">
+               <lb ed="#G" n="116"/>QVANTVM ad quartum principale, vtrum verbum in 
+      <lb ed="#G" n="117"/>¬diuinis dicatur essentialiter, vel notionaliter;
+      di<lb ed="#G" n="118" break="no"/>tendum, quod verbum dicitur notionaliter in diuinis: quia 
+      <lb ed="#G" n="119"/>lud, quod per modum emanantis se habet, dicitur
+      notio<lb ed="#G" n="120" break="no"/>naliter, sed verbum se habet per modum emanantis, &amp;
+      pro<lb ed="#G" n="121" break="no"/>edentis a verbante, seu dicente, ergo &amp;c. De hoc non 
+      <lb ed="#G" n="122"/>plus ad praesens: quia materiam de verbo alibi intendo 
+      <lb ed="#G" n="123"/>leterminate pertractare
+    </p>
+            <p xml:id="HuYgTa-e68579-d1e1706">
+               <lb ed="#G" n="124"/>Ad argumentum principale dicendum, quod patet per
+      il<lb ed="#G" n="125" break="no"/>lud, quod dictum est ad quartam rationem Afexandri in 
+      <lb ed="#G" n="126"/>2. art. istius quaestionis 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

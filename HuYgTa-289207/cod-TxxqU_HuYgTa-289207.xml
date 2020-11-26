@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Circa textum</title>
+            <author ref="#ThomasStrasbourg">Thomas of Strasbourg</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Circa textum</title>
+               <date when="2020-11-26">November 26, 2020</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="G" n="cod-TxxqU">Genoa 1585</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2020-11-26" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#G" n="P2_171-r"/>
+            <cb ed="#G" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="HuYgTa-289207"><!-- HuYgTa-l4d39et40ct1 -->
+            <head xml:id="HuYgTa-289207-Hd1e108">Circa textum</head>
+            <p xml:id="HuYgTa-289207-d1e111">
+               <lb ed="#G" n="94"/>
+               <pc type="indent"/>DISTINCT. XXXIX et XL 
+      <lb ed="#G" n="95"/>clara harum distinctionum diuisio, in quibus agitiuam 
+      <lb ed="#G" n="96"/>
+               <pc type="indent"/>de personis non valent bus contrahere
+      matri<lb ed="#G" n="97" break="no"/>
+               <pc type="indent"/>monium cum quibusdam respectu circum 
+      <lb ed="#G" n="98"/>
+               <pc type="indent"/>stontiarum quarundam. 
+    </p>
+            <p xml:id="HuYgTa-289207-d1e133">
+               <lb ed="#G" n="99"/>
+               <pc type="indent"/>OSThaec de dispari cultu.
+      Post<lb ed="#G" n="100" break="no"/>quam magister determinauit de 
+      <lb ed="#G" n="101"/>personis, quae sic sunt illegitimae, 
+      <lb ed="#G" n="102"/>quod matrimonium cum nulla 
+      <lb ed="#G" n="103"/>persona possunt contrahere, nunc 
+      <lb ed="#G" n="104"/>tractat de his, quae quamuis cum 
+      <lb ed="#G" n="105"/>aliquibus personis possint contra 
+      <lb ed="#G" n="106"/>here, tamen ad contrahendum, 
+      <lb ed="#G" n="107"/>reipectu aliquarum personarum, sunt omnino illeg itimae.  
+      <lb ed="#G" n="108"/>Hi autem impediuntur, vel cultus disparitate, vel cogna 
+      <lb ed="#G" n="109"/>tione carnali, vel affinitate, vel cognatione legali, seu spi 
+      <lb ed="#G" n="110"/>rituali. Vt igitur in duabus lectionibus ista residua mate 
+      <lb ed="#G" n="111"/>ria de matrimonio terminetur, diuiditur iste textus in 
+      <lb ed="#G" n="112"/>duas partes: Quia primo magister tractat de dipari
+      cul<lb ed="#G" n="113" break="no"/>tu, &amp; cognatione catnali. Secundo de affinitate, &amp; cogni 
+      <lb ed="#G" n="114"/>tione spirituali, ac et legali. Prima, quae est praesentis
+      le<lb ed="#G" n="115" break="no"/>ctionis, diuiditur in duas, quia primo itractat de cultus di 
+      <lb ed="#G" n="116"/>sparitate. Secundo de carnali cognatione, seu de consar 
+      <lb ed="#G" n="117"/>guinitate, ibi, Nunc superest de cognatione. Prima in 
+      <lb ed="#G" n="118"/>duas, quia primo ostendit, quod fidelis cum infideli non 
+      <lb ed="#G" n="119"/>potest contrahere verum matrimonium 
+    </p>
+            <p xml:id="HuYgTa-289207-d1e183">
+               <lb ed="#G" n="120"/>
+               <pc type="indent"/>Secundo ostendit, quod inter duos infideles potest es 
+      <lb ed="#G" n="121"/>se legitimum, quamuis non ratum copiugium, ibi, Sunt 
+      <lb ed="#G" n="122"/>tamen nonnulli Prima in tres: quia primo, fidelem cum 
+      <lb ed="#G" n="123"/>nfideli contrahere matrimonium, ostendit esse prohibi 
+      <lb ed="#G" n="124"/>tum. Secundo innuit, si vnus coniugum ad fidem
+      conuer<lb ed="#G" n="125" break="no"/>titur, quod de iure potest relinquere alterum non
+      con<lb ed="#G" n="126" break="no"/>uersum. Tertio inquirit, vtrum fidelis, derelinquens
+      infi<lb ed="#G" n="127" break="no"/>delem, possit de nouo contrahere matrimonium Secun 
+      <lb ed="#G" n="128"/>da ibi, Potest tamen licite. 
+    </p>
+            <p xml:id="HuYgTa-289207-d1e207">
+               <lb ed="#G" n="129"/>
+               <pc type="indent"/>Tertia ibi, hic quaeritur. Prima in tres, quia primo, pra 
+      <lb ed="#G" n="130"/>mittit praedictae veritatis determinationem. Secundo ad 
+      <lb ed="#G" n="131"/>ducit, &amp; tollit contrariam obiectionem. Et tertio, ex pre 
+      <lb ed="#G" n="132"/>dictis infert vnam specialem conclusionem Setunda ibi 
+      <lb ed="#G" n="133"/>Huic autem videtur. Tertia ibi, ex his monstratur Sequi 
+      <lb ed="#G" n="134"/>tur distinct 20. In quam magister, &amp;c. Et diuiditur in duas 
+      <lb ed="#G" n="135"/>partes: nam primo magister ostendit, vsque ad quem con 
+      <lb ed="#G" n="136"/>sanguinitatis gradum antiquitus fuit prohibitum
+      con<lb ed="#G" n="137" break="no"/>trabere matrimonium 
+      <!--813.xml-->
+      <pb ed="#G" n="P2_171-v"/>
+               <cb ed="#G" n="a"/>
+               <lb ed="#G" n="1"/>Secundo obijcit in contrarium, ibi His autem occurrit. 
+      <lb ed="#G" n="2"/>Prima in tres, quia primo tangit praedictam inhibitionem. 
+      <lb ed="#G" n="3"/>Secundo ostendit graduum consanguinitatis diuersam apud 
+      <lb ed="#G" n="4"/>diuersos fuisse computationem Tertio huius
+      computa<lb ed="#G" n="5" break="no"/>tionis reddit rationem. Secunda ibi. Quomodo autem  
+      <lb ed="#G" n="6"/>gradus Tertia ibi, Quare vero, Circa hanc
+      distinctio<lb ed="#G" n="7" break="no"/>nem quero, 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

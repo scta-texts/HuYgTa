@@ -1,0 +1,742 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#ThomasStrasbourg">Thomas of Strasbourg</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2020-11-26">November 26, 2020</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="G" n="cod-TxxqU">Genoa 1585</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2020-11-26" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#G" n="P2_122-r"/>
+            <cb ed="#G" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="HuYgTa-252292"><!-- HuYgTa-l4d16q1 -->
+            <head xml:id="HuYgTa-252292-Hd1e108">Quaestio 1</head>
+            <head xml:id="HuYgTa-252292-Hd1e111" type="question-title">
+      An contritio, confessio, et satisfactio sint 
+      partes poenitentiae.
+    </head>
+            <p xml:id="HuYgTa-252292-d1e114">
+               <lb ed="#G" n="47"/>
+               <pc type="indent"/>Quaestio 1. 
+      <lb ed="#G" n="48"/>An contritio, confessio, &amp; satisfactio sint 
+      <lb ed="#G" n="49"/>partes poenitentiae.
+    </p>
+            <p xml:id="HuYgTa-252292-d1e125">
+               <lb ed="#G" n="50"/>VTRVM contritio, confessio, &amp; satisfactio, sint pat 
+      <lb ed="#G" n="51"/>tes poenitentiae. Et videtur, quod non. Quia si es 
+      <lb ed="#G" n="52"/>ent partes poenitentiae, tunc, vel essent partes eius inti 
+      <lb ed="#G" n="53"/>rales, vel partes subiectiuae. Non integrales: quia totu 
+      <lb ed="#G" n="54"/>ntegrale de nulla sua parte praedicatur praedicatione di 
+      <lb ed="#G" n="55"/>tente, hoc est hoc. Sed poenitentia praedicatur de vera 
+      <lb ed="#G" n="56"/>ontritione. Nec subiectiue: quia totum vniuersale
+      per<lb ed="#G" n="57" break="no"/>cte seruatur in qualibet sua parte subiectiua: sed
+      sacra<lb ed="#G" n="58" break="no"/>ramentui penitentiae in nulla istarum partium pfecte seruatur. 
+      <lb ed="#G" n="59"/>illa pars separatim ab aliis duabus sumatur, ergo &amp;c. 
+      <lb ed="#G" n="60"/>Contra, illud est pars alicuius, quod includitur in sua 
+      <!--714.xml-->
+      <cb ed="#G" n="b"/>
+               <lb ed="#G" n="61"/>integritate, sed integritas sacramentalis poenitentiae
+      in<lb ed="#G" n="62" break="no"/>cludit ista tria: quia quocuque storum deficiente non pot
+      es<lb ed="#G" n="63" break="no"/>se integra sacramentalis penitentia, vt patet ex multis san 
+      <lb ed="#G" n="64"/>ctorum auctoritatibus: ergo &amp;c. Hic primo videdum est, quo 
+      <lb ed="#G" n="65"/>compunctio, confessio, &amp; saticsfactio sint partes sacramentalis 
+      <lb ed="#G" n="66"/>penitentiae. Secudo de circustantiis, de quibus penitens tene 
+      <lb ed="#G" n="67"/>tur specialiter penitere Tertio de impedimentis verae po 
+      <lb ed="#G" n="68"/>nitentiae, a quibus debet penitens cauere. Et quarto, vtrum ve 
+      <lb ed="#G" n="69"/>rum penitentem de peccatis venialibus necesse sit dolere¬ 
+    </p>
+            <p xml:id="HuYgTa-252292-d1e175">
+               <lb ed="#G" n="70"/>
+               <pc type="indent"/>RESOLVTI O. 
+      <lb ed="#G" n="71"/>Nullus catbolicus ambigere debet, quin contritio, confessio, u
+      sa<lb ed="#G" n="72" break="no"/>
+               <pc type="indent"/>tisfactio sint partes integrales ipsius paenitentiae,
+      quandoqui<lb ed="#G" n="73" break="no"/>lem ipsis positis paenitentiae sacramentum perfectum dicitur,  
+      <lb ed="#G" n="74"/>&amp; quacunq harum sublata, mancu, &amp;rmutilatim esse perbibetur,  
+    </p>
+            <p xml:id="HuYgTa-252292-d1e194">
+               <lb ed="#G" n="75"/>
+               <pc type="indent"/>ARTICVLV S 1. 
+      <lb ed="#G" n="76"/>Quomodo compunctio, confessio, &amp; satisfactio sint 
+      <lb ed="#G" n="77"/>
+               <pc type="indent"/>partes sacramentalis poenitentie.
+    </p>
+            <p xml:id="HuYgTa-252292-d1e207">
+               <lb ed="#G" n="78"/>QVANTVM ad primum sic procedam; Quia
+      pri<lb ed="#G" n="79" break="no"/> mo ostendam, quo compunctio, confessio, satisfa 
+      <lb ed="#G" n="80"/>ctio, respiciunt poenitentiam, vt sacramentum est.
+      Secun<lb ed="#G" n="81" break="no"/>do quomodo respiciunt poenitentiam, vt virtus est. Et so 
+      <lb ed="#G" n="82"/>cundum hoc pono duas conclusiones. 
+    </p>
+            <p xml:id="HuYgTa-252292-d1e220">
+               <lb ed="#G" n="83"/>
+               <pc type="indent"/>Prima est, quod praedictatria, scilicet compunctio, seu contri, 
+      <lb ed="#G" n="84"/>tio, confessio, &amp; satisfactio, sunt partes integrales
+      poeni<lb ed="#G" n="85" break="no"/>tentiae, vt sactamentum est: Quia illa, quae sic se habet 
+      <lb ed="#G" n="86"/>que ipsis positis sacramentum penitentiae dicitur esse
+      perfe<lb ed="#G" n="87" break="no"/>ctu, &amp; quocuque eorum omnino deficiente, sactamentum
+      pe<lb ed="#G" n="88" break="no"/>nitentiae est imperfectu, illa videntur esse partes
+      integra<lb ed="#G" n="89" break="no"/>les hmoi penitentie, sed prositis ordinate predictis tribus; 
+      <lb ed="#G" n="90"/>habetur perfecte sacramentum penitentiae, &amp; quocuque eorum 
+      <lb ed="#G" n="91"/>omnino deficiente. setam in effectu, quam in penitentis volun 
+      <lb ed="#G" n="92"/>tate non habetur pfectum sacramentum penitentiae; ergo &amp;c. 
+      <lb ed="#G" n="93"/>Sed contra istam conclusionem sunt plures
+      opinio<lb ed="#G" n="94" break="no"/>nes. Quidam enim dicunt quod praedicta tria non sunt 
+      <lb ed="#G" n="95"/>partes integrales poenitentiae.
+    </p>
+            <p xml:id="HuYgTa-252292-d1e253">
+               <lb ed="#G" n="96"/>1 Quia partes subiectiuae alicuius totius non sunt pat 
+      <lb ed="#G" n="97"/>tes integrales, sed praedicta tria sunt partes
+      subiectiuae<lb ed="#G" n="98" break="no"/>ipsius penitentiae, vt ipsi dicunt : ergo &amp;c. Maior patet, 
+      <lb ed="#G" n="99"/>Probatur minor, quia illa est pars subiectiua alicuius to 
+      <lb ed="#G" n="100"/>tius, ad cuius partis positonem sufficienter infertur ipsum 
+      <lb ed="#G" n="101"/>tetum, sic autem est in proposito: quia si aliquis conteri 
+      <lb ed="#G" n="102"/>tur, sequitur, quod poenitet, &amp; similiter poenitere
+      sequi<lb ed="#G" n="103" break="no"/>tur ad confiteri, &amp; ad satis facere. 
+    </p>
+            <p xml:id="HuYgTa-252292-d1e273">
+               <lb ed="#G" n="104"/>
+               <pc type="indent"/>2 Preterea, partes integrales entis permanentis opos 
+      <lb ed="#G" n="105"/>tet esse manentes, sed sactamentum est ens permanens, &amp;  
+      <lb ed="#G" n="106"/>praedicta tria non sunt permanentia, vt de se patet. 
+    </p>
+            <p xml:id="HuYgTa-252292-d1e284">
+               <lb ed="#G" n="107"/>
+               <pc type="indent"/>3 Praeterea, partes integrales oportet esse simul ad 
+      <lb ed="#G" n="108"/>hoc, quod totum heat esse: sed pdicta tria non possunt esse simul¬ 
+    </p>
+            <p xml:id="HuYgTa-252292-d1e294">
+               <lb ed="#G" n="109"/>
+               <pc type="indent"/>Sed ista opinio manifeste deficit in hoc, quod ponit
+      prae<lb ed="#G" n="110" break="no"/>dicta tria esse partes subiectiuas ipsius penitentiae.
+    </p>
+            <p xml:id="HuYgTa-252292-d1e303">
+               <lb ed="#G" n="111"/>1 Quia in qualibet parte subiectiua seruatur
+      perfe<lb ed="#G" n="112" break="no"/>cta ratio totius vniuersalis. Sed perfecta, &amp; completa rae 
+      <lb ed="#G" n="113"/>tio poenitentiae non seruatur in aliqua istarum partium 
+      <lb ed="#G" n="114"/>per se sumptarum, exclusis aliis duabus.
+    </p>
+            <p xml:id="HuYgTa-252292-d1e314">
+               <lb ed="#G" n="115"/>2 Praeterea, totum vniuersale, habens partes subiect 
+      <lb ed="#G" n="116"/>uas, non est vnum numero, sed sactamentum penitentiae 
+      <lb ed="#G" n="117"/>integratum ex his tribus, est vnum numero; ergo &amp;c 
+    </p>
+            <p xml:id="HuYgTa-252292-d1e323">
+               <lb ed="#G" n="118"/>
+               <pc type="indent"/>Ad primum motiuum istorum dicendum, quod minor est falsa,  
+      <lb ed="#G" n="119"/>vt patet per iam dicta. Ad probationem dicendum, quod mamor 
+      <lb ed="#G" n="120"/>non est vera, quia si est hora diei, tuc dies est: &amp; tamenpae 
+      <lb ed="#G" n="121"/>tet, quod hora diei non est pars subiectiua dici; sed est eius 
+      <lb ed="#G" n="122"/>pars integralis lte, si risibile est, homo est. &amp;
+      tamenrisibi<lb ed="#G" n="123" break="no"/>e non est pars subiectiua hominis, cum sit proprietas eius) 
+    </p>
+            <p xml:id="HuYgTa-252292-d1e341">
+               <lb ed="#G" n="124"/>
+               <pc type="indent"/>Ad secundum nego minorem, &amp; maxime in
+      proposi<lb ed="#G" n="125" break="no"/>to: quia materia penitentiae sunt quidam actus humani 
+      <lb ed="#G" n="126"/>ui cum sint suceessiui, &amp; non permanentes, ergo
+      satra<lb ed="#G" n="127" break="no"/>mentum penitentiae consistit in quadam suceessioner 
+    </p>
+            <p xml:id="HuYgTa-252292-d1e354">
+      <!--715.xml-->
+               <pb ed="#G" n="P2_122-v"/>
+               <cb ed="#G" n="a"/>
+               <lb ed="#G" n="1"/>Ad tertium dicendum, quod maior non est vera,
+      lo<lb ed="#G" n="2" break="no"/>uendo de partibus torius suceessiui: sicut est in ppositr 
+    </p>
+            <p xml:id="HuYgTa-252292-d1e368">
+               <lb ed="#G" n="3"/>
+               <pc type="indent"/>Alia est opinio, quae ponit, quod praedicta tria non sunt 
+      <lb ed="#G" n="4"/>artes integrales penitentiae: sed sunt partes potentiales 
+      <lb ed="#G" n="5"/>Sed nec istud valet. Quia partes potentiales non sunt 
+      <lb ed="#G" n="6"/>actus eliciti: sed sunt actuum elicitiui: praedicta vero tria 
+      <lb ed="#G" n="7"/>sunt actus eliciti 
+    </p>
+            <p xml:id="HuYgTa-252292-d1e384">
+               <lb ed="#G" n="8"/>
+               <pc type="indent"/>Sunt insuper quidam, qui arguunt contra ea, quae pra 
+      <lb ed="#G" n="9"/>dicta conclusio praesupponit: praesupponit enim duo. Pr 
+      <lb ed="#G" n="10"/>mum est, quod poenitentia habeat partes. Secundum est, 
+      <lb ed="#G" n="11"/>quod praedicta tria sunt partes penitentiae. 
+    </p>
+            <p xml:id="HuYgTa-252292-d1e397">
+               <lb ed="#G" n="12"/>
+               <pc type="indent"/>Contra primum arguunt sic.  
+      <lb ed="#G" n="13"/>1 Nullum simplex habet partes: sed omne sacramet 
+      <lb ed="#G" n="14"/>tum est simplex, vt ait 8. Ambi 
+    </p>
+            <p xml:id="HuYgTa-252292-d1e408">
+               <lb ed="#G" n="15"/>
+               <pc type="indent"/>2 Preterea, baptismo non assignantur partes dist eni 
+      <lb ed="#G" n="16"/>ctae; ergo nec debent assignari sactamento poenitentiae. 
+      <lb ed="#G" n="17"/>Antecedens patet. Probatur consequentia: quia ad plu 
+      <lb ed="#G" n="18"/>ra se extendit sacramentum baptismi, quam poeniten 
+      <lb ed="#G" n="19"/>tiae; eo quod per baptismum homo absoluatur a pena 
+      <lb ed="#G" n="20"/>&amp; a culpa, &amp; a culpa originali, &amp; actuali Sed per
+      peni<lb ed="#G" n="21" break="no"/>tentiam absoluitur solum a culp a actuali 
+    </p>
+            <p xml:id="HuYgTa-252292-d1e428">
+               <lb ed="#G" n="22"/>
+               <pc type="indent"/>3 Praeterea, peccatum non habet partes; ergo nec pro 
+      <lb ed="#G" n="23"/>nitentia. Antecedens patet. Probatur consequentia; 
+      <lb ed="#G" n="24"/>quia medicina debet morbo proportionari; sed poeniti 
+      <lb ed="#G" n="25"/>tia est medicina peccati. 
+    </p>
+            <p xml:id="HuYgTa-252292-d1e441">
+               <lb ed="#G" n="26"/>
+               <pc type="indent"/>4 Contra secundum suppositum arguunt sic.
+      Mini<lb ed="#G" n="27" break="no"/>ster ecclesiae confert totum sacramentum sine
+      diminu<lb ed="#G" n="28" break="no"/>tione: sed talis minister non confert contritionem: ergo 
+      <lb ed="#G" n="29"/>contritio non est pars penitentiae, vt sa ramentum est. 
+    </p>
+            <p xml:id="HuYgTa-252292-d1e455">
+               <lb ed="#G" n="30"/>
+               <pc type="indent"/>s Praeterea, per sacramentum penitentiae dimittitur 
+      <lb ed="#G" n="31"/>peccatum: sed, vt magister ostendit in littera, saepe di 
+      <lb ed="#G" n="32"/>missum est peccatum antequam poenitens confiteaturi 
+      <lb ed="#G" n="33"/>ergo confessio non est pars penitentiae. 
+    </p>
+            <p xml:id="HuYgTa-252292-d1e468">
+               <lb ed="#G" n="34"/>
+               <pc type="indent"/>o Praeterea, quod est fructus alicuius, hoc non est par 
+      <lb ed="#G" n="35"/>eius:: sed satis factio est fructus poenitentiae, vt patet hio 
+      <lb ed="#G" n="36"/>inlittera. ergo &amp;c. 
+    </p>
+            <p xml:id="HuYgTa-252292-d1e479">
+               <lb ed="#G" n="37"/>
+               <pc type="indent"/>Ad primum dicendum, quod illud verbum <name xml:id="HuYgTa-252292-Nd1e485" ref="#Ambrose">Ambro.</name> 
+               <lb ed="#G" n="38"/>sij non debet intelligi de sacramento, quantum ad eius 
+      <lb ed="#G" n="39"/>materiam, sed quantum ad eius virtutem, vel quantum 
+      <lb ed="#G" n="40"/>ad eius effectum, qui est ipsa gratia ipsi penitenti infusa 
+    </p>
+            <p xml:id="HuYgTa-252292-d1e496">
+               <lb ed="#G" n="41"/>
+               <pc type="indent"/>Ad secundum nego consequentiam: quia materia ba 
+      <lb ed="#G" n="42"/>ptismi est res exterior, puta aqua, quae in omnibus suis 
+      <lb ed="#G" n="43"/>partibus est eiusdem rationis: sed materia penitenti 
+      <lb ed="#G" n="44"/>consistit in humanis actibus, qui a se inuicem differunt 
+      <lb ed="#G" n="45"/>ratione, cum aliqui istorum actuum sint interiores, &amp;  
+      <lb ed="#G" n="46"/>aliqui exteriores. Etiam antecedens non est verum, quia 
+      <lb ed="#G" n="47"/>in baptismo, &amp; in omni alio satramento aliqua concur 
+      <lb ed="#G" n="48"/>runt, sicut materia, &amp; aliqua, ficut forma 
+    </p>
+            <p xml:id="HuYgTa-252292-d1e518">
+               <lb ed="#G" n="49"/>
+               <pc type="indent"/>Ad tertium nego consequentiam.  
+      <lb ed="#G" n="50"/>Ad probationem dicedum, quod huiusmodi propor. 
+      <lb ed="#G" n="51"/>tio non consistit in numerositate: sed in virtute, &amp; qual 
+      <lb ed="#G" n="52"/>tate ipsi morbo repugnante: quia calida curantur
+      frigi<lb ed="#G" n="53" break="no"/>dis, &amp; frigida calidis. Vnus enim, &amp; idem morbus
+      indi<lb ed="#G" n="54" break="no"/>get multiplici medicina, puta primo medicina praepar 
+      <lb ed="#G" n="55"/>tiua, seu dispositiua. Secundo medicina, quae est sanita 
+      <lb ed="#G" n="56"/>tis introductiua. Tertio medicina, quae est morbida 
+      <lb ed="#G" n="57"/>qualitatis expulsiua, quae qualitas est persectae sanitatis 
+      <lb ed="#G" n="58"/>impeditiua Sic in proposito attritio, seu displicenti; 
+      <lb ed="#G" n="59"/>peccatorum praecedens infusionem gratiae est quasi mi 
+      <lb ed="#G" n="60"/>dicinae dispositiua, perfecta contritio est sanitatis
+      intro<lb ed="#G" n="61" break="no"/>ductiua; sed confessio, &amp; satisfactio, sunt reliquiarum
+      in<lb ed="#G" n="62" break="no"/>firmitatis expulsiuae: mitigant enim illam violentam
+      in<lb ed="#G" n="63" break="no"/>clinationem, qua homo inclinabatur ad peccandum, 
+      <lb ed="#G" n="64"/>priusquam peniteret. 
+    </p>
+            <p xml:id="HuYgTa-252292-d1e557">
+               <lb ed="#G" n="65"/>
+               <pc type="indent"/>Ad quartum dicendum, quod licet minister dicatu 
+      <lb ed="#G" n="66"/>confetre sacramentum, tamen ipse non causat materiam 
+      <lb ed="#G" n="67"/>satramenti, sed ipsam praesupponit. Sicut ergo in baptis 
+      <lb ed="#G" n="68"/>mo minister praesupponit elementum, ad quod acceden 
+      <lb ed="#G" n="69"/>verbum ministri fit sacramentum: sic in proposito sacet 
+      <lb ed="#G" n="70"/>dos absolutionem cum iniunctione sa isfactionis vnit 
+      <lb ed="#G" n="71"/>tontritae confessioni, &amp; sic integratur sacramentum ponitentiae 
+    </p>
+            <p xml:id="HuYgTa-252292-d1e578">
+               <lb ed="#G" n="72"/>
+               <pc type="indent"/>Ad quintum potest dici, quod si remittitur peccatum, a te 
+      <lb ed="#G" n="73"/>quam quis confiteatur, &amp; a sacerdote absoluatur, hoc non 
+      <!--715.xml-->
+      <cb ed="#G" n="b"/>
+               <lb ed="#G" n="74"/>fit per poenitentiam, vt sacramentum est: sed vt virtus est. Po 
+      <lb ed="#G" n="75"/>test etiam dici, quod licet quandoque remittatur peccatum,
+      prius<lb ed="#G" n="76" break="no"/>quam confessio, &amp; satis factio, sint in effectu: tamen
+      num<lb ed="#G" n="77" break="no"/>quam remittitur sine confessione, &amp; satisfactione existen 
+      <lb ed="#G" n="78"/>tibus in proposito voluntatis. Vnde sicut aliquis
+      conse<lb ed="#G" n="79" break="no"/>quitur gratiam baptism alem, et antequa baptix etur, si con 
+      <lb ed="#G" n="80"/>de contrito indubitanter proponit baptixari: sic in pro 
+      <lb ed="#G" n="81"/>posito &amp;c 
+    </p>
+            <p xml:id="HuYgTa-252292-d1e609">
+               <lb ed="#G" n="82"/>
+               <pc type="indent"/>Ad sextum dicendum;: satisfactio est fructus peniten 
+      <lb ed="#G" n="83"/>tiae, vt pnia virtus est, sed est pars eius, vt sacramentum est 
+    </p>
+            <p xml:id="HuYgTa-252292-d1e618">
+               <lb ed="#G" n="84"/>
+               <pc type="indent"/>Secunda conclusio est, quod praedicta tria non sunt 
+      <lb ed="#G" n="85"/>partes poenitent ae, v virtus est: Quia generationis 
+      <lb ed="#G" n="86"/>pars non potest esse posterior suo toto, sed ista tria sunt 
+      <lb ed="#G" n="87"/>posteriora penitentia, quae est virtus; ergo &amp;c. Maior po 
+      <lb ed="#G" n="88"/>tet quia totur constituitur ex partibus; ergo
+      praesuppo<lb ed="#G" n="89" break="no"/>nit partes. Probatur minor: quia poenitentia, quae est vit 
+      <lb ed="#G" n="90"/>tus, infunditur in baptismo, et ipsis paruulis baptixatis; 
+      <lb ed="#G" n="91"/>vt dictum est superius: sed haec tria vutem posteriora baptismo 
+      <lb ed="#G" n="92"/>Forte dicetur, cum haec tria sint de genere bonorum, &amp; 
+      <lb ed="#G" n="93"/>sint actus meritorii, oportet, quod spectent ad aliquam vis 
+      <lb ed="#G" n="94"/>tutem: sed non apparet, quod ad aliqua aliam virtutem dire 
+      <lb ed="#G" n="95"/>ctius spectent, quam ad virtutem, que est poenitentia 
+    </p>
+            <p xml:id="HuYgTa-252292-d1e649">
+               <lb ed="#G" n="96"/>
+               <pc type="indent"/>Respondeo, bene concedo, quod spectent ad virtutem
+      pe<lb ed="#G" n="97" break="no"/>nitentiae, sed ex hac inferre, quod spectent ad eam, sicut
+      par<lb ed="#G" n="98" break="no"/>tes eius, esset fallacia consequentis: quia spectant ad ean 
+      <lb ed="#G" n="99"/>sicut actus eius, &amp; hoc vel eliciti, vel saltem imperati. 
+    </p>
+            <p xml:id="HuYgTa-252292-d1e662">
+               <lb ed="#G" n="100"/>
+               <pc type="indent"/>ARTICVLV 3 If. 
+      <lb ed="#G" n="101"/>De circumstantiis, de quibus penitens
+      te<lb ed="#G" n="102" break="no"/>
+               <pc type="indent"/>netur spetialiter poenitere.
+    </p>
+            <p xml:id="HuYgTa-252292-d1e675">
+               <lb ed="#G" n="103"/>QVANTVM ad secundum articulum est aduerten 
+      <lb ed="#G" n="104"/> dum, quod circumstantiae, quantum ad praesens spo 
+      <lb ed="#G" n="105"/>ctat propositum, videntur esse tripartitae. Quia quaedam 
+      <lb ed="#G" n="106"/>tircumstantiae nec aggrauant peccatum, nec mutant spo 
+      <lb ed="#G" n="107"/>ciem peccati, sicut furari manu dextera, vel sinistra: de 
+      <lb ed="#G" n="108"/>mane, vel de sero in foro, vel in domc. Quaedam apgrauant 
+      <lb ed="#G" n="109"/>peccatum, tamen non mutant specie, sicut furari multum, est 
+      <lb ed="#G" n="110"/>maius peccatum ceteris paribus, quam furari parum, quis 
+      <lb ed="#G" n="111"/>magis recedit de iustitiae aequalitate: tamen non variat spe 
+      <lb ed="#G" n="112"/>cien, quia vtrumque manet infra speciem simplicis furti. Sed  
+      <lb ed="#G" n="113"/>quaedam sunt, quae cum hoc, quod aggrauant, et mutant specle, 
+      <lb ed="#G" n="114"/>sicut furari re sacram, vel consecratam, non manet in specie 
+      <lb ed="#G" n="115"/>simplicis furti, sed transit in speciem sacrilegii. Triplex. nim 
+      <lb ed="#G" n="116"/>est species sacrilegij, scilicet per modum furti, vel
+      spolij<lb ed="#G" n="117" break="no"/>tollere sacrum de sacro, sicut calicem de ecclesia, vel
+      sa<lb ed="#G" n="118" break="no"/>crum de non sacro; sicut tollere calicem consecratum de 
+      <lb ed="#G" n="119"/>domo non consecrata : vel tollere non sacrum de sacro, 
+      <lb ed="#G" n="120"/>sicut violenter rem non sacram tollere de ecclesia. Et 
+      <lb ed="#G" n="121"/>secundum hoc pono tres conclusiones. 
+    </p>
+            <p xml:id="HuYgTa-252292-d1e720">
+               <lb ed="#G" n="122"/>
+               <pc type="indent"/>Prima est, quod non est necesse, nec forte possibile est 
+      <lb ed="#G" n="123"/>hominem specialiter penitere de omnibus circustantiis 
+      <lb ed="#G" n="124"/>primo modo dictis. Nam eo ipso, quod tales circumstantiae 
+      <lb ed="#G" n="125"/>nec aggrauant, nec mutant speciem peccati; ideo non ap 
+      <lb ed="#G" n="126"/>paret aliqua necessitas, quare oporteat circa ipsas
+      spe<lb ed="#G" n="127" break="no"/>cialiter poenitere. Item, quia tales tircumstantiae sunt 
+      <lb ed="#G" n="128"/>quasi infinitae, nec possunt me oriae commendari, idec 
+      <lb ed="#G" n="129"/>de qualibet tali circumstantia non potest semper
+      habe<lb ed="#G" n="130" break="no"/>ri specialis poenitentia.
+    </p>
+            <p xml:id="HuYgTa-252292-d1e744">
+               <lb ed="#G" n="131"/>Secundo dico, quod est valde decens, &amp; congruum de 
+      <lb ed="#G" n="132"/>circumstantiis secundo modo dictis specialiter
+      poenite<lb ed="#G" n="133" break="no"/>re, &amp; confiteri, tamen hoc non est simpliciter
+      necessa<lb ed="#G" n="134" break="no"/>rium vt dicunt communes doctores, sufficit enim, vt ipsi 
+      <lb ed="#G" n="135"/>dicunt, quod peccator in confessione exprimat peccatum 
+      <lb ed="#G" n="136"/>secundum proprium genus suum 
+    </p>
+            <p xml:id="HuYgTa-252292-d1e760">
+               <lb ed="#G" n="137"/>
+               <pc type="indent"/>Oppositum tamen istius tenent quidam alij
+      docto<lb ed="#G" n="138" break="no"/>res, dicentes, quod quando circumstantia notabiliter 
+      <lb ed="#G" n="139"/>aggrauat peccatum, tunc necesse est, vt de ea fiat confe 
+      <lb ed="#G" n="140"/>sio specialis: quia si aliquis furatus esset centum marcas 
+      <lb ed="#G" n="141"/>auri, non sufficeret, vt isti dicunt, ad salutem, si
+      simplici<lb ed="#G" n="142" break="no"/>ter consi eretur se accepisse rem alienam: quia hoc ita 
+      <lb ed="#G" n="143"/>bene posset intelligi de vno solo denario. Quae autem ista 
+      <!--716.xml-->
+      <pb ed="#G" n="P2_123-r"/>
+               <cb ed="#G" n="a"/>
+               <lb ed="#G" n="1"/>rum opinionum sit verior ad praesens non determino 
+      <lb ed="#G" n="2"/>quamuis secundam opinionem reputem securiorem, &amp;S 
+      <lb ed="#G" n="3"/>dictis beati Augustini magis conformem, vt apparet ex 
+      <lb ed="#G" n="4"/>presse in ista <ref xml:id="HuYgTa-252292-Rd1e794">dist. 10. c.2.</ref> 
+            </p>
+            <p xml:id="HuYgTa-252292-d1e798">
+               <lb ed="#G" n="5"/>
+               <pc type="indent"/>Tertio dico, quod de circumstantiis tertio modo
+      di<lb ed="#G" n="6" break="no"/>ctis necesse est hominem specialiter poenitere, &amp; confi 
+      <lb ed="#G" n="7"/>ter i: quia ad integritatem confessionis necesse est expr 
+      <lb ed="#G" n="8"/>mere genus perpetrati sceleris. Sed talis expressio non 
+      <lb ed="#G" n="9"/>exprim eretur huiusmodi circumstantia, ratione cuius 
+      <lb ed="#G" n="10"/>variatur peccati genus Notandum vero est, quod
+      1a<lb ed="#G" n="11" break="no"/>circumstantias tangit Tullius in rhetorica sua quarum 
+      <lb ed="#G" n="12"/>aliquae mutant speciempeccati, aliquae non mutant
+      spe<lb ed="#G" n="13" break="no"/>ciem, licet augeant peccatigrauitatem, quae compreher 
+      <lb ed="#G" n="14"/>duntur his versibus. Aggrauat ordo, locus, persona, scien 
+      <lb ed="#G" n="15"/>tia, tempus. Aetas, conditio, numerus, mora, copia,
+      cau<lb ed="#G" n="16" break="no"/>sa. Est modus in culpa, status altus, lucta pusilla  
+    </p>
+            <p xml:id="HuYgTa-252292-d1e829">
+               <lb ed="#G" n="17"/>
+               <pc type="indent"/>ARTICVLVS III 
+      <lb ed="#G" n="18"/>De impedimentis verae peenitentiae a quibus 
+      <lb ed="#G" n="19"/>peenitens debet cauere 
+    </p>
+            <p xml:id="HuYgTa-252292-d1e840">
+               <lb ed="#G" n="20"/>
+               <pc type="indent"/>QVANTVM ad tertium articulum est
+      aduerten<lb ed="#G" n="21" break="no"/>No dum, quod licet valde multa sint, quae possunt 
+      <lb ed="#G" n="22"/>impedire poenitentiam: tamen aliqua poenitentiae impe 
+      <lb ed="#G" n="23"/>dimenta tangit hic beatus Aug. in littera, &amp; aliqua bea 
+      <lb ed="#G" n="24"/>tus Cregorius. 
+    </p>
+            <p xml:id="HuYgTa-252292-d1e857">
+               <lb ed="#G" n="25"/>
+               <pc type="indent"/>Primum, quod tangit beatus Aug. videtur esse
+      hypocri<lb ed="#G" n="26" break="no"/>sis, &amp; ratio huius potest assignari: quia Vere poenitens non 
+      <lb ed="#G" n="27"/>solum intrinsecus verum etiam extrinsecus debet
+      exer<lb ed="#G" n="28" break="no"/>rere opera sanctitatis, quibus sanctitatis operibus de
+      fa<lb ed="#G" n="29" break="no"/>cilise iungit hypocrisis, nisi penitens de hoc caueat quam 
+      <lb ed="#G" n="30"/>tum potest: cum enim aliquis iciunat vel facit aliqua alia 
+      <lb ed="#G" n="31"/>opera iniunctae sibi poenitentiae, si simulat se coram
+      ho<lb ed="#G" n="32" break="no"/>minibus talia facere non per modum poenitentiae, sed  
+      <lb ed="#G" n="33"/>per modum superogationis, vt ab hominibus eo
+      perfe<lb ed="#G" n="34" break="no"/>ctior videatur, iam vtiqu talis poenitentia esset inanis 
+      <lb ed="#G" n="35"/>&amp; frustra, quia ibi esset pharisaeorum hypocrisis cum adit 
+      <lb ed="#G" n="36"/>cta superbia, quae, secundum Augustinum, etiam
+      boni<lb ed="#G" n="37" break="no"/>o peribus insidiatur, vt pereant 
+    </p>
+            <p xml:id="HuYgTa-252292-d1e890">
+               <lb ed="#G" n="38"/>
+               <pc type="indent"/>Secundum, est ludus, hortatur enim Aug. quoe penitens 
+      <lb ed="#G" n="39"/>abstineat a ludis. 
+    </p>
+            <p xml:id="HuYgTa-252292-d1e899">
+               <lb ed="#G" n="40"/>
+               <pc type="indent"/>Forte dicetur, quod materia virtutis non videtur esse 
+      <lb ed="#G" n="41"/>impedimentum verae poenitentiae, sed ludus est huiusmo 
+      <lb ed="#G" n="42"/>di, vt patet <ref xml:id="HuYgTa-252292-Rd1e909">4. Eth.</ref> vbi dicitur quod eutrapelia est virtus 
+      <lb ed="#G" n="43"/>qua homo bene se habet ad ludos, seu circa ludos 
+    </p>
+            <p xml:id="HuYgTa-252292-d1e916">
+               <lb ed="#G" n="44"/>
+               <pc type="indent"/>Respondeo, quod ludi se habent in triplici differentia 
+      <lb ed="#G" n="45"/>Aliqui nratione annexae turpitudinis alliciunt homine 
+      <lb ed="#G" n="46"/>ad peccatum, sicut sunt ludi, qui antiquitus fieri solebant 
+      <lb ed="#G" n="47"/>in theatris, de quibus dicit Chryso. quod eorum
+      specta<lb ed="#G" n="48" break="no"/>cula adulteros, &amp; inucrecundos homines faciunt.
+      Ali<lb ed="#G" n="49" break="no"/>sunt ludi, qui semper habent bonum annexum, sicut quan 
+      <lb ed="#G" n="50"/>doque secundum congruentiam temporum aliqui boni 
+      <lb ed="#G" n="51"/>homines faciunt ludum, vel similationem de ascensione 
+      <lb ed="#G" n="52"/>domini, vel de eius resurrectione, seu passione. Aliqui  
+      <lb ed="#G" n="53"/>etiam ludi sunt indifferentes, qui si bene, &amp; ordinate 
+      <lb ed="#G" n="54"/>fiunt, puta ad consolationem bonam, &amp; honestam,
+      tun<lb ed="#G" n="55" break="no"/>est in eis virtus, quae dicitur eutrapelia. Si autem
+      huius<lb ed="#G" n="56" break="no"/>modi ludi inordinate fiunt, puta ad aliquorum bonori 
+      <lb ed="#G" n="57"/>hominum turbationem, tunc in huiusmodi ludis est
+      vi<lb ed="#G" n="58" break="no"/>tium, quod dicitur bomolochia, vt patet. <ref xml:id="HuYgTa-252292-Rd1e952">4. Eth.</ref> De
+      lu<lb ed="#G" n="59" break="no"/>dis primis penitens debet omnino cauere. Secundos po 
+      <lb ed="#G" n="60"/>test licite exercere. Sed de ludo tertio modo sumpto 
+      <lb ed="#G" n="61"/>&amp; si non sit omnino necessarium poenitentem
+      abstine<lb ed="#G" n="62" break="no"/>re tamen hoc decens est, &amp; congruum, quia dato, quod 
+      <lb ed="#G" n="63"/>talis ludus deceat innocentem, cui licita est omnis
+      con<lb ed="#G" n="64" break="no"/>solatio honesta, quae fieri potest sine peccato, tamen no 
+      <lb ed="#G" n="65"/>decet poenitentem, qui non in consolationibus vitae hu 
+      <lb ed="#G" n="66"/>manae, sed potius in asperitatibus se debet exercere. 
+    </p>
+            <p xml:id="HuYgTa-252292-d1e974">
+               <lb ed="#G" n="67"/>
+               <pc type="indent"/>Tertio hortatur beatus Augu poenitentem abstinere 
+      <lb ed="#G" n="68"/>de spectaculis: &amp; quia spectacula vt plurimum solent fie 
+      <lb ed="#G" n="69"/>ri circa ludos: ideo distinguendum videtur de spectacu 
+      <lb ed="#G" n="70"/>lis, sicut modo distinctum est de ludis: 
+      <!--716.xml-->
+      <cb ed="#G" n="b"/>
+               <lb ed="#G" n="71"/>beatus vero Qregorius tangit quinque impedimenta 
+      <lb ed="#G" n="72"/>verae poenitentiae. Vnde ista sunt ad litteram verba sua 
+      <lb ed="#G" n="73"/>Ideoque miles, vel negociator, vel alicui officio deditus 
+      <lb ed="#G" n="74"/>quod sine peccato exerceri non potest, vel qui bona
+      al<lb ed="#G" n="75" break="no"/>tetius detinet iniuste, vel qui odium in corde gerit; re- 
+      <lb ed="#G" n="76"/>cognoscat se veram poenitentiam non posse peragere, 
+      <lb ed="#G" n="77"/>nisi negocium relinquat, vel officium deserat, &amp; odium 
+      <lb ed="#G" n="78"/>ex corde dimittat: &amp; bona, quae iniuste abstulit, restituat. 
+      <lb ed="#G" n="79"/>Sed licet veritas istius auctoritatis pateat de trlbus;) 
+      <lb ed="#G" n="80"/>vltimis, quia quilibet illorum videtur in peccato morta 
+      <lb ed="#G" n="81"/>li manere, &amp; per consequens vt sic non potest veram pe 
+      <lb ed="#G" n="82"/>nitentiam agere: tamen de primis duobus dubium esse 
+      <lb ed="#G" n="83"/>videtur: quia sicut patet in Fuangelio, soanes Daptista 
+      <lb ed="#G" n="84"/>instruens ipsos milites ad ipsum venientes de vera
+      poo<lb ed="#G" n="85" break="no"/>nitentia, non praecepit eis militiam dimittere: sed dixit,  
+      <lb ed="#G" n="86"/>quod nulli calumniam deberent facere, &amp; militiae suae 
+      <lb ed="#G" n="87"/>stipendiis de berent contenti esse. Etiam negociatores,  
+      <lb ed="#G" n="88"/>puta, mercatores continue a peccatis suis in foro poni 
+      <lb ed="#G" n="89"/>tentiae absoluuntur: &amp; tamen ipsis non iniungitur, quod. 
+      <lb ed="#G" n="90"/>negocia talia dimittant.  
+    </p>
+            <p xml:id="HuYgTa-252292-d1e1035">
+               <lb ed="#G" n="91"/>
+               <pc type="indent"/>Potest dici, quod clausula contrahens tertium
+      impe<lb ed="#G" n="92" break="no"/>dimentum, puta, cum dicitur, quod sine peccato exerce 
+      <lb ed="#G" n="93"/>ri non potest, debet etiam determinare, &amp; contrahere 
+      <lb ed="#G" n="94"/>duo praecedentia, puta, militiam, &amp; negociationem. Quia 
+      <lb ed="#G" n="95"/>aliqui sunt actus de militari consuetudine, qui sunt con 
+      <lb ed="#G" n="96"/>tra praeceptum sanctae matris ecclesiae, sicut exercere tor 
+      <lb ed="#G" n="97"/>neamentum: &amp; aliqui contra Dei praeceptum, sicut est 
+      <lb ed="#G" n="98"/>oppressio pauperum. Aliqui liciti, &amp; honesti, sicut defen 
+      <lb ed="#G" n="99"/>dere pauperes, orphanos, &amp; viduas, pugnare pro re
+      pu<lb ed="#G" n="100" break="no"/>blica in causa iusta. Similiter negociatores quandoque 
+      <lb ed="#G" n="101"/>mercantias suas exercent cum mendaciis, &amp; deceptioni 
+      <lb ed="#G" n="102"/>bus, &amp; contra eos, a quibus emunt, vel quibus vendunt,  
+      <lb ed="#G" n="103"/>fraudes moliuntur. In quibus ommbus faciunt contra Dei. 
+      <lb ed="#G" n="104"/>praeceptum Vel etiam temere contra Dei praeceptum die do 
+      <lb ed="#G" n="105"/>minico, vel contra praeceptum ecclesiae alio die festiuo 
+      <lb ed="#G" n="106"/>vendunt, &amp; emunt. Sed quandoque exercent suas mer 
+      <lb ed="#G" n="107"/>cantias saluis praeceptis Dei, &amp; ecclesiae: Debet ergo
+      in<lb ed="#G" n="108" break="no"/>telligi prae dictum verbum Gregorij de militibus, &amp; mer 
+      <lb ed="#G" n="109"/>catoribus quantum ad actus eorum illicitos; &amp; non quam 
+      <lb ed="#G" n="110"/>tum ad licitos, &amp; honestos. 
+    </p>
+            <p xml:id="HuYgTa-252292-d1e1084">
+               <lb ed="#G" n="111"/>
+               <pc type="indent"/>A RTICVLV II1 
+      <lb ed="#G" n="112"/>Vtrum verum penitentem de peccatis. 
+      <lb ed="#G" n="113"/>venialibus necesse sit dolere. 
+    </p>
+            <p xml:id="HuYgTa-252292-d1e1095">
+               <lb ed="#G" n="114"/>QVANTVM ad quartum articulum primo ponam 
+      <lb ed="#G" n="115"/>hanc distinctionem, quod dolere, seu poenitere 
+      <lb ed="#G" n="116"/>de venialibus peccatis potesedupliciter intelligi. Vno 
+      <lb ed="#G" n="117"/>modo tamquam aliquid absolute necessarium, &amp; sine 
+      <lb ed="#G" n="118"/>quo non potest esse salus. Alio modo tamquam aliquid 
+      <lb ed="#G" n="119"/>expediens, &amp; poenit enti proficuum. Et secundum hoc 
+      <lb ed="#G" n="120"/>pono duas conclusiones. 
+    </p>
+            <p xml:id="HuYgTa-252292-d1e1113">
+               <lb ed="#G" n="121"/>
+               <pc type="indent"/>Prima est, quod primo modo homo non tenetur poe s 
+      <lb ed="#G" n="122"/>nitere de peccatis venialibus: Quia omnis qui ab isto sae per 
+      <lb ed="#G" n="123"/>tulo migrat in gratia, &amp; caritate ille faluabitur: sed
+      da<lb ed="#G" n="124" break="no"/>to, quod aliquis decedat sine mortalipercato, qui
+      mul<lb ed="#G" n="125" break="no"/>ta secum portat venialia peccata, talis migrat ab hoc sa 
+      <lb ed="#G" n="126"/>culo cum gratia, &amp; caritate: quia sola venialia nec exclu 
+      <lb ed="#G" n="127"/>dunt gratiam, nec caritatem, cum igitur in alia vita non  
+      <lb ed="#G" n="128"/>sit poenitentia sacramentalis; ergo talis homo
+      saluabi<lb ed="#G" n="129" break="no"/>tur sine poenitentia praehabita de peccatis venialibus. 
+      <lb ed="#G" n="130"/>Sed contra istud potest argui sic.  
+    </p>
+            <p xml:id="HuYgTa-252292-d1e1139">
+               <lb ed="#G" n="131"/>
+               <pc type="indent"/>1 Qua necessitate tenetur quis tendere in aliquei 
+      <lb ed="#G" n="132"/>finem, eadem necessitate teneturremouere omnia iman 
+      <lb ed="#G" n="133"/>pedimenta consecutionis illius finis; Sed quilibet
+      ho<lb ed="#G" n="134" break="no"/>mo tenetur suo desiderio tendere ad aeternam
+      beatitu<lb ed="#G" n="135" break="no"/>dinem, &amp; huiusmodi desiderio peccata venialia praestant 
+      <lb ed="#G" n="136"/>impedimentum; ergo tenetur homo taliaeremouere: hoc 
+      <lb ed="#G" n="137"/>autem non potest, nisi per poenitentiam. 
+      <lb ed="#G" n="138"/>2 Praeterea, de qualibet Dei offensa tenetur ho peni 
+      <!--717.xml-->
+      <pb ed="#G" n="P2_123-v"/>
+               <cb ed="#G" n="a"/>
+               <lb ed="#G" n="1"/>tere, sed per peecatum veniale homo aliquo modo
+      of<lb ed="#G" n="2" break="no"/>sendit Deum: quia illud quod Deus punit, illo
+      offendi<lb ed="#G" n="3" break="no"/>tur: sed Deus punit in purgatorio peccatum veniale,
+      si<lb ed="#G" n="4" break="no"/>cut fide tenemus: ergo &amp;c 
+    </p>
+            <p xml:id="HuYgTa-252292-d1e1176">
+               <lb ed="#G" n="5"/>
+               <pc type="indent"/>Praeterea, maxima offensa contra proximum non 
+      <lb ed="#G" n="6"/>tollitur sine poenitentia : ergo nec minima offensa
+      con<lb ed="#G" n="7" break="no"/>tra Deum. Antecedens patet. Probatur consequentia. 
+      <lb ed="#G" n="8"/>quia minima offensa contra Deum est maior, quam ma 
+      <lb ed="#G" n="9"/>xima offensa contra proximum, quia quantitas offensa 
+      <lb ed="#G" n="10"/>pensanda est ex quantitate eius, qui offenditur: cum er- 
+      <lb ed="#G" n="11"/>go peccato veniali aliquo modo offendatur Deus, vt 
+      <lb ed="#G" n="12"/>praedictum est, ergo &amp;c. 
+    </p>
+            <p xml:id="HuYgTa-252292-d1e1198">
+               <lb ed="#G" n="13"/>
+               <pc type="indent"/>4 Praeterea, contraria debent curari contrariis: sed  
+      <lb ed="#G" n="14"/>quandoqe in peccatis vem alibus est gaudium, &amp; delecta 
+      <lb ed="#G" n="15"/>tio; ergo talia debent curari penitentia, &amp; tristitia. 
+    </p>
+            <p xml:id="HuYgTa-252292-d1e1210">
+               <lb ed="#G" n="16"/>
+               <pc type="indent"/>Praeterea, illud, quod tantum potest augeri, quod 
+      <lb ed="#G" n="17"/>ipsum sit mortale peccatum, de illo tenetur homo peni 
+      <lb ed="#G" n="18"/>tere: sed veniale peccatum est huiusmodi; ergo &amp;c.
+      Ma<lb ed="#G" n="19" break="no"/>ior patet &amp; minor potest probari tripliciter. 
+    </p>
+            <p xml:id="HuYgTa-252292-d1e1223">
+               <lb ed="#G" n="20"/>
+               <pc type="indent"/>Primo sic. Quandocunque aliquae non distant in infini 
+      <lb ed="#G" n="21"/>tum, tunc de vno per sui augmentum potest fieri
+      tran<lb ed="#G" n="22" break="no"/>situs ad alterum. Sed libido, quae est in peccato venialis. 
+      <lb ed="#G" n="23"/>non est in infinitum minor libidine, quae est in peccato 
+      <lb ed="#G" n="24"/>mortali; ergo &amp;c. 
+    </p>
+            <p xml:id="HuYgTa-252292-d1e1239">
+               <lb ed="#G" n="25"/>
+               <pc type="indent"/>Secundo sic Disposito vsu firmata potest sic
+      cresce<lb ed="#G" n="26" break="no"/>re, quod fit habitus, ad quem disponit, vt patet 2. Ethico 
+      <lb ed="#G" n="27"/>rum: sed peccatum veniale est disposito ad peccatum 
+      <lb ed="#G" n="28"/>mortale; ergo &amp;c. 
+    </p>
+            <p xml:id="HuYgTa-252292-d1e1252">
+               <lb ed="#G" n="29"/>
+               <pc type="indent"/>Tertio; quia dicit Augustinus nihil adeo veniale est,  
+      <lb ed="#G" n="30"/>quod non fiat mortale, dum placet 
+    </p>
+            <p xml:id="HuYgTa-252292-d1e1261">
+               <lb ed="#G" n="31"/>
+               <pc type="indent"/>e Praeterea illud, quod tantum anima opprimit, quam 
+      <lb ed="#G" n="32"/>tum mortale peccatum, de illo ita necessarium est
+      poe<lb ed="#G" n="33" break="no"/>nitere, sicut de mortali peccato: sed, vt dicitur in littera, 
+      <lb ed="#G" n="34"/>Venialia peccata tantum possunt multiplicari, quod ita 
+      <lb ed="#G" n="35"/>opprimant animam sicut vnum peccatum mortale: ergo &amp;c 
+    </p>
+            <p xml:id="HuYgTa-252292-d1e1277">
+               <lb ed="#G" n="36"/>
+               <pc type="indent"/>lsta non concludunt. Quia de tali facto non tenetur. 
+      <lb ed="#G" n="37"/>homo de necessitate salutis penitere, quod antequam  
+      <lb ed="#G" n="38"/>sit factum, non tenetur homo de necessitate salutis vita 
+      <lb ed="#G" n="39"/>re, sed peceatum veniale, antequam sit factum, non
+      te<lb ed="#G" n="40" break="no"/>netur homo de necessitate salutis vitare. Maior patet. 
+      <lb ed="#G" n="41"/>Probo minorem: quia da oppositum, tunc peccatum ve 
+      <lb ed="#G" n="42"/>niale esset mortale: quia peccatum, quod antequam sit 
+      <lb ed="#G" n="43"/>factum, tenetur homo de necessitate salutis cauere, hoc 
+      <lb ed="#G" n="44"/>est mortale 
+    </p>
+            <p xml:id="HuYgTa-252292-d1e1302">
+               <lb ed="#G" n="45"/>
+               <pc type="indent"/>Ad primum dicendum, quod licet maior sit vera,
+      lo<lb ed="#G" n="46" break="no"/>quendo de impedimento perpetuo; tamen non est vera 
+      <lb ed="#G" n="47"/>de impedimento qualitercunque retardatiuo. Tunc ad 
+      <lb ed="#G" n="48"/>minorem dicendum, quod veniale non praestat
+      perpe<lb ed="#G" n="49" break="no"/>tuum impedimentum, quia dato, quod de ipso nulla n 
+      <lb ed="#G" n="50"/>hoc mundo habeatur poenitentia; tamen delebitur in 
+      <lb ed="#G" n="51"/>purgatorio, &amp; sic homo purgatus finem, de quo
+      loqui<lb ed="#G" n="52" break="no"/>mur, consequetur.
+    </p>
+            <p xml:id="HuYgTa-252292-d1e1324">
+               <lb ed="#G" n="53"/>Ad secundum dicendum, quod minor potest negari, quia 
+      <lb ed="#G" n="54"/>offendens, proprie loquendo, non manet in gratia, &amp; ca 
+      <lb ed="#G" n="55"/>ritate ipsius offensi, sed venialiter peccans manet in gra 
+      <lb ed="#G" n="56"/>tia, &amp; caritate Dei; ergo &amp;c 
+    </p>
+            <p xml:id="HuYgTa-252292-d1e1335">
+               <lb ed="#G" n="57"/>
+               <pc type="indent"/>Ad probationem dicendum, quod saepe pater
+      disipli<lb ed="#G" n="58" break="no"/>nat filium, quem diligit, dato, quod filius non tantum 
+      <lb ed="#G" n="59"/>exorbitauerit, quod patrem perdiderit. 
+    </p>
+            <p xml:id="HuYgTa-252292-d1e1346">
+               <lb ed="#G" n="60"/>
+               <pc type="indent"/>Ad tertium patet per iam dicta: quia in
+      prosvllogis<lb ed="#G" n="61" break="no"/>mo assumitur, quod Deus peccato vemali offendatur, &amp;  
+      <lb ed="#G" n="62"/>hoc legitime modo negatum est. Etiam probatio
+      con<lb ed="#G" n="63" break="no"/>sequentiae non valet: quia offensa proximi includit
+      of<lb ed="#G" n="64" break="no"/>fensam Dei. 
+    </p>
+            <p xml:id="HuYgTa-252292-d1e1362">
+               <lb ed="#G" n="65"/>
+               <pc type="indent"/>Ad quartum dicendum, quod peccatum veniale curatu 
+      <lb ed="#G" n="66"/>quodammodo suo contrario: quia, vel curatur in hoc 
+      <lb ed="#G" n="67"/>mundo vel igne caritatis, &amp; poenitentiae, vel in alio mun 
+      <lb ed="#G" n="68"/>do igne penalitatis purgatoniae 
+    </p>
+            <p xml:id="HuYgTa-252292-d1e1375">
+               <lb ed="#G" n="69"/>
+               <pc type="indent"/>Ad quintum nego minorem. Ad primam probationem dice 
+      <lb ed="#G" n="70"/>dum, quod licet ille duae libidines non distent in infinitum in ge 
+      <lb ed="#G" n="71"/>nere entis, tamen in genere moris distant absque vlla
+      pro<lb ed="#G" n="72" break="no"/>portione: Et ideo libido, quae est in vemali secudum quoe hu 
+      <lb ed="#G" n="73"/>rusmodi, pot dici in infinitu minor secudun genus moris 
+      <!--717.xml-->
+      <cb ed="#G" n="b"/>
+               <lb ed="#G" n="74"/>illa libidine, quae est in mortali peccato. Ad secudam 
+      <lb ed="#G" n="75"/>dicendum, quod maior non est vera, nisi loquendo de tali
+      di<lb ed="#G" n="76" break="no"/>spositone, quae est eiusdem speciei, cum eo, ad quod dispo 
+      <lb ed="#G" n="77"/>nit, sic aute non est in proposito: ergo &amp;c. Ad tertiam
+      pa<lb ed="#G" n="78" break="no"/>tet, quod Augustinus per illa verba non plus intendit
+      dice<lb ed="#G" n="79" break="no"/>re, nisi, quod veniale peccatum quandoque est occasio
+      mor<lb ed="#G" n="80" break="no"/>talis peccati, ita, quod occasionaliter dicitur fieri morta 
+      <lb ed="#G" n="81"/>se peccatum, quando incipit nimis placere.
+    </p>
+            <p xml:id="HuYgTa-252292-d1e1413">
+               <lb ed="#G" n="82"/>Ad sextum dicendum, quod venialia peccata,
+      quan<lb ed="#G" n="83" break="no"/>tumcunque multiplicentur, tamen numquam secudum 
+      <lb ed="#G" n="84"/>se formaliter tantum opprimunt animam, quantum mortale 
+      <lb ed="#G" n="85"/>peccatum, occasionaliter tamen dicuntur tantum opprimere 
+      <lb ed="#G" n="86"/>eo quoe possint esse occasio mortalis ruine, sed loquendo. 
+      <lb ed="#G" n="87"/>de tali occasionaliter opprimente, tuc maior non est vera 
+    </p>
+            <p xml:id="HuYgTa-252292-d1e1429">
+               <lb ed="#G" n="88"/>
+               <pc type="indent"/>Conclusio secunda est, quod secundo modo homo te 
+      <lb ed="#G" n="89"/>netur penitere de peccatis venialibus: quia hoc est sibi 
+      <lb ed="#G" n="90"/>proficuum in hac vita, &amp; in futura. Est enim sibi proficuum 
+      <lb ed="#G" n="91"/>in hac vita: quia poenitendo de veniali, melius poterit 
+      <lb ed="#G" n="92"/>se custodire de mortali. Etiam in alia vita est sibi
+      profi<lb ed="#G" n="93" break="no"/>cuum, quia hic debite penitendo, vitare poterit
+      acerbis<lb ed="#G" n="94" break="no"/>simum futurum purgatorium: quia nullum est ita leue 
+      <lb ed="#G" n="95"/>peccatum, quin in futuro homo pro eo sustineat
+      purga<lb ed="#G" n="96" break="no"/>torium, si in hoc mundo non fuerit deletum 
+    </p>
+            <p xml:id="HuYgTa-252292-d1e1453">
+               <lb ed="#G" n="97"/>
+               <pc type="indent"/>Ad argumentum principale dicendum, quod sunt
+      par<lb ed="#G" n="98" break="no"/>tes integrales. Ad probationem dicendum, quod hoc no 
+      <lb ed="#G" n="99"/>men penitentia aequiuoce dicitur de quattuor suis signi 
+      <lb ed="#G" n="100"/>ficatis. Accipitur enim aliquando pro sacramento, &amp; 
+      <lb ed="#G" n="101"/>tunc contritio, confessio, &amp; satisfactio, non dicuntur
+      pe<lb ed="#G" n="102" break="no"/>nitentia, sed partes poenitentie. Quandoque accipitur 
+      <lb ed="#G" n="103"/>pro virtute, &amp; tunc praedicta tria non dicuntur poeniten 
+      <lb ed="#G" n="104"/>tia, quamuis dici possint actus penitentiae Quandoque 
+      <lb ed="#G" n="105"/>penitentia accipitur pro actu iam dictae virtutis, &amp; sic 
+      <lb ed="#G" n="106"/>quodli bet istorum trium poenitentia solet dici.
+      Accipi<lb ed="#G" n="107" break="no"/>tur etiam poenitentia quandoque pro passione annexa 
+      <lb ed="#G" n="108"/>actibus virtutis, quae est ipsa poenitentia, sic praedicta tria 
+      <lb ed="#G" n="109"/>non sunt penitentia: sed dicutur habere annexam penitentiam, 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

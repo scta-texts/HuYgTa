@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Circa textum</title>
+            <author ref="#ThomasStrasbourg">Thomas of Strasbourg</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Circa textum</title>
+               <date when="2020-11-26">November 26, 2020</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="G" n="cod-TxxqU">Genoa 1585</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2020-11-26" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#G" n="-r"/>
+            <cb ed="#G" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="HuYgTa-267354"><!-- HuYgTa-l4d23ct1 -->
+            <head xml:id="HuYgTa-267354-Hd1e108">Circa textum</head>
+            <p xml:id="HuYgTa-267354-d1e111">
+               <lb ed="#G" n="36"/>DISTINCTI O. xIII 
+      <lb ed="#G" n="37"/>
+               <pc type="indent"/>preuissima bitius distinctionis duusio, in 
+      <lb ed="#G" n="38"/>
+               <pc type="indent"/>qua agitur de extrema 
+      <lb ed="#G" n="39"/>
+               <pc type="indent"/>onctione.
+    </p>
+            <p xml:id="HuYgTa-267354-d1e129">
+               <lb ed="#G" n="40"/>RAETER praemissa. Postquam 
+      <lb ed="#G" n="41"/>
+               <pc type="indent"/>Magister determinauit de 4
+      sa<lb ed="#G" n="42" break="no"/>cramentis, scilicet de baptismo, 
+      <lb ed="#G" n="43"/>confirmatione, fucharistia, &amp; 
+      <lb ed="#G" n="44"/>poenitentia; nunc prosequitur de 
+      <lb ed="#G" n="45"/>5 sacramento, puta de vnctione 
+      <lb ed="#G" n="46"/>extrema, &amp; diuiditur in duas par 
+      <lb ed="#G" n="47"/>tes, quia primo tracta de istius 
+      <lb ed="#G" n="48"/>sacramenti institutione secundo de eius iteratione, vel 
+      <lb ed="#G" n="49"/>administratione, ibi. Quaerunt aliqui : Prima in duas 
+      <lb ed="#G" n="50"/>quia primo ostendit istius sacramenti causae subiectiuae 
+      <lb ed="#G" n="51"/>materialem conditionem. Secundo, innuit causae
+      insti<lb ed="#G" n="52" break="no"/>tutiuae specialem autenticationem, ibi, Hoc
+      sacramen<lb ed="#G" n="53" break="no"/>tum: &amp; haec in duas, quia primo tangit causas, a quibus 
+      <lb ed="#G" n="54"/>institutum est istud sacramentum instrumentaliter.
+      Se<lb ed="#G" n="55" break="no"/>cundo tangit causas, propter quas institutum est
+      finali<lb ed="#G" n="56" break="no"/>ter, ibi, Duplici ex causa. Sequitur illi pars, Quaerunt 
+      <lb ed="#G" n="57"/>aliqui: &amp; diuiditur in duas partes, secundum quod circa 
+      <lb ed="#G" n="58"/>
+               <pc type="indent"/>iterationem istius sacramenti Magister recitat duas 
+      <lb ed="#G" n="59"/>
+               <pc type="indent"/>opi. Secunda incipit, ibi, Quidam autem de omni 
+      <lb ed="#G" n="60"/>
+               <pc type="indent"/>sacramento. Et haec est diuisio, &amp; sententia 
+      <lb ed="#G" n="61"/>
+               <pc type="indent"/>istius 22 distin in generali circa 
+      <lb ed="#G" n="62"/>
+               <pc type="indent"/>quam in speciali
+      quae<lb ed="#G" n="63" break="no"/>
+               <pc type="indent"/>ro hanc
+      quae<lb ed="#G" n="64" break="no"/>
+               <pc type="indent"/>stionem. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

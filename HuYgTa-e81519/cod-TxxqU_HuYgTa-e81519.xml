@@ -1,0 +1,703 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#ThomasStrasbourg">Thomas of Strasbourg</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2020-11-26">November 26, 2020</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="G" n="cod-TxxqU">Genoa 1585</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2020-11-26" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#G" n="107-r"/>
+            <cb ed="#G" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="HuYgTa-e81519"><!-- HuYgTa-l1d36q1 -->
+            <head xml:id="HuYgTa-e81519-Hd1e108">Quaestio 1</head>
+            <head xml:id="HuYgTa-e81519-Hd1e111" type="question-title">
+      An mala in Deo ideam habeant.
+    </head>
+            <p xml:id="HuYgTa-e81519-d1e114">
+               <lb ed="#G" n="85"/>
+               <pc type="indent"/>Questio.  
+      <lb ed="#G" n="86"/>An mala in Deo ideam habeant. 
+    </p>
+            <p xml:id="HuYgTa-e81519-d1e123">
+               <lb ed="#G" n="87"/>
+               <pc type="indent"/>VTRVM mala habeant ideam in Deo.
+    </p>
+            <p xml:id="HuYgTa-e81519-d1e130">
+      Et 
+      <lb ed="#G" n="88"/>videtur quod sic: quia ea, quae Deus
+      co<lb ed="#G" n="89" break="no"/>gnoscit, videntur habere ideam in Deo: 
+      <lb ed="#G" n="90"/>nam ideae, non solum ponuntur in Dec 
+      <lb ed="#G" n="91"/>ad operandum, sed etiam ad
+      repraesen<lb ed="#G" n="92" break="no"/>tandum, &amp; per consequens ad
+      cogno<lb ed="#G" n="93" break="no"/>scendum: sed Deus cognoscit mala non solum poene, sed  
+      <lb ed="#G" n="94"/>etiam culpae; nam medicus debet cognoscere infirmorum 
+      <lb ed="#G" n="95"/>vulnera, &amp; iudex sententiandorum delicta: Deus autem 
+      <lb ed="#G" n="96"/>est poenitentium medicus, &amp; curator, ipse enim est verus 
+      <lb ed="#G" n="97"/>Samaritanus, qui in vulnera semiuiui relicti infudit
+      vi<lb ed="#G" n="98" break="no"/>num, &amp; oleum, &amp; est obstinatorum iudex, &amp;
+      condem<lb ed="#G" n="99" break="no"/>nator, ergo &amp;c. 
+    </p>
+            <p xml:id="HuYgTa-e81519-d1e160">
+               <lb ed="#G" n="100"/>
+               <pc type="indent"/>Contra, illud, quod de se est non ens, non habet ideam 
+      <lb ed="#G" n="101"/>propriam in Deo: quia omne, quod habet ideam
+      pro<lb ed="#G" n="102" break="no"/>priam in Deo, est a Deo producibile, &amp; per consequens 
+      <lb ed="#G" n="103"/>habet naturam entis; sed malum culpae non habet
+      ratio<lb ed="#G" n="104" break="no"/>nem entis, cum sit quaedam priuatio, &amp; priuatio de se est 
+      <lb ed="#G" n="105"/>non ens, vt patet <ref xml:id="HuYgTa-e81519-Rd1e177">1. physicorum</ref>, nec est producibilea 
+      <lb ed="#G" n="106"/>Deo: quia si Deus produceret malum culpae, tunc ipso 
+      <lb ed="#G" n="107"/>peccaret, quod est impossibile. Hic sunt quattuor
+      viden<lb ed="#G" n="108" break="no"/>da. Primo, vtrum distinctae ideae sint in Deo. Secundo. 
+      <lb ed="#G" n="109"/>vtrum infinitae ideae sint in Deo: Tertio, vtrum malum 
+      <lb ed="#G" n="110"/>culpae habeat ideam in Deo. Quarto dato que non,
+      viden<lb ed="#G" n="111" break="no"/>dum est quomodo Deus cognoscat malum. 
+    </p>
+            <p xml:id="HuYgTa-e81519-d1e194">
+               <lb ed="#G" n="112"/>
+               <pc type="indent"/>RES OLVTIO. 
+      <lb ed="#G" n="113"/>ldeae in diuinis non ex natura rei, neque per actum intellectus. 
+      <lb ed="#G" n="114"/>
+               <pc type="indent"/>creati, sed diuini distinguuntur. Vnde cum infinitae in Deo 
+      <lb ed="#G" n="115"/>reperiantur ideae, nulli tamen earum corvespondet malum cut 
+      <lb ed="#G" n="116"/>pae, quod sane Dei cognitionem minime subterfugit. 
+    </p>
+            <p xml:id="HuYgTa-e81519-d1e212">
+               <lb ed="#G" n="117"/>
+               <pc type="indent"/>ARTICVLV SI. 
+      <lb ed="#G" n="118"/>vtrum distinctae idee sint in Deo.
+    </p>
+            <p xml:id="HuYgTa-e81519-d1e221">
+               <lb ed="#G" n="119"/>VARTVM ad primum, vtrum distinctae ideae 
+      <!--253.xml-->
+      <pb ed="#G" n="107-v"/>
+               <cb ed="#G" n="a"/>
+               <lb ed="#G" n="1"/>sint in Deo, ponam tres conclusiones. Prima, est quod 
+      <lb ed="#G" n="2"/>ideae in diuinis non sunt distinctae ex natura rei. Secunda 
+      <lb ed="#G" n="3"/>conclusio est, quod non sunt distinctae per actum
+      intelle<lb ed="#G" n="4" break="no"/>ctus creati. Tertia est, quod sunt distinctae per actum
+      in<lb ed="#G" n="5" break="no"/>tellectus diuini.  
+    </p>
+            <p xml:id="HuYgTa-e81519-d1e243">
+               <lb ed="#G" n="6"/>
+               <pc type="indent"/>1 Primum probo sic; Si enim ideae distinguerentur
+      for<lb ed="#G" n="7" break="no"/>maliter, &amp; ex natura rel in mente diuina, aut distinguerem 
+      <lb ed="#G" n="8"/>tur vt absoluta, aut respectiua; sed nec sic, vt probabo,
+      er<lb ed="#G" n="9" break="no"/>go &amp; cetera. Maior patet per sufficientem diuisionem 
+      <lb ed="#G" n="10"/>Minorem probo quantum ad ambas suas partes : primo quo 
+      <lb ed="#G" n="11"/>ad primam: quia sicut se habet entitas ad ens, seu materialis 
+      <lb ed="#G" n="12"/>ad materiam, sic formalitas ad formam, sicut ergo non possum 
+      <lb ed="#G" n="13"/>esse distinctae entitates, nisi sint distincta entia; nec distin 
+      <lb ed="#G" n="14"/>ctae materialitates, nisi sint distinctae materiae, sic nec
+      di<lb ed="#G" n="15" break="no"/>stinctae absolutae formalitates ex natura rei, nisi sint distin 
+      <lb ed="#G" n="16"/>ctae formae absolutae, quas impossibile est ponere in
+      diui<lb ed="#G" n="17" break="no"/>nis, ergo &amp;c. Ista minor etiam potest probari per omnia 
+      <lb ed="#G" n="18"/>quae dixi superius contra formalitates, &amp; per tres rationes; 
+      <lb ed="#G" n="19"/>quibus quaestione proxima praecedenti probaui secundam 
+      <lb ed="#G" n="20"/>parte tertiae conclusionis, Sel alteram partem istius
+      mino<lb ed="#G" n="21" break="no"/>ris probo sic. Si ideae in diuina essentia intrinsece ex natu 
+      <lb ed="#G" n="22"/>ra rei dicerent distinctas relationes, sequerentur tria
+      in<lb ed="#G" n="23" break="no"/>conuenientia 
+    </p>
+            <p xml:id="HuYgTa-e81519-d1e287">
+               <lb ed="#G" n="24"/>
+               <pc type="indent"/>Primum est, quod Deus infinitis realibus relationibus
+      re<lb ed="#G" n="25" break="no"/>ferretur ad creaturam, quia infinitae sunt ideae in Deo, vt in 
+      <lb ed="#G" n="26"/>fra patebit, quarum qualibet Deus refertur ad creaturam, vel 
+      <lb ed="#G" n="27"/>conceptam, vt crcata est, vel vt creabilis est, falsitas
+      conse<lb ed="#G" n="28" break="no"/>quentis patet superius
+    </p>
+            <p xml:id="HuYgTa-e81519-d1e304">
+               <lb ed="#G" n="29"/>Secundum inconueniens est, quod aliqua res, quae 
+      <lb ed="#G" n="30"/>identice idem est, quod Deus, non erit naturaliter prior 
+      <lb ed="#G" n="31"/>creatura: quia, vt patet in praedicamentis,
+      relatiu<lb ed="#G" n="32" break="no"/>sunt simul natura, siue naturali intelligentia, ergo
+      re<lb ed="#G" n="33" break="no"/>latio, quam dicit idea, &amp; relatio, quam dicit ideatum simul 
+      <lb ed="#G" n="34"/>sunt natura, sed relatio, quam dicit idea, si est enti 
+      <lb ed="#G" n="35"/>tas realis, tunc necessario est identice idem Deo: quia 
+      <lb ed="#G" n="36"/>omne, quod est in Deo, est idem Deo: relatio autem, 
+      <lb ed="#G" n="37"/>quam dicit ideatum, est vera creatura, cum fundetur in 
+      <lb ed="#G" n="38"/>treatura, ergo &amp;c.
+    </p>
+            <p xml:id="HuYgTa-e81519-d1e328">
+               <lb ed="#G" n="39"/>Tertium inconueniens est, quod res, quae est penitus iden 
+      <lb ed="#G" n="40"/>tice idem quoe Deus, nullam haberet causalitatem super prae 
+      <lb ed="#G" n="41"/>dictam realitatem relationis se tenentis ex parte creatu 
+      <lb ed="#G" n="42"/>rae, quae tamen est vera creatura: quia secundum
+      Ansel<lb ed="#G" n="43" break="no"/>mum monologion, nulla relatio est causa relationis sibi 
+      <lb ed="#G" n="44"/>oppositae. 
+    </p>
+            <p xml:id="HuYgTa-e81519-d1e344">
+               <lb ed="#G" n="45"/>
+               <pc type="indent"/>2 Praeterea, quicquid perfectionis est, Deo
+      attribuen<lb ed="#G" n="46" break="no"/>dum est, cum ipse sit solus illimitatae pfectionis; sed distincta 
+      <lb ed="#G" n="47"/>cognoscere vno formali principio ex natura rei
+      formali<lb ed="#G" n="48" break="no"/>ter indistincto perfectius est, quam cognoscere dictincta 
+      <lb ed="#G" n="49"/>principiis ex natura rei formaliter distinctis. Maior patet 
+      <lb ed="#G" n="50"/>Minorem probo, quia uniuersaliter videmus, qud in omni- 
+      <lb ed="#G" n="51"/>bus rebus cognitiuis quanto res est nobilior, &amp; perfectior 
+      <lb ed="#G" n="52"/>tanto paucioribus principijs plura distincta cognoscit, vn 
+      <lb ed="#G" n="53"/>de etiam in ipsis Angelis, et patebit in lib. 2 quanto
+      An<lb ed="#G" n="54" break="no"/>gelus est persectior, tanto paucioribus speciebus indiget 
+      <lb ed="#G" n="55"/>cognoscendo, cum ergo Deus infinitae sit perfectionis, ergo 
+      <lb ed="#G" n="56"/>in illo, quod sibi est ratio omnia cognoscendi, nulla peni 
+      <lb ed="#G" n="57"/>tus cadit distinctio ex natura rei;cum igitur ideae sint
+      prin<lb ed="#G" n="58" break="no"/>cipia cognoscendi, quibus Deus cognoscit creaturas, vt 
+      <lb ed="#G" n="59"/>infra patebit, ergo non poterunt in Deo esse distinctae ex 
+      <lb ed="#G" n="60"/>natura rei 
+    </p>
+            <p xml:id="HuYgTa-e81519-d1e383">
+               <lb ed="#G" n="61"/>
+               <pc type="indent"/>3 Praeterea, si ideae, quae sunt creatorum &amp; creabilium 
+      <lb ed="#G" n="62"/>representatiuae, essent in diuina essentia distinctae ex natu 
+      <lb ed="#G" n="63"/>ra rei, tunc omnes beati aeque plura viderent in diuina es 
+      <lb ed="#G" n="64"/>sentia, &amp; per consequens nulla posset fieri diuina
+      reuela<lb ed="#G" n="65" break="no"/>io, cuius oppositum patet in sacra scriptura. Angelus enim 
+      <lb ed="#G" n="66"/>regni Persarum restitit Angelo populi lsraelitici
+      quan<lb ed="#G" n="67" break="no"/>tum ad liberationem huius populi, quod non fecisset, si 
+      <lb ed="#G" n="68"/>n diuina essentia vidisset populum tali tempore liberan 
+      <lb ed="#G" n="69"/>dum. Etiam dicit Beatus Dyoni. quod Angeli
+      superio<lb ed="#G" n="70" break="no"/>res purgant &amp; illuminant inferiores. Consequentiam
+      pro<lb ed="#G" n="71" break="no"/>bo: quia quicquid in aliqua natura ex natura rei intrinse 
+      <lb ed="#G" n="72"/>ee, seu naturaliter est distinctum, hoc videtur ab eo, qui 
+      <!--253.xml-->
+      <cb ed="#G" n="b"/>
+               <lb ed="#G" n="73"/>videt illam naturam, propter hoc enim impossibile est vi 
+      <lb ed="#G" n="74"/>dere diuinam essentiam quin distincte videantur diuinae 
+      <lb ed="#G" n="75"/>personae: quia personarum distinctio est intrinseca sine 
+      <lb ed="#G" n="76"/>omni ad extra comparatione independens ab omni actu 
+      <lb ed="#G" n="77"/>rationis.
+    </p>
+            <p xml:id="HuYgTa-e81519-d1e429">
+               <lb ed="#G" n="78"/>4 Praeterea, illud, quod est primum in genere
+      intelli<lb ed="#G" n="79" break="no"/>gibilium, est ex natura rei formaliter unum &amp; indistinctum; 
+      <lb ed="#G" n="80"/>essentia diuina est huiusmodi, vt de se patet, ergo &amp;c. Mi 
+      <lb ed="#G" n="81"/>iorem probo: quia primum est mensura ceterorum, vt pa 
+      <lb ed="#G" n="82"/>tet <ref xml:id="HuYgTa-e81519-Rd1e442">10 metaphysic.</ref> &amp; per consequens debet esse maxime 
+      <lb ed="#G" n="83"/>simplex, &amp; indiuisum, vt patet ibidem; propter quod ait 
+      <lb ed="#G" n="84"/>
+               <ref xml:id="HuYgTa-e81519-Rd1e449">Commenta. 10. metaphysic.</ref> quod vnitas illius, quod est 
+      <lb ed="#G" n="85"/>mensura ceterorum sui generis, est talis, quod non est di 
+      <lb ed="#G" n="86"/>uisibilis neque secundum locum, neque secundum
+      for<lb ed="#G" n="87" break="no"/>mam, neque secundum cognitionem.
+    </p>
+            <p xml:id="HuYgTa-e81519-d1e460">
+               <lb ed="#G" n="88"/>3 Preterea, illud idem probari potest quam plurimis 
+      <lb ed="#G" n="89"/>sanctorum auctoritatibus. Dicit enim Anselmus de
+      pro<lb ed="#G" n="90" break="no"/>cessione spiritus sancti, quod omnia in diuinis sunt idem 
+      <lb ed="#G" n="91"/>bi non obuiat relationis opposito, sed vna idea non op 
+      <lb ed="#G" n="92"/>ponitur alteri ideae relatiue.
+    </p>
+            <p xml:id="HuYgTa-e81519-d1e474">
+               <lb ed="#G" n="93"/>3 Et Damascen ait, quod omnia, quae sunt in diuinis 
+      <lb ed="#G" n="94"/>vnum, praeter ingenerationem, generationem &amp;
+      pro<lb ed="#G" n="95" break="no"/>cessionem.
+    </p>
+            <p xml:id="HuYgTa-e81519-d1e483">
+               <lb ed="#G" n="96"/>Sed quidam istius opinionis contrarium tenentes
+      ar<lb ed="#G" n="97" break="no"/>guunt pro sua positone sic.
+    </p>
+            <p xml:id="HuYgTa-e81519-d1e490">
+               <lb ed="#G" n="98"/>1 Ratio cognoscendi praecedit actu cognoscendi, erge 
+      <lb ed="#G" n="99"/>distincta ratio distinctam cognitionem: cum ergo Deus 
+      <lb ed="#G" n="100"/>eodem actu, quo cognoscit se, cognoscat distincte omnia 
+      <lb ed="#G" n="101"/>alia a se; igitur ante omnem actum intelligendi
+      praece<lb ed="#G" n="102" break="no"/>dunt in Deo distinctae rationes cognoscendi creaturas; 
+      <lb ed="#G" n="103"/>quas ideas vocamus, &amp; per consequens erunt distinctae in 
+      <lb ed="#G" n="104"/>trinsece, &amp; ex natura rei. 
+    </p>
+            <p xml:id="HuYgTa-e81519-d1e508">
+               <lb ed="#G" n="105"/>
+               <pc type="indent"/>2 Praeterea, assimilatio cognoscentis ad cognitum
+      prae<lb ed="#G" n="106" break="no"/>cedit in ipso intellectu naturaliter actum cognoscendis 
+      <lb ed="#G" n="107"/>quia intellectus non cognoscit, nisi sit cognito
+      assimila<lb ed="#G" n="108" break="no"/>tus, cum omnis cognitio fiat per assimilationem, vt patet 
+      <lb ed="#G" n="109"/>
+               <ref xml:id="HuYgTa-e81519-Rd1e523">1. de anima</ref>: sed ideae in mente diuina sunt quaedam
+      as<lb ed="#G" n="110" break="no"/>milationes, quibus distincte Deus cognoscit ea, qua 
+      <lb ed="#G" n="111"/>sunt extra eum, ergo talium assimilationum distinctio 
+      <lb ed="#G" n="112"/>praecedit actum intelligendi, quo illa cognoscuntui 
+      <lb ed="#G" n="113"/>distincte. 
+    </p>
+            <p xml:id="HuYgTa-e81519-d1e535">
+               <lb ed="#G" n="114"/>
+               <pc type="indent"/>3 Praeterea, illa quae consequuntur diuinam essentiam 
+      <lb ed="#G" n="115"/>ex natura essentiae, non consequuntur eam ex aliqua com 
+      <lb ed="#G" n="116"/>aratione facta por intellectum: quia sicut essentia non est 
+      <lb ed="#G" n="117"/>er intellectum, sic nec illud, quod naturaliter
+      consequi<lb ed="#G" n="118" break="no"/>tur essentiam, sed ista distincta exemplaria consequuntui 
+      <lb ed="#G" n="119"/>essentiam ex natura essentiae: quia quicquid est in persoa 
+      <lb ed="#G" n="120"/>na diuina, aut conuenit sibi per essentiam, aut per relatio 
+      <lb ed="#G" n="121"/>nem, eo quod in persona diuina non possumus plura
+      da<lb ed="#G" n="122" break="no"/>re, quam essentiam, &amp; relationem, sed ideae, siue rationes 
+      <lb ed="#G" n="123"/>rerum repraesentatiuae sunt in qualibet diuina persona, 
+      <lb ed="#G" n="124"/>uia quaelibet diuina persona cognoscit distincte omnia 
+      <lb ed="#G" n="125"/>&amp; non per proprietatem relatiuam, nam quicquid
+      con<lb ed="#G" n="126" break="no"/>uenit personae ratione proprietatis relatiuae non est
+      com<lb ed="#G" n="127" break="no"/>mune tribus, igitur praedictae rationes conueniunt 
+      <lb ed="#G" n="128"/>personae ratione essentiae, &amp; per consequens secundum 
+      <lb ed="#G" n="129"/>nostrum modum intelligendi consequuntur naturam di 
+      <lb ed="#G" n="130"/>uinam naturaliter, &amp; non innascuntur per actum cuiuscum 
+      <lb ed="#G" n="131"/>que intellectus, siue sit creatus, siue increatus. Ideo
+      quae<lb ed="#G" n="132" break="no"/>dam illorum concludunt, quod illae formae ante omnem 
+      <lb ed="#G" n="133"/>actum intelligendi sunt distinctae in essentia diuina tam 
+      <lb ed="#G" n="134"/>quam in speculo clarissimo omnium factibilium
+      reprae<lb ed="#G" n="135" break="no"/>sentatiuo, &amp; exemplificatiuo. 
+    </p>
+            <p xml:id="HuYgTa-e81519-d1e587">
+               <lb ed="#G" n="136"/>
+               <pc type="indent"/>4 Praeterea, si illae ideae essent distinctae per actum in 
+      <lb ed="#G" n="137"/>tellectus concipientis essentiam diuinam imitabilem e 
+      <lb ed="#G" n="138"/>distinctis rebus extra, tunc necessario essent ab
+      intelle<lb ed="#G" n="139" break="no"/>ctu formatae. consequens est falsum: quia ait <ref xml:id="HuYgTa-e81519-Rd1e600">August. 83. 
+        <lb ed="#G" n="140"/>quaestionum</ref>, quod ideae sunt rationes rerum stabiles,
+      at<lb ed="#G" n="141" break="no"/>que immutabiles, quae &amp; ipsae formatae non sunt, ac per 
+      <lb ed="#G" n="142"/>hoc aeternae sunt 
+    </p>
+            <p xml:id="HuYgTa-e81519-d1e611">
+               <lb ed="#G" n="143"/>3 Praeterea, si ideae non distinguerentur ex natura rei, 
+      <lb ed="#G" n="144"/>ut distinguutur, per intellectu creatu, aut incrcatu. Non 
+      <!--254.xml-->
+      <pb ed="#G" n="108-r"/>
+               <cb ed="#G" n="a"/>
+               <lb ed="#G" n="1"/>primo modo: quia, cum ideae sint aeternae, vt iam patuit 
+      <lb ed="#G" n="2"/>per August. sequeretur, quod distinctio praecederet suum 
+      <lb ed="#G" n="3"/>principium distinctiuum. Nec secundo modo: quia illud, 
+      <lb ed="#G" n="4"/>quod innascitur per actum intellectus diuini est in sola 
+      <lb ed="#G" n="5"/>persona verbi: ideae autem sunt in qualibet persona
+      diui<lb ed="#G" n="6" break="no"/>na, cum omnes personae sint vnum principium creature, 
+      <lb ed="#G" n="7"/>vt ait <ref xml:id="HuYgTa-e81519-Rd1e639">August. 5. de trini.</ref>
+            </p>
+            <p xml:id="HuYgTa-e81519-d1e643">
+               <lb ed="#G" n="8"/>4 Praeterea, essentia diuina; vt naturallter obijcitur in 
+      <lb ed="#G" n="9"/>tellectui diuino, aut repraesentat sibi omne intelligibile sub 
+      <lb ed="#G" n="10"/>oi modo perfectae intelligibilitatis, aut non. Si sic, tunc hae 
+      <lb ed="#G" n="11"/>tur propositum: quia sicut perfectioris intelligibilitatis 
+      <lb ed="#G" n="12"/>est ex parte intellectus distincte intelligere, ita perfectio 
+      <lb ed="#G" n="13"/>ris intelligibilitatis ex parte obiecti distincte repraesenta 
+      <lb ed="#G" n="14"/>re. Si non, tunc essentia diuina non est infinitae
+      intelli<lb ed="#G" n="15" break="no"/>gibilitatis, cum non possit repraesentare omne
+      intelligi<lb ed="#G" n="16" break="no"/>bile sub omni modo perfectae intelligibilitatis. 
+    </p>
+            <p xml:id="HuYgTa-e81519-d1e665">
+               <lb ed="#G" n="17"/>
+               <pc type="indent"/>Sed istam opinione ego male intelligo:: quia vbicunque 
+      <lb ed="#G" n="18"/>ponitur distinctio, quae est maior distinctione minima, ibi 
+      <lb ed="#G" n="19"/>vt mihi apparet, non potest saluari summa vnitas, sed distin 
+      <lb ed="#G" n="20"/>ctio formalis ex natura rei est maior distinctione minima: 
+      <lb ed="#G" n="21"/>ergo si poniti diuina essentia, ipsa non erit summe vna, qud 
+      <lb ed="#G" n="22"/>est contra philosophos, &amp; theologos. Minorem probo: quia 
+      <lb ed="#G" n="23"/>illa distinctio est maior minima distinctione, quae est
+      ma<lb ed="#G" n="24" break="no"/>ximae distinctioni ppinquior ;lsed distinctio ex natura rei 
+      <lb ed="#G" n="25"/>est huiusmodi: quia illa distinctio est maximae distinctioni 
+      <lb ed="#G" n="26"/>propinquior, quae est reali distinctioni vicinor, nam realis di 
+      <lb ed="#G" n="27"/>stinctio est maxima distinctio, sed distinctio ex natura rer 
+      <lb ed="#G" n="28"/>est ppinquior reali distinctioni, quam distinctio rationis; 
+      <lb ed="#G" n="29"/>nam medium est propinquius extremo, quam extremum extre 
+      <lb ed="#G" n="30"/>mo, distinctio autem ex natura rei etiam secudum istos est mo 
+      <lb ed="#G" n="31"/>dia inter distinctionem realem &amp; distinctionem rationis: quia 
+      <lb ed="#G" n="32"/>ipsa est minor distinctionelreali, &amp; est maior distinctione 
+      <lb ed="#G" n="33"/>rationis, etiam maior patet: quia vnumquodque quantum 
+      <lb ed="#G" n="34"/>vadit ad distinctionem, tantum recedit ab vnitate: nam vt 
+      <lb ed="#G" n="35"/>ait <ref xml:id="HuYgTa-e81519-Rd1e710">
+                  <name xml:id="HuYgTa-e81519-Nd1e712" ref="#Boethius">boethius</name> 1: de tri.</ref> principium pluritatis est alteritas. 
+    </p>
+            <p xml:id="HuYgTa-e81519-d1e717">
+               <lb ed="#G" n="36"/>
+               <pc type="indent"/>Ad primum igitur dicendum ad maiorem, quod ratio cogno 
+      <lb ed="#G" n="37"/>scendi non precedit actu cognoscendi, nisi apud talem in 
+      <lb ed="#G" n="38"/>tellectum, cuius ratio cognoscendi differt ab actu
+      cogno<lb ed="#G" n="39" break="no"/>scendi, quod simpliciter falsum est in diuinis 
+      <lb ed="#G" n="40"/>vel potest dici, quod maior non est vera, nisi de ratione il 
+      <lb ed="#G" n="41"/>la, quae causat actum, non autem de ratione, que terminat 
+      <lb ed="#G" n="42"/>actum: nan terminans vt terminat non praecedit illud, quod 
+      <lb ed="#G" n="43"/>terminat. Ratio vero idealis non habet rationem causa 
+      <lb ed="#G" n="44"/>respectu actus intellectus diuini; ssed solum se habet in ra 
+      <lb ed="#G" n="45"/>xione terminantis. 
+    </p>
+            <p xml:id="HuYgTa-e81519-d1e743">
+               <lb ed="#G" n="46"/>
+               <pc type="indent"/>Posset etiam dici, quod maior solum est vera de
+      ratio<lb ed="#G" n="47" break="no"/>ne obiecti primarij, non autem de ratione cognoscendi 
+      <lb ed="#G" n="48"/>obiectum secundarium. 
+    </p>
+            <p xml:id="HuYgTa-e81519-d1e754">
+               <lb ed="#G" n="49"/>
+               <pc type="indent"/>Ad secundum patet per iam dicta: vel dicendum, quod maior 
+      <lb ed="#G" n="50"/>no est vera, nisi de intellectu, qui de se est in potentia ad in 
+      <lb ed="#G" n="51"/>aelligendum, quia talis intellectus non potest distincta di 
+      <lb ed="#G" n="52"/>stincte cognoscere, nisi prius similitudine talium
+      distincto<lb ed="#G" n="53" break="no"/>rum actiuetur; intellectus autem diuinus est purus actus. 
+    </p>
+            <p xml:id="HuYgTa-e81519-d1e771">
+               <lb ed="#G" n="54"/>
+               <pc type="indent"/>Ad tertium nego minorem: ad probationem, cum di quic 
+      <lb ed="#G" n="55"/>quid est in persona diuina, aut conuenit ei per essentiam, aut 
+      <lb ed="#G" n="56"/>per proprietate, dico, quod si ly quicquid stat pro re, vel pro 
+      <lb ed="#G" n="57"/>modo reali, tunc illa proposito vera est. Si autem stat pro 
+      <lb ed="#G" n="58"/>ratione, vel pro eo, quod dicit tantu aliquid rationis;
+      tun<lb ed="#G" n="59" break="no"/>non est vera, quia talia conueniunt personae per actum in 
+      <lb ed="#G" n="60"/>tellectus diuini, vt infra patebit, &amp; sic est in proposito. 
+      <lb ed="#G" n="61"/>vel potest dici, quod illae rationes ideales conueniunt
+      perso<lb ed="#G" n="62" break="no"/>nae per essentiam originaliter, &amp; per intellectum formaliter 
+      <lb ed="#G" n="63"/>actualiter: quia originaliter ex virtuali continentia
+      diui<lb ed="#G" n="64" break="no"/>nae essentiae prouenit, qued intellectus diuinus actualiter hu 
+      <lb ed="#G" n="65"/>iusmodi diuersas rationes circa ipsam concipit, &amp; cum
+      il<lb ed="#G" n="66" break="no"/>le addit, quod sint in diuina essentia vt in speculo clarissi 
+      <lb ed="#G" n="67"/>mo, dico, quod verum est originaliter, non autem forma 
+      <lb ed="#G" n="68"/>liter ex natura rei distinctae, ut infra magis patebit 
+    </p>
+            <p xml:id="HuYgTa-e81519-d1e808">
+               <lb ed="#G" n="69"/>
+               <pc type="indent"/>Ad quartum dicedum, quod ideas esse formatas potess 
+      <lb ed="#G" n="70"/>dupliciter intelligi, Vno modo effectiue &amp; productiue; 
+      <lb ed="#G" n="71"/>Alio modo conceptiue, seu expressiue. Primo mode
+      ne<lb ed="#G" n="72" break="no"/>gat August. ideas esse formatas; non autem secundo
+      mo<lb ed="#G" n="73" break="no"/>do, sicuti patet per verba <ref xml:id="HuYgTa-e81519-Rd1e823">August. ibidem</ref>
+            </p>
+            <p xml:id="HuYgTa-e81519-d1e827">
+      <!--254.xml-->
+               <cb ed="#G" n="b"/>
+               <lb ed="#G" n="74"/>Ad quintum dicendum, quod distinguuntur per intel 
+      <lb ed="#G" n="75"/>lectum diuinum. Ad probationem dicendum, quod quauis il 
+      <lb ed="#G" n="76"/>lud, quod inmascitur in diuinis productiue per actum
+      intel<lb ed="#G" n="77" break="no"/>ectus, sit in sola persona verbi, tamen illud, quod innascit 
+      <lb ed="#G" n="78"/>per actum intellectus expressiue pot esse in omibus tribus: 
+      <lb ed="#G" n="79"/>exprimere enim in plus se habet, quam producere: omne. enim 
+      <lb ed="#G" n="80"/>productum potest dici expressum, non tamen omne
+      ex<lb ed="#G" n="81" break="no"/>pressum est productum; nam nihil potest producere
+      seip<lb ed="#G" n="82" break="no"/>sum, quamuis aliquid possit exprimere seipsum. 
+    </p>
+            <p xml:id="HuYgTa-e81519-d1e853">
+               <lb ed="#G" n="83"/>
+               <pc type="indent"/>Ad sextum dicendum, quod essentia diuina obijcitur
+      intel<lb ed="#G" n="84" break="no"/>lectui diuino sub oi modo perfectae intelligibilitatis
+      ori<lb ed="#G" n="85" break="no"/>ginaliter distinctae, non tamen distinctae formaliter ex na 
+      <lb ed="#G" n="86"/>tura rei: quia hoc derogaret suae simplicitati, &amp; vnitati; Et 
+      <lb ed="#G" n="87"/>tum dicitur, quod sicut perfectioris intelligibilitatis est ex 
+      <lb ed="#G" n="88"/>parte intellectus omnia distincte intelligere, sic &amp;c. nego 
+      <lb ed="#G" n="89"/>similitudinem, quia cum de naturali perfectione diuinae es 
+      <lb ed="#G" n="90"/>sentiae sit omnia unitissime continere, ideo maioris perfe 
+      <lb ed="#G" n="91"/>ctionis est ex parte essentiae, &amp; perfectioris intelligibilita 
+      <lb ed="#G" n="92"/>tis distincta vnite repraesentate, ex natura rei intrinsecel 
+      <lb ed="#G" n="93"/>quam distincte, distinctione se tenente ex parte essentiae: 
+      <lb ed="#G" n="94"/>ed quia intellectus, vt intellectus, ex sui natura hoc
+      ha<lb ed="#G" n="95" break="no"/>bet, quod adunata potest distinguere, &amp; distincta unire, vt 
+      <lb ed="#G" n="96"/>ait <ref xml:id="HuYgTa-e81519-Rd1e887">commentator. 12 metaph</ref> ideo perfectionis est ex par 
+      <lb ed="#G" n="97"/>te intellectus, quod possit distincte intelligere ea, quae se 
+      <lb ed="#G" n="98"/>cundum se sunt formaliter, &amp; ex natura rei indistincta in 
+      <lb ed="#G" n="99"/>obiecto intellecto. 
+    </p>
+            <p xml:id="HuYgTa-e81519-d1e898">
+               <lb ed="#G" n="100"/>
+               <pc type="indent"/>Forte dicet aliquis, quod ex his sequitur, quod aliquid 
+      <lb ed="#G" n="101"/>sit apprehensiue, vel expressiue in intellectu, quod non 
+      <lb ed="#G" n="102"/>est repraesant atiue in essentia 
+    </p>
+            <p xml:id="HuYgTa-e81519-d1e909">
+               <lb ed="#G" n="103"/>
+               <pc type="indent"/>Respondeo, quod ex praedictis non sequitur, quod aliquid 
+      <lb ed="#G" n="104"/>apprehensiue sit in intellectu, quod non sit
+      repraesentati<lb ed="#G" n="105" break="no"/>ue in essentia, sed bene sequitur, quod idem est in essentia 
+      <lb ed="#G" n="106"/>&amp; in intellectu, aliter tamen, &amp; aliter: quia in essentia est 
+      <lb ed="#G" n="107"/>modo competenti intellectui penes itellectus perfectionem,
+      s<lb ed="#G" n="108" break="no"/>expssiue, &amp; distinctiue, nec tamen ex hoc itellectus differt 
+      <lb ed="#G" n="109"/>ab essentia, nisi sicut vna res aliter, &amp; aliter considerata 
+    </p>
+            <p xml:id="HuYgTa-e81519-d1e930">
+               <lb ed="#G" n="110"/>
+               <pc type="indent"/>Secundo dico, quod ideae non distinguuntur per actum 
+      <lb ed="#G" n="111"/>intellectus creati. 
+    </p>
+            <p xml:id="HuYgTa-e81519-d1e939">
+               <lb ed="#G" n="112"/>1 Quia distinguens non est posterius distincto per
+      ip<lb ed="#G" n="113" break="no"/>um, sed vt supra patuit per Aug. ideae sunt aeternae, omnis 
+      <lb ed="#G" n="114"/>autem intellectus creatus est temporalis; cum ergo om- 
+      <lb ed="#G" n="115"/>ne temporale sit posterius aeterno, ergo &amp;c
+    </p>
+            <p xml:id="HuYgTa-e81519-d1e950">
+               <lb ed="#G" n="116"/>2 Praeterea, illa, quae in Deo ab aeterno viuunt, non de 
+      <lb ed="#G" n="117"/>endent ab intellectu nostro, sed ideae in Deo ab aeterno 
+      <lb ed="#G" n="118"/>viuunt. Maior patet. Minorem ponit Aug. in questionibus 
+      <lb ed="#G" n="119"/>ad Orosium, vbi tractans illud soann. 1. quod factum est in 
+      <lb ed="#G" n="120"/>in ipso vita erat, sic ait, Omnia ergo, quae facta sunt, &amp;
+      vi<lb ed="#G" n="121" break="no"/>tam non habent, in ipso Dei verbo vita sunt. Et pautis
+      in<lb ed="#G" n="122" break="no"/>terpositis addit, viuunt igitur in Deo omnes rationes idearum. 
+      <lb ed="#G" n="123"/>&amp; qua si idem sensus habetur in Comme. super 1. cap. de 
+      <lb ed="#G" n="124"/>diuinis nominibus, ibi enim dicitur sic, In mente diuina 
+      <lb ed="#G" n="125"/>raeextiterunt ab aeterno aeternae rationes omnium crean 
+      <lb ed="#G" n="126"/>lorum, in quibus rationibus omnia viuunt, &amp; ex quorum 
+      <lb ed="#G" n="127"/>fulgoribus omnes cognitiones illustrantur, 
+    </p>
+            <p xml:id="HuYgTa-e81519-d1e979">
+               <lb ed="#G" n="128"/>
+               <pc type="indent"/>Praeterea, <ref xml:id="HuYgTa-e81519-Rd1e985">Monologion ait Anselmus</ref>, <quote xml:id="HuYgTa-e81519-Qd1e988" source="http://scta.info/resource/adcmon-c9-d1e117" synch="23-41">Nullo pacto 
+        <lb ed="#G" n="129"/>fieri potest rationabiliter aliquid ab aliquo, nisi in sapien 
+        <lb ed="#G" n="130"/>tis ratione praecedat aliquid, quasi exeniplum rei fiendae</quote>: 
+      <lb ed="#G" n="131"/>sed omnia Deus produxit in sapientia, iuxta illud Psalm. 
+      <lb ed="#G" n="132"/>
+               <quote xml:id="HuYgTa-e81519-Qd1e1000" source="http://scta.info/resource/ps103_24" synch="7-15">Omnia in sapientia fecisti; impleta est terra possessione, 
+        <lb ed="#G" n="133"/>tua</quote>, Et in <quote xml:id="HuYgTa-e81519-Qd1e1005" source="http://scta.info/resource/sap11_21" synch="23-27">numero, pondere &amp; mensura</quote>, vt ait ille sapiens 
+      <lb ed="#G" n="134"/>ergo Deus ante intellectus creati productionem prehabuit 
+      <lb ed="#G" n="135"/>ideam ipsius intellectus producendi 
+    </p>
+            <p xml:id="HuYgTa-e81519-d1e1013">
+               <lb ed="#G" n="136"/>
+               <pc type="indent"/>Praeterea, illa, quae tamquam in arte omnipotentis 
+      <lb ed="#G" n="137"/>Dei sunt in verbo diuino, non dependent a nostro
+      intel<lb ed="#G" n="138" break="no"/>lectu; ideae sunt huiusmodi. Maior est euidens Patet etiam 
+      <lb ed="#G" n="139"/>minor: quia <quote xml:id="HuYgTa-e81519-Qd1e1026" source="http://scta.info/resource/adt-l6-d1e826" synch="192-209">Verbum productum i diuinis est ars
+      omnipo<lb ed="#G" n="140" break="no"/>tentis, atque sapientis Dei plena rationibus omnium
+      ui<lb ed="#G" n="141" break="no"/>sentium</quote>, secundum <ref xml:id="HuYgTa-e81519-Rd1e1033">Aug. 8. de trin¬ </ref>
+            </p>
+            <p xml:id="HuYgTa-e81519-d1e1037">
+               <lb ed="#G" n="142"/>
+               <pc type="indent"/>Tertio dico, qud ideae praedictae distinguuntur per
+      intel<lb ed="#G" n="143" break="no"/>lectum diuinum. Ad cuius euidentiam est aduertendum 
+      <lb ed="#G" n="144"/>up, vt testatur <ref xml:id="HuYgTa-e81519-Rd1e1047">Comm. 12 metaphysice</ref>, si calor esset
+      sepa<lb ed="#G" n="145" break="no"/>ratus, tunc comprehenderet in se omnem gradum caloris, qui 
+      <lb ed="#G" n="146"/>ideo intellectus, qui huiusmodi calorem perfecte intellige 
+      <!--255.xml-->
+      <pb ed="#G" n="108-v"/>
+               <cb ed="#G" n="a"/>
+               <lb ed="#G" n="1"/>ret ol modo, quo intelligibilis esset, non solum intelligo 
+      <lb ed="#G" n="2"/>ret eum vt in se est vnus formaliter; sed et intelligeret eum 
+      <lb ed="#G" n="3"/>vt virtualiter esset omnis caloris contentiuus. llle igitur 
+      <lb ed="#G" n="4"/>calor licet formaliter, &amp; actualiter moueret intellectum 
+      <lb ed="#G" n="5"/>ad intelligendum seipsum tantum, radicaliter tamen &amp;
+      qua<lb ed="#G" n="6" break="no"/>si originaliter moueret intellectum ad cognoscendum 
+      <lb ed="#G" n="7"/>omnem alium calorem in ipso virtualiter contentum, &amp; 
+      <lb ed="#G" n="8"/>secundum, quod per ipsum principiari posset, vt existeret ex. 
+      <lb ed="#G" n="9"/>tra in materia determinata. Intollectus igitur motus a ta 
+      <lb ed="#G" n="10"/>li calore in suo prospectu distinctionem illorum produci 
+      <lb ed="#G" n="11"/>bilium caloris exprimeret actualiter, quauis eos in essen 
+      <lb ed="#G" n="12"/>tia caloris separati originaliter mouentis intellectum ad 
+      <lb ed="#G" n="13"/>huiusmodi distinctionem faciendam videret vnitissimos 
+      <lb ed="#G" n="14"/>&amp; ex natura rei penitus indistinctos. Sic in proposito
+      in<lb ed="#G" n="15" break="no"/>tellectus diuinus, cum sit infinitae perspicacitatis, adaequa 
+      <lb ed="#G" n="16"/>tus est essentiae diuinae, quae est infinitae intelligibilitatis, 
+      <lb ed="#G" n="17"/>&amp; propter hoc intellectus diuinus intelligens perfecte
+      ip<lb ed="#G" n="18" break="no"/>sam diuinam essentiam non solum, vt absolute
+      intelligi<lb ed="#G" n="19" break="no"/>bilis est secundum suam entitate formalem, sed etiam, vt 
+      <lb ed="#G" n="20"/>intelligibilis est in habitudine ad alia secundum suam con 
+      <lb ed="#G" n="21"/>tinentiam virtualem, penes multitudinem talium
+      habi<lb ed="#G" n="22" break="no"/>tuum intellectus diuinus exprimit actualiter
+      distinctio<lb ed="#G" n="23" break="no"/>nem idearum, secundum quoe originaliter motus est ab essen 
+      <lb ed="#G" n="24"/>tia iuxta suam continentiam virtualem. Et istud potest
+      de<lb ed="#G" n="25" break="no"/>clarari in vno simili tracto a Dion in de diuinis no. Dici 
+      <lb ed="#G" n="26"/>enim ibi Diony. quod sicut omnes lineae protrahibiles a me 
+      <lb ed="#G" n="27"/>dio ad circumferentiam continentur in centro, sic omnia 
+      <lb ed="#G" n="28"/>creata &amp; creabilia continentur in diuina essentia: sed pla 
+      <lb ed="#G" n="29"/>num est, quod quicunque perfecte cognoscit cetrum positum 
+      <lb ed="#G" n="30"/>in medio circumferentiae, omni modo, quo est cognosci 
+      <lb ed="#G" n="31"/>bile, ille cognoscit omnes lineas ab eo egressibiles ad cis 
+      <lb ed="#G" n="32"/>cumferentiam, vel in ipsum reducibiles a circumferentia 
+      <lb ed="#G" n="33"/>quae sunt infinitae, quamuis ipsum centrum cognoscat in 
+      <lb ed="#G" n="34"/>se penitus esse indistinctum formaliter ex natura rei. Si- 
+      <lb ed="#G" n="35"/>intellectus diuinus perfecte cognoscens diuinam
+      essen<lb ed="#G" n="36" break="no"/>tiam, quamuis ipsam in se cognoscat penitus indistinctam 
+      <lb ed="#G" n="37"/>cognoscit omnes creaturas virtute eiusdem essentiae in essi 
+      <lb ed="#G" n="38"/>producibiles, exprimens omnes ideales rationes, penes qua 
+      <lb ed="#G" n="39"/>taquam penes distinctas rationes, essentia diuina
+      distin<lb ed="#G" n="40" break="no"/>cte, &amp; determinate est imitabilis a distinctis huiusmodi 
+      <lb ed="#G" n="41"/>producibilibus, quae quidem rationes dicuntur ideae, ab 
+      <lb ed="#G" n="42"/>idos Craece, quod est forma exemplaris latine, 
+    </p>
+            <p xml:id="HuYgTa-e81519-d1e1154">
+               <lb ed="#G" n="43"/>
+               <pc type="indent"/>ARTICVLVS I. 
+      <lb ed="#G" n="44"/>otrum infinitae idee sint in Deo. 
+    </p>
+            <p xml:id="HuYgTa-e81519-d1e1163">
+               <lb ed="#G" n="45"/>VANTVM ad secundum principale, vtrum
+      infin<lb ed="#G" n="46" break="no"/>Ttae ideae sint in Deo, dico, quod infinitae ideae sunt in 
+      <lb ed="#G" n="47"/>mente diuina: nam cum idea sit forma exemplaris, ad
+      cu<lb ed="#G" n="48" break="no"/>ius similitudinem ad extra aliquid est a Deo
+      cognoscibi<lb ed="#G" n="49" break="no"/>le, &amp; producibile, cum infinita Deus cognoscat, quae
+      pro<lb ed="#G" n="50" break="no"/>ducere posset, si suae voluntati placeret, igitur infinitae idee 
+      <lb ed="#G" n="51"/>videntur esse in Deo. 
+    </p>
+            <p xml:id="HuYgTa-e81519-d1e1181">
+               <lb ed="#G" n="52"/>
+               <pc type="indent"/>Sed forte contra istud dicetur, quod sicut scientia Dei non 
+      <lb ed="#G" n="53"/>multiplicatur, quamuis scibilia multiplicantur, sic
+      quam<lb ed="#G" n="54" break="no"/>uis ideata multiplicentur, non tamen multiplicatur idea, 
+      <lb ed="#G" n="55"/>consequentia patet: quia si ideae multiplicantur ad multi 
+      <lb ed="#G" n="56"/>plicationem ideatorum, hoc maxime esset pro tanto: quia 
+      <lb ed="#G" n="57"/>idea dicitur relatiue ad ipsum ideatum, sed scientia etiam  
+      <lb ed="#G" n="58"/>dicitur relatiue ad scibile, ergo &amp;c 
+    </p>
+            <p xml:id="HuYgTa-e81519-d1e1201">
+               <lb ed="#G" n="59"/>
+               <pc type="indent"/>Respondeo negando consequentiam. Ad probationem 
+      <lb ed="#G" n="60"/>dico, quod scientia secudum suum esse formale, est quid absolutum, 
+      <lb ed="#G" n="61"/>quauis conotet respectum ad scibile, qui est de suo
+      cointel<lb ed="#G" n="62" break="no"/>lectu: idea vero secundum suum esse formale dicit respectum 
+      <lb ed="#G" n="63"/>ad ideatum, &amp; ideo non est simile de scientia, &amp; de idea 
+    </p>
+            <p xml:id="HuYgTa-e81519-d1e1217">
+               <lb ed="#G" n="64"/>
+               <pc type="indent"/>ARTICVLVS. I 
+      <lb ed="#G" n="65"/>trum malum ciulpae habeat ideam in Deo 
+    </p>
+            <p xml:id="HuYgTa-e81519-d1e1226">
+               <lb ed="#G" n="66"/>VANTVM ad tertium principale. Vtrum malum 
+      <lb ed="#G" n="67"/>Nea, culpae habeat ideam in Deo, dico, quod malum cul¬ 
+      <!--255.xml-->
+      <cb ed="#G" n="b"/>
+               <lb ed="#G" n="68"/>ae non habet ideam in Deo: quia nulla priuatio, vt priua 
+      <lb ed="#G" n="69"/>tio est, habet ideam in Deo, sed malum culpae de se dicit 
+      <lb ed="#G" n="70"/>priuationem; ergo &amp;c. 
+    </p>
+            <p xml:id="HuYgTa-e81519-d1e1245">
+               <lb ed="#G" n="71"/>
+               <pc type="indent"/>Sed forte contra illud dicetur, quod vnitas habet ideam 
+      <lb ed="#G" n="72"/>in Deo; nam Plato summam idearum posuit ideam
+      vni<lb ed="#G" n="73" break="no"/>tatis, &amp; tamen vnitas dicit priuationem diuisionis, seu 
+      <lb ed="#G" n="74"/>distinctionis. 
+    </p>
+            <p xml:id="HuYgTa-e81519-d1e1258">
+               <lb ed="#G" n="75"/>
+               <pc type="indent"/>Respondeo, quod vnitas dicit priuationem priuationis 
+      <lb ed="#G" n="76"/>puta diuisionis, &amp; ideo sicut negatio negationis, quamuis 
+      <lb ed="#G" n="77"/>vocaliter dicat negationem, realiter tamen dicit affirma 
+      <lb ed="#G" n="78"/>tionem, sic quamuis vnitas, quae est priuatio priuationis,  
+      <lb ed="#G" n="79"/>vocaliter sonet in priuationem, realiter tamen dicit
+      posi<lb ed="#G" n="80" break="no"/>tionem, &amp; ideo non est simile: quia malum culpae est tota 
+      <lb ed="#G" n="81"/>liter quid priuatiuum. 
+    </p>
+            <p xml:id="HuYgTa-e81519-d1e1278">
+               <lb ed="#G" n="82"/>
+               <pc type="indent"/>ARTICVLVS III1 
+      <lb ed="#G" n="83"/>Quomodo Deus cognoscat malum.
+    </p>
+            <p xml:id="HuYgTa-e81519-d1e1287">
+               <lb ed="#G" n="84"/>QVANTVM ad quartum principale, quomodo 
+      <lb ed="#G" n="85"/> Deus cognoscat malum, sic procedam, primo
+      po<lb ed="#G" n="86" break="no"/>nam vnam distinctionem, secundo ex ea eliciam duas 
+      <lb ed="#G" n="87"/>conclusiones. 
+    </p>
+            <p xml:id="HuYgTa-e81519-d1e1298">
+               <lb ed="#G" n="88"/>
+               <pc type="indent"/>Distinctio est illa, quod quamuis notitia Dei sit vna
+      reali<lb ed="#G" n="89" break="no"/>ter, tamen ratione diuersitatis scitorum dicitur esse triplex. 
+      <lb ed="#G" n="90"/>Vna enim Dei notitia dicitur scientia simplicis notitiae; 
+      <lb ed="#G" n="91"/>alia scientia uisionis: Et tertia scientia approbationis. Pri 
+      <lb ed="#G" n="92"/>ma est, qua Deus cognoscit omnia facta, fienda, &amp; fieri pos 
+      <lb ed="#G" n="93"/>sibilia. Secunda, qua cognoscit omnia facta, &amp;
+      fien<lb ed="#G" n="94" break="no"/>da. Tertia, qua cognoscit, ea, quae sibi sunt grata, &amp; 
+      <lb ed="#G" n="95"/>beneplacita. Ex huiusmodi distinctione patent
+      immedia<lb ed="#G" n="96" break="no"/>te duae conclusiones. 
+    </p>
+            <p xml:id="HuYgTa-e81519-d1e1322">
+               <lb ed="#G" n="97"/>
+               <pc type="indent"/>Vna, quod primis duobus modis loquendo de
+      cogni<lb ed="#G" n="98" break="no"/>tione, siue scientia Dei, Deus cognoscit omne malum 
+      <lb ed="#G" n="99"/>culpae: quia non solum Deus videt illud, quod est
+      ra<lb ed="#G" n="100" break="no"/>tio accedendi ad suam bonitatem, sed etiam illud, 
+      <lb ed="#G" n="101"/>quod est ratio deuiandi ab eadem: sed sicut caritas &amp;  
+      <lb ed="#G" n="102"/>gratia, ceteraeque virtutes sunt ratio appropinquandi 
+      <lb ed="#G" n="103"/>ad suam bonitatem, sic malum culpae est ratio deuiandi, 
+      <lb ed="#G" n="104"/>ergo &amp;c. 
+    </p>
+            <p xml:id="HuYgTa-e81519-d1e1345">
+               <lb ed="#G" n="105"/>
+               <pc type="indent"/>Secunda conclusio est, quod Deus notitia approbationis 
+      <lb ed="#G" n="106"/>nullum malum culpae cognoscit: quia omne, quod quis al 
+      <lb ed="#G" n="107"/>probat, illius aliquo modo causa esse videtur, sed Deus 
+      <lb ed="#G" n="108"/>nullius mali culpae potest esse causa, ergo &amp;c 
+    </p>
+            <p xml:id="HuYgTa-e81519-d1e1358">
+               <lb ed="#G" n="109"/>
+               <pc type="indent"/>Sed contra primam illarum conclusionum forte
+      dice<lb ed="#G" n="110" break="no"/>ur, quod omnis scientia seu notitia, aut est causa rerum, aut 
+      <lb ed="#G" n="111"/>tausatur a rebus, vt patet per <ref xml:id="HuYgTa-e81519-Rd1e1368">Auer. 12. metap.</ref> sed nec scien 
+      <lb ed="#G" n="112"/>tia simplicis notitiae, nec scientia visionis ipsius Dei est cau 
+      <lb ed="#G" n="113"/>sa mali culpae, cum Deus peccare non possit, nec est causa 
+      <lb ed="#G" n="114"/>ta a malo culpae: quia est prior emni culpa, cum sit
+      aeter<lb ed="#G" n="115" break="no"/>na, culpa vero temporalis; prius autem non causatur a po 
+      <lb ed="#G" n="116"/>steriori, ergo videtur, quod Deus nec scientia simplicis
+      noti<lb ed="#G" n="117" break="no"/>tiae, nec scientia visionis cognoscat malum culpe 
+    </p>
+            <p xml:id="HuYgTa-e81519-d1e1385">
+               <lb ed="#G" n="118"/>
+               <pc type="indent"/>Contra secundam conclusionem posset instari sic.
+      ll<lb ed="#G" n="119" break="no"/>lud, quod quis prohibere potest, &amp; non prohibet, hoc
+      ap<lb ed="#G" n="120" break="no"/>probare videtur: quia in legibus dicitur. Qui tacet
+      con<lb ed="#G" n="121" break="no"/>sentit, sed omne malum creature Deus posset
+      preue<lb ed="#G" n="122" break="no"/>nire, &amp; prohibere, si vellet, &amp; tamen linit peccatorem pec 
+      <lb ed="#G" n="123"/>care, igitur videtur approbare. 
+    </p>
+            <p xml:id="HuYgTa-e81519-d1e1403">
+               <lb ed="#G" n="124"/>
+               <pc type="indent"/>Respondeo ad primam, quod maior non estuera, nisi 
+      <lb ed="#G" n="125"/>de talibus, quae per se cognoscuntur: sed priuatione; 
+      <lb ed="#G" n="126"/>coguoscuntur per habitum: Malum enim semper
+      cogno<lb ed="#G" n="127" break="no"/>scitur per notitiam ipsius boni. Etiam minor non
+      sumi<lb ed="#G" n="128" break="no"/>tur debite sub maiore: quia peccata non sunt res, sed 
+      <lb ed="#G" n="129"/>priuationes. 
+    </p>
+            <p xml:id="HuYgTa-e81519-d1e1421">
+               <lb ed="#G" n="130"/>
+               <pc type="indent"/>Ad secundam dicendum, quod Deus prohibuit por 
+      <lb ed="#G" n="131"/>decem legis precepta omne malum culpe maxime
+      mor<lb ed="#G" n="132" break="no"/>ale; hominem tamen reliquit libertati sue, ut bene
+      u<lb ed="#G" n="133" break="no"/>us libertate sibi relicta vitam eternam mercatur, male 
+      <!--256.xml-->
+      <pb ed="#G" n="109-r"/>
+               <cb ed="#G" n="a"/>
+               <lb ed="#G" n="1"/>autem vsus tamquam forifactor a iusto iudice puniatur 
+    </p>
+            <p xml:id="HuYgTa-e81519-d1e1443">
+               <lb ed="#G" n="2"/>
+               <pc type="indent"/>Ad argumentum principale patet per iam dicta,
+      qui<lb ed="#G" n="3" break="no"/>ad cognitionem mali non oportet ponere ideam mali, quia 
+      <lb ed="#G" n="4"/>illa poni non potest, sed sufficit idea boni, ergo &amp;c 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

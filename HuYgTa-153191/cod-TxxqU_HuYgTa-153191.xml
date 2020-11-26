@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Circa textum</title>
+            <author ref="#ThomasStrasbourg">Thomas of Strasbourg</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Circa textum</title>
+               <date when="2020-11-26">November 26, 2020</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="G" n="cod-TxxqU">Genoa 1585</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2020-11-26" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#G" n="-r"/>
+            <cb ed="#G" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="HuYgTa-153191"><!-- HuYgTa-l2d38ct1 -->
+            <head xml:id="HuYgTa-153191-Hd1e108">Circa textum</head>
+            <p xml:id="HuYgTa-153191-d1e111">
+               <lb ed="#G" n="98"/>
+               <pc type="indent"/>DISTINCTIO XXVIII 
+      <lb ed="#G" n="99"/>Tractatus de actualis culpaeradice suceinta 
+      <lb ed="#G" n="100"/>ludsio, ac praesentis distinctionis non  
+      <lb ed="#G" n="101"/>obstura subdiusio, in qua de 
+      <lb ed="#G" n="102"/>voluntate, euisque fine 
+      <lb ed="#G" n="103"/>disseruur.
+    </p>
+            <p xml:id="HuYgTa-153191-d1e129">
+               <lb ed="#G" n="104"/>POST PRADICTA &amp;c. Postquam 
+      <lb ed="#G" n="105"/>Magister determinauit de peccato actua 
+      <lb ed="#G" n="106"/>li, &amp; tetigit de eius radice breuiter, &amp;  
+      <lb ed="#G" n="107"/>succincte, hic prosequitur de eadem radi 
+      <lb ed="#G" n="108"/>ce extensius &amp; distincte. Et diuiditur is 
+      <lb ed="#G" n="109"/> duas partes: quia primo determinat de 
+      <lb ed="#G" n="110"/>immediata peccati radice; puta de humana voluntate. Se 
+      <lb ed="#G" n="111"/>cundo de eius germine, puta de malo operae, quod germi- 
+      <lb ed="#G" n="112"/>nat ab humana voluntate ibi, Post haec de actibus &amp;c. Pri 
+      <lb ed="#G" n="113"/>ma in duas: nam primo Magister ostendit, vnde ista radix,  
+      <lb ed="#G" n="114"/>scilicet humana voluntas inficitur, Secundo, quo modo 
+      <lb ed="#G" n="115"/>&amp; qualiter infecta efficitur ibi, Hic oritur quaestio satis 
+      <lb ed="#G" n="116"/>&amp;c. Prima in duas quia primo ostendit, vnde ista
+      volun<lb ed="#G" n="117" break="no"/>tas dicitur recta, vel vitiosa. Secundo inquirit, quae sit in¬ l 
+      <lb ed="#G" n="118"/>ter voluntatem, finem, &amp; intentionem differentia ibi, So I 
+      <lb ed="#G" n="119"/>let etiam quaeri. Prima in duas: quia primo ostendit, quodl 
+      <lb ed="#G" n="120"/>ex fine, quem intendit voluntas, cognoscitur, quicquidi 
+      <lb ed="#G" n="121"/>in ea est rectitudinis, seu obliquitatis. Secundo quaerit
+      v<lb ed="#G" n="122" break="no"/>tium tantum vnus sinis sit ominis bonae voluntatis ibi, Sed  
+      <lb ed="#G" n="123"/>uaeritur vtrum omnes. Et haec in tres: quia primo istius 
+      <lb ed="#G" n="124"/>quaestionis po nit determinationem. Secundo contrariam 
+      <lb ed="#G" n="125"/>obiectionem Et tertio obiectionis solutionem, Secunda 
+      <lb ed="#G" n="126"/>ibi, verumtamen huic sententiae. Tertia ibi, Haec autem 
+      <lb ed="#G" n="127"/>sibi non. Sequitur illa pars, Solet etiam quaeri, In qua 
+      <lb ed="#G" n="128"/>Magister quaerit, quomodo differant ab inuicem
+      volun<lb ed="#G" n="129" break="no"/>tas, intentio, &amp; finis. Et diuiditur in duas partes; quia 
+      <lb ed="#G" n="130"/>prinio Magister determinat propositam quaestionem.
+      Se<lb ed="#G" n="131" break="no"/>cundo causa praedictorum mouet aliam incidentem
+      dubitatio<lb ed="#G" n="132" break="no"/>nem ibi, Sed quaeritur vtrum. Circa istam distinctionem quero¬
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

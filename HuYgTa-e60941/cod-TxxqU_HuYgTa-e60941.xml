@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Circa textum</title>
+            <author ref="#ThomasStrasbourg">Thomas of Strasbourg</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Circa textum</title>
+               <date when="2020-11-26">November 26, 2020</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="G" n="cod-TxxqU">Genoa 1585</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2020-11-26" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#G" n="80-v"/>
+            <cb ed="#G" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="HuYgTa-e60941"><!-- HuYgTa-l1d21ct1 -->
+            <head xml:id="HuYgTa-e60941-Hd1e108">Circa textum</head>
+            <p xml:id="HuYgTa-e60941-d1e111">
+      <!--199.xml-->
+               <pb ed="#G" n="80-v"/>
+               <cb ed="#G" n="a"/>
+               <lb ed="#G" n="1"/>DISTINCTIO XXI 
+      <lb ed="#G" n="2"/>Clara, ac perspicua diuisio praesentis distinctionis, un 
+      <lb ed="#G" n="3"/>qua difficultates quasdam ex dictis n duabus 
+      <lb ed="#G" n="4"/>distinctionibus immed: ate precedentibus 
+      <lb ed="#G" n="5"/>oriri insimuatur, atque recula, qua 
+      <lb ed="#G" n="6"/>biuiusmodi controuersiae
+      di<lb ed="#G" n="7" break="no"/>luuntur optime
+      com<lb ed="#G" n="8" break="no"/>mostratur.
+    </p>
+            <p xml:id="HuYgTa-e60941-d1e137">
+               <lb ed="#G" n="9"/>C ORITVR QVASTIO &amp;c. Hic 
+      <lb ed="#G" n="10"/>Magister ostendit ex praedictis oriri quam 
+      <lb ed="#G" n="11"/>dam difficultatem: quia enim dictum est 
+      <lb ed="#G" n="12"/>in precedentibus, quod vna sola persona 
+      <lb ed="#G" n="13"/>non est minor quam omnes tres
+      per<lb ed="#G" n="14" break="no"/>sonae; ideo inquirit hic magister, vtrum 
+      <lb ed="#G" n="15"/>dictio exclusiua possit praedicari de aliquo termino in
+      di<lb ed="#G" n="16" break="no"/>uinis: Et diuiditur in duas partes: quia primo magister 
+      <lb ed="#G" n="17"/>mouet circa hoc plures quaestiones: Secundo dat quandam 
+      <lb ed="#G" n="18"/>regulam obseruandam circa huiusmodi locutiones ibi, 
+      <lb ed="#G" n="19"/>Verum tamen vt ait Aug. Prima in tres, secundum quod 
+      <lb ed="#G" n="20"/>circa istam materiam mouet tres quaestiones: Secunda 
+      <lb ed="#G" n="21"/>ibi, Post hoc queritur : Tertia ibi, Sed iterum quaeritur &amp;c 
+      <lb ed="#G" n="22"/>Circa istam distinctionem quaero. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Circa textum</title>
+            <author ref="#ThomasStrasbourg">Thomas of Strasbourg</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Circa textum</title>
+               <date when="2020-11-26">November 26, 2020</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="G" n="cod-TxxqU">Genoa 1585</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2020-11-26" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#G" n="-r"/>
+            <cb ed="#G" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="HuYgTa-175830"><!-- HuYgTa-l3d11ct1 -->
+            <head xml:id="HuYgTa-175830-Hd1e108">Circa textum</head>
+            <p xml:id="HuYgTa-175830-d1e111">
+               <lb ed="#G" n="40"/>
+               <pc type="indent"/>DISTINCTIO XI. 
+      <lb ed="#G" n="41"/>breuissima diuisio huius distinctionis in qua
+      pro<lb ed="#G" n="42" break="no"/>pe agitur de qubusdam praedicatis, quae 
+      <lb ed="#G" n="43"/>sonant indignitatem in natura hum4. 
+      <lb ed="#G" n="44"/>ma in christo reperta.
+    </p>
+            <p xml:id="HuYgTa-175830-d1e127">
+               <lb ed="#G" n="45"/>OLETETIAM QVAR1 &amp;c.
+      Post<lb ed="#G" n="46" break="no"/>
+               <pc type="indent"/>uam Magister inquisiuit de eo, quod 
+      <lb ed="#G" n="47"/>spectare videtur ad naturae humanae di 
+      <lb ed="#G" n="48"/>gnitatem: hic de quibusdam aliis inqui 
+      <lb ed="#G" n="49"/>rit spectantibus ad indignitatem, puta, 
+      <lb ed="#G" n="50"/>ad limitationem naturae, sicut esse
+      crea<lb ed="#G" n="51" break="no"/>tum: &amp; ad limitationem mensurae,
+      sicu<lb ed="#G" n="52" break="no"/>esse inceptum, vel inchoatum; Et diuiditur in duas
+      par<lb ed="#G" n="53" break="no"/>tes: nam primo Magister, quaerit utrum simpliciter
+      de<lb ed="#G" n="54" break="no"/>beat concedi Christum habere esse creatum. Secundo, 
+      <lb ed="#G" n="55"/>vtrum debeat simpliciter concedi hominem Christum 
+      <lb ed="#G" n="56"/>habere esse inchoatum ibi, Post praedicta &amp;c. Prima in 
+      <lb ed="#G" n="57"/>duas; quia primo mota quaestione respondet, quod Chri 
+      <lb ed="#G" n="58"/>stum esse creaturam non debet concedi absolute,
+      Secun<lb ed="#G" n="59" break="no"/>do ostendit, quod potest concedi sub adiecta condicioni 
+      <lb ed="#G" n="60"/>ibi, Sed addita determinatione; Et haec in tres: quia 
+      <lb ed="#G" n="61"/>
+               <pc type="indent"/>primo exprimit hanc condicionem, seu determi- 
+      <lb ed="#G" n="62"/>
+               <pc type="indent"/>nationem. Secundo adducit vnam
+      obiectio<lb ed="#G" n="63" break="no"/>nem. Et tertio ostendit hanc
+      obiectio<lb ed="#G" n="64" break="no"/>nem non valere, &amp; esse tropicam lo 
+      <lb ed="#G" n="65"/>cutionem. Secunda ibi, Et si 
+      <lb ed="#G" n="66"/>ergo. Tertia ibi, Sed ex
+      tro<lb ed="#G" n="67" break="no"/>
+               <pc type="indent"/>picis circa hac distinctio 
+      <lb ed="#G" n="68"/>
+               <pc type="indent"/>nem quaero.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

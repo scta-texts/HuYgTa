@@ -1,0 +1,690 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#ThomasStrasbourg">Thomas of Strasbourg</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2020-11-26">November 26, 2020</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="G" n="cod-TxxqU">Genoa 1585</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2020-11-26" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#G" n="202-v"/>
+            <cb ed="#G" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="HuYgTa-154890"><!-- HuYgTa-l2d39q1 -->
+            <head xml:id="HuYgTa-154890-Hd1e108">Quaestio 1</head>
+            <head xml:id="HuYgTa-154890-Hd1e111" type="question-title">
+      An peccatum in intellectu potius, quam in 
+      voluntate esse dicatur.
+    </head>
+            <p xml:id="HuYgTa-154890-d1e114">
+               <lb ed="#G" n="21"/>
+               <pc type="indent"/>Quaestio 1. 
+      <lb ed="#G" n="22"/>An peccatum in intellectu potius, quam in 
+      volun<lb ed="#G" n="23" break="no"/>tate esse dicatur.
+    </p>
+            <p xml:id="HuYgTa-154890-d1e125">
+               <lb ed="#G" n="24"/>TRVM peccatum magis proprie dicatur 
+      <lb ed="#G" n="25"/>esse in intellectu, vel in voluntate.
+    </p>
+            <p xml:id="HuYgTa-154890-d1e132">
+      &amp;
+      vi<lb ed="#G" n="26" break="no"/>detur, quod in intellectu: quia quanto 
+      <lb ed="#G" n="27"/>aliquid immediatius se habet ad primum 
+      <lb ed="#G" n="28"/>principiu, quod omnino est inobliquabi 
+      <lb ed="#G" n="29"/>le, tanto minor defectus contingit circ 
+      <lb ed="#G" n="30"/>ipsum. Ista patet <ref xml:id="HuYgTa-154890-Rd1e145">12. metaph</ref> vbi per hoc probat
+      philoso<lb ed="#G" n="31" break="no"/>phus, quod in supercaelestibus nihil contingit casuale, &amp;  
+      <lb ed="#G" n="32"/>metaph vbi probatur, quod in sempiternis nec est
+      ma<lb ed="#G" n="33" break="no"/>tum, nec corruptio. Patet etiam 2. de generatione, vbi 
+      <lb ed="#G" n="34"/>ait philosophus, quod propter longe distare a primo prir 
+      <lb ed="#G" n="35"/>cipic, coriuptio contingit in rebus, sed voluntas
+      imme<lb ed="#G" n="36" break="no"/>diatius respicit influentiam primi principiij: Nam quauis 
+      <lb ed="#G" n="37"/>illuminatio intellectus quandoque fiat a Deo
+      medianti<lb ed="#G" n="38" break="no"/>bus secundis agentibus, puta mediantibus angelis: tamet 
+      <lb ed="#G" n="39"/>caritas &amp; gratia, quae a Deo influuntur voluntati, non po 
+      <lb ed="#G" n="40"/>sunt causari mediante aliqua creatura, sed immediate su 
+      <lb ed="#G" n="41"/>lum a Deo : ergo &amp;c
+    </p>
+            <p xml:id="HuYgTa-154890-d1e173">
+               <lb ed="#G" n="42"/>Contra in illa potentia non est proprie peccatum,
+      cu<lb ed="#G" n="43" break="no"/>ius potentiae defectus excusat peccatum, sed ignorantia, 
+      <lb ed="#G" n="44"/>quae est defectus intellectus, excusat peccatum: ergo &amp;c. 
+      <lb ed="#G" n="45"/>Hic quattuor sunt videnda. Primo de distinctione poten 
+      <lb ed="#G" n="46"/>tiarum animae, de quibus tangit <ref xml:id="HuYgTa-154890-Rd1e186">Magister in littera illius 
+        <lb ed="#G" n="47"/>di. 35.</ref> Secundo, in qua potentia proprie habet esse peccatum. 
+      <lb ed="#G" n="48"/>Tertio quid sit synderisis. Et quarto quid sit conscientia, 
+    </p>
+            <p xml:id="HuYgTa-154890-d1e194">
+               <lb ed="#G" n="49"/>
+               <pc type="indent"/>RESOLVIIO. 
+      <lb ed="#G" n="50"/>Licet intellectus &amp; voluntas suis quidem actibus inter sese distit 
+      <lb ed="#G" n="51"/>guantur, culpa tamen proprie non in intellectu, sed in 
+      <lb ed="#G" n="52"/>voluntat e esse statuitur.
+    </p>
+            <p xml:id="HuYgTa-154890-d1e207">
+               <lb ed="#G" n="53"/>ARTICVLV 1. 
+      <lb ed="#G" n="54"/>De distinctione potentiarum anmae
+    </p>
+            <p xml:id="HuYgTa-154890-d1e214">
+               <lb ed="#G" n="55"/>VANTVM ad primum dico, quod in anima nostr: 
+      <lb ed="#G" n="56"/>reperitur distinctio potentiarum penes distinctio 
+      <lb ed="#G" n="57"/>nem actuum; distinctio virium poenes distinctionem offi 
+      <lb ed="#G" n="58"/>ciorum; distinctio potestatum penes modum ipsorum mo 
+      <!--443.xml-->
+      <cb ed="#G" n="b"/>
+               <lb ed="#G" n="59"/>tuum, distinctio portionum penes distin. graduum.
+      Pri<lb ed="#G" n="60" break="no"/>mo modo distinguuntur intellectus &amp; voluntas: nam
+      in<lb ed="#G" n="61" break="no"/>telligere, &amp; velle specifice distinguntur. 1 Secundo modo 
+      <lb ed="#G" n="62"/>memoria, &amp; intellectus, quia diuersa videntur habere off 
+      <lb ed="#G" n="63"/>tia. Tertio distinguitur svnderifis a libero arbitrio, eo quod 
+      <lb ed="#G" n="64"/>svnderisis sit determinata ad vnum, &amp; videtur habere mo 
+      <lb ed="#G" n="65"/>tum naturalem: liberum autem arbitrium in suo moti 
+      <lb ed="#G" n="66"/>poterit esse oppositorum: disiunctiue tamen &amp; in sensu di 
+      <lb ed="#G" n="67"/>uiso. Quarto distinguitur ratio, quia secundum quod
+      fer<lb ed="#G" n="68" break="no"/>tur in superiora, dicitur portio superior, secundum vero 
+      <lb ed="#G" n="69"/>quod fertur in inferiora, dicitur portio inferior. 
+      <lb ed="#G" n="70"/>Sed contra predicta potest instari.
+    </p>
+            <p xml:id="HuYgTa-154890-d1e256">
+               <lb ed="#G" n="71"/>1 Quia memorari videtur esse alter actus ab
+      intelli<lb ed="#G" n="72" break="no"/>gere: ergo si potentiae distinguuntur per actus, videtur, u 
+      <lb ed="#G" n="73"/>memoria &amp; intellectus non solum sint diuersae vires, sed  
+      <lb ed="#G" n="74"/>diuersae potentiae.
+    </p>
+            <p xml:id="HuYgTa-154890-d1e267">
+               <lb ed="#G" n="75"/>2 Praeterea, actus memoriae praecedit actum intellectus: 
+      <lb ed="#G" n="76"/>ergo memoria realiter distinguitur ab intellectu.
+      Conse<lb ed="#G" n="77" break="no"/>quentia patet Antecedens probatur, quia actus intelligi 
+      <lb ed="#G" n="78"/>tiae gignitur ab actu memoriae, sicut species, quae est in
+      in<lb ed="#G" n="79" break="no"/>telligentia gignitur a specle, quae est in memoria 
+    </p>
+            <p xml:id="HuYgTa-154890-d1e281">
+               <lb ed="#G" n="80"/>
+               <pc type="indent"/>Respondeo, quod cum memorari, vt distinguitur contra 
+      <lb ed="#G" n="81"/>intelligere, non sit aliud, quam speciem intelligibilem 
+      <lb ed="#G" n="82"/>conseruare, &amp; eadem potentia possit speciem conseruare 
+      <lb ed="#G" n="83"/>&amp; operari secundum eam, vt patet etiam in oculo
+      corpo<lb ed="#G" n="84" break="no"/>rali, qui alio modo specie retinet, &amp; videt secundum cam 
+      <lb ed="#G" n="85"/>ergo actus memoriae &amp; intelligentiae non arguunt diuersas 
+      <lb ed="#G" n="86"/>potentias, quamuis aliquo modo arguant diuersas vires 
+      <lb ed="#G" n="87"/>penes distincta huiusmodi officia. Vnde non quaelibet di 
+      <lb ed="#G" n="88"/>stinctio actuum arguit distinctionem potentiarum, sed so 
+      <lb ed="#G" n="89"/>um distinctio talium actuum, qui eliciuntur circa diuersa 
+      <lb ed="#G" n="90"/>obiecta secundum distinctas rationes obiectales accepta. 
+    </p>
+            <p xml:id="HuYgTa-154890-d1e310">
+               <lb ed="#G" n="91"/>
+               <pc type="indent"/>Ad secundum nego consequentiam, quia eidem
+      poten<lb ed="#G" n="92" break="no"/>tiae possunt competere plures actus, quorum tamen vnus 
+      <lb ed="#G" n="93"/>prdinatur ad alterum, sicut imperfectus ad perfectum, &amp; 
+      <lb ed="#G" n="94"/>deo actus memoriae praecedere potest actu intelligentiae, 
+      <lb ed="#G" n="95"/>sicut eiusdem rei actus semiplenus precedit actum plenum 
+      <lb ed="#G" n="96"/>Est tamen hic aduertendum, quod secundum <ref xml:id="HuYgTa-154890-Rd1e327">Auic. in 8. li.
+      na<lb ed="#G" n="97" break="no"/>turalium parte 3.</ref> In parte animae intellectiuae non est
+      po<lb ed="#G" n="98" break="no"/>nenda memoria, quia secundum eum species non possunt 
+      <lb ed="#G" n="99"/>conseruari nisi in parte sensitiua: quam cito enim aliquis 
+      <lb ed="#G" n="100"/>desinit actualiter intelligere, tam cito species desinit esse 
+      <lb ed="#G" n="101"/>in suo intellectu Propter quod oportet secundum
+      Auic<lb ed="#G" n="102" break="no"/>si iterum vult intelligere etiam eandem rem, quam prius 
+      <lb ed="#G" n="103"/>intellexit, quod conuertat se ad intellectu agenten, vt ab ipso 
+      <lb ed="#G" n="104"/>informetur. Nec tamen ex hoc sequitur, vt ait Auic quoed ite 
+      <lb ed="#G" n="105"/>rum oporteat nos addiscere, sicut a principio, quia ab
+      exer<lb ed="#G" n="106" break="no"/>citio, &amp; vsu huiusmodi conuersionis ad intellectum agen 
+      <lb ed="#G" n="107"/>tem relinquitur in nobis quaedam habilitas, per quam
+      faci<lb ed="#G" n="108" break="no"/>lius quis conuertit se ad ipsum intellectum agentem, vt 
+      <lb ed="#G" n="109"/>ab ipso recipiat species esfsuentes, &amp; haec habilitas est
+      ha<lb ed="#G" n="110" break="no"/>bitus, quem vocamus scientiam, vt videtur velle Auici 
+      <lb ed="#G" n="111"/>Ratio autem Auic. videtur in hoc consistere: Quia idem 
+      <lb ed="#G" n="112"/>non est bene receptiuum alicuius, &amp; etiam conseruatiuu 
+      <lb ed="#G" n="113"/>eiusdem, sicut apparet in aqua, quae quidem de facili
+      reci<lb ed="#G" n="114" break="no"/>pit impressionem sigilli: detracto autem sigillo immedis 
+      <lb ed="#G" n="115"/>te figuram sigilli perdit; &amp; ecouerso apparet de ferro: sed  
+      <lb ed="#G" n="116"/>intellectus noster facillime recipit similitudines rerum 
+      <lb ed="#G" n="117"/>&amp; ideo minime seruat eas. Differt igitur memoria
+      secun<lb ed="#G" n="118" break="no"/>dum intentionem Auic. realiter ab intellectu, sicut
+      vir<lb ed="#G" n="119" break="no"/>tus sensitiua differt realiter ab intellectiua 
+    </p>
+            <p xml:id="HuYgTa-154890-d1e381">
+               <lb ed="#G" n="120"/>
+               <pc type="indent"/>Sed istud stare non potest. 
+    </p>
+            <p xml:id="HuYgTa-154890-d1e388">
+               <lb ed="#G" n="121"/>
+               <pc type="indent"/>Quia cognitiones genere differentes necessario vi 
+      <lb ed="#G" n="122"/>dentur arguere memorias realiter differentes: sed cogn 
+      <lb ed="#G" n="123"/>tio sensitiua, &amp; cognitio intellectiua differunt secundum 
+      <lb ed="#G" n="124"/>genus cognitionum: ergo alia erit memoria
+      intellectiu<lb ed="#G" n="125" break="no"/>&amp; alia sensitiua
+    </p>
+            <p xml:id="HuYgTa-154890-d1e404">
+               <lb ed="#G" n="126"/>2 Praeterea, quanto aliqua natura est firmioris
+      entita<lb ed="#G" n="127" break="no"/>tis &amp; permanentiae, tanto firmius &amp; stabilius recipit illud,  
+      <lb ed="#G" n="128"/>quod sibi imprimitur. Sed virtus intellectiua est
+      firmio<lb ed="#G" n="129" break="no"/>ris entitatis, quam virtus organica sensitiua, vt de se
+      pa<lb ed="#G" n="130" break="no"/>tet: ergo &amp;c. Maior probatur, quia omne, quod recipitur,  
+      <lb ed="#G" n="131"/>ad modum rei recipientis recipitur. 
+      <!--444.xml-->
+      <pb ed="#G" n="203-r"/>
+               <cb ed="#G" n="a"/>
+               <lb ed="#G" n="1"/>quandocumque aliquis non actu consideraret, tunc non 
+      <lb ed="#G" n="2"/>solum esset in potentia accidentali ad intelligendum, sec 
+      <lb ed="#G" n="3"/>in potentia essentiali consequens est falsum: ergo &amp; ant 
+      <lb ed="#G" n="4"/>cedens Falsitas consequentis patet 2. de anima.
+      Proba<lb ed="#G" n="5" break="no"/>tio consequentiae: quia illa est potentia essentialis respe 
+    </p>
+            <p xml:id="HuYgTa-154890-d1e437">
+               <lb ed="#G" n="6"/>
+               <pc type="indent"/>3 Praeterea, si posito Auic. esset vera: sequeretur, quod 
+      <lb ed="#G" n="7"/>ctu alicuius actus, quando aliquis ad hoc, quod exeat in actu 
+      <lb ed="#G" n="8"/>indiget aliqua forma, quam actu non habet, qua debei 
+      <lb ed="#G" n="9"/>exire in actum: sed secundum positionem Auic. quando 
+      <lb ed="#G" n="10"/>cumque aliquis actu non intelligeret, tunc semper
+      care<lb ed="#G" n="11" break="no"/>ret aliqua forma, mediante qua intelligere deberet, cum 
+      <lb ed="#G" n="12"/>in parte intellectiua nullam habeat memoriam, per quam 
+      <lb ed="#G" n="13"/>talem formam retinere posset: ergo &amp;c. 
+    </p>
+            <p xml:id="HuYgTa-154890-d1e460">
+               <lb ed="#G" n="14"/>
+               <pc type="indent"/>4 Praeterea, prius natura, si in eo non sit necessitas ac 
+      <lb ed="#G" n="15"/>posterius, potest esse sine posteriori: sed species intellectua 
+      <lb ed="#G" n="16"/>lis est prior actu natura, cum sit principium ipsius actus 
+      <lb ed="#G" n="17"/>nec necessario coexigit actum: quia intelligimus, cum vo 
+      <lb ed="#G" n="18"/>lumus, vt dicitur <ref xml:id="HuYgTa-154890-Rd1e475">3. de anima</ref>: ergo &amp;c 
+    </p>
+            <p xml:id="HuYgTa-154890-d1e479">
+               <lb ed="#G" n="19"/>
+               <pc type="indent"/>3 Praeterea, illud, quod perfectionis est in virtute
+      co<lb ed="#G" n="20" break="no"/>gnitiua inferiori, non debet denegari virtuti cognitiuae
+      su<lb ed="#G" n="21" break="no"/>periori, sed retinere speciem perfectionis est in virtutibs 
+      <lb ed="#G" n="22"/>cognitiuis inferioribus : ergo &amp;c. Maior patet. Probatio 
+      <lb ed="#G" n="23"/>minoris: quia ascendendo a sensu particulari per omnes 
+      <lb ed="#G" n="24"/>virtutes sensitiuas interiores semper perfectior magis
+      re<lb ed="#G" n="25" break="no"/>tinet speciem, quam imperfectior: sensus enim communis 
+      <lb ed="#G" n="26"/>magis retinet species, quam sensus particularis: &amp; phanta 
+      <lb ed="#G" n="27"/>sia magis, quam sensus cotmmunis: &amp; sic deinceps 
+    </p>
+            <p xml:id="HuYgTa-154890-d1e503">
+               <lb ed="#G" n="28"/>
+               <pc type="indent"/>e Praeterea, illa habilitas acquisita per exercitium con 
+      <lb ed="#G" n="29"/>uersionis ad intellectum agentem, vel est entitas
+      absolu<lb ed="#G" n="30" break="no"/>ta, aut sola relatio. Siprimo modo, tunc necessario in
+      par<lb ed="#G" n="31" break="no"/>te intellectiua habetur memoria retinens huiusmodi en 
+      <lb ed="#G" n="32"/>titatem absolutam. Si secundo modo, tunc scientia est me 
+      <lb ed="#G" n="33"/>ra relatio, quod est impossibile, cum ipsa scientia sit in pri 
+      <lb ed="#G" n="34"/>ma specie qualitatis 
+    </p>
+            <p xml:id="HuYgTa-154890-d1e523">
+               <lb ed="#G" n="35"/>
+               <pc type="indent"/>Ad rationem Auicennae dicendum, quod maior non est 
+      <lb ed="#G" n="36"/>vera, nisi in aliquibus rebus corporalibus, in quibus
+      pro<lb ed="#G" n="37" break="no"/>ter eorum impetfectionem oppositae sunt dispositiones 
+      <lb ed="#G" n="38"/>ad bene retinendum, &amp; ad faciliter recipiendum, &amp; per con 
+      <lb ed="#G" n="39"/>sequens non competunt simul eidem propter
+      huiusmo<lb ed="#G" n="40" break="no"/>di dispositiones oppositas. Hoc autem non habet locum 
+      <lb ed="#G" n="41"/>in superioribus, &amp; spiritualibus, puta in ipsa intellectiua 
+      <lb ed="#G" n="42"/>virtute, quae non mediante dispositone addita, sed immo 
+      <lb ed="#G" n="43"/>diate per suam naturam speciem recipit, &amp; retinet 
+    </p>
+            <p xml:id="HuYgTa-154890-d1e547">
+               <lb ed="#G" n="44"/>
+               <pc type="indent"/>Est etiam aduertendum, quod doctor communis posi 
+      <lb ed="#G" n="45"/>tionem Auicennae pertractans dicit, quod si memoria
+      ac<lb ed="#G" n="46" break="no"/>cipiatur solum pro vi conseruatiua specierum, tunc
+      opor<lb ed="#G" n="47" break="no"/>tet memoriam esse in parte intellectiua. Si vero de ratio 
+      <lb ed="#G" n="48"/>ne memoriae sit, quod eius obiectum sit praeteritum, tunc me 
+      <lb ed="#G" n="49"/>moria non erit in parte intellectiua: sed tantum in sensi 
+      <lb ed="#G" n="50"/>tiua, quae est apprehensiua particularium. Nam praetcritum, 
+      <lb ed="#G" n="51"/>ctum significet esse sub determinato tempore; ideo ad con 
+      <lb ed="#G" n="52"/>ditionem particularis pertinet 
+    </p>
+            <p xml:id="HuYgTa-154890-d1e571">
+               <lb ed="#G" n="53"/>
+               <pc type="indent"/>Sed quamuis primum istius distinctionis dictum fimpli 
+      <lb ed="#G" n="54"/>citer reputem esse verum. Sccundum tamen potest impugnari 
+    </p>
+            <p xml:id="HuYgTa-154890-d1e581">
+               <lb ed="#G" n="55"/>
+               <pc type="indent"/>1 Quia animae separatae quamuis non habeant memo 
+      <lb ed="#G" n="56"/>riam sensitiuam: tamen rerum particularium, &amp; praeterita 
+      <lb ed="#G" n="57"/>rum memoriam habere vident: Nam sicut ait <ref xml:id="HuYgTa-154890-Rd1e591">Aug.
+      14<lb ed="#G" n="58" break="no"/>de trin.</ref> beati recordantur se habuisse fidem in hoc mun 
+      <lb ed="#G" n="59"/>do. Item ille diues in inferno fratrum suorum recordaba 
+      <lb ed="#G" n="60"/>tur, quos habuit in hoc mundo. 
+    </p>
+            <p xml:id="HuYgTa-154890-d1e602">
+               <lb ed="#G" n="61"/>
+               <pc type="indent"/>2 Praeterea, quamuis prouidentia sit respectu tempori 
+      <lb ed="#G" n="62"/>determinati, puta respectu temporis futuri: est tamen in par 
+      <lb ed="#G" n="63"/>te intellectiua: sic quauis memoria concernat praeteritum, 
+      <lb ed="#G" n="64"/>praeteritum, tamen poterit esse in parte intellectiua
+    </p>
+            <p xml:id="HuYgTa-154890-d1e615">
+               <lb ed="#G" n="65"/>3 Praeterea, si memoria praetei: totum, vt praeterita sunt 
+      <lb ed="#G" n="66"/>non posset haberi in parte intellectiua, tunc angeli, &amp; ant 
+      <lb ed="#G" n="67"/>mae separatae praeteritorum, vt praeterita sunt, non possent 
+      <lb ed="#G" n="68"/>habere memoriam, quod simpliciter videtur esse falsum, 
+      <lb ed="#G" n="69"/>&amp; aliqualiter periculosum: quia angeli custodes nostri,
+      qua<lb ed="#G" n="70" break="no"/>si non habentes experientiam praeteritorum minus caute 
+      <lb ed="#G" n="71"/>nos possent de futuris periculis custodire. Animae ctiam  
+      <lb ed="#G" n="72"/>beatae non recordarentur passionis Christi, nec suorum 
+      <lb ed="#G" n="73"/>peccatorum, &amp; pr consequens non essent gratae de liberatio 
+      <!--444.xml-->
+      <cb ed="#G" n="b"/>
+               <lb ed="#G" n="74"/>ne a peccatis praeteritis per huiusmodi Christi passionem 
+    </p>
+            <p xml:id="HuYgTa-154890-d1e644">
+               <lb ed="#G" n="75"/>
+               <pc type="indent"/>4 Praeterea, omnis virtus cognitiua concludens
+      predi<lb ed="#G" n="76" break="no"/>catum aliquod praeteritum, &amp; particulare de particulari, 
+      <lb ed="#G" n="77"/>necessario memoratur praeteriti, vt praeteritum est, &amp;
+      co<lb ed="#G" n="78" break="no"/>vnoscit particulare, vt particulare est: sed anima separata 
+      <lb ed="#G" n="79"/>non habens memoriam sensitiuam potest huiusmodi
+      con<lb ed="#G" n="80" break="no"/>lusionem deducere: potest. n, concludere, quod hic homo su 
+      <lb ed="#G" n="81"/>scipit hanc poenam, eo quod tali dic secit hoc peccatum: ergo &amp;c. 
+    </p>
+            <p xml:id="HuYgTa-154890-d1e664">
+               <lb ed="#G" n="82"/>
+               <pc type="indent"/>3 Praeterea, intellectus potest cognoscere
+      singu<lb ed="#G" n="83" break="no"/>lare, vt singulare est, &amp; praeteritum vt praeteritum est: 
+      <lb ed="#G" n="84"/>ergo &amp; memoria intellectiua potest esse praeteriti vt 
+      <lb ed="#G" n="85"/>praeteritum est, &amp; singularis, vt singulare est. Consequentia 
+      <lb ed="#G" n="86"/>patet. Probatio antecedentis: quia omnis virtus
+      cogniti<lb ed="#G" n="87" break="no"/>ia ponens differentiam inter aliqua, illa distincte
+      cogno<lb ed="#G" n="88" break="no"/>scit vtrumque differentium extremorum. Ista patet 2. de 
+      <lb ed="#G" n="89"/>anima: per hoc enim probat Arist. quod sensus communis 
+      <lb ed="#G" n="90"/>cognoscit obiecta omnium sensuum particularium: quis 
+      <lb ed="#G" n="91"/>discernit inter ea differentiam: sed intellectus cognoscit 
+      <lb ed="#G" n="92"/>differentiam inter vniuersale &amp; particulare, &amp; inter
+      prae<lb ed="#G" n="93" break="no"/>teritum &amp; futurum; ergo &amp;c 
+    </p>
+            <p xml:id="HuYgTa-154890-d1e695">
+               <lb ed="#G" n="94"/>
+               <pc type="indent"/>Et confirmatur, quia fingulare habet per se entitatem  
+      <lb ed="#G" n="95"/>ergo &amp; per se habebit intelligibilitatem. 
+    </p>
+            <p xml:id="HuYgTa-154890-d1e705">
+               <lb ed="#G" n="96"/>
+               <pc type="indent"/>ARTICV LP S II. 
+      <lb ed="#G" n="97"/>In qua potentia proprie habeat esse peccatum.
+    </p>
+            <p xml:id="HuYgTa-154890-d1e714">
+               <lb ed="#G" n="98"/>
+               <pc type="indent"/>VANTVM ad secundum articulum pono duas con 
+      <lb ed="#G" n="99"/> clusione v.
+    </p>
+            <p xml:id="HuYgTa-154890-d1e723">
+               <lb ed="#G" n="100"/>Prima est, quod peccatum proprie non habet esse in poten 
+      <lb ed="#G" n="101"/>tia intellectiua. 
+    </p>
+            <p xml:id="HuYgTa-154890-d1e730">
+               <lb ed="#G" n="102"/>
+               <pc type="indent"/>1 Quia ex eo, quod rebus malis adhaeremus, ex hoc
+      pec<lb ed="#G" n="103" break="no"/>catum committimus, sed considerando, vel intelligendo 
+      <lb ed="#G" n="104"/>mala non adhaeremus malis: ergo &amp;c. Maior patet. Minor  
+      <lb ed="#G" n="105"/>etiam declaratur: quia quanto quis malum clarius cogno 
+      <lb ed="#G" n="106"/>scit: tato ipsum magis detestatur. Et haec videtur esse
+      inte<lb ed="#G" n="107" break="no"/>tio <ref xml:id="HuYgTa-154890-Rd1e747">Arist. 1. elencorum</ref>, vbi ait, quod scire malum non est ma  
+      <lb ed="#G" n="108"/>lum: sed velle, vel facere malum malum est 
+    </p>
+            <p xml:id="HuYgTa-154890-d1e753">
+               <lb ed="#G" n="109"/>
+               <pc type="indent"/>2 Praeterea, bonum &amp; malum sunt in rebus, vt patet e. 
+      <lb ed="#G" n="110"/>metaph verum autem &amp; falsum in intellectu. hoc suppo 
+      <lb ed="#G" n="111"/>sito arguitur sic. Secundum actum illius potentiae peccari 
+      <lb ed="#G" n="112"/>non possumus, secundum cuius potentiae actum ad malum 
+      <lb ed="#G" n="113"/>non tendimus: actus autem potentiae intellectiuae est
+      hu<lb ed="#G" n="114" break="no"/>iusmodi: ergo &amp;c. Maior patet. Probo minorem: quia in 
+      <lb ed="#G" n="115"/>intelligendo non est motus animae ad res, sed rerum ac 
+      <lb ed="#G" n="116"/>animam: &amp; ideo intelligendo mala, &amp; vilia non
+      viuifica<lb ed="#G" n="117" break="no"/>mur per tendentiam intellectus ad ipsa mala, sed mala 
+      <lb ed="#G" n="118"/>nobilitantur per tendentiam ecrum ad ipsum intellectum, 
+      <lb ed="#G" n="119"/>in quo incipiunt esse modo spirituali 
+    </p>
+            <p xml:id="HuYgTa-154890-d1e782">
+               <lb ed="#G" n="120"/>
+               <pc type="indent"/>1 Sed forte dicetur, quod opposita habent esse circa idem 
+      <lb ed="#G" n="121"/>sed aliquae virtutes habet esse in ipso intellectu, vt patet. 
+      <lb ed="#G" n="122"/>ethic. ergo &amp; aliqua vitia, &amp; per consequens aliqua pecca, 
+      <lb ed="#G" n="123"/>ta poterunt esse in intellectu. 
+    </p>
+            <p xml:id="HuYgTa-154890-d1e796">
+               <lb ed="#G" n="124"/>
+               <pc type="indent"/>2 Praeterea, fides, &amp; infidelitas sunt opposita, &amp; per
+      con<lb ed="#G" n="125" break="no"/>sequens habent fieri circa idem: sed fides est in intellectu, 
+      <lb ed="#G" n="126"/>ergo &amp; infidelitas, quae est maximum peccatum. 
+    </p>
+            <p xml:id="HuYgTa-154890-d1e807">
+               <lb ed="#G" n="127"/>
+               <pc type="indent"/>Praeterea, nihil est prohibitum, nisi quia peccatum, sed  
+      <lb ed="#G" n="128"/>multae sciae sunt prohibitae, quae habent esse in intellectu. 
+    </p>
+            <p xml:id="HuYgTa-154890-d1e816">
+               <lb ed="#G" n="129"/>
+               <pc type="indent"/>Ad primum dicendum, quod oppositum virtutis intellectua 
+      <lb ed="#G" n="130"/>is non est peccatum praecise, nisi inordinate esset volitum, vel 
+      <lb ed="#G" n="131"/>aliquo modo desideratum. Oppositum autem virtutis
+      mora<lb ed="#G" n="132" break="no"/>lis, &amp; maxime eius, quae cadit sub diuino praecepto, hoc est 
+      <lb ed="#G" n="133"/>peccatum, &amp; de illo argumentum non procedit. 
+    </p>
+            <p xml:id="HuYgTa-154890-d1e832">
+               <lb ed="#G" n="134"/>
+               <pc type="indent"/>Ad secundum dicendum, quod fidem habere non
+      pos<lb ed="#G" n="135" break="no"/>sumus nisi mediante consensu voluntatis, teste
+      Augusti<lb ed="#G" n="136" break="no"/>no, qui ait. Et si cetera quis possit nolens, tredere non 
+      <lb ed="#G" n="137"/>potest nisi uolens. Igitur infidelitas non est peccatum 
+      <lb ed="#G" n="138"/>nisi inquantum est volita. Nam secundum Augustinum 
+      <lb ed="#G" n="139"/>quod nullo modo est voluntarium, nullo modo est pecca 
+      <lb ed="#G" n="140"/>tum. Vnde si esset simpliciter inuincibilis infidelitas is 
+      <lb ed="#G" n="141"/>aliquo, talis infidelitas non esset peccatum. Debemu 
+      <lb ed="#G" n="142"/>tamen pie credere, quod in nullo homine infidelitas sit 
+      <lb ed="#G" n="143"/>omnino inuincibilis; quin potius, si talis infidelis totum 
+      <!--445.xml-->
+      <pb ed="#G" n="203-v"/>
+               <cb ed="#G" n="a"/>
+               <lb ed="#G" n="1"/>faceret, quod in se est ad inquirendum ea, quae credenda 
+      <lb ed="#G" n="2"/>sunt, Deus siue per angelos, siue per hominem, siue per 
+      <lb ed="#G" n="3"/>se ipsum sibi manifestaret credendam veritatem.
+      Exem<lb ed="#G" n="4" break="no"/>plum de Cornelio. 
+    </p>
+            <p xml:id="HuYgTa-154890-d1e873">
+               <lb ed="#G" n="5"/>
+               <pc type="indent"/>Ad tertium dicendum, quod tales non sunt scientiae 
+      <lb ed="#G" n="6"/>sed potius deceptiones. Et dato, quod aliquid scientifici 
+      <lb ed="#G" n="7"/>esset in eis, hoc non esset prohibitum, vt scientificum: sed  
+      <lb ed="#G" n="8"/>propter malae voluntatis turpe vsum: 
+    </p>
+            <p xml:id="HuYgTa-154890-d1e886">
+               <lb ed="#G" n="9"/>
+               <pc type="indent"/>Secunda conclusio est, quod peccatum proprie &amp; principa 
+      <lb ed="#G" n="10"/>liter habet esse in potentia volitiua 
+    </p>
+            <p xml:id="HuYgTa-154890-d1e896">
+               <lb ed="#G" n="11"/>
+               <pc type="indent"/>1 Quia meritum, &amp; demeritum habent esse circa idem 
+      <lb ed="#G" n="12"/>sed omne bonum tantum est meritorium, quantum est 
+      <lb ed="#G" n="13"/>est voluntarium: ergo &amp; similiter malum tantum est
+      de<lb ed="#G" n="14" break="no"/>meritorium, quantum est voluntarium, Propter quod ais 
+      <lb ed="#G" n="15"/>Aug. in de vera religione, quod omne peccatum intantum est 
+      <lb ed="#G" n="16"/>peccatum, in quantum est voluntarium. 
+    </p>
+            <p xml:id="HuYgTa-154890-d1e914">
+               <lb ed="#G" n="17"/>
+               <pc type="indent"/>2 Praeterea, secundum <ref xml:id="HuYgTa-154890-Rd1e920">Aug. 17. de trin</ref> tota
+      peruersi<lb ed="#G" n="18" break="no"/>tas est frui vtendis, &amp; vti fruendis: sed tam vti, quam frui 
+      <lb ed="#G" n="19"/>est actus voluntatis: ergo &amp;c 
+    </p>
+            <p xml:id="HuYgTa-154890-d1e928">
+               <lb ed="#G" n="20"/>
+               <pc type="indent"/>1 Sed forte dicetur, quod vti est ordinare ea, quae sunt ac 
+      <lb ed="#G" n="21"/>finem vltimum in ipsum talem finem: sed ordinare
+      spe<lb ed="#G" n="22" break="no"/>ctat ad intellectu: ergo videtur, quod vti sit actus intellectus 
+    </p>
+            <p xml:id="HuYgTa-154890-d1e939">
+               <lb ed="#G" n="23"/>
+               <pc type="indent"/>2 Item, contra conclusionem in se potest sic instari Se 
+      <lb ed="#G" n="24"/>cundum illius potentiae actum peccare non pr sumus, quae 
+      <lb ed="#G" n="25"/>est essentialiter libera: voluntas est huiusmo di. Maior
+      pa<lb ed="#G" n="26" break="no"/>et: quia dicitur. Qui facit peccatum, seruus est peccatis 
+      <lb ed="#G" n="27"/>seruitus autem re pugnat libertati. 
+    </p>
+            <p xml:id="HuYgTa-154890-d1e955">
+               <lb ed="#G" n="28"/>
+               <pc type="indent"/>Respondeo ad primum, quod licet ostendere,
+      quomo<lb ed="#G" n="29" break="no"/>do vna res ad aliam debeat otdinari spectat ad intellectu; 
+      <lb ed="#G" n="30"/>tamen exequi talem ordinem spectat ad voluntatem. Vn 
+      <lb ed="#G" n="31"/>de ait Augst. quod vti est assumere aliquid in facultatem 
+      <lb ed="#G" n="32"/>voluntatis. Vnde licet ipsius intellectus sit ostendere, quio 
+      <lb ed="#G" n="33"/>prosequendum sit, vel quid fugiendum : prosequi tamen, 
+      <lb ed="#G" n="34"/>&amp; fugere spectat ad voluntatem: cum igitur tota ratio pec 
+      <lb ed="#G" n="35"/>cati consistat in prosecutione fugiendorum, &amp; fuga prose 
+      <lb ed="#G" n="36"/>quendorum: ergo &amp;c 
+    </p>
+            <p xml:id="HuYgTa-154890-d1e979">
+               <lb ed="#G" n="37"/>
+               <pc type="indent"/>Ad aliud dicendum, quod quamuis seruitus coactionis 
+      <lb ed="#G" n="38"/>repugnet libertati; tamen seruitus voluntariae
+      subiectio<lb ed="#G" n="39" break="no"/>nis sibi non repugnat. Efficitur igitur voluntas serua pec 
+      <lb ed="#G" n="40"/>cati non coacte: sed ex hoc, quod sponte, vel voluntarie 
+      <lb ed="#G" n="41"/>consentit in actus peccatorum. 
+    </p>
+            <p xml:id="HuYgTa-154890-d1e996">
+               <lb ed="#G" n="42"/>
+               <pc type="indent"/>ART ICVLVS 1II 
+      <lb ed="#G" n="43"/>
+               <pc type="indent"/>Quid sit sonderesis.
+    </p>
+            <p xml:id="HuYgTa-154890-d1e1007">
+               <lb ed="#G" n="44"/>QVANTVM ad tertium articulum primo videndum 
+      <lb ed="#G" n="45"/>est quid sit svnderesis. Secundo vtrum svnderesis 
+      <lb ed="#G" n="46"/>in aliquo peccat ore extingui possit 
+    </p>
+            <p xml:id="HuYgTa-154890-d1e1016">
+               <lb ed="#G" n="47"/>
+               <pc type="indent"/>Quantum ad primum dico, quod svnderesis est
+      habi<lb ed="#G" n="48" break="no"/>tus principiorum in agibilibus: sicut intellectus est habi 
+      <lb ed="#G" n="49"/>us prin cipiorum in speculabilibus. Et ideo dicitur svn 
+      <lb ed="#G" n="50"/>deresis a svn, quod est con, &amp; haeresis, quod est electio, ec 
+      <lb ed="#G" n="51"/>quod per modum principiorum agibilium concurrere vi 
+      <lb ed="#G" n="52"/>seatur in omni electione rerum agibilium. Sicut etiam ha 
+      <lb ed="#G" n="53"/>bitus, qui dicitur intellectus, concurrere videtur in omni 
+      <lb ed="#G" n="54"/>speculatione rerum speculabilium. Vnde nihil aliud vide 
+      <lb ed="#G" n="55"/>tur esse svnderesis, nisi habitus, seu virtus naturalis, qua
+      n<lb ed="#G" n="56" break="no"/>turaliter inclinamur ad bonum, &amp; refutamus malum, seu 
+      <lb ed="#G" n="57"/>quo naturaliter iudicamus bonum prosequendum, &amp; ma 
+      <lb ed="#G" n="58"/>lum fugiendum 
+    </p>
+            <p xml:id="HuYgTa-154890-d1e1047">
+               <lb ed="#G" n="59"/>
+               <pc type="indent"/>Sed forte dicetur, si svndetesis respicit electionem, tunc 
+      <lb ed="#G" n="60"/>ridetur esse idem, quod liberum arbitrium,; cum liberi
+      ar<lb ed="#G" n="61" break="no"/>bitrii sit eligere, vt patuit superius, &amp; per consequens non 
+      <lb ed="#G" n="62"/>erit habitus, sed potentia 
+    </p>
+            <p xml:id="HuYgTa-154890-d1e1060">
+               <lb ed="#G" n="63"/>
+               <pc type="indent"/>Respondeo, quod svnderesis, &amp; liberum arbitrium se 
+      <lb ed="#G" n="64"/>habent modo opposito: quia hberum arbitrium dicit ipsam 
+      <lb ed="#G" n="65"/>potentiam: quae est voluntas vt habet ordinem ad
+      iudi<lb ed="#G" n="66" break="no"/>cium, intellectus de rebus eligendis, sed svnderesis dicit 
+      <lb ed="#G" n="67"/>habitum intellectualem, quo iudicamus de eligendis in 
+      <lb ed="#G" n="68"/>prdine tamen ad voluntatem. Nam cum sit habitus intel 
+      <lb ed="#G" n="69"/>lectus practici, ideo extenditur ad voluntatem: quia intel 
+      <lb ed="#G" n="70"/>lectus extensione fit practicus, vt patet <ref xml:id="HuYgTa-154890-Rd1e1081">3. de anima.</ref> 
+            </p>
+            <p xml:id="HuYgTa-154890-d1e1085">
+      <!--445.xml-->
+               <cb ed="#G" n="b"/>
+               <lb ed="#G" n="71"/>Quantum ad secundum dico, quod svnderesis directe 
+      <lb ed="#G" n="72"/>extingui non potest: quia non solum principia
+      speculabi<lb ed="#G" n="73" break="no"/>lium, verum etiam principia agibilium sunt nobis natura 
+      <lb ed="#G" n="74"/>liter nota, seu inserta in lumine intellectus agentis. Sicut  
+      <lb ed="#G" n="75"/>ergo tale lumen extingui non potest quantum ad sui sub 
+      <lb ed="#G" n="76"/>tantiam: sic nec svnderesis, quae immediate innititur tali 
+      <lb ed="#G" n="77"/>lumini. Quantum tamen ad vsum potest extingui per ac 
+      <lb ed="#G" n="78"/>cidens; nam aliqua existente corruptione in phantastico 
+      <lb ed="#G" n="79"/>organo, non pot quis habere vsum rationis nec respectu spe 
+      <lb ed="#G" n="80"/>culabilium nec respectu agibilium. Istud tamen potius debet 
+      <lb ed="#G" n="81"/>dici suspesio svnderesis, seu rationis, quam extinctio. Et ista 
+      <lb ed="#G" n="82"/>videtur esse intentio beati Hieronvmi, qui ait, quod nec 
+      <lb ed="#G" n="83"/>in Cavm huiusmodi scintilla totaliter fuit extincta. 
+    </p>
+            <p xml:id="HuYgTa-154890-d1e1121">
+               <lb ed="#G" n="84"/>
+               <pc type="indent"/>1 Sed forte dicetur, quod in illo, qui in suis peccatis li 
+      <lb ed="#G" n="85"/>tatur, videtur svnderesis esse extincta: sed aliqui peccant ex 
+      <lb ed="#G" n="86"/>electione, vt patet 7. et hic. &amp; laetantur cum malefecerint 
+      <lb ed="#G" n="87"/>&amp; exultant in rebus pessimis, vt patet in prouerb. Maior  
+      <lb ed="#G" n="88"/>patet, quia svnderesis remurmurat contra malum, &amp; incli 
+      <lb ed="#G" n="89"/>nat ad bonum 
+    </p>
+            <p xml:id="HuYgTa-154890-d1e1139">
+               <lb ed="#G" n="90"/>
+               <pc type="indent"/>2 Preterea, multi sunt infideles, qui nullum habent re 
+      <lb ed="#G" n="91"/>morsum conscientiae de sua infidelitate; ergo extincta est 
+      <lb ed="#G" n="92"/>est in eis svnderesis, quae detestatur omne peccatum. 
+    </p>
+            <p xml:id="HuYgTa-154890-d1e1150">
+               <lb ed="#G" n="93"/>
+               <pc type="indent"/>Respondeo ad primum, quod malitia facit mentiri
+      cir<lb ed="#G" n="94" break="no"/>ca principia saltem in particulari, vt patet <ref xml:id="HuYgTa-154890-Rd1e1158">8, ethic</ref>, non ta 
+      <lb ed="#G" n="95"/>men in uniuersal i: &amp; ideo licet ex mentis distractione
+      con<lb ed="#G" n="96" break="no"/>tingat quandoque, quod aliquis eligat peccatum, &amp;
+      laete<lb ed="#G" n="97" break="no"/>tur in suis iniquitatibus: tamen si reuertitur ad seipsum in 
+      <lb ed="#G" n="98"/>terna meditatione, utiqu aliqualem sentit remorsum de 
+      <lb ed="#G" n="99"/>sceleribus perpetratis 
+    </p>
+            <p xml:id="HuYgTa-154890-d1e1173">
+               <lb ed="#G" n="100"/>
+               <pc type="indent"/>Ad secundum dicendum, quod hoc non contingit in
+      in<lb ed="#G" n="101" break="no"/>fideli propter extinctionem svnderisis: sed pro tanto; quia 
+      <lb ed="#G" n="102"/>svllogixando false subsumit, per ipsam enim svnderesim 
+      <lb ed="#G" n="103"/>assumit hanc ueram maiorem, quod omnis infidelitas est 
+      <lb ed="#G" n="104"/>detestanda; sed per actum rationis errantis subsumit
+      fal<lb ed="#G" n="105" break="no"/>sam minorem, qua dicit, quod non sua opinio, sed
+      opposi<lb ed="#G" n="106" break="no"/>tum suae opinionis est infidelitas; &amp; ideo false concludit,  
+      <lb ed="#G" n="107"/>uamuis ueram habeat notitiam principiorum. 
+    </p>
+            <p xml:id="HuYgTa-154890-d1e1195">
+               <lb ed="#G" n="108"/>
+               <pc type="indent"/>ARTICVLVS IIIL 
+      <lb ed="#G" n="109"/>
+               <pc type="indent"/>Quid sit conscientia.
+    </p>
+            <p xml:id="HuYgTa-154890-d1e1206">
+               <lb ed="#G" n="110"/>QVANTVM ad quartum principale uidendum est 
+      <lb ed="#G" n="111"/> quid sit conscientia. Et quantum ad hoc dico, quod 
+      <lb ed="#G" n="112"/>conscientia est applicata scientia. Nam quando scientiam, 
+      <lb ed="#G" n="113"/>quam habemus de agibilibus, actu applicamus ad hoc
+      agi<lb ed="#G" n="114" break="no"/>bile, uel ad illud, tunc in nobis fit conscientia, uel de
+      pro<lb ed="#G" n="115" break="no"/>sequendo, si bonum est, uel de fugiendo, si malum est. 
+    </p>
+            <p xml:id="HuYgTa-154890-d1e1223">
+               <lb ed="#G" n="116"/>
+               <pc type="indent"/>Ad cuius intellectum est sciendum, quod sicut
+      svllogi<lb ed="#G" n="117" break="no"/>gando in speculabilibus tria concurrunt, scilicet habitus 
+      <lb ed="#G" n="118"/>principiorum, qui dicitur intellectus, &amp; scientia; ita quod 
+      <lb ed="#G" n="119"/>intellectus praebet maiorem, puta omne totum est maius 
+      <lb ed="#G" n="120"/>ua parte; ratio quae discurrit circa singularia, subsumit mi 
+      <lb ed="#G" n="121"/>norem, puta circulus respectu semicirculi est quoddam to 
+      <lb ed="#G" n="122"/>tum, &amp; scientia insistit conclusioni, puta quod circulus est 
+      <lb ed="#G" n="123"/>maior semicirculo, sic svllogixando in agibilibus haec tria 
+      <lb ed="#G" n="124"/>concurrunt. s.svnderesis, ratio, &amp; conscientia, ita quod svn 
+      <lb ed="#G" n="125"/>deresis praebet maiorem, puta nulli inferenda est iniuria, 
+      <lb ed="#G" n="126"/>ratio minorem, puta rem alienam inuito domino
+      accipe<lb ed="#G" n="127" break="no"/>re est iniuria: igitur conscientia insistit conclusioni, puta, 
+      <lb ed="#G" n="128"/>quod a nullo sua res debet auferri ipso inuito 
+    </p>
+            <p xml:id="HuYgTa-154890-d1e1256">
+               <lb ed="#G" n="129"/>
+               <pc type="indent"/>Secundo dico, quod omnis faciens directe contra
+      con<lb ed="#G" n="130" break="no"/>scientiam suam, peccat. 
+    </p>
+            <p xml:id="HuYgTa-154890-d1e1265">
+               <lb ed="#G" n="131"/>
+               <pc type="indent"/>1 Quia omnis ille, qui credit se malefacere, &amp; tamen 
+      <lb ed="#G" n="132"/>non resistit, sed huiusmodi opus prosequitur, ille, qui 
+      <lb ed="#G" n="133"/>eccat, faciens directe contra conscientiam suam est
+      hu<lb ed="#G" n="134" break="no"/>usmodi; ergo &amp;c 
+    </p>
+            <p xml:id="HuYgTa-154890-d1e1278">
+               <lb ed="#G" n="135"/>
+               <pc type="indent"/>2 Praeterea, ad rationem peccati sufficit, quod quis velit pec 
+      <lb ed="#G" n="136"/>care, sed ois facies contra comscientiam uult peccare; ergo &amp;c. 
+    </p>
+            <p xml:id="HuYgTa-154890-d1e1287">
+               <lb ed="#G" n="137"/>
+               <pc type="indent"/>Sed sorte dicetur, quod si istud esset uerum, tunc habent 
+      <lb ed="#G" n="138"/>erroneam conscientiam esset perplexus, quia si agit secundum 
+      <lb ed="#G" n="139"/>suam conscientiam, tunc peccat, alias couscientia non esset 
+      <lb ed="#G" n="140"/>erronea. Si autem non agit, tuc secundum issam conclusionem 
+    </p>
+            <p xml:id="HuYgTa-154890-d1e1300">
+      <!--446.xml-->
+               <pb ed="#G" n="204-r"/>
+               <cb ed="#G" n="a"/>
+               <lb ed="#G" n="1"/>Iterum peccatum committet, scu peccabit, co quod
+      mili<lb ed="#G" n="2" break="no"/>tat contra ea, quae sua conscientia dictat 
+    </p>
+            <p xml:id="HuYgTa-154890-d1e1314">
+               <lb ed="#G" n="3"/>
+               <pc type="indent"/>Respondeo, quod talis esset per plexus secundum quid 
+      <lb ed="#G" n="4"/>puta ipse est perplexus, quamdiu manet in tali errore, per 
+      <lb ed="#G" n="5"/>tinaciter nolens vti super eo ipsorum sapientum, &amp;
+      littera<lb ed="#G" n="6" break="no"/>torum consilio:tamen non est ibi perplexitas simpliciter; quia 
+      <lb ed="#G" n="7"/>fi voluerit confugere ad sapientum, &amp; satrae scripturae instructio 
+      <lb ed="#G" n="8"/>nem, seu consilium ab huiusmodi errore poterit liberari 
+      <lb ed="#G" n="9"/>Quod autem ipso in suo errore durante perplexus sit, &amp; 
+      <lb ed="#G" n="10"/>quamcumque partem eligat, quod peccet, expresse
+      pa<lb ed="#G" n="11" break="no"/>ret per Magistrum sententiarum in glosa super illo
+      ver<lb ed="#G" n="12" break="no"/>bo <ref xml:id="HuYgTa-154890-Rd1e1340">ad Roma. 14</ref>. <quote xml:id="HuYgTa-154890-Qd1e1343" source="http://scta.info/resource/rom14_23" synch="12-19">Omne autem, quod non est ex fide,
+      pec<lb ed="#G" n="13" break="no"/>catum est</quote>. 
+    </p>
+            <p xml:id="HuYgTa-154890-d1e1349">
+               <lb ed="#G" n="14"/>
+               <pc type="indent"/>Forte dicetur, quod praeceptum iudicis inferioris non  
+      <lb ed="#G" n="15"/>obligat aliquem, vbi obuiat praecepto domini superioris 
+      <lb ed="#G" n="16"/>sed comscientia gerit vicem iudicis inferioris: ergo eius prae 
+      <lb ed="#G" n="17"/>reptum non obligat, vbi repugnat praecepto Dei. 
+      <lb ed="#G" n="18"/>Respondeo, quod quamuis quis non peccat faciendo 
+      <lb ed="#G" n="19"/>contra praeceptum iudicis inferioris, vbi scit, quod tale 
+      <lb ed="#G" n="20"/>praeceptum repugnat mandato superioris domini: tamen 
+      <lb ed="#G" n="21"/>si ipse credit tale praeceptum esse de intentione domini 
+      <lb ed="#G" n="22"/>superioris, tuc peccat tale praeceptum transgrediendo, eo 
+      <lb ed="#G" n="23"/>quod in hoc ipse intendat transgredi mandatum superio 
+      <lb ed="#G" n="24"/>ris domini. Sic autem est in proposito: quia faciens contra 
+      <lb ed="#G" n="25"/>conscientiam, credit facere contra Dei voluntatem. 
+    </p>
+            <p xml:id="HuYgTa-154890-d1e1380">
+               <lb ed="#G" n="26"/>
+               <pc type="indent"/>Ad argumentum principale dicendum, quod non
+      ob<lb ed="#G" n="27" break="no"/>stante tali immediatione, ipsa voluntas ratione suae liber. 
+      <lb ed="#G" n="28"/>tatis potest se auertere ab illo inobliquabili principio, &amp;  
+      <lb ed="#G" n="29"/>ideo potest peccare, nec ceterae potentiae possunt
+      pecca<lb ed="#G" n="30" break="no"/>re nisi voluntate assentiente.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

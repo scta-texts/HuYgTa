@@ -1,0 +1,706 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#ThomasStrasbourg">Thomas of Strasbourg</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2020-11-26">November 26, 2020</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="G" n="cod-TxxqU">Genoa 1585</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2020-11-26" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#G" n="145-v"/>
+            <cb ed="#G" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="HuYgTa-110682"><!-- HuYgTa-l2d4et5q1 -->
+            <head xml:id="HuYgTa-110682-Hd1e108">Quaestio 1</head>
+            <head xml:id="HuYgTa-110682-Hd1e111" type="question-title">
+      An angeli fuerunt creati beati.
+    </head>
+            <p xml:id="HuYgTa-110682-d1e114">
+               <lb ed="#G" n="122"/>
+               <pc type="indent"/>Quaestio. I 
+      <lb ed="#G" n="123"/>An angeli fuerunt creati beati.
+    </p>
+            <p xml:id="HuYgTa-110682-d1e123">
+               <lb ed="#G" n="124"/>VTRVM angeli fuerunt creati beati.
+    </p>
+            <p xml:id="HuYgTa-110682-d1e128">
+      Et videtur quod 
+      <lb ed="#G" n="125"/>sic: quia clare Deum videre est esse beatum: quii 
+      <lb ed="#G" n="126"/>secundum <ref xml:id="HuYgTa-110682-Rd1e134">Augustin¬ primo de trin</ref> 
+               <quote xml:id="HuYgTa-110682-Qd1e137" source="http://scta.info/resource/adt-l1-d1e103" synch="138-142">visio est tota merces</quote> 
+               <!--330.xml-->
+               <pb ed="#G" n="146-r"/>
+               <cb ed="#G" n="a"/>
+               <lb ed="#G" n="1"/>fed a primo instanti suae creationis angeli clare viderunt 
+      <lb ed="#G" n="2"/>Deum: nam cum angelus non cognoscat discursiue, sed  
+      <lb ed="#G" n="3"/>simplici intuitu; ideo non cogaouit Deum per creaturas 
+      <lb ed="#G" n="4"/>sed in seipso: &amp; cum in sua cognitione non utatur
+      phan<lb ed="#G" n="5" break="no"/>tasmate, non cognouit Deum obscure, sed clare. 
+    </p>
+            <p xml:id="HuYgTa-110682-d1e160">
+               <lb ed="#G" n="6"/>
+               <pc type="indent"/>Contra, non prius fuerunt boni beati, quam mali dam 
+      <lb ed="#G" n="7"/>nati; sed mali non fuerunt creati damnati, quia alias eori 
+      <lb ed="#G" n="8"/>damnatio retorqueretur in solum Deum, eo quod non 
+      <lb ed="#G" n="9"/>processisset ex eorum demeritis. Quia Magister in istis 
+      <lb ed="#G" n="10"/>duabus distinctionibus tractat de gratia &amp; beatitudini 
+      <lb ed="#G" n="11"/>angelorum; ideo sic procedam. Primo enim inquiram di 
+      <lb ed="#G" n="12"/>eo, quod queritur, Secundo videndum est, vtrum fuerin 
+      <lb ed="#G" n="13"/>creati in gratia, &amp; hoc quantum ad istam quartam
+      distin<lb ed="#G" n="14" break="no"/>ctionem. Tertio, vtrum angeli indiguerint gratia ad hoc 
+      <lb ed="#G" n="15"/>quod Deum meritorie diligerent. Et quarto, vtrum
+      me<lb ed="#G" n="16" break="no"/>ruerint suam beatitudinem, &amp; hoc quantum ad quintam 
+      <lb ed="#G" n="17"/>distinctionem. 
+    </p>
+            <p xml:id="HuYgTa-110682-d1e191">
+               <lb ed="#G" n="18"/>
+               <pc type="indent"/>RESOLVTIO. 
+      <lb ed="#G" n="19"/>Angeli in initio suae cveationis haud perfecte beati extit ere; er 
+      <lb ed="#G" n="20"/>quo gratie gratum faciens non fuit sibi infusa, licet quadan 
+      <lb ed="#G" n="21"/>natur ali perfectione futrint decorati. Vnde nec in primo
+      in<lb ed="#G" n="22" break="no"/>stanti snae creationis mereri poterant. 
+    </p>
+            <p xml:id="HuYgTa-110682-d1e207">
+               <lb ed="#G" n="23"/>
+               <pc type="indent"/>ARTICVLVSI 
+      <lb ed="#G" n="24"/>Vtrum Angesi fuerint creati 
+      <lb ed="#G" n="25"/>
+               <pc type="indent"/>beati.
+    </p>
+            <p xml:id="HuYgTa-110682-d1e220">
+               <lb ed="#G" n="26"/>QVANTVM ad primum est distinguendum, quia bea 
+      <lb ed="#G" n="27"/>titudo dupliciter potest sumi. vno modo proprio 
+      <lb ed="#G" n="28"/>&amp; perrecte. Alio modo large &amp; imperfecte. 
+    </p>
+            <p xml:id="HuYgTa-110682-d1e229">
+               <lb ed="#G" n="29"/>
+               <pc type="indent"/>Primo modo angeli non fuerunt creati beati. 
+      <lb ed="#G" n="30"/>1 Quia perfecte nullus est Beatus, qui non habet quic 
+      <lb ed="#G" n="31"/>quid vule: sed in principio suae creationis angeli non
+      ha<lb ed="#G" n="32" break="no"/>buerunt quicquid voluerunt. Maior patet per August. 1: 
+      <lb ed="#G" n="33"/>de tri vbi ait, quod ille Beatus est, qui habet quicquio 
+      <lb ed="#G" n="34"/>rult, &amp; nihil mali vult; Minor etiam patet, quia eorum
+      ali<lb ed="#G" n="35" break="no"/>qui quia inordinate appetierunt: ideo ceciderunt.
+    </p>
+            <p xml:id="HuYgTa-110682-d1e249">
+               <lb ed="#G" n="36"/>2 Praeterea, de ratione perfectae beatitudinis est
+      per<lb ed="#G" n="37" break="no"/>fecta securitas cum e xclusione omnis erroris; sed a
+      prin<lb ed="#G" n="38" break="no"/>cipio ereationis ista non fuerunt in angelis. Maior patet 
+      <lb ed="#G" n="39"/>per <ref xml:id="HuYgTa-110682-Rd1e259">August. 11. de ciui. Dei</ref>, vbi ait, quod <quote xml:id="HuYgTa-110682-Qd1e263" source="http://scta.info/resource/adcd-l11-d1e1593" synch="10-46">beatitudo effici 
+        <lb ed="#G" n="40"/>tur ex eo, quod intellectualis natura incommutabili
+      bo<lb ed="#G" n="41" break="no"/>no, quod Deus est, sine vlla molestia perfruatur, &amp; in ec 
+        <lb ed="#G" n="42"/>se in aeternum esse mensuram, nec vlla dubitatione
+      cun<lb ed="#G" n="43" break="no"/>ctetur: nec vllo errore fallatur</quote>. Minor patet per eundem 
+      <lb ed="#G" n="44"/>
+               <ref xml:id="HuYgTa-110682-Rd1e276">August. eodem capitulo</ref>, vbi ait, Siue angeli mali
+      scien<lb ed="#G" n="45" break="no"/>res suum casum timerent, <quote xml:id="HuYgTa-110682-Qd1e281" source="http://scta.info/resource/adcd-l11-d1e1587" synch="207-220">siue nescientes aliud putarent 
+        <lb ed="#G" n="46"/>scientes timor, nescientes error beatos vtique esse non 
+        <lb ed="#G" n="47"/>sinebat.</quote> 
+            </p>
+            <p xml:id="HuYgTa-110682-d1e290">
+               <lb ed="#G" n="48"/>
+               <pc type="indent"/>3 Praeterea, si angeli a principio fuissent perfecte bea 
+      <lb ed="#G" n="49"/>ri, nullus eorum cadere potuisset: falsitas consequentis 
+      <lb ed="#G" n="50"/>patet de facto in eis, qui damnati sunt, consequentiam pro 
+      <lb ed="#G" n="51"/>bo: quia in actu perfectae bcatitudinis includitur actus 
+      <lb ed="#G" n="52"/>fruitionis, quo Deus tam perfectae diligitur, quod amans 
+      <lb ed="#G" n="53"/>ab amore nequaquam poterit resilire¬ 
+    </p>
+            <p xml:id="HuYgTa-110682-d1e308">
+               <lb ed="#G" n="54"/>
+               <pc type="indent"/>Forte dicetur, quod quamuis per hoc probetur, quod 
+      <lb ed="#G" n="55"/>angeli mali non fuerint creati beati, de bonis tamen
+      an<lb ed="#G" n="56" break="no"/>gelis ista non concludunt.
+    </p>
+            <p xml:id="HuYgTa-110682-d1e319">
+               <lb ed="#G" n="57"/>Respondeo, quod si concludunt de vno, tunc
+      conclu<lb ed="#G" n="58" break="no"/>dunt de omnibus: quia secundum <ref xml:id="HuYgTa-110682-Rd1e325">August. 11. super Cien¬</ref> 
+               <lb ed="#G" n="59"/>diabolus cum suis in principio ante suum peccatum nonn 
+      <lb ed="#G" n="60"/>fuit diseretus, siue distinctus ab aliis angelis, nisi in soli 
+      <lb ed="#G" n="61"/>naturalibus: &amp; quia diabolus dulcedinem Peatae angelica 
+      <lb ed="#G" n="62"/>vitae numquam gustauit, vt ait <ref xml:id="HuYgTa-110682-Rd1e337">August. in eodem libro</ref>, 
+      <lb ed="#G" n="63"/>ideo nec alii principio suae creationis ipsam gustauerunt 
+      <lb ed="#G" n="64"/>cum non fuerit in eis distinctio quantum ad gratuita. 
+    </p>
+            <p xml:id="HuYgTa-110682-d1e345">
+               <lb ed="#G" n="65"/>
+               <pc type="indent"/>Sed loquendo de beatitudine large &amp; imperfecte, tumo 
+      <lb ed="#G" n="66"/>angeli fuerunt creati boni.
+    </p>
+            <p xml:id="HuYgTa-110682-d1e354">
+      <!--330.xml-->
+               <cb ed="#G" n="b"/>
+               <lb ed="#G" n="67"/>1 Quia non minus fuit angelus Heatus a prima sua com 
+      <lb ed="#G" n="68"/>
+               <pc type="indent"/>ditione, quam homo fuerit in paradiso, vel virtuosus
+      ho<lb ed="#G" n="69" break="no"/>mo in mundo: sed secundum August. isti dicuntur Beati; 
+      <lb ed="#G" n="70"/>igitur &amp; angeli. Maior patet: minorem ponit August: 11 
+      <lb ed="#G" n="71"/>de ciuit. Dei, dicens. Quis enim illos primos homines in 
+      <lb ed="#G" n="72"/>paradiso negare audeat beatos fuisse ante peccatum, cum 
+      <lb ed="#G" n="73"/>hodic non impudenter beatos vocemus, quos videmus 
+      <lb ed="#G" n="74"/>pie, ac iuste hanc vitam ducere sine crimine uastante con 
+      <lb ed="#G" n="75"/>scientiam.
+    </p>
+            <p xml:id="HuYgTa-110682-d1e383">
+               <lb ed="#G" n="76"/>2 Praeterea, multo perfectius omnes angeli
+      cognoue<lb ed="#G" n="77" break="no"/>runt Deum a principio suae conditionis, quam in
+      conten<lb ed="#G" n="78" break="no"/>platione ex puris naturalibus quicumque homo possit 
+      <lb ed="#G" n="79"/>cognoscere Deum: sed philosophi posuerunt homines 
+      <lb ed="#G" n="80"/>peatificari in contemplatione Dei &amp; substantiarum
+      se<lb ed="#G" n="81" break="no"/>paratarum, vt patet 1o ethicorum, igitur multo magis 
+      <lb ed="#G" n="82"/>ingeli a primordio suae creationis poterunt dici fuisse bea 
+      <lb ed="#G" n="83"/>ti, Et iuxta istam distinctionem poterunt satis congrue 
+      <lb ed="#G" n="84"/>exponi omnes auctoritates sanctotum, quae de ista
+      mate<lb ed="#G" n="85" break="no"/>ria quandoque contrariae videntur sonare. 
+    </p>
+            <p xml:id="HuYgTa-110682-d1e408">
+               <lb ed="#G" n="86"/>
+               <pc type="indent"/>ARTICVLVS I. 
+      <lb ed="#G" n="87"/>Vtrum Angeli suerint ereati in gratia 
+    </p>
+            <p xml:id="HuYgTa-110682-d1e417">
+               <lb ed="#G" n="88"/>
+               <pc type="indent"/>VANTVM ad secundum articulum potest dici, quod 
+      <lb ed="#G" n="89"/>C duplex est gratia, vt patebit in 3. libro scilcet
+      gr<lb ed="#G" n="90" break="no"/>tia gratis data, &amp; gratia gratum faciens: In prima gratia 
+      <lb ed="#G" n="91"/>fuerunt creati omnes angeli, non autem in secunda. 
+    </p>
+            <p xml:id="HuYgTa-110682-d1e430">
+               <lb ed="#G" n="92"/>
+               <pc type="indent"/>Primum probo: quia omne donum Dei &amp; specialite 
+      <lb ed="#G" n="93"/>virtutis &amp; cognitionis, cuius merita non praecedunt, ess 
+      <lb ed="#G" n="94"/>gratia gratis data: sed cum multis donis &amp;
+      perfectioni<lb ed="#G" n="95" break="no"/>bus &amp; specialiter virtutibus &amp; cognitionibus Deus
+      crea<lb ed="#G" n="96" break="no"/>uit angelos tam bonos, quam malos, iuxta quod dicitus 
+      <lb ed="#G" n="97"/>de primo, qui cecidit, Tu signaculum similitudinis,
+      ple<lb ed="#G" n="98" break="no"/>nus sapientia, &amp; perfectus decore in delitiis paradisi Deus 
+      <lb ed="#G" n="99"/>fuisti; omnis lapis pretiosus operimentum tuum 
+    </p>
+            <p xml:id="HuYgTa-110682-d1e452">
+               <lb ed="#G" n="100"/>
+               <pc type="indent"/>Secundam conclusionem probo sic. 
+      <lb ed="#G" n="101"/>1 Ille, qui non potest proficere, non habet gratiam  
+      <lb ed="#G" n="102"/>gratum facientem, maxime si est viator, ita, quod non es 
+      <lb ed="#G" n="103"/>perfecte Beatus, sed angeli a principio suae creationis non 
+      <lb ed="#G" n="104"/>potuerunt proficere, vt patet per Magistrum in littera; quia 
+      <lb ed="#G" n="105"/>quamuis, vt ait Magister, haberent, quo possent stare, non 
+      <lb ed="#G" n="106"/>tamen habuerunt, quo possent proficere, nec fuerunt
+      per<lb ed="#G" n="107" break="no"/>fecte beati, vt patet in articulo praecedenti, ergo &amp;c. 
+      <lb ed="#G" n="108"/>2 Praeterea, creatura videns se esse in gratia numquam 
+      <lb ed="#G" n="109"/>a gratia potest resilire, maxime si perfecta fuerit illa noti 
+      <lb ed="#G" n="110"/>tia, siue visio: sed angelus principio suae creationis
+      perfe<lb ed="#G" n="111" break="no"/>cte cognouit se &amp; omnia, quae fuerunt in se:minor pateti 
+      <lb ed="#G" n="112"/>pbo maiorem, quia cum gratia sit pulcherrimus decor
+      na<lb ed="#G" n="113" break="no"/>turae, quicumque huiusmodi decorem in se videret, non 
+      <lb ed="#G" n="114"/>osset ipsum non appetere, immo minus posset ipsum non 
+      <lb ed="#G" n="115"/>appetere, quam etiam quamcumque naturalem suam 
+      <lb ed="#G" n="116"/>perfectionem, cum sit venustior omni naturali perfectione; 
+      <lb ed="#G" n="117"/>cum igitur side teneamus angelum in peccatum cecidisse 
+      <lb ed="#G" n="118"/>sequitur, quod gratiam non habuerit. 
+    </p>
+            <p xml:id="HuYgTa-110682-d1e498">
+               <lb ed="#G" n="119"/>
+               <pc type="indent"/>Praeterea, Deus hominem non creauit cum gratia 
+      <lb ed="#G" n="120"/>gratum faciente: ergo nec Angelum: antecedens patet 
+      <lb ed="#G" n="121"/>
+               <ref xml:id="HuYgTa-110682-Rd1e508">p Aug. 11. de ciui. Dei</ref>, vbi ait, quod <quote xml:id="HuYgTa-110682-Qd1e512" source="http://scta.info/resource/adcd-l11-d1e1590" synch="140-146">quantum ad <unclear>spem</unclear> 
+                  <lb ed="#G" n="122"/>futuri boni beatior est quilibet</quote> iustus i hac vita, quam pri 
+      <lb ed="#G" n="123"/>mi parentes, cuius rationem reddit <ref xml:id="HuYgTa-110682-Rd1e522">Magister hic in
+      litte<lb ed="#G" n="124" break="no"/>ra</ref>: quia iustus in hac vita habet quo possit proficere;
+      pri<lb ed="#G" n="125" break="no"/>mus autem homo quamuis haberet, quo posset stare, icili 
+      <lb ed="#G" n="126"/>cet originalem iustitiam: non tamen habuit, quo posset pro 
+      <lb ed="#G" n="127"/>ficere, scilicet Dei gratiam consequentiam probo, quia con 
+      <lb ed="#G" n="128"/>ditor ordinatus non minus nititur substentare partem
+      de<lb ed="#G" n="129" break="no"/>biliorem de facili ruinosam, quam partem fortiorem &amp; 
+      <lb ed="#G" n="130"/>naturaliter minus ruinosam: sed homo infirmior fuit
+      an<lb ed="#G" n="131" break="no"/>gelo, &amp;plures causas habuit ruinae, habuit enim causam in 
+      <lb ed="#G" n="132"/>trinseca appetitum sensitiuum, &amp; extrinsecam, scilicet suu 
+      <lb ed="#G" n="133"/>tentatorem diabolum, &amp; tamen huiusmodi non fuit 
+      <lb ed="#G" n="134"/>concreatum gratiae fulcimentum, igitur nec angelo, qui 
+      <lb ed="#G" n="135"/>caruit incitamentis iam dictis ad ruinam. 
+    </p>
+            <p xml:id="HuYgTa-110682-d1e552">
+      <!--331.xml-->
+               <pb ed="#G" n="146-v"/>
+               <cb ed="#G" n="a"/>
+               <lb ed="#G" n="1"/>Sed contrarium istius conclusionis tenent aliqui solem  
+      <lb ed="#G" n="2"/>nes doctores, quod probant sic.
+    </p>
+            <p xml:id="HuYgTa-110682-d1e566">
+               <lb ed="#G" n="3"/>1 In primo principio creationis omnia fuerunt simul 
+      <lb ed="#G" n="4"/>creata, vel in se, veFin suis rationibus seminalibus: sed in 
+      <lb ed="#G" n="5"/>llo primo instanti gloria angelorum non fuit creata in se: 
+      <lb ed="#G" n="6"/>quia tunc angeli fuissent creati beati: ergo talis gloria fuit 
+      <lb ed="#G" n="7"/>creata in suo seminario, quod est ipsa gratia gratum faciens; 
+      <lb ed="#G" n="8"/>ergo &amp;c.
+    </p>
+            <p xml:id="HuYgTa-110682-d1e582">
+               <lb ed="#G" n="9"/>2 Praeterea, non magis retardauit Deus ornatum
+      crea<lb ed="#G" n="10" break="no"/>turae spiritualis, quam corporalis: sed corpora
+      caelesti<lb ed="#G" n="11" break="no"/>principio suae creationis immediate Deus ornauit suis lu 
+      <lb ed="#G" n="12"/>minibus: ergo &amp; creaturam spiritualem ornauit gratia &amp;  
+      <lb ed="#G" n="13"/>virtutibus.
+    </p>
+            <p xml:id="HuYgTa-110682-d1e595">
+               <lb ed="#G" n="14"/>3 Praeterea, diuina liberalitas semper parata est dare 
+      <lb ed="#G" n="15"/>gratiam, vbi obicem non inuenit ex parte suscipientis: set 
+      <lb ed="#G" n="16"/>angeli in primo instanti suae creationis nullum habuerunt 
+      <lb ed="#G" n="17"/>in se impedimentum gratiae suscipiendae.
+    </p>
+            <p xml:id="HuYgTa-110682-d1e606">
+               <lb ed="#G" n="18"/>4 Praeterea, cum pronior sit Deus ad miserendum, quam 
+      <lb ed="#G" n="19"/>ad condemnandum, non minus concreauit angelis princ 
+      <lb ed="#G" n="20"/>pium merendi, quam principium demerendi: sed Deus 
+      <lb ed="#G" n="21"/>concreauit angelis liberum arbitrium, quo potuerunt di 
+      <lb ed="#G" n="22"/>mereri: igitur &amp; concreauit eis gratiam, qua sola
+      potue<lb ed="#G" n="23" break="no"/>runt mereri.
+    </p>
+            <p xml:id="HuYgTa-110682-d1e622">
+               <lb ed="#G" n="24"/>3 Preterea, arguit quida alius ad idem sic, Homo fuit 
+      <lb ed="#G" n="25"/>creatus in gratia: ergo &amp; angelus consequentia patet: quia 
+      <lb ed="#G" n="26"/>non minoris dignitatis fuerunt angeli, quam primus
+      ho<lb ed="#G" n="27" break="no"/>mo. Antecedens probatur, quia homo fuit creatus in
+      iu<lb ed="#G" n="28" break="no"/>stitia originali: quae quidem iustitia origmalis non
+      vide<lb ed="#G" n="29" break="no"/>tur fuisse sine gratia concomitante, quia consistebat in
+      per<lb ed="#G" n="30" break="no"/>fecta obedientia corporis ad animam, &amp; virium
+      inferio<lb ed="#G" n="31" break="no"/>rum ad superiores, &amp; in rectitudine voluntatis ad Deum 
+      <lb ed="#G" n="32"/>quorum, sicut duo prima non videntur esse sine gratia
+      gra<lb ed="#G" n="33" break="no"/>tis data, ita tertium non videtur fuisse sine gratia
+      gra<lb ed="#G" n="34" break="no"/>tum faciente.
+    </p>
+            <p xml:id="HuYgTa-110682-d1e648">
+               <lb ed="#G" n="35"/>4 Praeterea, hoc idem probant auctoritatibus
+      sancto<lb ed="#G" n="36" break="no"/>rum: nam <ref xml:id="HuYgTa-110682-Rd1e654">Beatus August. 12. de ciui. Dei</ref> loquens de cre: 
+      <lb ed="#G" n="37"/>tione angelorum ait, quod Deus <quote xml:id="HuYgTa-110682-Qd1e659" source="http://scta.info/resource/adcd-l12-d1e1708" synch="69-76">simul erat condens
+      na<lb ed="#G" n="38" break="no"/>turam &amp; largiens gratiam</quote>. Et ibidem ait, <quote xml:id="HuYgTa-110682-Qd1e665" source="http://scta.info/resource/adcd-l12-d1e1708" synch="49-68">Nonam volunta 
+          <lb ed="#G" n="39"/>tem quis fecerat in angelis, nisi ille, qui eos cum bona volunta 
+          <lb ed="#G" n="40"/>te, id est, cum amore casto creauit</quote>: Item <ref xml:id="HuYgTa-110682-Rd1e672">Hicronymus in 
+            <lb ed="#G" n="41"/>Olosa super Osea</ref> ait, quod demones in magna
+      pinguedi<lb ed="#G" n="42" break="no"/>ne spiritus sancti creati sunt.  
+    </p>
+            <p xml:id="HuYgTa-110682-d1e681">
+               <lb ed="#G" n="43"/>
+               <pc type="indent"/>Sed istis non obstantibus teneo conclusionem
+      praedi<lb ed="#G" n="44" break="no"/>ctam, &amp; confirmo eam sic. 
+    </p>
+            <p xml:id="HuYgTa-110682-d1e690">
+               <lb ed="#G" n="45"/>
+               <pc type="indent"/>lllud, quod crcato est concreatum, videtur esse natu 
+      <lb ed="#G" n="46"/>rale ipsi creato; igitur si angelis gratia fuisset concreata, ip 
+      <lb ed="#G" n="47"/>si angeli potuissent gratiam reputasse naturam.
+    </p>
+            <p xml:id="HuYgTa-110682-d1e701">
+               <lb ed="#G" n="48"/>2 Praeterea, complacentia, qua creatura existens ingra 
+      <lb ed="#G" n="49"/>tia gratum faciente complacet sibi ipsi ex eo, quod est. in 
+      <lb ed="#G" n="50"/>gratia, est actus meritorius vitae aeternae: quia sicut
+      ange<lb ed="#G" n="51" break="no"/>lus, vel quaecunque creatura demeretur sibi ipsi nimis
+      con<lb ed="#G" n="52" break="no"/>placendo in naturalibus, sic meretur sibi ipsi complacen 
+      <lb ed="#G" n="53"/>do in gratuitis: sed quicunque angelus se vdisset in pulchr 
+      <lb ed="#G" n="54"/>tudine gratiae gratum facientis, necessario sibi ipsi in hoc 
+      <lb ed="#G" n="55"/>complacuisset:igitur vitam aeternam meruisset, &amp; per
+      con<lb ed="#G" n="56" break="no"/>sequens nullus fuisset damnatus 
+    </p>
+            <p xml:id="HuYgTa-110682-d1e723">
+               <lb ed="#G" n="57"/>
+               <pc type="indent"/>Ad primam igitur rationendicendum, quod dato, quod illa 
+      <lb ed="#G" n="58"/>maior sit vera quantum ad naturalia, tamen non est vera 
+      <lb ed="#G" n="59"/>uantum ad gratuita: Nam secundum Augu. Qui creauis 
+      <lb ed="#G" n="60"/>nos sine nobis, non iustificabit nos sine nobis. 
+    </p>
+            <p xml:id="HuYgTa-110682-d1e736">
+               <lb ed="#G" n="61"/>
+               <pc type="indent"/>Ad secundam nego maiore: nam ornatus naturae corpe 
+      <lb ed="#G" n="62"/>ralis est eiusdem status cum sua natura: huiusmodi n
+      orna<lb ed="#G" n="63" break="no"/>tus, &amp; ipsa natura, quam ornat, constituunt vnum statum 
+      <lb ed="#G" n="64"/>puta statum naturae: sed alter est status naturae quauiscuqu 
+      <lb ed="#G" n="65"/>piritualis, &amp; alter status gratiae: &amp; ideo natura spiritualis 
+      <lb ed="#G" n="66"/>debet praecedere gratiam, ne gratia videatur natura 
+    </p>
+            <p xml:id="HuYgTa-110682-d1e754">
+               <lb ed="#G" n="67"/>
+               <pc type="indent"/>Ad tertiam dicendum, quod quamuis in primo instan 
+      <lb ed="#G" n="68"/>ti suae creationis non habuerint impedimentum ad gra 
+      <lb ed="#G" n="69"/>tiam, loquendo de impedimento contrarie vel priuatiue 
+      <lb ed="#G" n="70"/>quod est auertere se a gratia, vel refutare gratiam, habue 
+      <lb ed="#G" n="71"/>cunt tamen impedimentum, loquendo de impedimento 
+      <lb ed="#G" n="72"/>negatiue, quod est non conuertete se ad gratiam: quia an 
+      <lb ed="#G" n="73"/>te illud instans non fuit in eis vsus liberi arbitrii, quo se 
+      <!--331.xml-->
+      <cb ed="#G" n="b"/>
+               <lb ed="#G" n="74"/>ad gratiam affectandam conuerterent. 
+    </p>
+            <p xml:id="HuYgTa-110682-d1e781">
+               <lb ed="#G" n="75"/>
+               <pc type="indent"/>Ad quartam dicendum, quod in hoc relucebat magna 
+      <lb ed="#G" n="76"/>bonitas Dei, quod dedit eis naturam inclinatam ad vrt 
+      <lb ed="#G" n="77"/>tem sine omni incitamento intrinseco, vel extrinseco ad 
+      <lb ed="#G" n="78"/>vitium, seu ad peccatum: habuerunt etiam omnes angel 
+      <lb ed="#G" n="79"/>sufficiens principium, quo saltem de congruo
+      mereripo<lb ed="#G" n="80" break="no"/>tuerunt, &amp; virtuose persistere, donec eis Deus gratiam 
+      <lb ed="#G" n="81"/>infudisset, qua mediante etiam de condigno suam beati 
+      <lb ed="#G" n="82"/>tudinem meruissent 
+    </p>
+            <p xml:id="HuYgTa-110682-d1e803">
+               <lb ed="#G" n="83"/>
+               <pc type="indent"/>Ad quintam nego antecedens: oppositum. n, probaui su 
+      <lb ed="#G" n="84"/>perius per dictum Aug. &amp; Magistri. Ad probationem dico 
+      <lb ed="#G" n="85"/>quod illa rectitudo voluntatis ad Deum consistere
+      pote<lb ed="#G" n="86" break="no"/>rat in amore naturali, qui erat gratia gratis data 
+    </p>
+            <p xml:id="HuYgTa-110682-d1e816">
+               <lb ed="#G" n="87"/>
+               <pc type="indent"/>Ad sextam dicendum, quod sicut propter bonitatem mo 
+      <lb ed="#G" n="88"/>rulae, quae fuit inter creationem angelorum, &amp; casum ma 
+      <lb ed="#G" n="89"/>lorum, quandoque malus angelus dicitur malus ab initio 
+      <lb ed="#G" n="90"/>quamuis non fuerit creatus in peccato, nec in primo
+      in<lb ed="#G" n="91" break="no"/>stanti peccauit, vt infra patebit, sic in proposito &amp;c. Quos 
+      <lb ed="#G" n="92"/>cnim modicum distat, pro nihilo reputat intellectus, u 
+      <lb ed="#G" n="93"/>patet <ref xml:id="HuYgTa-110682-Rd1e835">3. physicorum.</ref> 
+            </p>
+            <p xml:id="HuYgTa-110682-d1e839">
+               <lb ed="#G" n="94"/>
+               <pc type="indent"/>Potest etiam dici ad omnes illas &amp; ceteras
+      auctorita<lb ed="#G" n="95" break="no"/>tes consimiles, quod ille amor fuit naturalis; attamen quia 
+      <lb ed="#G" n="96"/>valde magnum &amp; nobile donum fuit: ideo potest
+      dicica<lb ed="#G" n="97" break="no"/>stus amor &amp; pinguedo spiritus sancti, siue gratia; vtiquo 
+      <lb ed="#G" n="98"/>enim gratia fuit quamuis gratis data, &amp; nondum
+      merito<lb ed="#G" n="99" break="no"/>rie gratum faciens 
+    </p>
+            <p xml:id="HuYgTa-110682-d1e857">
+               <lb ed="#G" n="100"/>
+               <pc type="indent"/>ARTICVLVS III. 
+      <lb ed="#G" n="101"/>Vtrum Angeli indiguerint gratia ad hoc vt Deum 
+      <lb ed="#G" n="102"/>
+               <pc type="indent"/>meritorie diligerent
+    </p>
+            <p xml:id="HuYgTa-110682-d1e870">
+               <lb ed="#G" n="103"/>QVANTVM ad tertium articulum dicendum, quoda 
+      <lb ed="#G" n="104"/>hoc, quod actus cuiuscumque creaturae sit meriti 
+      <lb ed="#G" n="105"/>rius, necessario requiritur gratia gratum facies: quia actus 
+      <lb ed="#G" n="106"/>naturam excedens necessario innititur alicui supernatum 
+      <lb ed="#G" n="107"/>li principio, quo natura supernaturaliter adiuuetur, sed 
+      <lb ed="#G" n="108"/>omnis actus meritorius vitae aeternae de condigno exces 
+      <lb ed="#G" n="109"/>dit naturam creatam: Iste enim fuit error Pelagij, quod ex pu 
+      <lb ed="#G" n="110"/>ris naturalibus possemus mereri vitam aeternam. Patel 
+      <lb ed="#G" n="111"/>etiam ista minor ratione; Quia quando aliquis finis excen 
+      <lb ed="#G" n="112"/>dit naturam, tunc actus, qui de condigno meretur, &amp; con 
+      <lb ed="#G" n="113"/>sequitur talem fine, necessario excedit naturam: sed finis.  
+      <lb ed="#G" n="114"/>qui est aeterna beatitudo, excedit omnem naturam
+      crea<lb ed="#G" n="115" break="no"/>tam, solus enim creator est ex se naturaliter perfecte bea 
+      <lb ed="#G" n="116"/>tus: huiusmodi autem finem per actum meritorium
+      crea<lb ed="#G" n="117" break="no"/>tura consequitur de condigno:igitur necesse est, vt in tali 
+      <lb ed="#G" n="118"/>actu innitatur supernaturali principio, ergo &amp;c. 
+    </p>
+            <p xml:id="HuYgTa-110682-d1e908">
+               <lb ed="#G" n="119"/>
+               <pc type="indent"/>Sed vtrum ad consequendam huiusmodi gratiam, qud 
+      <lb ed="#G" n="120"/>mediante meremur, sufficiat solum liberum arbitrium, vel 
+      <lb ed="#G" n="121"/>cequiratur alia praeuia supernaturalis disposito, de noc 
+      <lb ed="#G" n="122"/>sunt opiniones. 
+    </p>
+            <p xml:id="HuYgTa-110682-d1e921">
+               <lb ed="#G" n="123"/>
+               <pc type="indent"/>Doctor communis ponit hic in scripro, quod sufficiat 
+      <lb ed="#G" n="124"/>solum liberum arbitrium; Quia si homo facit, quod in se 
+      <lb ed="#G" n="125"/>est, Deus dat ei gratiam, sed per solum liberum arbitriom 
+      <lb ed="#G" n="126"/>homo potest facere, quod in se est; immo, vt dicit, videtur 
+      <lb ed="#G" n="127"/>contradictionem implicare, quod ad faciendum, quod in 
+      <lb ed="#G" n="128"/>se est, requiratur aliquid aliud, quam liberum arbitrium; 
+      <lb ed="#G" n="129"/>quia hoc non est in homine, ad quod requiritur aliud, 
+      <lb ed="#G" n="130"/>quam liberum eius arbitrium. 
+    </p>
+            <p xml:id="HuYgTa-110682-d1e943">
+               <lb ed="#G" n="131"/>
+               <pc type="indent"/>Sed salua tanti doctoris sanctitate &amp; reuerentia istud 
+      <lb ed="#G" n="132"/>ad praesens non intelligo
+    </p>
+            <p xml:id="HuYgTa-110682-d1e952">
+               <lb ed="#G" n="133"/>1 Quia quicumque ex se est sufficiens ad aliquod me 
+      <lb ed="#G" n="134"/>dium consequendum, ille etiam ex se sufficit ad
+      conse<lb ed="#G" n="135" break="no"/>quendum omne illud, quod tali medio consequi potess 
+      <lb ed="#G" n="136"/>dc condigno, sed habens gratiam de condigno meretur 
+      <lb ed="#G" n="137"/>vitam aeternam; igitur si ad consequendum gratiam sum 
+      <lb ed="#G" n="138"/>ceret solum liberum arbitrium, sequeretur de primo ad 
+      <lb ed="#G" n="139"/>vltimum, quod ad consequendam gloriam de condigno 
+      <lb ed="#G" n="140"/>sufficeret solum liberum arbitrium. 
+    </p>
+            <p xml:id="HuYgTa-110682-d1e972">
+               <lb ed="#G" n="141"/>
+               <pc type="indent"/>Praeterea, ille, qui ex suo libero arbitrio non potess 
+      <lb ed="#G" n="142"/>habere bonam cogitationem, hic non pot est ex suo sibero 
+      <!--332.xml-->
+      <pb ed="#G" n="147-r"/>
+               <cb ed="#G" n="a"/>
+               <lb ed="#G" n="1"/>arbitrio praecise consequi gratiam : sed secundum quod 
+      <lb ed="#G" n="2"/>ait <ref xml:id="HuYgTa-110682-Rd1e991">
+                  <name xml:id="HuYgTa-110682-Nd1e993">Apostolus</name>
+               </ref> non sumus sufficientes cogitare aliquid ex 
+      <lb ed="#G" n="3"/>nobis quasi ex nobis, sed sufficientia nostra ex Deo est 
+      <lb ed="#G" n="4"/>Maior patet: quia cum bona cogitatio sit prima disposito 
+      <lb ed="#G" n="5"/>ad bonum, seu primum initium bonae dispositionis, si
+      il<lb ed="#G" n="6" break="no"/>lam non habemus in nostra potestate, sequitur, quod
+      ne<lb ed="#G" n="7" break="no"/>gratiam possimus consequi praecise ex nostro libero arbi 
+      <lb ed="#G" n="8"/>trio; non enim sine causa clamauit Hieremias, Conuerto 
+      <lb ed="#G" n="9"/>nos ad te &amp; conuertemur 
+    </p>
+            <p xml:id="HuYgTa-110682-d1e1013">
+               <lb ed="#G" n="10"/>
+               <pc type="indent"/>Et ideo dixerunt alij, quod necessario ante infusionem 
+      <lb ed="#G" n="11"/>pratiae requiritur in anima quaedam disposito, quae est quod 
+      <lb ed="#G" n="12"/>dam donum Dei gratis datum. 
+    </p>
+            <p xml:id="HuYgTa-110682-d1e1025">
+               <lb ed="#G" n="13"/>
+               <pc type="indent"/>Sed nec illud valet, quia quaero de illo dono, vtrum sit 
+      <lb ed="#G" n="14"/>sufficiens disposito ad gratiam, vel non. Si non, tunc
+      fru<lb ed="#G" n="15" break="no"/>sira ponitur. Si sic, tunc vel liberum arbitrium est per se 
+      <lb ed="#G" n="16"/>ufficiens ad consequendum donum illud, siue illam
+      dis<lb ed="#G" n="17" break="no"/>positionem, aut non per se, sed mediante alia
+      disposito<lb ed="#G" n="18" break="no"/>ne. Si mediante alia, tunc erit processus in infinitum 
+      <lb ed="#G" n="19"/>Si per se, tunc liberum arbitrium per se sufficiens esset 
+      <lb ed="#G" n="20"/>ad consequendum gratiam: quia illud, quod per se potes 
+      <lb ed="#G" n="21"/>in sufficientem dispositionem respectu alicuius perfectio 
+      <lb ed="#G" n="22"/>nis, hoc etiam per se potest acquirere illam perfectionem 
+    </p>
+            <p xml:id="HuYgTa-110682-d1e1051">
+               <lb ed="#G" n="23"/>
+               <pc type="indent"/>Et ideo relictis his extremis opinionibus, quibus
+      inci<lb ed="#G" n="24" break="no"/>dit in <name xml:id="HuYgTa-110682-Nd1e1059">Svllam</name> cupiens vitare <name xml:id="HuYgTa-110682-Nd1e1062">Carvbdim</name>, medium
+      obser<lb ed="#G" n="25" break="no"/>uando dico, quod nec liberum arbitrium per se suffici 
+      <lb ed="#G" n="26"/>ad gtatiam consequendam, nec requiritur aliquis
+      habi<lb ed="#G" n="27" break="no"/>tur gratiam praeueniens &amp; mentem disponens, sed sufficit 
+      <lb ed="#G" n="28"/>quidam motus factus in mente specialiter ab ipso Deo 
+      <lb ed="#G" n="29"/>quem motum, siue impetum sequendo creatura
+      conuer<lb ed="#G" n="30" break="no"/>titur ad Deum, &amp; est disposita ad gratiam recipiendam 
+      <lb ed="#G" n="31"/>Et ista est intentio <ref xml:id="HuYgTa-110682-Rd1e1081">Damas lib. 2.</ref> vbi ait, quod ipse Deus 
+      <lb ed="#G" n="32"/>est omnis boni principium &amp; causa, &amp; sine eius
+      coopera<lb ed="#G" n="33" break="no"/>tione &amp; auxilio impossibile est nos bonum velle, vel face 
+      <lb ed="#G" n="34"/>re; In nobis autem est permanere in virtute, &amp; sequi Deum 
+      <lb ed="#G" n="35"/>ad hanc vocantem: vel secedere a virtute, quod est in ma 
+      <lb ed="#G" n="36"/>litia fieri &amp; sequi diabolum vocantem ad ipsam 
+    </p>
+            <p xml:id="HuYgTa-110682-d1e1096">
+               <lb ed="#G" n="37"/>
+               <pc type="indent"/>Et ex isto etiam dicto Damas patet ad argumentum 
+      <lb ed="#G" n="38"/>prime opinionis; quia ad consequendam gratiam non su 
+      <lb ed="#G" n="39"/>ncit absolute facere, quod in nobis est: sed praesupposita 
+      <lb ed="#G" n="40"/>speciali Dei motione praedicta: tunc enim possumus, vt 
+      <lb ed="#G" n="41"/>nit Damas. Deum sequi vocantem ad virtutem; ergo &amp;c 
+    </p>
+            <p xml:id="HuYgTa-110682-d1e1112">
+               <lb ed="#G" n="42"/>
+               <pc type="indent"/>ARTICVLVS IIII. 
+      <lb ed="#G" n="43"/>
+               <pc type="indent"/>Vtrum Angesi meruerint suam 
+      <lb ed="#G" n="44"/>
+               <pc type="indent"/>beatitudinem.
+    </p>
+            <p xml:id="HuYgTa-110682-d1e1128">
+               <lb ed="#G" n="45"/>SVANTVM ad quartum articulum dicendum, quo 
+      <lb ed="#G" n="46"/>
+               <pc type="indent"/>beatitudo dupliciter potest considerari. Vno mo 
+      <lb ed="#G" n="47"/>do vt est quoddam nobile donum Dei, &amp; vt sic non re 
+      <lb ed="#G" n="48"/>quirit meritum de necessitate, quia sicut Deus dat gratiam 
+      <lb ed="#G" n="49"/>taepius sine vllis praecedentibus meritis, sed ex sua
+      libera<lb ed="#G" n="50" break="no"/>si bonitate, sic potuisset si voluisset &amp; angelis &amp;
+      homini<lb ed="#G" n="51" break="no"/>bus dare beatitudinem, &amp; eos creasse beatos sine
+      ulli<lb ed="#G" n="52" break="no"/>meritis praecedentibus. Alio modo potest considerari
+      be<lb ed="#G" n="53" break="no"/>titudo prout habet rationem praemij &amp; finis, siue, vt dici 
+      <lb ed="#G" n="54"/>tur finale praemium alicuius; &amp; sic dico, quod de
+      necessi<lb ed="#G" n="55" break="no"/>tate requirit meritum: quia vt sic concernit relationem 
+      <lb ed="#G" n="56"/>ad meritum, a qua etiam per intellectum absolui non 
+      <lb ed="#G" n="57"/>potest 
+    </p>
+            <p xml:id="HuYgTa-110682-d1e1161">
+               <lb ed="#G" n="58"/>
+               <pc type="indent"/>Sed vtrum Deus angelis suam beatitudinem
+      liberali<lb ed="#G" n="59" break="no"/>ter donauerit, vel per modum praemij de condigno redud 
+      <lb ed="#G" n="60"/>derit, &amp; dato, quod per modum premii, vtrum praemium 
+      <lb ed="#G" n="61"/>precesserit meritum, sicut <name xml:id="HuYgTa-110682-Nd1e1174">Praeposituus</name> dixit, cuius opi 
+      <lb ed="#G" n="62"/>nionem Magister tenere videtur in littera, vel vtrum mae 
+      <lb ed="#G" n="63"/>ritum praecesserit duratione praemium, sicut tenent sequa 
+      <lb ed="#G" n="64"/>ces doctoris communis, scilicet sancti Thomae, vel vtrum 
+      <lb ed="#G" n="65"/>sine omni precessione durationis, sed solum precessione 
+      <lb ed="#G" n="66"/>naturae simul &amp; in eodem instanti fuerit meritum &amp; prae 
+      <lb ed="#G" n="67"/>mium angelorum: sicut dicit <name xml:id="HuYgTa-110682-Nd1e1190">frater AEgidius</name>, aestimo, quod 
+      <lb ed="#G" n="68"/>nullus mortalium scire possit, nisi a Deo fuerit sibi
+      spe<lb ed="#G" n="69" break="no"/>cialiter rcuclatum: lgitur tantorum secretorum postpo¬ 
+      <!--332.xml-->
+      <cb ed="#G" n="b"/>
+               <lb ed="#G" n="70"/>sita discusfioise solummodo ad praesens volo ostendere, 
+      <lb ed="#G" n="71"/>uod ea, quae dicuntur contra positionem fratris AEgidij 
+      <lb ed="#G" n="72"/>non concludunt 
+    </p>
+            <p xml:id="HuYgTa-110682-d1e1210">
+               <lb ed="#G" n="73"/>
+               <pc type="indent"/>Arguunt enim quidam sic. 
+      <lb ed="#G" n="74"/>1 Actus, qui includunt oppositum circa statum
+      ope<lb ed="#G" n="75" break="no"/>rantis, non possunt esse simul; sed actus meriti &amp; actus pri 
+      <lb ed="#G" n="76"/>mii sunt huiusmodi: quia mereri est illius, qui est in statu 
+      <lb ed="#G" n="77"/>acquirentis &amp; tendentis ad terminum: praemium autem 
+      <lb ed="#G" n="78"/>respicit statum non acquirentis, sed iam possidentis, nec 
+      <lb ed="#G" n="79"/>tendentis ad terminum, sed iam existentis in termino. 
+    </p>
+            <p xml:id="HuYgTa-110682-d1e1230">
+               <lb ed="#G" n="80"/>
+               <pc type="indent"/>2 Praeterea, arguit quidam alius doctor contra modum 
+      <lb ed="#G" n="81"/>ponendi <name xml:id="HuYgTa-110682-Nd1e1238">fratris AEgidii</name>; <name xml:id="HuYgTa-110682-Nd1e1241">Frater AEgidius</name> dicit, quod
+      post<lb ed="#G" n="82" break="no"/>uam angeli boni gratiam a Deo receperunt, tunc meri 
+      <lb ed="#G" n="83"/>tum angeli stabat in actu elicito mediante gratia &amp;
+      cari<lb ed="#G" n="84" break="no"/>tate, quo Deum diligebat, &amp; proprie loquendo, Deus erat 
+      <lb ed="#G" n="85"/>raemium, vt adeptus fuit ab angelis per actum talem: Si 
+      <lb ed="#G" n="86"/>tamen vt ait <name xml:id="HuYgTa-110682-Nd1e1255">frater AEgidius</name>, ipsum actum volumus appel 
+      <lb ed="#G" n="87"/>lare praemium, tunc idem actus, vt a gratia &amp; caritate eli 
+      <lb ed="#G" n="88"/>citus habet rationem meriti, vt autem per eundem actum 
+      <lb ed="#G" n="89"/>ingeli adipiscuntur Deum, habet rationem praemij; &amp; quia 
+      <lb ed="#G" n="90"/>actus iste naturaliter est prius elicitus a caritate, quam ad 
+      <lb ed="#G" n="91"/>Deum terminetur, igitur adhuc saluatur, quod meritum 
+      <lb ed="#G" n="92"/>natura praecedit praemium. 
+    </p>
+            <p xml:id="HuYgTa-110682-d1e1272">
+               <lb ed="#G" n="93"/>
+               <pc type="indent"/>Contra istud fundamentum arguit quidam doctor sic. 
+      <lb ed="#G" n="94"/>1 Impossibije est, quod idem habeat rationem finis &amp;  
+      <lb ed="#G" n="95"/>eius quod est ad finem, sed actus beatificus habet rationem 
+      <lb ed="#G" n="96"/>finis, &amp; actus meritorius habet rationem eius, quod est 
+      <lb ed="#G" n="97"/>ad finem; ergo &amp;c. 
+    </p>
+            <p xml:id="HuYgTa-110682-d1e1288">
+               <lb ed="#G" n="98"/>
+               <pc type="indent"/>2 Preterea contradictionem implicat in eodem esse 
+      <lb ed="#G" n="99"/>simul respectu eiusdem desiderium &amp; actum vltimatae con¬ 
+    </p>
+            <p xml:id="HuYgTa-110682-d1e1297">
+               <lb ed="#G" n="100"/>
+               <pc type="indent"/>lacentiae: sed actus meritorius est actus inhiantis siue de 
+      <lb ed="#G" n="101"/>iderantis, cum sit circa rem absentem; actus autem
+      bea<lb ed="#G" n="102" break="no"/>tificus est actus vltimatae complacentiae circa rem iam ha 
+      <lb ed="#G" n="103"/>bitam &amp; praesentem. 
+    </p>
+            <p xml:id="HuYgTa-110682-d1e1310">
+               <lb ed="#G" n="104"/>
+               <pc type="indent"/>3 Praeterea, quod meritum possit sequi premium fi- 
+      <lb ed="#G" n="105"/>cut tenet Magister &amp; Praeposituus quidam exemplariter 
+      <lb ed="#G" n="106"/>probant dicentes, quod rex nullis praecedentibus meritis 
+      <lb ed="#G" n="107"/>dat equum militi, quem tamen miles seruitio regio
+      po<lb ed="#G" n="108" break="no"/>stea meretur. Sic Deus prius angelis dedit beatitudinem, 
+      <lb ed="#G" n="109"/>quam post modum merentur, implendo ministeria, ac 
+      <lb ed="#G" n="110"/>quae destinantur. 
+    </p>
+            <p xml:id="HuYgTa-110682-d1e1331">
+               <lb ed="#G" n="111"/>
+               <pc type="indent"/>Sed ista non concludunt 
+      <lb ed="#G" n="112"/>Ad primum igitur dicendum, quod minor vniuersali 
+      <lb ed="#G" n="113"/>ter non est vera. Ad probationem dicendum, quod 
+      <lb ed="#G" n="114"/>quamuis tendere ad terminum suceessiue concernat, seu 
+      <lb ed="#G" n="115"/>connotet oppositum ad existere in termino; tendere
+      ta<lb ed="#G" n="116" break="no"/>men subito sine suceessione fimul ditratione potest esse  
+      <lb ed="#G" n="117"/>cum eo, quod est existere sn termino; salua tamen priori 
+      <lb ed="#G" n="118"/>tate naturae: Et eodem modo dico de acqrere &amp; possidere¬ 
+    </p>
+            <p xml:id="HuYgTa-110682-d1e1353">
+               <lb ed="#G" n="119"/>
+               <pc type="indent"/>Et per idem patet ad vnam rationem multum appare 
+      <lb ed="#G" n="120"/>tem, qua arguit doctor communis contra istam
+      conclu<lb ed="#G" n="121" break="no"/>sionem sic, via non potest esse simul cum termino; sed  
+      <lb ed="#G" n="122"/>meritum habet rationem viae, praemium autem rationem 
+      <lb ed="#G" n="123"/>termini. Maior ista &amp; si habet aliquam veritatem loquen 
+      <lb ed="#G" n="124"/>do de via suceessionem includente, non tamen de uia su 
+      <lb ed="#G" n="125"/>bita, seu instantanca; Nam secudum philosophum 2. phy 
+      <lb ed="#G" n="126"/>sic. generatio est via in naturam, &amp; tamen simul &amp; in
+      eo<lb ed="#G" n="127" break="no"/>dem instanti salua tamen prioritate naturae, est
+      genera<lb ed="#G" n="128" break="no"/>io &amp; generatum esse. Sic in proposito &amp;c
+    </p>
+            <p xml:id="HuYgTa-110682-d1e1379">
+               <lb ed="#G" n="129"/>Ad secundum dicendum, quod sicut idem motus
+      po<lb ed="#G" n="130" break="no"/>test dici actio, &amp; passio respectu tamen diuersorum: sic idem 
+      <lb ed="#G" n="131"/>actus per comparationem ad principium elicitum potest 
+      <lb ed="#G" n="132"/>habere rationem meriti &amp; per consequens rationem eius 
+      <lb ed="#G" n="133"/>uod est ad finem, &amp; per comparationem ad delectabilis 
+      <lb ed="#G" n="134"/>simum terminum, quem per talem actum agens
+      adipi<lb ed="#G" n="135" break="no"/>scitur, potest habere rationem praemij, seu finis. 
+    </p>
+            <p xml:id="HuYgTa-110682-d1e1397">
+               <lb ed="#G" n="136"/>
+               <pc type="indent"/>Ad tertium dicendum, quod ex quo naturaliter actus 
+      <lb ed="#G" n="137"/>rius elicitur, quam terminetur; ideo non repugnat eidem 
+      <lb ed="#G" n="138"/>ictui vt elicitur aliqualiter habere conditionem desiderii, 
+      <lb ed="#G" n="139"/>co quod in illo priori natura nondum attigerit illud, ad 
+      <lb ed="#G" n="140"/>quod tendit, &amp; vt ad summum bonum terminatur
+      praesen<lb ed="#G" n="141" break="no"/>tialiter sine medio habere rationem summae complacentiae. 
+    </p>
+            <p xml:id="HuYgTa-110682-d1e1415">
+               <lb ed="#G" n="142"/>
+               <pc type="indent"/>Ad quartum dicendum, quod exemplum ad non est pro 
+      <!--333.xml-->
+      <pb ed="#G" n="147-v"/>
+               <cb ed="#G" n="a"/>
+               <lb ed="#G" n="1"/>positum, quia aut rex libere dedit aequum militi, &amp; tunc 
+      <lb ed="#G" n="2"/>miles non merebitur eum actibus sequentibus,
+      quamui<lb ed="#G" n="3" break="no"/>peniuola gratitudine seruiat regi: quia nullus meretur il 
+      <lb ed="#G" n="4"/>ud, quod suum est secundum liberam &amp; plenariam
+      pos<lb ed="#G" n="5" break="no"/>sessionem: nam per opera meritoria acquiritur aliquid de 
+      <lb ed="#G" n="6"/>biti in eo, quod non fuit suum, aut non dedit equum libe 
+      <lb ed="#G" n="7"/>re, sed sub hac conditione, ut miles deseruiat &amp;ipsum mo 
+      <lb ed="#G" n="8"/>reatur, &amp; tunc non est ad propositum: quia sic Deus ange 
+      <lb ed="#G" n="9"/>lis libere influit beatitudinem, quod ipsius beatitudinis 
+      <lb ed="#G" n="10"/>angeli sunt sine adiecta conditione liberi possessores. 
+    </p>
+            <p xml:id="HuYgTa-110682-d1e1450">
+               <lb ed="#G" n="11"/>
+               <pc type="indent"/>Ad argumentum principale nego minorem. Ad
+      pro<lb ed="#G" n="12" break="no"/>b ationem dicendum, quod licet angelus ea, quae sine
+      ex<lb ed="#G" n="13" break="no"/>cessu suo intellectui sunt debite proportionata, non
+      co<lb ed="#G" n="14" break="no"/>gnoscat discursiue sic, quod causam cognoscat per effectu. 
+      <lb ed="#G" n="15"/>Deum tamen, qui secundum suam claritatem excedit na 
+      <lb ed="#G" n="16"/>turaliter angeli facultatem, ipse angelus cognoscit per 
+      <lb ed="#G" n="17"/>effectum, loquendo de sua notitia naturali: nam angelus 
+      <lb ed="#G" n="18"/>naturaliter primo cognoscit seipsum, &amp; cognoscendo
+      sei<lb ed="#G" n="19" break="no"/>psum esse effectum, cognoscit Deum, qui fecit eum 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

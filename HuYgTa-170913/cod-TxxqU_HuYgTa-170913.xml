@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Circa textum</title>
+            <author ref="#ThomasStrasbourg">Thomas of Strasbourg</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Circa textum</title>
+               <date when="2020-11-26">November 26, 2020</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="G" n="cod-TxxqU">Genoa 1585</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2020-11-26" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#G" n="-r"/>
+            <cb ed="#G" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="HuYgTa-170913"><!-- HuYgTa-l3d6et7ct1 -->
+            <head xml:id="HuYgTa-170913-Hd1e108">Circa textum</head>
+            <p xml:id="HuYgTa-170913-d1e111">
+               <lb ed="#G" n="9"/>
+               <pc type="indent"/>DISTINCTIONEM VI. ET VII. 
+      <lb ed="#G" n="10"/>compendiosa, atque non obscura harum distinctioni 
+      <lb ed="#G" n="11"/>duusio, in quibus de consequentibus diuinam  
+      <lb ed="#G" n="12"/>vnionem pulcbre peragitur. 
+    </p>
+            <p xml:id="HuYgTa-170913-d1e124">
+               <lb ed="#G" n="13"/>
+               <pc type="indent"/>PRAMISSIS AVTEM, Postquam 
+      <lb ed="#G" n="14"/>Magister determinauit de quibusdam  
+      <lb ed="#G" n="15"/>quae vnionem humanae naturae, &amp;
+      diui<lb ed="#G" n="16" break="no"/>nae naturae in persona verbi concomitam 
+      <lb ed="#G" n="17"/>tur, hic prosequitur de his, quae
+      huius<lb ed="#G" n="18" break="no"/>modi vnionem consequuntur, &amp;
+      diui<lb ed="#G" n="19" break="no"/>ditur in tres partes, nam primo pertractat quaedam quae 
+      <lb ed="#G" n="20"/>consequuntur terminum ipsius vnionis. Secundo
+      prose<lb ed="#G" n="21" break="no"/>quitur de his, quae consequuntur naturas vnitas
+      myste<lb ed="#G" n="22" break="no"/>rio ipsius incarnationis, ibi, Post praedicta inquiri debet 
+      <lb ed="#G" n="23"/>Circa primum est aduertendum, quod Magister hic
+      in<lb ed="#G" n="24" break="no"/>quirit, quid intelligi debet his locutionibus, cum dici 
+      <lb ed="#G" n="25"/>tur, Deus factus est homo, filius Dei factus est filius
+      ho<lb ed="#G" n="26" break="no"/>minis, Deus est homo, homo est Deus, &amp; consimilibus 
+      <lb ed="#G" n="27"/>Et circa hoc duo facit: nam de praedictis mouet
+      questio<lb ed="#G" n="28" break="no"/>nem. Secundo circa materiam illius quaestionis recitas 
+      <lb ed="#G" n="29"/>triplicem antiquorum opinionem,. Secunda ibi, Alij enin 
+      <lb ed="#G" n="30"/>dicunt &amp;c. Et haec in duas: nam primo recitat praedictas 
+      <lb ed="#G" n="31"/>opiniones. Secundo iuxta has tres opiniones, assignat ad 
+      <lb ed="#G" n="32"/>quaestionem tres differentes responsiones ibi, Secundum 
+      <lb ed="#G" n="33"/>primam vero. Prima in tres, secudum quod tres sunt ian 
+      <lb ed="#G" n="34"/>dictae opiniones, Secunda ibi, sunt autem alij. Tertia ibi 
+      <lb ed="#G" n="35"/>Sunt etiam &amp; alij. Quaelibet istarum trium, partium
+      di<lb ed="#G" n="36" break="no"/>aiditur in duas partes, secundum, quod primo ponitur 
+      <lb ed="#G" n="37"/>opinionis recitatio. Secundo recitatae opinionis
+      confi<lb ed="#G" n="38" break="no"/>matio. Et partes patent. Sequitur illa pars, eccundum pri 
+      <lb ed="#G" n="39"/>mam vero, quae est principium 7. distinctionis, in qua 
+      <lb ed="#G" n="40"/>Magister istorum opinantium ad quaestionem praedictam 
+      <lb ed="#G" n="41"/>assignat distinctas responsiones. Et diuiditur in duas
+      par<lb ed="#G" n="42" break="no"/>tes; nam primo ponit vt dictum est triplicem
+      responsio<lb ed="#G" n="43" break="no"/>nem. Secundo inter praedictas opiniones, &amp; opinantium 
+      <lb ed="#G" n="44"/>responsiones prudenti lectori committit electionem ibi 
+      <lb ed="#G" n="45"/>Satis diligenter &amp;c. Prima intres; nam primo ad
+      quae<lb ed="#G" n="46" break="no"/>stionem praedictam respondet secundum opinionem pri 
+      <lb ed="#G" n="47"/>mam. Secundo iuata secundam. Et tertio penes
+      opinio<lb ed="#G" n="48" break="no"/>nem tertiam. Secunda ibi, In secunda vero sententia 
+      <lb ed="#G" n="49"/>Tertia ibi, In hac ergo sententia &amp;c. Et quaelibet istarum 
+      <lb ed="#G" n="50"/>potest diuidi in tres partes, secundum quod primo
+      poni<lb ed="#G" n="51" break="no"/>tur responsio, Secundo contra responsionem inducitur obio 
+      <lb ed="#G" n="52"/>ctio. Tertio adducitur obiectionis solutio. Et partes pa 
+      <lb ed="#G" n="53"/>tent. Circa has distinctiones quaero hanc quaestionem 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

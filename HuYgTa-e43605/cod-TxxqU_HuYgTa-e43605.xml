@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Circa textum</title>
+            <author ref="#ThomasStrasbourg">Thomas of Strasbourg</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Circa textum</title>
+               <date when="2020-11-26">November 26, 2020</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="G" n="cod-TxxqU">Genoa 1585</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2020-11-26" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#G" n="-r"/>
+            <cb ed="#G" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="HuYgTa-e43605"><!-- HuYgTa-l1d10ct1 -->
+            <head xml:id="HuYgTa-e43605-Hd1e108">Circa textum</head>
+            <p xml:id="HuYgTa-e43605-d1e111">
+      <!--153.xml-->
+               <cb ed="#G" n="b"/>
+               <lb ed="#G" n="74"/>DISTINCTIO X. 
+      <lb ed="#G" n="75"/>Secundae particule tractatus de origine diuinarum 
+      <lb ed="#G" n="76"/>personorum resoluta diuisio, &amp; praesentis 
+      <lb ed="#G" n="77"/>distinctionis non inutilis subdiuisio, in 
+      <lb ed="#G" n="78"/>qua sermo de spiritus sancti 
+      <lb ed="#G" n="79"/>processione incboatur. 
+    </p>
+            <p xml:id="HuYgTa-e43605-d1e131">
+               <lb ed="#G" n="80"/>
+               <pc type="indent"/>V.NG POST TILI1 &amp;c. Postqua 
+      <lb ed="#G" n="81"/>magister determinauit de filij in diui 
+      <lb ed="#G" n="82"/>nis generatione, hic incipit determi- 
+      <lb ed="#G" n="83"/>nare de spiritus sancti processione. E 
+      <lb ed="#G" n="84"/>diuiditur in duas partes: Nam primao 
+      <lb ed="#G" n="85"/>determinat de spiritus sancti a patre, 
+      <lb ed="#G" n="86"/>&amp; filio aeterna emanatione. Secundo 
+      <lb ed="#G" n="87"/>de eiusdem spiritus sancti temporali l 
+      <lb ed="#G" n="88"/>processione ibi, Praeterea diligenter &amp;c. Prima in duas 
+      <lb ed="#G" n="89"/>quia primo determinat de processione spiritus sancti
+      se<lb ed="#G" n="90" break="no"/>cundum se, Secundo determinat de ea comparatiue, puta i 
+      <lb ed="#G" n="91"/>comparando spiritus sancti processionem ad filii gerationem. 
+      <lb ed="#G" n="92"/>ibi, Item quaeritur. Prima in duas. Nam primo tractat 
+      <lb ed="#G" n="93"/>magister de modo, quo spiritus sanctus procedit,
+      Secun<lb ed="#G" n="94" break="no"/>do de principio, a quo procedit ibi, Hic dicendum est &amp;c 
+      <lb ed="#G" n="95"/>Prima in duas. Nam primo tangit modum procedendi
+      ip<lb ed="#G" n="96" break="no"/>sius spiritus sancti, Secundo ostendit cur ipse solus
+      nomi<lb ed="#G" n="97" break="no"/>natur nomine communi ibi, Hic notandum &amp;c. Prima in 
+      <lb ed="#G" n="98"/>duas: quia primo ostendit, quod spiritus sanctus proprie
+      dici<lb ed="#G" n="99" break="no"/>tur amor, &amp; per consequens habetur, quod per modum uolom 
+      <lb ed="#G" n="100"/>tatis procedit. Secundo sanctorum auctoritatibus probat. 
+      <lb ed="#G" n="101"/>uod dixit ibi, Nunc vero. Hic quaero. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

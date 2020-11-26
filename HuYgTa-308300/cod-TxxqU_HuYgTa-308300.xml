@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Circa textum 2</title>
+            <author ref="#ThomasStrasbourg">Thomas of Strasbourg</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Circa textum 2</title>
+               <date when="2020-11-26">November 26, 2020</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="G" n="cod-TxxqU">Genoa 1585</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2020-11-26" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#G" n="-r"/>
+            <cb ed="#G" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="HuYgTa-308300"><!-- HuYgTa-l4d49ct2 -->
+            <head xml:id="HuYgTa-308300-Hd1e108">Circa textum 2</head>
+            <p xml:id="HuYgTa-308300-d1e111">
+               <lb ed="#G" n="39"/>Secundae particulae bauus distinctionis non obscura 
+      <lb ed="#G" n="40"/>
+               <pc type="indent"/>subduusio, in qua tum de cognntione tum 
+      <lb ed="#G" n="41"/>
+               <pc type="indent"/>de gaudio beatorum pertractatur. 
+    </p>
+            <p xml:id="HuYgTa-308300-d1e124">
+               <lb ed="#G" n="42"/>
+               <pc type="indent"/>OLET etiam quaeri, vtrum aliquod de 
+      <lb ed="#G" n="43"/>
+               <pc type="indent"/>Deo. Postquam magister tractauit de 
+      <lb ed="#G" n="44"/>beatorum beatitudine in generali: in ista 
+      <lb ed="#G" n="45"/>parte tractat de partibus beatitudinis in 
+      <lb ed="#G" n="46"/>speciali. Et diuiditur in duas partes, quia 
+      <lb ed="#G" n="47"/>primo determinat de beatorum differen 
+      <lb ed="#G" n="48"/>ti cognitione. Secundo de ipsorum gaudio, &amp;
+      exulta<lb ed="#G" n="49" break="no"/>tione, ibi, Solet etiam quaeri an in gaudio. Prima in duas; 
+      <lb ed="#G" n="50"/>nam primo de cognitione, qua beati Deum vident, &amp; cogno 
+      <lb ed="#G" n="51"/>scunt, mouet quaestionem. Secundo huic quaestioni adiu 
+      <lb ed="#G" n="52"/>git responsionem, ibi, Pluribus videtur. Et haec in duas,  
+      <lb ed="#G" n="53"/>uia primo ostendit, quomodo beati in huiusmodi
+      con<lb ed="#G" n="54" break="no"/>gnitione conueniunt. Secundo qualiter in illa
+      cognitio<lb ed="#G" n="55" break="no"/>ne differunt, ibi, Sed in mo videndi. Sequitur illa pars,  
+      <lb ed="#G" n="56"/>Solet etiam quaeri Et diuiditur in quattuor partes: quia 
+      <lb ed="#G" n="57"/>primo de beatorum gaudio mouet quaestionem.
+      Secun<lb ed="#G" n="58" break="no"/>do ponit quaestionis determinationem Tertmio in
+      con<lb ed="#G" n="59" break="no"/>trarium adducit vnicam obiectionem. Et quarto 
+      <lb ed="#G" n="60"/>obiectionem tollit per duplicem solutionem, 
+      <lb ed="#G" n="61"/>Secunda ibi, De hoc Augustinus ait. Ter 
+      <lb ed="#G" n="62"/>tia ibi, Sed si pat erit cunctorum
+      gau<lb ed="#G" n="63" break="no"/>dium. Quarta ibi, Ad quod di 
+      <lb ed="#G" n="64"/>ci potest. Et haec est
+      diui<lb ed="#G" n="65" break="no"/>sio, &amp; sententia istius 
+      <lb ed="#G" n="66"/>partis in
+      gene<lb ed="#G" n="67" break="no"/>rali, circa quam quaero 
+      <lb ed="#G" n="68"/>in speciali.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

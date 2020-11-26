@@ -1,0 +1,884 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#ThomasStrasbourg">Thomas of Strasbourg</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2020-11-26">November 26, 2020</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="G" n="cod-TxxqU">Genoa 1585</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2020-11-26" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#G" n="84-r"/>
+            <cb ed="#G" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="HuYgTa-e63894"><!-- HuYgTa-l1d24q1 -->
+            <head xml:id="HuYgTa-e63894-Hd1e108">Quaestio 1</head>
+            <head xml:id="HuYgTa-e63894-Hd1e111" type="question-title">An in diuinis sit verus numerus</head>
+            <p xml:id="HuYgTa-e63894-d1e114">
+               <lb ed="#G" n="101"/>
+               <pc type="indent"/>Quaestio. I. 
+      <lb ed="#G" n="102"/>An in diuinis sit verus numerus 
+    </p>
+            <p xml:id="HuYgTa-e63894-d1e123">
+               <lb ed="#G" n="103"/>
+               <pc type="indent"/>VTRVM in diuinis sit verus numerus.
+    </p>
+            <p xml:id="HuYgTa-e63894-d1e130">
+      Et 
+      <lb ed="#G" n="104"/>videtur, quod sic: quia vbicumque est ve 
+      <lb ed="#G" n="105"/>ra trinitas, ibi est verus ternarius, &amp; per 
+      <lb ed="#G" n="106"/>consequens verus numerus; quia praed 
+      <lb ed="#G" n="107"/>catum essentiale non potest ab eo vere 
+      <lb ed="#G" n="108"/>el negari, in quo conceditur esse subiectum; 
+      <lb ed="#G" n="109"/>sed haec est essentialis praedicatio, teruarius est numerus; 
+      <lb ed="#G" n="110"/>ergo concesso ternario esse in diuinis, numerus ab eis non  
+      <lb ed="#G" n="111"/>potest negari; sed i diuinis est verissima trinitas, ergo &amp;c 
+    </p>
+            <p xml:id="HuYgTa-e63894-d1e151">
+               <lb ed="#G" n="112"/>
+               <pc type="indent"/>Contra, nullum accidens vere, &amp; realiter poterit essi 
+      <lb ed="#G" n="113"/>in diuinis, seu in Deo, cum sit omnino simplex; sed numen 
+      <lb ed="#G" n="114"/>rus est verum acc:dens reale, cum sit de praedicamento 
+      <lb ed="#G" n="115"/>quantitatis, ergo &amp; 
+    </p>
+            <p xml:id="HuYgTa-e63894-d1e164">
+               <lb ed="#G" n="116"/>
+               <pc type="indent"/>Circa illam quaestionem est aduertendum, quod cum 
+      <lb ed="#G" n="117"/>vnitas sit principium numeri, de principtatis autem non 
+      <lb ed="#G" n="118"/>possums debite iudicare, nisi cognitis principiis, ergo pro 
+      <lb ed="#G" n="119"/>mo videnda sunt aliqua de ipsa vnitate, quae est principiu 
+      <lb ed="#G" n="120"/>numeri. Secundo videndum est, quae sit materia numer 
+      <lb ed="#G" n="121"/>proprie dicti. Tertio, quae sit forma numeri, siue quid,
+      di<lb ed="#G" n="122" break="no"/>cat numcrus quantum ad suum esse formale, puta vtrum 
+      <lb ed="#G" n="123"/>numerus secundum suum esse formale sit aliquid extra 
+      <lb ed="#G" n="124"/>animam realiter differens a rebus numeratis. Quarto
+      vi<lb ed="#G" n="125" break="no"/>dendum est de eo, quod quaeritur.
+    </p>
+            <p xml:id="HuYgTa-e63894-d1e190">
+      <!--207.xml-->
+               <pb ed="#G" n="84-v"/>
+               <cb ed="#G" n="a"/>
+               <lb ed="#G" n="1"/>RESOLVTIO. 
+      <lb ed="#G" n="2"/>Vnum, quod est principium numeri. quid possitntum importat. 
+    </p>
+            <p xml:id="HuYgTa-e63894-d1e203">
+               <lb ed="#G" n="3"/>
+               <pc type="indent"/>Vnum autem, quod conuertitur cum ente sonat priuationem. 
+      <lb ed="#G" n="4"/>vnde cum mat eria numerorum sint ves numeratae, formae sani 
+      <lb ed="#G" n="5"/>numerosit ates nuncupari possunt. Ex us igitur facilae
+      conclu<lb ed="#G" n="6" break="no"/>ditur, haud proprie numeram in diuinis reperiri. 
+    </p>
+            <p xml:id="HuYgTa-e63894-d1e216">
+               <lb ed="#G" n="7"/>
+               <pc type="indent"/>ARTICVLVS I 
+      <lb ed="#G" n="8"/>De ipsa vnitate, qua ext principium 
+      <lb ed="#G" n="9"/>
+               <pc type="indent"/>numeri. 
+    </p>
+            <p xml:id="HuYgTa-e63894-d1e229">
+               <lb ed="#G" n="10"/>QVANTVM ad primum sunt duo videnda: Primo nm 
+      <lb ed="#G" n="11"/>videndum est, quae sit differentia inter vnum, quod 
+      <lb ed="#G" n="12"/>est principit Aumeri, &amp; vnt quod conuertitur cum ente, 
+      <lb ed="#G" n="13"/>Secundo, vtrum unum, quod est principium numeri,
+      ali<lb ed="#G" n="14" break="no"/>quid addat super vnum, quod conuertitur cum ente. 
+    </p>
+            <p xml:id="HuYgTa-e63894-d1e243">
+               <lb ed="#G" n="15"/>
+               <pc type="indent"/>Quantum ad primum dico, quod differunt ficut posituum 
+      <lb ed="#G" n="16"/>&amp; priuatiuum: quia vnum, quod conuertitur cum ente, 
+      <lb ed="#G" n="17"/>est quid priuatiuum secundum suum formale significatum; 
+      <lb ed="#G" n="18"/>eademi enim res, vt est aliquid in seipsa, dicitur ens; sed vt 
+      <lb ed="#G" n="19"/>est a seipsa indiuisa, sic dicitur una 
+    </p>
+            <p xml:id="HuYgTa-e63894-d1e259">
+               <lb ed="#G" n="20"/>
+               <pc type="indent"/>Vnum autem, quod est principium numeri, est quid po 
+      <lb ed="#G" n="21"/>sitiuum, eo quod constituat speciem discretae quantitatis 
+      <lb ed="#G" n="22"/>quae est vere aliquid positiuum. Et illa videtur esse inter 
+      <lb ed="#G" n="23"/>tio Arist. 10 metaph vbi vult, quod vnum, quod est
+      prin<lb ed="#G" n="24" break="no"/>cipium numeri; opponitur numero, sicut mensura mensi 
+      <lb ed="#G" n="25"/>rato; vnum autem, quod conuertitur cum ente opponit 
+      <lb ed="#G" n="26"/>tur multitudini, sicut indiuisibile diuisibili.  
+    </p>
+            <p xml:id="HuYgTa-e63894-d1e279">
+               <lb ed="#G" n="27"/>
+               <pc type="indent"/>Ex hoc etiam patet, quod vnum, quod est principium nus 
+      <lb ed="#G" n="28"/>meri, aliquo modo se habet, vt inferius ad vnum, quod 
+      <lb ed="#G" n="29"/>conuertitur cum ente. Et dico aliquo modo: quia
+      positi<lb ed="#G" n="30" break="no"/>uum non est simpliciter inferius respectu priuatiui, cun 
+      <lb ed="#G" n="31"/>eius praedicationem formalem non possit recipere
+      dire<lb ed="#G" n="32" break="no"/>cte per se Cum enim vnum, quod conuertitur cum ente 
+      <lb ed="#G" n="33"/>praedicatur de aliquo ente posituo, hoc non fit secudum 
+      <lb ed="#G" n="34"/>que illud est posituum; sed secundum quod est in se indiui 
+      <lb ed="#G" n="35"/>um. Vnde vnum, quod est principium numeri, est directe 
+      <lb ed="#G" n="36"/>inferius ad ipsum ens, cum sit quid positiuum &amp;
+      praedica<lb ed="#G" n="37" break="no"/>tionem entis directe recipiat, respectu autem illius vnius 
+      <lb ed="#G" n="38"/>priuatiui non est inferius, nisi inquantum illud vnum est 
+      <lb ed="#G" n="39"/>indifferens ab ente 
+    </p>
+            <p xml:id="HuYgTa-e63894-d1e312">
+               <lb ed="#G" n="40"/>
+               <pc type="indent"/>Forte quaeret aliquis ex qua radice innascatur illud du 
+      <lb ed="#G" n="41"/>ilex vnum 
+    </p>
+            <p xml:id="HuYgTa-e63894-d1e321">
+               <lb ed="#G" n="42"/>
+               <pc type="indent"/>Reipodeo, quod saepius vnum oppositorum dignoscitur por 
+      <lb ed="#G" n="43"/>alterum: &amp; ideo ex duplici multitudine, quae opponitur 
+      <lb ed="#G" n="44"/>ipsi vni, cognoscere poterimus innascentiam illius
+      dupli<lb ed="#G" n="45" break="no"/>cis vnius est enim vna multitudo, quae inmascitur ex
+      di<lb ed="#G" n="46" break="no"/>stinctione rerum formali, qua res specifice distinguuntur,  
+      <lb ed="#G" n="47"/>&amp; illa multitudo inuenitur in omnibus entibus, tam ma 
+      <lb ed="#G" n="48"/>terialibus, qu immaterialibus. Et ideo talis multitudo ess 
+      <lb ed="#G" n="49"/>multitudo transcendens, &amp; similiter ipsum vnum, per cu 
+      <lb ed="#G" n="50"/>us replicationem concipitur talis multitudo est tramscen 
+      <lb ed="#G" n="51"/>dens, &amp; cum ente conuertitur. In tali namque formali om- 
+      <lb ed="#G" n="52"/>nium entium multitudine quaelibet res est vna secudum 
+      <lb ed="#G" n="53"/>se, eo quod non sit altera propter formalem distinctioni 
+      <lb ed="#G" n="54"/>sui ab altera. Alia autem est multitudo, quae inmalcitur 
+      <lb ed="#G" n="55"/>ex distinctione materiali, puta ex diuisione continui, &amp; 
+      <lb ed="#G" n="56"/>haec multitudo secundum suam propriam rationem non 
+      <lb ed="#G" n="57"/>inuenitur, nisi in rebus materialibus quantitate continus 
+      <lb ed="#G" n="58"/>informatis, vel in partibus quantitatis continue: vt sunt ab 
+      <lb ed="#G" n="59"/>inuicem separatae: &amp; haec multitudo proprie dicitur esse 
+      <lb ed="#G" n="60"/>numerus, quae est species discretae quantitatis. Propter 
+      <lb ed="#G" n="61"/>quod dicitur <ref xml:id="HuYgTa-e63894-Rd1e368">3. physicorum</ref>, quod numerus causatur ex 
+      <lb ed="#G" n="62"/>niuisione continui, &amp; vnum, quod est principium illius 
+      <lb ed="#G" n="63"/>humcralis multitudinis, siue ipsius numeri proprie di 
+      <lb ed="#G" n="64"/>cti, est ipsum continuum: quia vt dicunt aliqui sollemnes 
+      <!--207.xml-->
+      <cb ed="#G" n="b"/>
+               <lb ed="#G" n="65"/>doctores, eadem res, puta eadem continuitas, vt perficie 
+      <lb ed="#G" n="66"/>rem in se, est principium numeri, vt autem perficit cam 
+      <lb ed="#G" n="67"/>in ordine ad partes, dicitur continuum. 
+    </p>
+            <p xml:id="HuYgTa-e63894-d1e390">
+               <lb ed="#G" n="68"/>
+               <pc type="indent"/>Quantum ad secundum primi, vtrum vnum, quod est 
+      <lb ed="#G" n="69"/>principium numeri, aliquid addat super vnum, quod
+      con<lb ed="#G" n="70" break="no"/>pertitur cum ente: Patet ex iam dictis, quod unum, quod 
+      <lb ed="#G" n="71"/>est principium numeri super vnum, quod conuertitur cum 
+      <lb ed="#G" n="72"/>ente, addit quendam modum essendi posituum generit 
+      <lb ed="#G" n="73"/>determinati. 
+    </p>
+            <p xml:id="HuYgTa-e63894-d1e409">
+               <lb ed="#G" n="74"/>
+               <pc type="indent"/>Est tamen aduertendum, quod in hac materia tam
+      an<lb ed="#G" n="75" break="no"/>tiqui, quam moderni varias sententias protulerunt.
+      Aui<lb ed="#G" n="76" break="no"/>cena enim hic dupliciter errauit, vt patet ex dictis <ref xml:id="HuYgTa-e63894-Rd1e419">Aueri 
+        <lb ed="#G" n="77"/>42. metaph</ref> Primo quidem, quia nullam posuit
+      distinctio<lb ed="#G" n="78" break="no"/>nem inter predictas duas vnitates, nec vnam dixit
+      ali<lb ed="#G" n="79" break="no"/>quid addere iuper alteram. Secundo, quia vidit, quod ip 
+      <lb ed="#G" n="80"/>um unum, quod est principium numeri, est accideni 
+      <lb ed="#G" n="81"/>quoddam reale differens ab eo, quod denominat: idec 
+      <lb ed="#G" n="82"/>dixit, quod unum, quod cum ente conuertitur, addit 
+      <lb ed="#G" n="83"/>aliquid iuper ipsum ens, eo, quod accidens semper addit 
+      <lb ed="#G" n="84"/>aliquid super illud, cuius est accidens: alias si non
+      dif<lb ed="#G" n="85" break="no"/>errent vnum, &amp; ens, tunc esset nugatio dicendo, ens
+      v<lb ed="#G" n="86" break="no"/>num: quia tantum valeret, ac si diceretur ens ens, vel 
+      <lb ed="#G" n="87"/>vnum vnum.
+    </p>
+            <p xml:id="HuYgTa-e63894-d1e447">
+               <lb ed="#G" n="88"/>Sed ille modus dicendi refellitur per <ref xml:id="HuYgTa-e63894-Rd1e451">Auer. 4. metaph</ref>. 
+      <lb ed="#G" n="89"/>uia si ens esset vnum per aliquid additum, tunc vt ait 
+      <lb ed="#G" n="90"/>Auer. si illud additum esset aliquid, &amp; non esset unum 
+      <lb ed="#G" n="91"/>tunc unum, &amp;ens non conuerterentur. Si autem est
+      u<lb ed="#G" n="92" break="no"/>num, vel erit vnum per aliquid aliud, &amp; tunc erit
+      proces<lb ed="#G" n="93" break="no"/>sus in infinitum, vel est unum per seipsum, &amp; tunc pari 
+      <lb ed="#G" n="94"/>ratione fuit standum in primo. Et addit Auerro.
+      quan<lb ed="#G" n="95" break="no"/>tum ad solutionem rationis Auicennae, quod dicendo ens 
+      <lb ed="#G" n="96"/>mum non est nugatio: quia quamuis vnum, &amp; ens non  
+      <lb ed="#G" n="97"/>diffcrant realiter, sed sint idem re, differunt tamen
+      ra<lb ed="#G" n="98" break="no"/>ione. Modus etiam Auicennae patet esse falsus ex
+      di<lb ed="#G" n="99" break="no"/>ctis <ref xml:id="HuYgTa-e63894-Rd1e478">Aristote. in eodem 4</ref>. Ait enim, quod unum &amp; ens, 
+      <lb ed="#G" n="100"/>sunt vnum secundum naturam, &amp; consequuntur se, sicus 
+      <lb ed="#G" n="101"/>rincipium &amp; causa.
+    </p>
+            <p xml:id="HuYgTa-e63894-d1e486">
+               <lb ed="#G" n="102"/>Dicunt insuper quidam moderni; quod vnum, quod est 
+      <lb ed="#G" n="103"/>principium numeri, addit super vnum, quod conuertitur 
+      <lb ed="#G" n="104"/>cum ente, rationem mensurae: quia tota sua ratio in men 
+      <lb ed="#G" n="105"/>suratione consistit; importat enim tale nomen unum 
+      <lb ed="#G" n="106"/>artem aliquotam totius discreti, cuius partis ratio in 
+      <lb ed="#G" n="107"/>ratione mensurae videtur consistere, &amp; credo, quod isti 
+      <lb ed="#G" n="108"/>velint dicere cum philosopho in philosophicis, quod  
+      <lb ed="#G" n="109"/>pars aliquota dicitur illa, quae aliquotiens sumpta
+      ad<lb ed="#G" n="110" break="no"/>aequat suum totum, &amp; per consequens est apea nata
+      ip<lb ed="#G" n="111" break="no"/>sum mensurare. 
+    </p>
+            <p xml:id="HuYgTa-e63894-d1e510">
+               <lb ed="#G" n="112"/>
+               <pc type="indent"/>Sed contra illud doctor noster in hac distinct
+      triplici<lb ed="#G" n="113" break="no"/>ter arouit. Primo sic 
+    </p>
+            <p xml:id="HuYgTa-e63894-d1e519">
+               <lb ed="#G" n="114"/>
+               <pc type="indent"/>Ex relatione non potest constitui absolutum, sed 
+      <lb ed="#G" n="115"/>mensuratio importat relationem, ergo si ratio vnius in 
+      <lb ed="#G" n="116"/>mensuratione consisteret, tunc vnum posset constituere 
+      <lb ed="#G" n="117"/>numerum, qui est res absoluta, cum sit species
+      quantita<lb ed="#G" n="118" break="no"/>tis, ergo &amp;c 
+    </p>
+            <p xml:id="HuYgTa-e63894-d1e535">
+               <lb ed="#G" n="119"/>
+               <pc type="indent"/>2 Praeterea, nihil contrahitur sub aliquo communi, 
+      <lb ed="#G" n="120"/>nisi per illud, quod est in eo: sed relatio mensurae nihil po 
+      <lb ed="#G" n="121"/>nit in ipsa mensura, sed solum in mensurato; ergo per 
+      <lb ed="#G" n="122"/>nuiusmodi relationem, vnum, quod est principium
+      nu<lb ed="#G" n="123" break="no"/>meri, non poterit contrahi ad certum genus, puta ad
+      ge<lb ed="#G" n="124" break="no"/>nus quantitatis.
+    </p>
+            <p xml:id="HuYgTa-e63894-d1e554">
+               <lb ed="#G" n="125"/>3 Praeterea, per illud, quod inserius addit super suum 
+      <lb ed="#G" n="126"/>superius, ipsum inferius constituitur, sed per rationem 
+      <lb ed="#G" n="127"/>mensurae non constituitur aliquid de praedicamento quam 
+      <lb ed="#G" n="128"/>titatis: quia mensuratio est quaedam passio, siue
+      proprie<lb ed="#G" n="129" break="no"/>tas, quae primo conuenit quantitati; &amp; deinde transfertur 
+      <lb ed="#G" n="130"/>ad asta, vt dicit philosophus 1i0. metaph. passio auten non 
+      <lb ed="#G" n="131"/>constituit illud, cuius est passio. 
+    </p>
+            <p xml:id="HuYgTa-e63894-d1e572">
+               <lb ed="#G" n="132"/>
+               <pc type="indent"/>verum est tamen, quod illae rationes non concluderet 
+      <lb ed="#G" n="133"/>liquid contra illos, si ipsi dicerent, quod unum: quod ed 
+      <lb ed="#G" n="134"/>principium numcri, dicit per se ipsam rem lubstratam
+      ta<lb ed="#G" n="135" break="no"/>si habitudini, sine relationi mensurae, puta, quod dicetet 
+      <lb ed="#G" n="136"/>psam rem: quae est mensura, relationem autem non
+      di<lb ed="#G" n="137" break="no"/>teret per se, sed comoratiue. Sed quia quo ad hoc. 
+      <!--208.xml-->
+      <pb ed="#G" n="85-r"/>
+               <cb ed="#G" n="a"/>
+               <lb ed="#G" n="1"/>illorum intentionem nestio, ideo rationes praedictas in 
+      <lb ed="#G" n="2"/>suo vigore stare permitto. 
+    </p>
+            <p xml:id="HuYgTa-e63894-d1e601">
+               <lb ed="#G" n="3"/>
+               <pc type="indent"/>Alij dicunt, quod vnum, quod est principium numeri
+      su<lb ed="#G" n="4" break="no"/>per vnum, quod conuertitur cum ente, addit rationem po 
+      <lb ed="#G" n="5"/>sitiuam, quae tamen non est, nisi in anima obiectiue: quia 
+      <lb ed="#G" n="6"/>haec ratio non est aliud, quam clausio indiuisi inquantum 
+      <lb ed="#G" n="7"/>indiuisum est, quam facit inens indistinctum inquantum 
+      <lb ed="#G" n="8"/>indistinctum comprehendendo quasi in esse indistincto 
+      <lb ed="#G" n="9"/>ipsum summando &amp; mensurando. Et hoc probant sic 
+    </p>
+            <p xml:id="HuYgTa-e63894-d1e621">
+               <lb ed="#G" n="10"/>
+               <pc type="indent"/>Quia ratio vnius, &amp; ratio numeri in hoc solum
+      dif<lb ed="#G" n="11" break="no"/>ferunt, quod vnum est indiuisibile; numerus autem est 
+      <lb ed="#G" n="12"/>diuisibuis, sed clausio diuisorum, inquantum diuisa sunt,  
+      <lb ed="#G" n="13"/>est formaliter numerus, ergo clausio indiuisi est formalis 
+      <lb ed="#G" n="14"/>ratio vnitatis. 
+    </p>
+            <p xml:id="HuYgTa-e63894-d1e637">
+               <lb ed="#G" n="15"/>
+               <pc type="indent"/>Praeterea, vnum, quod est principium numeri,
+      con<lb ed="#G" n="16" break="no"/>sistit in quadam aequalitate excludente plus &amp; minus, vn 
+      <lb ed="#G" n="17"/>de cum dicitur vnus phoenis, tantum est dicere, quod nec 
+      <lb ed="#G" n="18"/>plures, nec pauciores, sed conceptus sic medians inter plu 
+      <lb ed="#G" n="19"/>ra &amp; pauciora est conceptus positiuus, ergo &amp;c. 
+    </p>
+            <p xml:id="HuYgTa-e63894-d1e653">
+               <lb ed="#G" n="20"/>
+               <pc type="indent"/>Sed haec posito deficit in se dupliciter. 
+      <lb ed="#G" n="21"/>1 Primo ex hoc quod dicit illud positiuum, quod vnum 
+      <lb ed="#G" n="22"/>existens principium numeri addit super vnum, quod cor 
+      <lb ed="#G" n="23"/>uertitur cum ente, tantum esse obiectiue in anima: quia 
+      <lb ed="#G" n="24"/>illud, quod est extra animam ens reale non est tantum 
+      <lb ed="#G" n="25"/>obiectiue in anima, sed vnum, quod est principium numi 
+      <lb ed="#G" n="26"/>ri, est extra animam verum ens reale: Maior patet,
+      mino<lb ed="#G" n="27" break="no"/>rem probo: quia Auerrois ro metaph ostendeus differet 
+      <lb ed="#G" n="28"/>tiam inter vnum, quod est principium numeri, &amp; vnun 
+      <lb ed="#G" n="29"/>quod conuertitur cum ente, ait, quod vnum, quod est
+      prin<lb ed="#G" n="30" break="no"/>cipium numeri, est accidens additum rei, sed vnum, quod 
+      <lb ed="#G" n="31"/>conuertitur cum ente, est id ipsum, quod res; addita tamen 
+      <lb ed="#G" n="32"/>sbi duplici negatione, puta quod est indiuisa in se; &amp;
+      di<lb ed="#G" n="33" break="no"/>uisa a quolibet alio. Cum igitur accidens insit ei, cuius est 
+      <lb ed="#G" n="34"/>aceidens quia accidentis esse est inesse, vt dicitur 4. met. 
+      <lb ed="#G" n="35"/>ergo posituum, quod vnum existens principium numeri, 
+      <lb ed="#G" n="36"/>addit super vnum conuertibile cum ente, non solum erit 
+      <lb ed="#G" n="37"/>obiectiue in intellectu, sed erit etiam subiectiue in re 
+      <lb ed="#G" n="38"/>extra cuius dicitur esse accidens 
+    </p>
+            <p xml:id="HuYgTa-e63894-d1e700">
+               <lb ed="#G" n="39"/>
+               <pc type="indent"/>Deficit secundo in eo, quod dicit rationem vnius 
+      <lb ed="#G" n="40"/>consistere in quadam clausione, quam sacit in ens
+      indiui<lb ed="#G" n="41" break="no"/>sum comprehendendo, &amp; quasi inesse indistincto ipsun 
+      <lb ed="#G" n="42"/>mensurando: quia per haec verba sequitur, quod ipsum vnum 
+      <lb ed="#G" n="43"/>sit quid summatum &amp; mensuratu, quod est contra Arist. 
+      <lb ed="#G" n="44"/>se metap. vbi ait, quod numerus est multitudo
+      mensu<lb ed="#G" n="45" break="no"/>lata per vnum, ergo non summatur &amp; mensuratur ipsum 
+      <lb ed="#G" n="46"/>vnum, sed per vnum cetera mensurantur, :&amp; ideo ibidem 
+      <lb ed="#G" n="47"/>ait philosophus, quod vnum se habet ad numerum sicut 
+      <lb ed="#G" n="48"/>mensura ad mensuratum. 
+    </p>
+            <p xml:id="HuYgTa-e63894-d1e726">
+               <lb ed="#G" n="49"/>
+               <pc type="indent"/>Rationes ctiam adductae non concludunt 
+      <lb ed="#G" n="50"/>Ad primum ergo dicendum, quod maior est falsa: quia 
+      <lb ed="#G" n="51"/>in multis aliis differunt praeterquam in esse diuisibili, &amp;  
+      <lb ed="#G" n="52"/>indiuisibili: quia differunt sicut principium &amp;
+      principia<lb ed="#G" n="53" break="no"/>tum, sicut mensura &amp; mensuratum, &amp; sic de aliis. Ad mi- 
+      <lb ed="#G" n="54"/>norem dico, quod quamuis clausio possit aliquo modo
+      com<lb ed="#G" n="55" break="no"/>petere tam numero, quam vni, quod est principium
+      nu<lb ed="#G" n="56" break="no"/>meri; tamen opposito modo conuenit ipsis; numero enin 
+      <lb ed="#G" n="57"/>conuenit passiue tamquam clauso &amp; mensurato, sed vni 
+      <lb ed="#G" n="58"/>fi competit actiue, sibi competet puta tamquam clauden 
+      <lb ed="#G" n="59"/>ti, &amp; mensuranti ipsum numerum. Et sequitur ex ratione 
+      <lb ed="#G" n="60"/>istius doctoris oppositum illius, quod intendit: quia ipse 
+      <lb ed="#G" n="61"/>intendit concludere, quod sicut numerus est quoddam 
+      <lb ed="#G" n="62"/>diuisum, clausum &amp; mensuratu, sic ipsum vnum sit
+      quod<lb ed="#G" n="63" break="no"/>dam indiuisum, clausum &amp; mensuratum. 
+    </p>
+            <p xml:id="HuYgTa-e63894-d1e763">
+               <lb ed="#G" n="64"/>
+               <pc type="indent"/>Ad secundum dicendum, quod per duplicem exclusio 
+      <lb ed="#G" n="65"/>nem implicantem binam negationem non respectu
+      mi<lb ed="#G" n="66" break="no"/>nus, sed respectu distinctorum, puta respectu eius, quod 
+      <lb ed="#G" n="67"/>est plus, &amp; respectu eius, quod est minus seu paucius, non 
+      <lb ed="#G" n="68"/>habens rationem formaliter positiuam, sed simpliciter 
+      <lb ed="#G" n="69"/>priuatiuam, cuius oppositum concludere tu debebas:
+      qui<lb ed="#G" n="70" break="no"/>ex duabus negationibus non resultat aequipollentia
+      vniu<lb ed="#G" n="71" break="no"/>effirmationis, nisi ambae negationes sumantur respectu 
+      <lb ed="#G" n="72"/>mius, ita quod secunda negatio neget primam. 
+    </p>
+            <p xml:id="HuYgTa-e63894-d1e787">
+      <!--208.xml-->
+               <cb ed="#G" n="b"/>
+               <lb ed="#G" n="73"/>ARTICVLVS V 
+      <lb ed="#G" n="74"/>Quod sit materia numeri proprie dicti 
+    </p>
+            <p xml:id="HuYgTa-e63894-d1e798">
+               <lb ed="#G" n="75"/>VANTVM ad secundum principale, quae sit
+      mate<lb ed="#G" n="76" break="no"/> ria numeri proprie dicti, dico, quod materia
+      nu<lb ed="#G" n="77" break="no"/>meri proprie dicti, sunt res, in quibus fundatur forma nu 
+      <lb ed="#G" n="78"/>meri, puta diuersae res materiales, quarum quaelibet est 
+      <lb ed="#G" n="79"/>continua, distincta tamen ab alia. 
+    </p>
+            <p xml:id="HuYgTa-e63894-d1e811">
+               <lb ed="#G" n="80"/>
+               <pc type="indent"/>1 Quia illud est materia numeri, ex quo materialiter 
+      <lb ed="#G" n="81"/>generatur numerus, sed numerus, generatur ex decisione 
+      <lb ed="#G" n="82"/>continui, vt patet <ref xml:id="HuYgTa-e63894-Rd1e821">3. physicorum</ref>, ergo &amp;c 
+    </p>
+            <p xml:id="HuYgTa-e63894-d1e826">
+               <lb ed="#G" n="83"/>
+               <pc type="indent"/>2 Praeterea, ipsae res numeratae sunt materia numer 
+      <lb ed="#G" n="84"/>proprie dicti; sed res materiales continuae proprie
+      nume<lb ed="#G" n="85" break="no"/>tantur: quia sicut se habet res formaliter distinctae ad mu 
+      <lb ed="#G" n="86"/>titudinem transcendentem, sic se habent res continuae, 
+      <lb ed="#G" n="87"/>siue quarum quaelibet est in se continua ab alia tamet 
+      <lb ed="#G" n="88"/>materialiter distincta ad multitudinem, quae proprie
+      di<lb ed="#G" n="89" break="no"/>citur numerus, sed illae summantur multitudine
+      transcen<lb ed="#G" n="90" break="no"/>dente, ergo illae numerantur numero proprie dicto. 
+    </p>
+            <p xml:id="HuYgTa-e63894-d1e848">
+               <lb ed="#G" n="91"/>
+               <pc type="indent"/>Forte dices, quod equus, homo, asinus, leo, capra, &amp; sic 
+      <lb ed="#G" n="92"/>de aliis, quae formaliter differunt etiam numerantur
+      nu<lb ed="#G" n="93" break="no"/>mero proprie dicto. 
+    </p>
+            <p xml:id="HuYgTa-e63894-d1e859">
+               <lb ed="#G" n="94"/>
+               <pc type="indent"/>Respondeo quod ex parte, qua quodlibet talium
+      prae<lb ed="#G" n="95" break="no"/>dictorum &amp; consimilium est res materialis, habens in si 
+      <lb ed="#G" n="96"/>continuam quantitatem, ratione cuius non differunt spo 
+      <lb ed="#G" n="97"/>cie: quia vt continua sunt, eiusdem speciei esse possunt, 
+      <lb ed="#G" n="98"/>ista talia numerantur numero proprie dicto per accidens 
+      <lb ed="#G" n="99"/>autem est, quod differant formaliter, inquantum tali
+      nu<lb ed="#G" n="100" break="no"/>mero numerantur. 
+    </p>
+            <p xml:id="HuYgTa-e63894-d1e879">
+               <lb ed="#G" n="101"/>
+               <pc type="indent"/>ARTICVLVS IIL 
+      <lb ed="#G" n="102"/>Vtrum, numerus secundum suum esse formale set usi 
+      <lb ed="#G" n="103"/>qud extra animam vrealiter differens a 
+      <lb ed="#G" n="104"/>rebus numeratis.
+    </p>
+            <p xml:id="HuYgTa-e63894-d1e892">
+               <lb ed="#G" n="105"/>QVANTVM ad tertium principale, quae sit forma
+      nu<lb ed="#G" n="106" break="no"/>meri, siue, quid dicat numerus quantum ad suum essi  
+      <lb ed="#G" n="107"/>formale, dico, quod quamuis non habeamus nomen
+      vsi<lb ed="#G" n="108" break="no"/>tatum, quo naturam formae, quae est numerus abstracte 
+      <lb ed="#G" n="109"/>nominemus possumus tamen eam appellare
+      numerosi<lb ed="#G" n="110" break="no"/>tatem: quia sicut forma continui nominatur continuitas,  
+      <lb ed="#G" n="111"/>sic natura formae numeralis nominatur numerositas, &amp;  
+      <lb ed="#G" n="112"/>ista forma est verum ens reale existens in ipsis rebus
+      nu<lb ed="#G" n="113" break="no"/>nieratis subiectine tamquam accidens realiter differeus 
+      <lb ed="#G" n="114"/>a subiecto, siue a rebus numeratis. 
+    </p>
+            <p xml:id="HuYgTa-e63894-d1e916">
+               <lb ed="#G" n="115"/>
+               <pc type="indent"/>Duo ergo probabo. Primo quod numerus est verum 
+      <lb ed="#G" n="116"/>ens reale extra animam. Secundo quod differt a rebus 
+      <lb ed="#G" n="117"/>numeratis. 
+    </p>
+            <p xml:id="HuYgTa-e63894-d1e928">
+               <lb ed="#G" n="118"/>
+               <pc type="indent"/>Primum probo sic. lllud, quod realiter &amp; per se sensi 
+      <lb ed="#G" n="119"/>bile, est uerum ens reale circumscripta omni operatione 
+      <lb ed="#G" n="120"/>intellectus, sed numerus est huiusmodi: quia 2. de amme 
+      <lb ed="#G" n="121"/>dicitur, quod communia sensibilia sunt numerus figura,
+      ma<lb ed="#G" n="122" break="no"/>gnitudo, motus, &amp; quies; &amp; sicut ibidem patet,
+      sensibili<lb ed="#G" n="123" break="no"/>communia sunt sensibilia per se, licet non primo; mator 
+      <lb ed="#G" n="124"/>est euidenst quia sensibile praecedit operationem intellectus 
+    </p>
+            <p xml:id="HuYgTa-e63894-d1e948">
+               <lb ed="#G" n="125"/>2 Praeterea, figura est ens reale extra animam, ergo 
+      <lb ed="#G" n="126"/>numerus est ens reale extra animam. Antecedens pates 
+      <lb ed="#G" n="127"/>ad vesum, etiam quia ipsa est quarta species qualitatis; ideo 
+      <lb ed="#G" n="128"/>ad entitatem figurae nihil facit intellectus. consequentiam 
+      <lb ed="#G" n="129"/>probo: quia omnis figura praesupponit numerum tamquam 
+      <lb ed="#G" n="130"/>aliquid necessario requisitum, sine quo impossibile est esse  
+      <lb ed="#G" n="131"/>figuram: impossibile est enim esse triangulum sine
+      terna<lb ed="#G" n="132" break="no"/>rio, &amp; quadrangulum sine quaternario; vnde eadem
+      ne<lb ed="#G" n="133" break="no"/>cessitate, qua triangulus est, circumscripta omni
+      opera<lb ed="#G" n="134" break="no"/>tione intellectus, eadem necessitate anguli trionguli fum 
+      <lb ed="#G" n="135"/>dant actualiter numerum ternarium, circumscripta omni 
+      <lb ed="#G" n="136"/>operatione intellectus.
+    </p>
+            <p xml:id="HuYgTa-e63894-d1e977">
+               <lb ed="#G" n="137"/>3 Preterea, species vera praedicamenti realis est quid 
+      <!--209.xml-->
+      <pb ed="#G" n="85-v"/>
+               <cb ed="#G" n="a"/>
+               <lb ed="#G" n="1"/>reale; licet numerus est vera species quantitatis, vt patet 
+      <lb ed="#G" n="2"/>in <ref xml:id="HuYgTa-e63894-Rd1e992">
+                  <title>praedicamentis</title>
+               </ref> &amp; <ref xml:id="HuYgTa-e63894-Rd1e998">5. metaph¬</ref> 
+            </p>
+            <p xml:id="HuYgTa-e63894-d1e1002">
+               <lb ed="#G" n="3"/>
+               <pc type="indent"/>Praeterea, omnis relatio realiter indepedens ab
+      ani<lb ed="#G" n="4" break="no"/>ma, requirit fundamentum reale extra animam, sed
+      du<lb ed="#G" n="5" break="no"/>plum &amp; dimidium, quocum immediatum sundamentum 
+      <lb ed="#G" n="6"/>potest esse quaternarius, &amp; binarius, sunt relationes
+      rea<lb ed="#G" n="7" break="no"/>les independentes ab anima: quia relationes modo
+      nume<lb ed="#G" n="8" break="no"/>ri, &amp; modo potentiae sunt reales &amp; distinctae contra
+      rela<lb ed="#G" n="9" break="no"/>tiones ad quorum esse facit intellectus, vt patet s.
+      metaph<lb ed="#G" n="10" break="no"/>maior similiter patet ex eodem5. 
+    </p>
+            <p xml:id="HuYgTa-e63894-d1e1024">
+               <lb ed="#G" n="11"/>
+               <pc type="indent"/>Preterea, si numerus quantum ad suum esse
+      forma<lb ed="#G" n="12" break="no"/>le dependeret ab anima, siue ab actu animae numerantis,  
+      <lb ed="#G" n="13"/>vt volunt aliqui doctores, tunc anima non numerante non 
+      <lb ed="#G" n="14"/>haberet plures denarios in archa sua diues; quam
+      pau<lb ed="#G" n="15" break="no"/>per. consequens est falsum ad sensum; consequentia natet 
+      <lb ed="#G" n="16"/>quia plura &amp; pauciora esse non possunt, vbi uullus est nu 
+      <lb ed="#G" n="17"/>merus, sed si numerus in suo esse ab actu animae dependum 
+      <lb ed="#G" n="18"/>ret, tunc anima non existente in tali actu, puta hominibus 
+      <lb ed="#G" n="19"/>dormientibus, nequaquam esset numerus, &amp; per
+      conso<lb ed="#G" n="20" break="no"/>quens nec plus, nec paucius. 
+    </p>
+            <p xml:id="HuYgTa-e63894-d1e1050">
+               <lb ed="#G" n="21"/>
+               <pc type="indent"/>Quo ad probationem secundae conclusionis praesuppo 
+      <lb ed="#G" n="22"/>no ex praecedentibus, quod res distinctae, quarum tamen 
+      <lb ed="#G" n="23"/>quaelibet est continua, proprie numerantur, tuc arguo sic. 
+    </p>
+            <p xml:id="HuYgTa-e63894-d1e1062">
+               <lb ed="#G" n="24"/>1 Illud, quod formaliter, &amp; specifice est condistinctum 
+      <lb ed="#G" n="25"/>rebus numeratis, hoc realiter differt ab eis; sed numerus 
+      <lb ed="#G" n="26"/>est huiusmodi, ergo &amp;c. Maior patet, probatur minor 
+      <lb ed="#G" n="27"/>quia res numeratae vel sunt ipsae quantitates continuae, 
+      <lb ed="#G" n="28"/>vel sunt res quantae quantitate informatae, quorum
+      quo<lb ed="#G" n="29" break="no"/>cunque dato patet, quod numerus formaliter &amp; spec: fice 
+      <lb ed="#G" n="30"/>differt ab eis 
+    </p>
+            <p xml:id="HuYgTa-e63894-d1e1080">
+               <lb ed="#G" n="31"/>2 Praeterea, sicut vnitas, quae est principium numeri; 
+      <lb ed="#G" n="32"/>se habet ad rem, quam denominat, &amp; in qua fundatur; sic 
+      <lb ed="#G" n="33"/>se habet numerus ad ipsa numerata, sed vnitas existens 
+      <lb ed="#G" n="34"/>principium numeri differt are in quasundatur, ergo
+      nu<lb ed="#G" n="35" break="no"/>merus differt a numeratis. Maior patet: quia cum
+      nume<lb ed="#G" n="36" break="no"/>rus sit ipsa multitudo talium ubitatum. si vnitas realites 
+      <lb ed="#G" n="37"/>differt a substrato suo; oportet, quod numerus differat a 
+      <lb ed="#G" n="38"/>suo. Minor euidens est auctoritate Commentatoris vt 
+      <lb ed="#G" n="39"/>
+               <ref xml:id="HuYgTa-e63894-Rd1e1101">superius allegaui</ref>, qui ponit <ref xml:id="HuYgTa-e63894-Rd1e1104">io metaph.</ref> quod in hoc
+      dif<lb ed="#G" n="40" break="no"/>fert unum, quod est principium numeri ab vno, quod
+      con<lb ed="#G" n="41" break="no"/>uertitur cum ente: quia vnum existens principium numi 
+      <lb ed="#G" n="42"/>ri, addit accidens reale super rem, quae dicitur vna; sed  
+      <lb ed="#G" n="43"/>vnum conuertibile cum ente, addit super ipsum ens
+      so<lb ed="#G" n="44" break="no"/>lam rationem. 
+    </p>
+            <p xml:id="HuYgTa-e63894-d1e1119">
+               <lb ed="#G" n="45"/>
+               <pc type="indent"/>Sed contrarium primae conclusionis istius tertij articu 
+      <lb ed="#G" n="46"/>li quidam arguunt sic. 
+    </p>
+            <p xml:id="HuYgTa-e63894-d1e1128">
+               <lb ed="#G" n="47"/>1 Nulla realitas videtur acquiri in aliquo per hoc, qu 
+      <lb ed="#G" n="48"/>fit cum alio, quae non acquireretur in eo si fieret sine illo. 
+      <lb ed="#G" n="49"/>Sed silapis fit praecise sine aliquo alio, non acquiretur in 
+      <lb ed="#G" n="50"/>eo aliquis numerus, si autem cum aliquo alio acquiritur 
+      <lb ed="#G" n="51"/>in eo dualitas, ergo dualitas siue numerus non erit
+      ali<lb ed="#G" n="52" break="no"/>qua realitas
+    </p>
+            <p xml:id="HuYgTa-e63894-d1e1144">
+               <lb ed="#G" n="53"/>2 Praeterea, si numerus est aliqua forma accidentalis 
+      <lb ed="#G" n="54"/>realis, aut talis forma subiectiue erit in qualibet unitatoe 
+      <lb ed="#G" n="55"/>secundum se totam, &amp; sic vnum simplex accidens erit in
+      di<lb ed="#G" n="56" break="no"/>uersis subiectis, quod est impossibile: autem erit in una sola
+      vni<lb ed="#G" n="57" break="no"/>tate, &amp; hoc erit impossibilius: quia tunc numerus esset in 
+      <lb ed="#G" n="58"/>diuisibilis, etiam omnes aliae unitates superfluerent.
+    </p>
+            <p xml:id="HuYgTa-e63894-d1e1160">
+               <lb ed="#G" n="59"/>3 Praeterea, si numerus esset forma realis extra animam 
+      <lb ed="#G" n="60"/>aut erit aliquid vnum, &amp; tunc numerus erit principium 
+      <lb ed="#G" n="61"/>numeri, &amp; principium numeri praedicabitur de numero 
+      <lb ed="#G" n="62"/>aut est plures secundum partes; ita quod vna pars sui reci 
+      <lb ed="#G" n="63"/>bietur in vno continuo, &amp; altera in alio: &amp; tuc in eodem  
+      <lb ed="#G" n="64"/>continuo essent duae quantitates, scilicet continuitas, &amp;  
+      <lb ed="#G" n="65"/>pars ipsius numeri.
+    </p>
+            <p xml:id="HuYgTa-e63894-d1e1179">
+               <lb ed="#G" n="66"/>4 Preterea, in his, quae sunt actu diuisa, non potes 
+      <lb ed="#G" n="67"/>esse vna forma realis,; sed partes numeri sunt actu diuisae, 
+      <lb ed="#G" n="68"/>ergo &amp;c. 
+    </p>
+            <p xml:id="HuYgTa-e63894-d1e1188">
+               <lb ed="#G" n="69"/>
+               <pc type="indent"/>Praeterea, nulla sorma realis extra animam est repli 
+      <lb ed="#G" n="70"/>cabilis super seipsam, sed vt patet in arismetica, numerus 
+      <lb ed="#G" n="71"/>refflectitur super seipsum, damus enim duos binarios, &amp; 
+      <lb ed="#G" n="72"/>tres ternarios, &amp; sic de alijs 
+    </p>
+            <p xml:id="HuYgTa-e63894-d1e1201">
+               <lb ed="#G" n="73"/>3 Praeterea, partes materiales unius totius non possunt 
+      <!--209.xml-->
+      <cb ed="#G" n="b"/>
+               <lb ed="#G" n="74"/>fieri partes alterius sine sui mutat one, sicut nec ipsa
+      ma<lb ed="#G" n="75" break="no"/>teria sub noua forma fieri potest sine mutatione, sed
+      vni<lb ed="#G" n="76" break="no"/>tates, quae sunt partes materiales vnius quaternarij, sine 
+      <lb ed="#G" n="77"/>aliqua sui mutatione per solam vnius vnitatis additionem 
+      <lb ed="#G" n="78"/>efficiuntur partes quinarii.
+    </p>
+            <p xml:id="HuYgTa-e63894-d1e1221">
+               <lb ed="#G" n="79"/>V Praeterea, impossibile est, quod vna &amp; eadem res 
+      <lb ed="#G" n="80"/>numero existens extra animam sit in decem hominibus, 
+      <lb ed="#G" n="81"/>&amp; in decem equis; sed philosophus dicit a physicorum, quod 
+      <lb ed="#G" n="82"/>idem est denarius decem equorum &amp; decem hominum
+    </p>
+            <p xml:id="HuYgTa-e63894-d1e1232">
+               <lb ed="#G" n="83"/>3 Praeterea, potest hoc idem argui sic. lllud, quod est 
+      <lb ed="#G" n="84"/>commune enti &amp; non enti, non potest esse forma reali 
+      <lb ed="#G" n="85"/>existens extra animam, sed numerus est communis enti 
+      <lb ed="#G" n="86"/>&amp; non enti: quia non minus poterunt numerari
+      chyme<lb ed="#G" n="87" break="no"/>rae, vel hircocerui, quam lapides, vel ligna. 
+    </p>
+            <p xml:id="HuYgTa-e63894-d1e1245">
+               <lb ed="#G" n="88"/>3 Preterea, forma existens in partium connexione. 
+      <lb ed="#G" n="89"/>quae connexio solum fit per animam, non potest esse res 
+      <lb ed="#G" n="90"/>extra animam, numerus est huiusmodi: quia partes
+      nu<lb ed="#G" n="91" break="no"/>meri in re extra nullam habent connexionem, cum possint 
+      <lb ed="#G" n="92"/>esse separatae loco, &amp; subiecto 
+    </p>
+            <p xml:id="HuYgTa-e63894-d1e1259">
+               <lb ed="#G" n="93"/>io Praeterea, si numerus esset ens reale extra an imam, 
+      <lb ed="#G" n="94"/>tunc vna pars subiecta praedicamento quantitatis haberet 
+      <lb ed="#G" n="95"/>plures entitates reales specie differentes, quam omnia
+      a<lb ed="#G" n="96" break="no"/>lia praedicamenta; consequentia patet: quia in speciebu 
+      <lb ed="#G" n="97"/>numerorum est processus in infinitum, sed consequens est 
+      <lb ed="#G" n="98"/>falsum: quia cum ens &amp; bonum conuertantur, illud, quod 
+      <lb ed="#G" n="99"/>infinitas comprehendit entitates reales, infinitas
+      compre<lb ed="#G" n="100" break="no"/>hendit bonitates, &amp; per consequens praeditamentum qua 
+      <lb ed="#G" n="101"/>titatis esset perfectius, &amp; melius oninibus alijs
+      praedica<lb ed="#G" n="102" break="no"/>mentis, quod est absurdum &amp; inauditum. 
+    </p>
+            <p xml:id="HuYgTa-e63894-d1e1283">
+               <lb ed="#G" n="103"/>Item contra secundam conclusionem potest argui sic 
+      <lb ed="#G" n="104"/>1 Si numerus realiter differret a numeratis, tunc
+      sta<lb ed="#G" n="105" break="no"/>tim datis duobus numeris infinitae erunt quantitates in 
+      <lb ed="#G" n="106"/>actu. consequens est impossibile, ergo &amp; antecedens; pro: 
+      <lb ed="#G" n="107"/>batur consequentia: quia dualitas illorum numerorum 
+      <lb ed="#G" n="108"/>differret realiter ab eis tamquam a suis substrati
+      numera<lb ed="#G" n="109" break="no"/>tis, &amp; sic habemus tres entitates, &amp; trinitas illarum trium 
+      <lb ed="#G" n="110"/>entitatum differret realiter ab eis, &amp; sic habemus quatet 
+      <lb ed="#G" n="111"/>nitatem, &amp; eadem ratione illa quaternitas differret ab
+      il<lb ed="#G" n="112" break="no"/>lis quatuor entitatibus tamquam a suis numeratis, &amp; sic 
+      <lb ed="#G" n="113"/>simultaneae infinitae entitates resultabunt
+    </p>
+            <p xml:id="HuYgTa-e63894-d1e1309">
+               <lb ed="#G" n="114"/>2 Praeterea, si numerus est forma realiter inexistens 
+      <lb ed="#G" n="115"/>numeratis, &amp; differens ab eis, vel erit tota in toto suo
+      su<lb ed="#G" n="116" break="no"/>biecto, &amp; tota in qualibet parte, vel tota in toto &amp; secun 
+      <lb ed="#G" n="117"/>dum partem in parte. Primum est impossibile: quia
+      om<lb ed="#G" n="118" break="no"/>nis forma existens tota in toto, &amp; tota in qualibet parte 
+      <lb ed="#G" n="119"/>est indiuisibilis, &amp; sic numerus non esset numerus, nec
+      es<lb ed="#G" n="120" break="no"/>set de praedicamento quantitatis. Nec secundum est
+      pos<lb ed="#G" n="121" break="no"/>sibile: quia vnum numeratorum potest esse vltra mare, &amp; 
+      <lb ed="#G" n="122"/>aliud citra, propter quod nonpotest aliqua conexio vnius 
+      <lb ed="#G" n="123"/>forme realis in ipsis inueniri.
+    </p>
+            <p xml:id="HuYgTa-e63894-d1e1333">
+               <lb ed="#G" n="124"/>3 Praeterea, impossibile est aliquam formam realem  
+      <lb ed="#G" n="125"/>absolutam alicui aduenire, &amp; ab eo recedere sine omni 
+      <lb ed="#G" n="126"/>sui mutatione reali; sed dato vno numerabilium non est 
+      <lb ed="#G" n="127"/>in eo aliquis numerus, posito vero alio numerabilium, po 
+      <lb ed="#G" n="128"/>nitur in eo numerus, &amp; ablato illo alio, aufertur ab isto 
+      <lb ed="#G" n="129"/>numerus sine tamen omni sui mutatione, ergo numerus 
+      <lb ed="#G" n="130"/>non poterit esse entitas absoluta realiter differens ab 
+      <lb ed="#G" n="131"/>ipsis numeratis.
+    </p>
+            <p xml:id="HuYgTa-e63894-d1e1353">
+               <lb ed="#G" n="132"/>Sed illa quamuis sint magnae apparentiae, tamen non 
+      <lb ed="#G" n="133"/>concludunt, ideo praedictas duas conclusiones confirma 
+      <lb ed="#G" n="134"/>bo quamlibet vno medio, &amp; deinceps soluam rationes ia 
+      <lb ed="#G" n="135"/>inductas. Primam sic. llla est forma realis extra animam  
+      <lb ed="#G" n="136"/>de qua probantur passiones reales ab anima non
+      depen<lb ed="#G" n="137" break="no"/>dentes, numerus est huiusmodi: quia de numero
+      proba<lb ed="#G" n="138" break="no"/>tur paritas &amp; imparitas, aequalitas inequalitas,
+      multipli<lb ed="#G" n="139" break="no"/>citas &amp; paucitas, &amp; cetera talia, quae omnia videntur esse 
+      <lb ed="#G" n="140"/>reales passiones, seu proprietates 
+    </p>
+            <p xml:id="HuYgTa-e63894-d1e1375">
+               <lb ed="#G" n="141"/>
+               <pc type="indent"/>Conclusionem secundam confirmo sic. 
+      <lb ed="#G" n="142"/>1 Scientiae reales in eadem parte realis philosophies 
+      <lb ed="#G" n="143"/>formaliter condistinctae requirunt subiecta formaliter &amp; 
+      <lb ed="#G" n="144"/>realiter distincta: sed arismetica &amp; geometria in parti 
+      <lb ed="#G" n="145"/>philosophiae realis, quae dicitur mathematica, sunt
+      scion<lb ed="#G" n="146" break="no"/>tiae realiter condistinctae, &amp; numerus subiicitur in arisme 
+      <!--210.xml-->
+      <pb ed="#G" n="86-r"/>
+               <cb ed="#G" n="a"/>
+               <lb ed="#G" n="1"/>tica, numeratum vero puta ipsum continuum subiicitur 
+      <lb ed="#G" n="2"/>in geometria, ergo &amp;c 
+    </p>
+            <p xml:id="HuYgTa-e63894-d1e1405">
+               <lb ed="#G" n="3"/>
+               <pc type="indent"/>2 Et confirmatur: quia species eiusdem veneris ex op 
+      <lb ed="#G" n="4"/>posito condistinctae realiter differunt, sed numerus cum 
+      <lb ed="#G" n="5"/>sit discreta quantitas, &amp; numerata cum spectent ad conti 
+      <lb ed="#G" n="6"/>nuam quantitatem, vt patuit superius, sunt in eodem
+      ge<lb ed="#G" n="7" break="no"/>nere quantitatis ex opposito condistinctae, ergo &amp;c. 
+    </p>
+            <p xml:id="HuYgTa-e63894-d1e1421">
+               <lb ed="#G" n="8"/>
+               <pc type="indent"/>Ad primum igitur inductum contra primam
+      conclu<lb ed="#G" n="9" break="no"/>sionem dicendum, quod maior est falsa, ex hoc enim, quoam 
+      <lb ed="#G" n="10"/>na nota producitur cum alia resultat in qualibet nota 
+      <lb ed="#G" n="11"/>liquid de dulci melodia, quod non resultaret in ea si so 
+      <lb ed="#G" n="12"/>a produceretur sine altera nota: In multis etiam aliis
+      il<lb ed="#G" n="13" break="no"/>la maior patitur instantiam.  
+    </p>
+            <p xml:id="HuYgTa-e63894-d1e1439">
+               <lb ed="#G" n="14"/>
+               <pc type="indent"/>Ad secundum dicendum, quod illa distinctio est insuf 
+      <lb ed="#G" n="15"/>ficiens: quia forma, quae est numerus, nec est tota in quali 
+      <lb ed="#G" n="16"/>bet vnitate secundum se sumpta, nec est tota in vnitate 
+      <lb ed="#G" n="17"/>tantum, sed est tota in omnibus suis vnitatibus simul
+      sum<lb ed="#G" n="18" break="no"/>ptis: omnia enim numerata per aliquem numerum
+      si<lb ed="#G" n="19" break="no"/>mul sumpta respondent tali numero, tamquam vnum
+      sub<lb ed="#G" n="20" break="no"/>iectum adaequatum  
+    </p>
+            <p xml:id="HuYgTa-e63894-d1e1459">
+               <lb ed="#G" n="21"/>
+               <pc type="indent"/>Ad tertium dicendum, quod omnis numerus est
+      ali<lb ed="#G" n="22" break="no"/>quid vnum: quia vnumquodque quantum habet de enti 
+      <lb ed="#G" n="23"/>tate, tantum habet de vnitate; illud tamen vnum, quod 
+      <lb ed="#G" n="24"/>praedicatur de vnoquoque numero, non est vnum, quod 
+      <lb ed="#G" n="25"/>est principium numeri: sed est vnum, quod conuertitur 
+      <lb ed="#G" n="26"/>cum ente. 
+    </p>
+            <p xml:id="HuYgTa-e63894-d1e1477">
+               <lb ed="#G" n="27"/>
+               <pc type="indent"/>Ad quartum dicendum, quod maior est falsa,
+      loquen<lb ed="#G" n="28" break="no"/>do de forma discretae naturae: quia illa de natura sua
+      ha<lb ed="#G" n="29" break="no"/>bet, quod suum substratum sit actu distinctum, 
+    </p>
+            <p xml:id="HuYgTa-e63894-d1e1488">
+               <lb ed="#G" n="30"/>
+               <pc type="indent"/>Ad quintum dicendum, quod numerus proprie dictu; 
+      <lb ed="#G" n="31"/>non replicatur, siue reflectitur super seipsum: in omnibus. nm 
+      <lb ed="#G" n="32"/>talibus replicationibus, aut multitudo, quae est
+      differen<lb ed="#G" n="33" break="no"/>tia entis &amp; circuit omne genus replicatur super seipsam  
+      <lb ed="#G" n="34"/>ficut cum dicitur duo binarii angulorum, hic nec replica 
+      <lb ed="#G" n="35"/>ta dualitas, nec illa, super quam replicatur, est numerus de 
+      <lb ed="#G" n="36"/>praedicamento quantitatis; quia neutra fundatur in
+      re<lb ed="#G" n="37" break="no"/>bus distinctis, quarum tamen quaelibet sit continua; &amp;  
+      <lb ed="#G" n="38"/>ideo vtraque talis dualitas reducenda est ad
+      multitudi<lb ed="#G" n="39" break="no"/>nem, quae est differentia entis. Aut praedicta multitudo re 
+      <lb ed="#G" n="40"/>plicatur super numerum proprie dictum, sicut cum
+      dici<lb ed="#G" n="41" break="no"/>tur duo binarii linearum, vel tres ternarii equorum, &amp; 
+      <lb ed="#G" n="42"/>tunc multitudo, quae replicatur, non est numerus proprie 
+      <lb ed="#G" n="43"/>dictus, quia pro immediato substrato non respondent
+      si<lb ed="#G" n="44" break="no"/>bi res distinctae, quarum quaelibet sit continua
+      multitu<lb ed="#G" n="45" break="no"/>do, tamen super quam fit replicatio, est numerus
+      pro<lb ed="#G" n="46" break="no"/>prie dictus. 
+    </p>
+            <p xml:id="HuYgTa-e63894-d1e1531">
+               <lb ed="#G" n="47"/>
+               <pc type="indent"/>Ad sextum dicendum, quod per illud argumentum si 
+      <lb ed="#G" n="48"/>esset bonum, probaretur, quod forma domus non esset 
+      <lb ed="#G" n="49"/>forma realis extra animam, quia fundamentum &amp; parie 
+      <lb ed="#G" n="50"/>tes in se nullam necessario capiunt mutationem ex adium 
+      <lb ed="#G" n="51"/>ctione ipsius tecti, &amp; tamen ex hoc resultat forma domus 
+      <lb ed="#G" n="52"/>quae ante non fuit, &amp; ad solam substractionem eiusdem, 
+      <lb ed="#G" n="53"/>dato quod tam subtiliter deponatur, quod ex hoc nulla 
+      <lb ed="#G" n="54"/>species motus, vel mutationis in fundamento recipiatur 
+      <lb ed="#G" n="55"/>nihilominus deperditur forma domus, Et idem patet in 
+      <lb ed="#G" n="56"/>omnibus figuris; Ad substractionem enim, vel additionem 
+      <lb ed="#G" n="57"/>vnius anguli, semper mutatur species figurae. Ex quibus 
+      <lb ed="#G" n="58"/>omnibus patet, quod maior est falsa.  
+    </p>
+            <p xml:id="HuYgTa-e63894-d1e1562">
+               <lb ed="#G" n="59"/>
+               <pc type="indent"/>Ad septimum dicendum, quod denarius 1o. equorum 
+      <lb ed="#G" n="60"/>&amp; 10 hominu non est idem denarius numero, sed specie¬ 
+    </p>
+            <p xml:id="HuYgTa-e63894-d1e1571">
+               <lb ed="#G" n="61"/>
+               <pc type="indent"/>Ad octauum dicendum, nego minorem. ad probationem 
+      <lb ed="#G" n="62"/>dico, quod multitudo, qua numerantur figmenta non est 
+      <lb ed="#G" n="63"/>multitudo realis, sed ficta sicut &amp; ipsa numerata 
+    </p>
+            <p xml:id="HuYgTa-e63894-d1e1582">
+               <lb ed="#G" n="64"/>
+               <pc type="indent"/>Ad nonum nego minorem: quia si nulla esset anima 
+      <lb ed="#G" n="65"/>adhuc triangulus tres habens angulos verum fundaret 
+      <lb ed="#G" n="66"/>terminarium &amp; actualiter. Ad probationem dicendum 
+      <lb ed="#G" n="67"/>quod forma entitatis discretae non requirit connexionem 
+      <lb ed="#G" n="68"/>in suo fundamento, sed potius requirit distinctionem. 
+    </p>
+            <p xml:id="HuYgTa-e63894-d1e1598">
+               <lb ed="#G" n="69"/>
+               <pc type="indent"/>Ad decimum dicendum, quod ens pure mathematicum 
+      <lb ed="#G" n="70"/>abstrahititam a bono, quam a malo, &amp; ideo vna
+      substan<lb ed="#G" n="71" break="no"/>tia plus habet de bonitate &amp; perfectione, quam quicum 
+      <lb ed="#G" n="72"/>que numeri secundum se sumpti, quantum ad propriam 
+      <lb ed="#G" n="73"/>entitatem. Etiam potest dici, quod numquam est dare nu 
+      <!--210.xml-->
+      <cb ed="#G" n="b"/>
+               <lb ed="#G" n="74"/>meros actu infinitos, sicut numquam est dare continuum 
+      <lb ed="#G" n="75"/>actu diuisum in infinita infinitum. 
+    </p>
+            <p xml:id="HuYgTa-e63894-d1e1622">
+               <lb ed="#G" n="76"/>
+               <pc type="indent"/>Ad primum inductum contra secundam conclusionem 
+      <lb ed="#G" n="77"/>lico negando consequentiam, ad probationem dico; quod 
+      <lb ed="#G" n="78"/>dualitas duorum numerorum non differt ab eis; quia pro 
+      <lb ed="#G" n="79"/>prie non est numerus, cum immediatum suum substram 
+      <lb ed="#G" n="80"/>non sit continua quantitas; sed huiusmodi dualitas reduci 
+      <lb ed="#G" n="81"/>tur ad multitudinem, quae est differentia entis. Et sicur di 
+      <lb ed="#G" n="82"/>to de dualitate illa, sic eodem modo dico de omni multitu 
+      <lb ed="#G" n="83"/>dine, cuius immediatum substratum non funt res, quarum 
+      <lb ed="#G" n="84"/>uaelibet est continua
+    </p>
+            <p xml:id="HuYgTa-e63894-d1e1647">
+               <lb ed="#G" n="85"/>Ad secundum dico, quod forma, quae est numerus, est 
+      <lb ed="#G" n="86"/>tota in toto suo substrato, quia omnia numerata
+      respon<lb ed="#G" n="87" break="no"/>dent sibi sicut vnum subiectum adaequatum, non tamen 
+      <lb ed="#G" n="88"/>est tota in qualibet parte, nec etiam pars eius proprie est 
+      <lb ed="#G" n="89"/>n parte substrati, sicut euidenter apparet de forma
+      do<lb ed="#G" n="90" break="no"/>mus, &amp; de omnibus figuris, formae enim tales sunt illius 
+      <lb ed="#G" n="91"/>conditionis, quod non diuiduntur diuisione subiecti,; sed  
+      <lb ed="#G" n="92"/>uacumque parte integrali subiecti mutata mutatur 
+      <lb ed="#G" n="93"/>tota forma 
+    </p>
+            <p xml:id="HuYgTa-e63894-d1e1669">
+               <lb ed="#G" n="94"/>
+               <pc type="indent"/>Vnde possemus dicere, quod triplex est forma. Quedam est 
+      <lb ed="#G" n="95"/>ota in toto, &amp; tota in qualibet parte sicut anima intelle 
+      <lb ed="#G" n="96"/>ctiua. Alia est tota in toto, &amp; pars in parte, sicut forma 
+      <lb ed="#G" n="97"/>equi, vel lapidis. Tertia, quae sic est tota in toto, quod pars 
+      <lb ed="#G" n="98"/>proprie non est in parte, sicut forma, quae est numerus
+      vti<lb ed="#G" n="99" break="no"/>figura. Non enim diuiditur forma talis diuisione subiecti; 
+      <lb ed="#G" n="100"/>sed sublata quacumque parte subiecti tota forma tollitur 
+    </p>
+            <p xml:id="HuYgTa-e63894-d1e1689">
+               <lb ed="#G" n="101"/>
+               <pc type="indent"/>Ad tertium dico, sicut ad sexium primae conclusionis 
+      <lb ed="#G" n="102"/>dictum est. 
+    </p>
+            <p xml:id="HuYgTa-e63894-d1e1698">
+               <lb ed="#G" n="103"/>
+               <pc type="indent"/>ARTICVLVS I1. IR Et hn 
+      <lb ed="#G" n="104"/>
+               <pc type="indent"/>Vtrum in diuinis sit verus numerus.
+    </p>
+            <p xml:id="HuYgTa-e63894-d1e1709">
+               <lb ed="#G" n="105"/>QVANTVM ad quartum principale, vtrum in
+      diui<lb ed="#G" n="106" break="no"/>
+               <pc type="indent"/>nis sit verus numerus, dicendum quod numerus 
+      <lb ed="#G" n="107"/>proprie dictus non est in diuinis
+    </p>
+            <p xml:id="HuYgTa-e63894-d1e1720">
+               <lb ed="#G" n="108"/>1 Quia illa forma, quae fundatur in rebus distinctis,  
+      <lb ed="#G" n="109"/>quarum quaelibet est continua, non potest esse proprie in 
+      <lb ed="#G" n="110"/>diuinis, numerus est huiusmodi, vt patet ex
+      praecedenti<lb ed="#G" n="111" break="no"/>bus. Maior patet, quia nullum continuum est reperibile 
+      <lb ed="#G" n="112"/>in diuinis. 
+    </p>
+            <p xml:id="HuYgTa-e63894-d1e1734">
+               <lb ed="#G" n="113"/>
+               <pc type="indent"/>2 Preterea, in diuinis non est quantitas, ergo in
+      diui<lb ed="#G" n="114" break="no"/>nis non est numerus proprie dictus, consequentia patet,  
+      <lb ed="#G" n="115"/>quia ad oppositum consequentis sequitur oppositum
+      an<lb ed="#G" n="116" break="no"/>tecedentis. 
+    </p>
+            <p xml:id="HuYgTa-e63894-d1e1747">
+               <lb ed="#G" n="117"/>
+               <pc type="indent"/>Praeterea, vbicumque proprie est dare numerum, 
+      <lb ed="#G" n="118"/>bi proprie est dare totum &amp; partem: sed in diuinis non 
+      <lb ed="#G" n="119"/>ossumus dare totum&amp; partem, vt patet per <ref xml:id="HuYgTa-e63894-Rd1e1757">Aug. contra 
+        <lb ed="#G" n="120"/>daximinum lib. 3</ref> 
+            </p>
+            <p xml:id="HuYgTa-e63894-d1e1763">
+               <lb ed="#G" n="121"/>Sed Hic est opinio in contrarium, cuius motiua omit 
+      <lb ed="#G" n="122"/>to causa brenitatis. 
+    </p>
+            <p xml:id="HuYgTa-e63894-d1e1770">
+               <lb ed="#G" n="123"/>
+               <pc type="indent"/>Ad argumentum principale dicendum, quod trinitas 
+      <lb ed="#G" n="124"/>in diuinis non est numerus, sed est multitudo non differens 
+      <lb ed="#G" n="125"/>personis seu a relationibus, quas denominat, &amp; tali 
+      <lb ed="#G" n="126"/>multitudo reducitur ad multitudinem transcendentem 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

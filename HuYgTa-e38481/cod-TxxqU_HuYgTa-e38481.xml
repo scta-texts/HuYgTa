@@ -1,0 +1,869 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#ThomasStrasbourg">Thomas of Strasbourg</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2020-11-26">November 26, 2020</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="G" n="cod-TxxqU">Genoa 1585</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2020-11-26" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#G" n="51-r"/>
+            <cb ed="#G" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="HuYgTa-e38481"><!-- HuYgTa-l1d8q1 -->
+            <head xml:id="HuYgTa-e38481-Hd1e108">Quaestio 1</head>
+            <head xml:id="HuYgTa-e38481-Hd1e111" type="question-title">
+      An in Deo sit aliqua composito
+    </head>
+            <p xml:id="HuYgTa-e38481-d1e114">
+               <lb ed="#G" n="31"/>
+               <pc type="indent"/>Quaestio I
+      <lb ed="#G" n="32"/>An in Deo sit aliqua composito. 
+    </p>
+            <p xml:id="HuYgTa-e38481-d1e123">
+               <lb ed="#G" n="33"/>
+               <pc type="indent"/>VTRVM in Deo sit aliqua composito.
+    </p>
+            <p xml:id="HuYgTa-e38481-d1e130">
+      Et 
+      <lb ed="#G" n="34"/>videtur quod sic: quia in quocunque sunt
+      plu<lb ed="#G" n="35" break="no"/>res formae actu, in illo est composito, sed  
+      <lb ed="#G" n="36"/>in Deo sunt plures formae actu; quia, sicut
+      <lb ed="#G" n="37"/>ait <ref xml:id="HuYgTa-e38481-Rd1e140">
+                  <name xml:id="HuYgTa-e38481-Nd1e142">Comm.</name> 12. meta</ref>. <quote xml:id="HuYgTa-e38481-Qd1e147">omnes formae acti 
+        <lb ed="#G" n="38"/>ggi sunt in primo motore, quae potentia sunt 
+        <lb ed="#G" n="39"/>in materia prima.</quote>  
+            </p>
+            <p xml:id="HuYgTa-e38481-d1e156">
+               <lb ed="#G" n="40"/>
+               <pc type="indent"/>Contra, In quo nulla potest esse passiua potentia, in
+      il<lb ed="#G" n="41" break="no"/>lo nulla potest esse composito: quia quaecunque faciunt 
+      <lb ed="#G" n="42"/>compositionem, vel vnum est in potentia ad alterum, vel 
+      <lb ed="#G" n="43"/>ambo sunt in potentia ad tertium; sed in Deo nulla est
+      po<lb ed="#G" n="44" break="no"/>tentia passiua, vt patet <ref xml:id="HuYgTa-e38481-Rd1e171">12. meta.</ref> ergo &amp;c. Hic primo  
+      <lb ed="#G" n="45"/>videndum est, vtrum<pc type="indent"/>stantialis. Secundo, vtrum composito acci 
+      <lb ed="#G" n="47"/>dentalis. Tertio, vtrum composito mo 
+      <lb ed="#G" n="48"/>dalis. Quarto contra tres
+      con<lb ed="#G" n="49" break="no"/>clusiones ex istis elicitas 
+      <lb ed="#G" n="50"/>adducam aliqua, &amp; re- 
+      <lb ed="#G" n="51"/>spondebo ad ea.
+    </p>
+            <p xml:id="HuYgTa-e38481-d1e190">
+      <!--140.xml-->
+               <cb ed="#G" n="b"/>
+               <lb ed="#G" n="52"/>RESOLVTIO. 
+      <lb ed="#G" n="53"/>Satis dilucide aperitar, nullam penitus in Deo vtalem composit 
+      <lb ed="#G" n="54"/>nem reperiri, neq ex materia, u forma, cum sit purissimus a 
+      <lb ed="#G" n="55"/>ctus neque ex gentre, &amp;d differentia, cum sit infinitus, nec vllo 
+      <lb ed="#G" n="56"/>clailattr genere neque ex subiectu, er accidentercum sit simpi 
+      <lb ed="#G" n="57"/>simus: vnde colligitur, quod nulla erit in Deo composito moda 
+      <lb ed="#G" n="58"/>us, ex diuersis scilicet modis absolutis, quibus diuersum aliquid 
+      <lb ed="#G" n="59"/>in de correspudtat, quando quse id diuinae derogaret simplicitai. 
+    </p>
+            <p xml:id="HuYgTa-e38481-d1e214">
+               <lb ed="#G" n="60"/>
+               <pc type="indent"/>ARTICVLVS I. 
+      <lb ed="#G" n="61"/>Vtrum in Deo sit composito substantialis.  
+    </p>
+            <p xml:id="HuYgTa-e38481-d1e223">
+               <lb ed="#G" n="62"/>
+               <pc type="indent"/>QVANTVM ad primum principale, vtrum in Deo 
+      <lb ed="#G" n="63"/> sit composito substantialis, est sciendum, quod 
+      <lb ed="#G" n="64"/>composito substantialis dupliciter sumi potest scilicet 
+      <lb ed="#G" n="65"/>secundum rem, &amp; secundum rationem, prima est ex
+      for<lb ed="#G" n="66" break="no"/>ma, &amp; materia, seu ex actu substantiali &amp; pura potentia; 
+      <lb ed="#G" n="67"/>secunda ex genere, &amp; substantiali differentia; sed neutra 
+      <lb ed="#G" n="68"/>illarum potest esse in Deo, ergo nulla composito
+      sub<lb ed="#G" n="69" break="no"/>stantialis poterit esse in Deo.
+    </p>
+            <p xml:id="HuYgTa-e38481-d1e245">
+               <lb ed="#G" n="70"/>Prima igitur conclusio, videlicet, quod non sit realis com 
+      <lb ed="#G" n="71"/>posito substantialis in Deo, satis manifesta est apud om- 
+      <lb ed="#G" n="72"/>nes philosophantes: quia quasi omnes posuerunt Deum.s 
+      <lb ed="#G" n="73"/>esse purissimum actum, cui nihil admiscetur de potentia, 
+      <lb ed="#G" n="74"/>vt patet <ref xml:id="HuYgTa-e38481-Rd1e258">12. meta.</ref> propter quod ait <ref xml:id="HuYgTa-e38481-Rd1e261">philosophus 12 meta</ref> 
+               <lb ed="#G" n="75"/>Accidit itaque omnia participare malum. i potentialitate, 
+      <lb ed="#G" n="76"/>praeter unum: spraeter Deu. Quamuis. enim quaelibet intelli; 
+      <lb ed="#G" n="77"/>gentia habeat suum hyliachin, vt ait auctor de causis; Deus 
+      <lb ed="#G" n="78"/>men de hoc penitus est immunis. Planum est igitur, quod in 
+      <lb ed="#G" n="79"/>Deo non est materia, cum in ipso nulla sit potentia passiua; 
+      <lb ed="#G" n="80"/>nec per consequens erit in ipso composito ex materia, &amp; for 
+      <lb ed="#G" n="81"/>mat. ergo hanc partem tanquam per se nota supponendo, 
+      <lb ed="#G" n="82"/>probo secundam partem distinctionis sic¬ 
+    </p>
+            <p xml:id="HuYgTa-e38481-d1e282">
+               <lb ed="#G" n="83"/>
+               <pc type="indent"/>lilud non est compositum ex genere, differentia, &amp; quod
+      nul<lb ed="#G" n="84" break="no"/>lo genere clauditur, &amp; est super omne genus, sed Deus est 
+      <lb ed="#G" n="85"/>huiusmodi, igitur &amp;c. Maior patet a destructione
+      conse<lb ed="#G" n="86" break="no"/>quentis: quia si aliquid est compositum ex genere, &amp; diffe 
+      <lb ed="#G" n="87"/>rentia, consequens est, quod ipsum sit in genere. Minorem
+      pos<lb ed="#G" n="88" break="no"/>sum probare multipliciter, Primo sic¬ 
+    </p>
+            <p xml:id="HuYgTa-e38481-d1e301">
+               <lb ed="#G" n="89"/>
+               <pc type="indent"/>1 Illud quod est causa omnis entitatis, &amp; veritatis
+      re<lb ed="#G" n="90" break="no"/>pcribilis in quocunque genere, non poterit claudi in ali¬ l 
+      <lb ed="#G" n="91"/>quo genere: Deus huiusmodi. Maior patet: quia in quo¬l 
+      <lb ed="#G" n="92"/>cunque genere poneretur, non posset esse causa omnis entii 
+      <lb ed="#G" n="93"/>tatis reperibilis in illo genere: alias enim ipsum esset cau 
+      <lb ed="#G" n="94"/>sa sui ipsius. Minorem ponit Comm. 2: metaph dicens, est 
+      <lb ed="#G" n="95"/>enim quoddam ens per se ens &amp; per se uerum: entitate, 
+      <lb ed="#G" n="96"/>&amp; veritate cuius omnia alia sunt entia, &amp; vera 
+    </p>
+            <p xml:id="HuYgTa-e38481-d1e323">
+               <lb ed="#G" n="97"/>
+               <pc type="indent"/>Praeterea, id, quod comprehendit in se essentialiter 
+      <lb ed="#G" n="98"/>erfectiones omniu generum; in nullo genere clauditur; 
+      <lb ed="#G" n="99"/>Deus est huiusinodi. Maior patet, quia in quocunque vno 
+      <lb ed="#G" n="100"/>genere clauderetur, ceterorum generum perfectiones es 
+      <lb ed="#G" n="101"/>sentialiter non haberet. Minor patet 5. metap vbi dicitur. 
+      <lb ed="#G" n="102"/>que est quoddam ens perfectum vniuersali perfectione, in 
+      <lb ed="#G" n="103"/>uo congregantur perfectiones omnium generum, &amp;
+      il<lb ed="#G" n="104" break="no"/>lud cus dicit Commen ibidem, esse ipsum Deum. 
+    </p>
+            <p xml:id="HuYgTa-e38481-d1e345">
+               <lb ed="#G" n="105"/>
+               <pc type="indent"/>3 Preterea, ens simpliciter illimitatum non pon: esse in
+      ge<lb ed="#G" n="106" break="no"/>nere: quia omne, quod clauditur in aliquo genere, limitatur: 
+      <lb ed="#G" n="107"/>limiribus illius gereris, sed Des est simpliciter illimitate 
+      <lb ed="#G" n="108"/>cum sit totaliter independens, vt patet. 8. physic. &amp; i2: meta¬ 
+    </p>
+            <p xml:id="HuYgTa-e38481-d1e358">
+               <lb ed="#G" n="109"/>
+               <pc type="indent"/>Praeterea, si Deus esset in genere, tuc aliquid posset 
+      <lb ed="#G" n="110"/>pfectius Deo congitari. consequens est falsum; consequentiam 
+      <lb ed="#G" n="111"/>probo. Si. nm esset in genere, ipse esset condistinctu, ceteris 
+      <lb ed="#G" n="112"/>speciebus eiusdem generis, &amp; per consequens perfectiones 
+      <lb ed="#G" n="113"/>illarum specierum Deus non comprehenderet: sed
+      intelle<lb ed="#G" n="114" break="no"/>ctus conciperet, &amp; cogitaret entitatem illius generis, quae 
+      <lb ed="#G" n="115"/>omnes perfectiones suarum specierum comprehederet, er- 
+      <lb ed="#G" n="116"/>po &amp;c. falsitas consequentis patet per Ansel. qui ait, quod 
+      <lb ed="#G" n="117"/>Deus est, quo maius cogitati non potest. Et planum est 
+      <!--141.xml-->
+      <pb ed="#G" n="51-v"/>
+               <cb ed="#G" n="a"/>
+               <lb ed="#G" n="1"/>que non loquitur de magnitudine molis, sed perfectionis,  
+      <lb ed="#G" n="2"/>&amp; virtutis.
+    </p>
+            <p xml:id="HuYgTa-e38481-d1e393">
+               <lb ed="#G" n="3"/>3 Praeterea, hoc confirmatur: quia Deus est infinitae
+      vir<lb ed="#G" n="4" break="no"/>tutis, vt patet <ref xml:id="HuYgTa-e38481-Rd1e399">8. physic</ref> sed infinito non potest esse maius,  
+      <lb ed="#G" n="5"/>vt patet 1. &amp; <ref xml:id="HuYgTa-e38481-Rd1e404">2. physic </ref>
+            </p>
+            <p xml:id="HuYgTa-e38481-d1e408">
+               <lb ed="#G" n="6"/>e Praeterea, quod est formaliter infinitum, non potest 
+      <lb ed="#G" n="7"/>contrahi ad esse finitum, uel ad rationem finitam, sed Deus 
+      <lb ed="#G" n="8"/>est formaliter infinitus, ratio vero cuiuslibet generis
+      for<lb ed="#G" n="9" break="no"/>naliter est finita, ergo &amp;c.
+    </p>
+            <p xml:id="HuYgTa-e38481-d1e420">
+               <lb ed="#G" n="10"/> Praeterea, illud, quod cum nulla alia re habet
+      conue<lb ed="#G" n="11" break="no"/>nientiam essentialem, non potest esse in genere: Deus est 
+      <lb ed="#G" n="12"/>huiusmodi. Maior patet: quia vt ait <ref xml:id="HuYgTa-e38481-Rd1e428">
+                  <name xml:id="HuYgTa-e38481-Nd1e430" ref="#Boethius">Boethius</name> in
+      Comme<lb ed="#G" n="13" break="no"/>to super Porphyrium</ref>, Cenus est cognitio collecta ex
+      spe<lb ed="#G" n="14" break="no"/>cierum substantiali similitudine: Si. n genus non diceret 
+      <lb ed="#G" n="15"/>aliquam essentialem, seu substantialem conuenientiam eorum 
+      <lb ed="#G" n="16"/>quorum est genus, tunc non posset praedicari de ipsis in eo 
+      <lb ed="#G" n="17"/>quoe quid. Minor similiter patet: quia illa, quae non habent 
+      <lb ed="#G" n="18"/>eundem modum essendi, non habent aliquam essentialem con 
+      <lb ed="#G" n="19"/>uenientiam, sicut apparet de substantia, &amp; accidente, sed  
+      <lb ed="#G" n="20"/>modus essendi Dei plus differt a modo essendi
+      cuiuscun<lb ed="#G" n="21" break="no"/>que creaturae, quam modus substantiae a modo accidentis,  
+      <lb ed="#G" n="22"/>cum modus essendi Dei sit infinitus, modus vero essendi 
+      <lb ed="#G" n="23"/>creaturae finitus. Et illud intendit Dion. 1. de di. non
+      di<lb ed="#G" n="24" break="no"/>cens, quod Deus secundum nihil existentium est existens, &amp;  
+      <lb ed="#G" n="25"/>tamen causa quidem essendi est omnibus
+    </p>
+            <p xml:id="HuYgTa-e38481-d1e463">
+               <lb ed="#G" n="26"/>3 Praeterea, quae sunt in eodem genere, conueniunt in vna 
+      <lb ed="#G" n="27"/>orma, &amp; natura, secundum Com. 3. metaph sed Deus cum 
+      <lb ed="#G" n="28"/>creaturis non conuenit in aliqua vna natura, nec
+      partici<lb ed="#G" n="29" break="no"/>pat cum creaturis aliquam vnam formam, vel naturam,. 
+      <lb ed="#G" n="30"/>Sed contra praedicta potest instari, &amp; primo contra pri 
+      <lb ed="#G" n="31"/>mam partem illius conclusionis.
+    </p>
+            <p xml:id="HuYgTa-e38481-d1e479">
+               <lb ed="#G" n="32"/>1 Quia proprius effectus aliquid sui praesupponit in 
+      <lb ed="#G" n="33"/>sua cauia, sed materia prima est proprius effectus Dei: in 
+      <lb ed="#G" n="34"/>hoc enim ipse solus transcendit omnem creaturam, quod ip 
+      <lb ed="#G" n="35"/>se Deus solus potuit causare materiam: Sed in quocuque est 
+      <lb ed="#G" n="36"/>aliquid de materia, illud est compositum ex materia, &amp; for 
+      <lb ed="#G" n="37"/>ma, cum materia se ipsa esse non possit sine omni forma 
+    </p>
+            <p xml:id="HuYgTa-e38481-d1e495">
+               <lb ed="#G" n="38"/>
+               <pc type="indent"/>Contra secur dam conclusionem sic. 
+      <lb ed="#G" n="39"/>In quocunque potest vere concipi aliquod commune 
+      <lb ed="#G" n="40"/>indistinctum, &amp; aliquod distinctiuum, in illo potest
+      con<lb ed="#G" n="41" break="no"/>cipi ratio generis; &amp; differentiae, &amp; per consequens ipsum 
+      <lb ed="#G" n="42"/>erit compositum ex genere, &amp; diffetentia, sed in Deo pos 
+      <lb ed="#G" n="43"/>sumus considerare essentiam diuinam vt communem, &amp;  
+      <lb ed="#G" n="44"/>indistinctam contrahibilem a personali proprietate, &amp; 
+      <lb ed="#G" n="45"/>ipsam proprietatem vt proprium principium
+      distincti<lb ed="#G" n="46" break="no"/>uum, ergo &amp;c. 
+    </p>
+            <p xml:id="HuYgTa-e38481-d1e519">
+               <lb ed="#G" n="47"/>
+               <pc type="indent"/>Contra minorem, qua assumitur, quod Deus non sit in 
+      <lb ed="#G" n="48"/>enere, potest argui multipliciter. Primo sic. 
+      <lb ed="#G" n="49"/>Vnumquodque mensuratur primo, &amp; minimo sui
+      ge<lb ed="#G" n="50" break="no"/>eris, vt dicitur <ref xml:id="HuYgTa-e38481-Rd1e532">1o. metaph</ref> sed vt ait <ref xml:id="HuYgTa-e38481-Rd1e535">Commen. ibidem</ref>, 
+      <lb ed="#G" n="51"/>Deus est illud, quo omnes substantiae mensurantur, ergi 
+      <lb ed="#G" n="52"/>Deus est in genere substantiae. 
+    </p>
+            <p xml:id="HuYgTa-e38481-d1e543">
+               <lb ed="#G" n="53"/>2 Praeterea, cuicunque proprie conuenit ratio alicu 
+      <lb ed="#G" n="54"/>ius generis, hoc est in illo genere, sed Deo proprie conus 
+      <lb ed="#G" n="55"/>nit ratio substantiae, quae est per se esse, &amp; alteri non inherere¬
+    </p>
+            <p xml:id="HuYgTa-e38481-d1e553">
+               <lb ed="#G" n="56"/>3 Praeterea, quicquid differt ab aliquo differentia sub 
+      <lb ed="#G" n="57"/>stantiali, illud est in genere, Deus differt a creatura
+      diffe<lb ed="#G" n="58" break="no"/>rentia substantiali. Maior patet: quia omnis differentia sul 
+      <lb ed="#G" n="59"/>stantialis est diuisiua alicuius generis; probo minorem: quia 
+      <lb ed="#G" n="60"/>omne, quod differt ab altero, aliqua differentia differt, om 
+      <lb ed="#G" n="61"/>nis autem differentia, aut est accideuntalis, aut
+      substantia<lb ed="#G" n="62" break="no"/>lis, Deus autem non potest a creatura differre differentia 
+      <lb ed="#G" n="63"/>accidentali, cum in Deo nullum sit accidens, vt ait Doe 
+      <lb ed="#G" n="64"/>thius in lib. de tri. ergo differt differentia substantiali a 
+      <lb ed="#G" n="65"/>quocunque differt 
+    </p>
+            <p xml:id="HuYgTa-e38481-d1e577">
+               <lb ed="#G" n="66"/>
+               <pc type="indent"/>praeterea, aut Deus conuenit cum creatura genero 
+      <lb ed="#G" n="67"/>ut differt ab ea genere, si primo modo, tunc habetur pro 
+      <lb ed="#G" n="68"/>positum, si secundo modo, tunc erit in genere, quamuis 
+      <lb ed="#G" n="69"/>in alio genere: quia omnis diuersitas praesupponit
+      multi<lb ed="#G" n="70" break="no"/>tudinem; igitur diuersitas in genere praesupponit diuersa 
+      <lb ed="#G" n="71"/>genera 
+    </p>
+            <p xml:id="HuYgTa-e38481-d1e595">
+               <lb ed="#G" n="72"/>
+               <pc type="indent"/>Praeterea, composito secundum rationem sufficit ad hoc 
+      <lb ed="#G" n="73"/>qu aliquid fit in genere: quia albedo est in genere, &amp; tamen 
+      <!--141.xml-->
+      <cb ed="#G" n="b"/>
+               <lb ed="#G" n="74"/>in sua essentia nullam habet realem compositionem, sed in 
+      <lb ed="#G" n="75"/>Deo est composito secudum rationem, cum in eo multa sint 
+      <lb ed="#G" n="76"/>differentia secundum rationem, sicut patuit de attributis.
+    </p>
+            <p xml:id="HuYgTa-e38481-d1e615">
+               <lb ed="#G" n="77"/>e Praeterea, omne, quod habet conceptum
+      determina<lb ed="#G" n="78" break="no"/>tum, &amp; quidditatiuum sub aliquo communi sibi, &amp; aliis,  
+      <lb ed="#G" n="79"/>est in genere; sed Deus dicit conceptum quidditatiue
+      di<lb ed="#G" n="80" break="no"/>stinctum ab omnibus alijs contentis sub hoc predicamen 
+      <lb ed="#G" n="81"/>to communi, quod est substantia, ergo &amp;c 
+    </p>
+            <p xml:id="HuYgTa-e38481-d1e628">
+               <lb ed="#G" n="82"/>
+               <pc type="indent"/>Preterea, Commentator dicit, quod primus motor, qui 
+      <lb ed="#G" n="83"/>est minimum mensurans omnia, quae sunt in praedicamen 
+      <lb ed="#G" n="84"/>to substantiae, est eiusdem naturae cum eis, quorum est
+      mensu<lb ed="#G" n="85" break="no"/>ra, ergo &amp;c.
+    </p>
+            <p xml:id="HuYgTa-e38481-d1e641">
+               <lb ed="#G" n="86"/>3 Praeterea, <ref xml:id="HuYgTa-e38481-Rd1e645">
+                  <name xml:id="HuYgTa-e38481-Nd1e647" ref="#Boethius">boeth.</name> in lib de trin</ref> dicit, duo praedicamen 
+      <lb ed="#G" n="87"/>ta manere in diuinis, substantiam scilicet, &amp; relationem
+    </p>
+            <p xml:id="HuYgTa-e38481-d1e655">
+               <lb ed="#G" n="88"/>3 Praeterea, Dam. in de duabus naturis in Christo aiti 
+      <lb ed="#G" n="89"/>que substantia, quae continet increatam deitatem, &amp; omne 
+      <lb ed="#G" n="90"/>creaturam, genus est generalissimum.
+    </p>
+            <p xml:id="HuYgTa-e38481-d1e664">
+               <lb ed="#G" n="91"/>10 Praeterea, quorum est vnus conceptus vniuocus,
+      il<lb ed="#G" n="92" break="no"/>a sunt in eodem genere, sed Dei, &amp; cuiuscunque create
+      sub<lb ed="#G" n="93" break="no"/>stantiae est vnus conceptus vniuocus. Maior patet, probo 
+      <lb ed="#G" n="94"/>minorem: quia plus distat albedo, &amp; Deus, quam lapis, &amp;  
+      <lb ed="#G" n="95"/>Deus; eum ergo albedinis, &amp; Dei possit esse vnus
+      conce<lb ed="#G" n="96" break="no"/>tus analogus, puta conceptus entis, lapidis, &amp; Dei erit 
+      <lb ed="#G" n="97"/>vnus conceptus vniuocus, ergo &amp;c 
+    </p>
+            <p xml:id="HuYgTa-e38481-d1e682">
+               <lb ed="#G" n="98"/>1 Praeterea, de quibus est vna scientia, illa sunt unius 
+      <lb ed="#G" n="99"/>rationis, &amp; per consequens, vnius generis; sed Dei &amp; crea 
+      <lb ed="#G" n="100"/>turae est vna scientia, puta metaphysica, quae speculatur ens 
+      <lb ed="#G" n="101"/>nquantum ens, vt patet. <ref xml:id="HuYgTa-e38481-Rd1e692">4. metaph</ref> ergo Deus est i genero 
+    </p>
+            <p xml:id="HuYgTa-e38481-d1e696">
+               <lb ed="#G" n="102"/>
+               <pc type="indent"/>Sed illa non concludunt, &amp; sunt expresse contra inten 
+      <lb ed="#G" n="103"/>ionem Augus in de cognitione verae vitae, vbi per multa 
+      <lb ed="#G" n="104"/>verba Aug. probat, Deum non esse in aliquo decem
+      prae<lb ed="#G" n="105" break="no"/>dicamentorum, &amp; ibi concludit sic dicens Decem igitur 
+      <lb ed="#G" n="106"/>raedicamentis cuncta humana conditio includitur, &amp; ab  
+      <lb ed="#G" n="107"/>his omnibus proprietas summae essentiae euidenti
+      ratio<lb ed="#G" n="108" break="no"/>ne excluditur.
+    </p>
+            <p xml:id="HuYgTa-e38481-d1e716">
+               <lb ed="#G" n="109"/>Ad illud igitur, quod arguitur contra primam
+      conclusio<lb ed="#G" n="110" break="no"/>nem dicendum, quod non oportet, quod materia sit materialis 
+      <lb ed="#G" n="111"/>ter in Deo causante: sed quod eius entitas virtualiter sit in 
+      <lb ed="#G" n="112"/>Deo. Quomodo autem pura potentia virtualiter compre 
+      <lb ed="#G" n="113"/>hendatur in puro actu, &amp; vtrum habeat ideam in puro
+      a<lb ed="#G" n="114" break="no"/>ctu, inferius patebit, cum tractauero de ideis. 
+    </p>
+            <p xml:id="HuYgTa-e38481-d1e732">
+               <lb ed="#G" n="115"/>
+               <pc type="indent"/>Ad illud contra secundam conclufionem dicendum, quod 
+      <lb ed="#G" n="116"/>maior non est vera, nisi illud commune indistinctum
+      ali<lb ed="#G" n="117" break="no"/>uid potentialitatis includat, &amp; sit determinatae, ac
+      limi<lb ed="#G" n="118" break="no"/>tatae perfectionis, &amp; sic minor est falsa. quia essentia
+      diui<lb ed="#G" n="119" break="no"/>na est purus actus, &amp; infinitae perfectionis. 
+    </p>
+            <p xml:id="HuYgTa-e38481-d1e749">
+               <lb ed="#G" n="120"/>
+               <pc type="indent"/>Ad primum argumentum contra illam minorem dice 
+      <lb ed="#G" n="121"/>dum, quod <ref xml:id="HuYgTa-e38481-Rd1e757">
+                  <name xml:id="HuYgTa-e38481-Nd1e759">philosophus</name>
+               </ref>, &amp; <ref xml:id="HuYgTa-e38481-Rd1e763">
+                  <name xml:id="HuYgTa-e38481-Nd1e765">Comm.</name>
+               </ref> accipiunt ibi genus
+      lar<lb ed="#G" n="122" break="no"/>ge pro substantia analogice praedicante de substantia fini 
+      <lb ed="#G" n="123"/>ta, &amp; infinita sicut enim quandoque restringunt nomen 
+      <lb ed="#G" n="124"/>generis infra genus praedicamentale, sicut cum in <ref xml:id="HuYgTa-e38481-Rd1e776">eodem 
+        <lb ed="#G" n="125"/>1O</ref>. dicitur, corruptibile &amp; incorruptibile differunt
+      plus<lb ed="#G" n="126" break="no"/>uam genere, sic etiam quandoque extendunt nomen
+      ge<lb ed="#G" n="127" break="no"/>neris vltra genus praedicamentale 
+    </p>
+            <p xml:id="HuYgTa-e38481-d1e786">
+               <lb ed="#G" n="128"/>
+               <pc type="indent"/>Doctor vero communis propter illud argumentum in 
+      <lb ed="#G" n="129"/>quaestionibus de potentia Dei dicit, quod Deus est in
+      ge<lb ed="#G" n="130" break="no"/>nere substantiae per reductionem, sicut punctus, &amp; vnitas 
+      <lb ed="#G" n="131"/>unt in genere quantitatis. 
+    </p>
+            <p xml:id="HuYgTa-e38481-d1e799">
+               <lb ed="#G" n="132"/>
+               <pc type="indent"/>Istud tamen mihi non videtur, salua sua reuerentia: quia 
+      <lb ed="#G" n="133"/>siue aliquid per se, siue per reductionem sit in aliquo
+      ge<lb ed="#G" n="134" break="no"/>nere determinato, impossibile est ipsum
+      comprehende<lb ed="#G" n="135" break="no"/>re essentialiter perfectionem cuiuslibet generis: quia 
+      <lb ed="#G" n="136"/>uamuis per accidens sit in genere, clauditur tamen sic 
+      <lb ed="#G" n="137"/>infra limites illius generis, quod perfectiones aliorum
+      ge<lb ed="#G" n="138" break="no"/>nerum sibi essentialiter non poterunt conuenire, sed  
+      <lb ed="#G" n="139"/>perfectiones omnium aliorum generum essentialiter ip 
+      <lb ed="#G" n="140"/>si Deo conueniunt, ergo ipse nec directe, nec per
+      redu<lb ed="#G" n="141" break="no"/>ctionem debet in aliquo genere collocari. Nec est
+      ne<lb ed="#G" n="142" break="no"/>essitas aliqua, quae nos cogat ad concedendum
+      mensu<lb ed="#G" n="143" break="no"/>ram semper esse eiusdem generis cum mensurato,
+      lo<lb ed="#G" n="144" break="no"/>quendo de genere praedicamentali. Scibile enim
+      mensu<lb ed="#G" n="145" break="no"/>rat scientiam, &amp; tamen nec directe, &amp; per se, nec per redum 
+      <lb ed="#G" n="146"/>ctionem est in praedicamento qualitatis, in quo est ipsa 
+      <!--142.xml-->
+      <pb ed="#G" n="52-r"/>
+               <cb ed="#G" n="a"/>
+               <lb ed="#G" n="1"/>scientia nisi per atcidens hoc contingat, puta inquantum de 
+      <lb ed="#G" n="2"/>aliqua qualitate esset scientia 
+    </p>
+            <p xml:id="HuYgTa-e38481-d1e847">
+               <lb ed="#G" n="3"/>
+               <pc type="indent"/>Ad secundum dicendum, quod de ratione substantiae, vt est
+      v<lb ed="#G" n="4" break="no"/>num de ro generibus, est, quod sit finitae &amp; limitatae perfectio 
+      <lb ed="#G" n="5"/>nis, alias genus substantiae non esset aliis condistinctum, 
+      <lb ed="#G" n="6"/>&amp; sic ratio generis praedicamenti substantiae non praedica 
+      <lb ed="#G" n="7"/>tur de Deo, qui est infinitus, &amp; illimitatus. 
+    </p>
+            <p xml:id="HuYgTa-e38481-d1e863">
+               <lb ed="#G" n="8"/>
+               <pc type="indent"/>Ad tertium dicendum, quod sicut patet 10 metaph.
+      prin<lb ed="#G" n="9" break="no"/>cipia propter sui simplicitatem non dicuntur differre ali 
+      <lb ed="#G" n="10"/>qua differentia, sed sunt seipsis diuersa, ergo Deus cum sit 
+      <lb ed="#G" n="11"/>fimplicissimus, non differt ab eo, quod non est Deus, per 
+      <lb ed="#G" n="12"/>aliquam differentiam additam: sed immediate per suam 
+      <lb ed="#G" n="13"/>essentiam differt ab omnibus aliis. loquendo igitur de dis 
+      <lb ed="#G" n="14"/>ferentia substantiali, quae est diuisiua generis, &amp; addita 
+      <lb ed="#G" n="15"/>generi constituit speciem, tunc minor est falsa cum
+      su<lb ed="#G" n="16" break="no"/>probatione. 
+    </p>
+            <p xml:id="HuYgTa-e38481-d1e887">
+               <lb ed="#G" n="17"/>
+               <pc type="indent"/>Ad quartum dicendum, quod Deus non proprie
+      dici<lb ed="#G" n="18" break="no"/>tur diuersus genere a creatura; sed debet dici diuersus 
+      <lb ed="#G" n="19"/>plus quam genere; si enim corruptibile, &amp; incorruptibile 
+      <lb ed="#G" n="20"/>differunt plusquam genere, multo magis Deus &amp;
+      creatu<lb ed="#G" n="21" break="no"/>ra, sed quia nomina sunt ad placitum, tu poteris
+      extende<lb ed="#G" n="22" break="no"/>re hoc, quod dico diuersum genere non solum ad ea, quae 
+      <lb ed="#G" n="23"/>sunt in diuersis generibus, sed etiam ad ea, quae sunt ex- 
+      <lb ed="#G" n="24"/>tra genus, vel supra omne genus, respectu eorum quae sunt 
+      <lb ed="#G" n="25"/>in genere, &amp; sic concedo propositionem: quia non est 
+      <lb ed="#G" n="26"/>contra me¬ 
+    </p>
+            <p xml:id="HuYgTa-e38481-d1e914">
+               <lb ed="#G" n="27"/>
+               <pc type="indent"/>Ad quintum dicendum, quod non quaelibet composito 
+      <lb ed="#G" n="28"/>secundum rationem sufficit ad hoc, quod aliquid sit in go 
+      <lb ed="#G" n="29"/>nere: omne enim, quod est in genere, vel est compositum 
+      <lb ed="#G" n="30"/>realiter ex his, uel est componibile huic.
+    </p>
+            <p xml:id="HuYgTa-e38481-d1e927">
+               <lb ed="#G" n="31"/>Ad sextum dicendum, quod non sufficit quaelibet
+      deter<lb ed="#G" n="32" break="no"/>minatio conceptus, sed oportet conceptum sic esse deter 
+      <lb ed="#G" n="33"/>minatum, quod ipsa res concepta sit finita, &amp; limitata. 
+      <lb ed="#G" n="34"/>Etiam non sufficit quodlibet commune, sed debet esse 
+      <lb ed="#G" n="35"/>commune vniuocum, de ipso, quod dicitur esse, i genere 
+      <lb ed="#G" n="36"/>&amp; de aliis eiusdem generis vniuoce praedicatum: haec
+      au<lb ed="#G" n="37" break="no"/>rem omnia deficiunt in proposito. 
+    </p>
+            <p xml:id="HuYgTa-e38481-d1e945">
+               <lb ed="#G" n="38"/>
+               <pc type="indent"/>Ad septimum dicendum, quod Commen. sumit ibi natu 
+      <lb ed="#G" n="39"/>ram analogice, &amp; non vniuoce. 
+    </p>
+            <p xml:id="HuYgTa-e38481-d1e954">
+               <lb ed="#G" n="40"/>
+               <pc type="indent"/>Ad octauum dicendum, quod dicuntur duo predicamenta 
+      <lb ed="#G" n="41"/>mamere in diuinis propter aliquam similitudinem istorun 
+      <lb ed="#G" n="42"/>praedicamentotum, quam in diuinis videmus. substantia 
+      <lb ed="#G" n="43"/>etiam in diuinis est per se, &amp; relatio est ad aliud, in
+      cete<lb ed="#G" n="44" break="no"/>ris tamen necessario requisitis ad rationem generis non
+      re<lb ed="#G" n="45" break="no"/>periuntur haec genera in diuinis  
+    </p>
+            <p xml:id="HuYgTa-e38481-d1e972">
+               <lb ed="#G" n="46"/>
+               <pc type="indent"/>Ad nonum dicendum, quod dictu Dam, debet sic exponi. Qene 
+      <lb ed="#G" n="47"/>ralissimum genus est, idest maxime commune. Vnde Dam. 
+      <lb ed="#G" n="48"/>non loquitur ibi de genere praedicamentali; sed accipitur 
+      <lb ed="#G" n="49"/>ibi large genus po quocunque communi, quod patet puer 
+      <lb ed="#G" n="50"/>ba sua. Ait enm sic. bubstantia, quae continet supersubstanti 
+      <lb ed="#G" n="51"/>liter in creatura deitatem, cognoscibiliter autem, &amp;
+      con<lb ed="#G" n="52" break="no"/>tentiue omnem creaturam, generalissimum genus est. 
+    </p>
+            <p xml:id="HuYgTa-e38481-d1e992">
+               <lb ed="#G" n="53"/>
+               <pc type="indent"/>Ad decimum dicendum, quod minor non est vera. Ad 
+      <lb ed="#G" n="54"/>probationem dico, quod hoc non arguit conceptum
+      vni<lb ed="#G" n="55" break="no"/>nocum, sed analogicum de natura n ipsius analogiae, est 
+      <lb ed="#G" n="56"/>quod vnum analogorum plus distet, quam alterum a pri 
+      <lb ed="#G" n="57"/>mo, sub quo analogantur, quibuscunque enim duobus talibus 
+      <lb ed="#G" n="58"/>datis, vel vnum dependet ab alio, vel ambo dependenta 
+      <lb ed="#G" n="59"/>tertio donec deueniatur ad primum omnium, a quo depe 
+      <lb ed="#G" n="60"/>dent omnia cetera ad ipsum ordinata, ex quo apparet, qu 
+      <lb ed="#G" n="61"/>an conceptibus analogis possumus multos, &amp; varios
+      gra<lb ed="#G" n="62" break="no"/>dus assignare. 
+    </p>
+            <p xml:id="HuYgTa-e38481-d1e1019">
+               <lb ed="#G" n="63"/>
+               <pc type="indent"/>Ad vndecimum dicendum, quod si est scientia communis, 
+      <lb ed="#G" n="64"/>tunc non oportet de quibus est una scientia, esse vnam 
+      <lb ed="#G" n="65"/>rationem vniuocam: sed analogicam, &amp; talia non sunt 
+      <lb ed="#G" n="66"/>vnius generis praedicamentali sed vnius generis scibilis,  
+      <lb ed="#G" n="67"/>vnde genus scibile potest esse latius, &amp; strictius, quam  
+      <lb ed="#G" n="68"/>fit genus praedicamentale. In tota enim philosophia na 
+      <lb ed="#G" n="69"/>turali determinatur de vna portione praedicamenti
+      sub<lb ed="#G" n="70" break="no"/>stantiae: in 5. metaph determinatur de omnibus io.
+      prae<lb ed="#G" n="71" break="no"/>dicamentis; aequiuocatur igitur in argumento genus 
+      <lb ed="#G" n="72"/>prout sumitur pro genere scibili, &amp; pro genere
+      praedi<lb ed="#G" n="73" break="no"/>camentali.
+    </p>
+            <p xml:id="HuYgTa-e38481-d1e1048">
+      <!--142.xml-->
+               <cb ed="#G" n="b"/>
+               <lb ed="#G" n="74"/>ARTICVLVS II 
+      <lb ed="#G" n="75"/>Vtrum in Deo sit composito accidentalis. 
+    </p>
+            <p xml:id="HuYgTa-e38481-d1e1059">
+               <lb ed="#G" n="76"/>VANTVM ad Secundum principale vtrum in Deus 
+      <lb ed="#G" n="77"/>sit composito accidentalis, dico, quod in Deo non 
+      <lb ed="#G" n="78"/>potest esse aliqua composito accidentalis.
+    </p>
+            <p xml:id="HuYgTa-e38481-d1e1068">
+               <lb ed="#G" n="79"/>1 Quia in illo, in quo nullum est accidens, non pote 
+      <lb ed="#G" n="80"/>rit esse aliqua composito accidentalis: Deus est
+      huius<lb ed="#G" n="81" break="no"/>modi, ergo &amp;c. Maior patet, probo minorem: quia omno 
+      <lb ed="#G" n="82"/>accidens, aut est proprium, aut commune, sed tam ea, qua 
+      <lb ed="#G" n="83"/>se habent ut propria, quam ea, quae se habent ut
+      commu<lb ed="#G" n="84" break="no"/>nia, in Deo sunt penitus idem, quod sua diuina natura: 
+      <lb ed="#G" n="85"/>quia omne tale per participationem reduci debet ad
+      ali<lb ed="#G" n="86" break="no"/>quod tale per essentiam, sed huiusmodi accidentia sius 
+      <lb ed="#G" n="87"/>sint propria, siue communia substantijs creatis, conueniuni 
+      <lb ed="#G" n="88"/>per participationem; ergo in prima substantia erunt esser 
+      <lb ed="#G" n="89"/>tialiter idem cum substantia. Et haec est intentio <ref xml:id="HuYgTa-e38481-Rd1e1094">
+                  <name xml:id="HuYgTa-e38481-Nd1e1096" ref="#Boethius">Boethi</name> 
+                  <lb ed="#G" n="90"/>in lib de trin</ref> vbi ait. Deus cum sit forma simplex,
+      subie<lb ed="#G" n="91" break="no"/>ctum esse non potest. Et <ref xml:id="HuYgTa-e38481-Rd1e1104">idem <name xml:id="HuYgTa-e38481-Nd1e1106" ref="#Boethius">Boethius</name>
+               </ref> ait, quod in Deo 
+      <lb ed="#G" n="92"/>nullus est numerus.
+    </p>
+            <p xml:id="HuYgTa-e38481-d1e1113">
+               <lb ed="#G" n="93"/>2 Praeterea, si in Deo esset composito accidentalis,  
+      <lb ed="#G" n="94"/>vel illa esset ex esse, &amp; essentia, vel propter cetera
+      accidem<lb ed="#G" n="95" break="no"/>tia esse, &amp; essentiam Dei consequentia. Non primo mo 
+      <lb ed="#G" n="96"/>do: quia tunc Deus non esset purum necesse esse, quod 
+      <lb ed="#G" n="97"/>est contra philosophos, &amp; theologos, &amp; tunc oporteret ip 
+      <lb ed="#G" n="98"/>sum habere aliam causam supra se, a qua eius esse, &amp; essen 
+      <lb ed="#G" n="99"/>tia dependeret, &amp; sic non posset dici primus motor,
+      cu<lb ed="#G" n="100" break="no"/>ius contrarium demonstratur <ref xml:id="HuYgTa-e38481-Rd1e1132">8. physicorum</ref>. Hinc est 
+      <lb ed="#G" n="101"/>quod ait <ref xml:id="HuYgTa-e38481-Rd1e1137">Hylarius in lib de trin</ref>. Esse non est accides Deo, 
+      <lb ed="#G" n="102"/>ed subsistens vnitas; nec secundo modo: quia cum omne 
+      <lb ed="#G" n="103"/>tale adesse, &amp; abesse possit preter subiecti corruptionem, 
+      <lb ed="#G" n="104"/>si in Deo talia essent accidentia, ipse necessario
+      mutare<lb ed="#G" n="105" break="no"/>tur, cuius contrarium habetur <ref xml:id="HuYgTa-e38481-Rd1e1149">12. metaph</ref>. &amp; <ref xml:id="HuYgTa-e38481-Rd1e1152">8.
+      physico<lb ed="#G" n="106" break="no"/>rum</ref>, vbi dicitur, quod Deus est immobilis per se, &amp; per 
+      <lb ed="#G" n="107"/>accidens, &amp; ab intra, Et <ref xml:id="HuYgTa-e38481-Rd1e1160">Iac. 1.</ref> Apud quem non est
+      trans<lb ed="#G" n="108" break="no"/>mutatio, nec uicissitudinis obsibratio. Propter quod ai 
+      <lb ed="#G" n="109"/>Commenta. 12. metaph. lustitia, sapientia, &amp; cetera huius 
+      <lb ed="#G" n="110"/>modi non significant in Deo intentiones additas supra suam 
+      <lb ed="#G" n="111"/>substantiam. Et P. <ref xml:id="HuYgTa-e38481-Rd1e1172">Aug. 7. de trin</ref> ait. Si quid de illa simpl 
+      <lb ed="#G" n="112"/>citate dixeris, eius substantia significatur. 
+    </p>
+            <p xml:id="HuYgTa-e38481-d1e1178">
+               <lb ed="#G" n="113"/>
+               <pc type="indent"/>Sed contra has partes illius minoris potest instari. Cor 
+      <lb ed="#G" n="114"/>tra primam sic. 
+    </p>
+            <p xml:id="HuYgTa-e38481-d1e1188">
+               <lb ed="#G" n="115"/>
+               <pc type="indent"/>1 Quaecunque sunt vnum realiter penitus, &amp;
+      omnino<lb ed="#G" n="116" break="no"/>quicunque cognoscit vnum, cognoscit, &amp; reliquum, sed Deus 
+      <lb ed="#G" n="117"/>esse cognoscimus, &amp; eius essentiam non cognoscimus,
+      er<lb ed="#G" n="118" break="no"/>go esse eius realiter differt ab essentia. Maior patet: quia 
+      <lb ed="#G" n="119"/>quod totaliter est simplex &amp; indistinctum, vel totaliter 
+      <lb ed="#G" n="120"/>cognoscitur, vel penitus ignoratur. Minor est Dam. 1.
+      lib<lb ed="#G" n="121" break="no"/>vbi sic ait. Quoniam quidem Deus est, manifestum est non 
+      <lb ed="#G" n="122"/>bis; quid vero est secundum substantiam, &amp; naturam,
+      in<lb ed="#G" n="123" break="no"/>comprehensibile est omnino, &amp; penitus ignotum
+    </p>
+            <p xml:id="HuYgTa-e38481-d1e1212">
+               <lb ed="#G" n="124"/>2 Praeterea, vnumquodque diffinitur per id, quod est 
+      <lb ed="#G" n="125"/>idem, quod sua essentia; sed secudum philosophum per ens 
+      <lb ed="#G" n="126"/>&amp; esse nihil diffinitur: quia cum sit onibus commune, 
+      <lb ed="#G" n="127"/>diffinitum per hoc a nullo penitus distingueretur
+    </p>
+            <p xml:id="HuYgTa-e38481-d1e1223">
+               <lb ed="#G" n="128"/>3 Contra secudam partem potest argui sic. Eadem est 
+      <lb ed="#G" n="129"/>dlistantia snbstantiae ad accidens, quae est accidentis ad sub 
+      <lb ed="#G" n="130"/>stantiam, sed a substantia non pot fieri trausitus in entitatem 
+      <lb ed="#G" n="131"/>accidentis: quia quod vere est, nulli accidit, vt dicitur 1. physi, 
+      <lb ed="#G" n="132"/>corum: ergo etiam econuerso, quod est accidens in vno, 
+      <lb ed="#G" n="133"/>in nullo poterit esse substantia, vt ait. <ref xml:id="HuYgTa-e38481-Rd1e1238">Commen. 8.
+      meta<lb ed="#G" n="134" break="no"/>physicoru contra Alexandrum</ref>, qui posuit calorem esse
+      for<lb ed="#G" n="135" break="no"/>mam substantialem ipsius ignis. Cum ergo omnia talia, 
+      <lb ed="#G" n="136"/>uae sunt posteriora essentia, &amp; esse rei sint in creaturis ac 
+      <lb ed="#G" n="137"/>cidentia, ipsa in Deo non poterunt esse substantia, 
+    </p>
+            <p xml:id="HuYgTa-e38481-d1e1250">
+               <lb ed="#G" n="138"/>
+               <pc type="indent"/>Praeterea, secundum Dion de di nomi. Omnia parti 
+      <lb ed="#G" n="139"/>cipant diuinam bonitate, sed nulla creatura videtur
+      par<lb ed="#G" n="140" break="no"/>ticipare diuinam substantiam, cum ipsa tantum modo
+      re<lb ed="#G" n="141" break="no"/>periatur in tribus diuinis personis; ergo cius bonitas
+      dif<lb ed="#G" n="142" break="no"/>tert ab eius substantia
+    </p>
+            <p xml:id="HuYgTa-e38481-d1e1266">
+      <!--143.xml-->
+               <pb ed="#G" n="52-v"/>
+               <cb ed="#G" n="a"/>
+               <lb ed="#G" n="1"/>Praeterea, sicut quantitas est causa aequalitatis, &amp; qua 
+      <lb ed="#G" n="2"/>litas similitudinis; sic substantia est causa identitatis. Si 
+      <lb ed="#G" n="3"/>ergo sapientia esset idem, quod Dei substantia, secundum 
+      <lb ed="#G" n="4"/>attributum sapientiae creatura non deberet dici similis 
+      <lb ed="#G" n="5"/>Deo, sed eadem Deo, quod est impossibile
+    </p>
+            <p xml:id="HuYgTa-e38481-d1e1286">
+               <lb ed="#G" n="6"/>e Praeterea, vbicumque est aequalitas, &amp; similitudo 
+      <lb ed="#G" n="7"/>ibi est quantitas, &amp; qualitas: quia vt dicitur in praedicamen 
+      <lb ed="#G" n="8"/>tis, proprium est quantitatis secundum eam aequale, vel 
+      <lb ed="#G" n="9"/>inaequale dici, &amp; proprium est qualitatis secundum ean 
+      <lb ed="#G" n="10"/>simile, vel dissimile dici. Sed in svmbolo Athanasij
+      dici<lb ed="#G" n="11" break="no"/>tur, Aequalis pater, aequalis filius aequalis spiritus sanctus. 
+      <lb ed="#G" n="12"/>Et <ref xml:id="HuYgTa-e38481-Rd1e1303">Aug.</ref> dicit, quod filius est simillimus patri, ergo &amp;c 
+    </p>
+            <p xml:id="HuYgTa-e38481-d1e1308">
+               <lb ed="#G" n="13"/>
+               <pc type="indent"/> Praeterea, id, sine quo res potest intelligi, non est sul 
+      <lb ed="#G" n="14"/>stantia sua, &amp; per consequens accidens Deus potest intel 
+      <lb ed="#G" n="15"/>ligi sine bonitate, vt patet per <ref xml:id="HuYgTa-e38481-Rd1e1318">
+                  <name xml:id="HuYgTa-e38481-Nd1e1320" ref="#Boethius">Boethiu</name> in lib de hebdo 
+        <lb ed="#G" n="16"/>madibus</ref> ergo &amp;c 
+    </p>
+            <p xml:id="HuYgTa-e38481-d1e1327">
+               <lb ed="#G" n="17"/>
+               <pc type="indent"/>Sed illa non concludunt. Nam omne accidens praesul 
+      <lb ed="#G" n="18"/>ponit causam efficientem aliam a suo obiecto. Nam effi- 
+      <lb ed="#G" n="19"/>ciens, &amp; materia, non coincidunt, vt patet <ref xml:id="HuYgTa-e38481-Rd1e1337">2. physicorum</ref>; 
+      <lb ed="#G" n="20"/>sed subiectum inquantum recipit suum accidens, est in
+      ge<lb ed="#G" n="21" break="no"/>nere causae materialis, ergo esset aliquod ages prius Deo,  
+      <lb ed="#G" n="22"/>a quo illud, quod formaliter est in Deo, causaliter
+      depen<lb ed="#G" n="23" break="no"/>deret, ergo &amp;c 
+    </p>
+            <p xml:id="HuYgTa-e38481-d1e1350">
+               <lb ed="#G" n="24"/>
+               <pc type="indent"/>Ad primum ergo dicendum, quod secundum philoso.¬ 
+      <lb ed="#G" n="25"/>phum5 metaphificae, ens, &amp; esse multipliciter dicuntur,  
+      <lb ed="#G" n="26"/>quandoque enim significant essentiam rei, siuce actum
+      es<lb ed="#G" n="27" break="no"/>endi, quandoque vero significant veritatem
+      proposito<lb ed="#G" n="28" break="no"/>num. Primo modo non intelligimus hic in via esse Deis 
+      <lb ed="#G" n="29"/>sed secundo modo, ex ipsis enim effectibus cognoscimus 
+      <lb ed="#G" n="30"/>hanc propositionem esse veram, Deus est 
+    </p>
+            <p xml:id="HuYgTa-e38481-d1e1370">
+               <lb ed="#G" n="31"/>
+               <pc type="indent"/>Ad secundum dicendum, quod quamuis nulla
+      creatu<lb ed="#G" n="32" break="no"/>ra proprie diffiniatur per esse simpliciter: quia hoc est con 
+      <lb ed="#G" n="33"/>mune omni creaturae, quod esse suum est esse
+      participa<lb ed="#G" n="34" break="no"/>tum, Deus tamen propriissime, &amp; nominatur, &amp;
+      diffini<lb ed="#G" n="35" break="no"/>tur per esse: quia hoc sibi soli conuenit, quod esse suum 
+      <lb ed="#G" n="36"/>est esse simpliciter, &amp; causa omnis alterius esse; idem
+      exi<lb ed="#G" n="37" break="no"/>stens penitus, quod sua essentia; &amp; ideo Deus seipsum non 
+      <lb ed="#G" n="38"/>minaliter expressit per esse cum dixit ad Movsem. Ego 
+      <lb ed="#G" n="39"/>sum, qui sum. Et iterum. Qui est misit me ad vos. 
+    </p>
+            <p xml:id="HuYgTa-e38481-d1e1394">
+               <lb ed="#G" n="40"/>
+               <pc type="indent"/>Ad tertium dicendum, quod illud, quod est accidens 
+      <lb ed="#G" n="41"/>in vno, non potest esse substantia in alio, sicut ait <ref xml:id="HuYgTa-e38481-Rd1e1402">Auer¬ 
+        <lb ed="#G" n="42"/>rois contra Alexandrum</ref>. qui posuit, quod calor esset for 
+      <lb ed="#G" n="43"/>ma substantialis ipsius ignis. Illa est vera, si vniuoce suma 
+      <lb ed="#G" n="44"/>tur, sicut calor in igne, &amp; in aliis vniuoce reperitur, sec 
+      <lb ed="#G" n="45"/>si aequiuoce sumitur, vel saltem non vniuoce, nihil
+      pro<lb ed="#G" n="46" break="no"/>hibet aliquid esse accidens in vno, &amp; substantiam in alio.  
+      <lb ed="#G" n="47"/>Lupus enim est quedam infirmitas in pede, &amp; per
+      conse<lb ed="#G" n="48" break="no"/>quens accidens, &amp; est substantia in genere animalis. Cum 
+      <lb ed="#G" n="49"/>igitur nihil dicatur vniuoce de Deo, &amp; creaturis; ideo 
+      <lb ed="#G" n="50"/>quamuis sapientia in creaturis sit accidens: in Deo tamer 
+      <lb ed="#G" n="51"/>potest esse substantia 
+    </p>
+            <p xml:id="HuYgTa-e38481-d1e1428">
+               <lb ed="#G" n="52"/>
+               <pc type="indent"/>Ad quartum dicendum, quod sicut bonitas creaturae 
+      <lb ed="#G" n="53"/>est quaedam participatio diuinae bonitatis, sic substantia 
+      <lb ed="#G" n="54"/>creaturae est quedam participatio substantiae diuinae, &amp; 
+      <lb ed="#G" n="55"/>sicut diuina substantia est essentialiter in tribus personis 
+      <lb ed="#G" n="56"/>licet participanter sit in creaturis, quasi in suo
+      exempla<lb ed="#G" n="57" break="no"/>to, sic &amp; diuina bonitas est in tribus personis
+      essentiali<lb ed="#G" n="58" break="no"/>ter, in aliis autem participatiue 
+    </p>
+            <p xml:id="HuYgTa-e38481-d1e1449">
+               <lb ed="#G" n="59"/>
+               <pc type="indent"/>Ad quintum dicendum, quod si eadem sapientia esset 
+      <lb ed="#G" n="60"/>in Deo, &amp; creaturis, tuc creatura posset dici eadem Deo 
+      <lb ed="#G" n="61"/>uia ipsa esset diuina substantia; sed quia sapientia Dei, 
+      <lb ed="#G" n="62"/>&amp; creaturae non solum non est eadem, sed nec est eiusdem 
+      <lb ed="#G" n="63"/>rationis, ideo nihil concluditur. 
+    </p>
+            <p xml:id="HuYgTa-e38481-d1e1465">
+               <lb ed="#G" n="64"/>
+               <pc type="indent"/>Ad sextum dicendum, quod quamuis in diuinis non si 
+      <lb ed="#G" n="65"/>quantitas, nec qualitas: est tamen aliquid ibi secundum 
+      <lb ed="#G" n="66"/>nostrum modum intelligendi ad modum quantitatis, q&amp;u 
+      <lb ed="#G" n="67"/>qualitatis, ratione cuius potest ibi admitti praedicatio
+      ae<lb ed="#G" n="68" break="no"/>qualitatis, &amp; similitudinis. Dicutur enim similes propter 
+      <lb ed="#G" n="69"/>eandem bonitatem, &amp; sapientiam, &amp; aequales
+      propte<lb ed="#G" n="70" break="no"/>eandem virtutem, &amp; omipotentiam 
+    </p>
+            <p xml:id="HuYgTa-e38481-d1e1485">
+               <lb ed="#G" n="71"/>
+               <pc type="indent"/>Ad septimum dicendum, quod illud est accidens, sine 
+      <lb ed="#G" n="72"/>quo res perfecte potest intelligi: sed <name xml:id="HuYgTa-e38481-Nd1e1493" ref="#Boethius">Boethius</name> loquitur  
+      <lb ed="#G" n="73"/>de imperfecta Dei cognitione; viator enim cognoscens 
+      <!--143.xml-->
+      <cb ed="#G" n="b"/>
+               <lb ed="#G" n="74"/>Deum ex creaturis tamquam per suos effectus, potest Dei 
+      <lb ed="#G" n="75"/>cognoscere esse inquantum ipse est causa essendi omni- 
+      <lb ed="#G" n="76"/>pus creaturis, preter hoc, quod actualiter apprehendat bo 
+      <lb ed="#G" n="77"/>nitatem Dei,a qua causatur omnis bonitas creaturae. 
+    </p>
+            <p xml:id="HuYgTa-e38481-d1e1512">
+               <lb ed="#G" n="78"/>
+               <pc type="indent"/>ARTICVLVS in 
+      <lb ed="#G" n="79"/>trum in Deo sit composito modalis.  
+      <lb ed="#G" n="80"/>VANTVM ad tertium principale vtrum in Dec 
+      <lb ed="#G" n="81"/> sit composito modalisi, dico, quod modos
+      diuer<lb ed="#G" n="82" break="no"/>sos esse in diuinis potest dupliciter intelligi, vel
+      quan<lb ed="#G" n="83" break="no"/>tum ad modos relatiuos, vel quantum ad modos
+      absolu<lb ed="#G" n="84" break="no"/>tos. Primo modo possunt esse diuersi modi reales in
+      di<lb ed="#G" n="85" break="no"/>uinis relatiue differentes: quia vbi sunt diuersae res, ib 
+      <lb ed="#G" n="86"/>possunt esse diuersi modi correspondentes illis rebus: sec 
+      <lb ed="#G" n="87"/>in diuinis concedimus esse relationes reales realiter
+      dif<lb ed="#G" n="88" break="no"/>ferentes, igitur, &amp; modos predictos concedere possumus 
+      <lb ed="#G" n="89"/>fore in diuinis: Differentia autem talium modorum non 
+      <lb ed="#G" n="90"/>arguit aliquam compositionem in Deo, sicut nec differen 
+      <lb ed="#G" n="91"/>tia relationum: Sed loquendo de modis absolutis, vel per 
+      <lb ed="#G" n="92"/>differentiam talium modorum intelligitur sola differen 
+      <lb ed="#G" n="93"/>tia rationis, quae innascitur ex alia, &amp; alia comparationi 
+      <lb ed="#G" n="94"/>vnius rei absolutae, quae est diuina essentia, &amp; ad aliam &amp; 
+      <lb ed="#G" n="95"/>aliam creaturam, sic potest dici composito modorum esse  
+      <lb ed="#G" n="96"/>in diuinis: quia sicut differentia modorum illo modo sum 
+      <lb ed="#G" n="97"/>ptorum non est nisi differentia rationis, sic composito mo 
+      <lb ed="#G" n="98"/>dorum est tantummodo composito rationis, quae obie 
+      <lb ed="#G" n="99"/>ctiue potest esse in diuinis, licet subiectiue sit in ipso in 
+      <lb ed="#G" n="100"/>tellectu. vVel per differentiam talium modorum
+      absolu<lb ed="#G" n="101" break="no"/>torum intelligis differentiam realem intrinsece diuinae 
+      <lb ed="#G" n="102"/>naturae inexistentem praeter omnem actum intellectus,  
+      <lb ed="#G" n="103"/>&amp; sic nego compositonem modalem in diuinis. Illud, nm 
+      <lb ed="#G" n="104"/>derogaret diuinae simplicitati, quae summa est, sicut patet 
+      <lb ed="#G" n="105"/>er auctoritates sanctorum, quas magister in littera addu 
+      <lb ed="#G" n="106"/>cit in <ref xml:id="HuYgTa-e38481-Rd1e1579">illa dist. 8.</ref> nec hic volo adducere aliquas de nouo 
+      <lb ed="#G" n="107"/>rationes quia illam conclusionem euidenter confirmant 
+      <lb ed="#G" n="108"/>omnes illae rationes, quas superius adduxi de attributis. 
+    </p>
+            <p xml:id="HuYgTa-e38481-d1e1587">
+               <lb ed="#G" n="109"/>
+               <pc type="indent"/>ARTICVLVS II 
+      <lb ed="#G" n="110"/>contra tres conclusiones ex istis elicitas, adducunti 
+      <lb ed="#G" n="111"/>
+               <pc type="indent"/>aliqua, &amp; respondetur ad
+      ea<lb ed="#G" n="112" break="no"/>ED est quidam doctor quamplurimum subtilis, qui 
+      <lb ed="#G" n="113"/>O aliquo modo videtur tenere oppositum istius. Ponit 
+      <lb ed="#G" n="114"/>enim ille doctor modos absolutos in diuinis, quorum ali 
+      <lb ed="#G" n="115"/>quos appellat modos attributales, aliquos vero fundamen 
+      <lb ed="#G" n="116"/>tales, qui sunt fundamentum personalium proprietatum 
+      <lb ed="#G" n="117"/>De illis modis propriis personarum nihil intedo dicers 
+      <lb ed="#G" n="118"/>ad presens quia huiusmodi materia spectat ad dist. 28 vbi 
+      <lb ed="#G" n="119"/>tractatur de diuinarum personarum distinctione. De mo 
+      <lb ed="#G" n="120"/>dis igitur communibus dicit ille doctor, quod modi attri 
+      <lb ed="#G" n="121"/>butales sunt modi absoluti reales aliquo modo realiter 
+      <lb ed="#G" n="122"/>differentes ante omnem actum intellectus. Ratio autem 
+      <lb ed="#G" n="123"/>sua fundamentalis est haec.
+    </p>
+            <p xml:id="HuYgTa-e38481-d1e1626">
+               <lb ed="#G" n="124"/>1 Modi significandi sequuntur modos intelligendi, o 
+      <lb ed="#G" n="125"/>modi intelligendi sequuntur modos essendi; huic igitur 
+      <lb ed="#G" n="126"/>diuersitati modorum intelligendi, qua intelliguntur
+      di<lb ed="#G" n="127" break="no"/>uersa attributa diuina diuersimode per diuersa nomina 
+      <lb ed="#G" n="128"/>significata, aut respondet aliquid in re, aut nihil: si nihil 
+      <lb ed="#G" n="129"/>tunc talia sunt figmenta ipsus intellectus, si aliquid, cum 
+      <lb ed="#G" n="130"/>non possint hoc esse diuersae res absolutae, quia talos non 
+      <lb ed="#G" n="131"/>sunt in diuinis ergo erunt diuersi modi absoluti reales; 
+    </p>
+            <p xml:id="HuYgTa-e38481-d1e1647">
+               <lb ed="#G" n="132"/>
+               <pc type="indent"/>Et addit ille doctor dicens 
+      <lb ed="#G" n="133"/>Attributa itaque diuina distinguuntnr, &amp; secundum 
+      <lb ed="#G" n="134"/>modos intelligendi, &amp; secundum modos essendi, &amp; eort 
+      <lb ed="#G" n="135"/>distinctio recte etiam potest dici realis propter diuersol 
+      <lb ed="#G" n="136"/>modos realitatis, &amp; intellectualitatis. Istos tamen
+      diuer<lb ed="#G" n="137" break="no"/>sos modos essentia diuina continet vnitissime, sicut diuer 
+      <lb ed="#G" n="138"/>sitas linearum, quasi in suo principio, vel termino in cen 
+      <lb ed="#G" n="139"/>tro indiuisibili continetur, &amp; sicut omnis varietas
+      nume<lb ed="#G" n="140" break="no"/>rorum vnitissime, &amp; indiuisibiliter tamquam in sua origi 
+      <lb ed="#G" n="141"/>ne continetur in vnitate. Et paucis interpositis subdit, quod 
+      <!--144.xml-->
+      <pb ed="#G" n="53-r"/>
+               <cb ed="#G" n="a"/>
+               <lb ed="#G" n="1"/>si nullus intellectus intelligeret attributorum distinctio 
+      <lb ed="#G" n="2"/>nem, nihilominus esset haec distinctio modorum essendi 
+      <lb ed="#G" n="3"/>in ipsa re, quae Deus est, non enim quia intelligitur ideo 
+      <lb ed="#G" n="4"/>est ibi; sed quia est ibi, ideo vere intelligitur, 
+    </p>
+            <p xml:id="HuYgTa-e38481-d1e1688">
+               <lb ed="#G" n="5"/>
+               <pc type="indent"/>Et addit, quod distinctio attributorum, nec dependes 
+      <lb ed="#G" n="6"/>ex comparatione eorum ad creaturas, nec ex compara 
+      <lb ed="#G" n="7"/>tione eorum ad intra inter se: quia non ex eo, quod con 
+      <lb ed="#G" n="8"/>parantur distincta sunt sed prius sunt, &amp; intelliguntur di 
+      <lb ed="#G" n="9"/>stincta, &amp; consequenter comparabilia, vel ad extra, ve 
+      <lb ed="#G" n="10"/>ad intra. 
+    </p>
+            <p xml:id="HuYgTa-e38481-d1e1706">
+               <lb ed="#G" n="11"/>
+               <pc type="indent"/>Sed illa non teneo quia, vt mihi videtur, impossibile 
+      <lb ed="#G" n="12"/>est aliqua absoluta, quae formaliter sunt in aliquo
+      quo<lb ed="#G" n="13" break="no"/>cumque, differre realiter sine compositone reali
+      dero<lb ed="#G" n="14" break="no"/>cante summae simplicitati. Sed ille expresse dicit, quod di 
+      <lb ed="#G" n="15"/>stinctio illorum attributorum, quae appellat modos
+      ab<lb ed="#G" n="16" break="no"/>solutos communes tribus personis, est aliquo modo
+      rea<lb ed="#G" n="17" break="no"/>lis, &amp; praeter omnem actum intellectus, ergo aliquo
+      mo<lb ed="#G" n="18" break="no"/>do in diuinis erit realis composito; quantum enim
+      poni<lb ed="#G" n="19" break="no"/>tur absolutorum distinctio, tantum ponetur in eo, in quo 
+      <lb ed="#G" n="20"/>distincta sunt composito; Etiam ille doctor in eade
+      quae<lb ed="#G" n="21" break="no"/>stione paucis interpositis post praedicta videtur sibi euidem 
+      <lb ed="#G" n="22"/>ter contradicere: dicit enim sic. Sunt igitur hi modi
+      abso<lb ed="#G" n="23" break="no"/>luti: quia significant perfectionem aliquam, sunt autem 
+      <lb ed="#G" n="24"/>respectiui: quia propter vnitatem rei, in qua fundantur,  
+      <lb ed="#G" n="25"/>non accipitur eorum distinctio, nisi ex comparatione rer 
+      <lb ed="#G" n="26"/>ad seipsam, ita quod comparatio rei ad seipsam causat
+      di<lb ed="#G" n="27" break="no"/>stinctionem, &amp; hanc distinctionem in aliquibus consequi 
+      <lb ed="#G" n="28"/>tur aliquis respectus. Illa verba praecedentibus, vt mihi vi 
+      <lb ed="#G" n="29"/>detur, manifeste contradicunt. Dicta igitur praecedentia 
+      <lb ed="#G" n="30"/>inquantum sine probatione assumuntur omnia nego, &amp; 
+      <lb ed="#G" n="31"/>respondebo ad illam vnam rationem, &amp; duas
+      similitudi<lb ed="#G" n="32" break="no"/>nes, quas adduxit. 
+    </p>
+            <p xml:id="HuYgTa-e38481-d1e1758">
+               <lb ed="#G" n="33"/>
+               <pc type="indent"/>Ad rationem igitur dico, quod distincti modi intelligendi 
+      <lb ed="#G" n="34"/>presupponunt distinctos modos essendi in ipsa re intelle 
+      <lb ed="#G" n="35"/>cta, si talis res vero intellectu intelligitur esse distincta in 
+      <lb ed="#G" n="36"/>se absque omni comparatione ad ea, quae realiter
+      distin<lb ed="#G" n="37" break="no"/>guuntur. Si autem vero intellectu distinctio talis rei non 
+      <lb ed="#G" n="38"/>apprehenditur, nisi in comparatione ad aliqua realiter di 
+      <lb ed="#G" n="39"/>stincta, tunc non oportet propter diuersitatem modorum 
+      <lb ed="#G" n="40"/>ntelligendi in illa re esse diuersitatem modorum essen 
+      <lb ed="#G" n="41"/>di sed sufficit, quod talis diuersitas modorum essendi sit 
+      <lb ed="#G" n="42"/>in rebus illis, ad quarum comparationem distinctio
+      ap<lb ed="#G" n="43" break="no"/>prehenditur in illa re simplicissima. 
+    </p>
+            <p xml:id="HuYgTa-e38481-d1e1787">
+               <lb ed="#G" n="44"/>
+               <pc type="indent"/>Similitudines etiam, quas iste doctor adducit non sunt 
+      <lb ed="#G" n="45"/>ad propositum: quia lineae non sunt formaliter in centro 
+      <lb ed="#G" n="46"/>ecundum totam suam entitatem, nec numeri sunt forma 
+      <lb ed="#G" n="47"/>liter in vnitate. Si enim lineae secundum totam suam
+      en<lb ed="#G" n="48" break="no"/>titatem essent in punto centri: impossibile esset eas ab 
+      <lb ed="#G" n="49"/>inuicem distingui. Et dato per impossibile, quod
+      distingue<lb ed="#G" n="50" break="no"/>tentur necesse esset ipsum centrum distingui, &amp; esse com 
+      <lb ed="#G" n="51"/>positum. Et eodem modo dico de vnitate respectu nume 
+      <lb ed="#G" n="52"/>rorum: Sed isti modi absoluti, siue diuina attributa sunt 
+      <lb ed="#G" n="53"/>in diuina essentia formaliter secundum totam suam
+      en<lb ed="#G" n="54" break="no"/>titatem, ideo non possunt distingui intrinsece absque on 
+      <lb ed="#G" n="55"/>ni comparatione intellectus, nisi diuina essentia ponatur 
+      <lb ed="#G" n="56"/>realiter esse composita. 
+    </p>
+            <p xml:id="HuYgTa-e38481-d1e1820">
+               <lb ed="#G" n="57"/>
+               <pc type="indent"/>Ad argumentum principale dicendum, quod formae 
+      <lb ed="#G" n="58"/>dicuntur actu esse in primo motore, non tamen sunt in 
+      <lb ed="#G" n="59"/>eo distinctae: quia treatura in creatore non est aliud, quam 
+      <lb ed="#G" n="60"/>ipsa creatrix essentia diuina. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

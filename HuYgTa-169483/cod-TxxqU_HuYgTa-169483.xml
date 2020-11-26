@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Circa textum</title>
+            <author ref="#ThomasStrasbourg">Thomas of Strasbourg</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Circa textum</title>
+               <date when="2020-11-26">November 26, 2020</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="G" n="cod-TxxqU">Genoa 1585</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2020-11-26" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#G" n="-r"/>
+            <cb ed="#G" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="HuYgTa-169483"><!-- HuYgTa-l3d5ct1 -->
+            <head xml:id="HuYgTa-169483-Hd1e108">Circa textum</head>
+            <p xml:id="HuYgTa-169483-d1e111">
+               <lb ed="#G" n="33"/>
+               <pc type="indent"/>DISTINCTIO V. 
+      <lb ed="#G" n="34"/>Perspicua, ac facilis diuisio hitius distinctionis in 
+      <lb ed="#G" n="35"/>qua quidem dubitationes quaedam contingentes 
+      <lb ed="#G" n="36"/>circa diuine assumptionis termmationem re. 
+      <lb ed="#G" n="37"/>soluuntur dilucidantur que. 
+    </p>
+            <p xml:id="HuYgTa-169483-d1e127">
+               <lb ed="#G" n="38"/>
+               <pc type="indent"/>PRATEREA IMQVIRI OPoNTET. 
+      <lb ed="#G" n="39"/>Postquam Magister posuit suam conside 
+      <lb ed="#G" n="40"/>rationem circa filij Dei incarnationem, 
+      <lb ed="#G" n="41"/>&amp; humanae naturae assumptionem, nunc 
+      <lb ed="#G" n="42"/>in ista quinta distinctione circa huiusmo 
+      <lb ed="#G" n="43"/>di assumptionis terminationem moues 
+      <lb ed="#G" n="44"/>quandam quaestionem: Et diuiditur in duas partes: quia 
+      <lb ed="#G" n="45"/>primo circa huiusmodi terminationem mouet vnam
+      quae<lb ed="#G" n="46" break="no"/>stionem principalem. Secundo mouet aliam quaestionem 
+      <lb ed="#G" n="47"/>incidentalem, ibi, Sed queritur vtrum eadem. Prima in 
+      <lb ed="#G" n="48"/>tres: quia primo mouet quadrimembrem quaestionem. 
+      <lb ed="#G" n="49"/>Secundo quod ad tria membra quaestionis cum sanctorum 
+      <lb ed="#G" n="50"/>testimonijs ponit suam determinationem. Tertio circa 
+      <lb ed="#G" n="51"/>quartum membrum propter eius ambiguitatem facit vl 
+      <lb ed="#G" n="52"/>teriorem inquisitionem. Secunda ibi, Certum est enim 
+      <lb ed="#G" n="53"/>Tertia ibi, De quarto vero quaestionis articulo. Et haec 
+      <lb ed="#G" n="54"/>in duas: nam primo ad vtranque partem dubitationis ad  
+      <lb ed="#G" n="55"/>ducit argumentationem. Secundo subiungit suam respo 
+      <lb ed="#G" n="56"/>sionem. Secunda ibi, Nos autem omnis mendacij. Pri 
+      <lb ed="#G" n="57"/>ma in tres: quia primo circa istum articulum ostendit
+      es<lb ed="#G" n="58" break="no"/>se difficultatem magnam, &amp; excessiuam. Secundo istius 
+      <lb ed="#G" n="59"/>articuli arguit prolixe ad partem negatiuam. Tertio
+      ar<lb ed="#G" n="60" break="no"/>guit prolixus valde ad partem affirmatiuam. Secunda i- 
+      <lb ed="#G" n="61"/>bi, Cegitur enim in concilio. Tertia ibi, Cui videtur
+      ob<lb ed="#G" n="62" break="no"/>uiare. Sequitur illa pars, Sed quaeritur vtrum eadem, 
+      <lb ed="#G" n="63"/>Et diuiditur in duas partes: nam primo mouet hic dupl 
+      <lb ed="#G" n="64"/>cem incidentem quaestionem. Secundo contra quandam 
+      <lb ed="#G" n="65"/>veritatem in principio istius distin determinatam
+      indu<lb ed="#G" n="66" break="no"/>cit duplicem obiectionem, ibi, ldeo vero non personam. 
+      <lb ed="#G" n="67"/>Prima in duas, secundum quod duplicem quaestionem
+      in<lb ed="#G" n="68" break="no"/>nuit, &amp; cuilibet suam responsionem annectit. Secunda 
+      <lb ed="#G" n="69"/>lbi, Si autem diuina natura. Sequitur illa pars. Ideo 
+      <!--494.xml-->
+      <cb ed="#G" n="b"/>
+               <lb ed="#G" n="70"/>vero &amp;c. Et diuiditur in tres partes: quia primo quanda 
+      <lb ed="#G" n="71"/>veritatem superius dictam resumit. Secundo contra ea 
+      <lb ed="#G" n="72"/>dupliciter obijcit. Tertio ambas obiectiones tollit. Se 
+      <lb ed="#G" n="73"/>tunda ibi, Hic a quibusdam. Tertia ibi, Sed quia hoc
+      ne<lb ed="#G" n="74" break="no"/>has est. Circa istam distincti. quaero hanc quaestionem. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Circa textum 2</title>
+            <author ref="#ThomasStrasbourg">Thomas of Strasbourg</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Circa textum 2</title>
+               <date when="2020-11-26">November 26, 2020</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="G" n="cod-TxxqU">Genoa 1585</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2020-11-26" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#G" n="-r"/>
+            <cb ed="#G" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="HuYgTa-e15481"><!-- HuYgTa-l1d1ct2 -->
+            <head xml:id="HuYgTa-e15481-Hd1e108">Circa textum 2</head>
+            <p xml:id="HuYgTa-e15481-d1e111">
+               <lb ed="#G" n="31"/>Sequitur perspicua subdiuisio secundae 
+      <lb ed="#G" n="32"/>particulae principalis huius
+      distincto<lb ed="#G" n="33" break="no"/>nis: in qua quidem Magister
+      dif<lb ed="#G" n="34" break="no"/>finitiue aperit materiam  
+      <lb ed="#G" n="35"/>huius libri. 
+    </p>
+            <p xml:id="HuYgTa-e15481-d1e124">
+               <lb ed="#G" n="36"/>RVI AVTEM EST AMORE. &amp;c. 
+      <lb ed="#G" n="37"/>Postquam magister inuestigauit ma 
+      <lb ed="#G" n="38"/>teriam libri sententiarum diuisiue, 
+      <lb ed="#G" n="39"/>in ista parte procedit circa eam
+      dif<lb ed="#G" n="40" break="no"/>finitiue. Et diuiditur in duaspartes 
+      <lb ed="#G" n="41"/>ia in prima parte diffinit, seu descri 
+      <lb ed="#G" n="42"/>bit frui, &amp; vti: vt ex hoc appareat 
+      <lb ed="#G" n="43"/>quae sint res fruibiles, &amp; vtibiles. Se 
+      <lb ed="#G" n="44"/>rundo mouet circa talia quasdam incidentes quaestionei 
+      <lb ed="#G" n="45"/>ibi. Cum autem homines. Prima diuiditur in tres partes 
+      <lb ed="#G" n="46"/>Quia primo assignat vnum modum diffiniendi praedicta 
+      <lb ed="#G" n="47"/>Secundo assignat alium modum, qui primo aliquantulum 
+      <lb ed="#G" n="48"/>videtur contradicere. Et tertio illos modos concordat 
+      <lb ed="#G" n="49"/>ostendens in eis; nullam esse repugnantiam. Secunda
+      ibi<lb ed="#G" n="50" break="no"/>Notandum vero. Tertia ibi. Haec ergo quae sibi&amp;c. Circa 
+      <lb ed="#G" n="51"/>istum textum quaero hanc quaestionem. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

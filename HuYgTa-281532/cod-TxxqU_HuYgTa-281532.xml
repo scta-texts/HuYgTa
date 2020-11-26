@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Circa textum</title>
+            <author ref="#ThomasStrasbourg">Thomas of Strasbourg</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Circa textum</title>
+               <date when="2020-11-26">November 26, 2020</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="G" n="cod-TxxqU">Genoa 1585</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2020-11-26" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#G" n="-r"/>
+            <cb ed="#G" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="HuYgTa-281532"><!-- HuYgTa-l4d32et33ct1 -->
+            <head xml:id="HuYgTa-281532-Hd1e108">Circa textum</head>
+            <p xml:id="HuYgTa-281532-d1e111">
+      <!--792.xml-->
+               <cb ed="#G" n="b"/>
+               <lb ed="#G" n="65"/>DISTINCTIO. XXXII ET XXXIII 
+      <lb ed="#G" n="66"/>
+               <pc type="indent"/>Dilucida harum distinctionum diusio in quibus 
+      <lb ed="#G" n="67"/>
+               <pc type="indent"/>peculiariter agitur de bono fidei 
+      <lb ed="#G" n="68"/>
+               <pc type="indent"/>ipsius matrimonij. 
+    </p>
+            <p xml:id="HuYgTa-281532-d1e133">
+               <lb ed="#G" n="69"/>VOD vero sine consensu. Postquam  
+      <lb ed="#G" n="70"/>
+               <pc type="indent"/>Magister simul tractauit de tribus 
+      <lb ed="#G" n="71"/>bonis matrimonii; nunc tractat per 
+      <lb ed="#G" n="72"/>se de vno illorum, puta, de bono fi- 
+      <lb ed="#G" n="73"/>dei. Et diuiditur in duas partes: quia 
+      <lb ed="#G" n="74"/>rimo tractat de bono fidei, prout 
+      <lb ed="#G" n="75"/>debet esse in omni matrimonio
+      con<lb ed="#G" n="76" break="no"/>sum ato vniuersaliter. Secudo, prout 
+      <lb ed="#G" n="77"/>habuit esse in matrimonio antiquorum patrum
+      specia<lb ed="#G" n="78" break="no"/>liter, ibi, Quaeritur hic de antiquis, Prima in duas: nam 
+      <lb ed="#G" n="79"/>primo ostendit, quomodo bonum fidei abstringit
+      coniu<lb ed="#G" n="80" break="no"/>gem ad debitum reddendum. Secundo ostendit, quod 
+      <lb ed="#G" n="81"/>huiusmodi debitum aliquibus temporibus non est
+      pe<lb ed="#G" n="82" break="no"/>tendum, ibi, Et licet debitum. Prima in duas: quia
+      pri<lb ed="#G" n="83" break="no"/>mo ostendit, quod vnus coniugum absque licentia
+      alte<lb ed="#G" n="84" break="no"/>rius non potest se ad votum continentiae obligare.
+      Se<lb ed="#G" n="85" break="no"/>cundo inquirit, posito, quod ad faciendum votum conti 
+      <lb ed="#G" n="86"/>nentiae se mutuo licentiauerint, vtrum huiusmodi licen 
+      <lb ed="#G" n="87"/>tiam possint reuocare, ibi, Si vero quilibet eorum. Sequi  
+      <lb ed="#G" n="88"/>tur illa pars, Et licet. Et diuiditur in duas: quia primo  
+      <lb ed="#G" n="89"/>ostendit, quod aliquando cesandum est a carnalis
+      co<lb ed="#G" n="90" break="no"/>pulae exactione. Secundo, quod quandoque cess ndum 
+      <lb ed="#G" n="91"/>est a nuptiarum celebratione, ibi, Nec solum. Tunc
+      se<lb ed="#G" n="92" break="no"/>uitur dist. 32. in qua Magister &amp;c. Et diuiditur in duas 
+      <lb ed="#G" n="93"/>partes: quia primo tractat de fide coniugali patrum anti 
+      <lb ed="#G" n="94"/>uorum legem Movsis praecedentium. Secundo de fide 
+      <lb ed="#G" n="95"/>patrum tempore legis existentium, ibi, Legis vero
+      tem<lb ed="#G" n="96" break="no"/>pore. Prima in duas: quia primo bigamiae, seu
+      pluralita<lb ed="#G" n="97" break="no"/>tis vxorum patrum antiquorum ponit exculationem, 
+      <lb ed="#G" n="98"/>Secundo castitatis ipsorum adiungit commendationem, 
+      <lb ed="#G" n="99"/>ibi, Quod vero castitas. Et haec in duas: quia primo
+      de<lb ed="#G" n="100" break="no"/>erminat veritatem Secundo contra praedicta inducit,  
+      <lb ed="#G" n="101"/>&amp; soluit quandam dubietatem, ibi, Si quis opponat.
+      Se<lb ed="#G" n="102" break="no"/>uitur illa pars, Cegis Vero tempore. Et diuiditur in tres 
+      <lb ed="#G" n="103"/>partes: quia primo ostendit, quomodo tempore legis 
+      <lb ed="#G" n="104"/>dovsis quantum ad matrimonium quaedam fuerut pro 
+      <lb ed="#G" n="105"/>cepta, &amp; quaedam propter duritiam aliquorum
+      permis<lb ed="#G" n="106" break="no"/>sa. Secundo inquirit de patrum tempore legis
+      existen<lb ed="#G" n="107" break="no"/>tium bigamia Et tertio tangit quaedam ad
+      commenda<lb ed="#G" n="108" break="no"/>tionem virginitatis spectantia Secunda, ibi, Sed nuquid 
+      <lb ed="#G" n="109"/>Tertia, ibi, Melior est autem. Et haec est diuisio 3 2. &amp; 35. 
+      <lb ed="#G" n="110"/>distinctionis, atque sententia in generali. Circa quas
+      di<lb ed="#G" n="111" break="no"/>uaero in speciali.  
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

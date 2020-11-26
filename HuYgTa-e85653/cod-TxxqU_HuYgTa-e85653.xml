@@ -1,0 +1,835 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#ThomasStrasbourg">Thomas of Strasbourg</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2020-11-26">November 26, 2020</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="G" n="cod-TxxqU">Genoa 1585</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2020-11-26" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#G" n="112-v"/>
+            <cb ed="#G" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="HuYgTa-e85653"><!-- HuYgTa-l1d40q1 -->
+            <head xml:id="HuYgTa-e85653-Hd1e108">Quaestio 1</head>
+            <head xml:id="HuYgTa-e85653-Hd1e111" type="question-title">
+      An possibile sit praedestinatum tandem non saluari.
+    </head>
+            <p xml:id="HuYgTa-e85653-d1e114">
+               <lb ed="#G" n="41"/>
+               <pc type="indent"/>Quaestio. I 
+      <lb ed="#G" n="42"/>An possibile sit praedestinatum tandem  
+      <lb ed="#G" n="43"/>non saluari.
+    </p>
+            <p xml:id="HuYgTa-e85653-d1e125">
+               <lb ed="#G" n="44"/>VTRVM possibile sit praedestinatum ad sa 
+      <lb ed="#G" n="45"/>lutem finaliter non saluari.
+    </p>
+            <p xml:id="HuYgTa-e85653-d1e132">
+      Et videtur, quo 
+      <lb ed="#G" n="46"/>sic, quia Deus potest praedestinatum
+      da<lb ed="#G" n="47" break="no"/>nare, ergo possibile est praedestinatum 
+      <lb ed="#G" n="48"/>non saluari; consequentia patet, probo 
+      <lb ed="#G" n="49"/>l antecedens: quia quicquid Deus potuit 
+      <lb ed="#G" n="50"/>ab aeterno, hoc potest omni tempore, nam ex suceessu
+      te<lb ed="#G" n="51" break="no"/>poris non diminuitur diuina potentia; sed nunc praedesti 
+      <lb ed="#G" n="52"/>natum Petrum, vel Paulum Deus ab aeterno potuit
+      re<lb ed="#G" n="53" break="no"/>probare, ergo &amp; nunc 
+    </p>
+            <p xml:id="HuYgTa-e85653-d1e153">
+               <lb ed="#G" n="54"/>
+               <pc type="indent"/>Contra, <ref xml:id="HuYgTa-e85653-Rd1e159">Ans. de concordia praedestinationis &amp; gratiae</ref> 
+               <!--263.xml-->
+               <cb ed="#G" n="b"/>
+               <lb ed="#G" n="55"/>ait, Praescita &amp; praedestinata de necessitate futura sunti 
+      <lb ed="#G" n="56"/>sed quod est necesse, impossibile est non esse, vtipatet e. 
+      <lb ed="#G" n="57"/>perihermenias, ergo &amp;c. Hic quattuor sunt videnda: Nam 
+      <lb ed="#G" n="58"/>quia reprobatio, &amp; praedestinatio opposito modo se
+      ha<lb ed="#G" n="59" break="no"/>bent, &amp; opposita iuxta se posita magis elucescunt, ide; 
+      <lb ed="#G" n="60"/>primo videndum est quid sit reprobatio. Secundo, quio 
+      <lb ed="#G" n="61"/>sit praedestinatio. Tertio, vtrum praedestinatus possit dam 
+      <lb ed="#G" n="62"/>nari. Et quarto, vtrum reprobatus possit saluari. 
+    </p>
+            <p xml:id="HuYgTa-e85653-d1e185">
+               <lb ed="#G" n="63"/>
+               <pc type="indent"/>RESOLVTIO. 
+      <lb ed="#G" n="64"/>Reprobatio equidem aeterna praecognitio est mali vsus libexi
+      ar<lb ed="#G" n="65" break="no"/>bitrijm ratione cuius a Deo decretum est aliquem in praesent 
+      <lb ed="#G" n="66"/>vita gratia priuari, &amp; in futura aeterna lui paena: praedertina 
+      <lb ed="#G" n="67"/>tio vtro est praeparatio gratiae in praesenti &amp; gloriae in futuro 
+      <lb ed="#G" n="68"/>Vnde sequitur, quod praedestinatus, licet de se danmari pessit 
+      <lb ed="#G" n="69"/>de facti tamen non peri bit: sicut veprobatus de sesaluari
+      va<lb ed="#G" n="70" break="no"/>let, secundum tamen quod huitsmodi numquam salutem
+      con<lb ed="#G" n="71" break="no"/>sequetur. 
+    </p>
+            <p xml:id="HuYgTa-e85653-d1e209">
+               <lb ed="#G" n="72"/>
+               <pc type="indent"/>ARTICVLVSI 
+      <lb ed="#G" n="73"/>
+               <pc type="indent"/>Quid sit reprobatio.
+    </p>
+            <p xml:id="HuYgTa-e85653-d1e220">
+               <lb ed="#G" n="74"/>QVAVTVM ad primum articulum, quid sit
+      repro<lb ed="#G" n="75" break="no"/>batio, est aduertendum, quod reprobatio tria
+      vi<lb ed="#G" n="76" break="no"/>detur implicare, scilicet praecognitionem culpae,
+      subtra<lb ed="#G" n="77" break="no"/>ctionem gratiae, &amp; praeparationem poenae: Deus enim ab 
+      <lb ed="#G" n="78"/>aeterno praecognouit culpam illius, quen reprobat, &amp;
+      pro<lb ed="#G" n="79" break="no"/>pter hoc ipsum gratia finaliter priuat, &amp; poenam aeternam 
+      <lb ed="#G" n="80"/>ci praeparat: Quo ad primum, ipsa reprobatio nihil
+      vide<lb ed="#G" n="81" break="no"/>tur addere super simplicem praecognitionem diuinae
+      prae<lb ed="#G" n="82" break="no"/>scientiae. Quo ad secundum, non addit aliquid positiue 
+      <lb ed="#G" n="83"/>sed solum priuatiue. Quo ad tertium, addit aliquid
+      posi<lb ed="#G" n="84" break="no"/>tiue. Ex his potest ipsa reprobatio sic describi.
+      Reproba<lb ed="#G" n="85" break="no"/>tio est aeterna precognitio mali vsus liberi arbitrii,
+      ratio<lb ed="#G" n="86" break="no"/>ne cuius Deus decreuit aliquem hominem in praesenti 
+      <lb ed="#G" n="87"/>vita priuare gratia, &amp; in futura punire aeterna poena¬ 
+    </p>
+            <p xml:id="HuYgTa-e85653-d1e253">
+               <lb ed="#G" n="88"/>
+               <pc type="indent"/>ARTICVLVS II 
+      <lb ed="#G" n="89"/>
+               <pc type="indent"/>Quid sit praedestimatio.
+    </p>
+            <p xml:id="HuYgTa-e85653-d1e264">
+               <lb ed="#G" n="90"/>QVANTVM ad secundum articulum, quid sit
+      prae<lb ed="#G" n="91" break="no"/>A destinatio, est aduertendum, quod praedestinatio 
+      <lb ed="#G" n="92"/>dupliciter potest considerari Vno modo generaliter pro 
+      <lb ed="#G" n="93"/>ut potest competere rationali, ac etiam intellectuali
+      crea<lb ed="#G" n="94" break="no"/>turae, respectu quorumcumque beneficiorum a Deo
+      col<lb ed="#G" n="95" break="no"/>latorum. Alio modo specialiter respectu hominum in 
+      <lb ed="#G" n="96"/>aeternam beatitudinem dirigendorum. Primo modo
+      de<lb ed="#G" n="97" break="no"/>scribit beatus August. praedestinationem in libro de Fid 
+      <lb ed="#G" n="98"/>ad Petrum sic dicens: Praedestinatio est gratuitae donatio 
+      <lb ed="#G" n="99"/>nis praeparatio, Secundo modo ait idem <ref xml:id="HuYgTa-e85653-Rd1e287">August. in lib de 
+        <lb ed="#G" n="100"/>praedestinatione sanctorum</ref>, Praedestinatio est destinatio 
+      <lb ed="#G" n="101"/>alicuius in finem. vel sic. Praedestinatio est praeparatio 
+      <lb ed="#G" n="102"/>gratiae in praesenti, &amp; gloriae in futuro. Sunt etiam multa 
+      <lb ed="#G" n="103"/>aliae descriptiones praedestinationis datae per apostolos,  
+      <lb ed="#G" n="104"/>&amp; alios diuersos doctores, quas ad praesens gratia
+      breui<lb ed="#G" n="105" break="no"/>tatis omitto. 
+    </p>
+            <p xml:id="HuYgTa-e85653-d1e305">
+               <lb ed="#G" n="106"/>
+               <pc type="indent"/>est etiam aduertendum, quod destinare duo videtur 
+      <lb ed="#G" n="107"/>significare: nam destinare idem est, quod proponere,
+      iu<lb ed="#G" n="108" break="no"/>xta. quod ait apostolus. Vnusquisque prout destinauit in 
+      <lb ed="#G" n="109"/>corde suo &amp;c. Et. <ref xml:id="HuYgTa-e85653-Rd1e318">2. Mach.</ref> dicitur, Eleaxarus destinauit non 
+      <lb ed="#G" n="110"/>dinittere illicita, Secundo destinare idem est, quod mit 
+      <lb ed="#G" n="111"/>tere, luxta quod dicitur littera destinata, id est missa, &amp; 
+      <lb ed="#G" n="112"/>vtroque modo satis est ad propositum: nam iuxta primum 
+      <lb ed="#G" n="113"/>modum Deus dicitur ab aeterno ipsos electos
+      predesti<lb ed="#G" n="114" break="no"/>nare: quia ab aeterno respectu eorum habuit
+      proposi<lb ed="#G" n="115" break="no"/>tum miserendi, Et secundo modo Deus dicitur electo; 
+      <!--264.xml-->
+      <pb ed="#G" n="113-r"/>
+               <cb ed="#G" n="a"/>
+               <lb ed="#G" n="1"/>Proprie predestinare eo, quod videtur eos mittere, &amp; diri 
+      <lb ed="#G" n="2"/>gere per hoc medium, quod est gratia in hunc finem, qui 
+      <lb ed="#G" n="3"/>est beatitudo &amp; gloria. Et per hoc etiam patet differentia 
+      <lb ed="#G" n="4"/>inter prescientiam damnatorum, &amp; praedistinationem ele 
+      <lb ed="#G" n="5"/>ctorum: nam praescientia dicit simplicem Dei notitiam,. 
+      <lb ed="#G" n="6"/>nuam habet de damnandis, &amp; si cum notitia aliquo
+      mo<lb ed="#G" n="7" break="no"/>do implicat diuinum propositum, hoc non est secundum 
+      <lb ed="#G" n="8"/>quod Deus proponit agere, sed potius secundum quod 
+      <lb ed="#G" n="9"/>Deus proponit ab actu eessare: Sed praedestinatio non 
+      <lb ed="#G" n="10"/>dicit simplicem notitiam: quia implicat, siue includit di 
+      <lb ed="#G" n="11"/>uinum propositum cum sui efficacia ad miserendum &amp; 
+      <lb ed="#G" n="12"/>glorificandum: Et ideo licet mali non damnentur ex hoc 
+      <lb ed="#G" n="13"/>quod Deus eos impellat in culpam, seu ad culpam, tamen 
+      <lb ed="#G" n="14"/>nulli boni saluantur, nisi Deus mediante sua gratia eos di 
+      <lb ed="#G" n="15"/>tigat, &amp; mittat, seu impellat ad gloriam. 
+    </p>
+            <p xml:id="HuYgTa-e85653-d1e374">
+               <lb ed="#G" n="16"/>
+               <pc type="indent"/>ARTICVLVS IL 
+      <lb ed="#G" n="17"/>Vtrum predestinatus possit damnari.
+    </p>
+            <p xml:id="HuYgTa-e85653-d1e383">
+               <lb ed="#G" n="18"/>QVANTVM ad tertium articulum, vtrum
+      praede<lb ed="#G" n="19" break="no"/>stinatus possit damnari, primo dicam quod mib 
+      <lb ed="#G" n="20"/>videtur esse tenendum. Secundo inducam aliquas
+      diffi<lb ed="#G" n="21" break="no"/>cultates in contrarium. Circa primum ponam duas
+      con<lb ed="#G" n="22" break="no"/>clusiones 
+    </p>
+            <p xml:id="HuYgTa-e85653-d1e396">
+               <lb ed="#G" n="23"/>
+               <pc type="indent"/>Prima est, quod praedestinatus quantum est de se, dam 
+      <lb ed="#G" n="24"/>nari potest. Quia omnis qui potest committere culpam, 
+      <lb ed="#G" n="25"/>ille potest incidere poenam huiusmodi culpae debitam, &amp; 
+      <lb ed="#G" n="26"/>pro huiusmodi culpa paratam, &amp; ordinatam a iusto iudi 
+      <lb ed="#G" n="27"/>ce: sed praedestinatus antequam consequatur effectu
+      prae<lb ed="#G" n="28" break="no"/>destinationis, puta dum est in via, potest committere
+      hu<lb ed="#G" n="29" break="no"/>iusmodi culpam, ergo &amp;c. Maior patet de se. Minorem
+      pro<lb ed="#G" n="30" break="no"/>bo: quia homo per liberum arbitrium nondum in gratia 
+      <lb ed="#G" n="31"/>confirmatum potest peccare mortaliter, mortali autem 
+      <lb ed="#G" n="32"/>peccato est aeterna damnatio debita, &amp; ab ipso Deo
+      ordi<lb ed="#G" n="33" break="no"/>nata, seu praeparata, vt patet in multis locis sacrae scriptu 
+      <lb ed="#G" n="34"/>rae, ergo &amp;cetera. 
+    </p>
+            <p xml:id="HuYgTa-e85653-d1e427">
+               <lb ed="#G" n="35"/>
+               <pc type="indent"/>Secunda conclusio est, quod quamuis praedestinatus 
+      <lb ed="#G" n="36"/>modo praedicto possit damnari, tamen de facto numquam  
+      <lb ed="#G" n="37"/>lamnabitur: quia oppositum diuini propositi finaliter non 
+      <lb ed="#G" n="38"/>continget, sed propositum Dei est, vt praedestinatus finali 
+      <lb ed="#G" n="39"/>ter saluetur, ergo praedestinatus finaliter non damnabitur 
+      <lb ed="#G" n="40"/>Maior patet: quia diuinum propositum est immutabile, 
+      <lb ed="#G" n="41"/>eo quod immobilis sit Deus per se, &amp; per accidens &amp; ab  
+      <lb ed="#G" n="42"/>intra, vt patet <ref xml:id="HuYgTa-e85653-Rd1e448">12. metaph.</ref> &amp; apud Deum non est transmu 
+      <lb ed="#G" n="43"/>tatio, nec vicissitudinis obumbratio. Minor etiam patet ex 
+      <lb ed="#G" n="44"/>praecedentibus 
+    </p>
+            <p xml:id="HuYgTa-e85653-d1e457">
+               <lb ed="#G" n="45"/>Forte dicetur, quod illa simul stare est impossibile:
+      qui<lb ed="#G" n="46" break="no"/>contradictoria eidem simul conuenire non possunt, sed  
+      <lb ed="#G" n="47"/>necessarium &amp; non necessarium sunt contradictoria: Et 
+      <lb ed="#G" n="48"/>secundum primam conclusionem praedestinatus non
+      sal<lb ed="#G" n="49" break="no"/>uabitur necessario: quia quod potest non saluari, hoc non 
+      <lb ed="#G" n="50"/>saluatur necessario, &amp; iuxta secundam conclusionem prae 
+      <lb ed="#G" n="51"/>destinatus necessario saluatur: quia quod non potest dam 
+      <lb ed="#G" n="52"/>nari necessario saluabitur.
+    </p>
+            <p xml:id="HuYgTa-e85653-d1e478">
+               <lb ed="#G" n="53"/>Contra primam conclusionem potest argui sic.  
+      <lb ed="#G" n="54"/>1 Deus ab aeter no sciuit Petrum esse saluandum, ergoPe 
+      <lb ed="#G" n="55"/>trus de necessitate saluabitur. Antecedens patet, prob atio 
+      <lb ed="#G" n="56"/>consequentiae: quia autem Petrus potest non saluari, aut non 
+      <lb ed="#G" n="57"/>potest non saluari. Si datur primum, tunc scientia Dei fui 
+      <lb ed="#G" n="58"/>incerta, &amp; mutabilis, &amp; fallibilis. Si datur secundum, tunc 
+      <lb ed="#G" n="59"/>habetur propositum: quia non possibile non esse aequipol 
+      <lb ed="#G" n="60"/>let ei, quod est necesse esse, vt patet <ref xml:id="HuYgTa-e85653-Rd1e497">2: perihermenias</ref>.
+    </p>
+            <p xml:id="HuYgTa-e85653-d1e501">
+               <lb ed="#G" n="61"/>2 Praeterea, causa necessaria, &amp; non mutabilis arguit 
+      <lb ed="#G" n="62"/>effectum necessarium &amp; immutabilem; sed siue scientia 
+      <lb ed="#G" n="63"/>Dei, siue voluntas Dei sit causa salutis ipsius praedestinati, 
+      <lb ed="#G" n="64"/>patet quod huiusmodi causa non est mutabilis, ergo &amp;c 
+      <lb ed="#G" n="65"/>Maior patet propter analogiam, quae est inter causam &amp; 
+      <lb ed="#G" n="66"/>effectum: quia vt dicitur <ref xml:id="HuYgTa-e85653-Rd1e516">2. physicorum</ref>, si causa est vniuer 
+      <lb ed="#G" n="67"/>salis, &amp; effectus est vniuersalis, &amp; si causa est particularis 
+      <lb ed="#G" n="68"/>&amp; effectus est particularis, &amp; si causa in fieri, effectus in fi 
+      <lb ed="#G" n="69"/>ri, &amp; si causa in facto esse, &amp; effectus in facto esse, &amp; per con 
+      <lb ed="#G" n="70"/>sequens si causa est necessaria, effectus est necessarius 
+      <lb ed="#G" n="71"/>Minor etiam patet: quia nec scientia Dei mutabilis es 
+      <!--264.xml-->
+      <cb ed="#G" n="b"/>
+               <lb ed="#G" n="72"/>se potest, nec voluntas. 
+    </p>
+            <p xml:id="HuYgTa-e85653-d1e537">
+               <lb ed="#G" n="73"/>3 Praetere a, sicut patet per regulam philosophi in re 
+      <lb ed="#G" n="74"/>priorum. Maiori propositone existente de necessirio, &amp; 
+      <lb ed="#G" n="75"/>mimori de inesse, tunc sequitur conelusio de necessario; 
+      <lb ed="#G" n="76"/>sed omne a Deo praescitum necesse est futurum esse, pra 
+      <lb ed="#G" n="77"/>destinatum autem saluari est praescitum a Deo, ergo
+      ne<lb ed="#G" n="78" break="no"/>cesse est eum saluari. 
+    </p>
+            <p xml:id="HuYgTa-e85653-d1e553">
+               <lb ed="#G" n="79"/>
+               <pc type="indent"/>Praeterea, priusquam Petrus esset beatus, illa propo 
+      <lb ed="#G" n="80"/>sitio fuit vera. Petrus predestinatus saluabitur, ergo neces 
+      <lb ed="#G" n="81"/>se fuit Detrum saluari. Antecedens patet. Probatur
+      con<lb ed="#G" n="82" break="no"/>sequentia: quia impossibile est significatum verae proposi. 
+      <lb ed="#G" n="83"/>tionis non poni; dato enim, quod non ponatur, tunc vera pro 
+      <lb ed="#G" n="84"/>osito esset falsa, quod est impossibile, &amp; contradictionem 
+      <lb ed="#G" n="85"/>implicans. Tenet etiam illa consequentia per regulam li 
+      <lb ed="#G" n="86"/>bri priorum: quia ad oppositum consequentis sequitur op 
+      <lb ed="#G" n="87"/>positum antecedentis
+    </p>
+            <p xml:id="HuYgTa-e85653-d1e577">
+               <lb ed="#G" n="88"/>3 Preterea causa efficax, quae impediri non potest,
+      im<lb ed="#G" n="89" break="no"/>mutabiliter inducit suum effectum, sed predestinatio est 
+      <lb ed="#G" n="90"/>causa efficax, quae impediri non pote. stMaior patet.
+      Pro<lb ed="#G" n="91" break="no"/>bo minorem. Quia secundum August. praedestinatio est 
+      <lb ed="#G" n="92"/>propositum diuinae voluntatis, sed diuina voluntas est 
+      <lb ed="#G" n="93"/>omnipotens
+    </p>
+            <p xml:id="HuYgTa-e85653-d1e593">
+               <lb ed="#G" n="94"/>4 Praeterea, si praedestinatus posset damnari, tunc non 
+      <lb ed="#G" n="95"/>esset certus numerus praedestinatorum, seu electorum;
+      e<lb ed="#G" n="96" break="no"/>ius oppositum asserit D. Aug in quadam oratione, dicens 
+      <lb ed="#G" n="97"/>Soli Deo cognitus est numerus in superna felicitate
+      col<lb ed="#G" n="98" break="no"/>locandus; Et in libro de correctione &amp; gratia ait, Certus 
+      <lb ed="#G" n="99"/>est numerus electorum. 
+    </p>
+            <p xml:id="HuYgTa-e85653-d1e610">
+               <lb ed="#G" n="100"/>3 Praeterea, <ref xml:id="HuYgTa-e85653-Rd1e614">Boe. 5. de conso.</ref> dicit. Si aliter, quam pra 
+      <lb ed="#G" n="101"/>uisae sunt res, preuisae fieri possunt, iam non erit firma Dei 
+      <lb ed="#G" n="102"/>raescientia: sed planum est, quod praescientia Dei est
+      im<lb ed="#G" n="103" break="no"/>mutabilis &amp; forma, ergo &amp;c. 
+    </p>
+            <p xml:id="HuYgTa-e85653-d1e624">
+               <lb ed="#G" n="104"/>
+               <pc type="indent"/>3 Praeterea, <ref xml:id="HuYgTa-e85653-Rd1e630">Ansel. in libro de concordia praedestina 
+        <lb ed="#G" n="105"/>tionis &amp; gratiae</ref> ait. Ea, quae praescit Deus, necesse est esse  
+      <lb ed="#G" n="106"/>ventura. 
+    </p>
+            <p xml:id="HuYgTa-e85653-d1e638">
+               <lb ed="#G" n="107"/>
+               <pc type="indent"/>Propter huiusmodi ratio nes visum est aliquibus
+      anti<lb ed="#G" n="108" break="no"/>quis, quod immutabilitas diuinae praescientiae nequaquam 
+      <lb ed="#G" n="109"/>saluari possit, stante huiusmodi mutabilitate futurae con- 
+      <lb ed="#G" n="110"/>tingentiae. Et ideo sicut recitat <ref xml:id="HuYgTa-e85653-Rd1e651">beatus Aug. 8. de ciuitate</ref>
+               <lb ed="#G" n="111"/>Dei duae fuerunt opiniones oppositae. 
+    </p>
+            <p xml:id="HuYgTa-e85653-d1e657">
+               <lb ed="#G" n="112"/>
+               <pc type="indent"/>Vna Ciceronis, qui vt saluaret futurorum
+      contingen<lb ed="#G" n="113" break="no"/>tiam, dixit Deum respectu futurorum contingentium
+      nul<lb ed="#G" n="114" break="no"/>lam habere scientiam.  
+    </p>
+            <p xml:id="HuYgTa-e85653-d1e668">
+               <lb ed="#G" n="115"/>Alia fuit opinio Stoicorum econuerso, qui vt saluaret 
+      <lb ed="#G" n="116"/>diuinam praescientiam, negauerunt omnem ad
+      vtrumli<lb ed="#G" n="117" break="no"/>bet contingentiam, dicentes omnia sub fato fieri ex
+      ne<lb ed="#G" n="118" break="no"/>cessitate. 
+    </p>
+            <p xml:id="HuYgTa-e85653-d1e679">
+               <lb ed="#G" n="119"/>Motiua primae opinionis poterant esse illa  
+      <lb ed="#G" n="120"/>1 De non ente non est scientia, vt patet <ref xml:id="HuYgTa-e85653-Rd1e685">1. posteriorum</ref>; 
+      <lb ed="#G" n="121"/>sed futurum contingens non est ens; Omne enim, quod 
+      <lb ed="#G" n="122"/>est ens tale, de quo potest esse scientia, vel est determina 
+      <lb ed="#G" n="123"/>tum in se, vel in suis causis: sed contingens non est
+      ali<lb ed="#G" n="124" break="no"/>quid in se; quia quod futurum est, nondum est, nec in suis 
+      <lb ed="#G" n="125"/>principiis, seu causis; quia huiusmodi principia sunt ad 
+      <lb ed="#G" n="126"/>vtrumlibet, &amp; non magis determinata ad principiandum 
+      <lb ed="#G" n="127"/>huiusmodi futura, quam ad non principiandum.  
+    </p>
+            <p xml:id="HuYgTa-e85653-d1e705">
+               <lb ed="#G" n="128"/>
+               <pc type="indent"/>2 Praeterea, quod nullam habet veritatem, de illo non 
+      <lb ed="#G" n="129"/>potest esse scientia, futurum contingens nullam habet ve 
+      <lb ed="#G" n="130"/>ritatem. Maior patet. Minorem probo; quia vt dicitur
+      2<lb ed="#G" n="131" break="no"/>metaph vnumquodque sicut se habet entitate, sic se
+      ha<lb ed="#G" n="132" break="no"/>bet ad veritatem: sed sicut iam patuit, futurum ontinges 
+      <lb ed="#G" n="133"/>nullam habet entitatem, ergo, &amp;c.
+    </p>
+            <p xml:id="HuYgTa-e85653-d1e723">
+               <lb ed="#G" n="134"/>2 Praeterea, scientia est impossibilium aliter se
+      habe<lb ed="#G" n="135" break="no"/>re, vt dicitur <ref xml:id="HuYgTa-e85653-Rd1e729">1. Posteriorum</ref> &amp; <ref xml:id="HuYgTa-e85653-Rd1e732">o. ethicorum</ref>: sed omne 
+      <lb ed="#G" n="136"/>contingens, cum non sit necessarium, potest aliter se ha 
+      <lb ed="#G" n="137"/>pere, alias enim non esset contingens 
+    </p>
+            <p xml:id="HuYgTa-e85653-d1e741">
+               <lb ed="#G" n="138"/>
+               <pc type="indent"/>4 Praeterea, screntia est habitus determinate verum 
+      <lb ed="#G" n="139"/>dicens, vt dicitur <ref xml:id="HuYgTa-e85653-Rd1e749">S ethicorum</ref>, sed futurorum contingen 
+      <lb ed="#G" n="140"/>tium non est determinata veritas, vt dicitur. <ref xml:id="HuYgTa-e85653-Rd1e755">1.
+      peri<lb ed="#G" n="141" break="no"/>hermenias</ref>. 
+    </p>
+            <p xml:id="HuYgTa-e85653-d1e761">
+               <lb ed="#G" n="142"/>
+               <pc type="indent"/>3 Praeterea, si futurum contingens esset praescitum, tunmc 
+      <lb ed="#G" n="143"/>eriret omne consilium &amp; negotiatio: quia de eo, quod 
+      <lb ed="#G" n="144"/>est impossibile aliter se habere, non oportet negotiari, 
+      <!--265.xml-->
+      <pb ed="#G" n="113-v"/>
+               <cb ed="#G" n="a"/>
+               <lb ed="#G" n="1"/>sen consiliari, vt patet <ref xml:id="HuYgTa-e85653-Rd1e780">1. perihermenias</ref>: sed quod a Det 
+      <lb ed="#G" n="2"/>praescitum est ens futurum, hoc non potest aliter se habe 
+      <lb ed="#G" n="3"/>re, seu non potest non euenire, ergo &amp;c.
+    </p>
+            <p xml:id="HuYgTa-e85653-d1e788">
+               <lb ed="#G" n="4"/>e Preterea t. ethicorum dicitur, quod disciplinati
+      homi<lb ed="#G" n="5" break="no"/>nis est tantum certitudinis inquirere in vnoquoque, quam 
+      <lb ed="#G" n="6"/>tum natura rei patitur in se certitudinis; sed natura
+      fu<lb ed="#G" n="7" break="no"/>turorum contingentium non habet in se aliquam certitu 
+      <lb ed="#G" n="8"/>dinem, cum sint totaliter indeterminata, ergo &amp;c. 
+    </p>
+            <p xml:id="HuYgTa-e85653-d1e801">
+               <lb ed="#G" n="9"/>
+               <pc type="indent"/>Opinionis Stoicorum motiua poterant esse
+      illa<lb ed="#G" n="10" break="no"/>Non est maior immutabilitas scientiae, quam scibilis 
+      <lb ed="#G" n="11"/>seu quam eius, quod scitur per scientiam, sed scientia, qu 
+      <lb ed="#G" n="12"/>Deus cognoscit omnia est penitus immutabilis, ergo nu 
+      <lb ed="#G" n="13"/>la res a Deo scita potest contingenter, seu mutabiliter e 
+      <lb ed="#G" n="14"/>uenire. Maior patet <ref xml:id="HuYgTa-e85653-Rd1e818">7. meta.</ref> vbi dicitur, quod de singularibus 
+      <lb ed="#G" n="15"/>non est scientia, nec de generalibus &amp; corruptibilibus po 
+      <lb ed="#G" n="16"/>test esse scientia, eo quod mutabilia sunt: scientia auten 
+      <lb ed="#G" n="17"/>immobilis habitus est; Minor etiam patet: quia cum
+      scie<lb ed="#G" n="18" break="no"/>tia Dei sit idem, quod Deus, si huiusmodi esset mutabili 
+      <lb ed="#G" n="19"/>tunc Deus mutaretur, quod est impossibile¬ 
+    </p>
+            <p xml:id="HuYgTa-e85653-d1e834">
+               <lb ed="#G" n="20"/>
+               <pc type="indent"/>2 Praeterea, omnis scientia, quae potest restringi ad plu 
+      <lb ed="#G" n="21"/>ra, vel ad pauciora, est uariabilis: sed si aliqua futura non 
+      <lb ed="#G" n="22"/>enenirent de necessitate, tunc scientia Dei posset restrit 
+      <lb ed="#G" n="23"/>gi ad plura, vel pauciora. Maior patet. Probatur minor 
+      <lb ed="#G" n="24"/>quia si talia non euenirent de necessitate, tunc aliqua 
+      <lb ed="#G" n="25"/>quae non eueniunt, possent euenire, &amp; sic Deus posset sc 
+      <lb ed="#G" n="26"/>re ea, quae non scit, &amp; aliqua, quae eueniunt, possent non 
+      <lb ed="#G" n="27"/>euenire, &amp; sic Deus posset non scire ea, quae scit, &amp; per co 
+      <lb ed="#G" n="28"/>sequens scientia Dei mutaretur: quia cui potest inessi 
+      <lb ed="#G" n="29"/>quod non inest, &amp; potest non inesse, quod inest, hoc nece 
+      <lb ed="#G" n="30"/>sario videtur mutabile.
+    </p>
+            <p xml:id="HuYgTa-e85653-d1e863">
+               <lb ed="#G" n="31"/>3 Praeterea, in nulla consequentia necessaria anteceden 
+      <lb ed="#G" n="32"/>te existente immutabili, consequens potest esse mutabi 
+      <lb ed="#G" n="33"/>le: sed posito, quod Deus sciat Sortem cras esse cursurum 
+      <lb ed="#G" n="34"/>tunc illa consequentia est necessatia, Deus scit Sortem cras 
+      <lb ed="#G" n="35"/>cursurum, ergo Sortes cras curret. Et antecedens est no 
+      <lb ed="#G" n="36"/>cessarium, quia cum scientia Dei naturaliter sibi
+      compe<lb ed="#G" n="37" break="no"/>tat, Deus non potest non scire, quod scit, ergo Sortes ne 
+      <lb ed="#G" n="38"/>cessario cras curret. Et eodem modo potest concludi, di 
+      <lb ed="#G" n="39"/>quolibet alio futuro, quod tu ponis esse contingens, &amp; fic 
+      <lb ed="#G" n="40"/>patet, quod secundum has duas extremas opiniones incidit 
+      <lb ed="#G" n="41"/>in <name xml:id="HuYgTa-e85653-Nd1e889">Scyslam</name> cupiens vitare <name xml:id="HuYgTa-e85653-Nd1e892">Carvbdim</name>. 
+    </p>
+            <p xml:id="HuYgTa-e85653-d1e896">
+               <lb ed="#G" n="42"/>Nos igitur in hoc mari magno, &amp; spatioso, in quo sunt 
+      <lb ed="#G" n="43"/>reptilia, id est dubia, quorum non est numerus, utrumqui 
+      <lb ed="#G" n="44"/>illorum periculorum vitantes, sic affirmare debemus
+      re<lb ed="#G" n="45" break="no"/>spectu omnium futurorum Dei prescientiam, vt ex hoc 
+      <lb ed="#G" n="46"/>aliquorum futnrorum non negemus ad vtrumlibet
+      con<lb ed="#G" n="47" break="no"/>tingentiam 
+    </p>
+            <p xml:id="HuYgTa-e85653-d1e912">
+               <lb ed="#G" n="48"/>
+               <pc type="indent"/>Ad cuius intellectum est aduertendum, quod multum 
+      <lb ed="#G" n="49"/>test dissimile de Dei cognitione &amp; humana: nam hactus 
+      <lb ed="#G" n="50"/>humanae cognitionis non sunt omnes simul : vnus enim 
+      <lb ed="#G" n="51"/>succedit alteri: nam cum nostrum intelligere sit cum con 
+      <lb ed="#G" n="52"/>tinuo &amp; tempore, vt patet <ref xml:id="HuYgTa-e85653-Rd1e927">3. de anima</ref>, ergo sicut in
+      tem<lb ed="#G" n="53" break="no"/>pore est suceessio suturi, praesentis &amp; praeteriti, sic in com 
+      <lb ed="#G" n="54"/>gnitione humana expectatio futurorum, apprehensio pra 
+      <lb ed="#G" n="55"/>sentium, &amp; memoria praeteritorum. E contra diuina
+      com<lb ed="#G" n="56" break="no"/>gnitio est super omne tempus, &amp; simplicissima mensura 
+      <lb ed="#G" n="57"/>tur aeternitate, &amp; per consequens non est suceessiua, sed  
+      <lb ed="#G" n="58"/>simpliciter simul tota: eo quod sua propria mensura, puti 
+      <lb ed="#G" n="59"/>aeternitas sit interminabilis vitae tota simul, &amp; perfect. 
+      <lb ed="#G" n="60"/>possessio, sicut ait <name xml:id="HuYgTa-e85653-Nd1e947" ref="#Boethius">Boethius</name> s. de consolatione Propter, 
+      <lb ed="#G" n="61"/>nostra cognitio de futuro contingenti numquam poteli 
+      <lb ed="#G" n="62"/>esse certa, antequam illud, quod fuit futurum praesential 
+      <lb ed="#G" n="63"/>ter, in esse ponatur secundum actualem suam existentiam 
+      <lb ed="#G" n="64"/>Tale namque futurum non potest certificare nostram co 
+      <lb ed="#G" n="65"/>gnitionem per seipsum, eo quod nondum sit, nec per sua 
+      <lb ed="#G" n="66"/>causas proximas, eo quod ad vtrumlibet indeterminat 
+      <lb ed="#G" n="67"/>sit: tamen ipsa notitia diuina de huiusmodi re futura infal 
+      <lb ed="#G" n="68"/>libilis esse potest. nam eo ipso, quod actus diuinae cognitio 
+      <lb ed="#G" n="69"/>nis est vnus simplicissimus &amp; simul totus, aeque clare com 
+      <lb ed="#G" n="70"/>gnoscit Deus huiusmodi futurum, sicut praesens &amp; prete 
+      <lb ed="#G" n="71"/>ritum: nam omnia futura &amp; similiter preterita in ipsa 
+      <lb ed="#G" n="72"/>ternitate, quae est diuinae cognitionis mensura, simul tot 
+      <lb ed="#G" n="73"/>stabiliter, &amp; sine vicissitudine, seu suceessione aequaliter 
+      <!--265.xml-->
+      <cb ed="#G" n="b"/>
+               <lb ed="#G" n="74"/>comprehenduntur. Etiam haec omnia in speculo claris 
+      <lb ed="#G" n="75"/>simo sanctae trinitatis aequaliter repraesentantur, non solum 
+      <lb ed="#G" n="76"/>quantum ad suas quidditates &amp; essentias, verumetiam  
+      <lb ed="#G" n="77"/>quantum ad suas proprias &amp; indiuiduas, seu actuales
+      exi<lb ed="#G" n="78" break="no"/>stentias. igitur aeque infallibiliter cognoscit Deus ea, que 
+      <lb ed="#G" n="79"/>futura sunt, sicut cognoscit praesentia, vel preterita. Et
+      il<lb ed="#G" n="80" break="no"/>lud potest sensibili exemplo aliqualiter declarari. Dato 
+      <lb ed="#G" n="81"/>enim, quod aliquis homo in tribus distinctis temporibus 
+      <lb ed="#G" n="82"/>videret tria animalia aliquem certum passum transire 
+      <lb ed="#G" n="83"/>tunc in quolibet distincto tempore videret
+      presentiali<lb ed="#G" n="84" break="no"/>ter vnum illorum animalium transire, quia tamen
+      visio<lb ed="#G" n="85" break="no"/>nes illius hominis distinctis mensurarentur temporibus 
+      <lb ed="#G" n="86"/>ideo transitus omnium trium animalium simul
+      presen<lb ed="#G" n="87" break="no"/>tialiter non videret: sed, si visio illius hominis esset vna 
+      <lb ed="#G" n="88"/>simplex, &amp; fimul tota omne tempus transcendens, tunc 
+      <lb ed="#G" n="89"/>simul omnes illos transitus praesentialiter videret, quam 
+      <lb ed="#G" n="90"/>uis illi transitus non essent simul¬ 
+    </p>
+            <p xml:id="HuYgTa-e85653-d1e1020">
+               <lb ed="#G" n="91"/>
+               <pc type="indent"/>Sic quia visio Dei est vnica simplex, simul tota omne 
+      <lb ed="#G" n="92"/>tempus simpliciter transcendens; ideo omnia in
+      qui<lb ed="#G" n="93" break="no"/>buscunque temporibus contingentia praesentialiter 
+      <lb ed="#G" n="94"/>videt. 
+    </p>
+            <p xml:id="HuYgTa-e85653-d1e1033">
+               <lb ed="#G" n="95"/>
+               <pc type="indent"/>Et ex his bene intellectis patet falsitas opinionis Cice 
+      <lb ed="#G" n="96"/>ronis. 
+    </p>
+            <p xml:id="HuYgTa-e85653-d1e1043">
+               <lb ed="#G" n="97"/>
+               <pc type="indent"/>Restat secundum videre quomodo hac infallibili Dei 
+      <lb ed="#G" n="98"/>notitia non tollitur, sed magis confirmatur contingentium 
+      <lb ed="#G" n="99"/>futurorum mutabilitas, &amp; contingentia: &amp; hoc potest sic 
+      <lb ed="#G" n="100"/>probari. Quia Deus in sua aeterna notitia sic omnia
+      pro<lb ed="#G" n="101" break="no"/>uidit esse futura, sicut eueniunt: sed vt ad sensum patet 
+      <lb ed="#G" n="102"/>quaedam entia procedunt immediate ex causis determi 
+      <lb ed="#G" n="103"/>natis &amp; necessariis secundum cursum commuuem: alia 
+      <lb ed="#G" n="104"/>autem procedunt immediate ex causis indeterminatis &amp;  
+      <lb ed="#G" n="105"/>immutabilibus, ergo Deus praesciuit ab eterno illa eueni 
+      <lb ed="#G" n="106"/>re necessario, haec autem contingenter. Ex infallibilitati 
+      <lb ed="#G" n="107"/>igitur diuinae notitiae non habent Stoici negare rerum
+      a<lb ed="#G" n="108" break="no"/>liquarum ad vtrumlibet contingentiam: sed magis
+      habe<lb ed="#G" n="109" break="no"/>bant concludere, quod infallibiliter entia contingentia 
+      <lb ed="#G" n="110"/>eueniunt contingenter. 
+    </p>
+            <p xml:id="HuYgTa-e85653-d1e1078">
+               <lb ed="#G" n="111"/>
+               <pc type="indent"/>His prehabitis ad solutiones argumentorum
+      proceda<lb ed="#G" n="112" break="no"/>mus, dicendum, &amp; primo ad instantiam datam contra am 
+      <lb ed="#G" n="113"/>bas conclusiones simul dico, quod quamuis posse damn 
+      <lb ed="#G" n="114"/>ri &amp; non posse damnari sibi mutuo contradicant, si sum; 
+      <lb ed="#G" n="115"/>tur respectu eiusdem &amp; secundum idem, tamen hominem 
+      <lb ed="#G" n="116"/>ex sua propria fragilitate posse damnari, quod ponitur pri 
+      <lb ed="#G" n="117"/>ma conclusione, &amp; ex Dei proposito &amp; voluntate ac boni 
+      <lb ed="#G" n="118"/>tate de facto non damnari, quod ponitur in secunda
+      con<lb ed="#G" n="119" break="no"/>clusione, illa non contradicunt
+    </p>
+            <p xml:id="HuYgTa-e85653-d1e1102">
+               <lb ed="#G" n="120"/>Ad primum contra primam conclusionem adductun 
+      <lb ed="#G" n="121"/>cum infertur, ergo Petrus de necessitate saluabitur. Dis 
+      <lb ed="#G" n="122"/>stinguo de necessitate: quia vel intelligitut, quod huius 
+      <lb ed="#G" n="123"/>modi necessitas se teneat ex parte consequentis, vel ex 
+      <lb ed="#G" n="124"/>parte consequentiae. Si primo modo, tunc nego consequen 
+      <lb ed="#G" n="125"/>tiam: quia Petrus saluatur non coacte, sed libere &amp;
+      con<lb ed="#G" n="126" break="no"/>tingenter. Si secundo modo, tunc dontedo consequentiam 
+      <lb ed="#G" n="127"/>quia contingentia consequentis saepius compatitur seci 
+      <lb ed="#G" n="128"/>necessitatem consequentiae, ficut patet, cum dicitur: Si 
+      <lb ed="#G" n="129"/>Sortes currit, Sortes mouetur, hic antecedens &amp;
+      conse<lb ed="#G" n="130" break="no"/>quens sunt contingentia, &amp; cum ipsa consequentia est ni 
+      <lb ed="#G" n="131"/>cessaria, sic in proposito ergo &amp;c.
+    </p>
+            <p xml:id="HuYgTa-e85653-d1e1131">
+               <lb ed="#G" n="132"/>Forte dicetur, quandocunque consequentia est neces 
+      <lb ed="#G" n="133"/>saria, tunc antecedente posito in esse de necessitate, sequ 
+      <lb ed="#G" n="134"/>tur consequens in tantum, quod per nostrum consilium 
+      <lb ed="#G" n="135"/>huiusmodi consequens nec poterit impediri, nec
+      promo<lb ed="#G" n="136" break="no"/>ueri: quia siue velimus, siue nolimus, tale consequens ac 
+      <lb ed="#G" n="137"/>positionem huius antecedentis inenitabiliter sequitur,  
+      <lb ed="#G" n="138"/>Posito enim, quod Sortes currat, siue velis siue nolis,
+      o<lb ed="#G" n="139" break="no"/>portet, quod Sortes moueatur. 
+    </p>
+            <p xml:id="HuYgTa-e85653-d1e1151">
+               <lb ed="#G" n="140"/>
+               <pc type="indent"/>Cum igitur secundum ea, quae dixisti, Deus omne con 
+      <lb ed="#G" n="141"/>tingens futurum ab aeterno cognouit, ergo Petrus siue 
+      <lb ed="#G" n="142"/>velit, siue nolit, de necessitate saluus erit, nec de aliquo 
+      <lb ed="#G" n="143"/>futuro contingente debemus curare, seu consiliari, eo quod 
+      <lb ed="#G" n="144"/>Deus ab aeterno cognouit talia esse ventura 
+    </p>
+            <p xml:id="HuYgTa-e85653-d1e1167">
+               <lb ed="#G" n="145"/>
+               <pc type="indent"/>Respondeo, quod quando consequentia est
+      necessa<lb ed="#G" n="146" break="no"/>ria, &amp; antecedens ponitur in esse: tuc virtute consequentia 
+      <!--266.xml-->
+      <pb ed="#G" n="114-r"/>
+               <cb ed="#G" n="a"/>
+               <lb ed="#G" n="1"/>Inferri potest consequens sub illo modo, quo sequitur ex 
+      <lb ed="#G" n="2"/>illo antecedente; Et quia Deus ab aeterno cognouit
+      futu<lb ed="#G" n="3" break="no"/>ra contingentia ex causis mutabilibus depedere, quae pos 
+      <lb ed="#G" n="4"/>sunt i causando multipliciter impediri; ideo cognouit
+      ta<lb ed="#G" n="5" break="no"/>lia contingenter esse uentura. quo antecedente sic modi 
+      <lb ed="#G" n="6"/>ficato in esse posito, non sequitur, quod consequens absolut i 
+      <lb ed="#G" n="7"/>necessario sit venturum: sed que necessario contingenter sit 
+      <lb ed="#G" n="8"/>futurum : Vnde non plus virtute illius consequentiae
+      po<lb ed="#G" n="9" break="no"/>test inferri, nisi quod Petrus saluabitur eo modo, quo
+      Deu<lb ed="#G" n="10" break="no"/>praeuidit, seu praesciuit eum esse saluadum: sed Deus
+      pre<lb ed="#G" n="11" break="no"/>uidit Petrum sua libera voluntate bene vti gratia sibi
+      col<lb ed="#G" n="12" break="no"/>lata, &amp; suis virtutibus, ac meritorijs actibus vitam
+      aetern<lb ed="#G" n="13" break="no"/>libere promereri, sequitur ergo conclusio, quae est
+      conse<lb ed="#G" n="14" break="no"/>quens ex supradicto antece dete. s. quod Petrus saluabitur libs 
+      <lb ed="#G" n="15"/>re &amp; contingenter, &amp; sic non per it consilium de prudente, 
+      <lb ed="#G" n="16"/>ficut dicit ipse sapiens ; immo quantum possumus
+      labora<lb ed="#G" n="17" break="no"/>re debemus, vt salueiur, &amp; consiliari de futuris contingen 
+      <lb ed="#G" n="18"/>tibus, vt vonsequamur ea, quae nobis sunt proficua, &amp; re- 
+      <lb ed="#G" n="19"/>pellamucea, quae nobis nociua esse videntur. 
+    </p>
+            <p xml:id="HuYgTa-e85653-d1e1225">
+               <lb ed="#G" n="20"/>
+               <pc type="indent"/>Ad secundum dicendum, quod maior non est vera, nisi
+      lo<lb ed="#G" n="21" break="no"/>quendo de causa proxima, &amp; proportionata, dato enim, quo 
+      <lb ed="#G" n="22"/>causa vniuersalis, &amp; principalis sit necessaria, tamen si cau 
+      <lb ed="#G" n="23"/>sa proxima est contingens, effectus non est necessarius, sec 
+      <lb ed="#G" n="24"/>contingens quia magis sequitur effectus leges, &amp;
+      condi<lb ed="#G" n="25" break="no"/>tiones causae proximae, quam remotae, quamuis. nm motus 
+      <lb ed="#G" n="26"/>celi &amp; stellarum sit necessarius, tamen quia arborum pul 
+      <lb ed="#G" n="27"/>lulationem causat mediante virtute pullulatiua, quae est 
+      <lb ed="#G" n="28"/>causa contingens potens impediri in sua causatione, ideo 
+      <lb ed="#G" n="29"/>pullulatio non est effectus necessarius, quia sequitur
+      con<lb ed="#G" n="30" break="no"/>ditionem causae particularis, &amp; proximae, quae potest impo 
+      <lb ed="#G" n="31"/>diri. Similiter quamuis Deus sit purum necesse esse, ta 
+      <lb ed="#G" n="32"/>men, si in lapide causaret albedinem immediate sine om- 
+      <lb ed="#G" n="33"/>ni alia causa efficienter concurrente, talis albedo, seu
+      de<lb ed="#G" n="34" break="no"/>albatio non esset purum necesse esse, sed ens mutabile &amp; 
+      <lb ed="#G" n="35"/>contingens, eo quod Deus respectu nullius creaturae sit 
+      <lb ed="#G" n="36"/>causa proportionata, sed est causa excedens &amp; simpliciter 
+      <lb ed="#G" n="37"/>supereminens 
+    </p>
+            <p xml:id="HuYgTa-e85653-d1e1269">
+               <lb ed="#G" n="38"/>
+               <pc type="indent"/>Ad probationem dicendum, quod philosophus ibi
+      lo<lb ed="#G" n="39" break="no"/>quitur de causa naturali, &amp; proportionata, &amp; non de cau 
+      <lb ed="#G" n="40"/>la supereminenti sicut est in proposito. 
+      <lb ed="#G" n="41"/>Ad tertium dicedum sicut ad primum dictum est quia 
+      <lb ed="#G" n="42"/>omne a Deo praescitum necesse est esse venturum, eo mo 
+      <lb ed="#G" n="43"/>do, quo praescitum est a Deo esse venturum, sed &amp;c 
+    </p>
+            <p xml:id="HuYgTa-e85653-d1e1287">
+               <lb ed="#G" n="44"/>
+               <pc type="indent"/>Ad quartum dicendum, quod propositionem esse veram
+      po<lb ed="#G" n="45" break="no"/>test intelligi dupliciter, Vno modo veritate
+      determina<lb ed="#G" n="46" break="no"/>ta, Alio modo veritate indeterminata. Tunc ad consequen 
+      <lb ed="#G" n="47"/>tiam dico, quod eo modo, quo vera fuit illa proposito,
+      Pe<lb ed="#G" n="48" break="no"/>trus praedestinatus saluabitur, illo modo necesse est Petru 
+      <lb ed="#G" n="49"/>saluari, sed illa proposito, antequam Petrus esset beatus,  
+      <lb ed="#G" n="50"/>erat vera veritate indeterminata: quia de singularibus, &amp;  
+      <lb ed="#G" n="51"/>futuris contingentibus non est determinata veritas, vt di 
+      <lb ed="#G" n="52"/>cit philosophus r, perihermenias, igitur huius consequen 
+      <lb ed="#G" n="53"/>tia non plus sequitur, nisi quod Petrus necessario saluabi 
+      <lb ed="#G" n="54"/>tur contingenter, vt contingentia consequentis correspo 
+      <lb ed="#G" n="55"/>deat indeterminationi ipsius antecedentis, 
+    </p>
+            <p xml:id="HuYgTa-e85653-d1e1318">
+               <lb ed="#G" n="56"/>
+               <pc type="indent"/>Ad primam probationem dico, quod eo modo, quo propo 
+      <lb ed="#G" n="57"/>sitio est vera, illo modo debet poni significatum
+      propo<lb ed="#G" n="58" break="no"/>sitionis, puta si est vera determinate, tunc significatum do 
+      <lb ed="#G" n="59"/>bet poni determinate: si est uera indeterminate, sufficit 
+      <lb ed="#G" n="60"/>poni significatum contingenter, &amp; indeterminate, sicut 
+      <lb ed="#G" n="61"/>est in proposito. 
+    </p>
+            <p xml:id="HuYgTa-e85653-d1e1336">
+               <lb ed="#G" n="62"/>
+               <pc type="indent"/>Ad secundam probationem dicendum, quod ad oppo 
+      <lb ed="#G" n="63"/>situm illius consequentis non sequitur oppositum anteco 
+      <lb ed="#G" n="64"/>dentis: quia oppositum illius consequentis est, Petrus non 
+      <lb ed="#G" n="65"/>saluabitur necessario: llla autem non repugnat
+      antece<lb ed="#G" n="66" break="no"/>denti: quia indeterminata veritas propositonis de futuro 
+      <lb ed="#G" n="67"/>poterit bene stare, dato, quod suum significatum non si 
+      <lb ed="#G" n="68"/>necesse esse. 
+    </p>
+            <p xml:id="HuYgTa-e85653-d1e1356">
+               <lb ed="#G" n="69"/>
+               <pc type="indent"/>Ad quintum dicendum, quod posito, quod illa maior 
+      <lb ed="#G" n="70"/>sit vera, loquendo de causa, quae est causa naturalis effecti 
+      <lb ed="#G" n="71"/>suum ponens in esse mere naturaliter, tamen non est ue 
+      <lb ed="#G" n="72"/>ra,loquendo de causa voluntaria, quae effectum suum
+      li<lb ed="#G" n="73" break="no"/>pere ponit in esse, sicut est in proposito.
+    </p>
+            <p xml:id="HuYgTa-e85653-d1e1373">
+      <!--266.xml-->
+               <cb ed="#G" n="b"/>
+               <lb ed="#G" n="74"/>Ad sextum nego consequentiam: quia quamuis aliqui 
+      <lb ed="#G" n="75"/>effectus sint contingentes ex eo, quod aliquae causae eori 
+      <lb ed="#G" n="76"/>sunt mutabiles, &amp; impedibiles in causando; tamen qui
+      no<lb ed="#G" n="77" break="no"/>ceret omnia, quae possunt impedire, vel promouere
+      hu<lb ed="#G" n="78" break="no"/>iusmodi causas in talium effectuum productione, ille
+      com<lb ed="#G" n="79" break="no"/>gnosceret vltimatum exitum illius contingentiae, &amp; per 
+      <lb ed="#G" n="80"/>consequens sibi infallibiliter esset notus numerus talium 
+      <lb ed="#G" n="81"/>effectuum, non obstante, quod non essent necessarij, sed  
+      <lb ed="#G" n="82"/>simpliciter contingentes, &amp; sic est in proposito. 
+      <lb ed="#G" n="83"/>Forte dicetur, quod illa solutio non est ad propositum: quia 
+      <lb ed="#G" n="84"/>praedestinatio, quae est causa salutis ipsius praedestinati, 
+      <lb ed="#G" n="85"/>non est causa impedibilis, cum ipsa sit propositum Dei om- 
+      <lb ed="#G" n="86"/>nipotentis.
+    </p>
+            <p xml:id="HuYgTa-e85653-d1e1408">
+               <lb ed="#G" n="87"/>Respondeo, quod quauis principalis causa humanae
+      sa<lb ed="#G" n="88" break="no"/>lutis sit diuinum propositum, causa tamen concurrens est 
+      <lb ed="#G" n="89"/>hominis liberum arbitrium, quod est causa contingens S 
+      <lb ed="#G" n="90"/>mpedibilis respectu bonorum operum, quibus vitam ae 
+      <lb ed="#G" n="91"/>ternam debemus promereri: Et quia effectus magis nomi 
+      <lb ed="#G" n="92"/>natur a conditionibus causae proximae, quam a conditioni 
+      <lb ed="#G" n="93"/>pus causae principalis, ideo effectus predestinationis
+      de<lb ed="#G" n="94" break="no"/>bet dici contingens, &amp; non necessarius.
+    </p>
+            <p xml:id="HuYgTa-e85653-d1e1428">
+               <lb ed="#G" n="95"/>Ad septimum patet ex praedictis, non enim aliter
+      eue<lb ed="#G" n="96" break="no"/>niunt res, quam praeuisae sunt: nam necessaria sunt praeuisa 
+      <lb ed="#G" n="97"/>a Deo, vt necessario eueniant: &amp; contingentia, vt
+      contin<lb ed="#G" n="98" break="no"/>genter eueniant. 
+    </p>
+            <p xml:id="HuYgTa-e85653-d1e1439">
+               <lb ed="#G" n="99"/>
+               <pc type="indent"/>Ad octauum dicendum, quod Ansimet dat intellectu 
+      <lb ed="#G" n="100"/>illius dicti dicens, quod verum est necessitate consequen 
+      <lb ed="#G" n="101"/>te, non autem necessitate antecedente, &amp; appellat
+      neces<lb ed="#G" n="102" break="no"/>sitatem antecedentem illam, quae ex natura rei proueniti 
+      <lb ed="#G" n="103"/>quam Noc. 5. de consolatione vocat necessitatem absolus 
+      <lb ed="#G" n="104"/>tam: Necessitatem vero consequentem appellat illam, 
+      <lb ed="#G" n="105"/>quae ex vi sermonis innascitur, quam <name xml:id="HuYgTa-e85653-Nd1e1458" ref="#Boethius">Boethius</name> uocat
+      ne<lb ed="#G" n="106" break="no"/>cessitatem conditionatam, seu conditionalem, &amp; hans 
+      <lb ed="#G" n="107"/>doctores moderni uocant necessitatem consequentiae, &amp;  
+      <lb ed="#G" n="108"/>non consequentis. 
+    </p>
+            <p xml:id="HuYgTa-e85653-d1e1469">
+               <lb ed="#G" n="109"/>
+               <pc type="indent"/>Ad primum inductum pro errore Ciceronis nego mi 
+      <lb ed="#G" n="110"/>norem: quia quamuis nullam habeant entitatem expres 
+      <lb ed="#G" n="111"/>sam &amp; determinatam in se, vel in suis principiijs, seu causis 
+      <lb ed="#G" n="112"/>proximis &amp; mutabilibus, tamen supereminentem habent 
+      <lb ed="#G" n="113"/>entitatem in sua causa exemplari, luxta quod dicitur: Qd 
+      <lb ed="#G" n="114"/>tactum est in ipso vita erat. Et hoc sufficit ad habendam  
+      <lb ed="#G" n="115"/>infallibilem notitiam, seu scientiam futurorum ei, qui
+      adae<lb ed="#G" n="116" break="no"/>quate comprehendit huiusmodi exemplar, scilicet ipsam  
+      <lb ed="#G" n="117"/>diuinam essentiam, quae tamquam clarissimum speculum 
+      <lb ed="#G" n="118"/>intellectur diuino, qui ipsam comprehendit omnimode 
+      <lb ed="#G" n="119"/>&amp; adaequate omnia lucidissime representat
+    </p>
+            <p xml:id="HuYgTa-e85653-d1e1498">
+               <lb ed="#G" n="120"/>Ad secundum nego minorem: quia illo modo ia dicto, 
+      <lb ed="#G" n="121"/>quo futuris contingentibus competit entitas, eodem mo 
+      <lb ed="#G" n="122"/>do competit ipsis veritas summa: quia, vt sic, indistincta sunt 
+      <lb ed="#G" n="123"/>ab aeterna veritate, quae est ipse Deus. 
+    </p>
+            <p xml:id="HuYgTa-e85653-d1e1510">
+               <lb ed="#G" n="124"/>
+               <pc type="indent"/>Ad tertium dicedum, quod maior non est usquequaque 
+      <lb ed="#G" n="125"/>vera: nam de generabilibus, &amp; corruptibilibus est scientio 
+      <lb ed="#G" n="126"/>in libro de generatione, &amp; corruptione, de contingentibus 
+      <lb ed="#G" n="127"/>casualibus, &amp; fortuitis est scientia in <ref xml:id="HuYgTa-e85653-Rd1e1523">2. physicorum</ref>. De 
+      <lb ed="#G" n="128"/>bet ergo intelligi illa necessitas, seu impossibilitas aliter 
+      <lb ed="#G" n="129"/>se habendi non semper quantum ad reui scitam: sed quan 
+      <lb ed="#G" n="130"/>tum ad necessariam &amp; immutabilem rationem, quae cirea 
+      <lb ed="#G" n="131"/>huiusmodi rem poterit formari. Dato etiam, quod maior 
+      <lb ed="#G" n="132"/>esset vera de scientia nostra, quae dependet aliquo modo 
+      <lb ed="#G" n="133"/>ab ipso scibili, tamen non est vera de scientia diuina, qui 
+      <lb ed="#G" n="134"/>nullo modo dependet ab aliqua creatura. Est etiam Dei 
+      <lb ed="#G" n="135"/>scientia de ente maxime necessario considerato obiecto 
+      <lb ed="#G" n="136"/>uo principali, in quo omnia secundaria obiecta presentia 
+      <lb ed="#G" n="137"/>liter Deus intuetur. 
+    </p>
+            <p xml:id="HuYgTa-e85653-d1e1548">
+               <lb ed="#G" n="138"/>
+               <pc type="indent"/>Ad quartum dicendum, quod quamuis de singularibus 
+      <lb ed="#G" n="139"/>&amp; futuris contingentibus non sit determinata veritas apud 
+      <lb ed="#G" n="140"/>intellectum nostrum, qui ex suo modo cognoscendi non  
+      <lb ed="#G" n="141"/>habet de talibus futuris euidentiam certam, donec sit
+      prae<lb ed="#G" n="142" break="no"/>sentia secundum suam propriam actualitatem, tamen
+      ta<lb ed="#G" n="143" break="no"/>lium futurorum potest esse determinata veritas apud
+      in<lb ed="#G" n="144" break="no"/>tellectum Dei, qui aeque euidenter, &amp; clare videt omnia 
+      <lb ed="#G" n="145"/>futura, sicut videt ea, cum actualiter sunt presentia 
+    </p>
+            <p xml:id="HuYgTa-e85653-d1e1570">
+               <lb ed="#G" n="146"/>
+               <pc type="indent"/>Ad quintum dicendum est, situt dictum est ad instam 
+      <!--267.xml-->
+      <pb ed="#G" n="114-v"/>
+               <cb ed="#G" n="a"/>
+               <lb ed="#G" n="1"/>tiam superius inductam contra primam solutionem.
+    </p>
+            <p xml:id="HuYgTa-e85653-d1e1586">
+               <lb ed="#G" n="2"/>Ad sextum patet per ea, quae dicta sunt ad quartum.
+    </p>
+            <p xml:id="HuYgTa-e85653-d1e1591">
+               <lb ed="#G" n="3"/>Ad primum adductum, pro errore Stoicorum
+      dicen<lb ed="#G" n="4" break="no"/>dum, quod licet illa maior sit vera de scientia nostra,
+      cu<lb ed="#G" n="5" break="no"/>ius certitudo dependet a scibili, tamen non est vera 
+      <lb ed="#G" n="6"/>de scientia Dei, quae est penitus independens ab omni 
+      <lb ed="#G" n="7"/>cre atura.
+    </p>
+            <p xml:id="HuYgTa-e85653-d1e1604">
+               <lb ed="#G" n="8"/>Posset etiam dici, posito, quod sit vera de scibili, quo 
+      <lb ed="#G" n="9"/>est obiectum principale illius scientiae, tamen non est
+      ue<lb ed="#G" n="10" break="no"/>ra respectu cuiuslibet obiecti secundarij cogniti in huius 
+      <lb ed="#G" n="11"/>modi scientia, &amp; tunc non plus habetur ex virtute illius 
+      <lb ed="#G" n="12"/>maioris, quam quod scientia Dei non est magis
+      immuta<lb ed="#G" n="13" break="no"/>bilis, quam diuina essentia, quae est suum obiectum
+      prin<lb ed="#G" n="14" break="no"/>cipale; potest tamen esse immutabilior omni creatura, 
+      <lb ed="#G" n="15"/>cum nulla creatura sit obiectum primarium illius, sed
+      ta<lb ed="#G" n="16" break="no"/>tum modo secundarium.
+    </p>
+            <p xml:id="HuYgTa-e85653-d1e1627">
+               <lb ed="#G" n="17"/>Ad secundum nego minorem. Ad probationem dicen 
+      <lb ed="#G" n="18"/>dum, quod diuinae scientiae nihil accrescit ex productione re 
+      <lb ed="#G" n="19"/>rum in esse; sicut enim nunc Deus scit infinita, quae produm 
+      <lb ed="#G" n="20"/>cere posset, si vellet, quorum tamen nullum produceretur. 
+      <lb ed="#G" n="21"/>sic, si nihil eorum, quae sunt, &amp; fuerunt, produxisset, nec 
+      <lb ed="#G" n="22"/>vmquam producturus esset, nihil minus cognosceret 
+      <lb ed="#G" n="23"/>omnia, &amp; singula : quam nunc cognoscat, postquam ea 
+      <lb ed="#G" n="24"/>produxit. 
+    </p>
+            <p xml:id="HuYgTa-e85653-d1e1647">
+               <lb ed="#G" n="25"/>
+               <pc type="indent"/>Ad tertium dicendum, quod, vt patet ex dictis supe 
+      <lb ed="#G" n="26"/>rius, non plus hic concluditur, nisi quod tale futurum ni 
+      <lb ed="#G" n="27"/>potest non contingenter euenire, ex quo Deus ab aeter 
+      <lb ed="#G" n="28"/>no praesciuit ipsum contingenter esse futurum; propter 
+      <lb ed="#G" n="29"/>quod per diuinam praescientiam non tollitur
+      contin<lb ed="#G" n="30" break="no"/>gentia a rebus, sicut intendunt dicere Stoici, sed
+      magi<lb ed="#G" n="31" break="no"/>confirmatur, 
+    </p>
+            <p xml:id="HuYgTa-e85653-d1e1667">
+               <lb ed="#G" n="32"/>
+               <pc type="indent"/>ARTICVLVS III 
+      <lb ed="#G" n="33"/>Vtrum reprobatus possit saluari. 
+    </p>
+            <p xml:id="HuYgTa-e85653-d1e1676">
+               <lb ed="#G" n="34"/>QVANTVM ad quartum articulum, vtrum reproba 
+      <lb ed="#G" n="35"/>tus possit saluari, dico breuiter, quod aliquo modo 
+      <lb ed="#G" n="36"/>est possibile reprobatum non damnari, &amp; per consequens 
+      <lb ed="#G" n="37"/>saluari: quia illud, quod non est simpliciter necesse esse, 
+      <lb ed="#G" n="38"/>hoc possibile est non esse; sed reprobatum damnari non  
+      <lb ed="#G" n="39"/>est simpliciter necesse esse, ergo &amp;c. Maior patet, quia no 
+      <lb ed="#G" n="40"/>necesse esse, &amp; possibile non esse conuertuntur in
+      secun<lb ed="#G" n="41" break="no"/>do ordine modalium, vt patet 2. perihermenias. Minorem 
+      <lb ed="#G" n="42"/>probo, quia si aliquis necessitate absoluta, &amp; ineuitabili 
+      <lb ed="#G" n="43"/>damnaretur, tuc eadem necessitate mortaliter peccaret. 
+      <lb ed="#G" n="44"/>sed consequens est falsum consequentia patet: quia infei 
+      <lb ed="#G" n="45"/>nali poena aeterna nullus damnatur, nisi pro peccato mo 
+      <lb ed="#G" n="46"/>tali, falsitas etiam consequentis est nota: quia si
+      necessita<lb ed="#G" n="47" break="no"/>te ineuitabili aliquis mortaliter peccaret, tunc mortale 
+      <lb ed="#G" n="48"/>peccatum non esset peccatum: nam secundum Deatum 
+      <lb ed="#G" n="49"/>August. in libro enchyridion, peccatum tantum est
+      pec<lb ed="#G" n="50" break="no"/>catum, quantum est voluntarium, &amp; si nullo modo est
+      vo<lb ed="#G" n="51" break="no"/>luntarium, nullo modo est peccatum: Sed vbi est
+      ineuita<lb ed="#G" n="52" break="no"/>ilis necessitas, ibi nihil videtur esse de voluntario, ergo 
+      <lb ed="#G" n="53"/>reprobatus aliquo modo poterit saluari 
+    </p>
+            <p xml:id="HuYgTa-e85653-d1e1722">
+               <lb ed="#G" n="54"/>
+               <pc type="indent"/>Ad argumentum principale dicendum, quod cum
+      prede<lb ed="#G" n="55" break="no"/>stinatio, vel sit ipsum diuinum propositum, vel
+      ne<lb ed="#G" n="56" break="no"/>cessario includat diuinum propositum, quod 
+      <lb ed="#G" n="57"/>simpliciter est immutabile: ideo
+      prede<lb ed="#G" n="58" break="no"/>stinatus ad vitam aeternam de
+      pote<lb ed="#G" n="59" break="no"/>tia Dei ordinata nunquam dam  
+      <lb ed="#G" n="60"/>nabitur vltimate;
+      Appa<lb ed="#G" n="61" break="no"/>ret igitur quod argumen 
+      <lb ed="#G" n="62"/>tum non
+      con<lb ed="#G" n="63" break="no"/>cludit.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>
