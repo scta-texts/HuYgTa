@@ -1,924 +1,920 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Quaestio 1</title>
-            <author ref="#ThomasStrasbourg">Thomas of Strasbourg</author>
-            <respStmt>
-               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
-               <resp>Transcription Editor</resp>
-               <resp>TEI Encoder</resp>
-            </respStmt>
-         </titleStmt>
-         <editionStmt>
-            <edition n="0.0.0-dev">
-               <title>Quaestio 1</title>
-               <date when="2020-11-26">November 26, 2020</date>
-            </edition>
-         </editionStmt>
-         <publicationStmt>
-            <authority>SCTA</authority>
-            <availability status="free">
-               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
-               </p>
-            </availability>
-         </publicationStmt>
-         <sourceDesc>
-            <listWit>
-               <witness xml:id="G" n="cod-TxxxqU">Genoa 1585</witness>
-            </listWit>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
-         <editorialDecl>
-            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
-       guidelines for a diplomatic edition.</p>
-         </editorialDecl>
-      </encodingDesc>
-      <revisionDesc status="draft">
-         <listChange>
-            <change when="2020-11-26" status="draft" n="0.0.0">
-               <p>Created file for the first time.</p>
-            </change>
-         </listChange>
-      </revisionDesc>
-   </teiHeader>
-   <text xml:lang="la">
-      <front>
-         <div xml:id="starts-on">
-            <pb ed="#G" n="208-v"/>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 1</title>
+        <author ref="#ThomasStrasbourg">Thomas of Strasbourg</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 1</title>
+          <date when="2020-11-26">November 26, 2020</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="G" n="cod-TxxxqU">Genoa 1585</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2020-11-26" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#G" n="208-v"/>
+        <cb ed="#G" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="HuYgTa-159627"><!-- HuYgTa-l2d43et44q1 -->
+        <head xml:id="HuYgTa-159627-Hd1e108">Quaestio 1</head>
+        <head xml:id="HuYgTa-159627-Hd1e111" type="question-title">
+          An peccatum aliquod sit simpliciter irremissibile
+        </head>
+        <p xml:id="HuYgTa-159627-d1e114">
+          <lb ed="#G" n="49"/>Quaestio I 
+          <lb ed="#G" n="50"/>An peccatum aliquod sit simpliciter 
+          <lb ed="#G" n="51"/>irremissibile 
+        </p>
+        <p xml:id="HuYgTa-159627-d1e123">
+          <lb ed="#G" n="52"/>VTRVM aliquod peccatum sit simpliciter irremissi 
+          <lb ed="#G" n="53"/>bile.
+        </p>
+        <p xml:id="HuYgTa-159627-d1e130">
+          Et videtur quod sic. Quia pro omni peccato ri 
+          <lb ed="#G" n="54"/>missibili est orandum, vt dimittatur: sed quoddam est pec 
+          <lb ed="#G" n="55"/>catum, pro quo non est orandum, vt dimittatur, iuxta
+          il<lb ed="#G" n="56" break="no"/>lud loan. dicitur, Est peccatum ad mortem, pro quo non 
+          <!--455.xml-->
+          <cb ed="#G" n="b"/>
+          <lb ed="#G" n="57"/>dico, vt oret quis. 
+        </p>
+        <p xml:id="HuYgTa-159627-d1e147">
+          <lb ed="#G" n="58"/>
+          <pc type="indent"/>Contra, illud malum non est simpliciter irremissibile 
+          <lb ed="#G" n="59"/>cuius radix, seu potentia est a Deo: sed potentia peccandi quo 
+          <lb ed="#G" n="60"/>cuque genere peccati est a Deo, vt infra patebit:ergo nullum 
+          <lb ed="#G" n="61"/>peccatum est simpliciter irremissibile. Hic primo videndum 
+          <lb ed="#G" n="62"/>est, vtrum sit aliquod peccatum in spiritum sanctum.
+          Se<lb ed="#G" n="63" break="no"/>cundo vtrum huiusmodi peccatum sit irremissibile Et hoc 
+          <lb ed="#G" n="64"/>quantum ad distinctionem. 43 Tertio videndum est, vtri 
+          <lb ed="#G" n="65"/>omnis potentia peccandi sit 2: Deo. Quarto vtrum omnis 
+          <lb ed="#G" n="66"/>potentia dominandi sit a Deo. Et hoc quantum ad
+          di<lb ed="#G" n="67" break="no"/>stinctionem vltimam, scilicet. 44. istius secundi libri. 
+        </p>
+        <p xml:id="HuYgTa-159627-d1e173">
+          <lb ed="#G" n="68"/>
+          <pc type="indent"/>RESOLVTIO. 
+          <lb ed="#G" n="69"/>Et si nullum quidem percatum ad diuinam potentiam relatum, 
+          <lb ed="#G" n="70"/>
+          <pc type="indent"/>irremissibile dici possit, ex diuina tamen, &amp; inspirata seriptura 
+          <lb ed="#G" n="71"/>nobis consiat quoddam esse crime in Spiritum sanctum satum, 
+          <lb ed="#G" n="72"/>quod sane propter ea irremissibile nuncupatur, quia nullam in 
+          <lb ed="#G" n="73"/>se causam annexam peccatum excusantem continet, licet peccam 
+          <lb ed="#G" n="74"/>li potentia a Deo tmnamauit. 
+        </p>
+        <div xml:id="HuYgTa-159627-Dd1e188">
+          <head xml:id="HuYgTa-159627-Hd1e190">Articulus 1</head>
+          <head xml:id="HuYgTa-159627-Hd1e192" type="question-title">Utrum sit aliquod peccatum in spiritum sanctum</head>
+          <p xml:id="HuYgTa-159627-d1e195">
+            <lb ed="#G" n="75"/>
+            <pc type="indent"/>ARTICVLVS I 
+            <lb ed="#G" n="76"/>Vtrum sit Aliquod peccatum in spiritum 
+            <lb ed="#G" n="77"/>ssnctum.
+          </p>
+          <p xml:id="HuYgTa-159627-d1e206">
+            <lb ed="#G" n="78"/>QVANTVM ad primum dico, quod plane &amp;
+            mani<lb ed="#G" n="79" break="no"/> fesse patet ex scripturis sacris, quoddam peccatum  
+            <lb ed="#G" n="80"/>esse, quod dicitur in spiritum sanctum. Patet enim hoc ex 
+            <lb ed="#G" n="81"/>Euang. Et ideo praesupposito tali peccato esse, duo sunt 
+            <lb ed="#G" n="82"/>videnda circa ipsum. Primo, scilicet quid sit peccatum in 
+            <lb ed="#G" n="83"/>spiritum sanctum. Secundo, quot sint peccata in 
+            spiri<lb ed="#G" n="84" break="no"/>tum sanctum, 
+          </p>
+          <p xml:id="HuYgTa-159627-d1e224">
+            <lb ed="#G" n="85"/>
+            <pc type="indent"/>Quo ad primum est aduertendum, quod vt patuit 
+            su<lb ed="#G" n="86" break="no"/>perius in primo lib hoc nomen spiritus sanctus
+            quando<lb ed="#G" n="87" break="no"/>que accipitur essentialiter, &amp; sic conuenit ipsi deitati, &amp;  
+            <lb ed="#G" n="88"/>toti trinitati. Et sic dicitur, Spiritus est Deus, &amp; eos, qui 
+            <lb ed="#G" n="89"/>adorant eum, in spiritu &amp; veritate oportet adorare. Alio 
+            <lb ed="#G" n="90"/>modo personaliter: &amp; sic solum dicitur de tertia persona 
+            <lb ed="#G" n="91"/>in diuinis, iuxta primum modum scriptura sacra videtur 
+            <lb ed="#G" n="92"/>accipere spiritum, cum dicitur esse peccatum in spiritum 
+            <lb ed="#G" n="93"/>sanctum Nam, vt sic, huiusmodi peccatum distinguitur 
+            con<lb ed="#G" n="94" break="no"/>tra blasphemiam illatam domino nostro Iesu Christo, 
+            <lb ed="#G" n="95"/>quo ad suam humanitatem: nam blasphemia contra
+            dei<lb ed="#G" n="96" break="no"/>atem dicitur in scripturis irremissibilis, contra autem 
+            <lb ed="#G" n="97"/>humanitatem dicitur remissibilis. Vnde cum Iudaei 
+            <lb ed="#G" n="98"/>Christo blasphemiam intulissent dicentes, vorax est &amp; 
+            <lb ed="#G" n="99"/>potator vini, &amp; amicus publicanorum, &amp; peccatorum, 
+            po<lb ed="#G" n="100" break="no"/>stea dixerunt blasphemiam contra virtutem suae deitatis 
+            <lb ed="#G" n="101"/>dicentes: hic non eiicit daemonia nisi in belxebub princi 
+            <lb ed="#G" n="102"/>pe daemoniorum Et ideo circa finem illius capituli
+            sub<lb ed="#G" n="103" break="no"/>dit dominus noster lesus Christus dicens, Quicumque 
+            <lb ed="#G" n="104"/>contra filium hominis verbum dixerit, remittetur ei: qui 
+            <lb ed="#G" n="105"/>autem contra spiritum sanctum dixerit verbum, non
+            re<lb ed="#G" n="106" break="no"/>mittetur ei, neque in hoc seculo, neque in futuro. Et isto 
+            <lb ed="#G" n="107"/>modo videntur loqui de peccato in spiritum sanctum do 
+            <lb ed="#G" n="108"/>ctores antiqui, scilicet Athanasius, Hylarius,
+            Chrisosto<lb ed="#G" n="109" break="no"/>mus, <name xml:id="HuYgTa-159627-Nd1e282" ref="#Ambrose">Ambrosius</name>, &amp; Hicronymus. Moderni vero doctore, 
+            <lb ed="#G" n="110"/>appellant peccatum in spiritum sanctum, secundum quod 
+            <lb ed="#G" n="111"/>quis peccat contra appropriatum spiritus sancti, &amp; vt
+            spi<lb ed="#G" n="112" break="no"/>ritus sanctus accipitur personaliter, puta, prout quis
+            pec<lb ed="#G" n="113" break="no"/>cat contra diuinam voluntatem, bonitatem, &amp;
+            clemen<lb ed="#G" n="114" break="no"/>tiam, quae appropriatur spiritui sancto. 
+          </p>
+          <p xml:id="HuYgTa-159627-d1e297">
+            <lb ed="#G" n="115"/>
+            <pc type="indent"/>De numero autem; &amp; distinctione talium peccatorum 
+            <lb ed="#G" n="116"/>diuersi diuersimode loquuntur. Aliqui enim videntur d 
+            <lb ed="#G" n="117"/>tere, quod peccata in spiritum sanctum sint quattuor,
+            sci<lb ed="#G" n="118" break="no"/>licet desperatio, praesumptio, &amp; agnitae veritatis, &amp;
+            maxi<lb ed="#G" n="119" break="no"/>me veritatis fidei impugnatio, &amp; fraternae gratiae 
+            proxi<lb ed="#G" n="120" break="no"/>mo collatae inuidentia, seu aemulatio. Aliqui, addunt
+            ob<lb ed="#G" n="121" break="no"/>tinationem, &amp; propositum numquam poenitendi: &amp; sic 
+            <lb ed="#G" n="122"/>crunt sex. Aliij addunt peccatum ex certa malitia, quod 
+            <!--456.xml-->
+            <pb ed="#G" n="209-r"/>
             <cb ed="#G" n="a"/>
-         </div>
-      </front>
-      <body>
-         <div xml:id="HuYgTa-159627"><!-- HuYgTa-l2d43et44q1 -->
-            <head xml:id="HuYgTa-159627-Hd1e108">Quaestio 1</head>
-            <head xml:id="HuYgTa-159627-Hd1e111" type="question-title">
-      An peccatum aliquod sit simpliciter irremissibile
-    </head>
-            <p xml:id="HuYgTa-159627-d1e114">
-               <lb ed="#G" n="49"/>Quaestio I 
-      <lb ed="#G" n="50"/>An peccatum aliquod sit simpliciter 
-      <lb ed="#G" n="51"/>irremissibile 
-    </p>
-            <p xml:id="HuYgTa-159627-d1e123">
-               <lb ed="#G" n="52"/>VTRVM aliquod peccatum sit simpliciter irremissi 
-      <lb ed="#G" n="53"/>bile.
-    </p>
-            <p xml:id="HuYgTa-159627-d1e130">
-      Et videtur quod sic. Quia pro omni peccato ri 
-      <lb ed="#G" n="54"/>missibili est orandum, vt dimittatur: sed quoddam est pec 
-      <lb ed="#G" n="55"/>catum, pro quo non est orandum, vt dimittatur, iuxta
-      il<lb ed="#G" n="56" break="no"/>lud loan. dicitur, Est peccatum ad mortem, pro quo non 
-      <!--455.xml-->
-      <cb ed="#G" n="b"/>
-               <lb ed="#G" n="57"/>dico, vt oret quis. 
-    </p>
-            <p xml:id="HuYgTa-159627-d1e147">
-               <lb ed="#G" n="58"/>
-               <pc type="indent"/>Contra, illud malum non est simpliciter irremissibile 
-      <lb ed="#G" n="59"/>cuius radix, seu potentia est a Deo: sed potentia peccandi quo 
-      <lb ed="#G" n="60"/>cuque genere peccati est a Deo, vt infra patebit:ergo nullum 
-      <lb ed="#G" n="61"/>peccatum est simpliciter irremissibile. Hic primo videndum 
-      <lb ed="#G" n="62"/>est, vtrum sit aliquod peccatum in spiritum sanctum.
-      Se<lb ed="#G" n="63" break="no"/>cundo vtrum huiusmodi peccatum sit irremissibile Et hoc 
-      <lb ed="#G" n="64"/>quantum ad distinctionem. 43 Tertio videndum est, vtri 
-      <lb ed="#G" n="65"/>omnis potentia peccandi sit 2: Deo. Quarto vtrum omnis 
-      <lb ed="#G" n="66"/>potentia dominandi sit a Deo. Et hoc quantum ad
-      di<lb ed="#G" n="67" break="no"/>stinctionem vltimam, scilicet. 44. istius secundi libri. 
-    </p>
-            <p xml:id="HuYgTa-159627-d1e173">
-               <lb ed="#G" n="68"/>
-               <pc type="indent"/>RESOLVTIO. 
-      <lb ed="#G" n="69"/>Et si nullum quidem percatum ad diuinam potentiam relatum, 
-      <lb ed="#G" n="70"/>
-               <pc type="indent"/>irremissibile dici possit, ex diuina tamen, &amp; inspirata seriptura 
-      <lb ed="#G" n="71"/>nobis consiat quoddam esse crime in Spiritum sanctum satum, 
-      <lb ed="#G" n="72"/>quod sane propter ea irremissibile nuncupatur, quia nullam in 
-      <lb ed="#G" n="73"/>se causam annexam peccatum excusantem continet, licet peccam 
-      <lb ed="#G" n="74"/>li potentia a Deo tmnamauit. 
-    </p>
-            <p xml:id="HuYgTa-159627-d1e195">
-               <lb ed="#G" n="75"/>
-               <pc type="indent"/>ARTICVLVSI 
-      <lb ed="#G" n="76"/>Vtrum sit liquod peccatum in spiritum 
-      <lb ed="#G" n="77"/>sonctum.
-    </p>
-            <p xml:id="HuYgTa-159627-d1e206">
-               <lb ed="#G" n="78"/>QVANTVM ad primum dico, quod plane &amp;
-      mani<lb ed="#G" n="79" break="no"/> fesse patet ex scripturis sacris, quoddam peccatum  
-      <lb ed="#G" n="80"/>esse, quod dicitur in spiritum sanctum. Patet enim hoc ex 
-      <lb ed="#G" n="81"/>Euang. Et ideo praesupposito tali peccato esse, duo sunt 
-      <lb ed="#G" n="82"/>videnda circa ipsum. Primo, scilicet quid sit peccatum in 
-      <lb ed="#G" n="83"/>spiritum sanctum. Secundo, quot sint peccata in spiri 
-      <lb ed="#G" n="84"/>rum sanctum, 
-    </p>
-            <p xml:id="HuYgTa-159627-d1e224">
-               <lb ed="#G" n="85"/>
-               <pc type="indent"/>Quo ad primum est aduertendum, quod vt patuit su 
-      <lb ed="#G" n="86"/>perius in primo lib hoc nomen spiritus sanctus
-      quando<lb ed="#G" n="87" break="no"/>que accipitur essentialiter, &amp; sic conuenit ipsi deitati, &amp;  
-      <lb ed="#G" n="88"/>toti trinitati. Et sic dicitur, Spiritus est Deus, &amp; eos, qui 
-      <lb ed="#G" n="89"/>adorant eum, in spiritu &amp; veritate oportet adorare. Alio 
-      <lb ed="#G" n="90"/>modo personaliter: &amp; sic solum dicitur de tertia persona 
-      <lb ed="#G" n="91"/>in diuinis, iuxta primum modum scriptura sacra videtur 
-      <lb ed="#G" n="92"/>accipere spiritum, cum dicitur esse peccatum in spiritum 
-      <lb ed="#G" n="93"/>sanctum Nam, vt sic, huiusmodi peccatum distinguitur con 
-      <lb ed="#G" n="94"/>tra blasphemiam illatam domino nostro lesu Christo, 
-      <lb ed="#G" n="95"/>quo ad suam humanitatem: nam blasphemia contra
-      dei<lb ed="#G" n="96" break="no"/>atem dicitur in scripturis irremissibilis, contra autem 
-      <lb ed="#G" n="97"/>humanitatem dicitur remissibilis. Vnde cum ludaei 
-      <lb ed="#G" n="98"/>Christo blasphemiam intulissent dicentes, vorax est &amp; 
-      <lb ed="#G" n="99"/>potator vini, &amp; amicus publicanorum, &amp; peccatorum, po 
-      <lb ed="#G" n="100"/>stea dixerunt blasphemiam contra virtutem suae deitatis 
-      <lb ed="#G" n="101"/>dicentes: hic non eiicit daemonia nisi in belxebub princi 
-      <lb ed="#G" n="102"/>pe daemoniorum Et ideo circa finem illius capituli
-      sub<lb ed="#G" n="103" break="no"/>dit dominus noster lesus Christus dicens, Quicumque 
-      <lb ed="#G" n="104"/>contra filium hominis verbum dixerit, remittetur ei: qui 
-      <lb ed="#G" n="105"/>autem contra spiritum sanctum dixerit verbum, non
-      re<lb ed="#G" n="106" break="no"/>mittetur ei, neque in hoc seculo, neque in futuro. Et isto 
-      <lb ed="#G" n="107"/>modo videntur loqui de peccato in spiritum sanctum do 
-      <lb ed="#G" n="108"/>ctores antiqui, scilicet Athanasius, Hylarius,
-      Chrisosto<lb ed="#G" n="109" break="no"/>mus, <name xml:id="HuYgTa-159627-Nd1e282" ref="#Ambrose">Ambrosius</name>, &amp; Hicronvmus. Moderni vero doctore, 
-      <lb ed="#G" n="110"/>appellant peccatum in spiritum sanctum, secundum quod 
-      <lb ed="#G" n="111"/>quis peccat contra appropriatum spiritus sancti, &amp; vt
-      spi<lb ed="#G" n="112" break="no"/>ritus sanctus accipitur personaliter, puta, prout quis
-      pec<lb ed="#G" n="113" break="no"/>cat contra diuinam voluntatem, bonitatem, &amp;
-      clemen<lb ed="#G" n="114" break="no"/>tiam, quae appropriatur spiritui sancto. 
-    </p>
-            <p xml:id="HuYgTa-159627-d1e297">
-               <lb ed="#G" n="115"/>
-               <pc type="indent"/>De numero autem; &amp; distinctione talium peccatorum 
-      <lb ed="#G" n="116"/>diuersi diuersimode loquuntur. Aliqui enim videntur d 
-      <lb ed="#G" n="117"/>tere, quod peccata in spiritum sanctum sint quattuor,
-      sci<lb ed="#G" n="118" break="no"/>licet desperatio, praesumptio, &amp; agnitae veritatis, &amp;
-      maxi<lb ed="#G" n="119" break="no"/>me veritatis fidei impugnatio, &amp; fraternae gratiae proxi 
-      <lb ed="#G" n="120"/>mo collatae inuidentia, seu aemulatio. Aliqui, addunt
-      ob<lb ed="#G" n="121" break="no"/>tinationem, &amp; propositum numquam poenitendi: &amp; sic 
-      <lb ed="#G" n="122"/>crunt sex. Aliij addunt peccatum ex certa malitia, quod 
-      <!--456.xml-->
-      <pb ed="#G" n="209-r"/>
-               <cb ed="#G" n="a"/>
-               <lb ed="#G" n="1"/>qmandoque dicitur peccatum ex electione, quandoque pecca 
-      <lb ed="#G" n="2"/>tum ex habitu, &amp; finalem impoenitentiam, &amp; sic erunt octo. 
-    </p>
-            <p xml:id="HuYgTa-159627-d1e331">
-               <lb ed="#G" n="3"/>
-               <pc type="indent"/>Distinctio autem horum fic haberi potest; quia quat 
-      <lb ed="#G" n="4"/>tuor possumus in proposito considerare, scilicet
-      ipso<lb ed="#G" n="5" break="no"/>rum peccatorum medicum, medicinam, infirmum, &amp;
-      in<lb ed="#G" n="6" break="no"/>firmitatem. 
-    </p>
-            <p xml:id="HuYgTa-159627-d1e344">
-               <lb ed="#G" n="7"/>
-               <pc type="indent"/>Per comparationem igitur ad medicum accipitur
-      des<lb ed="#G" n="8" break="no"/>peratio, &amp; praesumptio: nam aliqui solum attendunt eius 
-      <lb ed="#G" n="9"/>iustitiam, nihil reputantes eius misericordiam, modo, quo 
-      <lb ed="#G" n="10"/>dixit Cavm, Maior est iniquitas mea, quam vt veniam
-      me<lb ed="#G" n="11" break="no"/>rear. Et horum peccatum est desperatio. Isti autem sunt 
-      <lb ed="#G" n="12"/>calde ingrati, quod non attendunt, quam magna Dei miseri 
-      <lb ed="#G" n="13"/>cordia est, quod etiam ipsi in hoc mundo viuunt, &amp; iam 
-      <lb ed="#G" n="14"/>in infernum non descendunt, &amp; ideo non haberent
-      neg<lb ed="#G" n="15" break="no"/>re diuinam misericordiam: sed deberent eam suppliciter 
-      <lb ed="#G" n="16"/>exorare. Vnde de tali ingratitudine videtur dicere
-      bern<lb ed="#G" n="17" break="no"/>cum ait, Ingratitudo est ventus vrens, siceans fontem pie 
-      <lb ed="#G" n="18"/>tatis, veniam misericordiae, fluenta gratiae. Aliij attendunt 
-      <lb ed="#G" n="19"/>solum Dei misericordiam in nullo formidantes eius
-      iu<lb ed="#G" n="20" break="no"/>stitiam, &amp; istorum peccatum est praesumptio: nimis enim 
-      <lb ed="#G" n="21"/>praesumit, qui tanti regis iustitiam non formidat 
-    </p>
-            <p xml:id="HuYgTa-159627-d1e381">
-               <lb ed="#G" n="22"/>
-               <pc type="indent"/>Respectu medicinae, quae quidem medicina est fides &amp;  
-      <lb ed="#G" n="23"/>gratia, sumuntur alia duo. Nam impugnantes fidei verita 
-      <lb ed="#G" n="24"/>tem, &amp; inuidentes gratiae gratum facienti fratribus
-      com<lb ed="#G" n="25" break="no"/>municatae, inutilem faciunt sibi medicinam suorum
-      pec<lb ed="#G" n="26" break="no"/>ratorum, quae consistit in fide &amp; gratia. 
-    </p>
-            <p xml:id="HuYgTa-159627-d1e397">
-               <lb ed="#G" n="27"/>
-               <pc type="indent"/>Ex parte vero infirmi, scilicet peccatoris, se tenent alia 
-      <lb ed="#G" n="28"/>duo: nam peccator ex hoc, quod omnino pertinaciter se 
-      <lb ed="#G" n="29"/>couertit ad commutabile bonum, dicitur obstinatus:: sed ex 
-      <lb ed="#G" n="30"/>hoc, quod omnino pertinaciter se auertit ab
-      incommu<lb ed="#G" n="31" break="no"/>tabili bono dicitur impoenitens . non habere propositum 
-      <lb ed="#G" n="32"/>poenitendi, quo possit redire ad huiusmodi
-      incommuta<lb ed="#G" n="33" break="no"/>bile bonum. Sed ex parte infirmitatis se tenent vltima 
-      <lb ed="#G" n="34"/>duo; nam peccatum ex electione, seu ex certa malitia est 
-      <lb ed="#G" n="35"/>ex habitu vitioso, qui est turpissima mentis infirmitas. Fi 
-      <lb ed="#G" n="36"/>nalis autem impoenitentia est huiusmodi infirmitatis, &amp;  
-      <lb ed="#G" n="37"/>morbi cuiuslibet mortalis peccati maledicta creticatio 
-      <lb ed="#G" n="38"/>tendens in mortem aeternam. 
-    </p>
-            <p xml:id="HuYgTa-159627-d1e428">
-               <lb ed="#G" n="39"/>
-               <pc type="indent"/>Est tamen aduertendum, quod prima quattuor magis 
-      <lb ed="#G" n="40"/>proprie dicuntur esse peccata, cum sint distincta &amp;
-      de<lb ed="#G" n="41" break="no"/>terminata genera peccatorum secundum distinctam
-      ma<lb ed="#G" n="42" break="no"/>teriam. Alia vero magis proprie possunt dici
-      circumstan<lb ed="#G" n="43" break="no"/>tiae, vel sequelae peccatorum: quia quodlibet istorum non 
-      <lb ed="#G" n="44"/>habet materiam determinatam, sed applicabilia sunt ad 
-      <lb ed="#G" n="45"/>quodlibet genus mortalis peccati. In quolibet enim
-      ge<lb ed="#G" n="46" break="no"/>nere peccati homo potest fieri obstinatus, &amp; non habere 
-      <lb ed="#G" n="47"/>propositum consitendi vel poenitendi, &amp; habitum
-      vitio<lb ed="#G" n="48" break="no"/>sum acquirere &amp; sine poenitentia finaliter mori, seu dece 
-      <lb ed="#G" n="49"/>dere. Et ideo quo ad hoc magis approbabo sententiam il 
-      <lb ed="#G" n="50"/>lorum doctorum, qui quattuor dicunt esse genera
-      pocca<lb ed="#G" n="51" break="no"/>torum in spiritum sanctum, 
-    </p>
-            <p xml:id="HuYgTa-159627-d1e461">
-               <lb ed="#G" n="52"/>
-               <pc type="indent"/>ARTICVLVS II. 
-      <lb ed="#G" n="53"/>Vtrum peccatum in spiritum sanctum sit 
-      <lb ed="#G" n="54"/>rrremissibile¬
-    </p>
-            <p xml:id="HuYgTa-159627-d1e473">
-               <lb ed="#G" n="55"/>VANTVM ad secundum artitulum dico, quod  
-      <lb ed="#G" n="56"/>respectu diuinae potentiae nullum peccatum est 
-      <lb ed="#G" n="57"/>irremissibile¬ 
-    </p>
-            <p xml:id="HuYgTa-159627-d1e482">
-               <lb ed="#G" n="58"/>
-               <pc type="indent"/>1 Posset enim Deus, si vellet, remittere tam viuorum 
-      <lb ed="#G" n="59"/>quam mortuorum, tam daemonum, quam hominum pec 
-      <lb ed="#G" n="60"/>cata: sed vocando peccatum remissibile, quod
-      derelin<lb ed="#G" n="61" break="no"/>quit aptitudinem, seu concernit habilitatem ad hoc, quo 
-      <lb ed="#G" n="62"/>remittatur, sic quodlibet peccatum in spiritum sanctum 
-      <lb ed="#G" n="63"/>potest dici irremissibile: nam quamuis peccatum ex igno 
-      <lb ed="#G" n="64"/>rantia, vel ex passionis impulsu, vel impotentia aliquate 
-      <lb ed="#G" n="65"/>nus excusetur, &amp; per consequens concernat habilitatem 
-      <lb ed="#G" n="66"/>ad remissionem: tamen peccatum in spiritum sanctum  
-      <lb ed="#G" n="67"/>nullam habet causam annexam peccatum excusantem 
-      <!--456.xml-->
-      <cb ed="#G" n="b"/>
-               <lb ed="#G" n="68"/>sed solum aggrauantem; ideo nullam concernit aptitudi 
-      <lb ed="#G" n="69"/>nem ad sui remissionem.
-    </p>
-            <p xml:id="HuYgTa-159627-d1e517">
-               <lb ed="#G" n="70"/>2 Praeterea, sicut infirmitas corporalis dicitur :
-      incu<lb ed="#G" n="71" break="no"/>rabilis, cum per ipsam sic disponitur infirmus, quod 
-               om<lb ed="#G" n="72" break="no"/>nem escam abominatur, &amp; omnem medicinam abhorret 
-      <lb ed="#G" n="73"/>&amp; refutat, iuxta illud psal. Omnem escam abominata est 
-      <lb ed="#G" n="74"/>anima eorum, &amp; appropinquauerunt vsque ad portas
-      mor<lb ed="#G" n="75" break="no"/>tis: Sic quia peccans in spiritum sanctum abhorret
-      spiri<lb ed="#G" n="76" break="no"/>tualem medicinam, vt patet ex praecedentibus: ergo &amp;c 
-    </p>
-            <p xml:id="HuYgTa-159627-d1e535">
-               <lb ed="#G" n="77"/>
-               <pc type="indent"/> Praeterea, nullum peccatum mortale dimittitur
-      si<lb ed="#G" n="78" break="no"/>ne poenitentia: sed quodlibet peccatum in spiritum
-      san<lb ed="#G" n="79" break="no"/>ctum aliquo modo facit peccatorem impenitiuum: ergo 
-      <lb ed="#G" n="80"/>quodlibet potest dici irremissibile.
-    </p>
-            <p xml:id="HuYgTa-159627-d1e548">
-               <lb ed="#G" n="81"/>Dicunt autem quidam doctores in ista materia, quod 
-      <lb ed="#G" n="82"/>si vocetur peccatum in spiritum sanctum peccatum mor 
-      <lb ed="#G" n="83"/>tale cum finali impenitentia, vt accipitur peccatum in spiri 
-      <lb ed="#G" n="84"/>tum sanctum a beato Augustino, sic simpliciter dicitur in 
-      <lb ed="#G" n="85"/>remissibile: quia numquam potest remitti, nec in vita ista 
-      <lb ed="#G" n="86"/>impediente fnali impoenitentia, nec in alia vita, quia in ea 
-      <lb ed="#G" n="87"/>non erit status remissionis: ergo &amp;c 
-    </p>
-            <p xml:id="HuYgTa-159627-d1e566">
-               <lb ed="#G" n="88"/>1 Sed istud non videtur esse verum: quia infinita potens 
-      <lb ed="#G" n="89"/>tia Dei non exhauritur magnitudine cuiuscumque
-      pec<lb ed="#G" n="90" break="no"/>cati; ergo Deus omne peccatum potest remittere.
-    </p>
-            <p xml:id="HuYgTa-159627-d1e576">
-               <lb ed="#G" n="91"/>2 Praeterea, satis communiter dicitur ad preces
-      Ore<lb ed="#G" n="92" break="no"/>gorii Traianum fuisse ab inferno liberatum, &amp; ad agendum 
-      <lb ed="#G" n="93"/>oenitentiam de mortuis resuscitatum: &amp; tamen planum 
-      <lb ed="#G" n="94"/>est, quod Traianus in multis peccatis mortalibus decessits 
-      <lb ed="#G" n="95"/>propter multas martvrum strages, quas fecit, &amp; cum finali 
-      <lb ed="#G" n="96"/>mpoenitentia decessit, quia si poenitentiam egisset,
-      ante<lb ed="#G" n="97" break="no"/>quam decessisset, tunc pro suis peccatis non fuisset
-      dam<lb ed="#G" n="98" break="no"/>natus, nec pro agenda poenitentia fuisset resuscitatus. 
-    </p>
-            <p xml:id="HuYgTa-159627-d1e596">
-               <lb ed="#G" n="99"/>
-               <pc type="indent"/>ARTICVLVS II 
-      <lb ed="#G" n="100"/>Vtrum omnis potentia peccandi sit 
-      <lb ed="#G" n="101"/>
-               <pc type="indent"/>4 Deo.
-    </p>
-            <p xml:id="HuYgTa-159627-d1e609">
-               <lb ed="#G" n="102"/>VANTVM ad tertium articulum dico, quod pote 
-      <lb ed="#G" n="103"/>tia peccandi est a Deo.
-    </p>
-            <p xml:id="HuYgTa-159627-d1e616">
-               <lb ed="#G" n="104"/>1 Quia omne ens est a Deo, potentia peccandi est ali 
-      <lb ed="#G" n="105"/>quod ens: ergo &amp;c. Maior patet ex fide: quia sine ipso
-      fa<lb ed="#G" n="106" break="no"/>ctum est nihil Probo minorem: quia quod purum nihil 
-      <lb ed="#G" n="107"/>est, nulla potentia est 
-    </p>
-            <p xml:id="HuYgTa-159627-d1e627">
-               <lb ed="#G" n="108"/>
-               <pc type="indent"/>2 Praeterea potentia benefaciendi est a Deo: ergo &amp; 
-      <lb ed="#G" n="109"/>otentia peccandi. Antecedens patet. Consequentiam  
-      <lb ed="#G" n="110"/>probo: quia eadem est potentia merendi &amp; demerendi; 
-      <lb ed="#G" n="111"/>quod probatur sic: quia potentia rationali possumus
-      be<lb ed="#G" n="112" break="no"/>nefacere &amp;, mereri, sed potentiae rationales sunt ad 
-               op<lb ed="#G" n="113" break="no"/>posita: eadem ergo potentia possumus malefacere &amp;
-      de<lb ed="#G" n="114" break="no"/>mereri, quod proprie est peccare. 
-    </p>
-            <p xml:id="HuYgTa-159627-d1e647">
-               <lb ed="#G" n="115"/>
-               <pc type="indent"/>3 Praeterea, sola voluntas est proprie potentia peccan 
-      <lb ed="#G" n="116"/>di, vt patet per <ref xml:id="HuYgTa-159627-Rd1e655">Aug:2. de lib arbitrio</ref>, sed voluntas est a 
-      <lb ed="#G" n="117"/>Deo: ergo &amp;c. 
-    </p>
-            <p xml:id="HuYgTa-159627-d1e662">
-               <lb ed="#G" n="118"/>
-               <pc type="indent"/>4 Praeterea, omne bonum est a Deo: sed potentiae
-      ma<lb ed="#G" n="119" break="no"/>lorum sunt bonae, vt dicitur. 3. ropi. ergo &amp;c. 
-    </p>
-            <p xml:id="HuYgTa-159627-d1e671">
-               <lb ed="#G" n="120"/>
-               <pc type="indent"/>ped quidam doctores circa istam materiam respondent 
-      <lb ed="#G" n="121"/>per distinctionem. Dicunt enim, quod potentia peccandi 
-      <lb ed="#G" n="122"/>potest dupliciter considerari. Vno modo, prout est princi 
-      <lb ed="#G" n="123"/>pium actus. Alio modo, vt potest deficere. Primo modo 
-      <lb ed="#G" n="124"/>est a Deo: quia, quicquid habet naturam entis positiui, 
-      <lb ed="#G" n="125"/>oportet, quod reducatur ad Deum, sicut ad causam.
-      pri<lb ed="#G" n="126" break="no"/>mam. Sed secundo modo non est a Deo: quia
-      defectibili<lb ed="#G" n="127" break="no"/>tas conuenit rei creatae ex eo, quod est ex nihilo, vt ait Dam. 
-      <lb ed="#G" n="128"/>esse autem ex nihilo conuenit rei creatae secundum se: 
-      <lb ed="#G" n="129"/>quia sibi derelicta tendit in nihilum, &amp; per consequens 
-      <lb ed="#G" n="130"/>non poterit sibi conuenire ab alio, puta, a Deo.  
-    </p>
-            <p xml:id="HuYgTa-159627-d1e700">
-               <lb ed="#G" n="131"/>
-               <pc type="indent"/>1 Nam quod competit alicui ex se, non potest sibi con 
-      <lb ed="#G" n="132"/>petere ex alio.  
-    </p>
-            <p xml:id="HuYgTa-159627-d1e709">
-               <lb ed="#G" n="133"/>
-               <pc type="indent"/> Praeterea, ad idem arguunt quidam alij sic. Si poter 
-      <lb ed="#G" n="134"/>tia peccandi esset a Deo, hoc maxime esset pro tanto: quod 
-      <lb ed="#G" n="135"/>talis potentia esset ipsum liberum arbitrium: sed hoc 
-      <lb ed="#G" n="136"/>non, quia dicit Ansel in de libero arbitrio, quod peccare 
-      <!--457.xml-->
-      <pb ed="#G" n="209-v"/>
-               <cb ed="#G" n="a"/>
-               <lb ed="#G" n="1"/>nec est libertas, nec pars libertatis.
-    </p>
-            <p xml:id="HuYgTa-159627-d1e731">
-               <lb ed="#G" n="2"/>3 Praeterea, si potentia peccandi esset a Deo, tunc ipsum 
-      <lb ed="#G" n="3"/>peccatum esset a Deo. Consequens est falsum. Probatio 
-      <lb ed="#G" n="4"/>consequentiae, quia actus est perfectior, quam potentia: 
-      <lb ed="#G" n="5"/>ei autem perfecta sunt opera, vt dicitur in Deutero.
-    </p>
-            <p xml:id="HuYgTa-159627-d1e742">
-               <lb ed="#G" n="6"/>4 Praeterea, illud, cuius vsus est malus, ipsum quoque 
-      <lb ed="#G" n="7"/>est malum, vt dicitur s topic. &amp; per consequens tale quid 
-      <lb ed="#G" n="8"/>non potest esse a Deo: sed vsus potentiae peccandi est ma 
-      <lb ed="#G" n="9"/>lus, quia vsus talis est ipsum peccare: ergo talis potentia 
-      <lb ed="#G" n="10"/>non potest esse a Deo.  
-    </p>
-            <p xml:id="HuYgTa-159627-d1e756">
-               <lb ed="#G" n="11"/>
-               <pc type="indent"/>Sed quamuis conclusionem elicitam ex prima parte 
-      <lb ed="#G" n="12"/>praedictae diuisionis reputem esse veram: tamen conclusio 
-      <lb ed="#G" n="13"/>elicita ex parte secunda, quae conclusioni per me posita 
-      <lb ed="#G" n="14"/>videtur repugnare, non videtur posse stare.
-    </p>
-            <p xml:id="HuYgTa-159627-d1e769">
-               <lb ed="#G" n="15"/>1 Quia defectus, qui non habet rationem mali, non  
-      <lb ed="#G" n="16"/>minus videtur esse a Deo, quam ille defectus, qui habet 
-      <lb ed="#G" n="17"/>rationem mali: sed defectus, qui habet rationem mali, est 
-      <lb ed="#G" n="18"/>a Deo, puta defectus poenalis: possibilitas autem
-      deficien<lb ed="#G" n="19" break="no"/>di non habet rationem mali, quia omne malum, vel est 
-      <lb ed="#G" n="20"/>malum culpae, vel poenae: sed possibilitas deficiendi nec 
-      <lb ed="#G" n="21"/>habet rationem mali culpae, nec poenae, quia fuit in
-      sta<lb ed="#G" n="22" break="no"/>tu innocentiae, &amp; per consequens ante omnem culpam 
-      <lb ed="#G" n="23"/>&amp; poenam
-    </p>
-            <p xml:id="HuYgTa-159627-d1e791">
-               <lb ed="#G" n="24"/>2 Praeterea, potentia deficiendi per cotruptionem inest 
-      <lb ed="#G" n="25"/>rebus creatis curruptibilibus a Deo: ergo &amp; potentta 
-               defi<lb ed="#G" n="26" break="no"/>ciendi per electionem quae est potentia peccandi inerit ipsis 
-      <lb ed="#G" n="27"/>rebus potentibus eligere ab ipso Deo. Antecedens
-      pa<lb ed="#G" n="28" break="no"/>tet, quia illud quod necessario requirit ordo vniuersi, hoc 
-      <lb ed="#G" n="29"/>conuenit rebus a Deo; sed habere potentiam deficiendi 
-      <lb ed="#G" n="30"/>per cotruptionem requirit ordo vniuersi: nam plantae non 
-      <lb ed="#G" n="31"/>possent nutriri, si terra non posset corrumpi: nec pari rone 
-      <lb ed="#G" n="32"/>bestiae possent nutriri per plantas, nec homines prbestias. 
-    </p>
-            <p xml:id="HuYgTa-159627-d1e813">
-               <lb ed="#G" n="33"/>
-               <pc type="indent"/>Praeterea, quod creatura sit de nihilo, hoc habet ab 
-      <lb ed="#G" n="34"/>ipso Deo, sed ex hoc inest creaturae potentia peccandi, 
-      <lb ed="#G" n="35"/>quia est de nihilo, vt dicit praedicta opinio: ergo potentis 
-      <lb ed="#G" n="36"/>peccandi inest creaturae ab ipso Deo. Maiorem probo, quia 
-      <lb ed="#G" n="37"/>quicquid est causa alicuius affirmationis, hoc etiam est 
-      <lb ed="#G" n="38"/>causa negationis per se, &amp; immediate consequentis ad ta 
-      <lb ed="#G" n="39"/>lem affirmationem: quicquid enim est per se causa, quod 
-      <lb ed="#G" n="40"/>aliquid sit sanum, hoc etiam est causa, quod tale quid non 
-      <lb ed="#G" n="41"/>fit aegrum: sed Deus est causa creaturae secundum omnem 
-      <lb ed="#G" n="42"/>entitatem posituam, quae est in creatura: ergo Deus est cau 
-      <lb ed="#G" n="43"/>sa, quod creatura sit de nihilo, &amp; de nullo presupposito, 
-      <lb ed="#G" n="44"/>cum ista negatiua per se, &amp; necessario sequatur ad illam  
-      <lb ed="#G" n="45"/>affirmatiuam. 
-    </p>
-            <p xml:id="HuYgTa-159627-d1e846">
-               <lb ed="#G" n="46"/>
-               <pc type="indent"/>Et per hoc patet ad primam rationem, quia esse ex
-      ni<lb ed="#G" n="47" break="no"/>hilo non competit creaturae ex se, sed ex Deo. Ad
-      proba<lb ed="#G" n="48" break="no"/>tionem cum dicitur, quod creatura sibi derelicta tendit 
-      <lb ed="#G" n="49"/>in nihilum, dico, quod talis tendentiae sufficiens causa est 
-      <lb ed="#G" n="50"/>ipse Deus, non per sui influentiam &amp; operationem: sed 
-      <lb ed="#G" n="51"/>er suae influentiae subtractionem: quia illud, quod per sui 
-      <lb ed="#G" n="52"/>influentiam est totalis, &amp; perfecta causa alicuius
-      entita<lb ed="#G" n="53" break="no"/>tis, &amp; conseruationis eiusdem, illud per subtractionem sua 
-      <lb ed="#G" n="54"/>insiuentiae erit sufficiens causa, quare huiusmodi entitas 
-      <lb ed="#G" n="55"/>cadat in nihilum: sed Deus per suam influentiam est
-      per<lb ed="#G" n="56" break="no"/>fecta causa omnis entitatis creatae, &amp; conseruationis totius 
-      <lb ed="#G" n="57"/>creaturae, quae conseruatur in aliquo esse: ergo &amp; 
-    </p>
-            <p xml:id="HuYgTa-159627-d1e877">
-               <lb ed="#G" n="58"/>
-               <pc type="indent"/>Ad secundum nego minorem. Ad probationem dicen 
-      <lb ed="#G" n="59"/>dum, quod quamuis peccare non sit libertas, posse tamen 
-      <lb ed="#G" n="60"/>peccare est in nostri arbitrii libertate: liberior tamen esset 
-      <lb ed="#G" n="61"/>nostra voluntas, si peccare non posset, quia maior estli 
-      <lb ed="#G" n="62"/>bertas beatorum, qui peccare non possunt, quam viatorum 
-      <lb ed="#G" n="63"/>qui peccare possunt 
-    </p>
-            <p xml:id="HuYgTa-159627-d1e896">
-               <lb ed="#G" n="64"/>
-               <pc type="indent"/>Ad tertium nego consequentiam. Ad probationen 
-      <lb ed="#G" n="65"/>dico, quamuis in bonis actus sit nobilior potentia, tamen 
-      <lb ed="#G" n="66"/>in malis est econuerso: nam peius est actu aegrotare, quam  
-      <lb ed="#G" n="67"/>posse aegrotare. 
-    </p>
-            <p xml:id="HuYgTa-159627-d1e909">
-               <lb ed="#G" n="68"/>
-               <pc type="indent"/>Alias inuenitur talis additio. Etiam potest dici, quod 
-      <lb ed="#G" n="69"/>icet peccatum non sit a Deo, tamen actus peccati est a 
-      <lb ed="#G" n="70"/>Deo, eo modo, quo dictum est. 
-    </p>
-            <p xml:id="HuYgTa-159627-d1e920">
-               <lb ed="#G" n="71"/>
-               <pc type="indent"/>Ad quartum dicendum, quod licet illud sit malum, 
-      <lb ed="#G" n="72"/>cuius vlus ita est malus, quod non possumus eo bene vti: 
-      <lb ed="#G" n="73"/>tamen cuius vsus est malus non necessario, sed ex co, quod 
-      <!--457.xml-->
-      <cb ed="#G" n="b"/>
-               <lb ed="#G" n="74"/>cum possemus eo bene vti, abutimur eo, illud non est ma 
-      <lb ed="#G" n="75"/>lum, sed potest esse bonum, possumus enim etiam bonis 
-      <lb ed="#G" n="76"/>male vti, &amp; hoc magis proprie abusus, quam vsus debet di 
-      <lb ed="#G" n="77"/>ci. Sed potentia peccandi, quae est liberum arbitrium,
-      pos<lb ed="#G" n="78" break="no"/>sumus, si volumus bene vti resistendo vitiis, &amp;
-      prosequen<lb ed="#G" n="79" break="no"/>do virtutes: ergo &amp;c 
-    </p>
-            <p xml:id="HuYgTa-159627-d1e949">
-               <lb ed="#G" n="80"/>
-               <pc type="indent"/>ARTICVLVS IIII 
-      <lb ed="#G" n="81"/>Vtrum omnis potentia dominandi sit a Deo.
-    </p>
-            <p xml:id="HuYgTa-159627-d1e958">
-               <lb ed="#G" n="82"/>QVANTVM ad quartum articulum sunt duo 
-               viden<lb ed="#G" n="83" break="no"/>da Primo, vtrum omnis praelatio, seu potestas 
-               do<lb ed="#G" n="84" break="no"/>minandi sit a Deo Secundo vtrum homo fidelis teneatur 
-      <lb ed="#G" n="85"/>obedire domino infideli, seu principi infideli. 
-            </p>
-            <p xml:id="HuYgTa-159627-d1e970">
-      <lb ed="#G" n="86"/>Quantum ad primum dico, quod praelatio, seu
-      princi<lb ed="#G" n="87" break="no"/>patus potest tripliciter considerari. Vno modo, in se: 
-               Se<lb ed="#G" n="88" break="no"/>cundo, quantum ad modum, quo quis consequitur
-      prin<lb ed="#G" n="89" break="no"/>cipatum. Et tertio, quantum ad vsum eius. 
-    </p>
-            <p xml:id="HuYgTa-159627-d1e980">
-               <lb ed="#G" n="90"/>
-               <pc type="indent"/>Primo modo accipiendo principatum, sic omnis
-      prin<lb ed="#G" n="91" break="no"/>cipatus a Deo est 
-    </p>
-            <p xml:id="HuYgTa-159627-d1e990">
-               <lb ed="#G" n="92"/>
-               <pc type="indent"/>1 Quia omine bonum a Deo est, sed principatus
-      con<lb ed="#G" n="93" break="no"/>sideratus secundum se, cum sit quidam ordo, seu modus 
-      <lb ed="#G" n="94"/>ordinate videndi, est non modicum bonum vniuersi: 
-               er<lb ed="#G" n="95" break="no"/>go est ab ipso Deo.
-    </p>
-            <p xml:id="HuYgTa-159627-d1e1003">
-               <lb ed="#G" n="96"/>2 Praeterea, semper primus est causa omnium aliorum 
-      <lb ed="#G" n="97"/>quae sunt post: sed Deus est primus princeps totius vniuer<lb ed="#G" n="98" break="no"/>si. 
-               Maior patet <ref>2. Met</ref> Minor similiter patet <ref xml:id="HuYgTa-159627-Rd1e1011">12. metaph</ref>
-            </p>
-            <p xml:id="HuYgTa-159627-d1e1015">
-               <lb ed="#G" n="99"/>3 Praeterea, illud, quod in paradiso fuisset, si homo in 
-      <lb ed="#G" n="100"/>statu innocentiae permansisset, hoc est a Deo, seu fuisset
-      <lb ed="#G" n="101"/>ab eo: sed praelatio praedicto modo in paradiso fuisset: 
-               er<lb ed="#G" n="102" break="no"/>go &amp;c. Maior patet. Minorem probo, quia naturaliter sunt 
-      <lb ed="#G" n="103"/>domini, qui vigent prudentia, &amp; intellectu, vt patet 1.
-      po<lb ed="#G" n="104" break="no"/>litic, propter hoc enim aliquo modo vir dominatur
-      pue<lb ed="#G" n="105" break="no"/>ro, masculus feminae, &amp; homo bestiis. Sed etiam in
-      para<lb ed="#G" n="106" break="no"/>diso vnus homo fuisset aptior altero quo ad habitus, &amp;  
-      <lb ed="#G" n="107"/>actus intellectuales, secundum quod vnus fuisset
-      melio<lb ed="#G" n="108" break="no"/>ris complexionis, quam alter: quia <quote xml:id="HuYgTa-159627-Qdh2scc" source="http://scta.info/resource/aristda-l2-gy1Xpo">molles carne aptos 
-      <lb ed="#G" n="109"/>mente dicimus, duros autem ineptos</quote>, vt <ref xml:id="HuYgTa-159627-Rfh1asd" corresp="#HuYgTa-159627-Qdh2scc">patet 2. de
-      ani<lb ed="#G" n="110" break="no"/>ma</ref>, quod verum est loquendo de mollitie proueniente 
-      <lb ed="#G" n="111"/>ex bonitate, seu raritate complexionis, &amp; non ex
-      abundan<lb ed="#G" n="112" break="no"/>tia flegmatis, sicut contingit in mulieribus. Quod autem 
-      <lb ed="#G" n="113"/>in paradiso vnus fuisset melioris complexionis altero, 
-      <lb ed="#G" n="114"/>hoc patet, quia tunc, sicut &amp; nunc secundum meliorem 
-      <lb ed="#G" n="115"/>coniunctionem abstrorum fuisset foetus conceptus
-      nobi<lb ed="#G" n="116" break="no"/>lioris complexionis. 
-    </p>
-            <p xml:id="HuYgTa-159627-d1e1057">
-               <lb ed="#G" n="117"/>
-               <pc type="indent"/>Forte dicetur, quod nullum potest esse dominium 
-      <lb ed="#G" n="118"/>sine seruitute, sed in paradiso non fuisset seruitus. Maior  
-      <lb ed="#G" n="119"/>patet, quia vnum relatiuorum non potest esse sine altero, 
-      <lb ed="#G" n="120"/>vt patet in libro praedicamentorum &amp; 5. metaph. Minor  
-      <lb ed="#G" n="121"/>etiam patet, quia solum propter peccatum seruitus est 
-      <lb ed="#G" n="122"/>introducta.
-    </p>
-            <p xml:id="HuYgTa-159627-d1e1075">
-               <lb ed="#G" n="123"/>2 Praeterea, omne dominium vtitur aliqua lege 
-               respe<lb ed="#G" n="124" break="no"/>ctu subditorum, sed <quote xml:id="HuYgTa-159627-Qxxnn7a" source="http://scta.info/resource/Itim1_9@3-8">iusto non est lex posita</quote>, vt ait 
-               <ref xml:id="HuYgTa-159627-Rvvha77" corresp="#HuYgTa-159627-Qxxnn7a">Aposto<lb ed="#G" n="125" break="no"/>lus</ref>, Cum ergo omnes in statu innocentiae fuissent
-      perfe<lb ed="#G" n="126" break="no"/>cte iusti propter originalem iustitiam, quam quilibet
-      ha<lb ed="#G" n="127" break="no"/>buisset in paradiso: ergo in paradiso non fuisset lex, nec 
-      <lb ed="#G" n="128"/>per consequens dominium. Et confirmatur, quia vt patet 
-      <lb ed="#G" n="129"/>10 ethicorum, Oportuit leges instituere coactiuam 
-               ha<lb ed="#G" n="130" break="no"/>bentes potentiam, &amp; hoc solum propter rebelles, &amp;
-      iniu<lb ed="#G" n="131" break="no"/>stos; In statu autem innocentiae nullus fuisset rebellis, vel 
-      <lb ed="#G" n="132"/>iniustus 
-    </p>
-            <p xml:id="HuYgTa-159627-d1e1099">
-               <lb ed="#G" n="133"/>
-               <pc type="indent"/>Respondeo, quod dominium potest dupliciter 
-               consi<lb ed="#G" n="134" break="no"/>derari. Vno modo, prout concernit timorem seruilem ex 
-      <lb ed="#G" n="135"/>cludentem dilectionem in subdito, &amp; hoc est dominium 
-      <lb ed="#G" n="136"/>Despoticum requirens seruitutem poenosam inductam 
-      <lb ed="#G" n="137"/>propter peccata huiusmodi. Et huiusmodi dominium in 
-      <lb ed="#G" n="138"/>statu innocentiae non habuisset homo respectu hominis 
-      <lb ed="#G" n="139"/>sed solum respectu irrationalium animalium. Propter 
-      <lb ed="#G" n="140"/>Quod Deus dixit primis parentibus, Dominamini piscibus 
-      <lb ed="#G" n="141"/>maris, &amp; volatilibus caeli: &amp; vniuersis animantibus, qua 
-      <lb ed="#G" n="142"/>mouentur super terra. Et infra dixit dominus Noae &amp; filiis 
-      <!--458.xml-->
-      <pb ed="#G" n="210-r"/>
-               <cb ed="#G" n="a"/>
-               <lb ed="#G" n="1"/>eius, Terror vester &amp; tremor sit super cucta animalia
-      ter<lb ed="#G" n="2" break="no"/>rae. Alio modo, prout concernit mutuam dilectionem. Et 
-      <lb ed="#G" n="3"/>hoc dupliciter, puta vel secundum liberam voluntatem, 
-      <lb ed="#G" n="4"/>&amp; sic est dominium regale, &amp; istud in paradiso competisset 
-      <lb ed="#G" n="5"/>patribus respectu filiorum. Vel secundum certas leget, &amp; 
-      <lb ed="#G" n="6"/>istud est dominium politicum, quod competit ei, qui 
-               prae<lb ed="#G" n="7" break="no"/>est ciuitati respectu ceterorum ciuium, &amp; istud 
-               competis<lb ed="#G" n="8" break="no"/>set in paradiso viro respectu vxoris, cui praefuisset,
-      secun<lb ed="#G" n="9" break="no"/>dum certas leges bonum matrimonii promouentes; &amp;  
-      <lb ed="#G" n="10"/>prudentior minus prudentibus politice in paradiso
-      prae<lb ed="#G" n="11" break="no"/>fuisset, inquantum ipsos instruxisset in talibus, quae ipsis 
-      <lb ed="#G" n="12"/>expediuissent.  
-    </p>
-            <p xml:id="HuYgTa-159627-d1e1159">
-               <lb ed="#G" n="13"/>
-               <pc type="indent"/>Et per hoc patet <ref xml:id="HuYgTa-159627-Rvn2222" target="http://scta.info/resource/HuYgTa-159627-d1e1057">ad primam instantiam</ref>.  
-      <lb ed="#G" n="14"/><ref xml:id="HuYgTa-159627-Rbnn33f" target="http://scta.info/resource/HuYgTa-159627-d1e1075">Ad secundum</ref> dicendum, quod apud nos sunt tres 
-               effe<lb ed="#G" n="15" break="no"/>ctus praelationis. Primus est subditos docere, quo modo 
-      <lb ed="#G" n="16"/>in suis actibus conuenientius dirigantur. Alius est
-      subdi<lb ed="#G" n="17" break="no"/>tos desendere, ne ab iniustis opprimantur Et tertius est 
-      <lb ed="#G" n="18"/>malos subditos punire, vt de suis excessibus corrigantur. 
-      <lb ed="#G" n="19"/>Primo modo fuissent lex, &amp; praelatio in paradiso; sed non 
-      <lb ed="#G" n="20"/>secundo, &amp; tertio modo. Et de his intelligitur auctoritas 
-      <lb ed="#G" n="21"/>tam Apostoli, quam Philosophi 
-    </p>
-            <p xml:id="HuYgTa-159627-d1e1183">
-               <lb ed="#G" n="22"/>
-               <pc type="indent"/>Praeterea, pro conclusione praedicta arguo sic. lllud, quam 
-      <lb ed="#G" n="23"/>couenit hominibus secundum rectam rationem, hoc competis 
-      <lb ed="#G" n="24"/>eis a Deo, seu secundum diuinam ordinationem, sed 
-               secun<lb ed="#G" n="25" break="no"/>dum rectam rationem debitum est inter hommes esse 
-      <lb ed="#G" n="26"/>prelationem: ergo &amp;c. Maior patet: quia ad hoc Deus dat 
-      <lb ed="#G" n="27"/>homini rationem, vt exequatur ea, quae debita sunt 
-               secun<lb ed="#G" n="28" break="no"/>dum rectam rationem Minorem probo: quia illud, quod 
-      <lb ed="#G" n="29"/>est naturale, &amp; expediens, est secundum rectam rationem 
-      <lb ed="#G" n="30"/>sed vt ait philosophus primo politicorum, in omni 
-               plura<lb ed="#G" n="31" break="no"/>litate ordinata naturale est &amp; expediens, vt vnus praesit, 
-      <lb ed="#G" n="32"/>&amp; alij sint subiecti; in his autem consistit ratio
-      praelatio<lb ed="#G" n="33" break="no"/>nis: ergo &amp;c 
-    </p>
-            <p xml:id="HuYgTa-159627-d1e1214">
-               <lb ed="#G" n="34"/>
-               <pc type="indent"/>Et confirmatur, quia in omnibus naturalibus videmus 
-      <lb ed="#G" n="35"/>quod inferiora reguntur per superiora, &amp; multitudo
-      re<lb ed="#G" n="36" break="no"/>ducitur ad vnitatem: sed mos, sicut &amp; ars debet 
-               imita<lb ed="#G" n="37" break="no"/>ri naturam. 
-    </p>
-            <p xml:id="HuYgTa-159627-d1e1227">
-               <lb ed="#G" n="38"/>
-               <pc type="indent"/>Sed secundo modo, &amp; tertio, puta quo ad modum 
-               adi<lb ed="#G" n="39" break="no"/>ipiscendi dominium, &amp; quo ad vsum dominii iam
-      ade<lb ed="#G" n="40" break="no"/>pti: sic dico, quod si talia fiant ordinate, &amp; secundum iuris 
-      <lb ed="#G" n="41"/>debitam exigentiam, puta obseruatis debitis 
-               conditioni<lb ed="#G" n="42" break="no"/>bus, &amp; circumstantiis in consecutione, &amp; vsu praelationis 
-      <lb ed="#G" n="43"/>requisitis: sic praelatio vel principatus est a Deo. Si autem 
-      <lb ed="#G" n="44"/>praedicta non obseruantur, tunc huiusmodi praelatio, &amp;  
-      <lb ed="#G" n="45"/>principatus, quamuis sint a Deo quantum ad naturam, &amp; 
-      <lb ed="#G" n="46"/>entitatem actuum, sicut &amp; cetera mala sunt a Deo, vt
-      su<lb ed="#G" n="47" break="no"/>perius est probatum: tamen non sunt a Deo quantum ac 
-      <lb ed="#G" n="48"/>deformitatem, &amp; obliquitate actus. Nam, vt sic, in talibus 
-      <lb ed="#G" n="49"/>mortale peccatum committitur, quod non potest esse a 
-      <lb ed="#G" n="50"/>Deo, sed a mala hominum voluntate. Vnde talibus
-      dici<lb ed="#G" n="51" break="no"/>tur. Ipsi regnauerunt, &amp; non ex me; principes extiterunt 
-      <lb ed="#G" n="52"/>&amp; non cognoui, scilcet notitia approbationis. 
-    </p>
-            <p xml:id="HuYgTa-159627-d1e1264">
-               <lb ed="#G" n="53"/>
-               <pc type="indent"/>Per praedictam etiam distinctionem patet resposio ac 
-      <lb ed="#G" n="54"/>quaedam communia obiecta, puta, quod cum dicitur, quod 
-      <lb ed="#G" n="55"/>quidam sunt peruersi principatus, Praeterea, quidam sunt 
-      <lb ed="#G" n="56"/>vsurpati principatus Preterea, a quibusdam iuste
-      aufer<lb ed="#G" n="57" break="no"/>tur principatus: sed sicut, quod Deus coniunxit, homo non 
-      <lb ed="#G" n="58"/>debet separare, sic quod quis habet a Deo, seu quod
-      ali<lb ed="#G" n="59" break="no"/>tui datum est a Deo, hoc iure non aufertur ab eo per 
-               ho<lb ed="#G" n="60" break="no"/>minem. Ista enim omnia &amp; consimilia solum concludunt 
-      <lb ed="#G" n="61"/>vel quantum ad inordinatum modum consequendi
-      prae<lb ed="#G" n="62" break="no"/>lationem, vel quantum ad inordinatum vsum: quia dato 
-      <lb ed="#G" n="63"/>quod aliquis iuste sit dominium consecutus, tamen
-      po<lb ed="#G" n="64" break="no"/>test eo ita peruerse vti, quod de iurc est tali dominio 
-               pri<lb ed="#G" n="65" break="no"/>uandus 
-    </p>
-            <p xml:id="HuYgTa-159627-d1e1297">
-               <lb ed="#G" n="66"/>
-               <pc type="indent"/>Quantum ad secundam partem quarti articuli
-      dicen<lb ed="#G" n="67" break="no"/>dum, quod talis infidelis vel est iuste consecutus 
-               huiusmo<lb ed="#G" n="68" break="no"/>di dominium, &amp; ordinate eo vtitur: uel iniuste est
-      huius<lb ed="#G" n="69" break="no"/>modi dominium consecutus; vel dato, quod dominium 
-      <lb ed="#G" n="70"/>iuste sit adeptus, tamen iniuste, &amp; inordinate eo vtitur. 
-    </p>
-            <p xml:id="HuYgTa-159627-d1e1314">
-               <lb ed="#G" n="71"/>
-               <pc type="indent"/>Primo modo dico, quod tales Christiani subditi tenentur 
-      <lb ed="#G" n="72"/>obedire huiusmodi principi, quamuis sit infidelis: nisi 
-               ali<lb ed="#G" n="73" break="no"/>quo modo iuste fuerint tali seruitute liberati, puta per 
-      <!--458.xml-->
-      <cb ed="#G" n="b"/>
-      <lb ed="#G" n="74"/>principem superiorem, qui plenum habet dominium: 
-               su<lb ed="#G" n="75" break="no"/>per illum infidelem dominum. Sed secundo, &amp; tertio 
-      <lb ed="#G" n="76"/>modo dico, quod ipsi non tenentur obedire tali
-      infide<lb ed="#G" n="77" break="no"/>li domino. 
-    </p>
-            <p xml:id="HuYgTa-159627-d1e1338">
-               <lb ed="#G" n="78"/><pc type="indent"/>1 Primo probo sic. Illud, quod quis iuste est assecutus,  
-      <lb ed="#G" n="79"/>hoc iniuste aufertur ab eo, nisi ipse abutatur eo: sed iste 
-               in<lb ed="#G" n="80" break="no"/>fidelis, vt supponitur, iuste est assecutus huiusmodi 
-               domi<lb ed="#G" n="81" break="no"/>nium, nec abusus est eo: ergo &amp;c. 
-    </p>
-            <p xml:id="HuYgTa-159627-d1e1351">
-               <lb ed="#G" n="82"/>
-               <pc type="indent"/>2 Preterea, <ref xml:id="HuYgTa-159627-Rghty57" corresp="#HuYgTa-159627-Qc8ahhh">beatus Petrus loquens de Christianis</ref> ait,  
-      <lb ed="#G" n="83"/><quote xml:id="HuYgTa-159627-Qc8ahhh" source="http://scta.info/resource/Ipetr2_18@1-14">Serui subditi estote in omni timore dominis, non tantum 
-      <lb ed="#G" n="84"/>bonis, &amp; modestis, sed etiam discolis</quote>.  
-    </p>
-            <p xml:id="HuYgTa-159627-d1e1362">
-               <lb ed="#G" n="85"/>
-               <pc type="indent"/>3 Praeterea ait <ref xml:id="HuYgTa-159627-Rghty5x" corresp="#HuYgTa-159627-Qd1e1371"><name xml:id="HuYgTa-159627-Nd1e1368">Apostolus</name></ref>, <quote xml:id="HuYgTa-159627-Qd1e1371" source="http://scta.info/resource/Itim6_1@1-11">Quicumque sunt sub iugo 
-               <lb ed="#G" n="86"/>serui, dominos suos arbitrentur omni honore dignos</quote>. Et 
-               <lb ed="#G" n="87"/>exponit hoc verbum glosa etiam de iugo dominorum 
-               <lb ed="#G" n="88"/>infidelium 
-             </p>
-            <p xml:id="HuYgTa-159627-d1e1382">
-               <lb ed="#G" n="89"/>
-               <pc type="indent"/>4 Item dicitur, <quote xml:id="HuYgTa-159627-Qcn58aa" source="http://scta.info/resource/rom13_1@1-6">Omnis anima potestatibus 
-               sublimiori<lb ed="#G" n="90" break="no"/>bus subdita sit</quote> 
-            </p>
-            <p xml:id="HuYgTa-159627-d1e1391">
-               <lb ed="#G" n="91"/>
-               <pc type="indent"/>5 Praeterea, ius diuinum, quod est ex gratia &amp; fide 
-               Chri<lb ed="#G" n="92" break="no"/>stiana, non tollit illud, quod est de iure humano, &amp; ex 
-               na<lb ed="#G" n="93" break="no"/>turali ratione: sed distinctio, quae est inter fidelem &amp;
-               in<lb ed="#G" n="94" break="no"/>fidelem, est ex iure diuino; iustum vero dominium est ex 
-               <lb ed="#G" n="95"/>iure humano, &amp; ex naturali ratione; ergo &amp;c. Minor
-               pa<lb ed="#G" n="96" break="no"/>tet ex praecedentibus. Maior probatur: quia sicut gratia 
-               <lb ed="#G" n="97"/>non tollit humanam naturam, sed perficit eam: ita nec 
-               <lb ed="#G" n="98"/>ius diuinum tollit illud, quod est de iure humano, &amp;
-               in<lb ed="#G" n="99" break="no"/>nascitur ex recta ratione; nec per consequens distinctio 
-               fi<lb ed="#G" n="100" break="no"/>delis ab infideli tollit dominium, seu principatum 
-               domi<lb ed="#G" n="101" break="no"/>ni infidelis, quem habet super fidelem subditum.
-            </p>
-            <p xml:id="HuYgTa-159627-d1e1399">
-               <lb ed="#G" n="102"/>Quidam tamen doctores dicunt, quod huiusmodi 
-               do<lb ed="#G" n="103" break="no"/>minium, quod habet princeps infidelis super populum 
-               <lb ed="#G" n="104"/>Christianum, ecclesia sua auctoritate iuste potest auferre 
-               <lb ed="#G" n="105"/>a tali principe. 
-             </p>
-            <p xml:id="HuYgTa-159627-d1e1429">
-               <lb ed="#G" n="106"/>
-               <pc type="indent"/>1 Quia infidelis demerito suae infidelitatis meretur 
-               <lb ed="#G" n="107"/>amittere potestatem, quam habuit super eos, qui 
-               transla<lb ed="#G" n="108" break="no"/>ti sunt in filios Dei. 
-            </p>
-            <p xml:id="HuYgTa-159627-d1e1440">
-               <lb ed="#G" n="109"/>
-               <pc type="indent"/>2 Praeterea, dicit Saluator, <quote xml:id="HuYgTa-159627-Qcn3aaa" source="http://scta.info/resource/io8_36@1-8">Si ergo vos filius
-               liberaue<lb ed="#G" n="110" break="no"/>rit, vere liberi eritis</quote>; sed quemlibet baptizatum filius Dei 
-               <lb ed="#G" n="111"/>suo sanguine redemit, &amp; liberauit. 
-            </p>
-            <p xml:id="HuYgTa-159627-d1e1451">
-               <lb ed="#G" n="112"/>
-               <pc type="indent"/>3 Preterea, dicit Saluator, quod filij sunt liberi a
-               tri<lb ed="#G" n="113" break="no"/>buto: sed omnibus regeneratis in Christo, <quote xml:id="HuYgTa-159627-Qcc11ax" source="http://scta.info/resource/io1_13@1-17">qui non ex 
-               san<lb ed="#G" n="114" break="no"/>guinibus, nec ex voluntate catnis, nec ex voluntate viri 
-               <lb ed="#G" n="115"/>sed ex Deo nati sunt</quote>, data est potestas, vt sint filii Dei, 
-               iux<lb ed="#G" n="116" break="no"/>ta illud, <quote xml:id="HuYgTa-159627-Qbbfh4a" source="http://scta.info/resource/io1_12@1-10">Quotquot autem receperunt eum, dedit eis 
-               po<lb ed="#G" n="117" break="no"/>testatem filios Dei fieri</quote>; ergo &amp;c 
-             </p>
-            <p xml:id="HuYgTa-159627-d1e1469">
-               <lb ed="#G" n="118"/>
-               <pc type="indent"/>4 Praeterea, cessante causa, cessat effectus, sed
-               pecca<lb ed="#G" n="119" break="no"/>tum, quod est causa seruitutis, cessat per baptismum: 
-               <lb ed="#G" n="120"/>ergo &amp;c. 
-            </p>
-            <p xml:id="HuYgTa-159627-d1e1480">
-               <lb ed="#G" n="121"/>
-               <pc type="indent"/>5 Praeterea, quod absoluit a maiori vinculo, potest 
-               <lb ed="#G" n="122"/>etiam absoluere a minori; sed fides absoluit a vinculo 
-               <lb ed="#G" n="123"/>matrimonii, quo ligatus fuit homo fidelis, antequam 
-               fi<lb ed="#G" n="124" break="no"/>dem reciperet, cum persona infideli, quod quidem 
-               vincu<lb ed="#G" n="125" break="no"/>lum maius, &amp; intimius esse videtur, quam vinculum
-               serui<lb ed="#G" n="126" break="no"/>tutis; quia in paradiso fuit a Deo institutum. Etiam de 
-               ip<lb ed="#G" n="127" break="no"/>so ait Saluator in euangelio, <quote xml:id="HuYgTa-159627-Qaaxwas" source="http://scta.info/resource/mt19_6@9-15">quod Deus coniunxit,
-               ho<lb ed="#G" n="128" break="no"/>mo non separet</quote>; ergo merito fidelis poterit absolui a 
-               vin<lb ed="#G" n="129" break="no"/>culo infidelis domini 
-             </p>
-            <p xml:id="HuYgTa-159627-d1e1504">
-               <lb ed="#G" n="130"/>
-               <pc type="indent"/>Sed saluo semper iudicio meliori istud non teneo 
-               <lb ed="#G" n="131"/>1 Quia iste, qui non est de iurisdictione ecclesiae, nisi alium 
-               <lb ed="#G" n="132"/>de peccet contra ecclesiam, quam in hoc solum, quod non 
-               <lb ed="#G" n="133"/>tenet fidem ecclesiae, non potest iuste puniri per ecclesiam; 
-               <lb ed="#G" n="134"/>sed iste supponitur in nullo peccasse contra ecclesiam; 
-               <lb ed="#G" n="135"/>nisi in hoc solo, quod non tenet fidem ecclesiae. &amp;
-               graui<lb ed="#G" n="136" break="no"/>ter punitur dominus in hoc, quod ab eo aufertur
-               iurisdi<lb ed="#G" n="137" break="no"/>ctio suae dominationis, quam habet super proprios seruos 
-               <lb ed="#G" n="138"/>ergo &amp;c. 
-            </p>
-            <p xml:id="HuYgTa-159627-d1e1529">
-               <lb ed="#G" n="139"/>
-               <pc type="indent"/>2 Praeterea, nullus infidelis, qui numquam subfuit
-               fi<lb ed="#G" n="140" break="no"/>dei ecclesiae, violenter debet compelli ad suscipiendum 
-               <lb ed="#G" n="141"/>fidem ecciesiae: sed si ecclesia quemlibet de nouo venientem 
-               <lb ed="#G" n="142"/>ad fidem liberaret a seruitute, qua tenebatur domino 
-               in<lb ed="#G" n="143" break="no"/>fideli, huiusmodi dominus violenter compelleretur ad 
-               fi<lb ed="#G" n="144" break="no"/>dem, quia quilibet suorum seruorum posset ad fidem 
-               con<lb ed="#G" n="145" break="no"/>uerti, &amp; sic ipse rotum principatum suum perderet, nisi 
-               fi<lb ed="#G" n="146" break="no"/>dem Christianam susciperet.
-             </p>
-            <p xml:id="HuYgTa-159627-d1e1551">
-               <pb ed="#G" n="210-v"/>
-               <cb ed="#G" n="a"/>
-               <lb ed="#G" n="1"/>1 Forte dicetur, quod statutum est eccclesiae, vt patet 
-               <lb ed="#G" n="2"/><ref xml:id="HuYgTa-159627-Rja2244" target="http://scta.info/resource/cice-l5t6-d1e119"><!-- TODO: targets needs review; this is best guess -->extra de Iudaeis</ref>, quod si quis seruus Iudaeorum factus 
-               fue<lb ed="#G" n="3" break="no"/>rit Christianus, statim a seruitute liberatur, si fuerit
-               ver<lb ed="#G" n="4" break="no"/>naculus, idest, in seruitute natus; ac etiam si fuerit
-               em<lb ed="#G" n="5" break="no"/>ptitius, id est, ad seruitium emptus. 
-             </p>
-            <p xml:id="HuYgTa-159627-d1e1571">
-               <lb ed="#G" n="6"/>
-               <pc type="indent"/>2 Praeterea, si talis Christianus maneret sub iugo
-               hu<lb ed="#G" n="7" break="no"/>ius infidelis principis, tunc ille dominus infidelis posset 
-               <lb ed="#G" n="8"/>talem subditum compellere ad hoc, vt Christi fidem
-               di<lb ed="#G" n="9" break="no"/>mitteret, &amp; Christum blasphemaret 
-             </p>
-            <p xml:id="HuYgTa-159627-d1e1584">
-               <lb ed="#G" n="10"/>
-               <pc type="indent"/>Respondeo, quod secus est de Iudaeis, &amp; ceteris
-               infideli<lb ed="#G" n="11" break="no"/>bus: quia Iudaei exigente suo demerito per Romanos 
-               prin<lb ed="#G" n="12" break="no"/>cipes sunt in seruitutem redacti, &amp; proprii serui facti. 
-               Ser<lb ed="#G" n="13" break="no"/>uus enim dicitur a seruando. quia, cum iure belli 
-               obten<lb ed="#G" n="14" break="no"/>tus iuste posset occidi a principe, seruatur: &amp; sic ipse cum 
-               <lb ed="#G" n="15"/>sua posteritate in seruitutem redigitur. Sic factum est 
-               <lb ed="#G" n="16"/>de Iudaeis per Titum &amp; Vespesianum. Cum igitur in 
-               suc<lb ed="#G" n="17" break="no"/>cessu temporis Romani principes facti sint Christiani: 
-               er<lb ed="#G" n="18" break="no"/>go Romana ecclesia ad fauorem fidei seruos Iudaeorum 
-               <lb ed="#G" n="19"/>ad fidem conuersos, potest liberos reddere: quia ipsi
-               Iu<lb ed="#G" n="20" break="no"/>daei &amp; bona eorum subsunt auctoritati ecclesiae per
-               fauo<lb ed="#G" n="21" break="no"/>rem Romanorum Imperatorum, qui hoc ecclesiae 
-               contu<lb ed="#G" n="22" break="no"/>lerunt: hoc autem non tenet de ceteris infidelibus. 
-             </p>
-            <p xml:id="HuYgTa-159627-d1e1617">
-               <lb ed="#G" n="23"/>
-               <pc type="indent"/><ref>Ad secundam instantiam</ref> dicendum, quod si princeps 
-               <lb ed="#G" n="24"/>infidelis cogeret subditum fidelem ad negandum fidem 
-               <lb ed="#G" n="25"/>tunc abuteretur sua potestate: propter quod mereretur eam 
-               <lb ed="#G" n="26"/>perdere, &amp; etiam iustum bellum contra ipsum, &amp; contra 
-               <lb ed="#G" n="27"/>suum dominium per ecclesiam, &amp; omnes Christianos 
-               pos<lb ed="#G" n="28" break="no"/>set moueri intantum, quod non solum subditi a suo
-               do<lb ed="#G" n="29" break="no"/>minio possent inste liberari, verum etiam persona talis 
-               <lb ed="#G" n="30"/>principis iuste posset in seruitutem redigi, vel etiam
-               pri<lb ed="#G" n="31" break="no"/>uari. 
-             </p>
-            <p xml:id="HuYgTa-159627-d1e1641">
-               <lb ed="#G" n="32"/>
-               <pc type="indent"/><ref xml:id="HuYgTa-159627-Rccu8hg" target="http://scta.info/resource/HuYgTa-159627-d1e1429">Ad primum motiuum illius opinionis</ref> dicendum, quod 
-               <lb ed="#G" n="33"/>nisi aliquo alio modo princeps infidelis abutatur sua
-               po<lb ed="#G" n="34" break="no"/>testate, ex simplici sua infideitate non meretur eam perdere 
-             </p>
-            <p xml:id="HuYgTa-159627-d1e1653">
-               <lb ed="#G" n="35"/><pc type="indent"/><ref xml:id="HuYgTa-159627-Roos88s" target="http://scta.info/resource/HuYgTa-159627-d1e1351">Ad secundum</ref> dicendum, quod illa verba Christi 
-               pos<lb ed="#G" n="36" break="no"/>sunt intelligi de libertate, qua liberati sunt Christiani 
-               <lb ed="#G" n="37"/>seruitute legis Mosaycae, quantum ad obseruantiam 
-               ceri<lb ed="#G" n="38" break="no"/>monialium praeceptorum. Possunt etiam intelligi de
-               liber<lb ed="#G" n="39" break="no"/>itate, qua liberati sumus a peccato, &amp;a diaboli seruitute. 
-             </p>
-            <p xml:id="HuYgTa-159627-d1e1669">
-               <lb ed="#G" n="40"/>
-               <pc type="indent"/><ref xml:id="HuYgTa-159627-Rfa2ada" target="http://scta.info/resource/HuYgTa-159627-d1e1362">Ad tertium</ref> dicendum, quod Christus intelligit ibi per
-               <lb ed="#G" n="41"/>filios Apostolos, qui de bonis huius mundi nihil 
-               posside<lb ed="#G" n="42" break="no"/>bant, teste Petro, qui ait, <quote xml:id="HuYgTa-159627-Qzzxxcc" source="http://scta.info/resource/mt19_27@6-13">Ecce nos reliquimus omnia &amp;  
-               <lb ed="#G" n="43"/>secuti sumus te</quote>. &amp; ideo non tenebantur ad solutionem 
-               <lb ed="#G" n="44"/>tributi. Sed Iudaeis, qui bona mundi possidebant, dixit idem 
-               <lb ed="#G" n="45"/>Christus, <quote source="http://scta.info/resource/mc12_17@6-16 http://scta.info/resource/mt22_21@6-17">Reddite, quae sunt Caesaris Caesari, &amp; quae sunt 
-               <lb ed="#G" n="46"/>Dei Deo.</quote> Quasi dicat, Tributum dare debetis de 
-               tempo<lb ed="#G" n="47" break="no"/>ralibus, quae possidetis 
-             </p>
-            <p xml:id="HuYgTa-159627-d1e1691">
-               <lb ed="#G" n="48"/>
-               <pc type="indent"/><ref xml:id="HuYgTa-159627-Rfsq2x2" target="http://scta.info/resource/HuYgTa-159627-d1e1469">Ad quartum</ref> dicendum, quod quamuis per gratiam, &amp; 
-               <lb ed="#G" n="49"/>caritatem, ac etiam per catholicam fidem, quam
-               Chri<lb ed="#G" n="50" break="no"/>stianus recipit in baptismo, anima liberetur a malo culpae 
-               <lb ed="#G" n="51"/>tamen corpus suum non liberabitur a malo poenae 
-               mori<lb ed="#G" n="52" break="no"/>tur enim baptizatus, sicut non baptizatus, nec etiam per 
-               <lb ed="#G" n="53"/>fidem liberamur a debito iustitiae, sed iustum est principi 
-               <lb ed="#G" n="54"/>obedire, quamuis infideli, qui dominium suum iuste 
-               con<lb ed="#G" n="55" break="no"/>secutus est, &amp; iuste, &amp; ordinate eo vtitur 
-             </p>
-            <p xml:id="HuYgTa-159627-d1e1713">
-               <lb ed="#G" n="56"/>
-               <pc type="indent"/><ref xml:id="HuYgTa-159627-Rffq2da" target="http://scta.info/resource/HuYgTa-159627-d1e1480">Ad quintum</ref> dicendum, quod si vnus coniugum ad fi<cb ed="#G" n="b"/><lb ed="#G" n="57" break="no"/>dem 
-               conuertitur, altero manente infideli, si infidelis 
-               con<lb ed="#G" n="58" break="no"/>sentit habitare cum fideli ipsum non turbando, &amp; 
-               allicien<lb ed="#G" n="59" break="no"/>do ad infidelitatem, &amp; absque blasphemia Creatoris, tunc 
-               <lb ed="#G" n="60"/>fidelis non est absolutus a vinculo matrimonii. Si autem 
-               <lb ed="#G" n="61"/>infidelis nollet fideli cohabitare, nisi ipsum alliciendo ad 
-               <lb ed="#G" n="62"/>infidelitatem, &amp; creatorem <sic>plasphemando</sic>, tunc suo
-               de<lb ed="#G" n="63" break="no"/>merito perdit ius, quod habuit in personam fidelem, &amp; 
-               <lb ed="#G" n="64"/>per consequens iuste absoluitur fidelis ab infideli. De isti 
-               <lb ed="#G" n="65"/>etiam magis complete apparuit in isto lib. 4. Et sic eodem 
-               <lb ed="#G" n="66"/>modo, si princeps infidelis nihil exigit a subdito fideli 
-               prae<lb ed="#G" n="67" break="no"/>ter illud, quod de iure debet exigere, tunc subditus 
-               tene<lb ed="#G" n="68" break="no"/>tur obedire. Si autem subditum vellet artare ad ea, qua 
-               <lb ed="#G" n="69"/>essent contra Deum, &amp; contra animae suae salutem, tunc 
-               <lb ed="#G" n="70"/>infidelis princeps perderet illud ius, quod habuit super 
-               <lb ed="#G" n="71"/>huiusmodi subditum,
-             </p>
-            <p xml:id="HuYgTa-159627-d1e1757">
-               <lb ed="#G" n="72"/><pc type="indent"/>Secundo dico, quod si talis princeps iniuste est
-               huius<lb ed="#G" n="73" break="no"/>modi dominium consecutus, tunc subditi non tenentur 
-               <lb ed="#G" n="74"/>sibi obedire; &amp; ab eo iuste possunt recedere. 
-             </p>
-            <p xml:id="HuYgTa-159627-d1e1768">
-               <lb ed="#G" n="75"/><pc type="indent"/>Quia ab iniusto possessore iuste aufertur illud, quod 
-               <lb ed="#G" n="76"/>possidet iniuste: sed talis Tyrannus iniuste possidet 
-               huius<lb ed="#G" n="77" break="no"/>modi dominium, vt supponitur, ergo &amp;c 
-             </p>
-            <p xml:id="HuYgTa-159627-d1e1780">
-               <lb ed="#G" n="78"/><pc type="indent"/>Tertio dico, quod dato, quod princeps infidelis iuste 
-               <lb ed="#G" n="79"/>sit assecutus suum dominium, si tamen vtitur tali
-               domi<lb ed="#G" n="80" break="no"/>nio iniuste, puta ad blasphemiam creatoris, impediendo 
-               <lb ed="#G" n="81"/>subditum quo ad ea, quae spectant ad fidem Christianam, 
-               <lb ed="#G" n="82"/>iterum meretur perdere huiusmodi dominium.  
-             </p>
-            <p xml:id="HuYgTa-159627-d1e1796">
-               <lb ed="#G" n="83"/><pc type="indent"/>Et licet ista conclusio pateat ex praedictis, tamen ipsam 
-               <lb ed="#G" n="84"/>potero persuadere hoc modo. Quandocumque idem 
-               sub<lb ed="#G" n="85" break="no"/>ditus obligatus est duobus dominis, vni tamquam 
-               simpli<lb ed="#G" n="86" break="no"/>citer superiori, &amp; alteri tamquam inferiori: si inferior 
-               prin<lb ed="#G" n="87" break="no"/>ceps coartat huiusmodi subditum dissentire a fidelitate 
-               <lb ed="#G" n="88"/>domini superioris, tunc talis princeps secundum leges, &amp;  
-               <lb ed="#G" n="89"/>iura perdidit iurisdictionem respectu talis subditi, nec 
-               hu<lb ed="#G" n="90" break="no"/>iusmodi subditus ad eius obedietiam vlterius obligatur, 
-               <lb ed="#G" n="91"/>sed Deus est summus dominus, &amp; vuiuersalissimus 
-               Impe<lb ed="#G" n="92" break="no"/>rator, respectu cuius omnis princeps huius mundi est 
-               in<lb ed="#G" n="93" break="no"/>ferior; ergo &amp;c 
-             </p>
-            <p xml:id="HuYgTa-159627-d1e1825">
-               <lb ed="#G" n="94"/><pc type="indent"/>Ad argumentum principale dicendum, quod per illa
-               <lb ed="#G" n="95"/>verba non intendit beatus Ioannes, quod aliquod pecca<lb ed="#G" n="96" break="no"/>tum 
-               quamuiscumque magnum sit totaliter irremissibile 
-               <lb ed="#G" n="97"/>quamdiu viuit homo in hoc mundo, sed intendit dicere 
-               <lb ed="#G" n="98"/>quod sit valde difficile obtinere remissionem de
-               huius<lb ed="#G" n="99" break="no"/>modi nephandissimis peccatis; &amp; ideo non per orationem 
-               <lb ed="#G" n="100"/>cuiuslibet mediocris Christiani reducitur talis peccator 
-               <lb ed="#G" n="101"/>ad condignam poenitentiam, sed solum per orationem 
-               <lb ed="#G" n="102"/>excellentium, &amp; deuotissimorum fidelium. Etiam posset 
-               <lb ed="#G" n="103"/>dici, quod beatus Ioannes per illud peccatum in morto 
-               <lb ed="#G" n="104"/>intelligit peccatum in spiritum sanctum ex illa
-               circum<lb ed="#G" n="105" break="no"/>stantia, quae est finalis impoenitentia: quia vbi de certo 
-               con<lb ed="#G" n="106" break="no"/>staret aliquem in peccato mortali sine poenitentia ab hac
-               <lb ed="#G" n="107"/>vita migrasse, pro isto non esset orandum secundum
-               le<lb ed="#G" n="108" break="no"/>gem communem, eo quod talis sit extra statum merendi 
-               <lb ed="#G" n="109"/>in quo statu nos conseruet pro via praesentis
-               peregrina<lb ed="#G" n="110" break="no"/>tionis, donec perducat ad patriam beatae fruitionis, 
-               Salua<lb ed="#G" n="111" break="no"/>tor omnium saluandorum, qui viuit, &amp; regnat in saecula 
-               <lb ed="#G" n="112"/>seculorum Amen 
-             </p>
-         </div>
-      </body>
-   </text>
+            <lb ed="#G" n="1"/>qmandoque dicitur peccatum ex electione, quandoque 
+            pecca<lb ed="#G" n="2" break="no"/>tum ex habitu, &amp; finalem impoenitentiam, &amp; sic erunt octo. 
+          </p>
+          <p xml:id="HuYgTa-159627-d1e331">
+            <lb ed="#G" n="3"/>
+            <pc type="indent"/>Distinctio autem horum fic haberi potest; quia 
+            quat<lb ed="#G" n="4" break="no"/>tuor possumus in proposito considerare, scilicet
+            ipso<lb ed="#G" n="5" break="no"/>rum peccatorum medicum, medicinam, infirmum, &amp;
+            in<lb ed="#G" n="6" break="no"/>firmitatem. 
+          </p>
+          <p xml:id="HuYgTa-159627-d1e344">
+            <lb ed="#G" n="7"/>
+            <pc type="indent"/>Per comparationem igitur ad medicum accipitur
+            des<lb ed="#G" n="8" break="no"/>peratio, &amp; praesumptio: nam aliqui solum attendunt eius 
+            <lb ed="#G" n="9"/>iustitiam, nihil reputantes eius misericordiam, modo, quo 
+            <lb ed="#G" n="10"/>dixit Cavm, Maior est iniquitas mea, quam vt veniam
+            me<lb ed="#G" n="11" break="no"/>rear. Et horum peccatum est desperatio. Isti autem sunt 
+            <lb ed="#G" n="12"/>calde ingrati, quod non attendunt, quam magna Dei miseri 
+            <lb ed="#G" n="13"/>cordia est, quod etiam ipsi in hoc mundo viuunt, &amp; iam 
+            <lb ed="#G" n="14"/>in infernum non descendunt, &amp; ideo non haberent
+            neg<lb ed="#G" n="15" break="no"/>re diuinam misericordiam: sed deberent eam suppliciter 
+            <lb ed="#G" n="16"/>exorare. Vnde de tali ingratitudine videtur dicere
+            bern<lb ed="#G" n="17" break="no"/>cum ait, Ingratitudo est ventus vrens, siccans fontem 
+            pie<lb ed="#G" n="18" break="no"/>tatis, veniam misericordiae, fluenta gratiae. Aliij attendunt 
+            <lb ed="#G" n="19"/>solum Dei misericordiam in nullo formidantes eius
+            iu<lb ed="#G" n="20" break="no"/>stitiam, &amp; istorum peccatum est praesumptio: nimis enim 
+            <lb ed="#G" n="21"/>praesumit, qui tanti regis iustitiam non formidat 
+          </p>
+          <p xml:id="HuYgTa-159627-d1e381">
+            <lb ed="#G" n="22"/>
+            <pc type="indent"/>Respectu medicinae, quae quidem medicina est fides &amp;  
+            <lb ed="#G" n="23"/>gratia, sumuntur alia duo. Nam impugnantes fidei 
+            verita<lb ed="#G" n="24" break="no"/>tem, &amp; inuidentes gratiae gratum facienti fratribus
+            com<lb ed="#G" n="25" break="no"/>municatae, inutilem faciunt sibi medicinam suorum
+            pec<lb ed="#G" n="26" break="no"/>ratorum, quae consistit in fide &amp; gratia. 
+          </p>
+          <p xml:id="HuYgTa-159627-d1e397">
+            <lb ed="#G" n="27"/>
+            <pc type="indent"/>Ex parte vero infirmi, scilicet peccatoris, se tenent alia 
+            <lb ed="#G" n="28"/>duo: nam peccator ex hoc, quod omnino pertinaciter se 
+            <lb ed="#G" n="29"/>couertit ad commutabile bonum, dicitur obstinatus:: sed ex 
+            <lb ed="#G" n="30"/>hoc, quod omnino pertinaciter se auertit ab
+            incommu<lb ed="#G" n="31" break="no"/>tabili bono dicitur impoenitens . non habere propositum 
+            <lb ed="#G" n="32"/>poenitendi, quo possit redire ad huiusmodi
+            incommuta<lb ed="#G" n="33" break="no"/>bile bonum. Sed ex parte infirmitatis se tenent vltima 
+            <lb ed="#G" n="34"/>duo; nam peccatum ex electione, seu ex certa malitia est 
+            <lb ed="#G" n="35"/>ex habitu vitioso, qui est turpissima mentis infirmitas. 
+            Fi<lb ed="#G" n="36" break="no"/>nalis autem impoenitentia est huiusmodi infirmitatis, &amp;  
+            <lb ed="#G" n="37"/>morbi cuiuslibet mortalis peccati maledicta <sic>creticatio</sic> 
+            <lb ed="#G" n="38"/>tendens in mortem aeternam. 
+          </p>
+          <p xml:id="HuYgTa-159627-d1e428">
+            <lb ed="#G" n="39"/>
+            <pc type="indent"/>Est tamen aduertendum, quod prima quattuor magis 
+            <lb ed="#G" n="40"/>proprie dicuntur esse peccata, cum sint distincta &amp;
+            de<lb ed="#G" n="41" break="no"/>terminata genera peccatorum secundum distinctam
+            ma<lb ed="#G" n="42" break="no"/>teriam. Alia vero magis proprie possunt dici
+            circumstan<lb ed="#G" n="43" break="no"/>tiae, vel sequelae peccatorum: quia quodlibet istorum non 
+            <lb ed="#G" n="44"/>habet materiam determinatam, sed applicabilia sunt ad 
+            <lb ed="#G" n="45"/>quodlibet genus mortalis peccati. In quolibet enim
+            ge<lb ed="#G" n="46" break="no"/>nere peccati homo potest fieri obstinatus, &amp; non habere 
+            <lb ed="#G" n="47"/>propositum consitendi vel poenitendi, &amp; habitum
+            vitio<lb ed="#G" n="48" break="no"/>sum acquirere &amp; sine poenitentia finaliter mori, seu dece 
+            <lb ed="#G" n="49"/>dere. Et ideo quo ad hoc magis approbabo sententiam 
+            il<lb ed="#G" n="50" break="no"/>lorum doctorum, qui quattuor dicunt esse genera
+            pecca<lb ed="#G" n="51" break="no"/>torum in spiritum sanctum, 
+          </p>
+        </div>
+        <div xml:id="HuYgTa-159627-Dd1e464">
+          <head xml:id="HuYgTa-159627-Hd1e466">Articulus 2</head>
+          <head xml:id="HuYgTa-159627-Hd1e468" type="question-title">Utrum peccatum in spiritum sanctum sit irremissibile</head>
+          <p xml:id="HuYgTa-159627-d1e461">
+            <lb ed="#G" n="52"/>
+            <pc type="indent"/>ARTICVLVS II. 
+            <lb ed="#G" n="53"/>Vtrum peccatum in spiritum sanctum sit 
+            <lb ed="#G" n="54"/>irremissibile
+          </p>
+          <p xml:id="HuYgTa-159627-d1e473">
+            <lb ed="#G" n="55"/>QVANTVM ad secundum articulum dico, quod  
+            <lb ed="#G" n="56"/>respectu diuinae potentiae nullum peccatum est 
+            <lb ed="#G" n="57"/>irremissibile¬ 
+          </p>
+          <p xml:id="HuYgTa-159627-d1e482">
+            <lb ed="#G" n="58"/>
+            <pc type="indent"/>1 Posset enim Deus, si vellet, remittere tam viuorum 
+            <lb ed="#G" n="59"/>quam mortuorum, tam daemonum, quam hominum 
+            pec<lb ed="#G" n="60" break="no"/>cata: sed vocando peccatum remissibile, quod
+            derelin<lb ed="#G" n="61" break="no"/>quit aptitudinem, seu concernit habilitatem ad hoc, quo 
+            <lb ed="#G" n="62"/>remittatur, sic quodlibet peccatum in spiritum sanctum 
+            <lb ed="#G" n="63"/>potest dici irremissibile: nam quamuis peccatum ex 
+            igno<lb ed="#G" n="64" break="no"/>rantia, vel ex passionis impulsu, vel impotentia 
+            aliquate<lb ed="#G" n="65" break="no"/>nus excusetur, &amp; per consequens concernat habilitatem 
+            <lb ed="#G" n="66"/>ad remissionem: tamen peccatum in spiritum sanctum  
+            <lb ed="#G" n="67"/>nullam habet causam annexam peccatum excusantem 
+            <!--456.xml-->
+            <cb ed="#G" n="b"/>
+            <lb ed="#G" n="68"/>sed solum aggrauantem; ideo nullam concernit 
+            aptitudi<lb ed="#G" n="69" break="no"/>nem ad sui remissionem.
+          </p>
+          <p xml:id="HuYgTa-159627-d1e517">
+            <lb ed="#G" n="70"/>2 Praeterea, sicut infirmitas corporalis dicitur :
+            incu<lb ed="#G" n="71" break="no"/>rabilis, cum per ipsam sic disponitur infirmus, quod 
+            om<lb ed="#G" n="72" break="no"/>nem escam abominatur, &amp; omnem medicinam abhorret 
+            <lb ed="#G" n="73"/>&amp; refutat, iuxta illud psal. Omnem escam abominata est 
+            <lb ed="#G" n="74"/>anima eorum, &amp; appropinquauerunt vsque ad portas
+            mor<lb ed="#G" n="75" break="no"/>tis: Sic quia peccans in spiritum sanctum abhorret
+            spiri<lb ed="#G" n="76" break="no"/>tualem medicinam, vt patet ex praecedentibus: ergo &amp;c 
+          </p>
+          <p xml:id="HuYgTa-159627-d1e535">
+            <lb ed="#G" n="77"/>
+            <pc type="indent"/> Praeterea, nullum peccatum mortale dimittitur
+            si<lb ed="#G" n="78" break="no"/>ne poenitentia: sed quodlibet peccatum in spiritum
+            san<lb ed="#G" n="79" break="no"/>ctum aliquo modo facit peccatorem impoenitiuum: ergo 
+            <lb ed="#G" n="80"/>quodlibet potest dici irremissibile.
+          </p>
+          <p xml:id="HuYgTa-159627-d1e548">
+            <lb ed="#G" n="81"/>Dicunt autem quidam doctores in ista materia, quod 
+            <lb ed="#G" n="82"/>si vocetur peccatum in spiritum sanctum peccatum 
+            mor<lb ed="#G" n="83" break="no"/>tale cum finali impeonitentia, vt accipitur peccatum in 
+            spiri<lb ed="#G" n="84" break="no"/>tum sanctum a beato Augustino, sic simpliciter dicitur in 
+            <lb ed="#G" n="85"/>remissibile: quia numquam potest remitti, nec in vita ista 
+            <lb ed="#G" n="86"/>impediente fnali impoenitentia, nec in alia vita, quia in ea 
+            <lb ed="#G" n="87"/>non erit status remissionis: ergo &amp;c 
+          </p>
+          <p xml:id="HuYgTa-159627-d1e566">
+            <lb ed="#G" n="88"/>1 Sed istud non videtur esse verum: quia infinita potens 
+            <lb ed="#G" n="89"/>tia Dei non exhauritur magnitudine cuiuscumque
+            pec<lb ed="#G" n="90" break="no"/>cati; ergo Deus omne peccatum potest remittere.
+          </p>
+          <p xml:id="HuYgTa-159627-d1e576">
+            <lb ed="#G" n="91"/>2 Praeterea, satis communiter dicitur ad preces
+            Gre<lb ed="#G" n="92" break="no"/>gorii Traianum fuisse ab inferno liberatum, &amp; ad agendum 
+            <lb ed="#G" n="93"/>poenitentiam de mortuis resuscitatum: &amp; tamen planum 
+            <lb ed="#G" n="94"/>est, quod Traianus in multis peccatis mortalibus decessit 
+            <lb ed="#G" n="95"/>propter multas martyrum strages, quas fecit, &amp; cum finali 
+            <lb ed="#G" n="96"/>impoenitentia decessit, quia si poenitentiam egisset,
+            ante<lb ed="#G" n="97" break="no"/>quam decessisset, tunc pro suis peccatis non fuisset
+            dam<lb ed="#G" n="98" break="no"/>natus, nec pro agenda poenitentia fuisset resuscitatus. 
+          </p>
+        </div>
+        <div xml:id="HuYgTa-159627-Dd1e606">
+          <head xml:id="HuYgTa-159627-Hd1e608">Articulus 3</head>
+          <head xml:id="HuYgTa-159627-Hd1e610" type="question-title">Utrum omnis potentia peccandi sit a Deo</head>
+          <p xml:id="HuYgTa-159627-d1e596">
+            <lb ed="#G" n="99"/>
+            <pc type="indent"/>ARTICVLVS III 
+            <lb ed="#G" n="100"/>Vtrum omnis potentia peccandi sit 
+            <lb ed="#G" n="101"/>a Deo.
+          </p>
+          <p xml:id="HuYgTa-159627-d1e609">
+            <lb ed="#G" n="102"/>QVANTVM ad tertium articulum dico, quod 
+            poten<lb ed="#G" n="103" break="no"/>tia peccandi est a Deo.
+          </p>
+          <p xml:id="HuYgTa-159627-d1e616">
+            <lb ed="#G" n="104"/><pc type="indent"/> 1 Quia omne ens est a Deo, potentia peccandi est ali 
+            <lb ed="#G" n="105"/>quod ens: ergo &amp;c. Maior patet ex fide: quia sine ipso
+            fa<lb ed="#G" n="106" break="no"/>ctum est nihil Probo minorem: quia quod purum nihil 
+            <lb ed="#G" n="107"/>est, nulla potentia est 
+          </p>
+          <p xml:id="HuYgTa-159627-d1e627">
+            <lb ed="#G" n="108"/><pc type="indent"/> 2 Praeterea potentia benefaciendi est a Deo: ergo &amp; 
+            <lb ed="#G" n="109"/>otentia peccandi. Antecedens patet. Consequentiam  
+            <lb ed="#G" n="110"/>probo: quia eadem est potentia merendi &amp; demerendi; 
+            <lb ed="#G" n="111"/>quod probatur sic: quia potentia rationali possumus
+            be<lb ed="#G" n="112" break="no"/>nefacere &amp;, mereri, sed potentiae rationales sunt ad 
+            op<lb ed="#G" n="113" break="no"/>posita: eadem ergo potentia possumus malefacere &amp;
+            de<lb ed="#G" n="114" break="no"/>mereri, quod proprie est peccare. 
+          </p>
+          <p xml:id="HuYgTa-159627-d1e647">
+            <lb ed="#G" n="115"/>
+            <pc type="indent"/>3 Praeterea, sola voluntas est proprie potentia 
+            peccan<lb ed="#G" n="116" break="no"/>di, vt patet per <ref xml:id="HuYgTa-159627-Rd1e655">Aug: 2. de lib. arbitrio</ref>, sed voluntas est a 
+            <lb ed="#G" n="117"/>Deo: ergo &amp;c. 
+          </p>
+          <p xml:id="HuYgTa-159627-d1e662">
+            <lb ed="#G" n="118"/>
+            <pc type="indent"/>4 Praeterea, omne bonum est a Deo: sed potentiae
+            ma<lb ed="#G" n="119" break="no"/>lorum sunt bonae, vt dicitur. 3. topi. ergo &amp;c. 
+          </p>
+          <p xml:id="HuYgTa-159627-d1e671">
+            <lb ed="#G" n="120"/><pc type="indent"/> Sed quidam doctores circa istam materiam respondent 
+            <lb ed="#G" n="121"/>per distinctionem. Dicunt enim, quod potentia peccandi 
+            <lb ed="#G" n="122"/>potest dupliciter considerari. Vno modo, prout est 
+            princi<lb ed="#G" n="123" break="no"/>pium actus. Alio modo, vt potest deficere. Primo modo 
+            <lb ed="#G" n="124"/>est a Deo: quia, quicquid habet naturam entis positiui, 
+            <lb ed="#G" n="125"/>oportet, quod reducatur ad Deum, sicut ad causam.
+            pri<lb ed="#G" n="126" break="no"/>mam. Sed secundo modo non est a Deo: quia
+            defectibili<lb ed="#G" n="127" break="no"/>tas conuenit rei creatae ex eo, quod est ex nihilo, vt ait Dam. 
+            <lb ed="#G" n="128"/>esse autem ex nihilo conuenit rei creatae secundum se: 
+            <lb ed="#G" n="129"/>quia sibi derelicta tendit in nihilum, &amp; per consequens 
+            <lb ed="#G" n="130"/>non poterit sibi conuenire ab alio, puta, a Deo.  
+          </p>
+          <p xml:id="HuYgTa-159627-d1e700">
+            <lb ed="#G" n="131"/>
+            <pc type="indent"/>1 Nam quod competit alicui ex se, non potest sibi 
+            com<lb ed="#G" n="132" break="no"/>petere ex alio.  
+          </p>
+          <p xml:id="HuYgTa-159627-d1e709">
+            <lb ed="#G" n="133"/>
+            <pc type="indent"/> Praeterea, ad idem arguunt quidam alij sic. Si 
+            poten<lb ed="#G" n="134" break="no"/>tia peccandi esset a Deo, hoc maxime esset pro tanto: quod 
+            <lb ed="#G" n="135"/>talis potentia esset ipsum liberum arbitrium: sed hoc 
+            <lb ed="#G" n="136"/>non, quia dicit Ansel. in de libero arbitrio, quod peccare 
+            <!--457.xml-->
+            <pb ed="#G" n="209-v"/>
+            <cb ed="#G" n="a"/>
+            <lb ed="#G" n="1"/>nec est libertas, nec pars libertatis.
+          </p>
+          <p xml:id="HuYgTa-159627-d1e731">
+            <lb ed="#G" n="2"/>3 Praeterea, si potentia peccandi esset a Deo, tunc ipsum 
+            <lb ed="#G" n="3"/>peccatum esset a Deo. Consequens est falsum. Probatio 
+            <lb ed="#G" n="4"/>consequentiae, quia actus est perfectior, quam potentia: 
+            <lb ed="#G" n="5"/>Dei autem perfecta sunt opera, vt dicitur in Deutero.
+          </p>
+          <p xml:id="HuYgTa-159627-d1e742">
+            <lb ed="#G" n="6"/>4 Praeterea, illud, cuius vsus est malus, ipsum quoque 
+            <lb ed="#G" n="7"/>est malum, vt dicitur 3 topic. &amp; per consequens tale quid 
+            <lb ed="#G" n="8"/>non potest esse a Deo: sed vsus potentiae peccandi est 
+            ma<lb ed="#G" n="9" break="no"/>lus, quia vsus talis est ipsum peccare: ergo talis potentia 
+            <lb ed="#G" n="10"/>non potest esse a Deo.  
+          </p>
+          <p xml:id="HuYgTa-159627-d1e756">
+            <lb ed="#G" n="11"/>
+            <pc type="indent"/>Sed quamuis conclusionem elicitam ex prima parte 
+            <lb ed="#G" n="12"/>praedictae diuisionis reputem esse veram: tamen conclusio 
+            <lb ed="#G" n="13"/>elicita ex parte secunda, quae conclusioni per me posita 
+            <lb ed="#G" n="14"/>videtur repugnare, non videtur posse stare.
+          </p>
+          <p xml:id="HuYgTa-159627-d1e769">
+            <lb ed="#G" n="15"/>1 Quia defectus, qui non habet rationem mali, non  
+            <lb ed="#G" n="16"/>minus videtur esse a Deo, quam ille defectus, qui habet 
+            <lb ed="#G" n="17"/>rationem mali: sed defectus, qui habet rationem mali, est 
+            <lb ed="#G" n="18"/>a Deo, puta defectus poenalis: possibilitas autem
+            deficien<lb ed="#G" n="19" break="no"/>di non habet rationem mali, quia omne malum, vel est 
+            <lb ed="#G" n="20"/>malum culpae, vel poenae: sed possibilitas deficiendi nec 
+            <lb ed="#G" n="21"/>habet rationem mali culpae, nec poenae, quia fuit in
+            sta<lb ed="#G" n="22" break="no"/>tu innocentiae, &amp; per consequens ante omnem culpam 
+            <lb ed="#G" n="23"/>&amp; poenam
+          </p>
+          <p xml:id="HuYgTa-159627-d1e791">
+            <lb ed="#G" n="24"/>2 Praeterea, potentia deficiendi per corruptionem inest 
+            <lb ed="#G" n="25"/>rebus creatis <sic>curruptibilibus</sic> a Deo: ergo &amp; potentia 
+            defi<lb ed="#G" n="26" break="no"/>ciendi per electionem quae est potentia peccandi inerit ipsis 
+            <lb ed="#G" n="27"/>rebus potentibus eligere ab ipso Deo. Antecedens
+            pa<lb ed="#G" n="28" break="no"/>tet, quia illud quod necessario requirit ordo vniuersi, hoc 
+            <lb ed="#G" n="29"/>conuenit rebus a Deo; sed habere potentiam deficiendi 
+            <lb ed="#G" n="30"/>per corruptionem requirit ordo vniuersi: nam plantae non 
+            <lb ed="#G" n="31"/>possent nutriri, si terra non posset corrumpi: nec pari ratione 
+            <lb ed="#G" n="32"/>bestiae possent nutriri per plantas, nec homines per bestias. 
+          </p>
+          <p xml:id="HuYgTa-159627-d1e813">
+            <lb ed="#G" n="33"/><pc type="indent"/>3 Praeterea, quod creatura sit de nihilo, hoc habet ab 
+            <lb ed="#G" n="34"/>ipso Deo, sed ex hoc inest creaturae potentia peccandi, 
+            <lb ed="#G" n="35"/>quia est de nihilo, vt dicit praedicta opinio: ergo potentis 
+            <lb ed="#G" n="36"/>peccandi inest creaturae ab ipso Deo. Maiorem probo, quia 
+            <lb ed="#G" n="37"/>quicquid est causa alicuius affirmationis, hoc etiam est 
+            <lb ed="#G" n="38"/>causa negationis per se, &amp; immediate consequentis ad 
+            ta<lb ed="#G" n="39" break="no"/>lem affirmationem: quicquid enim est per se causa, quod 
+            <lb ed="#G" n="40"/>aliquid sit sanum, hoc etiam est causa, quod tale quid non 
+            <lb ed="#G" n="41"/>fit aegrum: sed Deus est causa creaturae secundum omnem 
+            <lb ed="#G" n="42"/>entitatem posituam, quae est in creatura: ergo Deus est 
+            cau<lb ed="#G" n="43" break="no"/>sa, quod creatura sit de nihilo, &amp; de nullo praesupposito, 
+            <lb ed="#G" n="44"/>cum ista negatiua per se, &amp; necessario sequatur ad illam  
+            <lb ed="#G" n="45"/>affirmatiuam. 
+          </p>
+          <p xml:id="HuYgTa-159627-d1e846">
+            <lb ed="#G" n="46"/><pc type="indent"/> Et per hoc patet ad primam rationem, quia esse ex
+            ni<lb ed="#G" n="47" break="no"/>hilo non competit creaturae ex se, sed ex Deo. Ad
+            proba<lb ed="#G" n="48" break="no"/>tionem cum dicitur, quod creatura sibi derelicta tendit 
+            <lb ed="#G" n="49"/>in nihilum, dico, quod talis tendentiae sufficiens causa est 
+            <lb ed="#G" n="50"/>ipse Deus, non per sui influentiam &amp; operationem: sed 
+            <lb ed="#G" n="51"/>er suae influentiae subtractionem: quia illud, quod per sui 
+            <lb ed="#G" n="52"/>influentiam est totalis, &amp; perfecta causa alicuius
+            entita<lb ed="#G" n="53" break="no"/>tis, &amp; conseruationis eiusdem, illud per subtractionem sua 
+            <lb ed="#G" n="54"/>insiuentiae erit sufficiens causa, quare huiusmodi entitas 
+            <lb ed="#G" n="55"/>cadat in nihilum: sed Deus per suam influentiam est
+            per<lb ed="#G" n="56" break="no"/>fecta causa omnis entitatis creatae, &amp; conseruationis totius 
+            <lb ed="#G" n="57"/>creaturae, quae conseruatur in aliquo esse: ergo &amp; 
+          </p>
+          <p xml:id="HuYgTa-159627-d1e877">
+            <lb ed="#G" n="58"/><pc type="indent"/>Ad secundum nego minorem. Ad probationem 
+            dicen<lb ed="#G" n="59" break="no"/>dum, quod quamuis peccare non sit libertas, posse tamen 
+            <lb ed="#G" n="60"/>peccare est in nostri arbitrii libertate: liberior tamen esset 
+            <lb ed="#G" n="61"/>nostra voluntas, si peccare non posset, quia maior est 
+            li<lb ed="#G" n="62" break="no"/>bertas beatorum, qui peccare non possunt, quam viatorum 
+            <lb ed="#G" n="63"/>qui peccare possunt 
+          </p>
+          <p xml:id="HuYgTa-159627-d1e896">
+            <lb ed="#G" n="64"/>
+            <pc type="indent"/>Ad tertium nego consequentiam. Ad probationem 
+            <lb ed="#G" n="65"/>dico, quamuis in bonis actus sit nobilior potentia, tamen 
+            <lb ed="#G" n="66"/>in malis est econuerso: nam peius est actu aegrotare, quam  
+            <lb ed="#G" n="67"/>posse aegrotare. 
+          </p>
+          <p xml:id="HuYgTa-159627-d1e909">
+            <lb ed="#G" n="68"/><pc type="indent"/> Alias inuenitur talis additio. Etiam potest dici, quod 
+            <lb ed="#G" n="69"/>licet peccatum non sit a Deo, tamen actus peccati est a 
+            <lb ed="#G" n="70"/>Deo, eo modo, quo dictum est. 
+          </p>
+          <p xml:id="HuYgTa-159627-d1e920">
+            <lb ed="#G" n="71"/>
+            <pc type="indent"/>Ad quartum dicendum, quod licet illud sit malum, 
+            <lb ed="#G" n="72"/>cuius vsus ita est malus, quod non possumus eo bene vti: 
+            <lb ed="#G" n="73"/>tamen cuius vsus est malus non necessario, sed ex eo, quod 
+            <!--457.xml-->
+            <cb ed="#G" n="b"/>
+            <lb ed="#G" n="74"/>cum possemus eo bene vti, abutimur eo, illud non est 
+            ma<lb ed="#G" n="75" break="no"/>lum, sed potest esse bonum, possumus enim etiam bonis 
+            <lb ed="#G" n="76"/>male vti, &amp; hoc magis proprie abusus, quam vsus debet 
+            di<lb ed="#G" n="77" break="no"/>ci. Sed potentia peccandi, quae est liberum arbitrium,
+            pos<lb ed="#G" n="78" break="no"/>sumus, si volumus bene vti resistendo vitiis, &amp;
+            prosequen<lb ed="#G" n="79" break="no"/>do virtutes: ergo &amp;c 
+          </p>
+        </div>
+        <div xml:id="HuYgTa-159627-Dd1e961">
+          <head xml:id="HuYgTa-159627-Hd1e963">Articulus 4</head>
+          <head xml:id="HuYgTa-159627-Hd1e965" type="question-title">Utrum omnis potentia dominandi sit a Deo</head>
+          <p xml:id="HuYgTa-159627-d1e949">
+            <lb ed="#G" n="80"/><pc type="indent"/>ARTICVLVS IIII 
+            <lb ed="#G" n="81"/>Vtrum omnis potentia dominandi sit a Deo.
+          </p>
+          <p xml:id="HuYgTa-159627-d1e958">
+            <lb ed="#G" n="82"/>QVANTVM ad quartum articulum sunt duo 
+            viden<lb ed="#G" n="83" break="no"/>da Primo, vtrum omnis praelatio, seu potestas 
+            do<lb ed="#G" n="84" break="no"/>minandi sit a Deo Secundo vtrum homo fidelis teneatur 
+            <lb ed="#G" n="85"/>obedire domino infideli, seu principi infideli. 
+          </p>
+          <p xml:id="HuYgTa-159627-d1e970">
+            <lb ed="#G" n="86"/>Quantum ad primum dico, quod praelatio, seu
+            princi<lb ed="#G" n="87" break="no"/>patus potest tripliciter considerari. Vno modo, in se. 
+            Se<lb ed="#G" n="88" break="no"/>cundo, quantum ad modum, quo quis consequitur
+            prin<lb ed="#G" n="89" break="no"/>cipatum. Et tertio, quantum ad vsum eius. 
+          </p>
+          <p xml:id="HuYgTa-159627-d1e980">
+            <lb ed="#G" n="90"/>
+            <pc type="indent"/>Primo modo accipiendo principatum, sic omnis
+            prin<lb ed="#G" n="91" break="no"/>cipatus a Deo est 
+          </p>
+          <p xml:id="HuYgTa-159627-d1e990">
+            <lb ed="#G" n="92"/>
+            <pc type="indent"/>1 Quia omine bonum a Deo est, sed principatus
+            con<lb ed="#G" n="93" break="no"/>sideratus secundum se, cum sit quidam ordo, seu modus 
+            <lb ed="#G" n="94"/>ordinate videndi, est non modicum bonum vniuersi: 
+            er<lb ed="#G" n="95" break="no"/>go est ab ipso Deo.
+          </p>
+          <p xml:id="HuYgTa-159627-d1e1003">
+            <lb ed="#G" n="96"/>2 Praeterea, semper primus est causa omnium aliorum 
+            <lb ed="#G" n="97"/>quae sunt post: sed Deus est primus princeps totius vniuer<lb ed="#G" n="98" break="no"/>si. 
+            Maior patet <ref xml:id="HuYgTa-159627-Rd1e1029">2. Met</ref> Minor similiter patet <ref xml:id="HuYgTa-159627-Rd1e1011">12. metaph</ref>
+          </p>
+          <p xml:id="HuYgTa-159627-d1e1015">
+            <lb ed="#G" n="99"/>3 Praeterea, illud, quod in paradiso fuisset, si homo in 
+            <lb ed="#G" n="100"/>statu innocentiae permansisset, hoc est a Deo, seu fuisset
+            <lb ed="#G" n="101"/>ab eo: sed praelatio praedicto modo in paradiso fuisset: 
+            er<lb ed="#G" n="102" break="no"/>go &amp;c. Maior patet. Minorem probo, quia naturaliter sunt 
+            <lb ed="#G" n="103"/>domini, qui vigent prudentia, &amp; intellectu, vt patet 1.
+            po<lb ed="#G" n="104" break="no"/>litic, propter hoc enim aliquo modo vir dominatur
+            pue<lb ed="#G" n="105" break="no"/>ro, masculus feminae, &amp; homo bestiis. Sed etiam in
+            para<lb ed="#G" n="106" break="no"/>diso vnus homo fuisset aptior altero quo ad habitus, &amp;  
+            <lb ed="#G" n="107"/>actus intellectuales, secundum quod vnus fuisset
+            melio<lb ed="#G" n="108" break="no"/>ris complexionis, quam alter: quia <quote xml:id="HuYgTa-159627-Qdh2scc" source="http://scta.info/resource/aristda-l2-gy1Xpo">molles carne aptos 
+              <lb ed="#G" n="109"/>mente dicimus, duros autem ineptos</quote>, vt <ref xml:id="HuYgTa-159627-Rfh1asd" corresp="#HuYgTa-159627-Qdh2scc">patet 2. de
+                ani<lb ed="#G" n="110" break="no"/>ma</ref>, quod verum est loquendo de mollitie proueniente 
+            <lb ed="#G" n="111"/>ex bonitate, seu raritate complexionis, &amp; non ex
+            abundan<lb ed="#G" n="112" break="no"/>tia flegmatis, sicut contingit in mulieribus. Quod autem 
+            <lb ed="#G" n="113"/>in paradiso vnus fuisset melioris complexionis altero, 
+            <lb ed="#G" n="114"/>hoc patet, quia tunc, sicut &amp; nunc secundum meliorem 
+            <lb ed="#G" n="115"/>coniunctionem abstrorum fuisset foetus conceptus
+            nobi<lb ed="#G" n="116" break="no"/>lioris complexionis. 
+          </p>
+          <p xml:id="HuYgTa-159627-d1e1057">
+            <lb ed="#G" n="117"/>
+            <pc type="indent"/>1 Forte dicetur, quod nullum potest esse dominium 
+            <lb ed="#G" n="118"/>sine seruitute, sed in paradiso non fuisset seruitus. Maior  
+            <lb ed="#G" n="119"/>patet, quia vnum relatiuorum non potest esse sine altero, 
+            <lb ed="#G" n="120"/>vt patet in libro praedicamentorum &amp; 5. metaph. Minor  
+            <lb ed="#G" n="121"/>etiam patet, quia solum propter peccatum seruitus est 
+            <lb ed="#G" n="122"/>introducta.
+          </p>
+          <p xml:id="HuYgTa-159627-d1e1075">
+            <lb ed="#G" n="123"/>2 Praeterea, omne dominium vtitur aliqua lege 
+            respe<lb ed="#G" n="124" break="no"/>ctu subditorum, sed <quote xml:id="HuYgTa-159627-Qxxnn7a" source="http://scta.info/resource/Itim1_9@3-8">iusto non est lex posita</quote>, vt ait 
+            <ref xml:id="HuYgTa-159627-Rvvha77" corresp="#HuYgTa-159627-Qxxnn7a">Aposto<lb ed="#G" n="125" break="no"/>lus</ref>, Cum ergo omnes in statu innocentiae fuissent
+            perfe<lb ed="#G" n="126" break="no"/>cte iusti propter originalem iustitiam, quam quilibet
+            ha<lb ed="#G" n="127" break="no"/>buisset in paradiso: ergo in paradiso non fuisset lex, nec 
+            <lb ed="#G" n="128"/>per consequens dominium. Et confirmatur, quia vt patet 
+            <lb ed="#G" n="129"/>10 ethicorum, Oportuit leges instituere coactiuam 
+            ha<lb ed="#G" n="130" break="no"/>bentes potentiam, &amp; hoc solum propter rebelles, &amp;
+            iniu<lb ed="#G" n="131" break="no"/>stos; In statu autem innocentiae nullus fuisset rebellis, vel 
+            <lb ed="#G" n="132"/>iniustus 
+          </p>
+          <p xml:id="HuYgTa-159627-d1e1099">
+            <lb ed="#G" n="133"/>
+            <pc type="indent"/>Respondeo, quod dominium potest dupliciter 
+            consi<lb ed="#G" n="134" break="no"/>derari. Vno modo, prout concernit timorem seruilem ex 
+            <lb ed="#G" n="135"/>cludentem dilectionem in subdito, &amp; hoc est dominium 
+            <lb ed="#G" n="136"/>Despoticum requirens seruitutem poenosam inductam 
+            <lb ed="#G" n="137"/>propter peccata huiusmodi. Et huiusmodi dominium in 
+            <lb ed="#G" n="138"/>statu innocentiae non habuisset homo respectu hominis 
+            <lb ed="#G" n="139"/>sed solum respectu irrationalium animalium. Propter 
+            <lb ed="#G" n="140"/>Quod Deus dixit primis parentibus, Dominamini piscibus 
+            <lb ed="#G" n="141"/>maris, &amp; volatilibus caeli: &amp; vniuersis animantibus, qua 
+            <lb ed="#G" n="142"/>mouentur super terra. Et infra dixit dominus Noae &amp; filiis 
+            <!--458.xml-->
+            <pb ed="#G" n="210-r"/>
+            <cb ed="#G" n="a"/>
+            <lb ed="#G" n="1"/>eius, Terror vester &amp; tremor sit super cuncta animalia
+            ter<lb ed="#G" n="2" break="no"/>rae. Alio modo, prout concernit mutuam dilectionem. Et 
+            <lb ed="#G" n="3"/>hoc dupliciter, puta vel secundum liberam voluntatem, 
+            <lb ed="#G" n="4"/>&amp; sic est dominium regale, &amp; istud in paradiso competisset 
+            <lb ed="#G" n="5"/>patribus respectu filiorum. Vel secundum certas leget, &amp; 
+            <lb ed="#G" n="6"/>istud est dominium politicum, quod competit ei, qui 
+            prae<lb ed="#G" n="7" break="no"/>est ciuitati respectu ceterorum ciuium, &amp; istud 
+            competis<lb ed="#G" n="8" break="no"/>set in paradiso viro respectu vxoris, cui praefuisset,
+            secun<lb ed="#G" n="9" break="no"/>dum certas leges bonum matrimonii promouentes; &amp;  
+            <lb ed="#G" n="10"/>prudentior minus prudentibus politice in paradiso
+            prae<lb ed="#G" n="11" break="no"/>fuisset, inquantum ipsos instruxisset in talibus, quae ipsis 
+            <lb ed="#G" n="12"/>expediuissent.  
+          </p>
+          <p xml:id="HuYgTa-159627-d1e1159">
+            <lb ed="#G" n="13"/>
+            <pc type="indent"/>Et per hoc patet <ref xml:id="HuYgTa-159627-Rvn2222" target="http://scta.info/resource/HuYgTa-159627-d1e1057">ad primam instantiam</ref>.  
+            <lb ed="#G" n="14"/><ref xml:id="HuYgTa-159627-Rbnn33f" target="http://scta.info/resource/HuYgTa-159627-d1e1075">Ad secundum</ref> dicendum, quod apud nos sunt tres 
+            effe<lb ed="#G" n="15" break="no"/>ctus praelationis. Primus est subditos docere, quo modo 
+            <lb ed="#G" n="16"/>in suis actibus conuenientius dirigantur. Alius est
+            subdi<lb ed="#G" n="17" break="no"/>tos desendere, ne ab iniustis opprimantur Et tertius est 
+            <lb ed="#G" n="18"/>malos subditos punire, vt de suis excessibus corrigantur. 
+            <lb ed="#G" n="19"/>Primo modo fuissent lex, &amp; praelatio in paradiso; sed non 
+            <lb ed="#G" n="20"/>secundo, &amp; tertio modo. Et de his intelligitur auctoritas 
+            <lb ed="#G" n="21"/>tam Apostoli, quam Philosophi 
+          </p>
+          <p xml:id="HuYgTa-159627-d1e1183">
+            <lb ed="#G" n="22"/><pc type="indent"/> Praeterea, pro conclusione praedicta arguo sic. illud, quam 
+            <lb ed="#G" n="23"/>couenit hominibus secundum rectam rationem, hoc competis 
+            <lb ed="#G" n="24"/>eis a Deo, seu secundum diuinam ordinationem, sed 
+            secun<lb ed="#G" n="25" break="no"/>dum rectam rationem debitum est inter homines esse 
+            <lb ed="#G" n="26"/>praelationem: ergo &amp;c. Maior patet: quia ad hoc Deus dat 
+            <lb ed="#G" n="27"/>homini rationem, vt exequatur ea, quae debita sunt 
+            secun<lb ed="#G" n="28" break="no"/>dum rectam rationem Minorem probo: quia illud, quod 
+            <lb ed="#G" n="29"/>est naturale, &amp; expediens, est secundum rectam rationem 
+            <lb ed="#G" n="30"/>sed vt ait philosophus primo politicorum, in omni 
+            plura<lb ed="#G" n="31" break="no"/>litate ordinata naturale est &amp; expediens, vt vnus praesit, 
+            <lb ed="#G" n="32"/>&amp; alij sint subiecti; in his autem consistit ratio
+            praelatio<lb ed="#G" n="33" break="no"/>nis: ergo &amp;c 
+          </p>
+          <p xml:id="HuYgTa-159627-d1e1214">
+            <lb ed="#G" n="34"/>
+            <pc type="indent"/>Et confirmatur, quia in omnibus naturalibus videmus 
+            <lb ed="#G" n="35"/>quod inferiora reguntur per superiora, &amp; multitudo
+            re<lb ed="#G" n="36" break="no"/>ducitur ad vnitatem: sed mos, sicut &amp; ars debet 
+            imita<lb ed="#G" n="37" break="no"/>ri naturam. 
+          </p>
+          <p xml:id="HuYgTa-159627-d1e1227">
+            <lb ed="#G" n="38"/><pc type="indent"/> Sed secundo modo, &amp; tertio, puta quo ad modum 
+            adi<lb ed="#G" n="39" break="no"/>piscendi dominium, &amp; quo ad vsum dominii iam
+            ade<lb ed="#G" n="40" break="no"/>pti: sic dico, quod si talia fiant ordinate, &amp; secundum iuris 
+            <lb ed="#G" n="41"/>debitam exigentiam, puta obseruatis debitis 
+            conditioni<lb ed="#G" n="42" break="no"/>bus, &amp; circumstantiis in consecutione, &amp; vsu praelationis 
+            <lb ed="#G" n="43"/>requisitis: sic praelatio vel principatus est a Deo. Si autem 
+            <lb ed="#G" n="44"/>praedicta non obseruantur, tunc huiusmodi praelatio, &amp;  
+            <lb ed="#G" n="45"/>principatus, quamuis sint a Deo quantum ad naturam, &amp; 
+            <lb ed="#G" n="46"/>entitatem actuum, sicut &amp; cetera mala sunt a Deo, vt
+            su<lb ed="#G" n="47" break="no"/>perius est probatum: tamen non sunt a Deo quantum ac 
+            <lb ed="#G" n="48"/>deformitatem, &amp; obliquitate actus. Nam, vt sic, in talibus 
+            <lb ed="#G" n="49"/>mortale peccatum committitur, quod non potest esse a 
+            <lb ed="#G" n="50"/>Deo, sed a mala hominum voluntate. Vnde talibus
+            dici<lb ed="#G" n="51" break="no"/>tur. Ipsi regnauerunt, &amp; non ex me; principes extiterunt 
+            <lb ed="#G" n="52"/>&amp; non cognoui, scilicet notitia approbationis. 
+          </p>
+          <p xml:id="HuYgTa-159627-d1e1264">
+            <lb ed="#G" n="53"/>
+            <pc type="indent"/>Per praedictam etiam distinctionem patet responsio ac 
+            <lb ed="#G" n="54"/>quaedam communia obiecta, puta, quod cum dicitur, quod 
+            <lb ed="#G" n="55"/>quidam sunt peruersi principatus, Praeterea, quidam sunt 
+            <lb ed="#G" n="56"/>vsurpati principatus Praeterea, a quibusdam iuste
+            aufer<lb ed="#G" n="57" break="no"/>tur principatus: sed sicut, quod Deus coniunxit, homo non 
+            <lb ed="#G" n="58"/>debet separare, sic quod quis habet a Deo, seu quod
+            ali<lb ed="#G" n="59" break="no"/>tui datum est a Deo, hoc iure non aufertur ab eo per 
+            ho<lb ed="#G" n="60" break="no"/>minem. Ista enim omnia &amp; consimilia solum concludunt 
+            <lb ed="#G" n="61"/>vel quantum ad inordinatum modum consequendi
+            prae<lb ed="#G" n="62" break="no"/>lationem, vel quantum ad inordinatum vsum: quia dato 
+            <lb ed="#G" n="63"/>quod aliquis iuste sit dominium consecutus, tamen
+            po<lb ed="#G" n="64" break="no"/>test eo ita peruerse vti, quod de iure est tali dominio 
+            pri<lb ed="#G" n="65" break="no"/>uandus 
+          </p>
+          <p xml:id="HuYgTa-159627-d1e1297">
+            <lb ed="#G" n="66"/>
+            <pc type="indent"/>Quantum ad secundam partem quarti articuli
+            dicen<lb ed="#G" n="67" break="no"/>dum, quod talis infidelis vel est iuste consecutus 
+            huiusmo<lb ed="#G" n="68" break="no"/>di dominium, &amp; ordinate eo vtitur: uel iniuste est
+            huius<lb ed="#G" n="69" break="no"/>modi dominium consecutus; vel dato, quod dominium 
+            <lb ed="#G" n="70"/>iuste sit adeptus, tamen iniuste, &amp; inordinate eo vtitur. 
+          </p>
+          <p xml:id="HuYgTa-159627-d1e1314">
+            <lb ed="#G" n="71"/><pc type="indent"/> Primo modo dico, quod tales Christiani subditi tenentur 
+            <lb ed="#G" n="72"/>obedire huiusmodi principi, quamuis sit infidelis: nisi 
+            ali<lb ed="#G" n="73" break="no"/>quo modo iuste fuerint tali seruitute liberati, puta per 
+            <!--458.xml-->
+            <cb ed="#G" n="b"/>
+            <lb ed="#G" n="74"/>principem superiorem, qui plenum habet dominium: 
+            su<lb ed="#G" n="75" break="no"/>per illum infidelem dominum. Sed secundo, &amp; tertio 
+            <lb ed="#G" n="76"/>modo dico, quod ipsi non tenentur obedire tali
+            infide<lb ed="#G" n="77" break="no"/>li domino. 
+          </p>
+          <p xml:id="HuYgTa-159627-d1e1338">
+            <lb ed="#G" n="78"/><pc type="indent"/>1 Primo probo sic. Illud, quod quis iuste est assecutus,  
+            <lb ed="#G" n="79"/>hoc iniuste aufertur ab eo, nisi ipse abutatur eo: sed iste 
+            in<lb ed="#G" n="80" break="no"/>fidelis, vt supponitur, iuste est assecutus huiusmodi 
+            domi<lb ed="#G" n="81" break="no"/>nium, nec abusus est eo: ergo &amp;c. 
+          </p>
+          <p xml:id="HuYgTa-159627-d1e1351">
+            <lb ed="#G" n="82"/>
+            <pc type="indent"/>2 Praeterea, <ref xml:id="HuYgTa-159627-Rghty57" corresp="#HuYgTa-159627-Qc8ahhh">Beatus Petrus loquens de Christianis</ref> ait,  
+            <lb ed="#G" n="83"/><quote xml:id="HuYgTa-159627-Qc8ahhh" source="http://scta.info/resource/Ipetr2_18@1-14">Serui subditi estote in omni timore dominis, non tantum 
+              <lb ed="#G" n="84"/>bonis, &amp; modestis, sed etiam discolis</quote>.  
+          </p>
+          <p xml:id="HuYgTa-159627-d1e1362">
+            <lb ed="#G" n="85"/>
+            <pc type="indent"/>3 Praeterea ait <ref xml:id="HuYgTa-159627-Rghty5x" corresp="#HuYgTa-159627-Qd1e1371"><name xml:id="HuYgTa-159627-Nd1e1368">Apostolus</name></ref>, <quote xml:id="HuYgTa-159627-Qd1e1371" source="http://scta.info/resource/Itim6_1@1-11">Quicumque sunt sub iugo 
+              <lb ed="#G" n="86"/>serui, dominos suos arbitrentur omni honore dignos</quote>. Et 
+            <lb ed="#G" n="87"/>exponit hoc verbum glosa etiam de iugo dominorum 
+            <lb ed="#G" n="88"/>infidelium 
+          </p>
+          <p xml:id="HuYgTa-159627-d1e1382">
+            <lb ed="#G" n="89"/>
+            <pc type="indent"/>4 Item dicitur, <quote xml:id="HuYgTa-159627-Qcn58aa" source="http://scta.info/resource/rom13_1@1-6">Omnis anima potestatibus 
+              sublimiori<lb ed="#G" n="90" break="no"/>bus subdita sit</quote>. 
+          </p>
+          <p xml:id="HuYgTa-159627-d1e1391">
+            <lb ed="#G" n="91"/>
+            <pc type="indent"/>5 Praeterea, ius diuinum, quod est ex gratia &amp; fide 
+            Chri<lb ed="#G" n="92" break="no"/>stiana, non tollit illud, quod est de iure humano, &amp; ex 
+            na<lb ed="#G" n="93" break="no"/>turali ratione: sed distinctio, quae est inter fidelem &amp;
+            in<lb ed="#G" n="94" break="no"/>fidelem, est ex iure diuino; iustum vero dominium est ex 
+            <lb ed="#G" n="95"/>iure humano, &amp; ex naturali ratione; ergo &amp;c. Minor
+            pa<lb ed="#G" n="96" break="no"/>tet ex praecedentibus. Maior probatur: quia sicut gratia 
+            <lb ed="#G" n="97"/>non tollit humanam naturam, sed perficit eam: ita nec 
+            <lb ed="#G" n="98"/>ius diuinum tollit illud, quod est de iure humano, &amp;
+            in<lb ed="#G" n="99" break="no"/>nascitur ex recta ratione; nec per consequens distinctio 
+            fi<lb ed="#G" n="100" break="no"/>delis ab infideli tollit dominium, seu principatum 
+            domi<lb ed="#G" n="101" break="no"/>ni infidelis, quem habet super fidelem subditum.
+          </p>
+          <p xml:id="HuYgTa-159627-d1e1399">
+            <lb ed="#G" n="102"/>Quidam tamen doctores dicunt, quod huiusmodi 
+            do<lb ed="#G" n="103" break="no"/>minium, quod habet princeps infidelis super populum 
+            <lb ed="#G" n="104"/>Christianum, ecclesia sua auctoritate iuste potest auferre 
+            <lb ed="#G" n="105"/>a tali principe. 
+          </p>
+          <p xml:id="HuYgTa-159627-d1e1429">
+            <lb ed="#G" n="106"/><pc type="indent"/> 1 Quia infidelis demerito suae infidelitatis meretur 
+            <lb ed="#G" n="107"/>amittere potestatem, quam habuit super eos, qui 
+            transla<lb ed="#G" n="108" break="no"/>ti sunt in filios Dei. 
+          </p>
+          <p xml:id="HuYgTa-159627-d1e1440">
+            <lb ed="#G" n="109"/><pc type="indent"/> 2 Praeterea, dicit Saluator, <quote xml:id="HuYgTa-159627-Qcn3aaa" source="http://scta.info/resource/io8_36@1-8">Si ergo vos filius
+              liberaue<lb ed="#G" n="110" break="no"/>rit, vere liberi eritis</quote>; sed quemlibet baptizatum filius Dei 
+            <lb ed="#G" n="111"/>suo sanguine redemit, &amp; liberauit. 
+          </p>
+          <p xml:id="HuYgTa-159627-d1e1451">
+            <lb ed="#G" n="112"/>
+            <pc type="indent"/>3 Praeterea, dicit Saluator, quod filij sunt liberi a
+            tri<lb ed="#G" n="113" break="no"/>buto: sed omnibus regeneratis in Christo, <quote xml:id="HuYgTa-159627-Qcc11ax" source="http://scta.info/resource/io1_13@1-17">qui non ex 
+            san<lb ed="#G" n="114" break="no"/>guinibus, nec ex voluntate carnis, nec ex voluntate viri 
+            <lb ed="#G" n="115"/>sed ex Deo nati sunt</quote>, data est potestas, vt sint filii Dei, 
+            iux<lb ed="#G" n="116" break="no"/>ta illud, <quote xml:id="HuYgTa-159627-Qbbfh4a" source="http://scta.info/resource/io1_12@1-10">Quotquot autem receperunt eum, dedit eis 
+            po<lb ed="#G" n="117" break="no"/>testatem filios Dei fieri</quote>; ergo &amp;c 
+          </p>
+          <p xml:id="HuYgTa-159627-d1e1469">
+            <lb ed="#G" n="118"/>
+            <pc type="indent"/>4 Praeterea, cessante causa, cessat effectus, sed
+            pecca<lb ed="#G" n="119" break="no"/>tum, quod est causa seruitutis, cessat per baptismum: 
+            <lb ed="#G" n="120"/>ergo &amp;c. 
+          </p>
+          <p xml:id="HuYgTa-159627-d1e1480">
+            <lb ed="#G" n="121"/><pc type="indent"/> 5 Praeterea, quod absoluit a maiori vinculo, potest 
+            <lb ed="#G" n="122"/>etiam absoluere a minori; sed fides absoluit a vinculo 
+            <lb ed="#G" n="123"/>matrimonii, quo ligatus fuit homo fidelis, antequam 
+            fi<lb ed="#G" n="124" break="no"/>dem reciperet, cum persona infideli, quod quidem 
+            vincu<lb ed="#G" n="125" break="no"/>lum maius, &amp; intimius esse videtur, quam vinculum
+            serui<lb ed="#G" n="126" break="no"/>tutis; quia in paradiso fuit a Deo institutum. Etiam de 
+            ip<lb ed="#G" n="127" break="no"/>so ait Saluator in euangelio, <quote xml:id="HuYgTa-159627-Qaaxwas" source="http://scta.info/resource/mt19_6@9-15">quod Deus coniunxit,
+              ho<lb ed="#G" n="128" break="no"/>mo non separet</quote>; ergo merito fidelis poterit absolui a 
+            vin<lb ed="#G" n="129" break="no"/>culo infidelis domini 
+          </p>
+          <p xml:id="HuYgTa-159627-d1e1504">
+            <lb ed="#G" n="130"/><pc type="indent"/> Sed saluo semper iudicio meliori istud non teneo 
+            <lb ed="#G" n="131"/>1 Quia iste, qui non est de iurisdictione ecclesiae, nisi alium 
+            <lb ed="#G" n="132"/>de peccet contra ecclesiam, quam in hoc solum, quod non 
+            <lb ed="#G" n="133"/>tenet fidem ecclesiae, non potest iuste puniri per ecclesiam; 
+            <lb ed="#G" n="134"/>sed iste supponitur in nullo peccasse contra ecclesiam; 
+            <lb ed="#G" n="135"/>nisi in hoc solo, quod non tenet fidem ecclesiae. &amp;
+            graui<lb ed="#G" n="136" break="no"/>ter punitur dominus in hoc, quod ab eo aufertur
+            iurisdi<lb ed="#G" n="137" break="no"/>ctio suae dominationis, quam habet super proprios seruos 
+            <lb ed="#G" n="138"/>ergo &amp;c. 
+          </p>
+          <p xml:id="HuYgTa-159627-d1e1529">
+            <lb ed="#G" n="139"/><pc type="indent"/> 2 Praeterea, nullus infidelis, qui numquam subfuit
+            fi<lb ed="#G" n="140" break="no"/>dei ecclesiae, violenter debet compelli ad suscipiendum 
+            <lb ed="#G" n="141"/>fidem ecclesiae: sed si ecclesia quemlibet de nouo venientem 
+            <lb ed="#G" n="142"/>ad fidem liberaret a seruitute, qua tenebatur domino 
+            in<lb ed="#G" n="143" break="no"/>fideli, huiusmodi dominus violenter compelleretur ad 
+            fi<lb ed="#G" n="144" break="no"/>dem, quia quilibet suorum seruorum posset ad fidem 
+            con<lb ed="#G" n="145" break="no"/>uerti, &amp; sic ipse totum principatum suum perderet, nisi 
+            fi<lb ed="#G" n="146" break="no"/>dem Christianam susciperet.
+          </p>
+          <p xml:id="HuYgTa-159627-d1e1551">
+            <pb ed="#G" n="210-v"/>
+            <cb ed="#G" n="a"/>
+            <lb ed="#G" n="1"/>1 Forte dicetur, quod statutum est <sic>eccclesiae</sic>, vt patet 
+            <lb ed="#G" n="2"/><ref xml:id="HuYgTa-159627-Rja2244" target="http://scta.info/resource/cice-l5t6-d1e119"><!-- TODO: targets needs review; this is best guess -->extra de Iudaeis</ref>, quod si quis seruus Iudaeorum factus 
+            fue<lb ed="#G" n="3" break="no"/>rit Christianus, statim a seruitute liberatur, si fuerit
+            ver<lb ed="#G" n="4" break="no"/>naculus, id est, in seruitute natus; ac etiam si fuerit
+            em<lb ed="#G" n="5" break="no"/>ptitius, id est, ad seruitium emptus. 
+          </p>
+          <p xml:id="HuYgTa-159627-d1e1571">
+            <lb ed="#G" n="6"/>
+            <pc type="indent"/>2 Praeterea, si talis Christianus maneret sub iugo
+            hu<lb ed="#G" n="7" break="no"/>ius infidelis principis, tunc ille dominus infidelis posset 
+            <lb ed="#G" n="8"/>talem subditum compellere ad hoc, vt Christi fidem
+            di<lb ed="#G" n="9" break="no"/>mitteret, &amp; Christum blasphemaret 
+          </p>
+          <p xml:id="HuYgTa-159627-d1e1584">
+            <lb ed="#G" n="10"/>
+            <pc type="indent"/>Respondeo, quod secus est de Iudaeis, &amp; ceteris
+            infideli<lb ed="#G" n="11" break="no"/>bus: quia Iudaei exigente suo demerito per Romanos 
+            prin<lb ed="#G" n="12" break="no"/>cipes sunt in seruitutem redacti, &amp; proprii serui facti. 
+            Ser<lb ed="#G" n="13" break="no"/>uus enim dicitur a seruando. quia, cum iure belli 
+            obten<lb ed="#G" n="14" break="no"/>tus iuste posset occidi a principe, seruatur: &amp; sic ipse cum 
+            <lb ed="#G" n="15"/>sua posteritate in seruitutem redigitur. Sic factum est 
+            <lb ed="#G" n="16"/>de Iudaeis per Titum &amp; Vespesianum. Cum igitur in 
+            suc<lb ed="#G" n="17" break="no"/>cessu temporis Romani principes facti sint Christiani: 
+            er<lb ed="#G" n="18" break="no"/>go Romana ecclesia ad fauorem fidei seruos Iudaeorum 
+            <lb ed="#G" n="19"/>ad fidem conuersos, potest liberos reddere: quia ipsi
+            Iu<lb ed="#G" n="20" break="no"/>daei &amp; bona eorum subsunt auctoritati ecclesiae per
+            fauo<lb ed="#G" n="21" break="no"/>rem Romanorum Imperatorum, qui hoc ecclesiae 
+            contu<lb ed="#G" n="22" break="no"/>lerunt: hoc autem non tenet de ceteris infidelibus. 
+          </p>
+          <p xml:id="HuYgTa-159627-d1e1617">
+            <lb ed="#G" n="23"/>
+            <pc type="indent"/><ref xml:id="HuYgTa-159627-Rd1e1678">Ad secundam instantiam</ref> dicendum, quod si princeps 
+            <lb ed="#G" n="24"/>infidelis cogeret subditum fidelem ad negandum fidem 
+            <lb ed="#G" n="25"/>tunc abuteretur sua potestate: propter quod mereretur eam 
+            <lb ed="#G" n="26"/>perdere, &amp; etiam iustum bellum contra ipsum, &amp; contra 
+            <lb ed="#G" n="27"/>suum dominium per ecclesiam, &amp; omnes Christianos 
+            pos<lb ed="#G" n="28" break="no"/>set moueri intantum, quod non solum subditi a suo
+            do<lb ed="#G" n="29" break="no"/>minio possent inste liberari, verum etiam persona talis 
+            <lb ed="#G" n="30"/>principis iuste posset in seruitutem redigi, vel etiam
+            pri<lb ed="#G" n="31" break="no"/>uari. 
+          </p>
+          <p xml:id="HuYgTa-159627-d1e1641">
+            <lb ed="#G" n="32"/><pc type="indent"/><ref xml:id="HuYgTa-159627-Rccu8hg" target="http://scta.info/resource/HuYgTa-159627-d1e1429">Ad primum motiuum illius opinionis</ref> dicendum, quod 
+            <lb ed="#G" n="33"/>nisi aliquo alio modo princeps infidelis abutatur sua
+            po<lb ed="#G" n="34" break="no"/>testate, ex simplici sua infidelitate non meretur eam perdere 
+          </p>
+          <p xml:id="HuYgTa-159627-d1e1653">
+            <lb ed="#G" n="35"/><pc type="indent"/><ref xml:id="HuYgTa-159627-Roos88s" target="http://scta.info/resource/HuYgTa-159627-d1e1351">Ad secundum</ref> dicendum, quod illa verba Christi 
+            pos<lb ed="#G" n="36" break="no"/>sunt intelligi de libertate, qua liberati sunt Christiani 
+            <lb ed="#G" n="37"/>seruitute legis Mosaycae, quantum ad obseruantiam 
+            ceri<lb ed="#G" n="38" break="no"/>monialium praeceptorum. Possunt etiam intelligi de
+            liber<lb ed="#G" n="39" break="no"/>itate, qua liberati sumus a peccato, &amp;a diaboli seruitute. 
+          </p>
+          <p xml:id="HuYgTa-159627-d1e1669">
+            <lb ed="#G" n="40"/><pc type="indent"/> <ref xml:id="HuYgTa-159627-Rfa2ada" target="http://scta.info/resource/HuYgTa-159627-d1e1362">Ad tertium</ref> dicendum, quod Christus intelligit ibi per
+            <lb ed="#G" n="41"/>filios Apostolos, qui de bonis huius mundi nihil 
+            posside<lb ed="#G" n="42" break="no"/>bant, teste Petro, qui ait, <quote xml:id="HuYgTa-159627-Qzzxxcc" source="http://scta.info/resource/mt19_27@6-13">Ecce nos reliquimus omnia &amp;  
+            <lb ed="#G" n="43"/>secuti sumus te</quote>. &amp; ideo non tenebantur ad solutionem 
+            <lb ed="#G" n="44"/>tributi. Sed Iudaeis, qui bona mundi possidebant, dixit idem 
+            <lb ed="#G" n="45"/>Christus, <quote xml:id="HuYgTa-159627-Qd1e1749" source="http://scta.info/resource/mc12_17@6-16 http://scta.info/resource/mt22_21@6-17">Reddite, quae sunt Caesaris Caesari, &amp; quae sunt 
+            <lb ed="#G" n="46"/>Dei Deo.</quote> Quasi dicat, Tributum dare debetis de 
+            tempo<lb ed="#G" n="47" break="no"/>ralibus, quae possidetis 
+          </p>
+          <p xml:id="HuYgTa-159627-d1e1691">
+            <lb ed="#G" n="48"/><pc type="indent"/> <ref xml:id="HuYgTa-159627-Rfsq2x2" target="http://scta.info/resource/HuYgTa-159627-d1e1469">Ad quartum</ref> dicendum, quod quamuis per gratiam, &amp; 
+            <lb ed="#G" n="49"/>caritatem, ac etiam per catholicam fidem, quam
+            Chri<lb ed="#G" n="50" break="no"/>stianus recipit in baptismo, anima liberetur a malo culpae 
+            <lb ed="#G" n="51"/>tamen corpus suum non liberabitur a malo poenae 
+            mori<lb ed="#G" n="52" break="no"/>tur enim baptizatus, sicut non baptizatus, nec etiam per 
+            <lb ed="#G" n="53"/>fidem liberamur a debito iustitiae, sed iustum est principi 
+            <lb ed="#G" n="54"/>obedire, quamuis infideli, qui dominium suum iuste 
+            con<lb ed="#G" n="55" break="no"/>secutus est, &amp; iuste, &amp; ordinate eo vtitur 
+          </p>
+          <p xml:id="HuYgTa-159627-d1e1713">
+            <lb ed="#G" n="56"/><pc type="indent"/> <ref xml:id="HuYgTa-159627-Rffq2da" target="http://scta.info/resource/HuYgTa-159627-d1e1480">Ad quintum</ref> dicendum, quod si vnus coniugum ad fi<cb ed="#G" n="b"/><lb ed="#G" n="57" break="no"/>dem 
+            conuertitur, altero manente infideli, si infidelis 
+            con<lb ed="#G" n="58" break="no"/>sentit habitare cum fideli ipsum non turbando, &amp; 
+            allicien<lb ed="#G" n="59" break="no"/>do ad infidelitatem, &amp; absque blasphemia Creatoris, tunc 
+            <lb ed="#G" n="60"/>fidelis non est absolutus a vinculo matrimonii. Si autem 
+            <lb ed="#G" n="61"/>infidelis nollet fideli cohabitare, nisi ipsum alliciendo ad 
+            <lb ed="#G" n="62"/>infidelitatem, &amp; creatorem <sic>plasphemando</sic>, tunc suo
+            de<lb ed="#G" n="63" break="no"/>merito perdit ius, quod habuit in personam fidelem, &amp; 
+            <lb ed="#G" n="64"/>per consequens iuste absoluitur fidelis ab infideli. De isti 
+            <lb ed="#G" n="65"/>etiam magis complete apparuit in isto lib. 4. Et sic eodem 
+            <lb ed="#G" n="66"/>modo, si princeps infidelis nihil exigit a subdito fideli 
+            prae<lb ed="#G" n="67" break="no"/>ter illud, quod de iure debet exigere, tunc subditus 
+            tene<lb ed="#G" n="68" break="no"/>tur obedire. Si autem subditum vellet artare ad ea, qua 
+            <lb ed="#G" n="69"/>essent contra Deum, &amp; contra animae suae salutem, tunc 
+            <lb ed="#G" n="70"/>infidelis princeps perderet illud ius, quod habuit super 
+            <lb ed="#G" n="71"/>huiusmodi subditum,
+          </p>
+          <p xml:id="HuYgTa-159627-d1e1757">
+            <lb ed="#G" n="72"/><pc type="indent"/> Secundo dico, quod si talis princeps iniuste est
+            huius<lb ed="#G" n="73" break="no"/>modi dominium consecutus, tunc subditi non tenentur 
+            <lb ed="#G" n="74"/>sibi obedire; &amp; ab eo iuste possunt recedere. 
+          </p>
+          <p xml:id="HuYgTa-159627-d1e1768">
+            <lb ed="#G" n="75"/><pc type="indent"/> Quia ab iniusto possessore iuste aufertur illud, quod 
+            <lb ed="#G" n="76"/>possidet iniuste: sed talis Tyrannus iniuste possidet 
+            huius<lb ed="#G" n="77" break="no"/>modi dominium, vt supponitur, ergo &amp;c 
+          </p>
+          <p xml:id="HuYgTa-159627-d1e1780">
+            <lb ed="#G" n="78"/><pc type="indent"/> Tertio dico, quod dato, quod princeps infidelis iuste 
+            <lb ed="#G" n="79"/>sit assecutus suum dominium, si tamen vtitur tali
+            domi<lb ed="#G" n="80" break="no"/>nio iniuste, puta ad blasphemiam creatoris, impediendo 
+            <lb ed="#G" n="81"/>subditum quo ad ea, quae spectant ad fidem Christianam, 
+            <lb ed="#G" n="82"/>iterum meretur perdere huiusmodi dominium.  
+          </p>
+          <p xml:id="HuYgTa-159627-d1e1796">
+            <lb ed="#G" n="83"/><pc type="indent"/>Et licet ista conclusio pateat ex praedictis, tamen ipsam 
+            <lb ed="#G" n="84"/>potero persuadere hoc modo. Quandocumque idem 
+            sub<lb ed="#G" n="85" break="no"/>ditus obligatus est duobus dominis, vni tamquam 
+            simpli<lb ed="#G" n="86" break="no"/>citer superiori, &amp; alteri tamquam inferiori: si inferior 
+            prin<lb ed="#G" n="87" break="no"/>ceps coartat huiusmodi subditum dissentire a fidelitate 
+            <lb ed="#G" n="88"/>domini superioris, tunc talis princeps secundum leges, &amp;  
+            <lb ed="#G" n="89"/>iura perdidit iurisdictionem respectu talis subditi, nec 
+            hu<lb ed="#G" n="90" break="no"/>iusmodi subditus ad eius obedientiam vlterius obligatur, 
+            <lb ed="#G" n="91"/>sed Deus est summus dominus, &amp; vuiuersalissimus 
+            Impe<lb ed="#G" n="92" break="no"/>rator, respectu cuius omnis princeps huius mundi est 
+            in<lb ed="#G" n="93" break="no"/>ferior; ergo &amp;c 
+          </p>
+          <p xml:id="HuYgTa-159627-d1e1825">
+            <lb ed="#G" n="94"/><pc type="indent"/>Ad argumentum principale dicendum, quod per illa
+            <lb ed="#G" n="95"/>verba non intendit beatus Ioannes, quod aliquod pecca<lb ed="#G" n="96" break="no"/>tum 
+            quamuiscumque magnum sit totaliter irremissibile 
+            <lb ed="#G" n="97"/>quamdiu viuit homo in hoc mundo, sed intendit dicere 
+            <lb ed="#G" n="98"/>quod sit valde difficile obtinere remissionem de
+            huius<lb ed="#G" n="99" break="no"/>modi nephandissimis peccatis; &amp; ideo non per orationem 
+            <lb ed="#G" n="100"/>cuiuslibet mediocris Christiani reducitur talis peccator 
+            <lb ed="#G" n="101"/>ad condignam poenitentiam, sed solum per orationem 
+            <lb ed="#G" n="102"/>excellentium, &amp; deuotissimorum fidelium. Etiam posset 
+            <lb ed="#G" n="103"/>dici, quod beatus Ioannes per illud peccatum in morto 
+            <lb ed="#G" n="104"/>intelligit peccatum in spiritum sanctum ex illa
+            circum<lb ed="#G" n="105" break="no"/>stantia, quae est finalis impoenitentia: quia vbi de certo 
+            con<lb ed="#G" n="106" break="no"/>staret aliquem in peccato mortali sine poenitentia ab hac
+            <lb ed="#G" n="107"/>vita migrasse, pro isto non esset orandum secundum
+            le<lb ed="#G" n="108" break="no"/>gem communem, eo quod talis sit extra statum merendi 
+            <lb ed="#G" n="109"/>in quo statu nos conseruet pro via praesentis
+            peregrina<lb ed="#G" n="110" break="no"/>tionis, donec perducat ad patriam beatae fruitionis, 
+            Salua<lb ed="#G" n="111" break="no"/>tor omnium saluandorum, qui viuit, &amp; regnat in saecula 
+            <lb ed="#G" n="112"/>seculorum Amen 
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
 </TEI>
