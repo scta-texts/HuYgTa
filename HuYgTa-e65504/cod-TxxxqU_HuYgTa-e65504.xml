@@ -1,108 +1,108 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Circa textum</title>
-            <author ref="#ThomasStrasbourg">Thomas of Strasbourg</author>
-            <respStmt>
-               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
-               <resp>Transcription Editor</resp>
-               <resp>TEI Encoder</resp>
-            </respStmt>
-         </titleStmt>
-         <editionStmt>
-            <edition n="0.0.0-dev">
-               <title>Circa textum</title>
-               <date when="2020-11-26">November 26, 2020</date>
-            </edition>
-         </editionStmt>
-         <publicationStmt>
-            <authority>SCTA</authority>
-            <availability status="free">
-               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
-               </p>
-            </availability>
-         </publicationStmt>
-         <sourceDesc>
-            <listWit>
-               <witness xml:id="G" n="cod-TxxxqU">Genoa 1585</witness>
-            </listWit>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
-         <editorialDecl>
-            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
-       guidelines for a diplomatic edition.</p>
-         </editorialDecl>
-      </encodingDesc>
-      <revisionDesc status="draft">
-         <listChange>
-            <change when="2020-11-26" status="draft" n="0.0.0">
-               <p>Created file for the first time.</p>
-            </change>
-         </listChange>
-      </revisionDesc>
-   </teiHeader>
-   <text xml:lang="la">
-      <front>
-         <div xml:id="starts-on">
-            <pb ed="#G" n="86-r"/>
-            <cb ed="#G" n="b"/>
-         </div>
-      </front>
-      <body>
-         <div xml:id="HuYgTa-e65504"><!-- HuYgTa-l1d25ct1 -->
-            <head xml:id="HuYgTa-e65504-Hd1e108">Circa textum</head>
-            <p xml:id="HuYgTa-e65504-d1e111">
-               <lb ed="#G" n="127"/>
-               <pc type="indent"/>DISTINCTIO. XXV. 
-      <lb ed="#G" n="128"/>Fatilis, &amp;o absoluta diuusio huius dictinctionis in qua 
-      <lb ed="#G" n="129"/>alietas numerorum in duinis declaratur. 
-    </p>
-            <p xml:id="HuYgTa-e65504-d1e122">
-               <lb ed="#G" n="130"/>
-               <pc type="indent"/>PRATEREA Considerandum. Hic 
-      <lb ed="#G" n="131"/>Magister ostendit qualiter termi-¬ 
-      <lb ed="#G" n="132"/>ni numerales, &amp; alietatem
-      signifi<lb ed="#G" n="133" break="no"/>cantes intelligendi sint, cum huic 
-      <lb ed="#G" n="134"/>nomini persona applicantur: Ei di 
-      <lb ed="#G" n="135"/>uiditur in duas; quia primo mo¬¬ 
-      <lb ed="#G" n="136"/>uet hanc quaestionem, vtrum dicen 
-      <lb ed="#G" n="137"/>do tres personae diuinae, vel alia est 
-      <lb ed="#G" n="138"/>ersona patris; vel alia filii, hoc nomen persona significet 
-      <!--211.xml-->
-      <pb ed="#G" n="86-v"/>
-               <cb ed="#G" n="a"/>
-               <lb ed="#G" n="1"/>diuinam essentiam. Et arguit ad vtramque partem. Secur 
-      <lb ed="#G" n="2"/>do prosequitur quaestionem ibi, Persona enim vt supra. Et 
-      <lb ed="#G" n="3"/>haec in duas: quia primo prosequitur quaestionem
-      secun<lb ed="#G" n="4" break="no"/>dum aliorum opinionem, secundo prosequitur eam se 
-      <lb ed="#G" n="5"/>cundum propriam intentionem ibi, Sciendum est igitur. 
-      <lb ed="#G" n="6"/>Quantum ad primum est aduertendum, quod quidam
-      fue<lb ed="#G" n="7" break="no"/>runt illius opinionis, quod cum dicitur tres personae diuinae 
-      <lb ed="#G" n="8"/>hoc nomen persona significet diuinam essentiam; ideo
-      ma<lb ed="#G" n="9" break="no"/>gister duo facit: quia primo recitat motiua istius
-      opinio<lb ed="#G" n="10" break="no"/>nis, secundo arguit contra inuentores istius positionis 
-      <lb ed="#G" n="11"/>abi, Sed quid respondebunt. Prima in duas: quia primo ma 
-      <lb ed="#G" n="12"/>gister adducit eorum rationes: Secundo ostendit qualiter 
-      <lb ed="#G" n="13"/>ipsi ad oppositas obiectiones respondent ibi, Quibusdam  
-      <lb ed="#G" n="14"/>videtur. Tunc sequitur illa pars, Sciendum est igitur. Et 
-      <lb ed="#G" n="15"/>diuiditur in duas: quia primo Magister iuxta suam
-      inten<lb ed="#G" n="16" break="no"/>tionem quaestionem praedictam determinat, quo ad
-      ter<lb ed="#G" n="17" break="no"/>minos numerales, secundo quo ad terminos alietatem 
-      <lb ed="#G" n="18"/>significantes ibi, Deinde quaeritur, vtrum secundum
-      ean<lb ed="#G" n="19" break="no"/>dem. Prima in duas: quia primo istius quaestionis determi 
-      <lb ed="#G" n="20"/>nat veritatem. Secundo respondendo obiectionibus
-      tol<lb ed="#G" n="21" break="no"/>lit falsitatem ibi, Ad hoc autem, quod illi. Tunc sequitu 
-      <lb ed="#G" n="22"/>illa pars, Deinde quaeritur &amp;c. Et diuiditur in tres partes: 
-      <lb ed="#G" n="23"/>quia primo quantum ad terminum alietatis quaestionem 
-      <lb ed="#G" n="24"/>renouat: secundo veritatem tenedam insinuat : &amp; tertio 
-      <lb ed="#G" n="25"/>dicta sua recolligit, &amp; auctoritatibus sanctorum roborat 
-      <lb ed="#G" n="26"/>Secunda ibi, Ad quod dicimus. Tertia ibi, Ex predicti 
-      <lb ed="#G" n="27"/>colligitur, Circa istam distinctionem 25. quaeror 
-    </p>
-         </div>
-      </body>
-   </text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Circa textum</title>
+        <author ref="#ThomasStrasbourg">Thomas of Strasbourg</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Circa textum</title>
+          <date when="2020-11-26">November 26, 2020</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="G" n="cod-TxxxqU">Genoa 1585</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2020-11-26" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#G" n="86-r"/>
+        <cb ed="#G" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="HuYgTa-e65504"><!-- HuYgTa-l1d25ct1 -->
+        <head xml:id="HuYgTa-e65504-Hd1e108">Circa textum</head>
+        <p xml:id="HuYgTa-e65504-d1e111">
+          <lb ed="#G" n="127"/>
+          <pc type="indent"/>DISTINCTIO. XXV. 
+          <lb ed="#G" n="128"/>Fatilis, &amp;o absoluta diuusio huius dictinctionis in qua 
+          <lb ed="#G" n="129"/>alietas numerorum in duinis declaratur. 
+        </p>
+        <p xml:id="HuYgTa-e65504-d1e122">
+          <lb ed="#G" n="130"/>
+          <pc type="indent"/>PRATEREA Considerandum. Hic 
+          <lb ed="#G" n="131"/>Magister ostendit qualiter termi-¬ 
+          <lb ed="#G" n="132"/>ni numerales, &amp; alietatem
+          signifi<lb ed="#G" n="133" break="no"/>cantes intelligendi sint, cum huic 
+          <lb ed="#G" n="134"/>nomini persona applicantur: Ei di 
+          <lb ed="#G" n="135"/>uiditur in duas; quia primo mo¬¬ 
+          <lb ed="#G" n="136"/>uet hanc quaestionem, vtrum dicen 
+          <lb ed="#G" n="137"/>do tres personae diuinae, vel alia est 
+          <lb ed="#G" n="138"/>ersona patris; vel alia filii, hoc nomen persona significet 
+          <!--211.xml-->
+          <pb ed="#G" n="86-v"/>
+          <cb ed="#G" n="a"/>
+          <lb ed="#G" n="1"/>diuinam essentiam. Et arguit ad vtramque partem. Secur 
+          <lb ed="#G" n="2"/>do prosequitur quaestionem ibi, Persona enim vt supra. Et 
+          <lb ed="#G" n="3"/>haec in duas: quia primo prosequitur quaestionem
+          secun<lb ed="#G" n="4" break="no"/>dum aliorum opinionem, secundo prosequitur eam se 
+          <lb ed="#G" n="5"/>cundum propriam intentionem ibi, Sciendum est igitur. 
+          <lb ed="#G" n="6"/>Quantum ad primum est aduertendum, quod quidam
+          fue<lb ed="#G" n="7" break="no"/>runt illius opinionis, quod cum dicitur tres personae diuinae 
+          <lb ed="#G" n="8"/>hoc nomen persona significet diuinam essentiam; ideo
+          ma<lb ed="#G" n="9" break="no"/>gister duo facit: quia primo recitat motiua istius
+          opinio<lb ed="#G" n="10" break="no"/>nis, secundo arguit contra inuentores istius positionis 
+          <lb ed="#G" n="11"/>abi, Sed quid respondebunt. Prima in duas: quia primo ma 
+          <lb ed="#G" n="12"/>gister adducit eorum rationes: Secundo ostendit qualiter 
+          <lb ed="#G" n="13"/>ipsi ad oppositas obiectiones respondent ibi, Quibusdam  
+          <lb ed="#G" n="14"/>videtur. Tunc sequitur illa pars, Sciendum est igitur. Et 
+          <lb ed="#G" n="15"/>diuiditur in duas: quia primo Magister iuxta suam
+          inten<lb ed="#G" n="16" break="no"/>tionem quaestionem praedictam determinat, quo ad
+          ter<lb ed="#G" n="17" break="no"/>minos numerales, secundo quo ad terminos alietatem 
+          <lb ed="#G" n="18"/>significantes ibi, Deinde quaeritur, vtrum secundum
+          ean<lb ed="#G" n="19" break="no"/>dem. Prima in duas: quia primo istius quaestionis determi 
+          <lb ed="#G" n="20"/>nat veritatem. Secundo respondendo obiectionibus
+          tol<lb ed="#G" n="21" break="no"/>lit falsitatem ibi, Ad hoc autem, quod illi. Tunc sequitu 
+          <lb ed="#G" n="22"/>illa pars, Deinde quaeritur &amp;c. Et diuiditur in tres partes: 
+          <lb ed="#G" n="23"/>quia primo quantum ad terminum alietatis quaestionem 
+          <lb ed="#G" n="24"/>renouat: secundo veritatem tenedam insinuat : &amp; tertio 
+          <lb ed="#G" n="25"/>dicta sua recolligit, &amp; auctoritatibus sanctorum roborat 
+          <lb ed="#G" n="26"/>Secunda ibi, Ad quod dicimus. Tertia ibi, Ex predicti 
+          <lb ed="#G" n="27"/>colligitur, Circa istam distinctionem 25. quaeror 
+        </p>
+      </div>
+    </body>
+  </text>
 </TEI>

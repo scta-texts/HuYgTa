@@ -1,794 +1,794 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Quaestio 1</title>
-            <author ref="#ThomasStrasbourg">Thomas of Strasbourg</author>
-            <respStmt>
-               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
-               <resp>Transcription Editor</resp>
-               <resp>TEI Encoder</resp>
-            </respStmt>
-         </titleStmt>
-         <editionStmt>
-            <edition n="0.0.0-dev">
-               <title>Quaestio 1</title>
-               <date when="2020-11-26">November 26, 2020</date>
-            </edition>
-         </editionStmt>
-         <publicationStmt>
-            <authority>SCTA</authority>
-            <availability status="free">
-               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
-               </p>
-            </availability>
-         </publicationStmt>
-         <sourceDesc>
-            <listWit>
-               <witness xml:id="G" n="cod-TxxxqU">Genoa 1585</witness>
-            </listWit>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
-         <editorialDecl>
-            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
-       guidelines for a diplomatic edition.</p>
-         </editorialDecl>
-      </encodingDesc>
-      <revisionDesc status="draft">
-         <listChange>
-            <change when="2020-11-26" status="draft" n="0.0.0">
-               <p>Created file for the first time.</p>
-            </change>
-         </listChange>
-      </revisionDesc>
-   </teiHeader>
-   <text xml:lang="la">
-      <front>
-         <div xml:id="starts-on">
-            <pb ed="#G" n="55-v"/>
-            <cb ed="#G" n="b"/>
-         </div>
-      </front>
-      <body>
-         <div xml:id="HuYgTa-e42166"><!-- HuYgTa-l1d9q1 -->
-            <head xml:id="HuYgTa-e42166-Hd1e108">Quaestio 1</head>
-            <head xml:id="HuYgTa-e42166-Hd1e111" type="question-title">
-      An pater sit prior filio.
-    </head>
-            <p xml:id="HuYgTa-e42166-d1e114">
-               <lb ed="#G" n="104"/>
-               <pc type="indent"/>Quaestio I 
-      <lb ed="#G" n="105"/>An pater sit prior filio.  
-    </p>
-            <p xml:id="HuYgTa-e42166-d1e123">
-               <lb ed="#G" n="106"/>VTRVM pater sit prior filio.
-    </p>
-            <p xml:id="HuYgTa-e42166-d1e128">
-      Et videtur 
-      <lb ed="#G" n="107"/>quod sic: quia omne generans est prius 
-      <lb ed="#G" n="108"/>genito, pater est generans filium, ergo 
-      <lb ed="#G" n="109"/>&amp;c. Maior patet: quia agere presupponit 
-      <lb ed="#G" n="110"/>esse, ergo oportet, quod pater sit antequam 
-      <lb ed="#G" n="111"/>generet. Minor patet ex fide 
-    </p>
-            <p xml:id="HuYgTa-e42166-d1e142">
-               <lb ed="#G" n="112"/>In Contrarium est <ref xml:id="HuYgTa-e42166-Rd1e146">magister in littera in illa 9. dist.</ref> vbi 
-      <lb ed="#G" n="113"/>ait, <quote xml:id="HuYgTa-e42166-Qd1e151" source="http://scta.info/resource/pll1d9c2-d1e3477" synch="1-22">Genitus est a patre filius, &amp; ideo filius, nec tamen ante 
-      <lb ed="#G" n="114"/>pater fuit, quam filius coaeternae enim sibi sunt tres perso 
-      <lb ed="#G" n="115"/>nae</quote>. Hic primo est videndum, vtrum generatio actiua sit 
-      <lb ed="#G" n="116"/>prior paternitate, Secundo vtrum huiusmodi generati 
-      <lb ed="#G" n="117"/>sit prior processione, Tertio vtrum paternitas sit prior spi 
-      <lb ed="#G" n="118"/>ratione actiua, Et quarto vtrum pater sit prior filio.  
-    </p>
-            <p xml:id="HuYgTa-e42166-d1e166">
-               <lb ed="#G" n="119"/>
-               <pc type="indent"/>Ad quorum omnium intelligentiam est notandum, qu 
-      <lb ed="#G" n="120"/>7. sunt modi prioritatis, vt patet s. metaph¬ 
-    </p>
-            <p xml:id="HuYgTa-e42166-d1e175">
-               <lb ed="#G" n="121"/>
-               <pc type="indent"/>Primo modo dicitur aliquid prius secundum tempus, 
-      <lb ed="#G" n="122"/>puta prius duratione. 
-    </p>
-            <p xml:id="HuYgTa-e42166-d1e184">
-               <lb ed="#G" n="123"/>
-               <pc type="indent"/>Secundo dicitur prius secundum locum, sicut ignis es 
-      <lb ed="#G" n="124"/>prius, seu prior aere: quia propinquior est primo loco, pu 
-      <lb ed="#G" n="125"/>ta circumferentiae caeli 
-    </p>
-            <p xml:id="HuYgTa-e42166-d1e195">
-               <lb ed="#G" n="126"/>
-               <pc type="indent"/>Tertio secundum motum, sicut illud, quod propinquiui 
-      <lb ed="#G" n="127"/>est primo mouenti: sic enim puer potest dici prior seipso 
-      <lb ed="#G" n="128"/>existente viro: quia minus distat a suo primo principio 
-      <lb ed="#G" n="129"/>motiuo, 
-    </p>
-            <p xml:id="HuYgTa-e42166-d1e208">
-               <lb ed="#G" n="130"/>
-               <pc type="indent"/>Quarto secundum potentiam, sicut agens est prius
-      pa<lb ed="#G" n="131" break="no"/>tiente, &amp; vniuersaliter mouens prius est moto 
-      <!--150.xml-->
-      <pb ed="#G" n="56-r"/>
-               <cb ed="#G" n="a"/>
-               <lb ed="#G" n="1"/>Quinto secundum ordinem, sic dux potest dici prior 
-      <lb ed="#G" n="2"/>milite: quia est propinquior regi 
-    </p>
-            <p xml:id="HuYgTa-e42166-d1e229">
-               <lb ed="#G" n="3"/>
-               <pc type="indent"/>Sexto dicitur aliquid prius cognitione, sic diffinientia 
-      <lb ed="#G" n="4"/>sunt priora diffinito 
-    </p>
-            <p xml:id="HuYgTa-e42166-d1e238">
-               <lb ed="#G" n="5"/>
-               <pc type="indent"/>Septimo aliquid est prius altero natura, sic vnum est 
-      <lb ed="#G" n="6"/>prius duobus, &amp; substantia est prior accidente 
-    </p>
-            <p xml:id="HuYgTa-e42166-d1e247">
-               <lb ed="#G" n="7"/>
-               <pc type="indent"/>De primis quinque modis concorditer omnes consen 
-      <lb ed="#G" n="8"/>tiunt, quod in diuinis nec sit prius, nec posterius: de sex. 
-      <lb ed="#G" n="9"/>to tamen &amp; septimo dicta doctorum dissentiunt, ideo 
-      <lb ed="#G" n="10"/>quantum ad illos duos modos praedictas quattuor
-      clau<lb ed="#G" n="11" break="no"/>sulas pertractabo. 
-    </p>
-            <p xml:id="HuYgTa-e42166-d1e263">
-               <lb ed="#G" n="12"/>
-               <pc type="indent"/>RESOLVTIO. 
-      <lb ed="#G" n="13"/>Resalite dicitur ex hoc quaesito, nullam vealem prioritatem dari 
-      <lb ed="#G" n="14"/>in diuinis, neque respecta generationis actiuae, &amp;
-      paternita<lb ed="#G" n="15" break="no"/>ris neque respectu eiusdem, &amp;r processionis, atque actiuae spira 
-      <lb ed="#G" n="16"/>tionis. vnde sequitur tandem, nullo pacto patrem in diuini 
-      <lb ed="#G" n="17"/>esse priorem filio.  
-    </p>
-            <p xml:id="HuYgTa-e42166-d1e281">
-               <lb ed="#G" n="18"/>
-               <pc type="indent"/>ARTICVLVS I. 
-      <lb ed="#G" n="19"/>Vtrum generatio actiua sit prior 
-      <lb ed="#G" n="20"/>
-               <pc type="indent"/>paternitate.
-    </p>
-            <p xml:id="HuYgTa-e42166-d1e294">
-               <lb ed="#G" n="21"/>QVANTVM ergo ad primum, vtrum generatio act 
-      <lb ed="#G" n="22"/>Aua sit prior paternitate, dico, quod inter
-      genera<lb ed="#G" n="23" break="no"/>tionem, &amp; paternitatem, non est aliqua prioritas secundi 
-      <lb ed="#G" n="24"/>modum septimum, puta naturae 
-    </p>
-            <p xml:id="HuYgTa-e42166-d1e306">
-               <lb ed="#G" n="25"/>
-               <pc type="indent"/>Quia, vbi non est distinctio naturae, ibi non po 
-      <lb ed="#G" n="26"/>test esse prius natura, sed generatio actiua, &amp;
-      paterni<lb ed="#G" n="27" break="no"/>tas non sunt distincta natura, ergo &amp;c. Maior patet:
-      qui<lb ed="#G" n="28" break="no"/>qualis est prioritas inter aliqua, talis est distinctio inter 
-      <lb ed="#G" n="29"/>ea. Minor etiam patet: quia generatio actiua, &amp;
-      paterni<lb ed="#G" n="30" break="no"/>tas dicunt eamdem rem simpliciter indistinctam  
-    </p>
-            <p xml:id="HuYgTa-e42166-d1e324">
-               <lb ed="#G" n="31"/>
-               <pc type="indent"/>2 Praeterea, si esset inter ea prioritas naturae, aut ge 
-      <lb ed="#G" n="32"/>neratio esset prior paternitate, aut econuerso. Non
-      pri<lb ed="#G" n="33" break="no"/>mo modo: quia agere praesupponit esse, vel saltem non po 
-      <lb ed="#G" n="34"/>terit esse prius eo; sed pater generans in esse personali com 
-      <lb ed="#G" n="35"/>stituitur ipsa paternitate: ergo generatio, quae est sua
-      pro<lb ed="#G" n="36" break="no"/>pria actio, non poterit esse prior paternitate, patrem in 
-      <lb ed="#G" n="37"/>esse personali constituente. Nec secundo modo: quia pa 
-      <lb ed="#G" n="38"/>ternitas, &amp; filiatio, sunt simul natura, cum sint opposit 
-      <lb ed="#G" n="39"/>relatiua: ergo respectu cuiuscumque filiatio non potest 
-      <lb ed="#G" n="40"/>esse prior; nec paternitas respectu eiusdem poterit esse 
-      <lb ed="#G" n="41"/>prior: sed filiatio non pot est esse prior generatione, ergo 
-      <lb ed="#G" n="42"/>nec paternitas poterit esse prior ea 
-    </p>
-            <p xml:id="HuYgTa-e42166-d1e355">
-               <lb ed="#G" n="43"/>
-               <pc type="indent"/>Sed quatum ad sextum modum prioritatis puta prius 
-      <lb ed="#G" n="44"/>ratione, dico quod generatio poterit dici vno modo prior pa 
-      <lb ed="#G" n="45"/>ternitate, &amp; ato modo posterior ea: quia paternitas
-      di<lb ed="#G" n="46" break="no"/>uina potest dupliciter considerari. Vno modo, vt est
-      rela<lb ed="#G" n="47" break="no"/>tio alio modo, vt est proprietas personae constituitiua. Nam 
-      <lb ed="#G" n="48"/>paternitas vt est relatio, tunc respicit per se terminum ad 
-      <lb ed="#G" n="49"/>quem est, sed, vt est proprietas, tuc respicit per se supposi 
-      <lb ed="#G" n="50"/>tum, in quo est. Quod enim relatio personam diuinam consti 
-      <lb ed="#G" n="51"/>tuat, hoc non habet vt relatio est, sed vt diuina est, &amp; 
-      <lb ed="#G" n="52"/>idem realiter existens cum diuina essentia: ergo alio
-      mo<lb ed="#G" n="53" break="no"/>do cognitionis intelligitur paternitas, vt relatio est, &amp; 
-      <lb ed="#G" n="54"/>alio modo, vt constituitiua est. Si ergo intelligitur, vt
-      re<lb ed="#G" n="55" break="no"/>latio est, tunc modo nostro cognoscendi est posterior go 
-      <lb ed="#G" n="56"/>neratione: quia modo nostro cognoscendi relationes
-      di<lb ed="#G" n="57" break="no"/>ctae modo potentiae ex actionibus muascuntur, vt patet: 
-      <lb ed="#G" n="58"/>metaph sed paternitas, &amp; filiatio sunt relationes
-      mod<lb ed="#G" n="59" break="no"/>potentiae, vt patet ibidem, ergo &amp;c. Si autem paternitas 
-      <lb ed="#G" n="60"/>accipitur, vt est costituitiua proprietas suppositi
-      generan<lb ed="#G" n="61" break="no"/>tis; sic modo nostro cognoscendi est prior generatione 
-      <lb ed="#G" n="62"/>quia modo nostro cognoscendi actus secundus est posto 
-      <lb ed="#G" n="63"/>rior actu primo, sed generatio modo nostro cognoscend 
-      <lb ed="#G" n="64"/>etiam in diuinis se habet, vt actus secundus, principium 
-      <lb ed="#G" n="65"/>autem constituitiuum personae generantis se habet, v 
-      <!--150.xml-->
-      <cb ed="#G" n="b"/>
-               <lb ed="#G" n="66"/>actus primus, ergo &amp;c. Haec tamen nullam arguunt
-      prio<lb ed="#G" n="67" break="no"/>ritate ex natura rei: quia isto modo idem potest esse prius 
-      <lb ed="#G" n="68"/>seipso, sub alia, &amp; alia ratione ad seipsum comparatum 
-      <lb ed="#G" n="69"/>Nam paternitas considerata vt relatio, est prior seipsa
-      com<lb ed="#G" n="70" break="no"/>siderata vt est personae constituitiua: quia illud secundum 
-      <lb ed="#G" n="71"/>nostrum modum cognoscendi prius rei conuenit, quod 
-      <lb ed="#G" n="72"/>est intimius sibi, &amp; a quo per intellectum minus potest al 
-      <lb ed="#G" n="73"/>solui, sed per nullum intellectum paternitas potest
-      ab<lb ed="#G" n="74" break="no"/>solui a ratione relationis, potest tamen absolui a ratione 
-      <lb ed="#G" n="75"/>constituitiuae proprietatis, ergo &amp;c. Maior patet, probo 
-      <lb ed="#G" n="76"/>minorem: quia nullus intellectus potest rem absoluerd 
-      <lb ed="#G" n="77"/>ab eo, quod directe praedicatur de ea in primo modo
-      di<lb ed="#G" n="78" break="no"/>cendi per se, sed relatio praedicatur de paternitate in
-      pri<lb ed="#G" n="79" break="no"/>mo modo dicendi per se, &amp; per consequens est de
-      intrin<lb ed="#G" n="80" break="no"/>seca sua ratione, seu formali, sed esse constituitiuum
-      per<lb ed="#G" n="81" break="no"/>sonae non videtur praedicari per se, nec in primo, nec in 
-      <lb ed="#G" n="82"/>secundo modo de ipsa paternitate, quia omnis proposito 
-      <lb ed="#G" n="83"/>per se debet esse de omni, vt patet <ref xml:id="HuYgTa-e42166-Rd1e452">1. posteriorum</ref>, sed illa  
-      <lb ed="#G" n="84"/>proposito, paternitas constituit personam, non est de
-      o<lb ed="#G" n="85" break="no"/>mni, cum constituere non conueniat omni paternitati. 
-    </p>
-            <p xml:id="HuYgTa-e42166-d1e460">
-               <lb ed="#G" n="86"/>
-               <pc type="indent"/>Sed forte dicetur mihi, quod illa dicta destruunt se ipsa; 
-      <lb ed="#G" n="87"/>quia quicquid est prius priore, etiam est prius posteriore; 
-      <lb ed="#G" n="88"/>ergo si paternitas considerata, vt relatio, est prior seipsa, 
-      <lb ed="#G" n="89"/>vt proprietas constituitiua, &amp; eadem paternitas conside 
-      <lb ed="#G" n="90"/>rata vt proprietas constituitiua, est prior generatione,
-      se<lb ed="#G" n="91" break="no"/>quitur, quod eadem paternitas considerata, vt relatio, sit 
-      <lb ed="#G" n="92"/>prior generatione, cuius oppositum tamen expresse ponis 
-    </p>
-            <p xml:id="HuYgTa-e42166-d1e480">
-               <lb ed="#G" n="93"/>
-               <pc type="indent"/>Respondeo, &amp; dico, quod quicquid est prius priore, es 
-      <lb ed="#G" n="94"/>prius posteriore, manendo infra eundem modum
-      com<lb ed="#G" n="95" break="no"/>parationis; qui tamen modus si mutatur, nihil concludi 
-      <lb ed="#G" n="96"/>tur: quia fallacia accidentis committitur, sed in proposito 
-      <lb ed="#G" n="97"/>modus comparationis mutatur: quia alius est modus
-      con<lb ed="#G" n="98" break="no"/>parationis, qua paternitas considerata vt relatio
-      compa<lb ed="#G" n="99" break="no"/>ratur ad seipsam, vt est constituitiua; &amp; alius, prout
-      pater<lb ed="#G" n="100" break="no"/>nitas sub hac duplici ratione comparatur ad gencrationem 
-      <lb ed="#G" n="101"/>Et licet nullum simile creatum ad illius summae deitatis 
-      <lb ed="#G" n="102"/>mysterium declarandum sufficiat, possumus tamen illuc 
-      <lb ed="#G" n="103"/>aliqualiter exemplo manuducere. Homo enim albus si 
-      <lb ed="#G" n="104"/>comparatur ad esse rationale, &amp; ad esse album, tunc
-      cer<lb ed="#G" n="105" break="no"/>tum est, quod prius sibi conuenit esse rationale, quam esse  
-      <lb ed="#G" n="106"/>album, si tamen idem homo secundum hos duos modos 
-      <lb ed="#G" n="107"/>essendi comparatur ad vnum modo agendi, puta ad
-      dis<lb ed="#G" n="108" break="no"/>gregare, tunc certum est, quod hoc prius conuenit homi 
-      <lb ed="#G" n="109"/>ni, vt est albus, quam vt est rationalis, sic &amp;c Potest etiam 
-      <lb ed="#G" n="110"/>dici, quod non est inconueniens idem esse prius seipso 
-      <lb ed="#G" n="111"/>ratione, secundum aliam &amp; aliam comparationem facti 
-      <lb ed="#G" n="112"/>per intellectum, ergo &amp;c. 
-    </p>
-            <p xml:id="HuYgTa-e42166-d1e528">
-               <lb ed="#G" n="113"/>
-               <pc type="indent"/>ARTICVLVS I 
-      <lb ed="#G" n="114"/>Vtrum generatio actiua sit prior 
-      <lb ed="#G" n="115"/>
-               <pc type="indent"/>processione.
-    </p>
-            <p xml:id="HuYgTa-e42166-d1e542">
-               <lb ed="#G" n="116"/>QVANTVM ad secundum principale, vtrum
-      gene<lb ed="#G" n="117" break="no"/>ratio actiua sit prior processione, pono conformi 
-      <lb ed="#G" n="118"/>ter ad praecedentia duas conclusiones. 
-      <lb ed="#G" n="119"/>Prima est, quod generatio in diuinis non est prior na 
-      <lb ed="#G" n="120"/>tura processione spiritus sancti: Nam si esset prior natura 
-      <lb ed="#G" n="121"/>tunc esset dignior, &amp; perfectior ea. consequens est falsum: 
-      <lb ed="#G" n="122"/>quia emanationum dignitas, &amp; perfectio pensanda es 
-      <lb ed="#G" n="123"/>ex terminis. Si ergo generatio esset perfectior
-      processio<lb ed="#G" n="124" break="no"/>ne, tunc filius, qui est terminus generationis, esset
-      perse<lb ed="#G" n="125" break="no"/>ctior spiritu sancto, quod est contra fidem consequentia 
-      <lb ed="#G" n="126"/>atet <ref xml:id="HuYgTa-e42166-Rd1e568">s. metaph.</ref> Dato etiam, quod ista consequentia al 
-      <lb ed="#G" n="127"/>quando in rebus materialibus patiatur calumniam, tamen 
-      <lb ed="#G" n="128"/>in separatis a materia, de quibus ad praesens loquimur 
-      <lb ed="#G" n="129"/>simpliciter est vera 
-    </p>
-            <p xml:id="HuYgTa-e42166-d1e578">
-               <lb ed="#G" n="130"/>
-               <pc type="indent"/>Quod autem sit prior ratione patet, quia modo nostro 
-      <lb ed="#G" n="131"/>intelligendi productio, qua aliquid producitur, semper 
-      <lb ed="#G" n="132"/>videtur esse prior illa productione, qua tale productum 
-      <lb ed="#G" n="133"/>alterum producit, sed filius producitur generatione, &amp;  
-      <lb ed="#G" n="134"/>ipse producit spiritum sanctum actiua processione, ergo 
-      <!--151.xml-->
-      <pb ed="#G" n="56-v"/>
-               <cb ed="#G" n="a"/>
-               <lb ed="#G" n="1"/>generatio videtur esse prior processione, &amp; maxime apus 
-      <lb ed="#G" n="2"/>nostrum intellectum, qui ratione iam dicta simultatem 
-      <lb ed="#G" n="3"/>harum emanationum nequit comprehendere.
-    </p>
-            <p xml:id="HuYgTa-e42166-d1e607">
-               <lb ed="#G" n="4"/>Sed forte dicetur, quod generatio diuina, siue verbi
-      pro<lb ed="#G" n="5" break="no"/>ductio, cum sit secundum perfectum intelligere, videtur 
-      <lb ed="#G" n="6"/>praesupponere actum amoris, &amp; complacentiae: quia per 
-      <lb ed="#G" n="7"/>fectum intelligere non potest esse sine perfecta volunta 
-      <lb ed="#G" n="8"/>tis intentione, quae perfecta intentio esse non poterit si 
-      <lb ed="#G" n="9"/>ne amore, &amp; complacentia. Cum ergo spiritus sancti
-      em<lb ed="#G" n="10" break="no"/>natio sit per actum amoris, videtur, quod etiam secund 
-      <lb ed="#G" n="11"/>nostrum modum intelligendi, processio spiritus sancti non 
-      <lb ed="#G" n="12"/>sit posterior diuina generatione. 
-    </p>
-            <p xml:id="HuYgTa-e42166-d1e629">
-               <lb ed="#G" n="13"/>
-               <pc type="indent"/>Et confirmatur per <ref xml:id="HuYgTa-e42166-Rd1e635">P. Aug: 9. de tri.</ref> vbi ait, <quote xml:id="HuYgTa-e42166-Qd1e638" source="http://scta.info/resource/adt-l9-d1e1103" synch="285-289">Partum 
-        men<lb ed="#G" n="14" break="no"/>tis antecedit appetitus</quote>; 
-    </p>
-            <p xml:id="HuYgTa-e42166-d1e644">
-               <lb ed="#G" n="15"/>
-               <pc type="indent"/>Respondendo dico, quod cum bonum cognitum sit
-      obie<lb ed="#G" n="16" break="no"/>ctum voluntatis, necesse est cognitionem praecedere ip 
-      <lb ed="#G" n="17"/>sum amorem: non igitur requiritur actus voluntatis
-      ab<lb ed="#G" n="18" break="no"/>solute propter cognitionem: sed magis econuerso, licet 
-      <lb ed="#G" n="19"/>requiratur ad continuandam ipsam cognitionem:
-      qui<lb ed="#G" n="20" break="no"/>nisi cognitio placeret, citius dissolueretur. Item,
-      coniun<lb ed="#G" n="21" break="no"/>gens praesupponit ea, quae coniungit: sed actus amoris
-      com<lb ed="#G" n="22" break="no"/>iungiti ex parte intellectus prolem parenti, ergo modo 
-      <lb ed="#G" n="23"/>nostrae cognitionis actus amoris praesupponit genitam 
-      <lb ed="#G" n="24"/>prolem. Quamuis etiam instantia ista habeat aliquem con 
-      <lb ed="#G" n="25"/>iorem, quo ad nostrum intelligere, quod procedit de im 
-      <lb ed="#G" n="26"/>perfecto ad perfectum, &amp; per consequens prima nostra 
-      <lb ed="#G" n="27"/>notitia non est verbi productiua; in diuinis tamen haec 
-      <lb ed="#G" n="28"/>instantia modicam habet apparentiam: quia notitia Deus 
-      <lb ed="#G" n="29"/>patris non progreditur de imperfecto ad perfectum, &amp; 
-      <lb ed="#G" n="30"/>ideo per primum suum intelligere, quia perfectissimun 
-      <lb ed="#G" n="31"/>erat, potuit verbum producere. 
-    </p>
-            <p xml:id="HuYgTa-e42166-d1e686">
-               <lb ed="#G" n="32"/>
-               <pc type="indent"/>Auctoritas August. intelligenda est de nostro
-      intelli<lb ed="#G" n="33" break="no"/>gere, quod quamuis precedat appetitum secundum
-      pri<lb ed="#G" n="34" break="no"/>mos motus, seu secundum suum esse imperfectum, sequi 
-      <lb ed="#G" n="35"/>tur tamen ipsum quo ad suam continuationem perfectam. 
-    </p>
-            <p xml:id="HuYgTa-e42166-d1e700">
-               <lb ed="#G" n="36"/>
-               <pc type="indent"/>ARTICVLVS I 
-      <lb ed="#G" n="37"/>Vtrum Paternitas sit prior spiratione actiua¬ 
-    </p>
-            <p xml:id="HuYgTa-e42166-d1e709">
-               <lb ed="#G" n="38"/>
-               <pc type="indent"/>QVANTVM ad tertium principale, vtrum paternita. 
-      <lb ed="#G" n="39"/>sit prior spiratione actiua, dico, quod paternita 
-      <lb ed="#G" n="40"/>&amp; spiratio actiua, cum in persona patris dicant eandem 
-      <lb ed="#G" n="41"/>rem, sicut infra patebit, vbi probabitur, quod quamuis di 
-      <lb ed="#G" n="42"/>cant duas relationes reales ratione duorum suorum
-      ter<lb ed="#G" n="43" break="no"/>minorum realiter distinctorum, qui sunt filius, &amp; spiritus 
-      <lb ed="#G" n="44"/>sanctus, non tamen sunt duae res, sed vna tantum ratione 
-      <lb ed="#G" n="45"/>vnius immediati fundamenti, quod est persona patris, in 
-      <lb ed="#G" n="46"/>qua immediate fundantur; ideo inter paternitatem, &amp; 
-      <lb ed="#G" n="47"/>spirationem actiuam, non potest esse aliqua realis priori 
-      <lb ed="#G" n="48"/>tas: quia omnis realis prioritas praesupponit distinctioni 
-      <lb ed="#G" n="49"/>realem illius, quod dicitur prius a suo posteriori: sed illa  
-      <lb ed="#G" n="50"/>non sunt realiter distincta. Est tamen paternitas prior spi 
-      <lb ed="#G" n="51"/>ratione modo nostrae cognitionis. Quia quandocumque 
-      <lb ed="#G" n="52"/>intellectus concipit aliqua in eodem, vnum vt suppositi 
-      <lb ed="#G" n="53"/>constitutiuum, &amp; alterum vt non constituens, sed praesul 
-      <lb ed="#G" n="54"/>ponens suppositum constitutum, illud, quod constituit 
-      <lb ed="#G" n="55"/>concipit vt prius, &amp; non constituens vt posterius, sed pa 
-      <lb ed="#G" n="56"/>ternitas personam patris constituit, &amp; spiratio ipsam con 
-      <lb ed="#G" n="57"/>stitutam praesupponit, ergo &amp;c. 
-    </p>
-            <p xml:id="HuYgTa-e42166-d1e757">
-               <lb ed="#G" n="58"/>
-               <pc type="indent"/>Sed forte dicetur, quod cum nostra cognitio incipiat a 
-      <lb ed="#G" n="59"/>magis confusis, &amp; vniuersalibus, &amp; spiratio sit commu 
-      <lb ed="#G" n="60"/>nior paternitate, cum sit communis patri, &amp; filio, videtum 
-      <lb ed="#G" n="61"/>quod modo nostrae cognitionis debeat dici prior. ha 
-      <lb ed="#G" n="62"/>enim ratione essentia modo nostrae cognitionis est prio 
-      <lb ed="#G" n="63"/>omni personali proprietate: quia omni proprietate essen 
-      <lb ed="#G" n="64"/>tia videtur esse communior 
-    </p>
-            <p xml:id="HuYgTa-e42166-d1e777">
-               <lb ed="#G" n="65"/>
-               <pc type="indent"/>Respondeo, quod hic dupliciter aequiuocatur. Primo 
-      <lb ed="#G" n="66"/>scilicet de cognitione: quia non quaerimus hic quid
-      pri<lb ed="#G" n="67" break="no"/>mo cognoscat noster intellectus, &amp; de hoc procedit instam 
-      <lb ed="#G" n="68"/>tia: sed quaerimus duobus, vel pluribus oblatis itellectui 
-      <lb ed="#G" n="69"/>quod talium obiectorum intellectus dicat prius esse alii 
-      <!--151.xml-->
-      <cb ed="#G" n="b"/>
-               <lb ed="#G" n="70"/>Quamuis enim intellectus necessario prius cognosca. 
-      <lb ed="#G" n="71"/>creaturam, quam Deum: tamen naturali sua cognitioni 
-      <lb ed="#G" n="72"/>dicit Deum esse priorem creatura. Sic dato, quod commu 
-      <lb ed="#G" n="73"/>nis spiratio esset prius a nobis cognita, quam generatio 
-      <lb ed="#G" n="74"/>quia tamen communis notio secundum nostrum modum 
-      <lb ed="#G" n="75"/>intelligendi videtur quasi aduentitia esse personae con 
-      <lb ed="#G" n="76"/>stitutae per paternitatem: ideo intellectus adhuc
-      dice<lb ed="#G" n="77" break="no"/>ret, paternitatem esse priorem spiratione.
-      Secun<lb ed="#G" n="78" break="no"/>do aequiuocatur de communitate: quia illud commune 
-      <lb ed="#G" n="79"/>quod est magis notum, vel prius notum nobis notitia in 
-      <lb ed="#G" n="80"/>tellectiua, est commune per abstractionem, puta illud, qu 
-      <lb ed="#G" n="81"/>est magis confusum: sed spiratio actiua non est magis
-      ab<lb ed="#G" n="82" break="no"/>stracta, quam generatio, Et cum dicitur, quod essentia di 
-      <lb ed="#G" n="83"/>uina intelligitur esse prior proprietatibus, quia commu 
-      <lb ed="#G" n="84"/>nior, dico, quod illa communitas non est causa huius prio 
-      <lb ed="#G" n="85"/>ritatis, sed praesupposito naturalis, quam videt
-      intelle<lb ed="#G" n="86" break="no"/>ctus in creaturis, vbi omnis proprietas suum
-      fundamen<lb ed="#G" n="87" break="no"/>tum naturaliter praesupponit, ad quarum creaturarum s 
-      <lb ed="#G" n="88"/>militudinem concipit in diuinis huiusmodi prioritatem,  
-      <lb ed="#G" n="89"/>non obstante reali identitate proprietatis cum huiusmo 
-      <lb ed="#G" n="90"/>di diuino fundamento. 
-    </p>
-            <p xml:id="HuYgTa-e42166-d1e842">
-               <lb ed="#G" n="91"/>
-               <pc type="indent"/>ARTICVLVS III. 
-      <lb ed="#G" n="92"/>
-               <pc type="indent"/>Vtrum pater sit prior filio.
-    </p>
-            <p xml:id="HuYgTa-e42166-d1e853">
-               <lb ed="#G" n="93"/>QVANTVM ad quartum principale, vtrum pater 
-      <lb ed="#G" n="94"/> sit prior filio, dico consimiliter ad tres
-      praecede<lb ed="#G" n="95" break="no"/>tes conclusiones. Primo, quod nulla inter patrem, &amp; filiu 
-      <lb ed="#G" n="96"/>potest esse realis prioritas, quia summe, &amp; simpliciter aeter 
-      <lb ed="#G" n="97"/>no nihil realiter potest esse prius: sed vt dicitur in svmbo 
-      <lb ed="#G" n="98"/>lo, AEternus pater, eternus filius, aeternus spiritus sanctus. 
-      <lb ed="#G" n="99"/>Et ibidem, Neque prius, neque posterius, neque maius,  
-      <lb ed="#G" n="100"/>neque minus, sed totae tres personae coaeternae sibi sunt 
-      <lb ed="#G" n="101"/>&amp; coaequales: Secundo dico, quod persona patris poterit 
-      <lb ed="#G" n="102"/>aliquo modo esse prior ratione respectu personae filijj 
-      <lb ed="#G" n="103"/>quia eo ipso, quod noster intellectus in omnibus
-      creatu<lb ed="#G" n="104" break="no"/>ris videt vniuersaliter omne generans esse naturaliter 
-      <lb ed="#G" n="105"/>prius genito, ergo in diuinis inter gignens, &amp; genitum
-      hu<lb ed="#G" n="106" break="no"/>iusmodi prioritatem poterit ponere, saltem secundum ra 
-      <lb ed="#G" n="107"/>tionem. 
-    </p>
-            <p xml:id="HuYgTa-e42166-d1e889">
-               <lb ed="#G" n="108"/>
-               <pc type="indent"/>Sed sic dicendo habeo contra me duas sollemnes opi 
-      <lb ed="#G" n="109"/>niones. Quarum prima negat prioritatem inter patren 
-      <lb ed="#G" n="110"/>&amp; filium, etiam secundum rationem. Secunda nititur
-      oste<lb ed="#G" n="111" break="no"/>dere aliquam prioritatem esse inter eos praeter
-      priorita<lb ed="#G" n="112" break="no"/>tem rationis. 
-    </p>
-            <p xml:id="HuYgTa-e42166-d1e905">
-               <lb ed="#G" n="113"/>
-               <pc type="indent"/>Primae opinionis doctores arguunt sic 
-      <lb ed="#G" n="114"/>1 Quae sunt simul naturali intelligentia; vnum non 
-      <lb ed="#G" n="115"/>potest esse prius altero secundum rationem, sed relatiue 
-      <lb ed="#G" n="116"/>opposita sunt huiusmodi, vt patet in predicamentis. 
-    </p>
-            <p xml:id="HuYgTa-e42166-d1e918">
-               <lb ed="#G" n="117"/>
-               <pc type="indent"/>2 Praeterea, illud, quod est prius altero secundum
-      ra<lb ed="#G" n="118" break="no"/>tionem, potest intelligi sine eo: sed pater non potest
-      in<lb ed="#G" n="119" break="no"/>telligi sine filio, ergo &amp;c. Maior patet: probatur minor 
-      <lb ed="#G" n="120"/>quia qui intelligit patrem, vel intelligit eum ad se, vel 
-      <lb ed="#G" n="121"/>vt est ad aliud. Primo modo esset falsus intellectus: quia 
-      <lb ed="#G" n="122"/>vt sic pater intelligeretur vt suppositum absolutum. Si se 
-      <lb ed="#G" n="123"/>cundo modo, sic, necessario intelligitur filius. 
-    </p>
-            <p xml:id="HuYgTa-e42166-d1e938">
-               <lb ed="#G" n="124"/>
-               <pc type="indent"/>Hoc idem arguit quidam alius doctor
-      sic<lb ed="#G" n="125" break="no"/>3 Si pater esset prior filio, vel hoc esset ratione
-      essen<lb ed="#G" n="126" break="no"/>tiae, vel ratione relationis: quia non possumus dare plura 
-      <lb ed="#G" n="127"/>in patre, nisi essentiam, &amp; relationem: sed non primo mo 
-      <lb ed="#G" n="128"/>do: quia essentia est penitus eadem in patre, &amp; filio. Nec 
-      <lb ed="#G" n="129"/>secundo modo: quia relatiue opposita sunt simul natura, 
-      <lb ed="#G" n="130"/>&amp; naturali intelligentia. 
-    </p>
-            <p xml:id="HuYgTa-e42166-d1e958">
-               <lb ed="#G" n="131"/>
-               <pc type="indent"/>Sed illa non concludunt: quia intellectus distinguens 
-      <lb ed="#G" n="132"/>aliqua per comparationem ad aliqua diftincta, quae
-      ta<lb ed="#G" n="133" break="no"/>men in seipsis sunt omnino realiter idem, &amp; penitus
-      in<lb ed="#G" n="134" break="no"/>distincta, ille inquam intellectus potest concipere prius,  
-      <lb ed="#G" n="135"/>&amp; posterius inter ea, quae omnimodam habent coexiger 
-      <lb ed="#G" n="136"/>tiam simultatis: Ista patet: quia magis opponuntur
-      di<lb ed="#G" n="137" break="no"/>stinctum, &amp; indistinctum, cum sint contradictoria,
-      quanm<lb ed="#G" n="138" break="no"/>prius, &amp; posterius, quae videntur esse desperata: sed  
-      <!--152.xml-->
-      <pb ed="#G" n="57-r"/>
-               <cb ed="#G" n="a"/>
-               <lb ed="#G" n="1"/>secundum istos doctores, humanus intellectus distinguit in 
-      <lb ed="#G" n="2"/>ter diuina attributa, quae in seipsis intrinsece omnino sunt 
-      <lb ed="#G" n="3"/>idem realiter, ergo &amp;c
-    </p>
-            <p xml:id="HuYgTa-e42166-d1e993">
-               <lb ed="#G" n="4"/>2 Praeterea, vbi est dare primum, secundum, &amp; tertium 
-      <lb ed="#G" n="5"/>ite naltem secundum rationem est dare prius, &amp;
-      poste<lb ed="#G" n="6" break="no"/>tius; Mla patet: quia secundum est primo propinquius quam 
-      <lb ed="#G" n="7"/>tertium, &amp; per consequens est prius: vt patets.
-      metaph<lb ed="#G" n="8" break="no"/>sed nos concedimus patrem esse primam personam in 
-      <lb ed="#G" n="9"/>diuinis, cum fit fontana deitas secundum Dionysium, &amp; 
-      <lb ed="#G" n="10"/>flium secundam personam tamquam a patre immediat 
-      <lb ed="#G" n="11"/>productam, &amp; spiritum sanctum tertiam, quasi ab vtroque 
-      <lb ed="#G" n="12"/>procedentem, ergo saltem secundum rationem siue
-      no<lb ed="#G" n="13" break="no"/>sro modo cognostendi, poterimus ibi assignare prius, qo 
-      <lb ed="#G" n="14"/>posterius. 
-    </p>
-            <p xml:id="HuYgTa-e42166-d1e1020">
-               <lb ed="#G" n="15"/>
-               <pc type="indent"/>Preterea, omne producens secundum rationem prius 
-      <lb ed="#G" n="16"/>encipitur esse, quam producat, ergo pater praeconcipitui 
-      <lb ed="#G" n="17"/>genetatione secundum suum esse personale; sed genera 
-      <lb ed="#G" n="18"/>tio secundum nostram rationem est prior filio: quia via si 
-      <lb ed="#G" n="19"/>cundum rationem est prior termino, ergo pater secundum 
-      <lb ed="#G" n="20"/>rationem est prior filio: quia quicquid est prius priore, 
-      <lb ed="#G" n="21"/>en etiam prius posteriore. 
-    </p>
-            <p xml:id="HuYgTa-e42166-d1e1040">
-               <lb ed="#G" n="22"/>
-               <pc type="indent"/>Ad primum ergo dicendum, quod quantumlibet aliqua si 
-      <lb ed="#G" n="23"/>mul intelligantur, tamen si intellectus discernit vnum es 
-      <lb ed="#G" n="24"/>se productum, &amp; alterum producens, ipse poterit
-      produ<lb ed="#G" n="25" break="no"/>renti tribuere rationem prioris, &amp; producto rationem posterio 
-      <lb ed="#G" n="26"/>rs, non ratione qua relatiua sunt, sed ratione, qua vna psona 
-      <lb ed="#G" n="27"/>educens est, &amp; altera pducta, &amp; maxime, quia in omnibus 
-      <lb ed="#G" n="28"/>ereaturis, ex quibus nostri intellectus oritur cognitio,
-      Se<lb ed="#G" n="29" break="no"/>re productum posterius est producente, ergo a simili po 
-      <lb ed="#G" n="30"/>em concipere in diuinis.
-    </p>
-            <p xml:id="HuYgTa-e42166-d1e1064">
-               <lb ed="#G" n="31"/>Ad secundum nego maiorem, quod quantumlibet causa 
-      <lb ed="#G" n="32"/>reeausa est, non possit intelligi sine causato, vel
-      causabili<lb ed="#G" n="33" break="no"/>ineegitur tamen naturaliter causa fore prior causato, 
-      <lb ed="#G" n="34"/>ergo &amp;c. 
-    </p>
-            <p xml:id="HuYgTa-e42166-d1e1075">
-               <lb ed="#G" n="35"/>
-               <pc type="indent"/>Ad tertium nego minorem, quia essentia vt est in
-      pa<lb ed="#G" n="36" break="no"/>tre, potest concipi sub ratione prioris, &amp; vt est in filio 
-      <lb ed="#G" n="37"/>sab ratione posterionis: quia sient imrealiter distinctis il 
-      <lb ed="#G" n="38"/>hd, quod addit super alterum, si additio est realis, tuc rea 
-      <lb ed="#G" n="39"/>hter est posterius eo; sic in non distinctis realiter, illud, 
-      <lb ed="#G" n="40"/>quod habet se per modum additionis ad seipsum, ad mi- 
-      <lb ed="#G" n="41"/>nus secundum rationem est posterius seipso; sed essentia 
-      <lb ed="#G" n="42"/>nest in filio, addit super seipsam, vt est in patre esse
-      com<lb ed="#G" n="43" break="no"/>nonicatum, ergo filius ratione essentiae potest concipi e 
-      <lb ed="#G" n="44"/>posterior patre secundum humanam rationem. Etiam 
-      <lb ed="#G" n="45"/>reo minorem quantum ad alteram sui partem: quia (sicui 
-      <lb ed="#G" n="46"/>P nocto res met dicunt, &amp; bene) qualem ordinem rea 
-    </p>
-            <p xml:id="HuYgTa-e42166-d1e1106">
-               <lb ed="#G" n="47"/>
-               <pc type="indent"/>m habent aliqua inter se, vbi differunt realiter, talem
-      or<lb ed="#G" n="48" break="no"/>ninem rationis habent cum differunt ratione; unde quia 
-      <lb ed="#G" n="49"/>emus, quod vbi intellectus, &amp; uoluntas differunt realiter. 
-      <lb ed="#G" n="50"/>Pessectus realiter est prior voluntate, ideo in Deo, ub 
-      <lb ed="#G" n="51"/>Slum differunt ratione, dicimus intellectum ratione 
-      <lb ed="#G" n="52"/>ese priorem voluntate. Sed in his, vbi proprietas consti 
-      <lb ed="#G" n="53"/>ua suppositi generantis differt realiter a gencratione, 
-      <lb ed="#G" n="54"/>Si talis proprietas est realiter priori generatione, er 
-      <lb ed="#G" n="55"/>tn uinis, vbi paternitas, quae est patris constitutius 
-      <lb ed="#G" n="56"/>onrintas, differt secundum rationem a genetatione
-      ip<lb ed="#G" n="57" break="no"/>s secundum rationem potest dici prior generatione. 
-      <lb ed="#G" n="58"/>Sed nuod est ratione prius generatione, euam est ratio 
-      <lb ed="#G" n="59"/>neprius genito, ergo persona patris etiam propter suam 
-      <lb ed="#G" n="60"/>roptietatem relatiuam potest dici prior filio saltem
-      se<lb ed="#G" n="61" break="no"/>dum rationem.
-    </p>
-            <p xml:id="HuYgTa-e42166-d1e1143">
-               <lb ed="#G" n="62"/>Shy exiam vt praedixi ponunt prioritatem in diuinis,  
-      <lb ed="#G" n="63"/>tae non es prioritas rationis tantum, sed secundum
-      ali<lb ed="#G" n="64" break="no"/>io dicitur prioritas realis secundum quid, secundum 
-      <lb ed="#G" n="65"/>so dicent prioritas naturalis praesuppositionis. De hac 
-      <lb ed="#G" n="66"/>emen pre appositone ad praesens nihibdicam: quia
-      lo<lb ed="#G" n="67" break="no"/>m habet carea distinctionem 12. Et secundum alios
-      di<lb ed="#G" n="68" break="no"/>nommoritas originis. 
-    </p>
-            <p xml:id="HuYgTa-e42166-d1e1162">
-               <lb ed="#G" n="69"/>
-               <pc type="indent"/>Prim, dictum suum declarant sic. Sicut in multitudine 
-      <lb ed="#G" n="70"/>Spleiter eali est ordo simpliciter realis, ; &amp; per
-      conse<lb ed="#G" n="71" break="no"/>ena prius, &amp; posterius simpliciter realia,; sic vbi est mul 
-      <lb ed="#G" n="72"/>unido realis secudum quid, possumus ponere prius, &amp; pro 
-      <lb ed="#G" n="73"/>enus reale secundum quist, sed vbi aliqua multa diffe 
-      <!--152.xml-->
-      <cb ed="#G" n="b"/>
-               <lb ed="#G" n="74"/>tunt secundum esse, est multitudo simpliciter: raalis,  
-      <lb ed="#G" n="75"/>vbi autem sunt multa non secundum esse; sed tantummi 
-      <lb ed="#G" n="76"/>do secundum modum essendi sicut in diuinis, ibi est mul 
-      <lb ed="#G" n="77"/>titudo realis non simpliciter, sed secundum quid, ergon 
-      <lb ed="#G" n="78"/>liuinis propter diuersitatem realium modorum essendi 
-      <lb ed="#G" n="79"/>erit ibi prius, &amp; posterius realiter, quamuis secundum quid 
-    </p>
-            <p xml:id="HuYgTa-e42166-d1e1195">
-               <lb ed="#G" n="80"/>
-               <pc type="indent"/>Sed illud non intelligo: quia aut ille per modoxillos 
-      <lb ed="#G" n="81"/>reales intelligit modos absolutos, &amp; sic contra eos argu 
-      <lb ed="#G" n="82"/>uperius dis. 8. ergo quo adhoc praesens dimitto. Aut intel 
-      <lb ed="#G" n="83"/>ligit modos relatiuos, &amp; sic dico, qued inquantum opposit sunt 
-      <lb ed="#G" n="84"/>vrique realiter differunt, sed cum hoc realiter simul sunt, 
-      <lb ed="#G" n="85"/>nec aliqua realis prioritas poterit poni inter huiusmod 
-      <lb ed="#G" n="86"/>relationes. Si autem tales modi sunt desperati, tunc ac 
-      <lb ed="#G" n="87"/>huc realiter coeterni sunt ratione coexistentiae, qua cos 
-      <lb ed="#G" n="88"/>vistunt modis directe relatiue oppositis.
-    </p>
-            <p xml:id="HuYgTa-e42166-d1e1219">
-               <lb ed="#G" n="89"/>Alij dicentes, quod in diuinis sit prius, &amp; posterius oria 
-      <lb ed="#G" n="90"/>tinis, seu secundum onginem naturalem, probant hoc primo.
-    </p>
-            <p xml:id="HuYgTa-e42166-d1e1226">
-               <lb ed="#G" n="91"/>1 Auctoritate Augus in lib de triplici habitaculo ub 
-      <lb ed="#G" n="92"/>sic dicit, Cum iusti fuerint in patria videbunt quid
-      inte<lb ed="#G" n="93" break="no"/>rest inter generationem, &amp; processionem, &amp; uidebunt, qui 
-      <lb ed="#G" n="94"/>ater praecedit filium, non natura, sed origine.
-    </p>
-            <p xml:id="HuYgTa-e42166-d1e1237">
-               <lb ed="#G" n="95"/>2 Item, Hichar. 8. de trini: loquens de priori, &amp;
-      poste<lb ed="#G" n="96" break="no"/>riori in diuinis sic ait. Prius, &amp; posterius in hoc loco
-      in<lb ed="#G" n="97" break="no"/>telligi volumus, non temporis suceessione, sed ordine 
-      <lb ed="#G" n="98"/>naturae. 
-    </p>
-            <p xml:id="HuYgTa-e42166-d1e1248">
-               <lb ed="#G" n="99"/>3 Praeterea. 1. posteriorum dicitur, Primum est quod 
-      <lb ed="#G" n="100"/>sic se habet, quod alteri conuenit aliquid per ipsum, &amp; sil 
-      <lb ed="#G" n="101"/>bi non per alterum, sed filio, &amp; spiritui sancto, conuenit es 
-      <lb ed="#G" n="102"/>se per patrem &amp; patri non per eos, ergo &amp;c 
-    </p>
-            <p xml:id="HuYgTa-e42166-d1e1260">
-               <lb ed="#G" n="103"/>4 Praeterea, pater est principium filij, vt patet per <ref xml:id="HuYgTa-e42166-Rd1e1264">Au¬ 
-        <lb ed="#G" n="104"/>gust. 5. de trini</ref>: sed vt dicitur t. posteriorum, primum, &amp; prit 
-      <lb ed="#G" n="105"/>cipium idem sunt, ergo pater est prior filio.
-    </p>
-            <p xml:id="HuYgTa-e42166-d1e1272">
-               <lb ed="#G" n="106"/>3 Praeterea, posset gratia disputationis argui, quod pat 
-      <lb ed="#G" n="107"/>esset prior filio duratione: quia sicut se habet corruptio 
-      <lb ed="#G" n="108"/>ad desinere esse, ita generatio ad incipere esse; sed omne 
-      <lb ed="#G" n="109"/>corruptum desinit esse, ergo omne generatum incipit
-      es<lb ed="#G" n="110" break="no"/>se, quod autem incipit esse non est aeternum, ergo filius 
-      <lb ed="#G" n="111"/>non est aeternus.
-    </p>
-            <p xml:id="HuYgTa-e42166-d1e1288">
-               <lb ed="#G" n="112"/>8 Praeterea, quandocunque aliqua sunt idem; si
-      u<lb ed="#G" n="113" break="no"/>num habet principium, &amp; reliquum: sed esse filij in
-      diui<lb ed="#G" n="114" break="no"/>nis, &amp; duratio sua sunt idem, cum ergo filius habeat
-      prin<lb ed="#G" n="115" break="no"/>cipium sui esse, etiam habobit principium suae duratio; 
-      <lb ed="#G" n="116"/>nis; omne autem, quod habet principium durationis,  
-      <lb ed="#G" n="117"/>est temporale
-    </p>
-            <p xml:id="HuYgTa-e42166-d1e1304">
-               <lb ed="#G" n="118"/>3 Praeterea, vbicuque est numcrus, ibi est prius, &amp;
-      poste<lb ed="#G" n="119" break="no"/>rius; in diuinis est numerus, cum ibi sit ternarius 
-      <lb ed="#G" n="120"/>E Preterea, proprium naturaliter est posterius eo, 
-      <lb ed="#G" n="121"/>cuius est proprium: sed in Deo est proprium; puta
-      pro<lb ed="#G" n="122" break="no"/>prietas personalis, &amp; illud, cuius est proprium,
-      put<lb ed="#G" n="123" break="no"/>persona; etiam est ibi proprietas essentialis, &amp; essentia 
-    </p>
-            <p xml:id="HuYgTa-e42166-d1e1320">
-               <lb ed="#G" n="124"/>
-               <pc type="indent"/>Praeterea, vt patet in praedicamentis, vnus modus 
-      <lb ed="#G" n="125"/>prioritatis est quando aliqua conuertuntur secundum e- 
-      <lb ed="#G" n="126"/>xistendi consequentiam, &amp; tamen vnum est causa alterius. 
-      <lb ed="#G" n="127"/>sed pater, &amp; filius &amp;c 
-    </p>
-            <p xml:id="HuYgTa-e42166-d1e1333">
-               <lb ed="#G" n="128"/>
-               <pc type="indent"/>so Praeterea, quicquid est primo propinquius, hoc est 
-      <lb ed="#G" n="129"/>realiter prius, sed filius est immediatior patri: quia spiri. 
-      <lb ed="#G" n="130"/>tus sanctus procedit a patre mediante filio, ideo &amp;c 
-    </p>
-            <p xml:id="HuYgTa-e42166-d1e1345">
-               <lb ed="#G" n="131"/>
-               <pc type="indent"/>Sed istud non ualet: quia prius origine non ponit nus 
-      <lb ed="#G" n="132"/>merum cum priori natura, &amp;cum priori secundumcon 
-      <lb ed="#G" n="133"/>nitionem siue rationem: quia quandocunque aliquid ori; 
-      <lb ed="#G" n="134"/>ginatur ab aliquo, vel distinguitur, &amp; numeratur natur, 
-      <lb ed="#G" n="135"/>in producente, &amp; producto, &amp; tunc prius origine es 
-      <lb ed="#G" n="136"/>idem, quod prius natura, vel sic producitur, quod
-      ta<lb ed="#G" n="137" break="no"/>men manet in eadem natura cum producente, &amp;capi 
-      <lb ed="#G" n="138"/>idem esse cum eo, tunc prius origine non est aliud, quam 
-      <lb ed="#G" n="139"/>prius rationem
-    </p>
-            <p xml:id="HuYgTa-e42166-d1e1369">
-               <lb ed="#G" n="140"/>Et per hoc ad auctoritatem Aug patet: quia filius in di 
-      <lb ed="#G" n="141"/>uinis sic producitur, quod tamen manet in eadepi natur,  
-      <lb ed="#G" n="142"/>cum patre, &amp; capit idem esse cum co 
-    </p>
-            <p xml:id="HuYgTa-e42166-d1e1378">
-               <lb ed="#G" n="143"/>Ad secundum dicendum, quod quamuis in diuinis sit orde 
-      <lb ed="#G" n="144"/>naturae: quia filius habet naturam a patre, &amp; non patera 
-      <lb ed="#G" n="145"/>filio,; tamen ille ordo non est in diuersitate naturae: sed fun 
-      <lb ed="#G" n="146"/>datur super eadem natura, &amp; super eodem esse, &amp; idec 
-      <!--153.xml-->
-      <pb ed="#G" n="57-v"/>
-               <cb ed="#G" n="a"/>
-               <lb ed="#G" n="1"/>quamuis filius sit apatre: quia tamen idem esse diuinum 
-      <lb ed="#G" n="2"/>capit cum patre, ideo non est postetior patre, nisi
-      secun<lb ed="#G" n="3" break="no"/>dum que intellectus concipit patrem, &amp; filium in compara 
-      <lb ed="#G" n="4"/>tione eorum, in quibus productum taliter originatur a pro 
-      <lb ed="#G" n="5"/>ducente, quod etiam ab eo numerata natura distinguitur, &amp;  
-      <lb ed="#G" n="6"/>est simile de ista priori &amp; posteriori; sicut superius dictu 
-      <lb ed="#G" n="7"/>est de attributorum distinctione. 
-    </p>
-            <p xml:id="HuYgTa-e42166-d1e1411">
-               <lb ed="#G" n="8"/>
-               <pc type="indent"/>Ad tertium dicendum, quamuis filius accipiat esse, 
-      <lb ed="#G" n="9"/>patre, accipit tamen idem esse, ergo non est posterior eo 
-      <lb ed="#G" n="10"/>nisi conceptu rationis. 
-    </p>
-            <p xml:id="HuYgTa-e42166-d1e1422">
-               <lb ed="#G" n="11"/>
-               <pc type="indent"/>Ad quartum dicendum, quod primum, principium, &amp;  
-      <lb ed="#G" n="12"/>causa, idem sunt in rebus creatis: quia in creatis causa,
-      si<lb ed="#G" n="13" break="no"/>ue principiu est illud, ad cuius esse sequitur aliud, &amp; ideo 
-      <lb ed="#G" n="14"/>in talibus potest esse primum, &amp; prius, &amp; posterius; non 
-      <lb ed="#G" n="15"/>autem in diuinis: quia filius non est aliud a patre, sed est 
-      <lb ed="#G" n="16"/>idem patri in esse, &amp; in natura, &amp; ideo est illi totaliter
-      coae<lb ed="#G" n="17" break="no"/>ternus. Sicut enim idem non potest esse prius seipso, nisi 
-      <lb ed="#G" n="18"/>secundum rationem: sic nec pater filio propter
-      identita<lb ed="#G" n="19" break="no"/>tem naturae, &amp; propter oppositarum relationum
-      simulta<lb ed="#G" n="20" break="no"/>tem, &amp; mutuam coexigentiam. 
-    </p>
-            <p xml:id="HuYgTa-e42166-d1e1448">
-               <lb ed="#G" n="21"/>
-               <pc type="indent"/>Ad quintum dicendum, quod non est simile de generatione, ac 
-      <lb ed="#G" n="22"/>eotruptione, nisi loquendo de illa generatione, qua
-      ge<lb ed="#G" n="23" break="no"/>nitum accipit naturam, &amp; esse distincta realiter a natura, 
-      <lb ed="#G" n="24"/>&amp; esse generantis. Etiam potest dici, quod quamuis res 
-      <lb ed="#G" n="25"/>genita per generationem accipit esse, quod tamen
-      inci<lb ed="#G" n="26" break="no"/>piat esse per accidens, est: quia hoc per se non conuenit ei 
-      <lb ed="#G" n="27"/>ratione generationis, sed ratione annexae priuationis cunm 
-      <lb ed="#G" n="28"/>suo principio materiali, propter quam suum non esse
-      pre<lb ed="#G" n="29" break="no"/>cessit suum esse 
-    </p>
-            <p xml:id="HuYgTa-e42166-d1e1473">
-               <lb ed="#G" n="30"/>
-               <pc type="indent"/>Ad sextum dicendum, quod sicut filius taliter habet 
-      <lb ed="#G" n="31"/>principium sui esse, quod tamen accipit idem esse, quod 
-      <lb ed="#G" n="32"/>est sui principij esse: sic habet principium suae
-      dura<lb ed="#G" n="33" break="no"/>tionis, quod accipit eandem durationem realiter, &amp; 
-      <lb ed="#G" n="34"/>complete, quae est sui principij duratio, puta diuinam  
-      <lb ed="#G" n="35"/>aeternitatem. 
-    </p>
-            <p xml:id="HuYgTa-e42166-d1e1491">
-               <lb ed="#G" n="36"/>
-               <pc type="indent"/>Ad formam argumenti dicendum, quod ibi aequiuocatur 
-      <lb ed="#G" n="37"/>de principio durationis: quia in praemissis accipitur
-      prin<lb ed="#G" n="38" break="no"/>cipium, quod est durationis communicatiuum, sed in
-      vl<lb ed="#G" n="39" break="no"/>tima illatione cum dicitur, quod habet principium
-      dura<lb ed="#G" n="40" break="no"/>tionis est temporale, ibi accipitur principium, quod ess 
-      <lb ed="#G" n="41"/>durationis limitatiuum, quod est linies, &amp; terminus
-      du<lb ed="#G" n="42" break="no"/>rationis, quo formaliter, &amp; intrinsece quandoque coepit 
-      <lb ed="#G" n="43"/>esse duratio. Et isto secundo modo nulla diuina persona 
-      <lb ed="#G" n="44"/>habet principium durationis, cum omnes tres personae 
-      <lb ed="#G" n="45"/>habeant vnam durationem, quae est simplex aeternitas 
-      <lb ed="#G" n="46"/>quae dicitur ab. E. quod est extra, &amp; termino, quasi extra 
-      <lb ed="#G" n="47"/>terminos, omnino carens limite, &amp; ex parte ante, &amp; ex 
-      <lb ed="#G" n="48"/>parte post. Primo tamen modo filius habet principisi
-      du<lb ed="#G" n="49" break="no"/>rationis suae: quia sicut in illa ineffabili generatione pater 
-      <lb ed="#G" n="50"/>communicat filio suam deitatem, sic etiam communicat 
-      <lb ed="#G" n="51"/>ei suam aeternitatem 
-    </p>
-            <p xml:id="HuYgTa-e42166-d1e1530">
-               <lb ed="#G" n="52"/>
-               <pc type="indent"/>Ad septimum dicendum, quod sicut in diuinis est
-      sa<lb ed="#G" n="53" break="no"/>pientia, &amp; magnitudo, non tamen quantitas, vel qualitas,  
-      <lb ed="#G" n="54"/>sic in diuinis potest esse ternarius, non tamen est ibi
-      nu<lb ed="#G" n="55" break="no"/>merus proprie dictus. 
-    </p>
-            <p xml:id="HuYgTa-e42166-d1e1543">
-               <lb ed="#G" n="56"/>
-               <pc type="indent"/>Ad octauum dicendum, quod maior non estuera, nisi in 
-      <lb ed="#G" n="57"/>his, ubi proprium est realiter alterius naturae ab eo,
-      cu<lb ed="#G" n="58" break="no"/>ius est proprium. 
-    </p>
-            <p xml:id="HuYgTa-e42166-d1e1554">
-               <lb ed="#G" n="59"/>
-               <pc type="indent"/>Ad nonum dicendum, quod pater non debet dici
-      cau<lb ed="#G" n="60" break="no"/>sa filij: quia causa est ad cuius esse sequitur aliud; filius
-      au<lb ed="#G" n="61" break="no"/>tem quamuis possit dici alius a patre, non tamen dicitu 
-      <lb ed="#G" n="62"/>aliud. 
-    </p>
-            <p xml:id="HuYgTa-e42166-d1e1567">
-               <lb ed="#G" n="63"/>
-               <pc type="indent"/>Ad decimum dicendum: quod pater dicitur producere spi 
-      <lb ed="#G" n="64"/>ritum sanctu mediante filio, non quod pater non immediate 
-      <lb ed="#G" n="65"/>producat spiritum sanctum, sed hoc dicitur pro tanto: quia 
-      <lb ed="#G" n="66"/>filius uirtutem spiratiuam habet a patre, 
-    </p>
-            <p xml:id="HuYgTa-e42166-d1e1581">
-               <lb ed="#G" n="67"/>
-               <pc type="indent"/>Ad argumentum principale nego maiorem in his, vbi 
-      <lb ed="#G" n="68"/>generans, &amp; genitum solum distinguuntur relatiue, &amp; pe 
-      <lb ed="#G" n="69"/>nitus in nullo absoluto sunt distincta. Ad probationem 
-      <lb ed="#G" n="70"/>dico, quod in relatiuis esse relatiuum innascitur, vel resul 
-      <lb ed="#G" n="71"/>tat ex ipso agcre, ergo in his, quae sola relatione
-      distin<lb ed="#G" n="72" break="no"/>guuntur, esse non potest praecedere ipsum agere, quamuis 
-      <lb ed="#G" n="73"/>sit ei coaeternum.
-    </p>
-         </div>
-      </body>
-   </text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 1</title>
+        <author ref="#ThomasStrasbourg">Thomas of Strasbourg</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 1</title>
+          <date when="2020-11-26">November 26, 2020</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="G" n="cod-TxxxqU">Genoa 1585</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2020-11-26" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#G" n="55-v"/>
+        <cb ed="#G" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="HuYgTa-e42166"><!-- HuYgTa-l1d9q1 -->
+        <head xml:id="HuYgTa-e42166-Hd1e108">Quaestio 1</head>
+        <head xml:id="HuYgTa-e42166-Hd1e111" type="question-title">
+          An pater sit prior filio.
+        </head>
+        <p xml:id="HuYgTa-e42166-d1e114">
+          <lb ed="#G" n="104"/>
+          <pc type="indent"/>Quaestio I 
+          <lb ed="#G" n="105"/>An pater sit prior filio.  
+        </p>
+        <p xml:id="HuYgTa-e42166-d1e123">
+          <lb ed="#G" n="106"/>VTRVM pater sit prior filio.
+        </p>
+        <p xml:id="HuYgTa-e42166-d1e128">
+          Et videtur 
+          <lb ed="#G" n="107"/>quod sic: quia omne generans est prius 
+          <lb ed="#G" n="108"/>genito, pater est generans filium, ergo 
+          <lb ed="#G" n="109"/>&amp;c. Maior patet: quia agere presupponit 
+          <lb ed="#G" n="110"/>esse, ergo oportet, quod pater sit antequam 
+          <lb ed="#G" n="111"/>generet. Minor patet ex fide 
+        </p>
+        <p xml:id="HuYgTa-e42166-d1e142">
+          <lb ed="#G" n="112"/>In Contrarium est <ref xml:id="HuYgTa-e42166-Rd1e146">magister in littera in illa 9. dist.</ref> vbi 
+          <lb ed="#G" n="113"/>ait, <quote xml:id="HuYgTa-e42166-Qd1e151" source="http://scta.info/resource/pll1d9c2-d1e3477" synch="1-22">Genitus est a patre filius, &amp; ideo filius, nec tamen ante 
+            <lb ed="#G" n="114"/>pater fuit, quam filius coaeternae enim sibi sunt tres perso 
+            <lb ed="#G" n="115"/>nae</quote>. Hic primo est videndum, vtrum generatio actiua sit 
+          <lb ed="#G" n="116"/>prior paternitate, Secundo vtrum huiusmodi generati 
+          <lb ed="#G" n="117"/>sit prior processione, Tertio vtrum paternitas sit prior spi 
+          <lb ed="#G" n="118"/>ratione actiua, Et quarto vtrum pater sit prior filio.  
+        </p>
+        <p xml:id="HuYgTa-e42166-d1e166">
+          <lb ed="#G" n="119"/>
+          <pc type="indent"/>Ad quorum omnium intelligentiam est notandum, qu 
+          <lb ed="#G" n="120"/>7. sunt modi prioritatis, vt patet s. metaph¬ 
+        </p>
+        <p xml:id="HuYgTa-e42166-d1e175">
+          <lb ed="#G" n="121"/>
+          <pc type="indent"/>Primo modo dicitur aliquid prius secundum tempus, 
+          <lb ed="#G" n="122"/>puta prius duratione. 
+        </p>
+        <p xml:id="HuYgTa-e42166-d1e184">
+          <lb ed="#G" n="123"/>
+          <pc type="indent"/>Secundo dicitur prius secundum locum, sicut ignis es 
+          <lb ed="#G" n="124"/>prius, seu prior aere: quia propinquior est primo loco, pu 
+          <lb ed="#G" n="125"/>ta circumferentiae caeli 
+        </p>
+        <p xml:id="HuYgTa-e42166-d1e195">
+          <lb ed="#G" n="126"/>
+          <pc type="indent"/>Tertio secundum motum, sicut illud, quod propinquiui 
+          <lb ed="#G" n="127"/>est primo mouenti: sic enim puer potest dici prior seipso 
+          <lb ed="#G" n="128"/>existente viro: quia minus distat a suo primo principio 
+          <lb ed="#G" n="129"/>motiuo, 
+        </p>
+        <p xml:id="HuYgTa-e42166-d1e208">
+          <lb ed="#G" n="130"/>
+          <pc type="indent"/>Quarto secundum potentiam, sicut agens est prius
+          pa<lb ed="#G" n="131" break="no"/>tiente, &amp; vniuersaliter mouens prius est moto 
+          <!--150.xml-->
+          <pb ed="#G" n="56-r"/>
+          <cb ed="#G" n="a"/>
+          <lb ed="#G" n="1"/>Quinto secundum ordinem, sic dux potest dici prior 
+          <lb ed="#G" n="2"/>milite: quia est propinquior regi 
+        </p>
+        <p xml:id="HuYgTa-e42166-d1e229">
+          <lb ed="#G" n="3"/>
+          <pc type="indent"/>Sexto dicitur aliquid prius cognitione, sic diffinientia 
+          <lb ed="#G" n="4"/>sunt priora diffinito 
+        </p>
+        <p xml:id="HuYgTa-e42166-d1e238">
+          <lb ed="#G" n="5"/>
+          <pc type="indent"/>Septimo aliquid est prius altero natura, sic vnum est 
+          <lb ed="#G" n="6"/>prius duobus, &amp; substantia est prior accidente 
+        </p>
+        <p xml:id="HuYgTa-e42166-d1e247">
+          <lb ed="#G" n="7"/>
+          <pc type="indent"/>De primis quinque modis concorditer omnes consen 
+          <lb ed="#G" n="8"/>tiunt, quod in diuinis nec sit prius, nec posterius: de sex. 
+          <lb ed="#G" n="9"/>to tamen &amp; septimo dicta doctorum dissentiunt, ideo 
+          <lb ed="#G" n="10"/>quantum ad illos duos modos praedictas quattuor
+          clau<lb ed="#G" n="11" break="no"/>sulas pertractabo. 
+        </p>
+        <p xml:id="HuYgTa-e42166-d1e263">
+          <lb ed="#G" n="12"/>
+          <pc type="indent"/>RESOLVTIO. 
+          <lb ed="#G" n="13"/>Resalite dicitur ex hoc quaesito, nullam vealem prioritatem dari 
+          <lb ed="#G" n="14"/>in diuinis, neque respecta generationis actiuae, &amp;
+          paternita<lb ed="#G" n="15" break="no"/>ris neque respectu eiusdem, &amp;r processionis, atque actiuae spira 
+          <lb ed="#G" n="16"/>tionis. vnde sequitur tandem, nullo pacto patrem in diuini 
+          <lb ed="#G" n="17"/>esse priorem filio.  
+        </p>
+        <p xml:id="HuYgTa-e42166-d1e281">
+          <lb ed="#G" n="18"/>
+          <pc type="indent"/>ARTICVLVS I. 
+          <lb ed="#G" n="19"/>Vtrum generatio actiua sit prior 
+          <lb ed="#G" n="20"/>
+          <pc type="indent"/>paternitate.
+        </p>
+        <p xml:id="HuYgTa-e42166-d1e294">
+          <lb ed="#G" n="21"/>QVANTVM ergo ad primum, vtrum generatio act 
+          <lb ed="#G" n="22"/>Aua sit prior paternitate, dico, quod inter
+          genera<lb ed="#G" n="23" break="no"/>tionem, &amp; paternitatem, non est aliqua prioritas secundi 
+          <lb ed="#G" n="24"/>modum septimum, puta naturae 
+        </p>
+        <p xml:id="HuYgTa-e42166-d1e306">
+          <lb ed="#G" n="25"/>
+          <pc type="indent"/>Quia, vbi non est distinctio naturae, ibi non po 
+          <lb ed="#G" n="26"/>test esse prius natura, sed generatio actiua, &amp;
+          paterni<lb ed="#G" n="27" break="no"/>tas non sunt distincta natura, ergo &amp;c. Maior patet:
+          qui<lb ed="#G" n="28" break="no"/>qualis est prioritas inter aliqua, talis est distinctio inter 
+          <lb ed="#G" n="29"/>ea. Minor etiam patet: quia generatio actiua, &amp;
+          paterni<lb ed="#G" n="30" break="no"/>tas dicunt eamdem rem simpliciter indistinctam  
+        </p>
+        <p xml:id="HuYgTa-e42166-d1e324">
+          <lb ed="#G" n="31"/>
+          <pc type="indent"/>2 Praeterea, si esset inter ea prioritas naturae, aut ge 
+          <lb ed="#G" n="32"/>neratio esset prior paternitate, aut econuerso. Non
+          pri<lb ed="#G" n="33" break="no"/>mo modo: quia agere praesupponit esse, vel saltem non po 
+          <lb ed="#G" n="34"/>terit esse prius eo; sed pater generans in esse personali com 
+          <lb ed="#G" n="35"/>stituitur ipsa paternitate: ergo generatio, quae est sua
+          pro<lb ed="#G" n="36" break="no"/>pria actio, non poterit esse prior paternitate, patrem in 
+          <lb ed="#G" n="37"/>esse personali constituente. Nec secundo modo: quia pa 
+          <lb ed="#G" n="38"/>ternitas, &amp; filiatio, sunt simul natura, cum sint opposit 
+          <lb ed="#G" n="39"/>relatiua: ergo respectu cuiuscumque filiatio non potest 
+          <lb ed="#G" n="40"/>esse prior; nec paternitas respectu eiusdem poterit esse 
+          <lb ed="#G" n="41"/>prior: sed filiatio non pot est esse prior generatione, ergo 
+          <lb ed="#G" n="42"/>nec paternitas poterit esse prior ea 
+        </p>
+        <p xml:id="HuYgTa-e42166-d1e355">
+          <lb ed="#G" n="43"/>
+          <pc type="indent"/>Sed quatum ad sextum modum prioritatis puta prius 
+          <lb ed="#G" n="44"/>ratione, dico quod generatio poterit dici vno modo prior pa 
+          <lb ed="#G" n="45"/>ternitate, &amp; ato modo posterior ea: quia paternitas
+          di<lb ed="#G" n="46" break="no"/>uina potest dupliciter considerari. Vno modo, vt est
+          rela<lb ed="#G" n="47" break="no"/>tio alio modo, vt est proprietas personae constituitiua. Nam 
+          <lb ed="#G" n="48"/>paternitas vt est relatio, tunc respicit per se terminum ad 
+          <lb ed="#G" n="49"/>quem est, sed, vt est proprietas, tuc respicit per se supposi 
+          <lb ed="#G" n="50"/>tum, in quo est. Quod enim relatio personam diuinam consti 
+          <lb ed="#G" n="51"/>tuat, hoc non habet vt relatio est, sed vt diuina est, &amp; 
+          <lb ed="#G" n="52"/>idem realiter existens cum diuina essentia: ergo alio
+          mo<lb ed="#G" n="53" break="no"/>do cognitionis intelligitur paternitas, vt relatio est, &amp; 
+          <lb ed="#G" n="54"/>alio modo, vt constituitiua est. Si ergo intelligitur, vt
+          re<lb ed="#G" n="55" break="no"/>latio est, tunc modo nostro cognoscendi est posterior go 
+          <lb ed="#G" n="56"/>neratione: quia modo nostro cognoscendi relationes
+          di<lb ed="#G" n="57" break="no"/>ctae modo potentiae ex actionibus muascuntur, vt patet: 
+          <lb ed="#G" n="58"/>metaph sed paternitas, &amp; filiatio sunt relationes
+          mod<lb ed="#G" n="59" break="no"/>potentiae, vt patet ibidem, ergo &amp;c. Si autem paternitas 
+          <lb ed="#G" n="60"/>accipitur, vt est costituitiua proprietas suppositi
+          generan<lb ed="#G" n="61" break="no"/>tis; sic modo nostro cognoscendi est prior generatione 
+          <lb ed="#G" n="62"/>quia modo nostro cognoscendi actus secundus est posto 
+          <lb ed="#G" n="63"/>rior actu primo, sed generatio modo nostro cognoscend 
+          <lb ed="#G" n="64"/>etiam in diuinis se habet, vt actus secundus, principium 
+          <lb ed="#G" n="65"/>autem constituitiuum personae generantis se habet, v 
+          <!--150.xml-->
+          <cb ed="#G" n="b"/>
+          <lb ed="#G" n="66"/>actus primus, ergo &amp;c. Haec tamen nullam arguunt
+          prio<lb ed="#G" n="67" break="no"/>ritate ex natura rei: quia isto modo idem potest esse prius 
+          <lb ed="#G" n="68"/>seipso, sub alia, &amp; alia ratione ad seipsum comparatum 
+          <lb ed="#G" n="69"/>Nam paternitas considerata vt relatio, est prior seipsa
+          com<lb ed="#G" n="70" break="no"/>siderata vt est personae constituitiua: quia illud secundum 
+          <lb ed="#G" n="71"/>nostrum modum cognoscendi prius rei conuenit, quod 
+          <lb ed="#G" n="72"/>est intimius sibi, &amp; a quo per intellectum minus potest al 
+          <lb ed="#G" n="73"/>solui, sed per nullum intellectum paternitas potest
+          ab<lb ed="#G" n="74" break="no"/>solui a ratione relationis, potest tamen absolui a ratione 
+          <lb ed="#G" n="75"/>constituitiuae proprietatis, ergo &amp;c. Maior patet, probo 
+          <lb ed="#G" n="76"/>minorem: quia nullus intellectus potest rem absoluerd 
+          <lb ed="#G" n="77"/>ab eo, quod directe praedicatur de ea in primo modo
+          di<lb ed="#G" n="78" break="no"/>cendi per se, sed relatio praedicatur de paternitate in
+          pri<lb ed="#G" n="79" break="no"/>mo modo dicendi per se, &amp; per consequens est de
+          intrin<lb ed="#G" n="80" break="no"/>seca sua ratione, seu formali, sed esse constituitiuum
+          per<lb ed="#G" n="81" break="no"/>sonae non videtur praedicari per se, nec in primo, nec in 
+          <lb ed="#G" n="82"/>secundo modo de ipsa paternitate, quia omnis proposito 
+          <lb ed="#G" n="83"/>per se debet esse de omni, vt patet <ref xml:id="HuYgTa-e42166-Rd1e452">1. posteriorum</ref>, sed illa  
+          <lb ed="#G" n="84"/>proposito, paternitas constituit personam, non est de
+          o<lb ed="#G" n="85" break="no"/>mni, cum constituere non conueniat omni paternitati. 
+        </p>
+        <p xml:id="HuYgTa-e42166-d1e460">
+          <lb ed="#G" n="86"/>
+          <pc type="indent"/>Sed forte dicetur mihi, quod illa dicta destruunt se ipsa; 
+          <lb ed="#G" n="87"/>quia quicquid est prius priore, etiam est prius posteriore; 
+          <lb ed="#G" n="88"/>ergo si paternitas considerata, vt relatio, est prior seipsa, 
+          <lb ed="#G" n="89"/>vt proprietas constituitiua, &amp; eadem paternitas conside 
+          <lb ed="#G" n="90"/>rata vt proprietas constituitiua, est prior generatione,
+          se<lb ed="#G" n="91" break="no"/>quitur, quod eadem paternitas considerata, vt relatio, sit 
+          <lb ed="#G" n="92"/>prior generatione, cuius oppositum tamen expresse ponis 
+        </p>
+        <p xml:id="HuYgTa-e42166-d1e480">
+          <lb ed="#G" n="93"/>
+          <pc type="indent"/>Respondeo, &amp; dico, quod quicquid est prius priore, es 
+          <lb ed="#G" n="94"/>prius posteriore, manendo infra eundem modum
+          com<lb ed="#G" n="95" break="no"/>parationis; qui tamen modus si mutatur, nihil concludi 
+          <lb ed="#G" n="96"/>tur: quia fallacia accidentis committitur, sed in proposito 
+          <lb ed="#G" n="97"/>modus comparationis mutatur: quia alius est modus
+          con<lb ed="#G" n="98" break="no"/>parationis, qua paternitas considerata vt relatio
+          compa<lb ed="#G" n="99" break="no"/>ratur ad seipsam, vt est constituitiua; &amp; alius, prout
+          pater<lb ed="#G" n="100" break="no"/>nitas sub hac duplici ratione comparatur ad gencrationem 
+          <lb ed="#G" n="101"/>Et licet nullum simile creatum ad illius summae deitatis 
+          <lb ed="#G" n="102"/>mysterium declarandum sufficiat, possumus tamen illuc 
+          <lb ed="#G" n="103"/>aliqualiter exemplo manuducere. Homo enim albus si 
+          <lb ed="#G" n="104"/>comparatur ad esse rationale, &amp; ad esse album, tunc
+          cer<lb ed="#G" n="105" break="no"/>tum est, quod prius sibi conuenit esse rationale, quam esse  
+          <lb ed="#G" n="106"/>album, si tamen idem homo secundum hos duos modos 
+          <lb ed="#G" n="107"/>essendi comparatur ad vnum modo agendi, puta ad
+          dis<lb ed="#G" n="108" break="no"/>gregare, tunc certum est, quod hoc prius conuenit homi 
+          <lb ed="#G" n="109"/>ni, vt est albus, quam vt est rationalis, sic &amp;c Potest etiam 
+          <lb ed="#G" n="110"/>dici, quod non est inconueniens idem esse prius seipso 
+          <lb ed="#G" n="111"/>ratione, secundum aliam &amp; aliam comparationem facti 
+          <lb ed="#G" n="112"/>per intellectum, ergo &amp;c. 
+        </p>
+        <p xml:id="HuYgTa-e42166-d1e528">
+          <lb ed="#G" n="113"/>
+          <pc type="indent"/>ARTICVLVS I 
+          <lb ed="#G" n="114"/>Vtrum generatio actiua sit prior 
+          <lb ed="#G" n="115"/>
+          <pc type="indent"/>processione.
+        </p>
+        <p xml:id="HuYgTa-e42166-d1e542">
+          <lb ed="#G" n="116"/>QVANTVM ad secundum principale, vtrum
+          gene<lb ed="#G" n="117" break="no"/>ratio actiua sit prior processione, pono conformi 
+          <lb ed="#G" n="118"/>ter ad praecedentia duas conclusiones. 
+          <lb ed="#G" n="119"/>Prima est, quod generatio in diuinis non est prior na 
+          <lb ed="#G" n="120"/>tura processione spiritus sancti: Nam si esset prior natura 
+          <lb ed="#G" n="121"/>tunc esset dignior, &amp; perfectior ea. consequens est falsum: 
+          <lb ed="#G" n="122"/>quia emanationum dignitas, &amp; perfectio pensanda es 
+          <lb ed="#G" n="123"/>ex terminis. Si ergo generatio esset perfectior
+          processio<lb ed="#G" n="124" break="no"/>ne, tunc filius, qui est terminus generationis, esset
+          perse<lb ed="#G" n="125" break="no"/>ctior spiritu sancto, quod est contra fidem consequentia 
+          <lb ed="#G" n="126"/>atet <ref xml:id="HuYgTa-e42166-Rd1e568">s. metaph.</ref> Dato etiam, quod ista consequentia al 
+          <lb ed="#G" n="127"/>quando in rebus materialibus patiatur calumniam, tamen 
+          <lb ed="#G" n="128"/>in separatis a materia, de quibus ad praesens loquimur 
+          <lb ed="#G" n="129"/>simpliciter est vera 
+        </p>
+        <p xml:id="HuYgTa-e42166-d1e578">
+          <lb ed="#G" n="130"/>
+          <pc type="indent"/>Quod autem sit prior ratione patet, quia modo nostro 
+          <lb ed="#G" n="131"/>intelligendi productio, qua aliquid producitur, semper 
+          <lb ed="#G" n="132"/>videtur esse prior illa productione, qua tale productum 
+          <lb ed="#G" n="133"/>alterum producit, sed filius producitur generatione, &amp;  
+          <lb ed="#G" n="134"/>ipse producit spiritum sanctum actiua processione, ergo 
+          <!--151.xml-->
+          <pb ed="#G" n="56-v"/>
+          <cb ed="#G" n="a"/>
+          <lb ed="#G" n="1"/>generatio videtur esse prior processione, &amp; maxime apus 
+          <lb ed="#G" n="2"/>nostrum intellectum, qui ratione iam dicta simultatem 
+          <lb ed="#G" n="3"/>harum emanationum nequit comprehendere.
+        </p>
+        <p xml:id="HuYgTa-e42166-d1e607">
+          <lb ed="#G" n="4"/>Sed forte dicetur, quod generatio diuina, siue verbi
+          pro<lb ed="#G" n="5" break="no"/>ductio, cum sit secundum perfectum intelligere, videtur 
+          <lb ed="#G" n="6"/>praesupponere actum amoris, &amp; complacentiae: quia per 
+          <lb ed="#G" n="7"/>fectum intelligere non potest esse sine perfecta volunta 
+          <lb ed="#G" n="8"/>tis intentione, quae perfecta intentio esse non poterit si 
+          <lb ed="#G" n="9"/>ne amore, &amp; complacentia. Cum ergo spiritus sancti
+          em<lb ed="#G" n="10" break="no"/>natio sit per actum amoris, videtur, quod etiam secund 
+          <lb ed="#G" n="11"/>nostrum modum intelligendi, processio spiritus sancti non 
+          <lb ed="#G" n="12"/>sit posterior diuina generatione. 
+        </p>
+        <p xml:id="HuYgTa-e42166-d1e629">
+          <lb ed="#G" n="13"/>
+          <pc type="indent"/>Et confirmatur per <ref xml:id="HuYgTa-e42166-Rd1e635">P. Aug: 9. de tri.</ref> vbi ait, <quote xml:id="HuYgTa-e42166-Qd1e638" source="http://scta.info/resource/adt-l9-d1e1103" synch="285-289">Partum 
+            men<lb ed="#G" n="14" break="no"/>tis antecedit appetitus</quote>; 
+        </p>
+        <p xml:id="HuYgTa-e42166-d1e644">
+          <lb ed="#G" n="15"/>
+          <pc type="indent"/>Respondendo dico, quod cum bonum cognitum sit
+          obie<lb ed="#G" n="16" break="no"/>ctum voluntatis, necesse est cognitionem praecedere ip 
+          <lb ed="#G" n="17"/>sum amorem: non igitur requiritur actus voluntatis
+          ab<lb ed="#G" n="18" break="no"/>solute propter cognitionem: sed magis econuerso, licet 
+          <lb ed="#G" n="19"/>requiratur ad continuandam ipsam cognitionem:
+          qui<lb ed="#G" n="20" break="no"/>nisi cognitio placeret, citius dissolueretur. Item,
+          coniun<lb ed="#G" n="21" break="no"/>gens praesupponit ea, quae coniungit: sed actus amoris
+          com<lb ed="#G" n="22" break="no"/>iungiti ex parte intellectus prolem parenti, ergo modo 
+          <lb ed="#G" n="23"/>nostrae cognitionis actus amoris praesupponit genitam 
+          <lb ed="#G" n="24"/>prolem. Quamuis etiam instantia ista habeat aliquem con 
+          <lb ed="#G" n="25"/>iorem, quo ad nostrum intelligere, quod procedit de im 
+          <lb ed="#G" n="26"/>perfecto ad perfectum, &amp; per consequens prima nostra 
+          <lb ed="#G" n="27"/>notitia non est verbi productiua; in diuinis tamen haec 
+          <lb ed="#G" n="28"/>instantia modicam habet apparentiam: quia notitia Deus 
+          <lb ed="#G" n="29"/>patris non progreditur de imperfecto ad perfectum, &amp; 
+          <lb ed="#G" n="30"/>ideo per primum suum intelligere, quia perfectissimun 
+          <lb ed="#G" n="31"/>erat, potuit verbum producere. 
+        </p>
+        <p xml:id="HuYgTa-e42166-d1e686">
+          <lb ed="#G" n="32"/>
+          <pc type="indent"/>Auctoritas August. intelligenda est de nostro
+          intelli<lb ed="#G" n="33" break="no"/>gere, quod quamuis precedat appetitum secundum
+          pri<lb ed="#G" n="34" break="no"/>mos motus, seu secundum suum esse imperfectum, sequi 
+          <lb ed="#G" n="35"/>tur tamen ipsum quo ad suam continuationem perfectam. 
+        </p>
+        <p xml:id="HuYgTa-e42166-d1e700">
+          <lb ed="#G" n="36"/>
+          <pc type="indent"/>ARTICVLVS I 
+          <lb ed="#G" n="37"/>Vtrum Paternitas sit prior spiratione actiua¬ 
+        </p>
+        <p xml:id="HuYgTa-e42166-d1e709">
+          <lb ed="#G" n="38"/>
+          <pc type="indent"/>QVANTVM ad tertium principale, vtrum paternita. 
+          <lb ed="#G" n="39"/>sit prior spiratione actiua, dico, quod paternita 
+          <lb ed="#G" n="40"/>&amp; spiratio actiua, cum in persona patris dicant eandem 
+          <lb ed="#G" n="41"/>rem, sicut infra patebit, vbi probabitur, quod quamuis di 
+          <lb ed="#G" n="42"/>cant duas relationes reales ratione duorum suorum
+          ter<lb ed="#G" n="43" break="no"/>minorum realiter distinctorum, qui sunt filius, &amp; spiritus 
+          <lb ed="#G" n="44"/>sanctus, non tamen sunt duae res, sed vna tantum ratione 
+          <lb ed="#G" n="45"/>vnius immediati fundamenti, quod est persona patris, in 
+          <lb ed="#G" n="46"/>qua immediate fundantur; ideo inter paternitatem, &amp; 
+          <lb ed="#G" n="47"/>spirationem actiuam, non potest esse aliqua realis priori 
+          <lb ed="#G" n="48"/>tas: quia omnis realis prioritas praesupponit distinctioni 
+          <lb ed="#G" n="49"/>realem illius, quod dicitur prius a suo posteriori: sed illa  
+          <lb ed="#G" n="50"/>non sunt realiter distincta. Est tamen paternitas prior spi 
+          <lb ed="#G" n="51"/>ratione modo nostrae cognitionis. Quia quandocumque 
+          <lb ed="#G" n="52"/>intellectus concipit aliqua in eodem, vnum vt suppositi 
+          <lb ed="#G" n="53"/>constitutiuum, &amp; alterum vt non constituens, sed praesul 
+          <lb ed="#G" n="54"/>ponens suppositum constitutum, illud, quod constituit 
+          <lb ed="#G" n="55"/>concipit vt prius, &amp; non constituens vt posterius, sed pa 
+          <lb ed="#G" n="56"/>ternitas personam patris constituit, &amp; spiratio ipsam con 
+          <lb ed="#G" n="57"/>stitutam praesupponit, ergo &amp;c. 
+        </p>
+        <p xml:id="HuYgTa-e42166-d1e757">
+          <lb ed="#G" n="58"/>
+          <pc type="indent"/>Sed forte dicetur, quod cum nostra cognitio incipiat a 
+          <lb ed="#G" n="59"/>magis confusis, &amp; vniuersalibus, &amp; spiratio sit commu 
+          <lb ed="#G" n="60"/>nior paternitate, cum sit communis patri, &amp; filio, videtum 
+          <lb ed="#G" n="61"/>quod modo nostrae cognitionis debeat dici prior. ha 
+          <lb ed="#G" n="62"/>enim ratione essentia modo nostrae cognitionis est prio 
+          <lb ed="#G" n="63"/>omni personali proprietate: quia omni proprietate essen 
+          <lb ed="#G" n="64"/>tia videtur esse communior 
+        </p>
+        <p xml:id="HuYgTa-e42166-d1e777">
+          <lb ed="#G" n="65"/>
+          <pc type="indent"/>Respondeo, quod hic dupliciter aequiuocatur. Primo 
+          <lb ed="#G" n="66"/>scilicet de cognitione: quia non quaerimus hic quid
+          pri<lb ed="#G" n="67" break="no"/>mo cognoscat noster intellectus, &amp; de hoc procedit instam 
+          <lb ed="#G" n="68"/>tia: sed quaerimus duobus, vel pluribus oblatis itellectui 
+          <lb ed="#G" n="69"/>quod talium obiectorum intellectus dicat prius esse alii 
+          <!--151.xml-->
+          <cb ed="#G" n="b"/>
+          <lb ed="#G" n="70"/>Quamuis enim intellectus necessario prius cognosca. 
+          <lb ed="#G" n="71"/>creaturam, quam Deum: tamen naturali sua cognitioni 
+          <lb ed="#G" n="72"/>dicit Deum esse priorem creatura. Sic dato, quod commu 
+          <lb ed="#G" n="73"/>nis spiratio esset prius a nobis cognita, quam generatio 
+          <lb ed="#G" n="74"/>quia tamen communis notio secundum nostrum modum 
+          <lb ed="#G" n="75"/>intelligendi videtur quasi aduentitia esse personae con 
+          <lb ed="#G" n="76"/>stitutae per paternitatem: ideo intellectus adhuc
+          dice<lb ed="#G" n="77" break="no"/>ret, paternitatem esse priorem spiratione.
+          Secun<lb ed="#G" n="78" break="no"/>do aequiuocatur de communitate: quia illud commune 
+          <lb ed="#G" n="79"/>quod est magis notum, vel prius notum nobis notitia in 
+          <lb ed="#G" n="80"/>tellectiua, est commune per abstractionem, puta illud, qu 
+          <lb ed="#G" n="81"/>est magis confusum: sed spiratio actiua non est magis
+          ab<lb ed="#G" n="82" break="no"/>stracta, quam generatio, Et cum dicitur, quod essentia di 
+          <lb ed="#G" n="83"/>uina intelligitur esse prior proprietatibus, quia commu 
+          <lb ed="#G" n="84"/>nior, dico, quod illa communitas non est causa huius prio 
+          <lb ed="#G" n="85"/>ritatis, sed praesupposito naturalis, quam videt
+          intelle<lb ed="#G" n="86" break="no"/>ctus in creaturis, vbi omnis proprietas suum
+          fundamen<lb ed="#G" n="87" break="no"/>tum naturaliter praesupponit, ad quarum creaturarum s 
+          <lb ed="#G" n="88"/>militudinem concipit in diuinis huiusmodi prioritatem,  
+          <lb ed="#G" n="89"/>non obstante reali identitate proprietatis cum huiusmo 
+          <lb ed="#G" n="90"/>di diuino fundamento. 
+        </p>
+        <p xml:id="HuYgTa-e42166-d1e842">
+          <lb ed="#G" n="91"/>
+          <pc type="indent"/>ARTICVLVS III. 
+          <lb ed="#G" n="92"/>
+          <pc type="indent"/>Vtrum pater sit prior filio.
+        </p>
+        <p xml:id="HuYgTa-e42166-d1e853">
+          <lb ed="#G" n="93"/>QVANTVM ad quartum principale, vtrum pater 
+          <lb ed="#G" n="94"/> sit prior filio, dico consimiliter ad tres
+          praecede<lb ed="#G" n="95" break="no"/>tes conclusiones. Primo, quod nulla inter patrem, &amp; filiu 
+          <lb ed="#G" n="96"/>potest esse realis prioritas, quia summe, &amp; simpliciter aeter 
+          <lb ed="#G" n="97"/>no nihil realiter potest esse prius: sed vt dicitur in svmbo 
+          <lb ed="#G" n="98"/>lo, AEternus pater, eternus filius, aeternus spiritus sanctus. 
+          <lb ed="#G" n="99"/>Et ibidem, Neque prius, neque posterius, neque maius,  
+          <lb ed="#G" n="100"/>neque minus, sed totae tres personae coaeternae sibi sunt 
+          <lb ed="#G" n="101"/>&amp; coaequales: Secundo dico, quod persona patris poterit 
+          <lb ed="#G" n="102"/>aliquo modo esse prior ratione respectu personae filijj 
+          <lb ed="#G" n="103"/>quia eo ipso, quod noster intellectus in omnibus
+          creatu<lb ed="#G" n="104" break="no"/>ris videt vniuersaliter omne generans esse naturaliter 
+          <lb ed="#G" n="105"/>prius genito, ergo in diuinis inter gignens, &amp; genitum
+          hu<lb ed="#G" n="106" break="no"/>iusmodi prioritatem poterit ponere, saltem secundum ra 
+          <lb ed="#G" n="107"/>tionem. 
+        </p>
+        <p xml:id="HuYgTa-e42166-d1e889">
+          <lb ed="#G" n="108"/>
+          <pc type="indent"/>Sed sic dicendo habeo contra me duas sollemnes opi 
+          <lb ed="#G" n="109"/>niones. Quarum prima negat prioritatem inter patren 
+          <lb ed="#G" n="110"/>&amp; filium, etiam secundum rationem. Secunda nititur
+          oste<lb ed="#G" n="111" break="no"/>dere aliquam prioritatem esse inter eos praeter
+          priorita<lb ed="#G" n="112" break="no"/>tem rationis. 
+        </p>
+        <p xml:id="HuYgTa-e42166-d1e905">
+          <lb ed="#G" n="113"/>
+          <pc type="indent"/>Primae opinionis doctores arguunt sic 
+          <lb ed="#G" n="114"/>1 Quae sunt simul naturali intelligentia; vnum non 
+          <lb ed="#G" n="115"/>potest esse prius altero secundum rationem, sed relatiue 
+          <lb ed="#G" n="116"/>opposita sunt huiusmodi, vt patet in predicamentis. 
+        </p>
+        <p xml:id="HuYgTa-e42166-d1e918">
+          <lb ed="#G" n="117"/>
+          <pc type="indent"/>2 Praeterea, illud, quod est prius altero secundum
+          ra<lb ed="#G" n="118" break="no"/>tionem, potest intelligi sine eo: sed pater non potest
+          in<lb ed="#G" n="119" break="no"/>telligi sine filio, ergo &amp;c. Maior patet: probatur minor 
+          <lb ed="#G" n="120"/>quia qui intelligit patrem, vel intelligit eum ad se, vel 
+          <lb ed="#G" n="121"/>vt est ad aliud. Primo modo esset falsus intellectus: quia 
+          <lb ed="#G" n="122"/>vt sic pater intelligeretur vt suppositum absolutum. Si se 
+          <lb ed="#G" n="123"/>cundo modo, sic, necessario intelligitur filius. 
+        </p>
+        <p xml:id="HuYgTa-e42166-d1e938">
+          <lb ed="#G" n="124"/>
+          <pc type="indent"/>Hoc idem arguit quidam alius doctor
+          sic<lb ed="#G" n="125" break="no"/>3 Si pater esset prior filio, vel hoc esset ratione
+          essen<lb ed="#G" n="126" break="no"/>tiae, vel ratione relationis: quia non possumus dare plura 
+          <lb ed="#G" n="127"/>in patre, nisi essentiam, &amp; relationem: sed non primo mo 
+          <lb ed="#G" n="128"/>do: quia essentia est penitus eadem in patre, &amp; filio. Nec 
+          <lb ed="#G" n="129"/>secundo modo: quia relatiue opposita sunt simul natura, 
+          <lb ed="#G" n="130"/>&amp; naturali intelligentia. 
+        </p>
+        <p xml:id="HuYgTa-e42166-d1e958">
+          <lb ed="#G" n="131"/>
+          <pc type="indent"/>Sed illa non concludunt: quia intellectus distinguens 
+          <lb ed="#G" n="132"/>aliqua per comparationem ad aliqua diftincta, quae
+          ta<lb ed="#G" n="133" break="no"/>men in seipsis sunt omnino realiter idem, &amp; penitus
+          in<lb ed="#G" n="134" break="no"/>distincta, ille inquam intellectus potest concipere prius,  
+          <lb ed="#G" n="135"/>&amp; posterius inter ea, quae omnimodam habent coexiger 
+          <lb ed="#G" n="136"/>tiam simultatis: Ista patet: quia magis opponuntur
+          di<lb ed="#G" n="137" break="no"/>stinctum, &amp; indistinctum, cum sint contradictoria,
+          quanm<lb ed="#G" n="138" break="no"/>prius, &amp; posterius, quae videntur esse desperata: sed  
+          <!--152.xml-->
+          <pb ed="#G" n="57-r"/>
+          <cb ed="#G" n="a"/>
+          <lb ed="#G" n="1"/>secundum istos doctores, humanus intellectus distinguit in 
+          <lb ed="#G" n="2"/>ter diuina attributa, quae in seipsis intrinsece omnino sunt 
+          <lb ed="#G" n="3"/>idem realiter, ergo &amp;c
+        </p>
+        <p xml:id="HuYgTa-e42166-d1e993">
+          <lb ed="#G" n="4"/>2 Praeterea, vbi est dare primum, secundum, &amp; tertium 
+          <lb ed="#G" n="5"/>ite naltem secundum rationem est dare prius, &amp;
+          poste<lb ed="#G" n="6" break="no"/>tius; Mla patet: quia secundum est primo propinquius quam 
+          <lb ed="#G" n="7"/>tertium, &amp; per consequens est prius: vt patets.
+          metaph<lb ed="#G" n="8" break="no"/>sed nos concedimus patrem esse primam personam in 
+          <lb ed="#G" n="9"/>diuinis, cum fit fontana deitas secundum Dionysium, &amp; 
+          <lb ed="#G" n="10"/>flium secundam personam tamquam a patre immediat 
+          <lb ed="#G" n="11"/>productam, &amp; spiritum sanctum tertiam, quasi ab vtroque 
+          <lb ed="#G" n="12"/>procedentem, ergo saltem secundum rationem siue
+          no<lb ed="#G" n="13" break="no"/>sro modo cognostendi, poterimus ibi assignare prius, qo 
+          <lb ed="#G" n="14"/>posterius. 
+        </p>
+        <p xml:id="HuYgTa-e42166-d1e1020">
+          <lb ed="#G" n="15"/>
+          <pc type="indent"/>Preterea, omne producens secundum rationem prius 
+          <lb ed="#G" n="16"/>encipitur esse, quam producat, ergo pater praeconcipitui 
+          <lb ed="#G" n="17"/>genetatione secundum suum esse personale; sed genera 
+          <lb ed="#G" n="18"/>tio secundum nostram rationem est prior filio: quia via si 
+          <lb ed="#G" n="19"/>cundum rationem est prior termino, ergo pater secundum 
+          <lb ed="#G" n="20"/>rationem est prior filio: quia quicquid est prius priore, 
+          <lb ed="#G" n="21"/>en etiam prius posteriore. 
+        </p>
+        <p xml:id="HuYgTa-e42166-d1e1040">
+          <lb ed="#G" n="22"/>
+          <pc type="indent"/>Ad primum ergo dicendum, quod quantumlibet aliqua si 
+          <lb ed="#G" n="23"/>mul intelligantur, tamen si intellectus discernit vnum es 
+          <lb ed="#G" n="24"/>se productum, &amp; alterum producens, ipse poterit
+          produ<lb ed="#G" n="25" break="no"/>renti tribuere rationem prioris, &amp; producto rationem posterio 
+          <lb ed="#G" n="26"/>rs, non ratione qua relatiua sunt, sed ratione, qua vna psona 
+          <lb ed="#G" n="27"/>educens est, &amp; altera pducta, &amp; maxime, quia in omnibus 
+          <lb ed="#G" n="28"/>ereaturis, ex quibus nostri intellectus oritur cognitio,
+          Se<lb ed="#G" n="29" break="no"/>re productum posterius est producente, ergo a simili po 
+          <lb ed="#G" n="30"/>em concipere in diuinis.
+        </p>
+        <p xml:id="HuYgTa-e42166-d1e1064">
+          <lb ed="#G" n="31"/>Ad secundum nego maiorem, quod quantumlibet causa 
+          <lb ed="#G" n="32"/>reeausa est, non possit intelligi sine causato, vel
+          causabili<lb ed="#G" n="33" break="no"/>ineegitur tamen naturaliter causa fore prior causato, 
+          <lb ed="#G" n="34"/>ergo &amp;c. 
+        </p>
+        <p xml:id="HuYgTa-e42166-d1e1075">
+          <lb ed="#G" n="35"/>
+          <pc type="indent"/>Ad tertium nego minorem, quia essentia vt est in
+          pa<lb ed="#G" n="36" break="no"/>tre, potest concipi sub ratione prioris, &amp; vt est in filio 
+          <lb ed="#G" n="37"/>sab ratione posterionis: quia sient imrealiter distinctis il 
+          <lb ed="#G" n="38"/>hd, quod addit super alterum, si additio est realis, tuc rea 
+          <lb ed="#G" n="39"/>hter est posterius eo; sic in non distinctis realiter, illud, 
+          <lb ed="#G" n="40"/>quod habet se per modum additionis ad seipsum, ad mi- 
+          <lb ed="#G" n="41"/>nus secundum rationem est posterius seipso; sed essentia 
+          <lb ed="#G" n="42"/>nest in filio, addit super seipsam, vt est in patre esse
+          com<lb ed="#G" n="43" break="no"/>nonicatum, ergo filius ratione essentiae potest concipi e 
+          <lb ed="#G" n="44"/>posterior patre secundum humanam rationem. Etiam 
+          <lb ed="#G" n="45"/>reo minorem quantum ad alteram sui partem: quia (sicui 
+          <lb ed="#G" n="46"/>P nocto res met dicunt, &amp; bene) qualem ordinem rea 
+        </p>
+        <p xml:id="HuYgTa-e42166-d1e1106">
+          <lb ed="#G" n="47"/>
+          <pc type="indent"/>m habent aliqua inter se, vbi differunt realiter, talem
+          or<lb ed="#G" n="48" break="no"/>ninem rationis habent cum differunt ratione; unde quia 
+          <lb ed="#G" n="49"/>emus, quod vbi intellectus, &amp; uoluntas differunt realiter. 
+          <lb ed="#G" n="50"/>Pessectus realiter est prior voluntate, ideo in Deo, ub 
+          <lb ed="#G" n="51"/>Slum differunt ratione, dicimus intellectum ratione 
+          <lb ed="#G" n="52"/>ese priorem voluntate. Sed in his, vbi proprietas consti 
+          <lb ed="#G" n="53"/>ua suppositi generantis differt realiter a gencratione, 
+          <lb ed="#G" n="54"/>Si talis proprietas est realiter priori generatione, er 
+          <lb ed="#G" n="55"/>tn uinis, vbi paternitas, quae est patris constitutius 
+          <lb ed="#G" n="56"/>onrintas, differt secundum rationem a genetatione
+          ip<lb ed="#G" n="57" break="no"/>s secundum rationem potest dici prior generatione. 
+          <lb ed="#G" n="58"/>Sed nuod est ratione prius generatione, euam est ratio 
+          <lb ed="#G" n="59"/>neprius genito, ergo persona patris etiam propter suam 
+          <lb ed="#G" n="60"/>roptietatem relatiuam potest dici prior filio saltem
+          se<lb ed="#G" n="61" break="no"/>dum rationem.
+        </p>
+        <p xml:id="HuYgTa-e42166-d1e1143">
+          <lb ed="#G" n="62"/>Shy exiam vt praedixi ponunt prioritatem in diuinis,  
+          <lb ed="#G" n="63"/>tae non es prioritas rationis tantum, sed secundum
+          ali<lb ed="#G" n="64" break="no"/>io dicitur prioritas realis secundum quid, secundum 
+          <lb ed="#G" n="65"/>so dicent prioritas naturalis praesuppositionis. De hac 
+          <lb ed="#G" n="66"/>emen pre appositone ad praesens nihibdicam: quia
+          lo<lb ed="#G" n="67" break="no"/>m habet carea distinctionem 12. Et secundum alios
+          di<lb ed="#G" n="68" break="no"/>nommoritas originis. 
+        </p>
+        <p xml:id="HuYgTa-e42166-d1e1162">
+          <lb ed="#G" n="69"/>
+          <pc type="indent"/>Prim, dictum suum declarant sic. Sicut in multitudine 
+          <lb ed="#G" n="70"/>Spleiter eali est ordo simpliciter realis, ; &amp; per
+          conse<lb ed="#G" n="71" break="no"/>ena prius, &amp; posterius simpliciter realia,; sic vbi est mul 
+          <lb ed="#G" n="72"/>unido realis secudum quid, possumus ponere prius, &amp; pro 
+          <lb ed="#G" n="73"/>enus reale secundum quist, sed vbi aliqua multa diffe 
+          <!--152.xml-->
+          <cb ed="#G" n="b"/>
+          <lb ed="#G" n="74"/>tunt secundum esse, est multitudo simpliciter: raalis,  
+          <lb ed="#G" n="75"/>vbi autem sunt multa non secundum esse; sed tantummi 
+          <lb ed="#G" n="76"/>do secundum modum essendi sicut in diuinis, ibi est mul 
+          <lb ed="#G" n="77"/>titudo realis non simpliciter, sed secundum quid, ergon 
+          <lb ed="#G" n="78"/>liuinis propter diuersitatem realium modorum essendi 
+          <lb ed="#G" n="79"/>erit ibi prius, &amp; posterius realiter, quamuis secundum quid 
+        </p>
+        <p xml:id="HuYgTa-e42166-d1e1195">
+          <lb ed="#G" n="80"/>
+          <pc type="indent"/>Sed illud non intelligo: quia aut ille per modoxillos 
+          <lb ed="#G" n="81"/>reales intelligit modos absolutos, &amp; sic contra eos argu 
+          <lb ed="#G" n="82"/>uperius dis. 8. ergo quo adhoc praesens dimitto. Aut intel 
+          <lb ed="#G" n="83"/>ligit modos relatiuos, &amp; sic dico, qued inquantum opposit sunt 
+          <lb ed="#G" n="84"/>vrique realiter differunt, sed cum hoc realiter simul sunt, 
+          <lb ed="#G" n="85"/>nec aliqua realis prioritas poterit poni inter huiusmod 
+          <lb ed="#G" n="86"/>relationes. Si autem tales modi sunt desperati, tunc ac 
+          <lb ed="#G" n="87"/>huc realiter coeterni sunt ratione coexistentiae, qua cos 
+          <lb ed="#G" n="88"/>vistunt modis directe relatiue oppositis.
+        </p>
+        <p xml:id="HuYgTa-e42166-d1e1219">
+          <lb ed="#G" n="89"/>Alij dicentes, quod in diuinis sit prius, &amp; posterius oria 
+          <lb ed="#G" n="90"/>tinis, seu secundum onginem naturalem, probant hoc primo.
+        </p>
+        <p xml:id="HuYgTa-e42166-d1e1226">
+          <lb ed="#G" n="91"/>1 Auctoritate Augus in lib de triplici habitaculo ub 
+          <lb ed="#G" n="92"/>sic dicit, Cum iusti fuerint in patria videbunt quid
+          inte<lb ed="#G" n="93" break="no"/>rest inter generationem, &amp; processionem, &amp; uidebunt, qui 
+          <lb ed="#G" n="94"/>ater praecedit filium, non natura, sed origine.
+        </p>
+        <p xml:id="HuYgTa-e42166-d1e1237">
+          <lb ed="#G" n="95"/>2 Item, Hichar. 8. de trini: loquens de priori, &amp;
+          poste<lb ed="#G" n="96" break="no"/>riori in diuinis sic ait. Prius, &amp; posterius in hoc loco
+          in<lb ed="#G" n="97" break="no"/>telligi volumus, non temporis suceessione, sed ordine 
+          <lb ed="#G" n="98"/>naturae. 
+        </p>
+        <p xml:id="HuYgTa-e42166-d1e1248">
+          <lb ed="#G" n="99"/>3 Praeterea. 1. posteriorum dicitur, Primum est quod 
+          <lb ed="#G" n="100"/>sic se habet, quod alteri conuenit aliquid per ipsum, &amp; sil 
+          <lb ed="#G" n="101"/>bi non per alterum, sed filio, &amp; spiritui sancto, conuenit es 
+          <lb ed="#G" n="102"/>se per patrem &amp; patri non per eos, ergo &amp;c 
+        </p>
+        <p xml:id="HuYgTa-e42166-d1e1260">
+          <lb ed="#G" n="103"/>4 Praeterea, pater est principium filij, vt patet per <ref xml:id="HuYgTa-e42166-Rd1e1264">Au¬ 
+            <lb ed="#G" n="104"/>gust. 5. de trini</ref>: sed vt dicitur t. posteriorum, primum, &amp; prit 
+          <lb ed="#G" n="105"/>cipium idem sunt, ergo pater est prior filio.
+        </p>
+        <p xml:id="HuYgTa-e42166-d1e1272">
+          <lb ed="#G" n="106"/>3 Praeterea, posset gratia disputationis argui, quod pat 
+          <lb ed="#G" n="107"/>esset prior filio duratione: quia sicut se habet corruptio 
+          <lb ed="#G" n="108"/>ad desinere esse, ita generatio ad incipere esse; sed omne 
+          <lb ed="#G" n="109"/>corruptum desinit esse, ergo omne generatum incipit
+          es<lb ed="#G" n="110" break="no"/>se, quod autem incipit esse non est aeternum, ergo filius 
+          <lb ed="#G" n="111"/>non est aeternus.
+        </p>
+        <p xml:id="HuYgTa-e42166-d1e1288">
+          <lb ed="#G" n="112"/>8 Praeterea, quandocunque aliqua sunt idem; si
+          u<lb ed="#G" n="113" break="no"/>num habet principium, &amp; reliquum: sed esse filij in
+          diui<lb ed="#G" n="114" break="no"/>nis, &amp; duratio sua sunt idem, cum ergo filius habeat
+          prin<lb ed="#G" n="115" break="no"/>cipium sui esse, etiam habobit principium suae duratio; 
+          <lb ed="#G" n="116"/>nis; omne autem, quod habet principium durationis,  
+          <lb ed="#G" n="117"/>est temporale
+        </p>
+        <p xml:id="HuYgTa-e42166-d1e1304">
+          <lb ed="#G" n="118"/>3 Praeterea, vbicuque est numcrus, ibi est prius, &amp;
+          poste<lb ed="#G" n="119" break="no"/>rius; in diuinis est numerus, cum ibi sit ternarius 
+          <lb ed="#G" n="120"/>E Preterea, proprium naturaliter est posterius eo, 
+          <lb ed="#G" n="121"/>cuius est proprium: sed in Deo est proprium; puta
+          pro<lb ed="#G" n="122" break="no"/>prietas personalis, &amp; illud, cuius est proprium,
+          put<lb ed="#G" n="123" break="no"/>persona; etiam est ibi proprietas essentialis, &amp; essentia 
+        </p>
+        <p xml:id="HuYgTa-e42166-d1e1320">
+          <lb ed="#G" n="124"/>
+          <pc type="indent"/>Praeterea, vt patet in praedicamentis, vnus modus 
+          <lb ed="#G" n="125"/>prioritatis est quando aliqua conuertuntur secundum e- 
+          <lb ed="#G" n="126"/>xistendi consequentiam, &amp; tamen vnum est causa alterius. 
+          <lb ed="#G" n="127"/>sed pater, &amp; filius &amp;c 
+        </p>
+        <p xml:id="HuYgTa-e42166-d1e1333">
+          <lb ed="#G" n="128"/>
+          <pc type="indent"/>so Praeterea, quicquid est primo propinquius, hoc est 
+          <lb ed="#G" n="129"/>realiter prius, sed filius est immediatior patri: quia spiri. 
+          <lb ed="#G" n="130"/>tus sanctus procedit a patre mediante filio, ideo &amp;c 
+        </p>
+        <p xml:id="HuYgTa-e42166-d1e1345">
+          <lb ed="#G" n="131"/>
+          <pc type="indent"/>Sed istud non ualet: quia prius origine non ponit nus 
+          <lb ed="#G" n="132"/>merum cum priori natura, &amp;cum priori secundumcon 
+          <lb ed="#G" n="133"/>nitionem siue rationem: quia quandocunque aliquid ori; 
+          <lb ed="#G" n="134"/>ginatur ab aliquo, vel distinguitur, &amp; numeratur natur, 
+          <lb ed="#G" n="135"/>in producente, &amp; producto, &amp; tunc prius origine es 
+          <lb ed="#G" n="136"/>idem, quod prius natura, vel sic producitur, quod
+          ta<lb ed="#G" n="137" break="no"/>men manet in eadem natura cum producente, &amp;capi 
+          <lb ed="#G" n="138"/>idem esse cum eo, tunc prius origine non est aliud, quam 
+          <lb ed="#G" n="139"/>prius rationem
+        </p>
+        <p xml:id="HuYgTa-e42166-d1e1369">
+          <lb ed="#G" n="140"/>Et per hoc ad auctoritatem Aug patet: quia filius in di 
+          <lb ed="#G" n="141"/>uinis sic producitur, quod tamen manet in eadepi natur,  
+          <lb ed="#G" n="142"/>cum patre, &amp; capit idem esse cum co 
+        </p>
+        <p xml:id="HuYgTa-e42166-d1e1378">
+          <lb ed="#G" n="143"/>Ad secundum dicendum, quod quamuis in diuinis sit orde 
+          <lb ed="#G" n="144"/>naturae: quia filius habet naturam a patre, &amp; non patera 
+          <lb ed="#G" n="145"/>filio,; tamen ille ordo non est in diuersitate naturae: sed fun 
+          <lb ed="#G" n="146"/>datur super eadem natura, &amp; super eodem esse, &amp; idec 
+          <!--153.xml-->
+          <pb ed="#G" n="57-v"/>
+          <cb ed="#G" n="a"/>
+          <lb ed="#G" n="1"/>quamuis filius sit apatre: quia tamen idem esse diuinum 
+          <lb ed="#G" n="2"/>capit cum patre, ideo non est postetior patre, nisi
+          secun<lb ed="#G" n="3" break="no"/>dum que intellectus concipit patrem, &amp; filium in compara 
+          <lb ed="#G" n="4"/>tione eorum, in quibus productum taliter originatur a pro 
+          <lb ed="#G" n="5"/>ducente, quod etiam ab eo numerata natura distinguitur, &amp;  
+          <lb ed="#G" n="6"/>est simile de ista priori &amp; posteriori; sicut superius dictu 
+          <lb ed="#G" n="7"/>est de attributorum distinctione. 
+        </p>
+        <p xml:id="HuYgTa-e42166-d1e1411">
+          <lb ed="#G" n="8"/>
+          <pc type="indent"/>Ad tertium dicendum, quamuis filius accipiat esse, 
+          <lb ed="#G" n="9"/>patre, accipit tamen idem esse, ergo non est posterior eo 
+          <lb ed="#G" n="10"/>nisi conceptu rationis. 
+        </p>
+        <p xml:id="HuYgTa-e42166-d1e1422">
+          <lb ed="#G" n="11"/>
+          <pc type="indent"/>Ad quartum dicendum, quod primum, principium, &amp;  
+          <lb ed="#G" n="12"/>causa, idem sunt in rebus creatis: quia in creatis causa,
+          si<lb ed="#G" n="13" break="no"/>ue principiu est illud, ad cuius esse sequitur aliud, &amp; ideo 
+          <lb ed="#G" n="14"/>in talibus potest esse primum, &amp; prius, &amp; posterius; non 
+          <lb ed="#G" n="15"/>autem in diuinis: quia filius non est aliud a patre, sed est 
+          <lb ed="#G" n="16"/>idem patri in esse, &amp; in natura, &amp; ideo est illi totaliter
+          coae<lb ed="#G" n="17" break="no"/>ternus. Sicut enim idem non potest esse prius seipso, nisi 
+          <lb ed="#G" n="18"/>secundum rationem: sic nec pater filio propter
+          identita<lb ed="#G" n="19" break="no"/>tem naturae, &amp; propter oppositarum relationum
+          simulta<lb ed="#G" n="20" break="no"/>tem, &amp; mutuam coexigentiam. 
+        </p>
+        <p xml:id="HuYgTa-e42166-d1e1448">
+          <lb ed="#G" n="21"/>
+          <pc type="indent"/>Ad quintum dicendum, quod non est simile de generatione, ac 
+          <lb ed="#G" n="22"/>eotruptione, nisi loquendo de illa generatione, qua
+          ge<lb ed="#G" n="23" break="no"/>nitum accipit naturam, &amp; esse distincta realiter a natura, 
+          <lb ed="#G" n="24"/>&amp; esse generantis. Etiam potest dici, quod quamuis res 
+          <lb ed="#G" n="25"/>genita per generationem accipit esse, quod tamen
+          inci<lb ed="#G" n="26" break="no"/>piat esse per accidens, est: quia hoc per se non conuenit ei 
+          <lb ed="#G" n="27"/>ratione generationis, sed ratione annexae priuationis cunm 
+          <lb ed="#G" n="28"/>suo principio materiali, propter quam suum non esse
+          pre<lb ed="#G" n="29" break="no"/>cessit suum esse 
+        </p>
+        <p xml:id="HuYgTa-e42166-d1e1473">
+          <lb ed="#G" n="30"/>
+          <pc type="indent"/>Ad sextum dicendum, quod sicut filius taliter habet 
+          <lb ed="#G" n="31"/>principium sui esse, quod tamen accipit idem esse, quod 
+          <lb ed="#G" n="32"/>est sui principij esse: sic habet principium suae
+          dura<lb ed="#G" n="33" break="no"/>tionis, quod accipit eandem durationem realiter, &amp; 
+          <lb ed="#G" n="34"/>complete, quae est sui principij duratio, puta diuinam  
+          <lb ed="#G" n="35"/>aeternitatem. 
+        </p>
+        <p xml:id="HuYgTa-e42166-d1e1491">
+          <lb ed="#G" n="36"/>
+          <pc type="indent"/>Ad formam argumenti dicendum, quod ibi aequiuocatur 
+          <lb ed="#G" n="37"/>de principio durationis: quia in praemissis accipitur
+          prin<lb ed="#G" n="38" break="no"/>cipium, quod est durationis communicatiuum, sed in
+          vl<lb ed="#G" n="39" break="no"/>tima illatione cum dicitur, quod habet principium
+          dura<lb ed="#G" n="40" break="no"/>tionis est temporale, ibi accipitur principium, quod ess 
+          <lb ed="#G" n="41"/>durationis limitatiuum, quod est linies, &amp; terminus
+          du<lb ed="#G" n="42" break="no"/>rationis, quo formaliter, &amp; intrinsece quandoque coepit 
+          <lb ed="#G" n="43"/>esse duratio. Et isto secundo modo nulla diuina persona 
+          <lb ed="#G" n="44"/>habet principium durationis, cum omnes tres personae 
+          <lb ed="#G" n="45"/>habeant vnam durationem, quae est simplex aeternitas 
+          <lb ed="#G" n="46"/>quae dicitur ab. E. quod est extra, &amp; termino, quasi extra 
+          <lb ed="#G" n="47"/>terminos, omnino carens limite, &amp; ex parte ante, &amp; ex 
+          <lb ed="#G" n="48"/>parte post. Primo tamen modo filius habet principisi
+          du<lb ed="#G" n="49" break="no"/>rationis suae: quia sicut in illa ineffabili generatione pater 
+          <lb ed="#G" n="50"/>communicat filio suam deitatem, sic etiam communicat 
+          <lb ed="#G" n="51"/>ei suam aeternitatem 
+        </p>
+        <p xml:id="HuYgTa-e42166-d1e1530">
+          <lb ed="#G" n="52"/>
+          <pc type="indent"/>Ad septimum dicendum, quod sicut in diuinis est
+          sa<lb ed="#G" n="53" break="no"/>pientia, &amp; magnitudo, non tamen quantitas, vel qualitas,  
+          <lb ed="#G" n="54"/>sic in diuinis potest esse ternarius, non tamen est ibi
+          nu<lb ed="#G" n="55" break="no"/>merus proprie dictus. 
+        </p>
+        <p xml:id="HuYgTa-e42166-d1e1543">
+          <lb ed="#G" n="56"/>
+          <pc type="indent"/>Ad octauum dicendum, quod maior non estuera, nisi in 
+          <lb ed="#G" n="57"/>his, ubi proprium est realiter alterius naturae ab eo,
+          cu<lb ed="#G" n="58" break="no"/>ius est proprium. 
+        </p>
+        <p xml:id="HuYgTa-e42166-d1e1554">
+          <lb ed="#G" n="59"/>
+          <pc type="indent"/>Ad nonum dicendum, quod pater non debet dici
+          cau<lb ed="#G" n="60" break="no"/>sa filij: quia causa est ad cuius esse sequitur aliud; filius
+          au<lb ed="#G" n="61" break="no"/>tem quamuis possit dici alius a patre, non tamen dicitu 
+          <lb ed="#G" n="62"/>aliud. 
+        </p>
+        <p xml:id="HuYgTa-e42166-d1e1567">
+          <lb ed="#G" n="63"/>
+          <pc type="indent"/>Ad decimum dicendum: quod pater dicitur producere spi 
+          <lb ed="#G" n="64"/>ritum sanctu mediante filio, non quod pater non immediate 
+          <lb ed="#G" n="65"/>producat spiritum sanctum, sed hoc dicitur pro tanto: quia 
+          <lb ed="#G" n="66"/>filius uirtutem spiratiuam habet a patre, 
+        </p>
+        <p xml:id="HuYgTa-e42166-d1e1581">
+          <lb ed="#G" n="67"/>
+          <pc type="indent"/>Ad argumentum principale nego maiorem in his, vbi 
+          <lb ed="#G" n="68"/>generans, &amp; genitum solum distinguuntur relatiue, &amp; pe 
+          <lb ed="#G" n="69"/>nitus in nullo absoluto sunt distincta. Ad probationem 
+          <lb ed="#G" n="70"/>dico, quod in relatiuis esse relatiuum innascitur, vel resul 
+          <lb ed="#G" n="71"/>tat ex ipso agcre, ergo in his, quae sola relatione
+          distin<lb ed="#G" n="72" break="no"/>guuntur, esse non potest praecedere ipsum agere, quamuis 
+          <lb ed="#G" n="73"/>sit ei coaeternum.
+        </p>
+      </div>
+    </body>
+  </text>
 </TEI>

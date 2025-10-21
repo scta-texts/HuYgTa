@@ -1,1162 +1,1162 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Quaestio 1</title>
-            <author ref="#ThomasStrasbourg">Thomas of Strasbourg</author>
-            <respStmt>
-               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
-               <resp>Transcription Editor</resp>
-               <resp>TEI Encoder</resp>
-            </respStmt>
-         </titleStmt>
-         <editionStmt>
-            <edition n="0.0.0-dev">
-               <title>Quaestio 1</title>
-               <date when="2020-11-26">November 26, 2020</date>
-            </edition>
-         </editionStmt>
-         <publicationStmt>
-            <authority>SCTA</authority>
-            <availability status="free">
-               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
-               </p>
-            </availability>
-         </publicationStmt>
-         <sourceDesc>
-            <listWit>
-               <witness xml:id="G" n="cod-TxxxqU">Genoa 1585</witness>
-            </listWit>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
-         <editorialDecl>
-            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
-       guidelines for a diplomatic edition.</p>
-         </editorialDecl>
-      </encodingDesc>
-      <revisionDesc status="draft">
-         <listChange>
-            <change when="2020-11-26" status="draft" n="0.0.0">
-               <p>Created file for the first time.</p>
-            </change>
-         </listChange>
-      </revisionDesc>
-   </teiHeader>
-   <text xml:lang="la">
-      <front>
-         <div xml:id="starts-on">
-            <pb ed="#G" n="P2_131-r"/>
-            <cb ed="#G" n="a"/>
-         </div>
-      </front>
-      <body>
-         <div xml:id="HuYgTa-259117"><!-- HuYgTa-l4d19q1 -->
-            <head xml:id="HuYgTa-259117-Hd1e108">Quaestio 1</head>
-            <head xml:id="HuYgTa-259117-Hd1e111" type="question-title">
-      An sacerdotes, soli clauium potestate potiantur.
-    </head>
-            <p xml:id="HuYgTa-259117-d1e114">
-               <lb ed="#G" n="36"/>
-               <pc type="indent"/>Quaestio. I. 
-      <lb ed="#G" n="37"/>An Sacerdotes, soli clauium potestate 
-      <lb ed="#G" n="38"/>
-               <pc type="indent"/>potiantur.
-    </p>
-            <p xml:id="HuYgTa-259117-d1e127">
-               <lb ed="#G" n="39"/>IRVM soli sacerdotes habeant potestatem clauium. 
-      <lb ed="#G" n="40"/>Et videtur, quod non, quia excommunicare, &amp; at 
-      <lb ed="#G" n="41"/>xcommunicatione absoluere ad potestatem clauium 
-      <lb ed="#G" n="42"/>idetur pertinere, sed multi possunt excommunicare, &amp;  
-      <lb ed="#G" n="43"/>ib excommunicationis vinculo soluere, qui non sunt
-      s<lb ed="#G" n="44" break="no"/>terdotes, sicut apparet de officialibus in foro
-      conten<lb ed="#G" n="45" break="no"/>ioso, ergo &amp;c. 
-    </p>
-            <p xml:id="HuYgTa-259117-d1e145">
-               <lb ed="#G" n="46"/>
-               <pc type="indent"/>Contra solis Apostolis, &amp; eorum suceessoribus sunt 
-      <lb ed="#G" n="47"/>laues datae, vt patet ex praecedentibus: ergo solis sacet 
-      <lb ed="#G" n="48"/>otibus Consequentia patet: quia soli sacerdotes sunt 
-      <lb ed="#G" n="49"/>postolorum suceessores, quantum ad ecclesiastican 
-      <lb ed="#G" n="50"/>lignitatem. Antecedens etiam patet ex dictis superius 
-      <lb ed="#G" n="51"/>Hic primo videndum est, vtrum aliquis non sacerdos 
-      <lb ed="#G" n="52"/>abe at claues ecclesiae Secundo, vtrum quilibet
-      sacer<lb ed="#G" n="53" break="no"/>dos hab eat huiusmodi claues. Tertio, vtrum
-      cla<lb ed="#G" n="54" break="no"/>ues possint tolli ab eo, qui habeat eas. Et quat 
-      <lb ed="#G" n="55"/>to, gratia primi argumenti videbuntur 
-      <lb ed="#G" n="56"/>aliqua cirta excommunicationis 
-      <lb ed="#G" n="57"/>sententiam, &amp; eius
-      ab<lb ed="#G" n="58" break="no"/>solutionem.
-    </p>
-            <p xml:id="HuYgTa-259117-d1e179">
-      <!--732.xml-->
-               <cb ed="#G" n="b"/>
-               <lb ed="#G" n="59"/>RESOLVTI O 
-      <lb ed="#G" n="60"/>bicet daues, prout ad conscientiae forum spectant, solis sacir
-      loti<lb ed="#G" n="61" break="no"/>bus conueniant, prout tamen exterioris institiae forum
-      respi<lb ed="#G" n="62" break="no"/>ciunt, non sacerdotibus etiam compet ere possunt 
-    </p>
-            <p xml:id="HuYgTa-259117-d1e195">
-               <lb ed="#G" n="63"/>
-               <pc type="indent"/>ARTICVLVSI. 
-      <lb ed="#G" n="64"/>Vtrum aliquis non sacerdos habeat
-      cla<lb ed="#G" n="65" break="no"/>
-               <pc type="indent"/>ues ecclesie,  
-    </p>
-            <p xml:id="HuYgTa-259117-d1e208">
-               <lb ed="#G" n="66"/>QVANTVM ad primum est aduertendum, quod de 
-      <lb ed="#G" n="67"/>clauibus ecclesiae possumus dupliciter loqui. Vno 
-      <lb ed="#G" n="68"/>modo, prout extendunt se ad forum conscientiae. Alio 
-      <lb ed="#G" n="69"/>modo, prout extendunt se ad forum exterioris iustitiae, 
-    </p>
-            <p xml:id="HuYgTa-259117-d1e219">
-               <lb ed="#G" n="70"/>
-               <pc type="indent"/>Et secudum hoc pono duas conclusiones. 
-      <lb ed="#G" n="71"/>Prima est, quod claues ecclesiae, primo modo
-      acce<lb ed="#G" n="72" break="no"/>tae conueniunt solis sacerdotibus. 
-    </p>
-            <p xml:id="HuYgTa-259117-d1e230">
-               <lb ed="#G" n="73"/>1 Quia illis solis conueniunt claues ecclesiae
-      exten<lb ed="#G" n="74" break="no"/>dentes se ad forum conscientiae, quibus ex ordine
-      conue<lb ed="#G" n="75" break="no"/>nit, quod possint esse iudices conscientiae, sed hoc tantum 
-      <lb ed="#G" n="76"/>modo conuenit sacerdotibus, ergo &amp;c. Maior patet quia 
-      <lb ed="#G" n="77"/>claues istae dantur ad iudicandum in foro conscientiae, 
-      <lb ed="#G" n="78"/>&amp; per consequens talibus debent conuenire praecise, qui 
-      <lb ed="#G" n="79"/>possunt esse iudices conscientiae. Minor etiampatet, 
-      <lb ed="#G" n="80"/>quia de conscientia hominis non possumus bene
-      iudi<lb ed="#G" n="81" break="no"/>care, nisi prout eum cognoscimus ex eius propria con- 
-      <lb ed="#G" n="82"/>fessione: Sed ex diuina ordinatione solus sacerdos est 
-      <lb ed="#G" n="83"/>proprius auditor confessionis, sicut patet ex dictis praece 
-      <lb ed="#G" n="84"/>dentibus; ergo &amp;c 
-    </p>
-            <p xml:id="HuYgTa-259117-d1e259">
-               <lb ed="#G" n="85"/>1 Praeterea, ista est expressa intentio sancti
-      <name xml:id="HuYgTa-259117-Nd1e263" ref="#Ambrose">Ambro</name>
-               <lb ed="#G" n="86" break="no"/>sii, qui loquens de clauibus, quarum potestate
-      iudica<lb ed="#G" n="87" break="no"/>tur in foro conscientiae, ait, quod ecclesia in solis
-      sacerdoti<lb ed="#G" n="88" break="no"/>bus habet claues 
-    </p>
-            <p xml:id="HuYgTa-259117-d1e274">
-               <lb ed="#G" n="89"/>
-               <pc type="indent"/>Sed contra istud arguit sic.  
-      <lb ed="#G" n="90"/>1 Illis conueniunt claues ecclesiae, qui habent iudica 
-      <lb ed="#G" n="91"/>re inter dignos, &amp; indignos, &amp; habent dignos
-      admitte<lb ed="#G" n="92" break="no"/>re, &amp; indignos excludere. Sed hoc conuenit non solum sa 
-      <lb ed="#G" n="93"/>cerdotibus, sed etiam hostiariis, qui sunt multo
-      mino<lb ed="#G" n="94" break="no"/>ris, seu inferioris ordinis, quam sacerdotes, ergo
-      huius<lb ed="#G" n="95" break="no"/>modi claues non conueniunt solis sacerdotibus. Maior 
-      <lb ed="#G" n="96"/>patet ex diffinitione clauis posita in praecedenti quaestio 
-      <lb ed="#G" n="97"/>ne artitulo primo. Minor etiam patet ex dictis lsidori, 
-      <lb ed="#G" n="98"/>qui ait, quod hostiarii inter bonos, &amp; malos, habent iudicium 
-      <lb ed="#G" n="99"/>dignos recipiunt, &amp; indignos reiiciunt. Et confirmaturi 
-      <lb ed="#G" n="100"/>quia quando hostiarii ordinantur, tunc dantur eis
-      cla<lb ed="#G" n="101" break="no"/>ues corporales ad tangendum, quod videtur esse signi 
-      <lb ed="#G" n="102"/>receptionis clauium spiritualium.
-    </p>
-            <p xml:id="HuYgTa-259117-d1e309">
-               <lb ed="#G" n="103"/>2 Praeterea quaelibet Abbatissa habet claues
-      praedi<lb ed="#G" n="104" break="no"/>ctas, ergo non soli sacerdotes habent huiusmodi claues 
-      <lb ed="#G" n="105"/>Consequentia patet. Probatur antecedens: quia
-      quaeli<lb ed="#G" n="106" break="no"/>bet Abbatissa habet spiritualem potestatem super subdi 
-      <lb ed="#G" n="107"/>tas sibi commissas cum igitur spiritualis potestas sit cla 
-      <lb ed="#G" n="108"/>uis ecclesiae: ergo &amp;c 
-    </p>
-            <p xml:id="HuYgTa-259117-d1e325">
-               <lb ed="#G" n="109"/>Ad primum dicendum, quod licet maior sit aliquo modo 
-      <lb ed="#G" n="110"/>vera loquendo de admissione, &amp; exclusione, quantum ad 
-      <lb ed="#G" n="111"/>regnum celorum, tamen non est vera, loquendo de admin 
-      <lb ed="#G" n="112"/>sionet, &amp; exclusione, quantum ad materiale templum, 
-      <lb ed="#G" n="113"/>&amp; maxime quando nec hoc conuenit auctoritate pro 
-      <lb ed="#G" n="114"/>pria, sed ex imperio superioris. Sed excludere aliquos, &amp;  
-      <lb ed="#G" n="115"/>aliquos admittere quo ad templum materiale ess de of 
-      <lb ed="#G" n="116"/>ficio hostiarii, &amp; nec hoc hostiariis competit auctoritate 
-      <lb ed="#G" n="117"/>propria, sed tamquam subfamulantibus imperio, &amp; iudi 
-      <lb ed="#G" n="118"/>cicio sacerdotis. 
-    </p>
-            <p xml:id="HuYgTa-259117-d1e349">
-               <lb ed="#G" n="119"/>
-               <pc type="indent"/>Ad secundum dicendum, quod secundum philosophum e.¬ 
-      <lb ed="#G" n="120"/>ethicorum, ad mulierem pertinere dominium est vrbanitatis 
-      <lb ed="#G" n="121"/>corruptio: cum igitur potestas, seu dominium spirituale sit 
-      <lb ed="#G" n="122"/>maioris dignitatis, quam potestas corporalis: ideo claues 
-      <lb ed="#G" n="123"/>ecclesiae, quae sunt spititualis potestas, non sunt commissae 
-      <!--733.xml-->
-      <pb ed="#G" n="P2_131-v"/>
-               <cb ed="#G" n="a"/>
-               <lb ed="#G" n="1"/>alicui mulicri: Vnicuique ergo monasterio mulierum 
-      <lb ed="#G" n="2"/>debet aliquis vir praeesse, quantum ad claues ecclesiae 
-      <lb ed="#G" n="3"/>propter huiusmodi clauium dignitatem, dato, quod admini 
-      <lb ed="#G" n="4"/>stratio temporalium aliquo modo Abbatissae, vel prioris 
-      <lb ed="#G" n="5"/>se permittatur. Et hoc a principio pro tanto videtur
-      fuis<lb ed="#G" n="6" break="no"/>se permissum, ne si viri haberent huiusmodi
-      tempora<lb ed="#G" n="7" break="no"/>lium immediatam administrationem, ex quotidiana 
-      <lb ed="#G" n="8"/>frequentia virorum cum claustralibus mulieribus, scandal 
-      <lb ed="#G" n="9"/>lum hominum, &amp; animarum periculum oriretur. 
-    </p>
-            <p xml:id="HuYgTa-259117-d1e391">
-               <lb ed="#G" n="10"/>
-               <pc type="indent"/>Conclusio secunda est, quod loquendo de clauibus eccle 
-      <lb ed="#G" n="11"/>siae secundo modo, tunc claues possunt competere ei; 
-      <lb ed="#G" n="12"/>qui non est sacerdos. Quia sicut in foro conscientiae
-      iu<lb ed="#G" n="13" break="no"/>dex est mediator inter Deum, &amp; hominem, sic in foro 
-      <lb ed="#G" n="14"/>exterioris sententiae iudex est mediator inter hominem 
-      <lb ed="#G" n="15"/>&amp; hominem: sed licet per modum iudicis mediare inter 
-      <lb ed="#G" n="16"/>Deum, &amp; hominem soli sacerdoti conueniat, tamen
-      media<lb ed="#G" n="17" break="no"/>re per modum iudicis inter hominem, &amp; hominem, et non 
-      <lb ed="#G" n="18"/>sacerdoti conuenienter potest conuenire: ergo licet po 
-      <lb ed="#G" n="19"/>testas iudicandi, &amp; auctoritas discernendi in foro conscien 
-      <lb ed="#G" n="20"/>tiae, quae dicuntur claues ordinis eo, quod tantummodo 
-      <lb ed="#G" n="21"/>mediante sacerdotali ordine conferantur, solis conue 
-      <lb ed="#G" n="22"/>niant sacerdoribus, tamen potestas iudicandi, &amp; auctori 
-      <lb ed="#G" n="23"/>tas discernendi in foro exterioris sententiae, quae
-      dicun<lb ed="#G" n="24" break="no"/>tur claues iurisdictionis, eo, quod conferantur ab eo, qui 
-      <lb ed="#G" n="25"/>potest huiusmodi iurisdictionem conferre, poterunt con 
-      <lb ed="#G" n="26"/>uenite etiam his, qui non sunt sacerdotes, dum modo, ip 
-      <lb ed="#G" n="27"/>sis huiusmodi iurisdictio in subditos conferatur. 
-      <lb ed="#G" n="28"/>Forte dicetur, quod ista distinctio, qua claues de foro conscien 
-      <lb ed="#G" n="29"/>tiae dicuntur claues ordinis, &amp; claues de foro
-      exterio<lb ed="#G" n="30" break="no"/>ris sententiae dicuntur claues iurisdictionis, non sit
-      pro<lb ed="#G" n="31" break="no"/>pria distinctio, nec per consequens bona: Quia illa
-      di<lb ed="#G" n="32" break="no"/>stinctio non est bona, cuius membra coincidunt, sed sic 
-      <lb ed="#G" n="33"/>est in proposito; ergo &amp;c. Maior patet. Probo minorem, 
-      <lb ed="#G" n="34"/>quia absolutio de peccatis confessis spectat ad forum 
-      <lb ed="#G" n="35"/>conscientiae, sed talis absolutio necessario praesupponii 
-      <lb ed="#G" n="36"/>iurisdictionem, sicut patet in praecedenti quaestione, 
-      <lb ed="#G" n="37"/>vbi dictum est, quod etiam religiosi priuilegiati, &amp; si
-      nonha<lb ed="#G" n="38" break="no"/>beant iurisdictionem ordinariam: habent tamen iurisd 
-      <lb ed="#G" n="39"/>ctionem delegatam, ad hoc quod possint absoluere
-      ho<lb ed="#G" n="40" break="no"/>mines, qui ipsis confitentur; ergo clauis de foro conscien 
-      <lb ed="#G" n="41"/>tiae non solum est clauis ordinis, sed etiam est clauis
-      iu<lb ed="#G" n="42" break="no"/>risdictionis, &amp; per consequens male distinguitur contra 
-      <lb ed="#G" n="43"/>clauem iurisdictionis. 
-    </p>
-            <p xml:id="HuYgTa-259117-d1e469">
-               <lb ed="#G" n="44"/>
-               <pc type="indent"/>Respondeo, quod minor non est vera. Ad probatio. 
-      <lb ed="#G" n="45"/>nem dicendum, quod concessa maiori, &amp; minori, adhus 
-      <lb ed="#G" n="46"/>non habetur intentum 
-    </p>
-            <p xml:id="HuYgTa-259117-d1e481">
-               <lb ed="#G" n="47"/>
-               <pc type="indent"/>Ad cuius intellectum est aduertendum, quod clauis 
-      <lb ed="#G" n="48"/>de foro conscientiae potest dupliciter considerari. Vno 
-      <lb ed="#G" n="49"/>modo, secundum se, Alio modo, secundum suum vsum 
-      <lb ed="#G" n="50"/>&amp; exsecutionem. Modo licet, quantum ad secundum, sci 
-      <lb ed="#G" n="51"/>licet quantum ad exsecutionem istius clauis requiratur 
-      <lb ed="#G" n="52"/>iurisdictio, tamen non requiritur quantum ad primum 
-      <lb ed="#G" n="53"/>quia a multis habentur istae claues, quibus tamen defi- 
-      <lb ed="#G" n="54"/>cit huiusmodi iurisdictio. Nam istae claues conferuntur 
-      <lb ed="#G" n="55"/>ei, cui confertur ordo sacerdotalis, dato, quod respectu 
-      <lb ed="#G" n="56"/>nullorum subditorum sibi conferatur iurisdictio. Et per 
-      <lb ed="#G" n="57"/>hoc claues de foro conscientiae proprie differunt a
-      cla<lb ed="#G" n="58" break="no"/>uibus exterioris iudicii, quia istae praecise conferuntur 
-      <lb ed="#G" n="59"/>collatione iurisdictionis in subditos. Et ideo merito, &amp; 
-      <lb ed="#G" n="60"/>proprie primae claues dicuntur claues ordinis: quia num 
-      <lb ed="#G" n="61"/>quam possunt conferri sine ordine, quauis bene confe 
-      <lb ed="#G" n="62"/>rantur sine iurisdictione, &amp; econuerso aliae proprie
-      di<lb ed="#G" n="63" break="no"/>cuntur claues iurisdictionis: quia numquam possunt con 
-      <lb ed="#G" n="64"/>ferri sine iurisdictione, quamuis bene possint conferri 
-      <lb ed="#G" n="65"/>sine ordine¬ 
-    </p>
-            <p xml:id="HuYgTa-259117-d1e527">
-               <lb ed="#G" n="66"/>
-               <pc type="indent"/>ARTICVLO in. 
-      <lb ed="#G" n="67"/>Vtrum quilibet sacerdos habeat huiusmodi claues 
-    </p>
-            <p xml:id="HuYgTa-259117-d1e536">
-               <lb ed="#G" n="68"/>QVANTVM ad secundum articulum pono duas con 
-      <lb ed="#G" n="69"/>clusiones, quae quasi corollarie sequuntur ex iam 
-      <lb ed="#G" n="70"/>dictis. Prima est, qloquendo de clauibs respicientibus 
-      <!--733.xml-->
-      <cb ed="#G" n="b"/>
-               <lb ed="#G" n="71"/>forum interioris conscientiae, tunc quilibet sacerdos ha 
-      <lb ed="#G" n="72"/>bet claues ecclesiae. 
-    </p>
-            <p xml:id="HuYgTa-259117-d1e554">
-               <lb ed="#G" n="73"/>
-               <pc type="indent"/>Quia, sicut iam dictum est, huiusmodi claues semper 
-      <lb ed="#G" n="74"/>conferuntur cum ordine sacerdotali: sed quilibet
-      sacer<lb ed="#G" n="75" break="no"/>dos habet huiusmodi ordinem: ergo quilibet sacerdos 
-      <lb ed="#G" n="76"/>habet tales claues.
-    </p>
-            <p xml:id="HuYgTa-259117-d1e567">
-               <lb ed="#G" n="77"/>2 Praeterea, vt communiter dicitur, claues huiu mo 
-      <lb ed="#G" n="78"/>di dat Deus, quando in ordinatione episcopus dicit, ac 
-      <lb ed="#G" n="79"/>cipite spiritum sanctum, quorum remiseritis peccata, re 
-      <lb ed="#G" n="80"/>mittuntur eis: sed hoc dicit episcopus omnibus sacerdo 
-      <lb ed="#G" n="81"/>tibus, qui ordinantur; ergo &amp;
-    </p>
-            <p xml:id="HuYgTa-259117-d1e580">
-               <lb ed="#G" n="82"/>1 Sed forte contra istud dicetur, quod multi ordinantur 
-      <lb ed="#G" n="83"/>in sacerdotes, qui sunt peccatores, ergo multi ordinantur 
-      <lb ed="#G" n="84"/>in sacerdotes, qui non recipiunt predictas claues. Anti 
-      <lb ed="#G" n="85"/>cedens patet. Probatio consequentiae: quia qui non reci 
-      <lb ed="#G" n="86"/>iunt spiritum sanctum, non recipiunt claues, sed nullus 
-      <lb ed="#G" n="87"/>peccator recipit spiritum sanctum. Maior patet: quia si 
-      <lb ed="#G" n="88"/>tut iam dictum est, in receptione clauium dicit episco 
-      <lb ed="#G" n="89"/>pus, accipite spiritum sanctum. ergo, qui non recipit spiri 
-      <lb ed="#G" n="90"/>tum sanctum, non videtur recipere claues. Patet et mi 
-      <lb ed="#G" n="91"/>nor, quia spiritus sanctus disciplinae effugiet fictum, vt di 
-      <lb ed="#G" n="92"/>cit sapiens 
-    </p>
-            <p xml:id="HuYgTa-259117-d1e607">
-               <lb ed="#G" n="93"/>
-               <pc type="indent"/>Praeterea, rex sapiens thesaurum suum, uel claues 
-      <lb ed="#G" n="94"/>thesauri sui non conmittit his, quos reputat suos mortales 
-      <lb ed="#G" n="95"/>inimicos: sed claues istae sunt claues diuini thesauri, pu 
-      <lb ed="#G" n="96"/>ta gratiae, &amp; gloriae, &amp; mortalem peccatorem Deus repu 
-      <lb ed="#G" n="97"/>tat inimicum suum: ergo &amp;c 
-    </p>
-            <p xml:id="HuYgTa-259117-d1e623">
-               <lb ed="#G" n="98"/>
-               <pc type="indent"/>Praeterea, exclusus a regno non habet claues
-      re<lb ed="#G" n="99" break="no"/>gni, sed quilibet sacerdos existens in mortali peccato est 
-      <lb ed="#G" n="100"/>exclusus a regno caelorum, ergo nullus talis sacerdos ha 
-      <lb ed="#G" n="101"/>bet claues regni celorum.
-    </p>
-            <p xml:id="HuYgTa-259117-d1e636">
-               <lb ed="#G" n="102"/>4 Praeterea, qui non pot aperire, seu absoluere, non 
-      <lb ed="#G" n="103"/>videtur habere claues; sed quandoque sacerdos est susper 
-      <lb ed="#G" n="104"/>sus, excommunicatus, haereticus, scismaticus, vel
-      degra<lb ed="#G" n="105" break="no"/>datus, &amp; nullus istorum potest regnum celorum aperire, 
-      <lb ed="#G" n="106"/>vel a peccatis absoluere: ergo nullus istorum habet claues.
-    </p>
-            <p xml:id="HuYgTa-259117-d1e649">
-               <lb ed="#G" n="107"/>3 Praeterea, frustra, &amp; inutilis est potentia, quae num 
-      <lb ed="#G" n="108"/>quam existit in actum: sed potestas clauium in
-      sacerdo<lb ed="#G" n="109" break="no"/>te nullam habente iurisdictionem, numquam exit in actum; 
-      <lb ed="#G" n="110"/>ergo vel in talibus sacerdotibus non sunt claues, &amp; tuo 
-      <lb ed="#G" n="111"/>habetur intentum, vel si sunt, frustra, &amp; inutiliter sunt, 
-      <lb ed="#G" n="112"/>quod nullo modo est ponendum, cum Deus, &amp; natura 
-      <lb ed="#G" n="113"/>nihil faciant frustra 
-    </p>
-            <p xml:id="HuYgTa-259117-d1e667">
-               <lb ed="#G" n="114"/>
-               <pc type="indent"/>Ad primam, nego consequentiam. Ad probationem 
-      <lb ed="#G" n="115"/>dicendum, quod ibi fit mentio de receptione spiritus 
-      <lb ed="#G" n="116"/>sancti, non pro tanto, quod sine receptione spiritus
-      san<lb ed="#G" n="117" break="no"/>cti nullo modo recipiantur claues, sed pro tanto quia, 
-      <lb ed="#G" n="118"/>qui idonee, &amp; congrue, &amp; ad salutem animae suae recipit 
-      <lb ed="#G" n="119"/>claues, ille vtique recipit gratiam spiritus sancti: sicut 
-      <lb ed="#G" n="120"/>enim ficte recipiens sacramentum baptismi reci pit cha 
-      <lb ed="#G" n="121"/>racterem baptismalem, qui est gratia gratis data, licet 
-      <lb ed="#G" n="122"/>non recipiat spiritum sanctum, seu gratiam gratum
-      fa<lb ed="#G" n="123" break="no"/>cientem; sic ille, qui cum peccato mortali recipit ordinem 
-      <lb ed="#G" n="124"/>sacerdotalem, etiam recipit claues ecclesiae, quamuis non 
-      <lb ed="#G" n="125"/>recipiat spiritum sanctum, seu donum gratum facientis 
-      <lb ed="#G" n="126"/>ratiae: quia sicut praedictus character pro tanto, quia
-      si<lb ed="#G" n="127" break="no"/>bi non repugnat simul esse cum mortali peccato; ideo po 
-      <lb ed="#G" n="128"/>test recipi ab eo, qui est in peccato, &amp; retineri, non
-      ob<lb ed="#G" n="129" break="no"/>stante, quod maneat peccatum, sic in proposito &amp;c. 
-    </p>
-            <p xml:id="HuYgTa-259117-d1e706">
-               <lb ed="#G" n="130"/>
-               <pc type="indent"/>Forte dices, quod non est simile, quia clauis datur ad 
-      <lb ed="#G" n="131"/>expellendum peccatum, seu ad absoluendum de pecca 
-      <lb ed="#G" n="132"/>to, ergo licet character non habeat repugnantiam ad pec 
-      <lb ed="#G" n="133"/>tatum, tamen clauis videtur here repugnantiam ad peccatum. 
-    </p>
-            <p xml:id="HuYgTa-259117-d1e720">
-               <lb ed="#G" n="134"/>
-               <pc type="indent"/>Respondeo, quod clauis ista non datur ad
-      expellen<lb ed="#G" n="135" break="no"/>dum peccatum proprii subiecti, sic enim datur gratia 
-      <lb ed="#G" n="136"/>gratumfaciens, illi enim formaliter repugnat esse in eo 
-      <lb ed="#G" n="137"/>dem subiecto cum mortali peccato, sed clauis datur com 
-      <lb ed="#G" n="138"/>tra peccatum subditi confitentis, vel proponentis confi 
-      <lb ed="#G" n="139"/>teri ei, qui habet claues absoluendi¬ 
-    </p>
-            <p xml:id="HuYgTa-259117-d1e738">
-               <lb ed="#G" n="140"/>
-               <pc type="indent"/>Ad secundum dicendum, quod maior non est vera, supposi 
-      <lb ed="#G" n="141"/>to, quod thesaurus sit illius conditionis, quod quauis dispensa 
-      <lb ed="#G" n="142"/>tor sit inimicus regis:tamen ipse non pot huiusmodi the 
-      <lb ed="#G" n="143"/>saurum distribuere inimigis ipsius regis, sed tantum modo 
-      <!--734.xml-->
-      <pb ed="#G" n="P2_132-r"/>
-               <cb ed="#G" n="a"/>
-               <lb ed="#G" n="1"/>am icis: sic autem est in proposito : quia regnum
-      caelo<lb ed="#G" n="2" break="no"/>rum, quod clauditur, &amp; aperitur praedictis clauibus
-      tan<lb ed="#G" n="3" break="no"/>tum modo superni regis amicis est communicabile¬ 
-    </p>
-            <p xml:id="HuYgTa-259117-d1e764">
-               <lb ed="#G" n="4"/>
-               <pc type="indent"/>Ad tertium dicendum, quod licet exclusus a regno 
-      <lb ed="#G" n="5"/>non habet claues regni pro se:tamen nihil repugnat, quin 
-      <lb ed="#G" n="6"/>possit habere huinsmodi claues pro aliis.  
-    </p>
-            <p xml:id="HuYgTa-259117-d1e775">
-               <lb ed="#G" n="7"/>
-               <pc type="indent"/>Ad quartum dicendum, quod maior non est vera: quia si 
-      <lb ed="#G" n="8"/>cut aliquis posset habere clauem materialem, qui tam  
-      <lb ed="#G" n="9"/>aperire non posset, fi manus lio atas hab ret vel si
-      set<lb ed="#G" n="10" break="no"/>aperienda sibi subtraheretur: sic in proposito, quamui 
-      <lb ed="#G" n="11"/>sacerdos suspensus, excommunicatus haereticus, hoc ess 
-      <lb ed="#G" n="12"/>in haeresim lapsus, postquam vere fuit sacerdos
-      ordina<lb ed="#G" n="13" break="no"/>tus, &amp; scismaticus, ac degradatus vere habeat claues ex 
-      <lb ed="#G" n="14"/>clesiae, tamen quia cuilibet istorum vsus clauium est
-      in<lb ed="#G" n="15" break="no"/>terdictus: ideo quasi manus ligatas habens, nec potes 
-      <lb ed="#G" n="16"/>claud ere, nec aperire, nec soluere, nec ligare. Etiam 
-      <lb ed="#G" n="17"/>subtrahitur sibi materia, idest populus, qui prius fuit sibi 
-      <lb ed="#G" n="18"/>subiectus, eximitur ab eo, ne competat sibi spiritualis 
-      <lb ed="#G" n="19"/>actio in huiusmodi populum, qualis sibi compet ebat. 
-      <lb ed="#G" n="20"/>priusquam esset suspensus, vel excommunicatus, &amp;c 
-    </p>
-            <p xml:id="HuYgTa-259117-d1e810">
-               <lb ed="#G" n="21"/>
-               <pc type="indent"/>Ad quintum dicendum, quod maior non est vera 
-      <lb ed="#G" n="22"/>nam multis sanctis Deus dedit potentiam generati 
-      <lb ed="#G" n="23"/>uam, quae numquam exiuit in actum, &amp; tamen non fuit 
-      <lb ed="#G" n="24"/>frustra, cum Deus nihil faciat frustra Vnde vanitas, &amp;  
-      <lb ed="#G" n="25"/>inutilitas potentiae non potest argui ex hoc, quod non 
-      <lb ed="#G" n="26"/>prorumpit in actum. 
-    </p>
-            <p xml:id="HuYgTa-259117-d1e828">
-               <lb ed="#G" n="27"/>
-               <pc type="indent"/>Sed ex hoc, quod positis omnibus, quae sunt ad hhoc 
-      <lb ed="#G" n="28"/>requisita, vt potentia actum eliciat, adhuc huiusmodi 
-      <lb ed="#G" n="29"/>potentia non potest prorumpere in actum. Sic autem 
-      <lb ed="#G" n="30"/>non est in proposito, quia communicata iurisdictione 
-      <lb ed="#G" n="31"/>huiusmodi sacerdoti, tunc potestas clauium, quae est in 
-      <lb ed="#G" n="32"/>ipso, immediate potest habere vsum suum 
-    </p>
-            <p xml:id="HuYgTa-259117-d1e847">
-               <lb ed="#G" n="33"/>
-               <pc type="indent"/>Conclusio secunda est, quod claues ecclesiae respicie 
-      <lb ed="#G" n="34"/>tes forum exterioris iudiciu non conueniunt culibet
-      sa<lb ed="#G" n="35" break="no"/>cerdoti
-    </p>
-            <p xml:id="HuYgTa-259117-d1e858">
-               <lb ed="#G" n="36"/>1 Quia tales claues non conueniunt alicui, nisi ipse sit 
-      <lb ed="#G" n="37"/>iudex hominum: sed multi sunt sacerdotes, qui non sun 
-      <lb ed="#G" n="38"/>iudices hominum, ergo &amp;c 
-    </p>
-            <p xml:id="HuYgTa-259117-d1e867">
-               <lb ed="#G" n="39"/>
-               <pc type="indent"/>2 Praeterea, sicut praedictum est, istae claues numquam 
-      <lb ed="#G" n="40"/>conferuntur alicui, nisi ei conferatur iurisdictio: sed mu 
-      <lb ed="#G" n="41"/>ti sunt sacerdotes, quibus nulla collata est iurisdictio 
-      <lb ed="#G" n="42"/>ergo &amp;cetera.
-    </p>
-            <p xml:id="HuYgTa-259117-d1e880">
-               <lb ed="#G" n="43"/>1 Forte dicetur, cui conceditur illud, quod est ma 
-      <lb ed="#G" n="44"/>ius, eidem videtur esse concessum illud, quod est mi 
-      <lb ed="#G" n="45"/>nus: sed claues respitientes forum conscientiae, sunt mul 
-      <lb ed="#G" n="46"/>to maioris dignitatis, quam claues respicientes forun 
-      <lb ed="#G" n="47"/>exterioris sententiae, &amp; primae claues sunt concessae cuil 
-      <lb ed="#G" n="48"/>bet sacerdoti: ergo &amp; secundae, cuius oppositum ponit 
-      <lb ed="#G" n="49"/>ista conclusio 
-    </p>
-            <p xml:id="HuYgTa-259117-d1e898">
-               <lb ed="#G" n="50"/>
-               <pc type="indent"/>2 Praeterea, cui negatur illud, quod est minus, illi non 
-      <lb ed="#G" n="51"/>videtur esse concessum illud, quod est maius: sed
-      pote<lb ed="#G" n="52" break="no"/>stas exterioris sententiae, quae est minor, quam potestas 
-      <lb ed="#G" n="53"/>in foro conscientiae, negatur alicui sacerdoti, sicut ponit 
-      <lb ed="#G" n="54"/>ista conclusio: ergo eidem non videtur esse concessa pote 
-      <lb ed="#G" n="55"/>stas in foro conscientiae, quae est maior, quod est oppositum 
-      <lb ed="#G" n="56"/>primae conclusionis Et sic secunda conclusio videtum 
-      <lb ed="#G" n="57"/>primae repugnare. 
-    </p>
-            <p xml:id="HuYgTa-259117-d1e920">
-               <lb ed="#G" n="58"/>
-               <pc type="indent"/>Respondeo ad ambas rationes, quod licet aliquid comn 
-      <lb ed="#G" n="59"/>cludant, quando maius, &amp; minus sunt eiusdem rationis 
-      <lb ed="#G" n="60"/>tamen nihil corcludunt, quando sunt diuersarum ratio 
-      <lb ed="#G" n="61"/>num Quia enim potentia volandi, &amp; potentia ratioci 
-      <lb ed="#G" n="62"/>nandi sunt diuersarum rationum; ideo licet potentia vo 
-      <lb ed="#G" n="63"/>landi sit minor, quam potentia ratiocinandi tamen non 
-      <lb ed="#G" n="64"/>sequitur, homini est concessa potentia ratiocinandi, er 
-      <lb ed="#G" n="65"/>go ei communicata est potentia volandi: nec econuerso 
-      <lb ed="#G" n="66"/>sequitur, homini est negata potentia volandi, ergo homin 
-      <lb ed="#G" n="67"/>no est concessa potentia ratiotinandi: Sed nunc estita, quoad 
-      <lb ed="#G" n="68"/>istae claues sunt diuersarum rationum: quia tam earum
-      ori<lb ed="#G" n="69" break="no"/>gines, quam earum vsus, &amp; exsecutiones differunt ratione 
-      <lb ed="#G" n="70"/>nam vnius origo est cum collatione ordinis, alterius
-      ori<lb ed="#G" n="71" break="no"/>go est cum collatione iurisdictionis: vnius vsus est in
-      fo<lb ed="#G" n="72" break="no"/>ro interiori, alterius in foro exteriori: ergo &amp;c
-    </p>
-            <p xml:id="HuYgTa-259117-d1e958">
-      <!--734.xml-->
-               <cb ed="#G" n="b"/>
-               <lb ed="#G" n="73"/>ARTICVLVSIII. 
-      <lb ed="#G" n="74"/>Vtrum claues possint tolli ab eo, qui habet eas.
-    </p>
-            <p xml:id="HuYgTa-259117-d1e969">
-               <lb ed="#G" n="75"/>VANTVM ad tertium articulum pono tres con 
-      <lb ed="#G" n="76"/>clusiones conformes iam dictis in duobus arti 
-      <lb ed="#G" n="77"/>culis praecedentibus 
-    </p>
-            <p xml:id="HuYgTa-259117-d1e978">
-               <lb ed="#G" n="78"/>
-               <pc type="indent"/>Prima est, quod claues respicientes forum conscientiae 
-      <lb ed="#G" n="79"/>non possunt tolli, quantum ad essentiam suam, ab eo, 
-      <lb ed="#G" n="80"/>qui semel recepit eas.
-    </p>
-            <p xml:id="HuYgTa-259117-d1e989">
-               <lb ed="#G" n="81"/>1 Quia istae claues, vel sunt idem, quod sacerdotalis 
-      <lb ed="#G" n="82"/>character, vel saltem inseparabiliter consequuntur
-      hu<lb ed="#G" n="83" break="no"/>iusmodi caracterem, sed caracter iste est idelebilis: ergo 
-      <lb ed="#G" n="84"/>claues istae tolli non possunt ab eo, qui habet eas per cu 
-      <lb ed="#G" n="85"/>iuscunque hominis potestatem. Maior patet ex commu 
-      <lb ed="#G" n="86"/>ni doctotum concordia quo ad hoc. Minor etiam patet 
-      <lb ed="#G" n="87"/>ecdictis superius dist. 2. arti. r¬ 
-    </p>
-            <p xml:id="HuYgTa-259117-d1e1007">
-               <lb ed="#G" n="88"/>2 Praeterea, si ab aliquo tolleretur, hoc maxime vide 
-      <lb ed="#G" n="89"/>retur de sacerdote degradato, vel deposito ab officio, &amp;  
-      <lb ed="#G" n="90"/>beneficio: sed hoc non quia posito, quod aliquis illorum 
-      <lb ed="#G" n="91"/>testituatur ad pristinam dignitatem, de nouo iterum non 
-      <lb ed="#G" n="92"/>conferuntur ei claues per iterati ordinis collationem. 
-      <lb ed="#G" n="93"/>hoc autem oporteret, si claues ecclesiae, quantum ad esse 
-      <lb ed="#G" n="94"/>tiam suam, fuissent ab eo prius ablatae. 
-    </p>
-            <p xml:id="HuYgTa-259117-d1e1025">
-               <lb ed="#G" n="95"/>Conclusio secunda est, quod potestas clauium praedi 
-      <lb ed="#G" n="96"/>ctarum potest tolli, &amp; de facto quandoque tollitur, quam 
-      <lb ed="#G" n="97"/>tum ad vsum, &amp;cius exse cutionem: Quia ab illo sacerdo 
-      <lb ed="#G" n="98"/>te, qui non potest absoluere in foro conscientiae, &amp; si de 
-      <lb ed="#G" n="99"/>facto absoluit, huiusmodi absolutio nulla est ;siue hic,¬ 
-      <lb ed="#G" n="100"/>qui dicitur absolui, non est absolutus, ab illo, inquam, 
-      <lb ed="#G" n="101"/>ablata est exsecutio iam dictae potestatis: Sed sacerdos 
-      <lb ed="#G" n="102"/>excommunicatus eum, qui sibi confitetur, non potest 
-      <lb ed="#G" n="103"/>absoluere, &amp; si de facto dicit verba absolutionis :
-      confi<lb ed="#G" n="104" break="no"/>tens tamen non est absolutus; ergo &amp;c. 
-    </p>
-            <p xml:id="HuYgTa-259117-d1e1050">
-               <lb ed="#G" n="105"/>
-               <pc type="indent"/>Maior patet de se: Minorem probo: quia nullus, du 
-      <lb ed="#G" n="106"/>actu peccat, &amp; est alteri causa mortalis peccati,
-      absolui<lb ed="#G" n="107" break="no"/>tur a peccato: sed petens absolutionem ab eo, quem  
-      <lb ed="#G" n="108"/>noscit esse excommunicatum, actu, quo petit, peccat, &amp; 
-      <lb ed="#G" n="109"/>est illi, a quo perit, causa mortalis peccati. Maior est 
-      <lb ed="#G" n="110"/>nota Minor etiam patet, quo ad primam sui partem 
-      <lb ed="#G" n="111"/>quia petendo ab excommunicato absolutionem
-      com<lb ed="#G" n="112" break="no"/>municat excommunicato contra mandatum ecclesiae, 
-      <lb ed="#G" n="113"/>&amp; per consequens peccat. Patet etiam quo ad
-      secun<lb ed="#G" n="114" break="no"/>dam partem: quia absoluens mortaliter peccat, quod 
-      <lb ed="#G" n="115"/>peccatum non committeret, siiste absolutionem non 
-      <lb ed="#G" n="116"/>peteret. Ista etiam minor patet per Augustinum in 
-      <lb ed="#G" n="117"/>libus de vera, &amp; falsa poenitentia, &amp; habetur in <ref xml:id="HuYgTa-259117-Rd1e1082">decretis 
-        <lb ed="#G" n="118"/>de poenitentia distin. 9.</ref> vbi sic dicitur. Nemo
-      poenite<lb ed="#G" n="119" break="no"/>re digne potest, quem non sustinet vnitas ecclesiae:
-      lu<lb ed="#G" n="120" break="no"/>das enim poenitens iuit ad pharisaeos, &amp; reliquit  
-      <lb ed="#G" n="121"/>Apostolos, nihil auxilii, nisi augmentum desperationis 
-      <lb ed="#G" n="122"/>inuenit.  
-    </p>
-            <p xml:id="HuYgTa-259117-d1e1097">
-               <lb ed="#G" n="123"/>
-               <pc type="indent"/>Torte dicetur, quod ista conclusio contradicit primae 
-      <lb ed="#G" n="124"/>1 Quia potestas actiua manens in habente liberum 
-      <lb ed="#G" n="125"/>arbitrium exit in actum, quando illi placet, qui habet 
-      <lb ed="#G" n="126"/>eam: Sed potestas clauium est poteltas actiua, &amp; a
-      sa<lb ed="#G" n="127" break="no"/>cerdote, qui est liberi arbitrij, non potest tolli, sicut dicit 
-      <lb ed="#G" n="128"/>prima conclulio: ergo potest exire in actum, quando
-      pla<lb ed="#G" n="129" break="no"/>cet huiusmodi sacerdoti, quod implicat oppositum secun 
-      <lb ed="#G" n="130"/>dae conclusionis 
-    </p>
-            <p xml:id="HuYgTa-259117-d1e1119">
-               <lb ed="#G" n="131"/>2 Praeterea, usus, &amp; efficacia spiritualis potestatis ma 
-      <lb ed="#G" n="132"/>gis videtur impediri per culpam, quam per poenam, sed  
-      <lb ed="#G" n="133"/>tulpa mortalis non tollit vsum clauium, vt patet ex
-      di<lb ed="#G" n="134" break="no"/>ctis in secundo articulo: ergo nec excommunicatio, qua 
-      <lb ed="#G" n="135"/>de se non est culpa, sed poena 
-    </p>
-            <p xml:id="HuYgTa-259117-d1e1132">
-               <lb ed="#G" n="136"/>3 Praeterea, quae aequaliter depedent ab aliquo, aequa 
-      <lb ed="#G" n="137"/>iter debent manereillo manente, a quo dependent, sed  
-      <lb ed="#G" n="138"/>potestas conficiendi corpus Christi, &amp; potestas absolus 
-      <lb ed="#G" n="139"/>di, aequaliter dependent ab ordine sacerdotali, &amp; per ex 
-      <lb ed="#G" n="140"/>communicationem non tollitur a sacerdote vsus 
-      <lb ed="#G" n="141"/>conficiendi si enim excommunicatus celebraret, ip 
-      <lb ed="#G" n="142"/>se uere conficeret, quamuis celebrando peccaret: 
-      <!--735.xml-->
-      <pb ed="#G" n="P2_132-v"/>
-               <cb ed="#G" n="a"/>
-               <lb ed="#G" n="1"/>ergo etiam excommunicatus sacerdos audiens
-      confes<lb ed="#G" n="2" break="no"/>siones vere dicitur absoluere, dato, quod peccet
-      absol<lb ed="#G" n="3" break="no"/>uendo, &amp; per consequens non videtur, quod possint tol 
-      <lb ed="#G" n="4"/>li claues quantum ad earum exsecutionem. 
-    </p>
-            <p xml:id="HuYgTa-259117-d1e1165">
-               <lb ed="#G" n="5"/>
-               <pc type="indent"/>Ad primum dicendum, quod maior non est vera, defi 
-      <lb ed="#G" n="6"/>tiente materia correspondente illi actiuae potestati:
-      Si<lb ed="#G" n="7" break="no"/>cut enim ignis existens iuxta coelum lune, quamuis ha 
-      <lb ed="#G" n="8"/>beat potentiam calefaciendi, tamen non calefacit, eo,  
-      <lb ed="#G" n="9"/>quod non attingit materiam, quae suae actionis sit
-      susce<lb ed="#G" n="10" break="no"/>ptiua: sic sacerdos excommunicatus non potest absolue 
-      <lb ed="#G" n="11"/>re, non obstante, quod habeat potestatem absoluendi 
-      <lb ed="#G" n="12"/>eo, quod per sui superioris sententiam subtracti sint sibi 
-      <lb ed="#G" n="13"/>subditi, in quos agere deberet secundum illam potestate 
-    </p>
-            <p xml:id="HuYgTa-259117-d1e1189">
-               <lb ed="#G" n="14"/>
-               <pc type="indent"/>Ad secundum dicendum, quod dato, quod maior al 
-      <lb ed="#G" n="15"/>quo modo possit concedi, loquendo de poena tali, quae 
-      <lb ed="#G" n="16"/>non includit, seu praesupponit culpam: tamen non est 
-      <lb ed="#G" n="17"/>vera, loquendo de tali pena, quae praesupponit culpam, 
-      <lb ed="#G" n="18"/>ficut est excum municatio. Etiam maior non est vera, 
-      <lb ed="#G" n="19"/>supposito, quod culpa sine tali poena non subtrahat ma 
-      <lb ed="#G" n="20"/>teriam correspodentem huiusmodi spirituali potestati, 
-      <lb ed="#G" n="21"/>&amp; pena subtrahat huiusmodi materiam: sicut est. in 
-      <lb ed="#G" n="22"/>proposito. 
-    </p>
-            <p xml:id="HuYgTa-259117-d1e1214">
-               <lb ed="#G" n="23"/>
-               <pc type="indent"/>Ad tertium dicendum, quod maior est uera
-      aequali<lb ed="#G" n="24" break="no"/>ter manente materia correspondente illi vtrique
-      pote<lb ed="#G" n="25" break="no"/>stati: Sed sic non est in proposito: quia quamuiscunque 
-      <lb ed="#G" n="26"/>sacerdos sit excommunicatus: si tamen habet panem, &amp; 
-      <lb ed="#G" n="27"/>vinum, tunc non est sibi subtracta materia
-      correspon<lb ed="#G" n="28" break="no"/>dens potestati conficiendi, sicut est sibi subtracta
-      mate<lb ed="#G" n="29" break="no"/>ria correspondens potestati absoluendi. Vnde sicut
-      sa<lb ed="#G" n="30" break="no"/>terdos deficiente pane non potest Corpus Christi con 
-      <lb ed="#G" n="31"/>ficere: sic excommunicatus non potest absoluere: quia 
-      <lb ed="#G" n="32"/>sibi subtracta est materia per ipsum absoluenda 
-    </p>
-            <p xml:id="HuYgTa-259117-d1e1240">
-               <lb ed="#G" n="33"/>
-               <pc type="indent"/>Conclusio tertia est, quod potestas clauium, qua
-      iudi<lb ed="#G" n="34" break="no"/>tatur in exteriori iudicio, seu in foro contentioso,
-      po<lb ed="#G" n="35" break="no"/>test tolli non solum quantum ad usum, &amp; exsecutionem 
-      <lb ed="#G" n="36"/>verumetiam quantum ad essentiam talium clauium. 
-      <lb ed="#G" n="37"/>Quia iurisdictio, quam quis habet super subditos ex cer 
-      <lb ed="#G" n="38"/>tis causis potest tolli per suum superiorem. ergo claues 
-      <lb ed="#G" n="39"/>tales tolli possunt, &amp; quatum ad vsum, &amp;quatum ad exsecone 
-      <lb ed="#G" n="40"/>nec non quantum ad suam essentiam, Consequentia patet quia 
-      <lb ed="#G" n="41"/>huiusmodi claues non possunt alicui competere sine iu 
-      <lb ed="#G" n="42"/>risdictione, vt patet ex praedictis Antecedens etiam
-      pa<lb ed="#G" n="43" break="no"/>tet: quia omnis spiritualis iurisdictio, vel est annexa off 
-      <lb ed="#G" n="44"/>tio, vel beneficio, sed demeritis exigentibus potest infe 
-      <lb ed="#G" n="45"/>rior a suo superiori priuari quandoque officio, &amp; beneficio 
-    </p>
-            <p xml:id="HuYgTa-259117-d1e1273">
-               <lb ed="#G" n="46"/>
-               <pc type="indent"/>Forte dicetur, quod Papa non habet alium in mud 
-      <lb ed="#G" n="47"/>superiorem supra se; ergo istae claues ab aliquo, puta sal 
-      <lb ed="#G" n="48"/>tem ab illo, qui est Papa, non possunt tolli. 
-    </p>
-            <p xml:id="HuYgTa-259117-d1e1284">
-               <lb ed="#G" n="49"/>
-               <pc type="indent"/>Dico, quod ratione delicti, puta, si ille homo, qui 
-      <lb ed="#G" n="50"/>esset Papa, efficeretur haereticus, tuc collegium
-      Cardi<lb ed="#G" n="51" break="no"/>nalium esset superius eo, &amp; talis Papa posset deponi, &amp;  
-      <lb ed="#G" n="52"/>priuari officio, &amp; beneficio: &amp; sic quia careret iurisdictio 
-      <lb ed="#G" n="53"/>ne, sublatae essent ab eo claues, de quibus locutus sum 
-      <lb ed="#G" n="54"/>in ista conclusione. 
-    </p>
-            <p xml:id="HuYgTa-259117-d1e1302">
-               <lb ed="#G" n="55"/>
-               <pc type="indent"/>ARTICVLVS III 
-      <lb ed="#G" n="56"/>Aliqua videbuntur, circa &amp;
-      communicatio<lb ed="#G" n="57" break="no"/>
-               <pc type="indent"/>nis sententiam, &amp; euum 
-      <lb ed="#G" n="58"/>
-               <pc type="indent"/>absolutionem.
-    </p>
-            <p xml:id="HuYgTa-259117-d1e1320">
-               <lb ed="#G" n="59"/>VANTVM ad quartum articulum est aduertendum, 
-      <lb ed="#G" n="60"/>
-               <pc type="indent"/>quod secundum generalem distinctionem du 
-      <lb ed="#G" n="61"/>plex eit excommunicatio, scilicet excommunicatio ma 
-      <lb ed="#G" n="62"/>ior, &amp; exc mmunicatio minor. In maiorem excom mu 
-      <lb ed="#G" n="63"/>nicationem nullus incidit, nisi, vel per sententiam
-      iu<lb ed="#G" n="64" break="no"/>ris, vel per sententiam iudicis: Tuncen incidit per
-      senten<lb ed="#G" n="65" break="no"/>tiam iuris, quando facit aliquid, quod expresse
-      prohibi<lb ed="#G" n="66" break="no"/>tum est sibi per modum statuti sub poena
-      excommuni<lb ed="#G" n="67" break="no"/>cationis latae sententiae 
-    </p>
-            <p xml:id="HuYgTa-259117-d1e1345">
-      <!--735.xml-->
-               <cb ed="#G" n="b"/>
-               <lb ed="#G" n="68"/>Sed tunc incidit per sententiam iudicis, quando, vel 
-      <lb ed="#G" n="69"/>a iudice excommunicatus denunciatur, vel contum aci 
-      <lb ed="#G" n="70"/>ter se habet contra monitionem, vel praeceptum
-      iudi<lb ed="#G" n="71" break="no"/>cis vallatum lata sententia excommuni ationi:. Si pri 
-      <lb ed="#G" n="72"/>mo modo sper sententiam iuris quis incidit in
-      excommu<lb ed="#G" n="73" break="no"/>nicationem, tunc vel superiori est reseruata absolutio, 
-      <lb ed="#G" n="74"/>buta si continetur in staturo, quod ab huiusmodi senten 
-      <lb ed="#G" n="75"/>tia nullus debeat absoluere, nisi Papa, vel nisi
-      episco<lb ed="#G" n="76" break="no"/>pus, tunc inferior non potest talem excommunicatum 
-      <lb ed="#G" n="77"/>absoluere. Si autem absolutio non est reseruata alicui 
-      <lb ed="#G" n="78"/>superiori, tunc ille, qui a mortali peccato potest
-      huius<lb ed="#G" n="79" break="no"/>modi excommunicatum absoluere, hic etiam potest eu 
-      <lb ed="#G" n="80"/>ab huiusmodi vinculo excommunicationis absoluere: 
-      <lb ed="#G" n="81"/>sicut patet <ref xml:id="HuYgTa-259117-Rd1e1381">extra de sententia excommunicationis cap. 
-      <lb ed="#G" n="82"/>nuper</ref>, vbi dicitur, quod cum conditor canonis eius
-      ab<lb ed="#G" n="83" break="no"/>solutionem specialiter sibi non retinuit, eo ipso
-      conces<lb ed="#G" n="84" break="no"/>sisse videtur facultatem aliis relaxandi. 
-    </p>
-            <p xml:id="HuYgTa-259117-d1e1392">
-               <lb ed="#G" n="85"/>
-               <pc type="indent"/>Si secundo modo, scilicet per sententiam iudicis inci 
-      <lb ed="#G" n="86"/>dit, tunc talis excommunicatus absolui non potest, nisi 
-      <lb ed="#G" n="87"/>vel ab eodem iudice, vel a superiori illius iudicis, vel ab  
-      <lb ed="#G" n="88"/>aliquo sibi pari, puta si ille iudex moritur, uel desinit
-      es<lb ed="#G" n="89" break="no"/>se iudex, tunc a suo suceessore potest huiusmodi excom 
-      <lb ed="#G" n="90"/>municatus absolui. 
-    </p>
-            <p xml:id="HuYgTa-259117-d1e1410">
-               <lb ed="#G" n="91"/>
-               <pc type="indent"/>In minorem vero excommunicationem incidit quis 
-      <lb ed="#G" n="92"/>ex eo, quod contra madatum ecclesiae communicat ei, 
-      <lb ed="#G" n="93"/>qui est excommunicatus maiori excommunicatione 
-      <lb ed="#G" n="94"/>lupposito tamen, quod non communicet ei in crimine, 
-      <lb ed="#G" n="95"/>&amp; quod propter contumacem communionem non sit 
-      <lb ed="#G" n="96"/>denunciatus nominaliter excommunicatus a iudice: 
-      <lb ed="#G" n="97"/>quia quocumque istorum duorum posito, tunc
-      partici<lb ed="#G" n="98" break="no"/>pans est excommunicatus maiori excommunicatione: 
-      <lb ed="#G" n="99"/>propter quod talis non potest absolui, nisi ab eo, a quo 
-      <lb ed="#G" n="100"/>absoluendus est ille, cui communicauit: quia facientem,  
-      <lb ed="#G" n="101"/>&amp; consentientem par poena constringit: sicut dicitur in 
-      <lb ed="#G" n="102"/>prae allegato. c. nuper 
-    </p>
-            <p xml:id="HuYgTa-259117-d1e1441">
-               <lb ed="#G" n="103"/>
-               <pc type="indent"/>A maiori vero excommunicatione contracta per sim 
-      <lb ed="#G" n="104"/>licem participationem potest quis absolui a tali
-      sacer<lb ed="#G" n="105" break="no"/>dote, qui eum potest absoluere a peccato, quo transgres 
-      <lb ed="#G" n="106"/>sus est mandatum ecclesiae, vt patet eodem c. 
-      <lb ed="#G" n="107"/>Dixi autem notanter, illum incidere in minorem exceun 
-      <lb ed="#G" n="108"/>municati onem, qui contra mandatum ecclesiae com- 
-      <lb ed="#G" n="109"/>municat excommunicatis: quia cum aliquibus personis 
-      <lb ed="#G" n="110"/>ius ecclesiasticum dispensauit, quae hoc versu
-      compre<lb ed="#G" n="111" break="no"/>henduntur. Vtile, lex, humile, res ignorata, necesse Der 
-      <lb ed="#G" n="112"/>ly, vtile, excusatur persona, quae loquitur cum
-      excom<lb ed="#G" n="113" break="no"/>municato pro sua spirituali salute, &amp; vt ipsum inclinet,  
-      <lb ed="#G" n="114"/>&amp; inducat, quod procuret absolutionem ab eo, a quo pro 
-      <lb ed="#G" n="115"/>curare tenetur. Excusatur etiam petens debitum ab ex 
-      <lb ed="#G" n="116"/>communicato: quia si hoc non liceret, tunc
-      excommu<lb ed="#G" n="117" break="no"/>nicatus de peccato suo reportaret commodum 
-    </p>
-            <p xml:id="HuYgTa-259117-d1e1478">
-               <lb ed="#G" n="118"/>
-               <pc type="indent"/>Lex. i. matrimonium excusat vxorem legitimam.
-      Hu<lb ed="#G" n="119" break="no"/>mile, idest status humilis, puta seruus, vel filius similiter 
-      <lb ed="#G" n="120"/>excusantur, &amp; intelligitur hoc de filio familias, &amp; non 
-      <lb ed="#G" n="121"/>de eo, qui est emancipatus a patre 
-    </p>
-            <p xml:id="HuYgTa-259117-d1e1491">
-               <lb ed="#G" n="122"/>
-               <pc type="indent"/>Res ignota, puta quando aliquis ignorat illum
-      excom<lb ed="#G" n="123" break="no"/>municatum esse, cui communicat. 
-    </p>
-            <p xml:id="HuYgTa-259117-d1e1501">
-               <lb ed="#G" n="124"/>
-               <pc type="indent"/>Necesse, puta, pauperes, &amp; peregrini, qui aliunde non 
-      <lb ed="#G" n="125"/>possunt here necessaria, nisi ab excommunicatis. In istis 
-      <lb ed="#G" n="126"/>quinque casibus participatio cum excommunicato fii 
-      <lb ed="#G" n="127"/>sine peccato, nec contrahitur ibi minor
-      excommunica<lb ed="#G" n="128" break="no"/>tio, eo, quod talis participatio in nullo obuet
-      manda<lb ed="#G" n="129" break="no"/>tis sanctae matris ecclesiae.  
-    </p>
-            <p xml:id="HuYgTa-259117-d1e1519">
-               <lb ed="#G" n="130"/>
-               <pc type="indent"/>Forte dices, si isti tantummodo excusantur, tunc vide 
-      <lb ed="#G" n="131"/>tur per locum ab oppositis, qui locus multum
-      appre<lb ed="#G" n="132" break="no"/>ciatur in iure, quod omnes alii, qui excommunicatis. 
-      <lb ed="#G" n="133"/>participant, mortaliter peccent 
-    </p>
-            <p xml:id="HuYgTa-259117-d1e1532">
-               <lb ed="#G" n="134"/>
-               <pc type="indent"/>Conclusionem istius instantiae concedit quaedam
-      opi<lb ed="#G" n="135" break="no"/>nio dicens, quod omnis homo, qui incidit in minorem ex 
-      <lb ed="#G" n="136"/>communicationem per hoc, quod communicat excom 
-      <lb ed="#G" n="137"/>municatis, mortaliter peccat. 
-    </p>
-            <p xml:id="HuYgTa-259117-d1e1545">
-               <lb ed="#G" n="138"/>1 Quia illud, quod sic se habet, quod homo prius de 
-      <lb ed="#G" n="139"/>bet eligere mortem, quam ipsum committat, hoc
-      vide<lb ed="#G" n="140" break="no"/>tur esse mortale peccatum: sed participare excommu¬ 
-      <!--736.xml-->
-      <pb ed="#G" n="P2_133-r"/>
-               <cb ed="#G" n="a"/>
-               <lb ed="#G" n="1"/>nicatis est huiusmodi. Maior patet: Probatur mi nor
-      au<lb ed="#G" n="2" break="no"/>
-               <pc type="indent"/>ctoritate <ref xml:id="HuYgTa-259117-Rd1e1566">Innocentii tertii, qui extra de his, quae causa me 
-      <lb ed="#G" n="3"/>tus fiunt c. sacris est canonibus</ref>, ait, quod propter metum 
-      <lb ed="#G" n="4"/>mortis non debet aliquis excommunicato communica 
-      <lb ed="#G" n="5"/>re. Cuius ratio ibidem subditur: Quia prius debet quis 
-      <lb ed="#G" n="6"/>subire mortem, quam peccet mortaliter. 
-    </p>
-            <p xml:id="HuYgTa-259117-d1e1579">
-               <lb ed="#G" n="7"/>2 Preterea, sacere contra preceptum ecclesiae vide 
-      <lb ed="#G" n="8"/>tur esse peccatum mortale: sed participans cum ex 
-      <lb ed="#G" n="9"/>communicato, praeterquam in casibus praedictis, facit 
-      <lb ed="#G" n="10"/>contra praeceptum ecclesiae, vt potest haberi ex his, quae 
-      <lb ed="#G" n="11"/>ponuntur 1 1. 43 c quoniam multos 
-    </p>
-            <p xml:id="HuYgTa-259117-d1e1592">
-               <lb ed="#G" n="12"/>3 Preterea, nullus prohibetur a sacramentorum perce 
-      <lb ed="#G" n="13"/>ptione, nisi ratione mortalis peccati: sed incidens in mino 
-      <lb ed="#G" n="14"/>rem excommunicationem propter participationem cum 
-      <lb ed="#G" n="15"/>excommunicato, licet non prohibeatur a fidelium com 
-      <lb ed="#G" n="16"/>munione, tamen prohibetur a sacramentorum commu 
-      <lb ed="#G" n="17"/>nione, sicut patet <ref xml:id="HuYgTa-259117-Rd1e1607">extra de sententia excoo. c. nuper.</ref> 
-      er<lb ed="#G" n="18" break="no"/>go huiusmodi participatio videtur ec mortale peccatum 
-    </p>
-            <p xml:id="HuYgTa-259117-d1e1614">
-               <lb ed="#G" n="19"/>4 Praeterea, nullus debet excommunicari maiori ex 
-      <lb ed="#G" n="20"/>communicatione, nisi pro mortali peccato: sed propter 
-      <lb ed="#G" n="21"/>participationem cum excommunicato potest quis excen 
-      <lb ed="#G" n="22"/>municari maiori excommunicatione, ut patet in iam
-      di<lb ed="#G" n="23" break="no"/>cto c. ergo &amp;c. 
-    </p>
-            <p xml:id="HuYgTa-259117-d1e1627">
-               <lb ed="#G" n="24"/>
-               <pc type="indent"/>Sed ista opinio est nimis dura, &amp; pro multitudine ho 
-      <lb ed="#G" n="25"/>minum valde periculosa, quia sic innocentes etiam
-      ho<lb ed="#G" n="26" break="no"/>mines quandoque nimis de facili laberentur in morta 
-      <lb ed="#G" n="27"/>le peccatum, dum quandoque leui verbo loquuntur ex 
-      <lb ed="#G" n="28"/>communicato. 
-    </p>
-            <p xml:id="HuYgTa-259117-d1e1643">
-               <lb ed="#G" n="29"/>
-               <pc type="indent"/>Ad primum ergo dicendum, quod debere eligere ali 
-      <lb ed="#G" n="30"/>uid potest dupliciter se habere. Vno modo, tamquam 
-      <lb ed="#G" n="31"/>illud, quod est de necessitate salutis. Alio modo, tanquam 
-      <lb ed="#G" n="32"/>illud, quod est conditio perfectionis Primo modo
-      ma<lb ed="#G" n="33" break="no"/>ior est uera: sed minor est falsa, sic vniuersaliter accipien 
-      <lb ed="#G" n="34"/>do etiam pro quacunque minima participatione. Sed  
-      <lb ed="#G" n="35"/>secundo modo maior est falsa, quamuis minor sit 
-      <lb ed="#G" n="36"/>uera Perfectionis enim esset conditio, quod homo
-      pri<lb ed="#G" n="37" break="no"/>us subiret mortem, quam committeret etiam veniale 
-      <lb ed="#G" n="38"/>peccatum, quamuis non sit de necessitate salutis. 
-    </p>
-            <p xml:id="HuYgTa-259117-d1e1669">
-               <lb ed="#G" n="39"/>
-               <pc type="indent"/>Ad probationem minoris dicendum, quod uerba
-      il<lb ed="#G" n="40" break="no"/>lius decretalis sunt intelligenda de his, qui participani 
-      <lb ed="#G" n="41"/>excommunicato criminoso crimine, vel de his, qui pat 
-      <lb ed="#G" n="42"/>ticipant excommunicato criminoso crimine, vel de 
-      <lb ed="#G" n="43"/>his, qui participant cum excommunicato in diuinis, vel 
-      <lb ed="#G" n="44"/>de his, qui participant cum excommunicato
-      teme<lb ed="#G" n="45" break="no"/>rarie, &amp; in contemptum ecclesiae. Quod enim istis tribus 
-      <lb ed="#G" n="46"/>modis participans excommunicato, mortaliter peccet,  
-      <lb ed="#G" n="47"/>hoc ex multis locis iuris canonici patet: sed de aliis
-      mo<lb ed="#G" n="48" break="no"/>dis participandi, non sunt intelligenda illa verba 
-    </p>
-            <p xml:id="HuYgTa-259117-d1e1695">
-               <lb ed="#G" n="49"/>
-               <pc type="indent"/>Ad secundum dicendum, quod aliquem facere con- 
-      <lb ed="#G" n="50"/>tra praeceptum ecclesiae potest contingere dupliciter. 
-      <lb ed="#G" n="51"/>Vno modo simpliciter, &amp; directe. Alio modo secundum 
-      <lb ed="#G" n="52"/>quid, &amp; indirecte. Primo modo faciens contra manda 
-      <lb ed="#G" n="53"/>tum ecclesiae mortaliter peccat: Sed non secudo modo 
-      <lb ed="#G" n="54"/>Et quia, vt communiter dicitur, ecclesia directe prohi 
-      <lb ed="#G" n="55"/>bet communicationem cum excommunicato in diui 
-      <lb ed="#G" n="56"/>pis, &amp; in crimine, ideo his duobus modis participans cum 
-      <lb ed="#G" n="57"/>excommunicato, mortallter peccat ex consequenti ve 
-      <lb ed="#G" n="58"/>ro, &amp; quasi indirecte prohibet communionem, quae alias 
-      <lb ed="#G" n="59"/>legitime fieri poterat in actibus humanis, &amp; ideo in his 
-      <lb ed="#G" n="60"/>communicans excommunicato simpliciter, &amp; sine con 
-      <lb ed="#G" n="61"/>temptu ecclesie, non peccat mortaliter, sed uenialiter 
-      <lb ed="#G" n="62"/>quia talis non facit directe contra preceptum ecclesiae, 
-      <lb ed="#G" n="63"/>quamuis faciat praeter preceptum ecclesiae. 
-    </p>
-            <p xml:id="HuYgTa-259117-d1e1732">
-               <lb ed="#G" n="64"/>
-               <pc type="indent"/>Ad tertium dicendum, quod maior non est uera, ut 
-      <lb ed="#G" n="65"/>apparet ex his quae dixi <ref xml:id="HuYgTa-259117-Rd1e1740">dist. 9 arti.5.</ref> 
-            </p>
-            <p xml:id="HuYgTa-259117-d1e1745">
-               <lb ed="#G" n="66"/>
-               <pc type="indent"/>Ad quartum dicendum, quod ratione participationis 
-      <lb ed="#G" n="67"/>non potest quis excommunicari, nisi prius hoc fuerit non 
-      <lb ed="#G" n="68"/>minaliter admonitus, vt patet in nouellis, tam Cregorii. 
-      <lb ed="#G" n="69"/>quam Innocentii sed participans excommunicato con 
-      <lb ed="#G" n="70"/>tra huiusmodi admonitionem in speciali sibi factam, v 
-      <lb ed="#G" n="71"/>detur esse contumax, &amp;temerarie, scu ex contemptu ec 
-      <lb ed="#G" n="72"/>clesiae, excommunicato conmunicare, seu participare, &amp; 
-      <lb ed="#G" n="73"/>ideo n ortaliter peccat Et per consequens patet, quod 
-      <!--736.xml-->
-      <cb ed="#G" n="b"/>
-               <lb ed="#G" n="74"/>argumentum non concludit de eo, qui simpliciter parti 
-      <lb ed="#G" n="75"/>cipat sine temeritate 
-    </p>
-            <p xml:id="HuYgTa-259117-d1e1776">
-               <lb ed="#G" n="76"/>
-               <pc type="indent"/>Sed surrexerunt quidam alij modernis temporibus 
-      <lb ed="#G" n="77"/>nimis praesumptuosi, qui totaliter alterum extremum 
-      <lb ed="#G" n="78"/>tenuerunt contra iam dictam opinionem, dicentes, quod  
-      <lb ed="#G" n="79"/>nullus peccat in eo, quod excommunicato participat 
-    </p>
-            <p xml:id="HuYgTa-259117-d1e1789">
-               <lb ed="#G" n="80"/>
-               <pc type="indent"/>Poterant autem isti moueri his motiuis 
-      <lb ed="#G" n="81"/>1 Quia communicans ludaeo, vel Pagano non pec 
-      <lb ed="#G" n="82"/>cat: ergo nec communicans Christiano excommunica 
-      <lb ed="#G" n="83"/>to peccat. Antecedens patet. Probatur consequentia. 
-      <lb ed="#G" n="84"/>quia plus est se paratus ab vnitate ecclesiae ludaeus, vel 
-      <lb ed="#G" n="85"/>Paganus, quam excommunicatus Christianus 
-    </p>
-            <p xml:id="HuYgTa-259117-d1e1807">
-               <lb ed="#G" n="86"/>2 Praeterea, si participans excommunicato efficitur 
-      <lb ed="#G" n="87"/>excommunicatus, eadem ratione alii participantes cum 
-      <lb ed="#G" n="88"/>illo secundo excommunicato efficerentur
-      excommuni<lb ed="#G" n="89" break="no"/>cati, &amp; pari ratione participantes cum illis tertio excom 
-      <lb ed="#G" n="90"/>municatis efficerentur excommunicati. Et sic vno excun 
-      <lb ed="#G" n="91"/>municato, omnes homines efficerentur excommunica 
-      <lb ed="#G" n="92"/>ti, &amp; peccarent, quod est magnum inconueniens, etiam 
-      <lb ed="#G" n="93"/>cogitare: ergo &amp;c 
-    </p>
-            <p xml:id="HuYgTa-259117-d1e1827">
-               <lb ed="#G" n="94"/>3 Praeterea ex praecepto Dei tenemur indigenti sub 
-      <lb ed="#G" n="95"/>uenire: Sed excommunicatus potest, esse indigens,
-      im<lb ed="#G" n="96" break="no"/>mo qui magis in mundo excommunicantur, vt plurimum 
-      <lb ed="#G" n="97"/>sunt magis indigentes, cum ergo praeceptum ecclesie 
-      <lb ed="#G" n="98"/>non possit hominem obligare ad faciendum contra prae 
-      <lb ed="#G" n="99"/>ceptum Dei: ergo dato, quod indigens sit
-      excommuni<lb ed="#G" n="100" break="no"/>tatus, adhuc tenemur ei communicare subueniendo suae 
-      <lb ed="#G" n="101"/>necessitati 
-    </p>
-            <p xml:id="HuYgTa-259117-d1e1847">
-               <lb ed="#G" n="102"/>
-               <pc type="indent"/>Et ad maiorem vesaniam sui erroris addunt
-      ist<lb ed="#G" n="103" break="no"/>perditi homines, &amp; dicunt, quod excommunicatio non 
-      <lb ed="#G" n="104"/>sit aliud, quam clericorum fictio. Et istud potest colorari sic
-    </p>
-            <p xml:id="HuYgTa-259117-d1e1859">
-               <lb ed="#G" n="105"/>4 Nullus potest separari a dilectione, &amp; caritate fide 
-      <lb ed="#G" n="106"/>lium, ergo nullus in veritate potest excommunicari. An 
-      <lb ed="#G" n="107"/>tecedens patet: quia Christus precipit fidelibus, quod 
-      <lb ed="#G" n="108"/>etiam inimicos diligant, dicens, Diligite inimicos
-      ve<lb ed="#G" n="109" break="no"/>stros, &amp; benefacite his, qui vos oderunt. Consequentia 
-      <lb ed="#G" n="110"/>etiam patet quia excommunicatio est a fidelium
-      com<lb ed="#G" n="111" break="no"/>munione exclusio: sed fidelium communio est in carita 
-      <lb ed="#G" n="112"/>te, &amp; dilectione. 
-    </p>
-            <p xml:id="HuYgTa-259117-d1e1879">
-               <lb ed="#G" n="113"/>3 Praeterea, si excommunicatio esset aliquid, vel
-      es<lb ed="#G" n="114" break="no"/>set morbus, vel medicina. Si est morbus, tunc non est in 
-      <lb ed="#G" n="115"/>fligenda alicui, quia omnium salus est desideranda. Si est 
-      <lb ed="#G" n="116"/>medicina, tunc esset affectanda, quod falsum est, quia 
-      <lb ed="#G" n="117"/>nullus debet desiderare, quod sit excommunicatus 
-    </p>
-            <p xml:id="HuYgTa-259117-d1e1892">
-               <lb ed="#G" n="118"/>
-               <pc type="indent"/>Sed, quod isti haeretice loquantur, patet.  1 Quia 
-      <lb ed="#G" n="119"/>omnis opinio directe repugnans satrae scripturae est hae 
-      <lb ed="#G" n="120"/>retica; ista est huiusmodi; quia expresse inuenimus in sa 
-      <lb ed="#G" n="121"/>cra scriptura Apostolos tulisse sententiam excommuni 
-      <lb ed="#G" n="122"/>cationis contra aliquos rebelles peccatores. Nam Apo 
-      <lb ed="#G" n="123"/>stolus Paulus tulit sententiam excommunicationis con 
-      <lb ed="#G" n="124"/>tra illum, qui fornicatus fuit cum vxore patris sui, sic di 
-      <lb ed="#G" n="125"/>cens, Ego absens corpore, praesens autem spiritu, iam  
-      <lb ed="#G" n="126"/>iudicaui ut praesens eum, qui sic operatus est, in nomine 
-      <lb ed="#G" n="127"/>domini nostri lesu Christi, congregatis vobis, &amp; meo spiri 
-      <lb ed="#G" n="128"/>tu cum virtute dini lesu tradere huiusmodi homine Satha 
-      <lb ed="#G" n="129"/>nae in interitum carnis suae, vt spiritus saluus sit in die 
-      <lb ed="#G" n="130"/>domini nostri lesu Christi. 
-    </p>
-            <p xml:id="HuYgTa-259117-d1e1925">
-               <lb ed="#G" n="131"/>2 Item. ad Cal, excommunicauit illos, qui falsam di 
-      <lb ed="#G" n="132"/>ctrinam praedicant sacrae scripturae repugnantem, dicens. 
-      <lb ed="#G" n="133"/>Si quis vobis euangelix auerit praeter id, quod
-      accepi<lb ed="#G" n="134" break="no"/>stis, anathema sit. 
-    </p>
-            <p xml:id="HuYgTa-259117-d1e1936">
-               <lb ed="#G" n="135"/>
-               <pc type="indent"/>3 Item, idem Apostolus excommunicauit quosdam  
-      <lb ed="#G" n="136"/>apostatantes a fide, dicens, Quidam circa fidem nau 
-      <lb ed="#G" n="137"/>fragauerunt, ex quibus est Hyminaeus, &amp; Alexander, 
-      <lb ed="#G" n="138"/>quos tradidi Sathanae, ut discant non blasphemare. Vnde 
-      <lb ed="#G" n="139"/>tales haereticos quasi iam per ipsum excommunicatos, 
-      <lb ed="#G" n="140"/>mandat esse vitandos, ad Titum dicens Haereticum
-      ho<lb ed="#G" n="141" break="no"/>iinem post primam, &amp; secundam monitionem deuita 
-      <lb ed="#G" n="142"/>4 Et similiter loan. Euangelista in secunda sua cano 
-      <lb ed="#G" n="143"/>nica falsae doctrinae seminatores denunciat excommuni 
-      <lb ed="#G" n="144"/>catos, &amp; esse vitandos, dicens. Si quis uenit ad vos, &amp; 
-      <lb ed="#G" n="145"/>hanc doctrinam non affert, nolite cum recipere in
-      do<lb ed="#G" n="146" break="no"/>mo, nec aue dixeritis ei, qui enm dixerit illi aue, commun 
-      <!--737.xml-->
-      <pb ed="#G" n="P2_133-v"/>
-               <cb ed="#G" n="a"/>
-               <lb ed="#G" n="1"/>cat eius operibus malignis. Auctoritatem etiam excom. 
-      <lb ed="#G" n="2"/>municandi Apostoli, &amp; per consequens ceteri in eccle 
-      <lb ed="#G" n="3"/>sia Dei praelati videntur accepisse a domino Tesu
-      Chri<lb ed="#G" n="4" break="no"/>sto Mat. 1. vbi cum de eo, qui maudata contemnit ec 
-      <lb ed="#G" n="5"/>tlesiae saluator dixit ad D Petrum. Si autem ecclesia 
-      <lb ed="#G" n="6"/>non audierit, sit tibi sicut etfinicus, &amp; publicanus. Quo 
-      <lb ed="#G" n="7"/>dicto immediate conuertit sermonem ad Apostolos dam 
-      <lb ed="#G" n="8"/>ei auctoritatem ligandi vinculo excommunicationis hu 
-      <lb ed="#G" n="9"/>iusmodi rebelles, &amp; contumaces, &amp; soluendi ab
-      huius<lb ed="#G" n="10" break="no"/>modi vinculo dicens, Amen dico uobis, quemcum 
-      <lb ed="#G" n="11"/>que ligaueritis super terram, erit ligatus &amp; in caelis, &amp; 
-      <lb ed="#G" n="12"/>quemcumque solueritis super terram, erit solutus &amp; in 
-      <lb ed="#G" n="13"/>telis. Autoritates etiam valde multae Aug. &amp; cetero 
-      <lb ed="#G" n="14"/>rum doctorum, ac sanctorum, quae habentur in variis li 
-      <lb ed="#G" n="15"/>tis libri decretorum, possent adduci contra istos
-      teme<lb ed="#G" n="16" break="no"/>rarios, &amp; praesumptuosos haereticos, quas tamen non ad 
-      <lb ed="#G" n="17"/>duco causa breuitatis. 
-    </p>
-            <p xml:id="HuYgTa-259117-d1e2010">
-               <lb ed="#G" n="18"/>
-               <pc type="indent"/>Ad primum dicendum, quod consequentia est falsa 
-      <lb ed="#G" n="19"/>Ad consequentiae probationem dicendum, quod valet 
-      <lb ed="#G" n="20"/>ad nostrum propositum: quia ex hoc, quod ludaeus, vel 
-      <lb ed="#G" n="21"/>Paganus est magis extraneus ab vnitate ecclesiae: ideo 
-      <lb ed="#G" n="22"/>ecclesia non habet eum corrigere: Et hoc videtur innus 
-      <lb ed="#G" n="23"/>re Apostolus dicens Quid enim mihi de his, qui
-      fo<lb ed="#G" n="24" break="no"/>ris sunt, iudicare: quasi dicat, Non spectat ad personam  
-      <lb ed="#G" n="25"/>ecclesiasticam iudicare de his, qui sunt extra ecclesiam, 
-      <lb ed="#G" n="26"/>sed ille, qui est membrum ecclesiae debet corrigi per 
-      <lb ed="#G" n="27"/>praelatum ecclesiae &amp; hoc recto ordine, puta primo conn 
-      <lb ed="#G" n="28"/>rectione leniore citando, &amp; admonendo. Secundo con 
-      <lb ed="#G" n="29"/>rectione seueriori, puta excommunicando, &amp; a
-      partici<lb ed="#G" n="30" break="no"/>
-               <pc type="indent"/>atione fidelium separando. Sicut enim fidelis medicus 
-      <lb ed="#G" n="31"/>quando tanta est infectio, quod non prodest emplastrum 
-      <lb ed="#G" n="32"/>leue, tunc vtitur remediis asperioribus, &amp; quandoqua 
-      <lb ed="#G" n="33"/>rese cat unam partem, ne totum corrumpatur, &amp; inficia 
-      <lb ed="#G" n="34"/>tur, sed praeseruetur, &amp; ad ple niorem sanitatem reducatur;i 
-      <lb ed="#G" n="35"/>sic in proposito, quando aliquis contumax est post
-      ad<lb ed="#G" n="36" break="no"/>monitionem, tunc non restat aliud, quam quod acrius 
-      <lb ed="#G" n="37"/>resecetur a communione fidelium per sententiam
-      ex<lb ed="#G" n="38" break="no"/>com municationis. 
-    </p>
-            <p xml:id="HuYgTa-259117-d1e2063">
-               <lb ed="#G" n="39"/>
-               <pc type="indent"/>Ad secundum dicendum, quod excommunicatio,
-      ra<lb ed="#G" n="40" break="no"/>tione simplicis participationis, non extendit se vltra si 
-      <lb ed="#G" n="41"/>cundam personam, quia excommunicatus minori excu 
-      <lb ed="#G" n="42"/>municati one non est prohibitus a communione
-      fide<lb ed="#G" n="43" break="no"/>lium, licet sit prohibitus a perceptione sacramentorum 
-    </p>
-            <p xml:id="HuYgTa-259117-d1e2079">
-               <lb ed="#G" n="44"/>
-               <pc type="indent"/>Ad tertium dicendum, quod sicut non excommuni 
-      <lb ed="#G" n="45"/>catus in articulo necessitatis potest sine peccato
-      com<lb ed="#G" n="46" break="no"/>municare excomunicato ab eo petendo, emendo, &amp; ac 
-      <lb ed="#G" n="47"/>tipiendo talia, quibus occurritur, siue suceurritur suae ne 
-      <lb ed="#G" n="48"/>tessitati: sic excommunicato in tali necessitate posito, 
-      <lb ed="#G" n="49"/>quod ex praecepto caritatis homo tenetur ei subuenire, 
-      <lb ed="#G" n="50"/>tunc subueniens bona intentione, &amp; pure ex caritate, 
-      <lb ed="#G" n="51"/>nec contrahit excommunicationem, nec peccatum.
-      re<lb ed="#G" n="52" break="no"/>ducitur enim actus talis ad quintum, in quo dispensaui 
-      <lb ed="#G" n="53"/>ecclesia, quod tangit in verium superius dicto, cum
-      dici<lb ed="#G" n="54" break="no"/>tur, necesse 
-    </p>
-            <p xml:id="HuYgTa-259117-d1e2108">
-               <lb ed="#G" n="55"/>
-               <pc type="indent"/>Ad quartum nego consequentium. Ad probationem 
-      <lb ed="#G" n="56"/>dicendum, quod triplex est fidelium communio. Vna 
-      <lb ed="#G" n="57"/>mentalis, Alia sacramentalis, Et tertia corporalis. Pri 
-      <lb ed="#G" n="58"/>ma consistit in caritatiua dilectione. Secunda in
-      sacra<lb ed="#G" n="59" break="no"/>mentorum perceptione. Et tertia in conuictu, &amp;
-      exte<lb ed="#G" n="60" break="no"/>riori conuersatione. A prima communione non sepa 
-      <lb ed="#G" n="61"/>ratur homo per aliquam excommunicationem: quia etm 
-      <lb ed="#G" n="62"/>excommunicatos tenemur diligere. A secunda, licet non 
-      <lb ed="#G" n="63"/>a tertia, separatur homo per minorem
-      excommunica<lb ed="#G" n="64" break="no"/>tionem: quia existens in iminori excommunicatione pro 
-      <lb ed="#G" n="65"/>hibetur a sacramentorum perceptione, quamuis non  
-      <lb ed="#G" n="66"/>arceatur a fidelium conuictu, &amp; conuersatione. Sed ex- 
-      <lb ed="#G" n="67"/>communicatus maiori excommunicatione separatur a 
-      <lb ed="#G" n="68"/>secunda, &amp; tertia communione, dato, quod non separe 
-      <lb ed="#G" n="69"/>tur a prima. Et sic apparet, quod mutatur medium in il 
-      <lb ed="#G" n="70"/>la prob atione, quia maior est vera modo, quo dictum  
-      <lb ed="#G" n="71"/>est de secunda, &amp; tertia communione: sed minor
-      ex<lb ed="#G" n="72" break="no"/>presse loquitur de prima communione. 
-    </p>
-            <p xml:id="HuYgTa-259117-d1e2152">
-               <lb ed="#G" n="73"/>
-               <pc type="indent"/>Ad quintum dicendum, quod quantum est ex parto 
-      <!--737.xml-->
-      <cb ed="#G" n="b"/>
-               <lb ed="#G" n="74"/>ferentis sententiam excommunicationis, tunc
-      exconmu<lb ed="#G" n="75" break="no"/>nicatio debet dici medicina: quia sub hac intentione iu 
-      <lb ed="#G" n="76"/>dex debet ferre sententiam excommunicationis, vt
-      ex<lb ed="#G" n="77" break="no"/>com municatus emendetur, &amp; a sua pertinaci
-      rebellio<lb ed="#G" n="78" break="no"/>ne resipiscat, &amp; corrigatur, quod si fecerit
-      excommuni<lb ed="#G" n="79" break="no"/>catus, tunc etiam ex parte excommunicati debet dici 
-      <lb ed="#G" n="80"/>medicina. Si autem excommunicatus non corrigitur, &amp;  
-      <lb ed="#G" n="81"/>tamquam inobediens medico ingerit se temerarte
-      diui<lb ed="#G" n="82" break="no"/>nis officiis, &amp; fidelium communionibus sibi prohibitis,  
-      <lb ed="#G" n="83"/>tunc taliter facienti excommunicatio est morbus. Nec 
-      <lb ed="#G" n="84"/>mirum: quia raro est aliqua medicina ita bona, quin ex 
-      <lb ed="#G" n="85"/>eius abuium contra mandatum medici commisso, mor 
-      <lb ed="#G" n="86"/>bus possit augeri: sed cum dicitur, si est medicina, tunc 
-      <lb ed="#G" n="87"/>est affectanda, ista non est vera: quia quando quis potest 
-      <lb ed="#G" n="88"/>adipisci sanitatem sine medicina mordente, tunc huius 
-      <lb ed="#G" n="89"/>modi medicina non est appetenda; sic autem est in pro 
-      <lb ed="#G" n="90"/>posito. Propter hoc enim praemittitur citatio, &amp; admo 
-      <lb ed="#G" n="91"/>nitio, quatenus citatus se excuset, vel post citationem 
-      <lb ed="#G" n="92"/>dmonitus componat, antequam excommunicetur pro 
-      <lb ed="#G" n="93"/>sua contumacia: &amp; ideo, si vult, tunc potest sanari ante 
-      <lb ed="#G" n="94"/>quam excommunicetur, vel in sanitate manere, sine ex 
-      <lb ed="#G" n="95"/>communicatione. 
-    </p>
-            <p xml:id="HuYgTa-259117-d1e2211">
-               <lb ed="#G" n="96"/>
-               <pc type="indent"/>Forte dicetur, quod aliquis pauper citatur pro soluen 
-      <lb ed="#G" n="97"/>dis debitis, quae soluere non potest: ideo talis non potest 
-      <lb ed="#G" n="98"/>praeuenire excommunicationem 
-    </p>
-            <p xml:id="HuYgTa-259117-d1e2222">
-               <lb ed="#G" n="99"/>
-               <pc type="indent"/>Praeterea, forte citatur ad respondendum illi, cu ini 
-      <lb ed="#G" n="100"/>hil tenetur; ideo non curat parere coram iudice. 
-    </p>
-            <p xml:id="HuYgTa-259117-d1e2232">
-               <lb ed="#G" n="101"/>
-               <pc type="indent"/>Ad primum dicendum, quod licet non possit
-      solue<lb ed="#G" n="102" break="no"/>re: tamen potest, si vult, excommunicationem praeueni 
-      <lb ed="#G" n="103"/>re: quia si declarauerit coram iudice, quod non habeat 
-      <lb ed="#G" n="104"/>ad praesens, vnde possit soluere, &amp; curationem fideiusso 
-      <lb ed="#G" n="105"/>riam, vel iuratoriam praestiterit de hoc, quod soluat quam 
-      <lb ed="#G" n="106"/>to citius pessit, tunc iudex non debet eum excommu 
-      <lb ed="#G" n="107"/>nicare, immo si haec fecerit, etiam postquam excom 
-      <lb ed="#G" n="108"/>municatus est, iudex tenetur sententiam relaxare, vt ex 
-      <lb ed="#G" n="109"/>presse habetur in iure¬ 
-    </p>
-            <p xml:id="HuYgTa-259117-d1e2256">
-               <lb ed="#G" n="110"/>Ad secundum dicendum, quod quamuis nihil tenea 
-      <lb ed="#G" n="111"/>tur illi tamen debet parere, &amp; coram iudice citante sua 
-      <lb ed="#G" n="112"/>innocentiam declarare, alias pro contumacia potest iu 
-      <lb ed="#G" n="113"/>ste excommunicari. 
-    </p>
-            <p xml:id="HuYgTa-259117-d1e2267">
-               <lb ed="#G" n="114"/>
-               <pc type="indent"/>Forte dices, quod multum distat a iudice : propter. 
-      <lb ed="#G" n="115"/>quod magnas oporteret eum facere expensas, si debe 
-      <lb ed="#G" n="116"/>ret comparere. 
-    </p>
-            <p xml:id="HuYgTa-259117-d1e2278">
-               <lb ed="#G" n="117"/>
-               <pc type="indent"/>Respondeo, propter hoc non debet omittere, quin 
-      <lb ed="#G" n="118"/>compareat: quia declarata sua innocentia, tunc iudex 
-      <lb ed="#G" n="119"/>tenetur partem aduersam in huiusmodi expensis con 
-      <lb ed="#G" n="120"/>demnare, &amp; istum innocentem reddere immunem ab 
-      <lb ed="#G" n="121"/>omni damno.¬ 
-    </p>
-            <p xml:id="HuYgTa-259117-d1e2294">
-               <lb ed="#G" n="122"/>
-               <pc type="indent"/>Ad argumentum principale patet per ea, quae dicta 
-      <lb ed="#G" n="123"/>sunt in primo articulo.  
-    </p>
-            <p xml:id="HuYgTa-259117-d1e2303">
-               <lb ed="#G" n="124"/>
-               <pc type="indent"/>Ad argumentum in contrarium neganda est conse 
-      <lb ed="#G" n="125"/>quentia: quia Apostolis non solum datae sunt claues or 
-      <lb ed="#G" n="126"/>dinis, quae conueniunt sacerdoti verum etiam claues 
-      <lb ed="#G" n="127"/>iurisdictionis, quae possunt conuenire talibus, qui non  
-      <lb ed="#G" n="128"/>sunt sacerdotes; 
-    </p>
-            <p xml:id="HuYgTa-259117-d1e2320">
-               <lb ed="#G" n="129"/>Ad probationem dicendum, quod licet soli sacet 
-      <lb ed="#G" n="130"/>dotes sint Apostolorum suceessores in his, 
-      <lb ed="#G" n="131"/>quae secundum ecclesiasticam dignita 
-      <lb ed="#G" n="132"/>tem respiciunt claues ordinis: 
-      <lb ed="#G" n="133"/>tamen aliqui qui non  
-      <lb ed="#G" n="134"/>unt sacerdotes,  
-      <lb ed="#G" n="135"/>possunt esse Apostolorum suceessores quan 
-      <lb ed="#G" n="136"/>tum ad ea, quae respiciunt
-      ecclesia<lb ed="#G" n="137" break="no"/>sticam dignitatem, secun 
-      <lb ed="#G" n="138"/>dum claues iurisdi 
-      <lb ed="#G" n="139"/>ctionis.
-    </p>
-         </div>
-      </body>
-   </text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 1</title>
+        <author ref="#ThomasStrasbourg">Thomas of Strasbourg</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 1</title>
+          <date when="2020-11-26">November 26, 2020</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="G" n="cod-TxxxqU">Genoa 1585</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2020-11-26" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#G" n="P2_131-r"/>
+        <cb ed="#G" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="HuYgTa-259117"><!-- HuYgTa-l4d19q1 -->
+        <head xml:id="HuYgTa-259117-Hd1e108">Quaestio 1</head>
+        <head xml:id="HuYgTa-259117-Hd1e111" type="question-title">
+          An sacerdotes, soli clauium potestate potiantur.
+        </head>
+        <p xml:id="HuYgTa-259117-d1e114">
+          <lb ed="#G" n="36"/>
+          <pc type="indent"/>Quaestio. I. 
+          <lb ed="#G" n="37"/>An Sacerdotes, soli clauium potestate 
+          <lb ed="#G" n="38"/>
+          <pc type="indent"/>potiantur.
+        </p>
+        <p xml:id="HuYgTa-259117-d1e127">
+          <lb ed="#G" n="39"/>IRVM soli sacerdotes habeant potestatem clauium. 
+          <lb ed="#G" n="40"/>Et videtur, quod non, quia excommunicare, &amp; at 
+          <lb ed="#G" n="41"/>xcommunicatione absoluere ad potestatem clauium 
+          <lb ed="#G" n="42"/>idetur pertinere, sed multi possunt excommunicare, &amp;  
+          <lb ed="#G" n="43"/>ib excommunicationis vinculo soluere, qui non sunt
+          s<lb ed="#G" n="44" break="no"/>terdotes, sicut apparet de officialibus in foro
+          conten<lb ed="#G" n="45" break="no"/>ioso, ergo &amp;c. 
+        </p>
+        <p xml:id="HuYgTa-259117-d1e145">
+          <lb ed="#G" n="46"/>
+          <pc type="indent"/>Contra solis Apostolis, &amp; eorum suceessoribus sunt 
+          <lb ed="#G" n="47"/>laues datae, vt patet ex praecedentibus: ergo solis sacet 
+          <lb ed="#G" n="48"/>otibus Consequentia patet: quia soli sacerdotes sunt 
+          <lb ed="#G" n="49"/>postolorum suceessores, quantum ad ecclesiastican 
+          <lb ed="#G" n="50"/>lignitatem. Antecedens etiam patet ex dictis superius 
+          <lb ed="#G" n="51"/>Hic primo videndum est, vtrum aliquis non sacerdos 
+          <lb ed="#G" n="52"/>abe at claues ecclesiae Secundo, vtrum quilibet
+          sacer<lb ed="#G" n="53" break="no"/>dos hab eat huiusmodi claues. Tertio, vtrum
+          cla<lb ed="#G" n="54" break="no"/>ues possint tolli ab eo, qui habeat eas. Et quat 
+          <lb ed="#G" n="55"/>to, gratia primi argumenti videbuntur 
+          <lb ed="#G" n="56"/>aliqua cirta excommunicationis 
+          <lb ed="#G" n="57"/>sententiam, &amp; eius
+          ab<lb ed="#G" n="58" break="no"/>solutionem.
+        </p>
+        <p xml:id="HuYgTa-259117-d1e179">
+          <!--732.xml-->
+          <cb ed="#G" n="b"/>
+          <lb ed="#G" n="59"/>RESOLVTI O 
+          <lb ed="#G" n="60"/>bicet daues, prout ad conscientiae forum spectant, solis sacir
+          loti<lb ed="#G" n="61" break="no"/>bus conueniant, prout tamen exterioris institiae forum
+          respi<lb ed="#G" n="62" break="no"/>ciunt, non sacerdotibus etiam compet ere possunt 
+        </p>
+        <p xml:id="HuYgTa-259117-d1e195">
+          <lb ed="#G" n="63"/>
+          <pc type="indent"/>ARTICVLVSI. 
+          <lb ed="#G" n="64"/>Vtrum aliquis non sacerdos habeat
+          cla<lb ed="#G" n="65" break="no"/>
+          <pc type="indent"/>ues ecclesie,  
+        </p>
+        <p xml:id="HuYgTa-259117-d1e208">
+          <lb ed="#G" n="66"/>QVANTVM ad primum est aduertendum, quod de 
+          <lb ed="#G" n="67"/>clauibus ecclesiae possumus dupliciter loqui. Vno 
+          <lb ed="#G" n="68"/>modo, prout extendunt se ad forum conscientiae. Alio 
+          <lb ed="#G" n="69"/>modo, prout extendunt se ad forum exterioris iustitiae, 
+        </p>
+        <p xml:id="HuYgTa-259117-d1e219">
+          <lb ed="#G" n="70"/>
+          <pc type="indent"/>Et secudum hoc pono duas conclusiones. 
+          <lb ed="#G" n="71"/>Prima est, quod claues ecclesiae, primo modo
+          acce<lb ed="#G" n="72" break="no"/>tae conueniunt solis sacerdotibus. 
+        </p>
+        <p xml:id="HuYgTa-259117-d1e230">
+          <lb ed="#G" n="73"/>1 Quia illis solis conueniunt claues ecclesiae
+          exten<lb ed="#G" n="74" break="no"/>dentes se ad forum conscientiae, quibus ex ordine
+          conue<lb ed="#G" n="75" break="no"/>nit, quod possint esse iudices conscientiae, sed hoc tantum 
+          <lb ed="#G" n="76"/>modo conuenit sacerdotibus, ergo &amp;c. Maior patet quia 
+          <lb ed="#G" n="77"/>claues istae dantur ad iudicandum in foro conscientiae, 
+          <lb ed="#G" n="78"/>&amp; per consequens talibus debent conuenire praecise, qui 
+          <lb ed="#G" n="79"/>possunt esse iudices conscientiae. Minor etiampatet, 
+          <lb ed="#G" n="80"/>quia de conscientia hominis non possumus bene
+          iudi<lb ed="#G" n="81" break="no"/>care, nisi prout eum cognoscimus ex eius propria con- 
+          <lb ed="#G" n="82"/>fessione: Sed ex diuina ordinatione solus sacerdos est 
+          <lb ed="#G" n="83"/>proprius auditor confessionis, sicut patet ex dictis praece 
+          <lb ed="#G" n="84"/>dentibus; ergo &amp;c 
+        </p>
+        <p xml:id="HuYgTa-259117-d1e259">
+          <lb ed="#G" n="85"/>1 Praeterea, ista est expressa intentio sancti
+          <name xml:id="HuYgTa-259117-Nd1e263" ref="#Ambrose">Ambro</name>
+          <lb ed="#G" n="86" break="no"/>sii, qui loquens de clauibus, quarum potestate
+          iudica<lb ed="#G" n="87" break="no"/>tur in foro conscientiae, ait, quod ecclesia in solis
+          sacerdoti<lb ed="#G" n="88" break="no"/>bus habet claues 
+        </p>
+        <p xml:id="HuYgTa-259117-d1e274">
+          <lb ed="#G" n="89"/>
+          <pc type="indent"/>Sed contra istud arguit sic.  
+          <lb ed="#G" n="90"/>1 Illis conueniunt claues ecclesiae, qui habent iudica 
+          <lb ed="#G" n="91"/>re inter dignos, &amp; indignos, &amp; habent dignos
+          admitte<lb ed="#G" n="92" break="no"/>re, &amp; indignos excludere. Sed hoc conuenit non solum sa 
+          <lb ed="#G" n="93"/>cerdotibus, sed etiam hostiariis, qui sunt multo
+          mino<lb ed="#G" n="94" break="no"/>ris, seu inferioris ordinis, quam sacerdotes, ergo
+          huius<lb ed="#G" n="95" break="no"/>modi claues non conueniunt solis sacerdotibus. Maior 
+          <lb ed="#G" n="96"/>patet ex diffinitione clauis posita in praecedenti quaestio 
+          <lb ed="#G" n="97"/>ne artitulo primo. Minor etiam patet ex dictis lsidori, 
+          <lb ed="#G" n="98"/>qui ait, quod hostiarii inter bonos, &amp; malos, habent iudicium 
+          <lb ed="#G" n="99"/>dignos recipiunt, &amp; indignos reiiciunt. Et confirmaturi 
+          <lb ed="#G" n="100"/>quia quando hostiarii ordinantur, tunc dantur eis
+          cla<lb ed="#G" n="101" break="no"/>ues corporales ad tangendum, quod videtur esse signi 
+          <lb ed="#G" n="102"/>receptionis clauium spiritualium.
+        </p>
+        <p xml:id="HuYgTa-259117-d1e309">
+          <lb ed="#G" n="103"/>2 Praeterea quaelibet Abbatissa habet claues
+          praedi<lb ed="#G" n="104" break="no"/>ctas, ergo non soli sacerdotes habent huiusmodi claues 
+          <lb ed="#G" n="105"/>Consequentia patet. Probatur antecedens: quia
+          quaeli<lb ed="#G" n="106" break="no"/>bet Abbatissa habet spiritualem potestatem super subdi 
+          <lb ed="#G" n="107"/>tas sibi commissas cum igitur spiritualis potestas sit cla 
+          <lb ed="#G" n="108"/>uis ecclesiae: ergo &amp;c 
+        </p>
+        <p xml:id="HuYgTa-259117-d1e325">
+          <lb ed="#G" n="109"/>Ad primum dicendum, quod licet maior sit aliquo modo 
+          <lb ed="#G" n="110"/>vera loquendo de admissione, &amp; exclusione, quantum ad 
+          <lb ed="#G" n="111"/>regnum celorum, tamen non est vera, loquendo de admin 
+          <lb ed="#G" n="112"/>sionet, &amp; exclusione, quantum ad materiale templum, 
+          <lb ed="#G" n="113"/>&amp; maxime quando nec hoc conuenit auctoritate pro 
+          <lb ed="#G" n="114"/>pria, sed ex imperio superioris. Sed excludere aliquos, &amp;  
+          <lb ed="#G" n="115"/>aliquos admittere quo ad templum materiale ess de of 
+          <lb ed="#G" n="116"/>ficio hostiarii, &amp; nec hoc hostiariis competit auctoritate 
+          <lb ed="#G" n="117"/>propria, sed tamquam subfamulantibus imperio, &amp; iudi 
+          <lb ed="#G" n="118"/>cicio sacerdotis. 
+        </p>
+        <p xml:id="HuYgTa-259117-d1e349">
+          <lb ed="#G" n="119"/>
+          <pc type="indent"/>Ad secundum dicendum, quod secundum philosophum e.¬ 
+          <lb ed="#G" n="120"/>ethicorum, ad mulierem pertinere dominium est vrbanitatis 
+          <lb ed="#G" n="121"/>corruptio: cum igitur potestas, seu dominium spirituale sit 
+          <lb ed="#G" n="122"/>maioris dignitatis, quam potestas corporalis: ideo claues 
+          <lb ed="#G" n="123"/>ecclesiae, quae sunt spititualis potestas, non sunt commissae 
+          <!--733.xml-->
+          <pb ed="#G" n="P2_131-v"/>
+          <cb ed="#G" n="a"/>
+          <lb ed="#G" n="1"/>alicui mulicri: Vnicuique ergo monasterio mulierum 
+          <lb ed="#G" n="2"/>debet aliquis vir praeesse, quantum ad claues ecclesiae 
+          <lb ed="#G" n="3"/>propter huiusmodi clauium dignitatem, dato, quod admini 
+          <lb ed="#G" n="4"/>stratio temporalium aliquo modo Abbatissae, vel prioris 
+          <lb ed="#G" n="5"/>se permittatur. Et hoc a principio pro tanto videtur
+          fuis<lb ed="#G" n="6" break="no"/>se permissum, ne si viri haberent huiusmodi
+          tempora<lb ed="#G" n="7" break="no"/>lium immediatam administrationem, ex quotidiana 
+          <lb ed="#G" n="8"/>frequentia virorum cum claustralibus mulieribus, scandal 
+          <lb ed="#G" n="9"/>lum hominum, &amp; animarum periculum oriretur. 
+        </p>
+        <p xml:id="HuYgTa-259117-d1e391">
+          <lb ed="#G" n="10"/>
+          <pc type="indent"/>Conclusio secunda est, quod loquendo de clauibus eccle 
+          <lb ed="#G" n="11"/>siae secundo modo, tunc claues possunt competere ei; 
+          <lb ed="#G" n="12"/>qui non est sacerdos. Quia sicut in foro conscientiae
+          iu<lb ed="#G" n="13" break="no"/>dex est mediator inter Deum, &amp; hominem, sic in foro 
+          <lb ed="#G" n="14"/>exterioris sententiae iudex est mediator inter hominem 
+          <lb ed="#G" n="15"/>&amp; hominem: sed licet per modum iudicis mediare inter 
+          <lb ed="#G" n="16"/>Deum, &amp; hominem soli sacerdoti conueniat, tamen
+          media<lb ed="#G" n="17" break="no"/>re per modum iudicis inter hominem, &amp; hominem, et non 
+          <lb ed="#G" n="18"/>sacerdoti conuenienter potest conuenire: ergo licet po 
+          <lb ed="#G" n="19"/>testas iudicandi, &amp; auctoritas discernendi in foro conscien 
+          <lb ed="#G" n="20"/>tiae, quae dicuntur claues ordinis eo, quod tantummodo 
+          <lb ed="#G" n="21"/>mediante sacerdotali ordine conferantur, solis conue 
+          <lb ed="#G" n="22"/>niant sacerdoribus, tamen potestas iudicandi, &amp; auctori 
+          <lb ed="#G" n="23"/>tas discernendi in foro exterioris sententiae, quae
+          dicun<lb ed="#G" n="24" break="no"/>tur claues iurisdictionis, eo, quod conferantur ab eo, qui 
+          <lb ed="#G" n="25"/>potest huiusmodi iurisdictionem conferre, poterunt con 
+          <lb ed="#G" n="26"/>uenite etiam his, qui non sunt sacerdotes, dum modo, ip 
+          <lb ed="#G" n="27"/>sis huiusmodi iurisdictio in subditos conferatur. 
+          <lb ed="#G" n="28"/>Forte dicetur, quod ista distinctio, qua claues de foro conscien 
+          <lb ed="#G" n="29"/>tiae dicuntur claues ordinis, &amp; claues de foro
+          exterio<lb ed="#G" n="30" break="no"/>ris sententiae dicuntur claues iurisdictionis, non sit
+          pro<lb ed="#G" n="31" break="no"/>pria distinctio, nec per consequens bona: Quia illa
+          di<lb ed="#G" n="32" break="no"/>stinctio non est bona, cuius membra coincidunt, sed sic 
+          <lb ed="#G" n="33"/>est in proposito; ergo &amp;c. Maior patet. Probo minorem, 
+          <lb ed="#G" n="34"/>quia absolutio de peccatis confessis spectat ad forum 
+          <lb ed="#G" n="35"/>conscientiae, sed talis absolutio necessario praesupponii 
+          <lb ed="#G" n="36"/>iurisdictionem, sicut patet in praecedenti quaestione, 
+          <lb ed="#G" n="37"/>vbi dictum est, quod etiam religiosi priuilegiati, &amp; si
+          nonha<lb ed="#G" n="38" break="no"/>beant iurisdictionem ordinariam: habent tamen iurisd 
+          <lb ed="#G" n="39"/>ctionem delegatam, ad hoc quod possint absoluere
+          ho<lb ed="#G" n="40" break="no"/>mines, qui ipsis confitentur; ergo clauis de foro conscien 
+          <lb ed="#G" n="41"/>tiae non solum est clauis ordinis, sed etiam est clauis
+          iu<lb ed="#G" n="42" break="no"/>risdictionis, &amp; per consequens male distinguitur contra 
+          <lb ed="#G" n="43"/>clauem iurisdictionis. 
+        </p>
+        <p xml:id="HuYgTa-259117-d1e469">
+          <lb ed="#G" n="44"/>
+          <pc type="indent"/>Respondeo, quod minor non est vera. Ad probatio. 
+          <lb ed="#G" n="45"/>nem dicendum, quod concessa maiori, &amp; minori, adhus 
+          <lb ed="#G" n="46"/>non habetur intentum 
+        </p>
+        <p xml:id="HuYgTa-259117-d1e481">
+          <lb ed="#G" n="47"/>
+          <pc type="indent"/>Ad cuius intellectum est aduertendum, quod clauis 
+          <lb ed="#G" n="48"/>de foro conscientiae potest dupliciter considerari. Vno 
+          <lb ed="#G" n="49"/>modo, secundum se, Alio modo, secundum suum vsum 
+          <lb ed="#G" n="50"/>&amp; exsecutionem. Modo licet, quantum ad secundum, sci 
+          <lb ed="#G" n="51"/>licet quantum ad exsecutionem istius clauis requiratur 
+          <lb ed="#G" n="52"/>iurisdictio, tamen non requiritur quantum ad primum 
+          <lb ed="#G" n="53"/>quia a multis habentur istae claues, quibus tamen defi- 
+          <lb ed="#G" n="54"/>cit huiusmodi iurisdictio. Nam istae claues conferuntur 
+          <lb ed="#G" n="55"/>ei, cui confertur ordo sacerdotalis, dato, quod respectu 
+          <lb ed="#G" n="56"/>nullorum subditorum sibi conferatur iurisdictio. Et per 
+          <lb ed="#G" n="57"/>hoc claues de foro conscientiae proprie differunt a
+          cla<lb ed="#G" n="58" break="no"/>uibus exterioris iudicii, quia istae praecise conferuntur 
+          <lb ed="#G" n="59"/>collatione iurisdictionis in subditos. Et ideo merito, &amp; 
+          <lb ed="#G" n="60"/>proprie primae claues dicuntur claues ordinis: quia num 
+          <lb ed="#G" n="61"/>quam possunt conferri sine ordine, quauis bene confe 
+          <lb ed="#G" n="62"/>rantur sine iurisdictione, &amp; econuerso aliae proprie
+          di<lb ed="#G" n="63" break="no"/>cuntur claues iurisdictionis: quia numquam possunt con 
+          <lb ed="#G" n="64"/>ferri sine iurisdictione, quamuis bene possint conferri 
+          <lb ed="#G" n="65"/>sine ordine¬ 
+        </p>
+        <p xml:id="HuYgTa-259117-d1e527">
+          <lb ed="#G" n="66"/>
+          <pc type="indent"/>ARTICVLO in. 
+          <lb ed="#G" n="67"/>Vtrum quilibet sacerdos habeat huiusmodi claues 
+        </p>
+        <p xml:id="HuYgTa-259117-d1e536">
+          <lb ed="#G" n="68"/>QVANTVM ad secundum articulum pono duas con 
+          <lb ed="#G" n="69"/>clusiones, quae quasi corollarie sequuntur ex iam 
+          <lb ed="#G" n="70"/>dictis. Prima est, qloquendo de clauibs respicientibus 
+          <!--733.xml-->
+          <cb ed="#G" n="b"/>
+          <lb ed="#G" n="71"/>forum interioris conscientiae, tunc quilibet sacerdos ha 
+          <lb ed="#G" n="72"/>bet claues ecclesiae. 
+        </p>
+        <p xml:id="HuYgTa-259117-d1e554">
+          <lb ed="#G" n="73"/>
+          <pc type="indent"/>Quia, sicut iam dictum est, huiusmodi claues semper 
+          <lb ed="#G" n="74"/>conferuntur cum ordine sacerdotali: sed quilibet
+          sacer<lb ed="#G" n="75" break="no"/>dos habet huiusmodi ordinem: ergo quilibet sacerdos 
+          <lb ed="#G" n="76"/>habet tales claues.
+        </p>
+        <p xml:id="HuYgTa-259117-d1e567">
+          <lb ed="#G" n="77"/>2 Praeterea, vt communiter dicitur, claues huiu mo 
+          <lb ed="#G" n="78"/>di dat Deus, quando in ordinatione episcopus dicit, ac 
+          <lb ed="#G" n="79"/>cipite spiritum sanctum, quorum remiseritis peccata, re 
+          <lb ed="#G" n="80"/>mittuntur eis: sed hoc dicit episcopus omnibus sacerdo 
+          <lb ed="#G" n="81"/>tibus, qui ordinantur; ergo &amp;
+        </p>
+        <p xml:id="HuYgTa-259117-d1e580">
+          <lb ed="#G" n="82"/>1 Sed forte contra istud dicetur, quod multi ordinantur 
+          <lb ed="#G" n="83"/>in sacerdotes, qui sunt peccatores, ergo multi ordinantur 
+          <lb ed="#G" n="84"/>in sacerdotes, qui non recipiunt predictas claues. Anti 
+          <lb ed="#G" n="85"/>cedens patet. Probatio consequentiae: quia qui non reci 
+          <lb ed="#G" n="86"/>iunt spiritum sanctum, non recipiunt claues, sed nullus 
+          <lb ed="#G" n="87"/>peccator recipit spiritum sanctum. Maior patet: quia si 
+          <lb ed="#G" n="88"/>tut iam dictum est, in receptione clauium dicit episco 
+          <lb ed="#G" n="89"/>pus, accipite spiritum sanctum. ergo, qui non recipit spiri 
+          <lb ed="#G" n="90"/>tum sanctum, non videtur recipere claues. Patet et mi 
+          <lb ed="#G" n="91"/>nor, quia spiritus sanctus disciplinae effugiet fictum, vt di 
+          <lb ed="#G" n="92"/>cit sapiens 
+        </p>
+        <p xml:id="HuYgTa-259117-d1e607">
+          <lb ed="#G" n="93"/>
+          <pc type="indent"/>Praeterea, rex sapiens thesaurum suum, uel claues 
+          <lb ed="#G" n="94"/>thesauri sui non conmittit his, quos reputat suos mortales 
+          <lb ed="#G" n="95"/>inimicos: sed claues istae sunt claues diuini thesauri, pu 
+          <lb ed="#G" n="96"/>ta gratiae, &amp; gloriae, &amp; mortalem peccatorem Deus repu 
+          <lb ed="#G" n="97"/>tat inimicum suum: ergo &amp;c 
+        </p>
+        <p xml:id="HuYgTa-259117-d1e623">
+          <lb ed="#G" n="98"/>
+          <pc type="indent"/>Praeterea, exclusus a regno non habet claues
+          re<lb ed="#G" n="99" break="no"/>gni, sed quilibet sacerdos existens in mortali peccato est 
+          <lb ed="#G" n="100"/>exclusus a regno caelorum, ergo nullus talis sacerdos ha 
+          <lb ed="#G" n="101"/>bet claues regni celorum.
+        </p>
+        <p xml:id="HuYgTa-259117-d1e636">
+          <lb ed="#G" n="102"/>4 Praeterea, qui non pot aperire, seu absoluere, non 
+          <lb ed="#G" n="103"/>videtur habere claues; sed quandoque sacerdos est susper 
+          <lb ed="#G" n="104"/>sus, excommunicatus, haereticus, scismaticus, vel
+          degra<lb ed="#G" n="105" break="no"/>datus, &amp; nullus istorum potest regnum celorum aperire, 
+          <lb ed="#G" n="106"/>vel a peccatis absoluere: ergo nullus istorum habet claues.
+        </p>
+        <p xml:id="HuYgTa-259117-d1e649">
+          <lb ed="#G" n="107"/>3 Praeterea, frustra, &amp; inutilis est potentia, quae num 
+          <lb ed="#G" n="108"/>quam existit in actum: sed potestas clauium in
+          sacerdo<lb ed="#G" n="109" break="no"/>te nullam habente iurisdictionem, numquam exit in actum; 
+          <lb ed="#G" n="110"/>ergo vel in talibus sacerdotibus non sunt claues, &amp; tuo 
+          <lb ed="#G" n="111"/>habetur intentum, vel si sunt, frustra, &amp; inutiliter sunt, 
+          <lb ed="#G" n="112"/>quod nullo modo est ponendum, cum Deus, &amp; natura 
+          <lb ed="#G" n="113"/>nihil faciant frustra 
+        </p>
+        <p xml:id="HuYgTa-259117-d1e667">
+          <lb ed="#G" n="114"/>
+          <pc type="indent"/>Ad primam, nego consequentiam. Ad probationem 
+          <lb ed="#G" n="115"/>dicendum, quod ibi fit mentio de receptione spiritus 
+          <lb ed="#G" n="116"/>sancti, non pro tanto, quod sine receptione spiritus
+          san<lb ed="#G" n="117" break="no"/>cti nullo modo recipiantur claues, sed pro tanto quia, 
+          <lb ed="#G" n="118"/>qui idonee, &amp; congrue, &amp; ad salutem animae suae recipit 
+          <lb ed="#G" n="119"/>claues, ille vtique recipit gratiam spiritus sancti: sicut 
+          <lb ed="#G" n="120"/>enim ficte recipiens sacramentum baptismi reci pit cha 
+          <lb ed="#G" n="121"/>racterem baptismalem, qui est gratia gratis data, licet 
+          <lb ed="#G" n="122"/>non recipiat spiritum sanctum, seu gratiam gratum
+          fa<lb ed="#G" n="123" break="no"/>cientem; sic ille, qui cum peccato mortali recipit ordinem 
+          <lb ed="#G" n="124"/>sacerdotalem, etiam recipit claues ecclesiae, quamuis non 
+          <lb ed="#G" n="125"/>recipiat spiritum sanctum, seu donum gratum facientis 
+          <lb ed="#G" n="126"/>ratiae: quia sicut praedictus character pro tanto, quia
+          si<lb ed="#G" n="127" break="no"/>bi non repugnat simul esse cum mortali peccato; ideo po 
+          <lb ed="#G" n="128"/>test recipi ab eo, qui est in peccato, &amp; retineri, non
+          ob<lb ed="#G" n="129" break="no"/>stante, quod maneat peccatum, sic in proposito &amp;c. 
+        </p>
+        <p xml:id="HuYgTa-259117-d1e706">
+          <lb ed="#G" n="130"/>
+          <pc type="indent"/>Forte dices, quod non est simile, quia clauis datur ad 
+          <lb ed="#G" n="131"/>expellendum peccatum, seu ad absoluendum de pecca 
+          <lb ed="#G" n="132"/>to, ergo licet character non habeat repugnantiam ad pec 
+          <lb ed="#G" n="133"/>tatum, tamen clauis videtur here repugnantiam ad peccatum. 
+        </p>
+        <p xml:id="HuYgTa-259117-d1e720">
+          <lb ed="#G" n="134"/>
+          <pc type="indent"/>Respondeo, quod clauis ista non datur ad
+          expellen<lb ed="#G" n="135" break="no"/>dum peccatum proprii subiecti, sic enim datur gratia 
+          <lb ed="#G" n="136"/>gratumfaciens, illi enim formaliter repugnat esse in eo 
+          <lb ed="#G" n="137"/>dem subiecto cum mortali peccato, sed clauis datur com 
+          <lb ed="#G" n="138"/>tra peccatum subditi confitentis, vel proponentis confi 
+          <lb ed="#G" n="139"/>teri ei, qui habet claues absoluendi¬ 
+        </p>
+        <p xml:id="HuYgTa-259117-d1e738">
+          <lb ed="#G" n="140"/>
+          <pc type="indent"/>Ad secundum dicendum, quod maior non est vera, supposi 
+          <lb ed="#G" n="141"/>to, quod thesaurus sit illius conditionis, quod quauis dispensa 
+          <lb ed="#G" n="142"/>tor sit inimicus regis:tamen ipse non pot huiusmodi the 
+          <lb ed="#G" n="143"/>saurum distribuere inimigis ipsius regis, sed tantum modo 
+          <!--734.xml-->
+          <pb ed="#G" n="P2_132-r"/>
+          <cb ed="#G" n="a"/>
+          <lb ed="#G" n="1"/>am icis: sic autem est in proposito : quia regnum
+          caelo<lb ed="#G" n="2" break="no"/>rum, quod clauditur, &amp; aperitur praedictis clauibus
+          tan<lb ed="#G" n="3" break="no"/>tum modo superni regis amicis est communicabile¬ 
+        </p>
+        <p xml:id="HuYgTa-259117-d1e764">
+          <lb ed="#G" n="4"/>
+          <pc type="indent"/>Ad tertium dicendum, quod licet exclusus a regno 
+          <lb ed="#G" n="5"/>non habet claues regni pro se:tamen nihil repugnat, quin 
+          <lb ed="#G" n="6"/>possit habere huinsmodi claues pro aliis.  
+        </p>
+        <p xml:id="HuYgTa-259117-d1e775">
+          <lb ed="#G" n="7"/>
+          <pc type="indent"/>Ad quartum dicendum, quod maior non est vera: quia si 
+          <lb ed="#G" n="8"/>cut aliquis posset habere clauem materialem, qui tam  
+          <lb ed="#G" n="9"/>aperire non posset, fi manus lio atas hab ret vel si
+          set<lb ed="#G" n="10" break="no"/>aperienda sibi subtraheretur: sic in proposito, quamui 
+          <lb ed="#G" n="11"/>sacerdos suspensus, excommunicatus haereticus, hoc ess 
+          <lb ed="#G" n="12"/>in haeresim lapsus, postquam vere fuit sacerdos
+          ordina<lb ed="#G" n="13" break="no"/>tus, &amp; scismaticus, ac degradatus vere habeat claues ex 
+          <lb ed="#G" n="14"/>clesiae, tamen quia cuilibet istorum vsus clauium est
+          in<lb ed="#G" n="15" break="no"/>terdictus: ideo quasi manus ligatas habens, nec potes 
+          <lb ed="#G" n="16"/>claud ere, nec aperire, nec soluere, nec ligare. Etiam 
+          <lb ed="#G" n="17"/>subtrahitur sibi materia, idest populus, qui prius fuit sibi 
+          <lb ed="#G" n="18"/>subiectus, eximitur ab eo, ne competat sibi spiritualis 
+          <lb ed="#G" n="19"/>actio in huiusmodi populum, qualis sibi compet ebat. 
+          <lb ed="#G" n="20"/>priusquam esset suspensus, vel excommunicatus, &amp;c 
+        </p>
+        <p xml:id="HuYgTa-259117-d1e810">
+          <lb ed="#G" n="21"/>
+          <pc type="indent"/>Ad quintum dicendum, quod maior non est vera 
+          <lb ed="#G" n="22"/>nam multis sanctis Deus dedit potentiam generati 
+          <lb ed="#G" n="23"/>uam, quae numquam exiuit in actum, &amp; tamen non fuit 
+          <lb ed="#G" n="24"/>frustra, cum Deus nihil faciat frustra Vnde vanitas, &amp;  
+          <lb ed="#G" n="25"/>inutilitas potentiae non potest argui ex hoc, quod non 
+          <lb ed="#G" n="26"/>prorumpit in actum. 
+        </p>
+        <p xml:id="HuYgTa-259117-d1e828">
+          <lb ed="#G" n="27"/>
+          <pc type="indent"/>Sed ex hoc, quod positis omnibus, quae sunt ad hhoc 
+          <lb ed="#G" n="28"/>requisita, vt potentia actum eliciat, adhuc huiusmodi 
+          <lb ed="#G" n="29"/>potentia non potest prorumpere in actum. Sic autem 
+          <lb ed="#G" n="30"/>non est in proposito, quia communicata iurisdictione 
+          <lb ed="#G" n="31"/>huiusmodi sacerdoti, tunc potestas clauium, quae est in 
+          <lb ed="#G" n="32"/>ipso, immediate potest habere vsum suum 
+        </p>
+        <p xml:id="HuYgTa-259117-d1e847">
+          <lb ed="#G" n="33"/>
+          <pc type="indent"/>Conclusio secunda est, quod claues ecclesiae respicie 
+          <lb ed="#G" n="34"/>tes forum exterioris iudiciu non conueniunt culibet
+          sa<lb ed="#G" n="35" break="no"/>cerdoti
+        </p>
+        <p xml:id="HuYgTa-259117-d1e858">
+          <lb ed="#G" n="36"/>1 Quia tales claues non conueniunt alicui, nisi ipse sit 
+          <lb ed="#G" n="37"/>iudex hominum: sed multi sunt sacerdotes, qui non sun 
+          <lb ed="#G" n="38"/>iudices hominum, ergo &amp;c 
+        </p>
+        <p xml:id="HuYgTa-259117-d1e867">
+          <lb ed="#G" n="39"/>
+          <pc type="indent"/>2 Praeterea, sicut praedictum est, istae claues numquam 
+          <lb ed="#G" n="40"/>conferuntur alicui, nisi ei conferatur iurisdictio: sed mu 
+          <lb ed="#G" n="41"/>ti sunt sacerdotes, quibus nulla collata est iurisdictio 
+          <lb ed="#G" n="42"/>ergo &amp;cetera.
+        </p>
+        <p xml:id="HuYgTa-259117-d1e880">
+          <lb ed="#G" n="43"/>1 Forte dicetur, cui conceditur illud, quod est ma 
+          <lb ed="#G" n="44"/>ius, eidem videtur esse concessum illud, quod est mi 
+          <lb ed="#G" n="45"/>nus: sed claues respitientes forum conscientiae, sunt mul 
+          <lb ed="#G" n="46"/>to maioris dignitatis, quam claues respicientes forun 
+          <lb ed="#G" n="47"/>exterioris sententiae, &amp; primae claues sunt concessae cuil 
+          <lb ed="#G" n="48"/>bet sacerdoti: ergo &amp; secundae, cuius oppositum ponit 
+          <lb ed="#G" n="49"/>ista conclusio 
+        </p>
+        <p xml:id="HuYgTa-259117-d1e898">
+          <lb ed="#G" n="50"/>
+          <pc type="indent"/>2 Praeterea, cui negatur illud, quod est minus, illi non 
+          <lb ed="#G" n="51"/>videtur esse concessum illud, quod est maius: sed
+          pote<lb ed="#G" n="52" break="no"/>stas exterioris sententiae, quae est minor, quam potestas 
+          <lb ed="#G" n="53"/>in foro conscientiae, negatur alicui sacerdoti, sicut ponit 
+          <lb ed="#G" n="54"/>ista conclusio: ergo eidem non videtur esse concessa pote 
+          <lb ed="#G" n="55"/>stas in foro conscientiae, quae est maior, quod est oppositum 
+          <lb ed="#G" n="56"/>primae conclusionis Et sic secunda conclusio videtum 
+          <lb ed="#G" n="57"/>primae repugnare. 
+        </p>
+        <p xml:id="HuYgTa-259117-d1e920">
+          <lb ed="#G" n="58"/>
+          <pc type="indent"/>Respondeo ad ambas rationes, quod licet aliquid comn 
+          <lb ed="#G" n="59"/>cludant, quando maius, &amp; minus sunt eiusdem rationis 
+          <lb ed="#G" n="60"/>tamen nihil corcludunt, quando sunt diuersarum ratio 
+          <lb ed="#G" n="61"/>num Quia enim potentia volandi, &amp; potentia ratioci 
+          <lb ed="#G" n="62"/>nandi sunt diuersarum rationum; ideo licet potentia vo 
+          <lb ed="#G" n="63"/>landi sit minor, quam potentia ratiocinandi tamen non 
+          <lb ed="#G" n="64"/>sequitur, homini est concessa potentia ratiocinandi, er 
+          <lb ed="#G" n="65"/>go ei communicata est potentia volandi: nec econuerso 
+          <lb ed="#G" n="66"/>sequitur, homini est negata potentia volandi, ergo homin 
+          <lb ed="#G" n="67"/>no est concessa potentia ratiotinandi: Sed nunc estita, quoad 
+          <lb ed="#G" n="68"/>istae claues sunt diuersarum rationum: quia tam earum
+          ori<lb ed="#G" n="69" break="no"/>gines, quam earum vsus, &amp; exsecutiones differunt ratione 
+          <lb ed="#G" n="70"/>nam vnius origo est cum collatione ordinis, alterius
+          ori<lb ed="#G" n="71" break="no"/>go est cum collatione iurisdictionis: vnius vsus est in
+          fo<lb ed="#G" n="72" break="no"/>ro interiori, alterius in foro exteriori: ergo &amp;c
+        </p>
+        <p xml:id="HuYgTa-259117-d1e958">
+          <!--734.xml-->
+          <cb ed="#G" n="b"/>
+          <lb ed="#G" n="73"/>ARTICVLVSIII. 
+          <lb ed="#G" n="74"/>Vtrum claues possint tolli ab eo, qui habet eas.
+        </p>
+        <p xml:id="HuYgTa-259117-d1e969">
+          <lb ed="#G" n="75"/>VANTVM ad tertium articulum pono tres con 
+          <lb ed="#G" n="76"/>clusiones conformes iam dictis in duobus arti 
+          <lb ed="#G" n="77"/>culis praecedentibus 
+        </p>
+        <p xml:id="HuYgTa-259117-d1e978">
+          <lb ed="#G" n="78"/>
+          <pc type="indent"/>Prima est, quod claues respicientes forum conscientiae 
+          <lb ed="#G" n="79"/>non possunt tolli, quantum ad essentiam suam, ab eo, 
+          <lb ed="#G" n="80"/>qui semel recepit eas.
+        </p>
+        <p xml:id="HuYgTa-259117-d1e989">
+          <lb ed="#G" n="81"/>1 Quia istae claues, vel sunt idem, quod sacerdotalis 
+          <lb ed="#G" n="82"/>character, vel saltem inseparabiliter consequuntur
+          hu<lb ed="#G" n="83" break="no"/>iusmodi caracterem, sed caracter iste est idelebilis: ergo 
+          <lb ed="#G" n="84"/>claues istae tolli non possunt ab eo, qui habet eas per cu 
+          <lb ed="#G" n="85"/>iuscunque hominis potestatem. Maior patet ex commu 
+          <lb ed="#G" n="86"/>ni doctotum concordia quo ad hoc. Minor etiam patet 
+          <lb ed="#G" n="87"/>ecdictis superius dist. 2. arti. r¬ 
+        </p>
+        <p xml:id="HuYgTa-259117-d1e1007">
+          <lb ed="#G" n="88"/>2 Praeterea, si ab aliquo tolleretur, hoc maxime vide 
+          <lb ed="#G" n="89"/>retur de sacerdote degradato, vel deposito ab officio, &amp;  
+          <lb ed="#G" n="90"/>beneficio: sed hoc non quia posito, quod aliquis illorum 
+          <lb ed="#G" n="91"/>testituatur ad pristinam dignitatem, de nouo iterum non 
+          <lb ed="#G" n="92"/>conferuntur ei claues per iterati ordinis collationem. 
+          <lb ed="#G" n="93"/>hoc autem oporteret, si claues ecclesiae, quantum ad esse 
+          <lb ed="#G" n="94"/>tiam suam, fuissent ab eo prius ablatae. 
+        </p>
+        <p xml:id="HuYgTa-259117-d1e1025">
+          <lb ed="#G" n="95"/>Conclusio secunda est, quod potestas clauium praedi 
+          <lb ed="#G" n="96"/>ctarum potest tolli, &amp; de facto quandoque tollitur, quam 
+          <lb ed="#G" n="97"/>tum ad vsum, &amp;cius exse cutionem: Quia ab illo sacerdo 
+          <lb ed="#G" n="98"/>te, qui non potest absoluere in foro conscientiae, &amp; si de 
+          <lb ed="#G" n="99"/>facto absoluit, huiusmodi absolutio nulla est ;siue hic,¬ 
+          <lb ed="#G" n="100"/>qui dicitur absolui, non est absolutus, ab illo, inquam, 
+          <lb ed="#G" n="101"/>ablata est exsecutio iam dictae potestatis: Sed sacerdos 
+          <lb ed="#G" n="102"/>excommunicatus eum, qui sibi confitetur, non potest 
+          <lb ed="#G" n="103"/>absoluere, &amp; si de facto dicit verba absolutionis :
+          confi<lb ed="#G" n="104" break="no"/>tens tamen non est absolutus; ergo &amp;c. 
+        </p>
+        <p xml:id="HuYgTa-259117-d1e1050">
+          <lb ed="#G" n="105"/>
+          <pc type="indent"/>Maior patet de se: Minorem probo: quia nullus, du 
+          <lb ed="#G" n="106"/>actu peccat, &amp; est alteri causa mortalis peccati,
+          absolui<lb ed="#G" n="107" break="no"/>tur a peccato: sed petens absolutionem ab eo, quem  
+          <lb ed="#G" n="108"/>noscit esse excommunicatum, actu, quo petit, peccat, &amp; 
+          <lb ed="#G" n="109"/>est illi, a quo perit, causa mortalis peccati. Maior est 
+          <lb ed="#G" n="110"/>nota Minor etiam patet, quo ad primam sui partem 
+          <lb ed="#G" n="111"/>quia petendo ab excommunicato absolutionem
+          com<lb ed="#G" n="112" break="no"/>municat excommunicato contra mandatum ecclesiae, 
+          <lb ed="#G" n="113"/>&amp; per consequens peccat. Patet etiam quo ad
+          secun<lb ed="#G" n="114" break="no"/>dam partem: quia absoluens mortaliter peccat, quod 
+          <lb ed="#G" n="115"/>peccatum non committeret, siiste absolutionem non 
+          <lb ed="#G" n="116"/>peteret. Ista etiam minor patet per Augustinum in 
+          <lb ed="#G" n="117"/>libus de vera, &amp; falsa poenitentia, &amp; habetur in <ref xml:id="HuYgTa-259117-Rd1e1082">decretis 
+            <lb ed="#G" n="118"/>de poenitentia distin. 9.</ref> vbi sic dicitur. Nemo
+          poenite<lb ed="#G" n="119" break="no"/>re digne potest, quem non sustinet vnitas ecclesiae:
+          lu<lb ed="#G" n="120" break="no"/>das enim poenitens iuit ad pharisaeos, &amp; reliquit  
+          <lb ed="#G" n="121"/>Apostolos, nihil auxilii, nisi augmentum desperationis 
+          <lb ed="#G" n="122"/>inuenit.  
+        </p>
+        <p xml:id="HuYgTa-259117-d1e1097">
+          <lb ed="#G" n="123"/>
+          <pc type="indent"/>Torte dicetur, quod ista conclusio contradicit primae 
+          <lb ed="#G" n="124"/>1 Quia potestas actiua manens in habente liberum 
+          <lb ed="#G" n="125"/>arbitrium exit in actum, quando illi placet, qui habet 
+          <lb ed="#G" n="126"/>eam: Sed potestas clauium est poteltas actiua, &amp; a
+          sa<lb ed="#G" n="127" break="no"/>cerdote, qui est liberi arbitrij, non potest tolli, sicut dicit 
+          <lb ed="#G" n="128"/>prima conclulio: ergo potest exire in actum, quando
+          pla<lb ed="#G" n="129" break="no"/>cet huiusmodi sacerdoti, quod implicat oppositum secun 
+          <lb ed="#G" n="130"/>dae conclusionis 
+        </p>
+        <p xml:id="HuYgTa-259117-d1e1119">
+          <lb ed="#G" n="131"/>2 Praeterea, usus, &amp; efficacia spiritualis potestatis ma 
+          <lb ed="#G" n="132"/>gis videtur impediri per culpam, quam per poenam, sed  
+          <lb ed="#G" n="133"/>tulpa mortalis non tollit vsum clauium, vt patet ex
+          di<lb ed="#G" n="134" break="no"/>ctis in secundo articulo: ergo nec excommunicatio, qua 
+          <lb ed="#G" n="135"/>de se non est culpa, sed poena 
+        </p>
+        <p xml:id="HuYgTa-259117-d1e1132">
+          <lb ed="#G" n="136"/>3 Praeterea, quae aequaliter depedent ab aliquo, aequa 
+          <lb ed="#G" n="137"/>iter debent manereillo manente, a quo dependent, sed  
+          <lb ed="#G" n="138"/>potestas conficiendi corpus Christi, &amp; potestas absolus 
+          <lb ed="#G" n="139"/>di, aequaliter dependent ab ordine sacerdotali, &amp; per ex 
+          <lb ed="#G" n="140"/>communicationem non tollitur a sacerdote vsus 
+          <lb ed="#G" n="141"/>conficiendi si enim excommunicatus celebraret, ip 
+          <lb ed="#G" n="142"/>se uere conficeret, quamuis celebrando peccaret: 
+          <!--735.xml-->
+          <pb ed="#G" n="P2_132-v"/>
+          <cb ed="#G" n="a"/>
+          <lb ed="#G" n="1"/>ergo etiam excommunicatus sacerdos audiens
+          confes<lb ed="#G" n="2" break="no"/>siones vere dicitur absoluere, dato, quod peccet
+          absol<lb ed="#G" n="3" break="no"/>uendo, &amp; per consequens non videtur, quod possint tol 
+          <lb ed="#G" n="4"/>li claues quantum ad earum exsecutionem. 
+        </p>
+        <p xml:id="HuYgTa-259117-d1e1165">
+          <lb ed="#G" n="5"/>
+          <pc type="indent"/>Ad primum dicendum, quod maior non est vera, defi 
+          <lb ed="#G" n="6"/>tiente materia correspondente illi actiuae potestati:
+          Si<lb ed="#G" n="7" break="no"/>cut enim ignis existens iuxta coelum lune, quamuis ha 
+          <lb ed="#G" n="8"/>beat potentiam calefaciendi, tamen non calefacit, eo,  
+          <lb ed="#G" n="9"/>quod non attingit materiam, quae suae actionis sit
+          susce<lb ed="#G" n="10" break="no"/>ptiua: sic sacerdos excommunicatus non potest absolue 
+          <lb ed="#G" n="11"/>re, non obstante, quod habeat potestatem absoluendi 
+          <lb ed="#G" n="12"/>eo, quod per sui superioris sententiam subtracti sint sibi 
+          <lb ed="#G" n="13"/>subditi, in quos agere deberet secundum illam potestate 
+        </p>
+        <p xml:id="HuYgTa-259117-d1e1189">
+          <lb ed="#G" n="14"/>
+          <pc type="indent"/>Ad secundum dicendum, quod dato, quod maior al 
+          <lb ed="#G" n="15"/>quo modo possit concedi, loquendo de poena tali, quae 
+          <lb ed="#G" n="16"/>non includit, seu praesupponit culpam: tamen non est 
+          <lb ed="#G" n="17"/>vera, loquendo de tali pena, quae praesupponit culpam, 
+          <lb ed="#G" n="18"/>ficut est excum municatio. Etiam maior non est vera, 
+          <lb ed="#G" n="19"/>supposito, quod culpa sine tali poena non subtrahat ma 
+          <lb ed="#G" n="20"/>teriam correspodentem huiusmodi spirituali potestati, 
+          <lb ed="#G" n="21"/>&amp; pena subtrahat huiusmodi materiam: sicut est. in 
+          <lb ed="#G" n="22"/>proposito. 
+        </p>
+        <p xml:id="HuYgTa-259117-d1e1214">
+          <lb ed="#G" n="23"/>
+          <pc type="indent"/>Ad tertium dicendum, quod maior est uera
+          aequali<lb ed="#G" n="24" break="no"/>ter manente materia correspondente illi vtrique
+          pote<lb ed="#G" n="25" break="no"/>stati: Sed sic non est in proposito: quia quamuiscunque 
+          <lb ed="#G" n="26"/>sacerdos sit excommunicatus: si tamen habet panem, &amp; 
+          <lb ed="#G" n="27"/>vinum, tunc non est sibi subtracta materia
+          correspon<lb ed="#G" n="28" break="no"/>dens potestati conficiendi, sicut est sibi subtracta
+          mate<lb ed="#G" n="29" break="no"/>ria correspondens potestati absoluendi. Vnde sicut
+          sa<lb ed="#G" n="30" break="no"/>terdos deficiente pane non potest Corpus Christi con 
+          <lb ed="#G" n="31"/>ficere: sic excommunicatus non potest absoluere: quia 
+          <lb ed="#G" n="32"/>sibi subtracta est materia per ipsum absoluenda 
+        </p>
+        <p xml:id="HuYgTa-259117-d1e1240">
+          <lb ed="#G" n="33"/>
+          <pc type="indent"/>Conclusio tertia est, quod potestas clauium, qua
+          iudi<lb ed="#G" n="34" break="no"/>tatur in exteriori iudicio, seu in foro contentioso,
+          po<lb ed="#G" n="35" break="no"/>test tolli non solum quantum ad usum, &amp; exsecutionem 
+          <lb ed="#G" n="36"/>verumetiam quantum ad essentiam talium clauium. 
+          <lb ed="#G" n="37"/>Quia iurisdictio, quam quis habet super subditos ex cer 
+          <lb ed="#G" n="38"/>tis causis potest tolli per suum superiorem. ergo claues 
+          <lb ed="#G" n="39"/>tales tolli possunt, &amp; quatum ad vsum, &amp;quatum ad exsecone 
+          <lb ed="#G" n="40"/>nec non quantum ad suam essentiam, Consequentia patet quia 
+          <lb ed="#G" n="41"/>huiusmodi claues non possunt alicui competere sine iu 
+          <lb ed="#G" n="42"/>risdictione, vt patet ex praedictis Antecedens etiam
+          pa<lb ed="#G" n="43" break="no"/>tet: quia omnis spiritualis iurisdictio, vel est annexa off 
+          <lb ed="#G" n="44"/>tio, vel beneficio, sed demeritis exigentibus potest infe 
+          <lb ed="#G" n="45"/>rior a suo superiori priuari quandoque officio, &amp; beneficio 
+        </p>
+        <p xml:id="HuYgTa-259117-d1e1273">
+          <lb ed="#G" n="46"/>
+          <pc type="indent"/>Forte dicetur, quod Papa non habet alium in mud 
+          <lb ed="#G" n="47"/>superiorem supra se; ergo istae claues ab aliquo, puta sal 
+          <lb ed="#G" n="48"/>tem ab illo, qui est Papa, non possunt tolli. 
+        </p>
+        <p xml:id="HuYgTa-259117-d1e1284">
+          <lb ed="#G" n="49"/>
+          <pc type="indent"/>Dico, quod ratione delicti, puta, si ille homo, qui 
+          <lb ed="#G" n="50"/>esset Papa, efficeretur haereticus, tuc collegium
+          Cardi<lb ed="#G" n="51" break="no"/>nalium esset superius eo, &amp; talis Papa posset deponi, &amp;  
+          <lb ed="#G" n="52"/>priuari officio, &amp; beneficio: &amp; sic quia careret iurisdictio 
+          <lb ed="#G" n="53"/>ne, sublatae essent ab eo claues, de quibus locutus sum 
+          <lb ed="#G" n="54"/>in ista conclusione. 
+        </p>
+        <p xml:id="HuYgTa-259117-d1e1302">
+          <lb ed="#G" n="55"/>
+          <pc type="indent"/>ARTICVLVS III 
+          <lb ed="#G" n="56"/>Aliqua videbuntur, circa &amp;
+          communicatio<lb ed="#G" n="57" break="no"/>
+          <pc type="indent"/>nis sententiam, &amp; euum 
+          <lb ed="#G" n="58"/>
+          <pc type="indent"/>absolutionem.
+        </p>
+        <p xml:id="HuYgTa-259117-d1e1320">
+          <lb ed="#G" n="59"/>VANTVM ad quartum articulum est aduertendum, 
+          <lb ed="#G" n="60"/>
+          <pc type="indent"/>quod secundum generalem distinctionem du 
+          <lb ed="#G" n="61"/>plex eit excommunicatio, scilicet excommunicatio ma 
+          <lb ed="#G" n="62"/>ior, &amp; exc mmunicatio minor. In maiorem excom mu 
+          <lb ed="#G" n="63"/>nicationem nullus incidit, nisi, vel per sententiam
+          iu<lb ed="#G" n="64" break="no"/>ris, vel per sententiam iudicis: Tuncen incidit per
+          senten<lb ed="#G" n="65" break="no"/>tiam iuris, quando facit aliquid, quod expresse
+          prohibi<lb ed="#G" n="66" break="no"/>tum est sibi per modum statuti sub poena
+          excommuni<lb ed="#G" n="67" break="no"/>cationis latae sententiae 
+        </p>
+        <p xml:id="HuYgTa-259117-d1e1345">
+          <!--735.xml-->
+          <cb ed="#G" n="b"/>
+          <lb ed="#G" n="68"/>Sed tunc incidit per sententiam iudicis, quando, vel 
+          <lb ed="#G" n="69"/>a iudice excommunicatus denunciatur, vel contum aci 
+          <lb ed="#G" n="70"/>ter se habet contra monitionem, vel praeceptum
+          iudi<lb ed="#G" n="71" break="no"/>cis vallatum lata sententia excommuni ationi:. Si pri 
+          <lb ed="#G" n="72"/>mo modo sper sententiam iuris quis incidit in
+          excommu<lb ed="#G" n="73" break="no"/>nicationem, tunc vel superiori est reseruata absolutio, 
+          <lb ed="#G" n="74"/>buta si continetur in staturo, quod ab huiusmodi senten 
+          <lb ed="#G" n="75"/>tia nullus debeat absoluere, nisi Papa, vel nisi
+          episco<lb ed="#G" n="76" break="no"/>pus, tunc inferior non potest talem excommunicatum 
+          <lb ed="#G" n="77"/>absoluere. Si autem absolutio non est reseruata alicui 
+          <lb ed="#G" n="78"/>superiori, tunc ille, qui a mortali peccato potest
+          huius<lb ed="#G" n="79" break="no"/>modi excommunicatum absoluere, hic etiam potest eu 
+          <lb ed="#G" n="80"/>ab huiusmodi vinculo excommunicationis absoluere: 
+          <lb ed="#G" n="81"/>sicut patet <ref xml:id="HuYgTa-259117-Rd1e1381">extra de sententia excommunicationis cap. 
+            <lb ed="#G" n="82"/>nuper</ref>, vbi dicitur, quod cum conditor canonis eius
+          ab<lb ed="#G" n="83" break="no"/>solutionem specialiter sibi non retinuit, eo ipso
+          conces<lb ed="#G" n="84" break="no"/>sisse videtur facultatem aliis relaxandi. 
+        </p>
+        <p xml:id="HuYgTa-259117-d1e1392">
+          <lb ed="#G" n="85"/>
+          <pc type="indent"/>Si secundo modo, scilicet per sententiam iudicis inci 
+          <lb ed="#G" n="86"/>dit, tunc talis excommunicatus absolui non potest, nisi 
+          <lb ed="#G" n="87"/>vel ab eodem iudice, vel a superiori illius iudicis, vel ab  
+          <lb ed="#G" n="88"/>aliquo sibi pari, puta si ille iudex moritur, uel desinit
+          es<lb ed="#G" n="89" break="no"/>se iudex, tunc a suo suceessore potest huiusmodi excom 
+          <lb ed="#G" n="90"/>municatus absolui. 
+        </p>
+        <p xml:id="HuYgTa-259117-d1e1410">
+          <lb ed="#G" n="91"/>
+          <pc type="indent"/>In minorem vero excommunicationem incidit quis 
+          <lb ed="#G" n="92"/>ex eo, quod contra madatum ecclesiae communicat ei, 
+          <lb ed="#G" n="93"/>qui est excommunicatus maiori excommunicatione 
+          <lb ed="#G" n="94"/>lupposito tamen, quod non communicet ei in crimine, 
+          <lb ed="#G" n="95"/>&amp; quod propter contumacem communionem non sit 
+          <lb ed="#G" n="96"/>denunciatus nominaliter excommunicatus a iudice: 
+          <lb ed="#G" n="97"/>quia quocumque istorum duorum posito, tunc
+          partici<lb ed="#G" n="98" break="no"/>pans est excommunicatus maiori excommunicatione: 
+          <lb ed="#G" n="99"/>propter quod talis non potest absolui, nisi ab eo, a quo 
+          <lb ed="#G" n="100"/>absoluendus est ille, cui communicauit: quia facientem,  
+          <lb ed="#G" n="101"/>&amp; consentientem par poena constringit: sicut dicitur in 
+          <lb ed="#G" n="102"/>prae allegato. c. nuper 
+        </p>
+        <p xml:id="HuYgTa-259117-d1e1441">
+          <lb ed="#G" n="103"/>
+          <pc type="indent"/>A maiori vero excommunicatione contracta per sim 
+          <lb ed="#G" n="104"/>licem participationem potest quis absolui a tali
+          sacer<lb ed="#G" n="105" break="no"/>dote, qui eum potest absoluere a peccato, quo transgres 
+          <lb ed="#G" n="106"/>sus est mandatum ecclesiae, vt patet eodem c. 
+          <lb ed="#G" n="107"/>Dixi autem notanter, illum incidere in minorem exceun 
+          <lb ed="#G" n="108"/>municati onem, qui contra mandatum ecclesiae com- 
+          <lb ed="#G" n="109"/>municat excommunicatis: quia cum aliquibus personis 
+          <lb ed="#G" n="110"/>ius ecclesiasticum dispensauit, quae hoc versu
+          compre<lb ed="#G" n="111" break="no"/>henduntur. Vtile, lex, humile, res ignorata, necesse Der 
+          <lb ed="#G" n="112"/>ly, vtile, excusatur persona, quae loquitur cum
+          excom<lb ed="#G" n="113" break="no"/>municato pro sua spirituali salute, &amp; vt ipsum inclinet,  
+          <lb ed="#G" n="114"/>&amp; inducat, quod procuret absolutionem ab eo, a quo pro 
+          <lb ed="#G" n="115"/>curare tenetur. Excusatur etiam petens debitum ab ex 
+          <lb ed="#G" n="116"/>communicato: quia si hoc non liceret, tunc
+          excommu<lb ed="#G" n="117" break="no"/>nicatus de peccato suo reportaret commodum 
+        </p>
+        <p xml:id="HuYgTa-259117-d1e1478">
+          <lb ed="#G" n="118"/>
+          <pc type="indent"/>Lex. i. matrimonium excusat vxorem legitimam.
+          Hu<lb ed="#G" n="119" break="no"/>mile, idest status humilis, puta seruus, vel filius similiter 
+          <lb ed="#G" n="120"/>excusantur, &amp; intelligitur hoc de filio familias, &amp; non 
+          <lb ed="#G" n="121"/>de eo, qui est emancipatus a patre 
+        </p>
+        <p xml:id="HuYgTa-259117-d1e1491">
+          <lb ed="#G" n="122"/>
+          <pc type="indent"/>Res ignota, puta quando aliquis ignorat illum
+          excom<lb ed="#G" n="123" break="no"/>municatum esse, cui communicat. 
+        </p>
+        <p xml:id="HuYgTa-259117-d1e1501">
+          <lb ed="#G" n="124"/>
+          <pc type="indent"/>Necesse, puta, pauperes, &amp; peregrini, qui aliunde non 
+          <lb ed="#G" n="125"/>possunt here necessaria, nisi ab excommunicatis. In istis 
+          <lb ed="#G" n="126"/>quinque casibus participatio cum excommunicato fii 
+          <lb ed="#G" n="127"/>sine peccato, nec contrahitur ibi minor
+          excommunica<lb ed="#G" n="128" break="no"/>tio, eo, quod talis participatio in nullo obuet
+          manda<lb ed="#G" n="129" break="no"/>tis sanctae matris ecclesiae.  
+        </p>
+        <p xml:id="HuYgTa-259117-d1e1519">
+          <lb ed="#G" n="130"/>
+          <pc type="indent"/>Forte dices, si isti tantummodo excusantur, tunc vide 
+          <lb ed="#G" n="131"/>tur per locum ab oppositis, qui locus multum
+          appre<lb ed="#G" n="132" break="no"/>ciatur in iure, quod omnes alii, qui excommunicatis. 
+          <lb ed="#G" n="133"/>participant, mortaliter peccent 
+        </p>
+        <p xml:id="HuYgTa-259117-d1e1532">
+          <lb ed="#G" n="134"/>
+          <pc type="indent"/>Conclusionem istius instantiae concedit quaedam
+          opi<lb ed="#G" n="135" break="no"/>nio dicens, quod omnis homo, qui incidit in minorem ex 
+          <lb ed="#G" n="136"/>communicationem per hoc, quod communicat excom 
+          <lb ed="#G" n="137"/>municatis, mortaliter peccat. 
+        </p>
+        <p xml:id="HuYgTa-259117-d1e1545">
+          <lb ed="#G" n="138"/>1 Quia illud, quod sic se habet, quod homo prius de 
+          <lb ed="#G" n="139"/>bet eligere mortem, quam ipsum committat, hoc
+          vide<lb ed="#G" n="140" break="no"/>tur esse mortale peccatum: sed participare excommu¬ 
+          <!--736.xml-->
+          <pb ed="#G" n="P2_133-r"/>
+          <cb ed="#G" n="a"/>
+          <lb ed="#G" n="1"/>nicatis est huiusmodi. Maior patet: Probatur mi nor
+          au<lb ed="#G" n="2" break="no"/>
+          <pc type="indent"/>ctoritate <ref xml:id="HuYgTa-259117-Rd1e1566">Innocentii tertii, qui extra de his, quae causa me 
+            <lb ed="#G" n="3"/>tus fiunt c. sacris est canonibus</ref>, ait, quod propter metum 
+          <lb ed="#G" n="4"/>mortis non debet aliquis excommunicato communica 
+          <lb ed="#G" n="5"/>re. Cuius ratio ibidem subditur: Quia prius debet quis 
+          <lb ed="#G" n="6"/>subire mortem, quam peccet mortaliter. 
+        </p>
+        <p xml:id="HuYgTa-259117-d1e1579">
+          <lb ed="#G" n="7"/>2 Preterea, sacere contra preceptum ecclesiae vide 
+          <lb ed="#G" n="8"/>tur esse peccatum mortale: sed participans cum ex 
+          <lb ed="#G" n="9"/>communicato, praeterquam in casibus praedictis, facit 
+          <lb ed="#G" n="10"/>contra praeceptum ecclesiae, vt potest haberi ex his, quae 
+          <lb ed="#G" n="11"/>ponuntur 1 1. 43 c quoniam multos 
+        </p>
+        <p xml:id="HuYgTa-259117-d1e1592">
+          <lb ed="#G" n="12"/>3 Preterea, nullus prohibetur a sacramentorum perce 
+          <lb ed="#G" n="13"/>ptione, nisi ratione mortalis peccati: sed incidens in mino 
+          <lb ed="#G" n="14"/>rem excommunicationem propter participationem cum 
+          <lb ed="#G" n="15"/>excommunicato, licet non prohibeatur a fidelium com 
+          <lb ed="#G" n="16"/>munione, tamen prohibetur a sacramentorum commu 
+          <lb ed="#G" n="17"/>nione, sicut patet <ref xml:id="HuYgTa-259117-Rd1e1607">extra de sententia excoo. c. nuper.</ref> 
+          er<lb ed="#G" n="18" break="no"/>go huiusmodi participatio videtur ec mortale peccatum 
+        </p>
+        <p xml:id="HuYgTa-259117-d1e1614">
+          <lb ed="#G" n="19"/>4 Praeterea, nullus debet excommunicari maiori ex 
+          <lb ed="#G" n="20"/>communicatione, nisi pro mortali peccato: sed propter 
+          <lb ed="#G" n="21"/>participationem cum excommunicato potest quis excen 
+          <lb ed="#G" n="22"/>municari maiori excommunicatione, ut patet in iam
+          di<lb ed="#G" n="23" break="no"/>cto c. ergo &amp;c. 
+        </p>
+        <p xml:id="HuYgTa-259117-d1e1627">
+          <lb ed="#G" n="24"/>
+          <pc type="indent"/>Sed ista opinio est nimis dura, &amp; pro multitudine ho 
+          <lb ed="#G" n="25"/>minum valde periculosa, quia sic innocentes etiam
+          ho<lb ed="#G" n="26" break="no"/>mines quandoque nimis de facili laberentur in morta 
+          <lb ed="#G" n="27"/>le peccatum, dum quandoque leui verbo loquuntur ex 
+          <lb ed="#G" n="28"/>communicato. 
+        </p>
+        <p xml:id="HuYgTa-259117-d1e1643">
+          <lb ed="#G" n="29"/>
+          <pc type="indent"/>Ad primum ergo dicendum, quod debere eligere ali 
+          <lb ed="#G" n="30"/>uid potest dupliciter se habere. Vno modo, tamquam 
+          <lb ed="#G" n="31"/>illud, quod est de necessitate salutis. Alio modo, tanquam 
+          <lb ed="#G" n="32"/>illud, quod est conditio perfectionis Primo modo
+          ma<lb ed="#G" n="33" break="no"/>ior est uera: sed minor est falsa, sic vniuersaliter accipien 
+          <lb ed="#G" n="34"/>do etiam pro quacunque minima participatione. Sed  
+          <lb ed="#G" n="35"/>secundo modo maior est falsa, quamuis minor sit 
+          <lb ed="#G" n="36"/>uera Perfectionis enim esset conditio, quod homo
+          pri<lb ed="#G" n="37" break="no"/>us subiret mortem, quam committeret etiam veniale 
+          <lb ed="#G" n="38"/>peccatum, quamuis non sit de necessitate salutis. 
+        </p>
+        <p xml:id="HuYgTa-259117-d1e1669">
+          <lb ed="#G" n="39"/>
+          <pc type="indent"/>Ad probationem minoris dicendum, quod uerba
+          il<lb ed="#G" n="40" break="no"/>lius decretalis sunt intelligenda de his, qui participani 
+          <lb ed="#G" n="41"/>excommunicato criminoso crimine, vel de his, qui pat 
+          <lb ed="#G" n="42"/>ticipant excommunicato criminoso crimine, vel de 
+          <lb ed="#G" n="43"/>his, qui participant cum excommunicato in diuinis, vel 
+          <lb ed="#G" n="44"/>de his, qui participant cum excommunicato
+          teme<lb ed="#G" n="45" break="no"/>rarie, &amp; in contemptum ecclesiae. Quod enim istis tribus 
+          <lb ed="#G" n="46"/>modis participans excommunicato, mortaliter peccet,  
+          <lb ed="#G" n="47"/>hoc ex multis locis iuris canonici patet: sed de aliis
+          mo<lb ed="#G" n="48" break="no"/>dis participandi, non sunt intelligenda illa verba 
+        </p>
+        <p xml:id="HuYgTa-259117-d1e1695">
+          <lb ed="#G" n="49"/>
+          <pc type="indent"/>Ad secundum dicendum, quod aliquem facere con- 
+          <lb ed="#G" n="50"/>tra praeceptum ecclesiae potest contingere dupliciter. 
+          <lb ed="#G" n="51"/>Vno modo simpliciter, &amp; directe. Alio modo secundum 
+          <lb ed="#G" n="52"/>quid, &amp; indirecte. Primo modo faciens contra manda 
+          <lb ed="#G" n="53"/>tum ecclesiae mortaliter peccat: Sed non secudo modo 
+          <lb ed="#G" n="54"/>Et quia, vt communiter dicitur, ecclesia directe prohi 
+          <lb ed="#G" n="55"/>bet communicationem cum excommunicato in diui 
+          <lb ed="#G" n="56"/>pis, &amp; in crimine, ideo his duobus modis participans cum 
+          <lb ed="#G" n="57"/>excommunicato, mortallter peccat ex consequenti ve 
+          <lb ed="#G" n="58"/>ro, &amp; quasi indirecte prohibet communionem, quae alias 
+          <lb ed="#G" n="59"/>legitime fieri poterat in actibus humanis, &amp; ideo in his 
+          <lb ed="#G" n="60"/>communicans excommunicato simpliciter, &amp; sine con 
+          <lb ed="#G" n="61"/>temptu ecclesie, non peccat mortaliter, sed uenialiter 
+          <lb ed="#G" n="62"/>quia talis non facit directe contra preceptum ecclesiae, 
+          <lb ed="#G" n="63"/>quamuis faciat praeter preceptum ecclesiae. 
+        </p>
+        <p xml:id="HuYgTa-259117-d1e1732">
+          <lb ed="#G" n="64"/>
+          <pc type="indent"/>Ad tertium dicendum, quod maior non est uera, ut 
+          <lb ed="#G" n="65"/>apparet ex his quae dixi <ref xml:id="HuYgTa-259117-Rd1e1740">dist. 9 arti.5.</ref> 
+        </p>
+        <p xml:id="HuYgTa-259117-d1e1745">
+          <lb ed="#G" n="66"/>
+          <pc type="indent"/>Ad quartum dicendum, quod ratione participationis 
+          <lb ed="#G" n="67"/>non potest quis excommunicari, nisi prius hoc fuerit non 
+          <lb ed="#G" n="68"/>minaliter admonitus, vt patet in nouellis, tam Cregorii. 
+          <lb ed="#G" n="69"/>quam Innocentii sed participans excommunicato con 
+          <lb ed="#G" n="70"/>tra huiusmodi admonitionem in speciali sibi factam, v 
+          <lb ed="#G" n="71"/>detur esse contumax, &amp;temerarie, scu ex contemptu ec 
+          <lb ed="#G" n="72"/>clesiae, excommunicato conmunicare, seu participare, &amp; 
+          <lb ed="#G" n="73"/>ideo n ortaliter peccat Et per consequens patet, quod 
+          <!--736.xml-->
+          <cb ed="#G" n="b"/>
+          <lb ed="#G" n="74"/>argumentum non concludit de eo, qui simpliciter parti 
+          <lb ed="#G" n="75"/>cipat sine temeritate 
+        </p>
+        <p xml:id="HuYgTa-259117-d1e1776">
+          <lb ed="#G" n="76"/>
+          <pc type="indent"/>Sed surrexerunt quidam alij modernis temporibus 
+          <lb ed="#G" n="77"/>nimis praesumptuosi, qui totaliter alterum extremum 
+          <lb ed="#G" n="78"/>tenuerunt contra iam dictam opinionem, dicentes, quod  
+          <lb ed="#G" n="79"/>nullus peccat in eo, quod excommunicato participat 
+        </p>
+        <p xml:id="HuYgTa-259117-d1e1789">
+          <lb ed="#G" n="80"/>
+          <pc type="indent"/>Poterant autem isti moueri his motiuis 
+          <lb ed="#G" n="81"/>1 Quia communicans ludaeo, vel Pagano non pec 
+          <lb ed="#G" n="82"/>cat: ergo nec communicans Christiano excommunica 
+          <lb ed="#G" n="83"/>to peccat. Antecedens patet. Probatur consequentia. 
+          <lb ed="#G" n="84"/>quia plus est se paratus ab vnitate ecclesiae ludaeus, vel 
+          <lb ed="#G" n="85"/>Paganus, quam excommunicatus Christianus 
+        </p>
+        <p xml:id="HuYgTa-259117-d1e1807">
+          <lb ed="#G" n="86"/>2 Praeterea, si participans excommunicato efficitur 
+          <lb ed="#G" n="87"/>excommunicatus, eadem ratione alii participantes cum 
+          <lb ed="#G" n="88"/>illo secundo excommunicato efficerentur
+          excommuni<lb ed="#G" n="89" break="no"/>cati, &amp; pari ratione participantes cum illis tertio excom 
+          <lb ed="#G" n="90"/>municatis efficerentur excommunicati. Et sic vno excun 
+          <lb ed="#G" n="91"/>municato, omnes homines efficerentur excommunica 
+          <lb ed="#G" n="92"/>ti, &amp; peccarent, quod est magnum inconueniens, etiam 
+          <lb ed="#G" n="93"/>cogitare: ergo &amp;c 
+        </p>
+        <p xml:id="HuYgTa-259117-d1e1827">
+          <lb ed="#G" n="94"/>3 Praeterea ex praecepto Dei tenemur indigenti sub 
+          <lb ed="#G" n="95"/>uenire: Sed excommunicatus potest, esse indigens,
+          im<lb ed="#G" n="96" break="no"/>mo qui magis in mundo excommunicantur, vt plurimum 
+          <lb ed="#G" n="97"/>sunt magis indigentes, cum ergo praeceptum ecclesie 
+          <lb ed="#G" n="98"/>non possit hominem obligare ad faciendum contra prae 
+          <lb ed="#G" n="99"/>ceptum Dei: ergo dato, quod indigens sit
+          excommuni<lb ed="#G" n="100" break="no"/>tatus, adhuc tenemur ei communicare subueniendo suae 
+          <lb ed="#G" n="101"/>necessitati 
+        </p>
+        <p xml:id="HuYgTa-259117-d1e1847">
+          <lb ed="#G" n="102"/>
+          <pc type="indent"/>Et ad maiorem vesaniam sui erroris addunt
+          ist<lb ed="#G" n="103" break="no"/>perditi homines, &amp; dicunt, quod excommunicatio non 
+          <lb ed="#G" n="104"/>sit aliud, quam clericorum fictio. Et istud potest colorari sic
+        </p>
+        <p xml:id="HuYgTa-259117-d1e1859">
+          <lb ed="#G" n="105"/>4 Nullus potest separari a dilectione, &amp; caritate fide 
+          <lb ed="#G" n="106"/>lium, ergo nullus in veritate potest excommunicari. An 
+          <lb ed="#G" n="107"/>tecedens patet: quia Christus precipit fidelibus, quod 
+          <lb ed="#G" n="108"/>etiam inimicos diligant, dicens, Diligite inimicos
+          ve<lb ed="#G" n="109" break="no"/>stros, &amp; benefacite his, qui vos oderunt. Consequentia 
+          <lb ed="#G" n="110"/>etiam patet quia excommunicatio est a fidelium
+          com<lb ed="#G" n="111" break="no"/>munione exclusio: sed fidelium communio est in carita 
+          <lb ed="#G" n="112"/>te, &amp; dilectione. 
+        </p>
+        <p xml:id="HuYgTa-259117-d1e1879">
+          <lb ed="#G" n="113"/>3 Praeterea, si excommunicatio esset aliquid, vel
+          es<lb ed="#G" n="114" break="no"/>set morbus, vel medicina. Si est morbus, tunc non est in 
+          <lb ed="#G" n="115"/>fligenda alicui, quia omnium salus est desideranda. Si est 
+          <lb ed="#G" n="116"/>medicina, tunc esset affectanda, quod falsum est, quia 
+          <lb ed="#G" n="117"/>nullus debet desiderare, quod sit excommunicatus 
+        </p>
+        <p xml:id="HuYgTa-259117-d1e1892">
+          <lb ed="#G" n="118"/>
+          <pc type="indent"/>Sed, quod isti haeretice loquantur, patet.  1 Quia 
+          <lb ed="#G" n="119"/>omnis opinio directe repugnans satrae scripturae est hae 
+          <lb ed="#G" n="120"/>retica; ista est huiusmodi; quia expresse inuenimus in sa 
+          <lb ed="#G" n="121"/>cra scriptura Apostolos tulisse sententiam excommuni 
+          <lb ed="#G" n="122"/>cationis contra aliquos rebelles peccatores. Nam Apo 
+          <lb ed="#G" n="123"/>stolus Paulus tulit sententiam excommunicationis con 
+          <lb ed="#G" n="124"/>tra illum, qui fornicatus fuit cum vxore patris sui, sic di 
+          <lb ed="#G" n="125"/>cens, Ego absens corpore, praesens autem spiritu, iam  
+          <lb ed="#G" n="126"/>iudicaui ut praesens eum, qui sic operatus est, in nomine 
+          <lb ed="#G" n="127"/>domini nostri lesu Christi, congregatis vobis, &amp; meo spiri 
+          <lb ed="#G" n="128"/>tu cum virtute dini lesu tradere huiusmodi homine Satha 
+          <lb ed="#G" n="129"/>nae in interitum carnis suae, vt spiritus saluus sit in die 
+          <lb ed="#G" n="130"/>domini nostri lesu Christi. 
+        </p>
+        <p xml:id="HuYgTa-259117-d1e1925">
+          <lb ed="#G" n="131"/>2 Item. ad Cal, excommunicauit illos, qui falsam di 
+          <lb ed="#G" n="132"/>ctrinam praedicant sacrae scripturae repugnantem, dicens. 
+          <lb ed="#G" n="133"/>Si quis vobis euangelix auerit praeter id, quod
+          accepi<lb ed="#G" n="134" break="no"/>stis, anathema sit. 
+        </p>
+        <p xml:id="HuYgTa-259117-d1e1936">
+          <lb ed="#G" n="135"/>
+          <pc type="indent"/>3 Item, idem Apostolus excommunicauit quosdam  
+          <lb ed="#G" n="136"/>apostatantes a fide, dicens, Quidam circa fidem nau 
+          <lb ed="#G" n="137"/>fragauerunt, ex quibus est Hyminaeus, &amp; Alexander, 
+          <lb ed="#G" n="138"/>quos tradidi Sathanae, ut discant non blasphemare. Vnde 
+          <lb ed="#G" n="139"/>tales haereticos quasi iam per ipsum excommunicatos, 
+          <lb ed="#G" n="140"/>mandat esse vitandos, ad Titum dicens Haereticum
+          ho<lb ed="#G" n="141" break="no"/>iinem post primam, &amp; secundam monitionem deuita 
+          <lb ed="#G" n="142"/>4 Et similiter loan. Euangelista in secunda sua cano 
+          <lb ed="#G" n="143"/>nica falsae doctrinae seminatores denunciat excommuni 
+          <lb ed="#G" n="144"/>catos, &amp; esse vitandos, dicens. Si quis uenit ad vos, &amp; 
+          <lb ed="#G" n="145"/>hanc doctrinam non affert, nolite cum recipere in
+          do<lb ed="#G" n="146" break="no"/>mo, nec aue dixeritis ei, qui enm dixerit illi aue, commun 
+          <!--737.xml-->
+          <pb ed="#G" n="P2_133-v"/>
+          <cb ed="#G" n="a"/>
+          <lb ed="#G" n="1"/>cat eius operibus malignis. Auctoritatem etiam excom. 
+          <lb ed="#G" n="2"/>municandi Apostoli, &amp; per consequens ceteri in eccle 
+          <lb ed="#G" n="3"/>sia Dei praelati videntur accepisse a domino Tesu
+          Chri<lb ed="#G" n="4" break="no"/>sto Mat. 1. vbi cum de eo, qui maudata contemnit ec 
+          <lb ed="#G" n="5"/>tlesiae saluator dixit ad D Petrum. Si autem ecclesia 
+          <lb ed="#G" n="6"/>non audierit, sit tibi sicut etfinicus, &amp; publicanus. Quo 
+          <lb ed="#G" n="7"/>dicto immediate conuertit sermonem ad Apostolos dam 
+          <lb ed="#G" n="8"/>ei auctoritatem ligandi vinculo excommunicationis hu 
+          <lb ed="#G" n="9"/>iusmodi rebelles, &amp; contumaces, &amp; soluendi ab
+          huius<lb ed="#G" n="10" break="no"/>modi vinculo dicens, Amen dico uobis, quemcum 
+          <lb ed="#G" n="11"/>que ligaueritis super terram, erit ligatus &amp; in caelis, &amp; 
+          <lb ed="#G" n="12"/>quemcumque solueritis super terram, erit solutus &amp; in 
+          <lb ed="#G" n="13"/>telis. Autoritates etiam valde multae Aug. &amp; cetero 
+          <lb ed="#G" n="14"/>rum doctorum, ac sanctorum, quae habentur in variis li 
+          <lb ed="#G" n="15"/>tis libri decretorum, possent adduci contra istos
+          teme<lb ed="#G" n="16" break="no"/>rarios, &amp; praesumptuosos haereticos, quas tamen non ad 
+          <lb ed="#G" n="17"/>duco causa breuitatis. 
+        </p>
+        <p xml:id="HuYgTa-259117-d1e2010">
+          <lb ed="#G" n="18"/>
+          <pc type="indent"/>Ad primum dicendum, quod consequentia est falsa 
+          <lb ed="#G" n="19"/>Ad consequentiae probationem dicendum, quod valet 
+          <lb ed="#G" n="20"/>ad nostrum propositum: quia ex hoc, quod ludaeus, vel 
+          <lb ed="#G" n="21"/>Paganus est magis extraneus ab vnitate ecclesiae: ideo 
+          <lb ed="#G" n="22"/>ecclesia non habet eum corrigere: Et hoc videtur innus 
+          <lb ed="#G" n="23"/>re Apostolus dicens Quid enim mihi de his, qui
+          fo<lb ed="#G" n="24" break="no"/>ris sunt, iudicare: quasi dicat, Non spectat ad personam  
+          <lb ed="#G" n="25"/>ecclesiasticam iudicare de his, qui sunt extra ecclesiam, 
+          <lb ed="#G" n="26"/>sed ille, qui est membrum ecclesiae debet corrigi per 
+          <lb ed="#G" n="27"/>praelatum ecclesiae &amp; hoc recto ordine, puta primo conn 
+          <lb ed="#G" n="28"/>rectione leniore citando, &amp; admonendo. Secundo con 
+          <lb ed="#G" n="29"/>rectione seueriori, puta excommunicando, &amp; a
+          partici<lb ed="#G" n="30" break="no"/>
+          <pc type="indent"/>atione fidelium separando. Sicut enim fidelis medicus 
+          <lb ed="#G" n="31"/>quando tanta est infectio, quod non prodest emplastrum 
+          <lb ed="#G" n="32"/>leue, tunc vtitur remediis asperioribus, &amp; quandoqua 
+          <lb ed="#G" n="33"/>rese cat unam partem, ne totum corrumpatur, &amp; inficia 
+          <lb ed="#G" n="34"/>tur, sed praeseruetur, &amp; ad ple niorem sanitatem reducatur;i 
+          <lb ed="#G" n="35"/>sic in proposito, quando aliquis contumax est post
+          ad<lb ed="#G" n="36" break="no"/>monitionem, tunc non restat aliud, quam quod acrius 
+          <lb ed="#G" n="37"/>resecetur a communione fidelium per sententiam
+          ex<lb ed="#G" n="38" break="no"/>com municationis. 
+        </p>
+        <p xml:id="HuYgTa-259117-d1e2063">
+          <lb ed="#G" n="39"/>
+          <pc type="indent"/>Ad secundum dicendum, quod excommunicatio,
+          ra<lb ed="#G" n="40" break="no"/>tione simplicis participationis, non extendit se vltra si 
+          <lb ed="#G" n="41"/>cundam personam, quia excommunicatus minori excu 
+          <lb ed="#G" n="42"/>municati one non est prohibitus a communione
+          fide<lb ed="#G" n="43" break="no"/>lium, licet sit prohibitus a perceptione sacramentorum 
+        </p>
+        <p xml:id="HuYgTa-259117-d1e2079">
+          <lb ed="#G" n="44"/>
+          <pc type="indent"/>Ad tertium dicendum, quod sicut non excommuni 
+          <lb ed="#G" n="45"/>catus in articulo necessitatis potest sine peccato
+          com<lb ed="#G" n="46" break="no"/>municare excomunicato ab eo petendo, emendo, &amp; ac 
+          <lb ed="#G" n="47"/>tipiendo talia, quibus occurritur, siue suceurritur suae ne 
+          <lb ed="#G" n="48"/>tessitati: sic excommunicato in tali necessitate posito, 
+          <lb ed="#G" n="49"/>quod ex praecepto caritatis homo tenetur ei subuenire, 
+          <lb ed="#G" n="50"/>tunc subueniens bona intentione, &amp; pure ex caritate, 
+          <lb ed="#G" n="51"/>nec contrahit excommunicationem, nec peccatum.
+          re<lb ed="#G" n="52" break="no"/>ducitur enim actus talis ad quintum, in quo dispensaui 
+          <lb ed="#G" n="53"/>ecclesia, quod tangit in verium superius dicto, cum
+          dici<lb ed="#G" n="54" break="no"/>tur, necesse 
+        </p>
+        <p xml:id="HuYgTa-259117-d1e2108">
+          <lb ed="#G" n="55"/>
+          <pc type="indent"/>Ad quartum nego consequentium. Ad probationem 
+          <lb ed="#G" n="56"/>dicendum, quod triplex est fidelium communio. Vna 
+          <lb ed="#G" n="57"/>mentalis, Alia sacramentalis, Et tertia corporalis. Pri 
+          <lb ed="#G" n="58"/>ma consistit in caritatiua dilectione. Secunda in
+          sacra<lb ed="#G" n="59" break="no"/>mentorum perceptione. Et tertia in conuictu, &amp;
+          exte<lb ed="#G" n="60" break="no"/>riori conuersatione. A prima communione non sepa 
+          <lb ed="#G" n="61"/>ratur homo per aliquam excommunicationem: quia etm 
+          <lb ed="#G" n="62"/>excommunicatos tenemur diligere. A secunda, licet non 
+          <lb ed="#G" n="63"/>a tertia, separatur homo per minorem
+          excommunica<lb ed="#G" n="64" break="no"/>tionem: quia existens in iminori excommunicatione pro 
+          <lb ed="#G" n="65"/>hibetur a sacramentorum perceptione, quamuis non  
+          <lb ed="#G" n="66"/>arceatur a fidelium conuictu, &amp; conuersatione. Sed ex- 
+          <lb ed="#G" n="67"/>communicatus maiori excommunicatione separatur a 
+          <lb ed="#G" n="68"/>secunda, &amp; tertia communione, dato, quod non separe 
+          <lb ed="#G" n="69"/>tur a prima. Et sic apparet, quod mutatur medium in il 
+          <lb ed="#G" n="70"/>la prob atione, quia maior est vera modo, quo dictum  
+          <lb ed="#G" n="71"/>est de secunda, &amp; tertia communione: sed minor
+          ex<lb ed="#G" n="72" break="no"/>presse loquitur de prima communione. 
+        </p>
+        <p xml:id="HuYgTa-259117-d1e2152">
+          <lb ed="#G" n="73"/>
+          <pc type="indent"/>Ad quintum dicendum, quod quantum est ex parto 
+          <!--737.xml-->
+          <cb ed="#G" n="b"/>
+          <lb ed="#G" n="74"/>ferentis sententiam excommunicationis, tunc
+          exconmu<lb ed="#G" n="75" break="no"/>nicatio debet dici medicina: quia sub hac intentione iu 
+          <lb ed="#G" n="76"/>dex debet ferre sententiam excommunicationis, vt
+          ex<lb ed="#G" n="77" break="no"/>com municatus emendetur, &amp; a sua pertinaci
+          rebellio<lb ed="#G" n="78" break="no"/>ne resipiscat, &amp; corrigatur, quod si fecerit
+          excommuni<lb ed="#G" n="79" break="no"/>catus, tunc etiam ex parte excommunicati debet dici 
+          <lb ed="#G" n="80"/>medicina. Si autem excommunicatus non corrigitur, &amp;  
+          <lb ed="#G" n="81"/>tamquam inobediens medico ingerit se temerarte
+          diui<lb ed="#G" n="82" break="no"/>nis officiis, &amp; fidelium communionibus sibi prohibitis,  
+          <lb ed="#G" n="83"/>tunc taliter facienti excommunicatio est morbus. Nec 
+          <lb ed="#G" n="84"/>mirum: quia raro est aliqua medicina ita bona, quin ex 
+          <lb ed="#G" n="85"/>eius abuium contra mandatum medici commisso, mor 
+          <lb ed="#G" n="86"/>bus possit augeri: sed cum dicitur, si est medicina, tunc 
+          <lb ed="#G" n="87"/>est affectanda, ista non est vera: quia quando quis potest 
+          <lb ed="#G" n="88"/>adipisci sanitatem sine medicina mordente, tunc huius 
+          <lb ed="#G" n="89"/>modi medicina non est appetenda; sic autem est in pro 
+          <lb ed="#G" n="90"/>posito. Propter hoc enim praemittitur citatio, &amp; admo 
+          <lb ed="#G" n="91"/>nitio, quatenus citatus se excuset, vel post citationem 
+          <lb ed="#G" n="92"/>dmonitus componat, antequam excommunicetur pro 
+          <lb ed="#G" n="93"/>sua contumacia: &amp; ideo, si vult, tunc potest sanari ante 
+          <lb ed="#G" n="94"/>quam excommunicetur, vel in sanitate manere, sine ex 
+          <lb ed="#G" n="95"/>communicatione. 
+        </p>
+        <p xml:id="HuYgTa-259117-d1e2211">
+          <lb ed="#G" n="96"/>
+          <pc type="indent"/>Forte dicetur, quod aliquis pauper citatur pro soluen 
+          <lb ed="#G" n="97"/>dis debitis, quae soluere non potest: ideo talis non potest 
+          <lb ed="#G" n="98"/>praeuenire excommunicationem 
+        </p>
+        <p xml:id="HuYgTa-259117-d1e2222">
+          <lb ed="#G" n="99"/>
+          <pc type="indent"/>Praeterea, forte citatur ad respondendum illi, cu ini 
+          <lb ed="#G" n="100"/>hil tenetur; ideo non curat parere coram iudice. 
+        </p>
+        <p xml:id="HuYgTa-259117-d1e2232">
+          <lb ed="#G" n="101"/>
+          <pc type="indent"/>Ad primum dicendum, quod licet non possit
+          solue<lb ed="#G" n="102" break="no"/>re: tamen potest, si vult, excommunicationem praeueni 
+          <lb ed="#G" n="103"/>re: quia si declarauerit coram iudice, quod non habeat 
+          <lb ed="#G" n="104"/>ad praesens, vnde possit soluere, &amp; curationem fideiusso 
+          <lb ed="#G" n="105"/>riam, vel iuratoriam praestiterit de hoc, quod soluat quam 
+          <lb ed="#G" n="106"/>to citius pessit, tunc iudex non debet eum excommu 
+          <lb ed="#G" n="107"/>nicare, immo si haec fecerit, etiam postquam excom 
+          <lb ed="#G" n="108"/>municatus est, iudex tenetur sententiam relaxare, vt ex 
+          <lb ed="#G" n="109"/>presse habetur in iure¬ 
+        </p>
+        <p xml:id="HuYgTa-259117-d1e2256">
+          <lb ed="#G" n="110"/>Ad secundum dicendum, quod quamuis nihil tenea 
+          <lb ed="#G" n="111"/>tur illi tamen debet parere, &amp; coram iudice citante sua 
+          <lb ed="#G" n="112"/>innocentiam declarare, alias pro contumacia potest iu 
+          <lb ed="#G" n="113"/>ste excommunicari. 
+        </p>
+        <p xml:id="HuYgTa-259117-d1e2267">
+          <lb ed="#G" n="114"/>
+          <pc type="indent"/>Forte dices, quod multum distat a iudice : propter. 
+          <lb ed="#G" n="115"/>quod magnas oporteret eum facere expensas, si debe 
+          <lb ed="#G" n="116"/>ret comparere. 
+        </p>
+        <p xml:id="HuYgTa-259117-d1e2278">
+          <lb ed="#G" n="117"/>
+          <pc type="indent"/>Respondeo, propter hoc non debet omittere, quin 
+          <lb ed="#G" n="118"/>compareat: quia declarata sua innocentia, tunc iudex 
+          <lb ed="#G" n="119"/>tenetur partem aduersam in huiusmodi expensis con 
+          <lb ed="#G" n="120"/>demnare, &amp; istum innocentem reddere immunem ab 
+          <lb ed="#G" n="121"/>omni damno.¬ 
+        </p>
+        <p xml:id="HuYgTa-259117-d1e2294">
+          <lb ed="#G" n="122"/>
+          <pc type="indent"/>Ad argumentum principale patet per ea, quae dicta 
+          <lb ed="#G" n="123"/>sunt in primo articulo.  
+        </p>
+        <p xml:id="HuYgTa-259117-d1e2303">
+          <lb ed="#G" n="124"/>
+          <pc type="indent"/>Ad argumentum in contrarium neganda est conse 
+          <lb ed="#G" n="125"/>quentia: quia Apostolis non solum datae sunt claues or 
+          <lb ed="#G" n="126"/>dinis, quae conueniunt sacerdoti verum etiam claues 
+          <lb ed="#G" n="127"/>iurisdictionis, quae possunt conuenire talibus, qui non  
+          <lb ed="#G" n="128"/>sunt sacerdotes; 
+        </p>
+        <p xml:id="HuYgTa-259117-d1e2320">
+          <lb ed="#G" n="129"/>Ad probationem dicendum, quod licet soli sacet 
+          <lb ed="#G" n="130"/>dotes sint Apostolorum suceessores in his, 
+          <lb ed="#G" n="131"/>quae secundum ecclesiasticam dignita 
+          <lb ed="#G" n="132"/>tem respiciunt claues ordinis: 
+          <lb ed="#G" n="133"/>tamen aliqui qui non  
+          <lb ed="#G" n="134"/>unt sacerdotes,  
+          <lb ed="#G" n="135"/>possunt esse Apostolorum suceessores quan 
+          <lb ed="#G" n="136"/>tum ad ea, quae respiciunt
+          ecclesia<lb ed="#G" n="137" break="no"/>sticam dignitatem, secun 
+          <lb ed="#G" n="138"/>dum claues iurisdi 
+          <lb ed="#G" n="139"/>ctionis.
+        </p>
+      </div>
+    </body>
+  </text>
 </TEI>

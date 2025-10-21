@@ -1,128 +1,128 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Circa textum</title>
-            <author ref="#ThomasStrasbourg">Thomas of Strasbourg</author>
-            <respStmt>
-               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
-               <resp>Transcription Editor</resp>
-               <resp>TEI Encoder</resp>
-            </respStmt>
-         </titleStmt>
-         <editionStmt>
-            <edition n="0.0.0-dev">
-               <title>Circa textum</title>
-               <date when="2020-11-26">November 26, 2020</date>
-            </edition>
-         </editionStmt>
-         <publicationStmt>
-            <authority>SCTA</authority>
-            <availability status="free">
-               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
-               </p>
-            </availability>
-         </publicationStmt>
-         <sourceDesc>
-            <listWit>
-               <witness xml:id="G" n="cod-TxxxqU">Genoa 1585</witness>
-            </listWit>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
-         <editorialDecl>
-            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
-       guidelines for a diplomatic edition.</p>
-         </editorialDecl>
-      </encodingDesc>
-      <revisionDesc status="draft">
-         <listChange>
-            <change when="2020-11-26" status="draft" n="0.0.0">
-               <p>Created file for the first time.</p>
-            </change>
-         </listChange>
-      </revisionDesc>
-   </teiHeader>
-   <text xml:lang="la">
-      <front>
-         <div xml:id="starts-on">
-           <pb ed="#G" n="P2_128-v"/>
-            <cb ed="#G" n="a"/>
-         </div>
-      </front>
-      <body>
-         <div xml:id="HuYgTa-257373"><!-- HuYgTa-l4d18ct1 -->
-            <head xml:id="HuYgTa-257373-Hd1e108">Circa textum</head>
-            <p xml:id="HuYgTa-257373-d1e111">
-               <lb ed="#G" n="89"/>
-               <pc type="indent"/>DISTINCTIO NVIII 
-      <lb ed="#G" n="90"/>Resoluta huius distinctionis, diuuisio, mn qua Mini 
-      <lb ed="#G" n="91"/>
-               <pc type="indent"/>strorum poenitentiae
-      Aucto<lb ed="#G" n="92" break="no"/>
-               <pc type="indent"/>ritas dectaratir.
-    </p>
-            <p xml:id="HuYgTa-257373-d1e129">
-               <lb ed="#G" n="93"/>IC Quaeri solet. Postquam
-      Magi<lb ed="#G" n="94" break="no"/>
-               <pc type="indent"/>ster determinauit de numero, &amp;  
-      <lb ed="#G" n="95"/>perfectione partium penitentiam 
-      <lb ed="#G" n="96"/>sacramentalem constituentium; 
-      <lb ed="#G" n="97"/>nuc incipit determinare de aucte 
-      <lb ed="#G" n="98"/>ritate ministrorum poenitentian 
-      <lb ed="#G" n="99"/>iniungentium. Et diuiditur in du 
-      <lb ed="#G" n="100"/>il as partes, quia primo agit de
-      sa<lb ed="#G" n="101" break="no"/>ceroetalium clauium potestate, &amp; vsitatione Secundi 
-      <lb ed="#G" n="102"/>de eiusdem potestatis collatione, ibi, Postquam ostensum 
-      <lb ed="#G" n="103"/>est. Prima in duas: quia primo ostendit qualiter
-      peeca<lb ed="#G" n="104" break="no"/>tor absoluitur in spirituali iudicio. Secundo innuit, quot 
-      <lb ed="#G" n="105"/>in peccatore est aliquid, quod tollitur a solo Deo, ibi, 
-      <lb ed="#G" n="106"/>Hic quaeritur, quae sit illa Prima in duas: quia primo in 
-      <lb ed="#G" n="107"/>quirit, quae sit potestas ligandi, &amp; soluendi. Secundo 
-      <lb ed="#G" n="108"/>ostendit, quod huiusmodi ligationis, &amp; solutionis, sunt 
-      <lb ed="#G" n="109"/>diuersi modi, ibi. Non autem hoc sacerdotibus. Prima 
-      <lb ed="#G" n="110"/>in duas: quia primo inquirit de ecclesiae potestate. Secu 
-      <lb ed="#G" n="111"/>do de huiusmodi potestatis vsu, seu faecunditate, ibi, Sec 
-      <lb ed="#G" n="112"/>quaeritur, vtrum. Prima in duas: quia primo proponit 
-      <lb ed="#G" n="113"/>quaestionem de potestate, &amp; usu clauium in generali 
-      <lb ed="#G" n="114"/>Secundo tangit de huiusmodi potestate, &amp; usu in specia 
-      <lb ed="#G" n="115"/>li, ibi, Claues iustae sunt, 
-    </p>
-            <p xml:id="HuYgTa-257373-d1e184">
-               <lb ed="#G" n="116"/>
-               <pc type="indent"/>Sequitur illa pars, Sed quaeritur, vtrum. Et diuiditur 
-      <lb ed="#G" n="117"/>in duas partes: quia primo circa usum, &amp; feecunditatem  
-      <lb ed="#G" n="118"/>sacerdotalis potestatis mouet quaestionem. Secundo. 
-      <lb ed="#G" n="119"/>circa quaesitum recitat duplicem opinionem; ibi.
-      Qui<lb ed="#G" n="120" break="no"/>dam arbitrati sunt. Et haec in duas: quia primo recitat 
-      <lb ed="#G" n="121"/>opinionem improband am. Secundo opinionem aliam 
-      <lb ed="#G" n="122"/>approbandam, ibi, Alii vero dicunt. Et haec in duas; 
-      <lb ed="#G" n="123"/>quia primo recitat illam opinionem veriorem, &amp; remo 
-      <lb ed="#G" n="124"/>uet quendam errorem, ibi; Nec ideo tamen. Sequitur 
-      <lb ed="#G" n="125"/>illa pars, Non hoc autem sacerdotibus: Et
-      diuidi<lb ed="#G" n="126" break="no"/>tur in tres partes: quia primo ostendit,
-      quomo<lb ed="#G" n="127" break="no"/>
-               <pc type="indent"/>do sacerdos absoluit, &amp; ligat quo ad
-      culpam<lb ed="#G" n="128" break="no"/>
-               <pc type="indent"/>Secundo, quomodo hoc idem facit quo 
-      <lb ed="#G" n="129"/>
-               <pc type="indent"/>ad poenam. Et tertio, quomodo 
-      <lb ed="#G" n="130"/>
-               <pc type="indent"/>Deus approbat utramque 
-      <lb ed="#G" n="131"/>
-               <pc type="indent"/>sententiam: Secunda, 
-      <lb ed="#G" n="132"/>
-               <pc type="indent"/>ibi; Eigant quo- 
-      <lb ed="#G" n="133"/>
-               <pc type="indent"/>que Tertia 
-      <lb ed="#G" n="134"/>ibi, Secundum hos. Et haec est sententia 
-      <lb ed="#G" n="135"/>
-               <pc type="indent"/>istius 1 S. distinct. in generali, circa 
-      <lb ed="#G" n="136"/>
-               <pc type="indent"/>quam quaero in speciali. 
-    </p>
-         </div>
-      </body>
-   </text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Circa textum</title>
+        <author ref="#ThomasStrasbourg">Thomas of Strasbourg</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Circa textum</title>
+          <date when="2020-11-26">November 26, 2020</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="G" n="cod-TxxxqU">Genoa 1585</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2020-11-26" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#G" n="P2_128-v"/>
+        <cb ed="#G" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="HuYgTa-257373"><!-- HuYgTa-l4d18ct1 -->
+        <head xml:id="HuYgTa-257373-Hd1e108">Circa textum</head>
+        <p xml:id="HuYgTa-257373-d1e111">
+          <lb ed="#G" n="89"/>
+          <pc type="indent"/>DISTINCTIO NVIII 
+          <lb ed="#G" n="90"/>Resoluta huius distinctionis, diuuisio, mn qua Mini 
+          <lb ed="#G" n="91"/>
+          <pc type="indent"/>strorum poenitentiae
+          Aucto<lb ed="#G" n="92" break="no"/>
+          <pc type="indent"/>ritas dectaratir.
+        </p>
+        <p xml:id="HuYgTa-257373-d1e129">
+          <lb ed="#G" n="93"/>HIC Quaeri solet. Postquam
+          Magi<lb ed="#G" n="94" break="no"/>
+          <pc type="indent"/>ster determinauit de numero, &amp;  
+          <lb ed="#G" n="95"/>perfectione partium penitentiam 
+          <lb ed="#G" n="96"/>sacramentalem constituentium; 
+          <lb ed="#G" n="97"/>nuc incipit determinare de aucte 
+          <lb ed="#G" n="98"/>ritate ministrorum poenitentian 
+          <lb ed="#G" n="99"/>iniungentium. Et diuiditur in du 
+          <lb ed="#G" n="100"/>il as partes, quia primo agit de
+          sa<lb ed="#G" n="101" break="no"/>ceroetalium clauium potestate, &amp; vsitatione Secundi 
+          <lb ed="#G" n="102"/>de eiusdem potestatis collatione, ibi, Postquam ostensum 
+          <lb ed="#G" n="103"/>est. Prima in duas: quia primo ostendit qualiter
+          peeca<lb ed="#G" n="104" break="no"/>tor absoluitur in spirituali iudicio. Secundo innuit, quot 
+          <lb ed="#G" n="105"/>in peccatore est aliquid, quod tollitur a solo Deo, ibi, 
+          <lb ed="#G" n="106"/>Hic quaeritur, quae sit illa Prima in duas: quia primo in 
+          <lb ed="#G" n="107"/>quirit, quae sit potestas ligandi, &amp; soluendi. Secundo 
+          <lb ed="#G" n="108"/>ostendit, quod huiusmodi ligationis, &amp; solutionis, sunt 
+          <lb ed="#G" n="109"/>diuersi modi, ibi. Non autem hoc sacerdotibus. Prima 
+          <lb ed="#G" n="110"/>in duas: quia primo inquirit de ecclesiae potestate. Secu 
+          <lb ed="#G" n="111"/>do de huiusmodi potestatis vsu, seu faecunditate, ibi, Sec 
+          <lb ed="#G" n="112"/>quaeritur, vtrum. Prima in duas: quia primo proponit 
+          <lb ed="#G" n="113"/>quaestionem de potestate, &amp; usu clauium in generali 
+          <lb ed="#G" n="114"/>Secundo tangit de huiusmodi potestate, &amp; usu in specia 
+          <lb ed="#G" n="115"/>li, ibi, Claues iustae sunt, 
+        </p>
+        <p xml:id="HuYgTa-257373-d1e184">
+          <lb ed="#G" n="116"/>
+          <pc type="indent"/>Sequitur illa pars, Sed quaeritur, vtrum. Et diuiditur 
+          <lb ed="#G" n="117"/>in duas partes: quia primo circa usum, &amp; feecunditatem  
+          <lb ed="#G" n="118"/>sacerdotalis potestatis mouet quaestionem. Secundo. 
+          <lb ed="#G" n="119"/>circa quaesitum recitat duplicem opinionem; ibi.
+          Qui<lb ed="#G" n="120" break="no"/>dam arbitrati sunt. Et haec in duas: quia primo recitat 
+          <lb ed="#G" n="121"/>opinionem improband am. Secundo opinionem aliam 
+          <lb ed="#G" n="122"/>approbandam, ibi, Alii vero dicunt. Et haec in duas; 
+          <lb ed="#G" n="123"/>quia primo recitat illam opinionem veriorem, &amp; remo 
+          <lb ed="#G" n="124"/>uet quendam errorem, ibi; Nec ideo tamen. Sequitur 
+          <lb ed="#G" n="125"/>illa pars, Non hoc autem sacerdotibus: Et
+          diuidi<lb ed="#G" n="126" break="no"/>tur in tres partes: quia primo ostendit,
+          quomo<lb ed="#G" n="127" break="no"/>
+          <pc type="indent"/>do sacerdos absoluit, &amp; ligat quo ad
+          culpam<lb ed="#G" n="128" break="no"/>
+          <pc type="indent"/>Secundo, quomodo hoc idem facit quo 
+          <lb ed="#G" n="129"/>
+          <pc type="indent"/>ad poenam. Et tertio, quomodo 
+          <lb ed="#G" n="130"/>
+          <pc type="indent"/>Deus approbat utramque 
+          <lb ed="#G" n="131"/>
+          <pc type="indent"/>sententiam: Secunda, 
+          <lb ed="#G" n="132"/>
+          <pc type="indent"/>ibi; Eigant quo- 
+          <lb ed="#G" n="133"/>
+          <pc type="indent"/>que Tertia 
+          <lb ed="#G" n="134"/>ibi, Secundum hos. Et haec est sententia 
+          <lb ed="#G" n="135"/>
+          <pc type="indent"/>istius 1 S. distinct. in generali, circa 
+          <lb ed="#G" n="136"/>
+          <pc type="indent"/>quam quaero in speciali. 
+        </p>
+      </div>
+    </body>
+  </text>
 </TEI>

@@ -1,133 +1,133 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Circa textum</title>
-            <author ref="#ThomasStrasbourg">Thomas of Strasbourg</author>
-            <respStmt>
-               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
-               <resp>Transcription Editor</resp>
-               <resp>TEI Encoder</resp>
-            </respStmt>
-         </titleStmt>
-         <editionStmt>
-            <edition n="0.0.0-dev">
-               <title>Circa textum</title>
-               <date when="2020-11-26">November 26, 2020</date>
-            </edition>
-         </editionStmt>
-         <publicationStmt>
-            <authority>SCTA</authority>
-            <availability status="free">
-               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
-               </p>
-            </availability>
-         </publicationStmt>
-         <sourceDesc>
-            <listWit>
-               <witness xml:id="G" n="cod-TxxxqU">Genoa 1585</witness>
-            </listWit>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
-         <editorialDecl>
-            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
-       guidelines for a diplomatic edition.</p>
-         </editorialDecl>
-      </encodingDesc>
-      <revisionDesc status="draft">
-         <listChange>
-            <change when="2020-11-26" status="draft" n="0.0.0">
-               <p>Created file for the first time.</p>
-            </change>
-         </listChange>
-      </revisionDesc>
-   </teiHeader>
-   <text xml:lang="la">
-      <front>
-         <div xml:id="starts-on">
-            <pb ed="#G" n="92-r"/>
-            <cb ed="#G" n="b"/>
-         </div>
-      </front>
-      <body>
-         <div xml:id="HuYgTa-e70116"><!-- HuYgTa-l1d28et29ct1 -->
-            <head xml:id="HuYgTa-e70116-Hd1e108">Circa textum</head>
-            <p xml:id="HuYgTa-e70116-d1e111">
-               <lb ed="#G" n="127"/>
-               <pc type="indent"/>DISTINCTIO XXVIII. XXIX 
-      <lb ed="#G" n="128"/>Aperta, &amp; vnitersalis diuisio harum distinctionum, 
-      <lb ed="#G" n="129"/>ui quibus de proprietatibus in personis diuinis. 
-      <lb ed="#G" n="130"/>inexistentibus pulcbre peragitur 
-    </p>
-            <p xml:id="HuYgTa-e70116-d1e124">
-               <lb ed="#G" n="131"/>
-               <pc type="indent"/>RETEREA CONSIDERARI opoR 
-      <lb ed="#G" n="132"/>
-               <pc type="indent"/>TET. Postquam magister tractauit 
-      <lb ed="#G" n="133"/>de proprietatibus personas
-      consti<lb ed="#G" n="134" break="no"/>tuentibus; hic tractat de
-      proprie<lb ed="#G" n="135" break="no"/>atibus personis inexistentibus. Et 
-      <lb ed="#G" n="136"/>diuiditur in duas partes: nam
-      pri<lb ed="#G" n="137" break="no"/>mo tractat de huiusmodi aeternis 
-      <lb ed="#G" n="138"/>notionibus; Sccundo incidenter 
-      <!--223.xml-->
-      <pb ed="#G" n="92-v"/>
-               <cb ed="#G" n="a"/>
-               <lb ed="#G" n="1"/>determinat de quibusdam teporalibus relationibus ibi, 
-      <lb ed="#G" n="2"/>Sunt enim quaedam nomina &amp;c Prima in duas partes, se 
-      <lb ed="#G" n="3"/>cundum, quod principaliter duae sunt huiusmodi notiones 
-      <lb ed="#G" n="4"/>personas non constituentes, scilicet inmascibilitas, &amp; com 
-      <lb ed="#G" n="5"/>munis notio, seu actiua spiratio. Primo igitur magister 
-      <lb ed="#G" n="6"/>determinat de innascibilitate, Secundo de communi
-      no<lb ed="#G" n="7" break="no"/>tione ibi, est praeterea aliud nomen. Prima in duas:
-      qui<lb ed="#G" n="8" break="no"/>primo tractat de proprietate ingeniti, Secundo de
-      pro<lb ed="#G" n="9" break="no"/>prietate ipsius geniti ibi, Sciendum quoque est; Prima ij 
-      <lb ed="#G" n="10"/>duas; nam, primo tractat de ipgeniti conditione,
-      Secun<lb ed="#G" n="11" break="no"/>do de geniti ab ingenito distinctione ibi, lllud etiam tac 
-      <lb ed="#G" n="12"/>ri. Prima in tres: quia primo magister ostendit, quod solus pr 
-      <lb ed="#G" n="13"/>ter dicitur ingenitus, Secundo inquirit, vtrum solus patet 
-      <lb ed="#G" n="14"/>dici debeat non genitus, Tertio ostendit, quoe innascibilitas 
-      <lb ed="#G" n="15"/>est illa proprietas, a qua pater dicitur ingenitus. Secund 
-      <lb ed="#G" n="16"/>ibi, ldeo quaeri solet, Tertia ibi; Si autem vis scire.
-      Sequi<lb ed="#G" n="17" break="no"/>tur illa pars, lllud etiam taceri; in qua primo remouet Ai 
-      <lb ed="#G" n="18"/>rianorum falsam opinionem, Secundo mouet incidentem 
-      <lb ed="#G" n="19"/>quaestionem, Tertio apponit suam responsionem.
-      Secun<lb ed="#G" n="20" break="no"/>da ibi, Praeterea quaeri solet. Tertia ibi, Ad quod dicimus 
-      <lb ed="#G" n="21"/>Tunc sequitur illa pars; Sciendum quoque, &amp; diuiditur 
-      <lb ed="#G" n="22"/>in tres partes: nam primo tangendo quasdam proprieta 
-      <lb ed="#G" n="23"/>tes filij, puta quod dicitur verbum, imago &amp; iapientia ge 
-      <lb ed="#G" n="24"/>nita, magister quaerit, vtrum ibi sapientia praedicetur
-      re<lb ed="#G" n="25" break="no"/>latiue, siue personaliter. Secundo ostendit, quod in illo 
-      <lb ed="#G" n="26"/>iensu sapientia accipitur notionaliter, siue personaliter 
-      <lb ed="#G" n="27"/>Et tertio ostendit, qued imago quandoque accipitur
-      essen<lb ed="#G" n="28" break="no"/>tialiter. Secunda ibi, Caue lector. Tertia ibi, lllud etiam 
-      <lb ed="#G" n="29"/>sciri oportet. Sequitur pars illa; est preterea aliud nomen 
-      <lb ed="#G" n="30"/>&amp;c. quae est principium 25. distinctionis, in qua magister 
-      <lb ed="#G" n="31"/>tractat de communi spiratione; &amp; quia pater &amp; filius in 
-      <lb ed="#G" n="32"/>hac communi notione conueniunt prout sunt vnu
-      prin<lb ed="#G" n="33" break="no"/>cipium spiritus sancti, ideo magister duo facit. Quia pri 
-      <lb ed="#G" n="34"/>mo ostendit, quod hoc nomen principium multipliciter 
-      <lb ed="#G" n="35"/>dicitur, Secundo respectu quorum in proposito accipitur,  
-      <lb ed="#G" n="36"/>ibi, Et pater ab aeterno; Et haec in duas; nam primo
-      magi<lb ed="#G" n="37" break="no"/>ster praemittit suam intentionem, Secundo declarat cam, 
-      <lb ed="#G" n="38"/>ibi, Omnium ergo, quae sunt &amp;c. Et haec in duas, secundum 
-      <lb ed="#G" n="39"/>quod duo praemisit, scilicet quod Deus est principium ad 
-      <lb ed="#G" n="40"/>intra aeternaliter, &amp; ad extra temporaliter. lgitur primo 
-      <lb ed="#G" n="41"/>probat patrem, filium, &amp; spiritum sanctum in temporo 
-      <lb ed="#G" n="42"/>fuisse vnum principium totius vniuersi, Secundo ostendit 
-      <lb ed="#G" n="43"/>patrem ab aeterno fuisse principium filij, &amp; patrem, &amp; filiu 
-      <lb ed="#G" n="44"/>principium spiritus sancti, ibi, Deinde in eodem. Et haec 
-      <lb ed="#G" n="45"/>in tres: quia primo ostendit patrem, &amp; filium esse vnum 
-      <lb ed="#G" n="46"/>principium, quo ad spiritus sancti productionem, Secundi 
-      <lb ed="#G" n="47"/>ostendit hoc conuenire patri, &amp; filio secundum vpam ci 
-      <lb ed="#G" n="48"/>munem notionem, Et tertio illius notionis inquirit
-      no<lb ed="#G" n="49" break="no"/>minalem expressionem: Secunda ibi. Ideo quaeri solet 
-      <lb ed="#G" n="50"/>Tertia ibi, Si vero quaeritur. Circa istas duas distinctiones 
-      <lb ed="#G" n="51"/>quaero hanc quaestionem. 
-    </p>
-         </div>
-      </body>
-   </text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Circa textum</title>
+        <author ref="#ThomasStrasbourg">Thomas of Strasbourg</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Circa textum</title>
+          <date when="2020-11-26">November 26, 2020</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="G" n="cod-TxxxqU">Genoa 1585</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2020-11-26" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#G" n="92-r"/>
+        <cb ed="#G" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="HuYgTa-e70116"><!-- HuYgTa-l1d28et29ct1 -->
+        <head xml:id="HuYgTa-e70116-Hd1e108">Circa textum</head>
+        <p xml:id="HuYgTa-e70116-d1e111">
+          <lb ed="#G" n="127"/>
+          <pc type="indent"/>DISTINCTIO XXVIII. XXIX 
+          <lb ed="#G" n="128"/>Aperta, &amp; vnitersalis diuisio harum distinctionum, 
+          <lb ed="#G" n="129"/>ui quibus de proprietatibus in personis diuinis. 
+          <lb ed="#G" n="130"/>inexistentibus pulcbre peragitur 
+        </p>
+        <p xml:id="HuYgTa-e70116-d1e124">
+          <lb ed="#G" n="131"/>
+          <pc type="indent"/>RETEREA CONSIDERARI opoR 
+          <lb ed="#G" n="132"/>
+          <pc type="indent"/>TET. Postquam magister tractauit 
+          <lb ed="#G" n="133"/>de proprietatibus personas
+          consti<lb ed="#G" n="134" break="no"/>tuentibus; hic tractat de
+          proprie<lb ed="#G" n="135" break="no"/>atibus personis inexistentibus. Et 
+          <lb ed="#G" n="136"/>diuiditur in duas partes: nam
+          pri<lb ed="#G" n="137" break="no"/>mo tractat de huiusmodi aeternis 
+          <lb ed="#G" n="138"/>notionibus; Sccundo incidenter 
+          <!--223.xml-->
+          <pb ed="#G" n="92-v"/>
+          <cb ed="#G" n="a"/>
+          <lb ed="#G" n="1"/>determinat de quibusdam teporalibus relationibus ibi, 
+          <lb ed="#G" n="2"/>Sunt enim quaedam nomina &amp;c Prima in duas partes, se 
+          <lb ed="#G" n="3"/>cundum, quod principaliter duae sunt huiusmodi notiones 
+          <lb ed="#G" n="4"/>personas non constituentes, scilicet inmascibilitas, &amp; com 
+          <lb ed="#G" n="5"/>munis notio, seu actiua spiratio. Primo igitur magister 
+          <lb ed="#G" n="6"/>determinat de innascibilitate, Secundo de communi
+          no<lb ed="#G" n="7" break="no"/>tione ibi, est praeterea aliud nomen. Prima in duas:
+          qui<lb ed="#G" n="8" break="no"/>primo tractat de proprietate ingeniti, Secundo de
+          pro<lb ed="#G" n="9" break="no"/>prietate ipsius geniti ibi, Sciendum quoque est; Prima ij 
+          <lb ed="#G" n="10"/>duas; nam, primo tractat de ipgeniti conditione,
+          Secun<lb ed="#G" n="11" break="no"/>do de geniti ab ingenito distinctione ibi, lllud etiam tac 
+          <lb ed="#G" n="12"/>ri. Prima in tres: quia primo magister ostendit, quod solus pr 
+          <lb ed="#G" n="13"/>ter dicitur ingenitus, Secundo inquirit, vtrum solus patet 
+          <lb ed="#G" n="14"/>dici debeat non genitus, Tertio ostendit, quoe innascibilitas 
+          <lb ed="#G" n="15"/>est illa proprietas, a qua pater dicitur ingenitus. Secund 
+          <lb ed="#G" n="16"/>ibi, ldeo quaeri solet, Tertia ibi; Si autem vis scire.
+          Sequi<lb ed="#G" n="17" break="no"/>tur illa pars, lllud etiam taceri; in qua primo remouet Ai 
+          <lb ed="#G" n="18"/>rianorum falsam opinionem, Secundo mouet incidentem 
+          <lb ed="#G" n="19"/>quaestionem, Tertio apponit suam responsionem.
+          Secun<lb ed="#G" n="20" break="no"/>da ibi, Praeterea quaeri solet. Tertia ibi, Ad quod dicimus 
+          <lb ed="#G" n="21"/>Tunc sequitur illa pars; Sciendum quoque, &amp; diuiditur 
+          <lb ed="#G" n="22"/>in tres partes: nam primo tangendo quasdam proprieta 
+          <lb ed="#G" n="23"/>tes filij, puta quod dicitur verbum, imago &amp; iapientia ge 
+          <lb ed="#G" n="24"/>nita, magister quaerit, vtrum ibi sapientia praedicetur
+          re<lb ed="#G" n="25" break="no"/>latiue, siue personaliter. Secundo ostendit, quod in illo 
+          <lb ed="#G" n="26"/>iensu sapientia accipitur notionaliter, siue personaliter 
+          <lb ed="#G" n="27"/>Et tertio ostendit, qued imago quandoque accipitur
+          essen<lb ed="#G" n="28" break="no"/>tialiter. Secunda ibi, Caue lector. Tertia ibi, lllud etiam 
+          <lb ed="#G" n="29"/>sciri oportet. Sequitur pars illa; est preterea aliud nomen 
+          <lb ed="#G" n="30"/>&amp;c. quae est principium 25. distinctionis, in qua magister 
+          <lb ed="#G" n="31"/>tractat de communi spiratione; &amp; quia pater &amp; filius in 
+          <lb ed="#G" n="32"/>hac communi notione conueniunt prout sunt vnu
+          prin<lb ed="#G" n="33" break="no"/>cipium spiritus sancti, ideo magister duo facit. Quia pri 
+          <lb ed="#G" n="34"/>mo ostendit, quod hoc nomen principium multipliciter 
+          <lb ed="#G" n="35"/>dicitur, Secundo respectu quorum in proposito accipitur,  
+          <lb ed="#G" n="36"/>ibi, Et pater ab aeterno; Et haec in duas; nam primo
+          magi<lb ed="#G" n="37" break="no"/>ster praemittit suam intentionem, Secundo declarat cam, 
+          <lb ed="#G" n="38"/>ibi, Omnium ergo, quae sunt &amp;c. Et haec in duas, secundum 
+          <lb ed="#G" n="39"/>quod duo praemisit, scilicet quod Deus est principium ad 
+          <lb ed="#G" n="40"/>intra aeternaliter, &amp; ad extra temporaliter. lgitur primo 
+          <lb ed="#G" n="41"/>probat patrem, filium, &amp; spiritum sanctum in temporo 
+          <lb ed="#G" n="42"/>fuisse vnum principium totius vniuersi, Secundo ostendit 
+          <lb ed="#G" n="43"/>patrem ab aeterno fuisse principium filij, &amp; patrem, &amp; filiu 
+          <lb ed="#G" n="44"/>principium spiritus sancti, ibi, Deinde in eodem. Et haec 
+          <lb ed="#G" n="45"/>in tres: quia primo ostendit patrem, &amp; filium esse vnum 
+          <lb ed="#G" n="46"/>principium, quo ad spiritus sancti productionem, Secundi 
+          <lb ed="#G" n="47"/>ostendit hoc conuenire patri, &amp; filio secundum vpam ci 
+          <lb ed="#G" n="48"/>munem notionem, Et tertio illius notionis inquirit
+          no<lb ed="#G" n="49" break="no"/>minalem expressionem: Secunda ibi. Ideo quaeri solet 
+          <lb ed="#G" n="50"/>Tertia ibi, Si vero quaeritur. Circa istas duas distinctiones 
+          <lb ed="#G" n="51"/>quaero hanc quaestionem. 
+        </p>
+      </div>
+    </body>
+  </text>
 </TEI>

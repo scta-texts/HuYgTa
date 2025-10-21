@@ -1,101 +1,101 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Circa textum 4</title>
-            <author ref="#ThomasStrasbourg">Thomas of Strasbourg</author>
-            <respStmt>
-               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
-               <resp>Transcription Editor</resp>
-               <resp>TEI Encoder</resp>
-            </respStmt>
-         </titleStmt>
-         <editionStmt>
-            <edition n="0.0.0-dev">
-               <title>Circa textum 4</title>
-               <date when="2020-11-26">November 26, 2020</date>
-            </edition>
-         </editionStmt>
-         <publicationStmt>
-            <authority>SCTA</authority>
-            <availability status="free">
-               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
-               </p>
-            </availability>
-         </publicationStmt>
-         <sourceDesc>
-            <listWit>
-               <witness xml:id="G" n="cod-TxxxqU">Genoa 1585</witness>
-            </listWit>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
-         <editorialDecl>
-            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
-       guidelines for a diplomatic edition.</p>
-         </editorialDecl>
-      </encodingDesc>
-      <revisionDesc status="draft">
-         <listChange>
-            <change when="2020-11-26" status="draft" n="0.0.0">
-               <p>Created file for the first time.</p>
-            </change>
-         </listChange>
-      </revisionDesc>
-   </teiHeader>
-   <text xml:lang="la">
-      <front>
-         <div xml:id="starts-on">
-            <pb ed="#G" n="-r"/>
-            <cb ed="#G" n="a"/>
-         </div>
-      </front>
-      <body>
-         <div xml:id="HuYgTa-d1e955"><!-- HuYgTa-l1prolct4 -->
-            <head xml:id="HuYgTa-d1e955-Hd1e108">Circa textum 4</head>
-            <p xml:id="HuYgTa-d1e955-d1e111">
-               <lb ed="#G" n="81"/>IN HAC AVTEM LTTERAE 
-      <lb ed="#G" n="82"/>particula, huiusce facultatis. 
-      <lb ed="#G" n="83"/>ordo insinuatur
-    </p>
-            <p xml:id="HuYgTa-d1e955-d1e120">
-               <lb ed="#G" n="84"/>HORVM IGITVR DEo
-      odibi<lb ed="#G" n="85" break="no"/>lem &amp;c. Postquam magister
-      osten<lb ed="#G" n="86" break="no"/>dit operis sui difficultatem, qua 
-      <lb ed="#G" n="87"/>reddit nos attentos: in ista parte 
-      <lb ed="#G" n="88"/>ostendit huius scientiae ordinem, quo 
-      <lb ed="#G" n="89"/>reddit nos dociles, &amp; studi osos. Et 
-      <lb ed="#G" n="90"/>diuiditur in duas partes. Nam
-      pri<lb ed="#G" n="91" break="no"/>mo ostendit processum istius scien 
-      <lb ed="#G" n="92"/>tiae esse debite ordinatum.
-      Secun<lb ed="#G" n="93" break="no"/>do reducit lectorem ad capitulorum ordinarium: ibi, 
-      <lb ed="#G" n="94"/>Vt autem quod quaeritur. Prima in duas. Quia
-      pri<lb ed="#G" n="95" break="no"/>mo innuit modi sui procedendi ordinationem.
-      Secun<lb ed="#G" n="96" break="no"/>do, quia nullus ita ordinate procedit, quin deficere
-      pos<lb ed="#G" n="97" break="no"/>sit: ideo magister desiderat legentium correctionem.
-      Se<lb ed="#G" n="98" break="no"/>cunda, ibi, In hoc autem tractatu. Prima diuiditur in 
-      <lb ed="#G" n="99"/>tres partes, quia primo, quo ad iam dicta praemittit suam 
-      <lb ed="#G" n="100"/>intentionem, Secundo adiungit dictorum epilogationem, 
-      <lb ed="#G" n="101"/>Et tertio, ex predictis infert vnam rationabilem
-      conclu<lb ed="#G" n="102" break="no"/>sionem. Secunda ibi, in quo dominicae. Tertia ibi, Non 
-      <lb ed="#G" n="103"/>igitur debet hic labor. Quantum ad primum, est
-      aduer<lb ed="#G" n="104" break="no"/>tendum: quia inordinatio in aliqua scientia, quandoque 
-      <lb ed="#G" n="105"/>ex quattuor contingit Primo, si in huiusmodi scientia 
-      <lb ed="#G" n="106"/>falsitas non impugnatur. Secundo, si veritas non
-      comme<lb ed="#G" n="107" break="no"/>datur. Tertio, si assumitur dubium, quod sufficienter non 
-      <lb ed="#G" n="108"/>robatur. Quarto, si partium suarum distinctio debite non 
-      <lb ed="#G" n="109"/>assignatur. Ergo per oppositum magister volens
-      ostende<lb ed="#G" n="110" break="no"/>re scientiam libri sententiarum fore nobiliter ordiuatam 
-      <lb ed="#G" n="111"/>quattuor facit. Primo namque ostendit, quod per ipsam falsi 
-      <lb ed="#G" n="112"/>tas impugnatur, Secundo, quod in ipsa veritas
-      exaltatur<lb ed="#G" n="113" break="no"/>Tertio, quod testimonijs veritatis sufficienter
-      roboratur<lb ed="#G" n="114" break="no"/>Quarto, quod partium suarum distinctio debite
-      assigna<lb ed="#G" n="115" break="no"/>tur. Secunda ibi, Et lucernam veritatis. Tertia, ibi, Ex testi 
-      <lb ed="#G" n="116"/>monijs veritatis. Quarta ibi, in quattuor libris distinctum, 
-      <lb ed="#G" n="117"/>Circa finem illius prologi quaero. 
-    </p>
-         </div>
-      </body>
-   </text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Circa textum 4</title>
+        <author ref="#ThomasStrasbourg">Thomas of Strasbourg</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Circa textum 4</title>
+          <date when="2020-11-26">November 26, 2020</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="G" n="cod-TxxxqU">Genoa 1585</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2020-11-26" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#G" n="-r"/>
+        <cb ed="#G" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="HuYgTa-d1e955"><!-- HuYgTa-l1prolct4 -->
+        <head xml:id="HuYgTa-d1e955-Hd1e108">Circa textum 4</head>
+        <p xml:id="HuYgTa-d1e955-d1e111">
+          <lb ed="#G" n="81"/>IN HAC AVTEM LTTERAE 
+          <lb ed="#G" n="82"/>particula, huiusce facultatis. 
+          <lb ed="#G" n="83"/>ordo insinuatur
+        </p>
+        <p xml:id="HuYgTa-d1e955-d1e120">
+          <lb ed="#G" n="84"/>HORVM IGITVR DEo
+          odibi<lb ed="#G" n="85" break="no"/>lem &amp;c. Postquam magister
+          osten<lb ed="#G" n="86" break="no"/>dit operis sui difficultatem, qua 
+          <lb ed="#G" n="87"/>reddit nos attentos: in ista parte 
+          <lb ed="#G" n="88"/>ostendit huius scientiae ordinem, quo 
+          <lb ed="#G" n="89"/>reddit nos dociles, &amp; studi osos. Et 
+          <lb ed="#G" n="90"/>diuiditur in duas partes. Nam
+          pri<lb ed="#G" n="91" break="no"/>mo ostendit processum istius scien 
+          <lb ed="#G" n="92"/>tiae esse debite ordinatum.
+          Secun<lb ed="#G" n="93" break="no"/>do reducit lectorem ad capitulorum ordinarium: ibi, 
+          <lb ed="#G" n="94"/>Vt autem quod quaeritur. Prima in duas. Quia
+          pri<lb ed="#G" n="95" break="no"/>mo innuit modi sui procedendi ordinationem.
+          Secun<lb ed="#G" n="96" break="no"/>do, quia nullus ita ordinate procedit, quin deficere
+          pos<lb ed="#G" n="97" break="no"/>sit: ideo magister desiderat legentium correctionem.
+          Se<lb ed="#G" n="98" break="no"/>cunda, ibi, In hoc autem tractatu. Prima diuiditur in 
+          <lb ed="#G" n="99"/>tres partes, quia primo, quo ad iam dicta praemittit suam 
+          <lb ed="#G" n="100"/>intentionem, Secundo adiungit dictorum epilogationem, 
+          <lb ed="#G" n="101"/>Et tertio, ex predictis infert vnam rationabilem
+          conclu<lb ed="#G" n="102" break="no"/>sionem. Secunda ibi, in quo dominicae. Tertia ibi, Non 
+          <lb ed="#G" n="103"/>igitur debet hic labor. Quantum ad primum, est
+          aduer<lb ed="#G" n="104" break="no"/>tendum: quia inordinatio in aliqua scientia, quandoque 
+          <lb ed="#G" n="105"/>ex quattuor contingit Primo, si in huiusmodi scientia 
+          <lb ed="#G" n="106"/>falsitas non impugnatur. Secundo, si veritas non
+          comme<lb ed="#G" n="107" break="no"/>datur. Tertio, si assumitur dubium, quod sufficienter non 
+          <lb ed="#G" n="108"/>robatur. Quarto, si partium suarum distinctio debite non 
+          <lb ed="#G" n="109"/>assignatur. Ergo per oppositum magister volens
+          ostende<lb ed="#G" n="110" break="no"/>re scientiam libri sententiarum fore nobiliter ordiuatam 
+          <lb ed="#G" n="111"/>quattuor facit. Primo namque ostendit, quod per ipsam falsi 
+          <lb ed="#G" n="112"/>tas impugnatur, Secundo, quod in ipsa veritas
+          exaltatur<lb ed="#G" n="113" break="no"/>Tertio, quod testimonijs veritatis sufficienter
+          roboratur<lb ed="#G" n="114" break="no"/>Quarto, quod partium suarum distinctio debite
+          assigna<lb ed="#G" n="115" break="no"/>tur. Secunda ibi, Et lucernam veritatis. Tertia, ibi, Ex testi 
+          <lb ed="#G" n="116"/>monijs veritatis. Quarta ibi, in quattuor libris distinctum, 
+          <lb ed="#G" n="117"/>Circa finem illius prologi quaero. 
+        </p>
+      </div>
+    </body>
+  </text>
 </TEI>

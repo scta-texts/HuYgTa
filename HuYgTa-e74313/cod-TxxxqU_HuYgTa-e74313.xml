@@ -1,549 +1,549 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Quaestio 1</title>
-            <author ref="#ThomasStrasbourg">Thomas of Strasbourg</author>
-            <respStmt>
-               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
-               <resp>Transcription Editor</resp>
-               <resp>TEI Encoder</resp>
-            </respStmt>
-         </titleStmt>
-         <editionStmt>
-            <edition n="0.0.0-dev">
-               <title>Quaestio 1</title>
-               <date when="2020-11-26">November 26, 2020</date>
-            </edition>
-         </editionStmt>
-         <publicationStmt>
-            <authority>SCTA</authority>
-            <availability status="free">
-               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
-               </p>
-            </availability>
-         </publicationStmt>
-         <sourceDesc>
-            <listWit>
-               <witness xml:id="G" n="cod-TxxxqU">Genoa 1585</witness>
-            </listWit>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
-         <editorialDecl>
-            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
-       guidelines for a diplomatic edition.</p>
-         </editorialDecl>
-      </encodingDesc>
-      <revisionDesc status="draft">
-         <listChange>
-            <change when="2020-11-26" status="draft" n="0.0.0">
-               <p>Created file for the first time.</p>
-            </change>
-         </listChange>
-      </revisionDesc>
-   </teiHeader>
-   <text xml:lang="la">
-      <front>
-         <div xml:id="starts-on">
-            <pb ed="#G" n="97-v"/>
-            <cb ed="#G" n="b"/>
-         </div>
-      </front>
-      <body>
-         <div xml:id="HuYgTa-e74313"><!-- HuYgTa-l1d31q1 -->
-            <head xml:id="HuYgTa-e74313-Hd1e108">Quaestio 1</head>
-            <head xml:id="HuYgTa-e74313-Hd1e111" type="question-title">
-      An aequalitas in diuinis sit realis relatio.
-    </head>
-            <p xml:id="HuYgTa-e74313-d1e114">
-               <lb ed="#G" n="77"/>
-               <pc type="indent"/>Questio I.  
-      <lb ed="#G" n="78"/>An aequalitas in diuinis sit realis.  
-      <lb ed="#G" n="79"/>relatio.
-    </p>
-            <p xml:id="HuYgTa-e74313-d1e125">
-               <lb ed="#G" n="80"/>TRVM aequalitas in diuinis, sit relatio 
-      <lb ed="#G" n="81"/>ealis. Et videtur quod sic: quia
-      vbicum<lb ed="#G" n="82" break="no"/>que inuenitur aequalis virtutis magnitu 
-      <lb ed="#G" n="83"/>do, ibi inuenitur veragrealis aequalitas,  
-      <lb ed="#G" n="84"/>quia aequalitas est realis proprietas
-      ma<lb ed="#G" n="85" break="no"/>2 gnitudinis quantitatiue; sed in diuinis 
-      <lb ed="#G" n="86"/>ersonis est aequalis virtutis magnitudo: quia quamus 
-      <lb ed="#G" n="87"/>non quantitate molis Deus sit magnus, est tamen
-      reali<lb ed="#G" n="88" break="no"/>ter magnus quantitate perfectionis, &amp; virtutis, eadem exi 
-      <lb ed="#G" n="89"/>stente in tribus personis; igitur in diuinis est aequalitas,  
-      <lb ed="#G" n="90"/>quae est realis relatio.
-    </p>
-            <p xml:id="HuYgTa-e74313-d1e151">
-               <lb ed="#G" n="91"/>Contra, sancti non ponunt in diuinis, nisi quattuor re 
-      <lb ed="#G" n="92"/>lationes reales, scilicet paternitatem, filiationem,
-      spira<lb ed="#G" n="93" break="no"/>tionem actiuam, &amp; spirationem passiuam, quarum nulla 
-      <lb ed="#G" n="94"/>est aequalitas. Hic quattuor sunt videnda Primo videndum 
-      <lb ed="#G" n="95"/>est, vtrum aequalitas in creaturis sit relatio realis.
-      Secun<lb ed="#G" n="96" break="no"/>do, vtrum in diuinis sit relatio realis, Tertio, dato quod 
-      <lb ed="#G" n="97"/>non, vtrum in diuinis aequalitas sit relatio rationis. Et quar 
-      <lb ed="#G" n="98"/>to, gcatia praedictorum videbuntur aliqua de relati one 
-      <lb ed="#G" n="99"/>dentitatis. 
-    </p>
-            <p xml:id="HuYgTa-e74313-d1e174">
-               <lb ed="#G" n="100"/>
-               <pc type="indent"/>RESOLVTIO. 
-      <lb ed="#G" n="101"/>Et si in cveaturis aequalitas sit realis relatin, non tamen in
-      diui<lb ed="#G" n="102" break="no"/>nis cum praesertim nullam in se oppositionem contineat Vnde, 
-      <lb ed="#G" n="103"/>&amp;T identitas eadem de causa relatio rationis esse perhibetur. 
-    </p>
-            <p xml:id="HuYgTa-e74313-d1e187">
-               <lb ed="#G" n="104"/>
-               <pc type="indent"/>ARTLCVLVSL 
-      <lb ed="#G" n="105"/>Vtrum Aequalitas in creaturis sit 
-      <lb ed="#G" n="106"/>relatio realis.
-    </p>
-            <p xml:id="HuYgTa-e74313-d1e198">
-               <lb ed="#G" n="107"/>SVANTVM ad primum, vtrum aequalitas in creatu 
-      <lb ed="#G" n="108"/>ris sit relatio realis, primo ponam vnam
-      conclu<lb ed="#G" n="109" break="no"/>sionem satis communem, quam credo esse veram,
-      secun<lb ed="#G" n="110" break="no"/>do adducam vnum motiuum contrariae opinionis, &amp; res- 
-      <lb ed="#G" n="111"/>pondebo ad ipsum 
-    </p>
-            <p xml:id="HuYgTa-e74313-d1e211">
-               <lb ed="#G" n="112"/>
-               <pc type="indent"/>Conclusio est haec, quod aequalitas in creaturis dicit Conclusio 
-      <lb ed="#G" n="113"/>relationem realem, 
-    </p>
-            <p xml:id="HuYgTa-e74313-d1e220">
-               <lb ed="#G" n="114"/>1 Quia illa relatio est realis, quae secundum suum
-      es<lb ed="#G" n="115" break="no"/>se formale a nullo intellectu dependet: sed aequalitas 
-      <lb ed="#G" n="116"/>creaturarum est huiusmodi. Maior est nota: probo 
-      <lb ed="#G" n="117"/>minorem, quia si nullus esset intellectus, adhuc duae
-      li<lb ed="#G" n="118" break="no"/>eae bipedales essent aequales, &amp; bipedalis &amp; tripedalis. 
-      <lb ed="#G" n="119"/>essent inaequales. 
-      <!--234.xml-->
-      <pb ed="#G" n="98-r"/>
-               <cb ed="#G" n="a"/>
-               <lb ed="#G" n="1"/>2 Praeterea, lllud, quod est de reali vniuersi
-      perfectio<lb ed="#G" n="2" break="no"/>ne, est aliquid reale, aequalitas &amp; inaequalitas, similitudo. 
-      <lb ed="#G" n="3"/>&amp; dissimilitudo sunt huiusmodi: quia ordo, in quo consisti 
-      <lb ed="#G" n="4"/>perfectio vniuersi necessario requirit aequalitatem, &amp; ina 
-      <lb ed="#G" n="5"/>qualitatem, similitudinem, &amp; dissimilitudinem rerum. 
-      <lb ed="#G" n="6"/>3 Praeterea, secundum <ref xml:id="HuYgTa-e74313-Rd1e254">Comm. 5. metaph</ref> haec est
-      cau<lb ed="#G" n="7" break="no"/>sa, quare aliqua referuntur realiter: quia in aliquorum
-      re<lb ed="#G" n="8" break="no"/>latiuorum subiectis aliquid reale ponitur, propter quod 
-      <lb ed="#G" n="9"/>referri dicuntur, vt in subiecto dupli, &amp; dimidij ponitur 
-      <lb ed="#G" n="10"/>quantitas, sed in creaturis in subiecto aequalium ponitur 
-      <lb ed="#G" n="11"/>realis quantitas in vtroque extremorum, ergo &amp;c.
-    </p>
-            <p xml:id="HuYgTa-e74313-d1e269">
-               <lb ed="#G" n="12"/>Sed quidam oppositum istius arguit sic. Relationes
-      mo<lb ed="#G" n="13" break="no"/>do vnius tales sunt, quale est illud vnum, super quo fundam 
-      <lb ed="#G" n="14"/>tur, sed vnum, super quo fundatur aequalitas in creaturis,  
-      <lb ed="#G" n="15"/>est solum vnum secundum rationem, ergo aequalitas
-      fun<lb ed="#G" n="16" break="no"/>data super eo erit solum relatio secundum rationem. Ma 
-      <lb ed="#G" n="17"/>iorem praesupponit; minorem probat: quia duae
-      quantita<lb ed="#G" n="18" break="no"/>tes in duabus rebus aequalibus existentes, in quibus consi 
-      <lb ed="#G" n="19"/>stit aequalitas, non sunt vnum, nisi secundum rationem, 
-      <lb ed="#G" n="20"/>cum sint distinctae realiter &amp; subiectiue. 
-    </p>
-            <p xml:id="HuYgTa-e74313-d1e292">
-               <lb ed="#G" n="21"/>Sed illud modicum obstat praedictis: quia aequalitas non 
-      <lb ed="#G" n="22"/>est proprietas vnius, sed est proprietas quantitatis : cum 
-      <lb ed="#G" n="23"/>proprium sit quantitatis secundum eam aequale vel
-      inae<lb ed="#G" n="24" break="no"/>quale dici; igitur talis vnitas secundum rationem non
-      im<lb ed="#G" n="25" break="no"/>pedit realitatem aequalitatis, dummodo sint reales
-      quan<lb ed="#G" n="26" break="no"/>titates, in quibus, vt commensuratae se habent ad inuicen 
-      <lb ed="#G" n="27"/>sine aliquo excessu fundatur aequalitas, vt autem vna
-      ex<lb ed="#G" n="28" break="no"/>cedit aliam, fundatur in eis inaequalitas 
-    </p>
-            <p xml:id="HuYgTa-e74313-d1e312">
-               <lb ed="#G" n="29"/>
-               <pc type="indent"/>ARTICVLVS I 
-      <lb ed="#G" n="30"/>vtrum aequalitas in duuuis sit velatio 
-      <lb ed="#G" n="31"/>
-               <pc type="indent"/>realis.
-    </p>
-            <p xml:id="HuYgTa-e74313-d1e325">
-               <lb ed="#G" n="32"/>QVANTVM ad secundum principale, vtrum
-      aequa<lb ed="#G" n="33" break="no"/>litas in diuinis sit relatio realis; sunt sollenes op 
-      <lb ed="#G" n="34"/>niones ad vtraque patrem contradictionis. Primo igitur po 
-      <lb ed="#G" n="35"/>mam suam conclusionem, quam in hac materia aestimo ma 
-      <lb ed="#G" n="36"/>gis veram. Secundo adducam oppositam opinionem cum 
-      <lb ed="#G" n="37"/>luis motiuis contra eam. Et tertio respondebo ad ea 
-      <lb ed="#G" n="38"/>Dico igitur primo, quod aequalitas in diuinis non est
-      rela<lb ed="#G" n="39" break="no"/>tio realis; quia, sicut dicit doctor noster in primo suo
-      scri<lb ed="#G" n="40" break="no"/>pto, quod sicut cum relatiua modo potentiae coincidunt cum 
-      <lb ed="#G" n="41"/>relatiuis modo mensurae, idem iudicium habedum est do 
-      <lb ed="#G" n="42"/>vtrisque; sic cum similitudo &amp; aequalitas coincidunt cum 
-      <lb ed="#G" n="43"/>identitate, eodem modo iudicabitur de vtrisque, sed in 
-      <lb ed="#G" n="44"/>diuinis coincidunt, ergo aequalitas in diuinis erit relati 
-      <lb ed="#G" n="45"/>a rationis, sicut ipsa identitas 
-    </p>
-            <p xml:id="HuYgTa-e74313-d1e358">
-               <lb ed="#G" n="46"/>
-               <pc type="indent"/>Et si dicitur, quare ergo potius trahit identitas
-      simili<lb ed="#G" n="47" break="no"/>tudinem, &amp; aequalitatem ad suum modum, scilicet ad
-      es<lb ed="#G" n="48" break="no"/>se relationem rationis, quam econuerso 
-    </p>
-            <p xml:id="HuYgTa-e74313-d1e369">
-               <lb ed="#G" n="49"/>
-               <pc type="indent"/>Respondet doctor noster dicens, quod sicut se habet
-      fun<lb ed="#G" n="50" break="no"/>damentum similitudinis, &amp; aequalitatis ad fundamentum 
-      <lb ed="#G" n="51"/>identitatis, sic similitudo, &amp; aequalitas se habet ad identita 
-      <lb ed="#G" n="52"/>tem: sed in diuinis fundamentum similitudinis, &amp;
-      aequa<lb ed="#G" n="53" break="no"/>litatis transit in fundamentum identitatis, &amp; non econuer 
-      <lb ed="#G" n="54"/>so, ergo aequalitas, &amp; similitudo in diuinis non erunt rela  
-      <lb ed="#G" n="55"/>tiones reales, sicut nec ipsa identitas 
-    </p>
-            <p xml:id="HuYgTa-e74313-d1e389">
-               <lb ed="#G" n="56"/>
-               <pc type="indent"/>Sed contra ista dicta doctoris, quidam sic procedit. Pri 
-      <lb ed="#G" n="57"/>mo naimpugnat modum huc, quo doctor noster declarat 
-      <lb ed="#G" n="58"/>conclusionem, Secundo arguit contra ipsam conciusionem, 
-      <lb ed="#G" n="59"/>Nam cum doctor dicit relationem aequalitatis, &amp; si 
-      <lb ed="#G" n="60"/>militudinis transire in identitatem; iste distinguit de 
-      <lb ed="#G" n="61"/>identitate
-    </p>
-            <p xml:id="HuYgTa-e74313-d1e408">
-               <lb ed="#G" n="62"/>1 Nam identitas accipitur, vel vt quaelibet persona, ac 
-      <lb ed="#G" n="63"/>etiam ipsa diuina essentia, est eadem sibi ipsi; &amp; sic nonus 
-      <lb ed="#G" n="64"/>detur dubium, quin identitas sit relatio secundum
-      ratio<lb ed="#G" n="65" break="no"/>nem, sed isto modo aequalitas, &amp; similitudo non tramscunt 
-      <lb ed="#G" n="66"/>in identitatem: quia nec persona aliqua est similis sibi ipsis 
-      <lb ed="#G" n="67"/>nec essentia est aequalis sibi ipsi. Alio modo potest accipi 
-      <lb ed="#G" n="68"/>adentitas, prout in essentia diuina vna persona est eadem 
-      <lb ed="#G" n="69"/>alteri personae, &amp; sic similitudo, &amp; aequalitas transire pos¬ 
-      <!--234.xml-->
-      <cb ed="#G" n="b"/>
-               <lb ed="#G" n="70"/>sunt in modum identitatis; sed vtrum talis identitas sit 
-      <lb ed="#G" n="71"/>relatio secundum rationem, non est minus dubium, quam  
-      <lb ed="#G" n="72"/>vtrum similitudo, &amp; aequalitas sint relationes secundum 
-      <lb ed="#G" n="73"/>rationem. 
-    </p>
-            <p xml:id="HuYgTa-e74313-d1e441">
-               <lb ed="#G" n="74"/>
-               <pc type="indent"/>2 Contra conclusionem autem arguit sic. Quia oppo. 
-      <lb ed="#G" n="75"/>sitae relationes originis fundantur in vna essentia diuina,  
-      <lb ed="#G" n="76"/>quae tamen sunt relationes reales, &amp; realiter differentes, 
-      <lb ed="#G" n="77"/>non obstante essentiae vnitate, ergo relationes communes 
-      <lb ed="#G" n="78"/>sicut sunt similitudo, &amp; aequalitas, sunt relationes reales,  
-      <lb ed="#G" n="79"/>non obstante, quod fundantur super una magnitudine, 
-      <lb ed="#G" n="80"/>vel super vna sapientia, aut bonitate. 
-    </p>
-            <p xml:id="HuYgTa-e74313-d1e461">
-               <lb ed="#G" n="81"/>
-               <pc type="indent"/>Sed contra eandem conclusionem arguunt quidama 
-      <lb ed="#G" n="82"/>alij sic. lllud, quod est in filio ex vi productionis, qua a pai 
-      <lb ed="#G" n="83"/>tre producitur, necessario est reale, quia nullum ens ratio 
-      <lb ed="#G" n="84"/>nis sibi inest ex ui suae productionis: sed aequalitas inest 
-      <lb ed="#G" n="85"/>sibi ex vi suae productionis, quia <ref xml:id="HuYgTa-e74313-Rd1e476">August contra
-      Maximi<lb ed="#G" n="86" break="no"/>num libro 3</ref> ait, quod in diuinis pater non est maior filio,  
-      <lb ed="#G" n="87"/>quia equalem sibi genuit. 
-    </p>
-            <p xml:id="HuYgTa-e74313-d1e484">
-               <lb ed="#G" n="88"/>4 Praeterea, sicut se habet magnitudo dimensiua ad
-      e<lb ed="#G" n="89" break="no"/>qualitatem in creaturis, sic se habet magnitudo perfectio 
-      <lb ed="#G" n="90"/>nis ad aequalitatem in diuinis; sed magnitudo prima
-      fun<lb ed="#G" n="91" break="no"/>dat aequalitatem, quae est relatio realis, cum aequalitas 
-      <lb ed="#G" n="92"/>sit proprietas quantitatis, ergo &amp; secunda fundabit
-      rea<lb ed="#G" n="93" break="no"/>lem aequalitatem. 
-    </p>
-            <p xml:id="HuYgTa-e74313-d1e500">
-               <lb ed="#G" n="94"/>
-               <pc type="indent"/>3 Praeterea, si illud, quod minus videtur inesse, inest: 
-      <lb ed="#G" n="95"/>&amp; illud quod magis; sed minus videtur, quod paternitas,  
-      <lb ed="#G" n="96"/>&amp; filiatio sint relationes reales, stante reali identitate. 
-      <lb ed="#G" n="97"/>sundamenti, quam equalitas, quia paternitas &amp; filiatio 
-      <lb ed="#G" n="98"/>non sunt relationes similium nominum, &amp; aequiparantie; 
-      <lb ed="#G" n="99"/>nam paternitas est relatio superpositonis, &amp; filiatio
-      sup<lb ed="#G" n="100" break="no"/>positonis, &amp; per consequens maiorem videntur
-      require<lb ed="#G" n="101" break="no"/>re in fundamento distinctionem, vel saltem non minorem, 
-      <lb ed="#G" n="102"/>ad hoc, quod sint relationes reales, quam aequalitas, &amp;
-      cete<lb ed="#G" n="103" break="no"/>rae relationes similium nominum, &amp; aequiparantie
-    </p>
-            <p xml:id="HuYgTa-e74313-d1e526">
-               <lb ed="#G" n="104"/> Preterea, secundum <ref xml:id="HuYgTa-e74313-Rd1e530">Anselmum monologion</ref> omnis 
-      <lb ed="#G" n="105"/>perfectio simpliciter est in Deo naturaliter, &amp; per
-      conse<lb ed="#G" n="106" break="no"/>uuens realiter; sed aequalitas est perfectio simpliciter, quia 
-      <lb ed="#G" n="107"/>August. de quantitate animae dicit, lnaequalitati aequalita. 
-      <lb ed="#G" n="108"/>tem iure praeponis, nec quisquam omnino est, vt opinor, 
-      <lb ed="#G" n="109"/>humano sensu praeditus, cui illud non videatur, 
-    </p>
-            <p xml:id="HuYgTa-e74313-d1e546">
-               <lb ed="#G" n="110"/>
-               <pc type="indent"/>Sed illa non concludunt. 
-      <lb ed="#G" n="111"/>1 Quia illa non est realis relatio, cuius esse completi 
-      <lb ed="#G" n="112"/>dependet ab intellectu, sed aequalitas in diuinis est huius 
-      <lb ed="#G" n="113"/>modi: quia pater non potest concipi aequalis filio, nisi
-      ea<lb ed="#G" n="114" break="no"/>dem magnitudo diuina bis accipiatur per intellectum, 
-      <lb ed="#G" n="115"/>puta semel in patre, &amp; semel in filio.
-    </p>
-            <p xml:id="HuYgTa-e74313-d1e564">
-               <lb ed="#G" n="116"/>2 Preterea, Inter eadem extrema super eodem funda 
-      <lb ed="#G" n="117"/>mento non possunt fundari plures oppositones realium 
-      <lb ed="#G" n="118"/>relationum, sed inter patrem, &amp; filiui super eodem
-      fun<lb ed="#G" n="119" break="no"/>damento fundatur paternitas ex parte patris, &amp; filiatio ex 
-      <lb ed="#G" n="120"/>parte filij, ergo nulla alia relatio fundata inter ea poterit 
-      <lb ed="#G" n="121"/>esse realis 
-    </p>
-            <p xml:id="HuYgTa-e74313-d1e580">
-               <lb ed="#G" n="122"/>3 Preterea, haec est differentia inter relationes modo 
-      <lb ed="#G" n="123"/>otentiae, &amp; modo vnius, siue modo numeri, quod
-      relationi<lb ed="#G" n="124" break="no"/>bus modo potentiae fundamenta non referuntur, nec
-      re<lb ed="#G" n="125" break="no"/>lationibus, quas fundant, formaliter denominantur, sed  
-      <lb ed="#G" n="126"/>solum ipsa supposita, potentia enim generatiua Sortis non 
-      <lb ed="#G" n="127"/>est pater, sed ipse Sortes est pater, sed relationibus modo 
-      <lb ed="#G" n="128"/>vnius, siuc modo numeri etiam ipsa fundamenta proprie 
-      <lb ed="#G" n="129"/>referuntur, &amp; huiusmodi relationibus formaliter
-      deno<lb ed="#G" n="130" break="no"/>minantur: non nm solum duo alba sunt similia, sed etiam 
-      <lb ed="#G" n="131"/>duae albedines sunt similes; nec solum duo lapides sunt aequa 
-      <lb ed="#G" n="132"/>es, sed etiam ipse quantitates sunt aequales. Cum igitur in 
-      <lb ed="#G" n="133"/>diuinis non sint plures magnitudines, quae relatione aequa 
-      <lb ed="#G" n="134"/>litatis ad inuicem referantur, sequitur, quod suppositorum 
-      <lb ed="#G" n="135"/>relatio modo aequalitatis fundata super vna &amp; eadem 
-      <lb ed="#G" n="136"/>tirtutis magnitudine non possit esse realis: quia si esseu 
-      <lb ed="#G" n="137"/>realis, etiam ipsa fundamenta ad inuicem realiter
-      refer<lb ed="#G" n="138" break="no"/>rentur, quod est impossibile, cum unum tantum sit
-      fun<lb ed="#G" n="139" break="no"/>damentum, ergo &amp;c 
-    </p>
-            <p xml:id="HuYgTa-e74313-d1e622">
-               <lb ed="#G" n="140"/>
-               <pc type="indent"/>Ad primum igitur dicendum, quod qualitercunque accipia 
-      <lb ed="#G" n="141"/>tur identitas, dummodo sit realis identitas, semper opot 
-      <lb ed="#G" n="142"/>tet, quod relatio extremorum sit relatio secundum rationem 
-      <!--235.xml-->
-      <pb ed="#G" n="98-v"/>
-               <cb ed="#G" n="a"/>
-               <lb ed="#G" n="1"/>quia in tali relatione semper vtitur intellectus vno pro 
-      <lb ed="#G" n="2"/>duobus, alias non esset realis identitas, quod si tibi de 
-      <lb ed="#G" n="3"/>hoc est dubium, nobis autem de hoc non est dubium: quam 
-      <lb ed="#G" n="4"/>uis enim pater, &amp; filius secundum habitudinem originis 
-      <lb ed="#G" n="5"/>duo sint, &amp; relationibus originis realiter ad inuicem
-      re<lb ed="#G" n="6" break="no"/>ferantur, tamen, vt idem sunt diuinae essentiae, non sunt 
-      <lb ed="#G" n="7"/>duo; sed vnum tantum identitate, seu entitate absoluta 
-      <lb ed="#G" n="8"/>diuinae essentiae: ideo relatio, quae vt sic, eis competit, 
-      <lb ed="#G" n="9"/>non est magis realis, quam ea, qua essentia ad seipsum di 
-      <lb ed="#G" n="10"/>citur eadem 
-    </p>
-            <p xml:id="HuYgTa-e74313-d1e661">
-               <lb ed="#G" n="11"/>
-               <pc type="indent"/>Ad secundum dicendum, quod etiam supposito, quod 
-      <lb ed="#G" n="12"/>reales relationes oppositae non requirant semper
-      distin<lb ed="#G" n="13" break="no"/>cta fundamenta, eo quod saltem in diuinis possunt
-      fun<lb ed="#G" n="14" break="no"/>dari in eodem fundamento remoto, tamen omnis realis 
-      <lb ed="#G" n="15"/>relatio requirit suorum extremorum, vt extrema sunt 
-      <lb ed="#G" n="16"/>huiusmodi relationis realem distinctionem, sed quamuis 
-      <lb ed="#G" n="17"/>pater vt pater est, &amp; filius vt filius sunt extrema
-      relatio<lb ed="#G" n="18" break="no"/>num originis, non tamen aequalitatis: quia extrema aequa 
-      <lb ed="#G" n="19"/>litatis, vt extrema sunt, oportet, quod quanta sint: nunc
-      au<lb ed="#G" n="20" break="no"/>tem ita est, quod pater &amp; filius vt quanti, aut magni sunt,  
-      <lb ed="#G" n="21"/>distincti esse non possunt, cum eadem virtute magui sint,  
-      <lb ed="#G" n="22"/>sed vt pater &amp; filius sunt, distincti sunt realiter, ergo
-      quam<lb ed="#G" n="23" break="no"/>uis relationes originis sint reales, quia earum extrema 
-      <lb ed="#G" n="24"/>ut extrema sunt, huiusmodi relationum realiter
-      distin<lb ed="#G" n="25" break="no"/>cta sunt, relationes tamen aequalitatis &amp; similitudinis in 
-      <lb ed="#G" n="26"/>diuinis reales esse non possunt: quia earum extrema, vt 
-      <lb ed="#G" n="27"/>extrema aequalitatis, aut similitudinis sunt distincta
-      rea<lb ed="#G" n="28" break="no"/>liter esse non possunt, ergo &amp;c. 
-    </p>
-            <p xml:id="HuYgTa-e74313-d1e705">
-               <lb ed="#G" n="29"/>
-               <pc type="indent"/>Ad tertium dicendum, quod maior posset negari: quia 
-      <lb ed="#G" n="30"/>etiam, quod filius sit idem sibi ipsi, mest sibi virtute suae 
-      <lb ed="#G" n="31"/>productionis, &amp; tamen illa identitas, vt relatio est,
-      secun<lb ed="#G" n="32" break="no"/>dum rationem est. Dico tamen ad minorem, quod
-      aequa<lb ed="#G" n="33" break="no"/>litas, quo ad suum fundamentum per generationem
-      con<lb ed="#G" n="34" break="no"/>municatur filio, non autem inquantum est relatio: quia 
-      <lb ed="#G" n="35"/>vt sic, eadem magnitudo bis accipitur, quod necessario 
-      <lb ed="#G" n="36"/>fit ab aliquo intellectu 
-    </p>
-            <p xml:id="HuYgTa-e74313-d1e728">
-               <lb ed="#G" n="37"/>
-               <pc type="indent"/>Ad quartum dicendum, quod non est simile: quia
-      magni<lb ed="#G" n="38" break="no"/>tudines dimensiuae, vt fundant aequalitatem in creaturis 
-      <lb ed="#G" n="39"/>sunt realiter distinctae, &amp; per consequens extrema illius 
-      <lb ed="#G" n="40"/>aequalitatis, vt extrema sunt, realiter distincta sunt; in
-      di<lb ed="#G" n="41" break="no"/>uinis autem totum oppositum est, vt iam patuit. 
-    </p>
-            <p xml:id="HuYgTa-e74313-d1e744">
-               <lb ed="#G" n="42"/>
-               <pc type="indent"/>Ad quintum nego minorem. Ad probationem dico, quod 
-      <lb ed="#G" n="43"/>quamuis in diuinis paternitas, &amp; filiatio in fundamento 
-      <lb ed="#G" n="44"/>saltem remoto non requirant distinctio nem, extrema ta 
-      <lb ed="#G" n="45"/>men sua, vt extrema sunt, realiter sunt distincta, &amp; per con 
-      <lb ed="#G" n="46"/>sequens non videtur minus, quod sint reales relationes; 
-      <lb ed="#G" n="47"/>
-               <pc type="indent"/>uam relationes similium nominum, quorum extrema, 
-      <lb ed="#G" n="48"/>vt extrema sunt, realiter distincta in diuinis non sunt 
-    </p>
-            <p xml:id="HuYgTa-e74313-d1e766">
-               <lb ed="#G" n="49"/>
-               <pc type="indent"/>Ad sextum nego minorem: quia nulla relatio est
-      per<lb ed="#G" n="50" break="no"/>fectio simpliciter, alias enim aliqua perfectio simpliciter 
-      <lb ed="#G" n="51"/>esset in vna persona diuina, quae non esset in alia. Ad
-      pro<lb ed="#G" n="52" break="no"/>bationem dico, quod aequale, cum sit relatiuum, non
-      di<lb ed="#G" n="53" break="no"/>cit solam aequalitatem, sed implicat fundamentum,
-      ra<lb ed="#G" n="54" break="no"/>tione cuius potest dicere perfectionem, &amp; potest esse per 
-      <lb ed="#G" n="55"/>fectius inaequali.  
-    </p>
-            <p xml:id="HuYgTa-e74313-d1e786">
-               <lb ed="#G" n="56"/>
-               <pc type="indent"/>ARTICVLVS LII 
-      <lb ed="#G" n="57"/>Vtrum aequalitas in duinis sit relatio 
-      <lb ed="#G" n="58"/>
-               <pc type="indent"/>rationis.
-    </p>
-            <p xml:id="HuYgTa-e74313-d1e799">
-               <lb ed="#G" n="59"/>VANTVM ad tertium principale, Vtrum aequali 
-      <lb ed="#G" n="60"/> tas in diuinis sit relatio rationis, patet conclu 
-      <lb ed="#G" n="61"/>sio ex iam dictis,
-    </p>
-            <p xml:id="HuYgTa-e74313-d1e808">
-               <lb ed="#G" n="62"/>1 Quia cum aequalitas secundum suam propriam
-      ra<lb ed="#G" n="63" break="no"/>tionem sit ad aliquid, nam aequale est aequali aequale, er 
-      <lb ed="#G" n="64"/>go aequalitas erit relatio, aut secundum rem, aut secundum 
-      <lb ed="#G" n="65"/>rationem, sed ostensum est in secundo principali, quod 
-      <lb ed="#G" n="66"/>aequalitas in diuinis non est relatio realis, ergo saltem 
-      <lb ed="#G" n="67"/>crit ibi relatio rationis, supposito, quod in diuinis sit
-      ae<lb ed="#G" n="68" break="no"/>qualitas, iuata illud Athanasij. AEqualis patri secundum 
-      <!--235.xml-->
-      <cb ed="#G" n="b"/>
-               <lb ed="#G" n="69"/> 
-               <lb ed="#G" n="70"/>diuinitatem. Et idem dicit, quod totae tres personae
-      comae<lb ed="#G" n="71" break="no"/>teruae sibi sunt &amp; coaequales. 
-    </p>
-            <p xml:id="HuYgTa-e74313-d1e838">
-               <lb ed="#G" n="72"/>2 Praeterea, relationes oppositae existentes in vno &amp; im 
-      <lb ed="#G" n="73"/>mediato subiecto, sunt secundum rationem tantum: quia 
-      <lb ed="#G" n="74"/>si essent reales, cum omnis realis opposito includat
-      con<lb ed="#G" n="75" break="no"/>tradictionem, sequeretur, quod contradictoria simul
-      ve<lb ed="#G" n="76" break="no"/>rificarentur de eodem: Propter quod semper formae op- 
-      <lb ed="#G" n="77"/>positae quocumque genere oppositonis penes idem
-      pri<lb ed="#G" n="78" break="no"/>mum, &amp; immediatum subiectum mutuo se excludunt, sed 
-      <lb ed="#G" n="79"/>aequalitas dicit oppositionem relatiuam, qua aequale aequali 
-      <lb ed="#G" n="80"/>opponitur, &amp; in diuinis ei respodet pro immediato, &amp; pr 
-      <lb ed="#G" n="81"/>mo subiecto ipsa diuina magnitudo, quae vna est, &amp; indi 
-      <lb ed="#G" n="82"/>uisa, ergo aequalitas non erit in diuinis relatio realis.  
-      <lb ed="#G" n="83"/>Forte dicetur, quod maior non est vera: quia
-      paterni<lb ed="#G" n="84" break="no"/>tas, &amp; filiatio diuina non minus respiciunt essentiam
-      di<lb ed="#G" n="85" break="no"/>uinam, vt primum, &amp; immediatum subiectum, quam
-      ma<lb ed="#G" n="86" break="no"/>gnitudinem diuinam respiciat ipsa aequalitas: &amp; tamen pa 
-      <lb ed="#G" n="87"/>ternitas &amp; filiatio sunt relationes reales; 
-    </p>
-            <p xml:id="HuYgTa-e74313-d1e875">
-               <lb ed="#G" n="88"/>
-               <pc type="indent"/>Respondeo, quod instantia falsum assumit: quia si
-      pa<lb ed="#G" n="89" break="no"/>ternitas, vel aliqua alia relatio originis respiceret diuinam 
-      <lb ed="#G" n="90"/>essentiam, tamquam primum, &amp; immediatum subiectum, 
-      <lb ed="#G" n="91"/>tunc denominaret diuinam essentiam, vel saltem
-      deno<lb ed="#G" n="92" break="no"/>minaret suppositum cum reduplicatione concreti ipsius 
-      <lb ed="#G" n="93"/>deitatis, puta, vel deitas esset pater, non solum identice, 
-      <lb ed="#G" n="94"/>sed etiam formaliter, vel tale suppositum inquantum Deus 
-      <lb ed="#G" n="95"/>esset pater, quorum neutrum est verum: quia ad primum 
-      <lb ed="#G" n="96"/>sequeretur, quod diuina essentia generaret, quod est re 
-      <lb ed="#G" n="97"/>probatum superius. Ad secundum sequeretur, quod
-      spiri<lb ed="#G" n="98" break="no"/>tus sanctus generaret, quia quicquid conuenit diuino sup 
-      <lb ed="#G" n="99"/>posito inquantum Deus est, hoc conuenit omnibus
-      tri<lb ed="#G" n="100" break="no"/>bus indifferenter. Vnde quia aequalitas &amp; inaequalitas 
-      <lb ed="#G" n="101"/>respiciunt magnitudinem tamquam subiectum primum 
-      <lb ed="#G" n="102"/>&amp; immediatum, ideo vel ipsae magnitudines erunt aequa 
-      <lb ed="#G" n="103"/>les, vel inaequales, si distinctae sunt, vel saltem ipsa
-      sup<lb ed="#G" n="104" break="no"/>posita crunt aequalia inquantum eadem magnitudine 
-      <lb ed="#G" n="105"/>magna sunt 
-    </p>
-            <p xml:id="HuYgTa-e74313-d1e919">
-               <lb ed="#G" n="106"/>
-               <pc type="indent"/>3 Praeterea, si aequalitates in diuinis, &amp; similitudines 
-      <lb ed="#G" n="107"/>essent relationes reales; tunc infinitae relationes reales 
-      <lb ed="#G" n="108"/>essent in diuinis, quia secundum quodlibet attributum 
-      <lb ed="#G" n="109"/>diuinum attendendo modum infinitatis suae, quam
-      tra<lb ed="#G" n="110" break="no"/>nit a diuina essentia, personae dicuntur aequales; Etiam  
-      <lb ed="#G" n="111"/>secundum perfectionem cuiuslibet attributi personae
-      di<lb ed="#G" n="112" break="no"/>uinae sunt similes, Cum igitur talia attributa sint
-      infini<lb ed="#G" n="113" break="no"/>ta, ideo &amp;c 
-    </p>
-            <p xml:id="HuYgTa-e74313-d1e941">
-               <lb ed="#G" n="114"/>
-               <pc type="indent"/>ARTICVLV S III 
-      <lb ed="#G" n="115"/>Videbuntur aliqua de relatione
-      iden<lb ed="#G" n="116" break="no"/>
-               <pc type="indent"/>titatis.
-    </p>
-            <p xml:id="HuYgTa-e74313-d1e954">
-               <lb ed="#G" n="117"/>VANTVM ad quartum principale dico, quod iden 
-      <lb ed="#G" n="118"/>titas secundum quod de ea loquitur <ref xml:id="HuYgTa-e74313-Rd1e960">philosophus 
-        <lb ed="#G" n="119"/>5. meraph.</ref> puta secundum quam aliquid est idem sibi
-      ipsi<lb ed="#G" n="120" break="no"/>est relatio secundum rationem. 
-    </p>
-            <p xml:id="HuYgTa-e74313-d1e968">
-               <lb ed="#G" n="121"/>
-               <pc type="indent"/>1 Quia secundum quod aliquid se habet ad aliud, sic 
-      <lb ed="#G" n="122"/>aliquo modo participat rationem relationis, cum propria 
-      <lb ed="#G" n="123"/>ratio relationis sit ad aliud esse; sed idem comparatum ad 
-      <lb ed="#G" n="124"/>seipsum, non est ad aliud, nisi secundum rationem, igitur 
-      <lb ed="#G" n="125"/>identitas huiusmodi est relatio secundum rationem. 
-    </p>
-            <p xml:id="HuYgTa-e74313-d1e985">
-               <lb ed="#G" n="126"/>
-               <pc type="indent"/>2 Praeterea, relatio realis requirit extrema realiter di 
-      <lb ed="#G" n="127"/>stincta, sed idem non potest esse realiter distinctum a seipso. 
-      <lb ed="#G" n="128"/>3 Praeterea, relatio dependens ab intellectu est rela  
-      <lb ed="#G" n="129"/>tio rationis, sed identitatis relatio est huiusmodi, quia se 
-      <lb ed="#G" n="130"/>cundum <ref xml:id="HuYgTa-e74313-Rd1e1000">philosophum 5 metaph</ref> cum idem refertur ad 
-      <lb ed="#G" n="131"/>seipsum, intellectus vtitur vno, vt duobus. 
-    </p>
-            <p xml:id="HuYgTa-e74313-d1e1006">
-               <lb ed="#G" n="132"/>
-               <pc type="indent"/>Contra tamen hanc veritatem quidam arguunt sic 
-      <lb ed="#G" n="133"/>1 Diuersitas est relatio realis, igitur identitas est rela 
-      <lb ed="#G" n="134"/>tio realis. consequentia patet, quia opposita sunt sub
-      eo<lb ed="#G" n="135" break="no"/>dem genere, vt patet <ref xml:id="HuYgTa-e74313-Rd1e1019">4. metaph.</ref> Idem autem &amp; diuersum te 
-      <lb ed="#G" n="136"/>sunt opposita, vt patet <ref xml:id="HuYgTa-e74313-Rd1e1024">ro. metaph</ref> sed ens rationis, &amp; ens te 
-      <lb ed="#G" n="137"/>reale non sunt sub eodem genere, ergo &amp;c. 
-    </p>
-            <p xml:id="HuYgTa-e74313-d1e1030">
-               <lb ed="#G" n="138"/>Ad illud breuiter respondebo, quod duplex est
-      identi<lb ed="#G" n="139" break="no"/>tas, quaedam absoluta, &amp; ista est idem, quod rerunitas, 
-      <!--236.xml-->
-      <pb ed="#G" n="99-r"/>
-               <cb ed="#G" n="a"/>
-               <lb ed="#G" n="1"/>&amp; opponitur diuisioni, &amp; per consequens diuersitat. 
-      <lb ed="#G" n="2"/>non relatiuae, sed priuatiuae, &amp; ista identitas non est deter 
-      <lb ed="#G" n="3"/>minati generis, sed transcedentis: quia in omni genere re 
-      <lb ed="#G" n="4"/>peritur, sicut etiam ipsa diuersitas. Alia est identitas relati 
-      <lb ed="#G" n="5"/>a, puta qua idem relatiue respicit seipsum, &amp; illa non op 
-      <lb ed="#G" n="6"/>ponitur diuersitati relatiuae: quia relatiue diuersum oppo 
-      <lb ed="#G" n="7"/>nitur diuerso, &amp; idem opponitur eidem, cum sint relatio 
-      <lb ed="#G" n="8"/>nes similium nominum
-    </p>
-            <p xml:id="HuYgTa-e74313-d1e1061">
-               <lb ed="#G" n="9"/>forte dicet aduersarius, quod quamuis idem, &amp;diuersum 
-      <lb ed="#G" n="10"/>ti relatiua sunt, non opponantur relatiue, saltem
-      oppo<lb ed="#G" n="11" break="no"/>nuntur priuatiue, &amp; per consequens erunt in eodem
-      ge<lb ed="#G" n="12" break="no"/>nere quia priuatio pertinet cum habitu ad idem genus. 
-      <lb ed="#G" n="13"/>Reipondeo, quod, vt relationes sunt, non opponuntui 
-      <lb ed="#G" n="14"/>nuatiue, nisi ratione suorum fundamentorum, Dato
-      ta<lb ed="#G" n="15" break="no"/>men, quod sint in eodem genere, adhuc tamen non sequi 
-      <lb ed="#G" n="16"/>ur supradicta consequentia, puta si relatio diuersitatis 
-      <lb ed="#G" n="17"/>srealis, quod identitas sit relatio realis: quia hoc est pro 
-      <lb ed="#G" n="18"/>prum ipsius relationis, quod ipsa secundum propriam, &amp; 
-      <lb ed="#G" n="19"/>periectam rationem sui generis est communis rei, &amp;ratio 
-      <lb ed="#G" n="20"/>n,hoc est realibus relationibus, &amp; secundum rationen 
-      <lb ed="#G" n="21"/>solummodo ad aliud se habentibus, alias nulla relatio se 
-      <lb ed="#G" n="22"/>endum esse posset esse relatio secundum rationem, cum 
-      <lb ed="#G" n="23"/>emnis relatio secundum esse sit in praedicamento relatio 
-      <lb ed="#G" n="24"/>us, quod est falsum, vt apparet de relatione domini ad 
-      <lb ed="#G" n="25"/>setuum. 
-    </p>
-            <p xml:id="HuYgTa-e74313-d1e1100">
-               <lb ed="#G" n="26"/>
-               <pc type="indent"/>Ad argumentum principale dicendum, quod quamuis 
-      <lb ed="#G" n="27"/>ugnitudo realis sit in diuinis, loquendo de
-      magnitudi<lb ed="#G" n="28" break="no"/>nturtutis, &amp; perfectionis, aequalitas tamen non est
-      rela<lb ed="#G" n="29" break="no"/>realis, eo quod ratione identitatis illius
-      magnitudi<lb ed="#G" n="30" break="no"/>ni extrema illius relationis, Vt extrema sunt, non sun 
-      <lb ed="#G" n="31"/>raliter distincta, vt patuit superius 
-    </p>
-         </div>
-      </body>
-   </text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 1</title>
+        <author ref="#ThomasStrasbourg">Thomas of Strasbourg</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 1</title>
+          <date when="2020-11-26">November 26, 2020</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="G" n="cod-TxxxqU">Genoa 1585</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2020-11-26" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#G" n="97-v"/>
+        <cb ed="#G" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="HuYgTa-e74313"><!-- HuYgTa-l1d31q1 -->
+        <head xml:id="HuYgTa-e74313-Hd1e108">Quaestio 1</head>
+        <head xml:id="HuYgTa-e74313-Hd1e111" type="question-title">
+          An aequalitas in diuinis sit realis relatio.
+        </head>
+        <p xml:id="HuYgTa-e74313-d1e114">
+          <lb ed="#G" n="77"/>
+          <pc type="indent"/>Questio I.  
+          <lb ed="#G" n="78"/>An aequalitas in diuinis sit realis.  
+          <lb ed="#G" n="79"/>relatio.
+        </p>
+        <p xml:id="HuYgTa-e74313-d1e125">
+          <lb ed="#G" n="80"/>TRVM aequalitas in diuinis, sit relatio 
+          <lb ed="#G" n="81"/>ealis. Et videtur quod sic: quia
+          vbicum<lb ed="#G" n="82" break="no"/>que inuenitur aequalis virtutis magnitu 
+          <lb ed="#G" n="83"/>do, ibi inuenitur veragrealis aequalitas,  
+          <lb ed="#G" n="84"/>quia aequalitas est realis proprietas
+          ma<lb ed="#G" n="85" break="no"/>2 gnitudinis quantitatiue; sed in diuinis 
+          <lb ed="#G" n="86"/>ersonis est aequalis virtutis magnitudo: quia quamus 
+          <lb ed="#G" n="87"/>non quantitate molis Deus sit magnus, est tamen
+          reali<lb ed="#G" n="88" break="no"/>ter magnus quantitate perfectionis, &amp; virtutis, eadem exi 
+          <lb ed="#G" n="89"/>stente in tribus personis; igitur in diuinis est aequalitas,  
+          <lb ed="#G" n="90"/>quae est realis relatio.
+        </p>
+        <p xml:id="HuYgTa-e74313-d1e151">
+          <lb ed="#G" n="91"/>Contra, sancti non ponunt in diuinis, nisi quattuor re 
+          <lb ed="#G" n="92"/>lationes reales, scilicet paternitatem, filiationem,
+          spira<lb ed="#G" n="93" break="no"/>tionem actiuam, &amp; spirationem passiuam, quarum nulla 
+          <lb ed="#G" n="94"/>est aequalitas. Hic quattuor sunt videnda Primo videndum 
+          <lb ed="#G" n="95"/>est, vtrum aequalitas in creaturis sit relatio realis.
+          Secun<lb ed="#G" n="96" break="no"/>do, vtrum in diuinis sit relatio realis, Tertio, dato quod 
+          <lb ed="#G" n="97"/>non, vtrum in diuinis aequalitas sit relatio rationis. Et quar 
+          <lb ed="#G" n="98"/>to, gcatia praedictorum videbuntur aliqua de relati one 
+          <lb ed="#G" n="99"/>dentitatis. 
+        </p>
+        <p xml:id="HuYgTa-e74313-d1e174">
+          <lb ed="#G" n="100"/>
+          <pc type="indent"/>RESOLVTIO. 
+          <lb ed="#G" n="101"/>Et si in cveaturis aequalitas sit realis relatin, non tamen in
+          diui<lb ed="#G" n="102" break="no"/>nis cum praesertim nullam in se oppositionem contineat Vnde, 
+          <lb ed="#G" n="103"/>&amp;T identitas eadem de causa relatio rationis esse perhibetur. 
+        </p>
+        <p xml:id="HuYgTa-e74313-d1e187">
+          <lb ed="#G" n="104"/>
+          <pc type="indent"/>ARTLCVLVSL 
+          <lb ed="#G" n="105"/>Vtrum Aequalitas in creaturis sit 
+          <lb ed="#G" n="106"/>relatio realis.
+        </p>
+        <p xml:id="HuYgTa-e74313-d1e198">
+          <lb ed="#G" n="107"/>SVANTVM ad primum, vtrum aequalitas in creatu 
+          <lb ed="#G" n="108"/>ris sit relatio realis, primo ponam vnam
+          conclu<lb ed="#G" n="109" break="no"/>sionem satis communem, quam credo esse veram,
+          secun<lb ed="#G" n="110" break="no"/>do adducam vnum motiuum contrariae opinionis, &amp; res- 
+          <lb ed="#G" n="111"/>pondebo ad ipsum 
+        </p>
+        <p xml:id="HuYgTa-e74313-d1e211">
+          <lb ed="#G" n="112"/>
+          <pc type="indent"/>Conclusio est haec, quod aequalitas in creaturis dicit Conclusio 
+          <lb ed="#G" n="113"/>relationem realem, 
+        </p>
+        <p xml:id="HuYgTa-e74313-d1e220">
+          <lb ed="#G" n="114"/>1 Quia illa relatio est realis, quae secundum suum
+          es<lb ed="#G" n="115" break="no"/>se formale a nullo intellectu dependet: sed aequalitas 
+          <lb ed="#G" n="116"/>creaturarum est huiusmodi. Maior est nota: probo 
+          <lb ed="#G" n="117"/>minorem, quia si nullus esset intellectus, adhuc duae
+          li<lb ed="#G" n="118" break="no"/>eae bipedales essent aequales, &amp; bipedalis &amp; tripedalis. 
+          <lb ed="#G" n="119"/>essent inaequales. 
+          <!--234.xml-->
+          <pb ed="#G" n="98-r"/>
+          <cb ed="#G" n="a"/>
+          <lb ed="#G" n="1"/>2 Praeterea, lllud, quod est de reali vniuersi
+          perfectio<lb ed="#G" n="2" break="no"/>ne, est aliquid reale, aequalitas &amp; inaequalitas, similitudo. 
+          <lb ed="#G" n="3"/>&amp; dissimilitudo sunt huiusmodi: quia ordo, in quo consisti 
+          <lb ed="#G" n="4"/>perfectio vniuersi necessario requirit aequalitatem, &amp; ina 
+          <lb ed="#G" n="5"/>qualitatem, similitudinem, &amp; dissimilitudinem rerum. 
+          <lb ed="#G" n="6"/>3 Praeterea, secundum <ref xml:id="HuYgTa-e74313-Rd1e254">Comm. 5. metaph</ref> haec est
+          cau<lb ed="#G" n="7" break="no"/>sa, quare aliqua referuntur realiter: quia in aliquorum
+          re<lb ed="#G" n="8" break="no"/>latiuorum subiectis aliquid reale ponitur, propter quod 
+          <lb ed="#G" n="9"/>referri dicuntur, vt in subiecto dupli, &amp; dimidij ponitur 
+          <lb ed="#G" n="10"/>quantitas, sed in creaturis in subiecto aequalium ponitur 
+          <lb ed="#G" n="11"/>realis quantitas in vtroque extremorum, ergo &amp;c.
+        </p>
+        <p xml:id="HuYgTa-e74313-d1e269">
+          <lb ed="#G" n="12"/>Sed quidam oppositum istius arguit sic. Relationes
+          mo<lb ed="#G" n="13" break="no"/>do vnius tales sunt, quale est illud vnum, super quo fundam 
+          <lb ed="#G" n="14"/>tur, sed vnum, super quo fundatur aequalitas in creaturis,  
+          <lb ed="#G" n="15"/>est solum vnum secundum rationem, ergo aequalitas
+          fun<lb ed="#G" n="16" break="no"/>data super eo erit solum relatio secundum rationem. Ma 
+          <lb ed="#G" n="17"/>iorem praesupponit; minorem probat: quia duae
+          quantita<lb ed="#G" n="18" break="no"/>tes in duabus rebus aequalibus existentes, in quibus consi 
+          <lb ed="#G" n="19"/>stit aequalitas, non sunt vnum, nisi secundum rationem, 
+          <lb ed="#G" n="20"/>cum sint distinctae realiter &amp; subiectiue. 
+        </p>
+        <p xml:id="HuYgTa-e74313-d1e292">
+          <lb ed="#G" n="21"/>Sed illud modicum obstat praedictis: quia aequalitas non 
+          <lb ed="#G" n="22"/>est proprietas vnius, sed est proprietas quantitatis : cum 
+          <lb ed="#G" n="23"/>proprium sit quantitatis secundum eam aequale vel
+          inae<lb ed="#G" n="24" break="no"/>quale dici; igitur talis vnitas secundum rationem non
+          im<lb ed="#G" n="25" break="no"/>pedit realitatem aequalitatis, dummodo sint reales
+          quan<lb ed="#G" n="26" break="no"/>titates, in quibus, vt commensuratae se habent ad inuicen 
+          <lb ed="#G" n="27"/>sine aliquo excessu fundatur aequalitas, vt autem vna
+          ex<lb ed="#G" n="28" break="no"/>cedit aliam, fundatur in eis inaequalitas 
+        </p>
+        <p xml:id="HuYgTa-e74313-d1e312">
+          <lb ed="#G" n="29"/>
+          <pc type="indent"/>ARTICVLVS I 
+          <lb ed="#G" n="30"/>vtrum aequalitas in duuuis sit velatio 
+          <lb ed="#G" n="31"/>
+          <pc type="indent"/>realis.
+        </p>
+        <p xml:id="HuYgTa-e74313-d1e325">
+          <lb ed="#G" n="32"/>QVANTVM ad secundum principale, vtrum
+          aequa<lb ed="#G" n="33" break="no"/>litas in diuinis sit relatio realis; sunt sollenes op 
+          <lb ed="#G" n="34"/>niones ad vtraque patrem contradictionis. Primo igitur po 
+          <lb ed="#G" n="35"/>mam suam conclusionem, quam in hac materia aestimo ma 
+          <lb ed="#G" n="36"/>gis veram. Secundo adducam oppositam opinionem cum 
+          <lb ed="#G" n="37"/>luis motiuis contra eam. Et tertio respondebo ad ea 
+          <lb ed="#G" n="38"/>Dico igitur primo, quod aequalitas in diuinis non est
+          rela<lb ed="#G" n="39" break="no"/>tio realis; quia, sicut dicit doctor noster in primo suo
+          scri<lb ed="#G" n="40" break="no"/>pto, quod sicut cum relatiua modo potentiae coincidunt cum 
+          <lb ed="#G" n="41"/>relatiuis modo mensurae, idem iudicium habedum est do 
+          <lb ed="#G" n="42"/>vtrisque; sic cum similitudo &amp; aequalitas coincidunt cum 
+          <lb ed="#G" n="43"/>identitate, eodem modo iudicabitur de vtrisque, sed in 
+          <lb ed="#G" n="44"/>diuinis coincidunt, ergo aequalitas in diuinis erit relati 
+          <lb ed="#G" n="45"/>a rationis, sicut ipsa identitas 
+        </p>
+        <p xml:id="HuYgTa-e74313-d1e358">
+          <lb ed="#G" n="46"/>
+          <pc type="indent"/>Et si dicitur, quare ergo potius trahit identitas
+          simili<lb ed="#G" n="47" break="no"/>tudinem, &amp; aequalitatem ad suum modum, scilicet ad
+          es<lb ed="#G" n="48" break="no"/>se relationem rationis, quam econuerso 
+        </p>
+        <p xml:id="HuYgTa-e74313-d1e369">
+          <lb ed="#G" n="49"/>
+          <pc type="indent"/>Respondet doctor noster dicens, quod sicut se habet
+          fun<lb ed="#G" n="50" break="no"/>damentum similitudinis, &amp; aequalitatis ad fundamentum 
+          <lb ed="#G" n="51"/>identitatis, sic similitudo, &amp; aequalitas se habet ad identita 
+          <lb ed="#G" n="52"/>tem: sed in diuinis fundamentum similitudinis, &amp;
+          aequa<lb ed="#G" n="53" break="no"/>litatis transit in fundamentum identitatis, &amp; non econuer 
+          <lb ed="#G" n="54"/>so, ergo aequalitas, &amp; similitudo in diuinis non erunt rela  
+          <lb ed="#G" n="55"/>tiones reales, sicut nec ipsa identitas 
+        </p>
+        <p xml:id="HuYgTa-e74313-d1e389">
+          <lb ed="#G" n="56"/>
+          <pc type="indent"/>Sed contra ista dicta doctoris, quidam sic procedit. Pri 
+          <lb ed="#G" n="57"/>mo naimpugnat modum huc, quo doctor noster declarat 
+          <lb ed="#G" n="58"/>conclusionem, Secundo arguit contra ipsam conciusionem, 
+          <lb ed="#G" n="59"/>Nam cum doctor dicit relationem aequalitatis, &amp; si 
+          <lb ed="#G" n="60"/>militudinis transire in identitatem; iste distinguit de 
+          <lb ed="#G" n="61"/>identitate
+        </p>
+        <p xml:id="HuYgTa-e74313-d1e408">
+          <lb ed="#G" n="62"/>1 Nam identitas accipitur, vel vt quaelibet persona, ac 
+          <lb ed="#G" n="63"/>etiam ipsa diuina essentia, est eadem sibi ipsi; &amp; sic nonus 
+          <lb ed="#G" n="64"/>detur dubium, quin identitas sit relatio secundum
+          ratio<lb ed="#G" n="65" break="no"/>nem, sed isto modo aequalitas, &amp; similitudo non tramscunt 
+          <lb ed="#G" n="66"/>in identitatem: quia nec persona aliqua est similis sibi ipsis 
+          <lb ed="#G" n="67"/>nec essentia est aequalis sibi ipsi. Alio modo potest accipi 
+          <lb ed="#G" n="68"/>adentitas, prout in essentia diuina vna persona est eadem 
+          <lb ed="#G" n="69"/>alteri personae, &amp; sic similitudo, &amp; aequalitas transire pos¬ 
+          <!--234.xml-->
+          <cb ed="#G" n="b"/>
+          <lb ed="#G" n="70"/>sunt in modum identitatis; sed vtrum talis identitas sit 
+          <lb ed="#G" n="71"/>relatio secundum rationem, non est minus dubium, quam  
+          <lb ed="#G" n="72"/>vtrum similitudo, &amp; aequalitas sint relationes secundum 
+          <lb ed="#G" n="73"/>rationem. 
+        </p>
+        <p xml:id="HuYgTa-e74313-d1e441">
+          <lb ed="#G" n="74"/>
+          <pc type="indent"/>2 Contra conclusionem autem arguit sic. Quia oppo. 
+          <lb ed="#G" n="75"/>sitae relationes originis fundantur in vna essentia diuina,  
+          <lb ed="#G" n="76"/>quae tamen sunt relationes reales, &amp; realiter differentes, 
+          <lb ed="#G" n="77"/>non obstante essentiae vnitate, ergo relationes communes 
+          <lb ed="#G" n="78"/>sicut sunt similitudo, &amp; aequalitas, sunt relationes reales,  
+          <lb ed="#G" n="79"/>non obstante, quod fundantur super una magnitudine, 
+          <lb ed="#G" n="80"/>vel super vna sapientia, aut bonitate. 
+        </p>
+        <p xml:id="HuYgTa-e74313-d1e461">
+          <lb ed="#G" n="81"/>
+          <pc type="indent"/>Sed contra eandem conclusionem arguunt quidama 
+          <lb ed="#G" n="82"/>alij sic. lllud, quod est in filio ex vi productionis, qua a pai 
+          <lb ed="#G" n="83"/>tre producitur, necessario est reale, quia nullum ens ratio 
+          <lb ed="#G" n="84"/>nis sibi inest ex ui suae productionis: sed aequalitas inest 
+          <lb ed="#G" n="85"/>sibi ex vi suae productionis, quia <ref xml:id="HuYgTa-e74313-Rd1e476">August contra
+            Maximi<lb ed="#G" n="86" break="no"/>num libro 3</ref> ait, quod in diuinis pater non est maior filio,  
+          <lb ed="#G" n="87"/>quia equalem sibi genuit. 
+        </p>
+        <p xml:id="HuYgTa-e74313-d1e484">
+          <lb ed="#G" n="88"/>4 Praeterea, sicut se habet magnitudo dimensiua ad
+          e<lb ed="#G" n="89" break="no"/>qualitatem in creaturis, sic se habet magnitudo perfectio 
+          <lb ed="#G" n="90"/>nis ad aequalitatem in diuinis; sed magnitudo prima
+          fun<lb ed="#G" n="91" break="no"/>dat aequalitatem, quae est relatio realis, cum aequalitas 
+          <lb ed="#G" n="92"/>sit proprietas quantitatis, ergo &amp; secunda fundabit
+          rea<lb ed="#G" n="93" break="no"/>lem aequalitatem. 
+        </p>
+        <p xml:id="HuYgTa-e74313-d1e500">
+          <lb ed="#G" n="94"/>
+          <pc type="indent"/>3 Praeterea, si illud, quod minus videtur inesse, inest: 
+          <lb ed="#G" n="95"/>&amp; illud quod magis; sed minus videtur, quod paternitas,  
+          <lb ed="#G" n="96"/>&amp; filiatio sint relationes reales, stante reali identitate. 
+          <lb ed="#G" n="97"/>sundamenti, quam equalitas, quia paternitas &amp; filiatio 
+          <lb ed="#G" n="98"/>non sunt relationes similium nominum, &amp; aequiparantie; 
+          <lb ed="#G" n="99"/>nam paternitas est relatio superpositonis, &amp; filiatio
+          sup<lb ed="#G" n="100" break="no"/>positonis, &amp; per consequens maiorem videntur
+          require<lb ed="#G" n="101" break="no"/>re in fundamento distinctionem, vel saltem non minorem, 
+          <lb ed="#G" n="102"/>ad hoc, quod sint relationes reales, quam aequalitas, &amp;
+          cete<lb ed="#G" n="103" break="no"/>rae relationes similium nominum, &amp; aequiparantie
+        </p>
+        <p xml:id="HuYgTa-e74313-d1e526">
+          <lb ed="#G" n="104"/> Preterea, secundum <ref xml:id="HuYgTa-e74313-Rd1e530">Anselmum monologion</ref> omnis 
+          <lb ed="#G" n="105"/>perfectio simpliciter est in Deo naturaliter, &amp; per
+          conse<lb ed="#G" n="106" break="no"/>uuens realiter; sed aequalitas est perfectio simpliciter, quia 
+          <lb ed="#G" n="107"/>August. de quantitate animae dicit, lnaequalitati aequalita. 
+          <lb ed="#G" n="108"/>tem iure praeponis, nec quisquam omnino est, vt opinor, 
+          <lb ed="#G" n="109"/>humano sensu praeditus, cui illud non videatur, 
+        </p>
+        <p xml:id="HuYgTa-e74313-d1e546">
+          <lb ed="#G" n="110"/>
+          <pc type="indent"/>Sed illa non concludunt. 
+          <lb ed="#G" n="111"/>1 Quia illa non est realis relatio, cuius esse completi 
+          <lb ed="#G" n="112"/>dependet ab intellectu, sed aequalitas in diuinis est huius 
+          <lb ed="#G" n="113"/>modi: quia pater non potest concipi aequalis filio, nisi
+          ea<lb ed="#G" n="114" break="no"/>dem magnitudo diuina bis accipiatur per intellectum, 
+          <lb ed="#G" n="115"/>puta semel in patre, &amp; semel in filio.
+        </p>
+        <p xml:id="HuYgTa-e74313-d1e564">
+          <lb ed="#G" n="116"/>2 Preterea, Inter eadem extrema super eodem funda 
+          <lb ed="#G" n="117"/>mento non possunt fundari plures oppositones realium 
+          <lb ed="#G" n="118"/>relationum, sed inter patrem, &amp; filiui super eodem
+          fun<lb ed="#G" n="119" break="no"/>damento fundatur paternitas ex parte patris, &amp; filiatio ex 
+          <lb ed="#G" n="120"/>parte filij, ergo nulla alia relatio fundata inter ea poterit 
+          <lb ed="#G" n="121"/>esse realis 
+        </p>
+        <p xml:id="HuYgTa-e74313-d1e580">
+          <lb ed="#G" n="122"/>3 Preterea, haec est differentia inter relationes modo 
+          <lb ed="#G" n="123"/>otentiae, &amp; modo vnius, siue modo numeri, quod
+          relationi<lb ed="#G" n="124" break="no"/>bus modo potentiae fundamenta non referuntur, nec
+          re<lb ed="#G" n="125" break="no"/>lationibus, quas fundant, formaliter denominantur, sed  
+          <lb ed="#G" n="126"/>solum ipsa supposita, potentia enim generatiua Sortis non 
+          <lb ed="#G" n="127"/>est pater, sed ipse Sortes est pater, sed relationibus modo 
+          <lb ed="#G" n="128"/>vnius, siuc modo numeri etiam ipsa fundamenta proprie 
+          <lb ed="#G" n="129"/>referuntur, &amp; huiusmodi relationibus formaliter
+          deno<lb ed="#G" n="130" break="no"/>minantur: non nm solum duo alba sunt similia, sed etiam 
+          <lb ed="#G" n="131"/>duae albedines sunt similes; nec solum duo lapides sunt aequa 
+          <lb ed="#G" n="132"/>es, sed etiam ipse quantitates sunt aequales. Cum igitur in 
+          <lb ed="#G" n="133"/>diuinis non sint plures magnitudines, quae relatione aequa 
+          <lb ed="#G" n="134"/>litatis ad inuicem referantur, sequitur, quod suppositorum 
+          <lb ed="#G" n="135"/>relatio modo aequalitatis fundata super vna &amp; eadem 
+          <lb ed="#G" n="136"/>tirtutis magnitudine non possit esse realis: quia si esseu 
+          <lb ed="#G" n="137"/>realis, etiam ipsa fundamenta ad inuicem realiter
+          refer<lb ed="#G" n="138" break="no"/>rentur, quod est impossibile, cum unum tantum sit
+          fun<lb ed="#G" n="139" break="no"/>damentum, ergo &amp;c 
+        </p>
+        <p xml:id="HuYgTa-e74313-d1e622">
+          <lb ed="#G" n="140"/>
+          <pc type="indent"/>Ad primum igitur dicendum, quod qualitercunque accipia 
+          <lb ed="#G" n="141"/>tur identitas, dummodo sit realis identitas, semper opot 
+          <lb ed="#G" n="142"/>tet, quod relatio extremorum sit relatio secundum rationem 
+          <!--235.xml-->
+          <pb ed="#G" n="98-v"/>
+          <cb ed="#G" n="a"/>
+          <lb ed="#G" n="1"/>quia in tali relatione semper vtitur intellectus vno pro 
+          <lb ed="#G" n="2"/>duobus, alias non esset realis identitas, quod si tibi de 
+          <lb ed="#G" n="3"/>hoc est dubium, nobis autem de hoc non est dubium: quam 
+          <lb ed="#G" n="4"/>uis enim pater, &amp; filius secundum habitudinem originis 
+          <lb ed="#G" n="5"/>duo sint, &amp; relationibus originis realiter ad inuicem
+          re<lb ed="#G" n="6" break="no"/>ferantur, tamen, vt idem sunt diuinae essentiae, non sunt 
+          <lb ed="#G" n="7"/>duo; sed vnum tantum identitate, seu entitate absoluta 
+          <lb ed="#G" n="8"/>diuinae essentiae: ideo relatio, quae vt sic, eis competit, 
+          <lb ed="#G" n="9"/>non est magis realis, quam ea, qua essentia ad seipsum di 
+          <lb ed="#G" n="10"/>citur eadem 
+        </p>
+        <p xml:id="HuYgTa-e74313-d1e661">
+          <lb ed="#G" n="11"/>
+          <pc type="indent"/>Ad secundum dicendum, quod etiam supposito, quod 
+          <lb ed="#G" n="12"/>reales relationes oppositae non requirant semper
+          distin<lb ed="#G" n="13" break="no"/>cta fundamenta, eo quod saltem in diuinis possunt
+          fun<lb ed="#G" n="14" break="no"/>dari in eodem fundamento remoto, tamen omnis realis 
+          <lb ed="#G" n="15"/>relatio requirit suorum extremorum, vt extrema sunt 
+          <lb ed="#G" n="16"/>huiusmodi relationis realem distinctionem, sed quamuis 
+          <lb ed="#G" n="17"/>pater vt pater est, &amp; filius vt filius sunt extrema
+          relatio<lb ed="#G" n="18" break="no"/>num originis, non tamen aequalitatis: quia extrema aequa 
+          <lb ed="#G" n="19"/>litatis, vt extrema sunt, oportet, quod quanta sint: nunc
+          au<lb ed="#G" n="20" break="no"/>tem ita est, quod pater &amp; filius vt quanti, aut magni sunt,  
+          <lb ed="#G" n="21"/>distincti esse non possunt, cum eadem virtute magui sint,  
+          <lb ed="#G" n="22"/>sed vt pater &amp; filius sunt, distincti sunt realiter, ergo
+          quam<lb ed="#G" n="23" break="no"/>uis relationes originis sint reales, quia earum extrema 
+          <lb ed="#G" n="24"/>ut extrema sunt, huiusmodi relationum realiter
+          distin<lb ed="#G" n="25" break="no"/>cta sunt, relationes tamen aequalitatis &amp; similitudinis in 
+          <lb ed="#G" n="26"/>diuinis reales esse non possunt: quia earum extrema, vt 
+          <lb ed="#G" n="27"/>extrema aequalitatis, aut similitudinis sunt distincta
+          rea<lb ed="#G" n="28" break="no"/>liter esse non possunt, ergo &amp;c. 
+        </p>
+        <p xml:id="HuYgTa-e74313-d1e705">
+          <lb ed="#G" n="29"/>
+          <pc type="indent"/>Ad tertium dicendum, quod maior posset negari: quia 
+          <lb ed="#G" n="30"/>etiam, quod filius sit idem sibi ipsi, mest sibi virtute suae 
+          <lb ed="#G" n="31"/>productionis, &amp; tamen illa identitas, vt relatio est,
+          secun<lb ed="#G" n="32" break="no"/>dum rationem est. Dico tamen ad minorem, quod
+          aequa<lb ed="#G" n="33" break="no"/>litas, quo ad suum fundamentum per generationem
+          con<lb ed="#G" n="34" break="no"/>municatur filio, non autem inquantum est relatio: quia 
+          <lb ed="#G" n="35"/>vt sic, eadem magnitudo bis accipitur, quod necessario 
+          <lb ed="#G" n="36"/>fit ab aliquo intellectu 
+        </p>
+        <p xml:id="HuYgTa-e74313-d1e728">
+          <lb ed="#G" n="37"/>
+          <pc type="indent"/>Ad quartum dicendum, quod non est simile: quia
+          magni<lb ed="#G" n="38" break="no"/>tudines dimensiuae, vt fundant aequalitatem in creaturis 
+          <lb ed="#G" n="39"/>sunt realiter distinctae, &amp; per consequens extrema illius 
+          <lb ed="#G" n="40"/>aequalitatis, vt extrema sunt, realiter distincta sunt; in
+          di<lb ed="#G" n="41" break="no"/>uinis autem totum oppositum est, vt iam patuit. 
+        </p>
+        <p xml:id="HuYgTa-e74313-d1e744">
+          <lb ed="#G" n="42"/>
+          <pc type="indent"/>Ad quintum nego minorem. Ad probationem dico, quod 
+          <lb ed="#G" n="43"/>quamuis in diuinis paternitas, &amp; filiatio in fundamento 
+          <lb ed="#G" n="44"/>saltem remoto non requirant distinctio nem, extrema ta 
+          <lb ed="#G" n="45"/>men sua, vt extrema sunt, realiter sunt distincta, &amp; per con 
+          <lb ed="#G" n="46"/>sequens non videtur minus, quod sint reales relationes; 
+          <lb ed="#G" n="47"/>
+          <pc type="indent"/>uam relationes similium nominum, quorum extrema, 
+          <lb ed="#G" n="48"/>vt extrema sunt, realiter distincta in diuinis non sunt 
+        </p>
+        <p xml:id="HuYgTa-e74313-d1e766">
+          <lb ed="#G" n="49"/>
+          <pc type="indent"/>Ad sextum nego minorem: quia nulla relatio est
+          per<lb ed="#G" n="50" break="no"/>fectio simpliciter, alias enim aliqua perfectio simpliciter 
+          <lb ed="#G" n="51"/>esset in vna persona diuina, quae non esset in alia. Ad
+          pro<lb ed="#G" n="52" break="no"/>bationem dico, quod aequale, cum sit relatiuum, non
+          di<lb ed="#G" n="53" break="no"/>cit solam aequalitatem, sed implicat fundamentum,
+          ra<lb ed="#G" n="54" break="no"/>tione cuius potest dicere perfectionem, &amp; potest esse per 
+          <lb ed="#G" n="55"/>fectius inaequali.  
+        </p>
+        <p xml:id="HuYgTa-e74313-d1e786">
+          <lb ed="#G" n="56"/>
+          <pc type="indent"/>ARTICVLVS LII 
+          <lb ed="#G" n="57"/>Vtrum aequalitas in duinis sit relatio 
+          <lb ed="#G" n="58"/>
+          <pc type="indent"/>rationis.
+        </p>
+        <p xml:id="HuYgTa-e74313-d1e799">
+          <lb ed="#G" n="59"/>VANTVM ad tertium principale, Vtrum aequali 
+          <lb ed="#G" n="60"/> tas in diuinis sit relatio rationis, patet conclu 
+          <lb ed="#G" n="61"/>sio ex iam dictis,
+        </p>
+        <p xml:id="HuYgTa-e74313-d1e808">
+          <lb ed="#G" n="62"/>1 Quia cum aequalitas secundum suam propriam
+          ra<lb ed="#G" n="63" break="no"/>tionem sit ad aliquid, nam aequale est aequali aequale, er 
+          <lb ed="#G" n="64"/>go aequalitas erit relatio, aut secundum rem, aut secundum 
+          <lb ed="#G" n="65"/>rationem, sed ostensum est in secundo principali, quod 
+          <lb ed="#G" n="66"/>aequalitas in diuinis non est relatio realis, ergo saltem 
+          <lb ed="#G" n="67"/>crit ibi relatio rationis, supposito, quod in diuinis sit
+          ae<lb ed="#G" n="68" break="no"/>qualitas, iuata illud Athanasij. AEqualis patri secundum 
+          <!--235.xml-->
+          <cb ed="#G" n="b"/>
+          <lb ed="#G" n="69"/> 
+          <lb ed="#G" n="70"/>diuinitatem. Et idem dicit, quod totae tres personae
+          comae<lb ed="#G" n="71" break="no"/>teruae sibi sunt &amp; coaequales. 
+        </p>
+        <p xml:id="HuYgTa-e74313-d1e838">
+          <lb ed="#G" n="72"/>2 Praeterea, relationes oppositae existentes in vno &amp; im 
+          <lb ed="#G" n="73"/>mediato subiecto, sunt secundum rationem tantum: quia 
+          <lb ed="#G" n="74"/>si essent reales, cum omnis realis opposito includat
+          con<lb ed="#G" n="75" break="no"/>tradictionem, sequeretur, quod contradictoria simul
+          ve<lb ed="#G" n="76" break="no"/>rificarentur de eodem: Propter quod semper formae op- 
+          <lb ed="#G" n="77"/>positae quocumque genere oppositonis penes idem
+          pri<lb ed="#G" n="78" break="no"/>mum, &amp; immediatum subiectum mutuo se excludunt, sed 
+          <lb ed="#G" n="79"/>aequalitas dicit oppositionem relatiuam, qua aequale aequali 
+          <lb ed="#G" n="80"/>opponitur, &amp; in diuinis ei respodet pro immediato, &amp; pr 
+          <lb ed="#G" n="81"/>mo subiecto ipsa diuina magnitudo, quae vna est, &amp; indi 
+          <lb ed="#G" n="82"/>uisa, ergo aequalitas non erit in diuinis relatio realis.  
+          <lb ed="#G" n="83"/>Forte dicetur, quod maior non est vera: quia
+          paterni<lb ed="#G" n="84" break="no"/>tas, &amp; filiatio diuina non minus respiciunt essentiam
+          di<lb ed="#G" n="85" break="no"/>uinam, vt primum, &amp; immediatum subiectum, quam
+          ma<lb ed="#G" n="86" break="no"/>gnitudinem diuinam respiciat ipsa aequalitas: &amp; tamen pa 
+          <lb ed="#G" n="87"/>ternitas &amp; filiatio sunt relationes reales; 
+        </p>
+        <p xml:id="HuYgTa-e74313-d1e875">
+          <lb ed="#G" n="88"/>
+          <pc type="indent"/>Respondeo, quod instantia falsum assumit: quia si
+          pa<lb ed="#G" n="89" break="no"/>ternitas, vel aliqua alia relatio originis respiceret diuinam 
+          <lb ed="#G" n="90"/>essentiam, tamquam primum, &amp; immediatum subiectum, 
+          <lb ed="#G" n="91"/>tunc denominaret diuinam essentiam, vel saltem
+          deno<lb ed="#G" n="92" break="no"/>minaret suppositum cum reduplicatione concreti ipsius 
+          <lb ed="#G" n="93"/>deitatis, puta, vel deitas esset pater, non solum identice, 
+          <lb ed="#G" n="94"/>sed etiam formaliter, vel tale suppositum inquantum Deus 
+          <lb ed="#G" n="95"/>esset pater, quorum neutrum est verum: quia ad primum 
+          <lb ed="#G" n="96"/>sequeretur, quod diuina essentia generaret, quod est re 
+          <lb ed="#G" n="97"/>probatum superius. Ad secundum sequeretur, quod
+          spiri<lb ed="#G" n="98" break="no"/>tus sanctus generaret, quia quicquid conuenit diuino sup 
+          <lb ed="#G" n="99"/>posito inquantum Deus est, hoc conuenit omnibus
+          tri<lb ed="#G" n="100" break="no"/>bus indifferenter. Vnde quia aequalitas &amp; inaequalitas 
+          <lb ed="#G" n="101"/>respiciunt magnitudinem tamquam subiectum primum 
+          <lb ed="#G" n="102"/>&amp; immediatum, ideo vel ipsae magnitudines erunt aequa 
+          <lb ed="#G" n="103"/>les, vel inaequales, si distinctae sunt, vel saltem ipsa
+          sup<lb ed="#G" n="104" break="no"/>posita crunt aequalia inquantum eadem magnitudine 
+          <lb ed="#G" n="105"/>magna sunt 
+        </p>
+        <p xml:id="HuYgTa-e74313-d1e919">
+          <lb ed="#G" n="106"/>
+          <pc type="indent"/>3 Praeterea, si aequalitates in diuinis, &amp; similitudines 
+          <lb ed="#G" n="107"/>essent relationes reales; tunc infinitae relationes reales 
+          <lb ed="#G" n="108"/>essent in diuinis, quia secundum quodlibet attributum 
+          <lb ed="#G" n="109"/>diuinum attendendo modum infinitatis suae, quam
+          tra<lb ed="#G" n="110" break="no"/>nit a diuina essentia, personae dicuntur aequales; Etiam  
+          <lb ed="#G" n="111"/>secundum perfectionem cuiuslibet attributi personae
+          di<lb ed="#G" n="112" break="no"/>uinae sunt similes, Cum igitur talia attributa sint
+          infini<lb ed="#G" n="113" break="no"/>ta, ideo &amp;c 
+        </p>
+        <p xml:id="HuYgTa-e74313-d1e941">
+          <lb ed="#G" n="114"/>
+          <pc type="indent"/>ARTICVLV S III 
+          <lb ed="#G" n="115"/>Videbuntur aliqua de relatione
+          iden<lb ed="#G" n="116" break="no"/>
+          <pc type="indent"/>titatis.
+        </p>
+        <p xml:id="HuYgTa-e74313-d1e954">
+          <lb ed="#G" n="117"/>VANTVM ad quartum principale dico, quod iden 
+          <lb ed="#G" n="118"/>titas secundum quod de ea loquitur <ref xml:id="HuYgTa-e74313-Rd1e960">philosophus 
+            <lb ed="#G" n="119"/>5. meraph.</ref> puta secundum quam aliquid est idem sibi
+          ipsi<lb ed="#G" n="120" break="no"/>est relatio secundum rationem. 
+        </p>
+        <p xml:id="HuYgTa-e74313-d1e968">
+          <lb ed="#G" n="121"/>
+          <pc type="indent"/>1 Quia secundum quod aliquid se habet ad aliud, sic 
+          <lb ed="#G" n="122"/>aliquo modo participat rationem relationis, cum propria 
+          <lb ed="#G" n="123"/>ratio relationis sit ad aliud esse; sed idem comparatum ad 
+          <lb ed="#G" n="124"/>seipsum, non est ad aliud, nisi secundum rationem, igitur 
+          <lb ed="#G" n="125"/>identitas huiusmodi est relatio secundum rationem. 
+        </p>
+        <p xml:id="HuYgTa-e74313-d1e985">
+          <lb ed="#G" n="126"/>
+          <pc type="indent"/>2 Praeterea, relatio realis requirit extrema realiter di 
+          <lb ed="#G" n="127"/>stincta, sed idem non potest esse realiter distinctum a seipso. 
+          <lb ed="#G" n="128"/>3 Praeterea, relatio dependens ab intellectu est rela  
+          <lb ed="#G" n="129"/>tio rationis, sed identitatis relatio est huiusmodi, quia se 
+          <lb ed="#G" n="130"/>cundum <ref xml:id="HuYgTa-e74313-Rd1e1000">philosophum 5 metaph</ref> cum idem refertur ad 
+          <lb ed="#G" n="131"/>seipsum, intellectus vtitur vno, vt duobus. 
+        </p>
+        <p xml:id="HuYgTa-e74313-d1e1006">
+          <lb ed="#G" n="132"/>
+          <pc type="indent"/>Contra tamen hanc veritatem quidam arguunt sic 
+          <lb ed="#G" n="133"/>1 Diuersitas est relatio realis, igitur identitas est rela 
+          <lb ed="#G" n="134"/>tio realis. consequentia patet, quia opposita sunt sub
+          eo<lb ed="#G" n="135" break="no"/>dem genere, vt patet <ref xml:id="HuYgTa-e74313-Rd1e1019">4. metaph.</ref> Idem autem &amp; diuersum te 
+          <lb ed="#G" n="136"/>sunt opposita, vt patet <ref xml:id="HuYgTa-e74313-Rd1e1024">ro. metaph</ref> sed ens rationis, &amp; ens te 
+          <lb ed="#G" n="137"/>reale non sunt sub eodem genere, ergo &amp;c. 
+        </p>
+        <p xml:id="HuYgTa-e74313-d1e1030">
+          <lb ed="#G" n="138"/>Ad illud breuiter respondebo, quod duplex est
+          identi<lb ed="#G" n="139" break="no"/>tas, quaedam absoluta, &amp; ista est idem, quod rerunitas, 
+          <!--236.xml-->
+          <pb ed="#G" n="99-r"/>
+          <cb ed="#G" n="a"/>
+          <lb ed="#G" n="1"/>&amp; opponitur diuisioni, &amp; per consequens diuersitat. 
+          <lb ed="#G" n="2"/>non relatiuae, sed priuatiuae, &amp; ista identitas non est deter 
+          <lb ed="#G" n="3"/>minati generis, sed transcedentis: quia in omni genere re 
+          <lb ed="#G" n="4"/>peritur, sicut etiam ipsa diuersitas. Alia est identitas relati 
+          <lb ed="#G" n="5"/>a, puta qua idem relatiue respicit seipsum, &amp; illa non op 
+          <lb ed="#G" n="6"/>ponitur diuersitati relatiuae: quia relatiue diuersum oppo 
+          <lb ed="#G" n="7"/>nitur diuerso, &amp; idem opponitur eidem, cum sint relatio 
+          <lb ed="#G" n="8"/>nes similium nominum
+        </p>
+        <p xml:id="HuYgTa-e74313-d1e1061">
+          <lb ed="#G" n="9"/>forte dicet aduersarius, quod quamuis idem, &amp;diuersum 
+          <lb ed="#G" n="10"/>ti relatiua sunt, non opponantur relatiue, saltem
+          oppo<lb ed="#G" n="11" break="no"/>nuntur priuatiue, &amp; per consequens erunt in eodem
+          ge<lb ed="#G" n="12" break="no"/>nere quia priuatio pertinet cum habitu ad idem genus. 
+          <lb ed="#G" n="13"/>Reipondeo, quod, vt relationes sunt, non opponuntui 
+          <lb ed="#G" n="14"/>nuatiue, nisi ratione suorum fundamentorum, Dato
+          ta<lb ed="#G" n="15" break="no"/>men, quod sint in eodem genere, adhuc tamen non sequi 
+          <lb ed="#G" n="16"/>ur supradicta consequentia, puta si relatio diuersitatis 
+          <lb ed="#G" n="17"/>srealis, quod identitas sit relatio realis: quia hoc est pro 
+          <lb ed="#G" n="18"/>prum ipsius relationis, quod ipsa secundum propriam, &amp; 
+          <lb ed="#G" n="19"/>periectam rationem sui generis est communis rei, &amp;ratio 
+          <lb ed="#G" n="20"/>n,hoc est realibus relationibus, &amp; secundum rationen 
+          <lb ed="#G" n="21"/>solummodo ad aliud se habentibus, alias nulla relatio se 
+          <lb ed="#G" n="22"/>endum esse posset esse relatio secundum rationem, cum 
+          <lb ed="#G" n="23"/>emnis relatio secundum esse sit in praedicamento relatio 
+          <lb ed="#G" n="24"/>us, quod est falsum, vt apparet de relatione domini ad 
+          <lb ed="#G" n="25"/>setuum. 
+        </p>
+        <p xml:id="HuYgTa-e74313-d1e1100">
+          <lb ed="#G" n="26"/>
+          <pc type="indent"/>Ad argumentum principale dicendum, quod quamuis 
+          <lb ed="#G" n="27"/>ugnitudo realis sit in diuinis, loquendo de
+          magnitudi<lb ed="#G" n="28" break="no"/>nturtutis, &amp; perfectionis, aequalitas tamen non est
+          rela<lb ed="#G" n="29" break="no"/>realis, eo quod ratione identitatis illius
+          magnitudi<lb ed="#G" n="30" break="no"/>ni extrema illius relationis, Vt extrema sunt, non sun 
+          <lb ed="#G" n="31"/>raliter distincta, vt patuit superius 
+        </p>
+      </div>
+    </body>
+  </text>
 </TEI>

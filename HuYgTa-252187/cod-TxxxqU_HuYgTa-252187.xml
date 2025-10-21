@@ -1,109 +1,109 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Circa textum</title>
-            <author ref="#ThomasStrasbourg">Thomas of Strasbourg</author>
-            <respStmt>
-               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
-               <resp>Transcription Editor</resp>
-               <resp>TEI Encoder</resp>
-            </respStmt>
-         </titleStmt>
-         <editionStmt>
-            <edition n="0.0.0-dev">
-               <title>Circa textum</title>
-               <date when="2020-11-26">November 26, 2020</date>
-            </edition>
-         </editionStmt>
-         <publicationStmt>
-            <authority>SCTA</authority>
-            <availability status="free">
-               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
-               </p>
-            </availability>
-         </publicationStmt>
-         <sourceDesc>
-            <listWit>
-               <witness xml:id="G" n="cod-TxxxqU">Genoa 1585</witness>
-            </listWit>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
-         <editorialDecl>
-            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
-       guidelines for a diplomatic edition.</p>
-         </editorialDecl>
-      </encodingDesc>
-      <revisionDesc status="draft">
-         <listChange>
-            <change when="2020-11-26" status="draft" n="0.0.0">
-               <p>Created file for the first time.</p>
-            </change>
-         </listChange>
-      </revisionDesc>
-   </teiHeader>
-   <text xml:lang="la">
-      <front>
-         <div xml:id="starts-on">
-           <pb ed="#G" n="P2_122-r"/>
-            <cb ed="#G" n="a"/>
-         </div>
-      </front>
-      <body>
-         <div xml:id="HuYgTa-252187"><!-- HuYgTa-l4d16ct1 -->
-            <head xml:id="HuYgTa-252187-Hd1e108">Circa textum</head>
-            <p xml:id="HuYgTa-252187-d1e111">
-               <lb ed="#G" n="6"/>
-               <pc type="indent"/>DISTINCTIO XVI 
-      <lb ed="#G" n="7"/>Aperta huius distinctionis diuisio, in qua
-      pe<lb ed="#G" n="8" break="no"/>
-               <pc type="indent"/>culiariter de partibus
-      poeniten<lb ed="#G" n="9" break="no"/>
-               <pc type="indent"/>tiae determmatur. 
-    </p>
-            <p xml:id="HuYgTa-252187-d1e129">
-               <lb ed="#G" n="10"/>
-               <pc type="indent"/>N perfectione autem. Postquam 
-      <lb ed="#G" n="11"/>magister in duabus
-      distinctioni<lb ed="#G" n="12" break="no"/>bus proxime praecedentibus
-      de<lb ed="#G" n="13" break="no"/>terminauit de sacramento
-      poeni<lb ed="#G" n="14" break="no"/>tentiae in vniuersali, nunc in ista 
-      <lb ed="#G" n="15"/>sextadecima distinctione determi 
-      <lb ed="#G" n="16"/>nat de partibus istius sacramenti 
-      <lb ed="#G" n="17"/> in speciali. Et diuiditur in duas par 
-      <lb ed="#G" n="18"/>uia primo partes penitentiam integrantes enume 
-      <lb ed="#G" n="19"/>at. Secundo de huiusmodi partibus distincte
-      conside<lb ed="#G" n="20" break="no"/>rat ibi, Hic oritur quaestio. Prima in duas, nam primo 
-      <lb ed="#G" n="21"/>tangit tres partes poenitentiam integrantes, &amp; perficien 
-      <lb ed="#G" n="22"/>tes. Secundo ostendit tres modos poenitendi secundum 
-      <lb ed="#G" n="23"/>diuersa tempora poenitentibus conuenientes, ibi,
-      Prae<lb ed="#G" n="24" break="no"/>dictis vero adiiciendum est. Prima in duas: nam primo 
-      <lb ed="#G" n="25"/>ostendit verae poenitentiae sufficientiam. Secundo tam  
-      <lb ed="#G" n="26"/>quam ex opposito innuit falsae poenitentiae deficientiam, 
-      <lb ed="#G" n="27"/>ibi, Et sicut sunt digni fructus Prima in duas: quia
-      pri<lb ed="#G" n="28" break="no"/>mo ostendit, quod vera penitentia consistit in cordis com 
-      <lb ed="#G" n="29"/>ntione, oris confessione, &amp; operis satisfactione Secun 
-      <lb ed="#G" n="30"/>lo hoc manifestat ex textu sacrae scripturae, ibi,
-      Com<lb ed="#G" n="31" break="no"/>punctio nobis ibi commendatur. Et haec in tres,
-      secun<lb ed="#G" n="32" break="no"/>lum, quod primo allegat scripturam, qua indicitur
-      no<lb ed="#G" n="33" break="no"/>is cordis compunctio; Secundo, qua oris confessio; Ter 
-      <lb ed="#G" n="34"/>o, qua operis satisfactio. Secunda, ibi, Confessio. Ter. 
-      <lb ed="#G" n="35"/>tia, ibi, Satis sactio autem. Et haec in tres: nam primo
-      in<lb ed="#G" n="36" break="no"/>nuit poenitentialis satisfactionis perfectionem, &amp;
-      com<lb ed="#G" n="37" break="no"/>plementum. Secundo ponit in proposito valde
-      excel<lb ed="#G" n="38" break="no"/>ens, &amp; vtile documentum. Tertio ex praedictis
-      conclu<lb ed="#G" n="39" break="no"/>lit quoddam corollarium. Secunda, ibi, ldeo discretio 
-      <lb ed="#G" n="40"/>tenitenti Tertia, ibi, Ex his ostenditur Istarum
-      secun<lb ed="#G" n="41" break="no"/>la diuiditur in duas partes, quia in isto saluberrimo
-      do<lb ed="#G" n="42" break="no"/>umento dato a Deato Augustino, primo ostenditur 
-      <lb ed="#G" n="43"/>uae secundum veram poenitentiam sint facienda Secun 
-      <lb ed="#G" n="44"/>do, quae cauenda, &amp; fugienda, ibi, Caueat ne verecun 
-      <lb ed="#G" n="45"/>dia. Haec est sententia istius distinctionis in genarali, cit 
-      <lb ed="#G" n="46"/>ta quam quaero in speciali.  
-    </p>
-         </div>
-      </body>
-   </text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Circa textum</title>
+        <author ref="#ThomasStrasbourg">Thomas of Strasbourg</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Circa textum</title>
+          <date when="2020-11-26">November 26, 2020</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="G" n="cod-TxxxqU">Genoa 1585</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2020-11-26" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#G" n="P2_122-r"/>
+        <cb ed="#G" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="HuYgTa-252187"><!-- HuYgTa-l4d16ct1 -->
+        <head xml:id="HuYgTa-252187-Hd1e108">Circa textum</head>
+        <p xml:id="HuYgTa-252187-d1e111">
+          <lb ed="#G" n="6"/>
+          <pc type="indent"/>DISTINCTIO XVI 
+          <lb ed="#G" n="7"/>Aperta huius distinctionis diuisio, in qua
+          pe<lb ed="#G" n="8" break="no"/>
+          <pc type="indent"/>culiariter de partibus
+          poeniten<lb ed="#G" n="9" break="no"/>
+          <pc type="indent"/>tiae determmatur. 
+        </p>
+        <p xml:id="HuYgTa-252187-d1e129">
+          <lb ed="#G" n="10"/>
+          <pc type="indent"/>N perfectione autem. Postquam 
+          <lb ed="#G" n="11"/>magister in duabus
+          distinctioni<lb ed="#G" n="12" break="no"/>bus proxime praecedentibus
+          de<lb ed="#G" n="13" break="no"/>terminauit de sacramento
+          poeni<lb ed="#G" n="14" break="no"/>tentiae in vniuersali, nunc in ista 
+          <lb ed="#G" n="15"/>sextadecima distinctione determi 
+          <lb ed="#G" n="16"/>nat de partibus istius sacramenti 
+          <lb ed="#G" n="17"/> in speciali. Et diuiditur in duas par 
+          <lb ed="#G" n="18"/>uia primo partes penitentiam integrantes enume 
+          <lb ed="#G" n="19"/>at. Secundo de huiusmodi partibus distincte
+          conside<lb ed="#G" n="20" break="no"/>rat ibi, Hic oritur quaestio. Prima in duas, nam primo 
+          <lb ed="#G" n="21"/>tangit tres partes poenitentiam integrantes, &amp; perficien 
+          <lb ed="#G" n="22"/>tes. Secundo ostendit tres modos poenitendi secundum 
+          <lb ed="#G" n="23"/>diuersa tempora poenitentibus conuenientes, ibi,
+          Prae<lb ed="#G" n="24" break="no"/>dictis vero adiiciendum est. Prima in duas: nam primo 
+          <lb ed="#G" n="25"/>ostendit verae poenitentiae sufficientiam. Secundo tam  
+          <lb ed="#G" n="26"/>quam ex opposito innuit falsae poenitentiae deficientiam, 
+          <lb ed="#G" n="27"/>ibi, Et sicut sunt digni fructus Prima in duas: quia
+          pri<lb ed="#G" n="28" break="no"/>mo ostendit, quod vera penitentia consistit in cordis com 
+          <lb ed="#G" n="29"/>ntione, oris confessione, &amp; operis satisfactione Secun 
+          <lb ed="#G" n="30"/>lo hoc manifestat ex textu sacrae scripturae, ibi,
+          Com<lb ed="#G" n="31" break="no"/>punctio nobis ibi commendatur. Et haec in tres,
+          secun<lb ed="#G" n="32" break="no"/>lum, quod primo allegat scripturam, qua indicitur
+          no<lb ed="#G" n="33" break="no"/>is cordis compunctio; Secundo, qua oris confessio; Ter 
+          <lb ed="#G" n="34"/>o, qua operis satisfactio. Secunda, ibi, Confessio. Ter. 
+          <lb ed="#G" n="35"/>tia, ibi, Satis sactio autem. Et haec in tres: nam primo
+          in<lb ed="#G" n="36" break="no"/>nuit poenitentialis satisfactionis perfectionem, &amp;
+          com<lb ed="#G" n="37" break="no"/>plementum. Secundo ponit in proposito valde
+          excel<lb ed="#G" n="38" break="no"/>ens, &amp; vtile documentum. Tertio ex praedictis
+          conclu<lb ed="#G" n="39" break="no"/>lit quoddam corollarium. Secunda, ibi, ldeo discretio 
+          <lb ed="#G" n="40"/>tenitenti Tertia, ibi, Ex his ostenditur Istarum
+          secun<lb ed="#G" n="41" break="no"/>la diuiditur in duas partes, quia in isto saluberrimo
+          do<lb ed="#G" n="42" break="no"/>umento dato a Deato Augustino, primo ostenditur 
+          <lb ed="#G" n="43"/>uae secundum veram poenitentiam sint facienda Secun 
+          <lb ed="#G" n="44"/>do, quae cauenda, &amp; fugienda, ibi, Caueat ne verecun 
+          <lb ed="#G" n="45"/>dia. Haec est sententia istius distinctionis in genarali, cit 
+          <lb ed="#G" n="46"/>ta quam quaero in speciali.  
+        </p>
+      </div>
+    </body>
+  </text>
 </TEI>

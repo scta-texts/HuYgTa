@@ -1,119 +1,118 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Circa textum</title>
-            <author ref="#ThomasStrasbourg">Thomas of Strasbourg</author>
-            <respStmt>
-               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
-               <resp>Transcription Editor</resp>
-               <resp>TEI Encoder</resp>
-            </respStmt>
-         </titleStmt>
-         <editionStmt>
-            <edition n="0.0.0-dev">
-               <title>Circa textum</title>
-               <date when="2020-11-26">November 26, 2020</date>
-            </edition>
-         </editionStmt>
-         <publicationStmt>
-            <authority>SCTA</authority>
-            <availability status="free">
-               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
-               </p>
-            </availability>
-         </publicationStmt>
-         <sourceDesc>
-            <listWit>
-               <witness xml:id="G" n="cod-TxxxqU">Genoa 1585</witness>
-            </listWit>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
-         <editorialDecl>
-            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
-       guidelines for a diplomatic edition.</p>
-         </editorialDecl>
-      </encodingDesc>
-      <revisionDesc status="draft">
-         <listChange>
-            <change when="2020-11-26" status="draft" n="0.0.0">
-               <p>Created file for the first time.</p>
-            </change>
-         </listChange>
-      </revisionDesc>
-   </teiHeader>
-   <text xml:lang="la">
-      <front>
-         <div xml:id="starts-on">
-           <pb ed="#G" n="P2_78-v"/>
-            <cb ed="#G" n="a"/>
-         </div>
-      </front>
-      <body>
-         <div xml:id="HuYgTa-219258"><!-- HuYgTa-l4d6ct1 -->
-            <head xml:id="HuYgTa-219258-Hd1e108">Circa textum</head>
-            <p xml:id="HuYgTa-219258-d1e111">
-               <lb ed="#G" n="28"/>
-               <pc type="indent"/>DISTINCTIO vi. 
-      <lb ed="#G" n="29"/>Perspitua huius distinctionis diuuisio, in qua agitur de 
-      <lb ed="#G" n="30"/>
-               <pc type="indent"/>congruo Paptismi vsu.
-    </p>
-            <p xml:id="HuYgTa-219258-d1e124">
-               <lb ed="#G" n="31"/>VNC QVIEVS LICEAT. postquan 
-      <lb ed="#G" n="32"/>
-               <pc type="indent"/>magister determinauit de baptismo se 
-      <lb ed="#G" n="33"/>cundum se, ac etiam comparatiue, hi 
-      <lb ed="#G" n="34"/>prosequitur de baptismi congruo vsit, seu 
-      <lb ed="#G" n="35"/>frequentatione. Et diuiditur in duas
-      par<lb ed="#G" n="36" break="no"/>tes: quia primo tangit quaedam
-      impedi<lb ed="#G" n="37" break="no"/>menta accidentia circa ea, quae sunt de baptismi
-      necessi<lb ed="#G" n="38" break="no"/>tate. Secundo tangit quaedam existentia de baptismi so 
-      <lb ed="#G" n="39"/>lemnitate, ibi, Agnoscendum est etiam. Prima in tres 
-      <lb ed="#G" n="40"/>quia primo tangit aliqua impedimenta contingentia ex 
-      <lb ed="#G" n="41"/>parte baptixantis. Secundo ex parte baptixati. Tertio ex 
-      <lb ed="#G" n="42"/>parte modi baptixandi. Secunda ibi, lllud etiam
-      ignoram<lb ed="#G" n="43" break="no"/>dum non est. Tertia ibi, Quaeri etiam solet. Prima in duas 
-      <lb ed="#G" n="44"/>quia primo praemittit quaedam, quae sunt de baptismi
-      ho<lb ed="#G" n="45" break="no"/>nestate. Secundo tangit quoddam dubium eueniens ex 
-      <lb ed="#G" n="46"/>baptixantis prauitate, ibi, De illis etiam, qui ab haereticis. 
-      <lb ed="#G" n="47"/>Et haec in duas: quia primo magister ex dictis sanctorum 
-      <lb ed="#G" n="48"/>ostendit, quod baptixatus ab haeretico, seruata tamen
-      for<lb ed="#G" n="49" break="no"/>ma, quam tenet ecclesia, non est rebaptixandus. Secundo 
-      <lb ed="#G" n="50"/>recitat opinionem contrariam, quam tenuit sanctus
-      Cv<lb ed="#G" n="51" break="no"/>prianus, &amp; respondet ad eam, ibi, Sunt tamen nonnulli 
-      <lb ed="#G" n="52"/>doctorum. Tunc sequitur illa pars, lllud etiam
-      ignoran<lb ed="#G" n="53" break="no"/>dum non est. Vbi primo magister ostendit, quaod puer non 
-      <lb ed="#G" n="54"/>baptixatur existens in vtero materno, dato etiam, quod 
-      <lb ed="#G" n="55"/>mater baptixetur. Secundo inducit quandam
-      obiectio<lb ed="#G" n="56" break="no"/>nem, &amp; respondet ad eam, ibi. Si vero opponitur. Tun 
-      <lb ed="#G" n="57"/>sequitur illa pars, Quaeri etiam solet. Et diuiditur in tres 
-      <lb ed="#G" n="58"/>partes. Primo enim ostendit magister, quid faciendum 
-      <lb ed="#G" n="59"/>sit, cum forma verborum aliqualiter corrumpitur, Secum 
-      <lb ed="#G" n="60"/>do, cum baptixator alicuius hominis penitus ignoratur 
-      <lb ed="#G" n="61"/>Tertio cum aliquis in nomine trinitatis iocose, &amp; sine
-      in<lb ed="#G" n="62" break="no"/>tentione bapticatur, Secunda ibi, Praeterea sciendum est 
-      <lb ed="#G" n="63"/>Tertia ibi, Solet etiam quaeri. Sequitur illa pars.
-      Agno<lb ed="#G" n="64" break="no"/>fcendum est etiam. Et diuiditur in tres partes: quia pri 
-      <lb ed="#G" n="65"/>mo ostendit de baptismi sollemnitate esse temporis
-      de<lb ed="#G" n="66" break="no"/>rerminationem. Secundo fidei professionem. Et tertio 
-      <lb ed="#G" n="67"/>catechixationem, &amp; exorcixationem. Secunda ibi, Por 
-      <lb ed="#G" n="68"/>ro cuncti. Tertia ibi. llla autem interrogatio. Hic nota, 
-      <lb ed="#G" n="69"/>quod catechicatio idem est, quod instructio. Et dicitu 
-      <!--627.xml-->
-      <cb ed="#G" n="b"/>
-               <lb ed="#G" n="70"/>a catichis, grece. quod est instructio latine. Et inde
-      ca<lb ed="#G" n="71" break="no"/>tecumenus dicitur ille, qui de articulis fidei instruitur 
-      <lb ed="#G" n="72"/>priusquam baptixetur. Exorcixatio idem est, quod adiura 
-      <lb ed="#G" n="73"/>tio. Et dicitur ab exorcimon, grece, quod est
-      increpa<lb ed="#G" n="74" break="no"/>tio, vel adiuratio latine. Et inde dicitur exorcista ille, qui 
-      <lb ed="#G" n="75"/>facit adiurationes super daemones ad hoc, vt ab hominis 
-      <lb ed="#G" n="76"/>vexatione desistant. Hec sent. istius sextae, distinctionis in 
-      <lb ed="#G" n="77"/>generali, circa quam quaero hanc quaestionem in speciei 
-    </p>
-         </div>
-      </body>
-   </text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Circa textum</title>
+        <author ref="#ThomasStrasbourg">Thomas of Strasbourg</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Circa textum</title>
+          <date when="2020-11-26">November 26, 2020</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="G" n="cod-TxxxqU">Genoa 1585</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2020-11-26" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#G" n="P2_78-v"/>
+        <cb ed="#G" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="HuYgTa-219258"><!-- HuYgTa-l4d6ct1 -->
+        <head xml:id="HuYgTa-219258-Hd1e108">Circa textum</head>
+        <p xml:id="HuYgTa-219258-d1e111">
+          <lb ed="#G" n="28"/>
+          <pc type="indent"/>DISTINCTIO vi. 
+          <lb ed="#G" n="29"/>Perspitua huius distinctionis diuuisio, in qua agitur de 
+          <lb ed="#G" n="30"/>
+          <pc type="indent"/>congruo Paptismi vsu.
+        </p>
+        <p xml:id="HuYgTa-219258-d1e124">
+          <lb ed="#G" n="31"/>VNC QVIEVS LICEAT. postquan 
+          <lb ed="#G" n="32"/><pc type="indent"/>magister determinauit de baptismo se 
+          <lb ed="#G" n="33"/>cundum se, ac etiam comparatiue, hi 
+          <lb ed="#G" n="34"/>prosequitur de baptismi congruo vsit, seu 
+          <lb ed="#G" n="35"/>frequentatione. Et diuiditur in duas
+          par<lb ed="#G" n="36" break="no"/>tes: quia primo tangit quaedam
+          impedi<lb ed="#G" n="37" break="no"/>menta accidentia circa ea, quae sunt de baptismi
+          necessi<lb ed="#G" n="38" break="no"/>tate. Secundo tangit quaedam existentia de baptismi so 
+          <lb ed="#G" n="39"/>lemnitate, ibi, Agnoscendum est etiam. Prima in tres 
+          <lb ed="#G" n="40"/>quia primo tangit aliqua impedimenta contingentia ex 
+          <lb ed="#G" n="41"/>parte baptixantis. Secundo ex parte baptixati. Tertio ex 
+          <lb ed="#G" n="42"/>parte modi baptixandi. Secunda ibi, lllud etiam
+          ignoram<lb ed="#G" n="43" break="no"/>dum non est. Tertia ibi, Quaeri etiam solet. Prima in duas 
+          <lb ed="#G" n="44"/>quia primo praemittit quaedam, quae sunt de baptismi
+          ho<lb ed="#G" n="45" break="no"/>nestate. Secundo tangit quoddam dubium eueniens ex 
+          <lb ed="#G" n="46"/>baptixantis prauitate, ibi, De illis etiam, qui ab haereticis. 
+          <lb ed="#G" n="47"/>Et haec in duas: quia primo magister ex dictis sanctorum 
+          <lb ed="#G" n="48"/>ostendit, quod baptixatus ab haeretico, seruata tamen
+          for<lb ed="#G" n="49" break="no"/>ma, quam tenet ecclesia, non est rebaptixandus. Secundo 
+          <lb ed="#G" n="50"/>recitat opinionem contrariam, quam tenuit sanctus
+          Cv<lb ed="#G" n="51" break="no"/>prianus, &amp; respondet ad eam, ibi, Sunt tamen nonnulli 
+          <lb ed="#G" n="52"/>doctorum. Tunc sequitur illa pars, lllud etiam
+          ignoran<lb ed="#G" n="53" break="no"/>dum non est. Vbi primo magister ostendit, quaod puer non 
+          <lb ed="#G" n="54"/>baptixatur existens in vtero materno, dato etiam, quod 
+          <lb ed="#G" n="55"/>mater baptixetur. Secundo inducit quandam
+          obiectio<lb ed="#G" n="56" break="no"/>nem, &amp; respondet ad eam, ibi. Si vero opponitur. Tun 
+          <lb ed="#G" n="57"/>sequitur illa pars, Quaeri etiam solet. Et diuiditur in tres 
+          <lb ed="#G" n="58"/>partes. Primo enim ostendit magister, quid faciendum 
+          <lb ed="#G" n="59"/>sit, cum forma verborum aliqualiter corrumpitur, Secum 
+          <lb ed="#G" n="60"/>do, cum baptixator alicuius hominis penitus ignoratur 
+          <lb ed="#G" n="61"/>Tertio cum aliquis in nomine trinitatis iocose, &amp; sine
+          in<lb ed="#G" n="62" break="no"/>tentione bapticatur, Secunda ibi, Praeterea sciendum est 
+          <lb ed="#G" n="63"/>Tertia ibi, Solet etiam quaeri. Sequitur illa pars.
+          Agno<lb ed="#G" n="64" break="no"/>fcendum est etiam. Et diuiditur in tres partes: quia pri 
+          <lb ed="#G" n="65"/>mo ostendit de baptismi sollemnitate esse temporis
+          de<lb ed="#G" n="66" break="no"/>rerminationem. Secundo fidei professionem. Et tertio 
+          <lb ed="#G" n="67"/>catechixationem, &amp; exorcixationem. Secunda ibi, Por 
+          <lb ed="#G" n="68"/>ro cuncti. Tertia ibi. llla autem interrogatio. Hic nota, 
+          <lb ed="#G" n="69"/>quod catechicatio idem est, quod instructio. Et dicitu 
+          <!--627.xml-->
+          <cb ed="#G" n="b"/>
+          <lb ed="#G" n="70"/>a catichis, grece. quod est instructio latine. Et inde
+          ca<lb ed="#G" n="71" break="no"/>tecumenus dicitur ille, qui de articulis fidei instruitur 
+          <lb ed="#G" n="72"/>priusquam baptixetur. Exorcixatio idem est, quod adiura 
+          <lb ed="#G" n="73"/>tio. Et dicitur ab exorcimon, grece, quod est
+          increpa<lb ed="#G" n="74" break="no"/>tio, vel adiuratio latine. Et inde dicitur exorcista ille, qui 
+          <lb ed="#G" n="75"/>facit adiurationes super daemones ad hoc, vt ab hominis 
+          <lb ed="#G" n="76"/>vexatione desistant. Hec sent. istius sextae, distinctionis in 
+          <lb ed="#G" n="77"/>generali, circa quam quaero hanc quaestionem in speciei 
+        </p>
+      </div>
+    </body>
+  </text>
 </TEI>

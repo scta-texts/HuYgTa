@@ -1,99 +1,99 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Circa textum</title>
-            <author ref="#ThomasStrasbourg">Thomas of Strasbourg</author>
-            <respStmt>
-               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
-               <resp>Transcription Editor</resp>
-               <resp>TEI Encoder</resp>
-            </respStmt>
-         </titleStmt>
-         <editionStmt>
-            <edition n="0.0.0-dev">
-               <title>Circa textum</title>
-               <date when="2020-11-26">November 26, 2020</date>
-            </edition>
-         </editionStmt>
-         <publicationStmt>
-            <authority>SCTA</authority>
-            <availability status="free">
-               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
-               </p>
-            </availability>
-         </publicationStmt>
-         <sourceDesc>
-            <listWit>
-               <witness xml:id="G" n="cod-TxxxqU">Genoa 1585</witness>
-            </listWit>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
-         <editorialDecl>
-            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
-       guidelines for a diplomatic edition.</p>
-         </editorialDecl>
-      </encodingDesc>
-      <revisionDesc status="draft">
-         <listChange>
-            <change when="2020-11-26" status="draft" n="0.0.0">
-               <p>Created file for the first time.</p>
-            </change>
-         </listChange>
-      </revisionDesc>
-   </teiHeader>
-   <text xml:lang="la">
-      <front>
-         <div xml:id="starts-on">
-           <pb ed="#G" n="P2_123-v"/>
-            <cb ed="#G" n="a"/>
-         </div>
-      </front>
-      <body>
-         <div xml:id="HuYgTa-253605"><!-- HuYgTa-l4d17ct1 -->
-            <head xml:id="HuYgTa-253605-Hd1e108">Circa textum</head>
-            <p xml:id="HuYgTa-253605-d1e111">
-               <lb ed="#G" n="110"/>
-               <pc type="indent"/>DISLINCTIO NVI. 
-      <lb ed="#G" n="111"/>clara buius distinctionis diuisio, mn qua Magister 
-      <lb ed="#G" n="112"/>
-               <pc type="indent"/>circa singulam quamque ponitentiae 
-      <lb ed="#G" n="113"/>
-               <pc type="indent"/>partem mouet quectionem. 
-    </p>
-            <p xml:id="HuYgTa-253605-d1e129">
-               <lb ed="#G" n="114"/>
-               <pc type="indent"/>C oritur quaestio. Postquam Ma 
-      <lb ed="#G" n="115"/>gister in praecedenti distinctione 
-      <lb ed="#G" n="116"/>de numero partium poenitentiae 
-      <lb ed="#G" n="117"/>praemisit suam intentionem, nunc 
-      <lb ed="#G" n="118"/>in ista decimaseptima distinctione 
-      <lb ed="#G" n="119"/>de praenumeratis partibus facit di 
-      <lb ed="#G" n="120"/>stinctam considerationem. Et
-      di<lb ed="#G" n="121" break="no"/>uiditur in duas partes: quia primo  
-      <lb ed="#G" n="122"/>Magister tres quaestiones ad praesens tractandas insinuat 
-      <lb ed="#G" n="123"/>Quaram prima est, vtrum peccatum remittatur sola com 
-      <lb ed="#G" n="124"/>tritione, vel ad huiusmodi remissionem necessaria sit 
-      <lb ed="#G" n="125"/>confessio, Secunda, vtrum sufficiat ad peccati
-      remissio<lb ed="#G" n="126" break="no"/>nem facere confessionem soli Deo. Tertia, vtrum sufficiat 
-      <lb ed="#G" n="127"/>confiteri bono, &amp; fideli laico: Secundo praemissas
-      quae<lb ed="#G" n="128" break="no"/>stiones determinat. Secunda, ibi, Dicunt enim quidam 
-      <lb ed="#G" n="129"/>Et haec diuiditur in tres partes, secundum quod primo  
-      <lb ed="#G" n="130"/>tractat quaestionem primam, Secundo, secundam, Et tertio, 
-      <lb ed="#G" n="131"/>tertiam. Secunda; ibi, lam secundum quaestionis articulum. 
-      <lb ed="#G" n="132"/>Tertia, ibi, Nunc priusquam. Prima in duas: quia primo  
-      <lb ed="#G" n="133"/>circa primam quaestionem recitat duplicem opinionem, 
-      <lb ed="#G" n="134"/>Secundo ostendit vnam illarum opinionum veritati
-      ma<lb ed="#G" n="135" break="no"/>gis esse conformem, ibi. Quid igitur super his. Sequitur  
-      <lb ed="#G" n="136"/>illa pars. lam secundum. Et diuitur in duas partes: quia 
-      <lb ed="#G" n="137"/>primo circa quaestionem secundam recitat vnam opi- 
-      <lb ed="#G" n="138"/>nionem falsam, &amp; abiiciendam. Secundo subdit opinio 
-      <lb ed="#G" n="139"/>nem veram, &amp; asserendam, ibi, Sed, quod
-      sacerdoti<lb ed="#G" n="140" break="no"/>bus. Hic quaero.
-    </p>
-         </div>
-      </body>
-   </text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Circa textum</title>
+        <author ref="#ThomasStrasbourg">Thomas of Strasbourg</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Circa textum</title>
+          <date when="2020-11-26">November 26, 2020</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="G" n="cod-TxxxqU">Genoa 1585</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2020-11-26" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#G" n="P2_123-v"/>
+        <cb ed="#G" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="HuYgTa-253605"><!-- HuYgTa-l4d17ct1 -->
+        <head xml:id="HuYgTa-253605-Hd1e108">Circa textum</head>
+        <p xml:id="HuYgTa-253605-d1e111">
+          <lb ed="#G" n="110"/>
+          <pc type="indent"/>DISLINCTIO NVI. 
+          <lb ed="#G" n="111"/>clara buius distinctionis diuisio, mn qua Magister 
+          <lb ed="#G" n="112"/>
+          <pc type="indent"/>circa singulam quamque ponitentiae 
+          <lb ed="#G" n="113"/>
+          <pc type="indent"/>partem mouet quectionem. 
+        </p>
+        <p xml:id="HuYgTa-253605-d1e129">
+          <lb ed="#G" n="114"/>
+          <pc type="indent"/>C oritur quaestio. Postquam Ma 
+          <lb ed="#G" n="115"/>gister in praecedenti distinctione 
+          <lb ed="#G" n="116"/>de numero partium poenitentiae 
+          <lb ed="#G" n="117"/>praemisit suam intentionem, nunc 
+          <lb ed="#G" n="118"/>in ista decimaseptima distinctione 
+          <lb ed="#G" n="119"/>de praenumeratis partibus facit di 
+          <lb ed="#G" n="120"/>stinctam considerationem. Et
+          di<lb ed="#G" n="121" break="no"/>uiditur in duas partes: quia primo  
+          <lb ed="#G" n="122"/>Magister tres quaestiones ad praesens tractandas insinuat 
+          <lb ed="#G" n="123"/>Quaram prima est, vtrum peccatum remittatur sola com 
+          <lb ed="#G" n="124"/>tritione, vel ad huiusmodi remissionem necessaria sit 
+          <lb ed="#G" n="125"/>confessio, Secunda, vtrum sufficiat ad peccati
+          remissio<lb ed="#G" n="126" break="no"/>nem facere confessionem soli Deo. Tertia, vtrum sufficiat 
+          <lb ed="#G" n="127"/>confiteri bono, &amp; fideli laico: Secundo praemissas
+          quae<lb ed="#G" n="128" break="no"/>stiones determinat. Secunda, ibi, Dicunt enim quidam 
+          <lb ed="#G" n="129"/>Et haec diuiditur in tres partes, secundum quod primo  
+          <lb ed="#G" n="130"/>tractat quaestionem primam, Secundo, secundam, Et tertio, 
+          <lb ed="#G" n="131"/>tertiam. Secunda; ibi, lam secundum quaestionis articulum. 
+          <lb ed="#G" n="132"/>Tertia, ibi, Nunc priusquam. Prima in duas: quia primo  
+          <lb ed="#G" n="133"/>circa primam quaestionem recitat duplicem opinionem, 
+          <lb ed="#G" n="134"/>Secundo ostendit vnam illarum opinionum veritati
+          ma<lb ed="#G" n="135" break="no"/>gis esse conformem, ibi. Quid igitur super his. Sequitur  
+          <lb ed="#G" n="136"/>illa pars. lam secundum. Et diuitur in duas partes: quia 
+          <lb ed="#G" n="137"/>primo circa quaestionem secundam recitat vnam opi- 
+          <lb ed="#G" n="138"/>nionem falsam, &amp; abiiciendam. Secundo subdit opinio 
+          <lb ed="#G" n="139"/>nem veram, &amp; asserendam, ibi, Sed, quod
+          sacerdoti<lb ed="#G" n="140" break="no"/>bus. Hic quaero.
+        </p>
+      </div>
+    </body>
+  </text>
 </TEI>

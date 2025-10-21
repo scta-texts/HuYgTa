@@ -1,866 +1,866 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Quaestio 1</title>
-            <author ref="#ThomasStrasbourg">Thomas of Strasbourg</author>
-            <respStmt>
-               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
-               <resp>Transcription Editor</resp>
-               <resp>TEI Encoder</resp>
-            </respStmt>
-         </titleStmt>
-         <editionStmt>
-            <edition n="0.0.0-dev">
-               <title>Quaestio 1</title>
-               <date when="2020-11-26">November 26, 2020</date>
-            </edition>
-         </editionStmt>
-         <publicationStmt>
-            <authority>SCTA</authority>
-            <availability status="free">
-               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
-               </p>
-            </availability>
-         </publicationStmt>
-         <sourceDesc>
-            <listWit>
-               <witness xml:id="G" n="cod-TxxxqU">Genoa 1585</witness>
-            </listWit>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
-         <editorialDecl>
-            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
-       guidelines for a diplomatic edition.</p>
-         </editorialDecl>
-      </encodingDesc>
-      <revisionDesc status="draft">
-         <listChange>
-            <change when="2020-11-26" status="draft" n="0.0.0">
-               <p>Created file for the first time.</p>
-            </change>
-         </listChange>
-      </revisionDesc>
-   </teiHeader>
-   <text xml:lang="la">
-      <front>
-         <div xml:id="starts-on">
-            <pb ed="#G" n="172-v"/>
-            <cb ed="#G" n="a"/>
-         </div>
-      </front>
-      <body>
-         <div xml:id="HuYgTa-131524"><!-- HuYgTa-l2d19q1 -->
-            <head xml:id="HuYgTa-131524-Hd1e108">Quaestio 1</head>
-            <head xml:id="HuYgTa-131524-Hd1e111" type="question-title">
-      An homo virtute creationis diuinae acceperit immortalitatem. 
-    </head>
-            <p xml:id="HuYgTa-131524-d1e114">
-               <lb ed="#G" n="29"/>
-               <pc type="indent"/>Questio. 1. 
-      <lb ed="#G" n="30"/>An homo virtute creationis diuinae acceperit 
-      <lb ed="#G" n="31"/>immortalitatem. 
-    </p>
-            <p xml:id="HuYgTa-131524-d1e125">
-               <lb ed="#G" n="32"/>
-               <pc type="indent"/>TRVM primus homo ex virtute crea 
-      <lb ed="#G" n="33"/>tionis diuinae acceperit esse immortale
-    </p>
-            <p xml:id="HuYgTa-131524-d1e134">
-               <lb ed="#G" n="34"/>Et videtur, quod non: quia omne
-      com<lb ed="#G" n="35" break="no"/>positum ex contrarijs necessario est conn 
-      <lb ed="#G" n="36"/>tuptibile, &amp; per consequens mortalet, si 
-      <lb ed="#G" n="37"/>est res viua: sed primus homo fuit
-      com<lb ed="#G" n="38" break="no"/>ositus ex contrarijs: ergo &amp;c. Maior patet in lib de
-      ge<lb ed="#G" n="39" break="no"/>neratione &amp; in multis alijs locis naturalis philosophiae 
-      <lb ed="#G" n="40"/>minor similiter patet: quia in complexione primi homi 
-      <lb ed="#G" n="41"/>nis fuerunt qualitates elementorum, quae sunt contrariae. 
-    </p>
-            <p xml:id="HuYgTa-131524-d1e155">
-               <lb ed="#G" n="42"/>
-               <pc type="indent"/>Contra, <ref xml:id="HuYgTa-131524-Rd1e161">sapientiae 2.</ref> dicitur, Deus creauit hominem 
-      <lb ed="#G" n="43"/>inexterminabilem, &amp; ad imaginem similitudinis, suae
-      fe<lb ed="#G" n="44" break="no"/>cit illum: inuidia autem diaboli mors sintroiuit in
-      or<lb ed="#G" n="45" break="no"/>bem terrarum. Hic quattuor sunt videnda. Primo qui 
-      <lb ed="#G" n="46"/>sit creatio, Secundo vtrum anima intellectiua
-      pro<lb ed="#G" n="47" break="no"/>ducatur per solam creationem, Tertio, utrum 
-      <lb ed="#G" n="48"/>secunda agentia cooperentur Deo in ali 
-      <lb ed="#G" n="49"/>qua rerum productione. Et quarto, 
-      <lb ed="#G" n="50"/>vtrum primus homo semper 
-      <lb ed="#G" n="51"/>immortalis fuisset dato, 
-      <lb ed="#G" n="52"/>quod in stata
-      inno<lb ed="#G" n="53" break="no"/>centie. 
-      <lb ed="#G" n="54"/>in quo Deus eum creauit, stabilis 
-      <lb ed="#G" n="55"/>permansisset
-    </p>
-            <p xml:id="HuYgTa-131524-d1e193">
-      <!--383.xml-->
-               <cb ed="#G" n="b"/>
-               <lb ed="#G" n="56"/>RESOLVTIO. 
-      <lb ed="#G" n="57"/>creatio quidem, vt ert in creatura est aliquid veale, &amp; est idem, 
-      <lb ed="#G" n="58"/>quod esse creaturae, quamuis creator totam produtat
-      creatu<lb ed="#G" n="59" break="no"/>vam ex esse &amp;v essentia. Vnde anima intellectiua sola creatio 
-      <lb ed="#G" n="60"/>ne producitur &amp;e si in qualibet rei naturalis productione ade 
-      <lb ed="#G" n="61"/>tia secundaria Deo cooperentur. 
-    </p>
-            <p xml:id="HuYgTa-131524-d1e213">
-               <lb ed="#G" n="62"/>
-               <pc type="indent"/>ARTICVLVSE. 
-      <lb ed="#G" n="63"/>
-               <pc type="indent"/>Quid sit creatio.
-    </p>
-            <p xml:id="HuYgTa-131524-d1e224">
-               <lb ed="#G" n="64"/>QVANTVM ad primum esset distinguendum de crea 
-      <lb ed="#G" n="65"/>tione, quae dicitur actio: &amp; de creatione, que
-      pas<lb ed="#G" n="66" break="no"/>sio dicitur: &amp; quomodo creatio potest accipi pro actione 
-      <lb ed="#G" n="67"/>immanente in creante: &amp; quomodo pro actione tramseun 
-      <lb ed="#G" n="68"/>te. Sed quia ista intendo tractare inferius circa distinctio 
-      <lb ed="#G" n="69"/>nem trigesimam septimam: ideo ad praesens quantum ad 
-      <lb ed="#G" n="70"/>stum primum articulum praecise de duobus inquiram.
-    </p>
-            <p xml:id="HuYgTa-131524-d1e242">
-               <lb ed="#G" n="71"/>Primo, sscilicet vtrum creatio sit aliquid in ipsa
-      creatu<lb ed="#G" n="72" break="no"/>rat. Secundo, quid sit. Et secundum hoc ponam duas 
-      <lb ed="#G" n="73"/>conclusiones. 
-    </p>
-            <p xml:id="HuYgTa-131524-d1e251">
-               <lb ed="#G" n="74"/>
-               <pc type="indent"/>Prima est, quod creatio, vt est in creatura, est aliquid 
-      <lb ed="#G" n="75"/>reale 
-    </p>
-            <p xml:id="HuYgTa-131524-d1e261">
-               <lb ed="#G" n="76"/>
-               <pc type="indent"/>Quia illud cuius terminus est realis, oportet, quod 
-      <lb ed="#G" n="77"/>sit aliquid reale: sed per se terminus ipsius creationis est 
-      <lb ed="#G" n="78"/>ens reale, puta ipsa ereatura.
-    </p>
-            <p xml:id="HuYgTa-131524-d1e272">
-               <lb ed="#G" n="79"/>2 Praeterea, actio transiens agete reali, est aliquid re; 
-      <lb ed="#G" n="80"/>e : sed creatio est huiusmodi: quia per creationem Deus 
-      <lb ed="#G" n="81"/>constituit aliquid e xtra se. 
-    </p>
-            <p xml:id="HuYgTa-131524-d1e281">
-               <lb ed="#G" n="82"/>
-               <pc type="indent"/>3 Praeterea, omne productum reale praesupponit pro 
-      <lb ed="#G" n="83"/>ductionem realem: sed creatura, cuius productio est ipsa 
-      <lb ed="#G" n="84"/>creatio, est productum reale: ergo &amp;c. 
-      <lb ed="#G" n="85"/>Sed contra istud est quaedam opinio, quae dicit, quod 
-      <lb ed="#G" n="86"/>creatio nihil ponit realiter i creatura Probationes istius 
-      <lb ed="#G" n="87"/>opinionis non vidi. Poterant tamen ponentes illam
-      opi<lb ed="#G" n="88" break="no"/>nionem mouere ista motiua
-    </p>
-            <p xml:id="HuYgTa-131524-d1e301">
-               <lb ed="#G" n="89"/>1 Quia si creatio esset aliquid reale in creatura:
-      tun<lb ed="#G" n="90" break="no"/>ipsa creatio esset creatura, consequentia patet Probo fal 
-      <lb ed="#G" n="91"/>sitatem consequentis: quia cum omnis creatura creatur,  
-      <lb ed="#G" n="92"/>si ipsa creatio esset creatura, tuc &amp; ipsa creatio crearetur; 
-      <lb ed="#G" n="93"/>&amp; sic creationis esset creatio; &amp; hoc in infinitum.
-    </p>
-            <p xml:id="HuYgTa-131524-d1e314">
-               <lb ed="#G" n="94"/>2 Praeterea, omne, quod est in creaturis, vel est substam 
-      <lb ed="#G" n="95"/>tia, vel accidens, sed creatio non est substantia, cum nec 
-      <lb ed="#G" n="96"/>sit materia, nec forma, nec com positum, in quae sufficien 
-      <lb ed="#G" n="97"/>ter diuiditur substantia, vt patet <ref xml:id="HuYgTa-131524-Rd1e324">2. de anima</ref>, nec est acci 
-      <lb ed="#G" n="98"/>lens, quia omne accidens praesupponit suum subiectum; 
-      <lb ed="#G" n="99"/>creatio autem nihil praesupponit.
-    </p>
-            <p xml:id="HuYgTa-131524-d1e333">
-               <lb ed="#G" n="100"/>3 Praeterea, si creatio poneret aliquid i creatura, hoc 
-      <lb ed="#G" n="101"/>maxime videretur esse relatio creaturae ad creatorem, sed  
-      <lb ed="#G" n="102"/>hoc non, quia quamdiu manet creatura, tamdiu fundat 
-      <lb ed="#G" n="103"/>nuiusmodi relationem, &amp; sic sequeretur, quod creatura 
-      <lb ed="#G" n="104"/>semper crearetur, quamdiu maneret in creato esse, quod  
-      <lb ed="#G" n="105"/>est impossibile 
-    </p>
-            <p xml:id="HuYgTa-131524-d1e350">
-               <lb ed="#G" n="106"/>
-               <pc type="indent"/>ped ista non concludunt: igitur 
-      <lb ed="#G" n="107"/>Ad primum dicendum, quod consequens non est fal 
-      <lb ed="#G" n="108"/>um. Ad probationem dico, quod sicut relatio refertur,  
-      <lb ed="#G" n="109"/>non tamen refertur alia relatione, vt patet per Auic. in 
-      <lb ed="#G" n="110"/>metaph. sua; si enim relatio referretur alia relatione: tumo 
-      <lb ed="#G" n="111"/>vel relatio creaturae ad Deum non esset creatura, vel al 
-      <lb ed="#G" n="112"/>qua creatura non referretur ad Deum, vel esset
-      proces<lb ed="#G" n="113" break="no"/>sus in infinitum, quae omnia falsa sunt. Sicut relatio
-      igi<lb ed="#G" n="114" break="no"/>tur non refertur alia relatione; sic creatio non creatur 
-      <lb ed="#G" n="115"/>alia creatione; stricte etiam loquendo de creatura inquam 
-      <lb ed="#G" n="116"/>tum creatura est aliquid in se subsistens, sic neganda est 
-      <lb ed="#G" n="117"/>consequentia; quia vt sic, creatio non est quid creatum 
-      <lb ed="#G" n="118"/>sed concreatum 
-    </p>
-            <p xml:id="HuYgTa-131524-d1e383">
-               <lb ed="#G" n="119"/>
-               <pc type="indent"/>Ad secundum dicendum ad minorem per interemptio 
-      <lb ed="#G" n="120"/>nem, quia creatio substantiae aliquo modo potest dici sub 
-      <lb ed="#G" n="121"/>stantia accidentis accidens Vel potest negari maior, quia 
-      <!--384.xml-->
-      <pb ed="#G" n="173-r"/>
-               <cb ed="#G" n="a"/>
-               <lb ed="#G" n="1"/>ereatio est idem, quod esse rei creatae, quod quidem esse 
-      <lb ed="#G" n="2"/>non est accidens, cum sit per reductionem in praedicam  
-      <lb ed="#G" n="3"/>to substantiae, nec tamen proprie recipit praedicationem 
-      <lb ed="#G" n="4"/>substantiae; sicut punctus non est quantitas, quamuis
-      redu<lb ed="#G" n="5" break="no"/>catur ad genus quantitatis, prout superius declaraui. 
-    </p>
-            <p xml:id="HuYgTa-131524-d1e412">
-               <lb ed="#G" n="6"/>
-               <pc type="indent"/>Ad tertium patebit in secunda conclusione immedia 
-      <lb ed="#G" n="7"/>te sequenti 
-    </p>
-            <p xml:id="HuYgTa-131524-d1e421">
-               <lb ed="#G" n="8"/>
-               <pc type="indent"/>Dico igitur, secundo, quod creatio est idem, quod
-      es<lb ed="#G" n="9" break="no"/>se creature 
-    </p>
-            <p xml:id="HuYgTa-131524-d1e430">
-               <lb ed="#G" n="10"/>
-               <pc type="indent"/>1 Quia quamuis creator producat totam creaturam 
-      <lb ed="#G" n="11"/>compositam ex esse &amp; essentia: partes tamen producit pro 
-      <lb ed="#G" n="12"/>ductione totius isto modo, quod esse producit in essentia 
-      <lb ed="#G" n="13"/>&amp; essentiam sub ipso esse: ita quod essentia, quasi subiici 
-      <lb ed="#G" n="14"/>tur creationi, &amp; esse terminat creationem: igitur creatio 
-      <lb ed="#G" n="15"/>est ipsum esse, prout ipsum esse producitur in essentia vit 
-      <lb ed="#G" n="16"/>tute creatoris 
-    </p>
-            <p xml:id="HuYgTa-131524-d1e450">
-               <lb ed="#G" n="17"/>
-               <pc type="indent"/>2 Praeterea, illud, quod pro prie concipitur esse perfe 
-      <lb ed="#G" n="18"/>ctio essentiae per creationem producte, hoc est realiter 
-      <lb ed="#G" n="19"/>idem, quod esse, creatio est huiusmodi. nam in hoc differt 
-      <lb ed="#G" n="20"/>actio transiens ab immanente: quia est perfectio non age 
-      <lb ed="#G" n="21"/>tis, sed acti¬ 
-    </p>
-            <p xml:id="HuYgTa-131524-d1e467">
-               <lb ed="#G" n="22"/>
-               <pc type="indent"/>Forte dicetur, quod eadem ratione sequitur, quod crea 
-      <lb ed="#G" n="23"/>tio sit perfectio ipsius esse, sicut ipsius essentiae; quia non  
-      <lb ed="#G" n="24"/>minus creatur ipsum esse, quam ipsa essentia. 
-    </p>
-            <p xml:id="HuYgTa-131524-d1e478">
-               <lb ed="#G" n="25"/>
-               <pc type="indent"/>Respondeo, quod non est simile, quamuis enim
-      cree<lb ed="#G" n="26" break="no"/>tur tam esse, quam essentia: esse tamen creatur vt perfe 
-      <lb ed="#G" n="27"/>ctio quaedam, sed essentia creatur vt quid persectibile. Ci 
-      <lb ed="#G" n="28"/>igitur perfectionis non sit persectio, sed perfectio est ip 
-      <lb ed="#G" n="29"/>lius perfectibilis: igitur actio trasiens, quae est creatio, quam 
-      <lb ed="#G" n="30"/>uis sit perfectio ipsius essentiae, non tamen erit perfectio 
-      <lb ed="#G" n="31"/>ipsius esse 
-    </p>
-            <p xml:id="HuYgTa-131524-d1e498">
-               <lb ed="#G" n="32"/>
-               <pc type="indent"/>2 Praeterea, illud, quod proprie est actus entis in actu 
-      <lb ed="#G" n="33"/>secundum quod in actu, hoc est ipsum esse: creatio est hu 
-      <lb ed="#G" n="34"/>iusmodi: nam in hoc differt a motu: quia in motu acquir  
-      <lb ed="#G" n="35"/>tur pars post partem, &amp; in motu sic est aliquid acquisitum 
-      <lb ed="#G" n="36"/>quod semper restat aliquid acquirendum: ideo motus es 
-      <lb ed="#G" n="37"/>actus entis in potentia secundum quod in potentia, vt pro 
-      <lb ed="#G" n="38"/>tet in physic. Econtrario autem creatio est tota simul 
-      <lb ed="#G" n="39"/>nec per ipsam pars post partem ipsius rei ponitur in esse 
-      <lb ed="#G" n="40"/>sed fmultanee res per ipsam perfecte producitur; ideo 
-      <lb ed="#G" n="41"/>per oppositum ad ipsum motum creatio proprie dicitur 
-      <lb ed="#G" n="42"/>actus entis in actu, secundum quod est in actu¬ 
-    </p>
-            <p xml:id="HuYgTa-131524-d1e527">
-               <lb ed="#G" n="43"/>
-               <pc type="indent"/>Alias inuenitur addita talis ratio: Quia productio sim 
-      <lb ed="#G" n="44"/>plex &amp; instantanea est idem realiter cum suo formali te 
-      <lb ed="#G" n="45"/>mino: sed creatio est simplex productio &amp; instantanea: e 
-      <lb ed="#G" n="46"/>esse rei creatae est formalis terminus creationis; ergo &amp; 
-    </p>
-            <p xml:id="HuYgTa-131524-d1e540">
-               <lb ed="#G" n="47"/>
-               <pc type="indent"/>Maior patet discurrendo per singulas huiusmodi
-      pro<lb ed="#G" n="48" break="no"/>ductiones. Minor etiam patet: quia creatio non est actio 
-      <lb ed="#G" n="49"/>corporea: nec suceessiua. Quod etiam esse sit formalis ter 
-      <lb ed="#G" n="50"/>minus creationis, patet per Auctorem de causis qui ait, quod 
-      <lb ed="#G" n="51"/>prima rerum creatarum est esse  
-    </p>
-            <p xml:id="HuYgTa-131524-d1e556">
-               <lb ed="#G" n="52"/>
-               <pc type="indent"/>Sed contra istam conclusionem est quaedam opinio,  
-      <lb ed="#G" n="53"/>quae ponit, quod creatio sit idem, quod tota creatura
-      lqui<lb ed="#G" n="54" break="no"/>in omni productione, vt dicunt, productio est idem reali 
-      <lb ed="#G" n="55"/>ter cum termino productionis, sed creatio terminatur
-      a<lb ed="#G" n="56" break="no"/>totam creaturam. Sed quia maior istius rationis pati
-      vi<lb ed="#G" n="57" break="no"/>detur instantiam de ipso motu; igitur probant isti, quod 
-      <lb ed="#G" n="58"/>omnis motus sit idem realiter cum suo termino. 
-    </p>
-            <p xml:id="HuYgTa-131524-d1e577">
-               <lb ed="#G" n="59"/>
-               <pc type="indent"/>1 Quia quandocumque aliqua differunt secundum 
-      <lb ed="#G" n="60"/>essentias absolutas, illa Deus potest ab inuicem separari 
-      <lb ed="#G" n="61"/>sed si albedo &amp; dealbatio differrent realiter: tuc differren 
-      <lb ed="#G" n="62"/>re absoluta: ergo Deus posset facere dealbationem sini 
-      <lb ed="#G" n="63"/>albedine, &amp; asbedinem sine dealbatione, quod videtur 
-      <lb ed="#G" n="64"/>contradictionem implicaro 
-    </p>
-            <p xml:id="HuYgTa-131524-d1e595">
-               <lb ed="#G" n="65"/>
-               <pc type="indent"/>2 Praeterea, si motus differret re absoluta;a forma, quae 
-      <lb ed="#G" n="66"/>terminat motum, tunc naturaliter prius esset motus con 
-      <lb ed="#G" n="67"/>pletus, quam ipsa forma esset completa: sed hoc est impos 
-      <lb ed="#G" n="68"/>sibile: quia tunc cessante motu, adhuc forma moueretui 
-      <lb ed="#G" n="69"/>ad suum complementum 
-    </p>
-            <p xml:id="HuYgTa-131524-d1e611">
-               <lb ed="#G" n="70"/>
-               <pc type="indent"/>3 Praeterea, istud dicunt esse intentionem Comme 
-      <lb ed="#G" n="71"/>tatoris, qui a physicorum ait, quod motus vno modo ac 
-      <lb ed="#G" n="72"/>cipitur pro forma fiuente. Alio modo pro fuxum forma 
-      <lb ed="#G" n="73"/>Primus autem modus est verior, Secundus vvro est samo 
-      <!--384.xml-->
-      <cb ed="#G" n="b"/>
-               <lb ed="#G" n="74"/>sior. Item in eodem ait. via in generationibus est de spe 
-      <lb ed="#G" n="75"/>cie eius ad quod est. 
-    </p>
-            <p xml:id="HuYgTa-131524-d1e633">
-               <lb ed="#G" n="76"/>Sed isti cum hoc, quod conclusionem mihi dubiam
-      po<lb ed="#G" n="77" break="no"/>nunt: etiam ipsam insufficienter probant. 
-    </p>
-            <p xml:id="HuYgTa-131524-d1e640">
-               <lb ed="#G" n="78"/>
-               <pc type="indent"/>Primo igitur arguam contra probati ones illius
-      maio<lb ed="#G" n="79" break="no"/>ris; Et deinde eorum motiuis respondebo. 
-    </p>
-            <p xml:id="HuYgTa-131524-d1e649">
-               <lb ed="#G" n="80"/>
-               <pc type="indent"/>1 Primo sic. llla, quae sic se habent, quod secundum sua 
-      <lb ed="#G" n="81"/>proprias eorum entitates numquam poterunt esse simul; 
-      <lb ed="#G" n="82"/>illa non poterunt esse ideni realiter: sed motus &amp;
-      ter<lb ed="#G" n="83" break="no"/>minus ad quem est motus, sunt huiusmodi: Maior patet 
-      <lb ed="#G" n="84"/>quia esse idem necessario praesupponit esse simul. Minor 
-      <lb ed="#G" n="85"/>similiter patet,: quia sicut numquam contingitur
-      termi<lb ed="#G" n="86" break="no"/>nus, nisi perficiatur uia: sic numquam terminus motus est 
-      <lb ed="#G" n="87"/>accquisitus, nisi desinat motus. Quod ergo illa sint idem 
-      <lb ed="#G" n="88"/>realiter omnino, quorum vno existente alterum esse nm 
-      <lb ed="#G" n="89"/>potest, &amp; quorum vnius desitio est alterius in esse posito 
-      <lb ed="#G" n="90"/>videtur esse implicatio contradictionis.
-    </p>
-            <p xml:id="HuYgTa-131524-d1e679">
-               <lb ed="#G" n="91"/>2 Praeterea, ens formaliter suceessiuum differt
-      reali<lb ed="#G" n="92" break="no"/>ter ab ente formaliter permanente, sed motus est ens for 
-      <lb ed="#G" n="93"/>maliter, &amp; essentialiter suceessiuuum, &amp; terminus motus 
-      <lb ed="#G" n="94"/>est formaliter &amp; essentialiter permanens: ergo &amp;c
-    </p>
-            <p xml:id="HuYgTa-131524-d1e690">
-               <lb ed="#G" n="95"/>3 Praeterea, quae sic se habet, quod vnum vere habet 
-      <lb ed="#G" n="96"/>partes ex quibus realiter componitur, quae quidem
-      par<lb ed="#G" n="97" break="no"/>tes numquam poterunt esse simul, alterum vero non ha 
-      <lb ed="#G" n="98"/>bet partes, vel si habet, omnes suae partes sunt simul, illa  
-      <lb ed="#G" n="99"/>non possunt esse idem realiter, sed motus &amp; terminus mo 
-      <lb ed="#G" n="100"/>tus sunt huiusmodi, ergo &amp;c 
-    </p>
-            <p xml:id="HuYgTa-131524-d1e706">
-               <lb ed="#G" n="101"/>Forte dicetur, quod ergo contradicam primae rationi i 
-      <lb ed="#G" n="102"/>quam feci pro ista secunda conclusione. Virtus enim il 
-      <lb ed="#G" n="103"/>lius rationis in hoc stat, quod ideo creatio est idem, quod 
-      <lb ed="#G" n="104"/>esse rei create, quia esse est proprius terminus creationis 
-    </p>
-            <p xml:id="HuYgTa-131524-d1e717">
-               <lb ed="#G" n="105"/>
-               <pc type="indent"/>Respondeo, quod hic nulla est contradictio, quia
-      crea<lb ed="#G" n="106" break="no"/>tio non est motus: habet enim oppositas conditiones ac 
-      <lb ed="#G" n="107"/>motum, vt in tertia ratione declaraui, 
-    </p>
-            <p xml:id="HuYgTa-131524-d1e728">
-               <lb ed="#G" n="108"/>
-               <pc type="indent"/>Ad rationem eorum dicendum, quod maior sic vniuer, 
-      <lb ed="#G" n="109"/>saliter sumpta non est vera, &amp; specialiter est falsa in
-      pro<lb ed="#G" n="110" break="no"/>posito, quia dato, quod productio sit idem, quod termi- 
-      <lb ed="#G" n="111"/>nus, non tamen est idem quod terminus totalis: sed est 
-      <lb ed="#G" n="112"/>idem quod terminus formalis. Si enim actio transiens
-      es<lb ed="#G" n="113" break="no"/>set idem realiter cum ipso termino totali: tunc idem tram 
-      <lb ed="#G" n="114"/>siret in seipsum realiter. Et quia isti loquuntur de ter 
-      <lb ed="#G" n="115"/>mino totali: ideo &amp; falsum assumunt, &amp; ad propositum 
-      <lb ed="#G" n="116"/>non arguunt  
-    </p>
-            <p xml:id="HuYgTa-131524-d1e752">
-               <lb ed="#G" n="117"/>
-               <pc type="indent"/>Ad primam probationem de motu dicendum, quod 
-      <lb ed="#G" n="118"/>Deus bene posset, si vellet, facere aibedinem sine dealba 
-      <lb ed="#G" n="119"/>tione, quae est motus: cum ipse agat sine motu &amp; transmu 
-      <lb ed="#G" n="120"/>tatione; etiam posset facere motum dealbationis, ex 
-      <lb ed="#G" n="121"/>quo nihil de completa entitate albedinis in esse ponero 
-      <lb ed="#G" n="122"/>tur, Cum ergo solum completa albedinis entitas sit
-      ter<lb ed="#G" n="123" break="no"/>minus dealbationis: ideo Deus potest separare motum a 
-      <lb ed="#G" n="124"/>suo termino. Et ex hoc patet, quod ambabus praemissis. 
-      <lb ed="#G" n="125"/>concessis, conclusio non est falsa: quia loquendo proprie 
-      <lb ed="#G" n="126"/>de termino dealbationis, que est albedo permanens, &amp;  
-      <lb ed="#G" n="127"/>completa: tunc non solum Deus potest ista separare:
-      ve<lb ed="#G" n="128" break="no"/>rum etiam naturaliter sunt simul incompossibilia: quia 
-      <lb ed="#G" n="129"/>terminus motus numquam in esse ponitur, nisi motus se 
-      <lb ed="#G" n="130"/>cundum se, &amp; secundum omnes suas partes desinat&amp; con 
-      <lb ed="#G" n="131"/>rumpatur. Etiam maior non est vniuersaliter vera,
-      maxi<lb ed="#G" n="132" break="no"/>me de talibus absolutis, quae connotant aliquos
-      respe<lb ed="#G" n="133" break="no"/>ctus: nam quamuis figura sit entitas absoluta, cum si quan 
-      <lb ed="#G" n="134"/>ta species qualitatis: nulla tamen potentia fieri potest
-      fi<lb ed="#G" n="135" break="no"/>gura sine omni quantitate eo, quod dicat qualitatem sub 
-      <lb ed="#G" n="136"/>habitudine ad ipsam quantitatem.  
-    </p>
-            <p xml:id="HuYgTa-131524-d1e801">
-               <lb ed="#G" n="137"/>
-               <pc type="indent"/>Ad secundum dicendum, quod concessa consequentia 
-      <lb ed="#G" n="138"/>consequens non est falsum, quia naturaliter oportet, quod 
-      <lb ed="#G" n="139"/>via compleatur, antequam terminus attingitur. Ad
-      pro<lb ed="#G" n="140" break="no"/>bationem dico, quod ista prioritas naturae stat com simul 
-      <lb ed="#G" n="141"/>tate temporis, &amp; durationis, &amp; ideo non oportet, quod 
-      <lb ed="#G" n="142"/>motu cessante, adhuc forma moueatur: quia motus ne 
-      <lb ed="#G" n="143"/>cessat prius duratione, quam terminus sit acquisitus, sed 
-      <lb ed="#G" n="144"/>solum prius natura, 
-    </p>
-            <p xml:id="HuYgTa-131524-d1e823">
-               <lb ed="#G" n="145"/>
-               <pc type="indent"/>Ad tertium dico, quod dato, quod motus si forma flu 
-      <lb ed="#G" n="146"/>ens, ex hoc tamen non sequitur, quod sit idem cumn termi- 
-      <!--385.xml-->
-      <pb ed="#G" n="173-v"/>
-               <cb ed="#G" n="a"/>
-               <lb ed="#G" n="1"/>forma sluens, sed est forma permanens. Nec secundum
-      di<lb ed="#G" n="2" break="no"/>ctum Comentatoris est ad propositum istorum: quia non  
-      <lb ed="#G" n="3"/>no: sed magis sequitur oppositum: quia terminus non est 
-      <lb ed="#G" n="4"/>dicit Commentator de identitate reali, &amp; numerali, set 
-      <lb ed="#G" n="5"/>specifica : non est autem inconueniens, ut forma
-      incomple<lb ed="#G" n="6" break="no"/>ta praecedens terminum, &amp; forma completa, quae est ipse 
-      <lb ed="#G" n="7"/>terminus, sint eiusdem speciei; quia perfectum &amp;
-      imper<lb ed="#G" n="8" break="no"/>fectum possunt esse in eadem specie. 
-    </p>
-            <p xml:id="HuYgTa-131524-d1e856">
-               <lb ed="#G" n="9"/>
-               <pc type="indent"/>Etiam contra praedictam conclusionem sunt alij, qui 
-      <lb ed="#G" n="10"/>dicunt, quod creatio super terminum creationis addit re 
-      <lb ed="#G" n="11"/>absolutam. 
-    </p>
-            <p xml:id="HuYgTa-131524-d1e867">
-               <lb ed="#G" n="12"/>
-               <pc type="indent"/>Quia creatio est productio absoluti differens a
-      pro<lb ed="#G" n="13" break="no"/>ducto; ergo addit re absolutam super ipsum productum 
-      <lb ed="#G" n="14"/>consequentia patet. probatur antecedens quantum ad am  
-      <lb ed="#G" n="15"/>bas suas partes: quod enim sit res absoluta patet, quia pro 
-      <lb ed="#G" n="16"/>ductio rei absolutae est absoluta: quod autem differat a 
-      <lb ed="#G" n="17"/>producto patet: quia producto posito in esse, cessat
-      crea<lb ed="#G" n="18" break="no"/>tio; vnde si creatio non differret a creato, tunc creatum con 
-      <lb ed="#G" n="19"/>tinue crearetur.
-    </p>
-            <p xml:id="HuYgTa-131524-d1e889">
-               <lb ed="#G" n="20"/>2 Praeterea, si idem esset creatio &amp; creatura: tumc destru 
-      <lb ed="#G" n="21"/>cta creatura Deus non posset eam eandem numero
-      repa<lb ed="#G" n="22" break="no"/>rare, quia non repararet eam eadem creatione, qua primo 
-      <lb ed="#G" n="23"/>ipsam creauerat, &amp; per consequens, postquam esset creata 
-      <lb ed="#G" n="24"/>aipsa esset idem realiter alteri creationi, quam prius,
-      pro<lb ed="#G" n="25" break="no"/>pter quod nec ipsa natura creata posset esse eadem: quia 
-      <lb ed="#G" n="26"/>sicut illa, quae sunt eidem eadem, sunt eadem inter se; sic 
-      <lb ed="#G" n="27"/>illa, quae sunt diuersis eadem, sunt diuersa inter se 
-    </p>
-            <p xml:id="HuYgTa-131524-d1e909">
-               <lb ed="#G" n="28"/>
-               <pc type="indent"/>Praeterea, creatio non potest addere solum respectum 
-      <lb ed="#G" n="29"/>super ipsam rem creatam: ergo addit rem absolutam con 
-      <lb ed="#G" n="30"/>sequentia patet: probatur antecedens, quia secundum <ref xml:id="HuYgTa-131524-Rd1e919">phi¬ 
-        <lb ed="#G" n="31"/>losophum. 4. metaphysic.</ref> non est possibile omnia dici
-      re<lb ed="#G" n="32" break="no"/>latiue; sed si creatio adderet solum respectum super
-      sub<lb ed="#G" n="33" break="no"/>stantiam rei sine absoluto accidente, in quo talis respectus 
-      <lb ed="#G" n="34"/>immediate fundaretur: tunc omnia necessario dicerentur 
-      <lb ed="#G" n="35"/>relatiue. 
-    </p>
-            <p xml:id="HuYgTa-131524-d1e935">
-               <lb ed="#G" n="36"/>
-               <pc type="indent"/>Sed nec ista concludunt. 
-      <lb ed="#G" n="37"/>1 Quia si creatio adderet rem absolutam super
-      crea<lb ed="#G" n="38" break="no"/>turam, illa crearetur alia creatione, &amp; iretur in
-      infi<lb ed="#G" n="39" break="no"/>nitum.
-    </p>
-            <p xml:id="HuYgTa-131524-d1e948">
-               <lb ed="#G" n="40"/>2 Praeterea, si ab ipsa actione seu productione
-      seque<lb ed="#G" n="41" break="no"/>strantur, tam motus, quam mutatio, tunc non remanet 
-      <lb ed="#G" n="42"/>nisi terminus actionis cum respectu ad ipsum producens; 
-      <lb ed="#G" n="43"/>sed creatio proprie loquendo nec est motus, nec
-      muta<lb ed="#G" n="44" break="no"/>tio, sed est simplex emanatio, vt patuit superius circa fi 
-      <lb ed="#G" n="45"/>nem primi libri; igitur ad suum terminum formalem non 
-      <lb ed="#G" n="46"/>addit aliquam rem absolutam, sed solum respectum ad 
-      <lb ed="#G" n="47"/>creatorem. 
-    </p>
-            <p xml:id="HuYgTa-131524-d1e968">
-               <lb ed="#G" n="48"/>
-               <pc type="indent"/>Propter hoc bene dicit <ref xml:id="HuYgTa-131524-Rd1e974">doctor noster in tractatu de
-      es<lb ed="#G" n="49" break="no"/>se &amp; essentia q.7.</ref> quod esse, creatio, &amp; conseruatio, &amp;
-      ter<lb ed="#G" n="50" break="no"/>minus creationis quantum ad rem significatam idem sunt 
-      <lb ed="#G" n="51"/>&amp; solum quibusdam respectibus connotatis abinuicem 
-      <lb ed="#G" n="52"/>differunt nam eadem res: considerata, vt est aliquid in se, 
-      <lb ed="#G" n="53"/>sic dicitur esse considerata vt ab alio inchoata, sic dicitur 
-      <lb ed="#G" n="54"/>creatio actio; &amp; loquitur de creatione, vt est actio trasies;  
-      <lb ed="#G" n="55"/>nam prout est manes in agente, sic estipsum velle diuinum 
-      <lb ed="#G" n="56"/>sed vt inchoata in alio, sic est creatio passio; vt autem est 
-      <lb ed="#G" n="57"/>continuata ab alio, sic est conseruatio actio; prout vero 
-      <lb ed="#G" n="58"/>est continuata in alio, sic est conseruatio passio, sed vt ess 
-      <lb ed="#G" n="59"/>inducta in instanti, &amp; tota simul, sic est terminus
-      creatio<lb ed="#G" n="60" break="no"/>nis. Vnde omnia ista idem sunt re, quamuis differant 
-      <lb ed="#G" n="61"/>ratione. 
-    </p>
-            <p xml:id="HuYgTa-131524-d1e1006">
-               <lb ed="#G" n="62"/>
-               <pc type="indent"/>Praeterea, non magis videtur addere creatio super 
-      <lb ed="#G" n="63"/>rem creatam, quam conuersio super illud, in quod aliquid 
-      <lb ed="#G" n="64"/>couertitur: sed conuersio non addit aliquam re absolutam, 
-      <lb ed="#G" n="65"/>quia alias corpus Christi toties mutaretur secundum
-      en<lb ed="#G" n="66" break="no"/>titates absolutas, quoties in ipsum virtute
-      sacramenta<lb ed="#G" n="67" break="no"/>lium verborum conuertitur substantia panis: quod omni 
-      <lb ed="#G" n="68"/>no est inconueniens 
-    </p>
-            <p xml:id="HuYgTa-131524-d1e1026">
-               <lb ed="#G" n="69"/>
-               <pc type="indent"/>Ad primum dicendum, quod si intelligit per productum 
-      <lb ed="#G" n="70"/>formalem terminum productionis, tunc antecedens est fal 
-      <lb ed="#G" n="71"/>sum: quia vt sic, cre atio est idem, quod productum,
-      qui<lb ed="#G" n="72" break="no"/>dicit ipsum esse vt ab alio inchoatum, quod quidem esse  
-      <lb ed="#G" n="73"/>est formalis terminus creationis: esse autem, vt inchoa¬ 
-      <!--385.xml-->
-      <cb ed="#G" n="b"/>
-               <lb ed="#G" n="74"/>tum non addit ad ipsum esse nisi solum respectum ad
-      in<lb ed="#G" n="75" break="no"/>choantem 
-    </p>
-            <p xml:id="HuYgTa-131524-d1e1050">
-               <lb ed="#G" n="76"/>
-               <pc type="indent"/>Ad probationem dicendum, quod creatio non cessar 
-      <lb ed="#G" n="77"/>quantum ad rem, sed quantum ad nominis appellati onem; 
-      <lb ed="#G" n="78"/>quia illud idem, quod ab exordio dicebatur creatio, cum 
-      <lb ed="#G" n="79"/>esse rei fuit inchoatum: postea dicitur conseruatio, cum 
-      <lb ed="#G" n="80"/>fuerit continuatum. Beatus etiam August. non reputaret 
-      <lb ed="#G" n="81"/>inconueniens dicere, quod creatura continue creatur:
-      si<lb ed="#G" n="82" break="no"/>cut. nm lumen aeris non potest manere, nisi ad continuam 
-      <lb ed="#G" n="83"/>praesentiam Solis: ideo aer non solum praesente Sole dici 
-      <lb ed="#G" n="84"/>tur illuminatus, sed etiam continue dicitur illuminari, sic 
-      <lb ed="#G" n="85"/>quia creatura ad ictum oculi non potest subsistere, nisi
-      a<lb ed="#G" n="86" break="no"/>ctione sui creatoris sustentetur: ideo Aug. super Sen. ad 
-      <lb ed="#G" n="87"/>litteram non solum ait creaturam esse creatam, verum 
-      <lb ed="#G" n="88"/>etiam continue dicit eam creari. 
-    </p>
-            <p xml:id="HuYgTa-131524-d1e1084">
-               <lb ed="#G" n="89"/>
-               <pc type="indent"/>Ad secundum nego consequentiam. Ad probationem 
-      <lb ed="#G" n="90"/>dico, quod quamuis ea, quae sunt diuersis absolutis eade, sint 
-      <lb ed="#G" n="91"/>diuersa inter se: tamen si aliquid vicissim est idem
-      diuer<lb ed="#G" n="92" break="no"/>sis respectibus; non oportet, quod sit diuersum in se, eade 
-      <lb ed="#G" n="93"/>n albedo potest fundare diuersas relationes vicissim, uel 
-      <lb ed="#G" n="94"/>etiam simul,a quibus non differt realiter; quamuis ipsa in 
-      <lb ed="#G" n="95"/>se sit vna, &amp; indistincta. cum igitur creatio super esse rei 
-      <lb ed="#G" n="96"/>non addat nisi respectum, ideo &amp;c 
-    </p>
-            <p xml:id="HuYgTa-131524-d1e1106">
-               <lb ed="#G" n="97"/>
-               <pc type="indent"/>Ad tertium nego antecedens. Ad probationem
-      dicen<lb ed="#G" n="98" break="no"/>dum, quod quamuis secundum philosophum non omnia
-      di<lb ed="#G" n="99" break="no"/>cantur relatiue relatione mutua ad se inuicem;
-      philoso<lb ed="#G" n="100" break="no"/>phus tamen non negat, quin omne productum referatur 
-      <lb ed="#G" n="101"/>ad suum producens, vt patet. <ref xml:id="HuYgTa-131524-Rd1e1121">5. metaphysic.</ref> 
-            </p>
-            <p xml:id="HuYgTa-131524-d1e1125">
-               <lb ed="#G" n="102"/>
-               <pc type="indent"/>ARTICVLVS IR 
-      <lb ed="#G" n="103"/>Vtrum Anima intellectiua producatur 
-      <lb ed="#G" n="104"/>per solam creationem.
-    </p>
-            <p xml:id="HuYgTa-131524-d1e1136">
-               <lb ed="#G" n="105"/>QVANTVM ad secundum articulum dico
-      breui<lb ed="#G" n="106" break="no"/>TAter; quod anima intellectiua producitur sola  
-      <lb ed="#G" n="107"/>creatione. 
-    </p>
-            <p xml:id="HuYgTa-131524-d1e1145">
-               <lb ed="#G" n="108"/>
-               <pc type="indent"/>Quia forma substantialis non educibilis de materia 
-      <lb ed="#G" n="109"/>est sola creatione producibilis: sed anima intellectiua est 
-      <lb ed="#G" n="110"/>huiusmodi, ergo &amp;c. Maior patet, sed minor probata est 
-      <lb ed="#G" n="111"/>superius.
-    </p>
-            <p xml:id="HuYgTa-131524-d1e1158">
-               <lb ed="#G" n="112"/>2 Praeterea, omne generabile est corruptibile: sed ani 
-      <lb ed="#G" n="113"/>ma intellectiua est incorruptibilis, ergo &amp; ingenerabilis; 
-      <lb ed="#G" n="114"/>&amp; per consequens solum creabilis. Maior patet <ref xml:id="HuYgTa-131524-Rd1e1166">primo cel</ref> 
-               <lb ed="#G" n="115"/>minor patet <ref xml:id="HuYgTa-131524-Rd1e1172">3. de anima.</ref> 
-            </p>
-            <p xml:id="HuYgTa-131524-d1e1177">
-               <lb ed="#G" n="116"/>
-               <pc type="indent"/>Preterea, forma, quae ab extra per agens separatum 
-      <lb ed="#G" n="117"/>ntroducitur, illa creatur: anima intellectiua est
-      huius<lb ed="#G" n="118" break="no"/>modi, quia <ref xml:id="HuYgTa-131524-Rd1e1187">Aris. 1. de gen animalium</ref> dicit, quod solus in 
-      <lb ed="#G" n="119"/>tellectus est ab extra, quia sibi conuenit operatio
-      separa<lb ed="#G" n="120" break="no"/>ta, scilicet intelligere. 
-    </p>
-            <p xml:id="HuYgTa-131524-d1e1196">
-               <lb ed="#G" n="121"/>
-               <pc type="indent"/>Sed contrarium istius conclusionis ponit quedam opi 
-      <lb ed="#G" n="122"/>nio a sancta matre ecclesia condemnata, quae ascribitur Ci 
-      <lb ed="#G" n="123"/>rillo, &amp; Luciferianis, qui dicebant animam rationalem cum 
-      <lb ed="#G" n="124"/>corporibus per coitum seminari. Poterant autem isti mo 
-      <lb ed="#G" n="125"/>ieri his motiuis, 
-    </p>
-            <p xml:id="HuYgTa-131524-d1e1212">
-               <lb ed="#G" n="126"/>
-               <pc type="indent"/>Quia homo est homo per animam rationalem: si
-      igi<lb ed="#G" n="127" break="no"/>tur talis anima non producitur per generationem, tunc 
-      <lb ed="#G" n="128"/>non posset vere dici, quod homo generaretur,  
-    </p>
-            <p xml:id="HuYgTa-131524-d1e1223">
-               <lb ed="#G" n="129"/>
-               <pc type="indent"/>2 Praeterea, cum corpus hominis accipiat esse per
-      actio<lb ed="#G" n="130" break="no"/>nem generantis, si anima non caperet esse per huiusmodi 
-      <lb ed="#G" n="131"/>actionem: tunc in homine esset duplex esse, &amp; per
-      conse<lb ed="#G" n="132" break="no"/>quens ex ani ma &amp; corpore non fieret vnum simpliciter, 
-    </p>
-            <p xml:id="HuYgTa-131524-d1e1236">
-               <lb ed="#G" n="133"/>
-               <pc type="indent"/>Praeterea, cuanto producens est perfectius, tanto ma 
-      <lb ed="#G" n="134"/>is producit sibi simile: quia vt dicitur <ref xml:id="HuYgTa-131524-Rd1e1244">4. metheor</ref>,
-      perfe<lb ed="#G" n="135" break="no"/>ctum vnuquodque est, cum potest sibi simile generare, sed  
-      <lb ed="#G" n="136"/>clementa, quae sunt imperfectiora ipso homine, producunt 
-      <lb ed="#G" n="137"/>sibi simile in materia &amp; forma: ergo &amp; homo generat sibi 
-      <lb ed="#G" n="138"/>simile secundum materiam &amp; formam. 
-    </p>
-            <p xml:id="HuYgTa-131524-d1e1257">
-               <lb ed="#G" n="139"/>
-               <pc type="indent"/>Praeterea, agens vniuocum dat formam, &amp; speciem 
-      <lb ed="#G" n="140"/>ipsi genito: sed homo generans hominem est agens
-      vniuo<lb ed="#G" n="141" break="no"/>cum cum sit eiusdem diffinitionis cum ipso genito. 
-    </p>
-            <p xml:id="HuYgTa-131524-d1e1269">
-               <lb ed="#G" n="142"/>
-               <pc type="indent"/>Praeterea, <ref xml:id="HuYgTa-131524-Rd1e1275">Sen. 48.</ref> dicitur Cunctae, animae, quae in¬ 
-      <!--386.xml-->
-      <pb ed="#G" n="174-r"/>
-               <cb ed="#G" n="a"/>
-               <lb ed="#G" n="1"/>gressae sunt in Egiptum cum lacob, l&amp; egressae sunt de f 
-      <lb ed="#G" n="2"/>more illius absque vxoribus filiorum sexaginta sex: sed ni- 
-      <lb ed="#G" n="3"/>hil egreditur de femoribus generantis, nisi per semini 
-      <lb ed="#G" n="4"/>traditionem.
-    </p>
-            <p xml:id="HuYgTa-131524-d1e1294">
-               <lb ed="#G" n="5"/>e Praeterea, <ref xml:id="HuYgTa-131524-Rd1e1298">Aristoteles 2. de Cen animalium</ref>, ait, quod spiri 
-      <lb ed="#G" n="6"/>tus, qui exit cum spermate est virtus principij animae, :&amp;  
-      <lb ed="#G" n="7"/>est res diuina: &amp; tale dicitur intellectus.
-    </p>
-            <p xml:id="HuYgTa-131524-d1e1306">
-               <lb ed="#G" n="8"/>2 Praeterea, <ref xml:id="HuYgTa-131524-Rd1e1310">Comment. 12. metap</ref> ait, quod impossibile est 
-      <lb ed="#G" n="9"/>que actio vnius agentis terminetur ad formam, &amp; actio
-      al<lb ed="#G" n="10" break="no"/>terius agentis terminetur ad materiam.
-    </p>
-            <p xml:id="HuYgTa-131524-d1e1318">
-               <lb ed="#G" n="11"/>Sed licet quandoque verteretur in dubium, quae
-      ista<lb ed="#G" n="12" break="no"/>tum opinionum melior videretur, vt ait Augustinus 1o 
-      <lb ed="#G" n="13"/>super Cen. ad litteram: tamen prima est ab ecclesia appre 
-      <lb ed="#G" n="14"/>bata, Secunda vero reprobata &amp; condemnata: ideo tenet 
-      <lb ed="#G" n="15"/>do primam conclusionem, iam dictis sophismatibus
-      re<lb ed="#G" n="16" break="no"/>spondebo. 
-    </p>
-            <p xml:id="HuYgTa-131524-d1e1334">
-               <lb ed="#G" n="17"/>
-               <pc type="indent"/>Ad primum dicendum, quod ad hoc, quod homo vere 
-      <lb ed="#G" n="18"/>dicatur generatus, non oportet, quod forma, per quam
-      ho<lb ed="#G" n="19" break="no"/>mo est homo, a genetante producatur: sed sufficit, quod 
-      <lb ed="#G" n="20"/>materia ad talem formam suscipiendam ita sufficienter 
-      <lb ed="#G" n="21"/>disponatur, quod forma praedicta huiusmodi materiae
-      na<lb ed="#G" n="22" break="no"/>turaliter vniatur: nam ex vnione talis formae cum
-      huius<lb ed="#G" n="23" break="no"/>modi materia generatur homo,. Cum igitur actione
-      ho<lb ed="#G" n="24" break="no"/>minis generantis materia a Deo sufficienaer disponatur 
-      <lb ed="#G" n="25"/>quod si non infunderetur anima, hoc esset miraculosum: 
-      <lb ed="#G" n="26"/>ideo &amp;c. 
-    </p>
-            <p xml:id="HuYgTa-131524-d1e1360">
-               <lb ed="#G" n="27"/>
-               <pc type="indent"/>Ad secundum dicendum, quod corpus non capit esse  
-      <lb ed="#G" n="28"/>per se: sed corpus &amp; anima, sicut constituunt vnam 
-      <lb ed="#G" n="29"/>essentiam, sic capiunt vnum esse, quod est esse totiu 
-      <lb ed="#G" n="30"/>composit 
-    </p>
-            <p xml:id="HuYgTa-131524-d1e1374">
-               <lb ed="#G" n="31"/>
-               <pc type="indent"/>Ad tertium dicendum, quod homo producit sibi
-      simi<lb ed="#G" n="32" break="no"/>le, puta hominem eiusdem speciei: sufficienter enim disponem 
-      <lb ed="#G" n="33"/>do materam, facit ad naturalem vnionem animae
-      ration<lb ed="#G" n="34" break="no"/>lis cum humana materia, ad quam vnionem per se
-      sequi<lb ed="#G" n="35" break="no"/>tur generatio hominis, qui est similis gencranti. 
-    </p>
-            <p xml:id="HuYgTa-131524-d1e1390">
-               <lb ed="#G" n="36"/>
-               <pc type="indent"/>Ad quartum dicendum, quod ad hoc, quod aliquid
-      di<lb ed="#G" n="37" break="no"/>catur agens vniuocum, non oportet, quod producat partes 
-      <lb ed="#G" n="38"/>essentiales composit: sed sufficit, quod per se sit causa
-      vnio<lb ed="#G" n="39" break="no"/>nis talium partium, ad quam vnionem per se sequitur ge 
-      <lb ed="#G" n="40"/>neratio totius composit, quod est eiusdem speciei cun 
-      <lb ed="#G" n="41"/>ipso generante, equus enim non producit materiam equi 
-      <lb ed="#G" n="42"/>geniti; sed ipsam fimpliciter praesupponit: &amp;tamen
-      dici<lb ed="#G" n="43" break="no"/>tur vniuoce equum generarc. 
-    </p>
-            <p xml:id="HuYgTa-131524-d1e1412">
-               <lb ed="#G" n="44"/>
-               <pc type="indent"/>Ad quintum, dicendum, quod sicut quandoque per sine 
-      <lb ed="#G" n="45"/>dochen pars materialis sumitur pro toto composito: sicut 
-      <lb ed="#G" n="46"/>cum dicitur, verbum caro factum est, Augu,. exponit id est 
-      <lb ed="#G" n="47"/>verbum homo factum est, sic etiam quandoque pars
-      for<lb ed="#G" n="48" break="no"/>malis sumitur pro toto composito: sicut dixit rex Sodo 
-      <lb ed="#G" n="49"/>morum ad Abraam, Da mihi animas, cetera tolle tibi. Et 
-      <lb ed="#G" n="50"/>sic est in proposito &amp;c 
-    </p>
-            <p xml:id="HuYgTa-131524-d1e1432">
-               <lb ed="#G" n="51"/>
-               <pc type="indent"/>Ad sextum dicendum, quod virtus existens in semine 
-      <lb ed="#G" n="52"/>dicitur intellectus per similitudinem, &amp; non per proprie 
-      <lb ed="#G" n="53"/>tatem. Vnde <ref xml:id="HuYgTa-131524-Rd1e1442">Commentator 7. metaphy.</ref> ait, quod virtus, quam 
-      <lb ed="#G" n="54"/>est in semine, pro tanto vocatur a philosopho
-      intelle<lb ed="#G" n="55" break="no"/>ctus: quia sicut intellectus operatur absque organo: ita &amp; 
-      <lb ed="#G" n="56"/>illa virtus. 
-    </p>
-            <p xml:id="HuYgTa-131524-d1e1453">
-               <lb ed="#G" n="57"/>
-               <pc type="indent"/>Ad septimum dicendum, quod agens naturale non
-      pro<lb ed="#G" n="58" break="no"/>ducit materiam, sed disponit eam ad hoc, quod faciat vnam 
-      <lb ed="#G" n="59"/>essentiam cum ipsa forma introducenda.
-    </p>
-            <p xml:id="HuYgTa-131524-d1e1464">
-               <lb ed="#G" n="60"/>ARTICVLVS III 
-      <lb ed="#G" n="61"/>Vtrum secunda agentia cooperentisr Deo in aliqu  
-      <lb ed="#G" n="62"/>Terum productione. 
-    </p>
-            <p xml:id="HuYgTa-131524-d1e1474">
-               <lb ed="#G" n="63"/>
-               <pc type="indent"/>VANTVM ad tertium articulum dico primo, qued in 
-      <lb ed="#G" n="64"/>&amp; omni productione rei naturalis naturaliter
-      pro<lb ed="#G" n="65" break="no"/>ductae, agentia secunda cooperantur agenti primo.  
-    </p>
-            <p xml:id="HuYgTa-131524-d1e1485">
-               <lb ed="#G" n="66"/>
-               <pc type="indent"/>Quia in hoc relucet bonitas diuina, quod quauis Deus 
-      <!--386.xml-->
-      <cb ed="#G" n="b"/>
-               <lb ed="#G" n="67"/>omnia solus agere posset, indidit tamen secundis causi 
-      <lb ed="#G" n="68"/>talem virtutem, quod secum agere possint, &amp; proprios suo 
-      <lb ed="#G" n="69"/>tursus talia agentia agere sinit
-    </p>
-            <p xml:id="HuYgTa-131524-d1e1503">
-               <lb ed="#G" n="70"/>2 Praeterea, Deus &amp; natura nihil faciunt frustra: sed
-      fru<lb ed="#G" n="71" break="no"/>stra essent virtutes actiuae in rebus creatis, nisi aliquo mo 
-      <lb ed="#G" n="72"/>do agere possent: ergo &amp;c 
-    </p>
-            <p xml:id="HuYgTa-131524-d1e1512">
-               <lb ed="#G" n="73"/>
-               <pc type="indent"/>Praeterea, ad sensum apparet igne calefacere, ac ign 
-      <lb ed="#G" n="74"/>re, &amp; ignem generare: &amp; sic de alijs rebus haturalibus. 
-    </p>
-            <p xml:id="HuYgTa-131524-d1e1521">
-               <lb ed="#G" n="75"/>
-               <pc type="indent"/>Sed huiusmodi sensibili experientia non obstante, fuc 
-      <lb ed="#G" n="76"/>runt quidam loquentes in lege Maurorum vt <name xml:id="HuYgTa-131524-Nd1e1529">Rabi
-      Mov<lb ed="#G" n="77" break="no"/>ses</name> recitat, qui dixerunt, quod res natutalis penitus nihil agit 
-      <lb ed="#G" n="78"/>per virtutem propriam. Dicebant. n. que ignis non
-      calefa<lb ed="#G" n="79" break="no"/>cit: sed Deus creat calorem in re calefacta 
-      <lb ed="#G" n="80"/>Sed quia oppositum istius opinionis, &amp; ratio dictat 
-      <lb ed="#G" n="81"/>&amp; sensus experitur; ideo non est nihil curae arguete
-      con<lb ed="#G" n="82" break="no"/>tra eam. 
-    </p>
-            <p xml:id="HuYgTa-131524-d1e1546">
-               <lb ed="#G" n="83"/>
-               <pc type="indent"/>Etiam <name xml:id="HuYgTa-131524-Nd1e1552">Auicebro</name> in libro fontis vitae non multum
-      dis<lb ed="#G" n="84" break="no"/>entiens ab errore iam dicto, ait, quod nulla substantia conn 
-      <lb ed="#G" n="85"/>poralis agit, sed tantum modo patitur: quaedam autem vir 
-      <lb ed="#G" n="86"/>tus spiritualis penetrans ipsa corpora agit in ipsis. Et ideo 
-      <lb ed="#G" n="87"/>orpora, quae sunt magis subtilia, magis apparent nobis 
-      <lb ed="#G" n="88"/>agentia: quia magis sunt penetrabilia ab huiusmodi virtu 
-      <lb ed="#G" n="89"/>te spirituali. Istum autem errorem ipse confirmat tali me 
-      <lb ed="#G" n="90"/>dio:Nam substantia corporalis maxime distat a Deo;
-      igi<lb ed="#G" n="91" break="no"/>tur sicut ipse Deus ita est agens, quod nullo modo
-      pa<lb ed="#G" n="92" break="no"/>tiens; sic substantia corporalis ita erit patiens, quod
-      nul<lb ed="#G" n="93" break="no"/>lo modo agens. Substantiae vero spirituales, cum sint
-      me<lb ed="#G" n="94" break="no"/>diae inter Deum &amp; substantias corporales; ideo sunt
-      age<lb ed="#G" n="95" break="no"/>tes &amp; patientes. 
-    </p>
-            <p xml:id="HuYgTa-131524-d1e1583">
-               <lb ed="#G" n="96"/>
-               <pc type="indent"/>Sed nec istud valet: quia licet corporales substantiae a 
-      <lb ed="#G" n="97"/>Deo maxime distent: ista tamen distantia non est puctua 
-      <lb ed="#G" n="98"/>iter aequalis in omnibus, sed vna plus distat, quam alia. Ei 
-      <lb ed="#G" n="99"/>ideo ea, quae minus distat, agere potest in eam, quae plus 
-      <lb ed="#G" n="100"/>distat, cum sit actualior ea. Vnde quia sola materia sic ma 
-      <lb ed="#G" n="101"/>cime distat a Deo, quod nihil est inferius ea; ideo
-      quam<lb ed="#G" n="102" break="no"/>uis per rationem praedictam possit rationabiliter conclu 
-      <lb ed="#G" n="103"/>di, quod materiae primae sic competit pati, quod nullo mo 
-      <lb ed="#G" n="104"/>do agere; de nulla tamen alia substantia nec spirituali. 
-      <lb ed="#G" n="105"/>ec corporali istud potest concludi per medium
-      memo<lb ed="#G" n="106" break="no"/>ratum: quia omnia talia mediant inter Deum, &amp; primam 
-      <lb ed="#G" n="107"/>materiam. 
-    </p>
-            <p xml:id="HuYgTa-131524-d1e1614">
-               <lb ed="#G" n="108"/>
-               <pc type="indent"/>Etiam in hac materia <name xml:id="HuYgTa-131524-Nd1e1620">Auic.</name> errauit. Quia sicut recitat 
-      <lb ed="#G" n="109"/>
-               <ref xml:id="HuYgTa-131524-Rd1e1625">Commentator 1 2. metaph.</ref> ipse Auic. posuit omnes
-      for<lb ed="#G" n="110" break="no"/>mas induci ab extra, scilicet ab ipsa vltima intelligentia, 
-      <lb ed="#G" n="111"/>uam appellabat datricem formarum. 
-    </p>
-            <p xml:id="HuYgTa-131524-d1e1634">
-               <lb ed="#G" n="112"/>
-               <pc type="indent"/>Alij autem solum illas formas, quae non fiunta sibi
-      si<lb ed="#G" n="113" break="no"/>mili, dicebant esse a principio separato. Et huius
-      opinio<lb ed="#G" n="114" break="no"/>nis est ipse <name xml:id="HuYgTa-131524-Nd1e1644">Themistius</name>, vt ait <ref xml:id="HuYgTa-131524-Rd1e1648">
-                  <name xml:id="HuYgTa-131524-Nd1e1650">Commetator</name>
-               </ref>, &amp; forte, vt
-      di<lb ed="#G" n="115" break="no"/>cit idem <name xml:id="HuYgTa-131524-Nd1e1656">Commentator</name>, euisdem opinionis est ipse <name xml:id="HuYgTa-131524-Nd1e1659">Al¬ 
-        <lb ed="#G" n="116"/>pharabius</name>. <ref xml:id="HuYgTa-131524-Rd1e1664">Aristoteles vero lib. 2. de Sen. animalisi</ref> ait. so 
-      <lb ed="#G" n="117"/>am illam formam esse ab extra, siue a principro separato, 
-      <lb ed="#G" n="118"/>uae est intellectus. Et ideo iuxta principia Aristotelis
-      a<lb ed="#G" n="119" break="no"/>gentia naturalia non sunt destituta suis operationibus: ses 
-      <lb ed="#G" n="120"/>unt vere actiua &amp; productiua respectu omniumformaru; 
-      <lb ed="#G" n="121"/>uae sunt in rebus de sphaera actiuorum &amp; passiuorum, so 
-      <lb ed="#G" n="122"/>la duntaxat excepta anima intellectiua 
-    </p>
-            <p xml:id="HuYgTa-131524-d1e1681">
-               <lb ed="#G" n="123"/>
-               <pc type="indent"/>Secundo dico, quod quando ab ipso Deo producitur res 
-      <lb ed="#G" n="124"/>aliqua sola creatione, si huiusmodi res creata est per se
-      sub<lb ed="#G" n="125" break="no"/>sistens; tunc in eius productione nulla creatura pot Deo 
-      <lb ed="#G" n="126"/>cooperari; quia si in tali operatione Deo cooperaretur,  
-      <lb ed="#G" n="127"/>cum hoc non possit esse ratione alicuius adiuncti,
-      opor<lb ed="#G" n="128" break="no"/>teret, quod ipsa creatura directe eliceret actum
-      crea<lb ed="#G" n="129" break="no"/>tionis, quod ad praesens suppono esse impossibile:
-      qui<lb ed="#G" n="130" break="no"/>hoc intendo probare circa principium quarti libri
-      sen<lb ed="#G" n="131" break="no"/>tentiarum  
-    </p>
-            <p xml:id="HuYgTa-131524-d1e1705">
-               <lb ed="#G" n="132"/>
-               <pc type="indent"/>Tertio dico, quod creatura potest Deo cooperari in ta 
-      <lb ed="#G" n="133"/>li opere creationis, quo producitur aliquid, vt incipiens 
-      <lb ed="#G" n="134"/>esse in alio: quia creatura potest illud, in quo tale creatum 
-      <lb ed="#G" n="135"/>esse incipit, disponere, &amp; praeparare ad recipiendum hu 
-      <lb ed="#G" n="136"/>iusmodi creatum. Et quia sine talibus dispositonibus 
-      <lb ed="#G" n="137"/>huiusmodi non crearetur; ideo principium sic disponen 
-      <lb ed="#G" n="138"/>illud in quo creatum esse incipit, ipsi creatori dicitu 
-      <lb ed="#G" n="139"/>cooperari.
-    </p>
-            <p xml:id="HuYgTa-131524-d1e1727">
-      <!--387.xml-->
-               <pb ed="#G" n="174-v"/>
-               <cb ed="#G" n="a"/>
-               <lb ed="#G" n="1"/>ARTICVLVS IIII 
-      <lb ed="#G" n="2"/>Vtrum primus homo semper immortalis fuisset,
-      da<lb ed="#G" n="3" break="no"/>to quod in statu innocentiae, in quo 
-      <lb ed="#G" n="4"/>Deus eum creauit, stabilis. 
-      <lb ed="#G" n="5"/>
-               <pc type="indent"/>permansisset
-    </p>
-            <p xml:id="HuYgTa-131524-d1e1750">
-               <lb ed="#G" n="6"/>NTVM ad quartum articulum dico, quod si 
-      <lb ed="#G" n="7"/>homo mansisset in statu innocentiae, in quo a Dec 
-      <lb ed="#G" n="8"/>fuit productus: tunc aliquo modo fuisset immortalis: nam 
-      <lb ed="#G" n="9"/>vt patet per magistrum in ista decima nona distinctione, 
-      <lb ed="#G" n="10"/>homo in statu innocentiae habuit posse non mori: &amp; in sta 
-      <lb ed="#G" n="11"/>tu miseriae, puta post peccatum, habuit non posse non mo 
-      <lb ed="#G" n="12"/>ri, Sed in statu gloriae habebit non posse mori 
-    </p>
-            <p xml:id="HuYgTa-131524-d1e1768">
-               <lb ed="#G" n="13"/>
-               <pc type="indent"/>Ad argumentum principale patebit solutio in questi 
-      <lb ed="#G" n="14"/>ne distinctionis sequentis &amp;c 
-    </p>
-         </div>
-      </body>
-   </text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 1</title>
+        <author ref="#ThomasStrasbourg">Thomas of Strasbourg</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 1</title>
+          <date when="2020-11-26">November 26, 2020</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="G" n="cod-TxxxqU">Genoa 1585</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2020-11-26" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#G" n="172-v"/>
+        <cb ed="#G" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="HuYgTa-131524"><!-- HuYgTa-l2d19q1 -->
+        <head xml:id="HuYgTa-131524-Hd1e108">Quaestio 1</head>
+        <head xml:id="HuYgTa-131524-Hd1e111" type="question-title">
+          An homo virtute creationis diuinae acceperit immortalitatem. 
+        </head>
+        <p xml:id="HuYgTa-131524-d1e114">
+          <lb ed="#G" n="29"/>
+          <pc type="indent"/>Questio. 1. 
+          <lb ed="#G" n="30"/>An homo virtute creationis diuinae acceperit 
+          <lb ed="#G" n="31"/>immortalitatem. 
+        </p>
+        <p xml:id="HuYgTa-131524-d1e125">
+          <lb ed="#G" n="32"/>
+          <pc type="indent"/>VTRVM primus homo ex virtute crea 
+          <lb ed="#G" n="33"/>tionis diuinae acceperit esse immortale
+        </p>
+        <p xml:id="HuYgTa-131524-d1e134">
+          <lb ed="#G" n="34"/>Et videtur, quod non: quia omne
+          com<lb ed="#G" n="35" break="no"/>positum ex contrarijs necessario est conn 
+          <lb ed="#G" n="36"/>tuptibile, &amp; per consequens mortalet, si 
+          <lb ed="#G" n="37"/>est res viua: sed primus homo fuit
+          com<lb ed="#G" n="38" break="no"/>ositus ex contrarijs: ergo &amp;c. Maior patet in lib de
+          ge<lb ed="#G" n="39" break="no"/>neratione &amp; in multis alijs locis naturalis philosophiae 
+          <lb ed="#G" n="40"/>minor similiter patet: quia in complexione primi homi 
+          <lb ed="#G" n="41"/>nis fuerunt qualitates elementorum, quae sunt contrariae. 
+        </p>
+        <p xml:id="HuYgTa-131524-d1e155">
+          <lb ed="#G" n="42"/>
+          <pc type="indent"/>Contra, <ref xml:id="HuYgTa-131524-Rd1e161">sapientiae 2.</ref> dicitur, Deus creauit hominem 
+          <lb ed="#G" n="43"/>inexterminabilem, &amp; ad imaginem similitudinis, suae
+          fe<lb ed="#G" n="44" break="no"/>cit illum: inuidia autem diaboli mors sintroiuit in
+          or<lb ed="#G" n="45" break="no"/>bem terrarum. Hic quattuor sunt videnda. Primo qui 
+          <lb ed="#G" n="46"/>sit creatio, Secundo vtrum anima intellectiua
+          pro<lb ed="#G" n="47" break="no"/>ducatur per solam creationem, Tertio, utrum 
+          <lb ed="#G" n="48"/>secunda agentia cooperentur Deo in ali 
+          <lb ed="#G" n="49"/>qua rerum productione. Et quarto, 
+          <lb ed="#G" n="50"/>vtrum primus homo semper 
+          <lb ed="#G" n="51"/>immortalis fuisset dato, 
+          <lb ed="#G" n="52"/>quod in stata
+          inno<lb ed="#G" n="53" break="no"/>centie. 
+          <lb ed="#G" n="54"/>in quo Deus eum creauit, stabilis 
+          <lb ed="#G" n="55"/>permansisset
+        </p>
+        <p xml:id="HuYgTa-131524-d1e193">
+          <!--383.xml-->
+          <cb ed="#G" n="b"/>
+          <lb ed="#G" n="56"/>RESOLVTIO. 
+          <lb ed="#G" n="57"/>creatio quidem, vt ert in creatura est aliquid veale, &amp; est idem, 
+          <lb ed="#G" n="58"/>quod esse creaturae, quamuis creator totam produtat
+          creatu<lb ed="#G" n="59" break="no"/>vam ex esse &amp;v essentia. Vnde anima intellectiua sola creatio 
+          <lb ed="#G" n="60"/>ne producitur &amp;e si in qualibet rei naturalis productione ade 
+          <lb ed="#G" n="61"/>tia secundaria Deo cooperentur. 
+        </p>
+        <p xml:id="HuYgTa-131524-d1e213">
+          <lb ed="#G" n="62"/>
+          <pc type="indent"/>ARTICVLVSE. 
+          <lb ed="#G" n="63"/>
+          <pc type="indent"/>Quid sit creatio.
+        </p>
+        <p xml:id="HuYgTa-131524-d1e224">
+          <lb ed="#G" n="64"/>QVANTVM ad primum esset distinguendum de crea 
+          <lb ed="#G" n="65"/>tione, quae dicitur actio: &amp; de creatione, que
+          pas<lb ed="#G" n="66" break="no"/>sio dicitur: &amp; quomodo creatio potest accipi pro actione 
+          <lb ed="#G" n="67"/>immanente in creante: &amp; quomodo pro actione tramseun 
+          <lb ed="#G" n="68"/>te. Sed quia ista intendo tractare inferius circa distinctio 
+          <lb ed="#G" n="69"/>nem trigesimam septimam: ideo ad praesens quantum ad 
+          <lb ed="#G" n="70"/>stum primum articulum praecise de duobus inquiram.
+        </p>
+        <p xml:id="HuYgTa-131524-d1e242">
+          <lb ed="#G" n="71"/>Primo, sscilicet vtrum creatio sit aliquid in ipsa
+          creatu<lb ed="#G" n="72" break="no"/>rat. Secundo, quid sit. Et secundum hoc ponam duas 
+          <lb ed="#G" n="73"/>conclusiones. 
+        </p>
+        <p xml:id="HuYgTa-131524-d1e251">
+          <lb ed="#G" n="74"/>
+          <pc type="indent"/>Prima est, quod creatio, vt est in creatura, est aliquid 
+          <lb ed="#G" n="75"/>reale 
+        </p>
+        <p xml:id="HuYgTa-131524-d1e261">
+          <lb ed="#G" n="76"/>
+          <pc type="indent"/>Quia illud cuius terminus est realis, oportet, quod 
+          <lb ed="#G" n="77"/>sit aliquid reale: sed per se terminus ipsius creationis est 
+          <lb ed="#G" n="78"/>ens reale, puta ipsa ereatura.
+        </p>
+        <p xml:id="HuYgTa-131524-d1e272">
+          <lb ed="#G" n="79"/>2 Praeterea, actio transiens agete reali, est aliquid re; 
+          <lb ed="#G" n="80"/>e : sed creatio est huiusmodi: quia per creationem Deus 
+          <lb ed="#G" n="81"/>constituit aliquid e xtra se. 
+        </p>
+        <p xml:id="HuYgTa-131524-d1e281">
+          <lb ed="#G" n="82"/>
+          <pc type="indent"/>3 Praeterea, omne productum reale praesupponit pro 
+          <lb ed="#G" n="83"/>ductionem realem: sed creatura, cuius productio est ipsa 
+          <lb ed="#G" n="84"/>creatio, est productum reale: ergo &amp;c. 
+          <lb ed="#G" n="85"/>Sed contra istud est quaedam opinio, quae dicit, quod 
+          <lb ed="#G" n="86"/>creatio nihil ponit realiter i creatura Probationes istius 
+          <lb ed="#G" n="87"/>opinionis non vidi. Poterant tamen ponentes illam
+          opi<lb ed="#G" n="88" break="no"/>nionem mouere ista motiua
+        </p>
+        <p xml:id="HuYgTa-131524-d1e301">
+          <lb ed="#G" n="89"/>1 Quia si creatio esset aliquid reale in creatura:
+          tun<lb ed="#G" n="90" break="no"/>ipsa creatio esset creatura, consequentia patet Probo fal 
+          <lb ed="#G" n="91"/>sitatem consequentis: quia cum omnis creatura creatur,  
+          <lb ed="#G" n="92"/>si ipsa creatio esset creatura, tuc &amp; ipsa creatio crearetur; 
+          <lb ed="#G" n="93"/>&amp; sic creationis esset creatio; &amp; hoc in infinitum.
+        </p>
+        <p xml:id="HuYgTa-131524-d1e314">
+          <lb ed="#G" n="94"/>2 Praeterea, omne, quod est in creaturis, vel est substam 
+          <lb ed="#G" n="95"/>tia, vel accidens, sed creatio non est substantia, cum nec 
+          <lb ed="#G" n="96"/>sit materia, nec forma, nec com positum, in quae sufficien 
+          <lb ed="#G" n="97"/>ter diuiditur substantia, vt patet <ref xml:id="HuYgTa-131524-Rd1e324">2. de anima</ref>, nec est acci 
+          <lb ed="#G" n="98"/>lens, quia omne accidens praesupponit suum subiectum; 
+          <lb ed="#G" n="99"/>creatio autem nihil praesupponit.
+        </p>
+        <p xml:id="HuYgTa-131524-d1e333">
+          <lb ed="#G" n="100"/>3 Praeterea, si creatio poneret aliquid i creatura, hoc 
+          <lb ed="#G" n="101"/>maxime videretur esse relatio creaturae ad creatorem, sed  
+          <lb ed="#G" n="102"/>hoc non, quia quamdiu manet creatura, tamdiu fundat 
+          <lb ed="#G" n="103"/>nuiusmodi relationem, &amp; sic sequeretur, quod creatura 
+          <lb ed="#G" n="104"/>semper crearetur, quamdiu maneret in creato esse, quod  
+          <lb ed="#G" n="105"/>est impossibile 
+        </p>
+        <p xml:id="HuYgTa-131524-d1e350">
+          <lb ed="#G" n="106"/>
+          <pc type="indent"/>ped ista non concludunt: igitur 
+          <lb ed="#G" n="107"/>Ad primum dicendum, quod consequens non est fal 
+          <lb ed="#G" n="108"/>um. Ad probationem dico, quod sicut relatio refertur,  
+          <lb ed="#G" n="109"/>non tamen refertur alia relatione, vt patet per Auic. in 
+          <lb ed="#G" n="110"/>metaph. sua; si enim relatio referretur alia relatione: tumo 
+          <lb ed="#G" n="111"/>vel relatio creaturae ad Deum non esset creatura, vel al 
+          <lb ed="#G" n="112"/>qua creatura non referretur ad Deum, vel esset
+          proces<lb ed="#G" n="113" break="no"/>sus in infinitum, quae omnia falsa sunt. Sicut relatio
+          igi<lb ed="#G" n="114" break="no"/>tur non refertur alia relatione; sic creatio non creatur 
+          <lb ed="#G" n="115"/>alia creatione; stricte etiam loquendo de creatura inquam 
+          <lb ed="#G" n="116"/>tum creatura est aliquid in se subsistens, sic neganda est 
+          <lb ed="#G" n="117"/>consequentia; quia vt sic, creatio non est quid creatum 
+          <lb ed="#G" n="118"/>sed concreatum 
+        </p>
+        <p xml:id="HuYgTa-131524-d1e383">
+          <lb ed="#G" n="119"/>
+          <pc type="indent"/>Ad secundum dicendum ad minorem per interemptio 
+          <lb ed="#G" n="120"/>nem, quia creatio substantiae aliquo modo potest dici sub 
+          <lb ed="#G" n="121"/>stantia accidentis accidens Vel potest negari maior, quia 
+          <!--384.xml-->
+          <pb ed="#G" n="173-r"/>
+          <cb ed="#G" n="a"/>
+          <lb ed="#G" n="1"/>ereatio est idem, quod esse rei creatae, quod quidem esse 
+          <lb ed="#G" n="2"/>non est accidens, cum sit per reductionem in praedicam  
+          <lb ed="#G" n="3"/>to substantiae, nec tamen proprie recipit praedicationem 
+          <lb ed="#G" n="4"/>substantiae; sicut punctus non est quantitas, quamuis
+          redu<lb ed="#G" n="5" break="no"/>catur ad genus quantitatis, prout superius declaraui. 
+        </p>
+        <p xml:id="HuYgTa-131524-d1e412">
+          <lb ed="#G" n="6"/>
+          <pc type="indent"/>Ad tertium patebit in secunda conclusione immedia 
+          <lb ed="#G" n="7"/>te sequenti 
+        </p>
+        <p xml:id="HuYgTa-131524-d1e421">
+          <lb ed="#G" n="8"/>
+          <pc type="indent"/>Dico igitur, secundo, quod creatio est idem, quod
+          es<lb ed="#G" n="9" break="no"/>se creature 
+        </p>
+        <p xml:id="HuYgTa-131524-d1e430">
+          <lb ed="#G" n="10"/>
+          <pc type="indent"/>1 Quia quamuis creator producat totam creaturam 
+          <lb ed="#G" n="11"/>compositam ex esse &amp; essentia: partes tamen producit pro 
+          <lb ed="#G" n="12"/>ductione totius isto modo, quod esse producit in essentia 
+          <lb ed="#G" n="13"/>&amp; essentiam sub ipso esse: ita quod essentia, quasi subiici 
+          <lb ed="#G" n="14"/>tur creationi, &amp; esse terminat creationem: igitur creatio 
+          <lb ed="#G" n="15"/>est ipsum esse, prout ipsum esse producitur in essentia vit 
+          <lb ed="#G" n="16"/>tute creatoris 
+        </p>
+        <p xml:id="HuYgTa-131524-d1e450">
+          <lb ed="#G" n="17"/>
+          <pc type="indent"/>2 Praeterea, illud, quod pro prie concipitur esse perfe 
+          <lb ed="#G" n="18"/>ctio essentiae per creationem producte, hoc est realiter 
+          <lb ed="#G" n="19"/>idem, quod esse, creatio est huiusmodi. nam in hoc differt 
+          <lb ed="#G" n="20"/>actio transiens ab immanente: quia est perfectio non age 
+          <lb ed="#G" n="21"/>tis, sed acti¬ 
+        </p>
+        <p xml:id="HuYgTa-131524-d1e467">
+          <lb ed="#G" n="22"/>
+          <pc type="indent"/>Forte dicetur, quod eadem ratione sequitur, quod crea 
+          <lb ed="#G" n="23"/>tio sit perfectio ipsius esse, sicut ipsius essentiae; quia non  
+          <lb ed="#G" n="24"/>minus creatur ipsum esse, quam ipsa essentia. 
+        </p>
+        <p xml:id="HuYgTa-131524-d1e478">
+          <lb ed="#G" n="25"/>
+          <pc type="indent"/>Respondeo, quod non est simile, quamuis enim
+          cree<lb ed="#G" n="26" break="no"/>tur tam esse, quam essentia: esse tamen creatur vt perfe 
+          <lb ed="#G" n="27"/>ctio quaedam, sed essentia creatur vt quid persectibile. Ci 
+          <lb ed="#G" n="28"/>igitur perfectionis non sit persectio, sed perfectio est ip 
+          <lb ed="#G" n="29"/>lius perfectibilis: igitur actio trasiens, quae est creatio, quam 
+          <lb ed="#G" n="30"/>uis sit perfectio ipsius essentiae, non tamen erit perfectio 
+          <lb ed="#G" n="31"/>ipsius esse 
+        </p>
+        <p xml:id="HuYgTa-131524-d1e498">
+          <lb ed="#G" n="32"/>
+          <pc type="indent"/>2 Praeterea, illud, quod proprie est actus entis in actu 
+          <lb ed="#G" n="33"/>secundum quod in actu, hoc est ipsum esse: creatio est hu 
+          <lb ed="#G" n="34"/>iusmodi: nam in hoc differt a motu: quia in motu acquir  
+          <lb ed="#G" n="35"/>tur pars post partem, &amp; in motu sic est aliquid acquisitum 
+          <lb ed="#G" n="36"/>quod semper restat aliquid acquirendum: ideo motus es 
+          <lb ed="#G" n="37"/>actus entis in potentia secundum quod in potentia, vt pro 
+          <lb ed="#G" n="38"/>tet in physic. Econtrario autem creatio est tota simul 
+          <lb ed="#G" n="39"/>nec per ipsam pars post partem ipsius rei ponitur in esse 
+          <lb ed="#G" n="40"/>sed fmultanee res per ipsam perfecte producitur; ideo 
+          <lb ed="#G" n="41"/>per oppositum ad ipsum motum creatio proprie dicitur 
+          <lb ed="#G" n="42"/>actus entis in actu, secundum quod est in actu¬ 
+        </p>
+        <p xml:id="HuYgTa-131524-d1e527">
+          <lb ed="#G" n="43"/>
+          <pc type="indent"/>Alias inuenitur addita talis ratio: Quia productio sim 
+          <lb ed="#G" n="44"/>plex &amp; instantanea est idem realiter cum suo formali te 
+          <lb ed="#G" n="45"/>mino: sed creatio est simplex productio &amp; instantanea: e 
+          <lb ed="#G" n="46"/>esse rei creatae est formalis terminus creationis; ergo &amp; 
+        </p>
+        <p xml:id="HuYgTa-131524-d1e540">
+          <lb ed="#G" n="47"/>
+          <pc type="indent"/>Maior patet discurrendo per singulas huiusmodi
+          pro<lb ed="#G" n="48" break="no"/>ductiones. Minor etiam patet: quia creatio non est actio 
+          <lb ed="#G" n="49"/>corporea: nec suceessiua. Quod etiam esse sit formalis ter 
+          <lb ed="#G" n="50"/>minus creationis, patet per Auctorem de causis qui ait, quod 
+          <lb ed="#G" n="51"/>prima rerum creatarum est esse  
+        </p>
+        <p xml:id="HuYgTa-131524-d1e556">
+          <lb ed="#G" n="52"/>
+          <pc type="indent"/>Sed contra istam conclusionem est quaedam opinio,  
+          <lb ed="#G" n="53"/>quae ponit, quod creatio sit idem, quod tota creatura
+          lqui<lb ed="#G" n="54" break="no"/>in omni productione, vt dicunt, productio est idem reali 
+          <lb ed="#G" n="55"/>ter cum termino productionis, sed creatio terminatur
+          a<lb ed="#G" n="56" break="no"/>totam creaturam. Sed quia maior istius rationis pati
+          vi<lb ed="#G" n="57" break="no"/>detur instantiam de ipso motu; igitur probant isti, quod 
+          <lb ed="#G" n="58"/>omnis motus sit idem realiter cum suo termino. 
+        </p>
+        <p xml:id="HuYgTa-131524-d1e577">
+          <lb ed="#G" n="59"/>
+          <pc type="indent"/>1 Quia quandocumque aliqua differunt secundum 
+          <lb ed="#G" n="60"/>essentias absolutas, illa Deus potest ab inuicem separari 
+          <lb ed="#G" n="61"/>sed si albedo &amp; dealbatio differrent realiter: tuc differren 
+          <lb ed="#G" n="62"/>re absoluta: ergo Deus posset facere dealbationem sini 
+          <lb ed="#G" n="63"/>albedine, &amp; asbedinem sine dealbatione, quod videtur 
+          <lb ed="#G" n="64"/>contradictionem implicaro 
+        </p>
+        <p xml:id="HuYgTa-131524-d1e595">
+          <lb ed="#G" n="65"/>
+          <pc type="indent"/>2 Praeterea, si motus differret re absoluta;a forma, quae 
+          <lb ed="#G" n="66"/>terminat motum, tunc naturaliter prius esset motus con 
+          <lb ed="#G" n="67"/>pletus, quam ipsa forma esset completa: sed hoc est impos 
+          <lb ed="#G" n="68"/>sibile: quia tunc cessante motu, adhuc forma moueretui 
+          <lb ed="#G" n="69"/>ad suum complementum 
+        </p>
+        <p xml:id="HuYgTa-131524-d1e611">
+          <lb ed="#G" n="70"/>
+          <pc type="indent"/>3 Praeterea, istud dicunt esse intentionem Comme 
+          <lb ed="#G" n="71"/>tatoris, qui a physicorum ait, quod motus vno modo ac 
+          <lb ed="#G" n="72"/>cipitur pro forma fiuente. Alio modo pro fuxum forma 
+          <lb ed="#G" n="73"/>Primus autem modus est verior, Secundus vvro est samo 
+          <!--384.xml-->
+          <cb ed="#G" n="b"/>
+          <lb ed="#G" n="74"/>sior. Item in eodem ait. via in generationibus est de spe 
+          <lb ed="#G" n="75"/>cie eius ad quod est. 
+        </p>
+        <p xml:id="HuYgTa-131524-d1e633">
+          <lb ed="#G" n="76"/>Sed isti cum hoc, quod conclusionem mihi dubiam
+          po<lb ed="#G" n="77" break="no"/>nunt: etiam ipsam insufficienter probant. 
+        </p>
+        <p xml:id="HuYgTa-131524-d1e640">
+          <lb ed="#G" n="78"/>
+          <pc type="indent"/>Primo igitur arguam contra probati ones illius
+          maio<lb ed="#G" n="79" break="no"/>ris; Et deinde eorum motiuis respondebo. 
+        </p>
+        <p xml:id="HuYgTa-131524-d1e649">
+          <lb ed="#G" n="80"/>
+          <pc type="indent"/>1 Primo sic. llla, quae sic se habent, quod secundum sua 
+          <lb ed="#G" n="81"/>proprias eorum entitates numquam poterunt esse simul; 
+          <lb ed="#G" n="82"/>illa non poterunt esse ideni realiter: sed motus &amp;
+          ter<lb ed="#G" n="83" break="no"/>minus ad quem est motus, sunt huiusmodi: Maior patet 
+          <lb ed="#G" n="84"/>quia esse idem necessario praesupponit esse simul. Minor 
+          <lb ed="#G" n="85"/>similiter patet,: quia sicut numquam contingitur
+          termi<lb ed="#G" n="86" break="no"/>nus, nisi perficiatur uia: sic numquam terminus motus est 
+          <lb ed="#G" n="87"/>accquisitus, nisi desinat motus. Quod ergo illa sint idem 
+          <lb ed="#G" n="88"/>realiter omnino, quorum vno existente alterum esse nm 
+          <lb ed="#G" n="89"/>potest, &amp; quorum vnius desitio est alterius in esse posito 
+          <lb ed="#G" n="90"/>videtur esse implicatio contradictionis.
+        </p>
+        <p xml:id="HuYgTa-131524-d1e679">
+          <lb ed="#G" n="91"/>2 Praeterea, ens formaliter suceessiuum differt
+          reali<lb ed="#G" n="92" break="no"/>ter ab ente formaliter permanente, sed motus est ens for 
+          <lb ed="#G" n="93"/>maliter, &amp; essentialiter suceessiuuum, &amp; terminus motus 
+          <lb ed="#G" n="94"/>est formaliter &amp; essentialiter permanens: ergo &amp;c
+        </p>
+        <p xml:id="HuYgTa-131524-d1e690">
+          <lb ed="#G" n="95"/>3 Praeterea, quae sic se habet, quod vnum vere habet 
+          <lb ed="#G" n="96"/>partes ex quibus realiter componitur, quae quidem
+          par<lb ed="#G" n="97" break="no"/>tes numquam poterunt esse simul, alterum vero non ha 
+          <lb ed="#G" n="98"/>bet partes, vel si habet, omnes suae partes sunt simul, illa  
+          <lb ed="#G" n="99"/>non possunt esse idem realiter, sed motus &amp; terminus mo 
+          <lb ed="#G" n="100"/>tus sunt huiusmodi, ergo &amp;c 
+        </p>
+        <p xml:id="HuYgTa-131524-d1e706">
+          <lb ed="#G" n="101"/>Forte dicetur, quod ergo contradicam primae rationi i 
+          <lb ed="#G" n="102"/>quam feci pro ista secunda conclusione. Virtus enim il 
+          <lb ed="#G" n="103"/>lius rationis in hoc stat, quod ideo creatio est idem, quod 
+          <lb ed="#G" n="104"/>esse rei create, quia esse est proprius terminus creationis 
+        </p>
+        <p xml:id="HuYgTa-131524-d1e717">
+          <lb ed="#G" n="105"/>
+          <pc type="indent"/>Respondeo, quod hic nulla est contradictio, quia
+          crea<lb ed="#G" n="106" break="no"/>tio non est motus: habet enim oppositas conditiones ac 
+          <lb ed="#G" n="107"/>motum, vt in tertia ratione declaraui, 
+        </p>
+        <p xml:id="HuYgTa-131524-d1e728">
+          <lb ed="#G" n="108"/>
+          <pc type="indent"/>Ad rationem eorum dicendum, quod maior sic vniuer, 
+          <lb ed="#G" n="109"/>saliter sumpta non est vera, &amp; specialiter est falsa in
+          pro<lb ed="#G" n="110" break="no"/>posito, quia dato, quod productio sit idem, quod termi- 
+          <lb ed="#G" n="111"/>nus, non tamen est idem quod terminus totalis: sed est 
+          <lb ed="#G" n="112"/>idem quod terminus formalis. Si enim actio transiens
+          es<lb ed="#G" n="113" break="no"/>set idem realiter cum ipso termino totali: tunc idem tram 
+          <lb ed="#G" n="114"/>siret in seipsum realiter. Et quia isti loquuntur de ter 
+          <lb ed="#G" n="115"/>mino totali: ideo &amp; falsum assumunt, &amp; ad propositum 
+          <lb ed="#G" n="116"/>non arguunt  
+        </p>
+        <p xml:id="HuYgTa-131524-d1e752">
+          <lb ed="#G" n="117"/>
+          <pc type="indent"/>Ad primam probationem de motu dicendum, quod 
+          <lb ed="#G" n="118"/>Deus bene posset, si vellet, facere aibedinem sine dealba 
+          <lb ed="#G" n="119"/>tione, quae est motus: cum ipse agat sine motu &amp; transmu 
+          <lb ed="#G" n="120"/>tatione; etiam posset facere motum dealbationis, ex 
+          <lb ed="#G" n="121"/>quo nihil de completa entitate albedinis in esse ponero 
+          <lb ed="#G" n="122"/>tur, Cum ergo solum completa albedinis entitas sit
+          ter<lb ed="#G" n="123" break="no"/>minus dealbationis: ideo Deus potest separare motum a 
+          <lb ed="#G" n="124"/>suo termino. Et ex hoc patet, quod ambabus praemissis. 
+          <lb ed="#G" n="125"/>concessis, conclusio non est falsa: quia loquendo proprie 
+          <lb ed="#G" n="126"/>de termino dealbationis, que est albedo permanens, &amp;  
+          <lb ed="#G" n="127"/>completa: tunc non solum Deus potest ista separare:
+          ve<lb ed="#G" n="128" break="no"/>rum etiam naturaliter sunt simul incompossibilia: quia 
+          <lb ed="#G" n="129"/>terminus motus numquam in esse ponitur, nisi motus se 
+          <lb ed="#G" n="130"/>cundum se, &amp; secundum omnes suas partes desinat&amp; con 
+          <lb ed="#G" n="131"/>rumpatur. Etiam maior non est vniuersaliter vera,
+          maxi<lb ed="#G" n="132" break="no"/>me de talibus absolutis, quae connotant aliquos
+          respe<lb ed="#G" n="133" break="no"/>ctus: nam quamuis figura sit entitas absoluta, cum si quan 
+          <lb ed="#G" n="134"/>ta species qualitatis: nulla tamen potentia fieri potest
+          fi<lb ed="#G" n="135" break="no"/>gura sine omni quantitate eo, quod dicat qualitatem sub 
+          <lb ed="#G" n="136"/>habitudine ad ipsam quantitatem.  
+        </p>
+        <p xml:id="HuYgTa-131524-d1e801">
+          <lb ed="#G" n="137"/>
+          <pc type="indent"/>Ad secundum dicendum, quod concessa consequentia 
+          <lb ed="#G" n="138"/>consequens non est falsum, quia naturaliter oportet, quod 
+          <lb ed="#G" n="139"/>via compleatur, antequam terminus attingitur. Ad
+          pro<lb ed="#G" n="140" break="no"/>bationem dico, quod ista prioritas naturae stat com simul 
+          <lb ed="#G" n="141"/>tate temporis, &amp; durationis, &amp; ideo non oportet, quod 
+          <lb ed="#G" n="142"/>motu cessante, adhuc forma moueatur: quia motus ne 
+          <lb ed="#G" n="143"/>cessat prius duratione, quam terminus sit acquisitus, sed 
+          <lb ed="#G" n="144"/>solum prius natura, 
+        </p>
+        <p xml:id="HuYgTa-131524-d1e823">
+          <lb ed="#G" n="145"/>
+          <pc type="indent"/>Ad tertium dico, quod dato, quod motus si forma flu 
+          <lb ed="#G" n="146"/>ens, ex hoc tamen non sequitur, quod sit idem cumn termi- 
+          <!--385.xml-->
+          <pb ed="#G" n="173-v"/>
+          <cb ed="#G" n="a"/>
+          <lb ed="#G" n="1"/>forma sluens, sed est forma permanens. Nec secundum
+          di<lb ed="#G" n="2" break="no"/>ctum Comentatoris est ad propositum istorum: quia non  
+          <lb ed="#G" n="3"/>no: sed magis sequitur oppositum: quia terminus non est 
+          <lb ed="#G" n="4"/>dicit Commentator de identitate reali, &amp; numerali, set 
+          <lb ed="#G" n="5"/>specifica : non est autem inconueniens, ut forma
+          incomple<lb ed="#G" n="6" break="no"/>ta praecedens terminum, &amp; forma completa, quae est ipse 
+          <lb ed="#G" n="7"/>terminus, sint eiusdem speciei; quia perfectum &amp;
+          imper<lb ed="#G" n="8" break="no"/>fectum possunt esse in eadem specie. 
+        </p>
+        <p xml:id="HuYgTa-131524-d1e856">
+          <lb ed="#G" n="9"/>
+          <pc type="indent"/>Etiam contra praedictam conclusionem sunt alij, qui 
+          <lb ed="#G" n="10"/>dicunt, quod creatio super terminum creationis addit re 
+          <lb ed="#G" n="11"/>absolutam. 
+        </p>
+        <p xml:id="HuYgTa-131524-d1e867">
+          <lb ed="#G" n="12"/>
+          <pc type="indent"/>Quia creatio est productio absoluti differens a
+          pro<lb ed="#G" n="13" break="no"/>ducto; ergo addit re absolutam super ipsum productum 
+          <lb ed="#G" n="14"/>consequentia patet. probatur antecedens quantum ad am  
+          <lb ed="#G" n="15"/>bas suas partes: quod enim sit res absoluta patet, quia pro 
+          <lb ed="#G" n="16"/>ductio rei absolutae est absoluta: quod autem differat a 
+          <lb ed="#G" n="17"/>producto patet: quia producto posito in esse, cessat
+          crea<lb ed="#G" n="18" break="no"/>tio; vnde si creatio non differret a creato, tunc creatum con 
+          <lb ed="#G" n="19"/>tinue crearetur.
+        </p>
+        <p xml:id="HuYgTa-131524-d1e889">
+          <lb ed="#G" n="20"/>2 Praeterea, si idem esset creatio &amp; creatura: tumc destru 
+          <lb ed="#G" n="21"/>cta creatura Deus non posset eam eandem numero
+          repa<lb ed="#G" n="22" break="no"/>rare, quia non repararet eam eadem creatione, qua primo 
+          <lb ed="#G" n="23"/>ipsam creauerat, &amp; per consequens, postquam esset creata 
+          <lb ed="#G" n="24"/>aipsa esset idem realiter alteri creationi, quam prius,
+          pro<lb ed="#G" n="25" break="no"/>pter quod nec ipsa natura creata posset esse eadem: quia 
+          <lb ed="#G" n="26"/>sicut illa, quae sunt eidem eadem, sunt eadem inter se; sic 
+          <lb ed="#G" n="27"/>illa, quae sunt diuersis eadem, sunt diuersa inter se 
+        </p>
+        <p xml:id="HuYgTa-131524-d1e909">
+          <lb ed="#G" n="28"/>
+          <pc type="indent"/>Praeterea, creatio non potest addere solum respectum 
+          <lb ed="#G" n="29"/>super ipsam rem creatam: ergo addit rem absolutam con 
+          <lb ed="#G" n="30"/>sequentia patet: probatur antecedens, quia secundum <ref xml:id="HuYgTa-131524-Rd1e919">phi¬ 
+            <lb ed="#G" n="31"/>losophum. 4. metaphysic.</ref> non est possibile omnia dici
+          re<lb ed="#G" n="32" break="no"/>latiue; sed si creatio adderet solum respectum super
+          sub<lb ed="#G" n="33" break="no"/>stantiam rei sine absoluto accidente, in quo talis respectus 
+          <lb ed="#G" n="34"/>immediate fundaretur: tunc omnia necessario dicerentur 
+          <lb ed="#G" n="35"/>relatiue. 
+        </p>
+        <p xml:id="HuYgTa-131524-d1e935">
+          <lb ed="#G" n="36"/>
+          <pc type="indent"/>Sed nec ista concludunt. 
+          <lb ed="#G" n="37"/>1 Quia si creatio adderet rem absolutam super
+          crea<lb ed="#G" n="38" break="no"/>turam, illa crearetur alia creatione, &amp; iretur in
+          infi<lb ed="#G" n="39" break="no"/>nitum.
+        </p>
+        <p xml:id="HuYgTa-131524-d1e948">
+          <lb ed="#G" n="40"/>2 Praeterea, si ab ipsa actione seu productione
+          seque<lb ed="#G" n="41" break="no"/>strantur, tam motus, quam mutatio, tunc non remanet 
+          <lb ed="#G" n="42"/>nisi terminus actionis cum respectu ad ipsum producens; 
+          <lb ed="#G" n="43"/>sed creatio proprie loquendo nec est motus, nec
+          muta<lb ed="#G" n="44" break="no"/>tio, sed est simplex emanatio, vt patuit superius circa fi 
+          <lb ed="#G" n="45"/>nem primi libri; igitur ad suum terminum formalem non 
+          <lb ed="#G" n="46"/>addit aliquam rem absolutam, sed solum respectum ad 
+          <lb ed="#G" n="47"/>creatorem. 
+        </p>
+        <p xml:id="HuYgTa-131524-d1e968">
+          <lb ed="#G" n="48"/>
+          <pc type="indent"/>Propter hoc bene dicit <ref xml:id="HuYgTa-131524-Rd1e974">doctor noster in tractatu de
+            es<lb ed="#G" n="49" break="no"/>se &amp; essentia q.7.</ref> quod esse, creatio, &amp; conseruatio, &amp;
+          ter<lb ed="#G" n="50" break="no"/>minus creationis quantum ad rem significatam idem sunt 
+          <lb ed="#G" n="51"/>&amp; solum quibusdam respectibus connotatis abinuicem 
+          <lb ed="#G" n="52"/>differunt nam eadem res: considerata, vt est aliquid in se, 
+          <lb ed="#G" n="53"/>sic dicitur esse considerata vt ab alio inchoata, sic dicitur 
+          <lb ed="#G" n="54"/>creatio actio; &amp; loquitur de creatione, vt est actio trasies;  
+          <lb ed="#G" n="55"/>nam prout est manes in agente, sic estipsum velle diuinum 
+          <lb ed="#G" n="56"/>sed vt inchoata in alio, sic est creatio passio; vt autem est 
+          <lb ed="#G" n="57"/>continuata ab alio, sic est conseruatio actio; prout vero 
+          <lb ed="#G" n="58"/>est continuata in alio, sic est conseruatio passio, sed vt ess 
+          <lb ed="#G" n="59"/>inducta in instanti, &amp; tota simul, sic est terminus
+          creatio<lb ed="#G" n="60" break="no"/>nis. Vnde omnia ista idem sunt re, quamuis differant 
+          <lb ed="#G" n="61"/>ratione. 
+        </p>
+        <p xml:id="HuYgTa-131524-d1e1006">
+          <lb ed="#G" n="62"/>
+          <pc type="indent"/>Praeterea, non magis videtur addere creatio super 
+          <lb ed="#G" n="63"/>rem creatam, quam conuersio super illud, in quod aliquid 
+          <lb ed="#G" n="64"/>couertitur: sed conuersio non addit aliquam re absolutam, 
+          <lb ed="#G" n="65"/>quia alias corpus Christi toties mutaretur secundum
+          en<lb ed="#G" n="66" break="no"/>titates absolutas, quoties in ipsum virtute
+          sacramenta<lb ed="#G" n="67" break="no"/>lium verborum conuertitur substantia panis: quod omni 
+          <lb ed="#G" n="68"/>no est inconueniens 
+        </p>
+        <p xml:id="HuYgTa-131524-d1e1026">
+          <lb ed="#G" n="69"/>
+          <pc type="indent"/>Ad primum dicendum, quod si intelligit per productum 
+          <lb ed="#G" n="70"/>formalem terminum productionis, tunc antecedens est fal 
+          <lb ed="#G" n="71"/>sum: quia vt sic, cre atio est idem, quod productum,
+          qui<lb ed="#G" n="72" break="no"/>dicit ipsum esse vt ab alio inchoatum, quod quidem esse  
+          <lb ed="#G" n="73"/>est formalis terminus creationis: esse autem, vt inchoa¬ 
+          <!--385.xml-->
+          <cb ed="#G" n="b"/>
+          <lb ed="#G" n="74"/>tum non addit ad ipsum esse nisi solum respectum ad
+          in<lb ed="#G" n="75" break="no"/>choantem 
+        </p>
+        <p xml:id="HuYgTa-131524-d1e1050">
+          <lb ed="#G" n="76"/>
+          <pc type="indent"/>Ad probationem dicendum, quod creatio non cessar 
+          <lb ed="#G" n="77"/>quantum ad rem, sed quantum ad nominis appellati onem; 
+          <lb ed="#G" n="78"/>quia illud idem, quod ab exordio dicebatur creatio, cum 
+          <lb ed="#G" n="79"/>esse rei fuit inchoatum: postea dicitur conseruatio, cum 
+          <lb ed="#G" n="80"/>fuerit continuatum. Beatus etiam August. non reputaret 
+          <lb ed="#G" n="81"/>inconueniens dicere, quod creatura continue creatur:
+          si<lb ed="#G" n="82" break="no"/>cut. nm lumen aeris non potest manere, nisi ad continuam 
+          <lb ed="#G" n="83"/>praesentiam Solis: ideo aer non solum praesente Sole dici 
+          <lb ed="#G" n="84"/>tur illuminatus, sed etiam continue dicitur illuminari, sic 
+          <lb ed="#G" n="85"/>quia creatura ad ictum oculi non potest subsistere, nisi
+          a<lb ed="#G" n="86" break="no"/>ctione sui creatoris sustentetur: ideo Aug. super Sen. ad 
+          <lb ed="#G" n="87"/>litteram non solum ait creaturam esse creatam, verum 
+          <lb ed="#G" n="88"/>etiam continue dicit eam creari. 
+        </p>
+        <p xml:id="HuYgTa-131524-d1e1084">
+          <lb ed="#G" n="89"/>
+          <pc type="indent"/>Ad secundum nego consequentiam. Ad probationem 
+          <lb ed="#G" n="90"/>dico, quod quamuis ea, quae sunt diuersis absolutis eade, sint 
+          <lb ed="#G" n="91"/>diuersa inter se: tamen si aliquid vicissim est idem
+          diuer<lb ed="#G" n="92" break="no"/>sis respectibus; non oportet, quod sit diuersum in se, eade 
+          <lb ed="#G" n="93"/>n albedo potest fundare diuersas relationes vicissim, uel 
+          <lb ed="#G" n="94"/>etiam simul,a quibus non differt realiter; quamuis ipsa in 
+          <lb ed="#G" n="95"/>se sit vna, &amp; indistincta. cum igitur creatio super esse rei 
+          <lb ed="#G" n="96"/>non addat nisi respectum, ideo &amp;c 
+        </p>
+        <p xml:id="HuYgTa-131524-d1e1106">
+          <lb ed="#G" n="97"/>
+          <pc type="indent"/>Ad tertium nego antecedens. Ad probationem
+          dicen<lb ed="#G" n="98" break="no"/>dum, quod quamuis secundum philosophum non omnia
+          di<lb ed="#G" n="99" break="no"/>cantur relatiue relatione mutua ad se inuicem;
+          philoso<lb ed="#G" n="100" break="no"/>phus tamen non negat, quin omne productum referatur 
+          <lb ed="#G" n="101"/>ad suum producens, vt patet. <ref xml:id="HuYgTa-131524-Rd1e1121">5. metaphysic.</ref> 
+        </p>
+        <p xml:id="HuYgTa-131524-d1e1125">
+          <lb ed="#G" n="102"/>
+          <pc type="indent"/>ARTICVLVS IR 
+          <lb ed="#G" n="103"/>Vtrum Anima intellectiua producatur 
+          <lb ed="#G" n="104"/>per solam creationem.
+        </p>
+        <p xml:id="HuYgTa-131524-d1e1136">
+          <lb ed="#G" n="105"/>QVANTVM ad secundum articulum dico
+          breui<lb ed="#G" n="106" break="no"/>TAter; quod anima intellectiua producitur sola  
+          <lb ed="#G" n="107"/>creatione. 
+        </p>
+        <p xml:id="HuYgTa-131524-d1e1145">
+          <lb ed="#G" n="108"/>
+          <pc type="indent"/>Quia forma substantialis non educibilis de materia 
+          <lb ed="#G" n="109"/>est sola creatione producibilis: sed anima intellectiua est 
+          <lb ed="#G" n="110"/>huiusmodi, ergo &amp;c. Maior patet, sed minor probata est 
+          <lb ed="#G" n="111"/>superius.
+        </p>
+        <p xml:id="HuYgTa-131524-d1e1158">
+          <lb ed="#G" n="112"/>2 Praeterea, omne generabile est corruptibile: sed ani 
+          <lb ed="#G" n="113"/>ma intellectiua est incorruptibilis, ergo &amp; ingenerabilis; 
+          <lb ed="#G" n="114"/>&amp; per consequens solum creabilis. Maior patet <ref xml:id="HuYgTa-131524-Rd1e1166">primo cel</ref> 
+          <lb ed="#G" n="115"/>minor patet <ref xml:id="HuYgTa-131524-Rd1e1172">3. de anima.</ref> 
+        </p>
+        <p xml:id="HuYgTa-131524-d1e1177">
+          <lb ed="#G" n="116"/>
+          <pc type="indent"/>Preterea, forma, quae ab extra per agens separatum 
+          <lb ed="#G" n="117"/>ntroducitur, illa creatur: anima intellectiua est
+          huius<lb ed="#G" n="118" break="no"/>modi, quia <ref xml:id="HuYgTa-131524-Rd1e1187">Aris. 1. de gen animalium</ref> dicit, quod solus in 
+          <lb ed="#G" n="119"/>tellectus est ab extra, quia sibi conuenit operatio
+          separa<lb ed="#G" n="120" break="no"/>ta, scilicet intelligere. 
+        </p>
+        <p xml:id="HuYgTa-131524-d1e1196">
+          <lb ed="#G" n="121"/>
+          <pc type="indent"/>Sed contrarium istius conclusionis ponit quedam opi 
+          <lb ed="#G" n="122"/>nio a sancta matre ecclesia condemnata, quae ascribitur Ci 
+          <lb ed="#G" n="123"/>rillo, &amp; Luciferianis, qui dicebant animam rationalem cum 
+          <lb ed="#G" n="124"/>corporibus per coitum seminari. Poterant autem isti mo 
+          <lb ed="#G" n="125"/>ieri his motiuis, 
+        </p>
+        <p xml:id="HuYgTa-131524-d1e1212">
+          <lb ed="#G" n="126"/>
+          <pc type="indent"/>Quia homo est homo per animam rationalem: si
+          igi<lb ed="#G" n="127" break="no"/>tur talis anima non producitur per generationem, tunc 
+          <lb ed="#G" n="128"/>non posset vere dici, quod homo generaretur,  
+        </p>
+        <p xml:id="HuYgTa-131524-d1e1223">
+          <lb ed="#G" n="129"/>
+          <pc type="indent"/>2 Praeterea, cum corpus hominis accipiat esse per
+          actio<lb ed="#G" n="130" break="no"/>nem generantis, si anima non caperet esse per huiusmodi 
+          <lb ed="#G" n="131"/>actionem: tunc in homine esset duplex esse, &amp; per
+          conse<lb ed="#G" n="132" break="no"/>quens ex ani ma &amp; corpore non fieret vnum simpliciter, 
+        </p>
+        <p xml:id="HuYgTa-131524-d1e1236">
+          <lb ed="#G" n="133"/>
+          <pc type="indent"/>Praeterea, cuanto producens est perfectius, tanto ma 
+          <lb ed="#G" n="134"/>is producit sibi simile: quia vt dicitur <ref xml:id="HuYgTa-131524-Rd1e1244">4. metheor</ref>,
+          perfe<lb ed="#G" n="135" break="no"/>ctum vnuquodque est, cum potest sibi simile generare, sed  
+          <lb ed="#G" n="136"/>clementa, quae sunt imperfectiora ipso homine, producunt 
+          <lb ed="#G" n="137"/>sibi simile in materia &amp; forma: ergo &amp; homo generat sibi 
+          <lb ed="#G" n="138"/>simile secundum materiam &amp; formam. 
+        </p>
+        <p xml:id="HuYgTa-131524-d1e1257">
+          <lb ed="#G" n="139"/>
+          <pc type="indent"/>Praeterea, agens vniuocum dat formam, &amp; speciem 
+          <lb ed="#G" n="140"/>ipsi genito: sed homo generans hominem est agens
+          vniuo<lb ed="#G" n="141" break="no"/>cum cum sit eiusdem diffinitionis cum ipso genito. 
+        </p>
+        <p xml:id="HuYgTa-131524-d1e1269">
+          <lb ed="#G" n="142"/>
+          <pc type="indent"/>Praeterea, <ref xml:id="HuYgTa-131524-Rd1e1275">Sen. 48.</ref> dicitur Cunctae, animae, quae in¬ 
+          <!--386.xml-->
+          <pb ed="#G" n="174-r"/>
+          <cb ed="#G" n="a"/>
+          <lb ed="#G" n="1"/>gressae sunt in Egiptum cum lacob, l&amp; egressae sunt de f 
+          <lb ed="#G" n="2"/>more illius absque vxoribus filiorum sexaginta sex: sed ni- 
+          <lb ed="#G" n="3"/>hil egreditur de femoribus generantis, nisi per semini 
+          <lb ed="#G" n="4"/>traditionem.
+        </p>
+        <p xml:id="HuYgTa-131524-d1e1294">
+          <lb ed="#G" n="5"/>e Praeterea, <ref xml:id="HuYgTa-131524-Rd1e1298">Aristoteles 2. de Cen animalium</ref>, ait, quod spiri 
+          <lb ed="#G" n="6"/>tus, qui exit cum spermate est virtus principij animae, :&amp;  
+          <lb ed="#G" n="7"/>est res diuina: &amp; tale dicitur intellectus.
+        </p>
+        <p xml:id="HuYgTa-131524-d1e1306">
+          <lb ed="#G" n="8"/>2 Praeterea, <ref xml:id="HuYgTa-131524-Rd1e1310">Comment. 12. metap</ref> ait, quod impossibile est 
+          <lb ed="#G" n="9"/>que actio vnius agentis terminetur ad formam, &amp; actio
+          al<lb ed="#G" n="10" break="no"/>terius agentis terminetur ad materiam.
+        </p>
+        <p xml:id="HuYgTa-131524-d1e1318">
+          <lb ed="#G" n="11"/>Sed licet quandoque verteretur in dubium, quae
+          ista<lb ed="#G" n="12" break="no"/>tum opinionum melior videretur, vt ait Augustinus 1o 
+          <lb ed="#G" n="13"/>super Cen. ad litteram: tamen prima est ab ecclesia appre 
+          <lb ed="#G" n="14"/>bata, Secunda vero reprobata &amp; condemnata: ideo tenet 
+          <lb ed="#G" n="15"/>do primam conclusionem, iam dictis sophismatibus
+          re<lb ed="#G" n="16" break="no"/>spondebo. 
+        </p>
+        <p xml:id="HuYgTa-131524-d1e1334">
+          <lb ed="#G" n="17"/>
+          <pc type="indent"/>Ad primum dicendum, quod ad hoc, quod homo vere 
+          <lb ed="#G" n="18"/>dicatur generatus, non oportet, quod forma, per quam
+          ho<lb ed="#G" n="19" break="no"/>mo est homo, a genetante producatur: sed sufficit, quod 
+          <lb ed="#G" n="20"/>materia ad talem formam suscipiendam ita sufficienter 
+          <lb ed="#G" n="21"/>disponatur, quod forma praedicta huiusmodi materiae
+          na<lb ed="#G" n="22" break="no"/>turaliter vniatur: nam ex vnione talis formae cum
+          huius<lb ed="#G" n="23" break="no"/>modi materia generatur homo,. Cum igitur actione
+          ho<lb ed="#G" n="24" break="no"/>minis generantis materia a Deo sufficienaer disponatur 
+          <lb ed="#G" n="25"/>quod si non infunderetur anima, hoc esset miraculosum: 
+          <lb ed="#G" n="26"/>ideo &amp;c. 
+        </p>
+        <p xml:id="HuYgTa-131524-d1e1360">
+          <lb ed="#G" n="27"/>
+          <pc type="indent"/>Ad secundum dicendum, quod corpus non capit esse  
+          <lb ed="#G" n="28"/>per se: sed corpus &amp; anima, sicut constituunt vnam 
+          <lb ed="#G" n="29"/>essentiam, sic capiunt vnum esse, quod est esse totiu 
+          <lb ed="#G" n="30"/>composit 
+        </p>
+        <p xml:id="HuYgTa-131524-d1e1374">
+          <lb ed="#G" n="31"/>
+          <pc type="indent"/>Ad tertium dicendum, quod homo producit sibi
+          simi<lb ed="#G" n="32" break="no"/>le, puta hominem eiusdem speciei: sufficienter enim disponem 
+          <lb ed="#G" n="33"/>do materam, facit ad naturalem vnionem animae
+          ration<lb ed="#G" n="34" break="no"/>lis cum humana materia, ad quam vnionem per se
+          sequi<lb ed="#G" n="35" break="no"/>tur generatio hominis, qui est similis gencranti. 
+        </p>
+        <p xml:id="HuYgTa-131524-d1e1390">
+          <lb ed="#G" n="36"/>
+          <pc type="indent"/>Ad quartum dicendum, quod ad hoc, quod aliquid
+          di<lb ed="#G" n="37" break="no"/>catur agens vniuocum, non oportet, quod producat partes 
+          <lb ed="#G" n="38"/>essentiales composit: sed sufficit, quod per se sit causa
+          vnio<lb ed="#G" n="39" break="no"/>nis talium partium, ad quam vnionem per se sequitur ge 
+          <lb ed="#G" n="40"/>neratio totius composit, quod est eiusdem speciei cun 
+          <lb ed="#G" n="41"/>ipso generante, equus enim non producit materiam equi 
+          <lb ed="#G" n="42"/>geniti; sed ipsam fimpliciter praesupponit: &amp;tamen
+          dici<lb ed="#G" n="43" break="no"/>tur vniuoce equum generarc. 
+        </p>
+        <p xml:id="HuYgTa-131524-d1e1412">
+          <lb ed="#G" n="44"/>
+          <pc type="indent"/>Ad quintum, dicendum, quod sicut quandoque per sine 
+          <lb ed="#G" n="45"/>dochen pars materialis sumitur pro toto composito: sicut 
+          <lb ed="#G" n="46"/>cum dicitur, verbum caro factum est, Augu,. exponit id est 
+          <lb ed="#G" n="47"/>verbum homo factum est, sic etiam quandoque pars
+          for<lb ed="#G" n="48" break="no"/>malis sumitur pro toto composito: sicut dixit rex Sodo 
+          <lb ed="#G" n="49"/>morum ad Abraam, Da mihi animas, cetera tolle tibi. Et 
+          <lb ed="#G" n="50"/>sic est in proposito &amp;c 
+        </p>
+        <p xml:id="HuYgTa-131524-d1e1432">
+          <lb ed="#G" n="51"/>
+          <pc type="indent"/>Ad sextum dicendum, quod virtus existens in semine 
+          <lb ed="#G" n="52"/>dicitur intellectus per similitudinem, &amp; non per proprie 
+          <lb ed="#G" n="53"/>tatem. Vnde <ref xml:id="HuYgTa-131524-Rd1e1442">Commentator 7. metaphy.</ref> ait, quod virtus, quam 
+          <lb ed="#G" n="54"/>est in semine, pro tanto vocatur a philosopho
+          intelle<lb ed="#G" n="55" break="no"/>ctus: quia sicut intellectus operatur absque organo: ita &amp; 
+          <lb ed="#G" n="56"/>illa virtus. 
+        </p>
+        <p xml:id="HuYgTa-131524-d1e1453">
+          <lb ed="#G" n="57"/>
+          <pc type="indent"/>Ad septimum dicendum, quod agens naturale non
+          pro<lb ed="#G" n="58" break="no"/>ducit materiam, sed disponit eam ad hoc, quod faciat vnam 
+          <lb ed="#G" n="59"/>essentiam cum ipsa forma introducenda.
+        </p>
+        <p xml:id="HuYgTa-131524-d1e1464">
+          <lb ed="#G" n="60"/>ARTICVLVS III 
+          <lb ed="#G" n="61"/>Vtrum secunda agentia cooperentisr Deo in aliqu  
+          <lb ed="#G" n="62"/>Terum productione. 
+        </p>
+        <p xml:id="HuYgTa-131524-d1e1474">
+          <lb ed="#G" n="63"/>
+          <pc type="indent"/>VANTVM ad tertium articulum dico primo, qued in 
+          <lb ed="#G" n="64"/>&amp; omni productione rei naturalis naturaliter
+          pro<lb ed="#G" n="65" break="no"/>ductae, agentia secunda cooperantur agenti primo.  
+        </p>
+        <p xml:id="HuYgTa-131524-d1e1485">
+          <lb ed="#G" n="66"/>
+          <pc type="indent"/>Quia in hoc relucet bonitas diuina, quod quauis Deus 
+          <!--386.xml-->
+          <cb ed="#G" n="b"/>
+          <lb ed="#G" n="67"/>omnia solus agere posset, indidit tamen secundis causi 
+          <lb ed="#G" n="68"/>talem virtutem, quod secum agere possint, &amp; proprios suo 
+          <lb ed="#G" n="69"/>tursus talia agentia agere sinit
+        </p>
+        <p xml:id="HuYgTa-131524-d1e1503">
+          <lb ed="#G" n="70"/>2 Praeterea, Deus &amp; natura nihil faciunt frustra: sed
+          fru<lb ed="#G" n="71" break="no"/>stra essent virtutes actiuae in rebus creatis, nisi aliquo mo 
+          <lb ed="#G" n="72"/>do agere possent: ergo &amp;c 
+        </p>
+        <p xml:id="HuYgTa-131524-d1e1512">
+          <lb ed="#G" n="73"/>
+          <pc type="indent"/>Praeterea, ad sensum apparet igne calefacere, ac ign 
+          <lb ed="#G" n="74"/>re, &amp; ignem generare: &amp; sic de alijs rebus haturalibus. 
+        </p>
+        <p xml:id="HuYgTa-131524-d1e1521">
+          <lb ed="#G" n="75"/>
+          <pc type="indent"/>Sed huiusmodi sensibili experientia non obstante, fuc 
+          <lb ed="#G" n="76"/>runt quidam loquentes in lege Maurorum vt <name xml:id="HuYgTa-131524-Nd1e1529">Rabi
+            Mov<lb ed="#G" n="77" break="no"/>ses</name> recitat, qui dixerunt, quod res natutalis penitus nihil agit 
+          <lb ed="#G" n="78"/>per virtutem propriam. Dicebant. n. que ignis non
+          calefa<lb ed="#G" n="79" break="no"/>cit: sed Deus creat calorem in re calefacta 
+          <lb ed="#G" n="80"/>Sed quia oppositum istius opinionis, &amp; ratio dictat 
+          <lb ed="#G" n="81"/>&amp; sensus experitur; ideo non est nihil curae arguete
+          con<lb ed="#G" n="82" break="no"/>tra eam. 
+        </p>
+        <p xml:id="HuYgTa-131524-d1e1546">
+          <lb ed="#G" n="83"/>
+          <pc type="indent"/>Etiam <name xml:id="HuYgTa-131524-Nd1e1552">Auicebro</name> in libro fontis vitae non multum
+          dis<lb ed="#G" n="84" break="no"/>entiens ab errore iam dicto, ait, quod nulla substantia conn 
+          <lb ed="#G" n="85"/>poralis agit, sed tantum modo patitur: quaedam autem vir 
+          <lb ed="#G" n="86"/>tus spiritualis penetrans ipsa corpora agit in ipsis. Et ideo 
+          <lb ed="#G" n="87"/>orpora, quae sunt magis subtilia, magis apparent nobis 
+          <lb ed="#G" n="88"/>agentia: quia magis sunt penetrabilia ab huiusmodi virtu 
+          <lb ed="#G" n="89"/>te spirituali. Istum autem errorem ipse confirmat tali me 
+          <lb ed="#G" n="90"/>dio:Nam substantia corporalis maxime distat a Deo;
+          igi<lb ed="#G" n="91" break="no"/>tur sicut ipse Deus ita est agens, quod nullo modo
+          pa<lb ed="#G" n="92" break="no"/>tiens; sic substantia corporalis ita erit patiens, quod
+          nul<lb ed="#G" n="93" break="no"/>lo modo agens. Substantiae vero spirituales, cum sint
+          me<lb ed="#G" n="94" break="no"/>diae inter Deum &amp; substantias corporales; ideo sunt
+          age<lb ed="#G" n="95" break="no"/>tes &amp; patientes. 
+        </p>
+        <p xml:id="HuYgTa-131524-d1e1583">
+          <lb ed="#G" n="96"/>
+          <pc type="indent"/>Sed nec istud valet: quia licet corporales substantiae a 
+          <lb ed="#G" n="97"/>Deo maxime distent: ista tamen distantia non est puctua 
+          <lb ed="#G" n="98"/>iter aequalis in omnibus, sed vna plus distat, quam alia. Ei 
+          <lb ed="#G" n="99"/>ideo ea, quae minus distat, agere potest in eam, quae plus 
+          <lb ed="#G" n="100"/>distat, cum sit actualior ea. Vnde quia sola materia sic ma 
+          <lb ed="#G" n="101"/>cime distat a Deo, quod nihil est inferius ea; ideo
+          quam<lb ed="#G" n="102" break="no"/>uis per rationem praedictam possit rationabiliter conclu 
+          <lb ed="#G" n="103"/>di, quod materiae primae sic competit pati, quod nullo mo 
+          <lb ed="#G" n="104"/>do agere; de nulla tamen alia substantia nec spirituali. 
+          <lb ed="#G" n="105"/>ec corporali istud potest concludi per medium
+          memo<lb ed="#G" n="106" break="no"/>ratum: quia omnia talia mediant inter Deum, &amp; primam 
+          <lb ed="#G" n="107"/>materiam. 
+        </p>
+        <p xml:id="HuYgTa-131524-d1e1614">
+          <lb ed="#G" n="108"/>
+          <pc type="indent"/>Etiam in hac materia <name xml:id="HuYgTa-131524-Nd1e1620">Auic.</name> errauit. Quia sicut recitat 
+          <lb ed="#G" n="109"/>
+          <ref xml:id="HuYgTa-131524-Rd1e1625">Commentator 1 2. metaph.</ref> ipse Auic. posuit omnes
+          for<lb ed="#G" n="110" break="no"/>mas induci ab extra, scilicet ab ipsa vltima intelligentia, 
+          <lb ed="#G" n="111"/>uam appellabat datricem formarum. 
+        </p>
+        <p xml:id="HuYgTa-131524-d1e1634">
+          <lb ed="#G" n="112"/>
+          <pc type="indent"/>Alij autem solum illas formas, quae non fiunta sibi
+          si<lb ed="#G" n="113" break="no"/>mili, dicebant esse a principio separato. Et huius
+          opinio<lb ed="#G" n="114" break="no"/>nis est ipse <name xml:id="HuYgTa-131524-Nd1e1644">Themistius</name>, vt ait <ref xml:id="HuYgTa-131524-Rd1e1648">
+            <name xml:id="HuYgTa-131524-Nd1e1650">Commetator</name>
+          </ref>, &amp; forte, vt
+          di<lb ed="#G" n="115" break="no"/>cit idem <name xml:id="HuYgTa-131524-Nd1e1656">Commentator</name>, euisdem opinionis est ipse <name xml:id="HuYgTa-131524-Nd1e1659">Al¬ 
+            <lb ed="#G" n="116"/>pharabius</name>. <ref xml:id="HuYgTa-131524-Rd1e1664">Aristoteles vero lib. 2. de Sen. animalisi</ref> ait. so 
+          <lb ed="#G" n="117"/>am illam formam esse ab extra, siue a principro separato, 
+          <lb ed="#G" n="118"/>uae est intellectus. Et ideo iuxta principia Aristotelis
+          a<lb ed="#G" n="119" break="no"/>gentia naturalia non sunt destituta suis operationibus: ses 
+          <lb ed="#G" n="120"/>unt vere actiua &amp; productiua respectu omniumformaru; 
+          <lb ed="#G" n="121"/>uae sunt in rebus de sphaera actiuorum &amp; passiuorum, so 
+          <lb ed="#G" n="122"/>la duntaxat excepta anima intellectiua 
+        </p>
+        <p xml:id="HuYgTa-131524-d1e1681">
+          <lb ed="#G" n="123"/>
+          <pc type="indent"/>Secundo dico, quod quando ab ipso Deo producitur res 
+          <lb ed="#G" n="124"/>aliqua sola creatione, si huiusmodi res creata est per se
+          sub<lb ed="#G" n="125" break="no"/>sistens; tunc in eius productione nulla creatura pot Deo 
+          <lb ed="#G" n="126"/>cooperari; quia si in tali operatione Deo cooperaretur,  
+          <lb ed="#G" n="127"/>cum hoc non possit esse ratione alicuius adiuncti,
+          opor<lb ed="#G" n="128" break="no"/>teret, quod ipsa creatura directe eliceret actum
+          crea<lb ed="#G" n="129" break="no"/>tionis, quod ad praesens suppono esse impossibile:
+          qui<lb ed="#G" n="130" break="no"/>hoc intendo probare circa principium quarti libri
+          sen<lb ed="#G" n="131" break="no"/>tentiarum  
+        </p>
+        <p xml:id="HuYgTa-131524-d1e1705">
+          <lb ed="#G" n="132"/>
+          <pc type="indent"/>Tertio dico, quod creatura potest Deo cooperari in ta 
+          <lb ed="#G" n="133"/>li opere creationis, quo producitur aliquid, vt incipiens 
+          <lb ed="#G" n="134"/>esse in alio: quia creatura potest illud, in quo tale creatum 
+          <lb ed="#G" n="135"/>esse incipit, disponere, &amp; praeparare ad recipiendum hu 
+          <lb ed="#G" n="136"/>iusmodi creatum. Et quia sine talibus dispositonibus 
+          <lb ed="#G" n="137"/>huiusmodi non crearetur; ideo principium sic disponen 
+          <lb ed="#G" n="138"/>illud in quo creatum esse incipit, ipsi creatori dicitu 
+          <lb ed="#G" n="139"/>cooperari.
+        </p>
+        <p xml:id="HuYgTa-131524-d1e1727">
+          <!--387.xml-->
+          <pb ed="#G" n="174-v"/>
+          <cb ed="#G" n="a"/>
+          <lb ed="#G" n="1"/>ARTICVLVS IIII 
+          <lb ed="#G" n="2"/>Vtrum primus homo semper immortalis fuisset,
+          da<lb ed="#G" n="3" break="no"/>to quod in statu innocentiae, in quo 
+          <lb ed="#G" n="4"/>Deus eum creauit, stabilis. 
+          <lb ed="#G" n="5"/>
+          <pc type="indent"/>permansisset
+        </p>
+        <p xml:id="HuYgTa-131524-d1e1750">
+          <lb ed="#G" n="6"/>NTVM ad quartum articulum dico, quod si 
+          <lb ed="#G" n="7"/>homo mansisset in statu innocentiae, in quo a Dec 
+          <lb ed="#G" n="8"/>fuit productus: tunc aliquo modo fuisset immortalis: nam 
+          <lb ed="#G" n="9"/>vt patet per magistrum in ista decima nona distinctione, 
+          <lb ed="#G" n="10"/>homo in statu innocentiae habuit posse non mori: &amp; in sta 
+          <lb ed="#G" n="11"/>tu miseriae, puta post peccatum, habuit non posse non mo 
+          <lb ed="#G" n="12"/>ri, Sed in statu gloriae habebit non posse mori 
+        </p>
+        <p xml:id="HuYgTa-131524-d1e1768">
+          <lb ed="#G" n="13"/>
+          <pc type="indent"/>Ad argumentum principale patebit solutio in questi 
+          <lb ed="#G" n="14"/>ne distinctionis sequentis &amp;c 
+        </p>
+      </div>
+    </body>
+  </text>
 </TEI>

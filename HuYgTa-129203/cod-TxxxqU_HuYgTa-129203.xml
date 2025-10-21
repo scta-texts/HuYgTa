@@ -1,1194 +1,1194 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Quaestio 1</title>
-            <author ref="#ThomasStrasbourg">Thomas of Strasbourg</author>
-            <respStmt>
-               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
-               <resp>Transcription Editor</resp>
-               <resp>TEI Encoder</resp>
-            </respStmt>
-         </titleStmt>
-         <editionStmt>
-            <edition n="0.0.0-dev">
-               <title>Quaestio 1</title>
-               <date when="2020-11-26">November 26, 2020</date>
-            </edition>
-         </editionStmt>
-         <publicationStmt>
-            <authority>SCTA</authority>
-            <availability status="free">
-               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
-               </p>
-            </availability>
-         </publicationStmt>
-         <sourceDesc>
-            <listWit>
-               <witness xml:id="G" n="cod-TxxxqU">Genoa 1585</witness>
-            </listWit>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
-         <editorialDecl>
-            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
-       guidelines for a diplomatic edition.</p>
-         </editorialDecl>
-      </encodingDesc>
-      <revisionDesc status="draft">
-         <listChange>
-            <change when="2020-11-26" status="draft" n="0.0.0">
-               <p>Created file for the first time.</p>
-            </change>
-         </listChange>
-      </revisionDesc>
-   </teiHeader>
-   <text xml:lang="la">
-      <front>
-         <div xml:id="starts-on">
-            <pb ed="#G" n="169-v"/>
-            <cb ed="#G" n="a"/>
-         </div>
-      </front>
-      <body>
-         <div xml:id="HuYgTa-129203"><!-- HuYgTa-l2d18q1 -->
-            <head xml:id="HuYgTa-129203-Hd1e108">Quaestio 1</head>
-            <head xml:id="HuYgTa-129203-Hd1e111" type="question-title">
-      An corpus Euae praefuerit in costa Adae.
-    </head>
-            <p xml:id="HuYgTa-129203-d1e114">
-               <lb ed="#G" n="34"/>
-               <pc type="indent"/>Questio. 1. 
-      <lb ed="#G" n="35"/>An corpus Euae praefuerit in costa Adae.
-    </p>
-            <p xml:id="HuYgTa-129203-d1e123">
-               <lb ed="#G" n="36"/>
-               <pc type="indent"/>VTRVM corpus fue praefuerit
-      potentiali<lb ed="#G" n="37" break="no"/>ter in costa Ade.
-    </p>
-            <p xml:id="HuYgTa-129203-d1e132">
-      Et videtur, quod non 
-      <lb ed="#G" n="38"/>A 
-      <lb ed="#G" n="39"/>quia quod est in potentia in aliquo, hoc 
-      <lb ed="#G" n="40"/>per agens naturale potest educi de illo 
-      <lb ed="#G" n="41"/>sed corpus fuae per nullam naturalem
-      po<lb ed="#G" n="42" break="no"/>tentiam potuit educi de costa Ade: ergo &amp;c 
-      <lb ed="#G" n="43"/>Contra, omne, quod factum est de altero, hoc praefuit 
-      <lb ed="#G" n="44"/>in illo, de quo est factum ante, quam ex eo fieret: sed secu 
-      <lb ed="#G" n="45"/>dum sacram scripturam corpus Euae factum fuit de costa 
-      <lb ed="#G" n="46"/>Adae: ergo &amp;c. Quia doctores circa materiam istius
-      deci<lb ed="#G" n="47" break="no"/>mae octauae distinctionis inuestigant de praeexistentia
-      re<lb ed="#G" n="48" break="no"/>rum ante suum actuale esse, ideo quattuor sunt hic viden 
-      <lb ed="#G" n="49"/>da. Primo, vtrum productarum rerum entitates
-      secun<lb ed="#G" n="50" break="no"/>dum aliquam sui realitatem ante sui productionem
-      prae<lb ed="#G" n="51" break="no"/>fuerint ab aeterno. Secundo, vtrum res productae
-      praefue<lb ed="#G" n="52" break="no"/>rint in materia secundum rationes seminales. Tertio de 
-      <lb ed="#G" n="53"/>eo, quod quaeritur. Et quarto, vtrum de costa Adae fuerit 
-      <lb ed="#G" n="54"/>factum corpus fuae sine additione nouae materiae, vel ali 
-      <lb ed="#G" n="55"/>tuius rei materialis.
-    </p>
-            <p xml:id="HuYgTa-129203-d1e175">
-      <!--377.xml-->
-               <cb ed="#G" n="b"/>
-               <lb ed="#G" n="56"/>RES OLVTI O. 
-      <lb ed="#G" n="57"/>Nallam sane creaturam secundum entitatem aliquam condistin¬ 
-    </p>
-            <p xml:id="HuYgTa-129203-d1e186">
-               <lb ed="#G" n="58"/>
-               <pc type="indent"/>ctam ab eatitate creatoris ab aetevno fuisse coctat: uerum Dei 
-      <lb ed="#G" n="59"/>potentia possibilis quidem erat, licet huiusmodi potentia ereqtu 
-      <lb ed="#G" n="60"/>rae haud extrinseca extiterit. At vero, cum rationes seminales 
-      <lb ed="#G" n="61"/>nil aliud sint, quam habilit ates quaedam, seu aptitudines a Deo 
-      <lb ed="#G" n="62"/>indit ae vebus naturalibus, ex quibus vres naturales sunt apta 
-      <lb ed="#G" n="63"/>nat ae causare iffectus natur ales secundum suas potentias
-      acti<lb ed="#G" n="64" break="no"/>uas &amp; passiuas: sequitur, corpus fuae haud praefuise in costa 
-      <lb ed="#G" n="65"/>Adae secundum naturalem potentiam, licet tamen praefuerit 
-      <lb ed="#G" n="66"/>secundum potentiam obeditntialem. 
-    </p>
-            <p xml:id="HuYgTa-129203-d1e210">
-               <lb ed="#G" n="67"/>
-               <pc type="indent"/>ARTICVLVS I. 
-      <lb ed="#G" n="68"/>Vtrum productarum rerum entitates secundum
-      ali<lb ed="#G" n="69" break="no"/>quam siu realitatem ante sui productionem 
-      <lb ed="#G" n="70"/>prefuerint ab eterno.
-    </p>
-            <p xml:id="HuYgTa-129203-d1e223">
-               <lb ed="#G" n="71"/>QVANTVM ad primum primo pono hanc
-      con<lb ed="#G" n="72" break="no"/>clusionem, quod creatura secundum nullam sui 
-      <lb ed="#G" n="73"/>entitatem suit ab aeterno; ita, quod talis entitas distinct 
-      <lb ed="#G" n="74"/>esset realiter ab entitate creatoris. Secundo dico, quod 
-      <lb ed="#G" n="75"/>creatura potentia Dei possibilis fuit ab aeterno, non poten 
-      <lb ed="#G" n="76"/>tia extrinseca creaturae
-    </p>
-            <p xml:id="HuYgTa-129203-d1e239">
-               <lb ed="#G" n="77"/>1 Primum probo uc. lllud, quod simpliciter fit de
-      ni<lb ed="#G" n="78" break="no"/>hilo, secundum nullam entitatem sui distinctam a facien 
-      <lb ed="#G" n="79"/>te, praecedit suam factionem. Ista patet: quia da oppositum; 
-      <lb ed="#G" n="80"/>tunc non fieret simpliciter de nihilo: sed illud, quod crea 
-      <lb ed="#G" n="81"/>tur, simpliciter fit de nihilo. Nam in hoc differt creatio a 
-      <lb ed="#G" n="82"/>eneratione: quia generatio aliquid praesupponit, creatio 
-      <lb ed="#G" n="83"/>vero nihil
-    </p>
-            <p xml:id="HuYgTa-129203-d1e257">
-               <lb ed="#G" n="84"/>2 Praeterea effectus non differt a sua causa, quousque 
-      <lb ed="#G" n="85"/>procedat ab ea: sicut ait Proclus, sed creatura non habet 
-      <lb ed="#G" n="86"/>aliquod esse productum a Deo ab aeterno; ergo non diffe 
-      <lb ed="#G" n="87"/>cebat ab eo. 
-    </p>
-            <p xml:id="HuYgTa-129203-d1e269">
-               <lb ed="#G" n="88"/>
-               <pc type="indent"/>Praeterea, quamdiu res solum habet esse in potentia 
-      <lb ed="#G" n="89"/>Dei, tamdiu non habet aliquam entitatem differentem 
-      <lb ed="#G" n="90"/>a Deo: sed, vt ait <ref xml:id="HuYgTa-129203-Rd1e279">Anselm, de casu diaboli</ref>, creatura ante 
-      <lb ed="#G" n="91"/>sui productionem solum fuit in potentia Dei. Et ibidem  
-      <lb ed="#G" n="92"/>dicit, quod mundus ante quam fieret a potentia Dei, nihil 
-      <lb ed="#G" n="93"/>erat: &amp;impossibile erat eum esse potentia propria.
-    </p>
-            <p xml:id="HuYgTa-129203-d1e290">
-               <lb ed="#G" n="94"/>4 Praeterea, quaecumque aequaliter dependent ab ali 
-      <lb ed="#G" n="95"/>qua causa, aequaliter producuntur ab ea: sed omnis
-      enti<lb ed="#G" n="96" break="no"/>tas creaturae aequaliter, &amp; immediate dependet a Deo, 
-      <lb ed="#G" n="97"/>igitur nulla entitas creaturae poterit esse aeterna, &amp; non 
-      <lb ed="#G" n="98"/>producta.
-    </p>
-            <p xml:id="HuYgTa-129203-d1e303">
-               <lb ed="#G" n="99"/>3 Praeterea, si quaelibet creatura praefuit ab aeterno
-      se<lb ed="#G" n="100" break="no"/>cundum aliquam sui entitatem, tunc etiam materia
-      prae<lb ed="#G" n="101" break="no"/>fuit, sed entitas materiae, quae praesuit, non potuit esse nisi 
-      <lb ed="#G" n="102"/>tota materia; ergo si aliqua entitas materiae praefuit ab
-      ae<lb ed="#G" n="103" break="no"/>terno, tunc tota materiasuit ab eterno, &amp; sic nulla res ma 
-      <lb ed="#G" n="104"/>terialis creata esset: quia omnes factae fuissent de
-      praeiace<lb ed="#G" n="105" break="no"/>te materia, quod est contra fidem. Maior patet, probo mi 
-      <lb ed="#G" n="106"/>norem, quia cum materia sit prope nihil, vt ait
-      Augusti<lb ed="#G" n="107" break="no"/>nus, &amp; sit medium inter ens, &amp; nihil, vt ait
-      Commenta<lb ed="#G" n="108" break="no"/>tor, &amp; ideo illa entitas materiae, quae preesset, non posset 
-      <lb ed="#G" n="109"/>esse minor, quam tota entitas materie. 
-    </p>
-            <p xml:id="HuYgTa-129203-d1e329">
-               <lb ed="#G" n="110"/>
-               <pc type="indent"/>Sed contra istam conclusionem, quam reputo
-      verissi<lb ed="#G" n="111" break="no"/>mam, &amp; catholicae fidei conformem, sunt aliqui doctores. 
-      <lb ed="#G" n="112"/>Quorum vnus ponit omnes creaturas ab aeterno non
-      so<lb ed="#G" n="113" break="no"/>um habere esse cognitum a Deo, sed esse constitutum:¬ 
-      <lb ed="#G" n="114"/>Deo in ratione causae formalis exemp laris in esse
-      predi<lb ed="#G" n="115" break="no"/>tamentali, &amp; reali essentiae, &amp; quidditatis realiter
-      diffe<lb ed="#G" n="116" break="no"/>rentis a natura diuina. Et istae creaturae actu quantum  
-      <lb ed="#G" n="117"/>ad esse essentiae constitutae a Deo secundum
-      ratio<lb ed="#G" n="118" break="no"/>nem exemplarem ab aeterno, dicuntur esse in
-      poten<lb ed="#G" n="119" break="no"/>tia ad esse existentiae, vt scilicet a Deo
-      constituan<lb ed="#G" n="120" break="no"/>tur in esse existentiae secundum rationem causae es¬ 
-      <!--378.xml-->
-      <pb ed="#G" n="170-r"/>
-               <cb ed="#G" n="a"/>
-               <lb ed="#G" n="1"/>ficientis per creationem.
-    </p>
-            <p xml:id="HuYgTa-129203-d1e366">
-      Et hoc ipsi probant sic.
-      <lb ed="#G" n="2"/>1 Quia ab aeterno Deus fuit exemplar &amp; idea omniu 
-      <lb ed="#G" n="3"/>rerum ab eo intellectarum: ergo res tales ab aeterno
-      ha<lb ed="#G" n="4" break="no"/>buerunt veram realitatem realiter differentem a suo exem 
-      <lb ed="#G" n="5"/>plari,. Consequentia patet: quia idea non potest esse idea 
-      <lb ed="#G" n="6"/>tum, nec exemplar exemplatum: ergo &amp;c.
-    </p>
-            <p xml:id="HuYgTa-129203-d1e379">
-               <lb ed="#G" n="7"/>2 Praeterea, <ref xml:id="HuYgTa-129203-Rd1e383">Augustinus. 15. de trin</ref> ait, quod Deus non 
-      <lb ed="#G" n="8"/>aliter cognoscit fienda, quam facta, constat autem, quod 
-      <lb ed="#G" n="9"/>quando cognoscit facta, cognoscit rerum quidditates rea 
-      <lb ed="#G" n="10"/>liter differentes a se, igitur quando non sunt existentia 
-      <lb ed="#G" n="11"/>puta ab aeterno, easdem veras rerum quidditates, &amp; essen 
-      <lb ed="#G" n="12"/>tias realiter a se differentes cognoscit
-    </p>
-            <p xml:id="HuYgTa-129203-d1e399">
-               <lb ed="#G" n="13"/>3 Praeterea, illud, quod Deus de ipsis creaturis ab eter 
-      <lb ed="#G" n="14"/>no cognouit, hoc fuit creabile igitur vel diuina essentia 
-      <lb ed="#G" n="15"/>esset creabilis, vel illud, quod diuinae cognitioni
-      obiecti<lb ed="#G" n="16" break="no"/>ue respondebat, ab essentia diuina realiter differebat.
-    </p>
-            <p xml:id="HuYgTa-129203-d1e410">
-               <lb ed="#G" n="17"/>4 Praeterea, Deus ab aeterno cognouit res creabiles,  
-      <lb ed="#G" n="18"/>non solum vt sunt in eius essentia: quia vt sic, intellexi 
-      <lb ed="#G" n="19"/>suas perfectiones: sed intellexit eas, vt quaedam obiecta 
-      <lb ed="#G" n="20"/>secundario cognita fieri possibilia: sed obiecti ad
-      poten<lb ed="#G" n="21" break="no"/>tiam est relatio realis, cum praecedat actum rationis: rela  
-      <lb ed="#G" n="22"/>tio autem realis presupponit fundamentum reale : eroo 
-      <lb ed="#G" n="23"/>tales res cognitae habuerunt ab aeterno aliquod esse reale¬
-    </p>
-            <p xml:id="HuYgTa-129203-d1e428">
-               <lb ed="#G" n="24"/>3 Praeterea, illud, quod ab aeterno est res generis, q&amp; 
-      <lb ed="#G" n="25"/>praedicamenti: oportet, quod ab eteruo sit res differens a 
-      <lb ed="#G" n="26"/>potentia primi agentis, quae est extra omne genus, &amp; prae 
-      <lb ed="#G" n="27"/>dicamentum: sed creatura ab eterno fuit res generis, &amp;  
-      <lb ed="#G" n="28"/>praedicamenti: sicut enim nunc videmus, quod rosa non 
-      <lb ed="#G" n="29"/>existens actu, est res generis, &amp; praedicamenti: sic ab
-      aeter<lb ed="#G" n="30" break="no"/>no fuit res generis, &amp; praedicamenti: res enim ad idem pre 
-      <lb ed="#G" n="31"/>dicamentum pertinet existens actu, &amp; potentia. 
-    </p>
-            <p xml:id="HuYgTa-129203-d1e448">
-               <lb ed="#G" n="32"/>
-               <pc type="indent"/>e Praeterea. <ref xml:id="HuYgTa-129203-Rd1e454">4. super Sien. ait Augustinus</ref>. Omne, quod 
-      <lb ed="#G" n="33"/>cognosci potest, habet prius esse, quam cognoscatur; ergo 
-      <lb ed="#G" n="34"/>creaturae ab eter no habuerunt aliquod esse: cum ab aeter 
-      <lb ed="#G" n="35"/>no a Deo sint cognitae. hoc autem esse, de quo loquitui 
-      <lb ed="#G" n="36"/>Augustinus, non potuit esse ipsum esse cognitum: quia 
-      <lb ed="#G" n="37"/>hoc sequitur cognitionem. nec esse existentiae: quia hoc 
-      <lb ed="#G" n="38"/>acceperunt in tempore per ercationem; ergo oportet, quoi 
-      <lb ed="#G" n="39"/>intelligatur de esse essentiae. 
-    </p>
-            <p xml:id="HuYgTa-129203-d1e473">
-               <lb ed="#G" n="40"/>
-               <pc type="indent"/>Praeterea, istam entitatem realem ab aeterno existentem 
-      <lb ed="#G" n="41"/>&amp;a Deo realiter differentem quidam alii appellant pos 
-      <lb ed="#G" n="42"/>sibile obiectiuum. Et suam intentionem probant sic¬
-    </p>
-            <p xml:id="HuYgTa-129203-d1e484">
-               <lb ed="#G" n="43"/>1 Illud, quod est possibile non solum potentia extrin 
-      <lb ed="#G" n="44"/>seca, verum etiam potentia intrinseca, hoc est verum en 
-      <lb ed="#G" n="45"/>reale: creatura antequam crearetur erat huiusmodi. Quod 
-      <lb ed="#G" n="46"/>probant dupliciter. 
-    </p>
-            <p xml:id="HuYgTa-129203-d1e496">
-               <lb ed="#G" n="47"/>
-               <pc type="indent"/>Primo per <ref xml:id="HuYgTa-129203-Rd1e502">Auic. qui. 4. meta</ref>, suae ait. Omne, quod inci 
-      <lb ed="#G" n="48"/>pit esse, antequam sit, necesse, est, quod sit potentialiter 
-      <lb ed="#G" n="49"/>in se: alias nullo modo erit, si enim non erit possibile in 
-      <lb ed="#G" n="50"/>se, cunc erit impossibile¬ 
-    </p>
-            <p xml:id="HuYgTa-129203-d1e513">
-               <lb ed="#G" n="51"/>
-               <pc type="indent"/>Secundo probant idem sic. Si lapis, antequam creatur. 
-      <lb ed="#G" n="52"/>est solum possibilis potentia creatoris, puta quia Deus 
-      <lb ed="#G" n="53"/>potest eum creare, tunc chimeram fieri esset impossibile 
-      <lb ed="#G" n="54"/>ex sola impotentia Dei, puta quia Deus non potest 
-      <lb ed="#G" n="55"/>eam creare.
-    </p>
-            <p xml:id="HuYgTa-129203-d1e529">
-               <lb ed="#G" n="56"/>2 Praeterea, illud, quod ab aeterno fuit creabile, ab eterno 
-      <lb ed="#G" n="57"/>minus fuit non ens, quam ens prohibitum, quod
-      secun<lb ed="#G" n="58" break="no"/>dum se omnimodam habet repugnantiam ad esse : ergo 
-      <lb ed="#G" n="59"/>res creabilis ab aeterno habuit aliquam entitatem
-      possi<lb ed="#G" n="60" break="no"/>bilem, qua intrinsece minus sibi repugnabati creari, quam 
-      <lb ed="#G" n="61"/>enti prohibito. 
-    </p>
-            <p xml:id="HuYgTa-129203-d1e545">
-               <lb ed="#G" n="62"/>
-               <pc type="indent"/>3 Praeterea, ens reale extra animam reali diuisione d 
-      <lb ed="#G" n="63"/>uiditur in actum, &amp; potentiam: ergo vnumquodque ens 
-      <lb ed="#G" n="64"/>non solum habet entitatem realem, vt est in actu: verum 
-      <lb ed="#G" n="65"/>eriam vt est in potentia: quia reale diuisum saluatur in 
-      <lb ed="#G" n="66"/>vtroque membro realiter diuidentium
-    </p>
-            <p xml:id="HuYgTa-129203-d1e561">
-               <lb ed="#G" n="67"/>4 Praeterea, relatio realis praesupponit extrema
-      reali<lb ed="#G" n="68" break="no"/>ter distincta: sed inter creatum &amp; creabile ab aeterno fuit 
-      <lb ed="#G" n="69"/>relatio realis: quia sicut inter creans &amp; creatum est rela  
-      <lb ed="#G" n="70"/>tio realis, cum relationes modo potentiae sint reales, vt 
-      <lb ed="#G" n="71"/>patet. <ref xml:id="HuYgTa-129203-Rd1e574">5. metaphy.</ref> sic &amp;c. 
-    </p>
-            <p xml:id="HuYgTa-129203-d1e578">
-               <lb ed="#G" n="72"/>
-               <pc type="indent"/>3 Praeterea, sicut se habet impossibile ad possibile sic 
-      <lb ed="#G" n="73"/>se habet non ens ad es; ergo conmutatim, sicut se habet im 
-      <!--378.xml-->
-      <cb ed="#G" n="b"/>
-               <lb ed="#G" n="74"/>possibile ad non ens, sic se habebit impossibile ad ens: sed  
-      <lb ed="#G" n="75"/>omne impossibile de necessitate est non eus, loquendo de 
-      <lb ed="#G" n="76"/>ente reali positiuo: ergo omne possibile de necessitare est 
-      <lb ed="#G" n="77"/>verum ens reale positiuum 
-    </p>
-            <p xml:id="HuYgTa-129203-d1e601">
-               <lb ed="#G" n="78"/>
-               <pc type="indent"/>Sed ista minus bene intelligo: ideo primo arguam cou 
-      <lb ed="#G" n="79"/>tra primum modum dicendi istorum doctorum. Secundo 
-      <lb ed="#G" n="80"/>contra secundum. 1Et tertio rationibus eorum breunter 
-      <lb ed="#G" n="81"/>respondebo.
-    </p>
-            <p xml:id="HuYgTa-129203-d1e614">
-      Contra primum sic 
-      <lb ed="#G" n="82"/>1 Quandocumque tota essentia rei praeexistit produm 
-      <lb ed="#G" n="83"/>ctioni, tunc talis productio non solum non potest esse crea 
-      <lb ed="#G" n="84"/>tio, verum etiam nec potest dici vera generatio, quamuis 
-      <lb ed="#G" n="85"/>possit dici accidentalis transmutatio: sed secundum istos 
-      <lb ed="#G" n="86"/>creatura quaelibet secundum esse essentiae, quod idem est 
-      <lb ed="#G" n="87"/>quod essentia, fuit ab aeterno distincta ab ipso Deo: ergo 
-      <lb ed="#G" n="88"/>isti non solum contra fideles tollunt omnem creationem 
-      <lb ed="#G" n="89"/>verum etiam contra philosophos simul, &amp; theologos, to 
-      <lb ed="#G" n="90"/>lunt omnem veram generationem. Maior patet: quia
-      crea<lb ed="#G" n="91" break="no"/>tio, cum sit de nihilo productio, nihil rei producendae prae 
-      <lb ed="#G" n="92"/>supponit, generatio autem, vt patet vndique in vera phi 
-      <lb ed="#G" n="93"/>losophia, solam materiam rei generadae presupponit, qua 
-      <lb ed="#G" n="94"/>non dicit tantam entitatem, sicut tota essentia rei, vt rea 
-      <lb ed="#G" n="95"/>liter est distincta a suo producente¬ 
-    </p>
-            <p xml:id="HuYgTa-129203-d1e647">
-               <lb ed="#G" n="96"/>2 Praeterea, quandocumque hoc verbum est
-      predica<lb ed="#G" n="97" break="no"/>tur tertio adiacens, tunc potest absolute &amp; simpliciter in 
-      <lb ed="#G" n="98"/>ferri secundo adiacens, nisi prima predicatio fuerit cum 
-      <lb ed="#G" n="99"/>termino distrahente, sed essentia rei non est terminus d 
-      <lb ed="#G" n="100"/>strahens; ergo si verum est dicere rem esse ab aeterno
-      se<lb ed="#G" n="101" break="no"/>cundum esse essentiae, similiter &amp; absolute erit verum di 
-      <lb ed="#G" n="102"/>cere rem esse ab aeterno. Et quia quod est, non fit,
-      sequi<lb ed="#G" n="103" break="no"/>tur, quod nulla res de nouo simpliciter fieri possit. 
-    </p>
-            <p xml:id="HuYgTa-129203-d1e667">
-               <lb ed="#G" n="104"/>
-               <pc type="indent"/>3 Praeterea, si Deus non posset rerum essentias ab aeter 
-      <lb ed="#G" n="105"/>no cognoscere, nisi ipsae essentiae ponerentur ab aeterno 
-      <lb ed="#G" n="106"/>n esse reali distincto ab ipso Deo: tunc Dei scientia
-      de<lb ed="#G" n="107" break="no"/>penderet a talibus essentiis creaturarum: quia quicquid 
-      <lb ed="#G" n="108"/>necessario requirit alterum, necesse est ipsum aliquo 
-      <lb ed="#G" n="109"/>modo ab eo dependere.
-    </p>
-            <p xml:id="HuYgTa-129203-d1e685">
-               <lb ed="#G" n="110"/>4 Praeterea, si propter hoc, quod Deus vere cognoscit 
-      <lb ed="#G" n="111"/>essentias rerum ab aeterno, necesse est tales essentias rea 
-      <lb ed="#G" n="112"/>liter fuisse ab aeterno; eadem ratione sequitur ipsarum re 
-      <lb ed="#G" n="113"/>um essentias, proprietates, accidentia, operationes, &amp; om 
-      <lb ed="#G" n="114"/>nem modum essendi fuisse ab aeterno: quia omnia haec 
-      <lb ed="#G" n="115"/>Deus ab aeterno clarissime intellexit, cum non aliter con 
-      <lb ed="#G" n="116"/>gnoscat facta, quam fienda, vt ait beatus Augustinus. 
-    </p>
-            <p xml:id="HuYgTa-129203-d1e703">
-               <lb ed="#G" n="117"/>
-               <pc type="indent"/>3 Praeterea, quandocumque eadem rei essentia tran 
-      <lb ed="#G" n="118"/>sit de vno modo essendi ad alium modum essendi,
-      ill<lb ed="#G" n="119" break="no"/>es nec est creata, nec genita: sed solummodo mutata: sec 
-      <lb ed="#G" n="120"/>secundum modum dicendi istorum, cum Deus creaturas 
-      <lb ed="#G" n="121"/>produxit, eadem essentia rei transiuit de vno modo essen 
-      <lb ed="#G" n="122"/>di ad alium modum essendi, puta quia ante creationem 
-      <lb ed="#G" n="123"/>habuit ab aeterno modum essendi secundum esse essentio 
-      <lb ed="#G" n="124"/>&amp; post creationem habuit modum essendi secundum
-      es<lb ed="#G" n="125" break="no"/>se existentiae: ergo &amp;c
-    </p>
-            <p xml:id="HuYgTa-129203-d1e728">
-               <lb ed="#G" n="126"/>3 Praeterea, nec illa distinctio valet, qua tribuunt esse 
-      <lb ed="#G" n="127"/>essentiae causae formali exemplari, &amp; esse existentiae causae 
-      <lb ed="#G" n="128"/>efficienti: nam cum quattuor sint causae rerum, duae
-      scili<lb ed="#G" n="129" break="no"/>cet intrinsecae, puta materia &amp; forma, &amp; duae extrinsece, 
-      <lb ed="#G" n="130"/>puta finis &amp; efficiens; &amp; forma exemplaris non sit
-      mate<lb ed="#G" n="131" break="no"/>ria, nec forma materiam perficiens, nec finis; sequitur
-      ne<lb ed="#G" n="132" break="no"/>cessario, quod eius causalitas sit de genere causae efficientis. 
-    </p>
-            <p xml:id="HuYgTa-129203-d1e746">
-               <lb ed="#G" n="133"/>
-               <pc type="indent"/>3 Praeterea, secundum istos esse existentiae dicit solum 
-      <lb ed="#G" n="134"/>quendam respectum ad causam efficientem, sed respectus 
-      <lb ed="#G" n="135"/>purus non potest esse terminus alicuius actionis realis se 
-      <lb ed="#G" n="136"/>cundum se, quia etiam secundum istos in aliis dictis suis 
-      <lb ed="#G" n="137"/>respectus numquam acquiritur, nisi acquisito aliquo
-      ab<lb ed="#G" n="138" break="no"/>soluto in altero extremorum. Cum igitur ex parte
-      crea<lb ed="#G" n="139" break="no"/>toris nulla entitas absoluta possit acquiti, necesse est, quod 
-      <lb ed="#G" n="140"/>ex parte creaturae praeter esse actualis existentiae, quod isti 
-      <lb ed="#G" n="141"/>ponunt esse respectum, producatur essentia substrata ipsi 
-      <lb ed="#G" n="142"/>esse existentiae, quae realiter terminet ipsam creationem, 
-      <lb ed="#G" n="143"/>ad cuius productionem producatur etiam praedictus 
-      <lb ed="#G" n="144"/>respectus. 
-    </p>
-            <p xml:id="HuYgTa-129203-d1e777">
-               <lb ed="#G" n="145"/>
-               <pc type="indent"/>S Praeterea, Augustinus super illud, vt ex inuisibilibus 
-      <lb ed="#G" n="146"/>visibilia fierent, sic ait. Per inuisibilia significatur mudus 
-      <!--379.xml-->
-      <pb ed="#G" n="170-v"/>
-               <cb ed="#G" n="a"/>
-               <lb ed="#G" n="1"/>iste inuisibilis, qui erat in Dei sapientia ad cuius similitu 
-      <lb ed="#G" n="2"/>dinem factus est hic mudus visibilis: haec autem visibilia 
-      <lb ed="#G" n="3"/>antequam fierent, non erant. Et tunc immediate Augusti 
-      <lb ed="#G" n="4"/>nus mouet vnum dubium dicens. Quomodo Deo nota 
-      <lb ed="#G" n="5"/>erant, quae non erant: aut quomodo fierent, quae sibi nota 
-      <lb ed="#G" n="6"/>non essent: Respondet Augustinus dicens, quod antequam fis 
-      <lb ed="#G" n="7"/>rent, &amp; erant, &amp; non erant; erant. n. in Dei scientia: &amp; no 
-      <lb ed="#G" n="8"/>erant in sua natura. Et idem <ref xml:id="HuYgTa-129203-Rd1e809">Aug. 5. super Sen</ref>, ait.
-      Crea<lb ed="#G" n="9" break="no"/>tura omnis secundum esset, quod habuit ab aeterno, vita 
-      <lb ed="#G" n="10"/>erat, propter quod solum habebat esse in Deo. Et eadem  
-      <lb ed="#G" n="11"/>sententiam ponit Ansel. Monologion. 
-    </p>
-            <p xml:id="HuYgTa-129203-d1e820">
-               <lb ed="#G" n="12"/>
-               <pc type="indent"/>Ex his igitur, &amp; multis alijs sanctorum auctoritatibus 
-      <lb ed="#G" n="13"/>pparet, non solum illos de primo modo ponendi istam  
-      <lb ed="#G" n="14"/>opinionem, verum etiam illos de secundo modo falsum 
-      <lb ed="#G" n="15"/>dicere in hoc, quod ponunt creaturam ab aetern o fuisse
-      secu<lb ed="#G" n="16" break="no"/>dum aliquam sui entitatem realiter differentem ab ipso Deo. 
-      <lb ed="#G" n="17"/>2 Praeterea, istud possibile oblectiuum, quod isti de se 
-      <lb ed="#G" n="18"/>cundo modo dicendi ponunt, vel diceret maiorem
-      enti<lb ed="#G" n="19" break="no"/>tatem, quam essentia materiae, vel minorem, vel
-      aequa<lb ed="#G" n="20" break="no"/>lem. Si maiorem, tunc minus praesupponeret generatio 
-      <lb ed="#G" n="21"/>quam creatio. Si minorem, tunc essentia materiae non
-      es<lb ed="#G" n="22" break="no"/>set pura potentia. Si aequalem, tunc creatio non esset ma 
-      <lb ed="#G" n="23"/>gis de nihilo, quam ipsa generatio; quae omnia sunt absur 
-      <lb ed="#G" n="24"/>da &amp; impossibilia.
-    </p>
-            <p xml:id="HuYgTa-129203-d1e853">
-               <lb ed="#G" n="25"/>Ad primum igitur d e primo modo dicendi nego
-      con<lb ed="#G" n="26" break="no"/>sequentiam. Ad probationem dicendum, quod essentia 
-      <lb ed="#G" n="27"/>liuina ab aeterno fuit exemplar creaturarum, non quae 
-      <lb ed="#G" n="28"/>tunc essent, sed quae in tempore fierent 
-    </p>
-            <p xml:id="HuYgTa-129203-d1e864">
-               <lb ed="#G" n="29"/>
-               <pc type="indent"/>Ad secundum dicendum, quod hoc argumentum non ma 
-      <lb ed="#G" n="30"/>pis concludit de essentia rerum, quam de existentia: quia 
-      <lb ed="#G" n="31"/>Deus ab aeterno, &amp; in tempore aeque perfecte cognoscit 
-      <lb ed="#G" n="32"/>existentias rerum sicut essentias. Ad formam tamen
-      ar<lb ed="#G" n="33" break="no"/>gumenti dicendum, quod Deus ab aeterno cognouit
-      essen<lb ed="#G" n="34" break="no"/>tias rerum, non quae tunc essent: sed quae per sui potentiam 
-      <lb ed="#G" n="35"/>in tempore, dum sibi placeret, fieri possent. 
-    </p>
-            <p xml:id="HuYgTa-129203-d1e885">
-               <lb ed="#G" n="36"/>
-               <pc type="indent"/>Ad tertium nego consequentiam: quia quamuis illud 
-      <lb ed="#G" n="37"/>quod Deus cognouit de creaturis, esset creabile, tamen 
-      <lb ed="#G" n="38"/>nec illud fuit ab aeterno, nec diuina essentia erat
-      creabi<lb ed="#G" n="39" break="no"/>lis: sed sufficit quod diuina essentia talia comprehendat
-      vir<lb ed="#G" n="40" break="no"/>tualiter ad hoc, quod ipse Deus talia distincte cognoscat, cum 
-      <lb ed="#G" n="41"/>enim Deus perfecte cognoscit essentiam suam, tunc
-      per<lb ed="#G" n="42" break="no"/>fecte cognoscit omne creabile contentum virtualiter in 
-      <lb ed="#G" n="43"/>sua essentia 
-    </p>
-            <p xml:id="HuYgTa-129203-d1e907">
-               <lb ed="#G" n="44"/>
-               <pc type="indent"/>Ad quartum dicendum, quod Deus non cognouit
-      treatu<lb ed="#G" n="45" break="no"/>ras ab aeterno esse creabiles, &amp; possibiles fieri, potentia pas 
-      <lb ed="#G" n="46"/>siua se tenente ex parte creaturae: sed cognouit eas esse 
-      <lb ed="#G" n="47"/>possibiles potentia actiua se tenente ex parte creatoris,  
-      <lb ed="#G" n="48"/>seu suiipsius. Et ideo creatura ab aeterno extra Deum non 
-      <lb ed="#G" n="49"/>habuit aliquod esse reale, nec per consequens aliqua
-      re<lb ed="#G" n="50" break="no"/>latio realis fuit ab eterno inter essentiam rei creatae, &amp; 
-      <lb ed="#G" n="51"/>intellectum diuinum cognoscentem huiusmodi essentiam 
-      <lb ed="#G" n="52"/>sse possibilem fieri. 
-    </p>
-            <p xml:id="HuYgTa-129203-d1e931">
-               <lb ed="#G" n="53"/>
-               <pc type="indent"/>Ad quintum nego minorem. Ad probationem
-      dicen<lb ed="#G" n="54" break="no"/>dum, quod non est simile, quia dato, quod rosa non existat 
-      <lb ed="#G" n="55"/>actu; est tamen in suis causis naturalibus &amp; propinquis. 
-      <lb ed="#G" n="56"/>Etiam est in potentia passiua materiae, quae est vna de cau 
-      <lb ed="#G" n="57"/>sis intrinsecis rei naturalis.  
-    </p>
-            <p xml:id="HuYgTa-129203-d1e947">
-               <lb ed="#G" n="58"/>
-               <pc type="indent"/>Ad sextum dicendum, quod vt superius patuit, creaturae ab 
-      <lb ed="#G" n="59"/>aeter no habuerunt esse viuum in essentia creatoris. 
-    </p>
-            <p xml:id="HuYgTa-129203-d1e956">
-               <lb ed="#G" n="60"/>
-               <pc type="indent"/>Alias inuenitur sic. Posset etiam dici, quod Aug. ibi lo 
-      <lb ed="#G" n="61"/>quitur de cognitione nostra, &amp; non de cognitione Dei 
-      <lb ed="#G" n="62"/>uam nullum esse creaturae potest praecedere, cum Dei
-      com<lb ed="#G" n="63" break="no"/>nitio sit simpliciter aeterna. 
-    </p>
-            <p xml:id="HuYgTa-129203-d1e969">
-               <lb ed="#G" n="64"/>
-               <pc type="indent"/>Ad primum de secundo modo dicendi nego minorem
-    </p>
-            <p xml:id="HuYgTa-129203-d1e977">
-               <lb ed="#G" n="65"/>Ad primam probationem dicendum, qud illud verbum 
-      <lb ed="#G" n="66"/>Auic. est intelligendum de his, quae incipiunt esse in tempo 
-      <lb ed="#G" n="67"/>re per motum &amp; transmutationem virtute agentis naturalis 
-    </p>
-            <p xml:id="HuYgTa-129203-d1e986">
-               <lb ed="#G" n="68"/>
-               <pc type="indent"/>Ad secundam probationem nego consequentiam: quia
-      nul<lb ed="#G" n="69" break="no"/>a impotentia ex hoc apparet in agente, quia non facit il 
-      <lb ed="#G" n="70"/>ud, quod effectus actum esse non patitur. Vnde lapis ab 
-      <lb ed="#G" n="71"/>aeterno possibilis fuit creari, eo quod Deus ab aeterno po 
-      <lb ed="#G" n="72"/>tuit eum creare Posse n. creari est propter posse creare, &amp; 
-      <lb ed="#G" n="73"/>non econuerso, cum potentia prius dicatur de potentia acti 
-      <!--379.xml-->
-      <cb ed="#G" n="b"/>
-               <lb ed="#G" n="74"/>ua, quam passiua, vt patet. <ref xml:id="HuYgTa-129203-Rd1e1009">5. meta.</ref> Et licet isto modo possi 
-      <lb ed="#G" n="75"/>bilitatis creaturae causa sit potentia creatoris: impossibil 
-      <lb ed="#G" n="76"/>tatis tamen entis prohibiti non oportet assignare aliam 
-      <lb ed="#G" n="77"/>tausam, quam ipsammet repugnantiam terminorum
-    </p>
-            <p xml:id="HuYgTa-129203-d1e1020">
-               <lb ed="#G" n="78"/>Ad secundum nego consequentiam: quia quamuis ens 
-      <lb ed="#G" n="79"/>creabile ab aeterno minus fuerit non ens, quam ens prohi 
-      <lb ed="#G" n="80"/>itum in hoc, quod sibi competebat negatio repugnantiae ad 
-      <lb ed="#G" n="81"/>posse produci: ex hoc tamen non oportebat ipsum creabi 
-      <lb ed="#G" n="82"/>le ab aeterno fuisse secundum ;aliquam sui potentiam pas 
-      <lb ed="#G" n="83"/>siuam, seu subiectiuam: sed ad hoc sufficiebat continentia 
-      <lb ed="#G" n="84"/>virtualis, qua continebatur in potentia actiua creatoris. 
-    </p>
-            <p xml:id="HuYgTa-129203-d1e1038">
-               <lb ed="#G" n="85"/>
-               <pc type="indent"/>Ad tertium dicendum, quod potentia, quae cum actu di 
-      <lb ed="#G" n="86"/>uidit ens reale, vel est potentia subiectiua, vel est
-      poten<lb ed="#G" n="87" break="no"/>tia obiectiua talis, quae realiter fundatur in subiectiua: sec 
-      <lb ed="#G" n="88"/>tum creatura, vt extra creatorem concipitur, dicitur
-      fuis<lb ed="#G" n="89" break="no"/>se in potentia ab aeterno: talis potentia nec est subiectiua 
-      <lb ed="#G" n="90"/>nec est potentia obiectiua, quae immediate fundetur in su 
-      <lb ed="#G" n="91"/>biectiua: sed est mere obiectiua, quae non est alterum
-      di<lb ed="#G" n="92" break="no"/>uidentium ipsum ens reale. Et ide o quod sic est in poten 
-      <lb ed="#G" n="93"/>tia, non oportet esse ens reale. 
-    </p>
-            <p xml:id="HuYgTa-129203-d1e1062">
-               <lb ed="#G" n="94"/>
-               <pc type="indent"/>Ad quartum nego minorem: ad probationem dicendum, 
-      <lb ed="#G" n="95"/>quod relationes reales secundi modi, vt apparet. <ref xml:id="HuYgTa-129203-Rd1e1070">5. meta </ref>
-               <lb ed="#G" n="96"/>non fundantur quomodocumqe in potentijs: sed vel
-      fun<lb ed="#G" n="97" break="no"/>dantur in actione &amp; passione, vel in potentia, vt per ipsam  
-      <lb ed="#G" n="98"/>elicita est actio, &amp; illata ipsa passio: sed ab aeterno nec fuit 
-      <lb ed="#G" n="99"/>ctio, neque passio: ergo &amp;c 
-    </p>
-            <p xml:id="HuYgTa-129203-d1e1083">
-               <lb ed="#G" n="100"/>
-               <pc type="indent"/>Ad quintum dicendum, sicut etiam alias dixi, quod
-      com<lb ed="#G" n="101" break="no"/>mutata proportio vniuersaliter, &amp; gratia formae non tenet 
-      <lb ed="#G" n="102"/>nisi in terminis quantitatiuis, Posset etiam tota illa dedu 
-      <lb ed="#G" n="103"/>ctio concedi de possibili potentia subiectiua, non autem 
-      <lb ed="#G" n="104"/>de possibili potentia obiectiua, quae res ponitur in solo 
-      <lb ed="#G" n="105"/>sse cognito, &amp; non reali. 
-    </p>
-            <p xml:id="HuYgTa-129203-d1e1102">
-               <lb ed="#G" n="106"/>Secunda conclusio, scilicet quomodo creatura ab aeter 
-      <lb ed="#G" n="107"/>no fuit possibilis, non potentia intrinseca, sed extrinseca, 
-      <lb ed="#G" n="108"/>patet per iam dicta: ideo transeo causa breuitatis. 
-    </p>
-            <p xml:id="HuYgTa-129203-d1e1111">
-               <lb ed="#G" n="109"/>
-               <pc type="indent"/>ARTICVLVS II. 
-      <lb ed="#G" n="110"/>Vtrum res productae prefuerint in materia
-      secun<lb ed="#G" n="111" break="no"/>
-               <pc type="indent"/>dum rationes semmales.
-    </p>
-            <p xml:id="HuYgTa-129203-d1e1124">
-               <lb ed="#G" n="112"/>VANTVM ad secundum articulum, duo videnda 
-      <lb ed="#G" n="113"/>sunt. Primo quid sint rationes seminales. Secudo 
-      <lb ed="#G" n="114"/>qualiter res productae, seu formae rerum productarum
-      di<lb ed="#G" n="115" break="no"/>cuntur praeesse in suis causis naturalibus ante sui
-      produ<lb ed="#G" n="116" break="no"/>ctionem secundum huiusmodi rationes seminales. 
-    </p>
-            <p xml:id="HuYgTa-129203-d1e1137">
-               <lb ed="#G" n="117"/>
-               <pc type="indent"/>Quo ad primum dico, quod rationes seminales sunt que 
-      <lb ed="#G" n="118"/>lam habilitates, seu aptitudines a Deo inditae rebus
-      na<lb ed="#G" n="119" break="no"/>turali bus, ex quibus res naturales sunt aptae natae causare 
-      <lb ed="#G" n="120"/>naturales effectus secundum suas potentias actiuas, &amp; pas 
-      <lb ed="#G" n="121"/>uiuas. Tanta enim est imbecillitas rerum naturalium quod 
-      <lb ed="#G" n="122"/>ine huiusmodi habilitatibus, seu aptitudinibus, effectus 
-      <lb ed="#G" n="123"/>suos producere non possunt; dato etiam, quod habeat vir 
-      <lb ed="#G" n="124"/>tutes suas actiuas &amp; passiuas; non enim germinauit terra 
-      <lb ed="#G" n="125"/>herbam virentem, antequam Deus tertia die huiusmod 
-      <lb ed="#G" n="126"/>habilitates, quae sunt rationes seminales, sibi indidit, cum 
-      <lb ed="#G" n="127"/>dixit, germinet terra herbam virentem habentem semen 
-      <lb ed="#G" n="128"/>&amp;c. Et eodem modo de volatilibus &amp; aquatilibus
-      quin<lb ed="#G" n="129" break="no"/>ta dic: &amp; hominibus &amp; ceteris animalibus sexta dic: non vi 
-      <lb ed="#G" n="130"/>detur igitur aliud esse rationes seminales, nisi ordo
-      qui<lb ed="#G" n="131" break="no"/>lam, vel habitudo actiuorum ad passiua, &amp; econuerso,
-      se<lb ed="#G" n="132" break="no"/>cundum quod diuina benedictione principia passiua
-      de<lb ed="#G" n="133" break="no"/>bite, &amp; ordinate subdita sunt actiuis.
-    </p>
-            <p xml:id="HuYgTa-129203-d1e1179">
-               <lb ed="#G" n="134"/>Vnde secundum Aristo. ad rerum generationem non sul 
-      <lb ed="#G" n="135"/>iciunt duo principia, scilicet materia &amp; forma: sed
-      neces<lb ed="#G" n="136" break="no"/>grio requiritur ipsa priuatio. Propter quod
-      Arisrepren<lb ed="#G" n="137" break="no"/>lit Platonem. 1. physic, eo, quod despexisset priuationem 
-      <lb ed="#G" n="138"/>sic et, secudum Aug. tria sun t oium rerum naturalium prin 
-      <lb ed="#G" n="139"/>cipia, scilicet materia, forma &amp; rationes seminales. Vnde 
-      <lb ed="#G" n="140"/>melius exprimit illud tertium rerum principium per Au 
-      <lb ed="#G" n="141"/>ustinum, quam per Aristotelem. Quia priuatio secudum 
-      <lb ed="#G" n="142"/>Aristotelem, est carentia formae cum aptitudine ad eam, ita 
-      <!--380.xml-->
-      <pb ed="#G" n="171-r"/>
-               <cb ed="#G" n="a"/>
-               <lb ed="#G" n="1"/>quod priuatio per se dicit carentiam: &amp; solum ex
-      conse<lb ed="#G" n="2" break="no"/>quenti dicit aptitudinem. Ratio vero seminalis
-      econuer<lb ed="#G" n="3" break="no"/>so per se dicit aptitudinem. si autem dicit carentiam, hoc 
-      <lb ed="#G" n="4"/>est ex consequenti. Cum igitur aptitudo magis sit de
-      ra<lb ed="#G" n="5" break="no"/>tione principij, quam carentia, ideo &amp;c.
-      <lb ed="#G" n="6"/>est etiam illa assignatio principiorum facta per Augusti. 
-      <lb ed="#G" n="7"/>hum vniuersalior, quia priuatio, vt priuatio, se tenet
-      tan<lb ed="#G" n="8" break="no"/>tum ex parte principij passiui: sed rationes seminales se 
-      <lb ed="#G" n="9"/>tenent cum principuis actiuis, &amp; passiuis: ergo sententia 
-      <lb ed="#G" n="10"/>Auoustini non solum est congruentior, verum etiam est 
-      <lb ed="#G" n="11"/>completior, quam sit sententia Arist. 
-    </p>
-            <p xml:id="HuYgTa-129203-d1e1231">
-               <lb ed="#G" n="12"/>Qub ad secundum dico, quod forma non praeest secun 
-      <lb ed="#G" n="13"/>dum huiusmodi rationes seminales, ita quod aliqua en 
-      <lb ed="#G" n="14"/>titas ipsius formae presit in materia ante sui productionem.
-    </p>
-            <p xml:id="HuYgTa-129203-d1e1241">
-               <lb ed="#G" n="15"/>1 Nihil enim dicit effectus producibilis in sua causa 
-      <lb ed="#G" n="16"/>materiali, nifi materiam, vt apta nata est transmutari a 
-      <lb ed="#G" n="17"/>ctione naturali ad hoc, quod actu fiat i ipsa talis effectus,  
-      <lb ed="#G" n="18"/>situt etiam effectus producibilis in sua causa efficiente non 
-      <lb ed="#G" n="19"/>dicit aliud, quam ipsum efficiens, vt potens est talem 
-      <lb ed="#G" n="20"/>effectum ponere in esse
-    </p>
-            <p xml:id="HuYgTa-129203-d1e1257">
-               <lb ed="#G" n="21"/>2 Praeterea, sicut tota entitas materiae est potentia, quia 
-      <lb ed="#G" n="22"/>ipsa substantiuatur per posse, vt patet in de substantia
-      or<lb ed="#G" n="23" break="no"/>bis, sic tota entitas formae est actus: igitur si forma ante ij 
-      <lb ed="#G" n="24"/>sius actualem productionem secundum aliquam suam en 
-      <lb ed="#G" n="25"/>titatem distinctam a materia, praeesset in materia:
-      tun<lb ed="#G" n="26" break="no"/>esset actu, antequam esset actu, quod est contradictio.
-    </p>
-            <p xml:id="HuYgTa-129203-d1e1273">
-               <lb ed="#G" n="27"/>3 Praeterea, cum omnis entitas formae det esse
-      forma<lb ed="#G" n="28" break="no"/>le ei; in quo est, ergo materia haberet esse actu per form: 
-      <lb ed="#G" n="29"/>ante ipsam generationem, quod est impossibile: cum for 
-      <lb ed="#G" n="30"/>ma se cundum quod dat esse substantiale materiae, sit ter 
-      <lb ed="#G" n="31"/>minus ipsius generationis.
-    </p>
-            <p xml:id="HuYgTa-129203-d1e1286">
-               <lb ed="#G" n="32"/>4 Praeterea, tunc subiectum generationis non esset po 
-      <lb ed="#G" n="33"/>ra materia scilicet ipsum hyle: quod est contra philoso. 
-      <lb ed="#G" n="34"/>phum primo de generatione 
-    </p>
-            <p xml:id="HuYgTa-129203-d1e1295">
-               <lb ed="#G" n="35"/>
-               <pc type="indent"/>Praeterea, si forma praeexisteret secundum aliquam sul 
-      <lb ed="#G" n="36"/>eititatem realiter distinctam a materia, cum forma sit in 
-      <lb ed="#G" n="37"/>diuisibilis, oporteret, quod secundum totam essentiam 
-      <lb ed="#G" n="38"/>praeexisteret: sed tota essentia formae non potest esse in 
-      <lb ed="#G" n="39"/>aliquo, nisi det ei esse secundum illam formam, quia vt ait 
-      <lb ed="#G" n="40"/>
-               <ref xml:id="HuYgTa-129203-Rd1e1312">Commentator 7. metaph</ref> essentia non potest separari a 
-      <lb ed="#G" n="41"/>suo esse: ergo in aere, siue in materia aeris esset vere ignis,  
-      <lb ed="#G" n="42"/>ntequam ex acre generaretur ignis. 
-    </p>
-            <p xml:id="HuYgTa-129203-d1e1320">
-               <lb ed="#G" n="43"/>
-               <pc type="indent"/>sed contrarium istius, conclusionis tenent quidam di 
-      <lb ed="#G" n="44"/>ctores dicentes, quod sicut forma in actu ponit
-      numerun<lb ed="#G" n="45" break="no"/>tum materia, ita, quod materia, &amp; forma n actu, sunt duae 
-      <lb ed="#G" n="46"/>res, ex quibus constituitur compositum in actu; sic forma in 
-      <lb ed="#G" n="47"/>potentia ponit numerum cum materia, ita quod sunt dua 
-      <lb ed="#G" n="48"/>res, ex quibus constituitur compositum in potentia. 
-    </p>
-            <p xml:id="HuYgTa-129203-d1e1339">
-               <lb ed="#G" n="49"/>
-               <pc type="indent"/>Et addunt isti, quod tota forma secundum rem, vt
-      ha<lb ed="#G" n="50" break="no"/>bet esse in potentia; dicitur fui ipsius exordium, vt
-      edu<lb ed="#G" n="51" break="no"/>tenda est in actum: &amp; propter huiusmodi inchoationem 
-      <lb ed="#G" n="52"/>forma dicitur praeexistere in materia ante generationem, 
-      <lb ed="#G" n="53"/>Malta alia valde dubia ponit iste doctor cum his dictis 
-      <lb ed="#G" n="54"/>Haec tamen magis sunt ad praesens propositum.
-    </p>
-            <p xml:id="HuYgTa-129203-d1e1357">
-               <lb ed="#G" n="55"/>1 Praedicta autem probat primo per <ref xml:id="HuYgTa-129203-Rd1e1361">Commentatorem, 
-        <lb ed="#G" n="56"/>qui 7. metaphysi.</ref> ait. Est igitur aliquod vnum, quod pri 
-      <lb ed="#G" n="57"/>mo est in potentia, &amp; postea transfertur de potentia ad 
-      <lb ed="#G" n="58"/>actumitranslatio enim non largitur ei multitudinem, sed 
-      <lb ed="#G" n="59"/>perfectionem in esse: Ex quo manifeste apparet, vt dicunt,  
-      <lb ed="#G" n="60"/>quod non acquiritur aliqua noua res, sed solum nouus 
-      <lb ed="#G" n="61"/>modus essendi. Et ideo sicut post transmutationem in com 
-      <lb ed="#G" n="62"/>posito sunt duae res, scilicet materia &amp; forma, ita &amp; ante 
-      <lb ed="#G" n="63"/>transmutationem.
-    </p>
-            <p xml:id="HuYgTa-129203-d1e1382">
-               <lb ed="#G" n="64"/>2 Praeter ea, actus &amp; potentia, cum diuidant quodlibet 
-      <lb ed="#G" n="65"/>genus, &amp; quamlibet speciem entis, oportet, quod sint in 
-      <lb ed="#G" n="66"/>eodem genere, &amp; in eadem specle, hoc autem esse non 
-      <lb ed="#G" n="67"/>posset nisi forma in actu, &amp; in potentia esset eadem res 
-      <lb ed="#G" n="68"/>cum identitas speciei sumatur ab identitate formae, a qua 
-      <lb ed="#G" n="69"/>vnumquodque sortitur speciem: ergo &amp;c.
-    </p>
-            <p xml:id="HuYgTa-129203-d1e1398">
-               <lb ed="#G" n="70"/>3 Praeterea, medium conmunicat naturaliter cum ex 
-      <lb ed="#G" n="71"/>tremis: ego sicut albedo in actu, &amp; omnimoda negatio al 
-      <lb ed="#G" n="72"/>bedinis differunt a materia, sic albedo in potentia; qua 
-      <lb ed="#G" n="73"/>est medium inter ea, est aliud a materia, 
-    </p>
-            <p xml:id="HuYgTa-129203-d1e1409">
-      <!--380.xml-->
-               <cb ed="#G" n="b"/>
-               <lb ed="#G" n="74"/>4 Praeterea, si sola materia praeexisteret, cum essentia 
-      <lb ed="#G" n="75"/>formae sit alia ab essentia materiae, ipsa forma, cum res ge 
-      <lb ed="#G" n="76"/>neratur, ex nihilo crearetur.
-    </p>
-            <p xml:id="HuYgTa-129203-d1e1422">
-               <lb ed="#G" n="77"/>3 Praeterea, ad idem posset argui sic. Entis ad non 
-      <lb ed="#G" n="78"/>ens non potest esse realis ordo, vel habitudo, siue
-      rea<lb ed="#G" n="79" break="no"/>lis relatio : quia relatio realis necessario requirit ex- 
-      <lb ed="#G" n="80"/>trema realia: sed materiae ad formam in potentia
-      exi<lb ed="#G" n="81" break="no"/>stentem est habitudo, siue relatio realis: igitur
-      for<lb ed="#G" n="82" break="no"/>ma, vt est in potentia, necessario dicit aliquam entitatem 
-      <lb ed="#G" n="83"/>realem. 
-    </p>
-            <p xml:id="HuYgTa-129203-d1e1441">
-               <lb ed="#G" n="84"/>
-               <pc type="indent"/>Preterea, appetitus realis non potest esse ad illud 
-      <lb ed="#G" n="85"/>quod formaliter nihil est, sed materia habet appetitum 
-      <lb ed="#G" n="86"/>realem ad formam, quae est in potentia, quia materia
-      ap<lb ed="#G" n="87" break="no"/>petit formam, vt femina masculum, &amp; turpe bonum, vt 
-      <lb ed="#G" n="88"/>dicitur primo physico 
-    </p>
-            <p xml:id="HuYgTa-129203-d1e1457">
-               <lb ed="#G" n="89"/>
-               <pc type="indent"/>Sed Quia isti videntur incidere in errorem
-      Anaxago<lb ed="#G" n="90" break="no"/>rae, qui nihil posuit esse sincerum, quia omnia posuit in 
-      <lb ed="#G" n="91"/>omnibus, ideo omnia per philosophum adducta primo  
-      <lb ed="#G" n="92"/>physicorum contra Anaxagoram, possunt adduci etiam  
-      <lb ed="#G" n="93"/>contra istos 
-    </p>
-            <p xml:id="HuYgTa-129203-d1e1473">
-               <lb ed="#G" n="94"/>
-               <pc type="indent"/>Modus etiam istius positonis non valet. 
-      <lb ed="#G" n="95"/>1 Quia quamuis forma in actu differat a materia, non  
-      <lb ed="#G" n="96"/>tamen forma in potentia: quia actus est, qui distinguit  
-      <lb ed="#G" n="97"/>igitur forma in actu vere distinguitur a materia, quae est 
-      <lb ed="#G" n="98"/>ens in potentia: immo est ipsa potentia. Potentia autem, 
-      <lb ed="#G" n="99"/>vt potentia, non distinguitur a potentia. Et ideo forma in 
-      <lb ed="#G" n="100"/>potentia non potest esse distincta a materia
-    </p>
-            <p xml:id="HuYgTa-129203-d1e1493">
-               <lb ed="#G" n="101"/>2 Praeterea, sicut actus cum actu, vt actus est, non
-      con<lb ed="#G" n="102" break="no"/>stituit aliquod compositum, sic potentia cum potentia 
-      <lb ed="#G" n="103"/>non potest constituere compositum
-    </p>
-            <p xml:id="HuYgTa-129203-d1e1502">
-               <lb ed="#G" n="104"/>3 Praeterea, essentia formae, si precederet
-      generatio<lb ed="#G" n="105" break="no"/>nem, existens distincta a materia, aut esset maioris
-      enti<lb ed="#G" n="106" break="no"/>tatis, quam materia, aut minoris, aut aequalis. Deducatur 
-      <lb ed="#G" n="107"/>sicut in praecedenti articulo deductum est. 
-    </p>
-            <p xml:id="HuYgTa-129203-d1e1513">
-               <lb ed="#G" n="108"/>
-               <pc type="indent"/>Praeterea, si per generationem solum modus acqui 
-      <lb ed="#G" n="109"/>reretur, &amp; non res, tunc generatio non esset realis, sed  
-      <lb ed="#G" n="110"/>modalis.
-    </p>
-            <p xml:id="HuYgTa-129203-d1e1525">
-               <lb ed="#G" n="111"/>Ad primum dicendum, quod pro tanto dicitur trans 
-      <lb ed="#G" n="112"/>mutatio materiae non largiri multitudinem, sed
-      perfe<lb ed="#G" n="113" break="no"/>ctionem in esse, quia perfectio, quam per transmutationem 
-      <lb ed="#G" n="114"/>acquirit ipsa materia, facit vnum cum materia, vel accide 
-      <lb ed="#G" n="115"/>taliter, ficut in transmutatione accidentali, vel
-      essentia<lb ed="#G" n="116" break="no"/>iter, sicut in trasmutatione substantiali, ita quod ex tali 
-      <lb ed="#G" n="117"/>perfectione, &amp; materia resultat vna essentia 
-    </p>
-            <p xml:id="HuYgTa-129203-d1e1543">
-               <lb ed="#G" n="118"/>Ad secundum dicendum, quod ens existens in pura po 
-      <lb ed="#G" n="119"/>tentia nec est in genere, nec in specie actu: cum enim vnum 
-      <lb ed="#G" n="120"/>quodque sit in genere per suam entitatem: ideo sicnt ens 
-      <lb ed="#G" n="121"/>n pura potentia non habet entitatem, sed possibile est 
-      <lb ed="#G" n="122"/>ipsum quandoque habere entitatem, sic non est in
-      spe<lb ed="#G" n="123" break="no"/>cie, sed potest quandoque esse in specie¬ 
-    </p>
-            <p xml:id="HuYgTa-129203-d1e1559">
-               <lb ed="#G" n="124"/>
-               <pc type="indent"/>Ad tertium dicendum, quod per omnimodam albedi 
-      <lb ed="#G" n="125"/>nis negationem, vel intelligens prohibitum, puta quod 
-      <lb ed="#G" n="126"/>nullam habet entitatem albedinis, nec possibile est ipsam 
-      <lb ed="#G" n="127"/>aliquam vmquam habere albedinem quacumque
-      virtu<lb ed="#G" n="128" break="no"/>te, &amp; tunc albedo in potentia non est medium participans 
-      <lb ed="#G" n="129"/>talia extrema, quia possibile nihil participat de
-      impossi<lb ed="#G" n="130" break="no"/>bili, vel intelligis negationem omnis entitatis realis
-      ip<lb ed="#G" n="131" break="no"/>sius albedinis, &amp; tunc albedo, seu album in potentia non  
-      <lb ed="#G" n="132"/>est medium inter praedicta, sed est ipsum alterum
-      extre<lb ed="#G" n="133" break="no"/>mum, quia vt sic, dicit omnimodam negationem albedi 
-      <lb ed="#G" n="134"/>nis. Nam vt in potentia pura est ad albedinem, nihil tunc 
-      <lb ed="#G" n="135"/>habet de albedine 
-    </p>
-            <p xml:id="HuYgTa-129203-d1e1590">
-               <lb ed="#G" n="136"/>
-               <pc type="indent"/>Ad quartum dicendum, quod vt patet. <ref xml:id="HuYgTa-129203-Rd1e1596">7. met aphysio</ref> 
-               <lb ed="#G" n="137"/>forma non fit, sed totum compositum fit ex materia &amp; fori 
-      <lb ed="#G" n="138"/>ma: &amp; ideo non oportet quaerere, ex quo fiat forma, cum 
-      <lb ed="#G" n="139"/>ipsa non fiat per se, sed solum per accidens, scilicet ad
-      fa<lb ed="#G" n="140" break="no"/>ctionem totius: igitur sufficit assignare illud, ex quo per 
-      <lb ed="#G" n="141"/>se fit ipsum totum ad hoc, quod videtur creatio. Etiam 
-      <lb ed="#G" n="142"/>ista ratio est contra istos, quia ille modus accidentalis,
-      se<lb ed="#G" n="143" break="no"/>cudum quem dicunt formam terminare generationem, 
-      <lb ed="#G" n="144"/>non praefuit, nec secundum se, nec secundum aliquid sui 
-      <lb ed="#G" n="145"/>Et ideo modo si forma argumenti valeret, tume saltem ille 
-      <lb ed="#G" n="146"/>modus crearetur.
-    </p>
-            <p xml:id="HuYgTa-129203-d1e1622">
-      <!--381.xml-->
-               <pb ed="#G" n="171-v"/>
-               <cb ed="#G" n="a"/>
-               <lb ed="#G" n="1"/>Ad quintum dicendum, quod illa habitudo matetia 
-      <lb ed="#G" n="2"/>ad formam, quae est in potentia, non est rel atio reali 
-      <lb ed="#G" n="3"/>actu, sed aptitudine. Et ideo non oportet, quod actu ha 
-      <lb ed="#G" n="4"/>heat terminum realem, sed sufficit talem terminum ess 
-      <lb ed="#G" n="5"/>in suis causis absque reali distinctione sui ab huiusmodi 
-      <lb ed="#G" n="6"/>causis; cum autem talis terminus, scilicet ipsa forma secun 
-      <lb ed="#G" n="7"/>dum propriam suam entitatem distincte a suis causis po 
-      <lb ed="#G" n="8"/>netur in esse proprio, tunc etiam talis relatio, quam
-      ter<lb ed="#G" n="9" break="no"/>minat, erit actualis; quia actualiter terminatur 
-    </p>
-            <p xml:id="HuYgTa-129203-d1e1651">
-               <lb ed="#G" n="10"/>
-               <pc type="indent"/>Ad sextum dicendum, nego maiorem: quia agens
-      agi<lb ed="#G" n="11" break="no"/>propter finem non acquisitum: quia, habitibus
-      praesenti<lb ed="#G" n="12" break="no"/>bus cessat motus: sed mouetur, &amp; agit propter finem ac 
-      <lb ed="#G" n="13"/>quirendum, qui in se formaliter non est, &amp; tamen
-      appe<lb ed="#G" n="14" break="no"/>titur ab agent e 
-      <lb ed="#G" n="15"/>
-               <pc type="indent"/>vel dicendum, quod quamuis forma, quam appetit 
-      <lb ed="#G" n="16"/>materia in se, &amp; formaliter nihil sit est tamen aliquid dis 
-      <lb ed="#G" n="17"/>positue, puta in suis dispositonibus, quae sunt in materia 
-      <lb ed="#G" n="18"/>inclinantes eam ad appetendum formam, ad quam
-      dis<lb ed="#G" n="19" break="no"/>ponunt. 
-    </p>
-            <p xml:id="HuYgTa-129203-d1e1681">
-               <lb ed="#G" n="20"/>
-               <pc type="indent"/>ARTI CV LV S lIt 
-      <lb ed="#G" n="21"/>Vtrum corpus Fuae praefueri 
-      <lb ed="#G" n="22"/>
-               <pc type="indent"/>costa. Adae,
-    </p>
-            <p xml:id="HuYgTa-129203-d1e1694">
-               <lb ed="#G" n="23"/>QVANTVM ad tertium principale pono duas
-      con<lb ed="#G" n="24" break="no"/>clusiones.
-    </p>
-            <p xml:id="HuYgTa-129203-d1e1701">
-               <lb ed="#G" n="25"/>Prima est, quod corpus fuae non praefuit in costa Ada 
-      <lb ed="#G" n="26"/>secundum potentiam naturalem: quia illud non est in 
-      <lb ed="#G" n="27"/>aliquo secundum potentiam naturalem, quod non est in 
-      <lb ed="#G" n="28"/>eo secundum rationem seminalem, sed corpus fuae non pro 
-      <lb ed="#G" n="29"/>fuit in costa Adae secundum rationem seminale: ergo &amp;c 
-      <lb ed="#G" n="30"/>maior &amp; minor patent ex praecedentibus 
-    </p>
-            <p xml:id="HuYgTa-129203-d1e1717">
-               <lb ed="#G" n="31"/>
-               <pc type="indent"/>Secunda conclusio est, corpus fuae praefuit in costa Ada 
-      <lb ed="#G" n="32"/>secundum potentiam obedientialem. Quia quicquid vi 
-      <lb ed="#G" n="33"/>tute diuina fit de aliqua re materiali, quod virtute natura 
-      <lb ed="#G" n="34"/>lis agentis fieri nequaquam potuit, hoc praefuit in illa re 
-      <lb ed="#G" n="35"/>ma teriali saltem secundum potentiam obedientialem  
-      <lb ed="#G" n="36"/>sed corpus fuae virtute diuina fuit factu de costa Adae, &amp; 
-      <lb ed="#G" n="37"/>nulla natur ali virtute hoc poterat fieri: ergo &amp;c 
-    </p>
-            <p xml:id="HuYgTa-129203-d1e1737">
-               <lb ed="#G" n="38"/>
-               <pc type="indent"/>Est tamen hic aduertendum, quod si quandoque inue 
-      <lb ed="#G" n="39"/>nitur in dictis beati Augustini, illud corpus praefuisse in 
-      <lb ed="#G" n="40"/>costa Adae secundum rationem seminalem: tunc ibi acc 
-      <lb ed="#G" n="41"/>pi tur ratio seminalis improprie 
-      <lb ed="#G" n="42"/>tex: n o¬ 
-    </p>
-            <p xml:id="HuYgTa-129203-d1e1753">
-               <lb ed="#G" n="43"/>
-               <pc type="indent"/>ARTICVLV S II. 
-      <lb ed="#G" n="44"/>Vtrum de costa. Adae fuerit factum corpus ruec sin 
-      <lb ed="#G" n="45"/>
-               <pc type="indent"/>additione nouae materiae, vel alicuius rei 
-      <lb ed="#G" n="46"/>
-               <pc type="indent"/>materialis.
-    </p>
-            <p xml:id="HuYgTa-129203-d1e1772">
-               <lb ed="#G" n="47"/>QVANTVM ad quartum principale pono dua 
-      <lb ed="#G" n="48"/>
-               <pc type="indent"/>conclusiones.
-    </p>
-            <p xml:id="HuYgTa-129203-d1e1781">
-               <lb ed="#G" n="49"/>Prima est, quod Deus potest de re corporali parua fa 
-      <lb ed="#G" n="50"/>cere corpus magnum sine rarefactione, &amp; sine nouae ma 
-      <lb ed="#G" n="51"/>teriae additionem 
-    </p>
-            <p xml:id="HuYgTa-129203-d1e1790">
-               <lb ed="#G" n="52"/>
-               <pc type="indent"/>1 Quia non apparet maior difficultas in isto, quam cre 
-      <lb ed="#G" n="53"/>re quod cumque corpus de nihilo, sed istud potest
-      Deu<lb ed="#G" n="54" break="no"/>vt declaratum est superius: ergo &amp;c 
-    </p>
-            <p xml:id="HuYgTa-129203-d1e1801">
-               <lb ed="#G" n="55"/>
-               <pc type="indent"/>2 Praeterea, ista est expressa sententia <ref xml:id="HuYgTa-129203-Rd1e1807">
-                  <name xml:id="HuYgTa-129203-Nd1e1809" ref="#HughOfStVictor">Hugonis.</name> 1. lib 
-        <lb ed="#G" n="56"/>de sacramentis</ref>, vbi ponit quattuor, quae solus Deus
-      po<lb ed="#G" n="57" break="no"/>test, &amp; nulla creatura 
-    </p>
-            <p xml:id="HuYgTa-129203-d1e1818">
-               <lb ed="#G" n="58"/>Quorum primum est, quod Deus potest aliquid face 
-      <lb ed="#G" n="59"/>re de nihilo 
-    </p>
-            <p xml:id="HuYgTa-129203-d1e1825">
-               <lb ed="#G" n="60"/>
-               <pc type="indent"/>Secundum est, quod Deus potest aliquid conuerte 
-      <lb ed="#G" n="61"/>re in nihil¬ 
-    </p>
-            <p xml:id="HuYgTa-129203-d1e1835">
-               <lb ed="#G" n="62"/>Tertium est, quod potest de paruo facere magnum, e 
-      <lb ed="#G" n="63"/>non rarefacto, nec aliquo addito.  
-      <!--381.xml-->
-      <cb ed="#G" n="b"/>
-               <lb ed="#G" n="64"/>Quartum, quod Deus potest de magno facere paruum. 
-      <lb ed="#G" n="65"/>eo non condensato, nullo inde substracto 
-    </p>
-            <p xml:id="HuYgTa-129203-d1e1851">
-               <lb ed="#G" n="66"/>Sed contra istud est <ref xml:id="HuYgTa-129203-Rd1e1855">doctor commuuis in summa parte 
-        <lb ed="#G" n="67"/>prima. q. S2. artic. 3 n solutione primi argumenti</ref>, vbi si 
-      <lb ed="#G" n="68"/>ait. Quidam dicunt per multiplicationem materiae abs 
-      <lb ed="#G" n="69"/>que alterius additione formatum fuisse corpus mulieri 
-      <lb ed="#G" n="70"/>scilicet fuae ad modum, quo Deus quinque, panes multi 
-      <lb ed="#G" n="71"/>plicauit: sed hoc est omnino impossibile; quia multiplica 
-      <lb ed="#G" n="72"/>tio praedicta, aut accidit secundum transmutationem sub 
-      <lb ed="#G" n="73"/>stantiae ipsius materiae, aut secundum transmutationen 
-      <lb ed="#G" n="74"/>dimensionum eius. Non secundum transmutationem
-      sub<lb ed="#G" n="75" break="no"/>stantiae ipsius materiae, tum quia materia in se
-      considera<lb ed="#G" n="76" break="no"/>ta est omnino intransmutabilis: vt pote existens in pot 
-      <lb ed="#G" n="77"/>tia, &amp; habens solum rationem subiecti: &amp; ideo nullo mo 
-      <lb ed="#G" n="78"/>do potest multiplicatio materiae intelli gi, eadem mate 
-      <lb ed="#G" n="79"/>ria manente absque additione, nisi per hoc, quod
-      ma<lb ed="#G" n="80" break="no"/>ores accipiat dimensiones: hoc autem est rareheri, vt d 
-      <lb ed="#G" n="81"/>cit <ref xml:id="HuYgTa-129203-Rd1e1890">philosophus. 2. physicorum</ref>. Dicere ergo materiam mus 
-      <lb ed="#G" n="82"/>tiplicari absque rarefactione, est ponere contradictoria 
-      <lb ed="#G" n="83"/>scilicet diffinitionem absque diffinito. Vnde cum non a 
-      <lb ed="#G" n="84"/>pareat rarefactio in talibus multiplicationibus, necesse 
-      <lb ed="#G" n="85"/>est ponere additionem materiae: Haec sunt verba istiu 
-      <lb ed="#G" n="86"/>doctoris fideliter recitata 
-    </p>
-            <p xml:id="HuYgTa-129203-d1e1905">
-               <lb ed="#G" n="87"/>Et istud confirmant aliqui sequentes istum docto 
-      <lb ed="#G" n="88"/>rem sic¬ 
-    </p>
-            <p xml:id="HuYgTa-129203-d1e1912">
-               <lb ed="#G" n="89"/>
-               <pc type="indent"/>Impossibile est totum aequari parti: quia omne toti 
-      <lb ed="#G" n="90"/>est maius sua parte: sed costa Adae aequabatur secundum 
-      <lb ed="#G" n="91"/>materiam alicui parti corporis Fuae; ergo non aequabitur 
-      <lb ed="#G" n="92"/>secundum materiam toti corpori ipsius fuae.¬ 
-    </p>
-            <p xml:id="HuYgTa-129203-d1e1925">
-               <lb ed="#G" n="93"/>
-               <pc type="indent"/>2 Praeterea, Deus non potest facere corpus mixtum si 
-      <lb ed="#G" n="94"/>ne materia: ergo pari ratione non potuit facere tantum 
-      <lb ed="#G" n="95"/>corpus sine tanta materia. 
-    </p>
-            <p xml:id="HuYgTa-129203-d1e1936">
-               <lb ed="#G" n="96"/>
-               <pc type="indent"/>3 Praeterea, isto modo ex materia, quae est in grano mi 
-      <lb ed="#G" n="97"/>ii, posset fieri totus mundus, quod est inconueniens, vt 
-      <lb ed="#G" n="98"/>isti dicunt  
-    </p>
-            <p xml:id="HuYgTa-129203-d1e1948">
-               <lb ed="#G" n="99"/>
-               <pc type="indent"/>Sed ista contra praedictam conclusionem non concludunt 
-      <lb ed="#G" n="100"/>1 Quia Deus sua actione potest immediate produce 
-      <lb ed="#G" n="101"/>re essentiam materiae, &amp; per consequens, tamquam plent 
-      <lb ed="#G" n="102"/>habens dominium super ipsa essentia materiae potest qu 
-      <lb ed="#G" n="103"/>uiscumque modicam materiam informare sine rarefactio 
-      <lb ed="#G" n="104"/>ne quamuiscumque magna quantitate 
-    </p>
-            <p xml:id="HuYgTa-129203-d1e1966">
-               <lb ed="#G" n="105"/>
-               <pc type="indent"/>2 Praeterea, quando aliqua sunt omnino indifferenti 
-      <lb ed="#G" n="106"/>tunc ab eo, qui habet plenum dominium super ea, aequa 
-      <lb ed="#G" n="107"/>lis quantitas potest in vtrumque induci, salua similitudi 
-      <lb ed="#G" n="108"/>ne in raritate, &amp; densitate, sed materia, quae est sub grano 
-      <lb ed="#G" n="109"/>milii, &amp; materia maioris montis totius mundi considera 
-      <lb ed="#G" n="110"/>ta secundum suam essentiam sunt omnino indifferentes 
-      <lb ed="#G" n="111"/>cum in pura potentia nulla discernatur differentia seu d 
-      <lb ed="#G" n="112"/>stinctio, vt patet. <ref xml:id="HuYgTa-129203-Rd1e1987">1. metaph</ref> actus enim est, qui distingit, vt 
-      <lb ed="#G" n="113"/>dicitur <ref xml:id="HuYgTa-129203-Rd1e1993">3. de anima</ref>: ergo per potentiam Dei, salua
-      simili<lb ed="#G" n="114" break="no"/>tudine raritatis &amp; densitatis, potest quantitas illius mon  
-      <lb ed="#G" n="115"/>tis induci in materiam grani milii¬ 
-    </p>
-            <p xml:id="HuYgTa-129203-d1e2001">
-               <lb ed="#G" n="116"/>3 Praeterea, actiones diuersae per essentiam
-      possun<lb ed="#G" n="117" break="no"/>diuina virtute abinuicem separari: sed extensio, &amp;
-      rarefa<lb ed="#G" n="118" break="no"/>ctio eiusdem materiae sunt diuersae acti ones essentialiter 
-      <lb ed="#G" n="119"/>&amp; realiter differentes: ergo sine rarefactione poterit Deus 
-      <lb ed="#G" n="120"/>ipsam materiam extendere Cuius oppositum assumit isti 
-      <lb ed="#G" n="121"/>doctor in sua probatione. Maior patet, probatio minoris 
-      <lb ed="#G" n="122"/>quia essentialis ratio actionum sumitur a terminis, vt
-      pa<lb ed="#G" n="123" break="no"/>tet. <ref xml:id="HuYgTa-129203-Rd1e2020">5. physic</ref>, sed terminus extensionis, qua ex paruo fi 
-      <lb ed="#G" n="124"/>magnum, est in predicamento quantitatis, &amp; terminus ra 
-      <lb ed="#G" n="125"/>refactionis, qua de denso fit rarum, est in praedicament, 
-      <lb ed="#G" n="126"/>qualitatis 
-    </p>
-            <p xml:id="HuYgTa-129203-d1e2031">
-               <lb ed="#G" n="127"/>
-               <pc type="indent"/>Et confirmatur, quia prius virtute diuina potest separa 
-      <lb ed="#G" n="128"/>ri a posteriori; sed quantitas est prior qualitate: ergo
-      ex<lb ed="#G" n="129" break="no"/>tensio, vel augmentatio eiusdem materiae, quae
-      termina<lb ed="#G" n="130" break="no"/>tur ad quantitatem, potest virtute diuina separari a tare 
-      <lb ed="#G" n="131"/>factione, quae terminatur ad qualitatem. 
-    </p>
-            <p xml:id="HuYgTa-129203-d1e2047">
-               <lb ed="#G" n="132"/>
-               <pc type="indent"/>His premissis respodendum est rationibus istorum doctorum 
-      <lb ed="#G" n="133"/>Ad primum igitur dico, quod istud fit secundum
-      trams<lb ed="#G" n="134" break="no"/>mutationem dimensionum materiae. Ad probationem 
-      <lb ed="#G" n="135"/>cum dicitur, quod eandem materiam esse sub maioribus di¬ 
-      <!--382.xml-->
-      <pb ed="#G" n="172-r"/>
-               <cb ed="#G" n="a"/>
-               <lb ed="#G" n="1"/>mensionibus est rarefieri; dico, quod licet istud sit verum 
-      <lb ed="#G" n="2"/>loquendo de actione agentis naturalis, quod in eandem  
-      <lb ed="#G" n="3"/>materiam non potest inducere maiorem extensionem, nisi 
-      <lb ed="#G" n="4"/>inducendo maiorem raresactionem, tamen non est verum 
-      <lb ed="#G" n="5"/>loquendo de actione diuina, qua Deus potest in eandem 
-      <lb ed="#G" n="6"/>materiam inducere maiorem quantitatem, vel
-      exten<lb ed="#G" n="7" break="no"/>sionem, non inducendo maiorem rarefactionem. Nec ex 
-      <lb ed="#G" n="8"/>hoc ponitur diffinitio sine diffinito, quia cum philosophus 
-      <lb ed="#G" n="9"/>dicit eandem materiam habere maiorem extensionem 
-      <lb ed="#G" n="10"/>est rarefieri, ipse ibi describit rarefieri in ordine ad
-      actio<lb ed="#G" n="11" break="no"/>ne agentis naturalis, &amp; ideo non est ad propositum. Etiam 
-      <lb ed="#G" n="12"/>iste doctor assumit vnum dubium in hoc, quod dicit
-      ma<lb ed="#G" n="13" break="no"/>teriam intransmutabilem esse secundum se, quia vt sic.  
-      <lb ed="#G" n="14"/>habet rationem subiecti: totum enim per oppositum
-      de<lb ed="#G" n="15" break="no"/>beret dici, quia materia vt habet rationem subiecti sic es 
-      <lb ed="#G" n="16"/>proprie transmutabilis, vt sic enim, eadem manens
-      trans<lb ed="#G" n="17" break="no"/>mutatur de vno contrariorum in alterum, vt patet.<ref xml:id="HuYgTa-129203-Rd1e2103"> 1. physi.</ref>¬ 
-    </p>
-            <p xml:id="HuYgTa-129203-d1e2107">
-               <lb ed="#G" n="18"/>
-               <pc type="indent"/>Ad secundum nego minorem, quia materiae secundum 
-      <lb ed="#G" n="19"/>se nec conuenit, quod sit aequalis, vel inaequalis, hoc enim 
-      <lb ed="#G" n="20"/>proprium est quantitatis: &amp; ideo non conuenit materiae, 
-      <lb ed="#G" n="21"/>nisi secundum quod est quanta. Et quia per potentiam Dei 
-      <lb ed="#G" n="22"/>in eadem materia potest esse suceessiue alia, &amp; alia
-      quan<lb ed="#G" n="23" break="no"/>titas, &amp; alia &amp; alia extesio, ideo materia partis potest ess 
-      <lb ed="#G" n="24"/>aequalis materiae totius, si in huiusmodi materiam, in qua 
-      <lb ed="#G" n="25"/>nunc est quantitas partis, postea virtute diuina inducitur 
-      <lb ed="#G" n="26"/>quantitas totius. 
-    </p>
-            <p xml:id="HuYgTa-129203-d1e2132">
-               <lb ed="#G" n="27"/>
-               <pc type="indent"/>Alias sic inuenitur. 
-      <lb ed="#G" n="28"/>Ad secundum nego minorem, quia sicut probatum est 
-      <lb ed="#G" n="29"/>supra, Deus potest materiam informatam minori quant 
-      <lb ed="#G" n="30"/>tate subicere maiori quantitati absque rarefactione: ideo 
-      <lb ed="#G" n="31"/>per Dei potentiam fieri potuit, vt pars corporis Adae
-      aequa<lb ed="#G" n="32" break="no"/>retur secundum materiam toti corpori ipsis fuae¬ 
-    </p>
-            <p xml:id="HuYgTa-129203-d1e2150">
-               <lb ed="#G" n="33"/>
-               <pc type="indent"/>Ad tertium nego consequentiam: facit enim Deus
-      tam<lb ed="#G" n="34" break="no"/>tum corpus, quantum inducit quantitatem in materiam 
-      <lb ed="#G" n="35"/>diuinae factioni subiectam. 
-    </p>
-            <p xml:id="HuYgTa-129203-d1e2161">
-               <lb ed="#G" n="36"/>
-               <pc type="indent"/>Ad quartum concedo consequentiam, loquendo de 
-      <lb ed="#G" n="37"/>potentia Dei: quia ea potentia, qua potest mundum facert 
-      <lb ed="#G" n="38"/>de nihilo, etia potest mundum facere de vno milii grano 
-    </p>
-            <p xml:id="HuYgTa-129203-d1e2172">
-               <lb ed="#G" n="39"/>
-               <pc type="indent"/>Est etiam quaedam opinio, quae alterum tenet extremum 
-      <lb ed="#G" n="40"/>dicens, quod virtute agentis naturalis potest fieri in eade 
-      <lb ed="#G" n="41"/>materia maior quantitas, etiam manente aequali
-      rarefa<lb ed="#G" n="42" break="no"/>ctione. Quod probant sic. Ponut enim, quod minimun 
-      <lb ed="#G" n="43"/>ignis corrumpatur in aerem, tunc, vt dicunt, corrumpitur 
-      <lb ed="#G" n="44"/>in minimum aeris. Tunc secundo ponunt, quod illud mi- 
-      <lb ed="#G" n="45"/>nimum aeris corrumpatur in ignem: tunc, vt dicurt, ex ex 
-      <lb ed="#G" n="46"/>generantur decem minima ignis, quia sicut ex vno pugi 
-      <lb ed="#G" n="47"/>lo acris fiunt decem ignis: sic ex vno minimo aeris fiun 
-      <lb ed="#G" n="48"/>decem minima ignis; &amp; sic de primo ad vltimum ex vn 
-      <lb ed="#G" n="49"/>minimo ignis facta sunt decem, quorum quodlibet est
-      tan<lb ed="#G" n="50" break="no"/>tum, quantum erat primum minimum ignis, quia non est 
-      <lb ed="#G" n="51"/>dare minus minimo: Et per idem probant, quod primun 
-      <lb ed="#G" n="52"/>minimum ignis non potuit corrumpi in minus, quam in 
-      <lb ed="#G" n="53"/>minimum aeris: quia si datur oppositum, tunc est dare mi 
-      <lb ed="#G" n="54"/>nus minimo.  
-    </p>
-            <p xml:id="HuYgTa-129203-d1e2211">
-               <lb ed="#G" n="55"/>
-               <pc type="indent"/>Sed nec istud valet, quia <ref xml:id="HuYgTa-129203-Rd1e2217">Aug. 10 super Sen.</ref> loquens 
-      <lb ed="#G" n="56"/>de potentia naturalis agentis contra Tertullianum sic ait 
-      <lb ed="#G" n="57"/>Quid autem absurdius, quam putare massam cuiuspiam 
-      <lb ed="#G" n="58"/>metalli ex aliqua sui parte crescere posse, nisi decrescat in 
-      <lb ed="#G" n="59"/>altera: vel augeri latitudine, nisi grossitudine minuatur; 
-      <lb ed="#G" n="60"/>aut vllum esse corpus manente naturae suae quantitate, quod 
-      <lb ed="#G" n="61"/>vndique crescat, nisi recrescat, &amp;c 
-    </p>
-            <p xml:id="HuYgTa-129203-d1e2234">
-               <lb ed="#G" n="62"/>
-               <pc type="indent"/>Ad rationem eorum dicendum, quod intelligendo pe 
-      <lb ed="#G" n="63"/>minimum ignis, vel per minimum aeris illud, quod est tan 
-      <lb ed="#G" n="64"/>tae quantitatis, quod separatum a suo toto retinet nomen 
-      <lb ed="#G" n="65"/>&amp; speciem sui totius: est tamen ita modicum, quod si mi 
-      <lb ed="#G" n="66"/>nus fieret, immediate corrumpetur: tunc falsum assumitu 
-      <lb ed="#G" n="67"/>cum dicitur, quod ex minimo ignis corrupto generatur 
-      <lb ed="#G" n="68"/>minimum aeris, quia ille acr, qui generatur ex minimo 
-      <lb ed="#G" n="69"/>ignis, non est tantae quantitatis, quod possit per se in spe¬ 
-      <!--382.xml-->
-      <cb ed="#G" n="b"/>
-               <lb ed="#G" n="70"/>cie acris subsistere, quantitas enim eius est subdecupla ad 
-      <lb ed="#G" n="71"/>quantitatem minimi ignis praecorrupti: vnde solum
-      ha<lb ed="#G" n="72" break="no"/>bet esse prout alteri aeri confungitur 
-    </p>
-            <p xml:id="HuYgTa-129203-d1e2268">
-               <lb ed="#G" n="73"/>
-               <pc type="indent"/>Et cum dicitur, quod non est dare minus minimo 
-      <lb ed="#G" n="74"/>Dico, quod licet non possit minus minimo dari, quorum 
-      <lb ed="#G" n="75"/>vtrumque per se possit subsistere, tamen minimo pocent 
-      <lb ed="#G" n="76"/>per se subsistere potest dari minus non potens per se
-      sub<lb ed="#G" n="77" break="no"/>sistere, sicut enim in augmento proprie dicto etiam mi 
-      <lb ed="#G" n="78"/>nima pars aucti est aucta, vt dicitur primo de
-      genera<lb ed="#G" n="79" break="no"/>tione, quod vtique verum est loquendo de partibus, 
-      <lb ed="#G" n="80"/>quae dicuntur partes formales, in quibus, scilicet
-      ser<lb ed="#G" n="81" break="no"/>paratis a suis totis, potest manere forma totius. Et ta 
-      <lb ed="#G" n="82"/>men illud additum, quo minima pars aucti augetur, est 
-      <lb ed="#G" n="83"/>minus illa minima parte, quia est pars materialis, quae non 
-      <lb ed="#G" n="84"/>posset in se seruare formam, &amp; speciem pristinam, si sepa 
-      <lb ed="#G" n="85"/>raretur a toto. Quod autem sit minus illa minima parte, 
-      <lb ed="#G" n="86"/>atet, quia alias totum auctum auctum esset in duplo ma 
-      <lb ed="#G" n="87"/>gis, quam fuerat antequam augeretur, cuius oppositum 
-      <lb ed="#G" n="88"/>videmus ad sensum. Sic etiam in proposito poterimus dare 
-      <lb ed="#G" n="89"/>minus minimo. Dato igitur, quod ille aer, qui genitus est 
-      <lb ed="#G" n="90"/>ex minimo ignis, corrumpatur, &amp; iterum generetur ibi 
-      <lb ed="#G" n="91"/>ignis, tunc non generabuntur decem minima ignis, sicu 
-      <lb ed="#G" n="92"/>isti volebant concludere, sed tantum vnum minimum ignis. 
-    </p>
-            <p xml:id="HuYgTa-129203-d1e2316">
-               <lb ed="#G" n="93"/>
-               <pc type="indent"/>Secunda conclusio est, quod non solum Deus facere
-      po<lb ed="#G" n="94" break="no"/>tuit, verum etiam de facto formauit corpus fuae de costa 
-      <lb ed="#G" n="95"/>Adae sine additione alicuius materiae. Quia detur
-      oppo<lb ed="#G" n="96" break="no"/>situm, tunc corpus fuae magis proprie &amp; vere dicetur for 
-      <lb ed="#G" n="97"/>matum de illa alia materia, quam de ipsa costa. Falsitas 
-      <lb ed="#G" n="98"/>consequentis patet, quia sacta scriptura dicit illud corpu 
-      <lb ed="#G" n="99"/>formatum de costa, &amp; non facit mentionem de aliqua alia 
-      <lb ed="#G" n="100"/>materia, patet etiam consequentia, quia res ex diuersis 
-      <lb ed="#G" n="101"/>composita nomen capit ab eo, quod magis abundat in
-      hu<lb ed="#G" n="102" break="no"/>iusmodi compositone, vt patet primo physicorum: sed si 
-      <lb ed="#G" n="103"/>excessus magnitudinis corporis fuae respectu illius costa 
-      <lb ed="#G" n="104"/>fuisset ratione additae materiae: tunc materia addita
-      mul<lb ed="#G" n="105" break="no"/>to maior fuisset ipsa costa, quia tantum illa materia exce 
-      <lb ed="#G" n="106"/>deret costam, quantum corpus fuae in magnitudine
-      exces<lb ed="#G" n="107" break="no"/>sit ipsam costam: nam tantum corpus Euae excederet
-      co<lb ed="#G" n="108" break="no"/>stam, quantum de illa materia adderet super eam. Et ista 
-      <lb ed="#G" n="109"/>conclusio est expresse de intentione <name xml:id="HuYgTa-129203-Nd1e2357" ref="#HughOfStVictor">Hugonis</name> de
-      sacra<lb ed="#G" n="110" break="no"/>mentis libro sexto capitulo penultimo, vbi sic ait, Porro,  
-      <lb ed="#G" n="111"/>quod de costa viri corpus mulieris factum dicitur, ita
-      in<lb ed="#G" n="112" break="no"/>telligendum est, vt de sola ipsius costae substantia fine o.¬ 
-      <lb ed="#G" n="113"/>mni extrinseco addito per diuinam potentiam in semet 
-      <lb ed="#G" n="114"/>ipsa multiplicata idem corpus factum credatur 
-    </p>
-            <p xml:id="HuYgTa-129203-d1e2372">
-               <lb ed="#G" n="115"/>
-               <pc type="indent"/>Ista etiam est intentio magistri, sicut patet hic in littera 
-      <lb ed="#G" n="116"/>Forte dicetur, quod praedicta costa vel fuit superflua in 
-      <lb ed="#G" n="117"/>Adam, vel necessaria: non potest dari primum, quia Deus 
-      <lb ed="#G" n="118"/>&amp; natura nihil faciunt frustra, vt dicitur primo de caelo, 
-      <lb ed="#G" n="119"/>&amp; mundo. si fuit necessaria, tunc non debuit auferri al 
-      <lb ed="#G" n="120"/>eo, quia per ablationem eius, quod est necessarium alicui 
-      <lb ed="#G" n="121"/>diminuitur eius perfectio: Adam vero debuit esse
-      perfe<lb ed="#G" n="122" break="no"/>ctus homo: ergo &amp;c 
-    </p>
-            <p xml:id="HuYgTa-129203-d1e2394">
-               <lb ed="#G" n="123"/>
-               <pc type="indent"/>Dicendum, quod sicut semen est superfluum respectu 
-      <lb ed="#G" n="124"/>indiuidui, est tamen necessarium respectu speciei: sic ista 
-      <lb ed="#G" n="125"/>costa fuit quantum ad indiuiduum suppositum Ade
-      super<lb ed="#G" n="126" break="no"/>fiua, sed pro mulieris formatione, &amp; per consequens pro 
-      <lb ed="#G" n="127"/>speciei conseruatione non fuit superflua, sed fuit
-      quodam<lb ed="#G" n="128" break="no"/>modo necessaria. Et quia Deus est vniuersale agens, non 
-      <lb ed="#G" n="129"/>solum respiciens indiuidui productionem, sed etiam
-      spe<lb ed="#G" n="130" break="no"/>ciei conseruationem, ideo decuit ipsum viro producere 
-      <lb ed="#G" n="131"/>illud, de quo mulierem formare voluit, vt etiam vir &amp;
-      mu<lb ed="#G" n="132" break="no"/>lier amicitiae signum acciperent, ex eorum corporali
-      for<lb ed="#G" n="133" break="no"/>matione, qua mulier descendit a viro 
-    </p>
-            <p xml:id="HuYgTa-129203-d1e2423">
-               <lb ed="#G" n="134"/>
-               <pc type="indent"/>Ad argumentum principale dicendum ad maiorem, quod 
-      <lb ed="#G" n="135"/>per agens naturale non potest fieri aliquid ex aliquo, nisi 
-      <lb ed="#G" n="136"/>quod est in eo secundum potentiam naturalem, sed sicui 
-      <lb ed="#G" n="137"/>iam dictum est, tale corpus non fuit in costa potentia na 
-      <lb ed="#G" n="138"/>turali, sed obedientali.
-    </p>
-         </div>
-      </body>
-   </text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 1</title>
+        <author ref="#ThomasStrasbourg">Thomas of Strasbourg</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 1</title>
+          <date when="2020-11-26">November 26, 2020</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="G" n="cod-TxxxqU">Genoa 1585</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2020-11-26" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#G" n="169-v"/>
+        <cb ed="#G" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="HuYgTa-129203"><!-- HuYgTa-l2d18q1 -->
+        <head xml:id="HuYgTa-129203-Hd1e108">Quaestio 1</head>
+        <head xml:id="HuYgTa-129203-Hd1e111" type="question-title">
+          An corpus Euae praefuerit in costa Adae.
+        </head>
+        <p xml:id="HuYgTa-129203-d1e114">
+          <lb ed="#G" n="34"/>
+          <pc type="indent"/>Questio. 1. 
+          <lb ed="#G" n="35"/>An corpus Euae praefuerit in costa Adae.
+        </p>
+        <p xml:id="HuYgTa-129203-d1e123">
+          <lb ed="#G" n="36"/>
+          <pc type="indent"/>VTRVM corpus fue praefuerit
+          potentiali<lb ed="#G" n="37" break="no"/>ter in costa Ade.
+        </p>
+        <p xml:id="HuYgTa-129203-d1e132">
+          Et videtur, quod non 
+          <lb ed="#G" n="38"/>A 
+          <lb ed="#G" n="39"/>quia quod est in potentia in aliquo, hoc 
+          <lb ed="#G" n="40"/>per agens naturale potest educi de illo 
+          <lb ed="#G" n="41"/>sed corpus fuae per nullam naturalem
+          po<lb ed="#G" n="42" break="no"/>tentiam potuit educi de costa Ade: ergo &amp;c 
+          <lb ed="#G" n="43"/>Contra, omne, quod factum est de altero, hoc praefuit 
+          <lb ed="#G" n="44"/>in illo, de quo est factum ante, quam ex eo fieret: sed secu 
+          <lb ed="#G" n="45"/>dum sacram scripturam corpus Euae factum fuit de costa 
+          <lb ed="#G" n="46"/>Adae: ergo &amp;c. Quia doctores circa materiam istius
+          deci<lb ed="#G" n="47" break="no"/>mae octauae distinctionis inuestigant de praeexistentia
+          re<lb ed="#G" n="48" break="no"/>rum ante suum actuale esse, ideo quattuor sunt hic viden 
+          <lb ed="#G" n="49"/>da. Primo, vtrum productarum rerum entitates
+          secun<lb ed="#G" n="50" break="no"/>dum aliquam sui realitatem ante sui productionem
+          prae<lb ed="#G" n="51" break="no"/>fuerint ab aeterno. Secundo, vtrum res productae
+          praefue<lb ed="#G" n="52" break="no"/>rint in materia secundum rationes seminales. Tertio de 
+          <lb ed="#G" n="53"/>eo, quod quaeritur. Et quarto, vtrum de costa Adae fuerit 
+          <lb ed="#G" n="54"/>factum corpus fuae sine additione nouae materiae, vel ali 
+          <lb ed="#G" n="55"/>tuius rei materialis.
+        </p>
+        <p xml:id="HuYgTa-129203-d1e175">
+          <!--377.xml-->
+          <cb ed="#G" n="b"/>
+          <lb ed="#G" n="56"/>RES OLVTI O. 
+          <lb ed="#G" n="57"/>Nallam sane creaturam secundum entitatem aliquam condistin¬ 
+        </p>
+        <p xml:id="HuYgTa-129203-d1e186">
+          <lb ed="#G" n="58"/>
+          <pc type="indent"/>ctam ab eatitate creatoris ab aetevno fuisse coctat: uerum Dei 
+          <lb ed="#G" n="59"/>potentia possibilis quidem erat, licet huiusmodi potentia ereqtu 
+          <lb ed="#G" n="60"/>rae haud extrinseca extiterit. At vero, cum rationes seminales 
+          <lb ed="#G" n="61"/>nil aliud sint, quam habilit ates quaedam, seu aptitudines a Deo 
+          <lb ed="#G" n="62"/>indit ae vebus naturalibus, ex quibus vres naturales sunt apta 
+          <lb ed="#G" n="63"/>nat ae causare iffectus natur ales secundum suas potentias
+          acti<lb ed="#G" n="64" break="no"/>uas &amp; passiuas: sequitur, corpus fuae haud praefuise in costa 
+          <lb ed="#G" n="65"/>Adae secundum naturalem potentiam, licet tamen praefuerit 
+          <lb ed="#G" n="66"/>secundum potentiam obeditntialem. 
+        </p>
+        <p xml:id="HuYgTa-129203-d1e210">
+          <lb ed="#G" n="67"/>
+          <pc type="indent"/>ARTICVLVS I. 
+          <lb ed="#G" n="68"/>Vtrum productarum rerum entitates secundum
+          ali<lb ed="#G" n="69" break="no"/>quam siu realitatem ante sui productionem 
+          <lb ed="#G" n="70"/>prefuerint ab eterno.
+        </p>
+        <p xml:id="HuYgTa-129203-d1e223">
+          <lb ed="#G" n="71"/>QVANTVM ad primum primo pono hanc
+          con<lb ed="#G" n="72" break="no"/>clusionem, quod creatura secundum nullam sui 
+          <lb ed="#G" n="73"/>entitatem suit ab aeterno; ita, quod talis entitas distinct 
+          <lb ed="#G" n="74"/>esset realiter ab entitate creatoris. Secundo dico, quod 
+          <lb ed="#G" n="75"/>creatura potentia Dei possibilis fuit ab aeterno, non poten 
+          <lb ed="#G" n="76"/>tia extrinseca creaturae
+        </p>
+        <p xml:id="HuYgTa-129203-d1e239">
+          <lb ed="#G" n="77"/>1 Primum probo uc. lllud, quod simpliciter fit de
+          ni<lb ed="#G" n="78" break="no"/>hilo, secundum nullam entitatem sui distinctam a facien 
+          <lb ed="#G" n="79"/>te, praecedit suam factionem. Ista patet: quia da oppositum; 
+          <lb ed="#G" n="80"/>tunc non fieret simpliciter de nihilo: sed illud, quod crea 
+          <lb ed="#G" n="81"/>tur, simpliciter fit de nihilo. Nam in hoc differt creatio a 
+          <lb ed="#G" n="82"/>eneratione: quia generatio aliquid praesupponit, creatio 
+          <lb ed="#G" n="83"/>vero nihil
+        </p>
+        <p xml:id="HuYgTa-129203-d1e257">
+          <lb ed="#G" n="84"/>2 Praeterea effectus non differt a sua causa, quousque 
+          <lb ed="#G" n="85"/>procedat ab ea: sicut ait Proclus, sed creatura non habet 
+          <lb ed="#G" n="86"/>aliquod esse productum a Deo ab aeterno; ergo non diffe 
+          <lb ed="#G" n="87"/>cebat ab eo. 
+        </p>
+        <p xml:id="HuYgTa-129203-d1e269">
+          <lb ed="#G" n="88"/>
+          <pc type="indent"/>Praeterea, quamdiu res solum habet esse in potentia 
+          <lb ed="#G" n="89"/>Dei, tamdiu non habet aliquam entitatem differentem 
+          <lb ed="#G" n="90"/>a Deo: sed, vt ait <ref xml:id="HuYgTa-129203-Rd1e279">Anselm, de casu diaboli</ref>, creatura ante 
+          <lb ed="#G" n="91"/>sui productionem solum fuit in potentia Dei. Et ibidem  
+          <lb ed="#G" n="92"/>dicit, quod mundus ante quam fieret a potentia Dei, nihil 
+          <lb ed="#G" n="93"/>erat: &amp;impossibile erat eum esse potentia propria.
+        </p>
+        <p xml:id="HuYgTa-129203-d1e290">
+          <lb ed="#G" n="94"/>4 Praeterea, quaecumque aequaliter dependent ab ali 
+          <lb ed="#G" n="95"/>qua causa, aequaliter producuntur ab ea: sed omnis
+          enti<lb ed="#G" n="96" break="no"/>tas creaturae aequaliter, &amp; immediate dependet a Deo, 
+          <lb ed="#G" n="97"/>igitur nulla entitas creaturae poterit esse aeterna, &amp; non 
+          <lb ed="#G" n="98"/>producta.
+        </p>
+        <p xml:id="HuYgTa-129203-d1e303">
+          <lb ed="#G" n="99"/>3 Praeterea, si quaelibet creatura praefuit ab aeterno
+          se<lb ed="#G" n="100" break="no"/>cundum aliquam sui entitatem, tunc etiam materia
+          prae<lb ed="#G" n="101" break="no"/>fuit, sed entitas materiae, quae praesuit, non potuit esse nisi 
+          <lb ed="#G" n="102"/>tota materia; ergo si aliqua entitas materiae praefuit ab
+          ae<lb ed="#G" n="103" break="no"/>terno, tunc tota materiasuit ab eterno, &amp; sic nulla res ma 
+          <lb ed="#G" n="104"/>terialis creata esset: quia omnes factae fuissent de
+          praeiace<lb ed="#G" n="105" break="no"/>te materia, quod est contra fidem. Maior patet, probo mi 
+          <lb ed="#G" n="106"/>norem, quia cum materia sit prope nihil, vt ait
+          Augusti<lb ed="#G" n="107" break="no"/>nus, &amp; sit medium inter ens, &amp; nihil, vt ait
+          Commenta<lb ed="#G" n="108" break="no"/>tor, &amp; ideo illa entitas materiae, quae preesset, non posset 
+          <lb ed="#G" n="109"/>esse minor, quam tota entitas materie. 
+        </p>
+        <p xml:id="HuYgTa-129203-d1e329">
+          <lb ed="#G" n="110"/>
+          <pc type="indent"/>Sed contra istam conclusionem, quam reputo
+          verissi<lb ed="#G" n="111" break="no"/>mam, &amp; catholicae fidei conformem, sunt aliqui doctores. 
+          <lb ed="#G" n="112"/>Quorum vnus ponit omnes creaturas ab aeterno non
+          so<lb ed="#G" n="113" break="no"/>um habere esse cognitum a Deo, sed esse constitutum:¬ 
+          <lb ed="#G" n="114"/>Deo in ratione causae formalis exemp laris in esse
+          predi<lb ed="#G" n="115" break="no"/>tamentali, &amp; reali essentiae, &amp; quidditatis realiter
+          diffe<lb ed="#G" n="116" break="no"/>rentis a natura diuina. Et istae creaturae actu quantum  
+          <lb ed="#G" n="117"/>ad esse essentiae constitutae a Deo secundum
+          ratio<lb ed="#G" n="118" break="no"/>nem exemplarem ab aeterno, dicuntur esse in
+          poten<lb ed="#G" n="119" break="no"/>tia ad esse existentiae, vt scilicet a Deo
+          constituan<lb ed="#G" n="120" break="no"/>tur in esse existentiae secundum rationem causae es¬ 
+          <!--378.xml-->
+          <pb ed="#G" n="170-r"/>
+          <cb ed="#G" n="a"/>
+          <lb ed="#G" n="1"/>ficientis per creationem.
+        </p>
+        <p xml:id="HuYgTa-129203-d1e366">
+          Et hoc ipsi probant sic.
+          <lb ed="#G" n="2"/>1 Quia ab aeterno Deus fuit exemplar &amp; idea omniu 
+          <lb ed="#G" n="3"/>rerum ab eo intellectarum: ergo res tales ab aeterno
+          ha<lb ed="#G" n="4" break="no"/>buerunt veram realitatem realiter differentem a suo exem 
+          <lb ed="#G" n="5"/>plari,. Consequentia patet: quia idea non potest esse idea 
+          <lb ed="#G" n="6"/>tum, nec exemplar exemplatum: ergo &amp;c.
+        </p>
+        <p xml:id="HuYgTa-129203-d1e379">
+          <lb ed="#G" n="7"/>2 Praeterea, <ref xml:id="HuYgTa-129203-Rd1e383">Augustinus. 15. de trin</ref> ait, quod Deus non 
+          <lb ed="#G" n="8"/>aliter cognoscit fienda, quam facta, constat autem, quod 
+          <lb ed="#G" n="9"/>quando cognoscit facta, cognoscit rerum quidditates rea 
+          <lb ed="#G" n="10"/>liter differentes a se, igitur quando non sunt existentia 
+          <lb ed="#G" n="11"/>puta ab aeterno, easdem veras rerum quidditates, &amp; essen 
+          <lb ed="#G" n="12"/>tias realiter a se differentes cognoscit
+        </p>
+        <p xml:id="HuYgTa-129203-d1e399">
+          <lb ed="#G" n="13"/>3 Praeterea, illud, quod Deus de ipsis creaturis ab eter 
+          <lb ed="#G" n="14"/>no cognouit, hoc fuit creabile igitur vel diuina essentia 
+          <lb ed="#G" n="15"/>esset creabilis, vel illud, quod diuinae cognitioni
+          obiecti<lb ed="#G" n="16" break="no"/>ue respondebat, ab essentia diuina realiter differebat.
+        </p>
+        <p xml:id="HuYgTa-129203-d1e410">
+          <lb ed="#G" n="17"/>4 Praeterea, Deus ab aeterno cognouit res creabiles,  
+          <lb ed="#G" n="18"/>non solum vt sunt in eius essentia: quia vt sic, intellexi 
+          <lb ed="#G" n="19"/>suas perfectiones: sed intellexit eas, vt quaedam obiecta 
+          <lb ed="#G" n="20"/>secundario cognita fieri possibilia: sed obiecti ad
+          poten<lb ed="#G" n="21" break="no"/>tiam est relatio realis, cum praecedat actum rationis: rela  
+          <lb ed="#G" n="22"/>tio autem realis presupponit fundamentum reale : eroo 
+          <lb ed="#G" n="23"/>tales res cognitae habuerunt ab aeterno aliquod esse reale¬
+        </p>
+        <p xml:id="HuYgTa-129203-d1e428">
+          <lb ed="#G" n="24"/>3 Praeterea, illud, quod ab aeterno est res generis, q&amp; 
+          <lb ed="#G" n="25"/>praedicamenti: oportet, quod ab eteruo sit res differens a 
+          <lb ed="#G" n="26"/>potentia primi agentis, quae est extra omne genus, &amp; prae 
+          <lb ed="#G" n="27"/>dicamentum: sed creatura ab eterno fuit res generis, &amp;  
+          <lb ed="#G" n="28"/>praedicamenti: sicut enim nunc videmus, quod rosa non 
+          <lb ed="#G" n="29"/>existens actu, est res generis, &amp; praedicamenti: sic ab
+          aeter<lb ed="#G" n="30" break="no"/>no fuit res generis, &amp; praedicamenti: res enim ad idem pre 
+          <lb ed="#G" n="31"/>dicamentum pertinet existens actu, &amp; potentia. 
+        </p>
+        <p xml:id="HuYgTa-129203-d1e448">
+          <lb ed="#G" n="32"/>
+          <pc type="indent"/>e Praeterea. <ref xml:id="HuYgTa-129203-Rd1e454">4. super Sien. ait Augustinus</ref>. Omne, quod 
+          <lb ed="#G" n="33"/>cognosci potest, habet prius esse, quam cognoscatur; ergo 
+          <lb ed="#G" n="34"/>creaturae ab eter no habuerunt aliquod esse: cum ab aeter 
+          <lb ed="#G" n="35"/>no a Deo sint cognitae. hoc autem esse, de quo loquitui 
+          <lb ed="#G" n="36"/>Augustinus, non potuit esse ipsum esse cognitum: quia 
+          <lb ed="#G" n="37"/>hoc sequitur cognitionem. nec esse existentiae: quia hoc 
+          <lb ed="#G" n="38"/>acceperunt in tempore per ercationem; ergo oportet, quoi 
+          <lb ed="#G" n="39"/>intelligatur de esse essentiae. 
+        </p>
+        <p xml:id="HuYgTa-129203-d1e473">
+          <lb ed="#G" n="40"/>
+          <pc type="indent"/>Praeterea, istam entitatem realem ab aeterno existentem 
+          <lb ed="#G" n="41"/>&amp;a Deo realiter differentem quidam alii appellant pos 
+          <lb ed="#G" n="42"/>sibile obiectiuum. Et suam intentionem probant sic¬
+        </p>
+        <p xml:id="HuYgTa-129203-d1e484">
+          <lb ed="#G" n="43"/>1 Illud, quod est possibile non solum potentia extrin 
+          <lb ed="#G" n="44"/>seca, verum etiam potentia intrinseca, hoc est verum en 
+          <lb ed="#G" n="45"/>reale: creatura antequam crearetur erat huiusmodi. Quod 
+          <lb ed="#G" n="46"/>probant dupliciter. 
+        </p>
+        <p xml:id="HuYgTa-129203-d1e496">
+          <lb ed="#G" n="47"/>
+          <pc type="indent"/>Primo per <ref xml:id="HuYgTa-129203-Rd1e502">Auic. qui. 4. meta</ref>, suae ait. Omne, quod inci 
+          <lb ed="#G" n="48"/>pit esse, antequam sit, necesse, est, quod sit potentialiter 
+          <lb ed="#G" n="49"/>in se: alias nullo modo erit, si enim non erit possibile in 
+          <lb ed="#G" n="50"/>se, cunc erit impossibile¬ 
+        </p>
+        <p xml:id="HuYgTa-129203-d1e513">
+          <lb ed="#G" n="51"/>
+          <pc type="indent"/>Secundo probant idem sic. Si lapis, antequam creatur. 
+          <lb ed="#G" n="52"/>est solum possibilis potentia creatoris, puta quia Deus 
+          <lb ed="#G" n="53"/>potest eum creare, tunc chimeram fieri esset impossibile 
+          <lb ed="#G" n="54"/>ex sola impotentia Dei, puta quia Deus non potest 
+          <lb ed="#G" n="55"/>eam creare.
+        </p>
+        <p xml:id="HuYgTa-129203-d1e529">
+          <lb ed="#G" n="56"/>2 Praeterea, illud, quod ab aeterno fuit creabile, ab eterno 
+          <lb ed="#G" n="57"/>minus fuit non ens, quam ens prohibitum, quod
+          secun<lb ed="#G" n="58" break="no"/>dum se omnimodam habet repugnantiam ad esse : ergo 
+          <lb ed="#G" n="59"/>res creabilis ab aeterno habuit aliquam entitatem
+          possi<lb ed="#G" n="60" break="no"/>bilem, qua intrinsece minus sibi repugnabati creari, quam 
+          <lb ed="#G" n="61"/>enti prohibito. 
+        </p>
+        <p xml:id="HuYgTa-129203-d1e545">
+          <lb ed="#G" n="62"/>
+          <pc type="indent"/>3 Praeterea, ens reale extra animam reali diuisione d 
+          <lb ed="#G" n="63"/>uiditur in actum, &amp; potentiam: ergo vnumquodque ens 
+          <lb ed="#G" n="64"/>non solum habet entitatem realem, vt est in actu: verum 
+          <lb ed="#G" n="65"/>eriam vt est in potentia: quia reale diuisum saluatur in 
+          <lb ed="#G" n="66"/>vtroque membro realiter diuidentium
+        </p>
+        <p xml:id="HuYgTa-129203-d1e561">
+          <lb ed="#G" n="67"/>4 Praeterea, relatio realis praesupponit extrema
+          reali<lb ed="#G" n="68" break="no"/>ter distincta: sed inter creatum &amp; creabile ab aeterno fuit 
+          <lb ed="#G" n="69"/>relatio realis: quia sicut inter creans &amp; creatum est rela  
+          <lb ed="#G" n="70"/>tio realis, cum relationes modo potentiae sint reales, vt 
+          <lb ed="#G" n="71"/>patet. <ref xml:id="HuYgTa-129203-Rd1e574">5. metaphy.</ref> sic &amp;c. 
+        </p>
+        <p xml:id="HuYgTa-129203-d1e578">
+          <lb ed="#G" n="72"/>
+          <pc type="indent"/>3 Praeterea, sicut se habet impossibile ad possibile sic 
+          <lb ed="#G" n="73"/>se habet non ens ad es; ergo conmutatim, sicut se habet im 
+          <!--378.xml-->
+          <cb ed="#G" n="b"/>
+          <lb ed="#G" n="74"/>possibile ad non ens, sic se habebit impossibile ad ens: sed  
+          <lb ed="#G" n="75"/>omne impossibile de necessitate est non eus, loquendo de 
+          <lb ed="#G" n="76"/>ente reali positiuo: ergo omne possibile de necessitare est 
+          <lb ed="#G" n="77"/>verum ens reale positiuum 
+        </p>
+        <p xml:id="HuYgTa-129203-d1e601">
+          <lb ed="#G" n="78"/>
+          <pc type="indent"/>Sed ista minus bene intelligo: ideo primo arguam cou 
+          <lb ed="#G" n="79"/>tra primum modum dicendi istorum doctorum. Secundo 
+          <lb ed="#G" n="80"/>contra secundum. 1Et tertio rationibus eorum breunter 
+          <lb ed="#G" n="81"/>respondebo.
+        </p>
+        <p xml:id="HuYgTa-129203-d1e614">
+          Contra primum sic 
+          <lb ed="#G" n="82"/>1 Quandocumque tota essentia rei praeexistit produm 
+          <lb ed="#G" n="83"/>ctioni, tunc talis productio non solum non potest esse crea 
+          <lb ed="#G" n="84"/>tio, verum etiam nec potest dici vera generatio, quamuis 
+          <lb ed="#G" n="85"/>possit dici accidentalis transmutatio: sed secundum istos 
+          <lb ed="#G" n="86"/>creatura quaelibet secundum esse essentiae, quod idem est 
+          <lb ed="#G" n="87"/>quod essentia, fuit ab aeterno distincta ab ipso Deo: ergo 
+          <lb ed="#G" n="88"/>isti non solum contra fideles tollunt omnem creationem 
+          <lb ed="#G" n="89"/>verum etiam contra philosophos simul, &amp; theologos, to 
+          <lb ed="#G" n="90"/>lunt omnem veram generationem. Maior patet: quia
+          crea<lb ed="#G" n="91" break="no"/>tio, cum sit de nihilo productio, nihil rei producendae prae 
+          <lb ed="#G" n="92"/>supponit, generatio autem, vt patet vndique in vera phi 
+          <lb ed="#G" n="93"/>losophia, solam materiam rei generadae presupponit, qua 
+          <lb ed="#G" n="94"/>non dicit tantam entitatem, sicut tota essentia rei, vt rea 
+          <lb ed="#G" n="95"/>liter est distincta a suo producente¬ 
+        </p>
+        <p xml:id="HuYgTa-129203-d1e647">
+          <lb ed="#G" n="96"/>2 Praeterea, quandocumque hoc verbum est
+          predica<lb ed="#G" n="97" break="no"/>tur tertio adiacens, tunc potest absolute &amp; simpliciter in 
+          <lb ed="#G" n="98"/>ferri secundo adiacens, nisi prima predicatio fuerit cum 
+          <lb ed="#G" n="99"/>termino distrahente, sed essentia rei non est terminus d 
+          <lb ed="#G" n="100"/>strahens; ergo si verum est dicere rem esse ab aeterno
+          se<lb ed="#G" n="101" break="no"/>cundum esse essentiae, similiter &amp; absolute erit verum di 
+          <lb ed="#G" n="102"/>cere rem esse ab aeterno. Et quia quod est, non fit,
+          sequi<lb ed="#G" n="103" break="no"/>tur, quod nulla res de nouo simpliciter fieri possit. 
+        </p>
+        <p xml:id="HuYgTa-129203-d1e667">
+          <lb ed="#G" n="104"/>
+          <pc type="indent"/>3 Praeterea, si Deus non posset rerum essentias ab aeter 
+          <lb ed="#G" n="105"/>no cognoscere, nisi ipsae essentiae ponerentur ab aeterno 
+          <lb ed="#G" n="106"/>n esse reali distincto ab ipso Deo: tunc Dei scientia
+          de<lb ed="#G" n="107" break="no"/>penderet a talibus essentiis creaturarum: quia quicquid 
+          <lb ed="#G" n="108"/>necessario requirit alterum, necesse est ipsum aliquo 
+          <lb ed="#G" n="109"/>modo ab eo dependere.
+        </p>
+        <p xml:id="HuYgTa-129203-d1e685">
+          <lb ed="#G" n="110"/>4 Praeterea, si propter hoc, quod Deus vere cognoscit 
+          <lb ed="#G" n="111"/>essentias rerum ab aeterno, necesse est tales essentias rea 
+          <lb ed="#G" n="112"/>liter fuisse ab aeterno; eadem ratione sequitur ipsarum re 
+          <lb ed="#G" n="113"/>um essentias, proprietates, accidentia, operationes, &amp; om 
+          <lb ed="#G" n="114"/>nem modum essendi fuisse ab aeterno: quia omnia haec 
+          <lb ed="#G" n="115"/>Deus ab aeterno clarissime intellexit, cum non aliter con 
+          <lb ed="#G" n="116"/>gnoscat facta, quam fienda, vt ait beatus Augustinus. 
+        </p>
+        <p xml:id="HuYgTa-129203-d1e703">
+          <lb ed="#G" n="117"/>
+          <pc type="indent"/>3 Praeterea, quandocumque eadem rei essentia tran 
+          <lb ed="#G" n="118"/>sit de vno modo essendi ad alium modum essendi,
+          ill<lb ed="#G" n="119" break="no"/>es nec est creata, nec genita: sed solummodo mutata: sec 
+          <lb ed="#G" n="120"/>secundum modum dicendi istorum, cum Deus creaturas 
+          <lb ed="#G" n="121"/>produxit, eadem essentia rei transiuit de vno modo essen 
+          <lb ed="#G" n="122"/>di ad alium modum essendi, puta quia ante creationem 
+          <lb ed="#G" n="123"/>habuit ab aeterno modum essendi secundum esse essentio 
+          <lb ed="#G" n="124"/>&amp; post creationem habuit modum essendi secundum
+          es<lb ed="#G" n="125" break="no"/>se existentiae: ergo &amp;c
+        </p>
+        <p xml:id="HuYgTa-129203-d1e728">
+          <lb ed="#G" n="126"/>3 Praeterea, nec illa distinctio valet, qua tribuunt esse 
+          <lb ed="#G" n="127"/>essentiae causae formali exemplari, &amp; esse existentiae causae 
+          <lb ed="#G" n="128"/>efficienti: nam cum quattuor sint causae rerum, duae
+          scili<lb ed="#G" n="129" break="no"/>cet intrinsecae, puta materia &amp; forma, &amp; duae extrinsece, 
+          <lb ed="#G" n="130"/>puta finis &amp; efficiens; &amp; forma exemplaris non sit
+          mate<lb ed="#G" n="131" break="no"/>ria, nec forma materiam perficiens, nec finis; sequitur
+          ne<lb ed="#G" n="132" break="no"/>cessario, quod eius causalitas sit de genere causae efficientis. 
+        </p>
+        <p xml:id="HuYgTa-129203-d1e746">
+          <lb ed="#G" n="133"/>
+          <pc type="indent"/>3 Praeterea, secundum istos esse existentiae dicit solum 
+          <lb ed="#G" n="134"/>quendam respectum ad causam efficientem, sed respectus 
+          <lb ed="#G" n="135"/>purus non potest esse terminus alicuius actionis realis se 
+          <lb ed="#G" n="136"/>cundum se, quia etiam secundum istos in aliis dictis suis 
+          <lb ed="#G" n="137"/>respectus numquam acquiritur, nisi acquisito aliquo
+          ab<lb ed="#G" n="138" break="no"/>soluto in altero extremorum. Cum igitur ex parte
+          crea<lb ed="#G" n="139" break="no"/>toris nulla entitas absoluta possit acquiti, necesse est, quod 
+          <lb ed="#G" n="140"/>ex parte creaturae praeter esse actualis existentiae, quod isti 
+          <lb ed="#G" n="141"/>ponunt esse respectum, producatur essentia substrata ipsi 
+          <lb ed="#G" n="142"/>esse existentiae, quae realiter terminet ipsam creationem, 
+          <lb ed="#G" n="143"/>ad cuius productionem producatur etiam praedictus 
+          <lb ed="#G" n="144"/>respectus. 
+        </p>
+        <p xml:id="HuYgTa-129203-d1e777">
+          <lb ed="#G" n="145"/>
+          <pc type="indent"/>S Praeterea, Augustinus super illud, vt ex inuisibilibus 
+          <lb ed="#G" n="146"/>visibilia fierent, sic ait. Per inuisibilia significatur mudus 
+          <!--379.xml-->
+          <pb ed="#G" n="170-v"/>
+          <cb ed="#G" n="a"/>
+          <lb ed="#G" n="1"/>iste inuisibilis, qui erat in Dei sapientia ad cuius similitu 
+          <lb ed="#G" n="2"/>dinem factus est hic mudus visibilis: haec autem visibilia 
+          <lb ed="#G" n="3"/>antequam fierent, non erant. Et tunc immediate Augusti 
+          <lb ed="#G" n="4"/>nus mouet vnum dubium dicens. Quomodo Deo nota 
+          <lb ed="#G" n="5"/>erant, quae non erant: aut quomodo fierent, quae sibi nota 
+          <lb ed="#G" n="6"/>non essent: Respondet Augustinus dicens, quod antequam fis 
+          <lb ed="#G" n="7"/>rent, &amp; erant, &amp; non erant; erant. n. in Dei scientia: &amp; no 
+          <lb ed="#G" n="8"/>erant in sua natura. Et idem <ref xml:id="HuYgTa-129203-Rd1e809">Aug. 5. super Sen</ref>, ait.
+          Crea<lb ed="#G" n="9" break="no"/>tura omnis secundum esset, quod habuit ab aeterno, vita 
+          <lb ed="#G" n="10"/>erat, propter quod solum habebat esse in Deo. Et eadem  
+          <lb ed="#G" n="11"/>sententiam ponit Ansel. Monologion. 
+        </p>
+        <p xml:id="HuYgTa-129203-d1e820">
+          <lb ed="#G" n="12"/>
+          <pc type="indent"/>Ex his igitur, &amp; multis alijs sanctorum auctoritatibus 
+          <lb ed="#G" n="13"/>pparet, non solum illos de primo modo ponendi istam  
+          <lb ed="#G" n="14"/>opinionem, verum etiam illos de secundo modo falsum 
+          <lb ed="#G" n="15"/>dicere in hoc, quod ponunt creaturam ab aetern o fuisse
+          secu<lb ed="#G" n="16" break="no"/>dum aliquam sui entitatem realiter differentem ab ipso Deo. 
+          <lb ed="#G" n="17"/>2 Praeterea, istud possibile oblectiuum, quod isti de se 
+          <lb ed="#G" n="18"/>cundo modo dicendi ponunt, vel diceret maiorem
+          enti<lb ed="#G" n="19" break="no"/>tatem, quam essentia materiae, vel minorem, vel
+          aequa<lb ed="#G" n="20" break="no"/>lem. Si maiorem, tunc minus praesupponeret generatio 
+          <lb ed="#G" n="21"/>quam creatio. Si minorem, tunc essentia materiae non
+          es<lb ed="#G" n="22" break="no"/>set pura potentia. Si aequalem, tunc creatio non esset ma 
+          <lb ed="#G" n="23"/>gis de nihilo, quam ipsa generatio; quae omnia sunt absur 
+          <lb ed="#G" n="24"/>da &amp; impossibilia.
+        </p>
+        <p xml:id="HuYgTa-129203-d1e853">
+          <lb ed="#G" n="25"/>Ad primum igitur d e primo modo dicendi nego
+          con<lb ed="#G" n="26" break="no"/>sequentiam. Ad probationem dicendum, quod essentia 
+          <lb ed="#G" n="27"/>liuina ab aeterno fuit exemplar creaturarum, non quae 
+          <lb ed="#G" n="28"/>tunc essent, sed quae in tempore fierent 
+        </p>
+        <p xml:id="HuYgTa-129203-d1e864">
+          <lb ed="#G" n="29"/>
+          <pc type="indent"/>Ad secundum dicendum, quod hoc argumentum non ma 
+          <lb ed="#G" n="30"/>pis concludit de essentia rerum, quam de existentia: quia 
+          <lb ed="#G" n="31"/>Deus ab aeterno, &amp; in tempore aeque perfecte cognoscit 
+          <lb ed="#G" n="32"/>existentias rerum sicut essentias. Ad formam tamen
+          ar<lb ed="#G" n="33" break="no"/>gumenti dicendum, quod Deus ab aeterno cognouit
+          essen<lb ed="#G" n="34" break="no"/>tias rerum, non quae tunc essent: sed quae per sui potentiam 
+          <lb ed="#G" n="35"/>in tempore, dum sibi placeret, fieri possent. 
+        </p>
+        <p xml:id="HuYgTa-129203-d1e885">
+          <lb ed="#G" n="36"/>
+          <pc type="indent"/>Ad tertium nego consequentiam: quia quamuis illud 
+          <lb ed="#G" n="37"/>quod Deus cognouit de creaturis, esset creabile, tamen 
+          <lb ed="#G" n="38"/>nec illud fuit ab aeterno, nec diuina essentia erat
+          creabi<lb ed="#G" n="39" break="no"/>lis: sed sufficit quod diuina essentia talia comprehendat
+          vir<lb ed="#G" n="40" break="no"/>tualiter ad hoc, quod ipse Deus talia distincte cognoscat, cum 
+          <lb ed="#G" n="41"/>enim Deus perfecte cognoscit essentiam suam, tunc
+          per<lb ed="#G" n="42" break="no"/>fecte cognoscit omne creabile contentum virtualiter in 
+          <lb ed="#G" n="43"/>sua essentia 
+        </p>
+        <p xml:id="HuYgTa-129203-d1e907">
+          <lb ed="#G" n="44"/>
+          <pc type="indent"/>Ad quartum dicendum, quod Deus non cognouit
+          treatu<lb ed="#G" n="45" break="no"/>ras ab aeterno esse creabiles, &amp; possibiles fieri, potentia pas 
+          <lb ed="#G" n="46"/>siua se tenente ex parte creaturae: sed cognouit eas esse 
+          <lb ed="#G" n="47"/>possibiles potentia actiua se tenente ex parte creatoris,  
+          <lb ed="#G" n="48"/>seu suiipsius. Et ideo creatura ab aeterno extra Deum non 
+          <lb ed="#G" n="49"/>habuit aliquod esse reale, nec per consequens aliqua
+          re<lb ed="#G" n="50" break="no"/>latio realis fuit ab eterno inter essentiam rei creatae, &amp; 
+          <lb ed="#G" n="51"/>intellectum diuinum cognoscentem huiusmodi essentiam 
+          <lb ed="#G" n="52"/>sse possibilem fieri. 
+        </p>
+        <p xml:id="HuYgTa-129203-d1e931">
+          <lb ed="#G" n="53"/>
+          <pc type="indent"/>Ad quintum nego minorem. Ad probationem
+          dicen<lb ed="#G" n="54" break="no"/>dum, quod non est simile, quia dato, quod rosa non existat 
+          <lb ed="#G" n="55"/>actu; est tamen in suis causis naturalibus &amp; propinquis. 
+          <lb ed="#G" n="56"/>Etiam est in potentia passiua materiae, quae est vna de cau 
+          <lb ed="#G" n="57"/>sis intrinsecis rei naturalis.  
+        </p>
+        <p xml:id="HuYgTa-129203-d1e947">
+          <lb ed="#G" n="58"/>
+          <pc type="indent"/>Ad sextum dicendum, quod vt superius patuit, creaturae ab 
+          <lb ed="#G" n="59"/>aeter no habuerunt esse viuum in essentia creatoris. 
+        </p>
+        <p xml:id="HuYgTa-129203-d1e956">
+          <lb ed="#G" n="60"/>
+          <pc type="indent"/>Alias inuenitur sic. Posset etiam dici, quod Aug. ibi lo 
+          <lb ed="#G" n="61"/>quitur de cognitione nostra, &amp; non de cognitione Dei 
+          <lb ed="#G" n="62"/>uam nullum esse creaturae potest praecedere, cum Dei
+          com<lb ed="#G" n="63" break="no"/>nitio sit simpliciter aeterna. 
+        </p>
+        <p xml:id="HuYgTa-129203-d1e969">
+          <lb ed="#G" n="64"/>
+          <pc type="indent"/>Ad primum de secundo modo dicendi nego minorem
+        </p>
+        <p xml:id="HuYgTa-129203-d1e977">
+          <lb ed="#G" n="65"/>Ad primam probationem dicendum, qud illud verbum 
+          <lb ed="#G" n="66"/>Auic. est intelligendum de his, quae incipiunt esse in tempo 
+          <lb ed="#G" n="67"/>re per motum &amp; transmutationem virtute agentis naturalis 
+        </p>
+        <p xml:id="HuYgTa-129203-d1e986">
+          <lb ed="#G" n="68"/>
+          <pc type="indent"/>Ad secundam probationem nego consequentiam: quia
+          nul<lb ed="#G" n="69" break="no"/>a impotentia ex hoc apparet in agente, quia non facit il 
+          <lb ed="#G" n="70"/>ud, quod effectus actum esse non patitur. Vnde lapis ab 
+          <lb ed="#G" n="71"/>aeterno possibilis fuit creari, eo quod Deus ab aeterno po 
+          <lb ed="#G" n="72"/>tuit eum creare Posse n. creari est propter posse creare, &amp; 
+          <lb ed="#G" n="73"/>non econuerso, cum potentia prius dicatur de potentia acti 
+          <!--379.xml-->
+          <cb ed="#G" n="b"/>
+          <lb ed="#G" n="74"/>ua, quam passiua, vt patet. <ref xml:id="HuYgTa-129203-Rd1e1009">5. meta.</ref> Et licet isto modo possi 
+          <lb ed="#G" n="75"/>bilitatis creaturae causa sit potentia creatoris: impossibil 
+          <lb ed="#G" n="76"/>tatis tamen entis prohibiti non oportet assignare aliam 
+          <lb ed="#G" n="77"/>tausam, quam ipsammet repugnantiam terminorum
+        </p>
+        <p xml:id="HuYgTa-129203-d1e1020">
+          <lb ed="#G" n="78"/>Ad secundum nego consequentiam: quia quamuis ens 
+          <lb ed="#G" n="79"/>creabile ab aeterno minus fuerit non ens, quam ens prohi 
+          <lb ed="#G" n="80"/>itum in hoc, quod sibi competebat negatio repugnantiae ad 
+          <lb ed="#G" n="81"/>posse produci: ex hoc tamen non oportebat ipsum creabi 
+          <lb ed="#G" n="82"/>le ab aeterno fuisse secundum ;aliquam sui potentiam pas 
+          <lb ed="#G" n="83"/>siuam, seu subiectiuam: sed ad hoc sufficiebat continentia 
+          <lb ed="#G" n="84"/>virtualis, qua continebatur in potentia actiua creatoris. 
+        </p>
+        <p xml:id="HuYgTa-129203-d1e1038">
+          <lb ed="#G" n="85"/>
+          <pc type="indent"/>Ad tertium dicendum, quod potentia, quae cum actu di 
+          <lb ed="#G" n="86"/>uidit ens reale, vel est potentia subiectiua, vel est
+          poten<lb ed="#G" n="87" break="no"/>tia obiectiua talis, quae realiter fundatur in subiectiua: sec 
+          <lb ed="#G" n="88"/>tum creatura, vt extra creatorem concipitur, dicitur
+          fuis<lb ed="#G" n="89" break="no"/>se in potentia ab aeterno: talis potentia nec est subiectiua 
+          <lb ed="#G" n="90"/>nec est potentia obiectiua, quae immediate fundetur in su 
+          <lb ed="#G" n="91"/>biectiua: sed est mere obiectiua, quae non est alterum
+          di<lb ed="#G" n="92" break="no"/>uidentium ipsum ens reale. Et ide o quod sic est in poten 
+          <lb ed="#G" n="93"/>tia, non oportet esse ens reale. 
+        </p>
+        <p xml:id="HuYgTa-129203-d1e1062">
+          <lb ed="#G" n="94"/>
+          <pc type="indent"/>Ad quartum nego minorem: ad probationem dicendum, 
+          <lb ed="#G" n="95"/>quod relationes reales secundi modi, vt apparet. <ref xml:id="HuYgTa-129203-Rd1e1070">5. meta </ref>
+          <lb ed="#G" n="96"/>non fundantur quomodocumqe in potentijs: sed vel
+          fun<lb ed="#G" n="97" break="no"/>dantur in actione &amp; passione, vel in potentia, vt per ipsam  
+          <lb ed="#G" n="98"/>elicita est actio, &amp; illata ipsa passio: sed ab aeterno nec fuit 
+          <lb ed="#G" n="99"/>ctio, neque passio: ergo &amp;c 
+        </p>
+        <p xml:id="HuYgTa-129203-d1e1083">
+          <lb ed="#G" n="100"/>
+          <pc type="indent"/>Ad quintum dicendum, sicut etiam alias dixi, quod
+          com<lb ed="#G" n="101" break="no"/>mutata proportio vniuersaliter, &amp; gratia formae non tenet 
+          <lb ed="#G" n="102"/>nisi in terminis quantitatiuis, Posset etiam tota illa dedu 
+          <lb ed="#G" n="103"/>ctio concedi de possibili potentia subiectiua, non autem 
+          <lb ed="#G" n="104"/>de possibili potentia obiectiua, quae res ponitur in solo 
+          <lb ed="#G" n="105"/>sse cognito, &amp; non reali. 
+        </p>
+        <p xml:id="HuYgTa-129203-d1e1102">
+          <lb ed="#G" n="106"/>Secunda conclusio, scilicet quomodo creatura ab aeter 
+          <lb ed="#G" n="107"/>no fuit possibilis, non potentia intrinseca, sed extrinseca, 
+          <lb ed="#G" n="108"/>patet per iam dicta: ideo transeo causa breuitatis. 
+        </p>
+        <p xml:id="HuYgTa-129203-d1e1111">
+          <lb ed="#G" n="109"/>
+          <pc type="indent"/>ARTICVLVS II. 
+          <lb ed="#G" n="110"/>Vtrum res productae prefuerint in materia
+          secun<lb ed="#G" n="111" break="no"/>
+          <pc type="indent"/>dum rationes semmales.
+        </p>
+        <p xml:id="HuYgTa-129203-d1e1124">
+          <lb ed="#G" n="112"/>VANTVM ad secundum articulum, duo videnda 
+          <lb ed="#G" n="113"/>sunt. Primo quid sint rationes seminales. Secudo 
+          <lb ed="#G" n="114"/>qualiter res productae, seu formae rerum productarum
+          di<lb ed="#G" n="115" break="no"/>cuntur praeesse in suis causis naturalibus ante sui
+          produ<lb ed="#G" n="116" break="no"/>ctionem secundum huiusmodi rationes seminales. 
+        </p>
+        <p xml:id="HuYgTa-129203-d1e1137">
+          <lb ed="#G" n="117"/>
+          <pc type="indent"/>Quo ad primum dico, quod rationes seminales sunt que 
+          <lb ed="#G" n="118"/>lam habilitates, seu aptitudines a Deo inditae rebus
+          na<lb ed="#G" n="119" break="no"/>turali bus, ex quibus res naturales sunt aptae natae causare 
+          <lb ed="#G" n="120"/>naturales effectus secundum suas potentias actiuas, &amp; pas 
+          <lb ed="#G" n="121"/>uiuas. Tanta enim est imbecillitas rerum naturalium quod 
+          <lb ed="#G" n="122"/>ine huiusmodi habilitatibus, seu aptitudinibus, effectus 
+          <lb ed="#G" n="123"/>suos producere non possunt; dato etiam, quod habeat vir 
+          <lb ed="#G" n="124"/>tutes suas actiuas &amp; passiuas; non enim germinauit terra 
+          <lb ed="#G" n="125"/>herbam virentem, antequam Deus tertia die huiusmod 
+          <lb ed="#G" n="126"/>habilitates, quae sunt rationes seminales, sibi indidit, cum 
+          <lb ed="#G" n="127"/>dixit, germinet terra herbam virentem habentem semen 
+          <lb ed="#G" n="128"/>&amp;c. Et eodem modo de volatilibus &amp; aquatilibus
+          quin<lb ed="#G" n="129" break="no"/>ta dic: &amp; hominibus &amp; ceteris animalibus sexta dic: non vi 
+          <lb ed="#G" n="130"/>detur igitur aliud esse rationes seminales, nisi ordo
+          qui<lb ed="#G" n="131" break="no"/>lam, vel habitudo actiuorum ad passiua, &amp; econuerso,
+          se<lb ed="#G" n="132" break="no"/>cundum quod diuina benedictione principia passiua
+          de<lb ed="#G" n="133" break="no"/>bite, &amp; ordinate subdita sunt actiuis.
+        </p>
+        <p xml:id="HuYgTa-129203-d1e1179">
+          <lb ed="#G" n="134"/>Vnde secundum Aristo. ad rerum generationem non sul 
+          <lb ed="#G" n="135"/>iciunt duo principia, scilicet materia &amp; forma: sed
+          neces<lb ed="#G" n="136" break="no"/>grio requiritur ipsa priuatio. Propter quod
+          Arisrepren<lb ed="#G" n="137" break="no"/>lit Platonem. 1. physic, eo, quod despexisset priuationem 
+          <lb ed="#G" n="138"/>sic et, secudum Aug. tria sun t oium rerum naturalium prin 
+          <lb ed="#G" n="139"/>cipia, scilicet materia, forma &amp; rationes seminales. Vnde 
+          <lb ed="#G" n="140"/>melius exprimit illud tertium rerum principium per Au 
+          <lb ed="#G" n="141"/>ustinum, quam per Aristotelem. Quia priuatio secudum 
+          <lb ed="#G" n="142"/>Aristotelem, est carentia formae cum aptitudine ad eam, ita 
+          <!--380.xml-->
+          <pb ed="#G" n="171-r"/>
+          <cb ed="#G" n="a"/>
+          <lb ed="#G" n="1"/>quod priuatio per se dicit carentiam: &amp; solum ex
+          conse<lb ed="#G" n="2" break="no"/>quenti dicit aptitudinem. Ratio vero seminalis
+          econuer<lb ed="#G" n="3" break="no"/>so per se dicit aptitudinem. si autem dicit carentiam, hoc 
+          <lb ed="#G" n="4"/>est ex consequenti. Cum igitur aptitudo magis sit de
+          ra<lb ed="#G" n="5" break="no"/>tione principij, quam carentia, ideo &amp;c.
+          <lb ed="#G" n="6"/>est etiam illa assignatio principiorum facta per Augusti. 
+          <lb ed="#G" n="7"/>hum vniuersalior, quia priuatio, vt priuatio, se tenet
+          tan<lb ed="#G" n="8" break="no"/>tum ex parte principij passiui: sed rationes seminales se 
+          <lb ed="#G" n="9"/>tenent cum principuis actiuis, &amp; passiuis: ergo sententia 
+          <lb ed="#G" n="10"/>Auoustini non solum est congruentior, verum etiam est 
+          <lb ed="#G" n="11"/>completior, quam sit sententia Arist. 
+        </p>
+        <p xml:id="HuYgTa-129203-d1e1231">
+          <lb ed="#G" n="12"/>Qub ad secundum dico, quod forma non praeest secun 
+          <lb ed="#G" n="13"/>dum huiusmodi rationes seminales, ita quod aliqua en 
+          <lb ed="#G" n="14"/>titas ipsius formae presit in materia ante sui productionem.
+        </p>
+        <p xml:id="HuYgTa-129203-d1e1241">
+          <lb ed="#G" n="15"/>1 Nihil enim dicit effectus producibilis in sua causa 
+          <lb ed="#G" n="16"/>materiali, nifi materiam, vt apta nata est transmutari a 
+          <lb ed="#G" n="17"/>ctione naturali ad hoc, quod actu fiat i ipsa talis effectus,  
+          <lb ed="#G" n="18"/>situt etiam effectus producibilis in sua causa efficiente non 
+          <lb ed="#G" n="19"/>dicit aliud, quam ipsum efficiens, vt potens est talem 
+          <lb ed="#G" n="20"/>effectum ponere in esse
+        </p>
+        <p xml:id="HuYgTa-129203-d1e1257">
+          <lb ed="#G" n="21"/>2 Praeterea, sicut tota entitas materiae est potentia, quia 
+          <lb ed="#G" n="22"/>ipsa substantiuatur per posse, vt patet in de substantia
+          or<lb ed="#G" n="23" break="no"/>bis, sic tota entitas formae est actus: igitur si forma ante ij 
+          <lb ed="#G" n="24"/>sius actualem productionem secundum aliquam suam en 
+          <lb ed="#G" n="25"/>titatem distinctam a materia, praeesset in materia:
+          tun<lb ed="#G" n="26" break="no"/>esset actu, antequam esset actu, quod est contradictio.
+        </p>
+        <p xml:id="HuYgTa-129203-d1e1273">
+          <lb ed="#G" n="27"/>3 Praeterea, cum omnis entitas formae det esse
+          forma<lb ed="#G" n="28" break="no"/>le ei; in quo est, ergo materia haberet esse actu per form: 
+          <lb ed="#G" n="29"/>ante ipsam generationem, quod est impossibile: cum for 
+          <lb ed="#G" n="30"/>ma se cundum quod dat esse substantiale materiae, sit ter 
+          <lb ed="#G" n="31"/>minus ipsius generationis.
+        </p>
+        <p xml:id="HuYgTa-129203-d1e1286">
+          <lb ed="#G" n="32"/>4 Praeterea, tunc subiectum generationis non esset po 
+          <lb ed="#G" n="33"/>ra materia scilicet ipsum hyle: quod est contra philoso. 
+          <lb ed="#G" n="34"/>phum primo de generatione 
+        </p>
+        <p xml:id="HuYgTa-129203-d1e1295">
+          <lb ed="#G" n="35"/>
+          <pc type="indent"/>Praeterea, si forma praeexisteret secundum aliquam sul 
+          <lb ed="#G" n="36"/>eititatem realiter distinctam a materia, cum forma sit in 
+          <lb ed="#G" n="37"/>diuisibilis, oporteret, quod secundum totam essentiam 
+          <lb ed="#G" n="38"/>praeexisteret: sed tota essentia formae non potest esse in 
+          <lb ed="#G" n="39"/>aliquo, nisi det ei esse secundum illam formam, quia vt ait 
+          <lb ed="#G" n="40"/>
+          <ref xml:id="HuYgTa-129203-Rd1e1312">Commentator 7. metaph</ref> essentia non potest separari a 
+          <lb ed="#G" n="41"/>suo esse: ergo in aere, siue in materia aeris esset vere ignis,  
+          <lb ed="#G" n="42"/>ntequam ex acre generaretur ignis. 
+        </p>
+        <p xml:id="HuYgTa-129203-d1e1320">
+          <lb ed="#G" n="43"/>
+          <pc type="indent"/>sed contrarium istius, conclusionis tenent quidam di 
+          <lb ed="#G" n="44"/>ctores dicentes, quod sicut forma in actu ponit
+          numerun<lb ed="#G" n="45" break="no"/>tum materia, ita, quod materia, &amp; forma n actu, sunt duae 
+          <lb ed="#G" n="46"/>res, ex quibus constituitur compositum in actu; sic forma in 
+          <lb ed="#G" n="47"/>potentia ponit numerum cum materia, ita quod sunt dua 
+          <lb ed="#G" n="48"/>res, ex quibus constituitur compositum in potentia. 
+        </p>
+        <p xml:id="HuYgTa-129203-d1e1339">
+          <lb ed="#G" n="49"/>
+          <pc type="indent"/>Et addunt isti, quod tota forma secundum rem, vt
+          ha<lb ed="#G" n="50" break="no"/>bet esse in potentia; dicitur fui ipsius exordium, vt
+          edu<lb ed="#G" n="51" break="no"/>tenda est in actum: &amp; propter huiusmodi inchoationem 
+          <lb ed="#G" n="52"/>forma dicitur praeexistere in materia ante generationem, 
+          <lb ed="#G" n="53"/>Malta alia valde dubia ponit iste doctor cum his dictis 
+          <lb ed="#G" n="54"/>Haec tamen magis sunt ad praesens propositum.
+        </p>
+        <p xml:id="HuYgTa-129203-d1e1357">
+          <lb ed="#G" n="55"/>1 Praedicta autem probat primo per <ref xml:id="HuYgTa-129203-Rd1e1361">Commentatorem, 
+            <lb ed="#G" n="56"/>qui 7. metaphysi.</ref> ait. Est igitur aliquod vnum, quod pri 
+          <lb ed="#G" n="57"/>mo est in potentia, &amp; postea transfertur de potentia ad 
+          <lb ed="#G" n="58"/>actumitranslatio enim non largitur ei multitudinem, sed 
+          <lb ed="#G" n="59"/>perfectionem in esse: Ex quo manifeste apparet, vt dicunt,  
+          <lb ed="#G" n="60"/>quod non acquiritur aliqua noua res, sed solum nouus 
+          <lb ed="#G" n="61"/>modus essendi. Et ideo sicut post transmutationem in com 
+          <lb ed="#G" n="62"/>posito sunt duae res, scilicet materia &amp; forma, ita &amp; ante 
+          <lb ed="#G" n="63"/>transmutationem.
+        </p>
+        <p xml:id="HuYgTa-129203-d1e1382">
+          <lb ed="#G" n="64"/>2 Praeter ea, actus &amp; potentia, cum diuidant quodlibet 
+          <lb ed="#G" n="65"/>genus, &amp; quamlibet speciem entis, oportet, quod sint in 
+          <lb ed="#G" n="66"/>eodem genere, &amp; in eadem specle, hoc autem esse non 
+          <lb ed="#G" n="67"/>posset nisi forma in actu, &amp; in potentia esset eadem res 
+          <lb ed="#G" n="68"/>cum identitas speciei sumatur ab identitate formae, a qua 
+          <lb ed="#G" n="69"/>vnumquodque sortitur speciem: ergo &amp;c.
+        </p>
+        <p xml:id="HuYgTa-129203-d1e1398">
+          <lb ed="#G" n="70"/>3 Praeterea, medium conmunicat naturaliter cum ex 
+          <lb ed="#G" n="71"/>tremis: ego sicut albedo in actu, &amp; omnimoda negatio al 
+          <lb ed="#G" n="72"/>bedinis differunt a materia, sic albedo in potentia; qua 
+          <lb ed="#G" n="73"/>est medium inter ea, est aliud a materia, 
+        </p>
+        <p xml:id="HuYgTa-129203-d1e1409">
+          <!--380.xml-->
+          <cb ed="#G" n="b"/>
+          <lb ed="#G" n="74"/>4 Praeterea, si sola materia praeexisteret, cum essentia 
+          <lb ed="#G" n="75"/>formae sit alia ab essentia materiae, ipsa forma, cum res ge 
+          <lb ed="#G" n="76"/>neratur, ex nihilo crearetur.
+        </p>
+        <p xml:id="HuYgTa-129203-d1e1422">
+          <lb ed="#G" n="77"/>3 Praeterea, ad idem posset argui sic. Entis ad non 
+          <lb ed="#G" n="78"/>ens non potest esse realis ordo, vel habitudo, siue
+          rea<lb ed="#G" n="79" break="no"/>lis relatio : quia relatio realis necessario requirit ex- 
+          <lb ed="#G" n="80"/>trema realia: sed materiae ad formam in potentia
+          exi<lb ed="#G" n="81" break="no"/>stentem est habitudo, siue relatio realis: igitur
+          for<lb ed="#G" n="82" break="no"/>ma, vt est in potentia, necessario dicit aliquam entitatem 
+          <lb ed="#G" n="83"/>realem. 
+        </p>
+        <p xml:id="HuYgTa-129203-d1e1441">
+          <lb ed="#G" n="84"/>
+          <pc type="indent"/>Preterea, appetitus realis non potest esse ad illud 
+          <lb ed="#G" n="85"/>quod formaliter nihil est, sed materia habet appetitum 
+          <lb ed="#G" n="86"/>realem ad formam, quae est in potentia, quia materia
+          ap<lb ed="#G" n="87" break="no"/>petit formam, vt femina masculum, &amp; turpe bonum, vt 
+          <lb ed="#G" n="88"/>dicitur primo physico 
+        </p>
+        <p xml:id="HuYgTa-129203-d1e1457">
+          <lb ed="#G" n="89"/>
+          <pc type="indent"/>Sed Quia isti videntur incidere in errorem
+          Anaxago<lb ed="#G" n="90" break="no"/>rae, qui nihil posuit esse sincerum, quia omnia posuit in 
+          <lb ed="#G" n="91"/>omnibus, ideo omnia per philosophum adducta primo  
+          <lb ed="#G" n="92"/>physicorum contra Anaxagoram, possunt adduci etiam  
+          <lb ed="#G" n="93"/>contra istos 
+        </p>
+        <p xml:id="HuYgTa-129203-d1e1473">
+          <lb ed="#G" n="94"/>
+          <pc type="indent"/>Modus etiam istius positonis non valet. 
+          <lb ed="#G" n="95"/>1 Quia quamuis forma in actu differat a materia, non  
+          <lb ed="#G" n="96"/>tamen forma in potentia: quia actus est, qui distinguit  
+          <lb ed="#G" n="97"/>igitur forma in actu vere distinguitur a materia, quae est 
+          <lb ed="#G" n="98"/>ens in potentia: immo est ipsa potentia. Potentia autem, 
+          <lb ed="#G" n="99"/>vt potentia, non distinguitur a potentia. Et ideo forma in 
+          <lb ed="#G" n="100"/>potentia non potest esse distincta a materia
+        </p>
+        <p xml:id="HuYgTa-129203-d1e1493">
+          <lb ed="#G" n="101"/>2 Praeterea, sicut actus cum actu, vt actus est, non
+          con<lb ed="#G" n="102" break="no"/>stituit aliquod compositum, sic potentia cum potentia 
+          <lb ed="#G" n="103"/>non potest constituere compositum
+        </p>
+        <p xml:id="HuYgTa-129203-d1e1502">
+          <lb ed="#G" n="104"/>3 Praeterea, essentia formae, si precederet
+          generatio<lb ed="#G" n="105" break="no"/>nem, existens distincta a materia, aut esset maioris
+          enti<lb ed="#G" n="106" break="no"/>tatis, quam materia, aut minoris, aut aequalis. Deducatur 
+          <lb ed="#G" n="107"/>sicut in praecedenti articulo deductum est. 
+        </p>
+        <p xml:id="HuYgTa-129203-d1e1513">
+          <lb ed="#G" n="108"/>
+          <pc type="indent"/>Praeterea, si per generationem solum modus acqui 
+          <lb ed="#G" n="109"/>reretur, &amp; non res, tunc generatio non esset realis, sed  
+          <lb ed="#G" n="110"/>modalis.
+        </p>
+        <p xml:id="HuYgTa-129203-d1e1525">
+          <lb ed="#G" n="111"/>Ad primum dicendum, quod pro tanto dicitur trans 
+          <lb ed="#G" n="112"/>mutatio materiae non largiri multitudinem, sed
+          perfe<lb ed="#G" n="113" break="no"/>ctionem in esse, quia perfectio, quam per transmutationem 
+          <lb ed="#G" n="114"/>acquirit ipsa materia, facit vnum cum materia, vel accide 
+          <lb ed="#G" n="115"/>taliter, ficut in transmutatione accidentali, vel
+          essentia<lb ed="#G" n="116" break="no"/>iter, sicut in trasmutatione substantiali, ita quod ex tali 
+          <lb ed="#G" n="117"/>perfectione, &amp; materia resultat vna essentia 
+        </p>
+        <p xml:id="HuYgTa-129203-d1e1543">
+          <lb ed="#G" n="118"/>Ad secundum dicendum, quod ens existens in pura po 
+          <lb ed="#G" n="119"/>tentia nec est in genere, nec in specie actu: cum enim vnum 
+          <lb ed="#G" n="120"/>quodque sit in genere per suam entitatem: ideo sicnt ens 
+          <lb ed="#G" n="121"/>n pura potentia non habet entitatem, sed possibile est 
+          <lb ed="#G" n="122"/>ipsum quandoque habere entitatem, sic non est in
+          spe<lb ed="#G" n="123" break="no"/>cie, sed potest quandoque esse in specie¬ 
+        </p>
+        <p xml:id="HuYgTa-129203-d1e1559">
+          <lb ed="#G" n="124"/>
+          <pc type="indent"/>Ad tertium dicendum, quod per omnimodam albedi 
+          <lb ed="#G" n="125"/>nis negationem, vel intelligens prohibitum, puta quod 
+          <lb ed="#G" n="126"/>nullam habet entitatem albedinis, nec possibile est ipsam 
+          <lb ed="#G" n="127"/>aliquam vmquam habere albedinem quacumque
+          virtu<lb ed="#G" n="128" break="no"/>te, &amp; tunc albedo in potentia non est medium participans 
+          <lb ed="#G" n="129"/>talia extrema, quia possibile nihil participat de
+          impossi<lb ed="#G" n="130" break="no"/>bili, vel intelligis negationem omnis entitatis realis
+          ip<lb ed="#G" n="131" break="no"/>sius albedinis, &amp; tunc albedo, seu album in potentia non  
+          <lb ed="#G" n="132"/>est medium inter praedicta, sed est ipsum alterum
+          extre<lb ed="#G" n="133" break="no"/>mum, quia vt sic, dicit omnimodam negationem albedi 
+          <lb ed="#G" n="134"/>nis. Nam vt in potentia pura est ad albedinem, nihil tunc 
+          <lb ed="#G" n="135"/>habet de albedine 
+        </p>
+        <p xml:id="HuYgTa-129203-d1e1590">
+          <lb ed="#G" n="136"/>
+          <pc type="indent"/>Ad quartum dicendum, quod vt patet. <ref xml:id="HuYgTa-129203-Rd1e1596">7. met aphysio</ref> 
+          <lb ed="#G" n="137"/>forma non fit, sed totum compositum fit ex materia &amp; fori 
+          <lb ed="#G" n="138"/>ma: &amp; ideo non oportet quaerere, ex quo fiat forma, cum 
+          <lb ed="#G" n="139"/>ipsa non fiat per se, sed solum per accidens, scilicet ad
+          fa<lb ed="#G" n="140" break="no"/>ctionem totius: igitur sufficit assignare illud, ex quo per 
+          <lb ed="#G" n="141"/>se fit ipsum totum ad hoc, quod videtur creatio. Etiam 
+          <lb ed="#G" n="142"/>ista ratio est contra istos, quia ille modus accidentalis,
+          se<lb ed="#G" n="143" break="no"/>cudum quem dicunt formam terminare generationem, 
+          <lb ed="#G" n="144"/>non praefuit, nec secundum se, nec secundum aliquid sui 
+          <lb ed="#G" n="145"/>Et ideo modo si forma argumenti valeret, tume saltem ille 
+          <lb ed="#G" n="146"/>modus crearetur.
+        </p>
+        <p xml:id="HuYgTa-129203-d1e1622">
+          <!--381.xml-->
+          <pb ed="#G" n="171-v"/>
+          <cb ed="#G" n="a"/>
+          <lb ed="#G" n="1"/>Ad quintum dicendum, quod illa habitudo matetia 
+          <lb ed="#G" n="2"/>ad formam, quae est in potentia, non est rel atio reali 
+          <lb ed="#G" n="3"/>actu, sed aptitudine. Et ideo non oportet, quod actu ha 
+          <lb ed="#G" n="4"/>heat terminum realem, sed sufficit talem terminum ess 
+          <lb ed="#G" n="5"/>in suis causis absque reali distinctione sui ab huiusmodi 
+          <lb ed="#G" n="6"/>causis; cum autem talis terminus, scilicet ipsa forma secun 
+          <lb ed="#G" n="7"/>dum propriam suam entitatem distincte a suis causis po 
+          <lb ed="#G" n="8"/>netur in esse proprio, tunc etiam talis relatio, quam
+          ter<lb ed="#G" n="9" break="no"/>minat, erit actualis; quia actualiter terminatur 
+        </p>
+        <p xml:id="HuYgTa-129203-d1e1651">
+          <lb ed="#G" n="10"/>
+          <pc type="indent"/>Ad sextum dicendum, nego maiorem: quia agens
+          agi<lb ed="#G" n="11" break="no"/>propter finem non acquisitum: quia, habitibus
+          praesenti<lb ed="#G" n="12" break="no"/>bus cessat motus: sed mouetur, &amp; agit propter finem ac 
+          <lb ed="#G" n="13"/>quirendum, qui in se formaliter non est, &amp; tamen
+          appe<lb ed="#G" n="14" break="no"/>titur ab agent e 
+          <lb ed="#G" n="15"/>
+          <pc type="indent"/>vel dicendum, quod quamuis forma, quam appetit 
+          <lb ed="#G" n="16"/>materia in se, &amp; formaliter nihil sit est tamen aliquid dis 
+          <lb ed="#G" n="17"/>positue, puta in suis dispositonibus, quae sunt in materia 
+          <lb ed="#G" n="18"/>inclinantes eam ad appetendum formam, ad quam
+          dis<lb ed="#G" n="19" break="no"/>ponunt. 
+        </p>
+        <p xml:id="HuYgTa-129203-d1e1681">
+          <lb ed="#G" n="20"/>
+          <pc type="indent"/>ARTI CV LV S lIt 
+          <lb ed="#G" n="21"/>Vtrum corpus Fuae praefueri 
+          <lb ed="#G" n="22"/>
+          <pc type="indent"/>costa. Adae,
+        </p>
+        <p xml:id="HuYgTa-129203-d1e1694">
+          <lb ed="#G" n="23"/>QVANTVM ad tertium principale pono duas
+          con<lb ed="#G" n="24" break="no"/>clusiones.
+        </p>
+        <p xml:id="HuYgTa-129203-d1e1701">
+          <lb ed="#G" n="25"/>Prima est, quod corpus fuae non praefuit in costa Ada 
+          <lb ed="#G" n="26"/>secundum potentiam naturalem: quia illud non est in 
+          <lb ed="#G" n="27"/>aliquo secundum potentiam naturalem, quod non est in 
+          <lb ed="#G" n="28"/>eo secundum rationem seminalem, sed corpus fuae non pro 
+          <lb ed="#G" n="29"/>fuit in costa Adae secundum rationem seminale: ergo &amp;c 
+          <lb ed="#G" n="30"/>maior &amp; minor patent ex praecedentibus 
+        </p>
+        <p xml:id="HuYgTa-129203-d1e1717">
+          <lb ed="#G" n="31"/>
+          <pc type="indent"/>Secunda conclusio est, corpus fuae praefuit in costa Ada 
+          <lb ed="#G" n="32"/>secundum potentiam obedientialem. Quia quicquid vi 
+          <lb ed="#G" n="33"/>tute diuina fit de aliqua re materiali, quod virtute natura 
+          <lb ed="#G" n="34"/>lis agentis fieri nequaquam potuit, hoc praefuit in illa re 
+          <lb ed="#G" n="35"/>ma teriali saltem secundum potentiam obedientialem  
+          <lb ed="#G" n="36"/>sed corpus fuae virtute diuina fuit factu de costa Adae, &amp; 
+          <lb ed="#G" n="37"/>nulla natur ali virtute hoc poterat fieri: ergo &amp;c 
+        </p>
+        <p xml:id="HuYgTa-129203-d1e1737">
+          <lb ed="#G" n="38"/>
+          <pc type="indent"/>Est tamen hic aduertendum, quod si quandoque inue 
+          <lb ed="#G" n="39"/>nitur in dictis beati Augustini, illud corpus praefuisse in 
+          <lb ed="#G" n="40"/>costa Adae secundum rationem seminalem: tunc ibi acc 
+          <lb ed="#G" n="41"/>pi tur ratio seminalis improprie 
+          <lb ed="#G" n="42"/>tex: n o¬ 
+        </p>
+        <p xml:id="HuYgTa-129203-d1e1753">
+          <lb ed="#G" n="43"/>
+          <pc type="indent"/>ARTICVLV S II. 
+          <lb ed="#G" n="44"/>Vtrum de costa. Adae fuerit factum corpus ruec sin 
+          <lb ed="#G" n="45"/>
+          <pc type="indent"/>additione nouae materiae, vel alicuius rei 
+          <lb ed="#G" n="46"/>
+          <pc type="indent"/>materialis.
+        </p>
+        <p xml:id="HuYgTa-129203-d1e1772">
+          <lb ed="#G" n="47"/>QVANTVM ad quartum principale pono dua 
+          <lb ed="#G" n="48"/>
+          <pc type="indent"/>conclusiones.
+        </p>
+        <p xml:id="HuYgTa-129203-d1e1781">
+          <lb ed="#G" n="49"/>Prima est, quod Deus potest de re corporali parua fa 
+          <lb ed="#G" n="50"/>cere corpus magnum sine rarefactione, &amp; sine nouae ma 
+          <lb ed="#G" n="51"/>teriae additionem 
+        </p>
+        <p xml:id="HuYgTa-129203-d1e1790">
+          <lb ed="#G" n="52"/>
+          <pc type="indent"/>1 Quia non apparet maior difficultas in isto, quam cre 
+          <lb ed="#G" n="53"/>re quod cumque corpus de nihilo, sed istud potest
+          Deu<lb ed="#G" n="54" break="no"/>vt declaratum est superius: ergo &amp;c 
+        </p>
+        <p xml:id="HuYgTa-129203-d1e1801">
+          <lb ed="#G" n="55"/>
+          <pc type="indent"/>2 Praeterea, ista est expressa sententia <ref xml:id="HuYgTa-129203-Rd1e1807">
+            <name xml:id="HuYgTa-129203-Nd1e1809" ref="#HughOfStVictor">Hugonis.</name> 1. lib 
+            <lb ed="#G" n="56"/>de sacramentis</ref>, vbi ponit quattuor, quae solus Deus
+          po<lb ed="#G" n="57" break="no"/>test, &amp; nulla creatura 
+        </p>
+        <p xml:id="HuYgTa-129203-d1e1818">
+          <lb ed="#G" n="58"/>Quorum primum est, quod Deus potest aliquid face 
+          <lb ed="#G" n="59"/>re de nihilo 
+        </p>
+        <p xml:id="HuYgTa-129203-d1e1825">
+          <lb ed="#G" n="60"/>
+          <pc type="indent"/>Secundum est, quod Deus potest aliquid conuerte 
+          <lb ed="#G" n="61"/>re in nihil¬ 
+        </p>
+        <p xml:id="HuYgTa-129203-d1e1835">
+          <lb ed="#G" n="62"/>Tertium est, quod potest de paruo facere magnum, e 
+          <lb ed="#G" n="63"/>non rarefacto, nec aliquo addito.  
+          <!--381.xml-->
+          <cb ed="#G" n="b"/>
+          <lb ed="#G" n="64"/>Quartum, quod Deus potest de magno facere paruum. 
+          <lb ed="#G" n="65"/>eo non condensato, nullo inde substracto 
+        </p>
+        <p xml:id="HuYgTa-129203-d1e1851">
+          <lb ed="#G" n="66"/>Sed contra istud est <ref xml:id="HuYgTa-129203-Rd1e1855">doctor commuuis in summa parte 
+            <lb ed="#G" n="67"/>prima. q. S2. artic. 3 n solutione primi argumenti</ref>, vbi si 
+          <lb ed="#G" n="68"/>ait. Quidam dicunt per multiplicationem materiae abs 
+          <lb ed="#G" n="69"/>que alterius additione formatum fuisse corpus mulieri 
+          <lb ed="#G" n="70"/>scilicet fuae ad modum, quo Deus quinque, panes multi 
+          <lb ed="#G" n="71"/>plicauit: sed hoc est omnino impossibile; quia multiplica 
+          <lb ed="#G" n="72"/>tio praedicta, aut accidit secundum transmutationem sub 
+          <lb ed="#G" n="73"/>stantiae ipsius materiae, aut secundum transmutationen 
+          <lb ed="#G" n="74"/>dimensionum eius. Non secundum transmutationem
+          sub<lb ed="#G" n="75" break="no"/>stantiae ipsius materiae, tum quia materia in se
+          considera<lb ed="#G" n="76" break="no"/>ta est omnino intransmutabilis: vt pote existens in pot 
+          <lb ed="#G" n="77"/>tia, &amp; habens solum rationem subiecti: &amp; ideo nullo mo 
+          <lb ed="#G" n="78"/>do potest multiplicatio materiae intelli gi, eadem mate 
+          <lb ed="#G" n="79"/>ria manente absque additione, nisi per hoc, quod
+          ma<lb ed="#G" n="80" break="no"/>ores accipiat dimensiones: hoc autem est rareheri, vt d 
+          <lb ed="#G" n="81"/>cit <ref xml:id="HuYgTa-129203-Rd1e1890">philosophus. 2. physicorum</ref>. Dicere ergo materiam mus 
+          <lb ed="#G" n="82"/>tiplicari absque rarefactione, est ponere contradictoria 
+          <lb ed="#G" n="83"/>scilicet diffinitionem absque diffinito. Vnde cum non a 
+          <lb ed="#G" n="84"/>pareat rarefactio in talibus multiplicationibus, necesse 
+          <lb ed="#G" n="85"/>est ponere additionem materiae: Haec sunt verba istiu 
+          <lb ed="#G" n="86"/>doctoris fideliter recitata 
+        </p>
+        <p xml:id="HuYgTa-129203-d1e1905">
+          <lb ed="#G" n="87"/>Et istud confirmant aliqui sequentes istum docto 
+          <lb ed="#G" n="88"/>rem sic¬ 
+        </p>
+        <p xml:id="HuYgTa-129203-d1e1912">
+          <lb ed="#G" n="89"/>
+          <pc type="indent"/>Impossibile est totum aequari parti: quia omne toti 
+          <lb ed="#G" n="90"/>est maius sua parte: sed costa Adae aequabatur secundum 
+          <lb ed="#G" n="91"/>materiam alicui parti corporis Fuae; ergo non aequabitur 
+          <lb ed="#G" n="92"/>secundum materiam toti corpori ipsius fuae.¬ 
+        </p>
+        <p xml:id="HuYgTa-129203-d1e1925">
+          <lb ed="#G" n="93"/>
+          <pc type="indent"/>2 Praeterea, Deus non potest facere corpus mixtum si 
+          <lb ed="#G" n="94"/>ne materia: ergo pari ratione non potuit facere tantum 
+          <lb ed="#G" n="95"/>corpus sine tanta materia. 
+        </p>
+        <p xml:id="HuYgTa-129203-d1e1936">
+          <lb ed="#G" n="96"/>
+          <pc type="indent"/>3 Praeterea, isto modo ex materia, quae est in grano mi 
+          <lb ed="#G" n="97"/>ii, posset fieri totus mundus, quod est inconueniens, vt 
+          <lb ed="#G" n="98"/>isti dicunt  
+        </p>
+        <p xml:id="HuYgTa-129203-d1e1948">
+          <lb ed="#G" n="99"/>
+          <pc type="indent"/>Sed ista contra praedictam conclusionem non concludunt 
+          <lb ed="#G" n="100"/>1 Quia Deus sua actione potest immediate produce 
+          <lb ed="#G" n="101"/>re essentiam materiae, &amp; per consequens, tamquam plent 
+          <lb ed="#G" n="102"/>habens dominium super ipsa essentia materiae potest qu 
+          <lb ed="#G" n="103"/>uiscumque modicam materiam informare sine rarefactio 
+          <lb ed="#G" n="104"/>ne quamuiscumque magna quantitate 
+        </p>
+        <p xml:id="HuYgTa-129203-d1e1966">
+          <lb ed="#G" n="105"/>
+          <pc type="indent"/>2 Praeterea, quando aliqua sunt omnino indifferenti 
+          <lb ed="#G" n="106"/>tunc ab eo, qui habet plenum dominium super ea, aequa 
+          <lb ed="#G" n="107"/>lis quantitas potest in vtrumque induci, salua similitudi 
+          <lb ed="#G" n="108"/>ne in raritate, &amp; densitate, sed materia, quae est sub grano 
+          <lb ed="#G" n="109"/>milii, &amp; materia maioris montis totius mundi considera 
+          <lb ed="#G" n="110"/>ta secundum suam essentiam sunt omnino indifferentes 
+          <lb ed="#G" n="111"/>cum in pura potentia nulla discernatur differentia seu d 
+          <lb ed="#G" n="112"/>stinctio, vt patet. <ref xml:id="HuYgTa-129203-Rd1e1987">1. metaph</ref> actus enim est, qui distingit, vt 
+          <lb ed="#G" n="113"/>dicitur <ref xml:id="HuYgTa-129203-Rd1e1993">3. de anima</ref>: ergo per potentiam Dei, salua
+          simili<lb ed="#G" n="114" break="no"/>tudine raritatis &amp; densitatis, potest quantitas illius mon  
+          <lb ed="#G" n="115"/>tis induci in materiam grani milii¬ 
+        </p>
+        <p xml:id="HuYgTa-129203-d1e2001">
+          <lb ed="#G" n="116"/>3 Praeterea, actiones diuersae per essentiam
+          possun<lb ed="#G" n="117" break="no"/>diuina virtute abinuicem separari: sed extensio, &amp;
+          rarefa<lb ed="#G" n="118" break="no"/>ctio eiusdem materiae sunt diuersae acti ones essentialiter 
+          <lb ed="#G" n="119"/>&amp; realiter differentes: ergo sine rarefactione poterit Deus 
+          <lb ed="#G" n="120"/>ipsam materiam extendere Cuius oppositum assumit isti 
+          <lb ed="#G" n="121"/>doctor in sua probatione. Maior patet, probatio minoris 
+          <lb ed="#G" n="122"/>quia essentialis ratio actionum sumitur a terminis, vt
+          pa<lb ed="#G" n="123" break="no"/>tet. <ref xml:id="HuYgTa-129203-Rd1e2020">5. physic</ref>, sed terminus extensionis, qua ex paruo fi 
+          <lb ed="#G" n="124"/>magnum, est in predicamento quantitatis, &amp; terminus ra 
+          <lb ed="#G" n="125"/>refactionis, qua de denso fit rarum, est in praedicament, 
+          <lb ed="#G" n="126"/>qualitatis 
+        </p>
+        <p xml:id="HuYgTa-129203-d1e2031">
+          <lb ed="#G" n="127"/>
+          <pc type="indent"/>Et confirmatur, quia prius virtute diuina potest separa 
+          <lb ed="#G" n="128"/>ri a posteriori; sed quantitas est prior qualitate: ergo
+          ex<lb ed="#G" n="129" break="no"/>tensio, vel augmentatio eiusdem materiae, quae
+          termina<lb ed="#G" n="130" break="no"/>tur ad quantitatem, potest virtute diuina separari a tare 
+          <lb ed="#G" n="131"/>factione, quae terminatur ad qualitatem. 
+        </p>
+        <p xml:id="HuYgTa-129203-d1e2047">
+          <lb ed="#G" n="132"/>
+          <pc type="indent"/>His premissis respodendum est rationibus istorum doctorum 
+          <lb ed="#G" n="133"/>Ad primum igitur dico, quod istud fit secundum
+          trams<lb ed="#G" n="134" break="no"/>mutationem dimensionum materiae. Ad probationem 
+          <lb ed="#G" n="135"/>cum dicitur, quod eandem materiam esse sub maioribus di¬ 
+          <!--382.xml-->
+          <pb ed="#G" n="172-r"/>
+          <cb ed="#G" n="a"/>
+          <lb ed="#G" n="1"/>mensionibus est rarefieri; dico, quod licet istud sit verum 
+          <lb ed="#G" n="2"/>loquendo de actione agentis naturalis, quod in eandem  
+          <lb ed="#G" n="3"/>materiam non potest inducere maiorem extensionem, nisi 
+          <lb ed="#G" n="4"/>inducendo maiorem raresactionem, tamen non est verum 
+          <lb ed="#G" n="5"/>loquendo de actione diuina, qua Deus potest in eandem 
+          <lb ed="#G" n="6"/>materiam inducere maiorem quantitatem, vel
+          exten<lb ed="#G" n="7" break="no"/>sionem, non inducendo maiorem rarefactionem. Nec ex 
+          <lb ed="#G" n="8"/>hoc ponitur diffinitio sine diffinito, quia cum philosophus 
+          <lb ed="#G" n="9"/>dicit eandem materiam habere maiorem extensionem 
+          <lb ed="#G" n="10"/>est rarefieri, ipse ibi describit rarefieri in ordine ad
+          actio<lb ed="#G" n="11" break="no"/>ne agentis naturalis, &amp; ideo non est ad propositum. Etiam 
+          <lb ed="#G" n="12"/>iste doctor assumit vnum dubium in hoc, quod dicit
+          ma<lb ed="#G" n="13" break="no"/>teriam intransmutabilem esse secundum se, quia vt sic.  
+          <lb ed="#G" n="14"/>habet rationem subiecti: totum enim per oppositum
+          de<lb ed="#G" n="15" break="no"/>beret dici, quia materia vt habet rationem subiecti sic es 
+          <lb ed="#G" n="16"/>proprie transmutabilis, vt sic enim, eadem manens
+          trans<lb ed="#G" n="17" break="no"/>mutatur de vno contrariorum in alterum, vt patet.<ref xml:id="HuYgTa-129203-Rd1e2103"> 1. physi.</ref>¬ 
+        </p>
+        <p xml:id="HuYgTa-129203-d1e2107">
+          <lb ed="#G" n="18"/>
+          <pc type="indent"/>Ad secundum nego minorem, quia materiae secundum 
+          <lb ed="#G" n="19"/>se nec conuenit, quod sit aequalis, vel inaequalis, hoc enim 
+          <lb ed="#G" n="20"/>proprium est quantitatis: &amp; ideo non conuenit materiae, 
+          <lb ed="#G" n="21"/>nisi secundum quod est quanta. Et quia per potentiam Dei 
+          <lb ed="#G" n="22"/>in eadem materia potest esse suceessiue alia, &amp; alia
+          quan<lb ed="#G" n="23" break="no"/>titas, &amp; alia &amp; alia extesio, ideo materia partis potest ess 
+          <lb ed="#G" n="24"/>aequalis materiae totius, si in huiusmodi materiam, in qua 
+          <lb ed="#G" n="25"/>nunc est quantitas partis, postea virtute diuina inducitur 
+          <lb ed="#G" n="26"/>quantitas totius. 
+        </p>
+        <p xml:id="HuYgTa-129203-d1e2132">
+          <lb ed="#G" n="27"/>
+          <pc type="indent"/>Alias sic inuenitur. 
+          <lb ed="#G" n="28"/>Ad secundum nego minorem, quia sicut probatum est 
+          <lb ed="#G" n="29"/>supra, Deus potest materiam informatam minori quant 
+          <lb ed="#G" n="30"/>tate subicere maiori quantitati absque rarefactione: ideo 
+          <lb ed="#G" n="31"/>per Dei potentiam fieri potuit, vt pars corporis Adae
+          aequa<lb ed="#G" n="32" break="no"/>retur secundum materiam toti corpori ipsis fuae¬ 
+        </p>
+        <p xml:id="HuYgTa-129203-d1e2150">
+          <lb ed="#G" n="33"/>
+          <pc type="indent"/>Ad tertium nego consequentiam: facit enim Deus
+          tam<lb ed="#G" n="34" break="no"/>tum corpus, quantum inducit quantitatem in materiam 
+          <lb ed="#G" n="35"/>diuinae factioni subiectam. 
+        </p>
+        <p xml:id="HuYgTa-129203-d1e2161">
+          <lb ed="#G" n="36"/>
+          <pc type="indent"/>Ad quartum concedo consequentiam, loquendo de 
+          <lb ed="#G" n="37"/>potentia Dei: quia ea potentia, qua potest mundum facert 
+          <lb ed="#G" n="38"/>de nihilo, etia potest mundum facere de vno milii grano 
+        </p>
+        <p xml:id="HuYgTa-129203-d1e2172">
+          <lb ed="#G" n="39"/>
+          <pc type="indent"/>Est etiam quaedam opinio, quae alterum tenet extremum 
+          <lb ed="#G" n="40"/>dicens, quod virtute agentis naturalis potest fieri in eade 
+          <lb ed="#G" n="41"/>materia maior quantitas, etiam manente aequali
+          rarefa<lb ed="#G" n="42" break="no"/>ctione. Quod probant sic. Ponut enim, quod minimun 
+          <lb ed="#G" n="43"/>ignis corrumpatur in aerem, tunc, vt dicunt, corrumpitur 
+          <lb ed="#G" n="44"/>in minimum aeris. Tunc secundo ponunt, quod illud mi- 
+          <lb ed="#G" n="45"/>nimum aeris corrumpatur in ignem: tunc, vt dicurt, ex ex 
+          <lb ed="#G" n="46"/>generantur decem minima ignis, quia sicut ex vno pugi 
+          <lb ed="#G" n="47"/>lo acris fiunt decem ignis: sic ex vno minimo aeris fiun 
+          <lb ed="#G" n="48"/>decem minima ignis; &amp; sic de primo ad vltimum ex vn 
+          <lb ed="#G" n="49"/>minimo ignis facta sunt decem, quorum quodlibet est
+          tan<lb ed="#G" n="50" break="no"/>tum, quantum erat primum minimum ignis, quia non est 
+          <lb ed="#G" n="51"/>dare minus minimo: Et per idem probant, quod primun 
+          <lb ed="#G" n="52"/>minimum ignis non potuit corrumpi in minus, quam in 
+          <lb ed="#G" n="53"/>minimum aeris: quia si datur oppositum, tunc est dare mi 
+          <lb ed="#G" n="54"/>nus minimo.  
+        </p>
+        <p xml:id="HuYgTa-129203-d1e2211">
+          <lb ed="#G" n="55"/>
+          <pc type="indent"/>Sed nec istud valet, quia <ref xml:id="HuYgTa-129203-Rd1e2217">Aug. 10 super Sen.</ref> loquens 
+          <lb ed="#G" n="56"/>de potentia naturalis agentis contra Tertullianum sic ait 
+          <lb ed="#G" n="57"/>Quid autem absurdius, quam putare massam cuiuspiam 
+          <lb ed="#G" n="58"/>metalli ex aliqua sui parte crescere posse, nisi decrescat in 
+          <lb ed="#G" n="59"/>altera: vel augeri latitudine, nisi grossitudine minuatur; 
+          <lb ed="#G" n="60"/>aut vllum esse corpus manente naturae suae quantitate, quod 
+          <lb ed="#G" n="61"/>vndique crescat, nisi recrescat, &amp;c 
+        </p>
+        <p xml:id="HuYgTa-129203-d1e2234">
+          <lb ed="#G" n="62"/>
+          <pc type="indent"/>Ad rationem eorum dicendum, quod intelligendo pe 
+          <lb ed="#G" n="63"/>minimum ignis, vel per minimum aeris illud, quod est tan 
+          <lb ed="#G" n="64"/>tae quantitatis, quod separatum a suo toto retinet nomen 
+          <lb ed="#G" n="65"/>&amp; speciem sui totius: est tamen ita modicum, quod si mi 
+          <lb ed="#G" n="66"/>nus fieret, immediate corrumpetur: tunc falsum assumitu 
+          <lb ed="#G" n="67"/>cum dicitur, quod ex minimo ignis corrupto generatur 
+          <lb ed="#G" n="68"/>minimum aeris, quia ille acr, qui generatur ex minimo 
+          <lb ed="#G" n="69"/>ignis, non est tantae quantitatis, quod possit per se in spe¬ 
+          <!--382.xml-->
+          <cb ed="#G" n="b"/>
+          <lb ed="#G" n="70"/>cie acris subsistere, quantitas enim eius est subdecupla ad 
+          <lb ed="#G" n="71"/>quantitatem minimi ignis praecorrupti: vnde solum
+          ha<lb ed="#G" n="72" break="no"/>bet esse prout alteri aeri confungitur 
+        </p>
+        <p xml:id="HuYgTa-129203-d1e2268">
+          <lb ed="#G" n="73"/>
+          <pc type="indent"/>Et cum dicitur, quod non est dare minus minimo 
+          <lb ed="#G" n="74"/>Dico, quod licet non possit minus minimo dari, quorum 
+          <lb ed="#G" n="75"/>vtrumque per se possit subsistere, tamen minimo pocent 
+          <lb ed="#G" n="76"/>per se subsistere potest dari minus non potens per se
+          sub<lb ed="#G" n="77" break="no"/>sistere, sicut enim in augmento proprie dicto etiam mi 
+          <lb ed="#G" n="78"/>nima pars aucti est aucta, vt dicitur primo de
+          genera<lb ed="#G" n="79" break="no"/>tione, quod vtique verum est loquendo de partibus, 
+          <lb ed="#G" n="80"/>quae dicuntur partes formales, in quibus, scilicet
+          ser<lb ed="#G" n="81" break="no"/>paratis a suis totis, potest manere forma totius. Et ta 
+          <lb ed="#G" n="82"/>men illud additum, quo minima pars aucti augetur, est 
+          <lb ed="#G" n="83"/>minus illa minima parte, quia est pars materialis, quae non 
+          <lb ed="#G" n="84"/>posset in se seruare formam, &amp; speciem pristinam, si sepa 
+          <lb ed="#G" n="85"/>raretur a toto. Quod autem sit minus illa minima parte, 
+          <lb ed="#G" n="86"/>atet, quia alias totum auctum auctum esset in duplo ma 
+          <lb ed="#G" n="87"/>gis, quam fuerat antequam augeretur, cuius oppositum 
+          <lb ed="#G" n="88"/>videmus ad sensum. Sic etiam in proposito poterimus dare 
+          <lb ed="#G" n="89"/>minus minimo. Dato igitur, quod ille aer, qui genitus est 
+          <lb ed="#G" n="90"/>ex minimo ignis, corrumpatur, &amp; iterum generetur ibi 
+          <lb ed="#G" n="91"/>ignis, tunc non generabuntur decem minima ignis, sicu 
+          <lb ed="#G" n="92"/>isti volebant concludere, sed tantum vnum minimum ignis. 
+        </p>
+        <p xml:id="HuYgTa-129203-d1e2316">
+          <lb ed="#G" n="93"/>
+          <pc type="indent"/>Secunda conclusio est, quod non solum Deus facere
+          po<lb ed="#G" n="94" break="no"/>tuit, verum etiam de facto formauit corpus fuae de costa 
+          <lb ed="#G" n="95"/>Adae sine additione alicuius materiae. Quia detur
+          oppo<lb ed="#G" n="96" break="no"/>situm, tunc corpus fuae magis proprie &amp; vere dicetur for 
+          <lb ed="#G" n="97"/>matum de illa alia materia, quam de ipsa costa. Falsitas 
+          <lb ed="#G" n="98"/>consequentis patet, quia sacta scriptura dicit illud corpu 
+          <lb ed="#G" n="99"/>formatum de costa, &amp; non facit mentionem de aliqua alia 
+          <lb ed="#G" n="100"/>materia, patet etiam consequentia, quia res ex diuersis 
+          <lb ed="#G" n="101"/>composita nomen capit ab eo, quod magis abundat in
+          hu<lb ed="#G" n="102" break="no"/>iusmodi compositone, vt patet primo physicorum: sed si 
+          <lb ed="#G" n="103"/>excessus magnitudinis corporis fuae respectu illius costa 
+          <lb ed="#G" n="104"/>fuisset ratione additae materiae: tunc materia addita
+          mul<lb ed="#G" n="105" break="no"/>to maior fuisset ipsa costa, quia tantum illa materia exce 
+          <lb ed="#G" n="106"/>deret costam, quantum corpus fuae in magnitudine
+          exces<lb ed="#G" n="107" break="no"/>sit ipsam costam: nam tantum corpus Euae excederet
+          co<lb ed="#G" n="108" break="no"/>stam, quantum de illa materia adderet super eam. Et ista 
+          <lb ed="#G" n="109"/>conclusio est expresse de intentione <name xml:id="HuYgTa-129203-Nd1e2357" ref="#HughOfStVictor">Hugonis</name> de
+          sacra<lb ed="#G" n="110" break="no"/>mentis libro sexto capitulo penultimo, vbi sic ait, Porro,  
+          <lb ed="#G" n="111"/>quod de costa viri corpus mulieris factum dicitur, ita
+          in<lb ed="#G" n="112" break="no"/>telligendum est, vt de sola ipsius costae substantia fine o.¬ 
+          <lb ed="#G" n="113"/>mni extrinseco addito per diuinam potentiam in semet 
+          <lb ed="#G" n="114"/>ipsa multiplicata idem corpus factum credatur 
+        </p>
+        <p xml:id="HuYgTa-129203-d1e2372">
+          <lb ed="#G" n="115"/>
+          <pc type="indent"/>Ista etiam est intentio magistri, sicut patet hic in littera 
+          <lb ed="#G" n="116"/>Forte dicetur, quod praedicta costa vel fuit superflua in 
+          <lb ed="#G" n="117"/>Adam, vel necessaria: non potest dari primum, quia Deus 
+          <lb ed="#G" n="118"/>&amp; natura nihil faciunt frustra, vt dicitur primo de caelo, 
+          <lb ed="#G" n="119"/>&amp; mundo. si fuit necessaria, tunc non debuit auferri al 
+          <lb ed="#G" n="120"/>eo, quia per ablationem eius, quod est necessarium alicui 
+          <lb ed="#G" n="121"/>diminuitur eius perfectio: Adam vero debuit esse
+          perfe<lb ed="#G" n="122" break="no"/>ctus homo: ergo &amp;c 
+        </p>
+        <p xml:id="HuYgTa-129203-d1e2394">
+          <lb ed="#G" n="123"/>
+          <pc type="indent"/>Dicendum, quod sicut semen est superfluum respectu 
+          <lb ed="#G" n="124"/>indiuidui, est tamen necessarium respectu speciei: sic ista 
+          <lb ed="#G" n="125"/>costa fuit quantum ad indiuiduum suppositum Ade
+          super<lb ed="#G" n="126" break="no"/>fiua, sed pro mulieris formatione, &amp; per consequens pro 
+          <lb ed="#G" n="127"/>speciei conseruatione non fuit superflua, sed fuit
+          quodam<lb ed="#G" n="128" break="no"/>modo necessaria. Et quia Deus est vniuersale agens, non 
+          <lb ed="#G" n="129"/>solum respiciens indiuidui productionem, sed etiam
+          spe<lb ed="#G" n="130" break="no"/>ciei conseruationem, ideo decuit ipsum viro producere 
+          <lb ed="#G" n="131"/>illud, de quo mulierem formare voluit, vt etiam vir &amp;
+          mu<lb ed="#G" n="132" break="no"/>lier amicitiae signum acciperent, ex eorum corporali
+          for<lb ed="#G" n="133" break="no"/>matione, qua mulier descendit a viro 
+        </p>
+        <p xml:id="HuYgTa-129203-d1e2423">
+          <lb ed="#G" n="134"/>
+          <pc type="indent"/>Ad argumentum principale dicendum ad maiorem, quod 
+          <lb ed="#G" n="135"/>per agens naturale non potest fieri aliquid ex aliquo, nisi 
+          <lb ed="#G" n="136"/>quod est in eo secundum potentiam naturalem, sed sicui 
+          <lb ed="#G" n="137"/>iam dictum est, tale corpus non fuit in costa potentia na 
+          <lb ed="#G" n="138"/>turali, sed obedientali.
+        </p>
+      </div>
+    </body>
+  </text>
 </TEI>

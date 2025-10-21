@@ -1,481 +1,481 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Quaestio 1</title>
-            <author ref="#ThomasStrasbourg">Thomas of Strasbourg</author>
-            <respStmt>
-               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
-               <resp>Transcription Editor</resp>
-               <resp>TEI Encoder</resp>
-            </respStmt>
-         </titleStmt>
-         <editionStmt>
-            <edition n="0.0.0-dev">
-               <title>Quaestio 1</title>
-               <date when="2020-11-26">November 26, 2020</date>
-            </edition>
-         </editionStmt>
-         <publicationStmt>
-            <authority>SCTA</authority>
-            <availability status="free">
-               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
-               </p>
-            </availability>
-         </publicationStmt>
-         <sourceDesc>
-            <listWit>
-               <witness xml:id="G" n="cod-TxxxqU">Genoa 1585</witness>
-            </listWit>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
-         <editorialDecl>
-            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
-       guidelines for a diplomatic edition.</p>
-         </editorialDecl>
-      </encodingDesc>
-      <revisionDesc status="draft">
-         <listChange>
-            <change when="2020-11-26" status="draft" n="0.0.0">
-               <p>Created file for the first time.</p>
-            </change>
-         </listChange>
-      </revisionDesc>
-   </teiHeader>
-   <text xml:lang="la">
-      <front>
-         <div xml:id="starts-on">
-            <pb ed="#G" n="81-v"/>
-            <cb ed="#G" n="a"/>
-         </div>
-      </front>
-      <body>
-         <div xml:id="HuYgTa-e61790"><!-- HuYgTa-l1d22q1 -->
-            <head xml:id="HuYgTa-e61790-Hd1e108">Quaestio 1</head>
-            <head xml:id="HuYgTa-e61790-Hd1e111" type="question-title">
-      An aliquod nomen a nobis Deo impositum
-      proprie conueniat Deo.
-    </head>
-            <p xml:id="HuYgTa-e61790-d1e114">
-               <lb ed="#G" n="29"/>
-               <pc type="indent"/>Questio I.  
-      <lb ed="#G" n="30"/>An aliquod nomen a nobis Deo impositum 
-      <lb ed="#G" n="31"/>proprie conueniat Deo.
-    </p>
-            <p xml:id="HuYgTa-e61790-d1e125">
-               <lb ed="#G" n="32"/>VTRVM aliquod nomen ab homine Deo impositum 
-      <lb ed="#G" n="33"/>proprie conueniat Deo:
-    </p>
-            <p xml:id="HuYgTa-e61790-d1e132">
-      &amp; videtur quod non, quia
-      illi<lb ed="#G" n="34" break="no"/>quod est innarrabile non possumus proprie, seu perfectu 
-      <lb ed="#G" n="35"/>nomen imponere, sed Deus est huiusmodi; quia dicitur 
-      <lb ed="#G" n="36"/>4 propositone de causis, quod prima causa est super omnem 
-      <lb ed="#G" n="37"/>cnarrationem, &amp; deficiunt linguae a narratione eius. 
-      <lb ed="#G" n="38"/>Contra <ref xml:id="HuYgTa-e61790-Rd1e145">Commen. 12 metaph.</ref> ait, quod vita &amp;
-      scien<lb ed="#G" n="39" break="no"/>tia proprie de Deo dicuntur, ergo &amp;c. Hic primo
-      viden<lb ed="#G" n="40" break="no"/>dum est, vtrum Deus sit nominabilis, Secundo, vtrum sit no 
-      <lb ed="#G" n="41"/>minabilis pluribus nominibus. Tertio vtrum aliquid
-      il<lb ed="#G" n="42" break="no"/>lorum nominum pure, &amp; proprie conueniat essentiae
-      di<lb ed="#G" n="43" break="no"/>uinae secundum se, &amp; non in ordine ad aliquod opus. 
-      <lb ed="#G" n="44"/>Quarto vtrum nomina attributalia de Deo dicantur pro 
-      <lb ed="#G" n="45"/>prie, &amp; secundum distinctas rationes. 
-    </p>
-            <p xml:id="HuYgTa-e61790-d1e165">
-               <lb ed="#G" n="46"/>
-               <pc type="indent"/>RESOLVTIO 
-      <lb ed="#G" n="47"/>Deus sane est nominabilis a nobis pluribus quide nominibus lice 
-      <lb ed="#G" n="48"/>
-               <pc type="indent"/>imperfecte, quia satis exprimere nequimus naturam Dei:
-      pro<lb ed="#G" n="49" break="no"/>prie tamen in respectu, quatenus ea, quae fide tenemus, distin 
-      <lb ed="#G" n="50"/>cte, ac proprie enunciare conamur Vude buiusmodi nominal 
-      <lb ed="#G" n="51"/>cet quo ad modum significandi improprie Deo ascribatur, quo
-      ac<lb ed="#G" n="52" break="no"/>tamen rem significat am Deo maxime conueniunt 
-    </p>
-            <p xml:id="HuYgTa-e61790-d1e187">
-               <lb ed="#G" n="53"/>
-               <pc type="indent"/>ARTICVLVS 
-      <lb ed="#G" n="54"/>
-               <pc type="indent"/>Vtrum Deus sit nommabilis.
-    </p>
-            <p xml:id="HuYgTa-e61790-d1e198">
-               <lb ed="#G" n="55"/>QVANTVM ad primum, vtrum Deus sit nominabilis, 
-      <lb ed="#G" n="56"/>eadico, quod Deus est nominabilis: ipse e nim seipsun 
-      <lb ed="#G" n="57"/>nominat, cum dixit Moysi, Ego sum, qui sum. Potest etiam 
-      <lb ed="#G" n="58"/>nominari a nobis: quia quicquid possumus intelligero 
-      <lb ed="#G" n="59"/>possumus significare, cum voces sint notae earum
-      passio<lb ed="#G" n="60" break="no"/>num, quae sunt in anima, vt patet 1. perihermenias, sed  
-      <lb ed="#G" n="61"/>Deum possumus intelligere, &amp; secundum theologos, &amp;  
-      <lb ed="#G" n="62"/>secundum philosophos. Quamuis autem illa conclusio 
-      <!--201.xml-->
-      <cb ed="#G" n="b"/>
-               <lb ed="#G" n="63"/>nec a Philosophis, nec a entilibus conuertatur in
-      du<lb ed="#G" n="64" break="no"/>bium; tamen propter aliquas auctoritates sanctorum &amp;  
-      <lb ed="#G" n="65"/>maxime Dioni. quae secundum primam verborum
-      appa<lb ed="#G" n="66" break="no"/>rentiam ab hac conclusione dissonare videntur, adducam 
-      <lb ed="#G" n="67"/>aliqua contra me, &amp; respondebo ad ea
-    </p>
-            <p xml:id="HuYgTa-e61790-d1e233">
-               <lb ed="#G" n="68"/>1 Secundum enim <ref xml:id="HuYgTa-e61790-Rd1e237">Dio. 1. de diuin no</ref>. Deus est
-      inno<lb ed="#G" n="69" break="no"/>minabilis a nobis; nam nihil nominamus, quod nulla
-      co<lb ed="#G" n="70" break="no"/>gnitione cognoscimus, sed vt ipse ibidem videtur
-      dedu<lb ed="#G" n="71" break="no"/>cere, Deum nulla cognitione cognoscimus: quia eius
-      ne<lb ed="#G" n="72" break="no"/>que est sensus, neque fantasma, neque opinio, idest
-      co<lb ed="#G" n="73" break="no"/>gnitio estimatiua, neque nomen idest simplicium
-      appre<lb ed="#G" n="74" break="no"/>hensio, qua formatur diffinitio, quae per nomen
-      intelli<lb ed="#G" n="75" break="no"/>gitur, quia ratio, quam significat nomen, est diffinitio; no 
-      <lb ed="#G" n="76"/>que sermo idest cognitio compositorum: qua formatur 
-      <lb ed="#G" n="77"/>enunciationeque tactus; idest cognitio principiorum, 
-      <lb ed="#G" n="78"/>quam tactum appellat ratione simplicis &amp; immediati in 
-      <lb ed="#G" n="79"/>tuitus, neque scientia, idest habitus conclusionum.
-    </p>
-            <p xml:id="HuYgTa-e61790-d1e265">
-               <lb ed="#G" n="80"/>2 Preterea, idem Dion vlt. de diuin no ait, Deus
-      su<lb ed="#G" n="81" break="no"/>per omnem terminum extentus a nullo captus est, aut 
-      <lb ed="#G" n="82"/>comprehensus: terminus autem rei est diffinitio. Cum 
-      <lb ed="#G" n="83"/>igitur ratio, quam significat nomen, sit diffinitio, videtur,  
-      <lb ed="#G" n="84"/>quod ipsum nominare non possumus.
-    </p>
-            <p xml:id="HuYgTa-e61790-d1e278">
-               <lb ed="#G" n="85"/>3 Praeterea, si nominaretur, aut nominaretur
-      affirma<lb ed="#G" n="86" break="no"/>tiue, vel negatiue. Primo modo non potest proprie
-      no<lb ed="#G" n="87" break="no"/>minari: quia vt dicitur <ref xml:id="HuYgTa-e61790-Rd1e286">2. de Ange. Hi.</ref> omnes
-      affitmatio<lb ed="#G" n="88" break="no"/>nes de Deo dictae sunt incompactae; nec secudo modo: quia 
-      <lb ed="#G" n="89"/>negatiue non exprimitur, quid res sit, sed quid sed non sit.
-    </p>
-            <p xml:id="HuYgTa-e61790-d1e296">
-               <lb ed="#G" n="90"/>4 Preterea, signi ad signatum debet esse proportio, sed  
-      <lb ed="#G" n="91"/>nullum nomen a nobis excogitabile potest Deo esse pro; 
-      <lb ed="#G" n="92"/>portionatum: quia finiti ad infinitum nulla est proportio.
-    </p>
-            <p xml:id="HuYgTa-e61790-d1e305">
-               <lb ed="#G" n="93"/>3 Praeterea, si aliquod nomen sibi competeret, hoc
-      ma<lb ed="#G" n="94" break="no"/>xime esset nomen entis, aut substantiae, sed hoc non, ergo 
-      <lb ed="#G" n="95"/>nec alia; non nomen entis: quia ait Di. quod Deus non est ens; 
-      <lb ed="#G" n="96"/>sed sup ens; nec nomen substantiae, vt patet <ref xml:id="HuYgTa-e61790-Rd1e315">p. Au. 8. de tri.</ref> 
-               <lb ed="#G" n="97"/>Sed illa non concludunt: quia ut superius dis:3. patuit. s 
-      <lb ed="#G" n="98"/>Deum esse est per se notum omne autem quod per se est noni 
-      <lb ed="#G" n="99"/>tum, aliquo modo nominabile. Item illud, de quo tractat in 
-      <lb ed="#G" n="100"/>vera srientia, est vere nominabile; sed de Deo non solum 
-      <lb ed="#G" n="101"/>n theologia tractatur, sed etiam saepius in philosophia, &amp;  
-      <lb ed="#G" n="102"/>specialiter in metaph ergo &amp;c. 
-    </p>
-            <p xml:id="HuYgTa-e61790-d1e332">
-               <lb ed="#G" n="103"/>
-               <pc type="indent"/>Ad omnes illas auctoritates Dion: &amp; multas
-      consimi<lb ed="#G" n="104" break="no"/>les, quas saepius ponit, dicendum, quod per huiusmodi
-      ver<lb ed="#G" n="105" break="no"/>a Dio non intendit, nisi quod hic existentes in via Deum 
-      <lb ed="#G" n="106"/>perfecte cognoscere non possumus; nec per consequens 
-      <lb ed="#G" n="107"/>nominare, per hoc tamen non intendit negare, quin
-      im<lb ed="#G" n="108" break="no"/>erfecte ipsum possimus &amp; cognoscere &amp; nominare: &amp; 
-      <lb ed="#G" n="109"/>hoc patet ad prima tria. 
-    </p>
-            <p xml:id="HuYgTa-e61790-d1e352">
-               <lb ed="#G" n="110"/>
-               <pc type="indent"/>Ad quartum dicendum, quod inter signum, &amp; signatum 
-      <lb ed="#G" n="111"/>non oportet esse proportionem secundum adaequationem, 
-      <lb ed="#G" n="112"/>scu aequalitatem: alias enim circulus numquam posset esse  
-      <lb ed="#G" n="113"/>signumvini; sed sufficit, quod signum imponatur signato ab 
-      <lb ed="#G" n="114"/>aliqua proprietate, que in signato existat secundum rem, 
-      <lb ed="#G" n="115"/>&amp; aliquo modo appareat, vel exprimatur in signo. 
-    </p>
-            <p xml:id="HuYgTa-e61790-d1e370">
-               <lb ed="#G" n="116"/>
-               <pc type="indent"/>Ad quintum dicendum, quod nomen entis, &amp; esse pro 
-      <lb ed="#G" n="117"/>priissime Deo comperit, vnde propter hoc quod etinem 
-      <lb ed="#G" n="118"/>tiam proprietatis illius, qua hoc nomen ens, &amp; esse Deo 
-      <lb ed="#G" n="119"/>conueniunt nos non apprehendimus; ideo ait Dlo. quod 
-      <lb ed="#G" n="120"/>Deus non est ens, sed super ens. Aug. autem negat Deum 
-      <lb ed="#G" n="121"/>esse substantiam, prout substantia est vnum de dece praedicaa 
-      <lb ed="#G" n="122"/>mentis: quia natura diuina est super omne praedicamentum 
-    </p>
-            <p xml:id="HuYgTa-e61790-d1e390">
-               <lb ed="#G" n="123"/>ARTICVLVS II M 
-      <lb ed="#G" n="124"/>Vtrum Deus sit nominabilis plaribus. 
-      <lb ed="#G" n="125"/>nominibus
-    </p>
-            <p xml:id="HuYgTa-e61790-d1e400">
-               <lb ed="#G" n="126"/>QVANTVM ad secundum, vtrum Deus sit
-      nomi<lb ed="#G" n="127" break="no"/> nabilis pluribus nominibus, dico, quod Deum 
-      <lb ed="#G" n="128"/>possumus nominare pluribus nominibus.
-    </p>
-            <p xml:id="HuYgTa-e61790-d1e409">
-               <lb ed="#G" n="129"/>1 Quia eo modo, quo aliquid intelligimus, ipsum 
-      <lb ed="#G" n="130"/>ossumus significare, sed Deum contingit nos
-      multipli<lb ed="#G" n="131" break="no"/>iter intelligere, ergo possumus ei diuersa nomina signifi 
-      <lb ed="#G" n="132"/>catiua imponere. Minorem probo; possumus: ni Deum
-      im<lb ed="#G" n="133" break="no"/>telligere ex creaturis: quia inuisibilia pei per ea, quae facta 
-      <lb ed="#G" n="134"/>unt, intellecta conspiciuntur Huiusmodi autem notitram 
-      <!--202.xml-->
-      <pb ed="#G" n="82-r"/>
-               <cb ed="#G" n="a"/>
-               <lb ed="#G" n="1"/>concipimus uno modo via remotionis, scilicet
-      remouen<lb ed="#G" n="2" break="no"/>do a Deo omne imperfectionem, quam in creaturis vide 
-      <lb ed="#G" n="3"/>mus, &amp; sic nominamus eum incorruptibilem, immateria 
-      <lb ed="#G" n="4"/>lem, immutabilem, &amp; sic de consimilibus. Alio modo
-      ra<lb ed="#G" n="5" break="no"/>tione eminentiae, &amp; sic dicimus eum aeternum, omnipoten 
-      <lb ed="#G" n="6"/>tem, immensum, illimitatum. Tertio ratione causalitatis; 
-      <lb ed="#G" n="7"/>&amp; fic dicitur creator, conseruator, &amp; gubernator.
-    </p>
-            <p xml:id="HuYgTa-e61790-d1e446">
-               <lb ed="#G" n="8"/>2 Praeterea, secundum grammaticos, &amp; philosophos 
-      <lb ed="#G" n="9"/>modi significandi sequuntur modos intelligendi; sed
-      in<lb ed="#G" n="10" break="no"/>tellectus viatoris propter sui debilitatem &amp; perfectionis 
-      <lb ed="#G" n="11"/>diuinae sublimitatem vnam &amp; simplicissimam entitatem 
-      <lb ed="#G" n="12"/>diuinae naturae potest infinitis modis concipere, quia sicut 
-      <lb ed="#G" n="13"/>intellectus diuinus propter sui excellentiam, qua omne 
-      <lb ed="#G" n="14"/>creatum &amp; creabile in infinitum excedit, omnia creata &amp; 
-      <lb ed="#G" n="15"/>creabilia vnico conceptu concipit, quamuis talia sint
-      in<lb ed="#G" n="16" break="no"/>finita: sic intellectus noster, quia a diuina natura in infini 
-      <lb ed="#G" n="17"/>tum exceditur, ideo vnicam Dei naturam, seu perfectio 
-      <lb ed="#G" n="18"/>nem infinitis conceptibus posset concipere, &amp; secundum 
-      <lb ed="#G" n="19"/>quemlibet conceptum ei nomen imponere : Propter quod 
-      <lb ed="#G" n="20"/>nit <ref xml:id="HuYgTa-e61790-Rd1e476">Dyon. 12 de diuin, no</ref>, <quote xml:id="HuYgTa-e61790-Qd1e479">Laudare habemus eum, qui es 
-        <lb ed="#G" n="21"/>infinitorum nominum</quote> 
-            </p>
-            <p xml:id="HuYgTa-e61790-d1e485">
-               <lb ed="#G" n="22"/>
-               <pc type="indent"/>Sed hic posset instare aliquis.  
-      <lb ed="#G" n="23"/>1 Quia ait <ref xml:id="HuYgTa-e61790-Rd1e493">8. Hylarius in de tri.</ref> quod non sermoni res: 
-      <lb ed="#G" n="24"/>sed rei debet esse sermo subiectus, ergo sermone, siue non 
-      <lb ed="#G" n="25"/>men debemus taliter imponere, qualiter videmus
-      natu<lb ed="#G" n="26" break="no"/>ras rerum se habere, ergo vnicam Dei perfectionem non 
-      <lb ed="#G" n="27"/>nominabimus diuersis nominibus 
-    </p>
-            <p xml:id="HuYgTa-e61790-d1e506">
-               <lb ed="#G" n="28"/>
-               <pc type="indent"/>2 Praeterea, simplex aut totaliter cognoscitur, aut
-      pe<lb ed="#G" n="29" break="no"/>itus ignoratur, sed Deus est simplicissimus, aut igitur ta 
-      <lb ed="#G" n="30"/>taliter cognoscitur, &amp; sic vno tantum nomine nominabi 
-      <lb ed="#G" n="31"/>tur, aut penitus ignoratur, &amp; tunc nullo nomine nomina 
-      <lb ed="#G" n="32"/>bitur, quia quod nullo modo intelligimus, nullo nomi- 
-      <lb ed="#G" n="33"/>ne significamus. 
-    </p>
-            <p xml:id="HuYgTa-e61790-d1e524">
-               <lb ed="#G" n="34"/>
-               <pc type="indent"/>3 Praeterea, aut talibus diuersis nominibus respondet 
-      <lb ed="#G" n="35"/>aliqua diuersitas ex parte rei, aut nulla. Si aliqua, tunc 
-      <lb ed="#G" n="36"/>Deus est compositus. Si nulla, tunc talia nomina esseni 
-      <lb ed="#G" n="37"/>penitus svnonvma, &amp; per consequens esset nugatio, cun 
-      <lb ed="#G" n="38"/>simul iungerentur: quia sicut <ref xml:id="HuYgTa-e61790-Rd1e539">Auicenna ait in metaphys 
-        <lb ed="#G" n="39"/>ca sua</ref>, Si vnum adderet aliquid super ens, tunc dicendi 
-      <lb ed="#G" n="40"/>es vnum, esset nugatio: quia talia nomina essent svnonvma 
-      <lb ed="#G" n="41"/>Ad primum dicendum, quod sermo, quo rem nomina 
-    </p>
-            <p xml:id="HuYgTa-e61790-d1e550">
-               <lb ed="#G" n="42"/>
-               <pc type="indent"/>mus, est rei subiectus, quantum natura intellectus
-      pati<lb ed="#G" n="43" break="no"/>tur, qui nomen imponit, &amp; ideo diuinus intellectus, si sua 
-      <lb ed="#G" n="44"/>naturam nominaret, vnum nomen sibi imponeret:
-      qui<lb ed="#G" n="45" break="no"/>vnico conceptu ipsam perfecte comprehendit. Noster au 
-      <lb ed="#G" n="46"/>tem intellectus diuersis nominibus ipsam nominat, eo, qui 
-      <lb ed="#G" n="47"/>a diuerfis rerum similitudinibus ipsam diuersimode concipiat 
-    </p>
-            <p xml:id="HuYgTa-e61790-d1e568">
-               <lb ed="#G" n="48"/>
-               <pc type="indent"/>Ad secundum dicendum, quod simplex dupliciter po 
-      <lb ed="#G" n="49"/>test cognosci. Vno modo intrinsece, &amp; diffinitiue siu 
-      <lb ed="#G" n="50"/>quidditatiue per propriam diffinitionem, &amp; sic maior est 
-      <lb ed="#G" n="51"/>vera. Alio modo extrinsece, &amp; per effectus, &amp; sic maior no 
-      <lb ed="#G" n="52"/>est vera: quia potest secundum plus &amp; minus cognosci, se 
-      <lb ed="#G" n="53"/>cudum quod effectus magis, &amp; minus cognoscitur, &amp; ma 
-      <lb ed="#G" n="54"/>xime si nullus illorum effectuum sit sibi adaequatus. Et 
-      <lb ed="#G" n="55"/>quia sic est in proposito, ideo, &amp;c 
-    </p>
-            <p xml:id="HuYgTa-e61790-d1e590">
-               <lb ed="#G" n="56"/>
-               <pc type="indent"/>Ad tertium dicendum, quod talia nomina non sunt 
-      <lb ed="#G" n="57"/>fvnonvma, &amp; quamuis ipsis intrinsece, &amp; ex parte natu 
-      <lb ed="#G" n="58"/>rae diuinae non respondeant diuersae rationes, extrinsece 
-      <lb ed="#G" n="59"/>tamen in creaturis diuersae rationes ipsis respondent,
-      ra<lb ed="#G" n="60" break="no"/>tione quarum diuina perfectio vna existens in seipsa
-      di<lb ed="#G" n="61" break="no"/>nersimode a nobis intelligitur, &amp; per consequens diuer 
-      <lb ed="#G" n="62"/>fis nominibus non svnonvmis nominatur. 
-    </p>
-            <p xml:id="HuYgTa-e61790-d1e610">
-               <lb ed="#G" n="63"/>
-               <pc type="indent"/>ARTICVLVS I 
-      <lb ed="#G" n="64"/>Vtrum aliquod illorum nominum, quae de Deo dicim 
-      <lb ed="#G" n="65"/>tur, pure, &amp; proprie conuerant essentiae diuina 
-      <lb ed="#G" n="66"/>
-               <pc type="indent"/>secundum se, &amp; non in ordine ad aliquod opus.
-    </p>
-            <p xml:id="HuYgTa-e61790-d1e626">
-               <lb ed="#G" n="67"/>QVANTVM ad tertium, vtrum aliquod illorum 
-      <lb ed="#G" n="68"/>S nominum quae de Deo dicuntur, pure &amp; proprie 
-      <!--202.xml-->
-      <cb ed="#G" n="b"/>
-               <lb ed="#G" n="69"/>congeniant essentiae diuinae secundum se, &amp; non in ordi 
-      <lb ed="#G" n="70"/>ne ad aliquod opus; sunt duae opiniones, quae de hoc sibi 
-      <lb ed="#G" n="71"/>mutuo contradicunt: sed quia earum contradictio est ma 
-      <lb ed="#G" n="72"/>gis verbalis, quam realis; ideo primo recitabo vtramque 
-      <lb ed="#G" n="73"/>opinionem, Secundo ostendam earum concordiam, &amp;
-      tol<lb ed="#G" n="74" break="no"/>lam contradictionem. 
-    </p>
-            <p xml:id="HuYgTa-e61790-d1e650">
-               <lb ed="#G" n="75"/>
-               <pc type="indent"/>Est igitur vna opinio, quae dicit, quod nullum nomen 
-      <lb ed="#G" n="76"/>a nobis impositum significat diuinam essentiam secundum 
-      <lb ed="#G" n="77"/>se &amp; proprie absque comparatione ad extra.
-    </p>
-            <p xml:id="HuYgTa-e61790-d1e662">
-               <lb ed="#G" n="78"/>1 Quia, si aliquod nomen esset tale; hoc videretur de 
-      <lb ed="#G" n="79"/>hoc nomine Deus, sed hoc non: quia secundum Dama
-      li<lb ed="#G" n="80" break="no"/>3 theos grece, quod est Deus latine, vno modo dicitur a 
-      <lb ed="#G" n="81"/>theaste, quod est videre, vel considerare, quia omnia nu¬ f 
-      <lb ed="#G" n="82"/>da &amp; aperta sunt oculis eius, vt dicit Apostolus. Alio mo 
-      <lb ed="#G" n="83"/>do athein, qud est fouere: quia omnia fouet in bono.
-      Di<lb ed="#G" n="84" break="no"/>citur etiam a themi, quod est ardere: quia Deus noster 
-      <lb ed="#G" n="85"/>ignis consumens est, consumit enim omnem malitiam. 
-    </p>
-            <p xml:id="HuYgTa-e61790-d1e682">
-               <lb ed="#G" n="86"/>
-               <pc type="indent"/>2 Praeterea, nulla res est a nobis nominabilis, nisi
-      in<lb ed="#G" n="87" break="no"/>quantum est a nobis cognoscibilis, quia <quote xml:id="HuYgTa-e61790-Qd1e690" source="http://scta.info/resource/adt-l15-d1e1804" synch="4-13">verbum, quod fo 
-        <lb ed="#G" n="88"/>ris sonat, signum est verbi, quod intus lucet</quote>, secundum 
-      <lb ed="#G" n="89"/>
-               <ref xml:id="HuYgTa-e61790-Rd1e698">August. 15. de tri.</ref> Secundum Damas: quid Deus est incon 
-      <lb ed="#G" n="90"/>prehensibile est a nobis, &amp; penitus ignotum, ergo tan 
-      <lb ed="#G" n="91"/>tum secundum operationes, quae nobis notae sunt,
-      essen<lb ed="#G" n="92" break="no"/>tiae diuinae nomina imponimus 
-    </p>
-            <p xml:id="HuYgTa-e61790-d1e708">
-               <lb ed="#G" n="93"/>
-               <pc type="indent"/>3 Praeterea, <ref xml:id="HuYgTa-e61790-Rd1e714">Dama. dicit. lib. 1.</ref> quod singulum eorum 
-      <lb ed="#G" n="94"/>quae de Deo dicuntur, oportet non quid est secundum 
-      <lb ed="#G" n="95"/>substantiam sign: ficare: sed quid non est ostendere, aut 
-      <lb ed="#G" n="96"/>habitudinem quandam, aut aliquid eorum, quae assequun 
-      <lb ed="#G" n="97"/>tur naturam, vel operationem.
-    </p>
-            <p xml:id="HuYgTa-e61790-d1e727">
-               <lb ed="#G" n="98"/>Alij dicunt, quod aliquod nomen potest significara 
-      <lb ed="#G" n="99"/>Dei essentiam nudam, quod probant.
-    </p>
-            <p xml:id="HuYgTa-e61790-d1e734">
-               <lb ed="#G" n="100"/>1 Auctoritate <ref xml:id="HuYgTa-e61790-Rd1e738">
-                  <name xml:id="HuYgTa-e61790-Nd1e740" ref="#Ambrose">Ambrosi</name> in lib de tri.</ref> vbi ait, quod
-      quae<lb ed="#G" n="101" break="no"/>dam nomina perspicuam diuinae maiestatis exprimun 
-      <lb ed="#G" n="102"/>veritatem.
-    </p>
-            <p xml:id="HuYgTa-e61790-d1e749">
-               <lb ed="#G" n="103"/>2 Praeterea, dicit <ref xml:id="HuYgTa-e61790-Rd1e753">
-                  <name xml:id="HuYgTa-e61790-Nd1e755">Rabi Movses</name>
-               </ref>, quod omnia nomina 
-      <lb ed="#G" n="104"/>creatoris quae inueniuntur in libris sanctis sunt assumpta 
-      <lb ed="#G" n="105"/>ab operibus, praeter vnum nomen, quod est appropriatum. 
-      <lb ed="#G" n="106"/>ei; scilicet Tetragammaton, &amp; ideo vocatur nomen sepa 
-      <lb ed="#G" n="107"/>ratum: quia significat substantiam creatoris
-      significatio<lb ed="#G" n="108" break="no"/>ne pura. Dicunt etiam isti, propter argumenta alterius 
-      <lb ed="#G" n="109"/>opinionis, quod nomen pot imponi ad significandum
-      pro<lb ed="#G" n="110" break="no"/>prie, &amp; distincte, illud, quod non intelligit noster
-      intelle<lb ed="#G" n="111" break="no"/>ctus: imponimus enim nomen substantiae panis, &amp; ceter- 
-      <lb ed="#G" n="112"/>rum rerum corporalium substantijs, quarum tamen
-      ra<lb ed="#G" n="113" break="no"/>tiones substantiales non intelligimus, quia alias
-      intelli<lb ed="#G" n="114" break="no"/>geremus quando praesens est substantia panis ant e conso 
-      <lb ed="#G" n="115"/>trationem corporis Christi, &amp; sciremus quando abest fa 
-      <lb ed="#G" n="116"/>cta consecratione. Et ideo dicunt isti, quod omnino
-      fal<lb ed="#G" n="117" break="no"/>sum est dicere, quod nulli rei distinctius possit nomen im 
-      <lb ed="#G" n="118"/>poni, quam intelligitur.  
-    </p>
-            <p xml:id="HuYgTa-e61790-d1e793">
-               <lb ed="#G" n="119"/>
-               <pc type="indent"/>Sed isti quamuis verbis contradicant sibi mutuo; 
-      <lb ed="#G" n="120"/>in re tamen nulla est contradictio: quia nomen ali¬¬ 
-      <lb ed="#G" n="121"/>quid proprie significare aliquam naturam potest
-      dupli<lb ed="#G" n="122" break="no"/>citer intelligi. Vno modo perfecte, &amp; diffinitiue, ita quod 
-      <lb ed="#G" n="123"/>torrespondeat sufficienter formali rationi suae, siue
-      sub<lb ed="#G" n="124" break="no"/>stantiali illius naturae: &amp; sic prima opinio concludit
-      veri<lb ed="#G" n="125" break="no"/>tatem: quia nullum tale nomen potest viator imponere 
-      <lb ed="#G" n="126"/>diuinae naturae: quia ipsam diffinitiue non potest
-      appre<lb ed="#G" n="127" break="no"/>hendere. Secundo potest dici aliquod nomen proprie
-      si<lb ed="#G" n="128" break="no"/>gnificare aliquam naturam, eo quod per nostrum arbitriu 
-      <lb ed="#G" n="129"/>distincte sit impositum ad significandum illam naturam 
-      <lb ed="#G" n="130"/>nude, &amp; in se, circumscriptis quibuscunque quae secundum 
-      <lb ed="#G" n="131"/>nostrum modum intelligendi videntur annexa illi naturae: siue 
-      <lb ed="#G" n="132"/>per modum proprietatum, siue per modum accidentium; &amp; sic 
-      <lb ed="#G" n="133"/>secunda opinio est intelligeda, &amp; illo modo potest esse ve 
-      <lb ed="#G" n="134"/>ra: quia cum nomina sint ad placitu, possumus naturae
-      di<lb ed="#G" n="135" break="no"/>uine, quam fide credimus esse vnam in tribus personis, ali 
-      <lb ed="#G" n="136"/>uod nomen imponere, quod ipsam naturam diuinam proprie 
-      <lb ed="#G" n="137"/>&amp; distincte significat, circumscriptis per intellectum omni- 
-      <lb ed="#G" n="138"/>bus proprietatibus, &amp; attributis, &amp; quibuscumque
-      cete<lb ed="#G" n="139" break="no"/>ris secundum nostrum modum intelligendi aduenticiis 
-      <lb ed="#G" n="140"/>illi naturae. Et sic vtraque opinio suo modo potest
-      di<lb ed="#G" n="141" break="no"/>ci vera.
-    </p>
-            <p xml:id="HuYgTa-e61790-d1e848">
-      <!--203.xml-->
-               <pb ed="#G" n="82-v"/>
-               <cb ed="#G" n="a"/>
-               <lb ed="#G" n="1"/>Secunda tamen opinio in illo, quod vltimo adiungit 
-      <lb ed="#G" n="2"/>falsum assumit, cum ait, nos non intelligere substantiam pa 
-      <lb ed="#G" n="3"/>nis, aut ceterarum rerum corporalium. Nec probatio
-      va<lb ed="#G" n="4" break="no"/>let quam adducit de sacramento altaris, quia cognoscere 
-      <lb ed="#G" n="5"/>praesentiam, vel absentiam rei, siue, rem substantiam rei essi 
-      <lb ed="#G" n="6"/>hic, &amp; nunc, non spectat ad notitia abstractiuam, sed intuiti 
-      <lb ed="#G" n="7"/>uam, sicut etiam ille Doctor cuius est opinio secunda
-      ha<lb ed="#G" n="8" break="no"/>bet dicere iuxta sua principia, sed quidditates rerum
-      na<lb ed="#G" n="9" break="no"/>turalium non cognoscimus cognitione intuitiua: sed ab 
-      <lb ed="#G" n="10"/>stractiua, quae quidem notitia abstrahit a presentia, &amp;
-      ab<lb ed="#G" n="11" break="no"/>sentia ab hic &amp; nunc, &amp; ideo quamuis vere intelligamus 
-      <lb ed="#G" n="12"/>quidditatem panis, non tamen possumus cognoscere nisi 
-      <lb ed="#G" n="13"/>inquantum fide tenemus, quauo adsit, vel absit sub
-      sa<lb ed="#G" n="14" break="no"/>cramento altaris. 
-    </p>
-            <p xml:id="HuYgTa-e61790-d1e887">
-               <lb ed="#G" n="15"/>
-               <pc type="indent"/>ARTICVLVS IIII 
-      <lb ed="#G" n="16"/>Vtrum Haec attributalia de Deo dicantur proprie, 
-      <lb ed="#G" n="17"/>
-               <pc type="indent"/>&amp; secundum distinctas rationes.
-    </p>
-            <p xml:id="HuYgTa-e61790-d1e900">
-               <lb ed="#G" n="18"/>SVANTVM ad quartum principale, vtrum nomina al 
-      <lb ed="#G" n="19"/>
-               <pc type="indent"/>Atributalia de Deo dicantur proprie, &amp; secundum 
-      <lb ed="#G" n="20"/>distinctas rationes; est aduertendum, quod, vt videtur, duo 
-      <lb ed="#G" n="21"/>ibi nquiruntur. 
-    </p>
-            <p xml:id="HuYgTa-e61790-d1e913">
-               <lb ed="#G" n="22"/>
-               <pc type="indent"/>Primo, vtrum nomina attributalia proprie de Deo 
-      <lb ed="#G" n="23"/>dicantur. 
-    </p>
-            <p xml:id="HuYgTa-e61790-d1e922">
-               <lb ed="#G" n="24"/>
-               <pc type="indent"/>Secundo, vtrum secundum distinctas rationes. 
-    </p>
-            <p xml:id="HuYgTa-e61790-d1e930">
-               <lb ed="#G" n="25"/>
-               <pc type="indent"/>Quantum ad primum dico, quod quantum ad modi 
-      <lb ed="#G" n="26"/>significandi, qui consurgit ex modo nostro intelligendi 
-      <lb ed="#G" n="27"/>qui propter sui imperfectionem transcendere non valet 
-      <lb ed="#G" n="28"/>naturam rerum creatarum, tunc talia impropriissime
-      di<lb ed="#G" n="29" break="no"/>cuntur de Deo: quia secundum nostrum modum
-      intelli<lb ed="#G" n="30" break="no"/>gendi nomina attributis imponimus penes cognitionem 
-      <lb ed="#G" n="31"/>quam de ipsis, vt sunt in creaturis, accipimus. Modus enim 
-      <lb ed="#G" n="32"/>mtelligendi sequitur modum essendi; &amp; modus significam 
-      <lb ed="#G" n="33"/>di modum intelligendi, &amp; ideo, vt habent esse in
-      creatu<lb ed="#G" n="34" break="no"/>ris nobis notis, sic modum significandi t alibus
-      nomini<lb ed="#G" n="35" break="no"/>bus attribuimus, Sed quantum ad rem significatam tant, 
-      <lb ed="#G" n="36"/>magis propriae talia nomina dicuntur de Deo, quam de 
-      <lb ed="#G" n="37"/>ereaturis, quanto sapientia, &amp; cetera attributa veriori, &amp;  
-      <lb ed="#G" n="38"/>realiori modo habent esse in Deo, quam in creaturis. 
-      <lb ed="#G" n="39"/>Quo ad secundum dico, quod dicuntur de Deo secun 
-      <lb ed="#G" n="40"/>dum distinctas rationes; distinctione tamen sumpta por 
-      <lb ed="#G" n="41"/>comparationem ad extra, &amp; non ab intra, vt patuit <ref xml:id="HuYgTa-e61790-Rd1e971">supe 
-        <lb ed="#G" n="42"/>rius distinctione. 9.</ref> 
-            </p>
-            <p xml:id="HuYgTa-e61790-d1e977">
-               <lb ed="#G" n="43"/>
-               <pc type="indent"/>Ad argumentum principale dicendum, quod quamuis 
-      <lb ed="#G" n="44"/>Deus sit innarrabilis a viatore narratione simpliciter 
-      <lb ed="#G" n="45"/>perfecta, est tamen aliquo modo ab eo narrabilis, &amp; per 
-      <lb ed="#G" n="46"/>consequens aliquo modo nominabilis.  
-    </p>
-         </div>
-      </body>
-   </text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 1</title>
+        <author ref="#ThomasStrasbourg">Thomas of Strasbourg</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 1</title>
+          <date when="2020-11-26">November 26, 2020</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="G" n="cod-TxxxqU">Genoa 1585</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2020-11-26" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#G" n="81-v"/>
+        <cb ed="#G" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="HuYgTa-e61790"><!-- HuYgTa-l1d22q1 -->
+        <head xml:id="HuYgTa-e61790-Hd1e108">Quaestio 1</head>
+        <head xml:id="HuYgTa-e61790-Hd1e111" type="question-title">
+          An aliquod nomen a nobis Deo impositum
+          proprie conueniat Deo.
+        </head>
+        <p xml:id="HuYgTa-e61790-d1e114">
+          <lb ed="#G" n="29"/>
+          <pc type="indent"/>Questio I.  
+          <lb ed="#G" n="30"/>An aliquod nomen a nobis Deo impositum 
+          <lb ed="#G" n="31"/>proprie conueniat Deo.
+        </p>
+        <p xml:id="HuYgTa-e61790-d1e125">
+          <lb ed="#G" n="32"/>VTRVM aliquod nomen ab homine Deo impositum 
+          <lb ed="#G" n="33"/>proprie conueniat Deo:
+        </p>
+        <p xml:id="HuYgTa-e61790-d1e132">
+          &amp; videtur quod non, quia
+          illi<lb ed="#G" n="34" break="no"/>quod est innarrabile non possumus proprie, seu perfectu 
+          <lb ed="#G" n="35"/>nomen imponere, sed Deus est huiusmodi; quia dicitur 
+          <lb ed="#G" n="36"/>4 propositone de causis, quod prima causa est super omnem 
+          <lb ed="#G" n="37"/>cnarrationem, &amp; deficiunt linguae a narratione eius. 
+          <lb ed="#G" n="38"/>Contra <ref xml:id="HuYgTa-e61790-Rd1e145">Commen. 12 metaph.</ref> ait, quod vita &amp;
+          scien<lb ed="#G" n="39" break="no"/>tia proprie de Deo dicuntur, ergo &amp;c. Hic primo
+          viden<lb ed="#G" n="40" break="no"/>dum est, vtrum Deus sit nominabilis, Secundo, vtrum sit no 
+          <lb ed="#G" n="41"/>minabilis pluribus nominibus. Tertio vtrum aliquid
+          il<lb ed="#G" n="42" break="no"/>lorum nominum pure, &amp; proprie conueniat essentiae
+          di<lb ed="#G" n="43" break="no"/>uinae secundum se, &amp; non in ordine ad aliquod opus. 
+          <lb ed="#G" n="44"/>Quarto vtrum nomina attributalia de Deo dicantur pro 
+          <lb ed="#G" n="45"/>prie, &amp; secundum distinctas rationes. 
+        </p>
+        <p xml:id="HuYgTa-e61790-d1e165">
+          <lb ed="#G" n="46"/>
+          <pc type="indent"/>RESOLVTIO 
+          <lb ed="#G" n="47"/>Deus sane est nominabilis a nobis pluribus quide nominibus lice 
+          <lb ed="#G" n="48"/>
+          <pc type="indent"/>imperfecte, quia satis exprimere nequimus naturam Dei:
+          pro<lb ed="#G" n="49" break="no"/>prie tamen in respectu, quatenus ea, quae fide tenemus, distin 
+          <lb ed="#G" n="50"/>cte, ac proprie enunciare conamur Vude buiusmodi nominal 
+          <lb ed="#G" n="51"/>cet quo ad modum significandi improprie Deo ascribatur, quo
+          ac<lb ed="#G" n="52" break="no"/>tamen rem significat am Deo maxime conueniunt 
+        </p>
+        <p xml:id="HuYgTa-e61790-d1e187">
+          <lb ed="#G" n="53"/>
+          <pc type="indent"/>ARTICVLVS 
+          <lb ed="#G" n="54"/>
+          <pc type="indent"/>Vtrum Deus sit nommabilis.
+        </p>
+        <p xml:id="HuYgTa-e61790-d1e198">
+          <lb ed="#G" n="55"/>QVANTVM ad primum, vtrum Deus sit nominabilis, 
+          <lb ed="#G" n="56"/>eadico, quod Deus est nominabilis: ipse e nim seipsun 
+          <lb ed="#G" n="57"/>nominat, cum dixit Moysi, Ego sum, qui sum. Potest etiam 
+          <lb ed="#G" n="58"/>nominari a nobis: quia quicquid possumus intelligero 
+          <lb ed="#G" n="59"/>possumus significare, cum voces sint notae earum
+          passio<lb ed="#G" n="60" break="no"/>num, quae sunt in anima, vt patet 1. perihermenias, sed  
+          <lb ed="#G" n="61"/>Deum possumus intelligere, &amp; secundum theologos, &amp;  
+          <lb ed="#G" n="62"/>secundum philosophos. Quamuis autem illa conclusio 
+          <!--201.xml-->
+          <cb ed="#G" n="b"/>
+          <lb ed="#G" n="63"/>nec a Philosophis, nec a entilibus conuertatur in
+          du<lb ed="#G" n="64" break="no"/>bium; tamen propter aliquas auctoritates sanctorum &amp;  
+          <lb ed="#G" n="65"/>maxime Dioni. quae secundum primam verborum
+          appa<lb ed="#G" n="66" break="no"/>rentiam ab hac conclusione dissonare videntur, adducam 
+          <lb ed="#G" n="67"/>aliqua contra me, &amp; respondebo ad ea
+        </p>
+        <p xml:id="HuYgTa-e61790-d1e233">
+          <lb ed="#G" n="68"/>1 Secundum enim <ref xml:id="HuYgTa-e61790-Rd1e237">Dio. 1. de diuin no</ref>. Deus est
+          inno<lb ed="#G" n="69" break="no"/>minabilis a nobis; nam nihil nominamus, quod nulla
+          co<lb ed="#G" n="70" break="no"/>gnitione cognoscimus, sed vt ipse ibidem videtur
+          dedu<lb ed="#G" n="71" break="no"/>cere, Deum nulla cognitione cognoscimus: quia eius
+          ne<lb ed="#G" n="72" break="no"/>que est sensus, neque fantasma, neque opinio, idest
+          co<lb ed="#G" n="73" break="no"/>gnitio estimatiua, neque nomen idest simplicium
+          appre<lb ed="#G" n="74" break="no"/>hensio, qua formatur diffinitio, quae per nomen
+          intelli<lb ed="#G" n="75" break="no"/>gitur, quia ratio, quam significat nomen, est diffinitio; no 
+          <lb ed="#G" n="76"/>que sermo idest cognitio compositorum: qua formatur 
+          <lb ed="#G" n="77"/>enunciationeque tactus; idest cognitio principiorum, 
+          <lb ed="#G" n="78"/>quam tactum appellat ratione simplicis &amp; immediati in 
+          <lb ed="#G" n="79"/>tuitus, neque scientia, idest habitus conclusionum.
+        </p>
+        <p xml:id="HuYgTa-e61790-d1e265">
+          <lb ed="#G" n="80"/>2 Preterea, idem Dion vlt. de diuin no ait, Deus
+          su<lb ed="#G" n="81" break="no"/>per omnem terminum extentus a nullo captus est, aut 
+          <lb ed="#G" n="82"/>comprehensus: terminus autem rei est diffinitio. Cum 
+          <lb ed="#G" n="83"/>igitur ratio, quam significat nomen, sit diffinitio, videtur,  
+          <lb ed="#G" n="84"/>quod ipsum nominare non possumus.
+        </p>
+        <p xml:id="HuYgTa-e61790-d1e278">
+          <lb ed="#G" n="85"/>3 Praeterea, si nominaretur, aut nominaretur
+          affirma<lb ed="#G" n="86" break="no"/>tiue, vel negatiue. Primo modo non potest proprie
+          no<lb ed="#G" n="87" break="no"/>minari: quia vt dicitur <ref xml:id="HuYgTa-e61790-Rd1e286">2. de Ange. Hi.</ref> omnes
+          affitmatio<lb ed="#G" n="88" break="no"/>nes de Deo dictae sunt incompactae; nec secudo modo: quia 
+          <lb ed="#G" n="89"/>negatiue non exprimitur, quid res sit, sed quid sed non sit.
+        </p>
+        <p xml:id="HuYgTa-e61790-d1e296">
+          <lb ed="#G" n="90"/>4 Preterea, signi ad signatum debet esse proportio, sed  
+          <lb ed="#G" n="91"/>nullum nomen a nobis excogitabile potest Deo esse pro; 
+          <lb ed="#G" n="92"/>portionatum: quia finiti ad infinitum nulla est proportio.
+        </p>
+        <p xml:id="HuYgTa-e61790-d1e305">
+          <lb ed="#G" n="93"/>3 Praeterea, si aliquod nomen sibi competeret, hoc
+          ma<lb ed="#G" n="94" break="no"/>xime esset nomen entis, aut substantiae, sed hoc non, ergo 
+          <lb ed="#G" n="95"/>nec alia; non nomen entis: quia ait Di. quod Deus non est ens; 
+          <lb ed="#G" n="96"/>sed sup ens; nec nomen substantiae, vt patet <ref xml:id="HuYgTa-e61790-Rd1e315">p. Au. 8. de tri.</ref> 
+          <lb ed="#G" n="97"/>Sed illa non concludunt: quia ut superius dis:3. patuit. s 
+          <lb ed="#G" n="98"/>Deum esse est per se notum omne autem quod per se est noni 
+          <lb ed="#G" n="99"/>tum, aliquo modo nominabile. Item illud, de quo tractat in 
+          <lb ed="#G" n="100"/>vera srientia, est vere nominabile; sed de Deo non solum 
+          <lb ed="#G" n="101"/>n theologia tractatur, sed etiam saepius in philosophia, &amp;  
+          <lb ed="#G" n="102"/>specialiter in metaph ergo &amp;c. 
+        </p>
+        <p xml:id="HuYgTa-e61790-d1e332">
+          <lb ed="#G" n="103"/>
+          <pc type="indent"/>Ad omnes illas auctoritates Dion: &amp; multas
+          consimi<lb ed="#G" n="104" break="no"/>les, quas saepius ponit, dicendum, quod per huiusmodi
+          ver<lb ed="#G" n="105" break="no"/>a Dio non intendit, nisi quod hic existentes in via Deum 
+          <lb ed="#G" n="106"/>perfecte cognoscere non possumus; nec per consequens 
+          <lb ed="#G" n="107"/>nominare, per hoc tamen non intendit negare, quin
+          im<lb ed="#G" n="108" break="no"/>erfecte ipsum possimus &amp; cognoscere &amp; nominare: &amp; 
+          <lb ed="#G" n="109"/>hoc patet ad prima tria. 
+        </p>
+        <p xml:id="HuYgTa-e61790-d1e352">
+          <lb ed="#G" n="110"/>
+          <pc type="indent"/>Ad quartum dicendum, quod inter signum, &amp; signatum 
+          <lb ed="#G" n="111"/>non oportet esse proportionem secundum adaequationem, 
+          <lb ed="#G" n="112"/>scu aequalitatem: alias enim circulus numquam posset esse  
+          <lb ed="#G" n="113"/>signumvini; sed sufficit, quod signum imponatur signato ab 
+          <lb ed="#G" n="114"/>aliqua proprietate, que in signato existat secundum rem, 
+          <lb ed="#G" n="115"/>&amp; aliquo modo appareat, vel exprimatur in signo. 
+        </p>
+        <p xml:id="HuYgTa-e61790-d1e370">
+          <lb ed="#G" n="116"/>
+          <pc type="indent"/>Ad quintum dicendum, quod nomen entis, &amp; esse pro 
+          <lb ed="#G" n="117"/>priissime Deo comperit, vnde propter hoc quod etinem 
+          <lb ed="#G" n="118"/>tiam proprietatis illius, qua hoc nomen ens, &amp; esse Deo 
+          <lb ed="#G" n="119"/>conueniunt nos non apprehendimus; ideo ait Dlo. quod 
+          <lb ed="#G" n="120"/>Deus non est ens, sed super ens. Aug. autem negat Deum 
+          <lb ed="#G" n="121"/>esse substantiam, prout substantia est vnum de dece praedicaa 
+          <lb ed="#G" n="122"/>mentis: quia natura diuina est super omne praedicamentum 
+        </p>
+        <p xml:id="HuYgTa-e61790-d1e390">
+          <lb ed="#G" n="123"/>ARTICVLVS II M 
+          <lb ed="#G" n="124"/>Vtrum Deus sit nominabilis plaribus. 
+          <lb ed="#G" n="125"/>nominibus
+        </p>
+        <p xml:id="HuYgTa-e61790-d1e400">
+          <lb ed="#G" n="126"/>QVANTVM ad secundum, vtrum Deus sit
+          nomi<lb ed="#G" n="127" break="no"/> nabilis pluribus nominibus, dico, quod Deum 
+          <lb ed="#G" n="128"/>possumus nominare pluribus nominibus.
+        </p>
+        <p xml:id="HuYgTa-e61790-d1e409">
+          <lb ed="#G" n="129"/>1 Quia eo modo, quo aliquid intelligimus, ipsum 
+          <lb ed="#G" n="130"/>ossumus significare, sed Deum contingit nos
+          multipli<lb ed="#G" n="131" break="no"/>iter intelligere, ergo possumus ei diuersa nomina signifi 
+          <lb ed="#G" n="132"/>catiua imponere. Minorem probo; possumus: ni Deum
+          im<lb ed="#G" n="133" break="no"/>telligere ex creaturis: quia inuisibilia pei per ea, quae facta 
+          <lb ed="#G" n="134"/>unt, intellecta conspiciuntur Huiusmodi autem notitram 
+          <!--202.xml-->
+          <pb ed="#G" n="82-r"/>
+          <cb ed="#G" n="a"/>
+          <lb ed="#G" n="1"/>concipimus uno modo via remotionis, scilicet
+          remouen<lb ed="#G" n="2" break="no"/>do a Deo omne imperfectionem, quam in creaturis vide 
+          <lb ed="#G" n="3"/>mus, &amp; sic nominamus eum incorruptibilem, immateria 
+          <lb ed="#G" n="4"/>lem, immutabilem, &amp; sic de consimilibus. Alio modo
+          ra<lb ed="#G" n="5" break="no"/>tione eminentiae, &amp; sic dicimus eum aeternum, omnipoten 
+          <lb ed="#G" n="6"/>tem, immensum, illimitatum. Tertio ratione causalitatis; 
+          <lb ed="#G" n="7"/>&amp; fic dicitur creator, conseruator, &amp; gubernator.
+        </p>
+        <p xml:id="HuYgTa-e61790-d1e446">
+          <lb ed="#G" n="8"/>2 Praeterea, secundum grammaticos, &amp; philosophos 
+          <lb ed="#G" n="9"/>modi significandi sequuntur modos intelligendi; sed
+          in<lb ed="#G" n="10" break="no"/>tellectus viatoris propter sui debilitatem &amp; perfectionis 
+          <lb ed="#G" n="11"/>diuinae sublimitatem vnam &amp; simplicissimam entitatem 
+          <lb ed="#G" n="12"/>diuinae naturae potest infinitis modis concipere, quia sicut 
+          <lb ed="#G" n="13"/>intellectus diuinus propter sui excellentiam, qua omne 
+          <lb ed="#G" n="14"/>creatum &amp; creabile in infinitum excedit, omnia creata &amp; 
+          <lb ed="#G" n="15"/>creabilia vnico conceptu concipit, quamuis talia sint
+          in<lb ed="#G" n="16" break="no"/>finita: sic intellectus noster, quia a diuina natura in infini 
+          <lb ed="#G" n="17"/>tum exceditur, ideo vnicam Dei naturam, seu perfectio 
+          <lb ed="#G" n="18"/>nem infinitis conceptibus posset concipere, &amp; secundum 
+          <lb ed="#G" n="19"/>quemlibet conceptum ei nomen imponere : Propter quod 
+          <lb ed="#G" n="20"/>nit <ref xml:id="HuYgTa-e61790-Rd1e476">Dyon. 12 de diuin, no</ref>, <quote xml:id="HuYgTa-e61790-Qd1e479">Laudare habemus eum, qui es 
+            <lb ed="#G" n="21"/>infinitorum nominum</quote> 
+        </p>
+        <p xml:id="HuYgTa-e61790-d1e485">
+          <lb ed="#G" n="22"/>
+          <pc type="indent"/>Sed hic posset instare aliquis.  
+          <lb ed="#G" n="23"/>1 Quia ait <ref xml:id="HuYgTa-e61790-Rd1e493">8. Hylarius in de tri.</ref> quod non sermoni res: 
+          <lb ed="#G" n="24"/>sed rei debet esse sermo subiectus, ergo sermone, siue non 
+          <lb ed="#G" n="25"/>men debemus taliter imponere, qualiter videmus
+          natu<lb ed="#G" n="26" break="no"/>ras rerum se habere, ergo vnicam Dei perfectionem non 
+          <lb ed="#G" n="27"/>nominabimus diuersis nominibus 
+        </p>
+        <p xml:id="HuYgTa-e61790-d1e506">
+          <lb ed="#G" n="28"/>
+          <pc type="indent"/>2 Praeterea, simplex aut totaliter cognoscitur, aut
+          pe<lb ed="#G" n="29" break="no"/>itus ignoratur, sed Deus est simplicissimus, aut igitur ta 
+          <lb ed="#G" n="30"/>taliter cognoscitur, &amp; sic vno tantum nomine nominabi 
+          <lb ed="#G" n="31"/>tur, aut penitus ignoratur, &amp; tunc nullo nomine nomina 
+          <lb ed="#G" n="32"/>bitur, quia quod nullo modo intelligimus, nullo nomi- 
+          <lb ed="#G" n="33"/>ne significamus. 
+        </p>
+        <p xml:id="HuYgTa-e61790-d1e524">
+          <lb ed="#G" n="34"/>
+          <pc type="indent"/>3 Praeterea, aut talibus diuersis nominibus respondet 
+          <lb ed="#G" n="35"/>aliqua diuersitas ex parte rei, aut nulla. Si aliqua, tunc 
+          <lb ed="#G" n="36"/>Deus est compositus. Si nulla, tunc talia nomina esseni 
+          <lb ed="#G" n="37"/>penitus svnonvma, &amp; per consequens esset nugatio, cun 
+          <lb ed="#G" n="38"/>simul iungerentur: quia sicut <ref xml:id="HuYgTa-e61790-Rd1e539">Auicenna ait in metaphys 
+            <lb ed="#G" n="39"/>ca sua</ref>, Si vnum adderet aliquid super ens, tunc dicendi 
+          <lb ed="#G" n="40"/>es vnum, esset nugatio: quia talia nomina essent svnonvma 
+          <lb ed="#G" n="41"/>Ad primum dicendum, quod sermo, quo rem nomina 
+        </p>
+        <p xml:id="HuYgTa-e61790-d1e550">
+          <lb ed="#G" n="42"/>
+          <pc type="indent"/>mus, est rei subiectus, quantum natura intellectus
+          pati<lb ed="#G" n="43" break="no"/>tur, qui nomen imponit, &amp; ideo diuinus intellectus, si sua 
+          <lb ed="#G" n="44"/>naturam nominaret, vnum nomen sibi imponeret:
+          qui<lb ed="#G" n="45" break="no"/>vnico conceptu ipsam perfecte comprehendit. Noster au 
+          <lb ed="#G" n="46"/>tem intellectus diuersis nominibus ipsam nominat, eo, qui 
+          <lb ed="#G" n="47"/>a diuerfis rerum similitudinibus ipsam diuersimode concipiat 
+        </p>
+        <p xml:id="HuYgTa-e61790-d1e568">
+          <lb ed="#G" n="48"/>
+          <pc type="indent"/>Ad secundum dicendum, quod simplex dupliciter po 
+          <lb ed="#G" n="49"/>test cognosci. Vno modo intrinsece, &amp; diffinitiue siu 
+          <lb ed="#G" n="50"/>quidditatiue per propriam diffinitionem, &amp; sic maior est 
+          <lb ed="#G" n="51"/>vera. Alio modo extrinsece, &amp; per effectus, &amp; sic maior no 
+          <lb ed="#G" n="52"/>est vera: quia potest secundum plus &amp; minus cognosci, se 
+          <lb ed="#G" n="53"/>cudum quod effectus magis, &amp; minus cognoscitur, &amp; ma 
+          <lb ed="#G" n="54"/>xime si nullus illorum effectuum sit sibi adaequatus. Et 
+          <lb ed="#G" n="55"/>quia sic est in proposito, ideo, &amp;c 
+        </p>
+        <p xml:id="HuYgTa-e61790-d1e590">
+          <lb ed="#G" n="56"/>
+          <pc type="indent"/>Ad tertium dicendum, quod talia nomina non sunt 
+          <lb ed="#G" n="57"/>fvnonvma, &amp; quamuis ipsis intrinsece, &amp; ex parte natu 
+          <lb ed="#G" n="58"/>rae diuinae non respondeant diuersae rationes, extrinsece 
+          <lb ed="#G" n="59"/>tamen in creaturis diuersae rationes ipsis respondent,
+          ra<lb ed="#G" n="60" break="no"/>tione quarum diuina perfectio vna existens in seipsa
+          di<lb ed="#G" n="61" break="no"/>nersimode a nobis intelligitur, &amp; per consequens diuer 
+          <lb ed="#G" n="62"/>fis nominibus non svnonvmis nominatur. 
+        </p>
+        <p xml:id="HuYgTa-e61790-d1e610">
+          <lb ed="#G" n="63"/>
+          <pc type="indent"/>ARTICVLVS I 
+          <lb ed="#G" n="64"/>Vtrum aliquod illorum nominum, quae de Deo dicim 
+          <lb ed="#G" n="65"/>tur, pure, &amp; proprie conuerant essentiae diuina 
+          <lb ed="#G" n="66"/>
+          <pc type="indent"/>secundum se, &amp; non in ordine ad aliquod opus.
+        </p>
+        <p xml:id="HuYgTa-e61790-d1e626">
+          <lb ed="#G" n="67"/>QVANTVM ad tertium, vtrum aliquod illorum 
+          <lb ed="#G" n="68"/>S nominum quae de Deo dicuntur, pure &amp; proprie 
+          <!--202.xml-->
+          <cb ed="#G" n="b"/>
+          <lb ed="#G" n="69"/>congeniant essentiae diuinae secundum se, &amp; non in ordi 
+          <lb ed="#G" n="70"/>ne ad aliquod opus; sunt duae opiniones, quae de hoc sibi 
+          <lb ed="#G" n="71"/>mutuo contradicunt: sed quia earum contradictio est ma 
+          <lb ed="#G" n="72"/>gis verbalis, quam realis; ideo primo recitabo vtramque 
+          <lb ed="#G" n="73"/>opinionem, Secundo ostendam earum concordiam, &amp;
+          tol<lb ed="#G" n="74" break="no"/>lam contradictionem. 
+        </p>
+        <p xml:id="HuYgTa-e61790-d1e650">
+          <lb ed="#G" n="75"/>
+          <pc type="indent"/>Est igitur vna opinio, quae dicit, quod nullum nomen 
+          <lb ed="#G" n="76"/>a nobis impositum significat diuinam essentiam secundum 
+          <lb ed="#G" n="77"/>se &amp; proprie absque comparatione ad extra.
+        </p>
+        <p xml:id="HuYgTa-e61790-d1e662">
+          <lb ed="#G" n="78"/>1 Quia, si aliquod nomen esset tale; hoc videretur de 
+          <lb ed="#G" n="79"/>hoc nomine Deus, sed hoc non: quia secundum Dama
+          li<lb ed="#G" n="80" break="no"/>3 theos grece, quod est Deus latine, vno modo dicitur a 
+          <lb ed="#G" n="81"/>theaste, quod est videre, vel considerare, quia omnia nu¬ f 
+          <lb ed="#G" n="82"/>da &amp; aperta sunt oculis eius, vt dicit Apostolus. Alio mo 
+          <lb ed="#G" n="83"/>do athein, qud est fouere: quia omnia fouet in bono.
+          Di<lb ed="#G" n="84" break="no"/>citur etiam a themi, quod est ardere: quia Deus noster 
+          <lb ed="#G" n="85"/>ignis consumens est, consumit enim omnem malitiam. 
+        </p>
+        <p xml:id="HuYgTa-e61790-d1e682">
+          <lb ed="#G" n="86"/>
+          <pc type="indent"/>2 Praeterea, nulla res est a nobis nominabilis, nisi
+          in<lb ed="#G" n="87" break="no"/>quantum est a nobis cognoscibilis, quia <quote xml:id="HuYgTa-e61790-Qd1e690" source="http://scta.info/resource/adt-l15-d1e1804" synch="4-13">verbum, quod fo 
+            <lb ed="#G" n="88"/>ris sonat, signum est verbi, quod intus lucet</quote>, secundum 
+          <lb ed="#G" n="89"/>
+          <ref xml:id="HuYgTa-e61790-Rd1e698">August. 15. de tri.</ref> Secundum Damas: quid Deus est incon 
+          <lb ed="#G" n="90"/>prehensibile est a nobis, &amp; penitus ignotum, ergo tan 
+          <lb ed="#G" n="91"/>tum secundum operationes, quae nobis notae sunt,
+          essen<lb ed="#G" n="92" break="no"/>tiae diuinae nomina imponimus 
+        </p>
+        <p xml:id="HuYgTa-e61790-d1e708">
+          <lb ed="#G" n="93"/>
+          <pc type="indent"/>3 Praeterea, <ref xml:id="HuYgTa-e61790-Rd1e714">Dama. dicit. lib. 1.</ref> quod singulum eorum 
+          <lb ed="#G" n="94"/>quae de Deo dicuntur, oportet non quid est secundum 
+          <lb ed="#G" n="95"/>substantiam sign: ficare: sed quid non est ostendere, aut 
+          <lb ed="#G" n="96"/>habitudinem quandam, aut aliquid eorum, quae assequun 
+          <lb ed="#G" n="97"/>tur naturam, vel operationem.
+        </p>
+        <p xml:id="HuYgTa-e61790-d1e727">
+          <lb ed="#G" n="98"/>Alij dicunt, quod aliquod nomen potest significara 
+          <lb ed="#G" n="99"/>Dei essentiam nudam, quod probant.
+        </p>
+        <p xml:id="HuYgTa-e61790-d1e734">
+          <lb ed="#G" n="100"/>1 Auctoritate <ref xml:id="HuYgTa-e61790-Rd1e738">
+            <name xml:id="HuYgTa-e61790-Nd1e740" ref="#Ambrose">Ambrosi</name> in lib de tri.</ref> vbi ait, quod
+          quae<lb ed="#G" n="101" break="no"/>dam nomina perspicuam diuinae maiestatis exprimun 
+          <lb ed="#G" n="102"/>veritatem.
+        </p>
+        <p xml:id="HuYgTa-e61790-d1e749">
+          <lb ed="#G" n="103"/>2 Praeterea, dicit <ref xml:id="HuYgTa-e61790-Rd1e753">
+            <name xml:id="HuYgTa-e61790-Nd1e755">Rabi Movses</name>
+          </ref>, quod omnia nomina 
+          <lb ed="#G" n="104"/>creatoris quae inueniuntur in libris sanctis sunt assumpta 
+          <lb ed="#G" n="105"/>ab operibus, praeter vnum nomen, quod est appropriatum. 
+          <lb ed="#G" n="106"/>ei; scilicet Tetragammaton, &amp; ideo vocatur nomen sepa 
+          <lb ed="#G" n="107"/>ratum: quia significat substantiam creatoris
+          significatio<lb ed="#G" n="108" break="no"/>ne pura. Dicunt etiam isti, propter argumenta alterius 
+          <lb ed="#G" n="109"/>opinionis, quod nomen pot imponi ad significandum
+          pro<lb ed="#G" n="110" break="no"/>prie, &amp; distincte, illud, quod non intelligit noster
+          intelle<lb ed="#G" n="111" break="no"/>ctus: imponimus enim nomen substantiae panis, &amp; ceter- 
+          <lb ed="#G" n="112"/>rum rerum corporalium substantijs, quarum tamen
+          ra<lb ed="#G" n="113" break="no"/>tiones substantiales non intelligimus, quia alias
+          intelli<lb ed="#G" n="114" break="no"/>geremus quando praesens est substantia panis ant e conso 
+          <lb ed="#G" n="115"/>trationem corporis Christi, &amp; sciremus quando abest fa 
+          <lb ed="#G" n="116"/>cta consecratione. Et ideo dicunt isti, quod omnino
+          fal<lb ed="#G" n="117" break="no"/>sum est dicere, quod nulli rei distinctius possit nomen im 
+          <lb ed="#G" n="118"/>poni, quam intelligitur.  
+        </p>
+        <p xml:id="HuYgTa-e61790-d1e793">
+          <lb ed="#G" n="119"/>
+          <pc type="indent"/>Sed isti quamuis verbis contradicant sibi mutuo; 
+          <lb ed="#G" n="120"/>in re tamen nulla est contradictio: quia nomen ali¬¬ 
+          <lb ed="#G" n="121"/>quid proprie significare aliquam naturam potest
+          dupli<lb ed="#G" n="122" break="no"/>citer intelligi. Vno modo perfecte, &amp; diffinitiue, ita quod 
+          <lb ed="#G" n="123"/>torrespondeat sufficienter formali rationi suae, siue
+          sub<lb ed="#G" n="124" break="no"/>stantiali illius naturae: &amp; sic prima opinio concludit
+          veri<lb ed="#G" n="125" break="no"/>tatem: quia nullum tale nomen potest viator imponere 
+          <lb ed="#G" n="126"/>diuinae naturae: quia ipsam diffinitiue non potest
+          appre<lb ed="#G" n="127" break="no"/>hendere. Secundo potest dici aliquod nomen proprie
+          si<lb ed="#G" n="128" break="no"/>gnificare aliquam naturam, eo quod per nostrum arbitriu 
+          <lb ed="#G" n="129"/>distincte sit impositum ad significandum illam naturam 
+          <lb ed="#G" n="130"/>nude, &amp; in se, circumscriptis quibuscunque quae secundum 
+          <lb ed="#G" n="131"/>nostrum modum intelligendi videntur annexa illi naturae: siue 
+          <lb ed="#G" n="132"/>per modum proprietatum, siue per modum accidentium; &amp; sic 
+          <lb ed="#G" n="133"/>secunda opinio est intelligeda, &amp; illo modo potest esse ve 
+          <lb ed="#G" n="134"/>ra: quia cum nomina sint ad placitu, possumus naturae
+          di<lb ed="#G" n="135" break="no"/>uine, quam fide credimus esse vnam in tribus personis, ali 
+          <lb ed="#G" n="136"/>uod nomen imponere, quod ipsam naturam diuinam proprie 
+          <lb ed="#G" n="137"/>&amp; distincte significat, circumscriptis per intellectum omni- 
+          <lb ed="#G" n="138"/>bus proprietatibus, &amp; attributis, &amp; quibuscumque
+          cete<lb ed="#G" n="139" break="no"/>ris secundum nostrum modum intelligendi aduenticiis 
+          <lb ed="#G" n="140"/>illi naturae. Et sic vtraque opinio suo modo potest
+          di<lb ed="#G" n="141" break="no"/>ci vera.
+        </p>
+        <p xml:id="HuYgTa-e61790-d1e848">
+          <!--203.xml-->
+          <pb ed="#G" n="82-v"/>
+          <cb ed="#G" n="a"/>
+          <lb ed="#G" n="1"/>Secunda tamen opinio in illo, quod vltimo adiungit 
+          <lb ed="#G" n="2"/>falsum assumit, cum ait, nos non intelligere substantiam pa 
+          <lb ed="#G" n="3"/>nis, aut ceterarum rerum corporalium. Nec probatio
+          va<lb ed="#G" n="4" break="no"/>let quam adducit de sacramento altaris, quia cognoscere 
+          <lb ed="#G" n="5"/>praesentiam, vel absentiam rei, siue, rem substantiam rei essi 
+          <lb ed="#G" n="6"/>hic, &amp; nunc, non spectat ad notitia abstractiuam, sed intuiti 
+          <lb ed="#G" n="7"/>uam, sicut etiam ille Doctor cuius est opinio secunda
+          ha<lb ed="#G" n="8" break="no"/>bet dicere iuxta sua principia, sed quidditates rerum
+          na<lb ed="#G" n="9" break="no"/>turalium non cognoscimus cognitione intuitiua: sed ab 
+          <lb ed="#G" n="10"/>stractiua, quae quidem notitia abstrahit a presentia, &amp;
+          ab<lb ed="#G" n="11" break="no"/>sentia ab hic &amp; nunc, &amp; ideo quamuis vere intelligamus 
+          <lb ed="#G" n="12"/>quidditatem panis, non tamen possumus cognoscere nisi 
+          <lb ed="#G" n="13"/>inquantum fide tenemus, quauo adsit, vel absit sub
+          sa<lb ed="#G" n="14" break="no"/>cramento altaris. 
+        </p>
+        <p xml:id="HuYgTa-e61790-d1e887">
+          <lb ed="#G" n="15"/>
+          <pc type="indent"/>ARTICVLVS IIII 
+          <lb ed="#G" n="16"/>Vtrum Haec attributalia de Deo dicantur proprie, 
+          <lb ed="#G" n="17"/>
+          <pc type="indent"/>&amp; secundum distinctas rationes.
+        </p>
+        <p xml:id="HuYgTa-e61790-d1e900">
+          <lb ed="#G" n="18"/>SVANTVM ad quartum principale, vtrum nomina al 
+          <lb ed="#G" n="19"/>
+          <pc type="indent"/>Atributalia de Deo dicantur proprie, &amp; secundum 
+          <lb ed="#G" n="20"/>distinctas rationes; est aduertendum, quod, vt videtur, duo 
+          <lb ed="#G" n="21"/>ibi nquiruntur. 
+        </p>
+        <p xml:id="HuYgTa-e61790-d1e913">
+          <lb ed="#G" n="22"/>
+          <pc type="indent"/>Primo, vtrum nomina attributalia proprie de Deo 
+          <lb ed="#G" n="23"/>dicantur. 
+        </p>
+        <p xml:id="HuYgTa-e61790-d1e922">
+          <lb ed="#G" n="24"/>
+          <pc type="indent"/>Secundo, vtrum secundum distinctas rationes. 
+        </p>
+        <p xml:id="HuYgTa-e61790-d1e930">
+          <lb ed="#G" n="25"/>
+          <pc type="indent"/>Quantum ad primum dico, quod quantum ad modi 
+          <lb ed="#G" n="26"/>significandi, qui consurgit ex modo nostro intelligendi 
+          <lb ed="#G" n="27"/>qui propter sui imperfectionem transcendere non valet 
+          <lb ed="#G" n="28"/>naturam rerum creatarum, tunc talia impropriissime
+          di<lb ed="#G" n="29" break="no"/>cuntur de Deo: quia secundum nostrum modum
+          intelli<lb ed="#G" n="30" break="no"/>gendi nomina attributis imponimus penes cognitionem 
+          <lb ed="#G" n="31"/>quam de ipsis, vt sunt in creaturis, accipimus. Modus enim 
+          <lb ed="#G" n="32"/>mtelligendi sequitur modum essendi; &amp; modus significam 
+          <lb ed="#G" n="33"/>di modum intelligendi, &amp; ideo, vt habent esse in
+          creatu<lb ed="#G" n="34" break="no"/>ris nobis notis, sic modum significandi t alibus
+          nomini<lb ed="#G" n="35" break="no"/>bus attribuimus, Sed quantum ad rem significatam tant, 
+          <lb ed="#G" n="36"/>magis propriae talia nomina dicuntur de Deo, quam de 
+          <lb ed="#G" n="37"/>ereaturis, quanto sapientia, &amp; cetera attributa veriori, &amp;  
+          <lb ed="#G" n="38"/>realiori modo habent esse in Deo, quam in creaturis. 
+          <lb ed="#G" n="39"/>Quo ad secundum dico, quod dicuntur de Deo secun 
+          <lb ed="#G" n="40"/>dum distinctas rationes; distinctione tamen sumpta por 
+          <lb ed="#G" n="41"/>comparationem ad extra, &amp; non ab intra, vt patuit <ref xml:id="HuYgTa-e61790-Rd1e971">supe 
+            <lb ed="#G" n="42"/>rius distinctione. 9.</ref> 
+        </p>
+        <p xml:id="HuYgTa-e61790-d1e977">
+          <lb ed="#G" n="43"/>
+          <pc type="indent"/>Ad argumentum principale dicendum, quod quamuis 
+          <lb ed="#G" n="44"/>Deus sit innarrabilis a viatore narratione simpliciter 
+          <lb ed="#G" n="45"/>perfecta, est tamen aliquo modo ab eo narrabilis, &amp; per 
+          <lb ed="#G" n="46"/>consequens aliquo modo nominabilis.  
+        </p>
+      </div>
+    </body>
+  </text>
 </TEI>

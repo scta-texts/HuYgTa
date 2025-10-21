@@ -1,826 +1,826 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Quaestio 1</title>
-            <author ref="#ThomasStrasbourg">Thomas of Strasbourg</author>
-            <respStmt>
-               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
-               <resp>Transcription Editor</resp>
-               <resp>TEI Encoder</resp>
-            </respStmt>
-         </titleStmt>
-         <editionStmt>
-            <edition n="0.0.0-dev">
-               <title>Quaestio 1</title>
-               <date when="2020-11-26">November 26, 2020</date>
-            </edition>
-         </editionStmt>
-         <publicationStmt>
-            <authority>SCTA</authority>
-            <availability status="free">
-               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
-               </p>
-            </availability>
-         </publicationStmt>
-         <sourceDesc>
-            <listWit>
-               <witness xml:id="G" n="cod-TxxxqU">Genoa 1585</witness>
-            </listWit>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
-         <editorialDecl>
-            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
-       guidelines for a diplomatic edition.</p>
-         </editorialDecl>
-      </encodingDesc>
-      <revisionDesc status="draft">
-         <listChange>
-            <change when="2020-11-26" status="draft" n="0.0.0">
-               <p>Created file for the first time.</p>
-            </change>
-         </listChange>
-      </revisionDesc>
-   </teiHeader>
-   <text xml:lang="la">
-      <front>
-         <div xml:id="starts-on">
-            <pb ed="#G" n="P2_48-r"/>
-            <cb ed="#G" n="a"/>
-         </div>
-      </front>
-      <body>
-         <div xml:id="HuYgTa-196854"><!-- HuYgTa-l3d31et32q1 -->
-            <head xml:id="HuYgTa-196854-Hd1e108">Quaestio 1</head>
-            <head xml:id="HuYgTa-196854-Hd1e111" type="question-title">
-      An in caritate constitutus possit eam amittere.
-    </head>
-            <p xml:id="HuYgTa-196854-d1e114">
-      <!--566.xml-->
-               <cb ed="#G" n="b"/>
-               <lb ed="#G" n="70"/>Quaestio I 
-      <lb ed="#G" n="71"/>An in caritate constitutus possit eam  
-      <lb ed="#G" n="72"/>amittere.
-    </p>
-            <p xml:id="HuYgTa-196854-d1e127">
-               <lb ed="#G" n="73"/>VTRVM existens in caritate possit amittere carita 
-      <lb ed="#G" n="74"/>tem. Et videtur quod non. Quia caritas adueniens 
-      <lb ed="#G" n="75"/>expellit peccatum, quod actu est: ergo caritas amit 
-      <lb ed="#G" n="76"/>ti non potest. Antecedens patet: quia caritas non
-      pati<lb ed="#G" n="77" break="no"/>tur secum aliquod mortale peccatum. consequentia
-      pro<lb ed="#G" n="78" break="no"/>batur : quia maior virtus est destruere illud, quod actu 
-      <lb ed="#G" n="79"/>est, quam resistere illi, quod nondum est: ergo caritas iam  
-      <lb ed="#G" n="80"/>habita amitti non potest per peccatum mortale, quod 
-      <lb ed="#G" n="81"/>nondum est 
-    </p>
-            <p xml:id="HuYgTa-196854-d1e149">
-               <lb ed="#G" n="82"/>
-               <pc type="indent"/>Contra, quicunque potest mortaliter peccare, ille
-      po<lb ed="#G" n="83" break="no"/>test caritatem, licet eam habeat, amittere: sed non
-      con<lb ed="#G" n="84" break="no"/>firmatus in gratia potest mortaliter peccare: ergo &amp;c. 
-    </p>
-            <p xml:id="HuYgTa-196854-d1e161">
-               <lb ed="#G" n="85"/>
-               <pc type="indent"/>Hic quattuor sunt videnda. Primo de quaefito,
-      Se<lb ed="#G" n="86" break="no"/>cundo, supposito, quod aliquis amittat caritatem, vtrum 
-      <lb ed="#G" n="87"/>propter hoc deleatur de libro vitae, sicut tangitur hic in 
-      <lb ed="#G" n="88"/>ittera. Tertio vtrum caritas, &amp; ceterae virtutes
-      theolo<lb ed="#G" n="89" break="no"/>gicae maneant, vel excidant in patria. Et hoc quantum ad 
-      <lb ed="#G" n="90"/>distin. 31. uarto, vtrum Deus omnia, quae sunt extra 
-      <lb ed="#G" n="91"/>se, aequaliter diligat. Et hoc quo ad dist. 32. 
-    </p>
-            <p xml:id="HuYgTa-196854-d1e181">
-               <lb ed="#G" n="92"/>
-               <pc type="indent"/>RESOLVTIO. 
-      <lb ed="#G" n="93"/>Homo quidem in caritate constitutus nisi sibi peccati fomes victus 
-    </p>
-            <p xml:id="HuYgTa-196854-d1e190">
-               <lb ed="#G" n="94"/>
-               <pc type="indent"/>uat extirpatus fuerit caritatis habitum am itt ere potest. Vade 
-      <lb ed="#G" n="95"/>ia gratia confirmati, a caritate, quae est in christo Iesu,
-      le<lb ed="#G" n="96" break="no"/>parari nequeunt. 2tit iree 
-    </p>
-            <p xml:id="HuYgTa-196854-d1e201">
-               <lb ed="#G" n="97"/>
-               <pc type="indent"/>ARI ICVLVS 1. 
-      <lb ed="#G" n="98"/>Vtrum in caritate constitutus possit eam amittere. 
-    </p>
-            <p xml:id="HuYgTa-196854-d1e210">
-               <lb ed="#G" n="99"/>
-               <pc type="indent"/>IRCA primum sic procedam. Primo ponam
-      du<lb ed="#G" n="100" break="no"/> plicem conclusionem. Secundo respondebo, ad 
-      <lb ed="#G" n="101"/>vnam incidentem dubitationem. 
-    </p>
-            <p xml:id="HuYgTa-196854-d1e221">
-               <lb ed="#G" n="102"/>
-               <pc type="indent"/>Prima conclusio est, quod omnis homo habens
-      carita<lb ed="#G" n="103" break="no"/>tem, in quo fomes peccati nec est ligatus, nec extirpatus,  
-      <lb ed="#G" n="104"/>potest perdere caritatem. 
-    </p>
-            <p xml:id="HuYgTa-196854-d1e233">
-               <lb ed="#G" n="105"/>
-               <pc type="indent"/>Quia quicunque ex sui dispositione patitur proniti 
-      <lb ed="#G" n="106"/>tem, &amp; inclinationem ad id, quod est incompossibile
-      ca<lb ed="#G" n="107" break="no"/>ritati, ille quantum est de se potest perdere caritatem: 
-      <lb ed="#G" n="108"/>sed omnis homo, in quo fomes peccati nec est ligatus, fi 
-      <lb ed="#G" n="109"/>cut videtur esse in eis, qui sunt in gratia Dei confirmati, 
-      <lb ed="#G" n="110"/>nec extirpatus, sicut est in quolibet beato in patria, &amp; fuit 
-      <lb ed="#G" n="111"/>n Deata Virgine, cum adhuc erat in via, talis homo pati 
-      <lb ed="#G" n="112"/>tur pronitatem, &amp; inclinationem, saltem quandoque ad 
-      <lb ed="#G" n="113"/>mortale peccatum, quod est impossibile caritati: ergo &amp;c. 
-      <lb ed="#G" n="114"/>Maior patet: quia quantam inclinationem habet aliquid 
-      <lb ed="#G" n="115"/>ad id, quod est incompossibile alicui formae, quam iam ha 
-      <lb ed="#G" n="116"/>bet, tantam possibilitatem habet ad perdendum illam 
-      <lb ed="#G" n="117"/>formam. Minor etiam patet: quia de omnibus talibus 
-      <lb ed="#G" n="118"/>hominibus dicitur, Proni sunt sensus hominis ad malum 
-      <lb ed="#G" n="119"/>ab adolescentia sua 
-    </p>
-            <p xml:id="HuYgTa-196854-d1e270">
-               <lb ed="#G" n="120"/>
-               <pc type="indent"/>2 Praeterea, sicut se habet priuatio in naturalibus, sic se 
-      <lb ed="#G" n="121"/>habere videtur fomes peccati in gratuitis: sed quacunque 
-      <lb ed="#G" n="122"/>formam naturalem habet subiectum cum annexa
-      priua<lb ed="#G" n="123" break="no"/>tione, illam potest perdere: ergo quodcumque donum 
-      <lb ed="#G" n="124"/>gratuitum habet homo, non ligato, vel extirpato somis 
-      <lb ed="#G" n="125"/>te, illud potest perdere¬
-    </p>
-            <p xml:id="HuYgTa-196854-d1e288">
-      <!--567.xml-->
-               <pb ed="#G" n="P2_48-v"/>
-               <cb ed="#G" n="a"/>
-               <lb ed="#G" n="1"/>3 Praeterea, oninis homo non confirmatus in gratia, 
-      <lb ed="#G" n="2"/>potest perdere caritatem: sed homo talis, in quo fome 
-      <lb ed="#G" n="3"/>peccati nec est ligatus, nec extirpatus, non est
-      confirma<lb ed="#G" n="4" break="no"/>tus in gratia: ergo &amp;c. Maior patet, quia caritas non
-      po<lb ed="#G" n="5" break="no"/>test esse in aliquo sine gratia: nam impossibile est, quod 
-      <lb ed="#G" n="6"/>aliquis sit carus, &amp; tamen non sit gratus: ideo eadem
-      pos<lb ed="#G" n="7" break="no"/>sibitate, qua quis potest perdere gratiam, eadem potest 
-      <lb ed="#G" n="8"/>perdere caritatem. Minor etiam patet: quia nullus
-      vi<lb ed="#G" n="9" break="no"/>detur esse confirmatus, nisi fomes sit in eo ligatus, saltem  
-      <lb ed="#G" n="10"/>quo ad peccata mortalia
-    </p>
-            <p xml:id="HuYgTa-196854-d1e319">
-               <lb ed="#G" n="11"/>Forte dicetur, quod Apostolus Paulus fuit in gratia con 
-      <lb ed="#G" n="12"/>firmatus, &amp; fomes non videtur in eo fuisse ligatus, cun 
-      <lb ed="#G" n="13"/>ipse tantas senserit tentationes, quod de seipso ait, Ser 
-      <lb ed="#G" n="14"/>tio quidem aliam legem in membris meis repugnantem 
-      <lb ed="#G" n="15"/>legi mentis meae, &amp; captiuantem me in lege peccati 
-    </p>
-            <p xml:id="HuYgTa-196854-d1e332">
-               <lb ed="#G" n="16"/>
-               <pc type="indent"/>Respondeo, quod quamuis fomes quo ad hoc non fuc 
-      <lb ed="#G" n="17"/>rit in Apostolo pro tunc ligatus, quin permittente Deo 
-      <lb ed="#G" n="18"/>tentationes senserit: sic tamen fuit ligatus, quod huius 
-      <lb ed="#G" n="19"/>modi tentationes progredi non poterant vsque ad mor 
-      <lb ed="#G" n="20"/>tale peccatum : propter quod dixit ei dominus Sufficit 
-      <lb ed="#G" n="21"/>tibi gratia mea: nam virtus in infirmitate perficitur. Vn 
-      <lb ed="#G" n="22"/>de idem Apostolus volens ostendere fomitem esse
-      liga<lb ed="#G" n="23" break="no"/>tum quo ad omnia ea, quae ipsum possent separare a
-      ca<lb ed="#G" n="24" break="no"/>ritate Dei, sic ait. Scio enim, &amp; certus sum, quod neque 
-      <lb ed="#G" n="25"/>mors, neque vita, neque altitudo, neque profundum, nec 
-      <lb ed="#G" n="26"/>aliqua creatura nos separare poterit a caritate Dei, quae 
-      <lb ed="#G" n="27"/>est in Christo Icsu¬
-    </p>
-            <p xml:id="HuYgTa-196854-d1e363">
-               <lb ed="#G" n="28"/>Sed contra istam conclusionem est quaedam opinio, 
-      <lb ed="#G" n="29"/>cuius mentionem facit Magister hic in littera, quae ponit 
-      <lb ed="#G" n="30"/>quod nullus homo, qui semel habuit caritate, poterit
-      ea<lb ed="#G" n="31" break="no"/>dem amittere. Cuius opinionis motiua poterant esse haec 
-    </p>
-            <p xml:id="HuYgTa-196854-d1e375">
-               <lb ed="#G" n="32"/>
-               <pc type="indent"/>1 Quia si caritas amitteretur, hoc esset pro tanto: 
-      <lb ed="#G" n="33"/>quia ab aliquo peccato destrueretur: Sed hoc esse non po 
-      <lb ed="#G" n="34"/>test: quia autem destrueretur a peccato, quod est, aut a pec 
-      <lb ed="#G" n="35"/>cato quod non est. Non primo modo: quia tunc duo
-      in<lb ed="#G" n="36" break="no"/>compossibilia simul essent in eodem subiecto, scilicet pec 
-      <lb ed="#G" n="37"/>catum, &amp; caritas. Nec secundo modo: quia quod non 
-      <lb ed="#G" n="38"/>est hoc, nihil destruere potest
-    </p>
-            <p xml:id="HuYgTa-196854-d1e395">
-               <lb ed="#G" n="39"/>2 Praeterea, si caritas in aliquo hominc destrueretur,  
-      <lb ed="#G" n="40"/>aut hoc fieret actione proprii subiecti, aut actione
-      ali<lb ed="#G" n="41" break="no"/>cuius alterius a subiecto. Non primo modo: quia
-      null<lb ed="#G" n="42" break="no"/>res destruit illud, quod tenet praedominium in ea: sed  
-      <lb ed="#G" n="43"/>magis sequitur condicionem eius: sed inter omnes
-      virtu<lb ed="#G" n="44" break="no"/>tes, siue sint morales, siue naturales, caritas tenet praedo. 
-      <lb ed="#G" n="45"/>minium: nam caritas est virtus inuicta, quae vincit omnia 
-      <lb ed="#G" n="46"/>ergo actione proprii subiecti caritas non potest
-      destrui<lb ed="#G" n="47" break="no"/>Nec secundo modo: quia vel hoc esset Deus, vel creatu 
-      <lb ed="#G" n="48"/>ra. Non Deus: quia Deus non est destructor alicuius
-      bo<lb ed="#G" n="49" break="no"/>ni. Nec creatura: quia eum solus Deus possit illabi hus 
-      <lb ed="#G" n="50"/>manae voluntati, quae est subiectum caritatis: igitur
-      ca<lb ed="#G" n="51" break="no"/>ritas non potest attingi actione alicuius creaturae.
-    </p>
-            <p xml:id="HuYgTa-196854-d1e426">
-               <lb ed="#G" n="52"/>3 Praeterea, habens caritatem non potest peccare: er- 
-      <lb ed="#G" n="53"/>go non potest caritatem amittere, consequentia patet. 
-      <lb ed="#G" n="54"/>Antecedens probatur sic lo, dicit: Qui natus est ex Deo, 
-      <lb ed="#G" n="55"/>peccatum non facit: quoniam semen ipsius in eo manet 
-      <lb ed="#G" n="56"/>&amp; non potest peccare: quoniam ex Deo natus est. Sed 
-      <lb ed="#G" n="57"/>alibi dicit. Omnis, qui diligit, ex Deo natus est: ergo ci 
-      <lb ed="#G" n="58"/>quilibet habens caritatem diligat, sequitur, quod nullus 
-      <lb ed="#G" n="59"/>habens caritatem possit peccare,. 
-    </p>
-            <p xml:id="HuYgTa-196854-d1e446">
-               <lb ed="#G" n="60"/>
-               <pc type="indent"/>Sed ista opinio stare non potest, salua veritate sacnae 
-      <lb ed="#G" n="61"/>scripturae : Constat enim, quod Saul fuit in caritate, de 
-      <lb ed="#G" n="62"/>quo legitur, quod non erat vir melior eo in israel: &amp; tamen 
-      <lb ed="#G" n="63"/>postea perdidit caritatem, cum innocentem Dauid persi 
-      <lb ed="#G" n="64"/>quebatur, voci domini non obediuit, &amp; sacerdotes Dei 
-      <lb ed="#G" n="65"/>occidi fecit.
-    </p>
-            <p xml:id="HuYgTa-196854-d1e464">
-               <lb ed="#G" n="66"/>Item, Petrus in caena domini caritatem habuit: quam 
-      <lb ed="#G" n="67"/>tamen eadem nocte ter negando dominum perdidit.  
-    </p>
-            <p xml:id="HuYgTa-196854-d1e471">
-               <lb ed="#G" n="68"/>
-               <pc type="indent"/>Item, secundum fidem nostram paruuli baptia ati
-      reci<lb ed="#G" n="69" break="no"/>piunt caritatem : quam tamen multi, cum efficiuntur 
-      <lb ed="#G" n="70"/>adulti, perdunt propter sua peccata. 
-    </p>
-            <p xml:id="HuYgTa-196854-d1e483">
-               <lb ed="#G" n="71"/>
-               <pc type="indent"/>Item, Apoc. 2. dicitur. Habeo aduersum te pauca:
-      quo<lb ed="#G" n="72" break="no"/>niam caritatem primam reliquisti. 
-    </p>
-            <p xml:id="HuYgTa-196854-d1e492">
-               <lb ed="#G" n="73"/>
-               <pc type="indent"/>Ad primum motiuum illius opinionis dicer dum, quod 
-      <!--567.xml-->
-      <cb ed="#G" n="b"/>
-               <lb ed="#G" n="74"/>destruitur a peccato, quod est. Ad probationem
-      dicen<lb ed="#G" n="75" break="no"/>dum, quod non manent simul: sed in eodem instanti,  
-      <lb ed="#G" n="76"/>quo mortale peccatum incipit esse, caritas desinit esse 
-      <lb ed="#G" n="77"/>Vnde non est imaginandum, quod peccatum actiue de 
-      <lb ed="#G" n="78"/>struat caritatem: sed solum priuatiue: nam admissio
-      mor<lb ed="#G" n="79" break="no"/>talis peccati est priuatio gratiae, vel saltem immediate
-      se<lb ed="#G" n="80" break="no"/>quitur ad ipsum priuatio gratiae 
-    </p>
-            <p xml:id="HuYgTa-196854-d1e518">
-               <lb ed="#G" n="81"/>
-               <pc type="indent"/>Ad secundum dicendum, quod caritas potest destrui 
-      <lb ed="#G" n="82"/>per actum proprij subiecti: nam cum humana voluntas 
-      <lb ed="#G" n="83"/>abutendo sua propria libertate, auertit se ab
-      incommu<lb ed="#G" n="84" break="no"/>tabili bono, &amp; conuertit se ad commutabile bonum: tund 
-      <lb ed="#G" n="85"/>caritas destruitur: quia ex tali actu subiectum caritatis ti 
-      <lb ed="#G" n="86"/>taliter efficitur indispositum pro forma caritatis: Sicut 
-      <lb ed="#G" n="87"/>econuerso cum toto corde conuertimus ad Deum,
-      volun<lb ed="#G" n="88" break="no"/>tas optime disponitur ad recipiendum formam caritatis; 
-      <lb ed="#G" n="89"/> Sicut ergo videmus in naturalibus, quod subiectum
-      be<lb ed="#G" n="90" break="no"/>ne dispositum retinet formam: quia actus actiuorum sunt 
-      <lb ed="#G" n="91"/>in patiente, &amp; disposito, vt dicitur. 2. de anima, sic
-      sub<lb ed="#G" n="92" break="no"/>iectum penitus indispositum naturaliter perdit formam 
-      <lb ed="#G" n="93"/> Sic in proposito. Ad probationem dicendum, quod quam 
-      <lb ed="#G" n="94"/>uis in subiecto bene disposito caritas teneat praedominium 
-      <lb ed="#G" n="95"/>tamen in subiecto male disposito nullum habet domi- 
-      <lb ed="#G" n="96"/>nium, immo penitus sopitur. 
-    </p>
-            <p xml:id="HuYgTa-196854-d1e557">
-               <lb ed="#G" n="97"/>
-               <pc type="indent"/>Ad tertium nego antecedens. Ad probationem potest 
-      <lb ed="#G" n="98"/>dici, quod beatus loannes loquitur ibi de his, qui sunt 
-      <lb ed="#G" n="99"/>persecti in caritate, in quibus fomes peccati iam aliquo 
-      <lb ed="#G" n="100"/>modo est ligatus: &amp; ideo non est contra istam conclusionem 
-      <lb ed="#G" n="101"/>Concluno secunda est, quod nullus homo, in quo fo 
-      <lb ed="#G" n="102"/>mes peccati vel est ligatus, vel extirpatus, habens
-      cari<lb ed="#G" n="103" break="no"/>tatem potest dimittere caritatem: &amp; hoc potest probari 
-      <lb ed="#G" n="104"/>tripliciter semper accipiendo medium opposito modo 
-      <lb ed="#G" n="105"/>quo superius esti acceptum in tribus rationibus prima 
-      <lb ed="#G" n="106"/>conclusionis. 
-    </p>
-            <p xml:id="HuYgTa-196854-d1e583">
-               <lb ed="#G" n="107"/>
-               <pc type="indent"/>Forte dicetur, quod siligatio, vel extirpatio fomitis 
-      <lb ed="#G" n="108"/>esset sufficiens medium probandi, quod aliquts non
-      pos<lb ed="#G" n="109" break="no"/>set peccare: tunc primus homo numquam peccasset:
-      qui<lb ed="#G" n="110" break="no"/>antequam peccauit non habuit fomitem peccati, eo quod 
-      <lb ed="#G" n="111"/>in ipso persecta fuerit obedientia virium inferiorum ad 
-      <lb ed="#G" n="112"/>vires superiores.
-    </p>
-            <p xml:id="HuYgTa-196854-d1e601">
-               <lb ed="#G" n="113"/>Respondeo, quod ad non posse peccare non sufficit
-      ca<lb ed="#G" n="114" break="no"/>rentia fomitis, nisi etiam adsit posito gratiae, &amp; caritatis;  
-      <lb ed="#G" n="115"/>loquendo de gratia non solum gratis data, sed de gratia 
-      <lb ed="#G" n="116"/>gratum faciente: sed primus homo, antequam peccaret,  
-      <lb ed="#G" n="117"/>icet fomite careret: tamen non habuit gratiam gratum 
-      <lb ed="#G" n="118"/>facientem, vt superius probaui in libro secundo. dist.
-      4<lb ed="#G" n="119" break="no"/>articulo. 2. ideo primus homo potuit peccare. 
-    </p>
-            <p xml:id="HuYgTa-196854-d1e620">
-               <lb ed="#G" n="120"/>
-               <pc type="indent"/>Item, forte dicetur, quod gratia non tollit arbitrii
-      li<lb ed="#G" n="121" break="no"/>bertatem: ideo si primus homo sine gratia habuit liberi 
-      <lb ed="#G" n="122"/>arbitrium, quo peccauit, dato quod habuisset gratiam, 
-      <lb ed="#G" n="123"/>adhuc peccare potuit 
-    </p>
-            <p xml:id="HuYgTa-196854-d1e633">
-               <lb ed="#G" n="124"/>
-               <pc type="indent"/>Respondeo, quod istud argumentum quamuis sit ap 
-      <lb ed="#G" n="125"/>arens: tamen non concludit: quia eadem ratione pro: 
-      <lb ed="#G" n="126"/>bari posset, quod Deata Virgo, vel etiam sancti in patria 
-      <lb ed="#G" n="127"/>possent peccare. Et ideo dicendum, quod talis gratia, quam 
-      <lb ed="#G" n="128"/>staret sine fomite, concerneret caritatem perfectam, quae 
-      <lb ed="#G" n="129"/>quamuis non coacte, tamen allectiue prohibuisset omni 
-      <lb ed="#G" n="130"/>illud, quo talis homo ei, quem illa caritate perfecta
-      di<lb ed="#G" n="131" break="no"/>exisset, disciplicere potuisset, &amp; per consequens ibi
-      fuis<lb ed="#G" n="132" break="no"/>set necessitas ad non peccandum, non quidem necessitas 
-      <lb ed="#G" n="133"/>coactionis: sed necessitas immutabilitatis, nec hoc
-      de<lb ed="#G" n="134" break="no"/>rogasset libero arbitrio: quia secundum Anselm. possi 
-      <lb ed="#G" n="135"/>peccare non est libertas, nec pars libertatis: sed potius
-      vi<lb ed="#G" n="136" break="no"/>tium libertatis. Vnde non fuit minor libertas in virgine 
-      <lb ed="#G" n="137"/>gloriosa, quae peccare non potu:t, quam in luda, qui pec 
-      <lb ed="#G" n="138"/>care potuit, &amp; etiam de facto peccauit. 
-    </p>
-            <p xml:id="HuYgTa-196854-d1e670">
-               <lb ed="#G" n="139"/>
-               <pc type="indent"/>Posito ergo, quod caritas, sicut iam dictum est in prima con 
-      <lb ed="#G" n="140"/>clusione, possit amitti, &amp; de facto quandoque perdatur 
-      <lb ed="#G" n="141"/>per peccatum, dubitatur ab aliquibus, an in homine ordi 
-      <lb ed="#G" n="142"/>nate, &amp; debite poenitente redeat aequalis caritas 
-    </p>
-            <p xml:id="HuYgTa-196854-d1e683">
-               <lb ed="#G" n="143"/>
-               <pc type="indent"/>Respondeo ad hoc, &amp; dico, quod loquendo de
-      carita<lb ed="#G" n="144" break="no"/>te, ad cuius mensuram redidtur praemium in vita beata: 
-      <lb ed="#G" n="145"/>semper reditvel maior caritas, vel aequalis: quia in
-      ho<lb ed="#G" n="146" break="no"/>mine debite poenitente, vt communiter dicitur, &amp; trahi¬ 
-      <!--568.xml-->
-      <pb ed="#G" n="P2_49-r"/>
-               <cb ed="#G" n="a"/>
-               <lb ed="#G" n="1"/>tur ex decretis. Cuncta reuiuiscunt, quae quondam viua 
-      <lb ed="#G" n="2"/>fuerunt: Sed talis gradus caritatis, cui scilicet tale praemium 
-      <lb ed="#G" n="3"/>debet respondere, quondam viuus fuit in huiusmodi
-      poe<lb ed="#G" n="4" break="no"/>nitente : ergo talis gradus, &amp; per consequens aequalis
-      ca<lb ed="#G" n="5" break="no"/>ritas reuiuiscet. Si autem talis poenitens non solum
-      suffi<lb ed="#G" n="6" break="no"/>cienter, verum etiam feruenter, &amp; eminenter conteritur; 
-      <lb ed="#G" n="7"/>tunc non solum aequalem, verum maiorem recipiet carita 
-      <lb ed="#G" n="8"/>tem, quam habuerat antequam peccauit. Et isto modo v 
-      <lb ed="#G" n="9"/>rificatur illud verbum apostoli dicentis, Diligentibus Dei 
-      <lb ed="#G" n="10"/>omnia cooperantur in bonum his, qui secundum proposi 
-      <lb ed="#G" n="11"/>tum vocati sunt sancti. Super quo verbo dicit glo, quod 
-      <lb ed="#G" n="12"/>etiam ipsa peccata cooperantur eis in bonum: quia por 
-      <lb ed="#G" n="13"/>poenitentiam feruentiores efficiuntur in bono. 
-      <lb ed="#G" n="14"/>Sed oppositum illius tenet quidam doctor dices, quod ex 
-      <lb ed="#G" n="15"/>hoc, quod aliqui tepidi sunt in poenitendo: quamuis tamer 
-      <lb ed="#G" n="16"/>poeniteant: ideo resurgit in talibus hominibus minor
-      ca<lb ed="#G" n="17" break="no"/>ritas, quam ante habuerant.
-    </p>
-            <p xml:id="HuYgTa-196854-d1e740">
-               <lb ed="#G" n="18"/>lstud non valet: quia vel illa tep iditas est tanta, quod 
-      <lb ed="#G" n="19"/>Deus huiusmodi poenitentiam non acceptat, tunc nulla 
-      <lb ed="#G" n="20"/>redit caritas, eo quod sic poenitens non consequatur
-      ue<lb ed="#G" n="21" break="no"/>niam peccatorum, vel quod Deus acceptat huiusmodi po 
-      <lb ed="#G" n="22"/>nitentiam, &amp; largitur veniam: tunc ad minus redit aequa 
-      <lb ed="#G" n="23"/>lis caritas: quia posito, quod pro tunc poenitens moriatur 
-      <lb ed="#G" n="24"/>ipse tale praemium consequitur, quale consecutus fuisse 
-      <lb ed="#G" n="25"/>si mortuus fuisset antequam fceerat hoc peccatum, quo 
-      <lb ed="#G" n="26"/>perdidit caritatem. Vnde propter commissum peccatum 
-      <lb ed="#G" n="27"/>tali homini vere contrito non diminuitur praemium
-      es<lb ed="#G" n="28" break="no"/>sentiale in gloria: quia propter huiusmodi peccatum
-      da<lb ed="#G" n="29" break="no"/>tur ei poena satisfactoria. Non enim iudicat Deus bis in 
-      <lb ed="#G" n="30"/>idipsum, sicut dicit propheta. Sed hoc faceret, si pro
-      deli<lb ed="#G" n="31" break="no"/>cto diminueret beatam gloriam, &amp; cum hoc infligeret pe 
-      <lb ed="#G" n="32"/>nam satisfactoriam.
-    </p>
-            <p xml:id="HuYgTa-196854-d1e775">
-               <lb ed="#G" n="33"/>Forte obijcietur hic illud, quod scribit Amos. Non 
-      <lb ed="#G" n="34"/>adiiciet resurgere virgo israel. Vbi dicit glo. Non negat, 
-      <lb ed="#G" n="35"/>quin resurgat: sed quod possit resurgere virgo: quia semel 
-      <lb ed="#G" n="36"/>oberrans etiam si reportetur humeris pastoris, non
-      ha<lb ed="#G" n="37" break="no"/>bebit tantam gloriam.  
-    </p>
-            <p xml:id="HuYgTa-196854-d1e789">
-               <lb ed="#G" n="38"/>
-               <pc type="indent"/>Respondeo, quod loquitur ibi de gloria acciden 
-      <lb ed="#G" n="39"/>
-               <pc type="indent"/>tali, quae debetur Virgini, vt virgo est, pu¬¬ 
-      <lb ed="#G" n="40"/>
-               <pc type="indent"/>ta, de aureola : non autem de praemio. 
-      <lb ed="#G" n="41"/>
-               <pc type="indent"/>seu gloria essentiali, de qua
-      ioqui<lb ed="#G" n="42" break="no"/>
-               <pc type="indent"/>mur in proposito Sicut enim 
-      <lb ed="#G" n="43"/>
-               <pc type="indent"/>quae perdidit
-      virginita<lb ed="#G" n="44" break="no"/>
-               <pc type="indent"/>tem, non resurget 
-      <lb ed="#G" n="45"/>
-               <pc type="indent"/>Virgo, sic nec 
-      <lb ed="#G" n="46"/>
-               <pc type="indent"/>habebit 
-      <lb ed="#G" n="47"/>in
-      pa<lb ed="#G" n="48" break="no"/>tria aureolam, quae debetur 
-      <lb ed="#G" n="49"/>
-               <pc type="indent"/>Virgini: ergo &amp;c.
-    </p>
-            <p xml:id="HuYgTa-196854-d1e839">
-               <lb ed="#G" n="50"/>AR 3 IC III 
-      <lb ed="#G" n="51"/>Vtrum, supposito, aliquis
-      amu<lb ed="#G" n="52" break="no"/>
-               <pc type="indent"/>tat caritatem, propter hoc 
-      <lb ed="#G" n="53"/>
-               <pc type="indent"/>deleatiu de sibro vitae.
-    </p>
-            <p xml:id="HuYgTa-196854-d1e855">
-               <lb ed="#G" n="54"/>VANTVM ad secundum articulum tria sunt
-      videm<lb ed="#G" n="55" break="no"/>
-               <pc type="indent"/>da Primo, quid sit liber vitae. Secundo, quomodo 
-      <lb ed="#G" n="56"/>in isto libro aliqui dicuntur esse scripti. 
-    </p>
-            <p xml:id="HuYgTa-196854-d1e866">
-               <lb ed="#G" n="57"/>
-               <pc type="indent"/>Tertio vtrum in eo scripti possint ab eo deleri. 
-      <lb ed="#G" n="58"/>Quo ad primum sciendum, quod liber vitae potest qua 
-      <lb ed="#G" n="59"/>drupliciter sumi 
-    </p>
-            <p xml:id="HuYgTa-196854-d1e877">
-               <lb ed="#G" n="60"/>
-               <pc type="indent"/>Primo pro eo, in quo tandem relucebit qualiter ho¬¬ 
-      <lb ed="#G" n="61"/>mo vixerit. Et sic conscientia hominis dicitur liber vitae 
-      <lb ed="#G" n="62"/>quia in extremo iudicio cuiuslibet conscientia patebit 
-      <lb ed="#G" n="63"/>&amp; in ea videbitur omne, quod in vita sua peregit. 
-    </p>
-            <p xml:id="HuYgTa-196854-d1e890">
-               <lb ed="#G" n="64"/>
-               <pc type="indent"/>Secundo: quia in eo videtur modus viuendi, per quem 
-      <lb ed="#G" n="65"/>ad vitam aeternam veraciter peruenitur. Et sic scriptura sa 
-      <lb ed="#G" n="66"/>cra dicitur liber vitae, luxta illud Hec omnia liber vitae, 
-      <lb ed="#G" n="67"/>&amp; testamentum altissimi
-    </p>
-            <p xml:id="HuYgTa-196854-d1e904">
-      <!--568.xml-->
-               <cb ed="#G" n="b"/>
-               <lb ed="#G" n="68"/>Tertio, dicitur liber vitae illud; in quo relucent illa,  
-      <lb ed="#G" n="69"/>quibus meremur vitam. Et sic diuina notitia dicitur
-      li<lb ed="#G" n="70" break="no"/>ber vitae, pro vt in ea relucentiopera meritoria, in quibus 
-      <lb ed="#G" n="71"/>si homo finaliter perseueraret, consequeretur vitam.  
-      <lb ed="#G" n="72"/>Quarto, dicitur liber vitae ipsa diuina praescientia, seci 
-      <lb ed="#G" n="73"/>dum quam Deus, quasi libro legendo, infallibiliter
-      co<lb ed="#G" n="74" break="no"/>gnoscit condicionem, &amp; numerum ad vitam aeternam ele 
-      <lb ed="#G" n="75"/>ctorum. Et isto quarto modo accipitur hic in proposito 
-      <lb ed="#G" n="76"/>liber vitae. Et quia propter infallibilitutem illius libri al 
-      <lb ed="#G" n="77"/>qui quandoque pro eodem videbantur accipere praedesti 
-      <lb ed="#G" n="78"/>nationem, &amp; librum vitae, iuxta quem sensum videntu 
-      <lb ed="#G" n="79"/>procedere verba glo, super illo verbo, Quorum nomina 
-      <lb ed="#G" n="80"/>scripta sunt in libro vitae, vbi dicit glo. Liber vitae est prae 
-      <lb ed="#G" n="81"/>destinatio Dei in qua omnes sancti scripti sunt. Ideo es 
-      <lb ed="#G" n="82"/>aduertendum, quod quamuis liber vitae, &amp; praedestinatio 
-      <lb ed="#G" n="83"/>ambo habeant innumerabilem stabilitatem: tamen eo 
-      <lb ed="#G" n="84"/>rum differentia potest considerari eo, quod
-      praedestina<lb ed="#G" n="85" break="no"/>tio addit ad librum vitae: Ista enim per ordinem videntur 
-      <lb ed="#G" n="86"/>se habere, Dei dilectio, electio, liber vitae, praedestinatio, 
-      <lb ed="#G" n="87"/>vocatio, iustificatio, &amp; praemiatio seu magnificatio.  
-      <lb ed="#G" n="88"/>Nam Deus diligit nos secundum, quod vult nobis
-      bo<lb ed="#G" n="89" break="no"/>num iuxta quod dicitur 11. Hhetoricae, quod amare ess 
-      <lb ed="#G" n="90"/>uelle alicui bonum: Cum igitur non simus eligibiles nisi 
-      <lb ed="#G" n="91"/>vt boni sumus, patet, quod dilectio aliquo modo
-      praece<lb ed="#G" n="92" break="no"/>dit electionem. Item, quando in aliqua multitudine alo 
-      <lb ed="#G" n="93"/>qui ordinandi sunt ad aliquod excellens bonum, &amp;
-      ali<lb ed="#G" n="94" break="no"/>qui non, tunc ordinandi prius a non ordinanmdis separantur 
-      <lb ed="#G" n="95"/>quam ipsi ordinandi stabiliter conscribantur. Et quia ta 
-      <lb ed="#G" n="96"/>lis separatio fit per electionem, vel est ipsa electio: &amp;
-      eo<lb ed="#G" n="97" break="no"/>rum descript o est ipse liber vitae: ideo electio praecedit li 
-      <lb ed="#G" n="98"/>brum vitae. Item, tales ordinandi prius sunt in
-      ordinan<lb ed="#G" n="99" break="no"/>tis certa notitia quasi in libro conscripti, quam
-      ordinen<lb ed="#G" n="100" break="no"/>tur, &amp; dirigantur in huiusmodi bonum: ldeo liber vita 
-      <lb ed="#G" n="101"/>praecedit praedestinationem, quae est ordinatio electorum 
-      <lb ed="#G" n="102"/>in vitam aeternam secundum aeternum Dei
-      propositum<lb ed="#G" n="103" break="no"/>Item, aeternum propositum istius ordinationis praecedit 
-      <lb ed="#G" n="104"/>actualem eius prosecutionem in effectu. Vocatio autem, 
-      <lb ed="#G" n="105"/>prout in proposito sumitur, est ipsa collatio gratiae, per 
-      <lb ed="#G" n="106"/>quam collationem huiusmodi ordinatio mandatur
-      exe<lb ed="#G" n="107" break="no"/>cutioni ldeo praedestinatio praecedit vocationem. Item 
-      <lb ed="#G" n="108"/>cum iustificatio sit quasi effectus gratiae: quia ex hoc, quod  
-      <lb ed="#G" n="109"/>gratia recipitur in aliquo, ipse recipiens iustificatur: ideo 
-      <lb ed="#G" n="110"/>iustificatio, secundum nostrum modum intelligendi, sequi 
-      <lb ed="#G" n="111"/>tur vocationem, quae est gratiae collatio. Item, cum iustificati 
-      <lb ed="#G" n="112"/>fuerimus tunc meremur praemiari, seu magnificari: idec 
-      <lb ed="#G" n="113"/>iustificatio praecedit magnificationem. Et hunc ordinem 
-      <lb ed="#G" n="114"/>attendens Apostolus quantum ad quattuor terminos v 
-      <lb ed="#G" n="115"/>timo dictos, ait. Quos autem predestinauit, hos &amp;
-      voca<lb ed="#G" n="116" break="no"/>uit, &amp; quos vocauit, hos iustificauit, &amp; quos
-      iustifica<lb ed="#G" n="117" break="no"/>uit, hos &amp; magnificauit. 
-    </p>
-            <p xml:id="HuYgTa-196854-d1e1019">
-               <lb ed="#G" n="118"/>
-               <pc type="indent"/>Quantum ad secundum hic videndum. dicunt quidam 
-      <lb ed="#G" n="119"/>quod numerus electorum formaliter sumptus est certitu 
-      <lb ed="#G" n="120"/>dinaliter scriptus in libro vitae, puta, certum est in Dei noti 
-      <lb ed="#G" n="121"/>tia, quot sunt saluandi: sed non qui sint illi, puta, vtrum 
-      <lb ed="#G" n="122"/>isti homines, vel isti. Et forte poterant isti moueri ex
-      eis<lb ed="#G" n="123" break="no"/>dem motiuis, quae adduxi. 1. sen. dist. 4o contra
-      praescien<lb ed="#G" n="124" break="no"/>tiam Dei, &amp; praedestinationem, quae ad praesens omitto: 
-      <lb ed="#G" n="125"/>quia ibi ostendi, quomodo, non obstante Dei infallibili 
-      <lb ed="#G" n="126"/>notitia, qua Deus cognoscit quemlibet praedestinatum 
-      <lb ed="#G" n="127"/>esse saluandum: tamen ex hoc non tollitur rerum contin 
-      <lb ed="#G" n="128"/>gentia ex parte praedestinatorum, quin quilibet eorum 
-      <lb ed="#G" n="129"/>quantum est ex se, libere, &amp; contingenter saluetur.
-    </p>
-            <p xml:id="HuYgTa-196854-d1e1050">
-               <lb ed="#G" n="130"/>1 Est etiam ista opinio contra catholicam veritatem 
-      <lb ed="#G" n="131"/>uia cognitio Dei valde imperfecta esset, si solum cogno 
-      <lb ed="#G" n="132"/>sceret numerum electorum, &amp; non cognosceret
-      singula<lb ed="#G" n="133" break="no"/>res personas electas
-    </p>
-            <p xml:id="HuYgTa-196854-d1e1061">
-               <lb ed="#G" n="134"/>2 Praeterea, ipsa Dei notitia proficeret ex tempore:
-      qui<lb ed="#G" n="135" break="no"/>antequam aliquis esset saluatus, non cognosceret Deus 
-      <lb ed="#G" n="136"/>eum esse saluandum.  
-    </p>
-            <p xml:id="HuYgTa-196854-d1e1070">
-               <lb ed="#G" n="137"/>
-               <pc type="indent"/>3 Praeterea, ipsi electi scripti sunt in libro vitae: sed Sal 
-      <lb ed="#G" n="138"/>uator ait. Ego scio, quos elegerim, &amp; Ego cognosco oues 
-      <lb ed="#G" n="139"/>meas, &amp; cognoscunt me meae: ergo in Dei notitia, quae es 
-      <lb ed="#G" n="140"/>ipse liber vitae, non solum obiicitur, &amp; inscribitur numcrus 
-      <!--569.xml-->
-      <pb ed="#G" n="P2_49-v"/>
-               <cb ed="#G" n="a"/>
-               <lb ed="#G" n="1"/>electorum formaliter, vt isti fingunt, verum etiam ipsa 
-      <lb ed="#G" n="2"/>persone numeratae, quae finaliter saluabuntur, sunt in eo 
-      <lb ed="#G" n="3"/>conscripte, &amp; Deo certissime note: omnia enim nuda, id 
-      <lb ed="#G" n="4"/>aperta sunt oculis eius vt dicitur ad Hebr. 2. ergo &amp;c. 
-      <lb ed="#G" n="5"/>Quantum ad tertiam illius artic. inquisitionem dico 
-      <lb ed="#G" n="6"/>quod proprie loquendo de libro vitae, puta, quarto modo 
-      <lb ed="#G" n="7"/>superius expresso: tunc nullus scriptus in libro vitae
-      vm<lb ed="#G" n="8" break="no"/>quam ab eo delebitur. Quia Dei scientia est stabilis, &amp; in 
-      <lb ed="#G" n="9"/>fallibilis: ergo nullus scriptus in libro vitae est ab eo
-      dele<lb ed="#G" n="10" break="no"/>bilis, consequentia patet: quia liber vite est ipsa Dei scien 
-      <lb ed="#G" n="11"/>tia, qua Deus certitudinaliter cognoscit ipsos electos fi 
-      <lb ed="#G" n="12"/>naliter saluari: ergo qua ratione scientia Dei dicitur
-      in<lb ed="#G" n="13" break="no"/>fallibilis, eadem ratione liber vitae dicitur indelebilis.  
-      <lb ed="#G" n="14"/>Antecedens etiam patet ex fide.
-    </p>
-            <p xml:id="HuYgTa-196854-d1e1120">
-               <lb ed="#G" n="15"/>Sed contra illud est illa opinio erronea modo
-      proxi<lb ed="#G" n="16" break="no"/>me recitata: quia sequaces illius opinionis dicunt, quod 
-      <lb ed="#G" n="17"/>quamuis numerus electorum sit indelebiliter scriptus ut 
-      <lb ed="#G" n="18"/>libro vitae: persone tamen saluandae sunt delebiliter, &amp; abs 
-      <lb ed="#G" n="19"/>que certitudine ibi scripte. Quod probant per textum 
-      <lb ed="#G" n="20"/>scripturarum, Dicitur enim in psal. Deleantur de libro vi 
-      <lb ed="#G" n="21"/>uentium &amp; cum iustis non scribantur. &amp; Apoc. 3. dicitur. 
-      <lb ed="#G" n="22"/>Tene quod habes, vt nemo coronam tuam recipiat. Vbi 
-      <lb ed="#G" n="23"/>dicit Augu. quod non perderet ille nisi accepturus esset 
-      <lb ed="#G" n="24"/>iste. Et dixit Movses domino Dimitte eis hanc noxam, 
-      <lb ed="#G" n="25"/>quod si non facis, dele me de libro tuo, quem scripsisti 
-      <lb ed="#G" n="26"/>bi dominus respondet. Qui peccauerit in me, delebo eu 
-      <lb ed="#G" n="27"/>de libro meo. 
-    </p>
-            <p xml:id="HuYgTa-196854-d1e1152">
-               <lb ed="#G" n="28"/>Sed in omnibus istis auctoritatibus, &amp; aliis multis con 
-      <lb ed="#G" n="29"/>similibus non accipitur liber uitae proprie, scilicet pro 
-      <lb ed="#G" n="30"/>quarto modo superius expresso: sed solum accipitur pro 
-      <lb ed="#G" n="31"/>tertio modo, puta pro noritia Dei, qua cognoscit aliquos 
-      <lb ed="#G" n="32"/>quandoque pro aliquo tempore habere gratiam, &amp; virtu 
-      <lb ed="#G" n="33"/>tes: in quibus tamen, exigentibus suis demeritis, ipsi
-      fi<lb ed="#G" n="34" break="no"/>naliter non manebunt. Vnde tales numquam fuerunt
-      scri<lb ed="#G" n="35" break="no"/>pti in libro uitae secundum se: quia Deus numquam con 
-      <lb ed="#G" n="36"/>gnouit eos finaliter esse saluandos, quamuis eorum
-      bon<lb ed="#G" n="37" break="no"/>opera fuerint in Dei notitia, a quibus virtuosis operibus 
-      <lb ed="#G" n="38"/>dum ipsi decidunt, deleri dicuntur de libro vitae:
-    </p>
-            <p xml:id="HuYgTa-196854-d1e1178">
-               <lb ed="#G" n="39"/>Et illud patet per glo, super illud psal. Delcantur de li 
-      <lb ed="#G" n="40"/>bro viuentium, &amp;c. quae dicit sic. lllud est accipiendum 
-      <lb ed="#G" n="41"/>non de illis, qui in libro vitae scripti fuerunt: sed de illis 
-      <lb ed="#G" n="42"/>qui secundum spem suam se scriptos ibi putant 
-    </p>
-            <p xml:id="HuYgTa-196854-d1e1189">
-               <lb ed="#G" n="43"/>
-               <pc type="indent"/>ARTLCVLVS IIT 
-      <lb ed="#G" n="44"/>Vtrum caritas, &amp; ceterae virtutes theologicae
-      ma<lb ed="#G" n="45" break="no"/>neant, vel excidant mn patria
-    </p>
-            <p xml:id="HuYgTa-196854-d1e1200">
-               <lb ed="#G" n="46"/>VANTVM ad tertium articulum ponam tres com 
-      <lb ed="#G" n="47"/>clusiones. Prima est quod fides quantum ad
-      sub<lb ed="#G" n="48" break="no"/>stantiam habitus manet in patria 
-    </p>
-            <p xml:id="HuYgTa-196854-d1e1209">
-               <lb ed="#G" n="49"/>
-               <pc type="indent"/>1 Quia fundamentum non destruitur, ex eo quod
-      aedi<lb ed="#G" n="50" break="no"/>ficium consummatur: sed ut patet ad Hebr, fides est fun 
-      <lb ed="#G" n="51"/>damentum totius edificij spiritualis, quod quidem
-      aedi<lb ed="#G" n="52" break="no"/>ficium completur. &amp; consummatur in patria :ergo &amp;c. 
-    </p>
-            <p xml:id="HuYgTa-196854-d1e1222">
-               <lb ed="#G" n="53"/>
-               <pc type="indent"/>2 Praeterea, beati in patria maxime placent Deo: sed  
-      <lb ed="#G" n="54"/>sine fide impossibile est placere Deo, vt ait Apostolus; 
-      <lb ed="#G" n="55"/>ergo &amp;c. 
-    </p>
-            <p xml:id="HuYgTa-196854-d1e1234">
-               <lb ed="#G" n="56"/>
-               <pc type="indent"/>3 Praeterea, fides non videtur habere maiorem
-      repu<lb ed="#G" n="57" break="no"/>gnantiam ad statum gloriae, seu patriae, quam ad actum  
-      <lb ed="#G" n="58"/>mortalis culpae: sed fides manet cum actu mortalis culpae: es 
-      <lb ed="#G" n="59"/>go &amp;c. Maior patet: quia non apparet, quod lumen magis
-      re<lb ed="#G" n="60" break="no"/>pugnet lumini quam tenebrae: sed fides est quoddam
-      lu<lb ed="#G" n="61" break="no"/>men, vnde communiter dicitur, hoc cognoscitur in lumi 
-      <lb ed="#G" n="62"/>ne fidei, &amp; glosa similiter est lumen, de quo dicitur
-      in<lb ed="#G" n="63" break="no"/>sal. In lumine tuo videbimus lumen: sed mortalis culpa 
-      <lb ed="#G" n="64"/>est quaedam mentalis obscuritas, seu tenebra: ergo &amp;c. Mi 
-      <lb ed="#G" n="65"/>nor etiam patet: quia si fides non maneret, tunc omnis pec 
-      <lb ed="#G" n="66"/>cator mortalis esset insidelis, Confirmationes illius
-      con<lb ed="#G" n="67" break="no"/>clusionis, &amp; varias obiectiones contra eam scripsi <ref xml:id="HuYgTa-196854-Rd1e1264">super 
-        <lb ed="#G" n="68"/>prologum primi libri sententiarum. qus artic. 2.</ref> 
-            </p>
-            <p xml:id="HuYgTa-196854-d1e1270">
-               <lb ed="#G" n="69"/>
-               <pc type="indent"/>Secunda conclusio est, quod spes manet n patria 
-      <!--569.xml-->
-      <cb ed="#G" n="b"/>
-               <lb ed="#G" n="70"/>1 Quia vbi verum manet desiderium, ibi vera spes ma 
-      <lb ed="#G" n="71"/>net: sed in patria manet verum desiderium: ergo &amp;c.
-      Ma<lb ed="#G" n="72" break="no"/>ior patet: spes enim quasi semper concomitatur ordinatum 
-      <lb ed="#G" n="73"/>desiderium. Minor etiam patet per Aug. qui loquens de 
-      <lb ed="#G" n="74"/>modo nostri amoris in patria, ait, Amabimus, &amp; desiderat 
-      <lb ed="#G" n="75"/>bimus, desiderabimus, &amp; amabimus. Et confirmatur illa 
-      <lb ed="#G" n="76"/>minor per illud, quod ait Dei sapientia, quae est obiectum 
-      <lb ed="#G" n="77"/>in vita beata desiderantis animae. Qui edunt me, adhuc 
-      <lb ed="#G" n="78"/>esurient. Patet etiam per Sreg in quadam omel. qui in 
-      <lb ed="#G" n="79"/>hoc ponit differentiam inter corporales delitias, &amp; spiri 
-      <lb ed="#G" n="80"/>tuales: quia corporales cum habentur, pariunt fastidium, 
-      <lb ed="#G" n="81"/>sed spirituales accendunt desiderium 
-    </p>
-            <p xml:id="HuYgTa-196854-d1e1307">
-               <lb ed="#G" n="82"/>
-               <pc type="indent"/>2 Praeterea, sicut se habet desperatio ad damnationem, 
-      <lb ed="#G" n="83"/>sic spes ad saluationem: sed desperatio manet cum
-      dam<lb ed="#G" n="84" break="no"/>natione eorum, qui sunt in inferno: ergo spes manet cum 
-      <lb ed="#G" n="85"/>aluatione existentium in patria. 
-    </p>
-            <p xml:id="HuYgTa-196854-d1e1320">
-               <lb ed="#G" n="86"/>
-               <pc type="indent"/>3 Preterea, forma, quae cessat esset in aliquo subiecto, 
-      <lb ed="#G" n="87"/>aut destruitur destructione subiecti: aut destruitur
-      actio<lb ed="#G" n="88" break="no"/>ne contrarij: sed spes non destruitur destructione
-      subie<lb ed="#G" n="89" break="no"/>cti: quia hoc manet in patria: nec actione contrarii: quia 
-      <lb ed="#G" n="90"/>in patria non inuenitur aliquid desperabile, actione
-      cu<lb ed="#G" n="91" break="no"/>ius spes destruatur.
-    </p>
-            <p xml:id="HuYgTa-196854-d1e1338">
-               <lb ed="#G" n="92"/>Forte, dicerent illi, qui sunt contrariae opinionis, quod  
-      <lb ed="#G" n="93"/>spes non est respectu praesentis: sed futuri boni: sed in
-      pa<lb ed="#G" n="94" break="no"/>tria omne bonum est praesens ipsibeato: ergo &amp;c. 
-      <lb ed="#G" n="95"/>Respondeo, quia sicut desiderium dicitur rei non habi 
-      <lb ed="#G" n="96"/>tae, sic spes futuri. Et ideo sicut, cum res non habetur,
-      de<lb ed="#G" n="97" break="no"/>sideratur eius habitio, seu possessio: cum autem
-      posside<lb ed="#G" n="98" break="no"/>tur, adhuc desideratur illius possessionis stabilis
-      perman<lb ed="#G" n="99" break="no"/>sio: fic cum praesens est illud, quod speratur, adhuc potest 
-      <lb ed="#G" n="100"/>de eo haberi spes, vt in futurum continuetur: Noni igitur 
-      <lb ed="#G" n="101"/>in patria de bono, quod praesentialiter possident, firman 
-      <lb ed="#G" n="102"/>spem habent, quod ipsum in perpetuum possidebunt. pos 
-      <lb ed="#G" n="103"/>unt etiam habere spem quo ad beatitudinem
-      acciden<lb ed="#G" n="104" break="no"/>talem, quae saepius variatur, &amp; potest esse futura 
-    </p>
-            <p xml:id="HuYgTa-196854-d1e1369">
-               <lb ed="#G" n="105"/>
-               <pc type="indent"/>Tertia conclusio est, quod caritas manet in patria. 
-      <lb ed="#G" n="106"/>1 Quia in statu perfectissimo non deest virtus, quae est 
-      <lb ed="#G" n="107"/>summe perfecta: sed status patriae est status perfectissimu 
-      <lb ed="#G" n="108"/>&amp; caritas est virtus summe perfecta: ergo &amp;c. 
-    </p>
-            <p xml:id="HuYgTa-196854-d1e1383">
-               <lb ed="#G" n="109"/>
-               <pc type="indent"/>2 Praeterea, dicit Apostolus. Caritas numquam excidit 
-    </p>
-            <p xml:id="HuYgTa-196854-d1e1390">
-               <lb ed="#G" n="110"/>
-               <pc type="indent"/>AR TICVLVS uII 
-      <lb ed="#G" n="111"/>Vtrum Deus omnia quae sunt extra se
-      aequa<lb ed="#G" n="112" break="no"/>liter diligat.
-    </p>
-            <p xml:id="HuYgTa-196854-d1e1401">
-               <lb ed="#G" n="113"/>QVANTVM ad quartum articulum ponam tres con 
-      <lb ed="#G" n="114"/>clusiones. Prima est, quod Deus diligit omnem 
-      <lb ed="#G" n="115"/>creaturam Quia omne agens per intellectum diligit
-      il<lb ed="#G" n="116" break="no"/>lud, quod suam bonitatem participat: sed omnis
-      creatu<lb ed="#G" n="117" break="no"/>ra participat Dei bonitatem, vt declaraui superius circa 
-      <lb ed="#G" n="118"/>secundum librum. 
-    </p>
-            <p xml:id="HuYgTa-196854-d1e1417">
-               <lb ed="#G" n="119"/>
-               <pc type="indent"/>Forte dicetur, quod nulla passio cadit in Deo: sed amor 
-      <lb ed="#G" n="120"/>est quedam passio: ergo Deus non poterit amare
-      creatu<lb ed="#G" n="121" break="no"/>ram. Maior patet: quia in puro actu non potest cadere pas 
-      <lb ed="#G" n="122"/>sio. Minor probatur: si vnum oppositorum est passio, &amp; re 
-      <lb ed="#G" n="123"/>iquum: sed odium est passio: ergo &amp; amor erit passio 
-    </p>
-            <p xml:id="HuYgTa-196854-d1e1433">
-               <lb ed="#G" n="124"/>
-               <pc type="indent"/>2 Praeterea, idem respectu eiusdem non potest habere 
-      <lb ed="#G" n="125"/>odium, &amp; amorem: sed Deus odit aliquas creaturas. Ma¬¬ 
-      <lb ed="#G" n="126"/>or patet: Minor probatur: quia dicit dominus. Tacob dili 
-      <lb ed="#G" n="127"/>ci, Esau autem odio habii. 
-    </p>
-            <p xml:id="HuYgTa-196854-d1e1446">
-               <lb ed="#G" n="128"/>
-               <pc type="indent"/>Ad primum dicendum, quod passiones in duplici
-      ge<lb ed="#G" n="129" break="no"/>nere inueniuntur: nam quaedam dicunt imperfectionem 
-      <lb ed="#G" n="130"/>sicut ira, odium, &amp; tristitia, &amp; istae non inueniuntur in Dec 
-      <lb ed="#G" n="131"/>nisi metaphorice. Aliae de se, &amp; proprie dicunt
-      perfectio<lb ed="#G" n="132" break="no"/>nem, ficut amor, &amp; gaudium, &amp; laetitia, &amp; istae formaliter,  
-      <lb ed="#G" n="133"/>&amp; proprie reperiuntur in Deo, quamuis non per modum 
-      <lb ed="#G" n="134"/>asstonis: sed per modum simplicis actus, sic enim possunt 
-      <lb ed="#G" n="135"/>esse in puro actu.
-    </p>
-            <p xml:id="HuYgTa-196854-d1e1469">
-               <lb ed="#G" n="136"/>Ad secundum dicendum, quod idem ab eodem potest 
-      <lb ed="#G" n="137"/>simul amari, &amp; odiri, ratione tamen diuersorum: eandem 
-      <lb ed="#G" n="138"/>ergo creaturam Deus amat, inquantum Deus fecit eam 
-      <lb ed="#G" n="139"/>quia, vt sic, est amabilis, &amp; bona: Vidit. n. Deus cuncta, quae 
-      <!--570.xml-->
-      <pb ed="#G" n="P2_50-r"/>
-               <cb ed="#G" n="a"/>
-               <lb ed="#G" n="1"/>fecerat, &amp; erant valde bona Sen. 1. Et eandem creaturam 
-      <lb ed="#G" n="2"/>Deus odit, inquantum est infecta peccato, quod Deus non 
-      <lb ed="#G" n="3"/>fecit, quia aequaliter odit Deus impium, &amp; impietaten 
-      <lb ed="#G" n="4"/>suam, vt patet per dictum Sapientis 
-    </p>
-            <p xml:id="HuYgTa-196854-d1e1495">
-               <lb ed="#G" n="5"/>
-               <pc type="indent"/>Secunda conclusio est, quod Deus ab aeterno dilexit 
-      <lb ed="#G" n="6"/>creaturam.
-    </p>
-            <p xml:id="HuYgTa-196854-d1e1504">
-               <lb ed="#G" n="7"/>1 Quia, vt patuit superius. 2. arti. illius quaestionis, Dei 
-      <lb ed="#G" n="8"/>dilectio, secundum nostrum modum intelligendi,
-      praece<lb ed="#G" n="9" break="no"/>dit electionem: sed sicut ait Apostolus, elegit nos ante 
-      <lb ed="#G" n="10"/>mundi constitutionem
-    </p>
-            <p xml:id="HuYgTa-196854-d1e1515">
-               <lb ed="#G" n="11"/>2 Praeterea, illum Deus ab aeterno dilexit, cui ab aeternu 
-      <lb ed="#G" n="12"/>bonum voluit: sed homini praedestinato ab aeterno voluit 
-      <lb ed="#G" n="13"/>summum bonum, scilicet aeternam beatitudinem: ergo &amp;c 
-    </p>
-            <p xml:id="HuYgTa-196854-d1e1524">
-               <lb ed="#G" n="14"/>
-               <pc type="indent"/>Forte dicetur contra illud sic. 1 Illud, quod ab
-      aeter<lb ed="#G" n="15" break="no"/>no non habuit esse, hoc ab aeterno non habuit dilectun 
-      <lb ed="#G" n="16"/>esse: sed creatura ab aeterno non habuit esse. Maior patet: 
-      <lb ed="#G" n="17"/>quia esse dilectum praesupponit esse, sicut compositum 
-      <lb ed="#G" n="18"/>praesupponit simplex.
-    </p>
-            <p xml:id="HuYgTa-196854-d1e1540">
-               <lb ed="#G" n="19"/>2 Praeterea, amans vult illud esse, quod amat. sed Deu 
-      <lb ed="#G" n="20"/>ab eterno non voluit creaturam esse: alias n creatura fuisset 
-      <lb ed="#G" n="21"/>ab aeterno, cum voluntas Dei sit simpliciter omnipotens 
-    </p>
-            <p xml:id="HuYgTa-196854-d1e1550">
-               <lb ed="#G" n="22"/>
-               <pc type="indent"/>Ad primum dicendum, quod quamuis ab aeterno crea 
-      <lb ed="#G" n="23"/>tura non habuit esse simpliciter: habuit tamen esse cogni 
-      <lb ed="#G" n="24"/>tum: quia Deus ab aeterno cognoscens essentiam suam 
-      <lb ed="#G" n="25"/>quae est perfectum exemplar omnis creaturae, perfecte com 
-      <lb ed="#G" n="26"/>gnouit omnem creaturam. Ad hoc autem, quod aliquod 
-      <lb ed="#G" n="27"/>bonum diligatur, vel habeat esse dilectu, sufficit, quod habeat 
-      <lb ed="#G" n="28"/>esse cognitum: quia bonum cognitum est obiectum
-      volun<lb ed="#G" n="29" break="no"/>tatis: nihil n refert an bonum sit praesens, vel futurum
-      a<lb ed="#G" n="30" break="no"/>hoc, vt diligatur, dummodo certitudinaliter cognoscatur. 
-    </p>
-            <p xml:id="HuYgTa-196854-d1e1574">
-               <lb ed="#G" n="31"/>
-               <pc type="indent"/>Ad secundum dicendum, quod Deus ab aeterno
-      vo<lb ed="#G" n="32" break="no"/>luit creaturam esse: sed non pro aeterno: sed pro
-      tempo<lb ed="#G" n="33" break="no"/>re determinato. 
-    </p>
-            <p xml:id="HuYgTa-196854-d1e1585">
-               <lb ed="#G" n="34"/>
-               <pc type="indent"/>Tertia conclusio, est quod Deus magis diligit vnam ece- 
-      <lb ed="#G" n="35"/>turam, quam aliam: quia illud magis diligitur, cui ex
-      di<lb ed="#G" n="36" break="no"/>lectione maius bonum confertur: sed Deus ex dilectione 
-      <lb ed="#G" n="37"/>vni creaturae maius bonum contulit, quam aliae, vt de se 
-      <lb ed="#G" n="38"/>patet. 
-    </p>
-            <p xml:id="HuYgTa-196854-d1e1601">
-               <lb ed="#G" n="39"/>
-               <pc type="indent"/>Forte dicetur, quod vnus, &amp; idem actus non potest si 
-      <lb ed="#G" n="40"/>mul, &amp; semel esse intensior &amp; remissior: sed Deus vno 
-      <lb ed="#G" n="41"/>actu dilectionis simul omnia diligibilia diligit ergo &amp;c. 
-    </p>
-            <p xml:id="HuYgTa-196854-d1e1612">
-               <lb ed="#G" n="42"/>
-               <pc type="indent"/>Respondeo, quod Deus non dicitur hic magis diligere, 
-      <lb ed="#G" n="43"/>eo quod intensius diligat: sed eo, quod maius bonum pro 
-      <lb ed="#G" n="44"/>ponit conferre, &amp; suo tempore confert ei, quod diligiti 
-    </p>
-            <p xml:id="HuYgTa-196854-d1e1623">
-               <lb ed="#G" n="45"/>
-               <pc type="indent"/>Ad Argumentum principale dicendum, quod consequer 
-      <lb ed="#G" n="46"/>tia est falsa. Ad probationem dicendum, quod quauis caritas 
-      <lb ed="#G" n="47"/>sit tantae virtutis, quod habens caritatem possit resistere omn 
-      <lb ed="#G" n="48"/>peccato mortali: tamen si habens caritatem sua libera vo 
-      <lb ed="#G" n="49"/>iuntate consentit in actum, quo mortale peccatum
-      com<lb ed="#G" n="50" break="no"/>mittitur, tunc expellit a se caritatem: destruitur enim
-      ca<lb ed="#G" n="51" break="no"/>ritas propter malam subiecti dispositionem: ergo &amp;c. 
-    </p>
-         </div>
-      </body>
-   </text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 1</title>
+        <author ref="#ThomasStrasbourg">Thomas of Strasbourg</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 1</title>
+          <date when="2020-11-26">November 26, 2020</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="G" n="cod-TxxxqU">Genoa 1585</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2020-11-26" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#G" n="P2_48-r"/>
+        <cb ed="#G" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="HuYgTa-196854"><!-- HuYgTa-l3d31et32q1 -->
+        <head xml:id="HuYgTa-196854-Hd1e108">Quaestio 1</head>
+        <head xml:id="HuYgTa-196854-Hd1e111" type="question-title">
+          An in caritate constitutus possit eam amittere.
+        </head>
+        <p xml:id="HuYgTa-196854-d1e114">
+          <!--566.xml-->
+          <cb ed="#G" n="b"/>
+          <lb ed="#G" n="70"/>Quaestio I 
+          <lb ed="#G" n="71"/>An in caritate constitutus possit eam  
+          <lb ed="#G" n="72"/>amittere.
+        </p>
+        <p xml:id="HuYgTa-196854-d1e127">
+          <lb ed="#G" n="73"/>VTRVM existens in caritate possit amittere carita 
+          <lb ed="#G" n="74"/>tem. Et videtur quod non. Quia caritas adueniens 
+          <lb ed="#G" n="75"/>expellit peccatum, quod actu est: ergo caritas amit 
+          <lb ed="#G" n="76"/>ti non potest. Antecedens patet: quia caritas non
+          pati<lb ed="#G" n="77" break="no"/>tur secum aliquod mortale peccatum. consequentia
+          pro<lb ed="#G" n="78" break="no"/>batur : quia maior virtus est destruere illud, quod actu 
+          <lb ed="#G" n="79"/>est, quam resistere illi, quod nondum est: ergo caritas iam  
+          <lb ed="#G" n="80"/>habita amitti non potest per peccatum mortale, quod 
+          <lb ed="#G" n="81"/>nondum est 
+        </p>
+        <p xml:id="HuYgTa-196854-d1e149">
+          <lb ed="#G" n="82"/>
+          <pc type="indent"/>Contra, quicunque potest mortaliter peccare, ille
+          po<lb ed="#G" n="83" break="no"/>test caritatem, licet eam habeat, amittere: sed non
+          con<lb ed="#G" n="84" break="no"/>firmatus in gratia potest mortaliter peccare: ergo &amp;c. 
+        </p>
+        <p xml:id="HuYgTa-196854-d1e161">
+          <lb ed="#G" n="85"/>
+          <pc type="indent"/>Hic quattuor sunt videnda. Primo de quaefito,
+          Se<lb ed="#G" n="86" break="no"/>cundo, supposito, quod aliquis amittat caritatem, vtrum 
+          <lb ed="#G" n="87"/>propter hoc deleatur de libro vitae, sicut tangitur hic in 
+          <lb ed="#G" n="88"/>ittera. Tertio vtrum caritas, &amp; ceterae virtutes
+          theolo<lb ed="#G" n="89" break="no"/>gicae maneant, vel excidant in patria. Et hoc quantum ad 
+          <lb ed="#G" n="90"/>distin. 31. uarto, vtrum Deus omnia, quae sunt extra 
+          <lb ed="#G" n="91"/>se, aequaliter diligat. Et hoc quo ad dist. 32. 
+        </p>
+        <p xml:id="HuYgTa-196854-d1e181">
+          <lb ed="#G" n="92"/>
+          <pc type="indent"/>RESOLVTIO. 
+          <lb ed="#G" n="93"/>Homo quidem in caritate constitutus nisi sibi peccati fomes victus 
+        </p>
+        <p xml:id="HuYgTa-196854-d1e190">
+          <lb ed="#G" n="94"/>
+          <pc type="indent"/>uat extirpatus fuerit caritatis habitum am itt ere potest. Vade 
+          <lb ed="#G" n="95"/>ia gratia confirmati, a caritate, quae est in christo Iesu,
+          le<lb ed="#G" n="96" break="no"/>parari nequeunt. 2tit iree 
+        </p>
+        <p xml:id="HuYgTa-196854-d1e201">
+          <lb ed="#G" n="97"/>
+          <pc type="indent"/>ARI ICVLVS 1. 
+          <lb ed="#G" n="98"/>Vtrum in caritate constitutus possit eam amittere. 
+        </p>
+        <p xml:id="HuYgTa-196854-d1e210">
+          <lb ed="#G" n="99"/>
+          <pc type="indent"/>IRCA primum sic procedam. Primo ponam
+          du<lb ed="#G" n="100" break="no"/> plicem conclusionem. Secundo respondebo, ad 
+          <lb ed="#G" n="101"/>vnam incidentem dubitationem. 
+        </p>
+        <p xml:id="HuYgTa-196854-d1e221">
+          <lb ed="#G" n="102"/>
+          <pc type="indent"/>Prima conclusio est, quod omnis homo habens
+          carita<lb ed="#G" n="103" break="no"/>tem, in quo fomes peccati nec est ligatus, nec extirpatus,  
+          <lb ed="#G" n="104"/>potest perdere caritatem. 
+        </p>
+        <p xml:id="HuYgTa-196854-d1e233">
+          <lb ed="#G" n="105"/>
+          <pc type="indent"/>Quia quicunque ex sui dispositione patitur proniti 
+          <lb ed="#G" n="106"/>tem, &amp; inclinationem ad id, quod est incompossibile
+          ca<lb ed="#G" n="107" break="no"/>ritati, ille quantum est de se potest perdere caritatem: 
+          <lb ed="#G" n="108"/>sed omnis homo, in quo fomes peccati nec est ligatus, fi 
+          <lb ed="#G" n="109"/>cut videtur esse in eis, qui sunt in gratia Dei confirmati, 
+          <lb ed="#G" n="110"/>nec extirpatus, sicut est in quolibet beato in patria, &amp; fuit 
+          <lb ed="#G" n="111"/>n Deata Virgine, cum adhuc erat in via, talis homo pati 
+          <lb ed="#G" n="112"/>tur pronitatem, &amp; inclinationem, saltem quandoque ad 
+          <lb ed="#G" n="113"/>mortale peccatum, quod est impossibile caritati: ergo &amp;c. 
+          <lb ed="#G" n="114"/>Maior patet: quia quantam inclinationem habet aliquid 
+          <lb ed="#G" n="115"/>ad id, quod est incompossibile alicui formae, quam iam ha 
+          <lb ed="#G" n="116"/>bet, tantam possibilitatem habet ad perdendum illam 
+          <lb ed="#G" n="117"/>formam. Minor etiam patet: quia de omnibus talibus 
+          <lb ed="#G" n="118"/>hominibus dicitur, Proni sunt sensus hominis ad malum 
+          <lb ed="#G" n="119"/>ab adolescentia sua 
+        </p>
+        <p xml:id="HuYgTa-196854-d1e270">
+          <lb ed="#G" n="120"/>
+          <pc type="indent"/>2 Praeterea, sicut se habet priuatio in naturalibus, sic se 
+          <lb ed="#G" n="121"/>habere videtur fomes peccati in gratuitis: sed quacunque 
+          <lb ed="#G" n="122"/>formam naturalem habet subiectum cum annexa
+          priua<lb ed="#G" n="123" break="no"/>tione, illam potest perdere: ergo quodcumque donum 
+          <lb ed="#G" n="124"/>gratuitum habet homo, non ligato, vel extirpato somis 
+          <lb ed="#G" n="125"/>te, illud potest perdere¬
+        </p>
+        <p xml:id="HuYgTa-196854-d1e288">
+          <!--567.xml-->
+          <pb ed="#G" n="P2_48-v"/>
+          <cb ed="#G" n="a"/>
+          <lb ed="#G" n="1"/>3 Praeterea, oninis homo non confirmatus in gratia, 
+          <lb ed="#G" n="2"/>potest perdere caritatem: sed homo talis, in quo fome 
+          <lb ed="#G" n="3"/>peccati nec est ligatus, nec extirpatus, non est
+          confirma<lb ed="#G" n="4" break="no"/>tus in gratia: ergo &amp;c. Maior patet, quia caritas non
+          po<lb ed="#G" n="5" break="no"/>test esse in aliquo sine gratia: nam impossibile est, quod 
+          <lb ed="#G" n="6"/>aliquis sit carus, &amp; tamen non sit gratus: ideo eadem
+          pos<lb ed="#G" n="7" break="no"/>sibitate, qua quis potest perdere gratiam, eadem potest 
+          <lb ed="#G" n="8"/>perdere caritatem. Minor etiam patet: quia nullus
+          vi<lb ed="#G" n="9" break="no"/>detur esse confirmatus, nisi fomes sit in eo ligatus, saltem  
+          <lb ed="#G" n="10"/>quo ad peccata mortalia
+        </p>
+        <p xml:id="HuYgTa-196854-d1e319">
+          <lb ed="#G" n="11"/>Forte dicetur, quod Apostolus Paulus fuit in gratia con 
+          <lb ed="#G" n="12"/>firmatus, &amp; fomes non videtur in eo fuisse ligatus, cun 
+          <lb ed="#G" n="13"/>ipse tantas senserit tentationes, quod de seipso ait, Ser 
+          <lb ed="#G" n="14"/>tio quidem aliam legem in membris meis repugnantem 
+          <lb ed="#G" n="15"/>legi mentis meae, &amp; captiuantem me in lege peccati 
+        </p>
+        <p xml:id="HuYgTa-196854-d1e332">
+          <lb ed="#G" n="16"/>
+          <pc type="indent"/>Respondeo, quod quamuis fomes quo ad hoc non fuc 
+          <lb ed="#G" n="17"/>rit in Apostolo pro tunc ligatus, quin permittente Deo 
+          <lb ed="#G" n="18"/>tentationes senserit: sic tamen fuit ligatus, quod huius 
+          <lb ed="#G" n="19"/>modi tentationes progredi non poterant vsque ad mor 
+          <lb ed="#G" n="20"/>tale peccatum : propter quod dixit ei dominus Sufficit 
+          <lb ed="#G" n="21"/>tibi gratia mea: nam virtus in infirmitate perficitur. Vn 
+          <lb ed="#G" n="22"/>de idem Apostolus volens ostendere fomitem esse
+          liga<lb ed="#G" n="23" break="no"/>tum quo ad omnia ea, quae ipsum possent separare a
+          ca<lb ed="#G" n="24" break="no"/>ritate Dei, sic ait. Scio enim, &amp; certus sum, quod neque 
+          <lb ed="#G" n="25"/>mors, neque vita, neque altitudo, neque profundum, nec 
+          <lb ed="#G" n="26"/>aliqua creatura nos separare poterit a caritate Dei, quae 
+          <lb ed="#G" n="27"/>est in Christo Icsu¬
+        </p>
+        <p xml:id="HuYgTa-196854-d1e363">
+          <lb ed="#G" n="28"/>Sed contra istam conclusionem est quaedam opinio, 
+          <lb ed="#G" n="29"/>cuius mentionem facit Magister hic in littera, quae ponit 
+          <lb ed="#G" n="30"/>quod nullus homo, qui semel habuit caritate, poterit
+          ea<lb ed="#G" n="31" break="no"/>dem amittere. Cuius opinionis motiua poterant esse haec 
+        </p>
+        <p xml:id="HuYgTa-196854-d1e375">
+          <lb ed="#G" n="32"/>
+          <pc type="indent"/>1 Quia si caritas amitteretur, hoc esset pro tanto: 
+          <lb ed="#G" n="33"/>quia ab aliquo peccato destrueretur: Sed hoc esse non po 
+          <lb ed="#G" n="34"/>test: quia autem destrueretur a peccato, quod est, aut a pec 
+          <lb ed="#G" n="35"/>cato quod non est. Non primo modo: quia tunc duo
+          in<lb ed="#G" n="36" break="no"/>compossibilia simul essent in eodem subiecto, scilicet pec 
+          <lb ed="#G" n="37"/>catum, &amp; caritas. Nec secundo modo: quia quod non 
+          <lb ed="#G" n="38"/>est hoc, nihil destruere potest
+        </p>
+        <p xml:id="HuYgTa-196854-d1e395">
+          <lb ed="#G" n="39"/>2 Praeterea, si caritas in aliquo hominc destrueretur,  
+          <lb ed="#G" n="40"/>aut hoc fieret actione proprii subiecti, aut actione
+          ali<lb ed="#G" n="41" break="no"/>cuius alterius a subiecto. Non primo modo: quia
+          null<lb ed="#G" n="42" break="no"/>res destruit illud, quod tenet praedominium in ea: sed  
+          <lb ed="#G" n="43"/>magis sequitur condicionem eius: sed inter omnes
+          virtu<lb ed="#G" n="44" break="no"/>tes, siue sint morales, siue naturales, caritas tenet praedo. 
+          <lb ed="#G" n="45"/>minium: nam caritas est virtus inuicta, quae vincit omnia 
+          <lb ed="#G" n="46"/>ergo actione proprii subiecti caritas non potest
+          destrui<lb ed="#G" n="47" break="no"/>Nec secundo modo: quia vel hoc esset Deus, vel creatu 
+          <lb ed="#G" n="48"/>ra. Non Deus: quia Deus non est destructor alicuius
+          bo<lb ed="#G" n="49" break="no"/>ni. Nec creatura: quia eum solus Deus possit illabi hus 
+          <lb ed="#G" n="50"/>manae voluntati, quae est subiectum caritatis: igitur
+          ca<lb ed="#G" n="51" break="no"/>ritas non potest attingi actione alicuius creaturae.
+        </p>
+        <p xml:id="HuYgTa-196854-d1e426">
+          <lb ed="#G" n="52"/>3 Praeterea, habens caritatem non potest peccare: er- 
+          <lb ed="#G" n="53"/>go non potest caritatem amittere, consequentia patet. 
+          <lb ed="#G" n="54"/>Antecedens probatur sic lo, dicit: Qui natus est ex Deo, 
+          <lb ed="#G" n="55"/>peccatum non facit: quoniam semen ipsius in eo manet 
+          <lb ed="#G" n="56"/>&amp; non potest peccare: quoniam ex Deo natus est. Sed 
+          <lb ed="#G" n="57"/>alibi dicit. Omnis, qui diligit, ex Deo natus est: ergo ci 
+          <lb ed="#G" n="58"/>quilibet habens caritatem diligat, sequitur, quod nullus 
+          <lb ed="#G" n="59"/>habens caritatem possit peccare,. 
+        </p>
+        <p xml:id="HuYgTa-196854-d1e446">
+          <lb ed="#G" n="60"/>
+          <pc type="indent"/>Sed ista opinio stare non potest, salua veritate sacnae 
+          <lb ed="#G" n="61"/>scripturae : Constat enim, quod Saul fuit in caritate, de 
+          <lb ed="#G" n="62"/>quo legitur, quod non erat vir melior eo in israel: &amp; tamen 
+          <lb ed="#G" n="63"/>postea perdidit caritatem, cum innocentem Dauid persi 
+          <lb ed="#G" n="64"/>quebatur, voci domini non obediuit, &amp; sacerdotes Dei 
+          <lb ed="#G" n="65"/>occidi fecit.
+        </p>
+        <p xml:id="HuYgTa-196854-d1e464">
+          <lb ed="#G" n="66"/>Item, Petrus in caena domini caritatem habuit: quam 
+          <lb ed="#G" n="67"/>tamen eadem nocte ter negando dominum perdidit.  
+        </p>
+        <p xml:id="HuYgTa-196854-d1e471">
+          <lb ed="#G" n="68"/>
+          <pc type="indent"/>Item, secundum fidem nostram paruuli baptia ati
+          reci<lb ed="#G" n="69" break="no"/>piunt caritatem : quam tamen multi, cum efficiuntur 
+          <lb ed="#G" n="70"/>adulti, perdunt propter sua peccata. 
+        </p>
+        <p xml:id="HuYgTa-196854-d1e483">
+          <lb ed="#G" n="71"/>
+          <pc type="indent"/>Item, Apoc. 2. dicitur. Habeo aduersum te pauca:
+          quo<lb ed="#G" n="72" break="no"/>niam caritatem primam reliquisti. 
+        </p>
+        <p xml:id="HuYgTa-196854-d1e492">
+          <lb ed="#G" n="73"/>
+          <pc type="indent"/>Ad primum motiuum illius opinionis dicer dum, quod 
+          <!--567.xml-->
+          <cb ed="#G" n="b"/>
+          <lb ed="#G" n="74"/>destruitur a peccato, quod est. Ad probationem
+          dicen<lb ed="#G" n="75" break="no"/>dum, quod non manent simul: sed in eodem instanti,  
+          <lb ed="#G" n="76"/>quo mortale peccatum incipit esse, caritas desinit esse 
+          <lb ed="#G" n="77"/>Vnde non est imaginandum, quod peccatum actiue de 
+          <lb ed="#G" n="78"/>struat caritatem: sed solum priuatiue: nam admissio
+          mor<lb ed="#G" n="79" break="no"/>talis peccati est priuatio gratiae, vel saltem immediate
+          se<lb ed="#G" n="80" break="no"/>quitur ad ipsum priuatio gratiae 
+        </p>
+        <p xml:id="HuYgTa-196854-d1e518">
+          <lb ed="#G" n="81"/>
+          <pc type="indent"/>Ad secundum dicendum, quod caritas potest destrui 
+          <lb ed="#G" n="82"/>per actum proprij subiecti: nam cum humana voluntas 
+          <lb ed="#G" n="83"/>abutendo sua propria libertate, auertit se ab
+          incommu<lb ed="#G" n="84" break="no"/>tabili bono, &amp; conuertit se ad commutabile bonum: tund 
+          <lb ed="#G" n="85"/>caritas destruitur: quia ex tali actu subiectum caritatis ti 
+          <lb ed="#G" n="86"/>taliter efficitur indispositum pro forma caritatis: Sicut 
+          <lb ed="#G" n="87"/>econuerso cum toto corde conuertimus ad Deum,
+          volun<lb ed="#G" n="88" break="no"/>tas optime disponitur ad recipiendum formam caritatis; 
+          <lb ed="#G" n="89"/> Sicut ergo videmus in naturalibus, quod subiectum
+          be<lb ed="#G" n="90" break="no"/>ne dispositum retinet formam: quia actus actiuorum sunt 
+          <lb ed="#G" n="91"/>in patiente, &amp; disposito, vt dicitur. 2. de anima, sic
+          sub<lb ed="#G" n="92" break="no"/>iectum penitus indispositum naturaliter perdit formam 
+          <lb ed="#G" n="93"/> Sic in proposito. Ad probationem dicendum, quod quam 
+          <lb ed="#G" n="94"/>uis in subiecto bene disposito caritas teneat praedominium 
+          <lb ed="#G" n="95"/>tamen in subiecto male disposito nullum habet domi- 
+          <lb ed="#G" n="96"/>nium, immo penitus sopitur. 
+        </p>
+        <p xml:id="HuYgTa-196854-d1e557">
+          <lb ed="#G" n="97"/>
+          <pc type="indent"/>Ad tertium nego antecedens. Ad probationem potest 
+          <lb ed="#G" n="98"/>dici, quod beatus loannes loquitur ibi de his, qui sunt 
+          <lb ed="#G" n="99"/>persecti in caritate, in quibus fomes peccati iam aliquo 
+          <lb ed="#G" n="100"/>modo est ligatus: &amp; ideo non est contra istam conclusionem 
+          <lb ed="#G" n="101"/>Concluno secunda est, quod nullus homo, in quo fo 
+          <lb ed="#G" n="102"/>mes peccati vel est ligatus, vel extirpatus, habens
+          cari<lb ed="#G" n="103" break="no"/>tatem potest dimittere caritatem: &amp; hoc potest probari 
+          <lb ed="#G" n="104"/>tripliciter semper accipiendo medium opposito modo 
+          <lb ed="#G" n="105"/>quo superius esti acceptum in tribus rationibus prima 
+          <lb ed="#G" n="106"/>conclusionis. 
+        </p>
+        <p xml:id="HuYgTa-196854-d1e583">
+          <lb ed="#G" n="107"/>
+          <pc type="indent"/>Forte dicetur, quod siligatio, vel extirpatio fomitis 
+          <lb ed="#G" n="108"/>esset sufficiens medium probandi, quod aliquts non
+          pos<lb ed="#G" n="109" break="no"/>set peccare: tunc primus homo numquam peccasset:
+          qui<lb ed="#G" n="110" break="no"/>antequam peccauit non habuit fomitem peccati, eo quod 
+          <lb ed="#G" n="111"/>in ipso persecta fuerit obedientia virium inferiorum ad 
+          <lb ed="#G" n="112"/>vires superiores.
+        </p>
+        <p xml:id="HuYgTa-196854-d1e601">
+          <lb ed="#G" n="113"/>Respondeo, quod ad non posse peccare non sufficit
+          ca<lb ed="#G" n="114" break="no"/>rentia fomitis, nisi etiam adsit posito gratiae, &amp; caritatis;  
+          <lb ed="#G" n="115"/>loquendo de gratia non solum gratis data, sed de gratia 
+          <lb ed="#G" n="116"/>gratum faciente: sed primus homo, antequam peccaret,  
+          <lb ed="#G" n="117"/>icet fomite careret: tamen non habuit gratiam gratum 
+          <lb ed="#G" n="118"/>facientem, vt superius probaui in libro secundo. dist.
+          4<lb ed="#G" n="119" break="no"/>articulo. 2. ideo primus homo potuit peccare. 
+        </p>
+        <p xml:id="HuYgTa-196854-d1e620">
+          <lb ed="#G" n="120"/>
+          <pc type="indent"/>Item, forte dicetur, quod gratia non tollit arbitrii
+          li<lb ed="#G" n="121" break="no"/>bertatem: ideo si primus homo sine gratia habuit liberi 
+          <lb ed="#G" n="122"/>arbitrium, quo peccauit, dato quod habuisset gratiam, 
+          <lb ed="#G" n="123"/>adhuc peccare potuit 
+        </p>
+        <p xml:id="HuYgTa-196854-d1e633">
+          <lb ed="#G" n="124"/>
+          <pc type="indent"/>Respondeo, quod istud argumentum quamuis sit ap 
+          <lb ed="#G" n="125"/>arens: tamen non concludit: quia eadem ratione pro: 
+          <lb ed="#G" n="126"/>bari posset, quod Deata Virgo, vel etiam sancti in patria 
+          <lb ed="#G" n="127"/>possent peccare. Et ideo dicendum, quod talis gratia, quam 
+          <lb ed="#G" n="128"/>staret sine fomite, concerneret caritatem perfectam, quae 
+          <lb ed="#G" n="129"/>quamuis non coacte, tamen allectiue prohibuisset omni 
+          <lb ed="#G" n="130"/>illud, quo talis homo ei, quem illa caritate perfecta
+          di<lb ed="#G" n="131" break="no"/>exisset, disciplicere potuisset, &amp; per consequens ibi
+          fuis<lb ed="#G" n="132" break="no"/>set necessitas ad non peccandum, non quidem necessitas 
+          <lb ed="#G" n="133"/>coactionis: sed necessitas immutabilitatis, nec hoc
+          de<lb ed="#G" n="134" break="no"/>rogasset libero arbitrio: quia secundum Anselm. possi 
+          <lb ed="#G" n="135"/>peccare non est libertas, nec pars libertatis: sed potius
+          vi<lb ed="#G" n="136" break="no"/>tium libertatis. Vnde non fuit minor libertas in virgine 
+          <lb ed="#G" n="137"/>gloriosa, quae peccare non potu:t, quam in luda, qui pec 
+          <lb ed="#G" n="138"/>care potuit, &amp; etiam de facto peccauit. 
+        </p>
+        <p xml:id="HuYgTa-196854-d1e670">
+          <lb ed="#G" n="139"/>
+          <pc type="indent"/>Posito ergo, quod caritas, sicut iam dictum est in prima con 
+          <lb ed="#G" n="140"/>clusione, possit amitti, &amp; de facto quandoque perdatur 
+          <lb ed="#G" n="141"/>per peccatum, dubitatur ab aliquibus, an in homine ordi 
+          <lb ed="#G" n="142"/>nate, &amp; debite poenitente redeat aequalis caritas 
+        </p>
+        <p xml:id="HuYgTa-196854-d1e683">
+          <lb ed="#G" n="143"/>
+          <pc type="indent"/>Respondeo ad hoc, &amp; dico, quod loquendo de
+          carita<lb ed="#G" n="144" break="no"/>te, ad cuius mensuram redidtur praemium in vita beata: 
+          <lb ed="#G" n="145"/>semper reditvel maior caritas, vel aequalis: quia in
+          ho<lb ed="#G" n="146" break="no"/>mine debite poenitente, vt communiter dicitur, &amp; trahi¬ 
+          <!--568.xml-->
+          <pb ed="#G" n="P2_49-r"/>
+          <cb ed="#G" n="a"/>
+          <lb ed="#G" n="1"/>tur ex decretis. Cuncta reuiuiscunt, quae quondam viua 
+          <lb ed="#G" n="2"/>fuerunt: Sed talis gradus caritatis, cui scilicet tale praemium 
+          <lb ed="#G" n="3"/>debet respondere, quondam viuus fuit in huiusmodi
+          poe<lb ed="#G" n="4" break="no"/>nitente : ergo talis gradus, &amp; per consequens aequalis
+          ca<lb ed="#G" n="5" break="no"/>ritas reuiuiscet. Si autem talis poenitens non solum
+          suffi<lb ed="#G" n="6" break="no"/>cienter, verum etiam feruenter, &amp; eminenter conteritur; 
+          <lb ed="#G" n="7"/>tunc non solum aequalem, verum maiorem recipiet carita 
+          <lb ed="#G" n="8"/>tem, quam habuerat antequam peccauit. Et isto modo v 
+          <lb ed="#G" n="9"/>rificatur illud verbum apostoli dicentis, Diligentibus Dei 
+          <lb ed="#G" n="10"/>omnia cooperantur in bonum his, qui secundum proposi 
+          <lb ed="#G" n="11"/>tum vocati sunt sancti. Super quo verbo dicit glo, quod 
+          <lb ed="#G" n="12"/>etiam ipsa peccata cooperantur eis in bonum: quia por 
+          <lb ed="#G" n="13"/>poenitentiam feruentiores efficiuntur in bono. 
+          <lb ed="#G" n="14"/>Sed oppositum illius tenet quidam doctor dices, quod ex 
+          <lb ed="#G" n="15"/>hoc, quod aliqui tepidi sunt in poenitendo: quamuis tamer 
+          <lb ed="#G" n="16"/>poeniteant: ideo resurgit in talibus hominibus minor
+          ca<lb ed="#G" n="17" break="no"/>ritas, quam ante habuerant.
+        </p>
+        <p xml:id="HuYgTa-196854-d1e740">
+          <lb ed="#G" n="18"/>lstud non valet: quia vel illa tep iditas est tanta, quod 
+          <lb ed="#G" n="19"/>Deus huiusmodi poenitentiam non acceptat, tunc nulla 
+          <lb ed="#G" n="20"/>redit caritas, eo quod sic poenitens non consequatur
+          ue<lb ed="#G" n="21" break="no"/>niam peccatorum, vel quod Deus acceptat huiusmodi po 
+          <lb ed="#G" n="22"/>nitentiam, &amp; largitur veniam: tunc ad minus redit aequa 
+          <lb ed="#G" n="23"/>lis caritas: quia posito, quod pro tunc poenitens moriatur 
+          <lb ed="#G" n="24"/>ipse tale praemium consequitur, quale consecutus fuisse 
+          <lb ed="#G" n="25"/>si mortuus fuisset antequam fceerat hoc peccatum, quo 
+          <lb ed="#G" n="26"/>perdidit caritatem. Vnde propter commissum peccatum 
+          <lb ed="#G" n="27"/>tali homini vere contrito non diminuitur praemium
+          es<lb ed="#G" n="28" break="no"/>sentiale in gloria: quia propter huiusmodi peccatum
+          da<lb ed="#G" n="29" break="no"/>tur ei poena satisfactoria. Non enim iudicat Deus bis in 
+          <lb ed="#G" n="30"/>idipsum, sicut dicit propheta. Sed hoc faceret, si pro
+          deli<lb ed="#G" n="31" break="no"/>cto diminueret beatam gloriam, &amp; cum hoc infligeret pe 
+          <lb ed="#G" n="32"/>nam satisfactoriam.
+        </p>
+        <p xml:id="HuYgTa-196854-d1e775">
+          <lb ed="#G" n="33"/>Forte obijcietur hic illud, quod scribit Amos. Non 
+          <lb ed="#G" n="34"/>adiiciet resurgere virgo israel. Vbi dicit glo. Non negat, 
+          <lb ed="#G" n="35"/>quin resurgat: sed quod possit resurgere virgo: quia semel 
+          <lb ed="#G" n="36"/>oberrans etiam si reportetur humeris pastoris, non
+          ha<lb ed="#G" n="37" break="no"/>bebit tantam gloriam.  
+        </p>
+        <p xml:id="HuYgTa-196854-d1e789">
+          <lb ed="#G" n="38"/>
+          <pc type="indent"/>Respondeo, quod loquitur ibi de gloria acciden 
+          <lb ed="#G" n="39"/>
+          <pc type="indent"/>tali, quae debetur Virgini, vt virgo est, pu¬¬ 
+          <lb ed="#G" n="40"/>
+          <pc type="indent"/>ta, de aureola : non autem de praemio. 
+          <lb ed="#G" n="41"/>
+          <pc type="indent"/>seu gloria essentiali, de qua
+          ioqui<lb ed="#G" n="42" break="no"/>
+          <pc type="indent"/>mur in proposito Sicut enim 
+          <lb ed="#G" n="43"/>
+          <pc type="indent"/>quae perdidit
+          virginita<lb ed="#G" n="44" break="no"/>
+          <pc type="indent"/>tem, non resurget 
+          <lb ed="#G" n="45"/>
+          <pc type="indent"/>Virgo, sic nec 
+          <lb ed="#G" n="46"/>
+          <pc type="indent"/>habebit 
+          <lb ed="#G" n="47"/>in
+          pa<lb ed="#G" n="48" break="no"/>tria aureolam, quae debetur 
+          <lb ed="#G" n="49"/>
+          <pc type="indent"/>Virgini: ergo &amp;c.
+        </p>
+        <p xml:id="HuYgTa-196854-d1e839">
+          <lb ed="#G" n="50"/>AR 3 IC III 
+          <lb ed="#G" n="51"/>Vtrum, supposito, aliquis
+          amu<lb ed="#G" n="52" break="no"/>
+          <pc type="indent"/>tat caritatem, propter hoc 
+          <lb ed="#G" n="53"/>
+          <pc type="indent"/>deleatiu de sibro vitae.
+        </p>
+        <p xml:id="HuYgTa-196854-d1e855">
+          <lb ed="#G" n="54"/>VANTVM ad secundum articulum tria sunt
+          videm<lb ed="#G" n="55" break="no"/>
+          <pc type="indent"/>da Primo, quid sit liber vitae. Secundo, quomodo 
+          <lb ed="#G" n="56"/>in isto libro aliqui dicuntur esse scripti. 
+        </p>
+        <p xml:id="HuYgTa-196854-d1e866">
+          <lb ed="#G" n="57"/>
+          <pc type="indent"/>Tertio vtrum in eo scripti possint ab eo deleri. 
+          <lb ed="#G" n="58"/>Quo ad primum sciendum, quod liber vitae potest qua 
+          <lb ed="#G" n="59"/>drupliciter sumi 
+        </p>
+        <p xml:id="HuYgTa-196854-d1e877">
+          <lb ed="#G" n="60"/>
+          <pc type="indent"/>Primo pro eo, in quo tandem relucebit qualiter ho¬¬ 
+          <lb ed="#G" n="61"/>mo vixerit. Et sic conscientia hominis dicitur liber vitae 
+          <lb ed="#G" n="62"/>quia in extremo iudicio cuiuslibet conscientia patebit 
+          <lb ed="#G" n="63"/>&amp; in ea videbitur omne, quod in vita sua peregit. 
+        </p>
+        <p xml:id="HuYgTa-196854-d1e890">
+          <lb ed="#G" n="64"/>
+          <pc type="indent"/>Secundo: quia in eo videtur modus viuendi, per quem 
+          <lb ed="#G" n="65"/>ad vitam aeternam veraciter peruenitur. Et sic scriptura sa 
+          <lb ed="#G" n="66"/>cra dicitur liber vitae, luxta illud Hec omnia liber vitae, 
+          <lb ed="#G" n="67"/>&amp; testamentum altissimi
+        </p>
+        <p xml:id="HuYgTa-196854-d1e904">
+          <!--568.xml-->
+          <cb ed="#G" n="b"/>
+          <lb ed="#G" n="68"/>Tertio, dicitur liber vitae illud; in quo relucent illa,  
+          <lb ed="#G" n="69"/>quibus meremur vitam. Et sic diuina notitia dicitur
+          li<lb ed="#G" n="70" break="no"/>ber vitae, pro vt in ea relucentiopera meritoria, in quibus 
+          <lb ed="#G" n="71"/>si homo finaliter perseueraret, consequeretur vitam.  
+          <lb ed="#G" n="72"/>Quarto, dicitur liber vitae ipsa diuina praescientia, seci 
+          <lb ed="#G" n="73"/>dum quam Deus, quasi libro legendo, infallibiliter
+          co<lb ed="#G" n="74" break="no"/>gnoscit condicionem, &amp; numerum ad vitam aeternam ele 
+          <lb ed="#G" n="75"/>ctorum. Et isto quarto modo accipitur hic in proposito 
+          <lb ed="#G" n="76"/>liber vitae. Et quia propter infallibilitutem illius libri al 
+          <lb ed="#G" n="77"/>qui quandoque pro eodem videbantur accipere praedesti 
+          <lb ed="#G" n="78"/>nationem, &amp; librum vitae, iuxta quem sensum videntu 
+          <lb ed="#G" n="79"/>procedere verba glo, super illo verbo, Quorum nomina 
+          <lb ed="#G" n="80"/>scripta sunt in libro vitae, vbi dicit glo. Liber vitae est prae 
+          <lb ed="#G" n="81"/>destinatio Dei in qua omnes sancti scripti sunt. Ideo es 
+          <lb ed="#G" n="82"/>aduertendum, quod quamuis liber vitae, &amp; praedestinatio 
+          <lb ed="#G" n="83"/>ambo habeant innumerabilem stabilitatem: tamen eo 
+          <lb ed="#G" n="84"/>rum differentia potest considerari eo, quod
+          praedestina<lb ed="#G" n="85" break="no"/>tio addit ad librum vitae: Ista enim per ordinem videntur 
+          <lb ed="#G" n="86"/>se habere, Dei dilectio, electio, liber vitae, praedestinatio, 
+          <lb ed="#G" n="87"/>vocatio, iustificatio, &amp; praemiatio seu magnificatio.  
+          <lb ed="#G" n="88"/>Nam Deus diligit nos secundum, quod vult nobis
+          bo<lb ed="#G" n="89" break="no"/>num iuxta quod dicitur 11. Hhetoricae, quod amare ess 
+          <lb ed="#G" n="90"/>uelle alicui bonum: Cum igitur non simus eligibiles nisi 
+          <lb ed="#G" n="91"/>vt boni sumus, patet, quod dilectio aliquo modo
+          praece<lb ed="#G" n="92" break="no"/>dit electionem. Item, quando in aliqua multitudine alo 
+          <lb ed="#G" n="93"/>qui ordinandi sunt ad aliquod excellens bonum, &amp;
+          ali<lb ed="#G" n="94" break="no"/>qui non, tunc ordinandi prius a non ordinanmdis separantur 
+          <lb ed="#G" n="95"/>quam ipsi ordinandi stabiliter conscribantur. Et quia ta 
+          <lb ed="#G" n="96"/>lis separatio fit per electionem, vel est ipsa electio: &amp;
+          eo<lb ed="#G" n="97" break="no"/>rum descript o est ipse liber vitae: ideo electio praecedit li 
+          <lb ed="#G" n="98"/>brum vitae. Item, tales ordinandi prius sunt in
+          ordinan<lb ed="#G" n="99" break="no"/>tis certa notitia quasi in libro conscripti, quam
+          ordinen<lb ed="#G" n="100" break="no"/>tur, &amp; dirigantur in huiusmodi bonum: ldeo liber vita 
+          <lb ed="#G" n="101"/>praecedit praedestinationem, quae est ordinatio electorum 
+          <lb ed="#G" n="102"/>in vitam aeternam secundum aeternum Dei
+          propositum<lb ed="#G" n="103" break="no"/>Item, aeternum propositum istius ordinationis praecedit 
+          <lb ed="#G" n="104"/>actualem eius prosecutionem in effectu. Vocatio autem, 
+          <lb ed="#G" n="105"/>prout in proposito sumitur, est ipsa collatio gratiae, per 
+          <lb ed="#G" n="106"/>quam collationem huiusmodi ordinatio mandatur
+          exe<lb ed="#G" n="107" break="no"/>cutioni ldeo praedestinatio praecedit vocationem. Item 
+          <lb ed="#G" n="108"/>cum iustificatio sit quasi effectus gratiae: quia ex hoc, quod  
+          <lb ed="#G" n="109"/>gratia recipitur in aliquo, ipse recipiens iustificatur: ideo 
+          <lb ed="#G" n="110"/>iustificatio, secundum nostrum modum intelligendi, sequi 
+          <lb ed="#G" n="111"/>tur vocationem, quae est gratiae collatio. Item, cum iustificati 
+          <lb ed="#G" n="112"/>fuerimus tunc meremur praemiari, seu magnificari: idec 
+          <lb ed="#G" n="113"/>iustificatio praecedit magnificationem. Et hunc ordinem 
+          <lb ed="#G" n="114"/>attendens Apostolus quantum ad quattuor terminos v 
+          <lb ed="#G" n="115"/>timo dictos, ait. Quos autem predestinauit, hos &amp;
+          voca<lb ed="#G" n="116" break="no"/>uit, &amp; quos vocauit, hos iustificauit, &amp; quos
+          iustifica<lb ed="#G" n="117" break="no"/>uit, hos &amp; magnificauit. 
+        </p>
+        <p xml:id="HuYgTa-196854-d1e1019">
+          <lb ed="#G" n="118"/>
+          <pc type="indent"/>Quantum ad secundum hic videndum. dicunt quidam 
+          <lb ed="#G" n="119"/>quod numerus electorum formaliter sumptus est certitu 
+          <lb ed="#G" n="120"/>dinaliter scriptus in libro vitae, puta, certum est in Dei noti 
+          <lb ed="#G" n="121"/>tia, quot sunt saluandi: sed non qui sint illi, puta, vtrum 
+          <lb ed="#G" n="122"/>isti homines, vel isti. Et forte poterant isti moueri ex
+          eis<lb ed="#G" n="123" break="no"/>dem motiuis, quae adduxi. 1. sen. dist. 4o contra
+          praescien<lb ed="#G" n="124" break="no"/>tiam Dei, &amp; praedestinationem, quae ad praesens omitto: 
+          <lb ed="#G" n="125"/>quia ibi ostendi, quomodo, non obstante Dei infallibili 
+          <lb ed="#G" n="126"/>notitia, qua Deus cognoscit quemlibet praedestinatum 
+          <lb ed="#G" n="127"/>esse saluandum: tamen ex hoc non tollitur rerum contin 
+          <lb ed="#G" n="128"/>gentia ex parte praedestinatorum, quin quilibet eorum 
+          <lb ed="#G" n="129"/>quantum est ex se, libere, &amp; contingenter saluetur.
+        </p>
+        <p xml:id="HuYgTa-196854-d1e1050">
+          <lb ed="#G" n="130"/>1 Est etiam ista opinio contra catholicam veritatem 
+          <lb ed="#G" n="131"/>uia cognitio Dei valde imperfecta esset, si solum cogno 
+          <lb ed="#G" n="132"/>sceret numerum electorum, &amp; non cognosceret
+          singula<lb ed="#G" n="133" break="no"/>res personas electas
+        </p>
+        <p xml:id="HuYgTa-196854-d1e1061">
+          <lb ed="#G" n="134"/>2 Praeterea, ipsa Dei notitia proficeret ex tempore:
+          qui<lb ed="#G" n="135" break="no"/>antequam aliquis esset saluatus, non cognosceret Deus 
+          <lb ed="#G" n="136"/>eum esse saluandum.  
+        </p>
+        <p xml:id="HuYgTa-196854-d1e1070">
+          <lb ed="#G" n="137"/>
+          <pc type="indent"/>3 Praeterea, ipsi electi scripti sunt in libro vitae: sed Sal 
+          <lb ed="#G" n="138"/>uator ait. Ego scio, quos elegerim, &amp; Ego cognosco oues 
+          <lb ed="#G" n="139"/>meas, &amp; cognoscunt me meae: ergo in Dei notitia, quae es 
+          <lb ed="#G" n="140"/>ipse liber vitae, non solum obiicitur, &amp; inscribitur numcrus 
+          <!--569.xml-->
+          <pb ed="#G" n="P2_49-v"/>
+          <cb ed="#G" n="a"/>
+          <lb ed="#G" n="1"/>electorum formaliter, vt isti fingunt, verum etiam ipsa 
+          <lb ed="#G" n="2"/>persone numeratae, quae finaliter saluabuntur, sunt in eo 
+          <lb ed="#G" n="3"/>conscripte, &amp; Deo certissime note: omnia enim nuda, id 
+          <lb ed="#G" n="4"/>aperta sunt oculis eius vt dicitur ad Hebr. 2. ergo &amp;c. 
+          <lb ed="#G" n="5"/>Quantum ad tertiam illius artic. inquisitionem dico 
+          <lb ed="#G" n="6"/>quod proprie loquendo de libro vitae, puta, quarto modo 
+          <lb ed="#G" n="7"/>superius expresso: tunc nullus scriptus in libro vitae
+          vm<lb ed="#G" n="8" break="no"/>quam ab eo delebitur. Quia Dei scientia est stabilis, &amp; in 
+          <lb ed="#G" n="9"/>fallibilis: ergo nullus scriptus in libro vitae est ab eo
+          dele<lb ed="#G" n="10" break="no"/>bilis, consequentia patet: quia liber vite est ipsa Dei scien 
+          <lb ed="#G" n="11"/>tia, qua Deus certitudinaliter cognoscit ipsos electos fi 
+          <lb ed="#G" n="12"/>naliter saluari: ergo qua ratione scientia Dei dicitur
+          in<lb ed="#G" n="13" break="no"/>fallibilis, eadem ratione liber vitae dicitur indelebilis.  
+          <lb ed="#G" n="14"/>Antecedens etiam patet ex fide.
+        </p>
+        <p xml:id="HuYgTa-196854-d1e1120">
+          <lb ed="#G" n="15"/>Sed contra illud est illa opinio erronea modo
+          proxi<lb ed="#G" n="16" break="no"/>me recitata: quia sequaces illius opinionis dicunt, quod 
+          <lb ed="#G" n="17"/>quamuis numerus electorum sit indelebiliter scriptus ut 
+          <lb ed="#G" n="18"/>libro vitae: persone tamen saluandae sunt delebiliter, &amp; abs 
+          <lb ed="#G" n="19"/>que certitudine ibi scripte. Quod probant per textum 
+          <lb ed="#G" n="20"/>scripturarum, Dicitur enim in psal. Deleantur de libro vi 
+          <lb ed="#G" n="21"/>uentium &amp; cum iustis non scribantur. &amp; Apoc. 3. dicitur. 
+          <lb ed="#G" n="22"/>Tene quod habes, vt nemo coronam tuam recipiat. Vbi 
+          <lb ed="#G" n="23"/>dicit Augu. quod non perderet ille nisi accepturus esset 
+          <lb ed="#G" n="24"/>iste. Et dixit Movses domino Dimitte eis hanc noxam, 
+          <lb ed="#G" n="25"/>quod si non facis, dele me de libro tuo, quem scripsisti 
+          <lb ed="#G" n="26"/>bi dominus respondet. Qui peccauerit in me, delebo eu 
+          <lb ed="#G" n="27"/>de libro meo. 
+        </p>
+        <p xml:id="HuYgTa-196854-d1e1152">
+          <lb ed="#G" n="28"/>Sed in omnibus istis auctoritatibus, &amp; aliis multis con 
+          <lb ed="#G" n="29"/>similibus non accipitur liber uitae proprie, scilicet pro 
+          <lb ed="#G" n="30"/>quarto modo superius expresso: sed solum accipitur pro 
+          <lb ed="#G" n="31"/>tertio modo, puta pro noritia Dei, qua cognoscit aliquos 
+          <lb ed="#G" n="32"/>quandoque pro aliquo tempore habere gratiam, &amp; virtu 
+          <lb ed="#G" n="33"/>tes: in quibus tamen, exigentibus suis demeritis, ipsi
+          fi<lb ed="#G" n="34" break="no"/>naliter non manebunt. Vnde tales numquam fuerunt
+          scri<lb ed="#G" n="35" break="no"/>pti in libro uitae secundum se: quia Deus numquam con 
+          <lb ed="#G" n="36"/>gnouit eos finaliter esse saluandos, quamuis eorum
+          bon<lb ed="#G" n="37" break="no"/>opera fuerint in Dei notitia, a quibus virtuosis operibus 
+          <lb ed="#G" n="38"/>dum ipsi decidunt, deleri dicuntur de libro vitae:
+        </p>
+        <p xml:id="HuYgTa-196854-d1e1178">
+          <lb ed="#G" n="39"/>Et illud patet per glo, super illud psal. Delcantur de li 
+          <lb ed="#G" n="40"/>bro viuentium, &amp;c. quae dicit sic. lllud est accipiendum 
+          <lb ed="#G" n="41"/>non de illis, qui in libro vitae scripti fuerunt: sed de illis 
+          <lb ed="#G" n="42"/>qui secundum spem suam se scriptos ibi putant 
+        </p>
+        <p xml:id="HuYgTa-196854-d1e1189">
+          <lb ed="#G" n="43"/>
+          <pc type="indent"/>ARTLCVLVS IIT 
+          <lb ed="#G" n="44"/>Vtrum caritas, &amp; ceterae virtutes theologicae
+          ma<lb ed="#G" n="45" break="no"/>neant, vel excidant mn patria
+        </p>
+        <p xml:id="HuYgTa-196854-d1e1200">
+          <lb ed="#G" n="46"/>VANTVM ad tertium articulum ponam tres com 
+          <lb ed="#G" n="47"/>clusiones. Prima est quod fides quantum ad
+          sub<lb ed="#G" n="48" break="no"/>stantiam habitus manet in patria 
+        </p>
+        <p xml:id="HuYgTa-196854-d1e1209">
+          <lb ed="#G" n="49"/>
+          <pc type="indent"/>1 Quia fundamentum non destruitur, ex eo quod
+          aedi<lb ed="#G" n="50" break="no"/>ficium consummatur: sed ut patet ad Hebr, fides est fun 
+          <lb ed="#G" n="51"/>damentum totius edificij spiritualis, quod quidem
+          aedi<lb ed="#G" n="52" break="no"/>ficium completur. &amp; consummatur in patria :ergo &amp;c. 
+        </p>
+        <p xml:id="HuYgTa-196854-d1e1222">
+          <lb ed="#G" n="53"/>
+          <pc type="indent"/>2 Praeterea, beati in patria maxime placent Deo: sed  
+          <lb ed="#G" n="54"/>sine fide impossibile est placere Deo, vt ait Apostolus; 
+          <lb ed="#G" n="55"/>ergo &amp;c. 
+        </p>
+        <p xml:id="HuYgTa-196854-d1e1234">
+          <lb ed="#G" n="56"/>
+          <pc type="indent"/>3 Praeterea, fides non videtur habere maiorem
+          repu<lb ed="#G" n="57" break="no"/>gnantiam ad statum gloriae, seu patriae, quam ad actum  
+          <lb ed="#G" n="58"/>mortalis culpae: sed fides manet cum actu mortalis culpae: es 
+          <lb ed="#G" n="59"/>go &amp;c. Maior patet: quia non apparet, quod lumen magis
+          re<lb ed="#G" n="60" break="no"/>pugnet lumini quam tenebrae: sed fides est quoddam
+          lu<lb ed="#G" n="61" break="no"/>men, vnde communiter dicitur, hoc cognoscitur in lumi 
+          <lb ed="#G" n="62"/>ne fidei, &amp; glosa similiter est lumen, de quo dicitur
+          in<lb ed="#G" n="63" break="no"/>sal. In lumine tuo videbimus lumen: sed mortalis culpa 
+          <lb ed="#G" n="64"/>est quaedam mentalis obscuritas, seu tenebra: ergo &amp;c. Mi 
+          <lb ed="#G" n="65"/>nor etiam patet: quia si fides non maneret, tunc omnis pec 
+          <lb ed="#G" n="66"/>cator mortalis esset insidelis, Confirmationes illius
+          con<lb ed="#G" n="67" break="no"/>clusionis, &amp; varias obiectiones contra eam scripsi <ref xml:id="HuYgTa-196854-Rd1e1264">super 
+            <lb ed="#G" n="68"/>prologum primi libri sententiarum. qus artic. 2.</ref> 
+        </p>
+        <p xml:id="HuYgTa-196854-d1e1270">
+          <lb ed="#G" n="69"/>
+          <pc type="indent"/>Secunda conclusio est, quod spes manet n patria 
+          <!--569.xml-->
+          <cb ed="#G" n="b"/>
+          <lb ed="#G" n="70"/>1 Quia vbi verum manet desiderium, ibi vera spes ma 
+          <lb ed="#G" n="71"/>net: sed in patria manet verum desiderium: ergo &amp;c.
+          Ma<lb ed="#G" n="72" break="no"/>ior patet: spes enim quasi semper concomitatur ordinatum 
+          <lb ed="#G" n="73"/>desiderium. Minor etiam patet per Aug. qui loquens de 
+          <lb ed="#G" n="74"/>modo nostri amoris in patria, ait, Amabimus, &amp; desiderat 
+          <lb ed="#G" n="75"/>bimus, desiderabimus, &amp; amabimus. Et confirmatur illa 
+          <lb ed="#G" n="76"/>minor per illud, quod ait Dei sapientia, quae est obiectum 
+          <lb ed="#G" n="77"/>in vita beata desiderantis animae. Qui edunt me, adhuc 
+          <lb ed="#G" n="78"/>esurient. Patet etiam per Sreg in quadam omel. qui in 
+          <lb ed="#G" n="79"/>hoc ponit differentiam inter corporales delitias, &amp; spiri 
+          <lb ed="#G" n="80"/>tuales: quia corporales cum habentur, pariunt fastidium, 
+          <lb ed="#G" n="81"/>sed spirituales accendunt desiderium 
+        </p>
+        <p xml:id="HuYgTa-196854-d1e1307">
+          <lb ed="#G" n="82"/>
+          <pc type="indent"/>2 Praeterea, sicut se habet desperatio ad damnationem, 
+          <lb ed="#G" n="83"/>sic spes ad saluationem: sed desperatio manet cum
+          dam<lb ed="#G" n="84" break="no"/>natione eorum, qui sunt in inferno: ergo spes manet cum 
+          <lb ed="#G" n="85"/>aluatione existentium in patria. 
+        </p>
+        <p xml:id="HuYgTa-196854-d1e1320">
+          <lb ed="#G" n="86"/>
+          <pc type="indent"/>3 Preterea, forma, quae cessat esset in aliquo subiecto, 
+          <lb ed="#G" n="87"/>aut destruitur destructione subiecti: aut destruitur
+          actio<lb ed="#G" n="88" break="no"/>ne contrarij: sed spes non destruitur destructione
+          subie<lb ed="#G" n="89" break="no"/>cti: quia hoc manet in patria: nec actione contrarii: quia 
+          <lb ed="#G" n="90"/>in patria non inuenitur aliquid desperabile, actione
+          cu<lb ed="#G" n="91" break="no"/>ius spes destruatur.
+        </p>
+        <p xml:id="HuYgTa-196854-d1e1338">
+          <lb ed="#G" n="92"/>Forte, dicerent illi, qui sunt contrariae opinionis, quod  
+          <lb ed="#G" n="93"/>spes non est respectu praesentis: sed futuri boni: sed in
+          pa<lb ed="#G" n="94" break="no"/>tria omne bonum est praesens ipsibeato: ergo &amp;c. 
+          <lb ed="#G" n="95"/>Respondeo, quia sicut desiderium dicitur rei non habi 
+          <lb ed="#G" n="96"/>tae, sic spes futuri. Et ideo sicut, cum res non habetur,
+          de<lb ed="#G" n="97" break="no"/>sideratur eius habitio, seu possessio: cum autem
+          posside<lb ed="#G" n="98" break="no"/>tur, adhuc desideratur illius possessionis stabilis
+          perman<lb ed="#G" n="99" break="no"/>sio: fic cum praesens est illud, quod speratur, adhuc potest 
+          <lb ed="#G" n="100"/>de eo haberi spes, vt in futurum continuetur: Noni igitur 
+          <lb ed="#G" n="101"/>in patria de bono, quod praesentialiter possident, firman 
+          <lb ed="#G" n="102"/>spem habent, quod ipsum in perpetuum possidebunt. pos 
+          <lb ed="#G" n="103"/>unt etiam habere spem quo ad beatitudinem
+          acciden<lb ed="#G" n="104" break="no"/>talem, quae saepius variatur, &amp; potest esse futura 
+        </p>
+        <p xml:id="HuYgTa-196854-d1e1369">
+          <lb ed="#G" n="105"/>
+          <pc type="indent"/>Tertia conclusio est, quod caritas manet in patria. 
+          <lb ed="#G" n="106"/>1 Quia in statu perfectissimo non deest virtus, quae est 
+          <lb ed="#G" n="107"/>summe perfecta: sed status patriae est status perfectissimu 
+          <lb ed="#G" n="108"/>&amp; caritas est virtus summe perfecta: ergo &amp;c. 
+        </p>
+        <p xml:id="HuYgTa-196854-d1e1383">
+          <lb ed="#G" n="109"/>
+          <pc type="indent"/>2 Praeterea, dicit Apostolus. Caritas numquam excidit 
+        </p>
+        <p xml:id="HuYgTa-196854-d1e1390">
+          <lb ed="#G" n="110"/>
+          <pc type="indent"/>AR TICVLVS uII 
+          <lb ed="#G" n="111"/>Vtrum Deus omnia quae sunt extra se
+          aequa<lb ed="#G" n="112" break="no"/>liter diligat.
+        </p>
+        <p xml:id="HuYgTa-196854-d1e1401">
+          <lb ed="#G" n="113"/>QVANTVM ad quartum articulum ponam tres con 
+          <lb ed="#G" n="114"/>clusiones. Prima est, quod Deus diligit omnem 
+          <lb ed="#G" n="115"/>creaturam Quia omne agens per intellectum diligit
+          il<lb ed="#G" n="116" break="no"/>lud, quod suam bonitatem participat: sed omnis
+          creatu<lb ed="#G" n="117" break="no"/>ra participat Dei bonitatem, vt declaraui superius circa 
+          <lb ed="#G" n="118"/>secundum librum. 
+        </p>
+        <p xml:id="HuYgTa-196854-d1e1417">
+          <lb ed="#G" n="119"/>
+          <pc type="indent"/>Forte dicetur, quod nulla passio cadit in Deo: sed amor 
+          <lb ed="#G" n="120"/>est quedam passio: ergo Deus non poterit amare
+          creatu<lb ed="#G" n="121" break="no"/>ram. Maior patet: quia in puro actu non potest cadere pas 
+          <lb ed="#G" n="122"/>sio. Minor probatur: si vnum oppositorum est passio, &amp; re 
+          <lb ed="#G" n="123"/>iquum: sed odium est passio: ergo &amp; amor erit passio 
+        </p>
+        <p xml:id="HuYgTa-196854-d1e1433">
+          <lb ed="#G" n="124"/>
+          <pc type="indent"/>2 Praeterea, idem respectu eiusdem non potest habere 
+          <lb ed="#G" n="125"/>odium, &amp; amorem: sed Deus odit aliquas creaturas. Ma¬¬ 
+          <lb ed="#G" n="126"/>or patet: Minor probatur: quia dicit dominus. Tacob dili 
+          <lb ed="#G" n="127"/>ci, Esau autem odio habii. 
+        </p>
+        <p xml:id="HuYgTa-196854-d1e1446">
+          <lb ed="#G" n="128"/>
+          <pc type="indent"/>Ad primum dicendum, quod passiones in duplici
+          ge<lb ed="#G" n="129" break="no"/>nere inueniuntur: nam quaedam dicunt imperfectionem 
+          <lb ed="#G" n="130"/>sicut ira, odium, &amp; tristitia, &amp; istae non inueniuntur in Dec 
+          <lb ed="#G" n="131"/>nisi metaphorice. Aliae de se, &amp; proprie dicunt
+          perfectio<lb ed="#G" n="132" break="no"/>nem, ficut amor, &amp; gaudium, &amp; laetitia, &amp; istae formaliter,  
+          <lb ed="#G" n="133"/>&amp; proprie reperiuntur in Deo, quamuis non per modum 
+          <lb ed="#G" n="134"/>asstonis: sed per modum simplicis actus, sic enim possunt 
+          <lb ed="#G" n="135"/>esse in puro actu.
+        </p>
+        <p xml:id="HuYgTa-196854-d1e1469">
+          <lb ed="#G" n="136"/>Ad secundum dicendum, quod idem ab eodem potest 
+          <lb ed="#G" n="137"/>simul amari, &amp; odiri, ratione tamen diuersorum: eandem 
+          <lb ed="#G" n="138"/>ergo creaturam Deus amat, inquantum Deus fecit eam 
+          <lb ed="#G" n="139"/>quia, vt sic, est amabilis, &amp; bona: Vidit. n. Deus cuncta, quae 
+          <!--570.xml-->
+          <pb ed="#G" n="P2_50-r"/>
+          <cb ed="#G" n="a"/>
+          <lb ed="#G" n="1"/>fecerat, &amp; erant valde bona Sen. 1. Et eandem creaturam 
+          <lb ed="#G" n="2"/>Deus odit, inquantum est infecta peccato, quod Deus non 
+          <lb ed="#G" n="3"/>fecit, quia aequaliter odit Deus impium, &amp; impietaten 
+          <lb ed="#G" n="4"/>suam, vt patet per dictum Sapientis 
+        </p>
+        <p xml:id="HuYgTa-196854-d1e1495">
+          <lb ed="#G" n="5"/>
+          <pc type="indent"/>Secunda conclusio est, quod Deus ab aeterno dilexit 
+          <lb ed="#G" n="6"/>creaturam.
+        </p>
+        <p xml:id="HuYgTa-196854-d1e1504">
+          <lb ed="#G" n="7"/>1 Quia, vt patuit superius. 2. arti. illius quaestionis, Dei 
+          <lb ed="#G" n="8"/>dilectio, secundum nostrum modum intelligendi,
+          praece<lb ed="#G" n="9" break="no"/>dit electionem: sed sicut ait Apostolus, elegit nos ante 
+          <lb ed="#G" n="10"/>mundi constitutionem
+        </p>
+        <p xml:id="HuYgTa-196854-d1e1515">
+          <lb ed="#G" n="11"/>2 Praeterea, illum Deus ab aeterno dilexit, cui ab aeternu 
+          <lb ed="#G" n="12"/>bonum voluit: sed homini praedestinato ab aeterno voluit 
+          <lb ed="#G" n="13"/>summum bonum, scilicet aeternam beatitudinem: ergo &amp;c 
+        </p>
+        <p xml:id="HuYgTa-196854-d1e1524">
+          <lb ed="#G" n="14"/>
+          <pc type="indent"/>Forte dicetur contra illud sic. 1 Illud, quod ab
+          aeter<lb ed="#G" n="15" break="no"/>no non habuit esse, hoc ab aeterno non habuit dilectun 
+          <lb ed="#G" n="16"/>esse: sed creatura ab aeterno non habuit esse. Maior patet: 
+          <lb ed="#G" n="17"/>quia esse dilectum praesupponit esse, sicut compositum 
+          <lb ed="#G" n="18"/>praesupponit simplex.
+        </p>
+        <p xml:id="HuYgTa-196854-d1e1540">
+          <lb ed="#G" n="19"/>2 Praeterea, amans vult illud esse, quod amat. sed Deu 
+          <lb ed="#G" n="20"/>ab eterno non voluit creaturam esse: alias n creatura fuisset 
+          <lb ed="#G" n="21"/>ab aeterno, cum voluntas Dei sit simpliciter omnipotens 
+        </p>
+        <p xml:id="HuYgTa-196854-d1e1550">
+          <lb ed="#G" n="22"/>
+          <pc type="indent"/>Ad primum dicendum, quod quamuis ab aeterno crea 
+          <lb ed="#G" n="23"/>tura non habuit esse simpliciter: habuit tamen esse cogni 
+          <lb ed="#G" n="24"/>tum: quia Deus ab aeterno cognoscens essentiam suam 
+          <lb ed="#G" n="25"/>quae est perfectum exemplar omnis creaturae, perfecte com 
+          <lb ed="#G" n="26"/>gnouit omnem creaturam. Ad hoc autem, quod aliquod 
+          <lb ed="#G" n="27"/>bonum diligatur, vel habeat esse dilectu, sufficit, quod habeat 
+          <lb ed="#G" n="28"/>esse cognitum: quia bonum cognitum est obiectum
+          volun<lb ed="#G" n="29" break="no"/>tatis: nihil n refert an bonum sit praesens, vel futurum
+          a<lb ed="#G" n="30" break="no"/>hoc, vt diligatur, dummodo certitudinaliter cognoscatur. 
+        </p>
+        <p xml:id="HuYgTa-196854-d1e1574">
+          <lb ed="#G" n="31"/>
+          <pc type="indent"/>Ad secundum dicendum, quod Deus ab aeterno
+          vo<lb ed="#G" n="32" break="no"/>luit creaturam esse: sed non pro aeterno: sed pro
+          tempo<lb ed="#G" n="33" break="no"/>re determinato. 
+        </p>
+        <p xml:id="HuYgTa-196854-d1e1585">
+          <lb ed="#G" n="34"/>
+          <pc type="indent"/>Tertia conclusio, est quod Deus magis diligit vnam ece- 
+          <lb ed="#G" n="35"/>turam, quam aliam: quia illud magis diligitur, cui ex
+          di<lb ed="#G" n="36" break="no"/>lectione maius bonum confertur: sed Deus ex dilectione 
+          <lb ed="#G" n="37"/>vni creaturae maius bonum contulit, quam aliae, vt de se 
+          <lb ed="#G" n="38"/>patet. 
+        </p>
+        <p xml:id="HuYgTa-196854-d1e1601">
+          <lb ed="#G" n="39"/>
+          <pc type="indent"/>Forte dicetur, quod vnus, &amp; idem actus non potest si 
+          <lb ed="#G" n="40"/>mul, &amp; semel esse intensior &amp; remissior: sed Deus vno 
+          <lb ed="#G" n="41"/>actu dilectionis simul omnia diligibilia diligit ergo &amp;c. 
+        </p>
+        <p xml:id="HuYgTa-196854-d1e1612">
+          <lb ed="#G" n="42"/>
+          <pc type="indent"/>Respondeo, quod Deus non dicitur hic magis diligere, 
+          <lb ed="#G" n="43"/>eo quod intensius diligat: sed eo, quod maius bonum pro 
+          <lb ed="#G" n="44"/>ponit conferre, &amp; suo tempore confert ei, quod diligiti 
+        </p>
+        <p xml:id="HuYgTa-196854-d1e1623">
+          <lb ed="#G" n="45"/>
+          <pc type="indent"/>Ad Argumentum principale dicendum, quod consequer 
+          <lb ed="#G" n="46"/>tia est falsa. Ad probationem dicendum, quod quauis caritas 
+          <lb ed="#G" n="47"/>sit tantae virtutis, quod habens caritatem possit resistere omn 
+          <lb ed="#G" n="48"/>peccato mortali: tamen si habens caritatem sua libera vo 
+          <lb ed="#G" n="49"/>iuntate consentit in actum, quo mortale peccatum
+          com<lb ed="#G" n="50" break="no"/>mittitur, tunc expellit a se caritatem: destruitur enim
+          ca<lb ed="#G" n="51" break="no"/>ritas propter malam subiecti dispositionem: ergo &amp;c. 
+        </p>
+      </div>
+    </body>
+  </text>
 </TEI>

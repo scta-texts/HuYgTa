@@ -1,115 +1,115 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Circa textum</title>
-            <author ref="#ThomasStrasbourg">Thomas of Strasbourg</author>
-            <respStmt>
-               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
-               <resp>Transcription Editor</resp>
-               <resp>TEI Encoder</resp>
-            </respStmt>
-         </titleStmt>
-         <editionStmt>
-            <edition n="0.0.0-dev">
-               <title>Circa textum</title>
-               <date when="2020-11-26">November 26, 2020</date>
-            </edition>
-         </editionStmt>
-         <publicationStmt>
-            <authority>SCTA</authority>
-            <availability status="free">
-               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
-               </p>
-            </availability>
-         </publicationStmt>
-         <sourceDesc>
-            <listWit>
-               <witness xml:id="G" n="cod-TxxxqU">Genoa 1585</witness>
-            </listWit>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
-         <editorialDecl>
-            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
-       guidelines for a diplomatic edition.</p>
-         </editorialDecl>
-      </encodingDesc>
-      <revisionDesc status="draft">
-         <listChange>
-            <change when="2020-11-26" status="draft" n="0.0.0">
-               <p>Created file for the first time.</p>
-            </change>
-         </listChange>
-      </revisionDesc>
-   </teiHeader>
-   <text xml:lang="la">
-      <front>
-         <div xml:id="starts-on">
-            <pb ed="#G" n="P2_151-r"/>
-            <cb ed="#G" n="a"/>
-         </div>
-      </front>
-      <body>
-         <div xml:id="HuYgTa-273982"><!-- HuYgTa-l4d26ct1 -->
-            <head xml:id="HuYgTa-273982-Hd1e108">Circa textum</head>
-            <p xml:id="HuYgTa-273982-d1e111">
-      <!--772.xml-->
-               <pb ed="#G" n="P2_151-r"/>
-               <cb ed="#G" n="a"/>
-               <lb ed="#G" n="1"/>DISTINCTIO. XXVI. 
-      <lb ed="#G" n="2"/>Tractatus de sacramento matrimonij vtilis diuisio,  
-      <lb ed="#G" n="3"/>
-               <pc type="indent"/>ac praesentis distinctionis non obscura
-      subdiui<lb ed="#G" n="4" break="no"/>
-               <pc type="indent"/>sio, n qua tum de ustitutione, tum de
-      si<lb ed="#G" n="5" break="no"/>
-               <pc type="indent"/>giificatione huius sacramenti prin 
-      <lb ed="#G" n="6"/>
-               <pc type="indent"/>cipaliter peragitur.
-    </p>
-            <p xml:id="HuYgTa-273982-d1e142">
-               <lb ed="#G" n="7"/>
-               <pc type="indent"/>VM alia sacramenta. Postquam 
-      <lb ed="#G" n="8"/>Magister determinauit de sex
-      sa<lb ed="#G" n="9" break="no"/>cramentis nouae legis, &amp;
-      speciali<lb ed="#G" n="10" break="no"/>liter in distinctionibus duabus im 
-      <lb ed="#G" n="11"/>mediate praecedentib. de sacramen 
-      <lb ed="#G" n="12"/>to ordinis, quo generantur filij spi 
-      <lb ed="#G" n="13"/>rituales: nunc in 15. distinctionibs 
-      <lb ed="#G" n="14"/>proxime sequentibus determinat 
-      <lb ed="#G" n="15"/>de septimo nouae legis sacramento, scilicet de
-      matrimo<lb ed="#G" n="16" break="no"/>nio, quo multiplicantur filij carnales. Et diuiditur in quat 
-      <lb ed="#G" n="17"/>tuor partes, secundum quod tractat de quattuor causis 
-      <lb ed="#G" n="18"/>id veritatem matrimonii vniuersaliter concurrentibus, 
-      <lb ed="#G" n="19"/>Primo enim tractat de causa formali istius sacramenti, 
-      <lb ed="#G" n="20"/>Secundo de efficiente, Tertio de finali Et quarto de ma 
-      <lb ed="#G" n="21"/>teriali, Secunda incipit ibi, Post haec aduertendum. Ter- 
-      <lb ed="#G" n="22"/>tia ibi, Post haec de bonis. Quarta ibi. Nunc superest osten 
-      <lb ed="#G" n="23"/>dere. Quantum ad primum est aduertendum, quod ma 
-      <lb ed="#G" n="24"/>trimonium, sicut etiam quodsibet aliud sacramentum, e 
-      <lb ed="#G" n="25"/>sacrae rei signum diuinitus institutum ideo formam insti 
-      <lb ed="#G" n="26"/>tutionis istius sacramenti declarando, Magister duo fa 
-      <lb ed="#G" n="27"/>cit primo enim tractat verba a primo homine prolata 
-      <lb ed="#G" n="28"/>istius sacramenti institutione, Secundo tractat de eiusdem 
-      <lb ed="#G" n="29"/>sacramenti significatione, ibi, Cum igitur coniugium 
-      <lb ed="#G" n="30"/>Prima in tres: Quia primo, verborum, quibus istud sacra 
-      <lb ed="#G" n="31"/>mentum fuit institutum exprimit veritatem. Secundo 
-      <lb ed="#G" n="32"/>huius institutionis innuit veritatem. Tertio quendam  
-      <lb ed="#G" n="33"/>etrorem refellit ad insinuandum matrimonii honestate 
-      <lb ed="#G" n="34"/>Secunda ibi Coniugii autem institutio. Tertia ibi, fuerumt 
-      <lb ed="#G" n="35"/>autem nonnulli. Sequitur illa pars, Cum igitur. Et diuid 
-      <lb ed="#G" n="36"/>tur in duas partes Nam primo manifestat matrimonii si 
-      <lb ed="#G" n="37"/>gnificationem. Secundo incidenter recitat quandam fal 
-      <lb ed="#G" n="38"/>sam opinionem, ibi, Inde est quod quidam Et heci tres 
-      <lb ed="#G" n="39"/>quia primo huiusmodi opinionem cum suis motiuis
-      re<lb ed="#G" n="40" break="no"/>citat. Secundo eandem opinionem improbat. Et tertio 
-      <lb ed="#G" n="41"/>auctoritates, in quibus illa opinio se fundat, explanat. 
-      <lb ed="#G" n="42"/>Secunda ibi, Haec si secundum verborum. Tertia ibi, Sed  
-      <lb ed="#G" n="43"/>superius posita Circa hanc distinctionem quaero. 
-    </p>
-         </div>
-      </body>
-   </text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Circa textum</title>
+        <author ref="#ThomasStrasbourg">Thomas of Strasbourg</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Circa textum</title>
+          <date when="2020-11-26">November 26, 2020</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="G" n="cod-TxxxqU">Genoa 1585</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2020-11-26" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#G" n="P2_151-r"/>
+        <cb ed="#G" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="HuYgTa-273982"><!-- HuYgTa-l4d26ct1 -->
+        <head xml:id="HuYgTa-273982-Hd1e108">Circa textum</head>
+        <p xml:id="HuYgTa-273982-d1e111">
+          <!--772.xml-->
+          <pb ed="#G" n="P2_151-r"/>
+          <cb ed="#G" n="a"/>
+          <lb ed="#G" n="1"/>DISTINCTIO. XXVI. 
+          <lb ed="#G" n="2"/>Tractatus de sacramento matrimonij vtilis diuisio,  
+          <lb ed="#G" n="3"/>
+          <pc type="indent"/>ac praesentis distinctionis non obscura
+          subdiui<lb ed="#G" n="4" break="no"/>
+          <pc type="indent"/>sio, n qua tum de ustitutione, tum de
+          si<lb ed="#G" n="5" break="no"/>
+          <pc type="indent"/>giificatione huius sacramenti prin 
+          <lb ed="#G" n="6"/>
+          <pc type="indent"/>cipaliter peragitur.
+        </p>
+        <p xml:id="HuYgTa-273982-d1e142">
+          <lb ed="#G" n="7"/>
+          <pc type="indent"/>VM alia sacramenta. Postquam 
+          <lb ed="#G" n="8"/>Magister determinauit de sex
+          sa<lb ed="#G" n="9" break="no"/>cramentis nouae legis, &amp;
+          speciali<lb ed="#G" n="10" break="no"/>liter in distinctionibus duabus im 
+          <lb ed="#G" n="11"/>mediate praecedentib. de sacramen 
+          <lb ed="#G" n="12"/>to ordinis, quo generantur filij spi 
+          <lb ed="#G" n="13"/>rituales: nunc in 15. distinctionibs 
+          <lb ed="#G" n="14"/>proxime sequentibus determinat 
+          <lb ed="#G" n="15"/>de septimo nouae legis sacramento, scilicet de
+          matrimo<lb ed="#G" n="16" break="no"/>nio, quo multiplicantur filij carnales. Et diuiditur in quat 
+          <lb ed="#G" n="17"/>tuor partes, secundum quod tractat de quattuor causis 
+          <lb ed="#G" n="18"/>id veritatem matrimonii vniuersaliter concurrentibus, 
+          <lb ed="#G" n="19"/>Primo enim tractat de causa formali istius sacramenti, 
+          <lb ed="#G" n="20"/>Secundo de efficiente, Tertio de finali Et quarto de ma 
+          <lb ed="#G" n="21"/>teriali, Secunda incipit ibi, Post haec aduertendum. Ter- 
+          <lb ed="#G" n="22"/>tia ibi, Post haec de bonis. Quarta ibi. Nunc superest osten 
+          <lb ed="#G" n="23"/>dere. Quantum ad primum est aduertendum, quod ma 
+          <lb ed="#G" n="24"/>trimonium, sicut etiam quodsibet aliud sacramentum, e 
+          <lb ed="#G" n="25"/>sacrae rei signum diuinitus institutum ideo formam insti 
+          <lb ed="#G" n="26"/>tutionis istius sacramenti declarando, Magister duo fa 
+          <lb ed="#G" n="27"/>cit primo enim tractat verba a primo homine prolata 
+          <lb ed="#G" n="28"/>istius sacramenti institutione, Secundo tractat de eiusdem 
+          <lb ed="#G" n="29"/>sacramenti significatione, ibi, Cum igitur coniugium 
+          <lb ed="#G" n="30"/>Prima in tres: Quia primo, verborum, quibus istud sacra 
+          <lb ed="#G" n="31"/>mentum fuit institutum exprimit veritatem. Secundo 
+          <lb ed="#G" n="32"/>huius institutionis innuit veritatem. Tertio quendam  
+          <lb ed="#G" n="33"/>etrorem refellit ad insinuandum matrimonii honestate 
+          <lb ed="#G" n="34"/>Secunda ibi Coniugii autem institutio. Tertia ibi, fuerumt 
+          <lb ed="#G" n="35"/>autem nonnulli. Sequitur illa pars, Cum igitur. Et diuid 
+          <lb ed="#G" n="36"/>tur in duas partes Nam primo manifestat matrimonii si 
+          <lb ed="#G" n="37"/>gnificationem. Secundo incidenter recitat quandam fal 
+          <lb ed="#G" n="38"/>sam opinionem, ibi, Inde est quod quidam Et heci tres 
+          <lb ed="#G" n="39"/>quia primo huiusmodi opinionem cum suis motiuis
+          re<lb ed="#G" n="40" break="no"/>citat. Secundo eandem opinionem improbat. Et tertio 
+          <lb ed="#G" n="41"/>auctoritates, in quibus illa opinio se fundat, explanat. 
+          <lb ed="#G" n="42"/>Secunda ibi, Haec si secundum verborum. Tertia ibi, Sed  
+          <lb ed="#G" n="43"/>superius posita Circa hanc distinctionem quaero. 
+        </p>
+      </div>
+    </body>
+  </text>
 </TEI>

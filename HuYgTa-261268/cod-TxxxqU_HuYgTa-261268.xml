@@ -1,117 +1,117 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Circa textum</title>
-            <author ref="#ThomasStrasbourg">Thomas of Strasbourg</author>
-            <respStmt>
-               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
-               <resp>Transcription Editor</resp>
-               <resp>TEI Encoder</resp>
-            </respStmt>
-         </titleStmt>
-         <editionStmt>
-            <edition n="0.0.0-dev">
-               <title>Circa textum</title>
-               <date when="2020-11-26">November 26, 2020</date>
-            </edition>
-         </editionStmt>
-         <publicationStmt>
-            <authority>SCTA</authority>
-            <availability status="free">
-               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
-               </p>
-            </availability>
-         </publicationStmt>
-         <sourceDesc>
-            <listWit>
-               <witness xml:id="G" n="cod-TxxxqU">Genoa 1585</witness>
-            </listWit>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
-         <editorialDecl>
-            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
-       guidelines for a diplomatic edition.</p>
-         </editorialDecl>
-      </encodingDesc>
-      <revisionDesc status="draft">
-         <listChange>
-            <change when="2020-11-26" status="draft" n="0.0.0">
-               <p>Created file for the first time.</p>
-            </change>
-         </listChange>
-      </revisionDesc>
-   </teiHeader>
-   <text xml:lang="la">
-      <front>
-         <div xml:id="starts-on">
-            <pb ed="#G" n="P2_134-r"/>
-            <cb ed="#G" n="a"/>
-         </div>
-      </front>
-      <body>
-         <div xml:id="HuYgTa-261268"><!-- HuYgTa-l4d20ct1 -->
-            <head xml:id="HuYgTa-261268-Hd1e108">Circa textum</head>
-            <p xml:id="HuYgTa-261268-d1e111">
-      <!--738.xml-->
-               <pb ed="#G" n="P2_134-r"/>
-               <cb ed="#G" n="a"/>
-               <lb ed="#G" n="1"/>DISTINCTIO Sx 
-      <lb ed="#G" n="2"/>
-               <pc type="indent"/>Non obscura buius distinctionis duuisio, in qua 
-      <lb ed="#G" n="3"/>
-               <pc type="indent"/>determmatir de qualitate sacra 
-      <lb ed="#G" n="4"/>
-               <pc type="indent"/>mentum poenitentiae
-      su<lb ed="#G" n="5" break="no"/>
-               <pc type="indent"/>scipientium. 
-    </p>
-            <p xml:id="HuYgTa-261268-d1e140">
-               <lb ed="#G" n="6"/>RCIENDVM tamen est. Postquam 
-      <lb ed="#G" n="7"/>
-               <pc type="indent"/>magister determinauit de
-      poeniten<lb ed="#G" n="8" break="no"/>tia quantum ad diuersitatem
-      sua<lb ed="#G" n="9" break="no"/>rum partium, ac etiam de
-      potesta<lb ed="#G" n="10" break="no"/>te ministrorum poenitentiam
-      iniu<lb ed="#G" n="11" break="no"/>gentium, nunc incipit
-      determina<lb ed="#G" n="12" break="no"/>re de qualitate subditorum poeniten 
-      <lb ed="#G" n="13"/>tiam suscipientium Et diuiditur in 
-      <lb ed="#G" n="14"/>du as partes, quia primo tractat de remissione
-      peccato<lb ed="#G" n="15" break="no"/>rum vere poenitentium. Secundo de reuersione dimisso 
-      <lb ed="#G" n="16"/>rum ingrate se habetium, &amp; confiteri contemnentium, 
-      <lb ed="#G" n="17"/>ibi, Cumque multis auctoritatibus. Prima in duas quia 
-      <lb ed="#G" n="18"/>primo; agit de remissione peccatorum quantum ad
-      sta<lb ed="#G" n="19" break="no"/>tum praesentis uitae. Secundo quantum, ad statum vitae 
-      <lb ed="#G" n="20"/>futurae, ibi, Solet etiam quaeri. Prima in duas: quia
-      pri<lb ed="#G" n="21" break="no"/>mo inquirit, vtrum homo vsque ad finem vitae valeat
-      poe<lb ed="#G" n="22" break="no"/>nitere. Secundo ostendit qualiter circa huiusmodi ho 
-      <lb ed="#G" n="23"/>minem in fine poenitentem confessor se debeat
-      habere<lb ed="#G" n="24" break="no"/>ibi, Solet etiam quaeri vtrum. Prima in tres. quia primo 
-      <lb ed="#G" n="25"/>tractat de poenitentia illorum, qui circa finem a primo  
-      <lb ed="#G" n="26"/>poenitere incipiunt. Secundo de poenitentia illorum, 
-      <lb ed="#G" n="27"/>qui ante finem incipiunt, sed non perficiunt Tertio de 
-      <lb ed="#G" n="28"/>his, qui poenitentiam iniunctam perficiunt: sed confesso 
-      <lb ed="#G" n="29"/>res sufficientem poenitentiam ipsis non iniunxerunt 
-      <lb ed="#G" n="30"/>Secunda ibi, Si uero quaeritur Tertia ibi, Si vero de illo 
-      <lb ed="#G" n="31"/>Sequitur illa pars, Solet etiam quaeri. Et diuiditur in tres 
-      <lb ed="#G" n="32"/>partes: quia primo, ostendit qualiter circa illum, qui a 
-      <lb ed="#G" n="33"/>primo in fine penitet, sacerdos debet se habere quan 
-      <lb ed="#G" n="34"/>tum ad satisfactionis impositionem. Secundo quomodo 
-      <lb ed="#G" n="35"/>debet se habere circa absolutionis impartionem. Et ter 
-      <lb ed="#G" n="36"/>tio quomodo circa oblationem, quae fit pro illo, qui ex 
-      <lb ed="#G" n="37"/>carentia sacerdotis moritur praeter absolntionem. Secu 
-      <lb ed="#G" n="38"/>da ibi, Sciendum est etiam Tertia ibi Si autem
-      quaeri<lb ed="#G" n="39" break="no"/>tur. Istarum secunda diuiditur in duas, quia primo osten 
-      <lb ed="#G" n="40"/>dit, quod quilibet sacerdos potest, &amp; tenetur absoluere 
-      <lb ed="#G" n="41"/>penitentem in necessitatis articulo, Secundo ostendit,  
-      <lb ed="#G" n="42"/>quod non imminente huiusmodi articulo, sacerdos de 
-      <lb ed="#G" n="43"/>aliquibus non debet absoluere irrequisito episcopo, ibi 
-      <lb ed="#G" n="44"/>Non tamen debet. Circa hanc distinctionem vigesi 
-      <lb ed="#G" n="45"/>mam quaero. 
-    </p>
-         </div>
-      </body>
-   </text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Circa textum</title>
+        <author ref="#ThomasStrasbourg">Thomas of Strasbourg</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Circa textum</title>
+          <date when="2020-11-26">November 26, 2020</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="G" n="cod-TxxxqU">Genoa 1585</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2020-11-26" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#G" n="P2_134-r"/>
+        <cb ed="#G" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="HuYgTa-261268"><!-- HuYgTa-l4d20ct1 -->
+        <head xml:id="HuYgTa-261268-Hd1e108">Circa textum</head>
+        <p xml:id="HuYgTa-261268-d1e111">
+          <!--738.xml-->
+          <pb ed="#G" n="P2_134-r"/>
+          <cb ed="#G" n="a"/>
+          <lb ed="#G" n="1"/>DISTINCTIO Sx 
+          <lb ed="#G" n="2"/>
+          <pc type="indent"/>Non obscura buius distinctionis duuisio, in qua 
+          <lb ed="#G" n="3"/>
+          <pc type="indent"/>determmatir de qualitate sacra 
+          <lb ed="#G" n="4"/>
+          <pc type="indent"/>mentum poenitentiae
+          su<lb ed="#G" n="5" break="no"/>
+          <pc type="indent"/>scipientium. 
+        </p>
+        <p xml:id="HuYgTa-261268-d1e140">
+          <lb ed="#G" n="6"/>RCIENDVM tamen est. Postquam 
+          <lb ed="#G" n="7"/>
+          <pc type="indent"/>magister determinauit de
+          poeniten<lb ed="#G" n="8" break="no"/>tia quantum ad diuersitatem
+          sua<lb ed="#G" n="9" break="no"/>rum partium, ac etiam de
+          potesta<lb ed="#G" n="10" break="no"/>te ministrorum poenitentiam
+          iniu<lb ed="#G" n="11" break="no"/>gentium, nunc incipit
+          determina<lb ed="#G" n="12" break="no"/>re de qualitate subditorum poeniten 
+          <lb ed="#G" n="13"/>tiam suscipientium Et diuiditur in 
+          <lb ed="#G" n="14"/>du as partes, quia primo tractat de remissione
+          peccato<lb ed="#G" n="15" break="no"/>rum vere poenitentium. Secundo de reuersione dimisso 
+          <lb ed="#G" n="16"/>rum ingrate se habetium, &amp; confiteri contemnentium, 
+          <lb ed="#G" n="17"/>ibi, Cumque multis auctoritatibus. Prima in duas quia 
+          <lb ed="#G" n="18"/>primo; agit de remissione peccatorum quantum ad
+          sta<lb ed="#G" n="19" break="no"/>tum praesentis uitae. Secundo quantum, ad statum vitae 
+          <lb ed="#G" n="20"/>futurae, ibi, Solet etiam quaeri. Prima in duas: quia
+          pri<lb ed="#G" n="21" break="no"/>mo inquirit, vtrum homo vsque ad finem vitae valeat
+          poe<lb ed="#G" n="22" break="no"/>nitere. Secundo ostendit qualiter circa huiusmodi ho 
+          <lb ed="#G" n="23"/>minem in fine poenitentem confessor se debeat
+          habere<lb ed="#G" n="24" break="no"/>ibi, Solet etiam quaeri vtrum. Prima in tres. quia primo 
+          <lb ed="#G" n="25"/>tractat de poenitentia illorum, qui circa finem a primo  
+          <lb ed="#G" n="26"/>poenitere incipiunt. Secundo de poenitentia illorum, 
+          <lb ed="#G" n="27"/>qui ante finem incipiunt, sed non perficiunt Tertio de 
+          <lb ed="#G" n="28"/>his, qui poenitentiam iniunctam perficiunt: sed confesso 
+          <lb ed="#G" n="29"/>res sufficientem poenitentiam ipsis non iniunxerunt 
+          <lb ed="#G" n="30"/>Secunda ibi, Si uero quaeritur Tertia ibi, Si vero de illo 
+          <lb ed="#G" n="31"/>Sequitur illa pars, Solet etiam quaeri. Et diuiditur in tres 
+          <lb ed="#G" n="32"/>partes: quia primo, ostendit qualiter circa illum, qui a 
+          <lb ed="#G" n="33"/>primo in fine penitet, sacerdos debet se habere quan 
+          <lb ed="#G" n="34"/>tum ad satisfactionis impositionem. Secundo quomodo 
+          <lb ed="#G" n="35"/>debet se habere circa absolutionis impartionem. Et ter 
+          <lb ed="#G" n="36"/>tio quomodo circa oblationem, quae fit pro illo, qui ex 
+          <lb ed="#G" n="37"/>carentia sacerdotis moritur praeter absolntionem. Secu 
+          <lb ed="#G" n="38"/>da ibi, Sciendum est etiam Tertia ibi Si autem
+          quaeri<lb ed="#G" n="39" break="no"/>tur. Istarum secunda diuiditur in duas, quia primo osten 
+          <lb ed="#G" n="40"/>dit, quod quilibet sacerdos potest, &amp; tenetur absoluere 
+          <lb ed="#G" n="41"/>penitentem in necessitatis articulo, Secundo ostendit,  
+          <lb ed="#G" n="42"/>quod non imminente huiusmodi articulo, sacerdos de 
+          <lb ed="#G" n="43"/>aliquibus non debet absoluere irrequisito episcopo, ibi 
+          <lb ed="#G" n="44"/>Non tamen debet. Circa hanc distinctionem vigesi 
+          <lb ed="#G" n="45"/>mam quaero. 
+        </p>
+      </div>
+    </body>
+  </text>
 </TEI>

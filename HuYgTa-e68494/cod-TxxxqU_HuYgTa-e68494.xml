@@ -1,99 +1,98 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Circa textum</title>
-            <author ref="#ThomasStrasbourg">Thomas of Strasbourg</author>
-            <respStmt>
-               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
-               <resp>Transcription Editor</resp>
-               <resp>TEI Encoder</resp>
-            </respStmt>
-         </titleStmt>
-         <editionStmt>
-            <edition n="0.0.0-dev">
-               <title>Circa textum</title>
-               <date when="2020-11-26">November 26, 2020</date>
-            </edition>
-         </editionStmt>
-         <publicationStmt>
-            <authority>SCTA</authority>
-            <availability status="free">
-               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
-               </p>
-            </availability>
-         </publicationStmt>
-         <sourceDesc>
-            <listWit>
-               <witness xml:id="G" n="cod-TxxxqU">Genoa 1585</witness>
-            </listWit>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
-         <editorialDecl>
-            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
-       guidelines for a diplomatic edition.</p>
-         </editorialDecl>
-      </encodingDesc>
-      <revisionDesc status="draft">
-         <listChange>
-            <change when="2020-11-26" status="draft" n="0.0.0">
-               <p>Created file for the first time.</p>
-            </change>
-         </listChange>
-      </revisionDesc>
-   </teiHeader>
-   <text xml:lang="la">
-      <front>
-         <div xml:id="starts-on">
-            <pb ed="#G" n="-r"/>
-            <cb ed="#G" n="a"/>
-         </div>
-      </front>
-      <body>
-         <div xml:id="HuYgTa-e68494"><!-- HuYgTa-l1d27ct1 -->
-            <head xml:id="HuYgTa-e68494-Hd1e108">Circa textum</head>
-            <p xml:id="HuYgTa-e68494-d1e111">
-               <lb ed="#G" n="92"/>
-               <pc type="indent"/>DISTINCTIO SVII. 
-      <lb ed="#G" n="93"/>Dilucida, &amp; breuis duisio buius dictinctionis, 
-      <lb ed="#G" n="94"/>in qua proprietatum nomina cum per 
-      <lb ed="#G" n="95"/>sonarum nominibus
-      con<lb ed="#G" n="96" break="no"/>seruntur.
-    </p>
-            <p xml:id="HuYgTa-e68494-d1e127">
-               <lb ed="#G" n="97"/>IC QVARI POTEST&amp;c.
-      Ma<lb ed="#G" n="98" break="no"/>gister in ista dist. 27. comparat nomi 
-      <lb ed="#G" n="99"/>na proprietatum nominibus persi 
-      <lb ed="#G" n="100"/>narum, &amp; duo facit, nam primo osten 
-      <lb ed="#G" n="101"/>dit, quomodo nomina proprietatum 
-      <lb ed="#G" n="102"/>se habeant ad nomina personalia 
-      <lb ed="#G" n="103"/>Secundo dat quandam regulam ad 
-      <lb ed="#G" n="104"/>ordinate proferenda tam nomina 
-      <lb ed="#G" n="105"/>substantialia, quam nomina notionalia ibi, Et hic est
-      ad<lb ed="#G" n="106" break="no"/>tertenda. Prima in duas. Nam primo ostendit, quomodo 
-      <lb ed="#G" n="107"/>proprietates significantur nominibus personalibus.
-      Se<lb ed="#G" n="108" break="no"/>cundo, quomodo proferuntur quandoque nominibus non  
-      <lb ed="#G" n="109"/>proprie personalibus, sed personalibus aequipollentibus 
-      <lb ed="#G" n="110"/>ibi, Hic non est praetermittendum Prima in tres, secundum 
-      <lb ed="#G" n="111"/>ue primo circa huiusmodi nomina quaestionem mouet. 
-      <lb ed="#G" n="112"/>Secundo ad motam quaestionem respondet. Tertio respo 
-      <lb ed="#G" n="113"/>sionem declarando ueritatem intentam promouet.
-      Se<lb ed="#G" n="114" break="no"/>tunda ibi, Ad quod sine Tertia ibi, Nec tamen nobis
-      uide<lb ed="#G" n="115" break="no"/>tur. Et haec in duas: quia primo in ista materia declarat 
-      <lb ed="#G" n="116"/>quasdam propositiones; Secundo proprijs vocabulis
-      no<lb ed="#G" n="117" break="no"/>minat distinctiuas relationes. Secunda ibi, hRelationum 
-      <lb ed="#G" n="118"/>vero &amp;c. Tunc sequitur illa pars, Et hic est aduertenda. E 
-      <lb ed="#G" n="119"/>diuiditur in tres partes. Primo enim ponit regulam gene 
-      <lb ed="#G" n="120"/>ralem circa nomina significantia, tam substantiam, quam 
-      <lb ed="#G" n="121"/>notionem. Secundo ratione huius regulae mouet
-      inci<lb ed="#G" n="122" break="no"/>dentem quaestionem. Et tertio subinfert quaestionis
-      solu<lb ed="#G" n="123" break="no"/>tionem. Secunda ibi, Hic quaeritur cum dicitur. Ad quod 
-      <lb ed="#G" n="124"/>dicimus Circa istam distinctionem. 27. quaero hanc 
-      <lb ed="#G" n="125"/>quaestionem. 
-    </p>
-         </div>
-      </body>
-   </text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Circa textum</title>
+        <author ref="#ThomasStrasbourg">Thomas of Strasbourg</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Circa textum</title>
+          <date when="2020-11-26">November 26, 2020</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="G" n="cod-TxxxqU">Genoa 1585</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2020-11-26" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#G" n="90-r"/>
+        <cb ed="#G" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="HuYgTa-e68494"><!-- HuYgTa-l1d27ct1 -->
+        <head xml:id="HuYgTa-e68494-Hd1e108">Circa textum</head>
+        <p xml:id="HuYgTa-e68494-d1e111">
+          <lb ed="#G" n="92"/><pc type="indent"/>DISTINCTIO SVII. 
+          <lb ed="#G" n="93"/>Dilucida, &amp; breuis duisio buius dictinctionis, 
+          <lb ed="#G" n="94"/>in qua proprietatum nomina cum per 
+          <lb ed="#G" n="95"/>sonarum nominibus
+          con<lb ed="#G" n="96" break="no"/>seruntur.
+        </p>
+        <p xml:id="HuYgTa-e68494-d1e127">
+          <lb ed="#G" n="97"/>IC QVARI POTEST&amp;c.
+          Ma<lb ed="#G" n="98" break="no"/>gister in ista dist. 27. comparat nomi 
+          <lb ed="#G" n="99"/>na proprietatum nominibus persi 
+          <lb ed="#G" n="100"/>narum, &amp; duo facit, nam primo osten 
+          <lb ed="#G" n="101"/>dit, quomodo nomina proprietatum 
+          <lb ed="#G" n="102"/>se habeant ad nomina personalia 
+          <lb ed="#G" n="103"/>Secundo dat quandam regulam ad 
+          <lb ed="#G" n="104"/>ordinate proferenda tam nomina 
+          <lb ed="#G" n="105"/>substantialia, quam nomina notionalia ibi, Et hic est
+          ad<lb ed="#G" n="106" break="no"/>tertenda. Prima in duas. Nam primo ostendit, quomodo 
+          <lb ed="#G" n="107"/>proprietates significantur nominibus personalibus.
+          Se<lb ed="#G" n="108" break="no"/>cundo, quomodo proferuntur quandoque nominibus non  
+          <lb ed="#G" n="109"/>proprie personalibus, sed personalibus aequipollentibus 
+          <lb ed="#G" n="110"/>ibi, Hic non est praetermittendum Prima in tres, secundum 
+          <lb ed="#G" n="111"/>ue primo circa huiusmodi nomina quaestionem mouet. 
+          <lb ed="#G" n="112"/>Secundo ad motam quaestionem respondet. Tertio respo 
+          <lb ed="#G" n="113"/>sionem declarando ueritatem intentam promouet.
+          Se<lb ed="#G" n="114" break="no"/>tunda ibi, Ad quod sine Tertia ibi, Nec tamen nobis
+          uide<lb ed="#G" n="115" break="no"/>tur. Et haec in duas: quia primo in ista materia declarat 
+          <lb ed="#G" n="116"/>quasdam propositiones; Secundo proprijs vocabulis
+          no<lb ed="#G" n="117" break="no"/>minat distinctiuas relationes. Secunda ibi, hRelationum 
+          <lb ed="#G" n="118"/>vero &amp;c. Tunc sequitur illa pars, Et hic est aduertenda. E 
+          <lb ed="#G" n="119"/>diuiditur in tres partes. Primo enim ponit regulam gene 
+          <lb ed="#G" n="120"/>ralem circa nomina significantia, tam substantiam, quam 
+          <lb ed="#G" n="121"/>notionem. Secundo ratione huius regulae mouet
+          inci<lb ed="#G" n="122" break="no"/>dentem quaestionem. Et tertio subinfert quaestionis
+          solu<lb ed="#G" n="123" break="no"/>tionem. Secunda ibi, Hic quaeritur cum dicitur. Ad quod 
+          <lb ed="#G" n="124"/>dicimus Circa istam distinctionem. 27. quaero hanc 
+          <lb ed="#G" n="125"/>quaestionem. 
+        </p>
+      </div>
+    </body>
+  </text>
 </TEI>

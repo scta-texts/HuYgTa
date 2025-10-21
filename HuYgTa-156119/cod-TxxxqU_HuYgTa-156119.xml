@@ -1,115 +1,115 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Circa textum</title>
-            <author ref="#ThomasStrasbourg">Thomas of Strasbourg</author>
-            <respStmt>
-               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
-               <resp>Transcription Editor</resp>
-               <resp>TEI Encoder</resp>
-            </respStmt>
-         </titleStmt>
-         <editionStmt>
-            <edition n="0.0.0-dev">
-               <title>Circa textum</title>
-               <date when="2020-11-26">November 26, 2020</date>
-            </edition>
-         </editionStmt>
-         <publicationStmt>
-            <authority>SCTA</authority>
-            <availability status="free">
-               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
-               </p>
-            </availability>
-         </publicationStmt>
-         <sourceDesc>
-            <listWit>
-               <witness xml:id="G" n="cod-TxxxqU">Genoa 1585</witness>
-            </listWit>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
-         <editorialDecl>
-            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
-       guidelines for a diplomatic edition.</p>
-         </editorialDecl>
-      </encodingDesc>
-      <revisionDesc status="draft">
-         <listChange>
-            <change when="2020-11-26" status="draft" n="0.0.0">
-               <p>Created file for the first time.</p>
-            </change>
-         </listChange>
-      </revisionDesc>
-   </teiHeader>
-   <text xml:lang="la">
-      <front>
-         <div xml:id="starts-on">
-            <pb ed="#G" n="-r"/>
-            <cb ed="#G" n="a"/>
-         </div>
-      </front>
-      <body>
-         <div xml:id="HuYgTa-156119"><!-- HuYgTa-l2d40et41ct1 -->
-            <head xml:id="HuYgTa-156119-Hd1e108">Circa textum</head>
-            <p xml:id="HuYgTa-156119-d1e111">
-               <lb ed="#G" n="31"/>DISTINCTIO XL XLI 
-      <lb ed="#G" n="32"/>Distincta harum distinctionum diuisio, in quibus de 
-      <lb ed="#G" n="33"/>germme vadicis superius declaratae o- 
-      <lb ed="#G" n="34"/>ptime pertractatur. 
-    </p>
-            <p xml:id="HuYgTa-156119-d1e122">
-               <lb ed="#G" n="35"/>
-               <pc type="indent"/>OSTIAeC DE ACTIEVS. 
-      <lb ed="#G" n="36"/>Postquam Magister determinauit 
-      <lb ed="#G" n="37"/>de actualis peccati radice, puta di 
-      <lb ed="#G" n="38"/>humana voluntate, hic incipit de 
-      <lb ed="#G" n="39"/>terminare de iam dictae radicis ger 
-      <lb ed="#G" n="40"/>mine, puta de malo opere. Et
-      di<lb ed="#G" n="41" break="no"/>Eal uiditur in duas partes quia primo  
-      <lb ed="#G" n="42"/>  tractat generaliter de peccatis co 
-      <lb ed="#G" n="43"/>munibus, Secundo de peccatis grauissimis, ac
-      singulari<lb ed="#G" n="44" break="no"/>bus ibi, Eest preterea quoddam genus peccati. Prima in 
-      <lb ed="#G" n="45"/>duas, quia primo considerat vniuersaliter quaedam
-      respi<lb ed="#G" n="46" break="no"/>cientia quaelibet peccata mortalia. Socundo pertractat 
-      <lb ed="#G" n="47"/>aliqualiter ipsorum peccatorum principia distinctiua, ibi 
-      <lb ed="#G" n="48"/>Cum autem voluntas mala Prima in duas: quia primo di 
-      <lb ed="#G" n="49"/>terminat de bonitate, &amp; malitia contingente ratione fi- 
-      <lb ed="#G" n="50"/>nis voluntatem efficientis: Secundo ratione luminis
-      in<lb ed="#G" n="51" break="no"/>ellectum dirigentis, ibi, Cumque intentio bona. Prima 
-      <lb ed="#G" n="52"/>diuiditur in duas partes, secundum quod ad praesens
-      pro<lb ed="#G" n="53" break="no"/>positum mouet duas quaestiones, quorum prima est, vtrum 
-      <lb ed="#G" n="54"/>omnes actus sint indicandi boni, uel mali ex fine.
-      Secun<lb ed="#G" n="55" break="no"/>da, vtrum omnes actus ex finibus intentis debeamus iudi 
-      <lb ed="#G" n="56"/>tare: Secuda ibi, Sed quaeritur vtrum. Et haec in tres; quia 
-      <lb ed="#G" n="57"/>primo respondet secundum opinionem falsam. Secundo 
-      <lb ed="#G" n="58"/>respondet per opinionem, &amp; prosequitur eam. Et tertio 
-      <lb ed="#G" n="59"/>contra quoddam dictum ducit instantiam. Secunda ibiij 
-      <lb ed="#G" n="60"/>aliis autem videtur Tertia ibi. Quae tamen quidam
-      con<lb ed="#G" n="61" break="no"/>tendunt Sequitur illa pars, Cumque intentio bona. Et 
-      <lb ed="#G" n="62"/>haec est dist. 21 in qua Magister primo de his, qui carent 
-      <lb ed="#G" n="63"/>fide, qua anima dirigitur, mouet quaestionem. Secundo de 
-      <lb ed="#G" n="64"/>voluntario concurrente in omni pecato facit mentionem 
-      <lb ed="#G" n="65"/>ibi, Praeterea inuestigari oportet Prima in duas: quia pri 
-      <lb ed="#G" n="66"/>mo mouet quaestionem. Secundo circa eam recitat dupli 
-      <lb ed="#G" n="67"/>cem opinionem, ibi; Quibusdam. Et haec diuiditur in duas 
-      <!--446.xml-->
-      <cb ed="#G" n="b"/>
-               <lb ed="#G" n="68"/>artes, secundum quod duas recitat opiniones. Secunda 
-      <lb ed="#G" n="69"/>abi, Alii, vero qui Prima in tres, quia primo opinionem 
-      <lb ed="#G" n="70"/>pouit. Secundo contra eam opponit. Et tertio soluit.
-      Se<lb ed="#G" n="71" break="no"/>cunda ibi, His autem. Tertia ibi, Quibus illi respondent 
-      <lb ed="#G" n="72"/>Sequitur illa pars, Praeterea inuestigari oportet &amp;c. Et di 
-      <lb ed="#G" n="73"/>uiditur in tres partes, quia primo ostendit Magister, quod 
-      <lb ed="#G" n="74"/>mne peccatum est aliquo modo voluntarium Secundo 
-      <lb ed="#G" n="75"/>per quirit, vtrum voluntas sit omnis peccati subiectum; 
-      <lb ed="#G" n="76"/>Tertio infert quoddam corollarium. Secunda ibi, lllius 
-      <lb ed="#G" n="77"/>etiam intelligentia. Tertia ibi. Si autem omne peccatum. 
-      <lb ed="#G" n="78"/>Circa has distinctiones quero hanc quaestionem. 
-    </p>
-         </div>
-      </body>
-   </text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Circa textum</title>
+        <author ref="#ThomasStrasbourg">Thomas of Strasbourg</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Circa textum</title>
+          <date when="2020-11-26">November 26, 2020</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="G" n="cod-TxxxqU">Genoa 1585</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2020-11-26" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#G" n="-r"/>
+        <cb ed="#G" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="HuYgTa-156119"><!-- HuYgTa-l2d40et41ct1 -->
+        <head xml:id="HuYgTa-156119-Hd1e108">Circa textum</head>
+        <p xml:id="HuYgTa-156119-d1e111">
+          <lb ed="#G" n="31"/>DISTINCTIO XL XLI 
+          <lb ed="#G" n="32"/>Distincta harum distinctionum diuisio, in quibus de 
+          <lb ed="#G" n="33"/>germme vadicis superius declaratae o- 
+          <lb ed="#G" n="34"/>ptime pertractatur. 
+        </p>
+        <p xml:id="HuYgTa-156119-d1e122">
+          <lb ed="#G" n="35"/>
+          <pc type="indent"/>OSTIAeC DE ACTIEVS. 
+          <lb ed="#G" n="36"/>Postquam Magister determinauit 
+          <lb ed="#G" n="37"/>de actualis peccati radice, puta di 
+          <lb ed="#G" n="38"/>humana voluntate, hic incipit de 
+          <lb ed="#G" n="39"/>terminare de iam dictae radicis ger 
+          <lb ed="#G" n="40"/>mine, puta de malo opere. Et
+          di<lb ed="#G" n="41" break="no"/>Eal uiditur in duas partes quia primo  
+          <lb ed="#G" n="42"/>  tractat generaliter de peccatis co 
+          <lb ed="#G" n="43"/>munibus, Secundo de peccatis grauissimis, ac
+          singulari<lb ed="#G" n="44" break="no"/>bus ibi, Eest preterea quoddam genus peccati. Prima in 
+          <lb ed="#G" n="45"/>duas, quia primo considerat vniuersaliter quaedam
+          respi<lb ed="#G" n="46" break="no"/>cientia quaelibet peccata mortalia. Socundo pertractat 
+          <lb ed="#G" n="47"/>aliqualiter ipsorum peccatorum principia distinctiua, ibi 
+          <lb ed="#G" n="48"/>Cum autem voluntas mala Prima in duas: quia primo di 
+          <lb ed="#G" n="49"/>terminat de bonitate, &amp; malitia contingente ratione fi- 
+          <lb ed="#G" n="50"/>nis voluntatem efficientis: Secundo ratione luminis
+          in<lb ed="#G" n="51" break="no"/>ellectum dirigentis, ibi, Cumque intentio bona. Prima 
+          <lb ed="#G" n="52"/>diuiditur in duas partes, secundum quod ad praesens
+          pro<lb ed="#G" n="53" break="no"/>positum mouet duas quaestiones, quorum prima est, vtrum 
+          <lb ed="#G" n="54"/>omnes actus sint indicandi boni, uel mali ex fine.
+          Secun<lb ed="#G" n="55" break="no"/>da, vtrum omnes actus ex finibus intentis debeamus iudi 
+          <lb ed="#G" n="56"/>tare: Secuda ibi, Sed quaeritur vtrum. Et haec in tres; quia 
+          <lb ed="#G" n="57"/>primo respondet secundum opinionem falsam. Secundo 
+          <lb ed="#G" n="58"/>respondet per opinionem, &amp; prosequitur eam. Et tertio 
+          <lb ed="#G" n="59"/>contra quoddam dictum ducit instantiam. Secunda ibiij 
+          <lb ed="#G" n="60"/>aliis autem videtur Tertia ibi. Quae tamen quidam
+          con<lb ed="#G" n="61" break="no"/>tendunt Sequitur illa pars, Cumque intentio bona. Et 
+          <lb ed="#G" n="62"/>haec est dist. 21 in qua Magister primo de his, qui carent 
+          <lb ed="#G" n="63"/>fide, qua anima dirigitur, mouet quaestionem. Secundo de 
+          <lb ed="#G" n="64"/>voluntario concurrente in omni pecato facit mentionem 
+          <lb ed="#G" n="65"/>ibi, Praeterea inuestigari oportet Prima in duas: quia pri 
+          <lb ed="#G" n="66"/>mo mouet quaestionem. Secundo circa eam recitat dupli 
+          <lb ed="#G" n="67"/>cem opinionem, ibi; Quibusdam. Et haec diuiditur in duas 
+          <!--446.xml-->
+          <cb ed="#G" n="b"/>
+          <lb ed="#G" n="68"/>artes, secundum quod duas recitat opiniones. Secunda 
+          <lb ed="#G" n="69"/>abi, Alii, vero qui Prima in tres, quia primo opinionem 
+          <lb ed="#G" n="70"/>pouit. Secundo contra eam opponit. Et tertio soluit.
+          Se<lb ed="#G" n="71" break="no"/>cunda ibi, His autem. Tertia ibi, Quibus illi respondent 
+          <lb ed="#G" n="72"/>Sequitur illa pars, Praeterea inuestigari oportet &amp;c. Et di 
+          <lb ed="#G" n="73"/>uiditur in tres partes, quia primo ostendit Magister, quod 
+          <lb ed="#G" n="74"/>mne peccatum est aliquo modo voluntarium Secundo 
+          <lb ed="#G" n="75"/>per quirit, vtrum voluntas sit omnis peccati subiectum; 
+          <lb ed="#G" n="76"/>Tertio infert quoddam corollarium. Secunda ibi, lllius 
+          <lb ed="#G" n="77"/>etiam intelligentia. Tertia ibi. Si autem omne peccatum. 
+          <lb ed="#G" n="78"/>Circa has distinctiones quero hanc quaestionem. 
+        </p>
+      </div>
+    </body>
+  </text>
 </TEI>

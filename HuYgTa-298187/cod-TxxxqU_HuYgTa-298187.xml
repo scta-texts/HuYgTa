@@ -1,99 +1,99 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Circa textum</title>
-            <author ref="#ThomasStrasbourg">Thomas of Strasbourg</author>
-            <respStmt>
-               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
-               <resp>Transcription Editor</resp>
-               <resp>TEI Encoder</resp>
-            </respStmt>
-         </titleStmt>
-         <editionStmt>
-            <edition n="0.0.0-dev">
-               <title>Circa textum</title>
-               <date when="2020-11-26">November 26, 2020</date>
-            </edition>
-         </editionStmt>
-         <publicationStmt>
-            <authority>SCTA</authority>
-            <availability status="free">
-               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
-               </p>
-            </availability>
-         </publicationStmt>
-         <sourceDesc>
-            <listWit>
-               <witness xml:id="G" n="cod-TxxxqU">Genoa 1585</witness>
-            </listWit>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
-         <editorialDecl>
-            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
-       guidelines for a diplomatic edition.</p>
-         </editorialDecl>
-      </encodingDesc>
-      <revisionDesc status="draft">
-         <listChange>
-            <change when="2020-11-26" status="draft" n="0.0.0">
-               <p>Created file for the first time.</p>
-            </change>
-         </listChange>
-      </revisionDesc>
-   </teiHeader>
-   <text xml:lang="la">
-      <front>
-         <div xml:id="starts-on">
-           <pb ed="#G" n="P2_183-v"/>
-            <cb ed="#G" n="a"/>
-         </div>
-      </front>
-      <body>
-         <div xml:id="HuYgTa-298187"><!-- HuYgTa-l4d45ct1 -->
-            <head xml:id="HuYgTa-298187-Hd1e108">Circa textum</head>
-            <p xml:id="HuYgTa-298187-d1e111">
-               <lb ed="#G" n="16"/>
-               <pc type="indent"/>DISTINCTIO XLV. 
-      <lb ed="#G" n="17"/>Aperta buius distinctionis diuisio, in qua humana 
-      <lb ed="#G" n="18"/>
-               <pc type="indent"/>Tumstatus animarum, cum a proprus fuerint 
-      <lb ed="#G" n="19"/>
-               <pc type="indent"/>separata corporibus,
-      perspi<lb ed="#G" n="20" break="no"/>
-               <pc type="indent"/>tue dectaratir.
-    </p>
-            <p xml:id="HuYgTa-298187-d1e133">
-               <lb ed="#G" n="21"/>RA TEREA sciendum. Postquam
-      Ma<lb ed="#G" n="22" break="no"/>gister tractauit de animarum
-      humana<lb ed="#G" n="23" break="no"/>rum ad sua corpora reunione: nunc in 
-      <lb ed="#G" n="24"/>ista quadragesima quinta distinctione in 
-      <lb ed="#G" n="25"/>finuat, qualem statu habet humane aiae, qu 
-      <lb ed="#G" n="26"/>Ni sunt a suis corporibus separatae. Et
-      diui<lb ed="#G" n="27" break="no"/>dit in duas partes, quia primo tractat de statu animarum, exi 
-      <lb ed="#G" n="28"/>stentium in purgatorio. Secudo de statu animarum, existentium 
-      <lb ed="#G" n="29"/>in inferno, ibi, Sed qu eritur. Et quia existentes in
-      purga<lb ed="#G" n="30" break="no"/>torio iuuari poterunt ecclesiae suffragio: ideo duo facit: 
-      <lb ed="#G" n="31"/>Nam primo Magister tractat de suffragiis ecclesiae militam 
-      <lb ed="#G" n="32"/>tis. Secundo de suffragiis ecclesiae triumphantis, ibi, Sed  
-      <lb ed="#G" n="33"/>iterum queritur. Prima in duas: quia primo ostendit, qua 
-      <lb ed="#G" n="34"/>liter animas separatas, quantum ad eorum statum, &amp; rece 
-      <lb ed="#G" n="35"/>ptacula, contingit variari. Secundo innuit, in quo statu 
-      <lb ed="#G" n="36"/>existentes poterunt suffragiis adiuuari, ibi. Neque negan 
-      <lb ed="#G" n="37"/>dum est. Et haec diuiditur in tres partes, quia primo osten 
-      <lb ed="#G" n="38"/>dit, quae fint illae animae, quae suffragiir adiuuantur, Secun 
-      <lb ed="#G" n="39"/>do innuit, per quae adiuuantur. Tertio ostendit, quantum 
-      <lb ed="#G" n="40"/>adiuuantur, Secunda, ibi, De pompis vero. Tertia, ibi. So.¬ 
-      <lb ed="#G" n="41"/>let moueri. Sequitur illa pars, Sed iterum quaeritur. Et di 
-      <lb ed="#G" n="42"/>uiditur in duas partes: nam primo ostendit, quomodo suf 
-      <lb ed="#G" n="43"/>fragia eccl triumphantis prosunt aliquibus defunctis. Se 
-      <lb ed="#G" n="44"/>tundo, quomodo soent prodesse in hoc mudo viuis. Secun 
-      <lb ed="#G" n="45"/>da, ibi, Sed forte quaeris. Haec est diuisio, &amp; sententia istius. 
-      <lb ed="#G" n="46"/>distinctionis in generali, circa quam quaero in speciali.  
-    </p>
-         </div>
-      </body>
-   </text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Circa textum</title>
+        <author ref="#ThomasStrasbourg">Thomas of Strasbourg</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Circa textum</title>
+          <date when="2020-11-26">November 26, 2020</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="G" n="cod-TxxxqU">Genoa 1585</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2020-11-26" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#G" n="P2_183-v"/>
+        <cb ed="#G" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="HuYgTa-298187"><!-- HuYgTa-l4d45ct1 -->
+        <head xml:id="HuYgTa-298187-Hd1e108">Circa textum</head>
+        <p xml:id="HuYgTa-298187-d1e111">
+          <lb ed="#G" n="16"/>
+          <pc type="indent"/>DISTINCTIO XLV. 
+          <lb ed="#G" n="17"/>Aperta buius distinctionis diuisio, in qua humana 
+          <lb ed="#G" n="18"/>
+          <pc type="indent"/>Tumstatus animarum, cum a proprus fuerint 
+          <lb ed="#G" n="19"/>
+          <pc type="indent"/>separata corporibus,
+          perspi<lb ed="#G" n="20" break="no"/>
+          <pc type="indent"/>tue dectaratir.
+        </p>
+        <p xml:id="HuYgTa-298187-d1e133">
+          <lb ed="#G" n="21"/>RA TEREA sciendum. Postquam
+          Ma<lb ed="#G" n="22" break="no"/>gister tractauit de animarum
+          humana<lb ed="#G" n="23" break="no"/>rum ad sua corpora reunione: nunc in 
+          <lb ed="#G" n="24"/>ista quadragesima quinta distinctione in 
+          <lb ed="#G" n="25"/>finuat, qualem statu habet humane aiae, qu 
+          <lb ed="#G" n="26"/>Ni sunt a suis corporibus separatae. Et
+          diui<lb ed="#G" n="27" break="no"/>dit in duas partes, quia primo tractat de statu animarum, exi 
+          <lb ed="#G" n="28"/>stentium in purgatorio. Secudo de statu animarum, existentium 
+          <lb ed="#G" n="29"/>in inferno, ibi, Sed qu eritur. Et quia existentes in
+          purga<lb ed="#G" n="30" break="no"/>torio iuuari poterunt ecclesiae suffragio: ideo duo facit: 
+          <lb ed="#G" n="31"/>Nam primo Magister tractat de suffragiis ecclesiae militam 
+          <lb ed="#G" n="32"/>tis. Secundo de suffragiis ecclesiae triumphantis, ibi, Sed  
+          <lb ed="#G" n="33"/>iterum queritur. Prima in duas: quia primo ostendit, qua 
+          <lb ed="#G" n="34"/>liter animas separatas, quantum ad eorum statum, &amp; rece 
+          <lb ed="#G" n="35"/>ptacula, contingit variari. Secundo innuit, in quo statu 
+          <lb ed="#G" n="36"/>existentes poterunt suffragiis adiuuari, ibi. Neque negan 
+          <lb ed="#G" n="37"/>dum est. Et haec diuiditur in tres partes, quia primo osten 
+          <lb ed="#G" n="38"/>dit, quae fint illae animae, quae suffragiir adiuuantur, Secun 
+          <lb ed="#G" n="39"/>do innuit, per quae adiuuantur. Tertio ostendit, quantum 
+          <lb ed="#G" n="40"/>adiuuantur, Secunda, ibi, De pompis vero. Tertia, ibi. So.¬ 
+          <lb ed="#G" n="41"/>let moueri. Sequitur illa pars, Sed iterum quaeritur. Et di 
+          <lb ed="#G" n="42"/>uiditur in duas partes: nam primo ostendit, quomodo suf 
+          <lb ed="#G" n="43"/>fragia eccl triumphantis prosunt aliquibus defunctis. Se 
+          <lb ed="#G" n="44"/>tundo, quomodo soent prodesse in hoc mudo viuis. Secun 
+          <lb ed="#G" n="45"/>da, ibi, Sed forte quaeris. Haec est diuisio, &amp; sententia istius. 
+          <lb ed="#G" n="46"/>distinctionis in generali, circa quam quaero in speciali.  
+        </p>
+      </div>
+    </body>
+  </text>
 </TEI>

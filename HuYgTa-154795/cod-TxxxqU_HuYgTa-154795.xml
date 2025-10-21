@@ -1,105 +1,105 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Circa textum</title>
-            <author ref="#ThomasStrasbourg">Thomas of Strasbourg</author>
-            <respStmt>
-               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
-               <resp>Transcription Editor</resp>
-               <resp>TEI Encoder</resp>
-            </respStmt>
-         </titleStmt>
-         <editionStmt>
-            <edition n="0.0.0-dev">
-               <title>Circa textum</title>
-               <date when="2020-11-26">November 26, 2020</date>
-            </edition>
-         </editionStmt>
-         <publicationStmt>
-            <authority>SCTA</authority>
-            <availability status="free">
-               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
-               </p>
-            </availability>
-         </publicationStmt>
-         <sourceDesc>
-            <listWit>
-               <witness xml:id="G" n="cod-TxxxqU">Genoa 1585</witness>
-            </listWit>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
-         <editorialDecl>
-            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
-       guidelines for a diplomatic edition.</p>
-         </editorialDecl>
-      </encodingDesc>
-      <revisionDesc status="draft">
-         <listChange>
-            <change when="2020-11-26" status="draft" n="0.0.0">
-               <p>Created file for the first time.</p>
-            </change>
-         </listChange>
-      </revisionDesc>
-   </teiHeader>
-   <text xml:lang="la">
-      <front>
-         <div xml:id="starts-on">
-            <pb ed="#G" n="202-r"/>
-            <cb ed="#G" n="b"/>
-         </div>
-      </front>
-      <body>
-         <div xml:id="HuYgTa-154795"><!-- HuYgTa-l2d39ct1 -->
-            <head xml:id="HuYgTa-154795-Hd1e108">Circa textum</head>
-            <p xml:id="HuYgTa-154795-d1e111">
-               <lb ed="#G" n="122"/>
-               <pc type="indent"/>DISTINCTIO XXXIX. 
-      <lb ed="#G" n="123"/>Aperta huius distinctionis diuisio, in qua aperitim 
-      <lb ed="#G" n="124"/>
-               <pc type="indent"/>quamodo voluntas veddatur vitiosior ipso
-      in<lb ed="#G" n="125" break="no"/>
-               <pc type="indent"/>tellectu, ipsaque memoria.
-    </p>
-            <p xml:id="HuYgTa-154795-d1e129">
-               <lb ed="#G" n="126"/>
-               <pc type="indent"/>IC ORITVR QVAESTIO &amp;c. Hic 
-      <lb ed="#G" n="127"/>Magister ostendit, quomodo volun 
-      <lb ed="#G" n="128"/>tas efficitur uitiosa magis, quam in 
-      <lb ed="#G" n="129"/>tellectus, &amp; memoria. Et diuiditur 
-      <lb ed="#G" n="130"/>in duas partes, secundum quoed hac
-      ve<lb ed="#G" n="131" break="no"/>ritatem inquirendo Magister mouet 
-      <lb ed="#G" n="132"/>duas questioes; quarum inquintionum 
-      <lb ed="#G" n="133"/>in prima voluntas comparatur ad ce 
-      <lb ed="#G" n="134"/>teras animae potentias. In secunda comparatur ad suas ope 
-      <lb ed="#G" n="135"/>rationes proprias. Secunda incipit ibi, Praeterea quaeri 
-      <!--443.xml-->
-      <pb ed="#G" n="202-v"/>
-               <cb ed="#G" n="a"/>
-               <lb ed="#G" n="1"/>solet Prima in duas, quia primo mouet hanc quaestionem, 
-      <lb ed="#G" n="2"/>cum voluntas naturaliter insit homini, sicut intellectus; 
-      <lb ed="#G" n="3"/>&amp; memoria, quare voluntas magis dicitur mala, quam in 
-      <lb ed="#G" n="4"/>tellectus, uel memoria. Secudo huius quaestionis assignat 
-      <lb ed="#G" n="5"/>resposionem ibi, Ad quod facile. Et haec in duas, quia
-      pri<lb ed="#G" n="6" break="no"/>mo respondet iuxta vnam opinionem. Secundo penes 
-      <lb ed="#G" n="7"/>aliam opinionem ibi. Qui vero dicunt. Prima diuiditur 
-      <lb ed="#G" n="8"/>in quattuor partes, quia primo penes istam opinionem 
-      <lb ed="#G" n="9"/>respondet ad quaestionem. Secundo contra illam
-      respon<lb ed="#G" n="10" break="no"/>sionem assignat obiectionem, &amp; obiectionis solutionem. 
-      <lb ed="#G" n="11"/>Tertio instat contra obiectionis solutionem per alterius 
-      <lb ed="#G" n="12"/>dubitationis inductionem. Et quarto hanc dubitationem 
-      <lb ed="#G" n="13"/>tollit per duplicem responsionem. Secunda ibi, vbi potest 
-      <lb ed="#G" n="14"/>quaeri &amp;c. Tertia ibi, Sed adhuc quaeritur Quarta ibi. Ad 
-      <lb ed="#G" n="15"/>quod ipsi dicunt. Sequitur illa pars, Praeterea quaeri solet 
-      <lb ed="#G" n="16"/>Et diuiditur in tres partes: quia primo Magister mouet 
-      <lb ed="#G" n="17"/>quaestionem. Secundo respondet penes veram opinionem, 
-      <lb ed="#G" n="18"/>Tertio opinionis minus verae narrat responsionem.
-      Secu<lb ed="#G" n="19" break="no"/>da ibi Praeposita est quaestio. Tertia ibi, Alij autem. Circa 
-      <lb ed="#G" n="20"/>istam distinctionem quaero istam questi onem. 
-    </p>
-         </div>
-      </body>
-   </text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Circa textum</title>
+        <author ref="#ThomasStrasbourg">Thomas of Strasbourg</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Circa textum</title>
+          <date when="2020-11-26">November 26, 2020</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="G" n="cod-TxxxqU">Genoa 1585</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2020-11-26" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#G" n="202-r"/>
+        <cb ed="#G" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="HuYgTa-154795"><!-- HuYgTa-l2d39ct1 -->
+        <head xml:id="HuYgTa-154795-Hd1e108">Circa textum</head>
+        <p xml:id="HuYgTa-154795-d1e111">
+          <lb ed="#G" n="122"/>
+          <pc type="indent"/>DISTINCTIO XXXIX. 
+          <lb ed="#G" n="123"/>Aperta huius distinctionis diuisio, in qua aperitim 
+          <lb ed="#G" n="124"/>
+          <pc type="indent"/>quamodo voluntas veddatur vitiosior ipso
+          in<lb ed="#G" n="125" break="no"/>
+          <pc type="indent"/>tellectu, ipsaque memoria.
+        </p>
+        <p xml:id="HuYgTa-154795-d1e129">
+          <lb ed="#G" n="126"/>
+          <pc type="indent"/>IC ORITVR QVAESTIO &amp;c. Hic 
+          <lb ed="#G" n="127"/>Magister ostendit, quomodo volun 
+          <lb ed="#G" n="128"/>tas efficitur uitiosa magis, quam in 
+          <lb ed="#G" n="129"/>tellectus, &amp; memoria. Et diuiditur 
+          <lb ed="#G" n="130"/>in duas partes, secundum quoed hac
+          ve<lb ed="#G" n="131" break="no"/>ritatem inquirendo Magister mouet 
+          <lb ed="#G" n="132"/>duas questioes; quarum inquintionum 
+          <lb ed="#G" n="133"/>in prima voluntas comparatur ad ce 
+          <lb ed="#G" n="134"/>teras animae potentias. In secunda comparatur ad suas ope 
+          <lb ed="#G" n="135"/>rationes proprias. Secunda incipit ibi, Praeterea quaeri 
+          <!--443.xml-->
+          <pb ed="#G" n="202-v"/>
+          <cb ed="#G" n="a"/>
+          <lb ed="#G" n="1"/>solet Prima in duas, quia primo mouet hanc quaestionem, 
+          <lb ed="#G" n="2"/>cum voluntas naturaliter insit homini, sicut intellectus; 
+          <lb ed="#G" n="3"/>&amp; memoria, quare voluntas magis dicitur mala, quam in 
+          <lb ed="#G" n="4"/>tellectus, uel memoria. Secudo huius quaestionis assignat 
+          <lb ed="#G" n="5"/>resposionem ibi, Ad quod facile. Et haec in duas, quia
+          pri<lb ed="#G" n="6" break="no"/>mo respondet iuxta vnam opinionem. Secundo penes 
+          <lb ed="#G" n="7"/>aliam opinionem ibi. Qui vero dicunt. Prima diuiditur 
+          <lb ed="#G" n="8"/>in quattuor partes, quia primo penes istam opinionem 
+          <lb ed="#G" n="9"/>respondet ad quaestionem. Secundo contra illam
+          respon<lb ed="#G" n="10" break="no"/>sionem assignat obiectionem, &amp; obiectionis solutionem. 
+          <lb ed="#G" n="11"/>Tertio instat contra obiectionis solutionem per alterius 
+          <lb ed="#G" n="12"/>dubitationis inductionem. Et quarto hanc dubitationem 
+          <lb ed="#G" n="13"/>tollit per duplicem responsionem. Secunda ibi, vbi potest 
+          <lb ed="#G" n="14"/>quaeri &amp;c. Tertia ibi, Sed adhuc quaeritur Quarta ibi. Ad 
+          <lb ed="#G" n="15"/>quod ipsi dicunt. Sequitur illa pars, Praeterea quaeri solet 
+          <lb ed="#G" n="16"/>Et diuiditur in tres partes: quia primo Magister mouet 
+          <lb ed="#G" n="17"/>quaestionem. Secundo respondet penes veram opinionem, 
+          <lb ed="#G" n="18"/>Tertio opinionis minus verae narrat responsionem.
+          Secu<lb ed="#G" n="19" break="no"/>da ibi Praeposita est quaestio. Tertia ibi, Alij autem. Circa 
+          <lb ed="#G" n="20"/>istam distinctionem quaero istam questi onem. 
+        </p>
+      </div>
+    </body>
+  </text>
 </TEI>

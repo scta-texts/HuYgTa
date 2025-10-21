@@ -1,103 +1,103 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Circa textum</title>
-            <author ref="#ThomasStrasbourg">Thomas of Strasbourg</author>
-            <respStmt>
-               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
-               <resp>Transcription Editor</resp>
-               <resp>TEI Encoder</resp>
-            </respStmt>
-         </titleStmt>
-         <editionStmt>
-            <edition n="0.0.0-dev">
-               <title>Circa textum</title>
-               <date when="2020-11-26">November 26, 2020</date>
-            </edition>
-         </editionStmt>
-         <publicationStmt>
-            <authority>SCTA</authority>
-            <availability status="free">
-               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
-               </p>
-            </availability>
-         </publicationStmt>
-         <sourceDesc>
-            <listWit>
-               <witness xml:id="G" n="cod-TxxxqU">Genoa 1585</witness>
-            </listWit>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
-         <editorialDecl>
-            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
-       guidelines for a diplomatic edition.</p>
-         </editorialDecl>
-      </encodingDesc>
-      <revisionDesc status="draft">
-         <listChange>
-            <change when="2020-11-26" status="draft" n="0.0.0">
-               <p>Created file for the first time.</p>
-            </change>
-         </listChange>
-      </revisionDesc>
-   </teiHeader>
-   <text xml:lang="la">
-      <front>
-         <div xml:id="starts-on">
-            <pb ed="#G" n="-r"/>
-            <cb ed="#G" n="a"/>
-         </div>
-      </front>
-      <body>
-         <div xml:id="HuYgTa-e75294"><!-- HuYgTa-l1d32ct1 -->
-            <head xml:id="HuYgTa-e75294-Hd1e108">Circa textum</head>
-            <p xml:id="HuYgTa-e75294-d1e111">
-               <lb ed="#G" n="32"/>
-               <pc type="indent"/>DISTINCTIO XXXII 
-      <lb ed="#G" n="33"/>treus, ac vniuersalis diuisio huius distinctionis, in 
-      <lb ed="#G" n="34"/>qua difficultates quaedam contingentes 
-      <lb ed="#G" n="35"/>tirca determimata in superiori 
-      <lb ed="#G" n="36"/>distinctione sedantur. 
-    </p>
-            <p xml:id="HuYgTa-e75294-d1e127">
-               <lb ed="#G" n="37"/>
-               <pc type="indent"/>IC ORITVR QVAES TIO. 
-      <lb ed="#G" n="38"/>Postquam Magister assignauit in 
-      <lb ed="#G" n="39"/>diuinis quorundam communium 
-      <lb ed="#G" n="40"/>appropriationes, hic circa praedicta 
-      <lb ed="#G" n="41"/>mouet quasdam dubitationes, &amp; d  
-      <lb ed="#G" n="42"/>uiditur in tres partes; quia primo  
-      <lb ed="#G" n="43"/>mouet quaestionem circa
-      appropria<lb ed="#G" n="44" break="no"/>tum spiritus sancti, secundo circa 
-      <lb ed="#G" n="45"/>prropriatum filij, Tertio per modum questionis vnun 
-      <lb ed="#G" n="46"/>nforum appropriatorum comparat alteri. Secunda
-      ibi<lb ed="#G" n="47" break="no"/>Preterea diligenter inuestigari. Tertia ibi, praeterea
-      di<lb ed="#G" n="48" break="no"/>igenter notandum. Prima in duas; nam primo mouet 
-      <lb ed="#G" n="49"/>hant quaestionem, vtrum pater, vel filius diligat spiriti 
-      <lb ed="#G" n="50"/>fncto, secundo ponit suam responsionem affirmatiua 
-      <lb ed="#G" n="51"/>ertem tenendo ibi, Huic quaestioni. Tunc sequitur il 
-      <lb ed="#G" n="52"/>apars, Praeterea diligenter inuestigari: &amp; diuiditur in 
-      <lb ed="#G" n="53"/>fuariuor partes, secundum quod circa appropriatum fi 
-      <lb ed="#G" n="54"/>Da monet quaestiones, quarum prima est, an pater sit sa 
-      <lb ed="#G" n="55"/>nens sapientia genita. Secunda, an filius sit sapiens
-      sapi<lb ed="#G" n="56" break="no"/>entia genita, vel ingenita. Tertia, an filius sit sapiens se 
-      <lb ed="#G" n="57"/>o. Quarta, vtrum vna tantum in diuinis sit sapientia 
-      <lb ed="#G" n="58"/>Serunda pars incipit ibi, Post haec autem quaeri solet 
-      <lb ed="#G" n="59"/>senia ibi. Queri autem solet. Quarta ibi, post haec
-      au<lb ed="#G" n="60" break="no"/>em quaeri solet vtrum. Quelibet istarum potest diuidi 
-      <lb ed="#G" n="61"/>n duas partes, secundum quod magister primo quaestio 
-      <lb ed="#G" n="62"/>Tm mouet, secundo ad quaestionem respondet, &amp;
-      par<lb ed="#G" n="63" break="no"/>enatent. Sed illa pars, Praeterea diligenter notandum 
-      <lb ed="#G" n="64"/>ram diniditur in duas; quia primo magister tangit qua 
-      <lb ed="#G" n="65"/>roni illius difficultatem, secundo fatetur se non posse 
-      <lb ed="#G" n="66"/>Tpondere propter quaestionis excessum, &amp; sublimita. 
-      <lb ed="#G" n="67"/>n ibi, Difficile mihi &amp;c. Circa istam 32. distin. que 
-      <lb ed="#G" n="68"/>to hanc quaestionem. 
-    </p>
-         </div>
-      </body>
-   </text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Circa textum</title>
+        <author ref="#ThomasStrasbourg">Thomas of Strasbourg</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Circa textum</title>
+          <date when="2020-11-26">November 26, 2020</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="G" n="cod-TxxxqU">Genoa 1585</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2020-11-26" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#G" n="99-r"/>
+        <cb ed="#G" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="HuYgTa-e75294"><!-- HuYgTa-l1d32ct1 -->
+        <head xml:id="HuYgTa-e75294-Hd1e108">Circa textum</head>
+        <p xml:id="HuYgTa-e75294-d1e111">
+          <lb ed="#G" n="32"/>
+          <pc type="indent"/>DISTINCTIO XXXII 
+          <lb ed="#G" n="33"/>treus, ac vniuersalis diuisio huius distinctionis, in 
+          <lb ed="#G" n="34"/>qua difficultates quaedam contingentes 
+          <lb ed="#G" n="35"/>tirca determimata in superiori 
+          <lb ed="#G" n="36"/>distinctione sedantur. 
+        </p>
+        <p xml:id="HuYgTa-e75294-d1e127">
+          <lb ed="#G" n="37"/>
+          <pc type="indent"/>IC ORITVR QVAES TIO. 
+          <lb ed="#G" n="38"/>Postquam Magister assignauit in 
+          <lb ed="#G" n="39"/>diuinis quorundam communium 
+          <lb ed="#G" n="40"/>appropriationes, hic circa praedicta 
+          <lb ed="#G" n="41"/>mouet quasdam dubitationes, &amp; d  
+          <lb ed="#G" n="42"/>uiditur in tres partes; quia primo  
+          <lb ed="#G" n="43"/>mouet quaestionem circa
+          appropria<lb ed="#G" n="44" break="no"/>tum spiritus sancti, secundo circa 
+          <lb ed="#G" n="45"/>prropriatum filij, Tertio per modum questionis vnun 
+          <lb ed="#G" n="46"/>nforum appropriatorum comparat alteri. Secunda
+          ibi<lb ed="#G" n="47" break="no"/>Preterea diligenter inuestigari. Tertia ibi, praeterea
+          di<lb ed="#G" n="48" break="no"/>igenter notandum. Prima in duas; nam primo mouet 
+          <lb ed="#G" n="49"/>hant quaestionem, vtrum pater, vel filius diligat spiriti 
+          <lb ed="#G" n="50"/>fncto, secundo ponit suam responsionem affirmatiua 
+          <lb ed="#G" n="51"/>ertem tenendo ibi, Huic quaestioni. Tunc sequitur il 
+          <lb ed="#G" n="52"/>apars, Praeterea diligenter inuestigari: &amp; diuiditur in 
+          <lb ed="#G" n="53"/>fuariuor partes, secundum quod circa appropriatum fi 
+          <lb ed="#G" n="54"/>Da monet quaestiones, quarum prima est, an pater sit sa 
+          <lb ed="#G" n="55"/>nens sapientia genita. Secunda, an filius sit sapiens
+          sapi<lb ed="#G" n="56" break="no"/>entia genita, vel ingenita. Tertia, an filius sit sapiens se 
+          <lb ed="#G" n="57"/>o. Quarta, vtrum vna tantum in diuinis sit sapientia 
+          <lb ed="#G" n="58"/>Serunda pars incipit ibi, Post haec autem quaeri solet 
+          <lb ed="#G" n="59"/>senia ibi. Queri autem solet. Quarta ibi, post haec
+          au<lb ed="#G" n="60" break="no"/>em quaeri solet vtrum. Quelibet istarum potest diuidi 
+          <lb ed="#G" n="61"/>n duas partes, secundum quod magister primo quaestio 
+          <lb ed="#G" n="62"/>Tm mouet, secundo ad quaestionem respondet, &amp;
+          par<lb ed="#G" n="63" break="no"/>enatent. Sed illa pars, Praeterea diligenter notandum 
+          <lb ed="#G" n="64"/>ram diniditur in duas; quia primo magister tangit qua 
+          <lb ed="#G" n="65"/>roni illius difficultatem, secundo fatetur se non posse 
+          <lb ed="#G" n="66"/>Tpondere propter quaestionis excessum, &amp; sublimita. 
+          <lb ed="#G" n="67"/>n ibi, Difficile mihi &amp;c. Circa istam 32. distin. que 
+          <lb ed="#G" n="68"/>to hanc quaestionem. 
+        </p>
+      </div>
+    </body>
+  </text>
 </TEI>

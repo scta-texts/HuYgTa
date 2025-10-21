@@ -1,874 +1,874 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Quaestio 1</title>
-            <author ref="#ThomasStrasbourg">Thomas of Strasbourg</author>
-            <respStmt>
-               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
-               <resp>Transcription Editor</resp>
-               <resp>TEI Encoder</resp>
-            </respStmt>
-         </titleStmt>
-         <editionStmt>
-            <edition n="0.0.0-dev">
-               <title>Quaestio 1</title>
-               <date when="2020-11-26">November 26, 2020</date>
-            </edition>
-         </editionStmt>
-         <publicationStmt>
-            <authority>SCTA</authority>
-            <availability status="free">
-               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
-               </p>
-            </availability>
-         </publicationStmt>
-         <sourceDesc>
-            <listWit>
-               <witness xml:id="G" n="cod-TxxxqU">Genoa 1585</witness>
-            </listWit>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
-         <editorialDecl>
-            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
-       guidelines for a diplomatic edition.</p>
-         </editorialDecl>
-      </encodingDesc>
-      <revisionDesc status="draft">
-         <listChange>
-            <change when="2020-11-26" status="draft" n="0.0.0">
-               <p>Created file for the first time.</p>
-            </change>
-         </listChange>
-      </revisionDesc>
-   </teiHeader>
-   <text xml:lang="la">
-      <front>
-         <div xml:id="starts-on">
-           <pb ed="#G" n="P2_71-v"/>
-            <cb ed="#G" n="a"/>
-         </div>
-      </front>
-      <body>
-         <div xml:id="HuYgTa-213806"><!-- HuYgTa-l4d3q1 -->
-            <head xml:id="HuYgTa-213806-Hd1e108">Quaestio 1</head>
-            <head xml:id="HuYgTa-213806-Hd1e111" type="question-title">
-      An expressa verborum prolatio sit de necessitate baptismi
-    </head>
-            <p xml:id="HuYgTa-213806-d1e114">
-               <lb ed="#G" n="4"/>
-               <pc type="indent"/>Questio 1. 
-      <lb ed="#G" n="5"/>An expressa verborum prolatio sit de
-      ne<lb ed="#G" n="6" break="no"/>cessitate baptismi
-    </p>
-            <p xml:id="HuYgTa-213806-d1e125">
-               <lb ed="#G" n="7"/>VTRVM vocalis verborum expressio sit de
-      necessita<lb ed="#G" n="8" break="no"/>Vte baptismi.
-    </p>
-            <p xml:id="HuYgTa-213806-d1e132">
-      Et videtur, quod non 
-      <lb ed="#G" n="9"/>Quia illud, quod non erat in baptismo, quo Christus 
-      <lb ed="#G" n="10"/>baptia abatur, hoc non videtur esse de necessitate nostri 
-      <lb ed="#G" n="11"/>baptismi: sed Christus legitur baptixatus, &amp; in eius
-      ba<lb ed="#G" n="12" break="no"/>tismo nulla legitur fuisse verborum expressio: ergo &amp;c 
-      <lb ed="#G" n="13"/>Maior patet: quia cum omnis Christi actio nostra sit in 
-      <lb ed="#G" n="14"/>structio, videtur, quod illud, quod in Christi baptismo non 
-      <lb ed="#G" n="15"/>extitit, hoc nec in nostro necessarium sit 
-    </p>
-            <p xml:id="HuYgTa-213806-d1e151">
-               <lb ed="#G" n="16"/>
-               <pc type="indent"/>Contra illud est de necessitate baptismi, sine quo
-      for<lb ed="#G" n="17" break="no"/>ma baptixandi a Christo tradita, non potest obseruari, 
-      <lb ed="#G" n="18"/>sed sine vocali verborum expressione forma tradita a Chri 
-      <lb ed="#G" n="19"/>sto non pot obseruari: ergo &amp;c. Maior patet. Probatur mi 
-      <lb ed="#G" n="20"/>nor: qua Christus pcepit discipulis baptixare in nomine pro 
-      <lb ed="#G" n="21"/>tris, &amp; filij, &amp; spiritus sacti: vt patet in Matthaeo. hic quat 
-      <lb ed="#G" n="22"/>tuor sunt videnda. Primo videndum est, quid sit
-      baptis<lb ed="#G" n="23" break="no"/>mus, Secundo, quae forma verborum requiratur in baptis 
-      <lb ed="#G" n="24"/>mo, &amp; per idem patebit ad illud, quod hic in
-      principali<lb ed="#G" n="25" break="no"/>ter quaeritur. 
-    </p>
-            <p xml:id="HuYgTa-213806-d1e177">
-               <lb ed="#G" n="26"/>
-               <pc type="indent"/>Tertio videndum est, vtrum quaelibet mutatio facta 
-      <lb ed="#G" n="27"/>circa verba in baptismo requisita, impediat sacramentum 
-      <lb ed="#G" n="28"/>Et quarto de materia baptismi 
-    </p>
-            <p xml:id="HuYgTa-213806-d1e188">
-               <lb ed="#G" n="29"/>
-               <pc type="indent"/>RESOLVTIO. 
-      <lb ed="#G" n="30"/>cum baptismus ext erior quaedam corporis ablutio sit, quae sane 
-      <lb ed="#G" n="31"/>sub certa quadam praescripta verborum forma conficitur. 
-      <lb ed="#G" n="32"/>Vnde cum forma de necessitate eius sit, cuius ert forma ad bat 
-      <lb ed="#G" n="33"/>tismum profecto conficiendum expressa verborum prolatio f 
-      <lb ed="#G" n="34"/>mam ipsius exprimentium necessario exigitur. 
-    </p>
-            <p xml:id="HuYgTa-213806-d1e206">
-               <lb ed="#G" n="35"/>
-               <pc type="indent"/>ARTICVLVS n 
-      <lb ed="#G" n="36"/>
-               <pc type="indent"/>Quid sit haptismus.
-    </p>
-            <p xml:id="HuYgTa-213806-d1e217">
-               <lb ed="#G" n="37"/>VANTVM ad primum articulum respondet Ma 
-      <lb ed="#G" n="38"/> gister hic in littera dicens, Paptismus est ablutio 
-      <lb ed="#G" n="39"/>corporis exterior, facta sub forma verborum praescripta 
-      <lb ed="#G" n="40"/>1 Sed ab ista descriptione videtur dissentire <name xml:id="HuYgTa-213806-Nd1e227">Hugo de 
-      <lb ed="#G" n="41"/>sancto victore</name>, qui baptismum non dicit esse ablutionem, 
-      <lb ed="#G" n="42"/>sed aquam, sic dicens Paptismus est aqua abluendis crimi 
-      <lb ed="#G" n="43"/>nibus sanctificata.
-    </p>
-            <p xml:id="HuYgTa-213806-d1e238">
-               <lb ed="#G" n="44"/>2 Praeterea, arguitur contra Magistrum sic. Quandocum 
-      <lb ed="#G" n="45"/>que: aliqua sic se habent, quod vnum manet, altero non ma 
-      <lb ed="#G" n="46"/>nente: tunc vnum non potest in recto de altero
-      praedica<lb ed="#G" n="47" break="no"/>ri, sed baptismus manet, &amp; ablutio non manet. Maior pa 
-      <lb ed="#G" n="48"/>tet. Probatur minor: quia, quod ablutio transeat, hoc di 
-      <lb ed="#G" n="49"/>se patet, sed quod baptismus maneat, hoc patet per
-      Au<lb ed="#G" n="50" break="no"/>gustinum, qui ait. Sacramento semel imposito, numquam 
-      <lb ed="#G" n="51"/>eo quis carebit. 
-    </p>
-            <p xml:id="HuYgTa-213806-d1e259">
-               <lb ed="#G" n="52"/>
-               <pc type="indent"/>3 Praeterea, illud cui collata est vis regeneratiua, hoc 
-      <lb ed="#G" n="53"/>sacramentum baptismi debet appellari, sed aquae est
-      hu<lb ed="#G" n="54" break="no"/>iusmodi vis collata: quia dicit Doda in glosa. Luc. 3. que De 
-      <lb ed="#G" n="55"/>minus contactu mundissimae suae carnis vim regenerati 
-      <lb ed="#G" n="56"/>uam contulit aquis. 
-    </p>
-            <p xml:id="HuYgTa-213806-d1e275">
-      <!--613.xml-->
-               <cb ed="#G" n="b"/>
-               <lb ed="#G" n="57"/>4 Praeterea, illud, quod est de praedicamento
-      relatio<lb ed="#G" n="58" break="no"/>nis, non recipit praedicationem eius, quod est de praedica 
-      <lb ed="#G" n="59"/>mento actionis, vel passionis, vel substantiae: ergo
-      baptis<lb ed="#G" n="60" break="no"/>mus, nec debet dici ablutio, nec aqua: quod est contra 
-      <lb ed="#G" n="61"/>vtranque descriptionem. Antecedens patet Probatur con 
-      <lb ed="#G" n="62"/>sequentia: nam baptismus, cum sit sacramentum, &amp; per 
-      <lb ed="#G" n="63"/>consequens signum, necessario erit in praedicamento rela  
-      <lb ed="#G" n="64"/>tionis: ablutio autem est de praedicamento actionis, Vt 
-      <lb ed="#G" n="65"/>procedit ab abluente, &amp; est de praedicamento passionis,  
-      <lb ed="#G" n="66"/>vt recipitur in abluto: aqua vero, vt de se patet, est de 
-      <lb ed="#G" n="67"/>praedicamento substantiae.  
-    </p>
-            <p xml:id="HuYgTa-213806-d1e306">
-               <lb ed="#G" n="68"/>
-               <pc type="indent"/>Ad intellectum ergo praedictorum est aduertendum 
-      <lb ed="#G" n="69"/>quod licet baptismus formaliter dicat respectum, sicut 
-      <lb ed="#G" n="70"/>vnum quodque aliorum sacramentorum, prout, declara 
-      <lb ed="#G" n="71"/>ui <ref xml:id="HuYgTa-213806-Rd1e319">superius dist. 1. qu. 2</ref> tamen includit essentialiter res con 
-      <lb ed="#G" n="72"/>porales, super quibus immediate fundatur huiusmodi 
-      <lb ed="#G" n="73"/>cespectus: tales autem partes fundamentales, licet omnes 
-      <lb ed="#G" n="74"/>sint partes materiales comparatae ad praedictum
-      respe<lb ed="#G" n="75" break="no"/>ctum: tamen ad inuicem comparatae, vna dicitur materi; 
-      <lb ed="#G" n="76"/>lis respectu alterius, secundum quod est prior ea, &amp; deter 
-      <lb ed="#G" n="77"/>minabilis per ea, &amp; alia contra dicitur formalis: eo quod 
-      <lb ed="#G" n="78"/>partem priorem faciat determinate stare pro ipso
-      sacra<lb ed="#G" n="79" break="no"/>mento, verbi gratia. In proposito tam ablutio, quam etiam 
-      <lb ed="#G" n="80"/>verba trium diuinarum personarum expressiua dicuntui 
-      <lb ed="#G" n="81"/>partes fundamentales, seu materiales, vt fundant
-      baptis<lb ed="#G" n="82" break="no"/>mum formaliter sumptum, puta, vt baptismus est signum 
-      <lb ed="#G" n="83"/>efficax respectu gratiae Dei: tamen cum baptiaatur ho¬¬ 
-      <lb ed="#G" n="84"/>mo verba praedicta determinant illam ablutionem, &amp;
-      fa<lb ed="#G" n="85" break="no"/>ciunt eam determinate stare pro sacramento baptismi; 
-      <lb ed="#G" n="86"/>ideo talia verba dicuntur formalis pars respectu
-      ablutio<lb ed="#G" n="87" break="no"/>is contractae &amp; determinatae, per huiusmodi verba. 
-    </p>
-            <p xml:id="HuYgTa-213806-d1e357">
-               <lb ed="#G" n="88"/>
-               <pc type="indent"/>Iterum est aduertendum, quod licet aqua, &amp; ablutio 
-      <lb ed="#G" n="89"/>facta per aquam, determinantur per verba predicta ad 
-      <lb ed="#G" n="90"/>standum pro sacramento baptismi, quando recta intentio 
-      <lb ed="#G" n="91"/>ne dicuntur huiusmodi verba, &amp; per consequens tam aqua 
-      <lb ed="#G" n="92"/>quam ablutio dicantur partes materiales respectu
-      hu<lb ed="#G" n="93" break="no"/>iusmodi verborum: tamen aqua se habet vt materia
-      re<lb ed="#G" n="94" break="no"/>mota, ablutio vero se habet vt materia propinqua: quia 
-      <lb ed="#G" n="95"/>ablutio immediate fundat respectum praedictum, qui est 
-      <lb ed="#G" n="96"/>sacramentum baptismi formaliter: aqua autem non
-      fun<lb ed="#G" n="97" break="no"/>dat huiusmodi respectum, nisi mediante ablutione: quia 
-      <lb ed="#G" n="98"/>nec ante ablutionem, nec post ablutionem est in aqua 
-      <lb ed="#G" n="99"/>aptismus formaliter, sed solum per mensuram ipsius. 
-      <lb ed="#G" n="100"/>ablutionis 
-    </p>
-            <p xml:id="HuYgTa-213806-d1e390">
-               <lb ed="#G" n="101"/>
-               <pc type="indent"/>Hinc est, quod diffinitio data per Magistrum
-      ordina<lb ed="#G" n="102" break="no"/>tior esse videtur, quam illa, quae est data per Hug. Quia 
-      <lb ed="#G" n="103"/>n rebus artificialibus; materia propinqua praedicatur essen 
-      <lb ed="#G" n="104"/>tialiter de eo, cuius est materia, sed materia remota da¬¬ 
-      <lb ed="#G" n="105"/>to, quod praedicetur de huiusmodi rebus causaliter:
-      ta<lb ed="#G" n="106" break="no"/>men non praedicatur essentialiter: Ista enim est
-      essentia<lb ed="#G" n="107" break="no"/>lis praedicatio, statua est lignum: supposito, quod propin 
-      <lb ed="#G" n="108"/>qua materia immediate informata forma statuae, sit lignum 
-      <lb ed="#G" n="109"/>tamen ista non est essentialis praedicatio, sed solum
-      cau<lb ed="#G" n="110" break="no"/>alis, quae dicitur, statua est hyle, seu materia prima. Et 
-      <lb ed="#G" n="111"/>quia illa, quae sunt signa voluntarie instituta, se habent 
-      <lb ed="#G" n="112"/>d modum artificialium: ideo ablutio, quae ponitur in dil 
-      <lb ed="#G" n="113"/>finitione Magistri, essentialiter praedicatur de baptismo: 
-      <lb ed="#G" n="114"/>qui, formaliter sumendo, est signum a Deo voluntarie 
-      <lb ed="#G" n="115"/>institutum: Sed aqua, quae ponitur in diffinitione
-      <name xml:id="HuYgTa-213806-Nd1e426">Hugo<lb ed="#G" n="116" break="no"/>nis</name> cum sit materia remota baptismi, non praedicatur
-      es<lb ed="#G" n="117" break="no"/>sentialiter de baptismo: sed solum causaliter, 
-    </p>
-            <p xml:id="HuYgTa-213806-d1e435">
-               <lb ed="#G" n="118"/>
-               <pc type="indent"/>Ex quo vlterius sequitur, quod in diffinitione Magistri 
-      <lb ed="#G" n="119"/>melius exprimitur genus, &amp; differentia: quam in
-      diffini<lb ed="#G" n="120" break="no"/>tione <name xml:id="HuYgTa-213806-Nd1e445" ref="#HughOfStVictor">Hugonis</name>: quia genus essentialiter. praedicatur de 
-      <lb ed="#G" n="121"/>specie diffinita per ipsum: Sed, sicut iam declaratum est,  
-      <lb ed="#G" n="122"/>ablutio praedicatur essentialiter de baptismo, &amp; non
-      aqua<lb ed="#G" n="123" break="no"/>entiam differentia accipitur a parte formalis; sed verba per 
-      <lb ed="#G" n="124"/>sonas diuinas exprimentia sunt forma baptismi in
-      ordi<lb ed="#G" n="125" break="no"/>ne ad ablutionem, quae determinatur per ipsa: ideo &amp;c 
-    </p>
-            <p xml:id="HuYgTa-213806-d1e461">
-               <lb ed="#G" n="126"/>
-               <pc type="indent"/>Et per hoc patet ad instantiam de <name xml:id="HuYgTa-213806-Nd1e467" ref="#HughOfStVictor">Hugone.</name> 
-            </p>
-            <p xml:id="HuYgTa-213806-d1e471">
-               <lb ed="#G" n="127"/>Ad secundum dicendum, quod in baptismo poterimus tria 
-      <lb ed="#G" n="128"/>considerare: nam aliquid est ibi, quod est sacramentum 
-      <lb ed="#G" n="129"/>tantum, puta, ablutio, &amp; verba. Aliquid, quod est sacta¬ 
-      <!--614.xml-->
-      <pb ed="#G" n="P2_72-r"/>
-               <cb ed="#G" n="a"/>
-               <lb ed="#G" n="1"/>menti, scilicet character. Tertium quod non est sacramen 
-      <lb ed="#G" n="2"/>tum, sed tantummodo res sacramenti, scilicet gratia ex 
-      <lb ed="#G" n="3"/>susceptione sacramenti collata: lgitur de medio, scilicet 
-      <lb ed="#G" n="4"/>de charactere est intelligenda auctoritas Aug. quia
-      char<lb ed="#G" n="5" break="no"/>cter est indelebilis, &amp; semper manet. 
-    </p>
-            <p xml:id="HuYgTa-213806-d1e497">
-               <lb ed="#G" n="6"/>
-               <pc type="indent"/>Ad tertium dicendum, quod si aliqua vis regeneratiua est 
-      <lb ed="#G" n="7"/>in aqua, illa tamen immediatius est in ablutione: quia in 
-      <lb ed="#G" n="8"/>aqua est habitualiter: in ablutione vero actualiter.
-      Quo<lb ed="#G" n="9" break="no"/>modo tamen illa auctoritas bedae, &amp; ceterae consimiles 
-      <lb ed="#G" n="10"/>sint intelligendae iuxta ea, quae teneo, dixi superius dist 
-      <lb ed="#G" n="11"/>24.1. art. 2. in solutione quarti argumenti 
-    </p>
-            <p xml:id="HuYgTa-213806-d1e515">
-               <lb ed="#G" n="12"/>
-               <pc type="indent"/>Ad quartum dicendum, quod sicut in rebus artificiali 
-      <lb ed="#G" n="13"/>is forma per artem inducta praecise, &amp; secundum se sum 
-      <lb ed="#G" n="14"/>inon recibit praedicationem essentialem propinquae 
-      <lb ed="#G" n="15"/>ae materiae. Ista enim est falsa: figura statuae est signum: 
-      <lb ed="#G" n="16"/>uia substantia non praedicatur essentialiter de acciden 
-      <lb ed="#G" n="17"/>tamen si non praecise sumitur tunc ratione implicatio 
-      <lb ed="#G" n="18"/>uis rei naturalis proxima materia praedicatur
-      essentiali<lb ed="#G" n="19" break="no"/>er de artificiali, puta, cum dicitur: statua est lignum: sic 
-      <lb ed="#G" n="20"/>proposito, dato, quod de baptismo, vt pro respectu praecise 
-      <lb ed="#G" n="21"/>lumitur cum actuali exclusione fundamenti: ablutio non 
-      <lb ed="#G" n="22"/>raedicetur essentialiter: tamen vt baptismus sumitur
-      si<lb ed="#G" n="23" break="no"/>e huiusmodi praecisione: tunc talis ablutio vere, &amp; essen 
-      <lb ed="#G" n="24"/>naliter praedicatur de baptismo. 
-    </p>
-            <p xml:id="HuYgTa-213806-d1e548">
-               <lb ed="#G" n="25"/>
-               <pc type="indent"/>ARTICVLVS II 
-      <lb ed="#G" n="26"/>uaforma verborum vequrati in haptismo, qui 
-      <lb ed="#G" n="27"/>
-               <pc type="indent"/>ter idem patebit vtrum expressa verborum 
-      <lb ed="#G" n="28"/>
-               <pc type="indent"/>prolatio sit de necessitate haptismi.
-    </p>
-            <p xml:id="HuYgTa-213806-d1e566">
-               <lb ed="#G" n="29"/>QVANTVM ad secundum artic, est aduertendum, 
-      <lb ed="#G" n="30"/> quod cum forma sit necessario requisita ad esse 
-      <lb ed="#G" n="31"/>us, cuius dicitur forma: ideo talia verba sunt de forma 
-      <lb ed="#G" n="32"/>tismi, quae sunt necessario requisita in baptir ado. Du 
-      <lb ed="#G" n="33"/>em ergo poterimus attendere necessitatem in his 
-      <lb ed="#G" n="34"/>bis: nam quaedam sunt necessaria necessitate se tenei 
-      <lb ed="#G" n="35"/>parte baptismi, seu sacramenti. Alia sunt necessaria 
-      <lb ed="#G" n="36"/>essitate se tenente ex parte baptixantis, seu ministri 
-      <lb ed="#G" n="37"/>mo modo sunt necessaria in sacramento baptismi illa  
-      <lb ed="#G" n="38"/>ibus exprimuntur tres diuinae personae, &amp; actus
-      bapti<lb ed="#G" n="39" break="no"/>ndi cum persona baptixata, in quam tramsit huiusmodi 
-      <lb ed="#G" n="40"/>p aliter tamen, &amp; aliter: nam nomina diuinarum
-      per<lb ed="#G" n="41" break="no"/>iarum sunt absolute, &amp; simpliciter necessaria ad hoc,  
-      <lb ed="#G" n="42"/>d sit veritas sacramenti: propter quod nullo modo
-      li<lb ed="#G" n="43" break="no"/>variare talia nomina, nec in se nec in modo exprimen 
-      <lb ed="#G" n="44"/>sed ea, quae significant actum baptixationis, &amp; personam 
-      <lb ed="#G" n="45"/>ptixatam, licet quantum ad expressionem actus, &amp; per 
-      <lb ed="#G" n="46"/>nae sint simpliciter necessaria pro veritate sacramenti 
-      <lb ed="#G" n="47"/>imen, quantum ad modum exprimendi, non sunt simpli 
-      <lb ed="#G" n="48"/>ernecessaria necessitate se tenente ex parte sacramen 
-      <lb ed="#G" n="49"/>Nam Craeci actum proferunt optatiue, &amp; baptixatum 
-      <lb ed="#G" n="50"/>tertia persona dicentes, bapti vetur seruus Christi. Lati 
-      <lb ed="#G" n="51"/>bero in vniuersa Rom. Ecc. actum proferunt indicatiuc 
-      <lb ed="#G" n="52"/>aptixatum in secunda persona, puta, ego Paptixo te 
-      <lb ed="#G" n="53"/>tamen creditur, quod Craeci vere baptixent: cuius signum 
-      <lb ed="#G" n="54"/>lquod homana ecclesia Craecos ad se conuersos non 
-      <lb ed="#G" n="55"/>rebaptixare, quod vtique faceret, si eos non
-      reputa<lb ed="#G" n="56" break="no"/>nsore baptix atos. Iste tamen modus exprimendi indi 
-      <lb ed="#G" n="57"/>tiue, &amp; in secuda psona est necessarius necessitate se t 
-      <lb ed="#G" n="58"/>mte ex parte baptixantis in omnibus Latinis Ecclesi 
-      <lb ed="#G" n="59"/>latum talis modus sit de praecepto homanae Ecclesiae. 
-      <lb ed="#G" n="60"/>lem quantum ad omnes degentes in latinis Ecclesuis; 
-      <lb ed="#G" n="61"/>leo in huiusmodi Ecclesiis mortaliter peccaret, qui hu 
-      <lb ed="#G" n="62"/>lmodi modum non obseruaret, maxime si talis homo 
-      <lb ed="#G" n="63"/>peui ex officio competit baptix are: illum enim
-      ignoram<lb ed="#G" n="64" break="no"/>aimris non excusat, cum de iure quilibet teneatur sciro 
-      <lb ed="#G" n="65"/>lud, quod ad suum officium dignoscitur pertinere. Et eo 
-      <lb ed="#G" n="66"/>em modo sentiendum est de hoc pronomine ego, quod 
-      <lb ed="#G" n="67"/>primit personam baptix antis: quia Craeci ipsum non 
-      <lb ed="#G" n="68"/>pnunt: &amp; tamen vere baptixant. Mortaliter tamen pec 
-      <lb ed="#G" n="69"/>uet Fatinus si ipsum ommitteret 
-    </p>
-            <p xml:id="HuYgTa-213806-d1e658">
-      <!--614.xml-->
-               <cb ed="#G" n="b"/>
-               <lb ed="#G" n="70"/>His praemissis pono quattuor conclusiones circa formam 
-      <lb ed="#G" n="71"/>verborum baptismi, de qua ad praesens petitur in isto
-      ar<lb ed="#G" n="72" break="no"/>ticulo 
-    </p>
-            <p xml:id="HuYgTa-213806-d1e671">
-               <lb ed="#G" n="73"/>
-               <pc type="indent"/>Prima est, quod propria nomina trium diuinarum
-      perso<lb ed="#G" n="74" break="no"/>narum necessario spectant ad formam baptixandi. 
-    </p>
-            <p xml:id="HuYgTa-213806-d1e680">
-               <lb ed="#G" n="75"/>
-               <pc type="indent"/>1 Quia Christus verus Deus sub expressione istorum 
-      <lb ed="#G" n="76"/>nominum praecepit baptismum conferri: ergo talia nomi 
-      <lb ed="#G" n="77"/>na sunt de necessaria forma ipsius baptismi. Antecedens 
-      <lb ed="#G" n="78"/>atet mat. vlt. Patet etiam consequentia: quia illud, cu 
-      <lb ed="#G" n="79"/>ius vigor totaliter dependet ex ordinatione
-      instituen<lb ed="#G" n="80" break="no"/>tis, hoc nullum habet vigorem nisi forma ab
-      instituen<lb ed="#G" n="81" break="no"/>te posita obseruetur, &amp; per consequens forma huiusmo 
-      <lb ed="#G" n="82"/>di instituta dicitur necessaria, sed vigor omnium
-      sacra<lb ed="#G" n="83" break="no"/>mentorum ex institutione, &amp; ordinatione Dei totaliter 
-      <lb ed="#G" n="84"/>dependet, vt declaratum est <ref xml:id="HuYgTa-213806-Rd1e706">superius d. 1. &amp; 2.</ref> ergo &amp;c. 
-    </p>
-            <p xml:id="HuYgTa-213806-d1e710">
-               <lb ed="#G" n="85"/>
-               <pc type="indent"/>2 Praeterea, verba, quae sic se habent ad baptismum 
-      <lb ed="#G" n="86"/>que sine eorum expressione baptixatus nullo modo
-      conse<lb ed="#G" n="87" break="no"/>quitur mysterium redemptionis, illa sunt de necessaria 
-      <lb ed="#G" n="88"/>forma baptismi: sed nomina diuinarum personarum sunt 
-      <lb ed="#G" n="89"/>huiusmodi. Maior patet. Probatur minor auctoritate Ful 
-      <lb ed="#G" n="90"/>gentij, qui ait. Mysterium redemptionis nullo modo
-      ha<lb ed="#G" n="91" break="no"/>betur, si patris, aut filij, aut spiritus sancti nomen subtrahi 
-      <lb ed="#G" n="92"/>tur. Et hoc confirmatur auctoritate Tachariae papae, qui 
-      <lb ed="#G" n="93"/>ait. Firmissime praeceptum est svnodo Anglorum, vt
-      qui<lb ed="#G" n="94" break="no"/>cumque sine inuocatione trinitatis mersus fuerit,
-      sacra<lb ed="#G" n="95" break="no"/>mentum regenerationis non haberet, quod omnino
-      ve<lb ed="#G" n="96" break="no"/>rum est 
-    </p>
-            <p xml:id="HuYgTa-213806-d1e741">
-               <lb ed="#G" n="97"/>
-               <pc type="indent"/>Forte contra istud dicetur, si propria nomina
-      diuina<lb ed="#G" n="98" break="no"/>rum personarum distincte expressa sunt de necessaria for 
-      <lb ed="#G" n="99"/>ma baptismi: tunc quicumque baptixatur sine
-      huiusmo<lb ed="#G" n="100" break="no"/>di expressione, ille esset rebaptixandus. Consequens es 
-      <lb ed="#G" n="101"/>falsum Consequentia patet. Probatur falsitas consequen 
-      <lb ed="#G" n="102"/>tis, primo auctoritate sacrae scripturae: qa, vt patet Actuum 
-      <lb ed="#G" n="103"/>t. &amp; 2 ca aliqui fuerunt baptixati in nomine Christi: &amp; ta 
-      <lb ed="#G" n="104"/>men Apostoli non fecerant eos rebaptivari: immo vere 
-      <lb ed="#G" n="105"/>putabant eos bapti) atos 
-    </p>
-            <p xml:id="HuYgTa-213806-d1e765">
-               <lb ed="#G" n="106"/>
-               <pc type="indent"/>Secundo, auctoritate <name xml:id="HuYgTa-213806-Nd1e771" ref="#Ambrose">Ambrosij</name>, qui ait: Si vnum sermo 
-      <lb ed="#G" n="107"/>ne apprehenderis, fide autem nec patrem, nec filium, nec 
-      <lb ed="#G" n="108"/>spiritum sanctum abneges: plenum est fidei sacramentum. 
-    </p>
-            <p xml:id="HuYgTa-213806-d1e780">
-               <lb ed="#G" n="109"/>
-               <pc type="indent"/>Tertio auctoritate bernardi, qui in quadam sua episto 
-      <lb ed="#G" n="110"/>la quendam, qui fuit baptixatus in nomine Dei, &amp; sancte 
-      <lb ed="#G" n="111"/>trucis, vere reputat esse baptixatum 
-    </p>
-            <p xml:id="HuYgTa-213806-d1e791">
-               <lb ed="#G" n="112"/>Quarto auctoritate Nicolai papae, qui ait. Hi profecto 
-      <lb ed="#G" n="113"/>si in nomine trinitatis, vel in nomine Christi
-      baptiven<lb ed="#G" n="114" break="no"/>tur, baptixati sunt 
-    </p>
-            <p xml:id="HuYgTa-213806-d1e800">
-               <lb ed="#G" n="115"/>
-               <pc type="indent"/>4 Praeterea, forma tradita a Christo Matth. vlti. cap. 
-      <lb ed="#G" n="116"/>non dicit in nominibus, sed in nomine patris, &amp;c ergo 
-      <lb ed="#G" n="117"/>videtur, quod debeat poni tantum vnum nomen trinitatis 
-    </p>
-            <p xml:id="HuYgTa-213806-d1e811">
-               <lb ed="#G" n="118"/>
-               <pc type="indent"/>3 Praeterea, vbi non est maior virtus in tribus, quam 
-      <lb ed="#G" n="119"/>in vno, ibi tantum valet inuocatio vnius, sicut trium, sed  
-      <lb ed="#G" n="120"/>patris, &amp; filij, &amp; spiritus sancti, vna est deitas, aequalis
-      glo<lb ed="#G" n="121" break="no"/>ria, &amp; coaeterna maiestas, vt ait Athanasius in svmbolo. 
-    </p>
-            <p xml:id="HuYgTa-213806-d1e824">
-               <lb ed="#G" n="122"/>
-               <pc type="indent"/>4 Praeterea, quando nomina sunt svnonima, tantum 
-      <lb ed="#G" n="123"/>valet posito vnius, quantum alterius sed pater &amp;
-      geni<lb ed="#G" n="124" break="no"/>tor, filius, &amp; genitus sunt svnonima: ergo aeque bene
-      po<lb ed="#G" n="125" break="no"/>erit dici, in nomine genitoris, &amp; geniti: sicut dicitur in 
-      <lb ed="#G" n="126"/>nomine patris, &amp; filij 
-    </p>
-            <p xml:id="HuYgTa-213806-d1e840">
-               <lb ed="#G" n="127"/>
-               <pc type="indent"/>Ad primum dicendum, quod nomina diuinarum
-      per<lb ed="#G" n="128" break="no"/>sonarum esse necessario requisita ad formam, &amp; efficaciam 
-      <lb ed="#G" n="129"/>baptismi potest dupliciter intelligi. Vno modo per
-      com<lb ed="#G" n="130" break="no"/>parationem ad diuinam potentiam. Alio modo, ad huma 
-      <lb ed="#G" n="131"/>nam. Primo modo est sensus falsus. Secundo modo, est 
-      <lb ed="#G" n="132"/>verus: quia hoc dicitur necessarium in comparatione ad 
-      <lb ed="#G" n="133"/>aliquam potentiam, cuius oppositum illa potentia fieri 
-      <lb ed="#G" n="134"/>non potest, sed planum est, quod Deus posset facere quan 
-      <lb ed="#G" n="135"/>documque sibi placeret, quod sacramentum baptismi
-      es<lb ed="#G" n="136" break="no"/>set verum, &amp; efficax sine illis, &amp; quibuscumque alijs
-      ver<lb ed="#G" n="137" break="no"/>bis: licet nulla humana auctoritas ad hoc se extendat, pu 
-      <lb ed="#G" n="138"/>ta, quod mutando, vel non ponendo illa nomina
-      baptis<lb ed="#G" n="139" break="no"/>mus manet in sua efficacia: Et ro quoad hoc est, quia que in 
-      <lb ed="#G" n="140"/>stitutum est auctoritate superioris, hoc mutari non potess 
-      <lb ed="#G" n="141"/>auctoritate inferioris, sed expressio illorum nominum pro 
-      <lb ed="#G" n="142"/>baptismo instituta est a Christo. Matth. vlti. ergo &amp;c.
-    </p>
-            <p xml:id="HuYgTa-213806-d1e880">
-      <!--615.xml-->
-               <pb ed="#G" n="P2_72-v"/>
-               <cb ed="#G" n="a"/>
-               <lb ed="#G" n="1"/>Ad formam igitur argumenti dicendum, quod isto
-      se<lb ed="#G" n="2" break="no"/>eundo modo accipiendo necessarium in proposito, tunc 
-      <lb ed="#G" n="3"/>consequens non est falsum. Ad primam probationem di 
-      <lb ed="#G" n="4"/>cendum, quod in primitiua Ecclesia baptixabantur
-      ali<lb ed="#G" n="5" break="no"/>qui in nomine Christi ex diuina dispensatione, &amp;
-      spiri<lb ed="#G" n="6" break="no"/>tus sancti reuelatione. Et hoc vt communiter dicitur pro 
-      <lb ed="#G" n="7"/>tanto, vt nomen Christi laudabilius, &amp; celebrius
-      diuul<lb ed="#G" n="8" break="no"/>paretur : Cessante ergo hac causa, puta, cum hoc nomen 
-      <lb ed="#G" n="9"/>Christus fuit vniuersaliter diuulgatum, tunc in hoc solo 
-      <lb ed="#G" n="10"/>nomine non debuit aliquis vlterius baptixari: Et ideo 
-      <lb ed="#G" n="11"/>semper manet necessitas istius formae in ordine ad huma 
-      <lb ed="#G" n="12"/>nam potentiam, a qua non potest procedere huiusmodi 
-      <lb ed="#G" n="13"/>dispensatio. 
-    </p>
-            <p xml:id="HuYgTa-213806-d1e917">
-               <lb ed="#G" n="14"/>
-               <pc type="indent"/>Ad auctoritatem <name xml:id="HuYgTa-213806-Nd1e923" ref="#Ambrose">Ambrosij</name> dicendum, quod illo casu 
-      <lb ed="#G" n="15"/>posito plenum esset fidei sacramentum quo ad
-      baptixan<lb ed="#G" n="16" break="no"/>tem, hoc est dictum, quod baptixans plenam fidem
-      habe<lb ed="#G" n="17" break="no"/>ret: sed non quo ad baptixatum: quia baptiaatus verum 
-      <lb ed="#G" n="18"/>sacramentum non reciperet 
-    </p>
-            <p xml:id="HuYgTa-213806-d1e936">
-               <lb ed="#G" n="19"/>
-               <pc type="indent"/>Ad Dernardum dicendum, quod ibi per nomen Dei 
-      <lb ed="#G" n="20"/>intelliguntur nomina trium personarum, quorum quod 
-      <lb ed="#G" n="21"/>libet est nomen Dei: sicut &amp; quaelibet persona est verus 
-      <lb ed="#G" n="22"/>Deus. Vnde sulum videtur ibi esse questio de nomine 
-      <lb ed="#G" n="23"/>crucis, vtrum illa additio vitiauerit sacramentum. Ille 
-      <lb ed="#G" n="24"/>igitur merito putabatur baptixatus: quia dummodo
-      ce<lb ed="#G" n="25" break="no"/>tera verba, quae sunt de sacramenti necessitate plene, &amp; 
-      <lb ed="#G" n="26"/>ordinate proferantur: additio facta ex deuotione non
-      ir<lb ed="#G" n="27" break="no"/>ritat sacramentum  
-    </p>
-            <p xml:id="HuYgTa-213806-d1e960">
-               <lb ed="#G" n="28"/>
-               <pc type="indent"/>Ad dictum <name xml:id="HuYgTa-213806-Nd1e966">Nicolai Papae</name> dicendum, quod hoc est
-      in<lb ed="#G" n="29" break="no"/>telligendum in casu, vbi alicui constaret per diuinam
-      re<lb ed="#G" n="30" break="no"/>uelationem pro tunc esse a Deo dispensatum modo quo 
-      <lb ed="#G" n="31"/>exstitit tempore Apostolorum. 
-    </p>
-            <p xml:id="HuYgTa-213806-d1e977">
-               <lb ed="#G" n="32"/>
-               <pc type="indent"/>Ad secundum dicendum, quod sicut Christus dixit in 
-      <lb ed="#G" n="33"/>nomine, &amp; non in nominibus: sic &amp; nos dicimus: &amp; sicut  
-      <lb ed="#G" n="34"/>Christus ad Iy nomen, singulariter sumptum adiunxit non 
-      <lb ed="#G" n="35"/>mina tria, scilicet patris, &amp; filij, &amp; spiritus sancti: sic o 
-      <lb ed="#G" n="36"/>nos illa tria nomina adiungere debemus 
-    </p>
-            <p xml:id="HuYgTa-213806-d1e993">
-               <lb ed="#G" n="37"/>
-               <pc type="indent"/>Ad tertium dicendum, quod ibi assignatur non causa 
-      <lb ed="#G" n="38"/>pro causa: quia per expressionem trium nominum non 
-      <lb ed="#G" n="39"/>attenditur maioritas virtutis, sed euidentia Christiana 
-      <lb ed="#G" n="40"/>professionis: quia magis euidenter profitemur mysterium 
-      <lb ed="#G" n="41"/>sanctissimae trinitatis exprimendo illa tria nomina, quam 
-      <lb ed="#G" n="42"/>vnum tantum. 
-    </p>
-            <p xml:id="HuYgTa-213806-d1e1012">
-               <lb ed="#G" n="43"/>
-               <pc type="indent"/>Ad quartum nego minorem: quia inter nomina
-      svno<lb ed="#G" n="44" break="no"/>nima tantummodo est variatio vocalis, &amp; non
-      significa<lb ed="#G" n="45" break="no"/>tionis: sed hic est variatio significationis, vel saltem
-      ra<lb ed="#G" n="46" break="no"/>tionis, a qua imposita est siguificatio: nam hoc nomen 
-      <lb ed="#G" n="47"/>ater significat personam diuinam, &amp; impositum est a 
-      <lb ed="#G" n="48"/>proprietate personali : sed hoc nomen genitor cum sit 
-      <lb ed="#G" n="49"/>nomen verbale, significat actum personae, vel saltem prin 
-      <lb ed="#G" n="50"/>cipaliter est impositum ab actu generationis. 
-    </p>
-            <p xml:id="HuYgTa-213806-d1e1034">
-               <lb ed="#G" n="51"/>
-               <pc type="indent"/>Forte dicetur, quod cum in diuinis actus generationis 
-      <lb ed="#G" n="52"/>&amp; personalis proprietas generantis, sint idem realiter: e. 
-      <lb ed="#G" n="53"/>go ab eodem impositum est hoc nomen pater &amp; hoc non 
-      <lb ed="#G" n="54"/>men genitor &amp; per consequens erunt svnonima 
-    </p>
-            <p xml:id="HuYgTa-213806-d1e1047">
-               <lb ed="#G" n="55"/>
-               <pc type="indent"/>Respondeo, quod ad hoc, quod nomina sint svnonima, 
-      <lb ed="#G" n="56"/>non sufficit, quod imponantur ab eodem, nisi illud idem 
-      <lb ed="#G" n="57"/>accipiatur sub eadem ratione. Propter quod ait
-      conmen<lb ed="#G" n="58" break="no"/>tator 12. methaphysicae, quod vita, &amp; scientia, non
-      dicu<lb ed="#G" n="59" break="no"/>tur svnonime de Deo, &amp; hoc pro tanto, quia quamuit 
-      <lb ed="#G" n="60"/>sint idem in Deo, realiter tamen differunt secundum
-      ra<lb ed="#G" n="61" break="no"/>tionem: sic in proposito quamuis in diuinis generatio
-      acti<lb ed="#G" n="62" break="no"/>ua, &amp; paternitas sint idem secundum rem, differunt
-      ta<lb ed="#G" n="63" break="no"/>men secundum rationem &amp;c 
-    </p>
-            <p xml:id="HuYgTa-213806-d1e1071">
-               <lb ed="#G" n="64"/>
-               <pc type="indent"/>Conclusio secunda est, quod expressio actus
-      baptixan<lb ed="#G" n="65" break="no"/>di, &amp; personae bapticatae est necessaria pro integritate for 
-      <lb ed="#G" n="66"/>mae baptismi 
-    </p>
-            <p xml:id="HuYgTa-213806-d1e1082">
-               <lb ed="#G" n="67"/>
-               <pc type="indent"/>Quia illa expressio est de necessitate formae
-      baptis<lb ed="#G" n="68" break="no"/>mi, sine qua ille, qui in aqua baptixando mergitur, non 
-      <lb ed="#G" n="69"/>est baptixatus: sed praedicta expressio est huiusmodi: quia 
-      <lb ed="#G" n="70"/>ex tra. de baptismo &amp; eius effectu, dicit Alexandet Papa, 
-      <lb ed="#G" n="71"/>si quis puerum ter immerserit in nomine patris, &amp; filij, 
-      <lb ed="#G" n="72"/>&amp; spiritus sancti, &amp; non dixerit, ego te baptixo in nomine 
-      <lb ed="#G" n="73"/>patris, &amp; filij, &amp; spiritus sancti amen: non est puer bapticatus
-    </p>
-            <p xml:id="HuYgTa-213806-d1e1102">
-      <!--615.xml-->
-               <cb ed="#G" n="b"/>
-               <lb ed="#G" n="74"/>Praeterea, illa expressio ponitur in forma tiadiuas 
-      <lb ed="#G" n="75"/>Christo: nam per hoc, quod dicit, baptixantes,
-      exprimi<lb ed="#G" n="76" break="no"/>tur actus: per hoc vero, quod dicit, eos, exprimuntur
-      per<lb ed="#G" n="77" break="no"/>sonae baptixandae. 
-    </p>
-            <p xml:id="HuYgTa-213806-d1e1119">
-               <lb ed="#G" n="78"/>
-               <pc type="indent"/>Sed contra istud arguitur a quibusdam sic 
-      <lb ed="#G" n="79"/>1 Illa oratio cum dicitur, ego baptixo te, &amp;csisuectai 
-      <lb ed="#G" n="80"/>ad formam baptismi, vel hoc conuenit sibi, vt est falsa, el 
-      <lb ed="#G" n="81"/>vt est vera. Ista patet per sufficientem diuifionem. Non 
-      <lb ed="#G" n="82"/>vt falsa: quia falsitas orationis non potest esse caus 
-      <lb ed="#G" n="83"/>veritatis, quae est in sacramentis. Nec vt vera: quia ven 
-      <lb ed="#G" n="84"/>tas orationis est posterior significato per eam: Nam al 
-      <lb ed="#G" n="85"/>eo, quod res est, vel non est, oratio dicitur vera, uel falsi 
-      <lb ed="#G" n="86"/>vt patet primo perihermenias: sed causa non est posterio 
-      <lb ed="#G" n="87"/>eo, cuius est causa 
-    </p>
-            <p xml:id="HuYgTa-213806-d1e1145">
-               <lb ed="#G" n="88"/>2 Praeterea, sicut Christus praecepit baptix are: siceua 
-      <lb ed="#G" n="89"/>praecepit docere, dicens. <quote xml:id="HuYgTa-213806-Qd1e1151">Ite, &amp; docete omnes gentes, ho 
-        <lb ed="#G" n="90"/>tixantes cos in nomine patris</quote>, &amp;c. sed ad hoc, quod ali 
-      <lb ed="#G" n="91"/>quis saticfaciat praecepto Christi docendo, non est necesse  
-      <lb ed="#G" n="92"/>quod exprimat actum, &amp; eum, quem docet: dicens, ego 
-      <lb ed="#G" n="93"/>loceo te: ergo a simili ad hoc, quod satisfaciat praecepto 
-      <lb ed="#G" n="94"/>Christi baptixando, non videtur esse necesse, quod dicat,  
-      <lb ed="#G" n="95"/>go baptixo te: ergo &amp;c.
-    </p>
-            <p xml:id="HuYgTa-213806-d1e1168">
-               <lb ed="#G" n="96"/>3 Praeterea, arguunt Qraeci sic. Prustra diriguntur ven 
-      <lb ed="#G" n="97"/>pa ad eum, qui nullo modo potest apprendere, vel inteli 
-      <lb ed="#G" n="98"/>lipere ea: sed paruulus qui baptixatur, nullo modoel 
-      <lb ed="#G" n="99"/>capax sermonis: ergo frustra dicit bapria ans: ego bapurs 
-      <lb ed="#G" n="100"/>te, dirigendo sermonem ad paruulum. 
-    </p>
-            <p xml:id="HuYgTa-213806-d1e1181">
-               <lb ed="#G" n="101"/>
-               <pc type="indent"/>Praeterea, quod ipso facto sufficienter exprimitus 
-      <lb ed="#G" n="102"/>hoc non est necesse verbis exprimi: sed actus baptimm 
-      <lb ed="#G" n="103"/>sufficienter exprimitur ipso facto: ergo &amp;c. 
-    </p>
-            <p xml:id="HuYgTa-213806-d1e1192">
-               <lb ed="#G" n="104"/>
-               <pc type="indent"/>Praeterea, quod sine prolatione intelligitur, hoc in 
-      <lb ed="#G" n="105"/>utiler prosertur. &amp; per consequens si proferatur, videti 
-      <lb ed="#G" n="106"/>esse nugatio, sed verbum primae personae semper dati 
-      <lb ed="#G" n="107"/>telligi pronomen primae personae : ergo sine necessita 
-    </p>
-            <p xml:id="HuYgTa-213806-d1e1205">
-               <lb ed="#G" n="108"/>
-               <pc type="indent"/>raemittitur Iy ego, cum dicitur, ego baptixo &amp; 
-      <lb ed="#G" n="109"/>Sed antequam respondeam ad haec, pono alias di 
-      <lb ed="#G" n="110"/>conclusiones: quia aliqualiter faciunt ad horum solutio 
-    </p>
-            <p xml:id="HuYgTa-213806-d1e1217">
-               <lb ed="#G" n="111"/>
-               <pc type="indent"/>Est igitur tertia conclusio; quod licet expressio actu 
-      <lb ed="#G" n="112"/> personae baptixatae necessario requiratur ad formm 
-      <lb ed="#G" n="113"/>baptismi: tamen modus exprimendi vnus, &amp; determus 
-      <lb ed="#G" n="114"/>tus non est de necessitate talis formae : quia siue prod 
-      <lb ed="#G" n="115"/>tatur participialiter, sicut ego sum baptitans temm 
-      <lb ed="#G" n="116"/>mine patris, &amp; filij &amp; spiritus sancti: siue verbaliter onm 
-      <lb ed="#G" n="117"/>tiue, sicut dicunt Qraeci, baptixetur seruus Christi innd 
-      <lb ed="#G" n="118"/>mine patris, &amp; filij, &amp; spiritus sancti: siue verbaliterm 
-      <lb ed="#G" n="119"/>dicatiue, sicut dicitur in Homana Ecclesia, ego bantixm 
-      <lb ed="#G" n="120"/>&amp;c. nihil refert quantum ad veritate baptiimi, &amp; prem 
-      <lb ed="#G" n="121"/>sequens quantum ad necessitatem formae, sine quand 
-      <lb ed="#G" n="122"/>otest esse verus baptismus. Multum tamen refert qui 
-      <lb ed="#G" n="123"/>tum ad baptixantem, vt superius dixi: quia propter hos 
-      <lb ed="#G" n="124"/>iusmodi nouas adinuentiones, &amp; propter hoc, quodnod 
-      <lb ed="#G" n="125"/>obediret statuto sacrosanctae Homanae Ecclesiae illem 
-      <lb ed="#G" n="126"/>aliter proferret, quam Ecclesia instituit, grauissime po 
-      <lb ed="#G" n="127"/>caret: &amp; merito priuari deberet officio, &amp; benefico 
-    </p>
-            <p xml:id="HuYgTa-213806-d1e1259">
-               <lb ed="#G" n="128"/>
-               <pc type="indent"/>Quarta conclusio est, quod hoc pronomen egon 
-      <lb ed="#G" n="129"/>est necessario requisitum ad praedictam formam baptio 
-      <lb ed="#G" n="130"/>peccaret tamen qui ipsum omitteret, sicut iam predim 
-      <lb ed="#G" n="131"/>est. Et quia istae duae conclusiones patent ex dictis inpm 
-      <lb ed="#G" n="132"/>mo articulo, ideo causa breuitatis hic transeo,  
-      <lb ed="#G" n="133"/>Ad primum argumentum contra secundam conclid 
-      <lb ed="#G" n="134"/>nem dicendum, quod per accidens est, hanc orationdi 
-      <lb ed="#G" n="135"/>ego baptico te, &amp;c. considerare quantum ad ventatel 
-      <lb ed="#G" n="136"/>vel falsitatem, vt spectat ad formam baptismi: sed pos 
-      <lb ed="#G" n="137"/>est considerare hoc, quod Deus sic instituit. Si enim Deo 
-      <lb ed="#G" n="138"/>ustituisset, quod tota forma baptismi consisteret iah 
-      <lb ed="#G" n="139"/>vllaba, EA: ita vere baptraaret aliquis alium immegm 
-      <lb ed="#G" n="140"/>do, dicens, EA: sicut modo dicendo formam pro nuo 
-      <lb ed="#G" n="141"/>Deo institutam. quamuis DA nec significet venm 
-      <lb ed="#G" n="142"/>nec falsum 
-    </p>
-            <p xml:id="HuYgTa-213806-d1e1296">
-               <lb ed="#G" n="143"/>
-               <pc type="indent"/>Ad secundum dicendum, quod quia in collationese 
-      <lb ed="#G" n="144"/>cramenti requiritur intentio ministri conferentis sam 
-      <lb ed="#G" n="145"/>mentum, &amp; baptismus est sacramentum necessitatis ud 
-      <lb ed="#G" n="146"/>ic est institutum, quod omnia exprimantur in baptio 
-      <!--616.xml-->
-      <pb ed="#G" n="P2_73-r"/>
-               <cb ed="#G" n="a"/>
-               <lb ed="#G" n="1"/>quae intentionem ministri determinant ad actum, quo con 
-      <lb ed="#G" n="2"/>fertur sacramentum. Non est autem hoc necesse in aliis 
-      <lb ed="#G" n="3"/>fieri, in quibus non est tantum periculum, si defuerit
-      in<lb ed="#G" n="4" break="no"/>tentio agentis: ideo non est simile de docere, &amp; baptixare. 
-    </p>
-            <p xml:id="HuYgTa-213806-d1e1324">
-               <lb ed="#G" n="5"/>
-               <pc type="indent"/>Ad tertium dicendum, quod posito maiorem esse
-      ve<lb ed="#G" n="6" break="no"/>ram, loquendo de verbis, quae proferuntur tantummodo 
-      <lb ed="#G" n="7"/>causa significationis: tamen non est vera, loquendo de 
-      <lb ed="#G" n="8"/>verbis quae proferuntur causa sanctificandi, vel benedicen 
-      <lb ed="#G" n="9"/>di. Vt sic enim quandoque proferuntur verba etiam ad 
-      <lb ed="#G" n="10"/>creaturas insensibiles, dicimus enim. Exorcixo te
-      crea<lb ed="#G" n="11" break="no"/>tura salis 
-    </p>
-            <p xml:id="HuYgTa-213806-d1e1344">
-               <lb ed="#G" n="12"/>
-               <pc type="indent"/>Ad quartum dicendum, quod ad maiorem
-      determina<lb ed="#G" n="13" break="no"/>tionem intentionis ministri ille actus non debet solum 
-      <lb ed="#G" n="14"/>exprimi facto, sed ctiam verbo 
-    </p>
-            <p xml:id="HuYgTa-213806-d1e1355">
-               <lb ed="#G" n="15"/>
-               <pc type="indent"/>Ad quintum dicendum, quod maior non est vera:
-      qui<lb ed="#G" n="16" break="no"/>saepe ad maiorem euidentiam aliquid exprimitur, quod 
-      <lb ed="#G" n="17"/>tamen posset intelligi, dato, quod non exprimeretur. 
-    </p>
-            <p xml:id="HuYgTa-213806-d1e1367">
-               <lb ed="#G" n="18"/>
-               <pc type="indent"/>ARTICVLVS Iii. 
-      <lb ed="#G" n="19"/>Vtrum quaelibet matatio facta circa verba in baptij 
-      <lb ed="#G" n="20"/>
-               <pc type="indent"/>mo vequsita impediat sacramentum.
-    </p>
-            <p xml:id="HuYgTa-213806-d1e1380">
-               <lb ed="#G" n="21"/>QVANTVM ad tertium articulum est aduertendum; 
-      <lb ed="#G" n="22"/>A quod sicut in rebus corporalibus secundum qua 
-      <lb ed="#G" n="23"/>tuor genera contingunt mutationes, puta, in substantia 
-      <lb ed="#G" n="24"/>quantitate, qualitate, &amp; vbi: sic circa verba baptismi fier 
-      <lb ed="#G" n="25"/>mutationem potest intelligi quattuor modis. Vno modi 
-      <lb ed="#G" n="26"/>secundum substantiam, scilicet quod illa verba omnia 
-      <lb ed="#G" n="27"/>vel allqua dimittantur, &amp; alia ponantur. Et hoc dupliciter 
-    </p>
-            <p xml:id="HuYgTa-213806-d1e1398">
-               <lb ed="#G" n="28"/>
-               <pc type="indent"/>Vno modo, manente eadem significatione, &amp; eoden 
-      <lb ed="#G" n="29"/>modo significandi sicut fit, cum forma verborum de
-      la<lb ed="#G" n="30" break="no"/>tino transfertur in gallicum, vel in verba alicuius
-      alte<lb ed="#G" n="31" break="no"/>rius idiomatis: &amp; tunc nulla fiet mutatio circa baptismum; 
-      <lb ed="#G" n="32"/>quia in quacumque lingua forma verborum a Christo
-      tra<lb ed="#G" n="33" break="no"/>nita &amp; ab Ecclesia determinata proferatur, vere confer 
-      <lb ed="#G" n="34"/>tur baptismus: quia tunc non mutatur forma intelligib  
-      <lb ed="#G" n="35"/>lis, sed solum forma vocalis, seu sensibilis. Alio modo
-      si<lb ed="#G" n="36" break="no"/>gnificatione mutata, puta, si aliquis baptixaret in
-      nomi<lb ed="#G" n="37" break="no"/>ne Dei, &amp; sanctae Mariae virginis : Vel mutato modo
-      si<lb ed="#G" n="38" break="no"/>gnificandi, vt si baptixaret in nomine genitoris, &amp; geniti 
-      <lb ed="#G" n="39"/>&amp; paracleti, scu flaminis almi: tunc non est baptismus. Et 
-      <lb ed="#G" n="40"/>istud est verum quantum ad nomina diuinarum persona 
-      <lb ed="#G" n="41"/>rum, sed quantum ad verba exprimentia actum, &amp; perso 
-      <lb ed="#G" n="42"/>nam baptixatam sufficit, quod maneat eade significatio 
-      <lb ed="#G" n="43"/>non obstante, quod modus significandi mutetur, sicut di 
-      <lb ed="#G" n="44"/>ctum est in articulo secundo 
-    </p>
-            <p xml:id="HuYgTa-213806-d1e1440">
-               <lb ed="#G" n="45"/>
-               <pc type="indent"/>Secundo modo potest fieri mutatio modo quantitatis. 
-      <lb ed="#G" n="46"/>puta, aliquid addendo, &amp; nihil subtrahendo: vel aliquis  
-      <lb ed="#G" n="47"/>subtrahendo, &amp; nihil reponendo. Primum potest fieri tri 
-      <lb ed="#G" n="48"/>pliciter. Vno modo sic, quod illud additum implicat con 
-      <lb ed="#G" n="49"/>dicionem non astantem, puta, si simplex sacerdos diceret,  
-      <lb ed="#G" n="50"/>ego baptixo te, si sum Episcopus: vel implicat aliquid di 
-      <lb ed="#G" n="51"/>strahens, vel diminuens diuinae personae dignitatem, set 
-      <lb ed="#G" n="52"/>tollens diuinarum personarum aequalitatem, sicut Arria 
-      <lb ed="#G" n="53"/>ni baptixabant in nomine patris maioris, &amp; filij minoris 
-      <lb ed="#G" n="54"/>Tertio modo, quod illud additum, nec sit distrahens, nec 
-      <lb ed="#G" n="55"/>diminuens: tamen ille, qui addit, intendit nouam for 
-      <lb ed="#G" n="56"/>mam introducere, non credens formam hactenus
-      obser<lb ed="#G" n="57" break="no"/>tam esse sufficientem, &amp; efficacem. Et his tribus modi 
-      <lb ed="#G" n="58"/>semper tollitur veritas baptismi, &amp; per consequens sic ba 
-      <lb ed="#G" n="59"/>ptixatus, est rebaptix andus. Si autem huiusmodi additio 
-      <lb ed="#G" n="60"/>fit ex addentis simplicitate, vel deuotione: tunc verus es 
-      <lb ed="#G" n="61"/>baptismus, puta, si aliquis sine fraude diceret, ego
-      bapti<lb ed="#G" n="62" break="no"/>go te in nomine patris omnipotentis, &amp;c 
-    </p>
-            <p xml:id="HuYgTa-213806-d1e1484">
-               <lb ed="#G" n="63"/>
-               <pc type="indent"/>Si autem mutatur quantitas subtrahendo, &amp; nihil
-      re<lb ed="#G" n="64" break="no"/>ponendo, vel tunc subtrahitur aliqua dictio necessario re 
-      <lb ed="#G" n="65"/>quisita ad veram formam baptismi, vel non necessario re 
-      <lb ed="#G" n="66"/>quisita. Primo modo non est verus baptismus. Secundo 
-      <lb ed="#G" n="67"/>modo est verus baptismus, licet grauiter peccet, qui sub¬ 
-      <!--616.xml-->
-      <cb ed="#G" n="b"/>
-               <lb ed="#G" n="68"/>trahit, vt superius est declaratum. 
-    </p>
-            <p xml:id="HuYgTa-213806-d1e1506">
-               <lb ed="#G" n="69"/>
-               <pc type="indent"/>Nota tamen, quod si subtractio filij vel spiritus sancti 
-      <lb ed="#G" n="70"/>prolato nomine patris, non esset voluntaria, puta, vel 
-      <lb ed="#G" n="71"/>quia baptixatus moritur, vel baptixans non potest
-      vlte<lb ed="#G" n="72" break="no"/>rius loqui: tunc dicunt multi doctores, quod verus est ba 
-      <lb ed="#G" n="73"/>ptismus non obstante praedicta omissione. Et in hoc
-      ca<lb ed="#G" n="74" break="no"/>iu dicunt esse intelligendam auctoritatem <name xml:id="HuYgTa-213806-Nd1e1523" ref="#Ambrose">Ambrosij</name> sut 
-      <lb ed="#G" n="75"/>perius adductam articulo secundo, argumento primo
-      con<lb ed="#G" n="76" break="no"/>tra primam conclusionem: Tamen forte tutius esset,
-      im<lb ed="#G" n="77" break="no"/>edimento sic interueniente ex parte bapticantis, quo 
-      <lb ed="#G" n="78"/>illud consilium teneretur, quod traditur <ref xml:id="HuYgTa-213806-Rd1e1535">extra de 
-      baptis<lb ed="#G" n="79" break="no"/>mo, &amp; eius effectu</ref>, vbi dicitur. De quibus est dubium, at 
-      <lb ed="#G" n="80"/>sint baptixati baptixentur, his verbis praemissis. Si ba 
-      <lb ed="#G" n="81"/>ptixatus es: non te baptixo: sed si nondum baptixatus 
-      <lb ed="#G" n="82"/>es ego te baptixo in nomine patris, &amp; filij, &amp; spiritu 
-      <lb ed="#G" n="83"/>sancti: amen¬ 
-    </p>
-            <p xml:id="HuYgTa-213806-d1e1550">
-               <lb ed="#G" n="84"/>
-               <pc type="indent"/>Tertio modo, potest fieri mutatio modo qualitatis, pu 
-      <lb ed="#G" n="85"/>ta, verba incorrecte proferendo vel frangendo, vel con 
-      <lb ed="#G" n="86"/>rumpendo. Et hoc dupliciter, scilicet vel voluntarie, &amp; 
-      <lb ed="#G" n="87"/>malitiose: tunc non teneret taliter faciens formam ab 
-      <lb ed="#G" n="88"/>Ecclesia obseruatam, &amp; per consequens non bapticaret 
-      <lb ed="#G" n="89"/>Vel ex ignorantia, sine ex impotentia. Et hoc adhuc
-      du<lb ed="#G" n="90" break="no"/>pliciter: quia, vel tanta est corruptio verbi, vel verbo¬¬ 
-      <lb ed="#G" n="91"/>rum, quod mutatur significatio, vel non mutatur
-      signi<lb ed="#G" n="92" break="no"/>ficatio. Si non mutatur: tunc verum est sacramentum, 
-      <lb ed="#G" n="93"/>debent tamen tales, qui propter linguae impedimentum 
-      <lb ed="#G" n="94"/>quandoque balbutiendo, sincopant verba sacramenti, 
-      <lb ed="#G" n="95"/>cauere quantum possunt: quia si hoc non fecerint, graui 
-      <lb ed="#G" n="96"/>ter delinquunt. Si autem mutatur significatio, verbi gra 
-      <lb ed="#G" n="97"/>tia, cum deberet dicere, patris, dicit patria: tunc, vel est 
-      <lb ed="#G" n="98"/>tanta corruptio, quod non solum mutatur significatio 
-      <lb ed="#G" n="99"/>quantum ad primam nominis impositionem, sed etiam 
-      <lb ed="#G" n="100"/>quantum ad vsus accommodationem, vel dato, quod mu 
-      <lb ed="#G" n="101"/>tetur significatio quantum ad nominis impositionem 
-      <lb ed="#G" n="102"/>manet tamen quantum ad vsus accommodationem,
-      pu<lb ed="#G" n="103" break="no"/>ta: quia adhuc communiter intelligitur, quid intendit 
-      <lb ed="#G" n="104"/>ille, qui loquitur. Primo modo non est verus baptismus,  
-      <lb ed="#G" n="105"/>sed secundo modo est verus baptismus: quod patet di 
-      <lb ed="#G" n="106"/>conse. dist. 4. c retulerunt, vbi dicitur de quodam sacerdo 
-      <lb ed="#G" n="107"/>te, quod cum Qraecus esset, &amp; officiaret latinam
-      eccle<lb ed="#G" n="108" break="no"/>siam, baptixauit in nomine, patria, &amp; filia, &amp; spiritu
-      san<lb ed="#G" n="109" break="no"/>cta. Et respondet ibidem Vacharias Papa dicens, quod s 
-      <lb ed="#G" n="110"/>hoc fecit ex imperitia linguae Latinae non intendeni 
-      <lb ed="#G" n="111"/>aliquem errorem inducere: non erant rebapticandi, 
-      <lb ed="#G" n="112"/>quos bapticauit 
-    </p>
-            <p xml:id="HuYgTa-213806-d1e1618">
-               <lb ed="#G" n="113"/>
-               <pc type="indent"/>Quarto modo, potest fieri mutatio ad instar locali 
-      <lb ed="#G" n="114"/>mutationis. Et hoc dupliciter Vno modo per
-      tran<lb ed="#G" n="115" break="no"/>positonem. Alio modo per interpositionem. Primi 
-      <lb ed="#G" n="116"/>potest fieri dupliciter. Vno modo ex certa malitia, &amp;
-      ta<lb ed="#G" n="117" break="no"/>liter faciens non baptixat. Alio modo, ex simplicitate, 
-      <lb ed="#G" n="118"/>&amp; hoc dupliciter: quia, vel est talis transposito, quae mu 
-      <lb ed="#G" n="119"/>tat sententiam orationis, puta, si diceret aliquis, ego 
-      <lb ed="#G" n="120"/>atris baptixo te, &amp; filij, &amp; in nomine spiritus sancti:
-      tun<lb ed="#G" n="121" break="no"/>nec talis baptixat. 
-    </p>
-            <p xml:id="HuYgTa-213806-d1e1642">
-               <lb ed="#G" n="122"/>
-               <pc type="indent"/>Si autem ex huiusmodi transpositone non mutatur 
-      <lb ed="#G" n="123"/>sententia orationis, tunc verus est baptismus, puta, si
-      di<lb ed="#G" n="124" break="no"/>ceret: ego baptixo te in nomine filij, &amp; patris, &amp; spiritus 
-      <lb ed="#G" n="125"/>sancti. Si autem fit interposito, puta, dicendo: ego
-      ba<lb ed="#G" n="126" break="no"/>tivo te, ista aqua est nimis frigida, in nomine patris, &amp;  
-      <lb ed="#G" n="127"/>filij, &amp; spiritus sancti, hoc potest fieri dupliciter; quia, 
-      <lb ed="#G" n="128"/>vel ita longa fit interposito, quod modo humano
-      me<lb ed="#G" n="129" break="no"/>rito iudicatur, quod actio baptismalis sit penitus
-      di<lb ed="#G" n="130" break="no"/>scontinuata: tunc forma verborum debet reincipi, 
-      <lb ed="#G" n="131"/>alias non esset verus baptismus, vel non interponitur tan 
-      <lb ed="#G" n="132"/>ta mora, quod secundum humanam consuetudinem
-      a<lb ed="#G" n="133" break="no"/>ctus baptixandi dicatur, vel sit discontinuatus, tunc non 
-      <lb ed="#G" n="134"/>obstante huiusmodi interpositone, verus esset baptismus,  
-      <lb ed="#G" n="135"/>dummodo talis interposito non fiat in fraudem, vel ex 
-      <lb ed="#G" n="136"/>certa malitia. Veritas in istis clausulis expressa
-      commu<lb ed="#G" n="137" break="no"/>nius tenetur, quamuis in multis hic positis aliqui
-      te<lb ed="#G" n="138" break="no"/>neant oppositum: quorum motiua, quia non
-      viden<lb ed="#G" n="139" break="no"/>tur alicuius ponderis: ideo causa breuitatis ea non 
-      <lb ed="#G" n="140"/>adduxi.
-    </p>
-            <p xml:id="HuYgTa-213806-d1e1688">
-      <!--617.xml-->
-               <pb ed="#G" n="P2_73-v"/>
-               <cb ed="#G" n="a"/>
-               <lb ed="#G" n="1"/>ARTICVLVS LIII 
-      <lb ed="#G" n="2"/>
-               <pc type="indent"/>De materia baptismi. 
-      <lb ed="#G" n="3"/>SVANTVM ad quartum articulum dicendum, quod 
-      <lb ed="#G" n="4"/>etalis debet esse materia sacramenti, quod
-      secun<lb ed="#G" n="5" break="no"/>dum sui naturam aliquo modo significet, siue representet 
-      <lb ed="#G" n="6"/>effectum sacramenti: sed effectum baptismi maxime
-      re<lb ed="#G" n="7" break="no"/>praesentat aqua: ergo elementum aquae est congrua eius 
-      <lb ed="#G" n="8"/>materia. Maior patet. Probatio minoris: quia triplex
-      vi<lb ed="#G" n="9" break="no"/>detur esse effectus gratiae baptismalis: nam per gratiam  
-      <lb ed="#G" n="10"/>baptismi fomes peccati aliqualiter refrenatur, culpa
-      ex<lb ed="#G" n="11" break="no"/>urgatur: &amp; mens illuminatur. Aqua vero ex sui natura 
-      <lb ed="#G" n="12"/>habet triplice proprietatem tribus praedictis aliquo
-      mo<lb ed="#G" n="13" break="no"/>do correspodentem, scilicet frigiditatem, humiditatem,  
-      <lb ed="#G" n="14"/>&amp; diaphaneitatem. Per primam proprietatem aqua
-      baptis<lb ed="#G" n="15" break="no"/>mi significat concupiscentiae mitigationem; per secundam 
-      <lb ed="#G" n="16"/>culpae purgationem: &amp; per tertiam mentis
-      illuminatio<lb ed="#G" n="17" break="no"/>nem. Et forte ratione istorum trium effectuum gratiae 
-      <lb ed="#G" n="18"/>baptismalis tribus vicibus mergitur in aqua, hos tres effo 
-      <lb ed="#G" n="19"/>ctus consequitur ipse baptixatus. 
-    </p>
-            <p xml:id="HuYgTa-213806-d1e1740">
-               <lb ed="#G" n="20"/>
-               <pc type="indent"/>Vtrum autem de necessitate baptismi sit illa trina 
-      <lb ed="#G" n="21"/>immersio.  
-    </p>
-            <p xml:id="HuYgTa-213806-d1e1749">
-               <lb ed="#G" n="22"/>
-               <pc type="indent"/>Dico, quod non. vbi tamen consuetudo est, quod
-      ba<lb ed="#G" n="23" break="no"/>ptixandus ter immergatur, ibi grauiter peccaret, qui illam 
-      <lb ed="#G" n="24"/>consuetudinem non obseruaret. In casu tamen potest ex 
-      <lb ed="#G" n="25"/>cusari, puta si baptix andus est adeo debilis, quod pericu 
-      <lb ed="#G" n="26"/>losum esset toties ipsum immergi; tunc enim sufficit vna 
-      <lb ed="#G" n="27"/>immersio, vel etiam sola aquae aspersio super ipsum ba 
-      <lb ed="#G" n="28"/>ptixandum 
-    </p>
-            <p xml:id="HuYgTa-213806-d1e1770">
-               <lb ed="#G" n="29"/>
-               <pc type="indent"/>Ad argumentum principale dicendum, quod forma 
-      <lb ed="#G" n="30"/>illa verborum non debeat in baptismo Christi, exprimi 
-      <lb ed="#G" n="31"/>quia si fuisset expressa: tunc Christus fuisset baptixatus in 
-      <lb ed="#G" n="32"/>nomine sui ipsius. Etiam non fuit consonum rationi, quod 
-      <lb ed="#G" n="33"/>trinitas ibi humana voce exprimeretur: quia euidentius 
-      <lb ed="#G" n="34"/>ibi apparuit, quam si vocaliter fuisset expressa: nam patei 
-      <lb ed="#G" n="35"/>ibi apparuit in voce, filius in carne, spiritus sanctus in
-      co<lb ed="#G" n="36" break="no"/>lumbae specle; vt scribitur in euangelio.  
-    </p>
-         </div>
-      </body>
-   </text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 1</title>
+        <author ref="#ThomasStrasbourg">Thomas of Strasbourg</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 1</title>
+          <date when="2020-11-26">November 26, 2020</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="G" n="cod-TxxxqU">Genoa 1585</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2020-11-26" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#G" n="P2_71-v"/>
+        <cb ed="#G" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="HuYgTa-213806"><!-- HuYgTa-l4d3q1 -->
+        <head xml:id="HuYgTa-213806-Hd1e108">Quaestio 1</head>
+        <head xml:id="HuYgTa-213806-Hd1e111" type="question-title">
+          An expressa verborum prolatio sit de necessitate baptismi
+        </head>
+        <p xml:id="HuYgTa-213806-d1e114">
+          <lb ed="#G" n="4"/>
+          <pc type="indent"/>Questio 1. 
+          <lb ed="#G" n="5"/>An expressa verborum prolatio sit de
+          ne<lb ed="#G" n="6" break="no"/>cessitate baptismi
+        </p>
+        <p xml:id="HuYgTa-213806-d1e125">
+          <lb ed="#G" n="7"/>VTRVM vocalis verborum expressio sit de
+          necessita<lb ed="#G" n="8" break="no"/>Vte baptismi.
+        </p>
+        <p xml:id="HuYgTa-213806-d1e132">
+          Et videtur, quod non 
+          <lb ed="#G" n="9"/>Quia illud, quod non erat in baptismo, quo Christus 
+          <lb ed="#G" n="10"/>baptia abatur, hoc non videtur esse de necessitate nostri 
+          <lb ed="#G" n="11"/>baptismi: sed Christus legitur baptixatus, &amp; in eius
+          ba<lb ed="#G" n="12" break="no"/>tismo nulla legitur fuisse verborum expressio: ergo &amp;c 
+          <lb ed="#G" n="13"/>Maior patet: quia cum omnis Christi actio nostra sit in 
+          <lb ed="#G" n="14"/>structio, videtur, quod illud, quod in Christi baptismo non 
+          <lb ed="#G" n="15"/>extitit, hoc nec in nostro necessarium sit 
+        </p>
+        <p xml:id="HuYgTa-213806-d1e151">
+          <lb ed="#G" n="16"/>
+          <pc type="indent"/>Contra illud est de necessitate baptismi, sine quo
+          for<lb ed="#G" n="17" break="no"/>ma baptixandi a Christo tradita, non potest obseruari, 
+          <lb ed="#G" n="18"/>sed sine vocali verborum expressione forma tradita a Chri 
+          <lb ed="#G" n="19"/>sto non pot obseruari: ergo &amp;c. Maior patet. Probatur mi 
+          <lb ed="#G" n="20"/>nor: qua Christus pcepit discipulis baptixare in nomine pro 
+          <lb ed="#G" n="21"/>tris, &amp; filij, &amp; spiritus sacti: vt patet in Matthaeo. hic quat 
+          <lb ed="#G" n="22"/>tuor sunt videnda. Primo videndum est, quid sit
+          baptis<lb ed="#G" n="23" break="no"/>mus, Secundo, quae forma verborum requiratur in baptis 
+          <lb ed="#G" n="24"/>mo, &amp; per idem patebit ad illud, quod hic in
+          principali<lb ed="#G" n="25" break="no"/>ter quaeritur. 
+        </p>
+        <p xml:id="HuYgTa-213806-d1e177">
+          <lb ed="#G" n="26"/>
+          <pc type="indent"/>Tertio videndum est, vtrum quaelibet mutatio facta 
+          <lb ed="#G" n="27"/>circa verba in baptismo requisita, impediat sacramentum 
+          <lb ed="#G" n="28"/>Et quarto de materia baptismi 
+        </p>
+        <p xml:id="HuYgTa-213806-d1e188">
+          <lb ed="#G" n="29"/>
+          <pc type="indent"/>RESOLVTIO. 
+          <lb ed="#G" n="30"/>cum baptismus ext erior quaedam corporis ablutio sit, quae sane 
+          <lb ed="#G" n="31"/>sub certa quadam praescripta verborum forma conficitur. 
+          <lb ed="#G" n="32"/>Vnde cum forma de necessitate eius sit, cuius ert forma ad bat 
+          <lb ed="#G" n="33"/>tismum profecto conficiendum expressa verborum prolatio f 
+          <lb ed="#G" n="34"/>mam ipsius exprimentium necessario exigitur. 
+        </p>
+        <p xml:id="HuYgTa-213806-d1e206">
+          <lb ed="#G" n="35"/>
+          <pc type="indent"/>ARTICVLVS n 
+          <lb ed="#G" n="36"/>
+          <pc type="indent"/>Quid sit haptismus.
+        </p>
+        <p xml:id="HuYgTa-213806-d1e217">
+          <lb ed="#G" n="37"/>VANTVM ad primum articulum respondet Ma 
+          <lb ed="#G" n="38"/> gister hic in littera dicens, Paptismus est ablutio 
+          <lb ed="#G" n="39"/>corporis exterior, facta sub forma verborum praescripta 
+          <lb ed="#G" n="40"/>1 Sed ab ista descriptione videtur dissentire <name xml:id="HuYgTa-213806-Nd1e227">Hugo de 
+            <lb ed="#G" n="41"/>sancto victore</name>, qui baptismum non dicit esse ablutionem, 
+          <lb ed="#G" n="42"/>sed aquam, sic dicens Paptismus est aqua abluendis crimi 
+          <lb ed="#G" n="43"/>nibus sanctificata.
+        </p>
+        <p xml:id="HuYgTa-213806-d1e238">
+          <lb ed="#G" n="44"/>2 Praeterea, arguitur contra Magistrum sic. Quandocum 
+          <lb ed="#G" n="45"/>que: aliqua sic se habent, quod vnum manet, altero non ma 
+          <lb ed="#G" n="46"/>nente: tunc vnum non potest in recto de altero
+          praedica<lb ed="#G" n="47" break="no"/>ri, sed baptismus manet, &amp; ablutio non manet. Maior pa 
+          <lb ed="#G" n="48"/>tet. Probatur minor: quia, quod ablutio transeat, hoc di 
+          <lb ed="#G" n="49"/>se patet, sed quod baptismus maneat, hoc patet per
+          Au<lb ed="#G" n="50" break="no"/>gustinum, qui ait. Sacramento semel imposito, numquam 
+          <lb ed="#G" n="51"/>eo quis carebit. 
+        </p>
+        <p xml:id="HuYgTa-213806-d1e259">
+          <lb ed="#G" n="52"/>
+          <pc type="indent"/>3 Praeterea, illud cui collata est vis regeneratiua, hoc 
+          <lb ed="#G" n="53"/>sacramentum baptismi debet appellari, sed aquae est
+          hu<lb ed="#G" n="54" break="no"/>iusmodi vis collata: quia dicit Doda in glosa. Luc. 3. que De 
+          <lb ed="#G" n="55"/>minus contactu mundissimae suae carnis vim regenerati 
+          <lb ed="#G" n="56"/>uam contulit aquis. 
+        </p>
+        <p xml:id="HuYgTa-213806-d1e275">
+          <!--613.xml-->
+          <cb ed="#G" n="b"/>
+          <lb ed="#G" n="57"/>4 Praeterea, illud, quod est de praedicamento
+          relatio<lb ed="#G" n="58" break="no"/>nis, non recipit praedicationem eius, quod est de praedica 
+          <lb ed="#G" n="59"/>mento actionis, vel passionis, vel substantiae: ergo
+          baptis<lb ed="#G" n="60" break="no"/>mus, nec debet dici ablutio, nec aqua: quod est contra 
+          <lb ed="#G" n="61"/>vtranque descriptionem. Antecedens patet Probatur con 
+          <lb ed="#G" n="62"/>sequentia: nam baptismus, cum sit sacramentum, &amp; per 
+          <lb ed="#G" n="63"/>consequens signum, necessario erit in praedicamento rela  
+          <lb ed="#G" n="64"/>tionis: ablutio autem est de praedicamento actionis, Vt 
+          <lb ed="#G" n="65"/>procedit ab abluente, &amp; est de praedicamento passionis,  
+          <lb ed="#G" n="66"/>vt recipitur in abluto: aqua vero, vt de se patet, est de 
+          <lb ed="#G" n="67"/>praedicamento substantiae.  
+        </p>
+        <p xml:id="HuYgTa-213806-d1e306">
+          <lb ed="#G" n="68"/>
+          <pc type="indent"/>Ad intellectum ergo praedictorum est aduertendum 
+          <lb ed="#G" n="69"/>quod licet baptismus formaliter dicat respectum, sicut 
+          <lb ed="#G" n="70"/>vnum quodque aliorum sacramentorum, prout, declara 
+          <lb ed="#G" n="71"/>ui <ref xml:id="HuYgTa-213806-Rd1e319">superius dist. 1. qu. 2</ref> tamen includit essentialiter res con 
+          <lb ed="#G" n="72"/>porales, super quibus immediate fundatur huiusmodi 
+          <lb ed="#G" n="73"/>cespectus: tales autem partes fundamentales, licet omnes 
+          <lb ed="#G" n="74"/>sint partes materiales comparatae ad praedictum
+          respe<lb ed="#G" n="75" break="no"/>ctum: tamen ad inuicem comparatae, vna dicitur materi; 
+          <lb ed="#G" n="76"/>lis respectu alterius, secundum quod est prior ea, &amp; deter 
+          <lb ed="#G" n="77"/>minabilis per ea, &amp; alia contra dicitur formalis: eo quod 
+          <lb ed="#G" n="78"/>partem priorem faciat determinate stare pro ipso
+          sacra<lb ed="#G" n="79" break="no"/>mento, verbi gratia. In proposito tam ablutio, quam etiam 
+          <lb ed="#G" n="80"/>verba trium diuinarum personarum expressiua dicuntui 
+          <lb ed="#G" n="81"/>partes fundamentales, seu materiales, vt fundant
+          baptis<lb ed="#G" n="82" break="no"/>mum formaliter sumptum, puta, vt baptismus est signum 
+          <lb ed="#G" n="83"/>efficax respectu gratiae Dei: tamen cum baptiaatur ho¬¬ 
+          <lb ed="#G" n="84"/>mo verba praedicta determinant illam ablutionem, &amp;
+          fa<lb ed="#G" n="85" break="no"/>ciunt eam determinate stare pro sacramento baptismi; 
+          <lb ed="#G" n="86"/>ideo talia verba dicuntur formalis pars respectu
+          ablutio<lb ed="#G" n="87" break="no"/>is contractae &amp; determinatae, per huiusmodi verba. 
+        </p>
+        <p xml:id="HuYgTa-213806-d1e357">
+          <lb ed="#G" n="88"/>
+          <pc type="indent"/>Iterum est aduertendum, quod licet aqua, &amp; ablutio 
+          <lb ed="#G" n="89"/>facta per aquam, determinantur per verba predicta ad 
+          <lb ed="#G" n="90"/>standum pro sacramento baptismi, quando recta intentio 
+          <lb ed="#G" n="91"/>ne dicuntur huiusmodi verba, &amp; per consequens tam aqua 
+          <lb ed="#G" n="92"/>quam ablutio dicantur partes materiales respectu
+          hu<lb ed="#G" n="93" break="no"/>iusmodi verborum: tamen aqua se habet vt materia
+          re<lb ed="#G" n="94" break="no"/>mota, ablutio vero se habet vt materia propinqua: quia 
+          <lb ed="#G" n="95"/>ablutio immediate fundat respectum praedictum, qui est 
+          <lb ed="#G" n="96"/>sacramentum baptismi formaliter: aqua autem non
+          fun<lb ed="#G" n="97" break="no"/>dat huiusmodi respectum, nisi mediante ablutione: quia 
+          <lb ed="#G" n="98"/>nec ante ablutionem, nec post ablutionem est in aqua 
+          <lb ed="#G" n="99"/>aptismus formaliter, sed solum per mensuram ipsius. 
+          <lb ed="#G" n="100"/>ablutionis 
+        </p>
+        <p xml:id="HuYgTa-213806-d1e390">
+          <lb ed="#G" n="101"/>
+          <pc type="indent"/>Hinc est, quod diffinitio data per Magistrum
+          ordina<lb ed="#G" n="102" break="no"/>tior esse videtur, quam illa, quae est data per Hug. Quia 
+          <lb ed="#G" n="103"/>n rebus artificialibus; materia propinqua praedicatur essen 
+          <lb ed="#G" n="104"/>tialiter de eo, cuius est materia, sed materia remota da¬¬ 
+          <lb ed="#G" n="105"/>to, quod praedicetur de huiusmodi rebus causaliter:
+          ta<lb ed="#G" n="106" break="no"/>men non praedicatur essentialiter: Ista enim est
+          essentia<lb ed="#G" n="107" break="no"/>lis praedicatio, statua est lignum: supposito, quod propin 
+          <lb ed="#G" n="108"/>qua materia immediate informata forma statuae, sit lignum 
+          <lb ed="#G" n="109"/>tamen ista non est essentialis praedicatio, sed solum
+          cau<lb ed="#G" n="110" break="no"/>alis, quae dicitur, statua est hyle, seu materia prima. Et 
+          <lb ed="#G" n="111"/>quia illa, quae sunt signa voluntarie instituta, se habent 
+          <lb ed="#G" n="112"/>d modum artificialium: ideo ablutio, quae ponitur in dil 
+          <lb ed="#G" n="113"/>finitione Magistri, essentialiter praedicatur de baptismo: 
+          <lb ed="#G" n="114"/>qui, formaliter sumendo, est signum a Deo voluntarie 
+          <lb ed="#G" n="115"/>institutum: Sed aqua, quae ponitur in diffinitione
+          <name xml:id="HuYgTa-213806-Nd1e426">Hugo<lb ed="#G" n="116" break="no"/>nis</name> cum sit materia remota baptismi, non praedicatur
+          es<lb ed="#G" n="117" break="no"/>sentialiter de baptismo: sed solum causaliter, 
+        </p>
+        <p xml:id="HuYgTa-213806-d1e435">
+          <lb ed="#G" n="118"/>
+          <pc type="indent"/>Ex quo vlterius sequitur, quod in diffinitione Magistri 
+          <lb ed="#G" n="119"/>melius exprimitur genus, &amp; differentia: quam in
+          diffini<lb ed="#G" n="120" break="no"/>tione <name xml:id="HuYgTa-213806-Nd1e445" ref="#HughOfStVictor">Hugonis</name>: quia genus essentialiter. praedicatur de 
+          <lb ed="#G" n="121"/>specie diffinita per ipsum: Sed, sicut iam declaratum est,  
+          <lb ed="#G" n="122"/>ablutio praedicatur essentialiter de baptismo, &amp; non
+          aqua<lb ed="#G" n="123" break="no"/>entiam differentia accipitur a parte formalis; sed verba per 
+          <lb ed="#G" n="124"/>sonas diuinas exprimentia sunt forma baptismi in
+          ordi<lb ed="#G" n="125" break="no"/>ne ad ablutionem, quae determinatur per ipsa: ideo &amp;c 
+        </p>
+        <p xml:id="HuYgTa-213806-d1e461">
+          <lb ed="#G" n="126"/>
+          <pc type="indent"/>Et per hoc patet ad instantiam de <name xml:id="HuYgTa-213806-Nd1e467" ref="#HughOfStVictor">Hugone.</name> 
+        </p>
+        <p xml:id="HuYgTa-213806-d1e471">
+          <lb ed="#G" n="127"/>Ad secundum dicendum, quod in baptismo poterimus tria 
+          <lb ed="#G" n="128"/>considerare: nam aliquid est ibi, quod est sacramentum 
+          <lb ed="#G" n="129"/>tantum, puta, ablutio, &amp; verba. Aliquid, quod est sacta¬ 
+          <!--614.xml-->
+          <pb ed="#G" n="P2_72-r"/>
+          <cb ed="#G" n="a"/>
+          <lb ed="#G" n="1"/>menti, scilicet character. Tertium quod non est sacramen 
+          <lb ed="#G" n="2"/>tum, sed tantummodo res sacramenti, scilicet gratia ex 
+          <lb ed="#G" n="3"/>susceptione sacramenti collata: lgitur de medio, scilicet 
+          <lb ed="#G" n="4"/>de charactere est intelligenda auctoritas Aug. quia
+          char<lb ed="#G" n="5" break="no"/>cter est indelebilis, &amp; semper manet. 
+        </p>
+        <p xml:id="HuYgTa-213806-d1e497">
+          <lb ed="#G" n="6"/>
+          <pc type="indent"/>Ad tertium dicendum, quod si aliqua vis regeneratiua est 
+          <lb ed="#G" n="7"/>in aqua, illa tamen immediatius est in ablutione: quia in 
+          <lb ed="#G" n="8"/>aqua est habitualiter: in ablutione vero actualiter.
+          Quo<lb ed="#G" n="9" break="no"/>modo tamen illa auctoritas bedae, &amp; ceterae consimiles 
+          <lb ed="#G" n="10"/>sint intelligendae iuxta ea, quae teneo, dixi superius dist 
+          <lb ed="#G" n="11"/>24.1. art. 2. in solutione quarti argumenti 
+        </p>
+        <p xml:id="HuYgTa-213806-d1e515">
+          <lb ed="#G" n="12"/>
+          <pc type="indent"/>Ad quartum dicendum, quod sicut in rebus artificiali 
+          <lb ed="#G" n="13"/>is forma per artem inducta praecise, &amp; secundum se sum 
+          <lb ed="#G" n="14"/>inon recibit praedicationem essentialem propinquae 
+          <lb ed="#G" n="15"/>ae materiae. Ista enim est falsa: figura statuae est signum: 
+          <lb ed="#G" n="16"/>uia substantia non praedicatur essentialiter de acciden 
+          <lb ed="#G" n="17"/>tamen si non praecise sumitur tunc ratione implicatio 
+          <lb ed="#G" n="18"/>uis rei naturalis proxima materia praedicatur
+          essentiali<lb ed="#G" n="19" break="no"/>er de artificiali, puta, cum dicitur: statua est lignum: sic 
+          <lb ed="#G" n="20"/>proposito, dato, quod de baptismo, vt pro respectu praecise 
+          <lb ed="#G" n="21"/>lumitur cum actuali exclusione fundamenti: ablutio non 
+          <lb ed="#G" n="22"/>raedicetur essentialiter: tamen vt baptismus sumitur
+          si<lb ed="#G" n="23" break="no"/>e huiusmodi praecisione: tunc talis ablutio vere, &amp; essen 
+          <lb ed="#G" n="24"/>naliter praedicatur de baptismo. 
+        </p>
+        <p xml:id="HuYgTa-213806-d1e548">
+          <lb ed="#G" n="25"/>
+          <pc type="indent"/>ARTICVLVS II 
+          <lb ed="#G" n="26"/>uaforma verborum vequrati in haptismo, qui 
+          <lb ed="#G" n="27"/>
+          <pc type="indent"/>ter idem patebit vtrum expressa verborum 
+          <lb ed="#G" n="28"/>
+          <pc type="indent"/>prolatio sit de necessitate haptismi.
+        </p>
+        <p xml:id="HuYgTa-213806-d1e566">
+          <lb ed="#G" n="29"/>QVANTVM ad secundum artic, est aduertendum, 
+          <lb ed="#G" n="30"/> quod cum forma sit necessario requisita ad esse 
+          <lb ed="#G" n="31"/>us, cuius dicitur forma: ideo talia verba sunt de forma 
+          <lb ed="#G" n="32"/>tismi, quae sunt necessario requisita in baptir ado. Du 
+          <lb ed="#G" n="33"/>em ergo poterimus attendere necessitatem in his 
+          <lb ed="#G" n="34"/>bis: nam quaedam sunt necessaria necessitate se tenei 
+          <lb ed="#G" n="35"/>parte baptismi, seu sacramenti. Alia sunt necessaria 
+          <lb ed="#G" n="36"/>essitate se tenente ex parte baptixantis, seu ministri 
+          <lb ed="#G" n="37"/>mo modo sunt necessaria in sacramento baptismi illa  
+          <lb ed="#G" n="38"/>ibus exprimuntur tres diuinae personae, &amp; actus
+          bapti<lb ed="#G" n="39" break="no"/>ndi cum persona baptixata, in quam tramsit huiusmodi 
+          <lb ed="#G" n="40"/>p aliter tamen, &amp; aliter: nam nomina diuinarum
+          per<lb ed="#G" n="41" break="no"/>iarum sunt absolute, &amp; simpliciter necessaria ad hoc,  
+          <lb ed="#G" n="42"/>d sit veritas sacramenti: propter quod nullo modo
+          li<lb ed="#G" n="43" break="no"/>variare talia nomina, nec in se nec in modo exprimen 
+          <lb ed="#G" n="44"/>sed ea, quae significant actum baptixationis, &amp; personam 
+          <lb ed="#G" n="45"/>ptixatam, licet quantum ad expressionem actus, &amp; per 
+          <lb ed="#G" n="46"/>nae sint simpliciter necessaria pro veritate sacramenti 
+          <lb ed="#G" n="47"/>imen, quantum ad modum exprimendi, non sunt simpli 
+          <lb ed="#G" n="48"/>ernecessaria necessitate se tenente ex parte sacramen 
+          <lb ed="#G" n="49"/>Nam Craeci actum proferunt optatiue, &amp; baptixatum 
+          <lb ed="#G" n="50"/>tertia persona dicentes, bapti vetur seruus Christi. Lati 
+          <lb ed="#G" n="51"/>bero in vniuersa Rom. Ecc. actum proferunt indicatiuc 
+          <lb ed="#G" n="52"/>aptixatum in secunda persona, puta, ego Paptixo te 
+          <lb ed="#G" n="53"/>tamen creditur, quod Craeci vere baptixent: cuius signum 
+          <lb ed="#G" n="54"/>lquod homana ecclesia Craecos ad se conuersos non 
+          <lb ed="#G" n="55"/>rebaptixare, quod vtique faceret, si eos non
+          reputa<lb ed="#G" n="56" break="no"/>nsore baptix atos. Iste tamen modus exprimendi indi 
+          <lb ed="#G" n="57"/>tiue, &amp; in secuda psona est necessarius necessitate se t 
+          <lb ed="#G" n="58"/>mte ex parte baptixantis in omnibus Latinis Ecclesi 
+          <lb ed="#G" n="59"/>latum talis modus sit de praecepto homanae Ecclesiae. 
+          <lb ed="#G" n="60"/>lem quantum ad omnes degentes in latinis Ecclesuis; 
+          <lb ed="#G" n="61"/>leo in huiusmodi Ecclesiis mortaliter peccaret, qui hu 
+          <lb ed="#G" n="62"/>lmodi modum non obseruaret, maxime si talis homo 
+          <lb ed="#G" n="63"/>peui ex officio competit baptix are: illum enim
+          ignoram<lb ed="#G" n="64" break="no"/>aimris non excusat, cum de iure quilibet teneatur sciro 
+          <lb ed="#G" n="65"/>lud, quod ad suum officium dignoscitur pertinere. Et eo 
+          <lb ed="#G" n="66"/>em modo sentiendum est de hoc pronomine ego, quod 
+          <lb ed="#G" n="67"/>primit personam baptix antis: quia Craeci ipsum non 
+          <lb ed="#G" n="68"/>pnunt: &amp; tamen vere baptixant. Mortaliter tamen pec 
+          <lb ed="#G" n="69"/>uet Fatinus si ipsum ommitteret 
+        </p>
+        <p xml:id="HuYgTa-213806-d1e658">
+          <!--614.xml-->
+          <cb ed="#G" n="b"/>
+          <lb ed="#G" n="70"/>His praemissis pono quattuor conclusiones circa formam 
+          <lb ed="#G" n="71"/>verborum baptismi, de qua ad praesens petitur in isto
+          ar<lb ed="#G" n="72" break="no"/>ticulo 
+        </p>
+        <p xml:id="HuYgTa-213806-d1e671">
+          <lb ed="#G" n="73"/>
+          <pc type="indent"/>Prima est, quod propria nomina trium diuinarum
+          perso<lb ed="#G" n="74" break="no"/>narum necessario spectant ad formam baptixandi. 
+        </p>
+        <p xml:id="HuYgTa-213806-d1e680">
+          <lb ed="#G" n="75"/>
+          <pc type="indent"/>1 Quia Christus verus Deus sub expressione istorum 
+          <lb ed="#G" n="76"/>nominum praecepit baptismum conferri: ergo talia nomi 
+          <lb ed="#G" n="77"/>na sunt de necessaria forma ipsius baptismi. Antecedens 
+          <lb ed="#G" n="78"/>atet mat. vlt. Patet etiam consequentia: quia illud, cu 
+          <lb ed="#G" n="79"/>ius vigor totaliter dependet ex ordinatione
+          instituen<lb ed="#G" n="80" break="no"/>tis, hoc nullum habet vigorem nisi forma ab
+          instituen<lb ed="#G" n="81" break="no"/>te posita obseruetur, &amp; per consequens forma huiusmo 
+          <lb ed="#G" n="82"/>di instituta dicitur necessaria, sed vigor omnium
+          sacra<lb ed="#G" n="83" break="no"/>mentorum ex institutione, &amp; ordinatione Dei totaliter 
+          <lb ed="#G" n="84"/>dependet, vt declaratum est <ref xml:id="HuYgTa-213806-Rd1e706">superius d. 1. &amp; 2.</ref> ergo &amp;c. 
+        </p>
+        <p xml:id="HuYgTa-213806-d1e710">
+          <lb ed="#G" n="85"/>
+          <pc type="indent"/>2 Praeterea, verba, quae sic se habent ad baptismum 
+          <lb ed="#G" n="86"/>que sine eorum expressione baptixatus nullo modo
+          conse<lb ed="#G" n="87" break="no"/>quitur mysterium redemptionis, illa sunt de necessaria 
+          <lb ed="#G" n="88"/>forma baptismi: sed nomina diuinarum personarum sunt 
+          <lb ed="#G" n="89"/>huiusmodi. Maior patet. Probatur minor auctoritate Ful 
+          <lb ed="#G" n="90"/>gentij, qui ait. Mysterium redemptionis nullo modo
+          ha<lb ed="#G" n="91" break="no"/>betur, si patris, aut filij, aut spiritus sancti nomen subtrahi 
+          <lb ed="#G" n="92"/>tur. Et hoc confirmatur auctoritate Tachariae papae, qui 
+          <lb ed="#G" n="93"/>ait. Firmissime praeceptum est svnodo Anglorum, vt
+          qui<lb ed="#G" n="94" break="no"/>cumque sine inuocatione trinitatis mersus fuerit,
+          sacra<lb ed="#G" n="95" break="no"/>mentum regenerationis non haberet, quod omnino
+          ve<lb ed="#G" n="96" break="no"/>rum est 
+        </p>
+        <p xml:id="HuYgTa-213806-d1e741">
+          <lb ed="#G" n="97"/>
+          <pc type="indent"/>Forte contra istud dicetur, si propria nomina
+          diuina<lb ed="#G" n="98" break="no"/>rum personarum distincte expressa sunt de necessaria for 
+          <lb ed="#G" n="99"/>ma baptismi: tunc quicumque baptixatur sine
+          huiusmo<lb ed="#G" n="100" break="no"/>di expressione, ille esset rebaptixandus. Consequens es 
+          <lb ed="#G" n="101"/>falsum Consequentia patet. Probatur falsitas consequen 
+          <lb ed="#G" n="102"/>tis, primo auctoritate sacrae scripturae: qa, vt patet Actuum 
+          <lb ed="#G" n="103"/>t. &amp; 2 ca aliqui fuerunt baptixati in nomine Christi: &amp; ta 
+          <lb ed="#G" n="104"/>men Apostoli non fecerant eos rebaptivari: immo vere 
+          <lb ed="#G" n="105"/>putabant eos bapti) atos 
+        </p>
+        <p xml:id="HuYgTa-213806-d1e765">
+          <lb ed="#G" n="106"/>
+          <pc type="indent"/>Secundo, auctoritate <name xml:id="HuYgTa-213806-Nd1e771" ref="#Ambrose">Ambrosij</name>, qui ait: Si vnum sermo 
+          <lb ed="#G" n="107"/>ne apprehenderis, fide autem nec patrem, nec filium, nec 
+          <lb ed="#G" n="108"/>spiritum sanctum abneges: plenum est fidei sacramentum. 
+        </p>
+        <p xml:id="HuYgTa-213806-d1e780">
+          <lb ed="#G" n="109"/>
+          <pc type="indent"/>Tertio auctoritate bernardi, qui in quadam sua episto 
+          <lb ed="#G" n="110"/>la quendam, qui fuit baptixatus in nomine Dei, &amp; sancte 
+          <lb ed="#G" n="111"/>trucis, vere reputat esse baptixatum 
+        </p>
+        <p xml:id="HuYgTa-213806-d1e791">
+          <lb ed="#G" n="112"/>Quarto auctoritate Nicolai papae, qui ait. Hi profecto 
+          <lb ed="#G" n="113"/>si in nomine trinitatis, vel in nomine Christi
+          baptiven<lb ed="#G" n="114" break="no"/>tur, baptixati sunt 
+        </p>
+        <p xml:id="HuYgTa-213806-d1e800">
+          <lb ed="#G" n="115"/>
+          <pc type="indent"/>4 Praeterea, forma tradita a Christo Matth. vlti. cap. 
+          <lb ed="#G" n="116"/>non dicit in nominibus, sed in nomine patris, &amp;c ergo 
+          <lb ed="#G" n="117"/>videtur, quod debeat poni tantum vnum nomen trinitatis 
+        </p>
+        <p xml:id="HuYgTa-213806-d1e811">
+          <lb ed="#G" n="118"/>
+          <pc type="indent"/>3 Praeterea, vbi non est maior virtus in tribus, quam 
+          <lb ed="#G" n="119"/>in vno, ibi tantum valet inuocatio vnius, sicut trium, sed  
+          <lb ed="#G" n="120"/>patris, &amp; filij, &amp; spiritus sancti, vna est deitas, aequalis
+          glo<lb ed="#G" n="121" break="no"/>ria, &amp; coaeterna maiestas, vt ait Athanasius in svmbolo. 
+        </p>
+        <p xml:id="HuYgTa-213806-d1e824">
+          <lb ed="#G" n="122"/>
+          <pc type="indent"/>4 Praeterea, quando nomina sunt svnonima, tantum 
+          <lb ed="#G" n="123"/>valet posito vnius, quantum alterius sed pater &amp;
+          geni<lb ed="#G" n="124" break="no"/>tor, filius, &amp; genitus sunt svnonima: ergo aeque bene
+          po<lb ed="#G" n="125" break="no"/>erit dici, in nomine genitoris, &amp; geniti: sicut dicitur in 
+          <lb ed="#G" n="126"/>nomine patris, &amp; filij 
+        </p>
+        <p xml:id="HuYgTa-213806-d1e840">
+          <lb ed="#G" n="127"/>
+          <pc type="indent"/>Ad primum dicendum, quod nomina diuinarum
+          per<lb ed="#G" n="128" break="no"/>sonarum esse necessario requisita ad formam, &amp; efficaciam 
+          <lb ed="#G" n="129"/>baptismi potest dupliciter intelligi. Vno modo per
+          com<lb ed="#G" n="130" break="no"/>parationem ad diuinam potentiam. Alio modo, ad huma 
+          <lb ed="#G" n="131"/>nam. Primo modo est sensus falsus. Secundo modo, est 
+          <lb ed="#G" n="132"/>verus: quia hoc dicitur necessarium in comparatione ad 
+          <lb ed="#G" n="133"/>aliquam potentiam, cuius oppositum illa potentia fieri 
+          <lb ed="#G" n="134"/>non potest, sed planum est, quod Deus posset facere quan 
+          <lb ed="#G" n="135"/>documque sibi placeret, quod sacramentum baptismi
+          es<lb ed="#G" n="136" break="no"/>set verum, &amp; efficax sine illis, &amp; quibuscumque alijs
+          ver<lb ed="#G" n="137" break="no"/>bis: licet nulla humana auctoritas ad hoc se extendat, pu 
+          <lb ed="#G" n="138"/>ta, quod mutando, vel non ponendo illa nomina
+          baptis<lb ed="#G" n="139" break="no"/>mus manet in sua efficacia: Et ro quoad hoc est, quia que in 
+          <lb ed="#G" n="140"/>stitutum est auctoritate superioris, hoc mutari non potess 
+          <lb ed="#G" n="141"/>auctoritate inferioris, sed expressio illorum nominum pro 
+          <lb ed="#G" n="142"/>baptismo instituta est a Christo. Matth. vlti. ergo &amp;c.
+        </p>
+        <p xml:id="HuYgTa-213806-d1e880">
+          <!--615.xml-->
+          <pb ed="#G" n="P2_72-v"/>
+          <cb ed="#G" n="a"/>
+          <lb ed="#G" n="1"/>Ad formam igitur argumenti dicendum, quod isto
+          se<lb ed="#G" n="2" break="no"/>eundo modo accipiendo necessarium in proposito, tunc 
+          <lb ed="#G" n="3"/>consequens non est falsum. Ad primam probationem di 
+          <lb ed="#G" n="4"/>cendum, quod in primitiua Ecclesia baptixabantur
+          ali<lb ed="#G" n="5" break="no"/>qui in nomine Christi ex diuina dispensatione, &amp;
+          spiri<lb ed="#G" n="6" break="no"/>tus sancti reuelatione. Et hoc vt communiter dicitur pro 
+          <lb ed="#G" n="7"/>tanto, vt nomen Christi laudabilius, &amp; celebrius
+          diuul<lb ed="#G" n="8" break="no"/>paretur : Cessante ergo hac causa, puta, cum hoc nomen 
+          <lb ed="#G" n="9"/>Christus fuit vniuersaliter diuulgatum, tunc in hoc solo 
+          <lb ed="#G" n="10"/>nomine non debuit aliquis vlterius baptixari: Et ideo 
+          <lb ed="#G" n="11"/>semper manet necessitas istius formae in ordine ad huma 
+          <lb ed="#G" n="12"/>nam potentiam, a qua non potest procedere huiusmodi 
+          <lb ed="#G" n="13"/>dispensatio. 
+        </p>
+        <p xml:id="HuYgTa-213806-d1e917">
+          <lb ed="#G" n="14"/>
+          <pc type="indent"/>Ad auctoritatem <name xml:id="HuYgTa-213806-Nd1e923" ref="#Ambrose">Ambrosij</name> dicendum, quod illo casu 
+          <lb ed="#G" n="15"/>posito plenum esset fidei sacramentum quo ad
+          baptixan<lb ed="#G" n="16" break="no"/>tem, hoc est dictum, quod baptixans plenam fidem
+          habe<lb ed="#G" n="17" break="no"/>ret: sed non quo ad baptixatum: quia baptiaatus verum 
+          <lb ed="#G" n="18"/>sacramentum non reciperet 
+        </p>
+        <p xml:id="HuYgTa-213806-d1e936">
+          <lb ed="#G" n="19"/>
+          <pc type="indent"/>Ad Dernardum dicendum, quod ibi per nomen Dei 
+          <lb ed="#G" n="20"/>intelliguntur nomina trium personarum, quorum quod 
+          <lb ed="#G" n="21"/>libet est nomen Dei: sicut &amp; quaelibet persona est verus 
+          <lb ed="#G" n="22"/>Deus. Vnde sulum videtur ibi esse questio de nomine 
+          <lb ed="#G" n="23"/>crucis, vtrum illa additio vitiauerit sacramentum. Ille 
+          <lb ed="#G" n="24"/>igitur merito putabatur baptixatus: quia dummodo
+          ce<lb ed="#G" n="25" break="no"/>tera verba, quae sunt de sacramenti necessitate plene, &amp; 
+          <lb ed="#G" n="26"/>ordinate proferantur: additio facta ex deuotione non
+          ir<lb ed="#G" n="27" break="no"/>ritat sacramentum  
+        </p>
+        <p xml:id="HuYgTa-213806-d1e960">
+          <lb ed="#G" n="28"/>
+          <pc type="indent"/>Ad dictum <name xml:id="HuYgTa-213806-Nd1e966">Nicolai Papae</name> dicendum, quod hoc est
+          in<lb ed="#G" n="29" break="no"/>telligendum in casu, vbi alicui constaret per diuinam
+          re<lb ed="#G" n="30" break="no"/>uelationem pro tunc esse a Deo dispensatum modo quo 
+          <lb ed="#G" n="31"/>exstitit tempore Apostolorum. 
+        </p>
+        <p xml:id="HuYgTa-213806-d1e977">
+          <lb ed="#G" n="32"/>
+          <pc type="indent"/>Ad secundum dicendum, quod sicut Christus dixit in 
+          <lb ed="#G" n="33"/>nomine, &amp; non in nominibus: sic &amp; nos dicimus: &amp; sicut  
+          <lb ed="#G" n="34"/>Christus ad Iy nomen, singulariter sumptum adiunxit non 
+          <lb ed="#G" n="35"/>mina tria, scilicet patris, &amp; filij, &amp; spiritus sancti: sic o 
+          <lb ed="#G" n="36"/>nos illa tria nomina adiungere debemus 
+        </p>
+        <p xml:id="HuYgTa-213806-d1e993">
+          <lb ed="#G" n="37"/>
+          <pc type="indent"/>Ad tertium dicendum, quod ibi assignatur non causa 
+          <lb ed="#G" n="38"/>pro causa: quia per expressionem trium nominum non 
+          <lb ed="#G" n="39"/>attenditur maioritas virtutis, sed euidentia Christiana 
+          <lb ed="#G" n="40"/>professionis: quia magis euidenter profitemur mysterium 
+          <lb ed="#G" n="41"/>sanctissimae trinitatis exprimendo illa tria nomina, quam 
+          <lb ed="#G" n="42"/>vnum tantum. 
+        </p>
+        <p xml:id="HuYgTa-213806-d1e1012">
+          <lb ed="#G" n="43"/>
+          <pc type="indent"/>Ad quartum nego minorem: quia inter nomina
+          svno<lb ed="#G" n="44" break="no"/>nima tantummodo est variatio vocalis, &amp; non
+          significa<lb ed="#G" n="45" break="no"/>tionis: sed hic est variatio significationis, vel saltem
+          ra<lb ed="#G" n="46" break="no"/>tionis, a qua imposita est siguificatio: nam hoc nomen 
+          <lb ed="#G" n="47"/>ater significat personam diuinam, &amp; impositum est a 
+          <lb ed="#G" n="48"/>proprietate personali : sed hoc nomen genitor cum sit 
+          <lb ed="#G" n="49"/>nomen verbale, significat actum personae, vel saltem prin 
+          <lb ed="#G" n="50"/>cipaliter est impositum ab actu generationis. 
+        </p>
+        <p xml:id="HuYgTa-213806-d1e1034">
+          <lb ed="#G" n="51"/>
+          <pc type="indent"/>Forte dicetur, quod cum in diuinis actus generationis 
+          <lb ed="#G" n="52"/>&amp; personalis proprietas generantis, sint idem realiter: e. 
+          <lb ed="#G" n="53"/>go ab eodem impositum est hoc nomen pater &amp; hoc non 
+          <lb ed="#G" n="54"/>men genitor &amp; per consequens erunt svnonima 
+        </p>
+        <p xml:id="HuYgTa-213806-d1e1047">
+          <lb ed="#G" n="55"/>
+          <pc type="indent"/>Respondeo, quod ad hoc, quod nomina sint svnonima, 
+          <lb ed="#G" n="56"/>non sufficit, quod imponantur ab eodem, nisi illud idem 
+          <lb ed="#G" n="57"/>accipiatur sub eadem ratione. Propter quod ait
+          conmen<lb ed="#G" n="58" break="no"/>tator 12. methaphysicae, quod vita, &amp; scientia, non
+          dicu<lb ed="#G" n="59" break="no"/>tur svnonime de Deo, &amp; hoc pro tanto, quia quamuit 
+          <lb ed="#G" n="60"/>sint idem in Deo, realiter tamen differunt secundum
+          ra<lb ed="#G" n="61" break="no"/>tionem: sic in proposito quamuis in diuinis generatio
+          acti<lb ed="#G" n="62" break="no"/>ua, &amp; paternitas sint idem secundum rem, differunt
+          ta<lb ed="#G" n="63" break="no"/>men secundum rationem &amp;c 
+        </p>
+        <p xml:id="HuYgTa-213806-d1e1071">
+          <lb ed="#G" n="64"/>
+          <pc type="indent"/>Conclusio secunda est, quod expressio actus
+          baptixan<lb ed="#G" n="65" break="no"/>di, &amp; personae bapticatae est necessaria pro integritate for 
+          <lb ed="#G" n="66"/>mae baptismi 
+        </p>
+        <p xml:id="HuYgTa-213806-d1e1082">
+          <lb ed="#G" n="67"/>
+          <pc type="indent"/>Quia illa expressio est de necessitate formae
+          baptis<lb ed="#G" n="68" break="no"/>mi, sine qua ille, qui in aqua baptixando mergitur, non 
+          <lb ed="#G" n="69"/>est baptixatus: sed praedicta expressio est huiusmodi: quia 
+          <lb ed="#G" n="70"/>ex tra. de baptismo &amp; eius effectu, dicit Alexandet Papa, 
+          <lb ed="#G" n="71"/>si quis puerum ter immerserit in nomine patris, &amp; filij, 
+          <lb ed="#G" n="72"/>&amp; spiritus sancti, &amp; non dixerit, ego te baptixo in nomine 
+          <lb ed="#G" n="73"/>patris, &amp; filij, &amp; spiritus sancti amen: non est puer bapticatus
+        </p>
+        <p xml:id="HuYgTa-213806-d1e1102">
+          <!--615.xml-->
+          <cb ed="#G" n="b"/>
+          <lb ed="#G" n="74"/>Praeterea, illa expressio ponitur in forma tiadiuas 
+          <lb ed="#G" n="75"/>Christo: nam per hoc, quod dicit, baptixantes,
+          exprimi<lb ed="#G" n="76" break="no"/>tur actus: per hoc vero, quod dicit, eos, exprimuntur
+          per<lb ed="#G" n="77" break="no"/>sonae baptixandae. 
+        </p>
+        <p xml:id="HuYgTa-213806-d1e1119">
+          <lb ed="#G" n="78"/>
+          <pc type="indent"/>Sed contra istud arguitur a quibusdam sic 
+          <lb ed="#G" n="79"/>1 Illa oratio cum dicitur, ego baptixo te, &amp;csisuectai 
+          <lb ed="#G" n="80"/>ad formam baptismi, vel hoc conuenit sibi, vt est falsa, el 
+          <lb ed="#G" n="81"/>vt est vera. Ista patet per sufficientem diuifionem. Non 
+          <lb ed="#G" n="82"/>vt falsa: quia falsitas orationis non potest esse caus 
+          <lb ed="#G" n="83"/>veritatis, quae est in sacramentis. Nec vt vera: quia ven 
+          <lb ed="#G" n="84"/>tas orationis est posterior significato per eam: Nam al 
+          <lb ed="#G" n="85"/>eo, quod res est, vel non est, oratio dicitur vera, uel falsi 
+          <lb ed="#G" n="86"/>vt patet primo perihermenias: sed causa non est posterio 
+          <lb ed="#G" n="87"/>eo, cuius est causa 
+        </p>
+        <p xml:id="HuYgTa-213806-d1e1145">
+          <lb ed="#G" n="88"/>2 Praeterea, sicut Christus praecepit baptix are: siceua 
+          <lb ed="#G" n="89"/>praecepit docere, dicens. <quote xml:id="HuYgTa-213806-Qd1e1151">Ite, &amp; docete omnes gentes, ho 
+            <lb ed="#G" n="90"/>tixantes cos in nomine patris</quote>, &amp;c. sed ad hoc, quod ali 
+          <lb ed="#G" n="91"/>quis saticfaciat praecepto Christi docendo, non est necesse  
+          <lb ed="#G" n="92"/>quod exprimat actum, &amp; eum, quem docet: dicens, ego 
+          <lb ed="#G" n="93"/>loceo te: ergo a simili ad hoc, quod satisfaciat praecepto 
+          <lb ed="#G" n="94"/>Christi baptixando, non videtur esse necesse, quod dicat,  
+          <lb ed="#G" n="95"/>go baptixo te: ergo &amp;c.
+        </p>
+        <p xml:id="HuYgTa-213806-d1e1168">
+          <lb ed="#G" n="96"/>3 Praeterea, arguunt Qraeci sic. Prustra diriguntur ven 
+          <lb ed="#G" n="97"/>pa ad eum, qui nullo modo potest apprendere, vel inteli 
+          <lb ed="#G" n="98"/>lipere ea: sed paruulus qui baptixatur, nullo modoel 
+          <lb ed="#G" n="99"/>capax sermonis: ergo frustra dicit bapria ans: ego bapurs 
+          <lb ed="#G" n="100"/>te, dirigendo sermonem ad paruulum. 
+        </p>
+        <p xml:id="HuYgTa-213806-d1e1181">
+          <lb ed="#G" n="101"/>
+          <pc type="indent"/>Praeterea, quod ipso facto sufficienter exprimitus 
+          <lb ed="#G" n="102"/>hoc non est necesse verbis exprimi: sed actus baptimm 
+          <lb ed="#G" n="103"/>sufficienter exprimitur ipso facto: ergo &amp;c. 
+        </p>
+        <p xml:id="HuYgTa-213806-d1e1192">
+          <lb ed="#G" n="104"/>
+          <pc type="indent"/>Praeterea, quod sine prolatione intelligitur, hoc in 
+          <lb ed="#G" n="105"/>utiler prosertur. &amp; per consequens si proferatur, videti 
+          <lb ed="#G" n="106"/>esse nugatio, sed verbum primae personae semper dati 
+          <lb ed="#G" n="107"/>telligi pronomen primae personae : ergo sine necessita 
+        </p>
+        <p xml:id="HuYgTa-213806-d1e1205">
+          <lb ed="#G" n="108"/>
+          <pc type="indent"/>raemittitur Iy ego, cum dicitur, ego baptixo &amp; 
+          <lb ed="#G" n="109"/>Sed antequam respondeam ad haec, pono alias di 
+          <lb ed="#G" n="110"/>conclusiones: quia aliqualiter faciunt ad horum solutio 
+        </p>
+        <p xml:id="HuYgTa-213806-d1e1217">
+          <lb ed="#G" n="111"/>
+          <pc type="indent"/>Est igitur tertia conclusio; quod licet expressio actu 
+          <lb ed="#G" n="112"/> personae baptixatae necessario requiratur ad formm 
+          <lb ed="#G" n="113"/>baptismi: tamen modus exprimendi vnus, &amp; determus 
+          <lb ed="#G" n="114"/>tus non est de necessitate talis formae : quia siue prod 
+          <lb ed="#G" n="115"/>tatur participialiter, sicut ego sum baptitans temm 
+          <lb ed="#G" n="116"/>mine patris, &amp; filij &amp; spiritus sancti: siue verbaliter onm 
+          <lb ed="#G" n="117"/>tiue, sicut dicunt Qraeci, baptixetur seruus Christi innd 
+          <lb ed="#G" n="118"/>mine patris, &amp; filij, &amp; spiritus sancti: siue verbaliterm 
+          <lb ed="#G" n="119"/>dicatiue, sicut dicitur in Homana Ecclesia, ego bantixm 
+          <lb ed="#G" n="120"/>&amp;c. nihil refert quantum ad veritate baptiimi, &amp; prem 
+          <lb ed="#G" n="121"/>sequens quantum ad necessitatem formae, sine quand 
+          <lb ed="#G" n="122"/>otest esse verus baptismus. Multum tamen refert qui 
+          <lb ed="#G" n="123"/>tum ad baptixantem, vt superius dixi: quia propter hos 
+          <lb ed="#G" n="124"/>iusmodi nouas adinuentiones, &amp; propter hoc, quodnod 
+          <lb ed="#G" n="125"/>obediret statuto sacrosanctae Homanae Ecclesiae illem 
+          <lb ed="#G" n="126"/>aliter proferret, quam Ecclesia instituit, grauissime po 
+          <lb ed="#G" n="127"/>caret: &amp; merito priuari deberet officio, &amp; benefico 
+        </p>
+        <p xml:id="HuYgTa-213806-d1e1259">
+          <lb ed="#G" n="128"/>
+          <pc type="indent"/>Quarta conclusio est, quod hoc pronomen egon 
+          <lb ed="#G" n="129"/>est necessario requisitum ad praedictam formam baptio 
+          <lb ed="#G" n="130"/>peccaret tamen qui ipsum omitteret, sicut iam predim 
+          <lb ed="#G" n="131"/>est. Et quia istae duae conclusiones patent ex dictis inpm 
+          <lb ed="#G" n="132"/>mo articulo, ideo causa breuitatis hic transeo,  
+          <lb ed="#G" n="133"/>Ad primum argumentum contra secundam conclid 
+          <lb ed="#G" n="134"/>nem dicendum, quod per accidens est, hanc orationdi 
+          <lb ed="#G" n="135"/>ego baptico te, &amp;c. considerare quantum ad ventatel 
+          <lb ed="#G" n="136"/>vel falsitatem, vt spectat ad formam baptismi: sed pos 
+          <lb ed="#G" n="137"/>est considerare hoc, quod Deus sic instituit. Si enim Deo 
+          <lb ed="#G" n="138"/>ustituisset, quod tota forma baptismi consisteret iah 
+          <lb ed="#G" n="139"/>vllaba, EA: ita vere baptraaret aliquis alium immegm 
+          <lb ed="#G" n="140"/>do, dicens, EA: sicut modo dicendo formam pro nuo 
+          <lb ed="#G" n="141"/>Deo institutam. quamuis DA nec significet venm 
+          <lb ed="#G" n="142"/>nec falsum 
+        </p>
+        <p xml:id="HuYgTa-213806-d1e1296">
+          <lb ed="#G" n="143"/>
+          <pc type="indent"/>Ad secundum dicendum, quod quia in collationese 
+          <lb ed="#G" n="144"/>cramenti requiritur intentio ministri conferentis sam 
+          <lb ed="#G" n="145"/>mentum, &amp; baptismus est sacramentum necessitatis ud 
+          <lb ed="#G" n="146"/>ic est institutum, quod omnia exprimantur in baptio 
+          <!--616.xml-->
+          <pb ed="#G" n="P2_73-r"/>
+          <cb ed="#G" n="a"/>
+          <lb ed="#G" n="1"/>quae intentionem ministri determinant ad actum, quo con 
+          <lb ed="#G" n="2"/>fertur sacramentum. Non est autem hoc necesse in aliis 
+          <lb ed="#G" n="3"/>fieri, in quibus non est tantum periculum, si defuerit
+          in<lb ed="#G" n="4" break="no"/>tentio agentis: ideo non est simile de docere, &amp; baptixare. 
+        </p>
+        <p xml:id="HuYgTa-213806-d1e1324">
+          <lb ed="#G" n="5"/>
+          <pc type="indent"/>Ad tertium dicendum, quod posito maiorem esse
+          ve<lb ed="#G" n="6" break="no"/>ram, loquendo de verbis, quae proferuntur tantummodo 
+          <lb ed="#G" n="7"/>causa significationis: tamen non est vera, loquendo de 
+          <lb ed="#G" n="8"/>verbis quae proferuntur causa sanctificandi, vel benedicen 
+          <lb ed="#G" n="9"/>di. Vt sic enim quandoque proferuntur verba etiam ad 
+          <lb ed="#G" n="10"/>creaturas insensibiles, dicimus enim. Exorcixo te
+          crea<lb ed="#G" n="11" break="no"/>tura salis 
+        </p>
+        <p xml:id="HuYgTa-213806-d1e1344">
+          <lb ed="#G" n="12"/>
+          <pc type="indent"/>Ad quartum dicendum, quod ad maiorem
+          determina<lb ed="#G" n="13" break="no"/>tionem intentionis ministri ille actus non debet solum 
+          <lb ed="#G" n="14"/>exprimi facto, sed ctiam verbo 
+        </p>
+        <p xml:id="HuYgTa-213806-d1e1355">
+          <lb ed="#G" n="15"/>
+          <pc type="indent"/>Ad quintum dicendum, quod maior non est vera:
+          qui<lb ed="#G" n="16" break="no"/>saepe ad maiorem euidentiam aliquid exprimitur, quod 
+          <lb ed="#G" n="17"/>tamen posset intelligi, dato, quod non exprimeretur. 
+        </p>
+        <p xml:id="HuYgTa-213806-d1e1367">
+          <lb ed="#G" n="18"/>
+          <pc type="indent"/>ARTICVLVS Iii. 
+          <lb ed="#G" n="19"/>Vtrum quaelibet matatio facta circa verba in baptij 
+          <lb ed="#G" n="20"/>
+          <pc type="indent"/>mo vequsita impediat sacramentum.
+        </p>
+        <p xml:id="HuYgTa-213806-d1e1380">
+          <lb ed="#G" n="21"/>QVANTVM ad tertium articulum est aduertendum; 
+          <lb ed="#G" n="22"/>A quod sicut in rebus corporalibus secundum qua 
+          <lb ed="#G" n="23"/>tuor genera contingunt mutationes, puta, in substantia 
+          <lb ed="#G" n="24"/>quantitate, qualitate, &amp; vbi: sic circa verba baptismi fier 
+          <lb ed="#G" n="25"/>mutationem potest intelligi quattuor modis. Vno modi 
+          <lb ed="#G" n="26"/>secundum substantiam, scilicet quod illa verba omnia 
+          <lb ed="#G" n="27"/>vel allqua dimittantur, &amp; alia ponantur. Et hoc dupliciter 
+        </p>
+        <p xml:id="HuYgTa-213806-d1e1398">
+          <lb ed="#G" n="28"/>
+          <pc type="indent"/>Vno modo, manente eadem significatione, &amp; eoden 
+          <lb ed="#G" n="29"/>modo significandi sicut fit, cum forma verborum de
+          la<lb ed="#G" n="30" break="no"/>tino transfertur in gallicum, vel in verba alicuius
+          alte<lb ed="#G" n="31" break="no"/>rius idiomatis: &amp; tunc nulla fiet mutatio circa baptismum; 
+          <lb ed="#G" n="32"/>quia in quacumque lingua forma verborum a Christo
+          tra<lb ed="#G" n="33" break="no"/>nita &amp; ab Ecclesia determinata proferatur, vere confer 
+          <lb ed="#G" n="34"/>tur baptismus: quia tunc non mutatur forma intelligib  
+          <lb ed="#G" n="35"/>lis, sed solum forma vocalis, seu sensibilis. Alio modo
+          si<lb ed="#G" n="36" break="no"/>gnificatione mutata, puta, si aliquis baptixaret in
+          nomi<lb ed="#G" n="37" break="no"/>ne Dei, &amp; sanctae Mariae virginis : Vel mutato modo
+          si<lb ed="#G" n="38" break="no"/>gnificandi, vt si baptixaret in nomine genitoris, &amp; geniti 
+          <lb ed="#G" n="39"/>&amp; paracleti, scu flaminis almi: tunc non est baptismus. Et 
+          <lb ed="#G" n="40"/>istud est verum quantum ad nomina diuinarum persona 
+          <lb ed="#G" n="41"/>rum, sed quantum ad verba exprimentia actum, &amp; perso 
+          <lb ed="#G" n="42"/>nam baptixatam sufficit, quod maneat eade significatio 
+          <lb ed="#G" n="43"/>non obstante, quod modus significandi mutetur, sicut di 
+          <lb ed="#G" n="44"/>ctum est in articulo secundo 
+        </p>
+        <p xml:id="HuYgTa-213806-d1e1440">
+          <lb ed="#G" n="45"/>
+          <pc type="indent"/>Secundo modo potest fieri mutatio modo quantitatis. 
+          <lb ed="#G" n="46"/>puta, aliquid addendo, &amp; nihil subtrahendo: vel aliquis  
+          <lb ed="#G" n="47"/>subtrahendo, &amp; nihil reponendo. Primum potest fieri tri 
+          <lb ed="#G" n="48"/>pliciter. Vno modo sic, quod illud additum implicat con 
+          <lb ed="#G" n="49"/>dicionem non astantem, puta, si simplex sacerdos diceret,  
+          <lb ed="#G" n="50"/>ego baptixo te, si sum Episcopus: vel implicat aliquid di 
+          <lb ed="#G" n="51"/>strahens, vel diminuens diuinae personae dignitatem, set 
+          <lb ed="#G" n="52"/>tollens diuinarum personarum aequalitatem, sicut Arria 
+          <lb ed="#G" n="53"/>ni baptixabant in nomine patris maioris, &amp; filij minoris 
+          <lb ed="#G" n="54"/>Tertio modo, quod illud additum, nec sit distrahens, nec 
+          <lb ed="#G" n="55"/>diminuens: tamen ille, qui addit, intendit nouam for 
+          <lb ed="#G" n="56"/>mam introducere, non credens formam hactenus
+          obser<lb ed="#G" n="57" break="no"/>tam esse sufficientem, &amp; efficacem. Et his tribus modi 
+          <lb ed="#G" n="58"/>semper tollitur veritas baptismi, &amp; per consequens sic ba 
+          <lb ed="#G" n="59"/>ptixatus, est rebaptix andus. Si autem huiusmodi additio 
+          <lb ed="#G" n="60"/>fit ex addentis simplicitate, vel deuotione: tunc verus es 
+          <lb ed="#G" n="61"/>baptismus, puta, si aliquis sine fraude diceret, ego
+          bapti<lb ed="#G" n="62" break="no"/>go te in nomine patris omnipotentis, &amp;c 
+        </p>
+        <p xml:id="HuYgTa-213806-d1e1484">
+          <lb ed="#G" n="63"/>
+          <pc type="indent"/>Si autem mutatur quantitas subtrahendo, &amp; nihil
+          re<lb ed="#G" n="64" break="no"/>ponendo, vel tunc subtrahitur aliqua dictio necessario re 
+          <lb ed="#G" n="65"/>quisita ad veram formam baptismi, vel non necessario re 
+          <lb ed="#G" n="66"/>quisita. Primo modo non est verus baptismus. Secundo 
+          <lb ed="#G" n="67"/>modo est verus baptismus, licet grauiter peccet, qui sub¬ 
+          <!--616.xml-->
+          <cb ed="#G" n="b"/>
+          <lb ed="#G" n="68"/>trahit, vt superius est declaratum. 
+        </p>
+        <p xml:id="HuYgTa-213806-d1e1506">
+          <lb ed="#G" n="69"/>
+          <pc type="indent"/>Nota tamen, quod si subtractio filij vel spiritus sancti 
+          <lb ed="#G" n="70"/>prolato nomine patris, non esset voluntaria, puta, vel 
+          <lb ed="#G" n="71"/>quia baptixatus moritur, vel baptixans non potest
+          vlte<lb ed="#G" n="72" break="no"/>rius loqui: tunc dicunt multi doctores, quod verus est ba 
+          <lb ed="#G" n="73"/>ptismus non obstante praedicta omissione. Et in hoc
+          ca<lb ed="#G" n="74" break="no"/>iu dicunt esse intelligendam auctoritatem <name xml:id="HuYgTa-213806-Nd1e1523" ref="#Ambrose">Ambrosij</name> sut 
+          <lb ed="#G" n="75"/>perius adductam articulo secundo, argumento primo
+          con<lb ed="#G" n="76" break="no"/>tra primam conclusionem: Tamen forte tutius esset,
+          im<lb ed="#G" n="77" break="no"/>edimento sic interueniente ex parte bapticantis, quo 
+          <lb ed="#G" n="78"/>illud consilium teneretur, quod traditur <ref xml:id="HuYgTa-213806-Rd1e1535">extra de 
+            baptis<lb ed="#G" n="79" break="no"/>mo, &amp; eius effectu</ref>, vbi dicitur. De quibus est dubium, at 
+          <lb ed="#G" n="80"/>sint baptixati baptixentur, his verbis praemissis. Si ba 
+          <lb ed="#G" n="81"/>ptixatus es: non te baptixo: sed si nondum baptixatus 
+          <lb ed="#G" n="82"/>es ego te baptixo in nomine patris, &amp; filij, &amp; spiritu 
+          <lb ed="#G" n="83"/>sancti: amen¬ 
+        </p>
+        <p xml:id="HuYgTa-213806-d1e1550">
+          <lb ed="#G" n="84"/>
+          <pc type="indent"/>Tertio modo, potest fieri mutatio modo qualitatis, pu 
+          <lb ed="#G" n="85"/>ta, verba incorrecte proferendo vel frangendo, vel con 
+          <lb ed="#G" n="86"/>rumpendo. Et hoc dupliciter, scilicet vel voluntarie, &amp; 
+          <lb ed="#G" n="87"/>malitiose: tunc non teneret taliter faciens formam ab 
+          <lb ed="#G" n="88"/>Ecclesia obseruatam, &amp; per consequens non bapticaret 
+          <lb ed="#G" n="89"/>Vel ex ignorantia, sine ex impotentia. Et hoc adhuc
+          du<lb ed="#G" n="90" break="no"/>pliciter: quia, vel tanta est corruptio verbi, vel verbo¬¬ 
+          <lb ed="#G" n="91"/>rum, quod mutatur significatio, vel non mutatur
+          signi<lb ed="#G" n="92" break="no"/>ficatio. Si non mutatur: tunc verum est sacramentum, 
+          <lb ed="#G" n="93"/>debent tamen tales, qui propter linguae impedimentum 
+          <lb ed="#G" n="94"/>quandoque balbutiendo, sincopant verba sacramenti, 
+          <lb ed="#G" n="95"/>cauere quantum possunt: quia si hoc non fecerint, graui 
+          <lb ed="#G" n="96"/>ter delinquunt. Si autem mutatur significatio, verbi gra 
+          <lb ed="#G" n="97"/>tia, cum deberet dicere, patris, dicit patria: tunc, vel est 
+          <lb ed="#G" n="98"/>tanta corruptio, quod non solum mutatur significatio 
+          <lb ed="#G" n="99"/>quantum ad primam nominis impositionem, sed etiam 
+          <lb ed="#G" n="100"/>quantum ad vsus accommodationem, vel dato, quod mu 
+          <lb ed="#G" n="101"/>tetur significatio quantum ad nominis impositionem 
+          <lb ed="#G" n="102"/>manet tamen quantum ad vsus accommodationem,
+          pu<lb ed="#G" n="103" break="no"/>ta: quia adhuc communiter intelligitur, quid intendit 
+          <lb ed="#G" n="104"/>ille, qui loquitur. Primo modo non est verus baptismus,  
+          <lb ed="#G" n="105"/>sed secundo modo est verus baptismus: quod patet di 
+          <lb ed="#G" n="106"/>conse. dist. 4. c retulerunt, vbi dicitur de quodam sacerdo 
+          <lb ed="#G" n="107"/>te, quod cum Qraecus esset, &amp; officiaret latinam
+          eccle<lb ed="#G" n="108" break="no"/>siam, baptixauit in nomine, patria, &amp; filia, &amp; spiritu
+          san<lb ed="#G" n="109" break="no"/>cta. Et respondet ibidem Vacharias Papa dicens, quod s 
+          <lb ed="#G" n="110"/>hoc fecit ex imperitia linguae Latinae non intendeni 
+          <lb ed="#G" n="111"/>aliquem errorem inducere: non erant rebapticandi, 
+          <lb ed="#G" n="112"/>quos bapticauit 
+        </p>
+        <p xml:id="HuYgTa-213806-d1e1618">
+          <lb ed="#G" n="113"/>
+          <pc type="indent"/>Quarto modo, potest fieri mutatio ad instar locali 
+          <lb ed="#G" n="114"/>mutationis. Et hoc dupliciter Vno modo per
+          tran<lb ed="#G" n="115" break="no"/>positonem. Alio modo per interpositionem. Primi 
+          <lb ed="#G" n="116"/>potest fieri dupliciter. Vno modo ex certa malitia, &amp;
+          ta<lb ed="#G" n="117" break="no"/>liter faciens non baptixat. Alio modo, ex simplicitate, 
+          <lb ed="#G" n="118"/>&amp; hoc dupliciter: quia, vel est talis transposito, quae mu 
+          <lb ed="#G" n="119"/>tat sententiam orationis, puta, si diceret aliquis, ego 
+          <lb ed="#G" n="120"/>atris baptixo te, &amp; filij, &amp; in nomine spiritus sancti:
+          tun<lb ed="#G" n="121" break="no"/>nec talis baptixat. 
+        </p>
+        <p xml:id="HuYgTa-213806-d1e1642">
+          <lb ed="#G" n="122"/>
+          <pc type="indent"/>Si autem ex huiusmodi transpositone non mutatur 
+          <lb ed="#G" n="123"/>sententia orationis, tunc verus est baptismus, puta, si
+          di<lb ed="#G" n="124" break="no"/>ceret: ego baptixo te in nomine filij, &amp; patris, &amp; spiritus 
+          <lb ed="#G" n="125"/>sancti. Si autem fit interposito, puta, dicendo: ego
+          ba<lb ed="#G" n="126" break="no"/>tivo te, ista aqua est nimis frigida, in nomine patris, &amp;  
+          <lb ed="#G" n="127"/>filij, &amp; spiritus sancti, hoc potest fieri dupliciter; quia, 
+          <lb ed="#G" n="128"/>vel ita longa fit interposito, quod modo humano
+          me<lb ed="#G" n="129" break="no"/>rito iudicatur, quod actio baptismalis sit penitus
+          di<lb ed="#G" n="130" break="no"/>scontinuata: tunc forma verborum debet reincipi, 
+          <lb ed="#G" n="131"/>alias non esset verus baptismus, vel non interponitur tan 
+          <lb ed="#G" n="132"/>ta mora, quod secundum humanam consuetudinem
+          a<lb ed="#G" n="133" break="no"/>ctus baptixandi dicatur, vel sit discontinuatus, tunc non 
+          <lb ed="#G" n="134"/>obstante huiusmodi interpositone, verus esset baptismus,  
+          <lb ed="#G" n="135"/>dummodo talis interposito non fiat in fraudem, vel ex 
+          <lb ed="#G" n="136"/>certa malitia. Veritas in istis clausulis expressa
+          commu<lb ed="#G" n="137" break="no"/>nius tenetur, quamuis in multis hic positis aliqui
+          te<lb ed="#G" n="138" break="no"/>neant oppositum: quorum motiua, quia non
+          viden<lb ed="#G" n="139" break="no"/>tur alicuius ponderis: ideo causa breuitatis ea non 
+          <lb ed="#G" n="140"/>adduxi.
+        </p>
+        <p xml:id="HuYgTa-213806-d1e1688">
+          <!--617.xml-->
+          <pb ed="#G" n="P2_73-v"/>
+          <cb ed="#G" n="a"/>
+          <lb ed="#G" n="1"/>ARTICVLVS LIII 
+          <lb ed="#G" n="2"/>
+          <pc type="indent"/>De materia baptismi. 
+          <lb ed="#G" n="3"/>SVANTVM ad quartum articulum dicendum, quod 
+          <lb ed="#G" n="4"/>etalis debet esse materia sacramenti, quod
+          secun<lb ed="#G" n="5" break="no"/>dum sui naturam aliquo modo significet, siue representet 
+          <lb ed="#G" n="6"/>effectum sacramenti: sed effectum baptismi maxime
+          re<lb ed="#G" n="7" break="no"/>praesentat aqua: ergo elementum aquae est congrua eius 
+          <lb ed="#G" n="8"/>materia. Maior patet. Probatio minoris: quia triplex
+          vi<lb ed="#G" n="9" break="no"/>detur esse effectus gratiae baptismalis: nam per gratiam  
+          <lb ed="#G" n="10"/>baptismi fomes peccati aliqualiter refrenatur, culpa
+          ex<lb ed="#G" n="11" break="no"/>urgatur: &amp; mens illuminatur. Aqua vero ex sui natura 
+          <lb ed="#G" n="12"/>habet triplice proprietatem tribus praedictis aliquo
+          mo<lb ed="#G" n="13" break="no"/>do correspodentem, scilicet frigiditatem, humiditatem,  
+          <lb ed="#G" n="14"/>&amp; diaphaneitatem. Per primam proprietatem aqua
+          baptis<lb ed="#G" n="15" break="no"/>mi significat concupiscentiae mitigationem; per secundam 
+          <lb ed="#G" n="16"/>culpae purgationem: &amp; per tertiam mentis
+          illuminatio<lb ed="#G" n="17" break="no"/>nem. Et forte ratione istorum trium effectuum gratiae 
+          <lb ed="#G" n="18"/>baptismalis tribus vicibus mergitur in aqua, hos tres effo 
+          <lb ed="#G" n="19"/>ctus consequitur ipse baptixatus. 
+        </p>
+        <p xml:id="HuYgTa-213806-d1e1740">
+          <lb ed="#G" n="20"/>
+          <pc type="indent"/>Vtrum autem de necessitate baptismi sit illa trina 
+          <lb ed="#G" n="21"/>immersio.  
+        </p>
+        <p xml:id="HuYgTa-213806-d1e1749">
+          <lb ed="#G" n="22"/>
+          <pc type="indent"/>Dico, quod non. vbi tamen consuetudo est, quod
+          ba<lb ed="#G" n="23" break="no"/>ptixandus ter immergatur, ibi grauiter peccaret, qui illam 
+          <lb ed="#G" n="24"/>consuetudinem non obseruaret. In casu tamen potest ex 
+          <lb ed="#G" n="25"/>cusari, puta si baptix andus est adeo debilis, quod pericu 
+          <lb ed="#G" n="26"/>losum esset toties ipsum immergi; tunc enim sufficit vna 
+          <lb ed="#G" n="27"/>immersio, vel etiam sola aquae aspersio super ipsum ba 
+          <lb ed="#G" n="28"/>ptixandum 
+        </p>
+        <p xml:id="HuYgTa-213806-d1e1770">
+          <lb ed="#G" n="29"/>
+          <pc type="indent"/>Ad argumentum principale dicendum, quod forma 
+          <lb ed="#G" n="30"/>illa verborum non debeat in baptismo Christi, exprimi 
+          <lb ed="#G" n="31"/>quia si fuisset expressa: tunc Christus fuisset baptixatus in 
+          <lb ed="#G" n="32"/>nomine sui ipsius. Etiam non fuit consonum rationi, quod 
+          <lb ed="#G" n="33"/>trinitas ibi humana voce exprimeretur: quia euidentius 
+          <lb ed="#G" n="34"/>ibi apparuit, quam si vocaliter fuisset expressa: nam patei 
+          <lb ed="#G" n="35"/>ibi apparuit in voce, filius in carne, spiritus sanctus in
+          co<lb ed="#G" n="36" break="no"/>lumbae specle; vt scribitur in euangelio.  
+        </p>
+      </div>
+    </body>
+  </text>
 </TEI>

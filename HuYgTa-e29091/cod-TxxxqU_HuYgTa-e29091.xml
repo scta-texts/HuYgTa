@@ -1,107 +1,107 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Circa textum</title>
-            <author ref="#ThomasStrasbourg">Thomas of Strasbourg</author>
-            <respStmt>
-               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
-               <resp>Transcription Editor</resp>
-               <resp>TEI Encoder</resp>
-            </respStmt>
-         </titleStmt>
-         <editionStmt>
-            <edition n="0.0.0-dev">
-               <title>Circa textum</title>
-               <date when="2020-11-26">November 26, 2020</date>
-            </edition>
-         </editionStmt>
-         <publicationStmt>
-            <authority>SCTA</authority>
-            <availability status="free">
-               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
-               </p>
-            </availability>
-         </publicationStmt>
-         <sourceDesc>
-            <listWit>
-               <witness xml:id="G" n="cod-TxxxqU">Genoa 1585</witness>
-            </listWit>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
-         <editorialDecl>
-            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
-       guidelines for a diplomatic edition.</p>
-         </editorialDecl>
-      </encodingDesc>
-      <revisionDesc status="draft">
-         <listChange>
-            <change when="2020-11-26" status="draft" n="0.0.0">
-               <p>Created file for the first time.</p>
-            </change>
-         </listChange>
-      </revisionDesc>
-   </teiHeader>
-   <text xml:lang="la">
-      <front>
-         <div xml:id="starts-on">
-            <pb ed="#G" n="39-r"/>
-            <cb ed="#G" n="a"/>
-         </div>
-      </front>
-      <body>
-         <div xml:id="HuYgTa-e29091"><!-- HuYgTa-l1d4ct1 -->
-            <head xml:id="HuYgTa-e29091-Hd1e108">Circa textum</head>
-            <p xml:id="HuYgTa-e29091-d1e111">
-      <!--116.xml-->
-               <pb ed="#G" n="39-r"/>
-               <cb ed="#G" n="a"/>
-               <lb ed="#G" n="1"/>DISTINCTIO IIII
-      <lb ed="#G" n="2"/>Dilucida &amp; aperta duuisio secundae particulae prima 
-      <lb ed="#G" n="3"/>principalis huius sibri, atque non obscura
-      praesen<lb ed="#G" n="4" break="no"/>us distinctionis subditisio n qua quidem
-      Ma<lb ed="#G" n="5" break="no"/>gister auspicatur sermonem de Deo 
-      <lb ed="#G" n="6"/>quo ad personalem originem, 
-      <lb ed="#G" n="7"/>seu distinctionem. 
-      <lb ed="#G" n="8"/>IC oritur quaestio &amp;c. Postquam 
-      <lb ed="#G" n="9"/>
-               <pc type="indent"/>magister determinauit de peo quam 
-      <lb ed="#G" n="10"/>tum ad essentiae diuinae vnitatem,  
-      <lb ed="#G" n="11"/>&amp; personatum trinitatem, hic inci 
-      <lb ed="#G" n="12"/>it tractare de eo quantum ad per 
-      <lb ed="#G" n="13"/>sonalem originem, &amp; per
-      conse<lb ed="#G" n="14" break="no"/>quens quantum ad distinctionis
-      a<lb ed="#G" n="15" break="no"/>lietatem. Et diuiditur in duas
-      par<lb ed="#G" n="16" break="no"/>tes, quia primo determinat
-      magi<lb ed="#G" n="17" break="no"/>ster de generatione filij. Secundo de processione spiritu 
-      <lb ed="#G" n="18"/>sancti ibi, Nunc post filij aeternitate. Prima in duas: quia 
-      <lb ed="#G" n="19"/>primo tractat de filij generatione. Secundo de
-      gencran<lb ed="#G" n="20" break="no"/>tis, &amp; geniti coaeterna duratione ibi, Nunc ad distinctio 
-      <lb ed="#G" n="21"/>nem personarum. Prima in duas: quia primo tractat de ge 
-      <lb ed="#G" n="22"/>neratione diuina. Secundo de potentia generatiua ibi, Hio 
-      <lb ed="#G" n="23"/>solet quaeri a quibusdam Prima in duas: quia primo tracta. 
-      <lb ed="#G" n="24"/>de generante, &amp; genito. S cundo de generandi modo ibi, 
-      <lb ed="#G" n="25"/>Praeterea quaeri solet. Prima in duas secudum quod duas 
-      <lb ed="#G" n="26"/>quaestiones mouet de termino diuinae generationis. Qua 
-      <lb ed="#G" n="27"/>tum prima est, vtrum Deus genuit Deum. Secunda vtrum 
-      <lb ed="#G" n="28"/>diuina essentia possit dici gignens, vel genita. Secundam 
-      <lb ed="#G" n="29"/>questionem mouet circa principium quintae distinctionis 
-      <lb ed="#G" n="30"/>ibi, Post haec quaeritur. Prima qiuiditur in quattuor par 
-      <lb ed="#G" n="31"/>tes. Nam primo mouet quaestionem. Secundo arguit ad 
-      <lb ed="#G" n="32"/>eam. Tertio respondet ad quaestionem. Et quarto ponit 
-      <lb ed="#G" n="33"/>argumenti solutionem. Secunda ibi, Si enim Deus genuit 
-      <lb ed="#G" n="34"/>Deum &amp;c. Tertia ibi, Ad quod respondentes &amp;c.
-      Quar<lb ed="#G" n="35" break="no"/>ta ibi, Nunc ad praemissam quaestionem. Istarum tertia 
-      <lb ed="#G" n="36"/>pars diuiditur in tres partes: quia primo ponit magister 
-      <lb ed="#G" n="37"/>suam responsionem. Secundo contra responsionem addit 
-      <lb ed="#G" n="38"/>cit quorundam garrulorum obiectionem, &amp; respondei 
-      <lb ed="#G" n="39"/>ad eam. Et tertio tollit cirta istam materiam quorundam 
-      <lb ed="#G" n="40"/>etrorem, Secunda ibi, Sed adhuc opponunt. Tertia ibi; Qui 
-      <lb ed="#G" n="41"/>dam tamen veritatis aduersarij. Hic quaero hac quaestionem 
-    </p>
-         </div>
-      </body>
-   </text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Circa textum</title>
+        <author ref="#ThomasStrasbourg">Thomas of Strasbourg</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Circa textum</title>
+          <date when="2020-11-26">November 26, 2020</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="G" n="cod-TxxxqU">Genoa 1585</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2020-11-26" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#G" n="39-r"/>
+        <cb ed="#G" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="HuYgTa-e29091"><!-- HuYgTa-l1d4ct1 -->
+        <head xml:id="HuYgTa-e29091-Hd1e108">Circa textum</head>
+        <p xml:id="HuYgTa-e29091-d1e111">
+          <!--116.xml-->
+          <pb ed="#G" n="39-r"/>
+          <cb ed="#G" n="a"/>
+          <lb ed="#G" n="1"/>DISTINCTIO IIII
+          <lb ed="#G" n="2"/>Dilucida &amp; aperta duuisio secundae particulae prima 
+          <lb ed="#G" n="3"/>principalis huius sibri, atque non obscura
+          praesen<lb ed="#G" n="4" break="no"/>us distinctionis subditisio n qua quidem
+          Ma<lb ed="#G" n="5" break="no"/>gister auspicatur sermonem de Deo 
+          <lb ed="#G" n="6"/>quo ad personalem originem, 
+          <lb ed="#G" n="7"/>seu distinctionem. 
+          <lb ed="#G" n="8"/>IC oritur quaestio &amp;c. Postquam 
+          <lb ed="#G" n="9"/>
+          <pc type="indent"/>magister determinauit de peo quam 
+          <lb ed="#G" n="10"/>tum ad essentiae diuinae vnitatem,  
+          <lb ed="#G" n="11"/>&amp; personatum trinitatem, hic inci 
+          <lb ed="#G" n="12"/>it tractare de eo quantum ad per 
+          <lb ed="#G" n="13"/>sonalem originem, &amp; per
+          conse<lb ed="#G" n="14" break="no"/>quens quantum ad distinctionis
+          a<lb ed="#G" n="15" break="no"/>lietatem. Et diuiditur in duas
+          par<lb ed="#G" n="16" break="no"/>tes, quia primo determinat
+          magi<lb ed="#G" n="17" break="no"/>ster de generatione filij. Secundo de processione spiritu 
+          <lb ed="#G" n="18"/>sancti ibi, Nunc post filij aeternitate. Prima in duas: quia 
+          <lb ed="#G" n="19"/>primo tractat de filij generatione. Secundo de
+          gencran<lb ed="#G" n="20" break="no"/>tis, &amp; geniti coaeterna duratione ibi, Nunc ad distinctio 
+          <lb ed="#G" n="21"/>nem personarum. Prima in duas: quia primo tractat de ge 
+          <lb ed="#G" n="22"/>neratione diuina. Secundo de potentia generatiua ibi, Hio 
+          <lb ed="#G" n="23"/>solet quaeri a quibusdam Prima in duas: quia primo tracta. 
+          <lb ed="#G" n="24"/>de generante, &amp; genito. S cundo de generandi modo ibi, 
+          <lb ed="#G" n="25"/>Praeterea quaeri solet. Prima in duas secudum quod duas 
+          <lb ed="#G" n="26"/>quaestiones mouet de termino diuinae generationis. Qua 
+          <lb ed="#G" n="27"/>tum prima est, vtrum Deus genuit Deum. Secunda vtrum 
+          <lb ed="#G" n="28"/>diuina essentia possit dici gignens, vel genita. Secundam 
+          <lb ed="#G" n="29"/>questionem mouet circa principium quintae distinctionis 
+          <lb ed="#G" n="30"/>ibi, Post haec quaeritur. Prima qiuiditur in quattuor par 
+          <lb ed="#G" n="31"/>tes. Nam primo mouet quaestionem. Secundo arguit ad 
+          <lb ed="#G" n="32"/>eam. Tertio respondet ad quaestionem. Et quarto ponit 
+          <lb ed="#G" n="33"/>argumenti solutionem. Secunda ibi, Si enim Deus genuit 
+          <lb ed="#G" n="34"/>Deum &amp;c. Tertia ibi, Ad quod respondentes &amp;c.
+          Quar<lb ed="#G" n="35" break="no"/>ta ibi, Nunc ad praemissam quaestionem. Istarum tertia 
+          <lb ed="#G" n="36"/>pars diuiditur in tres partes: quia primo ponit magister 
+          <lb ed="#G" n="37"/>suam responsionem. Secundo contra responsionem addit 
+          <lb ed="#G" n="38"/>cit quorundam garrulorum obiectionem, &amp; respondei 
+          <lb ed="#G" n="39"/>ad eam. Et tertio tollit cirta istam materiam quorundam 
+          <lb ed="#G" n="40"/>etrorem, Secunda ibi, Sed adhuc opponunt. Tertia ibi; Qui 
+          <lb ed="#G" n="41"/>dam tamen veritatis aduersarij. Hic quaero hac quaestionem 
+        </p>
+      </div>
+    </body>
+  </text>
 </TEI>

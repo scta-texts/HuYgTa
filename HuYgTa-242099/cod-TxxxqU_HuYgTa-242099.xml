@@ -1,92 +1,92 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Circa textum 3</title>
-            <author ref="#ThomasStrasbourg">Thomas of Strasbourg</author>
-            <respStmt>
-               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
-               <resp>Transcription Editor</resp>
-               <resp>TEI Encoder</resp>
-            </respStmt>
-         </titleStmt>
-         <editionStmt>
-            <edition n="0.0.0-dev">
-               <title>Circa textum 3</title>
-               <date when="2020-11-26">November 26, 2020</date>
-            </edition>
-         </editionStmt>
-         <publicationStmt>
-            <authority>SCTA</authority>
-            <availability status="free">
-               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
-               </p>
-            </availability>
-         </publicationStmt>
-         <sourceDesc>
-            <listWit>
-               <witness xml:id="G" n="cod-TxxxqU">Genoa 1585</witness>
-            </listWit>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
-         <editorialDecl>
-            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
-       guidelines for a diplomatic edition.</p>
-         </editorialDecl>
-      </encodingDesc>
-      <revisionDesc status="draft">
-         <listChange>
-            <change when="2020-11-26" status="draft" n="0.0.0">
-               <p>Created file for the first time.</p>
-            </change>
-         </listChange>
-      </revisionDesc>
-   </teiHeader>
-   <text xml:lang="la">
-      <front>
-         <div xml:id="starts-on">
-           <pb ed="#G" n="P2_108-v"/>
-            <cb ed="#G" n="a"/>
-         </div>
-      </front>
-      <body>
-         <div xml:id="HuYgTa-242099"><!-- HuYgTa-l4d12ct3 -->
-            <head xml:id="HuYgTa-242099-Hd1e108">Circa textum 3</head>
-            <p xml:id="HuYgTa-242099-d1e111">
-               <lb ed="#G" n="25"/>
-               <pc type="indent"/>Tertiae particulae buius distinctionis non obscura 
-      <lb ed="#G" n="26"/>
-               <pc type="indent"/>subduusio, n qua emolumenta fucharistia 
-      <lb ed="#G" n="27"/>
-               <pc type="indent"/>intrinsecus existentia aperiuntur. 
-    </p>
-            <p xml:id="HuYgTa-242099-d1e127">
-               <lb ed="#G" n="28"/>
-               <pc type="indent"/>ED CAVEA T. Postquam magister
-      de<lb ed="#G" n="29" break="no"/>terminauit de accidentibus in isto
-      sacra<lb ed="#G" n="30" break="no"/>mento extrinsecus apparentibus, nunc 
-      <lb ed="#G" n="31"/>determinat de vtilitatibus intrinsecus 
-      <lb ed="#G" n="32"/>causaliter existentibus. Et diuiditur in tres 
-      <lb ed="#G" n="33"/>partes: quia primo ad eu, qui sumit istus 
-      <lb ed="#G" n="34"/>sacramentum Magister facit commendabilem
-      exhorta<lb ed="#G" n="35" break="no"/>tionem. Secundo ostendit rei sumptae vtilem
-      fructifica<lb ed="#G" n="36" break="no"/>tionem. Tertio monet, &amp; soluit incidentem quaestionem 
-      <lb ed="#G" n="37"/>circa istius sumptionis frequentationem, secunda ibi 
-      <lb ed="#G" n="38"/>Institutum est enim. Tertia ibi. Si autem quaeritur Prima 
-      <lb ed="#G" n="39"/>in duas: quia primo volentem accedere ad istud
-      sacra<lb ed="#G" n="40" break="no"/>mentum magister per suam exhortationem reddit
-      cau<lb ed="#G" n="41" break="no"/>tum. Secundo mouet quaestionem circa Christi
-      immola<lb ed="#G" n="42" break="no"/>tionem, vt eundem reddat deuotum, ibi. Post hoc
-      quae<lb ed="#G" n="43" break="no"/>ritur. Et haec in tres: quia primo, iam dictam mouet
-      quae<lb ed="#G" n="44" break="no"/>stionem. Secundo dat motae quaestionis responsionem. 
-      <lb ed="#G" n="45"/>Tertio datae responsionis subdit probationem, seu
-      con<lb ed="#G" n="46" break="no"/>firmationem. Secunda, ibi. Ad hoc breuiter dici potest 
-      <lb ed="#G" n="47"/>Tertia, ibi. Vnde Aug. Haec est sententia istius lectionis 
-      <lb ed="#G" n="48"/>in generali, circa quam quaero in speciali.  
-    </p>
-         </div>
-      </body>
-   </text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Circa textum 3</title>
+        <author ref="#ThomasStrasbourg">Thomas of Strasbourg</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Circa textum 3</title>
+          <date when="2020-11-26">November 26, 2020</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="G" n="cod-TxxxqU">Genoa 1585</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2020-11-26" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#G" n="P2_108-v"/>
+        <cb ed="#G" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="HuYgTa-242099"><!-- HuYgTa-l4d12ct3 -->
+        <head xml:id="HuYgTa-242099-Hd1e108">Circa textum 3</head>
+        <p xml:id="HuYgTa-242099-d1e111">
+          <lb ed="#G" n="25"/>
+          <pc type="indent"/>Tertiae particulae huius distinctionis non obscura 
+          <lb ed="#G" n="26"/>
+          <pc type="indent"/>subduusio, n qua emolumenta fucharistia 
+          <lb ed="#G" n="27"/>
+          <pc type="indent"/>intrinsecus existentia aperiuntur. 
+        </p>
+        <p xml:id="HuYgTa-242099-d1e127">
+          <lb ed="#G" n="28"/>
+          <pc type="indent"/>ED CAVEA T. Postquam magister
+          de<lb ed="#G" n="29" break="no"/>terminauit de accidentibus in isto
+          sacra<lb ed="#G" n="30" break="no"/>mento extrinsecus apparentibus, nunc 
+          <lb ed="#G" n="31"/>determinat de vtilitatibus intrinsecus 
+          <lb ed="#G" n="32"/>causaliter existentibus. Et diuiditur in tres 
+          <lb ed="#G" n="33"/>partes: quia primo ad eu, qui sumit istus 
+          <lb ed="#G" n="34"/>sacramentum Magister facit commendabilem
+          exhorta<lb ed="#G" n="35" break="no"/>tionem. Secundo ostendit rei sumptae vtilem
+          fructifica<lb ed="#G" n="36" break="no"/>tionem. Tertio monet, &amp; soluit incidentem quaestionem 
+          <lb ed="#G" n="37"/>circa istius sumptionis frequentationem, secunda ibi 
+          <lb ed="#G" n="38"/>Institutum est enim. Tertia ibi. Si autem quaeritur Prima 
+          <lb ed="#G" n="39"/>in duas: quia primo volentem accedere ad istud
+          sacra<lb ed="#G" n="40" break="no"/>mentum magister per suam exhortationem reddit
+          cau<lb ed="#G" n="41" break="no"/>tum. Secundo mouet quaestionem circa Christi
+          immola<lb ed="#G" n="42" break="no"/>tionem, vt eundem reddat deuotum, ibi. Post hoc
+          quae<lb ed="#G" n="43" break="no"/>ritur. Et haec in tres: quia primo, iam dictam mouet
+          quae<lb ed="#G" n="44" break="no"/>stionem. Secundo dat motae quaestionis responsionem. 
+          <lb ed="#G" n="45"/>Tertio datae responsionis subdit probationem, seu
+          con<lb ed="#G" n="46" break="no"/>firmationem. Secunda, ibi. Ad hoc breuiter dici potest 
+          <lb ed="#G" n="47"/>Tertia, ibi. Vnde Aug. Haec est sententia istius lectionis 
+          <lb ed="#G" n="48"/>in generali, circa quam quaero in speciali.  
+        </p>
+      </div>
+    </body>
+  </text>
 </TEI>

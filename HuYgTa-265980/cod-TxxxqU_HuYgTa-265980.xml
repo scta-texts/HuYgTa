@@ -1,103 +1,103 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Circa textum</title>
-            <author ref="#ThomasStrasbourg">Thomas of Strasbourg</author>
-            <respStmt>
-               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
-               <resp>Transcription Editor</resp>
-               <resp>TEI Encoder</resp>
-            </respStmt>
-         </titleStmt>
-         <editionStmt>
-            <edition n="0.0.0-dev">
-               <title>Circa textum</title>
-               <date when="2020-11-26">November 26, 2020</date>
-            </edition>
-         </editionStmt>
-         <publicationStmt>
-            <authority>SCTA</authority>
-            <availability status="free">
-               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
-               </p>
-            </availability>
-         </publicationStmt>
-         <sourceDesc>
-            <listWit>
-               <witness xml:id="G" n="cod-TxxxqU">Genoa 1585</witness>
-            </listWit>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
-         <editorialDecl>
-            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
-       guidelines for a diplomatic edition.</p>
-         </editorialDecl>
-      </encodingDesc>
-      <revisionDesc status="draft">
-         <listChange>
-            <change when="2020-11-26" status="draft" n="0.0.0">
-               <p>Created file for the first time.</p>
-            </change>
-         </listChange>
-      </revisionDesc>
-   </teiHeader>
-   <text xml:lang="la">
-      <front>
-         <div xml:id="starts-on">
-           <pb ed="#G" n="P2_140-r"/>
-            <cb ed="#G" n="a"/>
-         </div>
-      </front>
-      <body>
-         <div xml:id="HuYgTa-265980"><!-- HuYgTa-l4d22ct1 --> 
-            <head xml:id="HuYgTa-265980-Hd1e108">Circa textum</head>
-            <p xml:id="HuYgTa-265980-d1e111">
-               <lb ed="#G" n="76"/>
-               <pc type="indent"/>DI S TINCTIO. xxij. 
-      <lb ed="#G" n="77"/>clara buius distincti qus diuisio, in qua acitir de
-      prec<lb ed="#G" n="78" break="no"/>
-               <pc type="indent"/>catorum remissorum veditione. 
-    </p>
-            <p xml:id="HuYgTa-265980-d1e124">
-               <lb ed="#G" n="79"/>
-               <pc type="indent"/>VM QVE multis. Postquam Ma 
-      <lb ed="#G" n="80"/>
-               <pc type="indent"/>gister determinauit de peccatorum 
-      <lb ed="#G" n="81"/>tam mortalium, quam venialium 
-      <lb ed="#G" n="82"/>remissione: nunc in ista 22. dist. in 
-      <lb ed="#G" n="83"/>quirit de remissorsi peccatorum re- 
-      <lb ed="#G" n="84"/>ditione, &amp; ciuiditur in duas
-      par<lb ed="#G" n="85" break="no"/>tes, quia primo mouet questionem 
-      <lb ed="#G" n="86"/>de reditione peccati per contritio 
-      <lb ed="#G" n="87"/>nem dimissi, Secundo pro terminatione tractatus de pe 
-      <lb ed="#G" n="88"/>nitentia inquirit, quid in poenitentia se habeat ut sacr
-      a<lb ed="#G" n="89" break="no"/>mentum, &amp; quid vt res sacramenti, ibi, Post praedicta. Pri 
-      <lb ed="#G" n="90"/>ma in duas, quia primo, circa peccatorum dimissorum 
-      <lb ed="#G" n="91"/>reditionem mouet questionem recitando circa
-      huius<lb ed="#G" n="92" break="no"/>modi quaestionem duplicem opinionem. Secundo
-      vtri<lb ed="#G" n="93" break="no"/>usque opi. adducit probationem ibi. Qui vero dicunt 
-      <lb ed="#G" n="94"/>Et haec in duas, nam primo circa praedictam quaestionem 
-      <lb ed="#G" n="95"/>duarum oppositarum opinionum adducit
-      confirmatio<lb ed="#G" n="96" break="no"/>nem Secundo prudenti lectori istius quaestionis
-      comit<lb ed="#G" n="97" break="no"/>tit discussionem, ibi, vtrique parti quaestionis. Prima in 
-      <lb ed="#G" n="98"/>duas: quia primo recitat illam opi, quae a modernis com 
-      <lb ed="#G" n="99"/>muniter reprobatur,. Secundo recitat opi. oppositam, qua 
-      <lb ed="#G" n="100"/>communiter approbatur, ibi, Sed quia absonum.
-      Sequi<lb ed="#G" n="101" break="no"/>tur illa pars Post praedicta &amp; diuiditur in duas partes, 
-      <lb ed="#G" n="102"/>quia primo, circa rem, &amp; sacramentum poenitentiae
-      mo<lb ed="#G" n="103" break="no"/>uet quaestionem. Secundo iuxta duas opin assignat
-      du<lb ed="#G" n="104" break="no"/>plicem responsionem, ibi, Quidam dicunt. Et haec diuidi 
-      <lb ed="#G" n="105"/>tur in duas partes, secundum quod duarum opin
-      addu<lb ed="#G" n="106" break="no"/>cit responsiones Secunda, ibi, Quidam autem dicunt 
-      <lb ed="#G" n="107"/>Prima in duas, quia primo recitat primae opin
-      resposio<lb ed="#G" n="108" break="no"/>nem. Secundo contra responsionem ducit, &amp; soluit
-      du<lb ed="#G" n="109" break="no"/>plicem obiectionem, ibi; Quod si est. Circa istam ultimam 
-      <lb ed="#G" n="110"/>di, de poenitentia quaero. 
-    </p>
-         </div>
-      </body>
-   </text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Circa textum</title>
+        <author ref="#ThomasStrasbourg">Thomas of Strasbourg</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Circa textum</title>
+          <date when="2020-11-26">November 26, 2020</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="G" n="cod-TxxxqU">Genoa 1585</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2020-11-26" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#G" n="P2_140-r"/>
+        <cb ed="#G" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="HuYgTa-265980"><!-- HuYgTa-l4d22ct1 --> 
+        <head xml:id="HuYgTa-265980-Hd1e108">Circa textum</head>
+        <p xml:id="HuYgTa-265980-d1e111">
+          <lb ed="#G" n="76"/>
+          <pc type="indent"/>DI S TINCTIO. xxij. 
+          <lb ed="#G" n="77"/>clara buius distincti qus diuisio, in qua acitir de
+          prec<lb ed="#G" n="78" break="no"/>
+          <pc type="indent"/>catorum remissorum veditione. 
+        </p>
+        <p xml:id="HuYgTa-265980-d1e124">
+          <lb ed="#G" n="79"/>
+          <pc type="indent"/>VM QVE multis. Postquam Ma 
+          <lb ed="#G" n="80"/>
+          <pc type="indent"/>gister determinauit de peccatorum 
+          <lb ed="#G" n="81"/>tam mortalium, quam venialium 
+          <lb ed="#G" n="82"/>remissione: nunc in ista 22. dist. in 
+          <lb ed="#G" n="83"/>quirit de remissorsi peccatorum re- 
+          <lb ed="#G" n="84"/>ditione, &amp; ciuiditur in duas
+          par<lb ed="#G" n="85" break="no"/>tes, quia primo mouet questionem 
+          <lb ed="#G" n="86"/>de reditione peccati per contritio 
+          <lb ed="#G" n="87"/>nem dimissi, Secundo pro terminatione tractatus de pe 
+          <lb ed="#G" n="88"/>nitentia inquirit, quid in poenitentia se habeat ut sacr
+          a<lb ed="#G" n="89" break="no"/>mentum, &amp; quid vt res sacramenti, ibi, Post praedicta. Pri 
+          <lb ed="#G" n="90"/>ma in duas, quia primo, circa peccatorum dimissorum 
+          <lb ed="#G" n="91"/>reditionem mouet questionem recitando circa
+          huius<lb ed="#G" n="92" break="no"/>modi quaestionem duplicem opinionem. Secundo
+          vtri<lb ed="#G" n="93" break="no"/>usque opi. adducit probationem ibi. Qui vero dicunt 
+          <lb ed="#G" n="94"/>Et haec in duas, nam primo circa praedictam quaestionem 
+          <lb ed="#G" n="95"/>duarum oppositarum opinionum adducit
+          confirmatio<lb ed="#G" n="96" break="no"/>nem Secundo prudenti lectori istius quaestionis
+          comit<lb ed="#G" n="97" break="no"/>tit discussionem, ibi, vtrique parti quaestionis. Prima in 
+          <lb ed="#G" n="98"/>duas: quia primo recitat illam opi, quae a modernis com 
+          <lb ed="#G" n="99"/>muniter reprobatur,. Secundo recitat opi. oppositam, qua 
+          <lb ed="#G" n="100"/>communiter approbatur, ibi, Sed quia absonum.
+          Sequi<lb ed="#G" n="101" break="no"/>tur illa pars Post praedicta &amp; diuiditur in duas partes, 
+          <lb ed="#G" n="102"/>quia primo, circa rem, &amp; sacramentum poenitentiae
+          mo<lb ed="#G" n="103" break="no"/>uet quaestionem. Secundo iuxta duas opin assignat
+          du<lb ed="#G" n="104" break="no"/>plicem responsionem, ibi, Quidam dicunt. Et haec diuidi 
+          <lb ed="#G" n="105"/>tur in duas partes, secundum quod duarum opin
+          addu<lb ed="#G" n="106" break="no"/>cit responsiones Secunda, ibi, Quidam autem dicunt 
+          <lb ed="#G" n="107"/>Prima in duas, quia primo recitat primae opin
+          resposio<lb ed="#G" n="108" break="no"/>nem. Secundo contra responsionem ducit, &amp; soluit
+          du<lb ed="#G" n="109" break="no"/>plicem obiectionem, ibi; Quod si est. Circa istam ultimam 
+          <lb ed="#G" n="110"/>di, de poenitentia quaero. 
+        </p>
+      </div>
+    </body>
+  </text>
 </TEI>

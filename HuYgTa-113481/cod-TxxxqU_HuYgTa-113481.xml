@@ -1,108 +1,108 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Circa textum</title>
-            <author ref="#ThomasStrasbourg">Thomas of Strasbourg</author>
-            <respStmt>
-               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
-               <resp>Transcription Editor</resp>
-               <resp>TEI Encoder</resp>
-            </respStmt>
-         </titleStmt>
-         <editionStmt>
-            <edition n="0.0.0-dev">
-               <title>Circa textum</title>
-               <date when="2020-11-26">November 26, 2020</date>
-            </edition>
-         </editionStmt>
-         <publicationStmt>
-            <authority>SCTA</authority>
-            <availability status="free">
-               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
-               </p>
-            </availability>
-         </publicationStmt>
-         <sourceDesc>
-            <listWit>
-               <witness xml:id="G" n="cod-TxxxqU">Genoa 1585</witness>
-            </listWit>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
-         <editorialDecl>
-            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
-       guidelines for a diplomatic edition.</p>
-         </editorialDecl>
-      </encodingDesc>
-      <revisionDesc status="draft">
-         <listChange>
-            <change when="2020-11-26" status="draft" n="0.0.0">
-               <p>Created file for the first time.</p>
-            </change>
-         </listChange>
-      </revisionDesc>
-   </teiHeader>
-   <text xml:lang="la">
-      <front>
-         <div xml:id="starts-on">
-            <pb ed="#G" n="-r"/>
-            <cb ed="#G" n="a"/>
-         </div>
-      </front>
-      <body>
-         <div xml:id="HuYgTa-113481"><!-- HuYgTa-l2d7ct1 -->
-            <head xml:id="HuYgTa-113481-Hd1e108">Circa textum</head>
-            <p xml:id="HuYgTa-113481-d1e111">
-               <lb ed="#G" n="12"/>
-               <pc type="indent"/>DISTINCTIO VII 
-      <lb ed="#G" n="13"/>ctara buius distinctionis diuisio, in qua de
-      depressio<lb ed="#G" n="14" break="no"/>ne angelorum spirituali perspicue 
-      <lb ed="#G" n="15"/>pertractatur.
-    </p>
-            <p xml:id="HuYgTa-113481-d1e124">
-               <lb ed="#G" n="16"/>SVPRADICTVM est &amp;c. Postquam 
-      <lb ed="#G" n="17"/>Magister determinauit de malori 
-      <lb ed="#G" n="18"/>angelorum casu locali, hic tractai 
-      <lb ed="#G" n="19"/>de eorum casu, &amp; depressione
-      spiri<lb ed="#G" n="20" break="no"/>tuali, &amp; diuiditur in tres partes: nm 
-      <lb ed="#G" n="21"/>primo ostendit, qualiter ipsi
-      defi<lb ed="#G" n="22" break="no"/>ciunt in volendi bonitate,
-      Secun<lb ed="#G" n="23" break="no"/>do in cognoscendi claritate, Et
-      ter<lb ed="#G" n="24" break="no"/>tio in agendi potestate. Secunda ibi, Et licet mali angeli 
-      <lb ed="#G" n="25"/>Tertia ibi, Nec putandum est. Prima in tres: nam primo 
-      <lb ed="#G" n="26"/>ostendit, quod sicut honi ita sunt in bono proposito
-      con<lb ed="#G" n="27" break="no"/>firmati, quod eorum voluntas non potest flecti in malum; 
-      <lb ed="#G" n="28"/>sic econuerso mali ita sunt in malo proposito obstinati 
-      <lb ed="#G" n="29"/>quod eorum voluntas non potest flecti ad bonum. Secun 
-      <lb ed="#G" n="30"/>do per hoc, quod tam boni, quam mali sunt liberi arbi 
-      <lb ed="#G" n="31"/>trii, obiicit in contrarium. Tertio saluo libero arbitrio 
-      <lb ed="#G" n="32"/>vtrorumque respondet ad obiectum. Secunda ibi, Sed ci 
-      <lb ed="#G" n="33"/>nec boni. Tertia ibi, Ad quoed dicimus: &amp; haec in tres: quia pr 
-      <lb ed="#G" n="34"/>mo ostendit, quod quamuis mali habeant liberum
-      arbi<lb ed="#G" n="35" break="no"/>trium, hoc tamen propter obstinationis suae malitiam es 
-      <lb ed="#G" n="36"/>corruptum &amp; deprauatum. Secundo ostendit liberum a 
-      <lb ed="#G" n="37"/>bitrium bonorum in sua libertate esse quam plurimum 
-      <lb ed="#G" n="38"/>emendatum, Et tertio ex his concludit propositum &amp;  
-      <lb ed="#G" n="39"/>respondet ad argumentum Secunda ibi, boni vero. Tei 
-      <lb ed="#G" n="40"/>tia ibi, Non ergo post confirmationem. Sequitur illa par 
-      <lb ed="#G" n="41"/>Et licet mali angeli: &amp; diuiditur in duas: nam primo osten 
-      <lb ed="#G" n="42"/>dit, quod quamuis mali angeli sint viciati, tamen adhuc 
-      <lb ed="#G" n="43"/>vigent subtilitate naturae, &amp; temporum experientia. Se. 
-      <lb ed="#G" n="44"/>cundo innuit, quod magicae artes exercentur eorum
-      vir<lb ed="#G" n="45" break="no"/>tute &amp; scientia ibi, Quorum scientia &amp;c. Sequitur illa  
-      <lb ed="#G" n="46"/>pars, Nec putandum est: &amp; diuiditur in duas: nam prim; 
-      <lb ed="#G" n="47"/>ostendit angelos omnes vniuersaliter in agendo habere 
-      <lb ed="#G" n="48"/>limitationem: intrinsecam. Secundo ostendit specialiter 
-      <lb ed="#G" n="49"/>malos angelos habere limitationem extrinsecam ibi,I 
-      <lb ed="#G" n="50"/>lud quoque sciendum. Prima in tres; quia primo ponit al 
-      <lb ed="#G" n="51"/>gelos non esse creatores, Secundo, quod interdum sunt 
-      <lb ed="#G" n="52"/>seminum coniunctores, Et tertio, quod possunt esse Dei 
-      <lb ed="#G" n="53"/>cooperatores. Secunda ibi, Sicut ergo nec &amp;c. Tertia ibi 
-      <lb ed="#G" n="54"/>1 Sicut ergo mentem nostram iustificando &amp;c. 
-    </p>
-         </div>
-      </body>
-   </text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Circa textum</title>
+        <author ref="#ThomasStrasbourg">Thomas of Strasbourg</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Circa textum</title>
+          <date when="2020-11-26">November 26, 2020</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="G" n="cod-TxxxqU">Genoa 1585</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2020-11-26" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#G" n="-r"/>
+        <cb ed="#G" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="HuYgTa-113481"><!-- HuYgTa-l2d7ct1 -->
+        <head xml:id="HuYgTa-113481-Hd1e108">Circa textum</head>
+        <p xml:id="HuYgTa-113481-d1e111">
+          <lb ed="#G" n="12"/>
+          <pc type="indent"/>DISTINCTIO VII 
+          <lb ed="#G" n="13"/>ctara buius distinctionis diuisio, in qua de
+          depressio<lb ed="#G" n="14" break="no"/>ne angelorum spirituali perspicue 
+          <lb ed="#G" n="15"/>pertractatur.
+        </p>
+        <p xml:id="HuYgTa-113481-d1e124">
+          <lb ed="#G" n="16"/>SVPRADICTVM est &amp;c. Postquam 
+          <lb ed="#G" n="17"/>Magister determinauit de malori 
+          <lb ed="#G" n="18"/>angelorum casu locali, hic tractai 
+          <lb ed="#G" n="19"/>de eorum casu, &amp; depressione
+          spiri<lb ed="#G" n="20" break="no"/>tuali, &amp; diuiditur in tres partes: nm 
+          <lb ed="#G" n="21"/>primo ostendit, qualiter ipsi
+          defi<lb ed="#G" n="22" break="no"/>ciunt in volendi bonitate,
+          Secun<lb ed="#G" n="23" break="no"/>do in cognoscendi claritate, Et
+          ter<lb ed="#G" n="24" break="no"/>tio in agendi potestate. Secunda ibi, Et licet mali angeli 
+          <lb ed="#G" n="25"/>Tertia ibi, Nec putandum est. Prima in tres: nam primo 
+          <lb ed="#G" n="26"/>ostendit, quod sicut honi ita sunt in bono proposito
+          con<lb ed="#G" n="27" break="no"/>firmati, quod eorum voluntas non potest flecti in malum; 
+          <lb ed="#G" n="28"/>sic econuerso mali ita sunt in malo proposito obstinati 
+          <lb ed="#G" n="29"/>quod eorum voluntas non potest flecti ad bonum. Secun 
+          <lb ed="#G" n="30"/>do per hoc, quod tam boni, quam mali sunt liberi arbi 
+          <lb ed="#G" n="31"/>trii, obiicit in contrarium. Tertio saluo libero arbitrio 
+          <lb ed="#G" n="32"/>vtrorumque respondet ad obiectum. Secunda ibi, Sed ci 
+          <lb ed="#G" n="33"/>nec boni. Tertia ibi, Ad quoed dicimus: &amp; haec in tres: quia pr 
+          <lb ed="#G" n="34"/>mo ostendit, quod quamuis mali habeant liberum
+          arbi<lb ed="#G" n="35" break="no"/>trium, hoc tamen propter obstinationis suae malitiam es 
+          <lb ed="#G" n="36"/>corruptum &amp; deprauatum. Secundo ostendit liberum a 
+          <lb ed="#G" n="37"/>bitrium bonorum in sua libertate esse quam plurimum 
+          <lb ed="#G" n="38"/>emendatum, Et tertio ex his concludit propositum &amp;  
+          <lb ed="#G" n="39"/>respondet ad argumentum Secunda ibi, boni vero. Tei 
+          <lb ed="#G" n="40"/>tia ibi, Non ergo post confirmationem. Sequitur illa par 
+          <lb ed="#G" n="41"/>Et licet mali angeli: &amp; diuiditur in duas: nam primo osten 
+          <lb ed="#G" n="42"/>dit, quod quamuis mali angeli sint viciati, tamen adhuc 
+          <lb ed="#G" n="43"/>vigent subtilitate naturae, &amp; temporum experientia. Se. 
+          <lb ed="#G" n="44"/>cundo innuit, quod magicae artes exercentur eorum
+          vir<lb ed="#G" n="45" break="no"/>tute &amp; scientia ibi, Quorum scientia &amp;c. Sequitur illa  
+          <lb ed="#G" n="46"/>pars, Nec putandum est: &amp; diuiditur in duas: nam prim; 
+          <lb ed="#G" n="47"/>ostendit angelos omnes vniuersaliter in agendo habere 
+          <lb ed="#G" n="48"/>limitationem: intrinsecam. Secundo ostendit specialiter 
+          <lb ed="#G" n="49"/>malos angelos habere limitationem extrinsecam ibi,I 
+          <lb ed="#G" n="50"/>lud quoque sciendum. Prima in tres; quia primo ponit al 
+          <lb ed="#G" n="51"/>gelos non esse creatores, Secundo, quod interdum sunt 
+          <lb ed="#G" n="52"/>seminum coniunctores, Et tertio, quod possunt esse Dei 
+          <lb ed="#G" n="53"/>cooperatores. Secunda ibi, Sicut ergo nec &amp;c. Tertia ibi 
+          <lb ed="#G" n="54"/>1 Sicut ergo mentem nostram iustificando &amp;c. 
+        </p>
+      </div>
+    </body>
+  </text>
 </TEI>

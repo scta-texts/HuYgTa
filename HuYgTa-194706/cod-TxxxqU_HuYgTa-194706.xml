@@ -1,110 +1,110 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Circa textum</title>
-            <author ref="#ThomasStrasbourg">Thomas of Strasbourg</author>
-            <respStmt>
-               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
-               <resp>Transcription Editor</resp>
-               <resp>TEI Encoder</resp>
-            </respStmt>
-         </titleStmt>
-         <editionStmt>
-            <edition n="0.0.0-dev">
-               <title>Circa textum</title>
-               <date when="2020-11-26">November 26, 2020</date>
-            </edition>
-         </editionStmt>
-         <publicationStmt>
-            <authority>SCTA</authority>
-            <availability status="free">
-               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
-               </p>
-            </availability>
-         </publicationStmt>
-         <sourceDesc>
-            <listWit>
-               <witness xml:id="G" n="cod-TxxxqU">Genoa 1585</witness>
-            </listWit>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
-         <editorialDecl>
-            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
-       guidelines for a diplomatic edition.</p>
-         </editorialDecl>
-      </encodingDesc>
-      <revisionDesc status="draft">
-         <listChange>
-            <change when="2020-11-26" status="draft" n="0.0.0">
-               <p>Created file for the first time.</p>
-            </change>
-         </listChange>
-      </revisionDesc>
-   </teiHeader>
-   <text xml:lang="la">
-      <front>
-         <div xml:id="starts-on">
-            <pb ed="#G" n="P2_45-r"/>
-            <cb ed="#G" n="b"/>
-         </div>
-      </front>
-      <body>
-         <div xml:id="HuYgTa-194706"><!-- HuYgTa-l3d29et30ct1 -->
-            <head xml:id="HuYgTa-194706-Hd1e108">Circa textum</head>
-            <p xml:id="HuYgTa-194706-d1e111">
-               <lb ed="#G" n="113"/>DISTINCTIO XXIX et XXX 
-      <lb ed="#G" n="114"/>Luculenta harum distinctionum diuusio, in quibus 
-      <lb ed="#G" n="115"/>caritatis ordo patebit.
-    </p>
-            <p xml:id="HuYgTa-194706-d1e120">
-               <lb ed="#G" n="116"/>OST PRA DICTA DE ORDINE 
-      <lb ed="#G" n="117"/>Postquam Magister superius insinuauit 
-      <lb ed="#G" n="118"/>caritatis diffinitionem, &amp; diligendorum 
-      <lb ed="#G" n="119"/>multitudinem: nunc in ista. 28.
-      distin<lb ed="#G" n="120" break="no"/>ctione tradit caritatis, &amp; dilectionis
-      or<lb ed="#G" n="121" break="no"/>Ei dinem. Et diuiditur in duas partes,
-      qui<lb ed="#G" n="122" break="no"/>primo tractat de dilectionis ordinata intensione. Secun 
-      <lb ed="#G" n="123"/>do, de meriti quantitate ex dilectione resultante, ibi, Hic 
-      <lb ed="#G" n="124"/>solet quaeri. Prima in duas: nam primo Magister
-      consi<lb ed="#G" n="125" break="no"/>derat caritatis, &amp; dilectionis ordinem. Secundo, graduum 
-      <lb ed="#G" n="126"/>illius ponit distinctionem, ibi, Sciendum quoque est. Dri 
-      <lb ed="#G" n="127"/>ma in duas: nam primo, considerat dilectionis ordinem 
-      <lb ed="#G" n="128"/>in communi respectu omnium diligendorum. Secundo, 
-      <lb ed="#G" n="129"/>in speciali respectu parentum, &amp; propinquorum, ibi,
-      So<lb ed="#G" n="130" break="no"/>let etiam quaeri si parentes. Prima in duas: quia primo,  
-      <lb ed="#G" n="131"/>ex dictis sanctorum insinuat praedictum ordinem
-      Secun<lb ed="#G" n="132" break="no"/>do, recitat circa hoc triplicem opinionem, ibi, vnde, &amp;  
-      <lb ed="#G" n="133"/>super hoc. Et haec diuiditur in tres partes, secundum quod 
-      <lb ed="#G" n="134"/>circa dilectionis ordinem Magister recitat tres opiniones 
-      <lb ed="#G" n="135"/>Secunda, ibi, Quorum etiam nonnulli, Tertia, ibi,
-      ve<lb ed="#G" n="136" break="no"/>rum quia praemissa. Prima in duas: quia primo ponit primae 
-      <lb ed="#G" n="137"/>opinionis assertionem. Secundo, ostendit ad aliqua
-      obie<lb ed="#G" n="138" break="no"/>cta illius opinionis responsionem, ibi; Quibus oliuiat.  
-      <!--561.xml-->
-      <pb ed="#G" n="P2_45-v"/>
-               <cb ed="#G" n="a"/>
-               <lb ed="#G" n="1"/>Sequitur illa pars, Solet etiam quaeri. Et diuiditur in 
-      <lb ed="#G" n="2"/>tres partes: nam puimo ostendit quomodo diligendi sunt pa 
-      <lb ed="#G" n="3"/>rentes, &amp; propinqui Secundo, qualiter diligendi sunt
-      ini<lb ed="#G" n="4" break="no"/>mici Tertio innuit sub quo sensu parentes sunt odiendi, 
-      <lb ed="#G" n="5"/> inimici diligendi. Secunda, ibi, Verum latebrosa
-      quae<lb ed="#G" n="6" break="no"/>stio est. Tertia, ibi: Quaeri etiam solet. 
-    </p>
-            <p xml:id="HuYgTa-194706-d1e192">
-               <lb ed="#G" n="7"/>
-               <pc type="indent"/>Tunc sequitur distinctio. 30. in qua Magister &amp;c. Et
-      di<lb ed="#G" n="8" break="no"/>uiditur in tres partes: nam primo de hoc, vtrum sit maio 
-      <lb ed="#G" n="9"/>ris meriti diligere amicos, vel diligere inimicos, Magister 
-      <lb ed="#G" n="10"/>mouet quaestionem, &amp; dat suam responsionem. Secundo 
-      <lb ed="#G" n="11"/>ex dictis August. adducit obiectionem. Tertio dicti
-      Aug<lb ed="#G" n="12" break="no"/>ponit expositionem. Secunda ibi, August. tamen. Tertia; 
-      <lb ed="#G" n="13"/>ibi, Eece hinc haberi videtur. Circa has distinctiones quae 
-      <lb ed="#G" n="14"/>ro hanc quaestionem. 
-    </p>
-         </div>
-      </body>
-   </text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Circa textum</title>
+        <author ref="#ThomasStrasbourg">Thomas of Strasbourg</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Circa textum</title>
+          <date when="2020-11-26">November 26, 2020</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="G" n="cod-TxxxqU">Genoa 1585</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2020-11-26" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#G" n="P2_45-r"/>
+        <cb ed="#G" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="HuYgTa-194706"><!-- HuYgTa-l3d29et30ct1 -->
+        <head xml:id="HuYgTa-194706-Hd1e108">Circa textum</head>
+        <p xml:id="HuYgTa-194706-d1e111">
+          <lb ed="#G" n="113"/>DISTINCTIO XXIX et XXX 
+          <lb ed="#G" n="114"/>Luculenta harum distinctionum diuusio, in quibus 
+          <lb ed="#G" n="115"/>caritatis ordo patebit.
+        </p>
+        <p xml:id="HuYgTa-194706-d1e120">
+          <lb ed="#G" n="116"/>POST PRA DICTA DE ORDINE 
+          <lb ed="#G" n="117"/>Postquam Magister superius insinuauit 
+          <lb ed="#G" n="118"/>caritatis diffinitionem, &amp; diligendorum 
+          <lb ed="#G" n="119"/>multitudinem: nunc in ista. 28.
+          distin<lb ed="#G" n="120" break="no"/>ctione tradit caritatis, &amp; dilectionis
+          or<lb ed="#G" n="121" break="no"/>Ei dinem. Et diuiditur in duas partes,
+          qui<lb ed="#G" n="122" break="no"/>primo tractat de dilectionis ordinata intensione. Secun 
+          <lb ed="#G" n="123"/>do, de meriti quantitate ex dilectione resultante, ibi, Hic 
+          <lb ed="#G" n="124"/>solet quaeri. Prima in duas: nam primo Magister
+          consi<lb ed="#G" n="125" break="no"/>derat caritatis, &amp; dilectionis ordinem. Secundo, graduum 
+          <lb ed="#G" n="126"/>illius ponit distinctionem, ibi, Sciendum quoque est. Dri 
+          <lb ed="#G" n="127"/>ma in duas: nam primo, considerat dilectionis ordinem 
+          <lb ed="#G" n="128"/>in communi respectu omnium diligendorum. Secundo, 
+          <lb ed="#G" n="129"/>in speciali respectu parentum, &amp; propinquorum, ibi,
+          So<lb ed="#G" n="130" break="no"/>let etiam quaeri si parentes. Prima in duas: quia primo,  
+          <lb ed="#G" n="131"/>ex dictis sanctorum insinuat praedictum ordinem
+          Secun<lb ed="#G" n="132" break="no"/>do, recitat circa hoc triplicem opinionem, ibi, vnde, &amp;  
+          <lb ed="#G" n="133"/>super hoc. Et haec diuiditur in tres partes, secundum quod 
+          <lb ed="#G" n="134"/>circa dilectionis ordinem Magister recitat tres opiniones 
+          <lb ed="#G" n="135"/>Secunda, ibi, Quorum etiam nonnulli, Tertia, ibi,
+          ve<lb ed="#G" n="136" break="no"/>rum quia praemissa. Prima in duas: quia primo ponit primae 
+          <lb ed="#G" n="137"/>opinionis assertionem. Secundo, ostendit ad aliqua
+          obie<lb ed="#G" n="138" break="no"/>cta illius opinionis responsionem, ibi; Quibus oliuiat.  
+          <!--561.xml-->
+          <pb ed="#G" n="P2_45-v"/>
+          <cb ed="#G" n="a"/>
+          <lb ed="#G" n="1"/>Sequitur illa pars, Solet etiam quaeri. Et diuiditur in 
+          <lb ed="#G" n="2"/>tres partes: nam puimo ostendit quomodo diligendi sunt pa 
+          <lb ed="#G" n="3"/>rentes, &amp; propinqui Secundo, qualiter diligendi sunt
+          ini<lb ed="#G" n="4" break="no"/>mici Tertio innuit sub quo sensu parentes sunt odiendi, 
+          <lb ed="#G" n="5"/> inimici diligendi. Secunda, ibi, Verum latebrosa
+          quae<lb ed="#G" n="6" break="no"/>stio est. Tertia, ibi: Quaeri etiam solet. 
+        </p>
+        <p xml:id="HuYgTa-194706-d1e192">
+          <lb ed="#G" n="7"/>
+          <pc type="indent"/>Tunc sequitur distinctio. 30. in qua Magister &amp;c. Et
+          di<lb ed="#G" n="8" break="no"/>uiditur in tres partes: nam primo de hoc, vtrum sit maio 
+          <lb ed="#G" n="9"/>ris meriti diligere amicos, vel diligere inimicos, Magister 
+          <lb ed="#G" n="10"/>mouet quaestionem, &amp; dat suam responsionem. Secundo 
+          <lb ed="#G" n="11"/>ex dictis August. adducit obiectionem. Tertio dicti
+          Aug<lb ed="#G" n="12" break="no"/>ponit expositionem. Secunda ibi, August. tamen. Tertia; 
+          <lb ed="#G" n="13"/>ibi, Eece hinc haberi videtur. Circa has distinctiones quae 
+          <lb ed="#G" n="14"/>ro hanc quaestionem. 
+        </p>
+      </div>
+    </body>
+  </text>
 </TEI>

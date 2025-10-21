@@ -1,715 +1,715 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Quaestio 1</title>
-            <author ref="#ThomasStrasbourg">Thomas of Strasbourg</author>
-            <respStmt>
-               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
-               <resp>Transcription Editor</resp>
-               <resp>TEI Encoder</resp>
-            </respStmt>
-         </titleStmt>
-         <editionStmt>
-            <edition n="0.0.0-dev">
-               <title>Quaestio 1</title>
-               <date when="2020-11-26">November 26, 2020</date>
-            </edition>
-         </editionStmt>
-         <publicationStmt>
-            <authority>SCTA</authority>
-            <availability status="free">
-               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
-               </p>
-            </availability>
-         </publicationStmt>
-         <sourceDesc>
-            <listWit>
-               <witness xml:id="G" n="cod-TxxxqU">Genoa 1585</witness>
-            </listWit>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
-         <editorialDecl>
-            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
-       guidelines for a diplomatic edition.</p>
-         </editorialDecl>
-      </encodingDesc>
-      <revisionDesc status="draft">
-         <listChange>
-            <change when="2020-11-26" status="draft" n="0.0.0">
-               <p>Created file for the first time.</p>
-            </change>
-         </listChange>
-      </revisionDesc>
-   </teiHeader>
-   <text xml:lang="la">
-      <front>
-         <div xml:id="starts-on">
-            <pb ed="#G" n="164-r"/>
-            <cb ed="#G" n="b"/>
-         </div>
-      </front>
-      <body>
-         <div xml:id="HuYgTa-125029"><!-- HuYgTa-l2d15q1 -->
-            <head xml:id="HuYgTa-125029-Hd1e108">Quaestio 1</head>
-            <head xml:id="HuYgTa-125029-Hd1e111" type="question-title">
-      An res mixtae sint productae de terra, et aqua
-    </head>
-            <p xml:id="HuYgTa-125029-d1e114">
-               <lb ed="#G" n="74"/>
-               <pc type="indent"/>Quaestio.  
-      <lb ed="#G" n="75"/>An res mixtae sint productae de terra, &amp; aqua 
-    </p>
-            <p xml:id="HuYgTa-125029-d1e123">
-               <lb ed="#G" n="76"/>
-               <pc type="indent"/>TRVM res mixtae, de quarum productio 
-      <lb ed="#G" n="77"/>ne tractat Magister in ista quintadecima 
-      <lb ed="#G" n="78"/>distinctione, sint productae de terra &amp; 
-      <lb ed="#G" n="79"/>aqua.
-    </p>
-            <p xml:id="HuYgTa-125029-d1e136">
-      Et videtur quod non, quia illud, quod 
-      <lb ed="#G" n="80"/>est compositum ex omnibus elementis. 
-      <lb ed="#G" n="81"/>de omnibus elementis videtur esse pro 
-      <lb ed="#G" n="82"/>ductum, quaelibet res mixta est composita ex omnibus
-      ele<lb ed="#G" n="83" break="no"/>mentis, vt patet <ref xml:id="HuYgTa-125029-Rd1e146">2. de generatione.</ref> 
-            </p>
-            <p xml:id="HuYgTa-125029-d1e151">
-               <lb ed="#G" n="84"/>
-               <pc type="indent"/>Contra videtur dicere textus, quod pisces, &amp; aues facti sint 
-      <lb ed="#G" n="85"/>ex aquis, iumenta vero, &amp; bestiae atque reptibilia facta sini 
-      <lb ed="#G" n="86"/>ex terra. Hic quattuor sunt videnda. Primo, vtrum ad
-      com<lb ed="#G" n="87" break="no"/>positionem cuiuslibet re mixtae concurrant omnia
-      quat<lb ed="#G" n="88" break="no"/>tuor elementa. Secundo, vtrum formae quattuor
-      elemen<lb ed="#G" n="89" break="no"/>torum in re mixta maneant incorruptae. Tertio dato, quod 
-      <lb ed="#G" n="90"/>tales formae non maneant; videndum erit vtrum saltem 
-      <lb ed="#G" n="91"/>aliquae realitates talium formarum incorruptae maneant 
-      <lb ed="#G" n="92"/>in ipso mixto. Et quarto, vtrum totum mixtum differat 
-      <lb ed="#G" n="93"/>realiter a suis partibus. 
-    </p>
-            <p xml:id="HuYgTa-125029-d1e177">
-               <lb ed="#G" n="94"/>
-               <pc type="indent"/>RESOLVTIO. 
-      <lb ed="#G" n="95"/>Perspicuum quidem est mixtum quodlibet (dummodo perlectum 
-      <lb ed="#G" n="96"/>
-               <pc type="indent"/>sit) ex quattuor conflari elementis :licet plerunque ex terra  
-      <lb ed="#G" n="97"/>aqua ob vtriusque praedominium productum esse perhibeatur. 
-      <lb ed="#G" n="98"/>formae tamen ipsorum elementorum in eo minime reperiuntur. 
-    </p>
-            <p xml:id="HuYgTa-125029-d1e195">
-               <lb ed="#G" n="99"/>
-               <pc type="indent"/>ARTICVLVS I. 
-      <lb ed="#G" n="100"/>Vtrum ad compositonem ciuiuslibet vei mixte concim 
-      <lb ed="#G" n="101"/>vant omud quattuor elementa
-    </p>
-            <p xml:id="HuYgTa-125029-d1e206">
-               <lb ed="#G" n="102"/>QVANTVM ad primum pono tres breues conclusio 
-      <lb ed="#G" n="103"/>nes. Prima est, quod vnaquaeque res mixta, si est 
-      <lb ed="#G" n="104"/>perfecta, tunc composita est aliquo modo ex quattuor
-      e<lb ed="#G" n="105" break="no"/>lementis. 
-    </p>
-            <p xml:id="HuYgTa-125029-d1e217">
-               <lb ed="#G" n="106"/>
-               <pc type="indent"/>Quia vnumquodque ex his componitur, in quae
-      re<lb ed="#G" n="107" break="no"/>oluitur, sed vnumquodque mixtum perfectum est
-      reso<lb ed="#G" n="108" break="no"/>lubile aliquo modo in quattuor elementa, vt patet
-      secu<lb ed="#G" n="109" break="no"/>do de generatione, ergo &amp;c.
-    </p>
-            <p xml:id="HuYgTa-125029-d1e230">
-               <lb ed="#G" n="110"/>2 Praeterea, sicut se habet sonus huius svllabae DA ac 
-      <lb ed="#G" n="111"/>sonum istarum litterarum, quae sunt D, &amp; A, sic se habet res
-      mix<lb ed="#G" n="112" break="no"/>ta ad ipsa elementa; sed praedicta svllaba componitur ex pro 
-      <lb ed="#G" n="113"/>dictis litteris; ergo res mixta componitur ex ipsis elementis. 
-      <lb ed="#G" n="114"/>minor patet, maiorem autem ponit <ref xml:id="HuYgTa-125029-Rd1e243">philosop. 7. metaph¬</ref> 
-            </p>
-            <p xml:id="HuYgTa-125029-d1e248">
-               <lb ed="#G" n="115"/>
-               <pc type="indent"/>Secundo dico, quod in talibus mixtis, de quibus <ref xml:id="HuYgTa-125029-Rd1e254">Magister 
-        <lb ed="#G" n="116"/>loquitur hicin littera</ref>, puta in animalibus, quamuis ad com 
-      <lb ed="#G" n="117"/>rum compositionem aliquo modo concurrant quattuo. 
-      <lb ed="#G" n="118"/>elementa tamen quo ad quantitatem molis elementa gra 
-      <lb ed="#G" n="119"/>uia, puta terra, &amp; aqua tenent praedominium 
-    </p>
-            <p xml:id="HuYgTa-125029-d1e267">
-               <lb ed="#G" n="120"/>
-               <pc type="indent"/>Quia omne, quod motu naturali tendit deorsum 
-      <lb ed="#G" n="121"/>in illo elementa grauia tenent praedominium quo ad quan 
-      <lb ed="#G" n="122"/>titatem molis: sed omne animal motu naturali tendit de 
-      <lb ed="#G" n="123"/>orsum; nam etiam ipsae aues, si alas habuerint impeditas,  
-      <lb ed="#G" n="124"/>cadunt deorsum; ergo &amp;c. 
-    </p>
-            <p xml:id="HuYgTa-125029-d1e283">
-      <!--367.xml-->
-               <pb ed="#G" n="164-v"/>
-               <cb ed="#G" n="a"/>
-               <lb ed="#G" n="1"/>2 Praeterea, taliter Deus &amp; natura miscibilia in re
-      mi<lb ed="#G" n="2" break="no"/>xta temperauit, vt mixtum aliquo modo durare possit, &amp; 
-      <lb ed="#G" n="3"/>non immediate corrumpatur. Ista patet: quia frustra
-      pro<lb ed="#G" n="4" break="no"/>duceretur in esse, quod immediate tenderet in non esse 
-      <lb ed="#G" n="5"/>Deus autem &amp; natura uihil faciunt frustra, Sed si tantum 
-      <lb ed="#G" n="6"/>de igne penes quantitatem molis, seu de virtute ignis esset 
-      <lb ed="#G" n="7"/>in mixto, quantum de terra: cum actiuitas ignis multum 
-      <lb ed="#G" n="8"/>excedat actiuitatem terrae, vel aquae: ipsum mixtum
-      pro<lb ed="#G" n="9" break="no"/>pter ignis consumptiuam virtutem immediate corrumperetur.
-    </p>
-            <p xml:id="HuYgTa-125029-d1e312">
-               <lb ed="#G" n="10"/>Tertio dico, quod omnia animalia dicuntur facta de
-      ter<lb ed="#G" n="11" break="no"/>ra, vel de aqua: non quod ab eorum compositone
-      exclu<lb ed="#G" n="12" break="no"/>dantur cetera elementa: sed pro tanto, quia in eis terra, 
-      <lb ed="#G" n="13"/>&amp; aqua praedominantur. In iumentis enim bestijs, &amp; re- 
-      <lb ed="#G" n="14"/>ptibilibus dominatur elementum terrestre; in piscibus au 
-      <lb ed="#G" n="15"/>tem, &amp; auibus dominatur elementum aquae: aliter tamen, 
-      <lb ed="#G" n="16"/>&amp; aliter : quia in complexione piscium dominatur
-      ele<lb ed="#G" n="17" break="no"/>mentum aquae per se: in volatilibus autem dominatur
-      a<lb ed="#G" n="18" break="no"/>qua vt admixta est aeri. Propter quod etiam beatus <ref xml:id="HuYgTa-125029-Rd1e333">Au¬ 
-        <lb ed="#G" n="19"/>gustinus 3. libro super Sen</ref> videtur dicere, quod
-      corpo<lb ed="#G" n="20" break="no"/>ra auium sunt facta ex aere: sunt enim factae ipsae aues ex 
-      <lb ed="#G" n="21"/>aere uaporoso habente admixtos vapores grossos, &amp;
-      a<lb ed="#G" n="22" break="no"/>queos: cuius signum est, quod etiam ipse aues non viuuns 
-      <lb ed="#G" n="23"/>in puro aere, sed magis hic prope nos in aere aquoso, &amp; 
-      <lb ed="#G" n="24"/>vaporoso. 
-    </p>
-            <p xml:id="HuYgTa-125029-d1e350">
-               <lb ed="#G" n="25"/>
-               <pc type="indent"/>ARTICVLVS R 
-      <lb ed="#G" n="26"/>Vtrum formae quattuor elementorum in re mixta 
-      <lb ed="#G" n="27"/>mone ant omnia quattuor imcorrupte.
-    </p>
-            <p xml:id="HuYgTa-125029-d1e361">
-               <lb ed="#G" n="28"/>VANTVM ad secundum articulum pono duas con 
-      <lb ed="#G" n="29"/>e clusiones. Prima est, quod formae clementorum 
-      <lb ed="#G" n="30"/>non manent in re mixta secundum essentias eorum
-      per<lb ed="#G" n="31" break="no"/>fectas: sicut videtur posuisse <name xml:id="HuYgTa-125029-Nd1e371">Auicen</name>, prout sibi <ref xml:id="HuYgTa-125029-Rd1e375">Commen¬ 
-        <lb ed="#G" n="32"/>tator imponit tertio coeli &amp; mun</ref>. Dicit enim ibi
-      Com<lb ed="#G" n="33" break="no"/>mentator, quod <name xml:id="HuYgTa-125029-Nd1e382">Auicenn</name>. posuit elementa remanere in 
-      <lb ed="#G" n="34"/>mixto secundum suas completas essentias, remissa tamet 
-      <lb ed="#G" n="35"/>quantum ad suas qualitates. 
-    </p>
-            <p xml:id="HuYgTa-125029-d1e391">
-               <lb ed="#G" n="36"/>
-               <pc type="indent"/>Secunda conclusio est, quod essentiae elementorum non 
-      <lb ed="#G" n="37"/>remanent in mixto secundum gradum essentiae
-      retinen<lb ed="#G" n="38" break="no"/>tem modum, &amp; diffinitionem elementi
-    </p>
-            <p xml:id="HuYgTa-125029-d1e402">
-               <lb ed="#G" n="39"/>1 Primam conclusionem probo sic. Si elementa mane 
-      <lb ed="#G" n="40"/>rent in mixto secundum completas eorum essentias: tuns 
-      <lb ed="#G" n="41"/>in vno mixto essent simul quattuor supposita realia reali 
-      <lb ed="#G" n="42"/>ter distincta, consequentia patet, quia secundum commu 
-      <lb ed="#G" n="43"/>nem cursum naturae tunc completa essentia cuiuslibet 
-      <lb ed="#G" n="44"/>substantiae constituit suppositum. Falsitas consequentis 
-      <lb ed="#G" n="45"/>est nota: quia vnaquaeque res mixta habet tantum vnum 
-      <lb ed="#G" n="46"/>suppositum.
-    </p>
-            <p xml:id="HuYgTa-125029-d1e422">
-               <lb ed="#G" n="47"/>2 Praeterea, aut ista quattuor elementa tenerent se di 
-      <lb ed="#G" n="48"/>stinctim abinuicem in distinctis partibus rei mixtae, &amp; tuc 
-      <lb ed="#G" n="49"/>nullam facerent mixtionem: aut simul concurrerent in 
-      <lb ed="#G" n="50"/>qualibet particula rei mixtae: &amp; tunc necessario
-      sequere<lb ed="#G" n="51" break="no"/>tur quattuor corpora simul esse in eodem loco cuiuslibe 
-      <lb ed="#G" n="52"/>particulae ipsius rei mixtae; nam completa essentia cuiusli 
-      <lb ed="#G" n="53"/>bet elementi est vnum corpus.
-    </p>
-            <p xml:id="HuYgTa-125029-d1e440">
-               <lb ed="#G" n="54"/>3 Praeterea, ex pluribus existentibus in actu, &amp; manen 
-      <lb ed="#G" n="55"/>sibus actu distinctis, numquam potest componi vna essen 
-      <lb ed="#G" n="56"/>tia, sed res mixta vere habet vnam essentiam;: ergo
-      ele<lb ed="#G" n="57" break="no"/>menta non manent in eo sub distinctis suis essentiis, &amp;  
-      <lb ed="#G" n="58"/>completis 
-    </p>
-            <p xml:id="HuYgTa-125029-d1e453">
-               <lb ed="#G" n="59"/>
-               <pc type="indent"/>4 Preterea, dicit <ref xml:id="HuYgTa-125029-Rd1e459">Auerroes Commentator in Commi 
-        <lb ed="#G" n="60"/>to iam superius allegato</ref>, quod ad positionem <name xml:id="HuYgTa-125029-Nd1e464">Auicen</name>, se 
-      <lb ed="#G" n="61"/>quebatur aceruus, &amp; non mixtio; quia sicut lapides acer 
-      <lb ed="#G" n="62"/>ui non faciunt mixtionem, eo quod remaneant, secundum 
-      <lb ed="#G" n="63"/>suas completas essentias: sic &amp;c 
-    </p>
-            <p xml:id="HuYgTa-125029-d1e475">
-               <lb ed="#G" n="64"/>
-               <pc type="indent"/>Sed <name xml:id="HuYgTa-125029-Nd1e481">Auicen</name> posset se in ista positone forte aliqualiter 
-      <lb ed="#G" n="65"/>iuuare per dictum Aristo, primo de generatione; ibi enini 
-      <lb ed="#G" n="66"/>dicit philosophus, quod mixtio est miscibilium alteratorum 
-      <lb ed="#G" n="67"/>vnio: sed ea, quae tantum modo sunt alterata, non sunt cor 
-      <lb ed="#G" n="68"/>rupta secundum suas essentias, ergo &amp;c 
-    </p>
-            <p xml:id="HuYgTa-125029-d1e495">
-               <lb ed="#G" n="69"/>
-               <pc type="indent"/>Respondeo, quod sicut nomen motus quandoque ex¬ 
-      <!--367.xml-->
-      <cb ed="#G" n="b"/>
-               <lb ed="#G" n="70"/>tenditur ad ipsam generationem, &amp; corruptionem, vt
-      pa<lb ed="#G" n="71" break="no"/>tet in libro prae dicamentorum, sic alterata dicuntur quan 
-      <lb ed="#G" n="72"/>loque ea, quae vere sunt corrupta. vel dicendum, quod 
-      <lb ed="#G" n="73"/>elementa, quamuis in re mixta vere sint corrupta
-      quan<lb ed="#G" n="74" break="no"/>tum ad evrum essentias; dicuntur tamen alterata: quia 
-      <lb ed="#G" n="75"/>manent secundum suas qualitates remissas in ipso mixto, 
-      <lb ed="#G" n="76"/>quae quidem remissio qualitatum si accidisset rebus misci 
-      <lb ed="#G" n="77"/>bilibus, antequam corrumperentur, ipsa miscibilia vere 
-      <lb ed="#G" n="78"/>fuissent alterata 
-    </p>
-            <p xml:id="HuYgTa-125029-d1e526">
-               <lb ed="#G" n="79"/>
-               <pc type="indent"/>Secundo dico, quod elementa non manent in mixto secu 
-      <lb ed="#G" n="80"/>dum aliquem gradum formalem suae essentiae 
-      <lb ed="#G" n="81"/>1 Quia nulla substantia habet huiusmodi gradus, cum 
-      <lb ed="#G" n="82"/>igitur elementum vere sit substantia; ergo &amp;c. maior
-      pa<lb ed="#G" n="83" break="no"/>tet, nam si substantia haberet huiusmodi gradus, tunc sub 
-      <lb ed="#G" n="84"/>tantia proprie susciperet magis &amp; minus, quod est contra 
-      <lb ed="#G" n="85"/>
-               <ref xml:id="HuYgTa-125029-Rd1e545">philosophum in libro praedicamentorum</ref>, &amp; <ref xml:id="HuYgTa-125029-Rd1e548">quinto 
-        <lb ed="#G" n="86"/>metaphysic.</ref>
-            </p>
-            <p xml:id="HuYgTa-125029-d1e554">
-               <lb ed="#G" n="87"/>2 Praeterea, quaecumque ex sui coniunctione faciunt. 
-      <lb ed="#G" n="88"/>vnam essentiam, si eorum essentiae manent incorrupte,
-      o<lb ed="#G" n="89" break="no"/>portet, quod vnum sit forma alterius, sed nullum elemen 
-      <lb ed="#G" n="90"/>tum potest esse forma, &amp; perfectio alterius, cum vnuquod 
-      <lb ed="#G" n="91"/>que elementum sit natura corporea, quae non perficit, sed  
-      <lb ed="#G" n="92"/>perficitur, ergo &amp;c
-    </p>
-            <p xml:id="HuYgTa-125029-d1e570">
-               <lb ed="#G" n="93"/>3 Praeterea, in quocunque gradu ponitur forma aliqua, 
-      <lb ed="#G" n="94"/>secundum eundem gradum ponitur effectus eius
-      forma<lb ed="#G" n="95" break="no"/>lis, &amp; proprietates ipsum consequentes. Ista patet; nam  
-      <lb ed="#G" n="96"/>secundum quemcumque gradum albedo ponitur in
-      su<lb ed="#G" n="97" break="no"/>perficie, secundum eundem gradum superficies est alba, 
-      <lb ed="#G" n="98"/>quod est effectus formalis albedinis, &amp; disgrebat, quod 
-      <lb ed="#G" n="99"/>est eius proprietas consequens suam naturam: sed effe- 
-      <lb ed="#G" n="100"/>ctus formalis formarum elementarium, &amp; cius
-      proprie<lb ed="#G" n="101" break="no"/>tates non sunt in re mixta secundum aliquem gradum; 
-      <lb ed="#G" n="102"/>gitur nec formae : minor patet, quia lapis non est ignis,  
-      <lb ed="#G" n="103"/>uod est effectus formalis formae ignis; nec secundum suam 
-      <lb ed="#G" n="104"/>naturam tendit sursum, quod est proprietas consequens 
-      <lb ed="#G" n="105"/>ignem. 
-    </p>
-            <p xml:id="HuYgTa-125029-d1e601">
-               <lb ed="#G" n="106"/>
-               <pc type="indent"/>Sed contra istam conclusionem videtur esse <ref xml:id="HuYgTa-125029-Rd1e607">opinio Con 
-        <lb ed="#G" n="107"/>mentatoris Auerrois, quam ponit s. coeli. &amp; mun.</ref> &amp; <ref xml:id="HuYgTa-125029-Rd1e612">2. de 
-          <lb ed="#G" n="108"/>peneratione</ref>. Ponit enim Commentator in locis iam
-      di<lb ed="#G" n="109" break="no"/>ctis, quod elementa maneant in mixto secundum suas es 
-      <lb ed="#G" n="110"/>sentias, non tamen completas, sed in aliquo gradu tantum, 
-      <lb ed="#G" n="111"/>quia aliquo modo corrumpuntur, &amp; aliquo modo manent. 
-      <lb ed="#G" n="112"/>Nam cum formae elementorum sint formae imperfectae, 
-      <lb ed="#G" n="113"/>ideo possunt suscipere magis, &amp; minus. 
-    </p>
-            <p xml:id="HuYgTa-125029-d1e629">
-               <lb ed="#G" n="114"/>
-               <pc type="indent"/>Hic potest dici, quod <ref xml:id="HuYgTa-125029-Rd1e635">Auerroes Commentator</ref>
-      loqui<lb ed="#G" n="115" break="no"/>tur ibi multum large de forma rei, &amp; essentia eius;
-      secun<lb ed="#G" n="116" break="no"/>dum quod essentia alicuius, &amp; forma dicuntur manere in 
-      <lb ed="#G" n="117"/>omni eo, in quo aliquo modo relucet virtus eorum. 8 
-      <lb ed="#G" n="118"/>quis tamen vellet omnino pertinaciter dicere
-      intentio<lb ed="#G" n="119" break="no"/>nem Commentatoris fuisse, quod elementa maneant in 
-      <lb ed="#G" n="120"/>m ixto secundum suas essentias, tunc praeter istas tres
-      ra<lb ed="#G" n="121" break="no"/>tiones, quas adduxi pro conclusione secunda, currerent 
-      <lb ed="#G" n="122"/>omnia illa inconuenientia, quae adduxi probando conclu 
-      <lb ed="#G" n="123"/>sionem primam, &amp; etiam ea, quae ipsemet adducit contra 
-      <lb ed="#G" n="124"/>Auicen essent contra seipsum, non enim esset mixtio, 
-      <lb ed="#G" n="125"/>sed aceruus,  
-    </p>
-            <p xml:id="HuYgTa-125029-d1e664">
-               <lb ed="#G" n="126"/>
-               <pc type="indent"/>ARTICVLVS III 
-      <lb ed="#G" n="127"/>Vtrum saltem alique realitates formarum quat 
-      <lb ed="#G" n="128"/>tuor elementorum incorrupte maneant in 
-      <lb ed="#G" n="129"/>ipso mixto.
-    </p>
-            <p xml:id="HuYgTa-125029-d1e677">
-               <lb ed="#G" n="130"/>QVANTVM ad tertium articulum primo ponam con 
-      <lb ed="#G" n="131"/>clusionem negatiuam. Secundo recitabo motiua 
-      <lb ed="#G" n="132"/>contrariae opinionis, &amp; ad ipsa respondebo. Dico ergo pri 
-      <lb ed="#G" n="133"/>mo, quod in re mixta non manent incorruptae aliquae rea 
-      <lb ed="#G" n="134"/>litates formarum elementarium, quae sint de ratione
-      in<lb ed="#G" n="135" break="no"/>trinseca huiusmodi formarum.
-    </p>
-            <p xml:id="HuYgTa-125029-d1e693">
-               <lb ed="#G" n="136"/>1 Nam omnis realitas cuiuscunque formae existens de 
-      <lb ed="#G" n="137"/>ratione ipsius formae, vel dicit totam formam, vel partem  
-      <lb ed="#G" n="138"/>sormae, vel aliquem gradum formae: sed elementa non 
-      <!--368.xml-->
-      <pb ed="#G" n="165-r"/>
-               <cb ed="#G" n="a"/>
-               <lb ed="#G" n="1"/>manent in mixto secundum totam suam formam, vt
-      pa<lb ed="#G" n="2" break="no"/>tuit in prima conclusione secundi articuli. Nec secudum 
-      <lb ed="#G" n="3"/>aliquem gradum formae, vt patuit in secunda conclusioni 
-      <lb ed="#G" n="4"/>eiusdem articuli. Nec de se habet partem &amp; partem: cum 
-      <lb ed="#G" n="5"/>forma substantialis de se sit indiuisibilis, Vt patet in sex 
-      <lb ed="#G" n="6"/>principiis 
-    </p>
-            <p xml:id="HuYgTa-125029-d1e722">
-               <lb ed="#G" n="7"/>
-               <pc type="indent"/>Et confirmatur, quia si forma substantialis esset
-      diuisi<lb ed="#G" n="8" break="no"/>bilis in partes, vel diuideretur in partes substantiales, tums 
-      <lb ed="#G" n="9"/>esset composita ex materia &amp; forma, &amp; per consequen 
-      <lb ed="#G" n="10"/>non esset forma, nec perfectio materiae, sed esset ipsum con 
-      <lb ed="#G" n="11"/>positum: vel diuideretur in partes integrales, seu
-      quanti<lb ed="#G" n="12" break="no"/>tatiuas, &amp; tunc esset secundum se quanta, &amp; per consequens 
-      <lb ed="#G" n="13"/>esset de praedicamento quantitatis
-    </p>
-            <p xml:id="HuYgTa-125029-d1e742">
-               <lb ed="#G" n="14"/>2 Praeterea, forma mixti non est diuisibilis in diuersas 
-      <lb ed="#G" n="15"/>realitates, quarum vna possit corrumpi altera remanenti 
-      <lb ed="#G" n="16"/>inc orrupta: ergo nec forma elementi. consequentia patet 
-      <lb ed="#G" n="17"/>quia da oppositum, tunc forma mixti esset simplicior, quam 
-      <lb ed="#G" n="18"/>forma simplicis elementi, quod videtur contradictionem im 
-      <lb ed="#G" n="19"/>plicare, sed antecedens conceditur et ab ipsis aduersariis 
-      <lb ed="#G" n="20"/>3 Praeterea, ista videtur esse intentio philosophi 7. met 
-      <lb ed="#G" n="21"/>vbi ait, quod forma rei mixtae non est constituta, seu com 
-      <lb ed="#G" n="22"/>posita ex elementis. Vbi notanter est aduertendum, quod 
-      <lb ed="#G" n="23"/>philosophuss metaph dixerat, quod illud vocatur
-      ele<lb ed="#G" n="24" break="no"/>mentum, ex quo fit res, cum insit: igitur philosophus 7. 
-      <lb ed="#G" n="25"/>metaph ex intentione videtur dicere, quod forma rei 
-      <lb ed="#G" n="26"/>mixtae non componitur ex elementis; ne occasionce eius; 
-      <lb ed="#G" n="27"/>quod praedixerat s. metap. credantur formae clementor 
-      <lb ed="#G" n="28"/>secundum aliquam sui realitatem incorruptae permaner 
-      <lb ed="#G" n="29"/>in ipsa re mixta 
-    </p>
-            <p xml:id="HuYgTa-125029-d1e779">
-               <lb ed="#G" n="30"/>
-               <pc type="indent"/>Sed est <ref xml:id="HuYgTa-125029-Rd1e785">quidam doctor</ref>, qui in hac materia duas ponit pro 
-      <lb ed="#G" n="31"/>poositones, quae ambae huic conclusioni videntur repugnare. 
-    </p>
-            <p xml:id="HuYgTa-125029-d1e792">
-               <lb ed="#G" n="32"/>
-               <pc type="indent"/>Prima sua proposito est, quod elementa in mixto non 
-      <lb ed="#G" n="33"/>totaliter cotrumpuntur, sed manent quantum ad realita 
-      <lb ed="#G" n="34"/>tem aliquam pertinentem ad rationem formae. 
-    </p>
-            <p xml:id="HuYgTa-125029-d1e803">
-               <lb ed="#G" n="35"/>
-               <pc type="indent"/>lstam propositionem probat sic, quia in mixto non 
-      <lb ed="#G" n="36"/>est dare aliquam partem signatam, quae non resoluatur in 
-      <lb ed="#G" n="37"/>quattuor elementa: igitur in mixto sunt aliquae
-      realita<lb ed="#G" n="38" break="no"/>tes pertinentes ad rationem, &amp; formam elementorum 
-      <lb ed="#G" n="39"/>Antecedens patet ad sensum. Nam si comburatur lignum; 
-      <lb ed="#G" n="40"/>patet, quod resoluitur in partes igneas fumales, aqueas o 
-      <lb ed="#G" n="41"/>cinerales. Et ista est ratio <ref xml:id="HuYgTa-125029-Rd1e822">philosophi 2. de generatione</ref>, 
-      <lb ed="#G" n="42"/>vbi probat quod mixta componuntur ex elementis quia 
-      <lb ed="#G" n="43"/>resoluuntur in ea
-    </p>
-            <p xml:id="HuYgTa-125029-d1e830">
-               <lb ed="#G" n="44"/>2 Praeterea, ex eisdem sumus &amp; nutrimur: sed non nu 
-      <lb ed="#G" n="45"/>trimur ex aliquo simplici, sed ex quattuor elementis: er 
-      <lb ed="#G" n="46"/>go non sumus ex aliquo simplici, sed ex quattuor elemer 
-      <lb ed="#G" n="47"/>tis. Maiorem ponit <ref xml:id="HuYgTa-125029-Rd1e840">philosophus 2. de generatione</ref>, &amp;
-      ibi<lb ed="#G" n="48" break="no"/>dem ponit minorem; dicit enim, quod omnia mixta nutriun 
-      <lb ed="#G" n="49"/>tur ex multis: etenim ea, quae videntur nutriri ex vno, vi 
-      <lb ed="#G" n="50"/>plantae ex aqua: illa tamen aqua mixta est cum terra. Vn 
-      <lb ed="#G" n="51"/>de &amp; rustici contemperant miscentes fumum abundanter 
-    </p>
-            <p xml:id="HuYgTa-125029-d1e853">
-               <lb ed="#G" n="52"/>3 Praeterea, secundum Aristotelem primo de
-      genera<lb ed="#G" n="53" break="no"/>tione mixtio non est corruptio simpliciter ipsorum misci 
-      <lb ed="#G" n="54"/>bilium, sed si non remanent realitates aliquae ipsotum
-      misci<lb ed="#G" n="55" break="no"/>bilium, tunc mixtio esset simpliciter miscibilium corrupti
-    </p>
-            <p xml:id="HuYgTa-125029-d1e864">
-               <lb ed="#G" n="56"/>4 Praeterea, elementa non sunt in mixto sicut in po 
-      <lb ed="#G" n="57"/>tentia materiae. Vnde <ref xml:id="HuYgTa-125029-Rd1e870">philosophus 1. de generatione</ref>, post 
-      <lb ed="#G" n="58"/>quam dixerat, quod miscibilia sunt in mixto in potentia 
-      <lb ed="#G" n="59"/>subdit modum dicens, Dico autem in potentia non sicut 
-      <lb ed="#G" n="60"/>in potentia materiae: sed si totaliter corrumperentur, tumc 
-      <lb ed="#G" n="61"/>non essent in mixto, nisi sicut in potentta materiae 
-    </p>
-            <p xml:id="HuYgTa-125029-d1e883">
-               <lb ed="#G" n="62"/>3 Praeterea, secundum philosophum 1 de
-      generatio<lb ed="#G" n="63" break="no"/>ne: mixtio est miscibilium alteratorum vnio; ied, nisi
-      ele<lb ed="#G" n="64" break="no"/>menta aliquo modo manerent, mixtio non esset vera vnio 
-      <lb ed="#G" n="65"/>alteratorum: quia vbi non sunt extrema vnionis, ibi non 
-      <lb ed="#G" n="66"/>est vnio: cum vnio sit relatio, seu ad aliquid: ergo &amp;c. 
-    </p>
-            <p xml:id="HuYgTa-125029-d1e897">
-               <lb ed="#G" n="67"/>
-               <pc type="indent"/>Secunda proposito istius doctoris est, quod forma mi 
-      <lb ed="#G" n="68"/>ti estres quaedam constituta ex realitatibus formarum ip 
-      <lb ed="#G" n="69"/>sorum elementorum: non tamen est res constituta ex fo 
-      <lb ed="#G" n="70"/>mis elementorum in quocumque gradu etiam
-      minimo<lb ed="#G" n="71" break="no"/>Hanc conclusionem probat sic 
-    </p>
-            <p xml:id="HuYgTa-125029-d1e913">
-               <lb ed="#G" n="72"/>
-               <pc type="indent"/>Forma substantialis mixti non est magis simplex 
-      <lb ed="#G" n="73"/>quam forma istius svllabae, EA, quae est qualitas quaedam 
-      <!--368.xml-->
-      <cb ed="#G" n="b"/>
-               <lb ed="#G" n="74"/>simplex, cum sit sonus, qui est de tertia specie qualitatis. 
-      <lb ed="#G" n="75"/>sed iste sonus, EA, non obstante sua simplicitate, est
-      con<lb ed="#G" n="76" break="no"/>flatus ex propriis sonis ipsius P, &amp; Atablatis tamen eorum 
-      <lb ed="#G" n="77"/>terminationibus: ita enim reseruantur in EA realitates 
-      <lb ed="#G" n="78"/>sonorum ipsius D &amp; A,quod tamen franguntur, &amp; tollur 
-      <lb ed="#G" n="79"/>tur eorum propriae terminationes: igitur forma mixti, non 
-      <lb ed="#G" n="80"/>obstante eius simplicitate, constituitur ex realitatibus ele 
-      <lb ed="#G" n="81"/>mentorum, omissis propriis terminationibus eorum.
-    </p>
-            <p xml:id="HuYgTa-125029-d1e944">
-               <lb ed="#G" n="82"/>2 Preterea, quando aliquae realitates sunt tales, quod 
-      <lb ed="#G" n="83"/>terminatio, vnitas, propria, &amp; distinctio earum fundantur 
-      <lb ed="#G" n="84"/>super aliquo, quo ablato, ipsae possunt remanere, si talo 
-      <lb ed="#G" n="85"/>fundamentum, seu ratio fundandi aufertur: tunc illae
-      rea<lb ed="#G" n="86" break="no"/>litates remanentes possunt conflare formam tertiam: quia 
-      <lb ed="#G" n="87"/>eo ipso, quod aufertur ab eis illud, quod erat ratio
-      distin<lb ed="#G" n="88" break="no"/>ctionis vnius ab altera: necesse est, quod veniant ad vnita 
-      <lb ed="#G" n="89"/>te, sed formae reales elementares sunt rales, quod ab ipsis 
-      <lb ed="#G" n="90"/>potest auferri illud, quod erat fundamentum, &amp; ratio pro 
-      <lb ed="#G" n="91"/>priae terminationis in eis: igitur, talibus ablatis, necessario 
-      <lb ed="#G" n="92"/>veniunt ad vnitatem mediam alicuius tertij, &amp; illud est ( 
-      <lb ed="#G" n="93"/>forma conflata. 
-    </p>
-            <p xml:id="HuYgTa-125029-d1e973">
-               <lb ed="#G" n="94"/>
-               <pc type="indent"/>Sed salua reuerentia istius doctoris, videtur, quod sin 
-      <lb ed="#G" n="95"/>uocumque alio repugnante istae duae propositones
-      de<lb ed="#G" n="96" break="no"/>struant seipsas.
-    </p>
-            <p xml:id="HuYgTa-125029-d1e984">
-               <lb ed="#G" n="97"/>1 Quia quamuis res composita possit manere
-      secun<lb ed="#G" n="98" break="no"/>dum aliquid, quod est de sui ratione, ipsa re composita, vt 
-      <lb ed="#G" n="99"/>composita est, non manente, quod tamen aliquid rema 
-      <lb ed="#G" n="100"/>neat, quod est de ratione simplicis formae existens ver. 
-      <lb ed="#G" n="101"/>realitas substantialis illius formae, forma non
-      manente<lb ed="#G" n="102" break="no"/>nec secundum se nec secundum aliquem sui gradum,
-      ho<lb ed="#G" n="103" break="no"/>non videtur esse possibile. Sed iste doctor in prima propo 
-      <lb ed="#G" n="104"/>sitione ponit, quod in mixto remanet realitas, quae est de 
-      <lb ed="#G" n="105"/>ratione formae elementaris; &amp; in secunda propositono 
-      <lb ed="#G" n="106"/>ponit, quod forma elementaris in re mixta non manet se 
-      <lb ed="#G" n="107"/>cudum aliquem sui gradum, quia, vt ipse ait, forma mixti 
-      <lb ed="#G" n="108"/>sic constituitur ex realitatibus formarum ipsorum elemer 
-      <lb ed="#G" n="109"/>torum, quod tamen non constituitur ex formis
-      elemen<lb ed="#G" n="110" break="no"/>torum, etiam in quocumque gradu: cum igitur forma
-      ele<lb ed="#G" n="111" break="no"/>menti sit simplex forma, &amp; non sit res composita, igitur
-      hae<lb ed="#G" n="112" break="no"/>propositones sibi mutuo videntur contradicere.
-    </p>
-            <p xml:id="HuYgTa-125029-d1e1021">
-               <lb ed="#G" n="113"/>2 Praeterea, si aliqua realitas elementi incorrupta ma 
-      <lb ed="#G" n="114"/>net in mixto; aut illa realitas erit accidens, vel substantia 
-      <lb ed="#G" n="115"/>Non potest secundum dicta istius doctoris esse accidens 
-      <lb ed="#G" n="116"/>quia accidens non est de ratione formae substantialis ipsius e 
-      <lb ed="#G" n="117"/>elementi: haec autem realitas manens est de ratione
-      for<lb ed="#G" n="118" break="no"/>mae elementaris, vt ipse ait. Nec potest esse substantia, quia 
-      <lb ed="#G" n="119"/>omnis substantia, vt patet. <ref xml:id="HuYgTa-125029-Rd1e1038">2. de anima</ref>, vel est materia, vel 
-      <lb ed="#G" n="120"/>orma, vel compositum: sed secundum dicta istius ista rea 
-      <lb ed="#G" n="121"/>litas nullum istorum esse potest: ergo non manet in mix 
-      <lb ed="#G" n="122"/>to aliqua realitas elementi, quae sit de ratione formae ele 
-      <lb ed="#G" n="123"/>mentaris, vt dicit prima proposito
-    </p>
-            <p xml:id="HuYgTa-125029-d1e1052">
-               <lb ed="#G" n="124"/>3 Praeterea, istae realitates formarum elementarium,
-      si<lb ed="#G" n="125" break="no"/>manerent in forma mixti, vel m anerent aliquo modo di ; 
-      <lb ed="#G" n="126"/>stinctae inter se, &amp; tunc nullo modo forma mixti ex ipsi 
-      <lb ed="#G" n="127"/>posset constitui, quia actus est, qui distinguit; igitur si tales 
-      <lb ed="#G" n="128"/>realitates essent aliquo modo distincte, tunc quaelibet
-      il<lb ed="#G" n="129" break="no"/>larum realitatum esset in actu, &amp; per consequens non
-      pos<lb ed="#G" n="130" break="no"/>sent constituere vnam essentiam, cum ex pluribus in actu 
-      <lb ed="#G" n="131"/>non fiat vnum essentiale; igitur, vt sic, forma mixti
-      num<lb ed="#G" n="132" break="no"/>quam ex ipsis posset constitui, quod est contra primam 
-      <lb ed="#G" n="133"/>partem secundae propositonis; vel huiusmodi realitates 
-      <lb ed="#G" n="134"/>manerent penitus indistinctae, &amp; tunc non manerent nisi 
-      <lb ed="#G" n="135"/>in potentia materiae, quia in fundamento naturae nihil 
-      <lb ed="#G" n="136"/>est distinctum, vt dicitur, i, metaph &amp; per consequens nec 
-      <lb ed="#G" n="137"/>sic constituerent formam mixti
-    </p>
-            <p xml:id="HuYgTa-125029-d1e1085">
-               <lb ed="#G" n="138"/>4 Praeterea, sicut se habet realitas materiae ad materiam 
-      <lb ed="#G" n="139"/>sic se habet realitas formae ad formam: sed omnis realitas 
-      <lb ed="#G" n="140"/>materiae est materia : ergo omnis realitas formae est
-      for<lb ed="#G" n="141" break="no"/>ma; &amp; hoc est contra secundam particulam secundae
-      pro<lb ed="#G" n="142" break="no"/>positonis. 
-    </p>
-            <p xml:id="HuYgTa-125029-d1e1098">
-               <lb ed="#G" n="143"/>
-               <pc type="indent"/>Preterea, confirmatur hoc idem sic. Omnis realitas 
-      <lb ed="#G" n="144"/>illius, quod est pura actuatio, oportet, quod sit illud, cuius 
-      <lb ed="#G" n="145"/>est realitas: si enim esset distinguibile in talia, quorum 
-      <lb ed="#G" n="146"/>vnum esset ipsum, &amp; aliud non esset ipsum, tunc non esset 
-      <!--369.xml-->
-      <pb ed="#G" n="165-v"/>
-               <cb ed="#G" n="a"/>
-               <lb ed="#G" n="1"/>pura actuatio : sed secundum istum doctorem forma est 
-      <lb ed="#G" n="2"/>pura actuatio: ergo nulla potest esse realitas ipsius forme, 
-      <lb ed="#G" n="3"/>quae non sit ipsa forma 
-    </p>
-            <p xml:id="HuYgTa-125029-d1e1124">
-               <lb ed="#G" n="4"/>
-               <pc type="indent"/>Ad primam rationem eorum dicendum, quod quaecum 
-      <lb ed="#G" n="5"/>que pars mixti resoluitur in ipsa elementa, illa pars
-      cor<lb ed="#G" n="6" break="no"/>rumpitur: quia non est dare corruptionem sine generatis 
-      <lb ed="#G" n="7"/>ne, nec econuerso, vt patet. <ref xml:id="HuYgTa-125029-Rd1e1137">2. de generatione</ref>; igitur sicut 
-      <lb ed="#G" n="8"/>mixtum, vel quaecumque pars mixti vere in tali
-      rosolu<lb ed="#G" n="9" break="no"/>tione corrumpitur, sic elementa, in quae resoluitur, uers 
-      <lb ed="#G" n="10"/>generantur, &amp; per consequens realitas formae
-      elemento<lb ed="#G" n="11" break="no"/>rum non praefuit in ipso mixto, ante huiusmodi resolutio 
-      <lb ed="#G" n="12"/>nem, nisi in potentia materiae: quia illud, quod generatur 
-      <lb ed="#G" n="13"/>ex aliquo, non est in eo, nisi in potentia suae materiae. 
-    </p>
-            <p xml:id="HuYgTa-125029-d1e1154">
-               <lb ed="#G" n="14"/>
-               <pc type="indent"/>Ad secundum dicendum, quod non plus concludit, ni 
-      <lb ed="#G" n="15"/>si, quod sumus ex elementis: &amp; hoc concedo: non tamet 
-      <lb ed="#G" n="16"/>sto modo, quod realitates elementorum in nobis ma 
-      <lb ed="#G" n="17"/>neant incorruptae: sed isto modo, quod in formis nostrarum 
-      <lb ed="#G" n="18"/>complexionum includuntur virtutes elementorum,
-      pe<lb ed="#G" n="19" break="no"/>nes cuius inclusionis diuersitatem etiam diuersificantur 
-      <lb ed="#G" n="20"/>nostrae complexiones 
-    </p>
-            <p xml:id="HuYgTa-125029-d1e1174">
-               <lb ed="#G" n="21"/>
-               <pc type="indent"/>Ad tertium dicendum, quod mixtio pro tanto non di 
-      <lb ed="#G" n="22"/>citur corruptio simpliciter, idest corruptio omnino: quia 
-      <lb ed="#G" n="23"/>miscibilium virtus manet in mixto, licet non remaneat 
-      <lb ed="#G" n="24"/>miscibilium substantialis realitas incorrupta 
-    </p>
-            <p xml:id="HuYgTa-125029-d1e1188">
-               <lb ed="#G" n="25"/>
-               <pc type="indent"/>Vel posset etiam dici, quod cum imperfectius corrum 
-      <lb ed="#G" n="26"/>itur, &amp; perfectius generatur: tunc secundum <ref xml:id="HuYgTa-125029-Rd1e1196">philoso¬ 
-        <lb ed="#G" n="27"/>phum. 5. physico.</ref> est corruptio secundum quid, &amp; genera 
-      <lb ed="#G" n="28"/>tio simpliciter, cum igitur elementum sit res
-      imperfe<lb ed="#G" n="29" break="no"/>ctior, quam res mixta: ideo quamuis in generatione rei 
-      <lb ed="#G" n="30"/>inixtae miscibilia vere corrumpantur: quia alias esset vera 
-      <lb ed="#G" n="31"/>generatio sine vera eorruptione, quod negat omnis vera 
-      <lb ed="#G" n="32"/>philosophia, dicitur tamen mixtio, non corruptio simpli 
-      <lb ed="#G" n="33"/>citer, eo, quod ignobilius corrumpitur &amp; nobilius
-      ge<lb ed="#G" n="34" break="no"/>neratur. 
-    </p>
-            <p xml:id="HuYgTa-125029-d1e1217">
-               <lb ed="#G" n="35"/>
-               <pc type="indent"/>Ad quartum nego maiorem. Ad probationem dico, quod 
-      <lb ed="#G" n="36"/>huiusmodi verba Aristoteles dixit pro tanto, quia quam 
-      <lb ed="#G" n="37"/>uis transeant in potentiam materiae quantum ad realita 
-      <lb ed="#G" n="38"/>tem substantialem; manent tamen quantum ad virtuten 
-      <lb ed="#G" n="39"/>suarum proprietatum.  
-    </p>
-            <p xml:id="HuYgTa-125029-d1e1233">
-               <lb ed="#G" n="40"/>
-               <pc type="indent"/>Forte dicetur, quod sic posset etiam dici, quod aer ma 
-      <lb ed="#G" n="41"/>neat, cum de acre fit ignis: quia manet secundum virtutem 
-      <lb ed="#G" n="42"/>suae caliditatis, cum ignis sit calidus.
-    </p>
-            <p xml:id="HuYgTa-125029-d1e1244">
-               <lb ed="#G" n="43"/>Respondeo, quod aer non manet sic in igne: quia calo 
-      <lb ed="#G" n="44"/>ignis est oppositae conditionis respectu caioris ipsius
-      ae<lb ed="#G" n="45" break="no"/>ris: quia calor ignis est consumptiuus, calor autem
-      aeri<lb ed="#G" n="46" break="no"/>non est consumptiuus, sed magis nutritiuus: virtutes
-      au<lb ed="#G" n="47" break="no"/>tem elementorum proprie manent in mixto, quamuis 
-      <lb ed="#G" n="48"/>remissae, experimur enim in nobis virtutem ignei caloris 
-      <lb ed="#G" n="49"/>ratione consumptionis; aerei, ratione nutritionis;
-      siccita<lb ed="#G" n="50" break="no"/>tis igneae, ratione ariditatis colerae rubeae, humiditatis ac 
-      <lb ed="#G" n="51"/>reae ratione sanguinis: &amp; sic de aliis virtutibus elemento 
-      <lb ed="#G" n="52"/>torum. 
-    </p>
-            <p xml:id="HuYgTa-125029-d1e1268">
-               <lb ed="#G" n="53"/>
-               <pc type="indent"/>Ad quintum dico, quod ratio est contra illum, qui
-      fa<lb ed="#G" n="54" break="no"/>cit eam: quia relatio realis requirit extrema realiter
-      di<lb ed="#G" n="55" break="no"/>stincta:igitur, si ratio concluderet, istae realitates elemen 
-      <lb ed="#G" n="56"/>torum in forma mixti essent realiter distinctae, quod isti 
-      <lb ed="#G" n="57"/>constanter negat, &amp; merito: quia si realiter manerent di 
-      <lb ed="#G" n="58"/>stinctae, tunc numquam constituerent vnam essentiam sor 
-      <lb ed="#G" n="59"/>mae mixte. Dico etiam ad rationem, quod vnio illa
-      de<lb ed="#G" n="60" break="no"/>bet intelligi quantum ad virtutes miscibilium, non auten 
-      <lb ed="#G" n="61"/>quantum ad realitates substantiales eorum. 
-    </p>
-            <p xml:id="HuYgTa-125029-d1e1292">
-               <lb ed="#G" n="62"/>
-               <pc type="indent"/>Ad primum alterius propositonis dicendum, quod non 
-      <lb ed="#G" n="63"/>oportet similitudinem exemplarem currere per omnes 
-      <lb ed="#G" n="64"/>edes: sufficit enim, quod in hoc sit simile, quod ficut
-      so<lb ed="#G" n="65" break="no"/>nus litterarum refractus percipitur in sono svllabae com 
-      <lb ed="#G" n="66"/>positae ex talibus litteris: sic elementorum virtutes remis 
-      <lb ed="#G" n="67"/>sae in esse noscuntur ipsis mixtis 
-    </p>
-            <p xml:id="HuYgTa-125029-d1e1311">
-               <lb ed="#G" n="68"/>
-               <pc type="indent"/>Ad secundum dicendum, quod illa minor non est vni 
-      <lb ed="#G" n="69"/>formiter sumpta sub maiori;si autem vniformiter
-      sume<lb ed="#G" n="70" break="no"/>retur: tunc esset neganda; quia ablatis terminationibus 
-      <lb ed="#G" n="71"/>&amp; propriis vnitatibus, ac distinctionibus formarum
-      ipso<lb ed="#G" n="72" break="no"/>rum elamentorum: tunc necessario aufertur omnis
-      reali<lb ed="#G" n="73" break="no"/>tas talium formarum spectas ad rationem earum : vt sic 
-      <!--369.xml-->
-      <cb ed="#G" n="b"/>
-               <lb ed="#G" n="74"/>enim quantum ad tales realitates forma mixti nullo mo 
-      <lb ed="#G" n="75"/>do componitur ex elementis. Propter quod ait <ref xml:id="HuYgTa-125029-Rd1e1337">philoso 
-        <lb ed="#G" n="76"/>phus. 7. metaph</ref> Forma mixti nec est elementum, nec con 
-      <lb ed="#G" n="77"/>posita ex elementis, 
-    </p>
-            <p xml:id="HuYgTa-125029-d1e1345">
-               <lb ed="#G" n="78"/>
-               <pc type="indent"/>ARTICVLVS II 
-      <lb ed="#G" n="79"/>Vtrum Totum nxtum differat realiter 
-      <lb ed="#G" n="80"/>
-               <pc type="indent"/>asuis partibus.
-    </p>
-            <p xml:id="HuYgTa-125029-d1e1358">
-               <lb ed="#G" n="81"/>QVANTVM ad quartum articulum dicendum, quod 
-      <lb ed="#G" n="82"/>si per partes mixti intelliguntur ipsa miscibilia 
-      <lb ed="#G" n="83"/>tunc planum est, quod totum mixtum differt a partibus; 
-      <lb ed="#G" n="84"/>quia totum actu est; partes autem tales non sunt actu, 
-      <lb ed="#G" n="85"/>cum ad generationem totius corruptae sint, &amp; cesserint in po 
-      <lb ed="#G" n="86"/>entiam materiae, vt patet ex precedentibus. Si autem  
-      <lb ed="#G" n="87"/>quaeritur de partibus essentialibus ipsius mixti, puta de 
-      <lb ed="#G" n="88"/>materia &amp; forma, tunc pono duas conclusiones. 
-    </p>
-            <p xml:id="HuYgTa-125029-d1e1378">
-               <lb ed="#G" n="89"/>
-               <pc type="indent"/>Prima est, quod totum differt realiter a qualibet par¬ T 
-      <lb ed="#G" n="90"/>te seorsum sumpta: quia in omnibus rebus creatis, quae c 
-      <lb ed="#G" n="91"/>sic se habent, quod vna includit aliam, a quocumque
-      in<lb ed="#G" n="92" break="no"/>clusa differt realiter, ab eodem includens differt realiter 
-      <lb ed="#G" n="93"/>ed ad quamcumque partem seorsum sumptam compara 
-      <lb ed="#G" n="94"/>tur ipsum totum: tunc semper totum includit alteram
-      par<lb ed="#G" n="95" break="no"/>tem, quae istam excludit, &amp; realiter differt ab ea, alias non  
-      <lb ed="#G" n="96"/>faceret realem compositionem iuncta cum ea, quod est 
-      <lb ed="#G" n="97"/>falsum: ergo &amp;c 
-    </p>
-            <p xml:id="HuYgTa-125029-d1e1402">
-               <lb ed="#G" n="98"/>
-               <pc type="indent"/>Secunda conclusio est, quod totum essentiale differt e 
-      <lb ed="#G" n="99"/>realiter ab omnibus partibus simul sumptis, dummodo c 
-      <lb ed="#G" n="100"/>umantur &amp; considerentur, vt partes sunt quia de quibus 
-      <lb ed="#G" n="101"/>cumquae rebus finitis verificantur contradictoria praedica 
-      <lb ed="#G" n="102"/>ta, illa realiter differunt, maxime sit vtrumque dicit enti 
-      <lb ed="#G" n="103"/>tatem absolutam: sed totum, &amp; partes etiam simul
-      sum<lb ed="#G" n="104" break="no"/>ptae sunt huiusmodi. Maior patet. minorem probo, quia to 
-      <lb ed="#G" n="105"/>ti conuenit per se esse, per se generari, &amp; per se agere: sed  
-      <lb ed="#G" n="106"/>partibus, vt partes sunt, quamuiscumque simul sumptis 
-      <lb ed="#G" n="107"/>nec conuenit per se esse, nec per se generari, nec per se age 
-      <lb ed="#G" n="108"/>re, quae omnia sunt contradictoria praedicata; ergo &amp;c. 
-    </p>
-            <p xml:id="HuYgTa-125029-d1e1431">
-               <lb ed="#G" n="109"/>
-               <pc type="indent"/>2 Praeterea, quae sic se habent, quod vnum naturaliter 
-      <lb ed="#G" n="110"/>praesupponit alterum tamquam realem suam causam,
-      il<lb ed="#G" n="111" break="no"/>la realiter differunt: sed totum praesupponit simultatem, 
-      <lb ed="#G" n="112"/>artium taquam suam realem causam. partes enim sun 
-      <lb ed="#G" n="113"/>tausa totius, non vt diuisae ab inuicem sunt, sed vt coniun 
-      <lb ed="#G" n="114"/>ctae simul sunti ergo totum differt realiter a partibus, etiam 
-      <lb ed="#G" n="115"/>vt simul sumptae sunt 
-    </p>
-            <p xml:id="HuYgTa-125029-d1e1452">
-               <lb ed="#G" n="116"/>
-               <pc type="indent"/>3 Praeterea, quae sic se habent, quod fundant aliam, &amp; 
-      <lb ed="#G" n="117"/>aliam vnitatem realem, illa realiter differunt: sed totum 
-      <lb ed="#G" n="118"/>&amp; pars etiam simul sumptae sunt huiusmodi: quia totum 
-      <lb ed="#G" n="119"/>cum dicat vnam essentiam, fundat vnitatem identitatis; 
-      <lb ed="#G" n="120"/>partes autem, vt partes sunt, qualitercumquae sumantur,  
-      <lb ed="#G" n="121"/>non fundant vnitatem identitatis, sed vnitatem vnionis. 
-    </p>
-            <p xml:id="HuYgTa-125029-d1e1470">
-               <lb ed="#G" n="122"/>
-               <pc type="indent"/>Sed contra istam conclusionem est vna sollemnis
-      opi<lb ed="#G" n="123" break="no"/>nio, cuius motiua ad praesens non pono: quia ipsam alia 
-      <lb ed="#G" n="124"/>vice, cum materia se obtulerit, intendo morosius ptractare. 
-    </p>
-            <p xml:id="HuYgTa-125029-d1e1481">
-               <lb ed="#G" n="125"/>
-               <pc type="indent"/>Ad argumentum principale patet per iam dicta 
-    </p>
-         </div>
-      </body>
-   </text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 1</title>
+        <author ref="#ThomasStrasbourg">Thomas of Strasbourg</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 1</title>
+          <date when="2020-11-26">November 26, 2020</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="G" n="cod-TxxxqU">Genoa 1585</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2020-11-26" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#G" n="164-r"/>
+        <cb ed="#G" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="HuYgTa-125029"><!-- HuYgTa-l2d15q1 -->
+        <head xml:id="HuYgTa-125029-Hd1e108">Quaestio 1</head>
+        <head xml:id="HuYgTa-125029-Hd1e111" type="question-title">
+          An res mixtae sint productae de terra, et aqua
+        </head>
+        <p xml:id="HuYgTa-125029-d1e114">
+          <lb ed="#G" n="74"/>
+          <pc type="indent"/>Quaestio.  
+          <lb ed="#G" n="75"/>An res mixtae sint productae de terra, &amp; aqua 
+        </p>
+        <p xml:id="HuYgTa-125029-d1e123">
+          <lb ed="#G" n="76"/>
+          <pc type="indent"/>VTRVM res mixtae, de quarum productio 
+          <lb ed="#G" n="77"/>ne tractat Magister in ista quintadecima 
+          <lb ed="#G" n="78"/>distinctione, sint productae de terra &amp; 
+          <lb ed="#G" n="79"/>aqua.
+        </p>
+        <p xml:id="HuYgTa-125029-d1e136">
+          Et videtur quod non, quia illud, quod 
+          <lb ed="#G" n="80"/>est compositum ex omnibus elementis. 
+          <lb ed="#G" n="81"/>de omnibus elementis videtur esse pro 
+          <lb ed="#G" n="82"/>ductum, quaelibet res mixta est composita ex omnibus
+          ele<lb ed="#G" n="83" break="no"/>mentis, vt patet <ref xml:id="HuYgTa-125029-Rd1e146">2. de generatione.</ref> 
+        </p>
+        <p xml:id="HuYgTa-125029-d1e151">
+          <lb ed="#G" n="84"/>
+          <pc type="indent"/>Contra videtur dicere textus, quod pisces, &amp; aues facti sint 
+          <lb ed="#G" n="85"/>ex aquis, iumenta vero, &amp; bestiae atque reptibilia facta sini 
+          <lb ed="#G" n="86"/>ex terra. Hic quattuor sunt videnda. Primo, vtrum ad
+          com<lb ed="#G" n="87" break="no"/>positionem cuiuslibet re mixtae concurrant omnia
+          quat<lb ed="#G" n="88" break="no"/>tuor elementa. Secundo, vtrum formae quattuor
+          elemen<lb ed="#G" n="89" break="no"/>torum in re mixta maneant incorruptae. Tertio dato, quod 
+          <lb ed="#G" n="90"/>tales formae non maneant; videndum erit vtrum saltem 
+          <lb ed="#G" n="91"/>aliquae realitates talium formarum incorruptae maneant 
+          <lb ed="#G" n="92"/>in ipso mixto. Et quarto, vtrum totum mixtum differat 
+          <lb ed="#G" n="93"/>realiter a suis partibus. 
+        </p>
+        <p xml:id="HuYgTa-125029-d1e177">
+          <lb ed="#G" n="94"/>
+          <pc type="indent"/>RESOLVTIO. 
+          <lb ed="#G" n="95"/>Perspicuum quidem est mixtum quodlibet (dummodo perlectum 
+          <lb ed="#G" n="96"/>
+          <pc type="indent"/>sit) ex quattuor conflari elementis :licet plerunque ex terra  
+          <lb ed="#G" n="97"/>aqua ob vtriusque praedominium productum esse perhibeatur. 
+          <lb ed="#G" n="98"/>formae tamen ipsorum elementorum in eo minime reperiuntur. 
+        </p>
+        <p xml:id="HuYgTa-125029-d1e195">
+          <lb ed="#G" n="99"/>
+          <pc type="indent"/>ARTICVLVS I. 
+          <lb ed="#G" n="100"/>Vtrum ad compositonem ciuiuslibet vei mixte concim 
+          <lb ed="#G" n="101"/>vant omud quattuor elementa
+        </p>
+        <p xml:id="HuYgTa-125029-d1e206">
+          <lb ed="#G" n="102"/>QVANTVM ad primum pono tres breues conclusio 
+          <lb ed="#G" n="103"/>nes. Prima est, quod vnaquaeque res mixta, si est 
+          <lb ed="#G" n="104"/>perfecta, tunc composita est aliquo modo ex quattuor
+          e<lb ed="#G" n="105" break="no"/>lementis. 
+        </p>
+        <p xml:id="HuYgTa-125029-d1e217">
+          <lb ed="#G" n="106"/>
+          <pc type="indent"/>Quia vnumquodque ex his componitur, in quae
+          re<lb ed="#G" n="107" break="no"/>oluitur, sed vnumquodque mixtum perfectum est
+          reso<lb ed="#G" n="108" break="no"/>lubile aliquo modo in quattuor elementa, vt patet
+          secu<lb ed="#G" n="109" break="no"/>do de generatione, ergo &amp;c.
+        </p>
+        <p xml:id="HuYgTa-125029-d1e230">
+          <lb ed="#G" n="110"/>2 Praeterea, sicut se habet sonus huius svllabae DA ac 
+          <lb ed="#G" n="111"/>sonum istarum litterarum, quae sunt D, &amp; A, sic se habet res
+          mix<lb ed="#G" n="112" break="no"/>ta ad ipsa elementa; sed praedicta svllaba componitur ex pro 
+          <lb ed="#G" n="113"/>dictis litteris; ergo res mixta componitur ex ipsis elementis. 
+          <lb ed="#G" n="114"/>minor patet, maiorem autem ponit <ref xml:id="HuYgTa-125029-Rd1e243">philosop. 7. metaph¬</ref> 
+        </p>
+        <p xml:id="HuYgTa-125029-d1e248">
+          <lb ed="#G" n="115"/>
+          <pc type="indent"/>Secundo dico, quod in talibus mixtis, de quibus <ref xml:id="HuYgTa-125029-Rd1e254">Magister 
+            <lb ed="#G" n="116"/>loquitur hicin littera</ref>, puta in animalibus, quamuis ad com 
+          <lb ed="#G" n="117"/>rum compositionem aliquo modo concurrant quattuo. 
+          <lb ed="#G" n="118"/>elementa tamen quo ad quantitatem molis elementa gra 
+          <lb ed="#G" n="119"/>uia, puta terra, &amp; aqua tenent praedominium 
+        </p>
+        <p xml:id="HuYgTa-125029-d1e267">
+          <lb ed="#G" n="120"/>
+          <pc type="indent"/>Quia omne, quod motu naturali tendit deorsum 
+          <lb ed="#G" n="121"/>in illo elementa grauia tenent praedominium quo ad quan 
+          <lb ed="#G" n="122"/>titatem molis: sed omne animal motu naturali tendit de 
+          <lb ed="#G" n="123"/>orsum; nam etiam ipsae aues, si alas habuerint impeditas,  
+          <lb ed="#G" n="124"/>cadunt deorsum; ergo &amp;c. 
+        </p>
+        <p xml:id="HuYgTa-125029-d1e283">
+          <!--367.xml-->
+          <pb ed="#G" n="164-v"/>
+          <cb ed="#G" n="a"/>
+          <lb ed="#G" n="1"/>2 Praeterea, taliter Deus &amp; natura miscibilia in re
+          mi<lb ed="#G" n="2" break="no"/>xta temperauit, vt mixtum aliquo modo durare possit, &amp; 
+          <lb ed="#G" n="3"/>non immediate corrumpatur. Ista patet: quia frustra
+          pro<lb ed="#G" n="4" break="no"/>duceretur in esse, quod immediate tenderet in non esse 
+          <lb ed="#G" n="5"/>Deus autem &amp; natura uihil faciunt frustra, Sed si tantum 
+          <lb ed="#G" n="6"/>de igne penes quantitatem molis, seu de virtute ignis esset 
+          <lb ed="#G" n="7"/>in mixto, quantum de terra: cum actiuitas ignis multum 
+          <lb ed="#G" n="8"/>excedat actiuitatem terrae, vel aquae: ipsum mixtum
+          pro<lb ed="#G" n="9" break="no"/>pter ignis consumptiuam virtutem immediate corrumperetur.
+        </p>
+        <p xml:id="HuYgTa-125029-d1e312">
+          <lb ed="#G" n="10"/>Tertio dico, quod omnia animalia dicuntur facta de
+          ter<lb ed="#G" n="11" break="no"/>ra, vel de aqua: non quod ab eorum compositone
+          exclu<lb ed="#G" n="12" break="no"/>dantur cetera elementa: sed pro tanto, quia in eis terra, 
+          <lb ed="#G" n="13"/>&amp; aqua praedominantur. In iumentis enim bestijs, &amp; re- 
+          <lb ed="#G" n="14"/>ptibilibus dominatur elementum terrestre; in piscibus au 
+          <lb ed="#G" n="15"/>tem, &amp; auibus dominatur elementum aquae: aliter tamen, 
+          <lb ed="#G" n="16"/>&amp; aliter : quia in complexione piscium dominatur
+          ele<lb ed="#G" n="17" break="no"/>mentum aquae per se: in volatilibus autem dominatur
+          a<lb ed="#G" n="18" break="no"/>qua vt admixta est aeri. Propter quod etiam beatus <ref xml:id="HuYgTa-125029-Rd1e333">Au¬ 
+            <lb ed="#G" n="19"/>gustinus 3. libro super Sen</ref> videtur dicere, quod
+          corpo<lb ed="#G" n="20" break="no"/>ra auium sunt facta ex aere: sunt enim factae ipsae aues ex 
+          <lb ed="#G" n="21"/>aere uaporoso habente admixtos vapores grossos, &amp;
+          a<lb ed="#G" n="22" break="no"/>queos: cuius signum est, quod etiam ipse aues non viuuns 
+          <lb ed="#G" n="23"/>in puro aere, sed magis hic prope nos in aere aquoso, &amp; 
+          <lb ed="#G" n="24"/>vaporoso. 
+        </p>
+        <p xml:id="HuYgTa-125029-d1e350">
+          <lb ed="#G" n="25"/>
+          <pc type="indent"/>ARTICVLVS R 
+          <lb ed="#G" n="26"/>Vtrum formae quattuor elementorum in re mixta 
+          <lb ed="#G" n="27"/>mone ant omnia quattuor imcorrupte.
+        </p>
+        <p xml:id="HuYgTa-125029-d1e361">
+          <lb ed="#G" n="28"/>VANTVM ad secundum articulum pono duas con 
+          <lb ed="#G" n="29"/>e clusiones. Prima est, quod formae clementorum 
+          <lb ed="#G" n="30"/>non manent in re mixta secundum essentias eorum
+          per<lb ed="#G" n="31" break="no"/>fectas: sicut videtur posuisse <name xml:id="HuYgTa-125029-Nd1e371">Auicen</name>, prout sibi <ref xml:id="HuYgTa-125029-Rd1e375">Commen¬ 
+            <lb ed="#G" n="32"/>tator imponit tertio coeli &amp; mun</ref>. Dicit enim ibi
+          Com<lb ed="#G" n="33" break="no"/>mentator, quod <name xml:id="HuYgTa-125029-Nd1e382">Auicenn</name>. posuit elementa remanere in 
+          <lb ed="#G" n="34"/>mixto secundum suas completas essentias, remissa tamet 
+          <lb ed="#G" n="35"/>quantum ad suas qualitates. 
+        </p>
+        <p xml:id="HuYgTa-125029-d1e391">
+          <lb ed="#G" n="36"/>
+          <pc type="indent"/>Secunda conclusio est, quod essentiae elementorum non 
+          <lb ed="#G" n="37"/>remanent in mixto secundum gradum essentiae
+          retinen<lb ed="#G" n="38" break="no"/>tem modum, &amp; diffinitionem elementi
+        </p>
+        <p xml:id="HuYgTa-125029-d1e402">
+          <lb ed="#G" n="39"/>1 Primam conclusionem probo sic. Si elementa mane 
+          <lb ed="#G" n="40"/>rent in mixto secundum completas eorum essentias: tuns 
+          <lb ed="#G" n="41"/>in vno mixto essent simul quattuor supposita realia reali 
+          <lb ed="#G" n="42"/>ter distincta, consequentia patet, quia secundum commu 
+          <lb ed="#G" n="43"/>nem cursum naturae tunc completa essentia cuiuslibet 
+          <lb ed="#G" n="44"/>substantiae constituit suppositum. Falsitas consequentis 
+          <lb ed="#G" n="45"/>est nota: quia vnaquaeque res mixta habet tantum vnum 
+          <lb ed="#G" n="46"/>suppositum.
+        </p>
+        <p xml:id="HuYgTa-125029-d1e422">
+          <lb ed="#G" n="47"/>2 Praeterea, aut ista quattuor elementa tenerent se di 
+          <lb ed="#G" n="48"/>stinctim abinuicem in distinctis partibus rei mixtae, &amp; tuc 
+          <lb ed="#G" n="49"/>nullam facerent mixtionem: aut simul concurrerent in 
+          <lb ed="#G" n="50"/>qualibet particula rei mixtae: &amp; tunc necessario
+          sequere<lb ed="#G" n="51" break="no"/>tur quattuor corpora simul esse in eodem loco cuiuslibe 
+          <lb ed="#G" n="52"/>particulae ipsius rei mixtae; nam completa essentia cuiusli 
+          <lb ed="#G" n="53"/>bet elementi est vnum corpus.
+        </p>
+        <p xml:id="HuYgTa-125029-d1e440">
+          <lb ed="#G" n="54"/>3 Praeterea, ex pluribus existentibus in actu, &amp; manen 
+          <lb ed="#G" n="55"/>sibus actu distinctis, numquam potest componi vna essen 
+          <lb ed="#G" n="56"/>tia, sed res mixta vere habet vnam essentiam;: ergo
+          ele<lb ed="#G" n="57" break="no"/>menta non manent in eo sub distinctis suis essentiis, &amp;  
+          <lb ed="#G" n="58"/>completis 
+        </p>
+        <p xml:id="HuYgTa-125029-d1e453">
+          <lb ed="#G" n="59"/>
+          <pc type="indent"/>4 Preterea, dicit <ref xml:id="HuYgTa-125029-Rd1e459">Auerroes Commentator in Commi 
+            <lb ed="#G" n="60"/>to iam superius allegato</ref>, quod ad positionem <name xml:id="HuYgTa-125029-Nd1e464">Auicen</name>, se 
+          <lb ed="#G" n="61"/>quebatur aceruus, &amp; non mixtio; quia sicut lapides acer 
+          <lb ed="#G" n="62"/>ui non faciunt mixtionem, eo quod remaneant, secundum 
+          <lb ed="#G" n="63"/>suas completas essentias: sic &amp;c 
+        </p>
+        <p xml:id="HuYgTa-125029-d1e475">
+          <lb ed="#G" n="64"/>
+          <pc type="indent"/>Sed <name xml:id="HuYgTa-125029-Nd1e481">Auicen</name> posset se in ista positone forte aliqualiter 
+          <lb ed="#G" n="65"/>iuuare per dictum Aristo, primo de generatione; ibi enini 
+          <lb ed="#G" n="66"/>dicit philosophus, quod mixtio est miscibilium alteratorum 
+          <lb ed="#G" n="67"/>vnio: sed ea, quae tantum modo sunt alterata, non sunt cor 
+          <lb ed="#G" n="68"/>rupta secundum suas essentias, ergo &amp;c 
+        </p>
+        <p xml:id="HuYgTa-125029-d1e495">
+          <lb ed="#G" n="69"/>
+          <pc type="indent"/>Respondeo, quod sicut nomen motus quandoque ex¬ 
+          <!--367.xml-->
+          <cb ed="#G" n="b"/>
+          <lb ed="#G" n="70"/>tenditur ad ipsam generationem, &amp; corruptionem, vt
+          pa<lb ed="#G" n="71" break="no"/>tet in libro prae dicamentorum, sic alterata dicuntur quan 
+          <lb ed="#G" n="72"/>loque ea, quae vere sunt corrupta. vel dicendum, quod 
+          <lb ed="#G" n="73"/>elementa, quamuis in re mixta vere sint corrupta
+          quan<lb ed="#G" n="74" break="no"/>tum ad evrum essentias; dicuntur tamen alterata: quia 
+          <lb ed="#G" n="75"/>manent secundum suas qualitates remissas in ipso mixto, 
+          <lb ed="#G" n="76"/>quae quidem remissio qualitatum si accidisset rebus misci 
+          <lb ed="#G" n="77"/>bilibus, antequam corrumperentur, ipsa miscibilia vere 
+          <lb ed="#G" n="78"/>fuissent alterata 
+        </p>
+        <p xml:id="HuYgTa-125029-d1e526">
+          <lb ed="#G" n="79"/>
+          <pc type="indent"/>Secundo dico, quod elementa non manent in mixto secu 
+          <lb ed="#G" n="80"/>dum aliquem gradum formalem suae essentiae 
+          <lb ed="#G" n="81"/>1 Quia nulla substantia habet huiusmodi gradus, cum 
+          <lb ed="#G" n="82"/>igitur elementum vere sit substantia; ergo &amp;c. maior
+          pa<lb ed="#G" n="83" break="no"/>tet, nam si substantia haberet huiusmodi gradus, tunc sub 
+          <lb ed="#G" n="84"/>tantia proprie susciperet magis &amp; minus, quod est contra 
+          <lb ed="#G" n="85"/>
+          <ref xml:id="HuYgTa-125029-Rd1e545">philosophum in libro praedicamentorum</ref>, &amp; <ref xml:id="HuYgTa-125029-Rd1e548">quinto 
+            <lb ed="#G" n="86"/>metaphysic.</ref>
+        </p>
+        <p xml:id="HuYgTa-125029-d1e554">
+          <lb ed="#G" n="87"/>2 Praeterea, quaecumque ex sui coniunctione faciunt. 
+          <lb ed="#G" n="88"/>vnam essentiam, si eorum essentiae manent incorrupte,
+          o<lb ed="#G" n="89" break="no"/>portet, quod vnum sit forma alterius, sed nullum elemen 
+          <lb ed="#G" n="90"/>tum potest esse forma, &amp; perfectio alterius, cum vnuquod 
+          <lb ed="#G" n="91"/>que elementum sit natura corporea, quae non perficit, sed  
+          <lb ed="#G" n="92"/>perficitur, ergo &amp;c
+        </p>
+        <p xml:id="HuYgTa-125029-d1e570">
+          <lb ed="#G" n="93"/>3 Praeterea, in quocunque gradu ponitur forma aliqua, 
+          <lb ed="#G" n="94"/>secundum eundem gradum ponitur effectus eius
+          forma<lb ed="#G" n="95" break="no"/>lis, &amp; proprietates ipsum consequentes. Ista patet; nam  
+          <lb ed="#G" n="96"/>secundum quemcumque gradum albedo ponitur in
+          su<lb ed="#G" n="97" break="no"/>perficie, secundum eundem gradum superficies est alba, 
+          <lb ed="#G" n="98"/>quod est effectus formalis albedinis, &amp; disgrebat, quod 
+          <lb ed="#G" n="99"/>est eius proprietas consequens suam naturam: sed effe- 
+          <lb ed="#G" n="100"/>ctus formalis formarum elementarium, &amp; cius
+          proprie<lb ed="#G" n="101" break="no"/>tates non sunt in re mixta secundum aliquem gradum; 
+          <lb ed="#G" n="102"/>gitur nec formae : minor patet, quia lapis non est ignis,  
+          <lb ed="#G" n="103"/>uod est effectus formalis formae ignis; nec secundum suam 
+          <lb ed="#G" n="104"/>naturam tendit sursum, quod est proprietas consequens 
+          <lb ed="#G" n="105"/>ignem. 
+        </p>
+        <p xml:id="HuYgTa-125029-d1e601">
+          <lb ed="#G" n="106"/>
+          <pc type="indent"/>Sed contra istam conclusionem videtur esse <ref xml:id="HuYgTa-125029-Rd1e607">opinio Con 
+            <lb ed="#G" n="107"/>mentatoris Auerrois, quam ponit s. coeli. &amp; mun.</ref> &amp; <ref xml:id="HuYgTa-125029-Rd1e612">2. de 
+              <lb ed="#G" n="108"/>peneratione</ref>. Ponit enim Commentator in locis iam
+          di<lb ed="#G" n="109" break="no"/>ctis, quod elementa maneant in mixto secundum suas es 
+          <lb ed="#G" n="110"/>sentias, non tamen completas, sed in aliquo gradu tantum, 
+          <lb ed="#G" n="111"/>quia aliquo modo corrumpuntur, &amp; aliquo modo manent. 
+          <lb ed="#G" n="112"/>Nam cum formae elementorum sint formae imperfectae, 
+          <lb ed="#G" n="113"/>ideo possunt suscipere magis, &amp; minus. 
+        </p>
+        <p xml:id="HuYgTa-125029-d1e629">
+          <lb ed="#G" n="114"/>
+          <pc type="indent"/>Hic potest dici, quod <ref xml:id="HuYgTa-125029-Rd1e635">Auerroes Commentator</ref>
+          loqui<lb ed="#G" n="115" break="no"/>tur ibi multum large de forma rei, &amp; essentia eius;
+          secun<lb ed="#G" n="116" break="no"/>dum quod essentia alicuius, &amp; forma dicuntur manere in 
+          <lb ed="#G" n="117"/>omni eo, in quo aliquo modo relucet virtus eorum. 8 
+          <lb ed="#G" n="118"/>quis tamen vellet omnino pertinaciter dicere
+          intentio<lb ed="#G" n="119" break="no"/>nem Commentatoris fuisse, quod elementa maneant in 
+          <lb ed="#G" n="120"/>m ixto secundum suas essentias, tunc praeter istas tres
+          ra<lb ed="#G" n="121" break="no"/>tiones, quas adduxi pro conclusione secunda, currerent 
+          <lb ed="#G" n="122"/>omnia illa inconuenientia, quae adduxi probando conclu 
+          <lb ed="#G" n="123"/>sionem primam, &amp; etiam ea, quae ipsemet adducit contra 
+          <lb ed="#G" n="124"/>Auicen essent contra seipsum, non enim esset mixtio, 
+          <lb ed="#G" n="125"/>sed aceruus,  
+        </p>
+        <p xml:id="HuYgTa-125029-d1e664">
+          <lb ed="#G" n="126"/>
+          <pc type="indent"/>ARTICVLVS III 
+          <lb ed="#G" n="127"/>Vtrum saltem alique realitates formarum quat 
+          <lb ed="#G" n="128"/>tuor elementorum incorrupte maneant in 
+          <lb ed="#G" n="129"/>ipso mixto.
+        </p>
+        <p xml:id="HuYgTa-125029-d1e677">
+          <lb ed="#G" n="130"/>QVANTVM ad tertium articulum primo ponam con 
+          <lb ed="#G" n="131"/>clusionem negatiuam. Secundo recitabo motiua 
+          <lb ed="#G" n="132"/>contrariae opinionis, &amp; ad ipsa respondebo. Dico ergo pri 
+          <lb ed="#G" n="133"/>mo, quod in re mixta non manent incorruptae aliquae rea 
+          <lb ed="#G" n="134"/>litates formarum elementarium, quae sint de ratione
+          in<lb ed="#G" n="135" break="no"/>trinseca huiusmodi formarum.
+        </p>
+        <p xml:id="HuYgTa-125029-d1e693">
+          <lb ed="#G" n="136"/>1 Nam omnis realitas cuiuscunque formae existens de 
+          <lb ed="#G" n="137"/>ratione ipsius formae, vel dicit totam formam, vel partem  
+          <lb ed="#G" n="138"/>sormae, vel aliquem gradum formae: sed elementa non 
+          <!--368.xml-->
+          <pb ed="#G" n="165-r"/>
+          <cb ed="#G" n="a"/>
+          <lb ed="#G" n="1"/>manent in mixto secundum totam suam formam, vt
+          pa<lb ed="#G" n="2" break="no"/>tuit in prima conclusione secundi articuli. Nec secudum 
+          <lb ed="#G" n="3"/>aliquem gradum formae, vt patuit in secunda conclusioni 
+          <lb ed="#G" n="4"/>eiusdem articuli. Nec de se habet partem &amp; partem: cum 
+          <lb ed="#G" n="5"/>forma substantialis de se sit indiuisibilis, Vt patet in sex 
+          <lb ed="#G" n="6"/>principiis 
+        </p>
+        <p xml:id="HuYgTa-125029-d1e722">
+          <lb ed="#G" n="7"/>
+          <pc type="indent"/>Et confirmatur, quia si forma substantialis esset
+          diuisi<lb ed="#G" n="8" break="no"/>bilis in partes, vel diuideretur in partes substantiales, tums 
+          <lb ed="#G" n="9"/>esset composita ex materia &amp; forma, &amp; per consequen 
+          <lb ed="#G" n="10"/>non esset forma, nec perfectio materiae, sed esset ipsum con 
+          <lb ed="#G" n="11"/>positum: vel diuideretur in partes integrales, seu
+          quanti<lb ed="#G" n="12" break="no"/>tatiuas, &amp; tunc esset secundum se quanta, &amp; per consequens 
+          <lb ed="#G" n="13"/>esset de praedicamento quantitatis
+        </p>
+        <p xml:id="HuYgTa-125029-d1e742">
+          <lb ed="#G" n="14"/>2 Praeterea, forma mixti non est diuisibilis in diuersas 
+          <lb ed="#G" n="15"/>realitates, quarum vna possit corrumpi altera remanenti 
+          <lb ed="#G" n="16"/>inc orrupta: ergo nec forma elementi. consequentia patet 
+          <lb ed="#G" n="17"/>quia da oppositum, tunc forma mixti esset simplicior, quam 
+          <lb ed="#G" n="18"/>forma simplicis elementi, quod videtur contradictionem im 
+          <lb ed="#G" n="19"/>plicare, sed antecedens conceditur et ab ipsis aduersariis 
+          <lb ed="#G" n="20"/>3 Praeterea, ista videtur esse intentio philosophi 7. met 
+          <lb ed="#G" n="21"/>vbi ait, quod forma rei mixtae non est constituta, seu com 
+          <lb ed="#G" n="22"/>posita ex elementis. Vbi notanter est aduertendum, quod 
+          <lb ed="#G" n="23"/>philosophuss metaph dixerat, quod illud vocatur
+          ele<lb ed="#G" n="24" break="no"/>mentum, ex quo fit res, cum insit: igitur philosophus 7. 
+          <lb ed="#G" n="25"/>metaph ex intentione videtur dicere, quod forma rei 
+          <lb ed="#G" n="26"/>mixtae non componitur ex elementis; ne occasionce eius; 
+          <lb ed="#G" n="27"/>quod praedixerat s. metap. credantur formae clementor 
+          <lb ed="#G" n="28"/>secundum aliquam sui realitatem incorruptae permaner 
+          <lb ed="#G" n="29"/>in ipsa re mixta 
+        </p>
+        <p xml:id="HuYgTa-125029-d1e779">
+          <lb ed="#G" n="30"/>
+          <pc type="indent"/>Sed est <ref xml:id="HuYgTa-125029-Rd1e785">quidam doctor</ref>, qui in hac materia duas ponit pro 
+          <lb ed="#G" n="31"/>poositones, quae ambae huic conclusioni videntur repugnare. 
+        </p>
+        <p xml:id="HuYgTa-125029-d1e792">
+          <lb ed="#G" n="32"/>
+          <pc type="indent"/>Prima sua proposito est, quod elementa in mixto non 
+          <lb ed="#G" n="33"/>totaliter cotrumpuntur, sed manent quantum ad realita 
+          <lb ed="#G" n="34"/>tem aliquam pertinentem ad rationem formae. 
+        </p>
+        <p xml:id="HuYgTa-125029-d1e803">
+          <lb ed="#G" n="35"/>
+          <pc type="indent"/>lstam propositionem probat sic, quia in mixto non 
+          <lb ed="#G" n="36"/>est dare aliquam partem signatam, quae non resoluatur in 
+          <lb ed="#G" n="37"/>quattuor elementa: igitur in mixto sunt aliquae
+          realita<lb ed="#G" n="38" break="no"/>tes pertinentes ad rationem, &amp; formam elementorum 
+          <lb ed="#G" n="39"/>Antecedens patet ad sensum. Nam si comburatur lignum; 
+          <lb ed="#G" n="40"/>patet, quod resoluitur in partes igneas fumales, aqueas o 
+          <lb ed="#G" n="41"/>cinerales. Et ista est ratio <ref xml:id="HuYgTa-125029-Rd1e822">philosophi 2. de generatione</ref>, 
+          <lb ed="#G" n="42"/>vbi probat quod mixta componuntur ex elementis quia 
+          <lb ed="#G" n="43"/>resoluuntur in ea
+        </p>
+        <p xml:id="HuYgTa-125029-d1e830">
+          <lb ed="#G" n="44"/>2 Praeterea, ex eisdem sumus &amp; nutrimur: sed non nu 
+          <lb ed="#G" n="45"/>trimur ex aliquo simplici, sed ex quattuor elementis: er 
+          <lb ed="#G" n="46"/>go non sumus ex aliquo simplici, sed ex quattuor elemer 
+          <lb ed="#G" n="47"/>tis. Maiorem ponit <ref xml:id="HuYgTa-125029-Rd1e840">philosophus 2. de generatione</ref>, &amp;
+          ibi<lb ed="#G" n="48" break="no"/>dem ponit minorem; dicit enim, quod omnia mixta nutriun 
+          <lb ed="#G" n="49"/>tur ex multis: etenim ea, quae videntur nutriri ex vno, vi 
+          <lb ed="#G" n="50"/>plantae ex aqua: illa tamen aqua mixta est cum terra. Vn 
+          <lb ed="#G" n="51"/>de &amp; rustici contemperant miscentes fumum abundanter 
+        </p>
+        <p xml:id="HuYgTa-125029-d1e853">
+          <lb ed="#G" n="52"/>3 Praeterea, secundum Aristotelem primo de
+          genera<lb ed="#G" n="53" break="no"/>tione mixtio non est corruptio simpliciter ipsorum misci 
+          <lb ed="#G" n="54"/>bilium, sed si non remanent realitates aliquae ipsotum
+          misci<lb ed="#G" n="55" break="no"/>bilium, tunc mixtio esset simpliciter miscibilium corrupti
+        </p>
+        <p xml:id="HuYgTa-125029-d1e864">
+          <lb ed="#G" n="56"/>4 Praeterea, elementa non sunt in mixto sicut in po 
+          <lb ed="#G" n="57"/>tentia materiae. Vnde <ref xml:id="HuYgTa-125029-Rd1e870">philosophus 1. de generatione</ref>, post 
+          <lb ed="#G" n="58"/>quam dixerat, quod miscibilia sunt in mixto in potentia 
+          <lb ed="#G" n="59"/>subdit modum dicens, Dico autem in potentia non sicut 
+          <lb ed="#G" n="60"/>in potentia materiae: sed si totaliter corrumperentur, tumc 
+          <lb ed="#G" n="61"/>non essent in mixto, nisi sicut in potentta materiae 
+        </p>
+        <p xml:id="HuYgTa-125029-d1e883">
+          <lb ed="#G" n="62"/>3 Praeterea, secundum philosophum 1 de
+          generatio<lb ed="#G" n="63" break="no"/>ne: mixtio est miscibilium alteratorum vnio; ied, nisi
+          ele<lb ed="#G" n="64" break="no"/>menta aliquo modo manerent, mixtio non esset vera vnio 
+          <lb ed="#G" n="65"/>alteratorum: quia vbi non sunt extrema vnionis, ibi non 
+          <lb ed="#G" n="66"/>est vnio: cum vnio sit relatio, seu ad aliquid: ergo &amp;c. 
+        </p>
+        <p xml:id="HuYgTa-125029-d1e897">
+          <lb ed="#G" n="67"/>
+          <pc type="indent"/>Secunda proposito istius doctoris est, quod forma mi 
+          <lb ed="#G" n="68"/>ti estres quaedam constituta ex realitatibus formarum ip 
+          <lb ed="#G" n="69"/>sorum elementorum: non tamen est res constituta ex fo 
+          <lb ed="#G" n="70"/>mis elementorum in quocumque gradu etiam
+          minimo<lb ed="#G" n="71" break="no"/>Hanc conclusionem probat sic 
+        </p>
+        <p xml:id="HuYgTa-125029-d1e913">
+          <lb ed="#G" n="72"/>
+          <pc type="indent"/>Forma substantialis mixti non est magis simplex 
+          <lb ed="#G" n="73"/>quam forma istius svllabae, EA, quae est qualitas quaedam 
+          <!--368.xml-->
+          <cb ed="#G" n="b"/>
+          <lb ed="#G" n="74"/>simplex, cum sit sonus, qui est de tertia specie qualitatis. 
+          <lb ed="#G" n="75"/>sed iste sonus, EA, non obstante sua simplicitate, est
+          con<lb ed="#G" n="76" break="no"/>flatus ex propriis sonis ipsius P, &amp; Atablatis tamen eorum 
+          <lb ed="#G" n="77"/>terminationibus: ita enim reseruantur in EA realitates 
+          <lb ed="#G" n="78"/>sonorum ipsius D &amp; A,quod tamen franguntur, &amp; tollur 
+          <lb ed="#G" n="79"/>tur eorum propriae terminationes: igitur forma mixti, non 
+          <lb ed="#G" n="80"/>obstante eius simplicitate, constituitur ex realitatibus ele 
+          <lb ed="#G" n="81"/>mentorum, omissis propriis terminationibus eorum.
+        </p>
+        <p xml:id="HuYgTa-125029-d1e944">
+          <lb ed="#G" n="82"/>2 Preterea, quando aliquae realitates sunt tales, quod 
+          <lb ed="#G" n="83"/>terminatio, vnitas, propria, &amp; distinctio earum fundantur 
+          <lb ed="#G" n="84"/>super aliquo, quo ablato, ipsae possunt remanere, si talo 
+          <lb ed="#G" n="85"/>fundamentum, seu ratio fundandi aufertur: tunc illae
+          rea<lb ed="#G" n="86" break="no"/>litates remanentes possunt conflare formam tertiam: quia 
+          <lb ed="#G" n="87"/>eo ipso, quod aufertur ab eis illud, quod erat ratio
+          distin<lb ed="#G" n="88" break="no"/>ctionis vnius ab altera: necesse est, quod veniant ad vnita 
+          <lb ed="#G" n="89"/>te, sed formae reales elementares sunt rales, quod ab ipsis 
+          <lb ed="#G" n="90"/>potest auferri illud, quod erat fundamentum, &amp; ratio pro 
+          <lb ed="#G" n="91"/>priae terminationis in eis: igitur, talibus ablatis, necessario 
+          <lb ed="#G" n="92"/>veniunt ad vnitatem mediam alicuius tertij, &amp; illud est ( 
+          <lb ed="#G" n="93"/>forma conflata. 
+        </p>
+        <p xml:id="HuYgTa-125029-d1e973">
+          <lb ed="#G" n="94"/>
+          <pc type="indent"/>Sed salua reuerentia istius doctoris, videtur, quod sin 
+          <lb ed="#G" n="95"/>uocumque alio repugnante istae duae propositones
+          de<lb ed="#G" n="96" break="no"/>struant seipsas.
+        </p>
+        <p xml:id="HuYgTa-125029-d1e984">
+          <lb ed="#G" n="97"/>1 Quia quamuis res composita possit manere
+          secun<lb ed="#G" n="98" break="no"/>dum aliquid, quod est de sui ratione, ipsa re composita, vt 
+          <lb ed="#G" n="99"/>composita est, non manente, quod tamen aliquid rema 
+          <lb ed="#G" n="100"/>neat, quod est de ratione simplicis formae existens ver. 
+          <lb ed="#G" n="101"/>realitas substantialis illius formae, forma non
+          manente<lb ed="#G" n="102" break="no"/>nec secundum se nec secundum aliquem sui gradum,
+          ho<lb ed="#G" n="103" break="no"/>non videtur esse possibile. Sed iste doctor in prima propo 
+          <lb ed="#G" n="104"/>sitione ponit, quod in mixto remanet realitas, quae est de 
+          <lb ed="#G" n="105"/>ratione formae elementaris; &amp; in secunda propositono 
+          <lb ed="#G" n="106"/>ponit, quod forma elementaris in re mixta non manet se 
+          <lb ed="#G" n="107"/>cudum aliquem sui gradum, quia, vt ipse ait, forma mixti 
+          <lb ed="#G" n="108"/>sic constituitur ex realitatibus formarum ipsorum elemer 
+          <lb ed="#G" n="109"/>torum, quod tamen non constituitur ex formis
+          elemen<lb ed="#G" n="110" break="no"/>torum, etiam in quocumque gradu: cum igitur forma
+          ele<lb ed="#G" n="111" break="no"/>menti sit simplex forma, &amp; non sit res composita, igitur
+          hae<lb ed="#G" n="112" break="no"/>propositones sibi mutuo videntur contradicere.
+        </p>
+        <p xml:id="HuYgTa-125029-d1e1021">
+          <lb ed="#G" n="113"/>2 Praeterea, si aliqua realitas elementi incorrupta ma 
+          <lb ed="#G" n="114"/>net in mixto; aut illa realitas erit accidens, vel substantia 
+          <lb ed="#G" n="115"/>Non potest secundum dicta istius doctoris esse accidens 
+          <lb ed="#G" n="116"/>quia accidens non est de ratione formae substantialis ipsius e 
+          <lb ed="#G" n="117"/>elementi: haec autem realitas manens est de ratione
+          for<lb ed="#G" n="118" break="no"/>mae elementaris, vt ipse ait. Nec potest esse substantia, quia 
+          <lb ed="#G" n="119"/>omnis substantia, vt patet. <ref xml:id="HuYgTa-125029-Rd1e1038">2. de anima</ref>, vel est materia, vel 
+          <lb ed="#G" n="120"/>orma, vel compositum: sed secundum dicta istius ista rea 
+          <lb ed="#G" n="121"/>litas nullum istorum esse potest: ergo non manet in mix 
+          <lb ed="#G" n="122"/>to aliqua realitas elementi, quae sit de ratione formae ele 
+          <lb ed="#G" n="123"/>mentaris, vt dicit prima proposito
+        </p>
+        <p xml:id="HuYgTa-125029-d1e1052">
+          <lb ed="#G" n="124"/>3 Praeterea, istae realitates formarum elementarium,
+          si<lb ed="#G" n="125" break="no"/>manerent in forma mixti, vel m anerent aliquo modo di ; 
+          <lb ed="#G" n="126"/>stinctae inter se, &amp; tunc nullo modo forma mixti ex ipsi 
+          <lb ed="#G" n="127"/>posset constitui, quia actus est, qui distinguit; igitur si tales 
+          <lb ed="#G" n="128"/>realitates essent aliquo modo distincte, tunc quaelibet
+          il<lb ed="#G" n="129" break="no"/>larum realitatum esset in actu, &amp; per consequens non
+          pos<lb ed="#G" n="130" break="no"/>sent constituere vnam essentiam, cum ex pluribus in actu 
+          <lb ed="#G" n="131"/>non fiat vnum essentiale; igitur, vt sic, forma mixti
+          num<lb ed="#G" n="132" break="no"/>quam ex ipsis posset constitui, quod est contra primam 
+          <lb ed="#G" n="133"/>partem secundae propositonis; vel huiusmodi realitates 
+          <lb ed="#G" n="134"/>manerent penitus indistinctae, &amp; tunc non manerent nisi 
+          <lb ed="#G" n="135"/>in potentia materiae, quia in fundamento naturae nihil 
+          <lb ed="#G" n="136"/>est distinctum, vt dicitur, i, metaph &amp; per consequens nec 
+          <lb ed="#G" n="137"/>sic constituerent formam mixti
+        </p>
+        <p xml:id="HuYgTa-125029-d1e1085">
+          <lb ed="#G" n="138"/>4 Praeterea, sicut se habet realitas materiae ad materiam 
+          <lb ed="#G" n="139"/>sic se habet realitas formae ad formam: sed omnis realitas 
+          <lb ed="#G" n="140"/>materiae est materia : ergo omnis realitas formae est
+          for<lb ed="#G" n="141" break="no"/>ma; &amp; hoc est contra secundam particulam secundae
+          pro<lb ed="#G" n="142" break="no"/>positonis. 
+        </p>
+        <p xml:id="HuYgTa-125029-d1e1098">
+          <lb ed="#G" n="143"/>
+          <pc type="indent"/>Preterea, confirmatur hoc idem sic. Omnis realitas 
+          <lb ed="#G" n="144"/>illius, quod est pura actuatio, oportet, quod sit illud, cuius 
+          <lb ed="#G" n="145"/>est realitas: si enim esset distinguibile in talia, quorum 
+          <lb ed="#G" n="146"/>vnum esset ipsum, &amp; aliud non esset ipsum, tunc non esset 
+          <!--369.xml-->
+          <pb ed="#G" n="165-v"/>
+          <cb ed="#G" n="a"/>
+          <lb ed="#G" n="1"/>pura actuatio : sed secundum istum doctorem forma est 
+          <lb ed="#G" n="2"/>pura actuatio: ergo nulla potest esse realitas ipsius forme, 
+          <lb ed="#G" n="3"/>quae non sit ipsa forma 
+        </p>
+        <p xml:id="HuYgTa-125029-d1e1124">
+          <lb ed="#G" n="4"/>
+          <pc type="indent"/>Ad primam rationem eorum dicendum, quod quaecum 
+          <lb ed="#G" n="5"/>que pars mixti resoluitur in ipsa elementa, illa pars
+          cor<lb ed="#G" n="6" break="no"/>rumpitur: quia non est dare corruptionem sine generatis 
+          <lb ed="#G" n="7"/>ne, nec econuerso, vt patet. <ref xml:id="HuYgTa-125029-Rd1e1137">2. de generatione</ref>; igitur sicut 
+          <lb ed="#G" n="8"/>mixtum, vel quaecumque pars mixti vere in tali
+          rosolu<lb ed="#G" n="9" break="no"/>tione corrumpitur, sic elementa, in quae resoluitur, uers 
+          <lb ed="#G" n="10"/>generantur, &amp; per consequens realitas formae
+          elemento<lb ed="#G" n="11" break="no"/>rum non praefuit in ipso mixto, ante huiusmodi resolutio 
+          <lb ed="#G" n="12"/>nem, nisi in potentia materiae: quia illud, quod generatur 
+          <lb ed="#G" n="13"/>ex aliquo, non est in eo, nisi in potentia suae materiae. 
+        </p>
+        <p xml:id="HuYgTa-125029-d1e1154">
+          <lb ed="#G" n="14"/>
+          <pc type="indent"/>Ad secundum dicendum, quod non plus concludit, ni 
+          <lb ed="#G" n="15"/>si, quod sumus ex elementis: &amp; hoc concedo: non tamet 
+          <lb ed="#G" n="16"/>sto modo, quod realitates elementorum in nobis ma 
+          <lb ed="#G" n="17"/>neant incorruptae: sed isto modo, quod in formis nostrarum 
+          <lb ed="#G" n="18"/>complexionum includuntur virtutes elementorum,
+          pe<lb ed="#G" n="19" break="no"/>nes cuius inclusionis diuersitatem etiam diuersificantur 
+          <lb ed="#G" n="20"/>nostrae complexiones 
+        </p>
+        <p xml:id="HuYgTa-125029-d1e1174">
+          <lb ed="#G" n="21"/>
+          <pc type="indent"/>Ad tertium dicendum, quod mixtio pro tanto non di 
+          <lb ed="#G" n="22"/>citur corruptio simpliciter, idest corruptio omnino: quia 
+          <lb ed="#G" n="23"/>miscibilium virtus manet in mixto, licet non remaneat 
+          <lb ed="#G" n="24"/>miscibilium substantialis realitas incorrupta 
+        </p>
+        <p xml:id="HuYgTa-125029-d1e1188">
+          <lb ed="#G" n="25"/>
+          <pc type="indent"/>Vel posset etiam dici, quod cum imperfectius corrum 
+          <lb ed="#G" n="26"/>itur, &amp; perfectius generatur: tunc secundum <ref xml:id="HuYgTa-125029-Rd1e1196">philoso¬ 
+            <lb ed="#G" n="27"/>phum. 5. physico.</ref> est corruptio secundum quid, &amp; genera 
+          <lb ed="#G" n="28"/>tio simpliciter, cum igitur elementum sit res
+          imperfe<lb ed="#G" n="29" break="no"/>ctior, quam res mixta: ideo quamuis in generatione rei 
+          <lb ed="#G" n="30"/>inixtae miscibilia vere corrumpantur: quia alias esset vera 
+          <lb ed="#G" n="31"/>generatio sine vera eorruptione, quod negat omnis vera 
+          <lb ed="#G" n="32"/>philosophia, dicitur tamen mixtio, non corruptio simpli 
+          <lb ed="#G" n="33"/>citer, eo, quod ignobilius corrumpitur &amp; nobilius
+          ge<lb ed="#G" n="34" break="no"/>neratur. 
+        </p>
+        <p xml:id="HuYgTa-125029-d1e1217">
+          <lb ed="#G" n="35"/>
+          <pc type="indent"/>Ad quartum nego maiorem. Ad probationem dico, quod 
+          <lb ed="#G" n="36"/>huiusmodi verba Aristoteles dixit pro tanto, quia quam 
+          <lb ed="#G" n="37"/>uis transeant in potentiam materiae quantum ad realita 
+          <lb ed="#G" n="38"/>tem substantialem; manent tamen quantum ad virtuten 
+          <lb ed="#G" n="39"/>suarum proprietatum.  
+        </p>
+        <p xml:id="HuYgTa-125029-d1e1233">
+          <lb ed="#G" n="40"/>
+          <pc type="indent"/>Forte dicetur, quod sic posset etiam dici, quod aer ma 
+          <lb ed="#G" n="41"/>neat, cum de acre fit ignis: quia manet secundum virtutem 
+          <lb ed="#G" n="42"/>suae caliditatis, cum ignis sit calidus.
+        </p>
+        <p xml:id="HuYgTa-125029-d1e1244">
+          <lb ed="#G" n="43"/>Respondeo, quod aer non manet sic in igne: quia calo 
+          <lb ed="#G" n="44"/>ignis est oppositae conditionis respectu caioris ipsius
+          ae<lb ed="#G" n="45" break="no"/>ris: quia calor ignis est consumptiuus, calor autem
+          aeri<lb ed="#G" n="46" break="no"/>non est consumptiuus, sed magis nutritiuus: virtutes
+          au<lb ed="#G" n="47" break="no"/>tem elementorum proprie manent in mixto, quamuis 
+          <lb ed="#G" n="48"/>remissae, experimur enim in nobis virtutem ignei caloris 
+          <lb ed="#G" n="49"/>ratione consumptionis; aerei, ratione nutritionis;
+          siccita<lb ed="#G" n="50" break="no"/>tis igneae, ratione ariditatis colerae rubeae, humiditatis ac 
+          <lb ed="#G" n="51"/>reae ratione sanguinis: &amp; sic de aliis virtutibus elemento 
+          <lb ed="#G" n="52"/>torum. 
+        </p>
+        <p xml:id="HuYgTa-125029-d1e1268">
+          <lb ed="#G" n="53"/>
+          <pc type="indent"/>Ad quintum dico, quod ratio est contra illum, qui
+          fa<lb ed="#G" n="54" break="no"/>cit eam: quia relatio realis requirit extrema realiter
+          di<lb ed="#G" n="55" break="no"/>stincta:igitur, si ratio concluderet, istae realitates elemen 
+          <lb ed="#G" n="56"/>torum in forma mixti essent realiter distinctae, quod isti 
+          <lb ed="#G" n="57"/>constanter negat, &amp; merito: quia si realiter manerent di 
+          <lb ed="#G" n="58"/>stinctae, tunc numquam constituerent vnam essentiam sor 
+          <lb ed="#G" n="59"/>mae mixte. Dico etiam ad rationem, quod vnio illa
+          de<lb ed="#G" n="60" break="no"/>bet intelligi quantum ad virtutes miscibilium, non auten 
+          <lb ed="#G" n="61"/>quantum ad realitates substantiales eorum. 
+        </p>
+        <p xml:id="HuYgTa-125029-d1e1292">
+          <lb ed="#G" n="62"/>
+          <pc type="indent"/>Ad primum alterius propositonis dicendum, quod non 
+          <lb ed="#G" n="63"/>oportet similitudinem exemplarem currere per omnes 
+          <lb ed="#G" n="64"/>edes: sufficit enim, quod in hoc sit simile, quod ficut
+          so<lb ed="#G" n="65" break="no"/>nus litterarum refractus percipitur in sono svllabae com 
+          <lb ed="#G" n="66"/>positae ex talibus litteris: sic elementorum virtutes remis 
+          <lb ed="#G" n="67"/>sae in esse noscuntur ipsis mixtis 
+        </p>
+        <p xml:id="HuYgTa-125029-d1e1311">
+          <lb ed="#G" n="68"/>
+          <pc type="indent"/>Ad secundum dicendum, quod illa minor non est vni 
+          <lb ed="#G" n="69"/>formiter sumpta sub maiori;si autem vniformiter
+          sume<lb ed="#G" n="70" break="no"/>retur: tunc esset neganda; quia ablatis terminationibus 
+          <lb ed="#G" n="71"/>&amp; propriis vnitatibus, ac distinctionibus formarum
+          ipso<lb ed="#G" n="72" break="no"/>rum elamentorum: tunc necessario aufertur omnis
+          reali<lb ed="#G" n="73" break="no"/>tas talium formarum spectas ad rationem earum : vt sic 
+          <!--369.xml-->
+          <cb ed="#G" n="b"/>
+          <lb ed="#G" n="74"/>enim quantum ad tales realitates forma mixti nullo mo 
+          <lb ed="#G" n="75"/>do componitur ex elementis. Propter quod ait <ref xml:id="HuYgTa-125029-Rd1e1337">philoso 
+            <lb ed="#G" n="76"/>phus. 7. metaph</ref> Forma mixti nec est elementum, nec con 
+          <lb ed="#G" n="77"/>posita ex elementis, 
+        </p>
+        <p xml:id="HuYgTa-125029-d1e1345">
+          <lb ed="#G" n="78"/>
+          <pc type="indent"/>ARTICVLVS II 
+          <lb ed="#G" n="79"/>Vtrum Totum nxtum differat realiter 
+          <lb ed="#G" n="80"/>
+          <pc type="indent"/>asuis partibus.
+        </p>
+        <p xml:id="HuYgTa-125029-d1e1358">
+          <lb ed="#G" n="81"/>QVANTVM ad quartum articulum dicendum, quod 
+          <lb ed="#G" n="82"/>si per partes mixti intelliguntur ipsa miscibilia 
+          <lb ed="#G" n="83"/>tunc planum est, quod totum mixtum differt a partibus; 
+          <lb ed="#G" n="84"/>quia totum actu est; partes autem tales non sunt actu, 
+          <lb ed="#G" n="85"/>cum ad generationem totius corruptae sint, &amp; cesserint in po 
+          <lb ed="#G" n="86"/>entiam materiae, vt patet ex precedentibus. Si autem  
+          <lb ed="#G" n="87"/>quaeritur de partibus essentialibus ipsius mixti, puta de 
+          <lb ed="#G" n="88"/>materia &amp; forma, tunc pono duas conclusiones. 
+        </p>
+        <p xml:id="HuYgTa-125029-d1e1378">
+          <lb ed="#G" n="89"/>
+          <pc type="indent"/>Prima est, quod totum differt realiter a qualibet par¬ T 
+          <lb ed="#G" n="90"/>te seorsum sumpta: quia in omnibus rebus creatis, quae c 
+          <lb ed="#G" n="91"/>sic se habent, quod vna includit aliam, a quocumque
+          in<lb ed="#G" n="92" break="no"/>clusa differt realiter, ab eodem includens differt realiter 
+          <lb ed="#G" n="93"/>ed ad quamcumque partem seorsum sumptam compara 
+          <lb ed="#G" n="94"/>tur ipsum totum: tunc semper totum includit alteram
+          par<lb ed="#G" n="95" break="no"/>tem, quae istam excludit, &amp; realiter differt ab ea, alias non  
+          <lb ed="#G" n="96"/>faceret realem compositionem iuncta cum ea, quod est 
+          <lb ed="#G" n="97"/>falsum: ergo &amp;c 
+        </p>
+        <p xml:id="HuYgTa-125029-d1e1402">
+          <lb ed="#G" n="98"/>
+          <pc type="indent"/>Secunda conclusio est, quod totum essentiale differt e 
+          <lb ed="#G" n="99"/>realiter ab omnibus partibus simul sumptis, dummodo c 
+          <lb ed="#G" n="100"/>umantur &amp; considerentur, vt partes sunt quia de quibus 
+          <lb ed="#G" n="101"/>cumquae rebus finitis verificantur contradictoria praedica 
+          <lb ed="#G" n="102"/>ta, illa realiter differunt, maxime sit vtrumque dicit enti 
+          <lb ed="#G" n="103"/>tatem absolutam: sed totum, &amp; partes etiam simul
+          sum<lb ed="#G" n="104" break="no"/>ptae sunt huiusmodi. Maior patet. minorem probo, quia to 
+          <lb ed="#G" n="105"/>ti conuenit per se esse, per se generari, &amp; per se agere: sed  
+          <lb ed="#G" n="106"/>partibus, vt partes sunt, quamuiscumque simul sumptis 
+          <lb ed="#G" n="107"/>nec conuenit per se esse, nec per se generari, nec per se age 
+          <lb ed="#G" n="108"/>re, quae omnia sunt contradictoria praedicata; ergo &amp;c. 
+        </p>
+        <p xml:id="HuYgTa-125029-d1e1431">
+          <lb ed="#G" n="109"/>
+          <pc type="indent"/>2 Praeterea, quae sic se habent, quod vnum naturaliter 
+          <lb ed="#G" n="110"/>praesupponit alterum tamquam realem suam causam,
+          il<lb ed="#G" n="111" break="no"/>la realiter differunt: sed totum praesupponit simultatem, 
+          <lb ed="#G" n="112"/>artium taquam suam realem causam. partes enim sun 
+          <lb ed="#G" n="113"/>tausa totius, non vt diuisae ab inuicem sunt, sed vt coniun 
+          <lb ed="#G" n="114"/>ctae simul sunti ergo totum differt realiter a partibus, etiam 
+          <lb ed="#G" n="115"/>vt simul sumptae sunt 
+        </p>
+        <p xml:id="HuYgTa-125029-d1e1452">
+          <lb ed="#G" n="116"/>
+          <pc type="indent"/>3 Praeterea, quae sic se habent, quod fundant aliam, &amp; 
+          <lb ed="#G" n="117"/>aliam vnitatem realem, illa realiter differunt: sed totum 
+          <lb ed="#G" n="118"/>&amp; pars etiam simul sumptae sunt huiusmodi: quia totum 
+          <lb ed="#G" n="119"/>cum dicat vnam essentiam, fundat vnitatem identitatis; 
+          <lb ed="#G" n="120"/>partes autem, vt partes sunt, qualitercumquae sumantur,  
+          <lb ed="#G" n="121"/>non fundant vnitatem identitatis, sed vnitatem vnionis. 
+        </p>
+        <p xml:id="HuYgTa-125029-d1e1470">
+          <lb ed="#G" n="122"/>
+          <pc type="indent"/>Sed contra istam conclusionem est vna sollemnis
+          opi<lb ed="#G" n="123" break="no"/>nio, cuius motiua ad praesens non pono: quia ipsam alia 
+          <lb ed="#G" n="124"/>vice, cum materia se obtulerit, intendo morosius ptractare. 
+        </p>
+        <p xml:id="HuYgTa-125029-d1e1481">
+          <lb ed="#G" n="125"/>
+          <pc type="indent"/>Ad argumentum principale patet per iam dicta 
+        </p>
+      </div>
+    </body>
+  </text>
 </TEI>

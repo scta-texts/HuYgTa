@@ -1,87 +1,87 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Circa textum</title>
-            <author ref="#ThomasStrasbourg">Thomas of Strasbourg</author>
-            <respStmt>
-               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
-               <resp>Transcription Editor</resp>
-               <resp>TEI Encoder</resp>
-            </respStmt>
-         </titleStmt>
-         <editionStmt>
-            <edition n="0.0.0-dev">
-               <title>Circa textum</title>
-               <date when="2020-11-26">November 26, 2020</date>
-            </edition>
-         </editionStmt>
-         <publicationStmt>
-            <authority>SCTA</authority>
-            <availability status="free">
-               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
-               </p>
-            </availability>
-         </publicationStmt>
-         <sourceDesc>
-            <listWit>
-               <witness xml:id="G" n="cod-TxxxqU">Genoa 1585</witness>
-            </listWit>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
-         <editorialDecl>
-            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
-       guidelines for a diplomatic edition.</p>
-         </editorialDecl>
-      </encodingDesc>
-      <revisionDesc status="draft">
-         <listChange>
-            <change when="2020-11-26" status="draft" n="0.0.0">
-               <p>Created file for the first time.</p>
-            </change>
-         </listChange>
-      </revisionDesc>
-   </teiHeader>
-   <text xml:lang="la">
-      <front>
-         <div xml:id="starts-on">
-           <pb ed="#G" n="P2_6-v"/>
-            <cb ed="#G" n="a"/>
-         </div>
-      </front>
-      <body>
-         <div xml:id="HuYgTa-165398"><!-- HuYgTa-l3d2ct1 -->
-            <head xml:id="HuYgTa-165398-Hd1e108">Circa textum</head>
-            <p xml:id="HuYgTa-165398-d1e111">
-               <lb ed="#G" n="34"/>
-               <pc type="indent"/>DISTINCTIO II. 
-      <lb ed="#G" n="35"/>Facilis, ac resoluta diuisio secunde distinctionis, in 
-      <lb ed="#G" n="36"/>qua quidem diuinae assumptionis modus,  
-      <lb ed="#G" n="37"/>
-               <pc type="indent"/>&amp; ordo insimuatur.
-    </p>
-            <p xml:id="HuYgTa-165398-d1e127">
-               <lb ed="#G" n="38"/>TQVIA IN MOMIME &amp;c. Postquam visum 
-      <lb ed="#G" n="39"/>est de persona naturam humanam
-      assu<lb ed="#G" n="40" break="no"/>mente: hic Magister vult determinare 
-      <lb ed="#G" n="41"/>de assumptionis modo, &amp; ordine. Et
-      di<lb ed="#G" n="42" break="no"/>uiditur in tres partes. Quia primo, quo 
-      <lb ed="#G" n="43"/>ad modum assumptionis, ostendit Magi 
-      <lb ed="#G" n="44"/>ster, quod filius Dei assumpsit humanam naturam
-      inte<lb ed="#G" n="45" break="no"/>gre. Secundo quo ad ordinem ostendit, quod assumpsit 
-      <lb ed="#G" n="46"/>eam ordinate; puta carne anima mediante. Tertio
-      osten<lb ed="#G" n="47" break="no"/>dit, quod non obstante illo ordine, tamen totam naturam, 
-      <lb ed="#G" n="48"/>scilicet corpus &amp; animam assumpsit simul tempore. Se- 
-      <lb ed="#G" n="49"/>cunda ibi, Assumpsit igitur Dei filius. Tertia ibi. Si
-      au<lb ed="#G" n="50" break="no"/>tem quaeritur vtrum. Et haec in duas. Nam primo circa 
-      <lb ed="#G" n="51"/>huiusmodi libertatem mouet dubitationem. Secundo 
-      <lb ed="#G" n="52"/>circa hoc ponit suam determinationem ibi, verissime 
-      <lb ed="#G" n="53"/>&amp; absque vlla ambiguitate. Circa istam secundam
-      distin<lb ed="#G" n="54" break="no"/>ctionem moueo hanc quaestionem. 
-    </p>
-         </div>
-      </body>
-   </text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Circa textum</title>
+        <author ref="#ThomasStrasbourg">Thomas of Strasbourg</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Circa textum</title>
+          <date when="2020-11-26">November 26, 2020</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="G" n="cod-TxxxqU">Genoa 1585</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2020-11-26" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#G" n="P2_6-v"/>
+        <cb ed="#G" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="HuYgTa-165398"><!-- HuYgTa-l3d2ct1 -->
+        <head xml:id="HuYgTa-165398-Hd1e108">Circa textum</head>
+        <p xml:id="HuYgTa-165398-d1e111">
+          <lb ed="#G" n="34"/>
+          <pc type="indent"/>DISTINCTIO II. 
+          <lb ed="#G" n="35"/>Facilis, ac resoluta diuisio secunde distinctionis, in 
+          <lb ed="#G" n="36"/>qua quidem diuinae assumptionis modus,  
+          <lb ed="#G" n="37"/>
+          <pc type="indent"/>&amp; ordo insimuatur.
+        </p>
+        <p xml:id="HuYgTa-165398-d1e127">
+          <lb ed="#G" n="38"/>TQVIA IN MOMIME &amp;c. Postquam visum 
+          <lb ed="#G" n="39"/>est de persona naturam humanam
+          assu<lb ed="#G" n="40" break="no"/>mente: hic Magister vult determinare 
+          <lb ed="#G" n="41"/>de assumptionis modo, &amp; ordine. Et
+          di<lb ed="#G" n="42" break="no"/>uiditur in tres partes. Quia primo, quo 
+          <lb ed="#G" n="43"/>ad modum assumptionis, ostendit Magi 
+          <lb ed="#G" n="44"/>ster, quod filius Dei assumpsit humanam naturam
+          inte<lb ed="#G" n="45" break="no"/>gre. Secundo quo ad ordinem ostendit, quod assumpsit 
+          <lb ed="#G" n="46"/>eam ordinate; puta carne anima mediante. Tertio
+          osten<lb ed="#G" n="47" break="no"/>dit, quod non obstante illo ordine, tamen totam naturam, 
+          <lb ed="#G" n="48"/>scilicet corpus &amp; animam assumpsit simul tempore. Se- 
+          <lb ed="#G" n="49"/>cunda ibi, Assumpsit igitur Dei filius. Tertia ibi. Si
+          au<lb ed="#G" n="50" break="no"/>tem quaeritur vtrum. Et haec in duas. Nam primo circa 
+          <lb ed="#G" n="51"/>huiusmodi libertatem mouet dubitationem. Secundo 
+          <lb ed="#G" n="52"/>circa hoc ponit suam determinationem ibi, verissime 
+          <lb ed="#G" n="53"/>&amp; absque vlla ambiguitate. Circa istam secundam
+          distin<lb ed="#G" n="54" break="no"/>ctionem moueo hanc quaestionem. 
+        </p>
+      </div>
+    </body>
+  </text>
 </TEI>

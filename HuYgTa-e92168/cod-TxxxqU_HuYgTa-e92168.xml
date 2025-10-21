@@ -1,892 +1,892 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Quaestio 1</title>
-            <author ref="#ThomasStrasbourg">Thomas of Strasbourg</author>
-            <respStmt>
-               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
-               <resp>Transcription Editor</resp>
-               <resp>TEI Encoder</resp>
-            </respStmt>
-         </titleStmt>
-         <editionStmt>
-            <edition n="0.0.0-dev">
-               <title>Quaestio 1</title>
-               <date when="2020-11-26">November 26, 2020</date>
-            </edition>
-         </editionStmt>
-         <publicationStmt>
-            <authority>SCTA</authority>
-            <availability status="free">
-               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
-               </p>
-            </availability>
-         </publicationStmt>
-         <sourceDesc>
-            <listWit>
-               <witness xml:id="G" n="cod-TxxxqU">Genoa 1585</witness>
-            </listWit>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
-         <editorialDecl>
-            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
-       guidelines for a diplomatic edition.</p>
-         </editorialDecl>
-      </encodingDesc>
-      <revisionDesc status="draft">
-         <listChange>
-            <change when="2020-11-26" status="draft" n="0.0.0">
-               <p>Created file for the first time.</p>
-            </change>
-         </listChange>
-      </revisionDesc>
-   </teiHeader>
-   <text xml:lang="la">
-      <front>
-         <div xml:id="starts-on">
-            <pb ed="#G" n="121-r"/>
-            <cb ed="#G" n="b"/>
-         </div>
-      </front>
-      <body>
-         <div xml:id="HuYgTa-e92168"><!-- HuYgTa-l1d45et46q1 -->
-            <head xml:id="HuYgTa-e92168-Hd1e108">Quaestio 1</head>
-            <head xml:id="HuYgTa-e92168-Hd1e111" type="question-title">
-      An diuina voluntas sit causa creaturarum.
-    </head>
-            <p xml:id="HuYgTa-e92168-d1e114">
-               <lb ed="#G" n="101"/>Quaestio I.
-      <lb ed="#G" n="102"/>An diuina voluntas sit causa 
-      <lb ed="#G" n="103"/>creaturarum.
-    </p>
-            <p xml:id="HuYgTa-e92168-d1e123">
-               <lb ed="#G" n="104"/>TRVM, voluntas Dei sit immediata cau 
-      <lb ed="#G" n="105"/>sa creaturarum,
-    </p>
-            <p xml:id="HuYgTa-e92168-d1e130">
-      &amp; videtur quod non.
-      <lb ed="#G" n="106"/>Quia illud, quod est omnino
-      immuta<lb ed="#G" n="107" break="no"/>bile, non potest esse immediata causa
-      ef<lb ed="#G" n="108" break="no"/>fectus mutabilis, sed voluntas diuina est 
-      <lb ed="#G" n="109"/>omnino immutabilis, &amp; omnis creatura 
-      <lb ed="#G" n="110"/>est mutabilis; ergo &amp;c 
-    </p>
-            <p xml:id="HuYgTa-e92168-d1e144">
-               <lb ed="#G" n="111"/>
-               <pc type="indent"/>Contra voluntas artificis est immediata causa eorum, 
-      <lb ed="#G" n="112"/>quae ab eo procedunt per modum artis; sed omnec creaturae 
-      <lb ed="#G" n="113"/>procedunt a Deo per modum artis. Maior patet 8.
-      metaph<lb ed="#G" n="114" break="no"/>vbi dicitur, quod principium artificiatorum est voluntas 
-      <lb ed="#G" n="115"/>Minor etiam patet, quia verbo diuino omnia sunt
-      pro<lb ed="#G" n="116" break="no"/>lucta; De ipso enim dicitur, Omuia per ipsum facta sunt, 
-      <lb ed="#G" n="117"/>&amp; sinc ipso factum est nihil: Sed verbum diuinum est ars 
-      <lb ed="#G" n="118"/>diuina, luxta quod Augu. e. de trini ait de verbo diuino.  
-      <lb ed="#G" n="119"/>quod est ars omnipotentis atque sapientis Dei plena
-      ra<lb ed="#G" n="120" break="no"/>tionum omnium viuentium: Patet etiam illa minor 
-      <lb ed="#G" n="121"/>Cap. 7. vbi dicitur de Deo, quod est omnium artifex &amp;c 
-      <lb ed="#G" n="122"/>Hic quattuor sunt videnda Primo, vtrum in diuinis sit 
-      <lb ed="#G" n="123"/>voluntas. Secundo de eo, quod quaeritur. Et hoc
-      quan<lb ed="#G" n="124" break="no"/>tum ad distin. 45. Tertio, vtrum Deus velit mala
-      ficri<lb ed="#G" n="125" break="no"/>Et quarto vtrum bonum sit mala fieri. Et hoc quantum 
-      <lb ed="#G" n="126"/>ad dist. 4 
-    </p>
-            <p xml:id="HuYgTa-e92168-d1e183">
-      <!--281.xml-->
-               <pb ed="#G" n="121-v"/>
-               <cb ed="#G" n="a"/>
-               <lb ed="#G" n="1"/>RESOLVTI O. 
-      <lb ed="#G" n="2"/>Voluntas in diuinis non lolum virtualiter, verumetiam
-      formali<lb ed="#G" n="3" break="no"/>ter ponenda ert: cum si causa cuiuscimque creaturae immedit 
-      <lb ed="#G" n="4"/>ta, facile colligitur, malum culpae ab ipsa non procedere, licet mo 
-      <lb ed="#G" n="5"/>lum peenae a diuina voluntate iuste infligatur. 
-    </p>
-            <p xml:id="HuYgTa-e92168-d1e203">
-               <lb ed="#G" n="6"/>
-               <pc type="indent"/>ARTICVLVSI 
-      <lb ed="#G" n="7"/>Vtrum in duinis sit voluntas 
-    </p>
-            <p xml:id="HuYgTa-e92168-d1e212">
-               <lb ed="#G" n="8"/>VANTVM ad primum articulum, utrum in diuinis 
-      <lb ed="#G" n="9"/> sit voluntas, dico, quoed. voluntas non solum
-      virtuali<lb ed="#G" n="10" break="no"/>ter, verumetiam formaliter ponenda est in Deo. 
-    </p>
-            <p xml:id="HuYgTa-e92168-d1e221">
-               <lb ed="#G" n="11"/>
-               <pc type="indent"/>Quia illud, quod dicit perfectionem simpliciter, fo 
-      <lb ed="#G" n="12"/>maliter est in Deo, vt testantur omnes sancti doctores, sed 
-      <lb ed="#G" n="13"/>voluntas dicit perfectionem simpliciter: quia cum sit
-      po<lb ed="#G" n="14" break="no"/>tentia essentialiter libera, in quocunque reperitur, melius 
-      <lb ed="#G" n="15"/>est ipsum, quam non ipsum, siue ipsum perfectius
-      inueni<lb ed="#G" n="16" break="no"/>tur, haeciest enim conditio perfectionis secundum Ansel 
-      <lb ed="#G" n="17"/>2 Praeterea, sicut cognitionem sensitiuam sequitur al 
-      <lb ed="#G" n="18"/>petitus sensitiuus, sic cognitionem intellectiuam sequi 
-      <lb ed="#G" n="19"/>tur appetitus intellectiuus, siue voluntas, sed Deus habet 
-      <lb ed="#G" n="20"/>cognitionem intellectiuam, ergo &amp;c.
-    </p>
-            <p xml:id="HuYgTa-e92168-d1e247">
-               <lb ed="#G" n="21"/>3 Praeterea, vbicunque reperitur delectatio cum
-      liber<lb ed="#G" n="22" break="no"/>tate, ibi vere reperitur voluntas: Quamuis enim bestiae 
-      <lb ed="#G" n="23"/>delectentur, quia tamen magis ducuntur suis
-      delectatio<lb ed="#G" n="24" break="no"/>nibus, quam eas ducant, &amp; magis aguntur, quam agant 
-      <lb ed="#G" n="25"/>ideo carentes libertate non sunt domini sui actus, nec
-      pe<lb ed="#G" n="26" break="no"/>consequens habent uoluntatem: sed Deo conuenit sum 
-      <lb ed="#G" n="27"/>me delectari cum libertate,; cum enim delectari magis con 
-      <lb ed="#G" n="28"/>sistat in immobilitate, quam in motu, vt dicitur 7. ethico 
-      <lb ed="#G" n="29"/>rum. Deus, qui immobilis est per se, &amp; per accidens, &amp; ab 
-      <lb ed="#G" n="30"/>intra, vt patet <ref xml:id="HuYgTa-e92168-Rd1e270">8. physicorum</ref> &amp; <ref xml:id="HuYgTa-e92168-Rd1e274">12. metaph</ref> maximas
-      ha<lb ed="#G" n="31" break="no"/>bet delectationes Propter quod dicitur <ref xml:id="HuYgTa-e92168-Rd1e279">7. ethicorum</ref>, Deus 
-      <lb ed="#G" n="32"/>semper vna delectatione gaudet. Et <ref xml:id="HuYgTa-e92168-Rd1e284">12. metaph.</ref> dicitur 
-      <lb ed="#G" n="33"/>quod intelligere diuinum est valde voluptuosum: &amp; ideo 
-      <lb ed="#G" n="34"/>Deus persectissime habet voluntatem, secundum <ref xml:id="HuYgTa-e92168-Rd1e292">Dama 
-        <lb ed="#G" n="35"/>lib. 3.</ref> Angelis autem &amp; hominibus conuenit voluntas, si 
-      <lb ed="#G" n="36"/>cundum quod sunt imago diuinae naturae, quae est volu 
-      <lb ed="#G" n="37"/>ptuosissima &amp; arbitrio libera
-    </p>
-            <p xml:id="HuYgTa-e92168-d1e303">
-               <lb ed="#G" n="38"/>4 Praeterea, illud, quod est de integritate &amp;
-      perfectio<lb ed="#G" n="39" break="no"/>ne intellectualis naturae, vere reperitur in Deo; voluntas 
-      <lb ed="#G" n="40"/>est huiusmodi. Maior patet: quia natura diuina est
-      perfe<lb ed="#G" n="41" break="no"/>ctissime intellectualis. Minorem probo: quia non minus 
-      <lb ed="#G" n="42"/>voluntas, quae est appetitus intellectiuus est de integrita 
-      <lb ed="#G" n="43"/>te intellectualis naturae, quam appetitus naturalis sit de 
-      <lb ed="#G" n="44"/>integritate naturae cognitione carentis, uel appetitus sen 
-      <lb ed="#G" n="45"/>sitiuus de integritate naturae sensitiuae, sed non esset
-      per<lb ed="#G" n="46" break="no"/>fecte graue, quod naturaliter non appeteret esse deorsum 
-      <lb ed="#G" n="47"/>nec esset perfecte sensitiuum, quod nihil ap pateret secun 
-      <lb ed="#G" n="48"/>dum sensum: ergo non esset natura perfecte
-      intellectua<lb ed="#G" n="49" break="no"/>lis, quae carcret voluntate, qua appetitur aliquid secundum 
-      <lb ed="#G" n="50"/>notitiam intellectiuam 
-    </p>
-            <p xml:id="HuYgTa-e92168-d1e334">
-               <lb ed="#G" n="51"/>
-               <pc type="indent"/>Sed forte dicetur, quod de ratione voluntatis est, quod 
-      <lb ed="#G" n="52"/>moueat mota, vt patet <ref xml:id="HuYgTa-e92168-Rd1e342">3. de anima</ref>: ipsa enim prius moue 
-      <lb ed="#G" n="53"/>tur a bono appetibili, quam aliquid moueatur ab ea; sed  
-      <lb ed="#G" n="54"/>Deus omnia mouet, &amp; a nullo mouetur, luxta illud boe 
-      <lb ed="#G" n="55"/>thij, Immotus in te manens das cuncta moueri 
-    </p>
-            <p xml:id="HuYgTa-e92168-d1e353">
-               <lb ed="#G" n="56"/>
-               <pc type="indent"/>Respondeo, quod illa maior non est vera, nisi de tal 
-      <lb ed="#G" n="57"/>voluntate, quae mouet propter aliquem finem
-      di<lb ed="#G" n="58" break="no"/>stinctum a se, sine extrinsecum: sic autem 
-      <lb ed="#G" n="59"/>
-               <pc type="indent"/>non est de Deo, ipse omnia
-      mo<lb ed="#G" n="60" break="no"/>
-               <pc type="indent"/>uet non propter
-      ali<lb ed="#G" n="61" break="no"/>
-               <pc type="indent"/>quid
-      ac<lb ed="#G" n="62" break="no"/>quirendum tali motu, sed propter sui
-      pro<lb ed="#G" n="63" break="no"/>
-               <pc type="indent"/>priam bonitatem: ergo instantia 
-      <lb ed="#G" n="64"/>
-               <pc type="indent"/>non ualet.
-    </p>
-            <p xml:id="HuYgTa-e92168-d1e388">
-      <!--281.xml-->
-               <cb ed="#G" n="b"/>
-               <lb ed="#G" n="65"/>ARTICVLVS IR 
-      <lb ed="#G" n="66"/>Vtrum voluintas Dei sit immediata cdusa 
-      <lb ed="#G" n="67"/>
-               <pc type="indent"/>creatir arum.
-    </p>
-            <p xml:id="HuYgTa-e92168-d1e404">
-               <lb ed="#G" n="68"/>VANTVM ad secundum articulum, utrum
-      uolun<lb ed="#G" n="69" break="no"/>tas Dei sit immediata causa creaturarum, Ponc 
-      <lb ed="#G" n="70"/>duas conclusiones. 
-    </p>
-            <p xml:id="HuYgTa-e92168-d1e413">
-               <lb ed="#G" n="71"/>
-               <pc type="indent"/>Prima est, quod uoluntas Dei est causa omnis
-      creatu<lb ed="#G" n="72" break="no"/>re. Quia quicquid procedit ab aliquo agente libere, illius 
-      <lb ed="#G" n="73"/>causa est uoluntas producentis, sed omnis creatura pro 
-      <lb ed="#G" n="74"/>ducitur a Deo libere, ergo &amp; cetera. Maior patet: qui 
-      <lb ed="#G" n="75"/>libertas est principalis proprietas voluntatis, ergo quod 
-      <lb ed="#G" n="76"/>conuenit alicui omnino libere, hoc ratione uoluntatis vi 
-      <lb ed="#G" n="77"/>detur sibi conuenire, Minor patebit infra. Et haec est inten 
-      <lb ed="#G" n="78"/>tio Beati Aug. ad Orosium, vbi ait, quod omnis creaturae 
-      <lb ed="#G" n="79"/>causa est voluntas Dei. Patet etiam illa conclusio hic in 
-      <lb ed="#G" n="80"/>ittera multis auctoritatibus
-    </p>
-            <p xml:id="HuYgTa-e92168-d1e440">
-               <lb ed="#G" n="81"/>1 Forte dicetur, quod illa ratio non concludit: quia 
-      <lb ed="#G" n="82"/>causa contingens, &amp; libera non potest esse causa efficien 
-      <lb ed="#G" n="83"/>necessarij: sed, vt dicit illa ratio, Deus produeit illas
-      crea<lb ed="#G" n="84" break="no"/>turas libere, &amp; per consequens contingenter; &amp; multos 
-      <lb ed="#G" n="85"/>effectus necessarios videmus in creaturis, ergo si Deus est 
-      <lb ed="#G" n="86"/>causa libera, sequitur quod non sit causa omnis creaturae: 
-      <lb ed="#G" n="87"/>ac etiam voluntas diuina, cuius, vt dictum est,
-      proprie<lb ed="#G" n="88" break="no"/>tas est ipsa libertas, non erit causa omnis creaturae, &amp; 
-      <lb ed="#G" n="89"/>sic ex vi praedictae rationis sequitur oppositum intentae 
-      <lb ed="#G" n="90"/>conclusionis 
-    </p>
-            <p xml:id="HuYgTa-e92168-d1e464">
-               <lb ed="#G" n="91"/>
-               <pc type="indent"/>2 Praeterea, si voluntas diuina est causa omnium
-      crea<lb ed="#G" n="92" break="no"/>turarum, tunc vel est causa sufficiens, uel insufficiens. Non 
-      <lb ed="#G" n="93"/>sufficiens: quia posita causa sufficiente semper ponitur ef 
-      <lb ed="#G" n="94"/>fectus, &amp; sic ab aeterno fuissent creaturae: sicut ab aeterno 
-      <lb ed="#G" n="95"/>fuit voluntas diuina. Item posita causa sufficiente, frustra 
-      <lb ed="#G" n="96"/>poneretur alia causa, ergo si voluntas Dei esset sufficiens 
-      <lb ed="#G" n="97"/>causa omnium creaturarum, tunc omnes aliae causae
-      fru<lb ed="#G" n="98" break="no"/>stra ponerentur: quia penitus essent superfluae. Nec potest 
-      <lb ed="#G" n="99"/>oni secundum: quia nulla insufficientia potest esse in uo 
-      <lb ed="#G" n="100"/>untate diuina, ergo &amp;c 
-    </p>
-            <p xml:id="HuYgTa-e92168-d1e490">
-               <lb ed="#G" n="101"/>
-               <pc type="indent"/>Ad primum dicendum, quod licet aliqui effectus in crea 
-      <lb ed="#G" n="102"/>turis sint necessarii per comparationem ad causas
-      secun<lb ed="#G" n="103" break="no"/>das, quae huiusmodi effectus non possunt impedire, tamen 
-      <lb ed="#G" n="104"/>nullus effectus est adeo necessarius, quin per comparatio 
-      <lb ed="#G" n="105"/>nem ad diuinam voluntatem sit contingens, &amp; possibilis 
-      <lb ed="#G" n="106"/>iliter se habere, quod bene patuit tempore losuae, quande 
-      <lb ed="#G" n="107"/>voluntate diuina sol stetit in medio celi, &amp; non
-      moueba<lb ed="#G" n="108" break="no"/>tur per spacium vnius diei. Patuit etia tempore Exechiae 
-      <lb ed="#G" n="109"/>quando sol retrocessit decem gradibus, &amp; in multis alii 
-      <lb ed="#G" n="110"/>exemplis sacrae scripturae, quae longum nimis esset enarra 
-      <lb ed="#G" n="111"/>re. Ex quo patet, quod non obstante, quod Deus sua uolum 
-      <lb ed="#G" n="112"/>tate libere, &amp; contingenter producat omne, quod
-      produ<lb ed="#G" n="113" break="no"/>cit ad extra; tamen sua libera voluntas est causa omnis crea 
-      <lb ed="#G" n="114"/>turae: quia omnis creatura est contingens per comparatio 
-      <lb ed="#G" n="115"/>nem ad diuinam voluntatem. 
-    </p>
-            <p xml:id="HuYgTa-e92168-d1e527">
-               <lb ed="#G" n="116"/>
-               <pc type="indent"/>Ad secundum dicendum, quod voluntas diuina est causa suf 
-      <lb ed="#G" n="117"/>ficiens. Ad probationem primam in contrarium dicendum, quod 
-      <lb ed="#G" n="118"/>uando causa, quae causat ex necessitate naturae, est
-      suffi<lb ed="#G" n="119" break="no"/>ciens, tunc posita causa immediate ponitur effectus: Sed  
-      <lb ed="#G" n="120"/>quando causa est libera &amp; voluntaria, tunc quamuis
-      hu<lb ed="#G" n="121" break="no"/>usmodi causa sit sufficiens, tamen non est necesse, vt
-      effe<lb ed="#G" n="122" break="no"/>ctus semper sit, quando est huiusmodi causa, sed sufficit quod 
-      <lb ed="#G" n="123"/>ipse effectus sit pro illa mensura, pro qua huiusmodi
-      cau<lb ed="#G" n="124" break="no"/>sa vult talem effectum esse: sed voluntas diuina ab
-      aeter<lb ed="#G" n="125" break="no"/>no uoluit creaturam esse in tempore, ergo &amp;c 
-    </p>
-            <p xml:id="HuYgTa-e92168-d1e553">
-               <lb ed="#G" n="126"/>
-               <pc type="indent"/>Forte dices, quod voluntas diuina vel noluit ab aeterno 
-      <lb ed="#G" n="127"/>creaturam esse, uel non uoluit creaturam ab aeterno esse 
-      <lb ed="#G" n="128"/>illa patet per extrema contradictionis. Si datur primum; 
-      <lb ed="#G" n="129"/>tunc secundum illam solutionem uidetur esse concessum, 
-      <lb ed="#G" n="130"/>quod creatura fuerit ab aeterno. Si secundum, tunc seque 
-      <lb ed="#G" n="131"/>retur, quod Deus aliquid vellet in tempore, quod non vo 
-      <lb ed="#G" n="132"/>luit ab aeterno, cuius oppositum ostendetur in quaestione 
-      <lb ed="#G" n="133"/>proxima sequenti.
-    </p>
-            <p xml:id="HuYgTa-e92168-d1e575">
-      <!--282.xml-->
-               <pb ed="#G" n="122-r"/>
-               <cb ed="#G" n="a"/>
-               <lb ed="#G" n="1"/>Respondeo, quod Deus ab aeterno voluit ereaturam esse, 
-      <lb ed="#G" n="2"/>non tamen pro aeterno, sed pro tempore determinato: &amp; 
-      <lb ed="#G" n="3"/>ideo ex ui diuinae voluntatis, seu diuinae volitionis non  
-      <lb ed="#G" n="4"/>oportuit creaturam esse ab aeterno, sed solum in
-      tempo<lb ed="#G" n="5" break="no"/>re. llla tamen magis apparebunt infra circa principium si 
-      <lb ed="#G" n="6"/>cundi libri. Ad secundam probationem dicendum, quoc 
-      <lb ed="#G" n="7"/>aliae causae non superfluunt: quia in earum actione diuina 
-      <lb ed="#G" n="8"/>bonitas declaratur, quam Deus uoluit libere causis secun 
-      <lb ed="#G" n="9"/>dis communicare, quamuis ipse solus omnia posset, si 
-      <lb ed="#G" n="10"/>vellet, producere, &amp; gubernare.
-    </p>
-            <p xml:id="HuYgTa-e92168-d1e607">
-               <lb ed="#G" n="11"/>Secunda conclusio est. Voluntas diuina est causa immu 
-      <lb ed="#G" n="12"/>diata omnis creaturae, quia causa producens totum effe 
-      <lb ed="#G" n="13"/>ctum est huiusmodi effectus causa immediata; sed
-      volun<lb ed="#G" n="14" break="no"/>tas diuina producit totum effectum in pro ductione cuius 
-      <lb ed="#G" n="15"/>cunque creaturae. Maior patet: quia effectus a nullo
-      im<lb ed="#G" n="16" break="no"/>mediatius attingitur, quam ab eo, a quo totus
-      produci<lb ed="#G" n="17" break="no"/>tur Minor etiam patet: quia quamuis causae secundae in 
-      <lb ed="#G" n="18"/>aliquibus effectibus cooperentur Deo, siuc uoluntati
-      di<lb ed="#G" n="19" break="no"/>inae: tamen illud idem, quod ab eis producitur, inti 
-      <lb ed="#G" n="20"/>mius ab ipso Deo attingitur, &amp; perfectius a Deo
-      produci<lb ed="#G" n="21" break="no"/>tur, quam ab ipsis secundis causis. Attingit enim a fine vs 
-      <lb ed="#G" n="22"/>que ad finem fortiter, &amp; disponit omnia suauiter, vt di 
-      <lb ed="#G" n="23"/>citur <ref xml:id="HuYgTa-e92168-Rd1e637">Sap. 8. </ref>
-            </p>
-            <p xml:id="HuYgTa-e92168-d1e641">
-               <lb ed="#G" n="24"/>
-               <pc type="indent"/>Sed contra illam conclusionem videntur esse duae sol 
-      <lb ed="#G" n="25"/>lemnes opiniones, Quarum vna ponit, quod Deus licet  
-      <lb ed="#G" n="26"/>sit causa rerum per intellectum, &amp; voluntatem: tamen im 
-      <lb ed="#G" n="27"/>mediatius intelligitur esse causa por intellectum, quam 
-      <lb ed="#G" n="28"/>per voluntatem, quod probat sic.
-    </p>
-            <p xml:id="HuYgTa-e92168-d1e657">
-               <lb ed="#G" n="29"/>Exemplar factiuum immediatius attingit effectum 
-      <lb ed="#G" n="30"/>quam causa, quae applicat ipsum ad effectum: sed idea 
-      <lb ed="#G" n="31"/>quae se tenet ex parte intellectus diuini, est exempla 
-      <lb ed="#G" n="32"/>factiuum, &amp; voluntas diuina huiusmodi exemplar
-      ap<lb ed="#G" n="33" break="no"/>plicat ad effectum, ergo &amp; cet. Maior patet: quia licet 
-      <lb ed="#G" n="34"/>imago existens in pariete, ad cuius similitudinem pictos 
-      <lb ed="#G" n="35"/>aliam depingit imaginem, non se habeat immediatius 
-      <lb ed="#G" n="36"/>ad effectum depictum, quasi manus pictoris; tamen sigil 
-      <lb ed="#G" n="37"/>lum cerae impressum immediatius se habet ad
-      effe<lb ed="#G" n="38" break="no"/>ctum in cera causatum, quam manus, quae imprimit ip 
-      <lb ed="#G" n="39"/>sum, cuius tota ratio est: quia imago parietis non erat 
-      <lb ed="#G" n="40"/>exemplar factiuum respectu imaginis pictae, sicut
-      ima<lb ed="#G" n="41" break="no"/>go sculpta in sigillo est exemplar factiuum respectu
-      ima<lb ed="#G" n="42" break="no"/>ginis impressae ipsi cerae. Minor patet secundum om- 
-      <lb ed="#G" n="43"/>nes doctores.
-    </p>
-            <p xml:id="HuYgTa-e92168-d1e692">
-               <lb ed="#G" n="44"/>2 Praeterea, res opposito modo comparantur ad
-      in<lb ed="#G" n="45" break="no"/>tellectum nostrum &amp; ad intellectum diuinum: quia scien 
-      <lb ed="#G" n="46"/>tia intellectus nostri causatur a rebus, sed scientia
-      in<lb ed="#G" n="47" break="no"/>tellectus diuini est causa rerum, ut ait Commentato 
-      <lb ed="#G" n="48"/>12. metaphysice: Sed in nobis primo fit motus a rebus 
-      <lb ed="#G" n="49"/>ad intellectum, &amp; mediante int ellectu ad voluntatem 
-      <lb ed="#G" n="50"/>ergo cconuerso secundum nostrum modum intelligend 
-      <lb ed="#G" n="51"/>in diuinis modus causandi res, est quasi quidam motus: 
-      <lb ed="#G" n="52"/>voluntate ad intellectum, deinde ab intellectu ad exte 
-      <lb ed="#G" n="53"/>riores existentias rerum.
-    </p>
-            <p xml:id="HuYgTa-e92168-d1e716">
-               <lb ed="#G" n="54"/>3 Praeterea, illud, quo productum assimilatur producen 
-      <lb ed="#G" n="55"/>ti, illo producens immediatius se habet ad effectum, &amp; im 
-      <lb ed="#G" n="56"/>mediatius producit: quia vnumquodque producit sibi simi 
-      <lb ed="#G" n="57"/>le, inquantum potest: sed creaturae potissime assimilantur 
-      <lb ed="#G" n="58"/>Deo quantum ad rationes ideales, quae pertinent ad
-      in<lb ed="#G" n="59" break="no"/>tellectum diuinum, &amp; non ad voluntatem, ergo &amp;c 
-    </p>
-            <p xml:id="HuYgTa-e92168-d1e732">
-               <lb ed="#G" n="60"/>
-               <pc type="indent"/>Sed istis non obstantibus, teneo conclusionem primam 
-      <lb ed="#G" n="61"/>Et antequam istis motiuis respondeam, possum contra 
-      <lb ed="#G" n="62"/>hanc opinionem arguere sic. 
-    </p>
-            <p xml:id="HuYgTa-e92168-d1e744">
-               <lb ed="#G" n="63"/>
-               <pc type="indent"/>1 Illud, cuius actus sic se habet, quod, ipso posito, om 
-      <lb ed="#G" n="64"/>nino sequitur rerum productio, hoc immediatius se
-      ha<lb ed="#G" n="65" break="no"/>bet ad rerum productionem, quam illud, cuius actu
-      posi<lb ed="#G" n="66" break="no"/>to, potest non sequi rerum productio: sed posito actu
-      uo<lb ed="#G" n="67" break="no"/>luntatis diuinae, puta quod Deus velit creaturam
-      produm<lb ed="#G" n="68" break="no"/>cere, tunc necessario sequitur productio creaturae, &amp;
-      posi<lb ed="#G" n="69" break="no"/>to actu intellectus, non sequetur necessario rerum produm 
-      <lb ed="#G" n="70"/>ctio: Nam Deus multa scit producere, quae numquam pro 
-      <lb ed="#G" n="71"/>ducentur; tamen omnia, quae Deus vult producere, omni 
-      <lb ed="#G" n="72"/>no producentur, ergo &amp;c.
-    </p>
-            <p xml:id="HuYgTa-e92168-d1e770">
-      <!--282.xml-->
-               <cb ed="#G" n="b"/>
-               <lb ed="#G" n="73"/>2 Preterea, in ordinate se habentibus per modum me 
-      <lb ed="#G" n="74"/>dij, &amp; extremorum plus distat extremu ab extremo, quam 
-      <lb ed="#G" n="75"/>extremum a medio: Sed in agente libere, &amp; a proposito 
-      <lb ed="#G" n="76"/>velle est medium inter scire, &amp; operari; Et Deus in
-      pro<lb ed="#G" n="77" break="no"/>ductione creaturae agit libere, &amp; a proposito, ergo uelli 
-      <lb ed="#G" n="78"/>suum immediatius se habet ad productionem creaturae, 
-      <lb ed="#G" n="79"/>quam suum scire. Maior patet. Probo minorem, patet. eni 
-      <lb ed="#G" n="80"/>quod operari est vltimum, &amp; per consequens unum extro 
-      <lb ed="#G" n="81"/>morum: in agente enim a proposito operari
-      praesuppo<lb ed="#G" n="82" break="no"/>nit velle &amp; scire, quocunque enim illorum deficiente, 
-      <lb ed="#G" n="83"/>illud non esset perfecte agens a proposito, sed velle prae 
-      <lb ed="#G" n="84"/>supponit scire: quia bonum cognitum est obiectum
-      volum<lb ed="#G" n="85" break="no"/>tatis: ergo patet, quod velle mediat inter scire &amp; operari, 
-      <lb ed="#G" n="86"/>&amp; per consequens habetur intentum
-    </p>
-            <p xml:id="HuYgTa-e92168-d1e807">
-               <lb ed="#G" n="87"/>3 Praeterea, qualem ordinem realem habent aliqua 
-      <lb ed="#G" n="88"/>in his, in quibus differunt realiter, talem ordinem ratio. 
-      <lb ed="#G" n="89"/>nis habent in his, vbi differunt secundum rationem:
-      se<lb ed="#G" n="90" break="no"/>in nobis actus uoluntatis realiter differens ab actu
-      intel<lb ed="#G" n="91" break="no"/>lectus immediatius se habet ad operationem artis, quam  
-      <lb ed="#G" n="92"/>actus intellectus, vt patet per <ref xml:id="HuYgTa-e92168-Rd1e822">Aristo. 9. metaphy.</ref> &amp; <ref xml:id="HuYgTa-e92168-Rd1e825">3. di 
-        <lb ed="#G" n="93"/>anima.</ref> Etiam <ref xml:id="HuYgTa-e92168-Rd1e830">
-                  <name xml:id="HuYgTa-e92168-Nd1e832">Algaxel</name> in metaphysica sua tractatu 4.</ref> ex- 
-      <lb ed="#G" n="94"/>presse dicit, quod voluntas immediatius mouet, quam in 
-      <lb ed="#G" n="95"/>tellectus: ergo in diuinis, vbi uoluntas &amp; intellectus,
-      so<lb ed="#G" n="96" break="no"/>lum differunt ratione, voluntas immediatius se habet 
-      <lb ed="#G" n="97"/>ad opus productionis ad extra, quam intellectus saltem  
-      <lb ed="#G" n="98"/>secundum rationem
-    </p>
-            <p xml:id="HuYgTa-e92168-d1e848">
-               <lb ed="#G" n="99"/>Ade primam illarum rationum dicendum, quod 
-      <lb ed="#G" n="100"/>maior non est uera: quia praesupponit falsum, scilicet 
-      <lb ed="#G" n="101"/>quod aliquod exemplar sit factiuum: Nullum enim
-      e<lb ed="#G" n="102" break="no"/>xemplar retinens rationem exemplaris est factiuum 
-      <lb ed="#G" n="103"/>exemplar enim est, ad quod respiciens artifex producit 
-      <lb ed="#G" n="104"/>simile sibi.
-    </p>
-            <p xml:id="HuYgTa-e92168-d1e864">
-               <lb ed="#G" n="105"/>Ad probationem dicendum, quod, cum imprimitur 
-      <lb ed="#G" n="106"/>sigillum in cera, tunc figura sigilli non se habet ut exem, 
-      <lb ed="#G" n="107"/>plar, sed potius se habet, vt instrumentum imprimentis; 
-      <lb ed="#G" n="108"/>sicut enim mediante actie ipsius securis artifex
-      diui<lb ed="#G" n="109" break="no"/>dendo partes continui inducit aliquam formam, cuius 
-      <lb ed="#G" n="110"/>formae exemplar non est securis, quamuis sit
-      instrumen<lb ed="#G" n="111" break="no"/>tum artificis: sic cum diuiditur cera per impressionem
-      si<lb ed="#G" n="112" break="no"/>gilli, sigillum non debet dici exemplar figurae in cera, 
-      <lb ed="#G" n="113"/>quamuis legitime possit dici instrumentum ipsius
-      impri<lb ed="#G" n="114" break="no"/>mentis: Si enim esset exemplar, tunc oporteret, quod
-      si<lb ed="#G" n="115" break="no"/>gillator faciendo figuram in cera respiceret figuram in
-      si<lb ed="#G" n="116" break="no"/>gillo, &amp; ad instar, seu similitudinem sigilli cum aliquo 
-      <lb ed="#G" n="117"/>instrumento sculperet ipsam ceram, &amp; tunc de plano
-      pa<lb ed="#G" n="118" break="no"/>teret, quod sigillum non esset factiuum, nec immediatius 
-      <lb ed="#G" n="119"/>attingeret ceram, quam manus ipsus sculpentis: Cum 
-      <lb ed="#G" n="120"/>autem imprimitur, tunc concedo, quod sigillum sit
-      facti<lb ed="#G" n="121" break="no"/>uum non tamen est exemplar, sed est instrumentum. Si 
-      <lb ed="#G" n="122"/>enim caecus imprimeret sigillum, nihil minus cera figu 
-      <lb ed="#G" n="123"/>raretur, &amp; tamen patet, quod caecus in tali impressione 
-      <lb ed="#G" n="124"/>non uteretur sigillo taquam forma exemplari: quia non  
-      <lb ed="#G" n="125"/>posset sigillum inspicere. Etiam minor non est uera 
-      <lb ed="#G" n="126"/>quia idea in mente diuina non est proprie loquendo facti 
-      <lb ed="#G" n="127"/>ua; sed est illud, quod Deus aspiciens ad eius
-      similitu<lb ed="#G" n="128" break="no"/>dinem libera voluntate producit ad extra illud, quod 
-      <lb ed="#G" n="129"/>creat. 
-    </p>
-            <p xml:id="HuYgTa-e92168-d1e921">
-               <lb ed="#G" n="130"/>
-               <pc type="indent"/>Ad secundam dicendum, quod quamuis res opposito 
-      <lb ed="#G" n="131"/>modo se habeant ad Deum, &amp; ad nos quantum ad ipsum 
-      <lb ed="#G" n="132"/>scire, eo quod scientia Dei causet res; nostra autem
-      cau<lb ed="#G" n="133" break="no"/>setur a rebus; tamen, supposito ipso scire, tunc aliquo mo 
-      <lb ed="#G" n="134"/>do similiter se habet Deus ad producendum res creatas,  
-      <lb ed="#G" n="135"/>&amp; nos ad producendum res artificiatas: quia vtrobique 
-      <lb ed="#G" n="136"/>voluntas est huiusmodi productorum principium
-      imme<lb ed="#G" n="137" break="no"/>diatum, siue immediatius, quam ipse intellectus. Etiam 
-      <lb ed="#G" n="138"/>minor deficit: quia cum bonum cognitum sit obiectum 
-      <lb ed="#G" n="139"/>voluntatis, ergo actus uoluntatis praesupponit actum
-      in<lb ed="#G" n="140" break="no"/>tellectus saltem secundum nostrum modum
-      cognoscen<lb ed="#G" n="141" break="no"/>di, &amp; per consequens talis motus, quem isti fingunt in
-      di<lb ed="#G" n="142" break="no"/>uinis, non potest sic incipere ex parte uoluntatis, quod  
-      <lb ed="#G" n="143"/>excludat uoluntatis immediationem quantum ad rerum 
-      <lb ed="#G" n="144"/>productionem.
-    </p>
-            <p xml:id="HuYgTa-e92168-d1e959">
-      <!--283.xml-->
-               <pb ed="#G" n="122-v"/>
-               <cb ed="#G" n="a"/>
-               <lb ed="#G" n="1"/>Ad tertiam dicendum, quod maior deficit tam in
-      natu<lb ed="#G" n="2" break="no"/>ralibus, quam in artificialibus; In naturalibus quidem 
-      <lb ed="#G" n="3"/>quia filius magis assimilatur patri, quam semini, quamuis 
-      <lb ed="#G" n="4"/>lemen immediatius se habeat ad generationem, quam  
-      <lb ed="#G" n="5"/>ipse pater. D ficit etiam in artificialibus, quia in
-      artificia<lb ed="#G" n="6" break="no"/>libus, artifex assimilat productum ipsi exemplari, &amp; ta 
-      <lb ed="#G" n="7"/>men exemplar non contingit immediate ipsum effectun 
-      <lb ed="#G" n="8"/>productum per se loquendo, nisi hoc fieret per accidens 
-      <lb ed="#G" n="9"/>vt patet ex praedictis. 
-    </p>
-            <p xml:id="HuYgTa-e92168-d1e988">
-               <lb ed="#G" n="10"/>
-               <pc type="indent"/>Secundo contra praedictam conclusionem est alia
-      sol<lb ed="#G" n="11" break="no"/>lemnis opinio, quae ponit in diuinis praeter intellectum 
-      <lb ed="#G" n="12"/>&amp; uoluntatem potentiam executiuam, qua Deus imme 
-      <lb ed="#G" n="13"/>diate producit omne illud, quod ab extra producit. Sec 
-      <lb ed="#G" n="14"/>ne ad praesens nimis prolixe teneam, ideo recitationem 
-      <lb ed="#G" n="15"/>rationum istius opinionis differo usque ad 9. distin se 
-      <lb ed="#G" n="16"/>cundi libri, ibi intendo tractare de potentia executiua, 
-      <lb ed="#G" n="17"/>quam isti doctores ponunt in angelis praeter
-      intelle<lb ed="#G" n="18" break="no"/>ctum &amp; voluntatem, &amp; tunc ea, quae hic omitto,
-      ple<lb ed="#G" n="19" break="no"/>nius recitabo. 
-    </p>
-            <p xml:id="HuYgTa-e92168-d1e1014">
-               <lb ed="#G" n="20"/>
-               <pc type="indent"/>ARTICVLVS I 
-      <lb ed="#G" n="21"/>Vtrum Deus velit mala fieri.
-    </p>
-            <p xml:id="HuYgTa-e92168-d1e1023">
-               <lb ed="#G" n="22"/>QVANTVM ad tertium articulum, utrum Deus ve 
-      <lb ed="#G" n="23"/>
-               <pc type="indent"/>lit mala fieri, sciendum quod duplex est malum, 
-      <lb ed="#G" n="24"/>scilicet malum culpae, &amp; malum poene. Et secundum hoc 
-      <lb ed="#G" n="25"/>pono duas conclusiones. 
-    </p>
-            <p xml:id="HuYgTa-e92168-d1e1036">
-               <lb ed="#G" n="26"/>
-               <pc type="indent"/>Prima est, quod Deus non uult fieri malum culpae. 
-      <lb ed="#G" n="27"/>1 Quia idem est fieri Deo auctore, quod Deo
-      volen<lb ed="#G" n="28" break="no"/>te, ut ait August. in libro 82. quaestionum: Sed Deo
-      au<lb ed="#G" n="29" break="no"/>ctore non fiunt mala culpae, vt ait ibidem August. ergo nec 
-      <lb ed="#G" n="30"/>Deo volente 
-    </p>
-            <p xml:id="HuYgTa-e92168-d1e1052">
-               <lb ed="#G" n="31"/>
-               <pc type="indent"/>Praeterea, Deus non potest esse malus, ergo Deus 
-      <lb ed="#G" n="32"/>non uult fieri mala. Antecedens patet: quia ipse est
-      es<lb ed="#G" n="33" break="no"/>sentialiter bonus, Propter quod dixit Christus in
-      euan<lb ed="#G" n="34" break="no"/>gelio, Nemo bonus nisi solus Deus. Probatio consequen 
-      <lb ed="#G" n="35"/>tiae, quia qui vult malum culpae, ille malus est, sed ille, qui 
-      <lb ed="#G" n="36"/>uult fieri malum culpae, ille uult malum culpae, ergo a de 
-      <lb ed="#G" n="37"/>structione consequentis, si Deus non potest esse malus; 
-      <lb ed="#G" n="38"/>sequitur, quod non uelit fieri aliquod malum culpae 
-    </p>
-            <p xml:id="HuYgTa-e92168-d1e1075">
-               <lb ed="#G" n="39"/>
-               <pc type="indent"/>Sed contra illud est quaedam opinio, quam <ref xml:id="HuYgTa-e92168-Rd1e1081">magister r 
-        <lb ed="#G" n="40"/>citat in ista 4c. dist.</ref> quae ponit, quod quamuis Deus non  
-      <lb ed="#G" n="41"/>uelit mala, tamen ipse uult fieri mala
-    </p>
-            <p xml:id="HuYgTa-e92168-d1e1089">
-               <lb ed="#G" n="42"/>1 Quia sicut Deus non scit falsum, quia scientia est 
-      <lb ed="#G" n="43"/>uerorum, &amp; quod non est non contingit scire, vt dicitur 
-      <lb ed="#G" n="44"/>
-               <ref xml:id="HuYgTa-e92168-Rd1e1097">1. posteriorum</ref>, tamen ipse scit aliqua esse falsa, quia
-      ali<lb ed="#G" n="45" break="no"/>qua esse falsa est uerum, sic Deus non uult malum, quia 
-      <lb ed="#G" n="46"/>non potest uelle, nisi bonum, tamen ipse uult esse malum; 
-      <lb ed="#G" n="47"/>seu fieri malum, quia esse malum, seu fieri malum est
-      bo<lb ed="#G" n="48" break="no"/>num, quia est occasio multorum bonorum 
-    </p>
-            <p xml:id="HuYgTa-e92168-d1e1110">
-               <lb ed="#G" n="49"/>
-               <pc type="indent"/>Praeterea, potest illa opinio confirmari sic. Aliqua 
-      <lb ed="#G" n="50"/>mala fiunt, ergo Deus uult ficri mala. Antecedens pa 
-      <lb ed="#G" n="51"/>tet, quia multa mala contingunt. Consequentia proba 
-      <lb ed="#G" n="52"/>tur: quia cum Dei uoluntas sit omnipotens, igitur
-      impos<lb ed="#G" n="53" break="no"/>sibile est fieri illud, quod Deus non uult fieri 
-    </p>
-            <p xml:id="HuYgTa-e92168-d1e1126">
-               <lb ed="#G" n="54"/>
-               <pc type="indent"/>Praeterea, sapiens uolens aliquid, uult omne illus 
-      <lb ed="#G" n="55"/>sine quo illud, quod uult nullatenus esse potest; Deus 
-      <lb ed="#G" n="56"/>qui est sapientissimus, uult sanctos suos mala pati ab ad 
-      <lb ed="#G" n="57"/>uersariis: quae passio, cum sit illatio actionis, nullo modo 
-      <lb ed="#G" n="58"/>potest esse sine mala actione aduersariorum, ergo &amp;c. 
-    </p>
-            <p xml:id="HuYgTa-e92168-d1e1142">
-               <lb ed="#G" n="59"/>
-               <pc type="indent"/>Praeterea, uel Deus uult mala fieri, uel non uult ma 
-      <lb ed="#G" n="60"/>la fieri, illa patet quia de quolibet affirmatio, uel
-      nega<lb ed="#G" n="61" break="no"/>tio, vt dicitur <ref xml:id="HuYgTa-e92168-Rd1e1152">4. meta.</ref> Si uult, tunc habetur propositum; 
-      <lb ed="#G" n="62"/>si non uult, tunc uoluntas Dei non esset omnipotens, quia 
-      <lb ed="#G" n="63"/>multa fierent contra eam, &amp; de facto procederent, quae 
-      <lb ed="#G" n="64"/>ipsa Dei uoluntas non impediret
-    </p>
-            <p xml:id="HuYgTa-e92168-d1e1163">
-               <lb ed="#G" n="65"/>3 Praeterea, beatus <ref xml:id="HuYgTa-e92168-Rd1e1167">August. in Ench.</ref> dicit, Non fit ali 
-      <lb ed="#G" n="66"/>quid, nisi omnipotens fieri uelit, sed multa mala quoti 
-      <lb ed="#G" n="67"/>die fiunt, ergo &amp;c.
-    </p>
-            <p xml:id="HuYgTa-e92168-d1e1176">
-      <!--283.xml-->
-               <cb ed="#G" n="b"/>
-               <lb ed="#G" n="68"/>e Praeterea, vel Deus uult mala fieri, uel Deus nuli 
-      <lb ed="#G" n="69"/>mala non ficri,. Secundum dari non potest, quia nihil po 
-      <lb ed="#G" n="70"/>test fieri Deo nolente, iuxta illud Hester. Domine in
-      di<lb ed="#G" n="71" break="no"/>tione tua cuncta sunt posita, &amp; non est qui tuae possit re 
-      <lb ed="#G" n="72"/>sistere uoluntati, ergo dabitur primum, &amp; habetur
-      pro<lb ed="#G" n="73" break="no"/>positum. 
-    </p>
-            <p xml:id="HuYgTa-e92168-d1e1196">
-               <lb ed="#G" n="74"/>
-               <pc type="indent"/>Sed illa non concludunt 
-      <lb ed="#G" n="75"/>1 Quia omnis uoluntas ordinata &amp; uirtuosa, aut
-      uo<lb ed="#G" n="76" break="no"/>lendo uult finem, aut ea, quae sunt ad finem, sed
-      uolun<lb ed="#G" n="77" break="no"/>tas Dei est ordinatissima &amp; uirtuosissima, &amp; malum cul 
-      <lb ed="#G" n="78"/>pae nec potest habere rationem finis, nec eorum, que sunt 
-      <lb ed="#G" n="79"/>ad finem, ergo &amp;c. Maior patet ex pluribus locis libri
-      e<lb ed="#G" n="80" break="no"/>thicorum. Minor patet quantum ad primam sui partem. 
-      <lb ed="#G" n="81"/>sed quantum ad secundam partem potest probari sic, Fi 
-      <lb ed="#G" n="82"/>nis &amp; optimum sunt idem, ut dicitur 2. physicorum &amp; 5. 
-      <lb ed="#G" n="83"/>metaph sed malum culpae non est optimum, ut patet de 
-      <lb ed="#G" n="84"/>se, ergo non potest habere rationem finis. Item deuiatis 
-      <lb ed="#G" n="85"/>a fine non habet rationem eorum, quae sunt ad finem, se 
-      <lb ed="#G" n="86"/>malum culpae est quaedam deuiatio a fine
-    </p>
-            <p xml:id="HuYgTa-e92168-d1e1229">
-               <lb ed="#G" n="87"/>2 Praeterea, nullus uult malum, nisi aliquo errore
-      de<lb ed="#G" n="88" break="no"/>ceptus apprehendat ipsum sub aliqua specie, uel apparen 
-      <lb ed="#G" n="89"/>tia boni; sed Deus non potest decipi. Maior patet p Dion 
-      <lb ed="#G" n="90"/>in de di non ubi ait, quod nullum agens aspiciens ad
-      ma<lb ed="#G" n="91" break="no"/>lum agit, quod agit. Minor similiter patet, quia Deus est 
-      <lb ed="#G" n="92"/>sapientiae infinitae.
-    </p>
-            <p xml:id="HuYgTa-e92168-d1e1245">
-               <lb ed="#G" n="93"/>3 Praeterea, si Deus uellet fieri mala, tunc non esset 
-      <lb ed="#G" n="94"/>beatus, sed miser. consequens est falsum, ergo &amp;
-      antece<lb ed="#G" n="95" break="no"/>dens Falsitas consequentis patet. Probatio
-      consequen<lb ed="#G" n="96" break="no"/>tiae: quia ille est miser, qui uult aliquid fieri, quod ipse
-      fa<lb ed="#G" n="97" break="no"/>cere non potest, nec secundum rectam rationem fieri po 
-      <lb ed="#G" n="98"/>test, sed Deus non potest facere peccatum, nec potest fieri 
-      <lb ed="#G" n="99"/>peccatum secundum rectam rationem, ergo &amp;c
-    </p>
-            <p xml:id="HuYgTa-e92168-d1e1263">
-               <lb ed="#G" n="100"/>Ad primum ergo in contrarium dicendum, quod non 
-      <lb ed="#G" n="101"/>est simile de falso &amp; de malo culpae, quia falsum esse est 
-      <lb ed="#G" n="102"/>uerum: sed malum esse, uel fieri non est bonum. Ad
-      pro<lb ed="#G" n="103" break="no"/>bationem dicendum, quod sicut non omnis occasio mal 
-      <lb ed="#G" n="104"/>est mala, sic non omnis occasio boni est bona 
-    </p>
-            <p xml:id="HuYgTa-e92168-d1e1276">
-               <lb ed="#G" n="105"/>
-               <pc type="indent"/>Ad secundum dicendum, quod consequentia non est 
-      <lb ed="#G" n="106"/>uera. Ad probationem dicendum, quod si ly non uult ac 
-      <lb ed="#G" n="107"/>cipitur pro simplici negatione uolitionis, tunc potest 
-      <lb ed="#G" n="108"/>Deus multa non uelle, quae tamen non sunt contra
-      uolum<lb ed="#G" n="109" break="no"/>tatem eius, quamuis sint praeter uoluntatem eius, &amp; per 
-      <lb ed="#G" n="110"/>consequens talia nec sunt uolita nec nolita, quamuis pos 
-      <lb ed="#G" n="111"/>siuit dici permissa 
-    </p>
-            <p xml:id="HuYgTa-e92168-d1e1297">
-               <lb ed="#G" n="112"/>
-               <pc type="indent"/>Ad tertium nego maiorem, non enim oportet semper 
-      <lb ed="#G" n="113"/>esse uolitum a Deo, sine quo non potest esse illud, quod 
-      <lb ed="#G" n="114"/>uult Deus, quia sufficit, quod sit permissum, vel per
-      po<lb ed="#G" n="115" break="no"/>tentiam Dei non prohibitum, quamuis lege diuina sit 
-      <lb ed="#G" n="116"/>prohibitum. 
-    </p>
-            <p xml:id="HuYgTa-e92168-d1e1313">
-               <lb ed="#G" n="117"/>
-               <pc type="indent"/>Forte dicetur, quod permissio sit signum uoluntatis,  
-      <lb ed="#G" n="118"/>sicut patet per Magistrum in littera, qui permissionem 
-      <lb ed="#G" n="119"/>uocat uoluntatem signi; idest signum uoluntatis. Sed Deus 
-      <lb ed="#G" n="120"/>non potest ostendere falsum signum, cum sit omnino
-      ue<lb ed="#G" n="121" break="no"/>rax, ergo quod Deus permittit hoc uidetur uelle¬ 
-    </p>
-            <p xml:id="HuYgTa-e92168-d1e1329">
-               <lb ed="#G" n="122"/>
-               <pc type="indent"/>Respondeo, quod permissio proprie loquendo non esi 
-      <lb ed="#G" n="123"/>signum uoluntatis diuinae, quae sit de malo fiendo, sed est 
-      <lb ed="#G" n="124"/>signum uoluntatis de bono ordinando ex ipsis malis, &amp; 
-      <lb ed="#G" n="125"/>illa est intentio P. Aug. in Enchrubi ait, quod omnipo 
-      <lb ed="#G" n="126"/>tens Deus non permitteret fieri aliquod malum, nisi adec 
-      <lb ed="#G" n="127"/>esset omnipotens, quod sciret de malis elicere bonum 
-    </p>
-            <p xml:id="HuYgTa-e92168-d1e1347">
-               <lb ed="#G" n="128"/>
-               <pc type="indent"/>Ad quartum dicendum cum dicitur, uel Deus uult fier 
-      <lb ed="#G" n="129"/>malum, uel non uult, hic est aduertendum, quod Iy non 
-      <lb ed="#G" n="130"/>uult, uel accipitur diuisim pro duabus partibus orationis 
-      <lb ed="#G" n="131"/>buta ut non est aduerbium negandi, &amp; uult est uerbum 
-      <lb ed="#G" n="132"/>tertiae persone istius uerbi uolouis; aut accipitur con 
-      <lb ed="#G" n="133"/>iunctim, seu composite pro vna parte orationis, gram  
-      <lb ed="#G" n="134"/>matice loquendo de partibus orationis, puta prout est 
-      <lb ed="#G" n="135"/>uerbum tertiae personae descendens a nolo, quod in
-      secu<lb ed="#G" n="136" break="no"/>da persona habet non uis, &amp; in tertia persona habet non 
-      <lb ed="#G" n="137"/>uult: Primo modo ly non uult est simplex negatio
-      uoli<lb ed="#G" n="138" break="no"/>tionis, Secundo modo non est negatio uolitionis, sed est 
-      <lb ed="#G" n="139"/>volitio negationis. Primo modo vult, &amp; non vult oppo¬ 
-      <!--284.xml-->
-      <pb ed="#G" n="123-r"/>
-               <cb ed="#G" n="a"/>
-               <lb ed="#G" n="1"/>nuntur contradictorie Secundo modo opponuntur 
-      <lb ed="#G" n="2"/>quasi contrarie. Primo igitur modo accipiendo haec 
-      <lb ed="#G" n="3"/>est vera, Deus non vult mala fieri: quia ad veritatem
-      il<lb ed="#G" n="4" break="no"/>lius propositonis sufficit, quod malum fiat pretet
-      uolun<lb ed="#G" n="5" break="no"/>tatem diuinam. Sed secundo modo non est vera: quia 
-      <lb ed="#G" n="6"/>tunc esset sensus, quod fieret contra voluntatem
-      diui<lb ed="#G" n="7" break="no"/>nam, puta non solum Deo non volente, sed fieret etiam  
-      <lb ed="#G" n="8"/>Deo nolente, 
-    </p>
-            <p xml:id="HuYgTa-e92168-d1e1402">
-               <lb ed="#G" n="9"/>
-               <pc type="indent"/>Ad quintum dicendum, quod sicut patet per Magistrum  
-      <lb ed="#G" n="10"/>dist. 45. voluntas Dei quandoque accipitur proprie, &amp; sic 
-      <lb ed="#G" n="11"/>dicitur voluntas beneplaciti, &amp; haec voluntas est vna
-      tan<lb ed="#G" n="12" break="no"/>tum, sicut est vnus Deus, &amp; de hac voluntate dictum ess 
-      <lb ed="#G" n="13"/>superius, quod contra eam nihil potest fieri, quamuis praeter 
-      <lb ed="#G" n="14"/>eam multa peccata fiant. 
-    </p>
-            <p xml:id="HuYgTa-e92168-d1e1420">
-               <lb ed="#G" n="15"/>
-               <pc type="indent"/>Quandoque vero accipitur large, &amp; quasi metaphori 
-      <lb ed="#G" n="16"/>ce, &amp; sic quinque modis accipitur voluntas Dei propte 
-      <lb ed="#G" n="17"/>quod scriptura quandoque loquitur pluraliter de volun 
-      <lb ed="#G" n="18"/>tate Dei, iuxta illud Psal. Magna opera domini exquisita 
-      <lb ed="#G" n="19"/>in omnes voluntates eius; Et sic appellatur voluntas
-      si<lb ed="#G" n="20" break="no"/>gni, iuxta quinque, quae videntur esse signa diuinae volun 
-      <lb ed="#G" n="21"/>tatis, scilicet praeceptio, prohibitio, consilium,
-      permis<lb ed="#G" n="22" break="no"/>sio &amp; operatio, quae alio nomine dicitur ipletio; &amp;
-      il<lb ed="#G" n="23" break="no"/>la ouinque, qui uoluerit, potest comprehendere hoc 
-      <lb ed="#G" n="24"/>versiculo. 
-    </p>
-            <p xml:id="HuYgTa-e92168-d1e1447">
-               <lb ed="#G" n="25"/>
-               <pc type="indent"/>Praecipit &amp; prohibet, permittit, consulit, implet. Pro 
-      <lb ed="#G" n="26"/>praecepto, &amp; consilio accipitur voluntas, cum dicitur Deo 
-      <lb ed="#G" n="27"/>patri, Fiat voluntas tua sicut in coelo, &amp; in terra; Et istis 
-      <lb ed="#G" n="28"/>duobus modis multa fiunt non solum praeter volunta 
-      <lb ed="#G" n="29"/>tem Dei, verumetiam contra voluntatem Dei, &amp;
-      secun<lb ed="#G" n="30" break="no"/>dum istum intellectum ait Augu. in libro de spiritu &amp; lit 
-      <lb ed="#G" n="31"/>tera, Infideles contra Dei voluntatem faciunt, cum eius 
-      <lb ed="#G" n="32"/>euangelio non credant: Sed pro permissione, &amp;
-      ope<lb ed="#G" n="33" break="no"/>ratione accipitur in proposito ab Augusti,. cum ait. Non 
-      <lb ed="#G" n="34"/>fit aliquid, nisi omnipotens Deus ficri velit quia post haec 
-      <lb ed="#G" n="35"/>verba subdit August. immediate, vel sinendo vt fiat, vel ip 
-      <lb ed="#G" n="36"/>se faciendo. vVbi per hoc quod dicit sinendo tangit
-      per<lb ed="#G" n="37" break="no"/>missionem, quae est signum voluntatis diuinae respectu 
-      <lb ed="#G" n="38"/>malorum modo, quo superius dictum est. Per hoc, quod
-      di<lb ed="#G" n="39" break="no"/>cit, vel ipse faciendo, tangit signum voluntatis diuinae 
-      <lb ed="#G" n="40"/>quod est impletio, seu operatio: Et per hoc etiam pate 
-      <lb ed="#G" n="41"/>ad argumentum: quia August. ibi non loquitur praecise 
-      <lb ed="#G" n="42"/>
-               <pc type="indent"/>de voluntate beneplaciti, quae est voluntas proprie dicta 
-      <lb ed="#G" n="43"/>de qua loquitur illa opinio falsa, pro qua induxi
-      praedi<lb ed="#G" n="44" break="no"/>ctas rationes. 
-    </p>
-            <p xml:id="HuYgTa-e92168-d1e1497">
-               <lb ed="#G" n="45"/>
-               <pc type="indent"/>Ad sextum dicendum, quod neutra illarum propositoni 
-      <lb ed="#G" n="46"/>est concedenda necessario: quia potest concedi media, sci 
-      <lb ed="#G" n="47"/>licet haec Deus non uult mala fieri 
-    </p>
-            <p xml:id="HuYgTa-e92168-d1e1508">
-               <lb ed="#G" n="48"/>
-               <pc type="indent"/>Forte dicetur, fieri &amp; non fieri sunt contradictoria, sed 
-      <lb ed="#G" n="49"/>inter contradictoria non est dare medium: 
-    </p>
-            <p xml:id="HuYgTa-e92168-d1e1517">
-               <lb ed="#G" n="50"/>
-               <pc type="indent"/>Respondeo, quod licet malum ficri, &amp; malum non ficri sint 
-      <lb ed="#G" n="51"/>contradictoria, tamen hae duae, Deus vult malum fieri, &amp;  
-      <lb ed="#G" n="52"/>Deus vult malum non fitri, non sunt contradictorie, eo 
-      <lb ed="#G" n="53"/>que hoc verbum vult, quod est praedicatum in vtraque
-      pro<lb ed="#G" n="54" break="no"/>positone, vtrobique accipitur affii matiue. In
-      contradi<lb ed="#G" n="55" break="no"/>ctoriis autem propositonibus praedicatum affirmatum 
-      <lb ed="#G" n="56"/>in vna, debet negari in alia, ideo dando medium inter 
-      <lb ed="#G" n="57"/>praedictas duas propositiones, non datur medium inter 
-      <lb ed="#G" n="58"/>contradictoria. 
-    </p>
-            <p xml:id="HuYgTa-e92168-d1e1541">
-               <lb ed="#G" n="59"/>
-               <pc type="indent"/>Secunda conclusio. Deus vult malum poenae, quia
-      il<lb ed="#G" n="60" break="no"/>lud, quod habet rationem boni, hoc vult Deus. 
-      <lb ed="#G" n="61"/>sed malum poenae est bonum, &amp; habet
-      ratio<lb ed="#G" n="62" break="no"/>nem boni ergo &amp;c. Maior patet: quia 
-      <lb ed="#G" n="63"/>Deus vult onine bonum.
-      Proba<lb ed="#G" n="64" break="no"/>tio minoris: quia correctio 
-      <lb ed="#G" n="65"/>mali habet rationem
-      bo<lb ed="#G" n="66" break="no"/>ni; sed malum 
-      <lb ed="#G" n="67"/>poenae 
-      <lb ed="#G" n="68"/>debitae inflictum est correctio 
-      <lb ed="#G" n="69"/>mali, ergo &amp;c
-    </p>
-            <p xml:id="HuYgTa-e92168-d1e1570">
-      <!--284.xml-->
-               <cb ed="#G" n="b"/>
-               <lb ed="#G" n="70"/>ARTICVLVS IIL 
-      <lb ed="#G" n="71"/>
-               <pc type="indent"/>Vtrum bonum sit mala fieri.
-    </p>
-            <p xml:id="HuYgTa-e92168-d1e1584">
-               <lb ed="#G" n="72"/>VA NTVM ad quartum articulum, vtrum bonum 
-      <lb ed="#G" n="73"/> sit mala fieri, pono duas conclusiones conformi- 
-      <lb ed="#G" n="74"/>ter ad praecedentia dicta in tertio articulo.
-    </p>
-            <p xml:id="HuYgTa-e92168-d1e1593">
-               <lb ed="#G" n="75"/>Prima est, quod malum culpae fieri non est bonum 
-      <lb ed="#G" n="76"/>1 Quia illud, quod non est bonum, illius vsus &amp; gene 
-      <lb ed="#G" n="77"/>ratio non est bona, illa patet: quia cuius vsus est bonus, &amp;  
-      <lb ed="#G" n="78"/>cuius generatio est bona, ipsum quoque est bonum, vt pro 
-      <lb ed="#G" n="79"/>tet <ref xml:id="HuYgTa-e92168-Rd1e1606">4. topicorum</ref>, ergo a destructione consequentis, quod  
-      <lb ed="#G" n="80"/>non est bonum, illius vsus &amp; generatio non est bona: sed  
-      <lb ed="#G" n="81"/>malum culpae non est bonum, vt de se patet: quia ipsum 
-      <lb ed="#G" n="82"/>est priuatio boni, ergo malum fieri, quod est vsus, vel
-      ge<lb ed="#G" n="83" break="no"/>neratio mali non est bonum.
-    </p>
-            <p xml:id="HuYgTa-e92168-d1e1618">
-               <lb ed="#G" n="84"/>3 Preterea, si oppositum in opposito, &amp; propositum in 
-      <lb ed="#G" n="85"/>proposito; sed bonum fieri est bonum, ergo malum fieri 
-      <lb ed="#G" n="86"/>est malum Maiorem ponit philosophus in topicis. Minol 
-      <lb ed="#G" n="87"/>de se patet, Et confirmatur: quia motus specificantur a ter 
-      <lb ed="#G" n="88"/>minis ad quos sunt: sed malum fieri terminatur ad
-      ma<lb ed="#G" n="89" break="no"/>lum, ergo malum fieri est malum 
-    </p>
-            <p xml:id="HuYgTa-e92168-d1e1634">
-               <lb ed="#G" n="90"/>
-               <pc type="indent"/>Sed oppositum istius potest argui sic. 
-      <lb ed="#G" n="91"/>1 Cnius vsus est bonus, ipsum quoque est bonum, ut 
-      <lb ed="#G" n="92"/>patet ex dictis in prima ratione pro conclusione; sed 
-      <lb ed="#G" n="93"/>Deus malefactis bene vtitur, vt patet per August. 11. de 
-      <lb ed="#G" n="94"/>ciuita. Dei
-    </p>
-            <p xml:id="HuYgTa-e92168-d1e1650">
-               <lb ed="#G" n="95"/>2 Praeterea, omne iustum est bonum; sed mala fieri est 
-      <lb ed="#G" n="96"/>iustum. Maior patet: Minor probatur: quia quod iuste a Deo. 
-      <lb ed="#G" n="97"/>ermittitur, hoc est iustum, sed malum culpae fieri iuste a 
-      <lb ed="#G" n="98"/>Deo permittitur, vt patet in Clo, super illud Apoca. Qui. 
-      <lb ed="#G" n="99"/>in sordibus est, sordescat adhuc 
-    </p>
-            <p xml:id="HuYgTa-e92168-d1e1663">
-               <lb ed="#G" n="100"/>
-               <pc type="indent"/>3 Preterea, illud, quod est causa boni maximi; illud es 
-      <lb ed="#G" n="101"/>bonum, sed malum fieri quandoque suit causa boni maxi 
-      <lb ed="#G" n="102"/>mi. Maior patet: quia effectus non est praestantior sua
-      cau<lb ed="#G" n="103" break="no"/>sa. Probatur minor: quia crucifixio Christi fuit causa
-      ma<lb ed="#G" n="104" break="no"/>cimi boni, scilicet liberationis totius generis humani, &amp;  
-      <lb ed="#G" n="105"/>tamen ipsam fieri fuit malum, alias non peccassent ludaei 
-      <lb ed="#G" n="106"/>a quibus processit illud fieri, ergo &amp;c. 
-    </p>
-            <p xml:id="HuYgTa-e92168-d1e1684">
-               <lb ed="#G" n="107"/>
-               <pc type="indent"/>Ad primum dicendum, quod duplex est vsus rei. Vnus 
-      <lb ed="#G" n="108"/>naturalis, ad quem res de sui natura ordinabilis est. Alius 
-      <lb ed="#G" n="109"/>accidentalis, ad quem res ordinatur non ex sui natura, 
-      <lb ed="#G" n="110"/>sed ex voluntate vtentis. De vsu primo modo dicto
-      ma<lb ed="#G" n="111" break="no"/>ior est vera, sed non de vsu secundo modo dicto: sic enim 
-      <lb ed="#G" n="112"/>potest quis bonis male vti: multi enim vtuntur bono
-      vi<lb ed="#G" n="113" break="no"/>no ad malum ebrietatis, &amp; malis bene vti, sicut homo 
-      <lb ed="#G" n="114"/>sanctus persecutione mala vtitur bene, cum ad laudem 
-      <lb ed="#G" n="115"/>Dei ipsam patienter tolerat : Cum igitur minor
-      proce<lb ed="#G" n="116" break="no"/>dat de vsu secundo modo dicto; quia malesacta ex sui 
-      <lb ed="#G" n="117"/>natura non sunt ordinabilia in bonum usum, quamuis 
-      <lb ed="#G" n="118"/>hoc possit fieri ex bona uoluntate vtentis; igitur ratio 
-      <lb ed="#G" n="119"/>non concludit 
-    </p>
-            <p xml:id="HuYgTa-e92168-d1e1717">
-               <lb ed="#G" n="120"/>
-               <pc type="indent"/>Ad secundum dicendum, quod maior non est vera in sua to 
-      <lb ed="#G" n="121"/>tali vniuersalitate inquantum Iy omne distribuit iustum 
-      <lb ed="#G" n="122"/>tam pro iusto per se, quam pro iusto per accidens: quia
-      li<lb ed="#G" n="123" break="no"/>cet illud, quod est per se iustum, sit bonum, hoc tamen non 
-      <lb ed="#G" n="124"/>semper est verum de eo, quod est per accides iustum: hoc 
-      <lb ed="#G" n="125"/>n potest esse malum, sed malum fieri quamuis per accident 
-      <lb ed="#G" n="126"/>possit esse iustum, tamen per se non est iustum, 
-    </p>
-            <p xml:id="HuYgTa-e92168-d1e1737">
-               <lb ed="#G" n="127"/>
-               <pc type="indent"/>Ad tertium dicendum, quod sicut frigus quandoque per 
-      <lb ed="#G" n="128"/>accidens est causa caloris, sic quandoque malum non per 
-      <lb ed="#G" n="129"/>se, sed per accidens est causa boni; quamuis ex hoc non se 
-      <lb ed="#G" n="130"/>quatur, quod malum fieri sit bonum: quia causa per accidens 
-      <lb ed="#G" n="131"/>inquantum huiusmodi nec formaliter, nec virtualiter 
-      <lb ed="#G" n="132"/>continet effectum, seu perfectionem effectus. Ad
-      for<lb ed="#G" n="133" break="no"/>mam igitur argumenti dicendum, quod maior non est ue 
-      <lb ed="#G" n="134"/>ra de com, quod est per accidens causa boni, &amp; cum dicitur 
-      <lb ed="#G" n="135"/>in minorem, quod malum &amp; cetuerum est per accidens
-    </p>
-            <p xml:id="HuYgTa-e92168-d1e1761">
-      <!--285.xml-->
-               <pb ed="#G" n="123-v"/>
-               <cb ed="#G" n="a"/>
-               <lb ed="#G" n="1"/>Ad probationem dicendum, quod licet passio Christi 
-      <lb ed="#G" n="2"/>quantum ad meritum patientis, fuerit causa per se nostre 
-      <lb ed="#G" n="3"/>liberationis: quia vt sic, fuit bona: tamen quantum ad ma 
-      <lb ed="#G" n="4"/>litiam inferentis non fuit causa liberationis nostrae, nisi 
-      <lb ed="#G" n="5"/>valde per acccidens; vt sic enim, fuit mala 
-    </p>
-            <p xml:id="HuYgTa-e92168-d1e1781">
-               <lb ed="#G" n="6"/>
-               <pc type="indent"/>Secunda conclusio est haec, quod malum poenae fieri est 
-      <lb ed="#G" n="7"/>bonum; Quia illud, quo bene leges manutenentur, &amp; pax 
-      <lb ed="#G" n="8"/>niuersi promouetur, hoc est bonum, malum poenae est 
-      <lb ed="#G" n="9"/>huiusmodi, ergo &amp;c. Maior patet de se. vinor habetur io 
-      <lb ed="#G" n="10"/>ethic, quantum ad primam partem, vbi sic dicitur,
-      Legi<lb ed="#G" n="11" break="no"/>bus oportet esse ordinatam nutritionem, &amp; paucis inter 
-      <lb ed="#G" n="12"/>positis sequitur quomodo illa nutritio fiat, Multi enim 
-      <lb ed="#G" n="13"/>necessitati, magis quam sermoni obediunt, &amp; iacturae 
-      <lb ed="#G" n="14"/>quam bono: Patet etiam secunda pars minoris: quia, sicut 
-      <lb ed="#G" n="15"/>eradicata xixania, bonae herbae melius nutriuntur &amp;
-      cre<lb ed="#G" n="16" break="no"/>scunt: sic per malum poenae destructis, vel emendatis ma 
-      <lb ed="#G" n="17"/>lis hominibus, magis inualescit pax &amp; tranquillitas
-      vni<lb ed="#G" n="18" break="no"/>uersi, ergo &amp;c 
-    </p>
-            <p xml:id="HuYgTa-e92168-d1e1814">
-               <lb ed="#G" n="19"/>
-               <pc type="indent"/>Ad argumentum principale dicendum, quod
-      volun<lb ed="#G" n="20" break="no"/>tas diuina simul cum immutabilitate habet summam 
-      <lb ed="#G" n="21"/>ibertatem, &amp; ideo non solum necessariorum effectuum 
-      <lb ed="#G" n="22"/>verumetiam contingentium potest esse causa, vel mediam 
-      <lb ed="#G" n="23"/>tibus causis secundis, vel immediate per se ipsam, sicut
-      si<lb ed="#G" n="24" break="no"/>bi placuerit &amp; videbitur exi edire, ergo argumentum 
-      <lb ed="#G" n="25"/>non concludit.  
-    </p>
-         </div>
-      </body>
-   </text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 1</title>
+        <author ref="#ThomasStrasbourg">Thomas of Strasbourg</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 1</title>
+          <date when="2020-11-26">November 26, 2020</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="G" n="cod-TxxxqU">Genoa 1585</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2020-11-26" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#G" n="121-r"/>
+        <cb ed="#G" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="HuYgTa-e92168"><!-- HuYgTa-l1d45et46q1 -->
+        <head xml:id="HuYgTa-e92168-Hd1e108">Quaestio 1</head>
+        <head xml:id="HuYgTa-e92168-Hd1e111" type="question-title">
+          An diuina voluntas sit causa creaturarum.
+        </head>
+        <p xml:id="HuYgTa-e92168-d1e114">
+          <lb ed="#G" n="101"/>Quaestio I.
+          <lb ed="#G" n="102"/>An diuina voluntas sit causa 
+          <lb ed="#G" n="103"/>creaturarum.
+        </p>
+        <p xml:id="HuYgTa-e92168-d1e123">
+          <lb ed="#G" n="104"/>TRVM, voluntas Dei sit immediata cau 
+          <lb ed="#G" n="105"/>sa creaturarum,
+        </p>
+        <p xml:id="HuYgTa-e92168-d1e130">
+          &amp; videtur quod non.
+          <lb ed="#G" n="106"/>Quia illud, quod est omnino
+          immuta<lb ed="#G" n="107" break="no"/>bile, non potest esse immediata causa
+          ef<lb ed="#G" n="108" break="no"/>fectus mutabilis, sed voluntas diuina est 
+          <lb ed="#G" n="109"/>omnino immutabilis, &amp; omnis creatura 
+          <lb ed="#G" n="110"/>est mutabilis; ergo &amp;c 
+        </p>
+        <p xml:id="HuYgTa-e92168-d1e144">
+          <lb ed="#G" n="111"/>
+          <pc type="indent"/>Contra voluntas artificis est immediata causa eorum, 
+          <lb ed="#G" n="112"/>quae ab eo procedunt per modum artis; sed omnec creaturae 
+          <lb ed="#G" n="113"/>procedunt a Deo per modum artis. Maior patet 8.
+          metaph<lb ed="#G" n="114" break="no"/>vbi dicitur, quod principium artificiatorum est voluntas 
+          <lb ed="#G" n="115"/>Minor etiam patet, quia verbo diuino omnia sunt
+          pro<lb ed="#G" n="116" break="no"/>lucta; De ipso enim dicitur, Omuia per ipsum facta sunt, 
+          <lb ed="#G" n="117"/>&amp; sinc ipso factum est nihil: Sed verbum diuinum est ars 
+          <lb ed="#G" n="118"/>diuina, luxta quod Augu. e. de trini ait de verbo diuino.  
+          <lb ed="#G" n="119"/>quod est ars omnipotentis atque sapientis Dei plena
+          ra<lb ed="#G" n="120" break="no"/>tionum omnium viuentium: Patet etiam illa minor 
+          <lb ed="#G" n="121"/>Cap. 7. vbi dicitur de Deo, quod est omnium artifex &amp;c 
+          <lb ed="#G" n="122"/>Hic quattuor sunt videnda Primo, vtrum in diuinis sit 
+          <lb ed="#G" n="123"/>voluntas. Secundo de eo, quod quaeritur. Et hoc
+          quan<lb ed="#G" n="124" break="no"/>tum ad distin. 45. Tertio, vtrum Deus velit mala
+          ficri<lb ed="#G" n="125" break="no"/>Et quarto vtrum bonum sit mala fieri. Et hoc quantum 
+          <lb ed="#G" n="126"/>ad dist. 4 
+        </p>
+        <p xml:id="HuYgTa-e92168-d1e183">
+          <!--281.xml-->
+          <pb ed="#G" n="121-v"/>
+          <cb ed="#G" n="a"/>
+          <lb ed="#G" n="1"/>RESOLVTI O. 
+          <lb ed="#G" n="2"/>Voluntas in diuinis non lolum virtualiter, verumetiam
+          formali<lb ed="#G" n="3" break="no"/>ter ponenda ert: cum si causa cuiuscimque creaturae immedit 
+          <lb ed="#G" n="4"/>ta, facile colligitur, malum culpae ab ipsa non procedere, licet mo 
+          <lb ed="#G" n="5"/>lum peenae a diuina voluntate iuste infligatur. 
+        </p>
+        <p xml:id="HuYgTa-e92168-d1e203">
+          <lb ed="#G" n="6"/>
+          <pc type="indent"/>ARTICVLVSI 
+          <lb ed="#G" n="7"/>Vtrum in duinis sit voluntas 
+        </p>
+        <p xml:id="HuYgTa-e92168-d1e212">
+          <lb ed="#G" n="8"/>VANTVM ad primum articulum, utrum in diuinis 
+          <lb ed="#G" n="9"/> sit voluntas, dico, quoed. voluntas non solum
+          virtuali<lb ed="#G" n="10" break="no"/>ter, verumetiam formaliter ponenda est in Deo. 
+        </p>
+        <p xml:id="HuYgTa-e92168-d1e221">
+          <lb ed="#G" n="11"/>
+          <pc type="indent"/>Quia illud, quod dicit perfectionem simpliciter, fo 
+          <lb ed="#G" n="12"/>maliter est in Deo, vt testantur omnes sancti doctores, sed 
+          <lb ed="#G" n="13"/>voluntas dicit perfectionem simpliciter: quia cum sit
+          po<lb ed="#G" n="14" break="no"/>tentia essentialiter libera, in quocunque reperitur, melius 
+          <lb ed="#G" n="15"/>est ipsum, quam non ipsum, siue ipsum perfectius
+          inueni<lb ed="#G" n="16" break="no"/>tur, haeciest enim conditio perfectionis secundum Ansel 
+          <lb ed="#G" n="17"/>2 Praeterea, sicut cognitionem sensitiuam sequitur al 
+          <lb ed="#G" n="18"/>petitus sensitiuus, sic cognitionem intellectiuam sequi 
+          <lb ed="#G" n="19"/>tur appetitus intellectiuus, siue voluntas, sed Deus habet 
+          <lb ed="#G" n="20"/>cognitionem intellectiuam, ergo &amp;c.
+        </p>
+        <p xml:id="HuYgTa-e92168-d1e247">
+          <lb ed="#G" n="21"/>3 Praeterea, vbicunque reperitur delectatio cum
+          liber<lb ed="#G" n="22" break="no"/>tate, ibi vere reperitur voluntas: Quamuis enim bestiae 
+          <lb ed="#G" n="23"/>delectentur, quia tamen magis ducuntur suis
+          delectatio<lb ed="#G" n="24" break="no"/>nibus, quam eas ducant, &amp; magis aguntur, quam agant 
+          <lb ed="#G" n="25"/>ideo carentes libertate non sunt domini sui actus, nec
+          pe<lb ed="#G" n="26" break="no"/>consequens habent uoluntatem: sed Deo conuenit sum 
+          <lb ed="#G" n="27"/>me delectari cum libertate,; cum enim delectari magis con 
+          <lb ed="#G" n="28"/>sistat in immobilitate, quam in motu, vt dicitur 7. ethico 
+          <lb ed="#G" n="29"/>rum. Deus, qui immobilis est per se, &amp; per accidens, &amp; ab 
+          <lb ed="#G" n="30"/>intra, vt patet <ref xml:id="HuYgTa-e92168-Rd1e270">8. physicorum</ref> &amp; <ref xml:id="HuYgTa-e92168-Rd1e274">12. metaph</ref> maximas
+          ha<lb ed="#G" n="31" break="no"/>bet delectationes Propter quod dicitur <ref xml:id="HuYgTa-e92168-Rd1e279">7. ethicorum</ref>, Deus 
+          <lb ed="#G" n="32"/>semper vna delectatione gaudet. Et <ref xml:id="HuYgTa-e92168-Rd1e284">12. metaph.</ref> dicitur 
+          <lb ed="#G" n="33"/>quod intelligere diuinum est valde voluptuosum: &amp; ideo 
+          <lb ed="#G" n="34"/>Deus persectissime habet voluntatem, secundum <ref xml:id="HuYgTa-e92168-Rd1e292">Dama 
+            <lb ed="#G" n="35"/>lib. 3.</ref> Angelis autem &amp; hominibus conuenit voluntas, si 
+          <lb ed="#G" n="36"/>cundum quod sunt imago diuinae naturae, quae est volu 
+          <lb ed="#G" n="37"/>ptuosissima &amp; arbitrio libera
+        </p>
+        <p xml:id="HuYgTa-e92168-d1e303">
+          <lb ed="#G" n="38"/>4 Praeterea, illud, quod est de integritate &amp;
+          perfectio<lb ed="#G" n="39" break="no"/>ne intellectualis naturae, vere reperitur in Deo; voluntas 
+          <lb ed="#G" n="40"/>est huiusmodi. Maior patet: quia natura diuina est
+          perfe<lb ed="#G" n="41" break="no"/>ctissime intellectualis. Minorem probo: quia non minus 
+          <lb ed="#G" n="42"/>voluntas, quae est appetitus intellectiuus est de integrita 
+          <lb ed="#G" n="43"/>te intellectualis naturae, quam appetitus naturalis sit de 
+          <lb ed="#G" n="44"/>integritate naturae cognitione carentis, uel appetitus sen 
+          <lb ed="#G" n="45"/>sitiuus de integritate naturae sensitiuae, sed non esset
+          per<lb ed="#G" n="46" break="no"/>fecte graue, quod naturaliter non appeteret esse deorsum 
+          <lb ed="#G" n="47"/>nec esset perfecte sensitiuum, quod nihil ap pateret secun 
+          <lb ed="#G" n="48"/>dum sensum: ergo non esset natura perfecte
+          intellectua<lb ed="#G" n="49" break="no"/>lis, quae carcret voluntate, qua appetitur aliquid secundum 
+          <lb ed="#G" n="50"/>notitiam intellectiuam 
+        </p>
+        <p xml:id="HuYgTa-e92168-d1e334">
+          <lb ed="#G" n="51"/>
+          <pc type="indent"/>Sed forte dicetur, quod de ratione voluntatis est, quod 
+          <lb ed="#G" n="52"/>moueat mota, vt patet <ref xml:id="HuYgTa-e92168-Rd1e342">3. de anima</ref>: ipsa enim prius moue 
+          <lb ed="#G" n="53"/>tur a bono appetibili, quam aliquid moueatur ab ea; sed  
+          <lb ed="#G" n="54"/>Deus omnia mouet, &amp; a nullo mouetur, luxta illud boe 
+          <lb ed="#G" n="55"/>thij, Immotus in te manens das cuncta moueri 
+        </p>
+        <p xml:id="HuYgTa-e92168-d1e353">
+          <lb ed="#G" n="56"/>
+          <pc type="indent"/>Respondeo, quod illa maior non est vera, nisi de tal 
+          <lb ed="#G" n="57"/>voluntate, quae mouet propter aliquem finem
+          di<lb ed="#G" n="58" break="no"/>stinctum a se, sine extrinsecum: sic autem 
+          <lb ed="#G" n="59"/>
+          <pc type="indent"/>non est de Deo, ipse omnia
+          mo<lb ed="#G" n="60" break="no"/>
+          <pc type="indent"/>uet non propter
+          ali<lb ed="#G" n="61" break="no"/>
+          <pc type="indent"/>quid
+          ac<lb ed="#G" n="62" break="no"/>quirendum tali motu, sed propter sui
+          pro<lb ed="#G" n="63" break="no"/>
+          <pc type="indent"/>priam bonitatem: ergo instantia 
+          <lb ed="#G" n="64"/>
+          <pc type="indent"/>non ualet.
+        </p>
+        <p xml:id="HuYgTa-e92168-d1e388">
+          <!--281.xml-->
+          <cb ed="#G" n="b"/>
+          <lb ed="#G" n="65"/>ARTICVLVS IR 
+          <lb ed="#G" n="66"/>Vtrum voluintas Dei sit immediata cdusa 
+          <lb ed="#G" n="67"/>
+          <pc type="indent"/>creatir arum.
+        </p>
+        <p xml:id="HuYgTa-e92168-d1e404">
+          <lb ed="#G" n="68"/>VANTVM ad secundum articulum, utrum
+          uolun<lb ed="#G" n="69" break="no"/>tas Dei sit immediata causa creaturarum, Ponc 
+          <lb ed="#G" n="70"/>duas conclusiones. 
+        </p>
+        <p xml:id="HuYgTa-e92168-d1e413">
+          <lb ed="#G" n="71"/>
+          <pc type="indent"/>Prima est, quod uoluntas Dei est causa omnis
+          creatu<lb ed="#G" n="72" break="no"/>re. Quia quicquid procedit ab aliquo agente libere, illius 
+          <lb ed="#G" n="73"/>causa est uoluntas producentis, sed omnis creatura pro 
+          <lb ed="#G" n="74"/>ducitur a Deo libere, ergo &amp; cetera. Maior patet: qui 
+          <lb ed="#G" n="75"/>libertas est principalis proprietas voluntatis, ergo quod 
+          <lb ed="#G" n="76"/>conuenit alicui omnino libere, hoc ratione uoluntatis vi 
+          <lb ed="#G" n="77"/>detur sibi conuenire, Minor patebit infra. Et haec est inten 
+          <lb ed="#G" n="78"/>tio Beati Aug. ad Orosium, vbi ait, quod omnis creaturae 
+          <lb ed="#G" n="79"/>causa est voluntas Dei. Patet etiam illa conclusio hic in 
+          <lb ed="#G" n="80"/>ittera multis auctoritatibus
+        </p>
+        <p xml:id="HuYgTa-e92168-d1e440">
+          <lb ed="#G" n="81"/>1 Forte dicetur, quod illa ratio non concludit: quia 
+          <lb ed="#G" n="82"/>causa contingens, &amp; libera non potest esse causa efficien 
+          <lb ed="#G" n="83"/>necessarij: sed, vt dicit illa ratio, Deus produeit illas
+          crea<lb ed="#G" n="84" break="no"/>turas libere, &amp; per consequens contingenter; &amp; multos 
+          <lb ed="#G" n="85"/>effectus necessarios videmus in creaturis, ergo si Deus est 
+          <lb ed="#G" n="86"/>causa libera, sequitur quod non sit causa omnis creaturae: 
+          <lb ed="#G" n="87"/>ac etiam voluntas diuina, cuius, vt dictum est,
+          proprie<lb ed="#G" n="88" break="no"/>tas est ipsa libertas, non erit causa omnis creaturae, &amp; 
+          <lb ed="#G" n="89"/>sic ex vi praedictae rationis sequitur oppositum intentae 
+          <lb ed="#G" n="90"/>conclusionis 
+        </p>
+        <p xml:id="HuYgTa-e92168-d1e464">
+          <lb ed="#G" n="91"/>
+          <pc type="indent"/>2 Praeterea, si voluntas diuina est causa omnium
+          crea<lb ed="#G" n="92" break="no"/>turarum, tunc vel est causa sufficiens, uel insufficiens. Non 
+          <lb ed="#G" n="93"/>sufficiens: quia posita causa sufficiente semper ponitur ef 
+          <lb ed="#G" n="94"/>fectus, &amp; sic ab aeterno fuissent creaturae: sicut ab aeterno 
+          <lb ed="#G" n="95"/>fuit voluntas diuina. Item posita causa sufficiente, frustra 
+          <lb ed="#G" n="96"/>poneretur alia causa, ergo si voluntas Dei esset sufficiens 
+          <lb ed="#G" n="97"/>causa omnium creaturarum, tunc omnes aliae causae
+          fru<lb ed="#G" n="98" break="no"/>stra ponerentur: quia penitus essent superfluae. Nec potest 
+          <lb ed="#G" n="99"/>oni secundum: quia nulla insufficientia potest esse in uo 
+          <lb ed="#G" n="100"/>untate diuina, ergo &amp;c 
+        </p>
+        <p xml:id="HuYgTa-e92168-d1e490">
+          <lb ed="#G" n="101"/>
+          <pc type="indent"/>Ad primum dicendum, quod licet aliqui effectus in crea 
+          <lb ed="#G" n="102"/>turis sint necessarii per comparationem ad causas
+          secun<lb ed="#G" n="103" break="no"/>das, quae huiusmodi effectus non possunt impedire, tamen 
+          <lb ed="#G" n="104"/>nullus effectus est adeo necessarius, quin per comparatio 
+          <lb ed="#G" n="105"/>nem ad diuinam voluntatem sit contingens, &amp; possibilis 
+          <lb ed="#G" n="106"/>iliter se habere, quod bene patuit tempore losuae, quande 
+          <lb ed="#G" n="107"/>voluntate diuina sol stetit in medio celi, &amp; non
+          moueba<lb ed="#G" n="108" break="no"/>tur per spacium vnius diei. Patuit etia tempore Exechiae 
+          <lb ed="#G" n="109"/>quando sol retrocessit decem gradibus, &amp; in multis alii 
+          <lb ed="#G" n="110"/>exemplis sacrae scripturae, quae longum nimis esset enarra 
+          <lb ed="#G" n="111"/>re. Ex quo patet, quod non obstante, quod Deus sua uolum 
+          <lb ed="#G" n="112"/>tate libere, &amp; contingenter producat omne, quod
+          produ<lb ed="#G" n="113" break="no"/>cit ad extra; tamen sua libera voluntas est causa omnis crea 
+          <lb ed="#G" n="114"/>turae: quia omnis creatura est contingens per comparatio 
+          <lb ed="#G" n="115"/>nem ad diuinam voluntatem. 
+        </p>
+        <p xml:id="HuYgTa-e92168-d1e527">
+          <lb ed="#G" n="116"/>
+          <pc type="indent"/>Ad secundum dicendum, quod voluntas diuina est causa suf 
+          <lb ed="#G" n="117"/>ficiens. Ad probationem primam in contrarium dicendum, quod 
+          <lb ed="#G" n="118"/>uando causa, quae causat ex necessitate naturae, est
+          suffi<lb ed="#G" n="119" break="no"/>ciens, tunc posita causa immediate ponitur effectus: Sed  
+          <lb ed="#G" n="120"/>quando causa est libera &amp; voluntaria, tunc quamuis
+          hu<lb ed="#G" n="121" break="no"/>usmodi causa sit sufficiens, tamen non est necesse, vt
+          effe<lb ed="#G" n="122" break="no"/>ctus semper sit, quando est huiusmodi causa, sed sufficit quod 
+          <lb ed="#G" n="123"/>ipse effectus sit pro illa mensura, pro qua huiusmodi
+          cau<lb ed="#G" n="124" break="no"/>sa vult talem effectum esse: sed voluntas diuina ab
+          aeter<lb ed="#G" n="125" break="no"/>no uoluit creaturam esse in tempore, ergo &amp;c 
+        </p>
+        <p xml:id="HuYgTa-e92168-d1e553">
+          <lb ed="#G" n="126"/>
+          <pc type="indent"/>Forte dices, quod voluntas diuina vel noluit ab aeterno 
+          <lb ed="#G" n="127"/>creaturam esse, uel non uoluit creaturam ab aeterno esse 
+          <lb ed="#G" n="128"/>illa patet per extrema contradictionis. Si datur primum; 
+          <lb ed="#G" n="129"/>tunc secundum illam solutionem uidetur esse concessum, 
+          <lb ed="#G" n="130"/>quod creatura fuerit ab aeterno. Si secundum, tunc seque 
+          <lb ed="#G" n="131"/>retur, quod Deus aliquid vellet in tempore, quod non vo 
+          <lb ed="#G" n="132"/>luit ab aeterno, cuius oppositum ostendetur in quaestione 
+          <lb ed="#G" n="133"/>proxima sequenti.
+        </p>
+        <p xml:id="HuYgTa-e92168-d1e575">
+          <!--282.xml-->
+          <pb ed="#G" n="122-r"/>
+          <cb ed="#G" n="a"/>
+          <lb ed="#G" n="1"/>Respondeo, quod Deus ab aeterno voluit ereaturam esse, 
+          <lb ed="#G" n="2"/>non tamen pro aeterno, sed pro tempore determinato: &amp; 
+          <lb ed="#G" n="3"/>ideo ex ui diuinae voluntatis, seu diuinae volitionis non  
+          <lb ed="#G" n="4"/>oportuit creaturam esse ab aeterno, sed solum in
+          tempo<lb ed="#G" n="5" break="no"/>re. llla tamen magis apparebunt infra circa principium si 
+          <lb ed="#G" n="6"/>cundi libri. Ad secundam probationem dicendum, quoc 
+          <lb ed="#G" n="7"/>aliae causae non superfluunt: quia in earum actione diuina 
+          <lb ed="#G" n="8"/>bonitas declaratur, quam Deus uoluit libere causis secun 
+          <lb ed="#G" n="9"/>dis communicare, quamuis ipse solus omnia posset, si 
+          <lb ed="#G" n="10"/>vellet, producere, &amp; gubernare.
+        </p>
+        <p xml:id="HuYgTa-e92168-d1e607">
+          <lb ed="#G" n="11"/>Secunda conclusio est. Voluntas diuina est causa immu 
+          <lb ed="#G" n="12"/>diata omnis creaturae, quia causa producens totum effe 
+          <lb ed="#G" n="13"/>ctum est huiusmodi effectus causa immediata; sed
+          volun<lb ed="#G" n="14" break="no"/>tas diuina producit totum effectum in pro ductione cuius 
+          <lb ed="#G" n="15"/>cunque creaturae. Maior patet: quia effectus a nullo
+          im<lb ed="#G" n="16" break="no"/>mediatius attingitur, quam ab eo, a quo totus
+          produci<lb ed="#G" n="17" break="no"/>tur Minor etiam patet: quia quamuis causae secundae in 
+          <lb ed="#G" n="18"/>aliquibus effectibus cooperentur Deo, siuc uoluntati
+          di<lb ed="#G" n="19" break="no"/>inae: tamen illud idem, quod ab eis producitur, inti 
+          <lb ed="#G" n="20"/>mius ab ipso Deo attingitur, &amp; perfectius a Deo
+          produci<lb ed="#G" n="21" break="no"/>tur, quam ab ipsis secundis causis. Attingit enim a fine vs 
+          <lb ed="#G" n="22"/>que ad finem fortiter, &amp; disponit omnia suauiter, vt di 
+          <lb ed="#G" n="23"/>citur <ref xml:id="HuYgTa-e92168-Rd1e637">Sap. 8. </ref>
+        </p>
+        <p xml:id="HuYgTa-e92168-d1e641">
+          <lb ed="#G" n="24"/>
+          <pc type="indent"/>Sed contra illam conclusionem videntur esse duae sol 
+          <lb ed="#G" n="25"/>lemnes opiniones, Quarum vna ponit, quod Deus licet  
+          <lb ed="#G" n="26"/>sit causa rerum per intellectum, &amp; voluntatem: tamen im 
+          <lb ed="#G" n="27"/>mediatius intelligitur esse causa por intellectum, quam 
+          <lb ed="#G" n="28"/>per voluntatem, quod probat sic.
+        </p>
+        <p xml:id="HuYgTa-e92168-d1e657">
+          <lb ed="#G" n="29"/>Exemplar factiuum immediatius attingit effectum 
+          <lb ed="#G" n="30"/>quam causa, quae applicat ipsum ad effectum: sed idea 
+          <lb ed="#G" n="31"/>quae se tenet ex parte intellectus diuini, est exempla 
+          <lb ed="#G" n="32"/>factiuum, &amp; voluntas diuina huiusmodi exemplar
+          ap<lb ed="#G" n="33" break="no"/>plicat ad effectum, ergo &amp; cet. Maior patet: quia licet 
+          <lb ed="#G" n="34"/>imago existens in pariete, ad cuius similitudinem pictos 
+          <lb ed="#G" n="35"/>aliam depingit imaginem, non se habeat immediatius 
+          <lb ed="#G" n="36"/>ad effectum depictum, quasi manus pictoris; tamen sigil 
+          <lb ed="#G" n="37"/>lum cerae impressum immediatius se habet ad
+          effe<lb ed="#G" n="38" break="no"/>ctum in cera causatum, quam manus, quae imprimit ip 
+          <lb ed="#G" n="39"/>sum, cuius tota ratio est: quia imago parietis non erat 
+          <lb ed="#G" n="40"/>exemplar factiuum respectu imaginis pictae, sicut
+          ima<lb ed="#G" n="41" break="no"/>go sculpta in sigillo est exemplar factiuum respectu
+          ima<lb ed="#G" n="42" break="no"/>ginis impressae ipsi cerae. Minor patet secundum om- 
+          <lb ed="#G" n="43"/>nes doctores.
+        </p>
+        <p xml:id="HuYgTa-e92168-d1e692">
+          <lb ed="#G" n="44"/>2 Praeterea, res opposito modo comparantur ad
+          in<lb ed="#G" n="45" break="no"/>tellectum nostrum &amp; ad intellectum diuinum: quia scien 
+          <lb ed="#G" n="46"/>tia intellectus nostri causatur a rebus, sed scientia
+          in<lb ed="#G" n="47" break="no"/>tellectus diuini est causa rerum, ut ait Commentato 
+          <lb ed="#G" n="48"/>12. metaphysice: Sed in nobis primo fit motus a rebus 
+          <lb ed="#G" n="49"/>ad intellectum, &amp; mediante int ellectu ad voluntatem 
+          <lb ed="#G" n="50"/>ergo cconuerso secundum nostrum modum intelligend 
+          <lb ed="#G" n="51"/>in diuinis modus causandi res, est quasi quidam motus: 
+          <lb ed="#G" n="52"/>voluntate ad intellectum, deinde ab intellectu ad exte 
+          <lb ed="#G" n="53"/>riores existentias rerum.
+        </p>
+        <p xml:id="HuYgTa-e92168-d1e716">
+          <lb ed="#G" n="54"/>3 Praeterea, illud, quo productum assimilatur producen 
+          <lb ed="#G" n="55"/>ti, illo producens immediatius se habet ad effectum, &amp; im 
+          <lb ed="#G" n="56"/>mediatius producit: quia vnumquodque producit sibi simi 
+          <lb ed="#G" n="57"/>le, inquantum potest: sed creaturae potissime assimilantur 
+          <lb ed="#G" n="58"/>Deo quantum ad rationes ideales, quae pertinent ad
+          in<lb ed="#G" n="59" break="no"/>tellectum diuinum, &amp; non ad voluntatem, ergo &amp;c 
+        </p>
+        <p xml:id="HuYgTa-e92168-d1e732">
+          <lb ed="#G" n="60"/>
+          <pc type="indent"/>Sed istis non obstantibus, teneo conclusionem primam 
+          <lb ed="#G" n="61"/>Et antequam istis motiuis respondeam, possum contra 
+          <lb ed="#G" n="62"/>hanc opinionem arguere sic. 
+        </p>
+        <p xml:id="HuYgTa-e92168-d1e744">
+          <lb ed="#G" n="63"/>
+          <pc type="indent"/>1 Illud, cuius actus sic se habet, quod, ipso posito, om 
+          <lb ed="#G" n="64"/>nino sequitur rerum productio, hoc immediatius se
+          ha<lb ed="#G" n="65" break="no"/>bet ad rerum productionem, quam illud, cuius actu
+          posi<lb ed="#G" n="66" break="no"/>to, potest non sequi rerum productio: sed posito actu
+          uo<lb ed="#G" n="67" break="no"/>luntatis diuinae, puta quod Deus velit creaturam
+          produm<lb ed="#G" n="68" break="no"/>cere, tunc necessario sequitur productio creaturae, &amp;
+          posi<lb ed="#G" n="69" break="no"/>to actu intellectus, non sequetur necessario rerum produm 
+          <lb ed="#G" n="70"/>ctio: Nam Deus multa scit producere, quae numquam pro 
+          <lb ed="#G" n="71"/>ducentur; tamen omnia, quae Deus vult producere, omni 
+          <lb ed="#G" n="72"/>no producentur, ergo &amp;c.
+        </p>
+        <p xml:id="HuYgTa-e92168-d1e770">
+          <!--282.xml-->
+          <cb ed="#G" n="b"/>
+          <lb ed="#G" n="73"/>2 Preterea, in ordinate se habentibus per modum me 
+          <lb ed="#G" n="74"/>dij, &amp; extremorum plus distat extremu ab extremo, quam 
+          <lb ed="#G" n="75"/>extremum a medio: Sed in agente libere, &amp; a proposito 
+          <lb ed="#G" n="76"/>velle est medium inter scire, &amp; operari; Et Deus in
+          pro<lb ed="#G" n="77" break="no"/>ductione creaturae agit libere, &amp; a proposito, ergo uelli 
+          <lb ed="#G" n="78"/>suum immediatius se habet ad productionem creaturae, 
+          <lb ed="#G" n="79"/>quam suum scire. Maior patet. Probo minorem, patet. eni 
+          <lb ed="#G" n="80"/>quod operari est vltimum, &amp; per consequens unum extro 
+          <lb ed="#G" n="81"/>morum: in agente enim a proposito operari
+          praesuppo<lb ed="#G" n="82" break="no"/>nit velle &amp; scire, quocunque enim illorum deficiente, 
+          <lb ed="#G" n="83"/>illud non esset perfecte agens a proposito, sed velle prae 
+          <lb ed="#G" n="84"/>supponit scire: quia bonum cognitum est obiectum
+          volum<lb ed="#G" n="85" break="no"/>tatis: ergo patet, quod velle mediat inter scire &amp; operari, 
+          <lb ed="#G" n="86"/>&amp; per consequens habetur intentum
+        </p>
+        <p xml:id="HuYgTa-e92168-d1e807">
+          <lb ed="#G" n="87"/>3 Praeterea, qualem ordinem realem habent aliqua 
+          <lb ed="#G" n="88"/>in his, in quibus differunt realiter, talem ordinem ratio. 
+          <lb ed="#G" n="89"/>nis habent in his, vbi differunt secundum rationem:
+          se<lb ed="#G" n="90" break="no"/>in nobis actus uoluntatis realiter differens ab actu
+          intel<lb ed="#G" n="91" break="no"/>lectus immediatius se habet ad operationem artis, quam  
+          <lb ed="#G" n="92"/>actus intellectus, vt patet per <ref xml:id="HuYgTa-e92168-Rd1e822">Aristo. 9. metaphy.</ref> &amp; <ref xml:id="HuYgTa-e92168-Rd1e825">3. di 
+            <lb ed="#G" n="93"/>anima.</ref> Etiam <ref xml:id="HuYgTa-e92168-Rd1e830">
+              <name xml:id="HuYgTa-e92168-Nd1e832">Algaxel</name> in metaphysica sua tractatu 4.</ref> ex- 
+          <lb ed="#G" n="94"/>presse dicit, quod voluntas immediatius mouet, quam in 
+          <lb ed="#G" n="95"/>tellectus: ergo in diuinis, vbi uoluntas &amp; intellectus,
+          so<lb ed="#G" n="96" break="no"/>lum differunt ratione, voluntas immediatius se habet 
+          <lb ed="#G" n="97"/>ad opus productionis ad extra, quam intellectus saltem  
+          <lb ed="#G" n="98"/>secundum rationem
+        </p>
+        <p xml:id="HuYgTa-e92168-d1e848">
+          <lb ed="#G" n="99"/>Ade primam illarum rationum dicendum, quod 
+          <lb ed="#G" n="100"/>maior non est uera: quia praesupponit falsum, scilicet 
+          <lb ed="#G" n="101"/>quod aliquod exemplar sit factiuum: Nullum enim
+          e<lb ed="#G" n="102" break="no"/>xemplar retinens rationem exemplaris est factiuum 
+          <lb ed="#G" n="103"/>exemplar enim est, ad quod respiciens artifex producit 
+          <lb ed="#G" n="104"/>simile sibi.
+        </p>
+        <p xml:id="HuYgTa-e92168-d1e864">
+          <lb ed="#G" n="105"/>Ad probationem dicendum, quod, cum imprimitur 
+          <lb ed="#G" n="106"/>sigillum in cera, tunc figura sigilli non se habet ut exem, 
+          <lb ed="#G" n="107"/>plar, sed potius se habet, vt instrumentum imprimentis; 
+          <lb ed="#G" n="108"/>sicut enim mediante actie ipsius securis artifex
+          diui<lb ed="#G" n="109" break="no"/>dendo partes continui inducit aliquam formam, cuius 
+          <lb ed="#G" n="110"/>formae exemplar non est securis, quamuis sit
+          instrumen<lb ed="#G" n="111" break="no"/>tum artificis: sic cum diuiditur cera per impressionem
+          si<lb ed="#G" n="112" break="no"/>gilli, sigillum non debet dici exemplar figurae in cera, 
+          <lb ed="#G" n="113"/>quamuis legitime possit dici instrumentum ipsius
+          impri<lb ed="#G" n="114" break="no"/>mentis: Si enim esset exemplar, tunc oporteret, quod
+          si<lb ed="#G" n="115" break="no"/>gillator faciendo figuram in cera respiceret figuram in
+          si<lb ed="#G" n="116" break="no"/>gillo, &amp; ad instar, seu similitudinem sigilli cum aliquo 
+          <lb ed="#G" n="117"/>instrumento sculperet ipsam ceram, &amp; tunc de plano
+          pa<lb ed="#G" n="118" break="no"/>teret, quod sigillum non esset factiuum, nec immediatius 
+          <lb ed="#G" n="119"/>attingeret ceram, quam manus ipsus sculpentis: Cum 
+          <lb ed="#G" n="120"/>autem imprimitur, tunc concedo, quod sigillum sit
+          facti<lb ed="#G" n="121" break="no"/>uum non tamen est exemplar, sed est instrumentum. Si 
+          <lb ed="#G" n="122"/>enim caecus imprimeret sigillum, nihil minus cera figu 
+          <lb ed="#G" n="123"/>raretur, &amp; tamen patet, quod caecus in tali impressione 
+          <lb ed="#G" n="124"/>non uteretur sigillo taquam forma exemplari: quia non  
+          <lb ed="#G" n="125"/>posset sigillum inspicere. Etiam minor non est uera 
+          <lb ed="#G" n="126"/>quia idea in mente diuina non est proprie loquendo facti 
+          <lb ed="#G" n="127"/>ua; sed est illud, quod Deus aspiciens ad eius
+          similitu<lb ed="#G" n="128" break="no"/>dinem libera voluntate producit ad extra illud, quod 
+          <lb ed="#G" n="129"/>creat. 
+        </p>
+        <p xml:id="HuYgTa-e92168-d1e921">
+          <lb ed="#G" n="130"/>
+          <pc type="indent"/>Ad secundam dicendum, quod quamuis res opposito 
+          <lb ed="#G" n="131"/>modo se habeant ad Deum, &amp; ad nos quantum ad ipsum 
+          <lb ed="#G" n="132"/>scire, eo quod scientia Dei causet res; nostra autem
+          cau<lb ed="#G" n="133" break="no"/>setur a rebus; tamen, supposito ipso scire, tunc aliquo mo 
+          <lb ed="#G" n="134"/>do similiter se habet Deus ad producendum res creatas,  
+          <lb ed="#G" n="135"/>&amp; nos ad producendum res artificiatas: quia vtrobique 
+          <lb ed="#G" n="136"/>voluntas est huiusmodi productorum principium
+          imme<lb ed="#G" n="137" break="no"/>diatum, siue immediatius, quam ipse intellectus. Etiam 
+          <lb ed="#G" n="138"/>minor deficit: quia cum bonum cognitum sit obiectum 
+          <lb ed="#G" n="139"/>voluntatis, ergo actus uoluntatis praesupponit actum
+          in<lb ed="#G" n="140" break="no"/>tellectus saltem secundum nostrum modum
+          cognoscen<lb ed="#G" n="141" break="no"/>di, &amp; per consequens talis motus, quem isti fingunt in
+          di<lb ed="#G" n="142" break="no"/>uinis, non potest sic incipere ex parte uoluntatis, quod  
+          <lb ed="#G" n="143"/>excludat uoluntatis immediationem quantum ad rerum 
+          <lb ed="#G" n="144"/>productionem.
+        </p>
+        <p xml:id="HuYgTa-e92168-d1e959">
+          <!--283.xml-->
+          <pb ed="#G" n="122-v"/>
+          <cb ed="#G" n="a"/>
+          <lb ed="#G" n="1"/>Ad tertiam dicendum, quod maior deficit tam in
+          natu<lb ed="#G" n="2" break="no"/>ralibus, quam in artificialibus; In naturalibus quidem 
+          <lb ed="#G" n="3"/>quia filius magis assimilatur patri, quam semini, quamuis 
+          <lb ed="#G" n="4"/>lemen immediatius se habeat ad generationem, quam  
+          <lb ed="#G" n="5"/>ipse pater. D ficit etiam in artificialibus, quia in
+          artificia<lb ed="#G" n="6" break="no"/>libus, artifex assimilat productum ipsi exemplari, &amp; ta 
+          <lb ed="#G" n="7"/>men exemplar non contingit immediate ipsum effectun 
+          <lb ed="#G" n="8"/>productum per se loquendo, nisi hoc fieret per accidens 
+          <lb ed="#G" n="9"/>vt patet ex praedictis. 
+        </p>
+        <p xml:id="HuYgTa-e92168-d1e988">
+          <lb ed="#G" n="10"/>
+          <pc type="indent"/>Secundo contra praedictam conclusionem est alia
+          sol<lb ed="#G" n="11" break="no"/>lemnis opinio, quae ponit in diuinis praeter intellectum 
+          <lb ed="#G" n="12"/>&amp; uoluntatem potentiam executiuam, qua Deus imme 
+          <lb ed="#G" n="13"/>diate producit omne illud, quod ab extra producit. Sec 
+          <lb ed="#G" n="14"/>ne ad praesens nimis prolixe teneam, ideo recitationem 
+          <lb ed="#G" n="15"/>rationum istius opinionis differo usque ad 9. distin se 
+          <lb ed="#G" n="16"/>cundi libri, ibi intendo tractare de potentia executiua, 
+          <lb ed="#G" n="17"/>quam isti doctores ponunt in angelis praeter
+          intelle<lb ed="#G" n="18" break="no"/>ctum &amp; voluntatem, &amp; tunc ea, quae hic omitto,
+          ple<lb ed="#G" n="19" break="no"/>nius recitabo. 
+        </p>
+        <p xml:id="HuYgTa-e92168-d1e1014">
+          <lb ed="#G" n="20"/>
+          <pc type="indent"/>ARTICVLVS I 
+          <lb ed="#G" n="21"/>Vtrum Deus velit mala fieri.
+        </p>
+        <p xml:id="HuYgTa-e92168-d1e1023">
+          <lb ed="#G" n="22"/>QVANTVM ad tertium articulum, utrum Deus ve 
+          <lb ed="#G" n="23"/>
+          <pc type="indent"/>lit mala fieri, sciendum quod duplex est malum, 
+          <lb ed="#G" n="24"/>scilicet malum culpae, &amp; malum poene. Et secundum hoc 
+          <lb ed="#G" n="25"/>pono duas conclusiones. 
+        </p>
+        <p xml:id="HuYgTa-e92168-d1e1036">
+          <lb ed="#G" n="26"/>
+          <pc type="indent"/>Prima est, quod Deus non uult fieri malum culpae. 
+          <lb ed="#G" n="27"/>1 Quia idem est fieri Deo auctore, quod Deo
+          volen<lb ed="#G" n="28" break="no"/>te, ut ait August. in libro 82. quaestionum: Sed Deo
+          au<lb ed="#G" n="29" break="no"/>ctore non fiunt mala culpae, vt ait ibidem August. ergo nec 
+          <lb ed="#G" n="30"/>Deo volente 
+        </p>
+        <p xml:id="HuYgTa-e92168-d1e1052">
+          <lb ed="#G" n="31"/>
+          <pc type="indent"/>Praeterea, Deus non potest esse malus, ergo Deus 
+          <lb ed="#G" n="32"/>non uult fieri mala. Antecedens patet: quia ipse est
+          es<lb ed="#G" n="33" break="no"/>sentialiter bonus, Propter quod dixit Christus in
+          euan<lb ed="#G" n="34" break="no"/>gelio, Nemo bonus nisi solus Deus. Probatio consequen 
+          <lb ed="#G" n="35"/>tiae, quia qui vult malum culpae, ille malus est, sed ille, qui 
+          <lb ed="#G" n="36"/>uult fieri malum culpae, ille uult malum culpae, ergo a de 
+          <lb ed="#G" n="37"/>structione consequentis, si Deus non potest esse malus; 
+          <lb ed="#G" n="38"/>sequitur, quod non uelit fieri aliquod malum culpae 
+        </p>
+        <p xml:id="HuYgTa-e92168-d1e1075">
+          <lb ed="#G" n="39"/>
+          <pc type="indent"/>Sed contra illud est quaedam opinio, quam <ref xml:id="HuYgTa-e92168-Rd1e1081">magister r 
+            <lb ed="#G" n="40"/>citat in ista 4c. dist.</ref> quae ponit, quod quamuis Deus non  
+          <lb ed="#G" n="41"/>uelit mala, tamen ipse uult fieri mala
+        </p>
+        <p xml:id="HuYgTa-e92168-d1e1089">
+          <lb ed="#G" n="42"/>1 Quia sicut Deus non scit falsum, quia scientia est 
+          <lb ed="#G" n="43"/>uerorum, &amp; quod non est non contingit scire, vt dicitur 
+          <lb ed="#G" n="44"/>
+          <ref xml:id="HuYgTa-e92168-Rd1e1097">1. posteriorum</ref>, tamen ipse scit aliqua esse falsa, quia
+          ali<lb ed="#G" n="45" break="no"/>qua esse falsa est uerum, sic Deus non uult malum, quia 
+          <lb ed="#G" n="46"/>non potest uelle, nisi bonum, tamen ipse uult esse malum; 
+          <lb ed="#G" n="47"/>seu fieri malum, quia esse malum, seu fieri malum est
+          bo<lb ed="#G" n="48" break="no"/>num, quia est occasio multorum bonorum 
+        </p>
+        <p xml:id="HuYgTa-e92168-d1e1110">
+          <lb ed="#G" n="49"/>
+          <pc type="indent"/>Praeterea, potest illa opinio confirmari sic. Aliqua 
+          <lb ed="#G" n="50"/>mala fiunt, ergo Deus uult ficri mala. Antecedens pa 
+          <lb ed="#G" n="51"/>tet, quia multa mala contingunt. Consequentia proba 
+          <lb ed="#G" n="52"/>tur: quia cum Dei uoluntas sit omnipotens, igitur
+          impos<lb ed="#G" n="53" break="no"/>sibile est fieri illud, quod Deus non uult fieri 
+        </p>
+        <p xml:id="HuYgTa-e92168-d1e1126">
+          <lb ed="#G" n="54"/>
+          <pc type="indent"/>Praeterea, sapiens uolens aliquid, uult omne illus 
+          <lb ed="#G" n="55"/>sine quo illud, quod uult nullatenus esse potest; Deus 
+          <lb ed="#G" n="56"/>qui est sapientissimus, uult sanctos suos mala pati ab ad 
+          <lb ed="#G" n="57"/>uersariis: quae passio, cum sit illatio actionis, nullo modo 
+          <lb ed="#G" n="58"/>potest esse sine mala actione aduersariorum, ergo &amp;c. 
+        </p>
+        <p xml:id="HuYgTa-e92168-d1e1142">
+          <lb ed="#G" n="59"/>
+          <pc type="indent"/>Praeterea, uel Deus uult mala fieri, uel non uult ma 
+          <lb ed="#G" n="60"/>la fieri, illa patet quia de quolibet affirmatio, uel
+          nega<lb ed="#G" n="61" break="no"/>tio, vt dicitur <ref xml:id="HuYgTa-e92168-Rd1e1152">4. meta.</ref> Si uult, tunc habetur propositum; 
+          <lb ed="#G" n="62"/>si non uult, tunc uoluntas Dei non esset omnipotens, quia 
+          <lb ed="#G" n="63"/>multa fierent contra eam, &amp; de facto procederent, quae 
+          <lb ed="#G" n="64"/>ipsa Dei uoluntas non impediret
+        </p>
+        <p xml:id="HuYgTa-e92168-d1e1163">
+          <lb ed="#G" n="65"/>3 Praeterea, beatus <ref xml:id="HuYgTa-e92168-Rd1e1167">August. in Ench.</ref> dicit, Non fit ali 
+          <lb ed="#G" n="66"/>quid, nisi omnipotens fieri uelit, sed multa mala quoti 
+          <lb ed="#G" n="67"/>die fiunt, ergo &amp;c.
+        </p>
+        <p xml:id="HuYgTa-e92168-d1e1176">
+          <!--283.xml-->
+          <cb ed="#G" n="b"/>
+          <lb ed="#G" n="68"/>e Praeterea, vel Deus uult mala fieri, uel Deus nuli 
+          <lb ed="#G" n="69"/>mala non ficri,. Secundum dari non potest, quia nihil po 
+          <lb ed="#G" n="70"/>test fieri Deo nolente, iuxta illud Hester. Domine in
+          di<lb ed="#G" n="71" break="no"/>tione tua cuncta sunt posita, &amp; non est qui tuae possit re 
+          <lb ed="#G" n="72"/>sistere uoluntati, ergo dabitur primum, &amp; habetur
+          pro<lb ed="#G" n="73" break="no"/>positum. 
+        </p>
+        <p xml:id="HuYgTa-e92168-d1e1196">
+          <lb ed="#G" n="74"/>
+          <pc type="indent"/>Sed illa non concludunt 
+          <lb ed="#G" n="75"/>1 Quia omnis uoluntas ordinata &amp; uirtuosa, aut
+          uo<lb ed="#G" n="76" break="no"/>lendo uult finem, aut ea, quae sunt ad finem, sed
+          uolun<lb ed="#G" n="77" break="no"/>tas Dei est ordinatissima &amp; uirtuosissima, &amp; malum cul 
+          <lb ed="#G" n="78"/>pae nec potest habere rationem finis, nec eorum, que sunt 
+          <lb ed="#G" n="79"/>ad finem, ergo &amp;c. Maior patet ex pluribus locis libri
+          e<lb ed="#G" n="80" break="no"/>thicorum. Minor patet quantum ad primam sui partem. 
+          <lb ed="#G" n="81"/>sed quantum ad secundam partem potest probari sic, Fi 
+          <lb ed="#G" n="82"/>nis &amp; optimum sunt idem, ut dicitur 2. physicorum &amp; 5. 
+          <lb ed="#G" n="83"/>metaph sed malum culpae non est optimum, ut patet de 
+          <lb ed="#G" n="84"/>se, ergo non potest habere rationem finis. Item deuiatis 
+          <lb ed="#G" n="85"/>a fine non habet rationem eorum, quae sunt ad finem, se 
+          <lb ed="#G" n="86"/>malum culpae est quaedam deuiatio a fine
+        </p>
+        <p xml:id="HuYgTa-e92168-d1e1229">
+          <lb ed="#G" n="87"/>2 Praeterea, nullus uult malum, nisi aliquo errore
+          de<lb ed="#G" n="88" break="no"/>ceptus apprehendat ipsum sub aliqua specie, uel apparen 
+          <lb ed="#G" n="89"/>tia boni; sed Deus non potest decipi. Maior patet p Dion 
+          <lb ed="#G" n="90"/>in de di non ubi ait, quod nullum agens aspiciens ad
+          ma<lb ed="#G" n="91" break="no"/>lum agit, quod agit. Minor similiter patet, quia Deus est 
+          <lb ed="#G" n="92"/>sapientiae infinitae.
+        </p>
+        <p xml:id="HuYgTa-e92168-d1e1245">
+          <lb ed="#G" n="93"/>3 Praeterea, si Deus uellet fieri mala, tunc non esset 
+          <lb ed="#G" n="94"/>beatus, sed miser. consequens est falsum, ergo &amp;
+          antece<lb ed="#G" n="95" break="no"/>dens Falsitas consequentis patet. Probatio
+          consequen<lb ed="#G" n="96" break="no"/>tiae: quia ille est miser, qui uult aliquid fieri, quod ipse
+          fa<lb ed="#G" n="97" break="no"/>cere non potest, nec secundum rectam rationem fieri po 
+          <lb ed="#G" n="98"/>test, sed Deus non potest facere peccatum, nec potest fieri 
+          <lb ed="#G" n="99"/>peccatum secundum rectam rationem, ergo &amp;c
+        </p>
+        <p xml:id="HuYgTa-e92168-d1e1263">
+          <lb ed="#G" n="100"/>Ad primum ergo in contrarium dicendum, quod non 
+          <lb ed="#G" n="101"/>est simile de falso &amp; de malo culpae, quia falsum esse est 
+          <lb ed="#G" n="102"/>uerum: sed malum esse, uel fieri non est bonum. Ad
+          pro<lb ed="#G" n="103" break="no"/>bationem dicendum, quod sicut non omnis occasio mal 
+          <lb ed="#G" n="104"/>est mala, sic non omnis occasio boni est bona 
+        </p>
+        <p xml:id="HuYgTa-e92168-d1e1276">
+          <lb ed="#G" n="105"/>
+          <pc type="indent"/>Ad secundum dicendum, quod consequentia non est 
+          <lb ed="#G" n="106"/>uera. Ad probationem dicendum, quod si ly non uult ac 
+          <lb ed="#G" n="107"/>cipitur pro simplici negatione uolitionis, tunc potest 
+          <lb ed="#G" n="108"/>Deus multa non uelle, quae tamen non sunt contra
+          uolum<lb ed="#G" n="109" break="no"/>tatem eius, quamuis sint praeter uoluntatem eius, &amp; per 
+          <lb ed="#G" n="110"/>consequens talia nec sunt uolita nec nolita, quamuis pos 
+          <lb ed="#G" n="111"/>siuit dici permissa 
+        </p>
+        <p xml:id="HuYgTa-e92168-d1e1297">
+          <lb ed="#G" n="112"/>
+          <pc type="indent"/>Ad tertium nego maiorem, non enim oportet semper 
+          <lb ed="#G" n="113"/>esse uolitum a Deo, sine quo non potest esse illud, quod 
+          <lb ed="#G" n="114"/>uult Deus, quia sufficit, quod sit permissum, vel per
+          po<lb ed="#G" n="115" break="no"/>tentiam Dei non prohibitum, quamuis lege diuina sit 
+          <lb ed="#G" n="116"/>prohibitum. 
+        </p>
+        <p xml:id="HuYgTa-e92168-d1e1313">
+          <lb ed="#G" n="117"/>
+          <pc type="indent"/>Forte dicetur, quod permissio sit signum uoluntatis,  
+          <lb ed="#G" n="118"/>sicut patet per Magistrum in littera, qui permissionem 
+          <lb ed="#G" n="119"/>uocat uoluntatem signi; idest signum uoluntatis. Sed Deus 
+          <lb ed="#G" n="120"/>non potest ostendere falsum signum, cum sit omnino
+          ue<lb ed="#G" n="121" break="no"/>rax, ergo quod Deus permittit hoc uidetur uelle¬ 
+        </p>
+        <p xml:id="HuYgTa-e92168-d1e1329">
+          <lb ed="#G" n="122"/>
+          <pc type="indent"/>Respondeo, quod permissio proprie loquendo non esi 
+          <lb ed="#G" n="123"/>signum uoluntatis diuinae, quae sit de malo fiendo, sed est 
+          <lb ed="#G" n="124"/>signum uoluntatis de bono ordinando ex ipsis malis, &amp; 
+          <lb ed="#G" n="125"/>illa est intentio P. Aug. in Enchrubi ait, quod omnipo 
+          <lb ed="#G" n="126"/>tens Deus non permitteret fieri aliquod malum, nisi adec 
+          <lb ed="#G" n="127"/>esset omnipotens, quod sciret de malis elicere bonum 
+        </p>
+        <p xml:id="HuYgTa-e92168-d1e1347">
+          <lb ed="#G" n="128"/>
+          <pc type="indent"/>Ad quartum dicendum cum dicitur, uel Deus uult fier 
+          <lb ed="#G" n="129"/>malum, uel non uult, hic est aduertendum, quod Iy non 
+          <lb ed="#G" n="130"/>uult, uel accipitur diuisim pro duabus partibus orationis 
+          <lb ed="#G" n="131"/>buta ut non est aduerbium negandi, &amp; uult est uerbum 
+          <lb ed="#G" n="132"/>tertiae persone istius uerbi uolouis; aut accipitur con 
+          <lb ed="#G" n="133"/>iunctim, seu composite pro vna parte orationis, gram  
+          <lb ed="#G" n="134"/>matice loquendo de partibus orationis, puta prout est 
+          <lb ed="#G" n="135"/>uerbum tertiae personae descendens a nolo, quod in
+          secu<lb ed="#G" n="136" break="no"/>da persona habet non uis, &amp; in tertia persona habet non 
+          <lb ed="#G" n="137"/>uult: Primo modo ly non uult est simplex negatio
+          uoli<lb ed="#G" n="138" break="no"/>tionis, Secundo modo non est negatio uolitionis, sed est 
+          <lb ed="#G" n="139"/>volitio negationis. Primo modo vult, &amp; non vult oppo¬ 
+          <!--284.xml-->
+          <pb ed="#G" n="123-r"/>
+          <cb ed="#G" n="a"/>
+          <lb ed="#G" n="1"/>nuntur contradictorie Secundo modo opponuntur 
+          <lb ed="#G" n="2"/>quasi contrarie. Primo igitur modo accipiendo haec 
+          <lb ed="#G" n="3"/>est vera, Deus non vult mala fieri: quia ad veritatem
+          il<lb ed="#G" n="4" break="no"/>lius propositonis sufficit, quod malum fiat pretet
+          uolun<lb ed="#G" n="5" break="no"/>tatem diuinam. Sed secundo modo non est vera: quia 
+          <lb ed="#G" n="6"/>tunc esset sensus, quod fieret contra voluntatem
+          diui<lb ed="#G" n="7" break="no"/>nam, puta non solum Deo non volente, sed fieret etiam  
+          <lb ed="#G" n="8"/>Deo nolente, 
+        </p>
+        <p xml:id="HuYgTa-e92168-d1e1402">
+          <lb ed="#G" n="9"/>
+          <pc type="indent"/>Ad quintum dicendum, quod sicut patet per Magistrum  
+          <lb ed="#G" n="10"/>dist. 45. voluntas Dei quandoque accipitur proprie, &amp; sic 
+          <lb ed="#G" n="11"/>dicitur voluntas beneplaciti, &amp; haec voluntas est vna
+          tan<lb ed="#G" n="12" break="no"/>tum, sicut est vnus Deus, &amp; de hac voluntate dictum ess 
+          <lb ed="#G" n="13"/>superius, quod contra eam nihil potest fieri, quamuis praeter 
+          <lb ed="#G" n="14"/>eam multa peccata fiant. 
+        </p>
+        <p xml:id="HuYgTa-e92168-d1e1420">
+          <lb ed="#G" n="15"/>
+          <pc type="indent"/>Quandoque vero accipitur large, &amp; quasi metaphori 
+          <lb ed="#G" n="16"/>ce, &amp; sic quinque modis accipitur voluntas Dei propte 
+          <lb ed="#G" n="17"/>quod scriptura quandoque loquitur pluraliter de volun 
+          <lb ed="#G" n="18"/>tate Dei, iuxta illud Psal. Magna opera domini exquisita 
+          <lb ed="#G" n="19"/>in omnes voluntates eius; Et sic appellatur voluntas
+          si<lb ed="#G" n="20" break="no"/>gni, iuxta quinque, quae videntur esse signa diuinae volun 
+          <lb ed="#G" n="21"/>tatis, scilicet praeceptio, prohibitio, consilium,
+          permis<lb ed="#G" n="22" break="no"/>sio &amp; operatio, quae alio nomine dicitur ipletio; &amp;
+          il<lb ed="#G" n="23" break="no"/>la ouinque, qui uoluerit, potest comprehendere hoc 
+          <lb ed="#G" n="24"/>versiculo. 
+        </p>
+        <p xml:id="HuYgTa-e92168-d1e1447">
+          <lb ed="#G" n="25"/>
+          <pc type="indent"/>Praecipit &amp; prohibet, permittit, consulit, implet. Pro 
+          <lb ed="#G" n="26"/>praecepto, &amp; consilio accipitur voluntas, cum dicitur Deo 
+          <lb ed="#G" n="27"/>patri, Fiat voluntas tua sicut in coelo, &amp; in terra; Et istis 
+          <lb ed="#G" n="28"/>duobus modis multa fiunt non solum praeter volunta 
+          <lb ed="#G" n="29"/>tem Dei, verumetiam contra voluntatem Dei, &amp;
+          secun<lb ed="#G" n="30" break="no"/>dum istum intellectum ait Augu. in libro de spiritu &amp; lit 
+          <lb ed="#G" n="31"/>tera, Infideles contra Dei voluntatem faciunt, cum eius 
+          <lb ed="#G" n="32"/>euangelio non credant: Sed pro permissione, &amp;
+          ope<lb ed="#G" n="33" break="no"/>ratione accipitur in proposito ab Augusti,. cum ait. Non 
+          <lb ed="#G" n="34"/>fit aliquid, nisi omnipotens Deus ficri velit quia post haec 
+          <lb ed="#G" n="35"/>verba subdit August. immediate, vel sinendo vt fiat, vel ip 
+          <lb ed="#G" n="36"/>se faciendo. vVbi per hoc quod dicit sinendo tangit
+          per<lb ed="#G" n="37" break="no"/>missionem, quae est signum voluntatis diuinae respectu 
+          <lb ed="#G" n="38"/>malorum modo, quo superius dictum est. Per hoc, quod
+          di<lb ed="#G" n="39" break="no"/>cit, vel ipse faciendo, tangit signum voluntatis diuinae 
+          <lb ed="#G" n="40"/>quod est impletio, seu operatio: Et per hoc etiam pate 
+          <lb ed="#G" n="41"/>ad argumentum: quia August. ibi non loquitur praecise 
+          <lb ed="#G" n="42"/>
+          <pc type="indent"/>de voluntate beneplaciti, quae est voluntas proprie dicta 
+          <lb ed="#G" n="43"/>de qua loquitur illa opinio falsa, pro qua induxi
+          praedi<lb ed="#G" n="44" break="no"/>ctas rationes. 
+        </p>
+        <p xml:id="HuYgTa-e92168-d1e1497">
+          <lb ed="#G" n="45"/>
+          <pc type="indent"/>Ad sextum dicendum, quod neutra illarum propositoni 
+          <lb ed="#G" n="46"/>est concedenda necessario: quia potest concedi media, sci 
+          <lb ed="#G" n="47"/>licet haec Deus non uult mala fieri 
+        </p>
+        <p xml:id="HuYgTa-e92168-d1e1508">
+          <lb ed="#G" n="48"/>
+          <pc type="indent"/>Forte dicetur, fieri &amp; non fieri sunt contradictoria, sed 
+          <lb ed="#G" n="49"/>inter contradictoria non est dare medium: 
+        </p>
+        <p xml:id="HuYgTa-e92168-d1e1517">
+          <lb ed="#G" n="50"/>
+          <pc type="indent"/>Respondeo, quod licet malum ficri, &amp; malum non ficri sint 
+          <lb ed="#G" n="51"/>contradictoria, tamen hae duae, Deus vult malum fieri, &amp;  
+          <lb ed="#G" n="52"/>Deus vult malum non fitri, non sunt contradictorie, eo 
+          <lb ed="#G" n="53"/>que hoc verbum vult, quod est praedicatum in vtraque
+          pro<lb ed="#G" n="54" break="no"/>positone, vtrobique accipitur affii matiue. In
+          contradi<lb ed="#G" n="55" break="no"/>ctoriis autem propositonibus praedicatum affirmatum 
+          <lb ed="#G" n="56"/>in vna, debet negari in alia, ideo dando medium inter 
+          <lb ed="#G" n="57"/>praedictas duas propositiones, non datur medium inter 
+          <lb ed="#G" n="58"/>contradictoria. 
+        </p>
+        <p xml:id="HuYgTa-e92168-d1e1541">
+          <lb ed="#G" n="59"/>
+          <pc type="indent"/>Secunda conclusio. Deus vult malum poenae, quia
+          il<lb ed="#G" n="60" break="no"/>lud, quod habet rationem boni, hoc vult Deus. 
+          <lb ed="#G" n="61"/>sed malum poenae est bonum, &amp; habet
+          ratio<lb ed="#G" n="62" break="no"/>nem boni ergo &amp;c. Maior patet: quia 
+          <lb ed="#G" n="63"/>Deus vult onine bonum.
+          Proba<lb ed="#G" n="64" break="no"/>tio minoris: quia correctio 
+          <lb ed="#G" n="65"/>mali habet rationem
+          bo<lb ed="#G" n="66" break="no"/>ni; sed malum 
+          <lb ed="#G" n="67"/>poenae 
+          <lb ed="#G" n="68"/>debitae inflictum est correctio 
+          <lb ed="#G" n="69"/>mali, ergo &amp;c
+        </p>
+        <p xml:id="HuYgTa-e92168-d1e1570">
+          <!--284.xml-->
+          <cb ed="#G" n="b"/>
+          <lb ed="#G" n="70"/>ARTICVLVS IIL 
+          <lb ed="#G" n="71"/>
+          <pc type="indent"/>Vtrum bonum sit mala fieri.
+        </p>
+        <p xml:id="HuYgTa-e92168-d1e1584">
+          <lb ed="#G" n="72"/>VA NTVM ad quartum articulum, vtrum bonum 
+          <lb ed="#G" n="73"/> sit mala fieri, pono duas conclusiones conformi- 
+          <lb ed="#G" n="74"/>ter ad praecedentia dicta in tertio articulo.
+        </p>
+        <p xml:id="HuYgTa-e92168-d1e1593">
+          <lb ed="#G" n="75"/>Prima est, quod malum culpae fieri non est bonum 
+          <lb ed="#G" n="76"/>1 Quia illud, quod non est bonum, illius vsus &amp; gene 
+          <lb ed="#G" n="77"/>ratio non est bona, illa patet: quia cuius vsus est bonus, &amp;  
+          <lb ed="#G" n="78"/>cuius generatio est bona, ipsum quoque est bonum, vt pro 
+          <lb ed="#G" n="79"/>tet <ref xml:id="HuYgTa-e92168-Rd1e1606">4. topicorum</ref>, ergo a destructione consequentis, quod  
+          <lb ed="#G" n="80"/>non est bonum, illius vsus &amp; generatio non est bona: sed  
+          <lb ed="#G" n="81"/>malum culpae non est bonum, vt de se patet: quia ipsum 
+          <lb ed="#G" n="82"/>est priuatio boni, ergo malum fieri, quod est vsus, vel
+          ge<lb ed="#G" n="83" break="no"/>neratio mali non est bonum.
+        </p>
+        <p xml:id="HuYgTa-e92168-d1e1618">
+          <lb ed="#G" n="84"/>3 Preterea, si oppositum in opposito, &amp; propositum in 
+          <lb ed="#G" n="85"/>proposito; sed bonum fieri est bonum, ergo malum fieri 
+          <lb ed="#G" n="86"/>est malum Maiorem ponit philosophus in topicis. Minol 
+          <lb ed="#G" n="87"/>de se patet, Et confirmatur: quia motus specificantur a ter 
+          <lb ed="#G" n="88"/>minis ad quos sunt: sed malum fieri terminatur ad
+          ma<lb ed="#G" n="89" break="no"/>lum, ergo malum fieri est malum 
+        </p>
+        <p xml:id="HuYgTa-e92168-d1e1634">
+          <lb ed="#G" n="90"/>
+          <pc type="indent"/>Sed oppositum istius potest argui sic. 
+          <lb ed="#G" n="91"/>1 Cnius vsus est bonus, ipsum quoque est bonum, ut 
+          <lb ed="#G" n="92"/>patet ex dictis in prima ratione pro conclusione; sed 
+          <lb ed="#G" n="93"/>Deus malefactis bene vtitur, vt patet per August. 11. de 
+          <lb ed="#G" n="94"/>ciuita. Dei
+        </p>
+        <p xml:id="HuYgTa-e92168-d1e1650">
+          <lb ed="#G" n="95"/>2 Praeterea, omne iustum est bonum; sed mala fieri est 
+          <lb ed="#G" n="96"/>iustum. Maior patet: Minor probatur: quia quod iuste a Deo. 
+          <lb ed="#G" n="97"/>ermittitur, hoc est iustum, sed malum culpae fieri iuste a 
+          <lb ed="#G" n="98"/>Deo permittitur, vt patet in Clo, super illud Apoca. Qui. 
+          <lb ed="#G" n="99"/>in sordibus est, sordescat adhuc 
+        </p>
+        <p xml:id="HuYgTa-e92168-d1e1663">
+          <lb ed="#G" n="100"/>
+          <pc type="indent"/>3 Preterea, illud, quod est causa boni maximi; illud es 
+          <lb ed="#G" n="101"/>bonum, sed malum fieri quandoque suit causa boni maxi 
+          <lb ed="#G" n="102"/>mi. Maior patet: quia effectus non est praestantior sua
+          cau<lb ed="#G" n="103" break="no"/>sa. Probatur minor: quia crucifixio Christi fuit causa
+          ma<lb ed="#G" n="104" break="no"/>cimi boni, scilicet liberationis totius generis humani, &amp;  
+          <lb ed="#G" n="105"/>tamen ipsam fieri fuit malum, alias non peccassent ludaei 
+          <lb ed="#G" n="106"/>a quibus processit illud fieri, ergo &amp;c. 
+        </p>
+        <p xml:id="HuYgTa-e92168-d1e1684">
+          <lb ed="#G" n="107"/>
+          <pc type="indent"/>Ad primum dicendum, quod duplex est vsus rei. Vnus 
+          <lb ed="#G" n="108"/>naturalis, ad quem res de sui natura ordinabilis est. Alius 
+          <lb ed="#G" n="109"/>accidentalis, ad quem res ordinatur non ex sui natura, 
+          <lb ed="#G" n="110"/>sed ex voluntate vtentis. De vsu primo modo dicto
+          ma<lb ed="#G" n="111" break="no"/>ior est vera, sed non de vsu secundo modo dicto: sic enim 
+          <lb ed="#G" n="112"/>potest quis bonis male vti: multi enim vtuntur bono
+          vi<lb ed="#G" n="113" break="no"/>no ad malum ebrietatis, &amp; malis bene vti, sicut homo 
+          <lb ed="#G" n="114"/>sanctus persecutione mala vtitur bene, cum ad laudem 
+          <lb ed="#G" n="115"/>Dei ipsam patienter tolerat : Cum igitur minor
+          proce<lb ed="#G" n="116" break="no"/>dat de vsu secundo modo dicto; quia malesacta ex sui 
+          <lb ed="#G" n="117"/>natura non sunt ordinabilia in bonum usum, quamuis 
+          <lb ed="#G" n="118"/>hoc possit fieri ex bona uoluntate vtentis; igitur ratio 
+          <lb ed="#G" n="119"/>non concludit 
+        </p>
+        <p xml:id="HuYgTa-e92168-d1e1717">
+          <lb ed="#G" n="120"/>
+          <pc type="indent"/>Ad secundum dicendum, quod maior non est vera in sua to 
+          <lb ed="#G" n="121"/>tali vniuersalitate inquantum Iy omne distribuit iustum 
+          <lb ed="#G" n="122"/>tam pro iusto per se, quam pro iusto per accidens: quia
+          li<lb ed="#G" n="123" break="no"/>cet illud, quod est per se iustum, sit bonum, hoc tamen non 
+          <lb ed="#G" n="124"/>semper est verum de eo, quod est per accides iustum: hoc 
+          <lb ed="#G" n="125"/>n potest esse malum, sed malum fieri quamuis per accident 
+          <lb ed="#G" n="126"/>possit esse iustum, tamen per se non est iustum, 
+        </p>
+        <p xml:id="HuYgTa-e92168-d1e1737">
+          <lb ed="#G" n="127"/>
+          <pc type="indent"/>Ad tertium dicendum, quod sicut frigus quandoque per 
+          <lb ed="#G" n="128"/>accidens est causa caloris, sic quandoque malum non per 
+          <lb ed="#G" n="129"/>se, sed per accidens est causa boni; quamuis ex hoc non se 
+          <lb ed="#G" n="130"/>quatur, quod malum fieri sit bonum: quia causa per accidens 
+          <lb ed="#G" n="131"/>inquantum huiusmodi nec formaliter, nec virtualiter 
+          <lb ed="#G" n="132"/>continet effectum, seu perfectionem effectus. Ad
+          for<lb ed="#G" n="133" break="no"/>mam igitur argumenti dicendum, quod maior non est ue 
+          <lb ed="#G" n="134"/>ra de com, quod est per accidens causa boni, &amp; cum dicitur 
+          <lb ed="#G" n="135"/>in minorem, quod malum &amp; cetuerum est per accidens
+        </p>
+        <p xml:id="HuYgTa-e92168-d1e1761">
+          <!--285.xml-->
+          <pb ed="#G" n="123-v"/>
+          <cb ed="#G" n="a"/>
+          <lb ed="#G" n="1"/>Ad probationem dicendum, quod licet passio Christi 
+          <lb ed="#G" n="2"/>quantum ad meritum patientis, fuerit causa per se nostre 
+          <lb ed="#G" n="3"/>liberationis: quia vt sic, fuit bona: tamen quantum ad ma 
+          <lb ed="#G" n="4"/>litiam inferentis non fuit causa liberationis nostrae, nisi 
+          <lb ed="#G" n="5"/>valde per acccidens; vt sic enim, fuit mala 
+        </p>
+        <p xml:id="HuYgTa-e92168-d1e1781">
+          <lb ed="#G" n="6"/>
+          <pc type="indent"/>Secunda conclusio est haec, quod malum poenae fieri est 
+          <lb ed="#G" n="7"/>bonum; Quia illud, quo bene leges manutenentur, &amp; pax 
+          <lb ed="#G" n="8"/>niuersi promouetur, hoc est bonum, malum poenae est 
+          <lb ed="#G" n="9"/>huiusmodi, ergo &amp;c. Maior patet de se. vinor habetur io 
+          <lb ed="#G" n="10"/>ethic, quantum ad primam partem, vbi sic dicitur,
+          Legi<lb ed="#G" n="11" break="no"/>bus oportet esse ordinatam nutritionem, &amp; paucis inter 
+          <lb ed="#G" n="12"/>positis sequitur quomodo illa nutritio fiat, Multi enim 
+          <lb ed="#G" n="13"/>necessitati, magis quam sermoni obediunt, &amp; iacturae 
+          <lb ed="#G" n="14"/>quam bono: Patet etiam secunda pars minoris: quia, sicut 
+          <lb ed="#G" n="15"/>eradicata xixania, bonae herbae melius nutriuntur &amp;
+          cre<lb ed="#G" n="16" break="no"/>scunt: sic per malum poenae destructis, vel emendatis ma 
+          <lb ed="#G" n="17"/>lis hominibus, magis inualescit pax &amp; tranquillitas
+          vni<lb ed="#G" n="18" break="no"/>uersi, ergo &amp;c 
+        </p>
+        <p xml:id="HuYgTa-e92168-d1e1814">
+          <lb ed="#G" n="19"/>
+          <pc type="indent"/>Ad argumentum principale dicendum, quod
+          volun<lb ed="#G" n="20" break="no"/>tas diuina simul cum immutabilitate habet summam 
+          <lb ed="#G" n="21"/>ibertatem, &amp; ideo non solum necessariorum effectuum 
+          <lb ed="#G" n="22"/>verumetiam contingentium potest esse causa, vel mediam 
+          <lb ed="#G" n="23"/>tibus causis secundis, vel immediate per se ipsam, sicut
+          si<lb ed="#G" n="24" break="no"/>bi placuerit &amp; videbitur exi edire, ergo argumentum 
+          <lb ed="#G" n="25"/>non concludit.  
+        </p>
+      </div>
+    </body>
+  </text>
 </TEI>

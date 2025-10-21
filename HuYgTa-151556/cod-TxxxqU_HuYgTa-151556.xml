@@ -1,95 +1,95 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Circa textum</title>
-            <author ref="#ThomasStrasbourg">Thomas of Strasbourg</author>
-            <respStmt>
-               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
-               <resp>Transcription Editor</resp>
-               <resp>TEI Encoder</resp>
-            </respStmt>
-         </titleStmt>
-         <editionStmt>
-            <edition n="0.0.0-dev">
-               <title>Circa textum</title>
-               <date when="2020-11-26">November 26, 2020</date>
-            </edition>
-         </editionStmt>
-         <publicationStmt>
-            <authority>SCTA</authority>
-            <availability status="free">
-               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
-               </p>
-            </availability>
-         </publicationStmt>
-         <sourceDesc>
-            <listWit>
-               <witness xml:id="G" n="cod-TxxxqU">Genoa 1585</witness>
-            </listWit>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
-         <editorialDecl>
-            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
-       guidelines for a diplomatic edition.</p>
-         </editorialDecl>
-      </encodingDesc>
-      <revisionDesc status="draft">
-         <listChange>
-            <change when="2020-11-26" status="draft" n="0.0.0">
-               <p>Created file for the first time.</p>
-            </change>
-         </listChange>
-      </revisionDesc>
-   </teiHeader>
-   <text xml:lang="la">
-      <front>
-         <div xml:id="starts-on">
-            <pb ed="#G" n="-r"/>
-            <cb ed="#G" n="a"/>
-         </div>
-      </front>
-      <body>
-         <div xml:id="HuYgTa-151556"><!-- HuYgTa-l2d37ct1 -->
-            <head xml:id="HuYgTa-151556-Hd1e108">Circa textum</head>
-            <p xml:id="HuYgTa-151556-d1e111">
-               <lb ed="#G" n="105"/>
-               <pc type="indent"/>DISTINCTIO XXVII 
-      <lb ed="#G" n="106"/>Preuissima hiuuus distinctionis diuisio in qua Magister 
-      <lb ed="#G" n="107"/>illorum recenset opinionem, qui actum
-      pec<lb ed="#G" n="108" break="no"/>cati quatenus huiusmodi
-      susti<lb ed="#G" n="109" break="no"/>nent, a Deo minimi 
-      <lb ed="#G" n="110"/>causari.
-    </p>
-            <p xml:id="HuYgTa-151556-d1e129">
-               <lb ed="#G" n="111"/>TVNT AVTEM ALI1. Postquam  
-      <lb ed="#G" n="112"/>superius distin. 35. Magister racitauit 
-      <lb ed="#G" n="113"/>opinionem ponentem actum
-      pecca<lb ed="#G" n="114" break="no"/>ti, inquantum actus est, a Deo esse 
-      <lb ed="#G" n="115"/>causatum, nunc in ista 37. dist.
-      Magi<lb ed="#G" n="116" break="no"/>ster recitat dicta illorum, qui sunt de 
-      <lb ed="#G" n="117"/>opposita opinione. Et diuiditur in 
-      <lb ed="#G" n="118"/>aa duas partes, quia primo Magister o- 
-      <lb ed="#G" n="119"/>stendit, quid ista opinio praetendit, quantum ad malum 
-      <lb ed="#G" n="120"/>culpae. Secundo innuit, quid secundum veritatem
-      tenen<lb ed="#G" n="121" break="no"/>dum sit, quantum ad malum poenae ibi, Cum igitur in hoc 
-      <lb ed="#G" n="122"/>omnes. Prima in duas, quia primo Magister hanc
-      opinio<lb ed="#G" n="123" break="no"/>nem recitat. Secundo electionem inter primam
-      opinio<lb ed="#G" n="124" break="no"/>nem, &amp; istam iudicio prudentis lectoris commendat
-      ibi<lb ed="#G" n="125" break="no"/>Illarum vero sententiarum iudicium Prima in duas, quia 
-      <lb ed="#G" n="126"/>Magister primo recitat istam opinionem. Secundo osten 
-      <lb ed="#G" n="127"/>dit, quomodo isti nituntur ad primae opinionis
-      improba<lb ed="#G" n="128" break="no"/>tionem ibi, In hoc autem verbo &amp;c. Prima in duas, quia 
-      <lb ed="#G" n="129"/>primo Magister recitat istam opinionem. Secundo
-      addu<lb ed="#G" n="130" break="no"/>cit eiusdem opinionis confirmationem ibi, Ex quo colli. 
-      <lb ed="#G" n="131"/>gitur. Prima in duas; nam primo Magister istam opinionem 
-      <lb ed="#G" n="132"/>cum suis motiuis ponit. Secundo auctoritates contrarium 
-      <lb ed="#G" n="133"/>onantes exponit ibi, llla quoque Augustini verba. Circa 
-      <lb ed="#G" n="134"/>stam distinctionem quaero hanc quaestionem.
-    </p>
-         </div>
-      </body>
-   </text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Circa textum</title>
+        <author ref="#ThomasStrasbourg">Thomas of Strasbourg</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Circa textum</title>
+          <date when="2020-11-26">November 26, 2020</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="G" n="cod-TxxxqU">Genoa 1585</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2020-11-26" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#G" n="-r"/>
+        <cb ed="#G" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="HuYgTa-151556"><!-- HuYgTa-l2d37ct1 -->
+        <head xml:id="HuYgTa-151556-Hd1e108">Circa textum</head>
+        <p xml:id="HuYgTa-151556-d1e111">
+          <lb ed="#G" n="105"/>
+          <pc type="indent"/>DISTINCTIO XXVII 
+          <lb ed="#G" n="106"/>Preuissima hiuuus distinctionis diuisio in qua Magister 
+          <lb ed="#G" n="107"/>illorum recenset opinionem, qui actum
+          pec<lb ed="#G" n="108" break="no"/>cati quatenus huiusmodi
+          susti<lb ed="#G" n="109" break="no"/>nent, a Deo minimi 
+          <lb ed="#G" n="110"/>causari.
+        </p>
+        <p xml:id="HuYgTa-151556-d1e129">
+          <lb ed="#G" n="111"/>TVNT AVTEM ALI1. Postquam  
+          <lb ed="#G" n="112"/>superius distin. 35. Magister racitauit 
+          <lb ed="#G" n="113"/>opinionem ponentem actum
+          pecca<lb ed="#G" n="114" break="no"/>ti, inquantum actus est, a Deo esse 
+          <lb ed="#G" n="115"/>causatum, nunc in ista 37. dist.
+          Magi<lb ed="#G" n="116" break="no"/>ster recitat dicta illorum, qui sunt de 
+          <lb ed="#G" n="117"/>opposita opinione. Et diuiditur in 
+          <lb ed="#G" n="118"/>aa duas partes, quia primo Magister o- 
+          <lb ed="#G" n="119"/>stendit, quid ista opinio praetendit, quantum ad malum 
+          <lb ed="#G" n="120"/>culpae. Secundo innuit, quid secundum veritatem
+          tenen<lb ed="#G" n="121" break="no"/>dum sit, quantum ad malum poenae ibi, Cum igitur in hoc 
+          <lb ed="#G" n="122"/>omnes. Prima in duas, quia primo Magister hanc
+          opinio<lb ed="#G" n="123" break="no"/>nem recitat. Secundo electionem inter primam
+          opinio<lb ed="#G" n="124" break="no"/>nem, &amp; istam iudicio prudentis lectoris commendat
+          ibi<lb ed="#G" n="125" break="no"/>Illarum vero sententiarum iudicium Prima in duas, quia 
+          <lb ed="#G" n="126"/>Magister primo recitat istam opinionem. Secundo osten 
+          <lb ed="#G" n="127"/>dit, quomodo isti nituntur ad primae opinionis
+          improba<lb ed="#G" n="128" break="no"/>tionem ibi, In hoc autem verbo &amp;c. Prima in duas, quia 
+          <lb ed="#G" n="129"/>primo Magister recitat istam opinionem. Secundo
+          addu<lb ed="#G" n="130" break="no"/>cit eiusdem opinionis confirmationem ibi, Ex quo colli. 
+          <lb ed="#G" n="131"/>gitur. Prima in duas; nam primo Magister istam opinionem 
+          <lb ed="#G" n="132"/>cum suis motiuis ponit. Secundo auctoritates contrarium 
+          <lb ed="#G" n="133"/>onantes exponit ibi, llla quoque Augustini verba. Circa 
+          <lb ed="#G" n="134"/>stam distinctionem quaero hanc quaestionem.
+        </p>
+      </div>
+    </body>
+  </text>
 </TEI>

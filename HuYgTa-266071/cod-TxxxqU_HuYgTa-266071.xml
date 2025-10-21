@@ -1,717 +1,717 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Quaestio 1</title>
-            <author ref="#ThomasStrasbourg">Thomas of Strasbourg</author>
-            <respStmt>
-               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
-               <resp>Transcription Editor</resp>
-               <resp>TEI Encoder</resp>
-            </respStmt>
-         </titleStmt>
-         <editionStmt>
-            <edition n="0.0.0-dev">
-               <title>Quaestio 1</title>
-               <date when="2020-11-26">November 26, 2020</date>
-            </edition>
-         </editionStmt>
-         <publicationStmt>
-            <authority>SCTA</authority>
-            <availability status="free">
-               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
-               </p>
-            </availability>
-         </publicationStmt>
-         <sourceDesc>
-            <listWit>
-               <witness xml:id="G" n="cod-TxxxqU">Genoa 1585</witness>
-            </listWit>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
-         <editorialDecl>
-            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
-       guidelines for a diplomatic edition.</p>
-         </editorialDecl>
-      </encodingDesc>
-      <revisionDesc status="draft">
-         <listChange>
-            <change when="2020-11-26" status="draft" n="0.0.0">
-               <p>Created file for the first time.</p>
-            </change>
-         </listChange>
-      </revisionDesc>
-   </teiHeader>
-   <text xml:lang="la">
-      <front>
-         <div xml:id="starts-on">
-            <pb ed="#G" n="P2_140-r"/>
-            <cb ed="#G" n="b"/>
-         </div>
-      </front>
-      <body>
-         <div xml:id="HuYgTa-266071"><!-- HuYgTa-l4d22q1 -->
-            <head xml:id="HuYgTa-266071-Hd1e108">Quaestio 1</head>
-            <head xml:id="HuYgTa-266071-Hd1e111" type="question-title">
-      An peccata per poenitentiam deleta
-      recidivantis ingratitudine 
-      rursus redeant
-    </head>
-            <p xml:id="HuYgTa-266071-d1e114">
-               <lb ed="#G" n="111"/>Questio.  1. 
-      <lb ed="#G" n="112"/>An peccata per poenitentiam deleta
-      re<lb ed="#G" n="113" break="no"/>cidiuantis ingratitudine 
-      rur<lb ed="#G" n="114" break="no"/>sus redeant
-    </p>
-            <p xml:id="HuYgTa-266071-d1e125">
-               <lb ed="#G" n="115"/>VTRVM peccata dimissa per poenitentiae sacrame 
-      <lb ed="#G" n="116"/>V tum redeant propter ingratitudinem recidiuanti 
-      <lb ed="#G" n="117"/>post huiusmodi dimissionem in aliquod mortale peccatum
-    </p>
-            <p xml:id="HuYgTa-266071-d1e134">
-               <lb ed="#G" n="118"/>Et videtur, quod sic, quia scum leges ciuiles libertus, seu 
-      <lb ed="#G" n="119"/>seruus manumissus peccans contra dum suum, popter
-      ingra<lb ed="#G" n="120" break="no"/>citudinem, quia non recognouit beneficium sibi impensum, 
-      <lb ed="#G" n="121"/>cetrudendus est in pristinam seruitutem, sed per sacramentum 
-      <lb ed="#G" n="122"/>poenitentiae poenitens liberatur a seruitute diaboli, &amp; rest 
-      <lb ed="#G" n="123"/>tuitur in libertatem perditae gratiae: ergo si ingratus contra 
-      <lb ed="#G" n="124"/>dum suum, qui eu liberauit a tali seruiture, peccat
-      mor<lb ed="#G" n="125" break="no"/>tali peccato, tuc iuste retrudetur in pristinam seruitutem, &amp;  
-      <lb ed="#G" n="126"/>per consequens redeunt peccata, quibs primo seruiuit dia 
-      <lb ed="#G" n="127"/>holo, Contra, quae ad nihilum sunt redacta, illa per hu 
-      <lb ed="#G" n="128"/>nanum actum, seu per humaui actus defectum non pos 
-      <lb ed="#G" n="129"/>sunt redire ad esse: sed virtute poenitentiae per influxum
-      diui<lb ed="#G" n="130" break="no"/>nae gratiae peccata dimissa, sunt ad nihilum redacta: ergo
-      in<lb ed="#G" n="131" break="no"/>gratitudo, quae vel est quidam actus humanus, vel quidam 
-      <!--751.xml-->
-      <pb ed="#G" n="P2_140-v"/>
-               <cb ed="#G" n="a"/>
-               <lb ed="#G" n="1"/>defectus actus humani non potest esse causa reuersionis 
-      <lb ed="#G" n="2"/>huiusmodi peccatorum. Hic primo videndum est, vtrum per 
-      <lb ed="#G" n="3"/>cata dimissa per poenitentiam redeant, quo ad culpam 
-      <lb ed="#G" n="4"/>recidiuante ipso poenitente. Secundo, utrum redeant quo 
-      <lb ed="#G" n="5"/>ad poenam Tertio, dato, quod aliquo modo redeant,
-      v<lb ed="#G" n="6" break="no"/>trum causa huiusmodi reditionis sit ingratitudo.
-      Quar<lb ed="#G" n="7" break="no"/>ro, quid sit sacramentum, &amp; quid res sacramenti in poeni 
-      <lb ed="#G" n="8"/>tentiae sacramento. 
-    </p>
-            <p xml:id="HuYgTa-266071-d1e192">
-               <lb ed="#G" n="9"/>
-               <pc type="indent"/>RESOLVTI O. 
-      <lb ed="#G" n="10"/>licet dimissa peccata, quo ad culpam seu maculam reuertantur,  
-      <lb ed="#G" n="11"/>
-               <pc type="indent"/>non tamen quo ad complet am sui malitiam vredire possant, hoc 
-      <lb ed="#G" n="12"/>est, non in se sed in sequentis peccati aliquali aggrauatione ra 
-      <lb ed="#G" n="13"/>rtomne ingrat itudinis annexae. 
-    </p>
-            <p xml:id="HuYgTa-266071-d1e210">
-               <lb ed="#G" n="14"/>A R TICV R A 
-      <lb ed="#G" n="15"/>Vtrum peccata dimissa per peenitentiam
-      re<lb ed="#G" n="16" break="no"/>
-               <pc type="indent"/>deant quo ad culpam veridente 
-      <lb ed="#G" n="17"/>
-               <pc type="indent"/>ipso peenitente.
-    </p>
-            <p xml:id="HuYgTa-266071-d1e226">
-               <lb ed="#G" n="18"/>SVANTVM ad primum est aduertendum, quod 
-      <lb ed="#G" n="19"/>
-               <pc type="indent"/>eccata dimissa, quantum ad cul pam, seu maci 
-      <lb ed="#G" n="20"/>lam redire, potest intelligi dupliciter: vno modo, secun 
-      <lb ed="#G" n="21"/>dum suum esse proprium, &amp; completam malitiam, scu in 
-      <lb ed="#G" n="22"/>fectionem, alio modo, quantum ad sequentis peccati ali 
-      <lb ed="#G" n="23"/>qualem aggrauationem. Et secundum hoc pono duplicen 
-      <lb ed="#G" n="24"/>conclusionem, 
-    </p>
-            <p xml:id="HuYgTa-266071-d1e246">
-               <lb ed="#G" n="25"/>
-               <pc type="indent"/>Prima est, quod peccata non re deunt primo
-      mo<lb ed="#G" n="26" break="no"/>do. Quia si reuerterentur peccata dimissa secundum sus 
-      <lb ed="#G" n="27"/>completam malitiam, vel hoc fieret actione hominis, vel 
-      <lb ed="#G" n="28"/>actione Dei; non primo modo, quia quod annihilatum 
-      <lb ed="#G" n="29"/>est virtute diuina, non potest humana actione reuerti; idi 
-      <lb ed="#G" n="30"/>numero secundum esse completum, nec secundo modo 
-      <lb ed="#G" n="31"/>quia secundum Aug. Deo auctore nemo deterior effici 
-      <lb ed="#G" n="32"/>tur. Etiam hoc posito, Deus esset per se causa peccati, quod 
-      <lb ed="#G" n="33"/>est inconueniens
-    </p>
-            <p xml:id="HuYgTa-266071-d1e270">
-               <lb ed="#G" n="34"/>2 Praeterea, si sit, tunc vnum oppositorum esset per si 
-      <lb ed="#G" n="35"/>causa essendi alt erius oppositorum. Falsitas
-      consequen<lb ed="#G" n="36" break="no"/>tis patet: probo consequentiam, quia quandoque contin 
-      <lb ed="#G" n="37"/>git talem hominem peccare peccato prodigalitatis, cu 
-      <lb ed="#G" n="38"/>prius per poenitentiam fuit dimissum peccatum auaritiae 
-      <lb ed="#G" n="39"/>ergo si peccatum, quo poenitens recidiuat esset causa
-      re<lb ed="#G" n="40" break="no"/>litionis peccat orum dimissorum, tunc peccatum prod 
-      <lb ed="#G" n="41"/>alitatis esset per se causa peccati auaritiae, &amp; eodem mi 
-      <lb ed="#G" n="42"/>do potest argui de timiditate, &amp; audacia, &amp; quibuslibet 
-      <lb ed="#G" n="43"/>aliis oppositis vitiis, &amp; peccatis. 
-    </p>
-            <p xml:id="HuYgTa-266071-d1e294">
-               <lb ed="#G" n="44"/>
-               <pc type="indent"/>Sed quamuis in ista conclusione satis concordent mo 
-      <lb ed="#G" n="45"/>derni doctores, tamen contra eam sunt tres opi. docto 
-      <lb ed="#G" n="46"/>rum atiquorum. Quidam n absolute, &amp;sine distinctione 
-      <lb ed="#G" n="47"/>
-               <pc type="indent"/>posuerunt, quod recidiuante poenitente, redeunt omni- 
-      <lb ed="#G" n="48"/>peccata, quae per poenitentiam erant deleta, quod 
-      <lb ed="#G" n="49"/>probant Sic 
-    </p>
-            <p xml:id="HuYgTa-266071-d1e315">
-               <lb ed="#G" n="50"/>
-               <pc type="indent"/>1 Sicut se habet gratia per poenitentiam acquisita ac 
-      <lb ed="#G" n="51"/>merita per peccata precedentia deleta, &amp; mortificata, sic 
-      <lb ed="#G" n="52"/>se habet malitia per peccata post poenitentiam
-      contra<lb ed="#G" n="53" break="no"/>cta ad peccata deleta per gratiam primitus acquisitam,  
-      <lb ed="#G" n="54"/>sed per gratiam acquisitam omnia merita peccatis pra 
-      <lb ed="#G" n="55"/>cedentious mortificata reuiuiscunt, &amp; renouantur, vt pro 
-      <lb ed="#G" n="56"/>tet per communem sanctorum doctrinam, ergo per ma 
-      <lb ed="#G" n="57"/>litiam sequentis peccati omnia demerita, seu peccata
-      vir<lb ed="#G" n="58" break="no"/>tute poenitentiae, &amp; praecedentis gratiae deleta penitus 
-      <lb ed="#G" n="59"/>renouantur
-    </p>
-            <p xml:id="HuYgTa-266071-d1e341">
-               <lb ed="#G" n="60"/>2 Praeterea, Sicut caritas se habet ad uiuificandum, sis 
-      <lb ed="#G" n="61"/>mortalis culpa ad mortificadum, sed caritas sic uiuificas 
-      <lb ed="#G" n="62"/>quod reducit ad uitam talia mortificata, quae quandouuc 
-      <lb ed="#G" n="63"/>suerunt viua: ergo mortalis peccati malitia reducet illa  
-      <!--751.xml-->
-      <cb ed="#G" n="b"/>
-               <lb ed="#G" n="64"/>deleta peccata, quibus quandoque anima fuit mortua 
-    </p>
-            <p xml:id="HuYgTa-266071-d1e359">
-               <lb ed="#G" n="65"/>
-               <pc type="indent"/>3 Praeterea, subtracto tegmine, tunc apparent illa,  
-      <lb ed="#G" n="66"/>quae prius fuerunt tecta: sed caritas, quae operit
-      multitu<lb ed="#G" n="67" break="no"/>dinem peccatorum, vt dicit D. Pet subtrahitur per
-      morta<lb ed="#G" n="68" break="no"/>le peccatum sequens poenitentiam, ergo peccata, quae prius 
-      <lb ed="#G" n="69"/>fuerunt deleta, vel cooperta caritate, iterum apparent 
-      <lb ed="#G" n="70"/>in visione, &amp; in putatione diuina.
-    </p>
-            <p xml:id="HuYgTa-266071-d1e377">
-               <lb ed="#G" n="71"/>4 Praeterea, remota causa, remouetur effectus: sed de 
-      <lb ed="#G" n="72"/>letionis peccatorum praecedentium gratia est causa
-      im<lb ed="#G" n="73" break="no"/>mediata: ergo abiata gratia per sequens peccatum tolli 
-      <lb ed="#G" n="74"/>tur deletio praecedentium peccatorum, &amp; per consequens 
-      <lb ed="#G" n="75"/>huiusmodi peccata ponentur, quia sublato vno
-      priuati<lb ed="#G" n="76" break="no"/>ue oppositorum, ponitur reliquum, eo quod sint opposi 
-      <lb ed="#G" n="77"/>ta immediata. 
-    </p>
-            <p xml:id="HuYgTa-266071-d1e395">
-               <lb ed="#G" n="78"/>3 Praeterea, poenitens recidiuans non est in meliori 
-      <lb ed="#G" n="79"/>statu, quam fuit atequam poeniteret: ergo in omnibus pec 
-      <lb ed="#G" n="80"/>catis est, in quibus fuit, antequam poeniteret antecedens i 
-      <lb ed="#G" n="81"/>batur, quia dicit Propheta. Si auerterit se iul a iusti. sua 
-      <lb ed="#G" n="82"/>omnes iusti. quas fe non recor. Sed poenitentia est quae 
-      <lb ed="#G" n="83"/>dam iustitia vindicatiua, vt patet ex dictis distin. I4t arti 
-      <lb ed="#G" n="84"/>i. ergo status recidiuantis non est melior in
-      recordatio<lb ed="#G" n="85" break="no"/>ne, vel conspectu Dei, quam si prius non egisset
-      poeniten<lb ed="#G" n="86" break="no"/>tiam consequentia patet, quia si poenitens recidiuans 
-      <lb ed="#G" n="87"/>non est in meliori statu post recidiuationem, quam fuerat 
-      <lb ed="#G" n="88"/>prius, quam poeniteret: ergo non habet pauciora, vel
-      mi<lb ed="#G" n="89" break="no"/>nora peccata, quam habuit antequam poeniteret 
-    </p>
-            <p xml:id="HuYgTa-266071-d1e424">
-               <lb ed="#G" n="90"/>
-               <pc type="indent"/>Praeterea, istud videtur esse de intentione Leonis 
-      <lb ed="#G" n="91"/>Pape, qui ait, Iterata iniquitas misericordiam concessam 
-      <lb ed="#G" n="92"/>exinaniuit: Multa alia dimitto, quae pro ista opi per Ma 
-      <lb ed="#G" n="93"/>gistrum hic adducuntur in littera. 
-    </p>
-            <p xml:id="HuYgTa-266071-d1e438">
-               <lb ed="#G" n="94"/>
-               <pc type="indent"/>Sed contrarium istius opin expresse ponit <ref xml:id="HuYgTa-266071-Rd1e444">August. 1t 
-        <lb ed="#G" n="95"/>libr, de resposionibus Prosp.</ref> vbi ait, qui recedit a
-      Chri<lb ed="#G" n="96" break="no"/>sto, &amp; alienatus a gratia viuit in hac vita, quid nisi in por 
-      <lb ed="#G" n="97"/>ditionem vadit, sed non in id, quod dimissum est, redit 
-    </p>
-            <p xml:id="HuYgTa-266071-d1e454">
-               <lb ed="#G" n="98"/>
-               <pc type="indent"/>Ad primum dicendum, quod non est simile illud, quao 
-      <lb ed="#G" n="99"/>in maiori assumitur pro simili. ln illis n terminis similiti 
-      <lb ed="#G" n="100"/>do sic deberet sumi, quod sicut se habet gratia ad
-      meri<lb ed="#G" n="101" break="no"/>ta mortua viuificanda, sic se habet culpa ad merita
-      viu<lb ed="#G" n="102" break="no"/>mortificanda, &amp; tunc non plus habetur in conclusione, 
-      <lb ed="#G" n="103"/>nisi quod, sicut gratia poenitenti collata viuificat merita 
-      <lb ed="#G" n="104"/>per praecedentia peccata mortificata, sic peccatum se 
-      <lb ed="#G" n="105"/>quens poenitentiam mortificat ea, quae inuenit
-      viuifica<lb ed="#G" n="106" break="no"/>ta per gratiam. 
-    </p>
-            <p xml:id="HuYgTa-266071-d1e478">
-               <lb ed="#G" n="107"/>
-               <pc type="indent"/>Ad secundum dicendum, quod concessa maiori, &amp;mi 
-      <lb ed="#G" n="108"/>nori, non sequitur concluno, quae infertur: sed sequitur 
-      <lb ed="#G" n="109"/>ista, quod mortalis culpa ducit ad mortem talia viuifica 
-      <lb ed="#G" n="110"/>ta, quae quandoque fucrunt mortua, &amp; haec conclusio ess 
-      <lb ed="#G" n="111"/>vera: quia culpa mortalis sequens poenitentiam, iterum 
-      <lb ed="#G" n="112"/>mortificat merita viuificata per gratiam poenitentialem,  
-      <lb ed="#G" n="113"/>quae etiam prius fuerunt mortificata per culpam
-      pooni<lb ed="#G" n="114" break="no"/>tentiam praecedentem 
-    </p>
-            <p xml:id="HuYgTa-266071-d1e500">
-               <lb ed="#G" n="115"/>
-               <pc type="indent"/>Ad tertium dicendum, quod maior non est uera, si te 
-      <lb ed="#G" n="116"/>gmen est illius conditionis, quod corrumpit, &amp; penitus 
-      <lb ed="#G" n="117"/>destruit illud, quod tegit, sed caritas dicitur cooperir; 
-      <lb ed="#G" n="118"/>eccatum destructiue; quia expellit, &amp; consumit peccarum 
-      <lb ed="#G" n="119"/>&amp; ideo, subtracta caritate, non remanet peccatum 
-      <lb ed="#G" n="120"/>quod praecessit caritate, &amp; dicebatur cooperiri caritates 
-    </p>
-            <p xml:id="HuYgTa-266071-d1e518">
-               <lb ed="#G" n="121"/>
-               <pc type="indent"/>Ad quartum dicendum quod quantum ad praesens, posi 
-      <lb ed="#G" n="122"/>sumus dupliciter loqui de causa, quia quaedam est
-      cau<lb ed="#G" n="123" break="no"/>sa non solum effectus inductiua, sed etiam praecise con- 
-      <lb ed="#G" n="124"/>seruatiua, alia sic est effectus inductiua, quod tamen eius 
-      <lb ed="#G" n="125"/>dem effectus non est praecise conseruatiua primo modo 
-      <lb ed="#G" n="126"/>gnis est causa sui splendoris in aere: secundo modo ess 
-      <lb ed="#G" n="127"/>tausa sui caloris in ferro, vel in alia re calorem impres 
-      <lb ed="#G" n="128"/>sum absente igne retinente de causa primo modo dicta 
-      <lb ed="#G" n="129"/>vera est maior: sed minor est falsa. Sed de causa secundo 
-      <lb ed="#G" n="130"/>modo dicta maior est vera, quia gratia inducit hunc effe 
-      <lb ed="#G" n="131"/>ctum, qui est deletio, vel non esse peccati praecedentis 
-      <lb ed="#G" n="132"/>gratiam in subiecto rationali: maior tamen est falsa, quia 
-      <lb ed="#G" n="133"/>quamuis impressio gladij inducat vulnus, tamen
-      extra<lb ed="#G" n="134" break="no"/>cto gladio, manet vulnus: sic in proposito, ablata gratia, 
-      <lb ed="#G" n="135"/>non aufertur non esse illius peccati, quod fuit deletum 
-      <lb ed="#G" n="136"/>per gtatiam.
-    </p>
-            <p xml:id="HuYgTa-266071-d1e557">
-      <!--752.xml-->
-               <pb ed="#G" n="P2_141-r"/>
-               <cb ed="#G" n="a"/>
-               <lb ed="#G" n="1"/>Forte dices minorem esse veram, accipiendo causam 
-      <lb ed="#G" n="2"/>rimo modo: quia manente gratia, semper conseruatur 
-      <lb ed="#G" n="3"/>lle effectus, qui est non esse peccati deleti per gratiam  
-      <lb ed="#G" n="4"/>ergo videtur, quod gratia illius effectus non solum sit 
-      <lb ed="#G" n="5"/>causa inductiua, sed etiam conseruatiua 
-    </p>
-            <p xml:id="HuYgTa-266071-d1e578">
-               <lb ed="#G" n="6"/>Respondeo, quod qua nuis manente gladio in corpe 
-      <lb ed="#G" n="7"/>re, cui infixus est, semper maneat vulnus: quia tamen
-      sub<lb ed="#G" n="8" break="no"/>tracto gladio, adhuc manet vulnus: ideo fufficienter
-      ar<lb ed="#G" n="9" break="no"/>guitur, quod gladius non sit precise causa vulneris con 
-      <lb ed="#G" n="10"/>seruatiua: sic in proposito &amp;c. 
-    </p>
-            <p xml:id="HuYgTa-266071-d1e591">
-               <lb ed="#G" n="11"/>
-               <pc type="indent"/>Ad quintum dicendum, quod antecedens non est ve 
-      <lb ed="#G" n="12"/>rum, absolute loquendo: quii dato, quod recidiuet per 
-      <lb ed="#G" n="13"/>vnum de leuioribus mortalibus peccatis, &amp; antequam 
-      <lb ed="#G" n="14"/>poeniteret, fuerit in multis, &amp; grauissimis peccatis: tund 
-      <lb ed="#G" n="15"/>post recidiuationem est in meliori statu, &amp; dispositione 
-      <lb ed="#G" n="16"/>quam fuerit antequam poeniteret de illis grauissimis 
-      <lb ed="#G" n="17"/>peccatis. 
-    </p>
-            <p xml:id="HuYgTa-266071-d1e611">
-               <lb ed="#G" n="18"/>
-               <pc type="indent"/>Ad probationem dicendum, quod quamuis iustitia 
-      <lb ed="#G" n="19"/>recidiuantis non veniant in recordationem De, secun 
-      <lb ed="#G" n="20"/>dum quod huiusmodi, quantum ad hunc effectum, qui 
-      <lb ed="#G" n="21"/>est consecutio vitae aeternae: tamen semper sunt in recor 
-      <lb ed="#G" n="22"/>datione Dei, quantum ad hunc effectum, qui est deletio 
-      <lb ed="#G" n="23"/>peccati praecedentis ipsam poenitentiam. Etiam conse 
-      <lb ed="#G" n="24"/>quentia est neganda cum sua probatione: quia dato, quod 
-      <lb ed="#G" n="25"/>homo postrecidiuationem non sit in meliori statu, vel 
-      <lb ed="#G" n="26"/>sit in peiori statu, quam fuit antequam poeniteret, hos 
-      <lb ed="#G" n="27"/>non erit pro tanto, quod habeat eadem peccata, que per 
-      <lb ed="#G" n="28"/>poenitentiam fuerunt dimissa: ed hoc erit pro tanto:
-      qui<lb ed="#G" n="29" break="no"/>recidiuando de nouo commisit similia peccata prioribus 
-      <lb ed="#G" n="30"/>per poenitentiam deletis, vel maiora, &amp; grauiora. 
-    </p>
-            <p xml:id="HuYgTa-266071-d1e644">
-               <lb ed="#G" n="31"/>
-               <pc type="indent"/>Ad sextum dicendum, quo d quamuis iterata
-      iniqui<lb ed="#G" n="32" break="no"/>tas possit exinanire minimam concessam, quantum ac 
-      <lb ed="#G" n="33"/>effectum futurum, qui est vitae vternae consecutio: tamen 
-      <lb ed="#G" n="34"/>non potest eam exinanire, quantum ad effectu iam
-      pre<lb ed="#G" n="35" break="no"/>teritum, qui est preteriti peccati deletio: quia sicut illud 
-      <lb ed="#G" n="36"/>quod est praesens, non potest non esse: quia omne, quod 
-      <lb ed="#G" n="37"/>est, quando est, necesse est esse, v dicitur i
-      periherme<lb ed="#G" n="38" break="no"/>nias: sic illud, quod praeteritum est, non potest non
-      fuis<lb ed="#G" n="39" break="no"/>se, &amp; per consequens peccata, quae poenitentia deleuit, 
-      <lb ed="#G" n="40"/>non possunt non esse deleta 
-    </p>
-            <p xml:id="HuYgTa-266071-d1e670">
-               <lb ed="#G" n="41"/>
-               <pc type="indent"/>Alia opin, ponit, quod peccata per poenitentiam
-      de<lb ed="#G" n="42" break="no"/>leta, non redeunt propter quodlibet peccatum
-      morta<lb ed="#G" n="43" break="no"/>le, quo poenitens recidiuat: sed tantummodo propter 4 
-      <lb ed="#G" n="44"/>uorum vnum est fraternum odium, aliud apostatare a 
-      <lb ed="#G" n="45"/>fide, tertium confessionem contemnere, quartum poen 
-      <lb ed="#G" n="46"/>tentia poenitentiae, puta si dolet se poenituisse de
-      praete<lb ed="#G" n="47" break="no"/>ritis peccatis. Et haec opin roboratur omnibus auctorita 
-      <lb ed="#G" n="48"/>tibus, quas Magister in c istius di adducit, &amp; adeo fuit 
-      <lb ed="#G" n="49"/>famosa ista opin, quod Magister non praesumpsit ei
-      con<lb ed="#G" n="50" break="no"/>tradicere, sicut patet in littera. Pro ista opin argueb ant 
-      <lb ed="#G" n="51"/>sui desensores sic. 
-    </p>
-            <p xml:id="HuYgTa-266071-d1e699">
-               <lb ed="#G" n="52"/>
-               <pc type="indent"/>1 Illud, quod conditionaliter dimittitur, hoc non 
-      <lb ed="#G" n="53"/>astante conditione reuertitur, &amp; non intelligitur esse di 
-      <lb ed="#G" n="54"/>missum: sed Deus non dimittit peccata, nisi sub hac
-      con<lb ed="#G" n="55" break="no"/>ditione, vt ille, cui dimittit, videlicet praedicta a.
-      pecca<lb ed="#G" n="56" break="no"/>ta: ergo si aliquod praedictorum a fecerit, tunc peccata 
-      <lb ed="#G" n="57"/>reuertentur Maior patet. Minorem probant auctoritati 
-      <lb ed="#G" n="58"/>bus, quas Magister hic adducit. 
-    </p>
-            <p xml:id="HuYgTa-266071-d1e720">
-               <lb ed="#G" n="59"/>
-               <pc type="indent"/>2 Praeterea, quicunque facit contra remissionis com 
-      <lb ed="#G" n="60"/>plementum, fundamentum, &amp; sacramentum, illius
-      pec<lb ed="#G" n="61" break="no"/>catum vel non dimittitur, vel si dimissum est, reuertitur; 
-      <lb ed="#G" n="62"/>Sed habens fraternum odium facit contra remissionis 
-      <lb ed="#G" n="63"/>complementum, puta, contra caritatem, quae operit pec 
-      <lb ed="#G" n="64"/>cata, apostatans a fide facit contra remissionis
-      funda<lb ed="#G" n="65" break="no"/>mentum, scilicet contra fidem, sed spernens confiteri, &amp;  
-      <lb ed="#G" n="66"/>poenitens se poenituisse facit contra remissionis
-      sacra<lb ed="#G" n="67" break="no"/>me itum: quia confessio, &amp; contritio, sunt partes
-      poeni<lb ed="#G" n="68" break="no"/>tentiae, quae est remissionis sacramentum: ergo &amp;c.
-      Vn<lb ed="#G" n="69" break="no"/>de sic suit famosa ista opin aliquibus temporibus, quod 
-      <lb ed="#G" n="70"/>praedicta sub his duobus versibus fuerunt comprehensa. 
-      <lb ed="#G" n="71"/>Fratre vodit, apostata fit, spernitque fateri. Peeuituisse pr 
-      <lb ed="#G" n="72"/>ger, pristina culpa redit. 
-    </p>
-            <p xml:id="HuYgTa-266071-d1e755">
-               <lb ed="#G" n="73"/>
-               <pc type="indent"/>Sed nec ista opinio stare potest. 
-      <!--752.xml-->
-      <cb ed="#G" n="b"/>
-               <lb ed="#G" n="74"/>Quia cum amne peccatum mortale repugnet gra 
-      <lb ed="#G" n="75"/>tiae, &amp; caritati, non apparet aliqua sufficiens ratio, quare 
-      <lb ed="#G" n="76"/>propter haec quattuor peccata redeant ea, quae sunt
-      di<lb ed="#G" n="77" break="no"/>missa, &amp; non propter alia 
-    </p>
-            <p xml:id="HuYgTa-266071-d1e775">
-               <lb ed="#G" n="78"/>
-               <pc type="indent"/> Praeterea, cum isti dicunt, peccata reuerti, vel intel 
-      <lb ed="#G" n="79"/>lipunt, quod reuertantur eadem numero, &amp; hoc est
-      im<lb ed="#G" n="80" break="no"/>possibile: quia per misericordiam Dei ad nihilum
-      reda<lb ed="#G" n="81" break="no"/>cta sunt: vel intelligunt, quod reuertantur non caden
-      nu<lb ed="#G" n="82" break="no"/>mero, sed eadem specie; tunc arguo sic. 
-    </p>
-            <p xml:id="HuYgTa-266071-d1e791">
-               <lb ed="#G" n="83"/>
-               <pc type="indent"/>lsta peccata de non esse procedunt ad esse: aut ergo 
-      <lb ed="#G" n="84"/>Deus producit ea ad esse, &amp; hoc non, quia qui facit pec 
-      <lb ed="#G" n="85"/>catum, seruus est peccati, sicut ait Apostolus: &amp; sic Deus 
-      <lb ed="#G" n="86"/>esset seruus peccati, &amp; mortalis peccator, quod est abiu 
-      <lb ed="#G" n="87"/>dum etiam cogitare: aut homo, &amp; hoc non, quia isti actus,  
-      <lb ed="#G" n="88"/>scilicet fraternum odium, &amp; sic de aliis quattuor, non sunt 
-      <lb ed="#G" n="89"/>de sua natura inductiui peccati adulteri, parricidis,
-      ma<lb ed="#G" n="90" break="no"/>tricidii, &amp; sic de aliis grauissimis peccatis, quae
-      quando<lb ed="#G" n="91" break="no"/>que per peenitentiam creduntur esse dimissa 
-    </p>
-            <p xml:id="HuYgTa-266071-d1e815">
-               <lb ed="#G" n="92"/>
-               <pc type="indent"/>Ad primum dicendum, quod minor non est vera, quia 
-      <lb ed="#G" n="93"/>Deus dat gratiam, &amp; caritatem, quae formale repugnan 
-      <lb ed="#G" n="94"/>tiam labent ad omne mortale peccatum: &amp; ideo
-      abso<lb ed="#G" n="95" break="no"/>lute ad nihilum redit omne mortale peccatum
-      praeexi<lb ed="#G" n="96" break="no"/>tens in subiecto, cui gratia, &amp; caritas, &amp; infunduntur, &amp;  
-      <lb ed="#G" n="97"/>per consequens simpliciter, &amp; non sub predicta
-      conditio<lb ed="#G" n="98" break="no"/>ne remittuntur peccata, vera, &amp; non ficta existente
-      ho<lb ed="#G" n="99" break="no"/>minis poenitentia. Verum est bene, quod vita spiritualis 
-      <lb ed="#G" n="100"/>per gratiam datur homini poenitenti sub conditione vi 
-      <lb ed="#G" n="101"/>tandi omne mortale peccatum, &amp; non solum praedictam 
-      <lb ed="#G" n="102"/>quattuor, de quibus isti loquuntur. Vnde sicut Deus
-      di<lb ed="#G" n="103" break="no"/>xit homini existenti in paradiso, quacunque hora come 
-      <lb ed="#G" n="104"/>deris ex eo, scilicet de pomo prohibito, morte morieris 
-      <lb ed="#G" n="105"/>sic etiam intelligendum est, quod Deus dicat
-      poeniten<lb ed="#G" n="106" break="no"/>ti, cum illi gratiam viuificantem influit, quacunque ho 
-      <lb ed="#G" n="107"/>ra peccatum mortale commiseris, spiritualiter morieris,  
-      <lb ed="#G" n="108"/>&amp; vita gratiae priuatus eris. Et ex hoc tamen non
-      sequi<lb ed="#G" n="109" break="no"/>tur, quod aliquod peccatum dimissum formaliter, &amp; per- 
-      <lb ed="#G" n="110"/>fecte reuertatur. 
-    </p>
-            <p xml:id="HuYgTa-266071-d1e861">
-               <lb ed="#G" n="111"/>Ad secundum concedo maiorem, quantum ad primi 
-      <lb ed="#G" n="112"/>membrum illius disiunctionis: quia pro tunc quando 
-      <lb ed="#G" n="113"/>actualiter facit contra illa tria, tunc nullum peccatum  
-      <lb ed="#G" n="114"/>eiremittitur. Et quia ad veritatem disiunctiuae
-      proposi<lb ed="#G" n="115" break="no"/>tionis sufficit alteram partem esse veram, ideo maior 
-      <lb ed="#G" n="116"/>proposito est vera. Et licet etiam minor sit vera, tamen 
-      <lb ed="#G" n="117"/>conclusio est falsa, quia virtute illarum praemissarum non 
-      <lb ed="#G" n="118"/>sequitur gratia formae altera pars disiunctionis, scilicet  
-      <lb ed="#G" n="119"/>quod peccata dimissa redeant, sicut ista opi intendit
-      con<lb ed="#G" n="120" break="no"/>cludere, sed sequitur ista tota disiunctiua proposito
-      sci<lb ed="#G" n="121" break="no"/>licet quod vel peccata non dimittuntur, vel si dimissa 
-      <lb ed="#G" n="122"/>sunt, reuertuntur, &amp; tunc ista disiunctiua verificatur gra 
-      <lb ed="#G" n="123"/>tia primae partis, &amp; non gratia secundae partis, quia
-      ill<lb ed="#G" n="124" break="no"/>per se accepta est falsa, vnde sicut dicendo, omne cutrens 
-      <lb ed="#G" n="125"/>mouetur, vel quiescit: Sortes currit: ergo Sortes quiescit 
-      <lb ed="#G" n="126"/>non sequitur conclusio, quamuis ambae praemissae sint vo 
-      <lb ed="#G" n="127"/>re: quia proceditur a pluribus causis Veritatis ad vnam: sec 
-      <lb ed="#G" n="128"/>bene sequitur concluso disiunctiue prolata, scilicet quod 
-      <lb ed="#G" n="129"/>Sortes, vel mouetur, vel quiescit: sic in proposito, &amp;c 
-    </p>
-            <p xml:id="HuYgTa-266071-d1e906">
-               <lb ed="#G" n="130"/>
-               <pc type="indent"/>Opinio tertia est, quod in recidiuante post
-      peniten<lb ed="#G" n="131" break="no"/>tiam peccata dimissa non redeunt formaliter, &amp;
-      secun<lb ed="#G" n="132" break="no"/>dum propriam existentiam, sed redeunt secundum
-      aequi<lb ed="#G" n="133" break="no"/>pollentiam, quia ita vitiatus, &amp; a Deo elvngatus erit 
-      <lb ed="#G" n="134"/>er mortale peccatum, quo recidiuat, sicut si peccata 
-      <lb ed="#G" n="135"/>preterita non essent sibi dimissa Et isto modo
-      intelli<lb ed="#G" n="136" break="no"/>gunt illud verbum P. Iac. Qui ofsenderit in vno, factus 
-      <lb ed="#G" n="137"/>est omnium reus 
-    </p>
-            <p xml:id="HuYgTa-266071-d1e928">
-               <lb ed="#G" n="138"/>
-               <pc type="indent"/>Sed etiam ista opin. irrationabilis esse videtur, qui 
-      <lb ed="#G" n="139"/>secundum i a dicta, sequeretur, quod peccatum
-      simpli<lb ed="#G" n="140" break="no"/>cis fornicationis, quo ille recidiuat, qui primo penituit 
-      <lb ed="#G" n="141"/>de centum homicidiis, aeque illum hominem vitiaret, &amp; 
-      <lb ed="#G" n="142"/>a Deo elongaret, sicut fecerant illa cetum, vel mille ho 
-      <lb ed="#G" n="143"/>micidia prius, quam peniteret, quod omnino absurdun 
-      <lb ed="#G" n="144"/>esse videtur. Nec verbum S lacobi est ad eorum propo 
-      <lb ed="#G" n="145"/>situm. Debet enim hoc verbum intelligi non quantum 
-      <lb ed="#G" n="146"/>ad aequipollentiam vitii, &amp; offensionis Dei, sed quantum 
-      <!--753.xml-->
-      <pb ed="#G" n="P2_141-v"/>
-               <cb ed="#G" n="a"/>
-               <lb ed="#G" n="1"/>ad sententiam poenae damni: quia poena damni, quae conn 
-      <lb ed="#G" n="2"/>sistit in carentia visionis diuinae essentiae secudum se, ess 
-      <lb ed="#G" n="3"/>omnibus decedentibus in mortali peccato communis 
-      <lb ed="#G" n="4"/>siue plura, &amp; grauiora habeant peccata: siue pauciora, &amp; 
-      <lb ed="#G" n="5"/>minus grauia Poena vero sensus est inaequalis, &amp; varia 
-      <lb ed="#G" n="6"/>secundum varietatem delictorum. Etiam in ipsa pena 
-      <lb ed="#G" n="7"/>damni potest esse aliqualis inaequalitas, secundum quo 
-      <lb ed="#G" n="8"/>vnus ex carentia diuinae visionis magis torqueatur. 
-      <lb ed="#G" n="9"/>quam alter, prout videt, quod ex suis demeritis plura, &amp; 
-      <lb ed="#G" n="10"/>maiora sibi ipsi praestitit impedimenta respectu beatifi 
-      <lb ed="#G" n="11"/>cae visionis. 
-    </p>
-            <p xml:id="HuYgTa-266071-d1e983">
-               <lb ed="#G" n="12"/>Conclusio 2. est, quod peccata dimissa possunt dici re 
-      <lb ed="#G" n="13"/>dire non in se, sed in sequentis peccati aliquali
-      aggraua<lb ed="#G" n="14" break="no"/>tione: Quia ratione annexae ingratitudinis aggrauatu 
-      <lb ed="#G" n="15"/>aliquo modo peccatum recidiuationis. Et isto modo
-      re<lb ed="#G" n="16" break="no"/>deundi debent intelligi auctoritates, quas Magister pro 
-      <lb ed="#G" n="17"/>secunda opinione hic adducit in littera. 
-    </p>
-            <p xml:id="HuYgTa-266071-d1e999">
-               <lb ed="#G" n="18"/>
-               <pc type="indent"/>ARTICVLVS Ii, 
-      <lb ed="#G" n="19"/>Vtrum peccata dimissa per peenitentiam, redeant 
-      <lb ed="#G" n="20"/>
-               <pc type="indent"/>quo ad peenam recidiuante ipso 
-      <lb ed="#G" n="21"/>
-               <pc type="indent"/>peenitente.
-    </p>
-            <p xml:id="HuYgTa-266071-d1e1017">
-               <lb ed="#G" n="22"/>QVANTVM ad secundum artic. pono duas
-      con<lb ed="#G" n="23" break="no"/>clusiones 
-      <lb ed="#G" n="24"/>Prima est, quod poena dimissa non reuertitur tota, u 
-      <lb ed="#G" n="25"/>in se, &amp; secundum se¬ 
-    </p>
-            <p xml:id="HuYgTa-266071-d1e1028">
-               <lb ed="#G" n="26"/>
-               <pc type="indent"/>1 Quia homo nonrequirit debitum primo dimissum 
-      <lb ed="#G" n="27"/>propter debitum de nouo contractum: ergo nec Deus 
-      <lb ed="#G" n="28"/>Antecedens patet: quia in lure ciuili dicitur, quod obli 
-      <lb ed="#G" n="29"/>gatio semel extincta, amplius non reuiuiscit.
-      Conse<lb ed="#G" n="30" break="no"/>quentia etiam patet, quia non est minus miserice rs Deus 
-      <lb ed="#G" n="31"/>quam homo, nec iura eiuilia sunt magis clementia, quam 
-      <lb ed="#G" n="32"/>lex diui na 
-    </p>
-            <p xml:id="HuYgTa-266071-d1e1049">
-               <lb ed="#G" n="33"/>2 Praeterea, culpa dimissa non redit secundum se, ex 
-      <lb ed="#G" n="34"/>go nec pena. Antecedens patet ex prima concluncne 
-      <lb ed="#G" n="35"/>primi arti, consequentia etiam nota est: quia poena
-      da<lb ed="#G" n="36" break="no"/>tur propter culpam, intelligendo de poena, de qua ad 
-      <lb ed="#G" n="37"/>praesens loquimur
-    </p>
-            <p xml:id="HuYgTa-266071-d1e1062">
-               <lb ed="#G" n="38"/>Sed contra istud sunt omnes illi, quorum opiniones 
-      <lb ed="#G" n="39"/>sunt recitatae in praecedenti ar quia, sicut dicunt redire 
-      <lb ed="#G" n="40"/>culpam: sic &amp; dicunt, redire penam Sed de his non plu 
-      <lb ed="#G" n="41"/>dicam: quia motiuis eorum responsum est in praedictis. 
-    </p>
-            <p xml:id="HuYgTa-266071-d1e1073">
-               <lb ed="#G" n="42"/>
-               <pc type="indent"/>Sunt etiam alii, qui dicunt, quod licet in recidiuante 
-      <lb ed="#G" n="43"/>peccata non redeant quo ad culpam, ramen redeunt quo 
-      <lb ed="#G" n="44"/>ad poenam: Quia sicut patet in fuan Dominus seruum 
-      <lb ed="#G" n="45"/>nequam, cui omne debitum dimiserat, tradidit
-      tor<lb ed="#G" n="46" break="no"/>toribus, donec redderet nouisfimum quadrantem: sic 
-      <lb ed="#G" n="47"/>quamuis poen tenti Deus dimiserit debitum poenae,
-      ta<lb ed="#G" n="48" break="no"/>men si poenitens efficitur nequam per recidiuationem, 
-      <lb ed="#G" n="49"/>tunc Deus requirit ab eo omnem poenam dimissam 
-    </p>
-            <p xml:id="HuYgTa-266071-d1e1095">
-               <lb ed="#G" n="50"/>
-               <pc type="indent"/>Sed ista opinio non valet, quia non consurget
-      duple<lb ed="#G" n="51" break="no"/>tribulatio, vt dicit prophetatigitur si propter praeceden 
-      <lb ed="#G" n="52"/>tem contritionem, vel confessionem, vel satisfactionem 
-      <lb ed="#G" n="53"/>Deus ipsi penitenti penam dimisit, antequam
-      recidiua<lb ed="#G" n="54" break="no"/>uit, de huiusmodi poena vlterius nihil re quiret. 
-    </p>
-            <p xml:id="HuYgTa-266071-d1e1111">
-               <lb ed="#G" n="55"/>
-               <pc type="indent"/>Ad illud, quod adducunt de Matthaeo dicendum, quod 
-      <lb ed="#G" n="56"/>illa au ctoritas, &amp; omnes aliae consimiles, intelligendae 
-      <lb ed="#G" n="57"/>de aggratiatione pene debitae pecrate recidiuationis: nam 
-      <lb ed="#G" n="58"/>sicut illud peccatum aggrauatur aliquo modo rationi 
-      <lb ed="#G" n="59"/>annexae ingratitudinis: sic etiam pena huic peccato
-      de<lb ed="#G" n="60" break="no"/>bita grauior erit, quam esset, si huiusmodi peccatum
-      an<lb ed="#G" n="61" break="no"/>nexam ingratitudinem non haberet. 
-    </p>
-            <p xml:id="HuYgTa-266071-d1e1131">
-               <lb ed="#G" n="62"/>
-               <pc type="indent"/>Secunda conclusio est, quod si penitenti non fuit
-      to<lb ed="#G" n="63" break="no"/>ta pena dimissa, antequam recidiuaret, tunc quamuis 
-      <lb ed="#G" n="64"/>pars dimissa non exigatur vlterius: totum tamen residuum 
-      <lb ed="#G" n="65"/>de huiusmodi pena totaliter exigetur: Quia hoc exigi 
-      <lb ed="#G" n="66"/>diuina iustitia, quod nullum malum maneat impunitum 
-      <lb ed="#G" n="67"/>malum enim culpae non trahitur ad ordinem vniuersi, 
-      <lb ed="#G" n="68"/>nisi per penam, &amp; ideo vniuersum non esset bene ordi¬ 
-      <!--753.xml-->
-      <cb ed="#G" n="b"/>
-               <lb ed="#G" n="69"/>natum, si alicui modo culpae non corresponderet
-      ali<lb ed="#G" n="70" break="no"/>quod malum penae¬ 
-    </p>
-            <p xml:id="HuYgTa-266071-d1e1161">
-               <lb ed="#G" n="71"/>
-               <pc type="indent"/>Forte dicetur, si non exigetur a recidiuante de pena 
-      <lb ed="#G" n="72"/>peccati remissi, nisi illa pars poenae, quae non est remissa, 
-      <lb ed="#G" n="73"/>&amp; de qua nondum satisfecit, tunc si moritur in peccato. 
-      <lb ed="#G" n="74"/>quo recidiuauit, non punietur perpetuo in inferno pro 
-      <lb ed="#G" n="75"/>illis primis peccatis, pro quibus adhuc satisfacere in pat 
-      <lb ed="#G" n="76"/>te tenebatur. Sed consequens estralsum, quia in inferno 
-      <lb ed="#G" n="77"/>est perpetua poena Probatio consequentiae, quia in
-      con<lb ed="#G" n="78" break="no"/>tritione poena aeterna mutata fuit in penam temporalem, 
-      <lb ed="#G" n="79"/>ergo residuum illius penae, quod manet post
-      contritio<lb ed="#G" n="80" break="no"/>nem, erit temporate Si enim non esset temporale, tund 
-      <lb ed="#G" n="81"/>non esset residuum poenae manentis post contritionem, 
-      <lb ed="#G" n="82"/>sed esset tota pena peccatis debita ante contritionem, 
-      <lb ed="#G" n="83"/>quia illa fuit aeterna, &amp; haberet praedicta opinio
-      propo<lb ed="#G" n="84" break="no"/>situm, quae ponit, quod peccatum per recidiuationem 
-      <lb ed="#G" n="85"/>reuertatur, quantum ad totam suam penam 
-    </p>
-            <p xml:id="HuYgTa-266071-d1e1198">
-               <lb ed="#G" n="86"/>
-               <pc type="indent"/>Respondeo negando consequentiam. 
-      <lb ed="#G" n="87"/>Ad probationem dicendum, quod licet illa pars
-      poe<lb ed="#G" n="88" break="no"/>nae, quae remansit secundum se, sit temporalis, sil tamen 
-      <lb ed="#G" n="89"/>ille, qui tenetur eam sustinere, non complet eam in hoc 
-      <lb ed="#G" n="90"/>mundo, &amp; moritur in mortali peccato, tunc per accidens 
-      <lb ed="#G" n="91"/>perpetuatur, puta ratione, qua coniungitur penae perpe 
-      <lb ed="#G" n="92"/>tuae debitae mortali peccato, in quo talis homo moritur, 
-      <lb ed="#G" n="93"/>Simile apparet de veniali peccato, cui licet debeatur pe 
-      <lb ed="#G" n="94"/>na temporalis secundum se:tamen si post mortem
-      ho<lb ed="#G" n="95" break="no"/>minis annexum fuerit peccato mortati, tunc per
-      acci<lb ed="#G" n="96" break="no"/>dens, scilicet, ratione mortalis peccati annexi perpetuo 
-      <lb ed="#G" n="97"/>punietur, supposito, quod nulla temporalis poena sit in 
-      <lb ed="#G" n="98"/>inferno, sicut supponit instantia supradicta. 
-    </p>
-            <p xml:id="HuYgTa-266071-d1e1231">
-               <lb ed="#G" n="99"/>
-               <pc type="indent"/>ARTICVLVS III 
-      <lb ed="#G" n="100"/>Vtrum causa (dato quod aliquo modo redeant)  
-      <lb ed="#G" n="101"/>
-               <pc type="indent"/>Piiusmodi reditionis sit 
-      <lb ed="#G" n="102"/>
-               <pc type="indent"/>mgratitudo.
-    </p>
-            <p xml:id="HuYgTa-266071-d1e1249">
-               <lb ed="#G" n="103"/>QVANTVM Ad tertium articulum primo viden 
-      <lb ed="#G" n="104"/>dum est quid sit ingratitudo, secundo de quaesito. 
-    </p>
-            <p xml:id="HuYgTa-266071-d1e1256">
-               <lb ed="#G" n="105"/>
-               <pc type="indent"/>Dico ergo primo, quod ingratitudo est quaedam
-      ho<lb ed="#G" n="106" break="no"/>minis ineptitudo, quae voluntarie contingit, quod
-      debi<lb ed="#G" n="107" break="no"/>tas gratiarum actiones reddere negligit, vel oppositum 
-      <lb ed="#G" n="108"/>huiusmodi actionum impendit ei, a quo libere
-      benefi<lb ed="#G" n="109" break="no"/>cium prius accepit. Possunt etiam distingui 4. gradus 
-      <lb ed="#G" n="110"/>ipsius ingratitudinis: quia aliqui sunt, qui acceptum
-      be<lb ed="#G" n="111" break="no"/>neficium non retribuunt, quando retribuere possunt, 
-      <lb ed="#G" n="112"/>alit sunt, qui retribuere contemnunt: tertu, qui
-      benefi<lb ed="#G" n="113" break="no"/>cium adeo peruipendunt, quod penitus obliuioni tradunt 
-      <lb ed="#G" n="114"/>Quarti sunt, qui opere indebito etiam ipsum suum
-      be<lb ed="#G" n="115" break="no"/>nefactorem offendere praesumunt Contra primos ait 
-      <lb ed="#G" n="116"/>
-               <ref xml:id="HuYgTa-266071-Rd1e1286">bern ser. 35</ref>: Sratiarum cessat decursus, vbi non fuerit 
-      <lb ed="#G" n="117"/>recursus. Contra secundos ait <ref xml:id="HuYgTa-266071-Rd1e1291">Bern ser. 52.</ref> peruersi
-      cor<lb ed="#G" n="118" break="no"/>dis est occasiones ingratitudinis inuestigare: nemo illud 
-      <lb ed="#G" n="119"/>facit, nisi ille, qui etiam oratis est ingratus. Contra
-      ter<lb ed="#G" n="120" break="no"/>tios ait bernm de diligendo Deo, vuperbiae est, &amp; delictu 
-      <lb ed="#G" n="121"/>maximum vti datis, tamquam innatis. Contra quartos 
-      <lb ed="#G" n="122"/>ait idem Dern. super cant. Ingratitudo est ventus vrens, 
-      <lb ed="#G" n="123"/>siccans fontem pietatis, rorem misericordiae, &amp; fluenta 
-      <lb ed="#G" n="124"/>gratiae. 
-    </p>
-            <p xml:id="HuYgTa-266071-d1e1310">
-               <lb ed="#G" n="125"/>
-               <pc type="indent"/>Quantum est de quaesito in isto. 3 artic teneo
-      breui<lb ed="#G" n="126" break="no"/>ter conclusionem affirmatiuam, scilicet quod
-      ingratitu<lb ed="#G" n="127" break="no"/>do est causa reditionis peccatorum praecedenter
-      dimis<lb ed="#G" n="128" break="no"/>sorum modo, quo dicuntur redire huiusmodi peccata, 
-      <lb ed="#G" n="129"/>quia aggrauatio contingit in peccato recidiuationis
-      ra<lb ed="#G" n="130" break="no"/>tione, qua recidiuans ingratus est de praecedenti benefi 
-      <lb ed="#G" n="131"/>cio, quo Deus eum absoluit a peccato: sed peccata
-      di<lb ed="#G" n="132" break="no"/>missa non reuertuntur in se, sed solum in sequentis pec 
-      <lb ed="#G" n="133"/>cati aggrauatione, ergo &amp;c. Maior patet, quia quanto 
-      <lb ed="#G" n="134"/>maior in recidiuante fuerit ingratitudo, tanto magis sui 
-      <!--754.xml-->
-      <pb ed="#G" n="P2_142-r"/>
-               <cb ed="#G" n="a"/>
-               <lb ed="#G" n="1"/>eccati accumulatur aggrauatio. Minor etiam patet ex 
-      <lb ed="#G" n="2"/>dictis in 1. articulo.  
-    </p>
-            <p xml:id="HuYgTa-266071-d1e1348">
-               <lb ed="#G" n="3"/>
-               <pc type="indent"/>ARTICVLVS III1. 
-      <lb ed="#G" n="4"/>Quid sit sacramentum, ey quia res sacramenti 
-      <lb ed="#G" n="5"/>in poenitentiae sacramento.
-    </p>
-            <p xml:id="HuYgTa-266071-d1e1359">
-               <lb ed="#G" n="6"/>QVANTVM ad quartum articulum est aduerten 
-      <lb ed="#G" n="7"/>dum, quod in sacramento ponitentiae est tria
-      com<lb ed="#G" n="8" break="no"/>siderare, scilicet exteriorem actionem, interiorem
-      con<lb ed="#G" n="9" break="no"/>tritionem, &amp; peccati remissionem. Et secundum hoc po 
-      <lb ed="#G" n="10"/>no triplicem conclusionem. 
-    </p>
-            <p xml:id="HuYgTa-266071-d1e1372">
-               <lb ed="#G" n="11"/>
-               <pc type="indent"/>Prima est, quod poenitentia, quantum ad actus
-      exte<lb ed="#G" n="12" break="no"/>riores, qui sunt actus confitentis, &amp; actus sacerdotis
-      ab<lb ed="#G" n="13" break="no"/>soluentis, &amp; satisfactionem iniungentis, est
-      sacramen<lb ed="#G" n="14" break="no"/>tum tantum. 
-    </p>
-            <p xml:id="HuYgTa-266071-d1e1385">
-               <lb ed="#G" n="15"/>
-               <pc type="indent"/>Secunda conclusio est, quod peccati remissio est res 
-      <lb ed="#G" n="16"/>sacramenti tantum. 
-    </p>
-            <p xml:id="HuYgTa-266071-d1e1394">
-               <lb ed="#G" n="17"/>Tertia conclusio est, quod interior poenitentia,
-      scili<lb ed="#G" n="18" break="no"/>cet contritio est sacramentum, &amp; res sactamenti; est enim 
-      <lb ed="#G" n="19"/>sactamentum respectu remissionis, sed est res sacramen 
-      <lb ed="#G" n="20"/>ti respectu exterioris actionis tam confitentis, quam 
-      <lb ed="#G" n="21"/>etiam absoluentis hic non insisto, quia ista satis hic pa 
-      <lb ed="#G" n="22"/>tent in litter a. 
-    </p>
-            <p xml:id="HuYgTa-266071-d1e1410">
-               <lb ed="#G" n="23"/>
-               <pc type="indent"/>Ad argumentum princ. potest dici, quod non est simi 
-      <lb ed="#G" n="24"/>le de seruo manumisso &amp;c. quia maioris clementiae est 
-      <lb ed="#G" n="25"/>ex diuina, quam humana. vel potest dici, quod sicut 
-      <lb ed="#G" n="26"/>manumissus peccans contra dominum suum,
-      retrudi<lb ed="#G" n="27" break="no"/>tur non in eandem seruitutem numero, sed specie, nec 
-      <lb ed="#G" n="28"/>ex eadem causa, qua primo, sed ex noua causa, puta ex 
-      <lb ed="#G" n="29"/>nouo crimine, quo offendit dom num suum: sic recidi 
-      <lb ed="#G" n="30"/>uans relabitur in seruiturem peccati, non tamen in
-      ea<lb ed="#G" n="31" break="no"/>dem numero, in qua prius erat, antequam peniteret, nec 
-      <lb ed="#G" n="32"/>ex eadem causa, sed ex peccato pro nunc de nouo
-      per<lb ed="#G" n="33" break="no"/>petrato: &amp; ideo non oportet, ratione huius seruitutis, re 
-      <lb ed="#G" n="34"/>dire peccata, quae prius suerunt dimissa, &amp; in hoc
-      termi<lb ed="#G" n="35" break="no"/>natur tractatus de poenitentia. 
-    </p>
-         </div>
-      </body>
-   </text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 1</title>
+        <author ref="#ThomasStrasbourg">Thomas of Strasbourg</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 1</title>
+          <date when="2020-11-26">November 26, 2020</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="G" n="cod-TxxxqU">Genoa 1585</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2020-11-26" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#G" n="P2_140-r"/>
+        <cb ed="#G" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="HuYgTa-266071"><!-- HuYgTa-l4d22q1 -->
+        <head xml:id="HuYgTa-266071-Hd1e108">Quaestio 1</head>
+        <head xml:id="HuYgTa-266071-Hd1e111" type="question-title">
+          An peccata per poenitentiam deleta
+          recidivantis ingratitudine 
+          rursus redeant
+        </head>
+        <p xml:id="HuYgTa-266071-d1e114">
+          <lb ed="#G" n="111"/>Questio.  1. 
+          <lb ed="#G" n="112"/>An peccata per poenitentiam deleta
+          re<lb ed="#G" n="113" break="no"/>cidiuantis ingratitudine 
+          rur<lb ed="#G" n="114" break="no"/>sus redeant
+        </p>
+        <p xml:id="HuYgTa-266071-d1e125">
+          <lb ed="#G" n="115"/>VTRVM peccata dimissa per poenitentiae sacrame 
+          <lb ed="#G" n="116"/>V tum redeant propter ingratitudinem recidiuanti 
+          <lb ed="#G" n="117"/>post huiusmodi dimissionem in aliquod mortale peccatum
+        </p>
+        <p xml:id="HuYgTa-266071-d1e134">
+          <lb ed="#G" n="118"/>Et videtur, quod sic, quia scum leges ciuiles libertus, seu 
+          <lb ed="#G" n="119"/>seruus manumissus peccans contra dum suum, popter
+          ingra<lb ed="#G" n="120" break="no"/>citudinem, quia non recognouit beneficium sibi impensum, 
+          <lb ed="#G" n="121"/>cetrudendus est in pristinam seruitutem, sed per sacramentum 
+          <lb ed="#G" n="122"/>poenitentiae poenitens liberatur a seruitute diaboli, &amp; rest 
+          <lb ed="#G" n="123"/>tuitur in libertatem perditae gratiae: ergo si ingratus contra 
+          <lb ed="#G" n="124"/>dum suum, qui eu liberauit a tali seruiture, peccat
+          mor<lb ed="#G" n="125" break="no"/>tali peccato, tuc iuste retrudetur in pristinam seruitutem, &amp;  
+          <lb ed="#G" n="126"/>per consequens redeunt peccata, quibs primo seruiuit dia 
+          <lb ed="#G" n="127"/>holo, Contra, quae ad nihilum sunt redacta, illa per hu 
+          <lb ed="#G" n="128"/>nanum actum, seu per humaui actus defectum non pos 
+          <lb ed="#G" n="129"/>sunt redire ad esse: sed virtute poenitentiae per influxum
+          diui<lb ed="#G" n="130" break="no"/>nae gratiae peccata dimissa, sunt ad nihilum redacta: ergo
+          in<lb ed="#G" n="131" break="no"/>gratitudo, quae vel est quidam actus humanus, vel quidam 
+          <!--751.xml-->
+          <pb ed="#G" n="P2_140-v"/>
+          <cb ed="#G" n="a"/>
+          <lb ed="#G" n="1"/>defectus actus humani non potest esse causa reuersionis 
+          <lb ed="#G" n="2"/>huiusmodi peccatorum. Hic primo videndum est, vtrum per 
+          <lb ed="#G" n="3"/>cata dimissa per poenitentiam redeant, quo ad culpam 
+          <lb ed="#G" n="4"/>recidiuante ipso poenitente. Secundo, utrum redeant quo 
+          <lb ed="#G" n="5"/>ad poenam Tertio, dato, quod aliquo modo redeant,
+          v<lb ed="#G" n="6" break="no"/>trum causa huiusmodi reditionis sit ingratitudo.
+          Quar<lb ed="#G" n="7" break="no"/>ro, quid sit sacramentum, &amp; quid res sacramenti in poeni 
+          <lb ed="#G" n="8"/>tentiae sacramento. 
+        </p>
+        <p xml:id="HuYgTa-266071-d1e192">
+          <lb ed="#G" n="9"/>
+          <pc type="indent"/>RESOLVTI O. 
+          <lb ed="#G" n="10"/>licet dimissa peccata, quo ad culpam seu maculam reuertantur,  
+          <lb ed="#G" n="11"/>
+          <pc type="indent"/>non tamen quo ad complet am sui malitiam vredire possant, hoc 
+          <lb ed="#G" n="12"/>est, non in se sed in sequentis peccati aliquali aggrauatione ra 
+          <lb ed="#G" n="13"/>rtomne ingrat itudinis annexae. 
+        </p>
+        <p xml:id="HuYgTa-266071-d1e210">
+          <lb ed="#G" n="14"/>A R TICV R A 
+          <lb ed="#G" n="15"/>Vtrum peccata dimissa per peenitentiam
+          re<lb ed="#G" n="16" break="no"/>
+          <pc type="indent"/>deant quo ad culpam veridente 
+          <lb ed="#G" n="17"/>
+          <pc type="indent"/>ipso peenitente.
+        </p>
+        <p xml:id="HuYgTa-266071-d1e226">
+          <lb ed="#G" n="18"/>SVANTVM ad primum est aduertendum, quod 
+          <lb ed="#G" n="19"/>
+          <pc type="indent"/>eccata dimissa, quantum ad cul pam, seu maci 
+          <lb ed="#G" n="20"/>lam redire, potest intelligi dupliciter: vno modo, secun 
+          <lb ed="#G" n="21"/>dum suum esse proprium, &amp; completam malitiam, scu in 
+          <lb ed="#G" n="22"/>fectionem, alio modo, quantum ad sequentis peccati ali 
+          <lb ed="#G" n="23"/>qualem aggrauationem. Et secundum hoc pono duplicen 
+          <lb ed="#G" n="24"/>conclusionem, 
+        </p>
+        <p xml:id="HuYgTa-266071-d1e246">
+          <lb ed="#G" n="25"/>
+          <pc type="indent"/>Prima est, quod peccata non re deunt primo
+          mo<lb ed="#G" n="26" break="no"/>do. Quia si reuerterentur peccata dimissa secundum sus 
+          <lb ed="#G" n="27"/>completam malitiam, vel hoc fieret actione hominis, vel 
+          <lb ed="#G" n="28"/>actione Dei; non primo modo, quia quod annihilatum 
+          <lb ed="#G" n="29"/>est virtute diuina, non potest humana actione reuerti; idi 
+          <lb ed="#G" n="30"/>numero secundum esse completum, nec secundo modo 
+          <lb ed="#G" n="31"/>quia secundum Aug. Deo auctore nemo deterior effici 
+          <lb ed="#G" n="32"/>tur. Etiam hoc posito, Deus esset per se causa peccati, quod 
+          <lb ed="#G" n="33"/>est inconueniens
+        </p>
+        <p xml:id="HuYgTa-266071-d1e270">
+          <lb ed="#G" n="34"/>2 Praeterea, si sit, tunc vnum oppositorum esset per si 
+          <lb ed="#G" n="35"/>causa essendi alt erius oppositorum. Falsitas
+          consequen<lb ed="#G" n="36" break="no"/>tis patet: probo consequentiam, quia quandoque contin 
+          <lb ed="#G" n="37"/>git talem hominem peccare peccato prodigalitatis, cu 
+          <lb ed="#G" n="38"/>prius per poenitentiam fuit dimissum peccatum auaritiae 
+          <lb ed="#G" n="39"/>ergo si peccatum, quo poenitens recidiuat esset causa
+          re<lb ed="#G" n="40" break="no"/>litionis peccat orum dimissorum, tunc peccatum prod 
+          <lb ed="#G" n="41"/>alitatis esset per se causa peccati auaritiae, &amp; eodem mi 
+          <lb ed="#G" n="42"/>do potest argui de timiditate, &amp; audacia, &amp; quibuslibet 
+          <lb ed="#G" n="43"/>aliis oppositis vitiis, &amp; peccatis. 
+        </p>
+        <p xml:id="HuYgTa-266071-d1e294">
+          <lb ed="#G" n="44"/>
+          <pc type="indent"/>Sed quamuis in ista conclusione satis concordent mo 
+          <lb ed="#G" n="45"/>derni doctores, tamen contra eam sunt tres opi. docto 
+          <lb ed="#G" n="46"/>rum atiquorum. Quidam n absolute, &amp;sine distinctione 
+          <lb ed="#G" n="47"/>
+          <pc type="indent"/>posuerunt, quod recidiuante poenitente, redeunt omni- 
+          <lb ed="#G" n="48"/>peccata, quae per poenitentiam erant deleta, quod 
+          <lb ed="#G" n="49"/>probant Sic 
+        </p>
+        <p xml:id="HuYgTa-266071-d1e315">
+          <lb ed="#G" n="50"/>
+          <pc type="indent"/>1 Sicut se habet gratia per poenitentiam acquisita ac 
+          <lb ed="#G" n="51"/>merita per peccata precedentia deleta, &amp; mortificata, sic 
+          <lb ed="#G" n="52"/>se habet malitia per peccata post poenitentiam
+          contra<lb ed="#G" n="53" break="no"/>cta ad peccata deleta per gratiam primitus acquisitam,  
+          <lb ed="#G" n="54"/>sed per gratiam acquisitam omnia merita peccatis pra 
+          <lb ed="#G" n="55"/>cedentious mortificata reuiuiscunt, &amp; renouantur, vt pro 
+          <lb ed="#G" n="56"/>tet per communem sanctorum doctrinam, ergo per ma 
+          <lb ed="#G" n="57"/>litiam sequentis peccati omnia demerita, seu peccata
+          vir<lb ed="#G" n="58" break="no"/>tute poenitentiae, &amp; praecedentis gratiae deleta penitus 
+          <lb ed="#G" n="59"/>renouantur
+        </p>
+        <p xml:id="HuYgTa-266071-d1e341">
+          <lb ed="#G" n="60"/>2 Praeterea, Sicut caritas se habet ad uiuificandum, sis 
+          <lb ed="#G" n="61"/>mortalis culpa ad mortificadum, sed caritas sic uiuificas 
+          <lb ed="#G" n="62"/>quod reducit ad uitam talia mortificata, quae quandouuc 
+          <lb ed="#G" n="63"/>suerunt viua: ergo mortalis peccati malitia reducet illa  
+          <!--751.xml-->
+          <cb ed="#G" n="b"/>
+          <lb ed="#G" n="64"/>deleta peccata, quibus quandoque anima fuit mortua 
+        </p>
+        <p xml:id="HuYgTa-266071-d1e359">
+          <lb ed="#G" n="65"/>
+          <pc type="indent"/>3 Praeterea, subtracto tegmine, tunc apparent illa,  
+          <lb ed="#G" n="66"/>quae prius fuerunt tecta: sed caritas, quae operit
+          multitu<lb ed="#G" n="67" break="no"/>dinem peccatorum, vt dicit D. Pet subtrahitur per
+          morta<lb ed="#G" n="68" break="no"/>le peccatum sequens poenitentiam, ergo peccata, quae prius 
+          <lb ed="#G" n="69"/>fuerunt deleta, vel cooperta caritate, iterum apparent 
+          <lb ed="#G" n="70"/>in visione, &amp; in putatione diuina.
+        </p>
+        <p xml:id="HuYgTa-266071-d1e377">
+          <lb ed="#G" n="71"/>4 Praeterea, remota causa, remouetur effectus: sed de 
+          <lb ed="#G" n="72"/>letionis peccatorum praecedentium gratia est causa
+          im<lb ed="#G" n="73" break="no"/>mediata: ergo abiata gratia per sequens peccatum tolli 
+          <lb ed="#G" n="74"/>tur deletio praecedentium peccatorum, &amp; per consequens 
+          <lb ed="#G" n="75"/>huiusmodi peccata ponentur, quia sublato vno
+          priuati<lb ed="#G" n="76" break="no"/>ue oppositorum, ponitur reliquum, eo quod sint opposi 
+          <lb ed="#G" n="77"/>ta immediata. 
+        </p>
+        <p xml:id="HuYgTa-266071-d1e395">
+          <lb ed="#G" n="78"/>3 Praeterea, poenitens recidiuans non est in meliori 
+          <lb ed="#G" n="79"/>statu, quam fuit atequam poeniteret: ergo in omnibus pec 
+          <lb ed="#G" n="80"/>catis est, in quibus fuit, antequam poeniteret antecedens i 
+          <lb ed="#G" n="81"/>batur, quia dicit Propheta. Si auerterit se iul a iusti. sua 
+          <lb ed="#G" n="82"/>omnes iusti. quas fe non recor. Sed poenitentia est quae 
+          <lb ed="#G" n="83"/>dam iustitia vindicatiua, vt patet ex dictis distin. I4t arti 
+          <lb ed="#G" n="84"/>i. ergo status recidiuantis non est melior in
+          recordatio<lb ed="#G" n="85" break="no"/>ne, vel conspectu Dei, quam si prius non egisset
+          poeniten<lb ed="#G" n="86" break="no"/>tiam consequentia patet, quia si poenitens recidiuans 
+          <lb ed="#G" n="87"/>non est in meliori statu post recidiuationem, quam fuerat 
+          <lb ed="#G" n="88"/>prius, quam poeniteret: ergo non habet pauciora, vel
+          mi<lb ed="#G" n="89" break="no"/>nora peccata, quam habuit antequam poeniteret 
+        </p>
+        <p xml:id="HuYgTa-266071-d1e424">
+          <lb ed="#G" n="90"/>
+          <pc type="indent"/>Praeterea, istud videtur esse de intentione Leonis 
+          <lb ed="#G" n="91"/>Pape, qui ait, Iterata iniquitas misericordiam concessam 
+          <lb ed="#G" n="92"/>exinaniuit: Multa alia dimitto, quae pro ista opi per Ma 
+          <lb ed="#G" n="93"/>gistrum hic adducuntur in littera. 
+        </p>
+        <p xml:id="HuYgTa-266071-d1e438">
+          <lb ed="#G" n="94"/>
+          <pc type="indent"/>Sed contrarium istius opin expresse ponit <ref xml:id="HuYgTa-266071-Rd1e444">August. 1t 
+            <lb ed="#G" n="95"/>libr, de resposionibus Prosp.</ref> vbi ait, qui recedit a
+          Chri<lb ed="#G" n="96" break="no"/>sto, &amp; alienatus a gratia viuit in hac vita, quid nisi in por 
+          <lb ed="#G" n="97"/>ditionem vadit, sed non in id, quod dimissum est, redit 
+        </p>
+        <p xml:id="HuYgTa-266071-d1e454">
+          <lb ed="#G" n="98"/>
+          <pc type="indent"/>Ad primum dicendum, quod non est simile illud, quao 
+          <lb ed="#G" n="99"/>in maiori assumitur pro simili. ln illis n terminis similiti 
+          <lb ed="#G" n="100"/>do sic deberet sumi, quod sicut se habet gratia ad
+          meri<lb ed="#G" n="101" break="no"/>ta mortua viuificanda, sic se habet culpa ad merita
+          viu<lb ed="#G" n="102" break="no"/>mortificanda, &amp; tunc non plus habetur in conclusione, 
+          <lb ed="#G" n="103"/>nisi quod, sicut gratia poenitenti collata viuificat merita 
+          <lb ed="#G" n="104"/>per praecedentia peccata mortificata, sic peccatum se 
+          <lb ed="#G" n="105"/>quens poenitentiam mortificat ea, quae inuenit
+          viuifica<lb ed="#G" n="106" break="no"/>ta per gratiam. 
+        </p>
+        <p xml:id="HuYgTa-266071-d1e478">
+          <lb ed="#G" n="107"/>
+          <pc type="indent"/>Ad secundum dicendum, quod concessa maiori, &amp;mi 
+          <lb ed="#G" n="108"/>nori, non sequitur concluno, quae infertur: sed sequitur 
+          <lb ed="#G" n="109"/>ista, quod mortalis culpa ducit ad mortem talia viuifica 
+          <lb ed="#G" n="110"/>ta, quae quandoque fucrunt mortua, &amp; haec conclusio ess 
+          <lb ed="#G" n="111"/>vera: quia culpa mortalis sequens poenitentiam, iterum 
+          <lb ed="#G" n="112"/>mortificat merita viuificata per gratiam poenitentialem,  
+          <lb ed="#G" n="113"/>quae etiam prius fuerunt mortificata per culpam
+          pooni<lb ed="#G" n="114" break="no"/>tentiam praecedentem 
+        </p>
+        <p xml:id="HuYgTa-266071-d1e500">
+          <lb ed="#G" n="115"/>
+          <pc type="indent"/>Ad tertium dicendum, quod maior non est uera, si te 
+          <lb ed="#G" n="116"/>gmen est illius conditionis, quod corrumpit, &amp; penitus 
+          <lb ed="#G" n="117"/>destruit illud, quod tegit, sed caritas dicitur cooperir; 
+          <lb ed="#G" n="118"/>eccatum destructiue; quia expellit, &amp; consumit peccarum 
+          <lb ed="#G" n="119"/>&amp; ideo, subtracta caritate, non remanet peccatum 
+          <lb ed="#G" n="120"/>quod praecessit caritate, &amp; dicebatur cooperiri caritates 
+        </p>
+        <p xml:id="HuYgTa-266071-d1e518">
+          <lb ed="#G" n="121"/>
+          <pc type="indent"/>Ad quartum dicendum quod quantum ad praesens, posi 
+          <lb ed="#G" n="122"/>sumus dupliciter loqui de causa, quia quaedam est
+          cau<lb ed="#G" n="123" break="no"/>sa non solum effectus inductiua, sed etiam praecise con- 
+          <lb ed="#G" n="124"/>seruatiua, alia sic est effectus inductiua, quod tamen eius 
+          <lb ed="#G" n="125"/>dem effectus non est praecise conseruatiua primo modo 
+          <lb ed="#G" n="126"/>gnis est causa sui splendoris in aere: secundo modo ess 
+          <lb ed="#G" n="127"/>tausa sui caloris in ferro, vel in alia re calorem impres 
+          <lb ed="#G" n="128"/>sum absente igne retinente de causa primo modo dicta 
+          <lb ed="#G" n="129"/>vera est maior: sed minor est falsa. Sed de causa secundo 
+          <lb ed="#G" n="130"/>modo dicta maior est vera, quia gratia inducit hunc effe 
+          <lb ed="#G" n="131"/>ctum, qui est deletio, vel non esse peccati praecedentis 
+          <lb ed="#G" n="132"/>gratiam in subiecto rationali: maior tamen est falsa, quia 
+          <lb ed="#G" n="133"/>quamuis impressio gladij inducat vulnus, tamen
+          extra<lb ed="#G" n="134" break="no"/>cto gladio, manet vulnus: sic in proposito, ablata gratia, 
+          <lb ed="#G" n="135"/>non aufertur non esse illius peccati, quod fuit deletum 
+          <lb ed="#G" n="136"/>per gtatiam.
+        </p>
+        <p xml:id="HuYgTa-266071-d1e557">
+          <!--752.xml-->
+          <pb ed="#G" n="P2_141-r"/>
+          <cb ed="#G" n="a"/>
+          <lb ed="#G" n="1"/>Forte dices minorem esse veram, accipiendo causam 
+          <lb ed="#G" n="2"/>rimo modo: quia manente gratia, semper conseruatur 
+          <lb ed="#G" n="3"/>lle effectus, qui est non esse peccati deleti per gratiam  
+          <lb ed="#G" n="4"/>ergo videtur, quod gratia illius effectus non solum sit 
+          <lb ed="#G" n="5"/>causa inductiua, sed etiam conseruatiua 
+        </p>
+        <p xml:id="HuYgTa-266071-d1e578">
+          <lb ed="#G" n="6"/>Respondeo, quod qua nuis manente gladio in corpe 
+          <lb ed="#G" n="7"/>re, cui infixus est, semper maneat vulnus: quia tamen
+          sub<lb ed="#G" n="8" break="no"/>tracto gladio, adhuc manet vulnus: ideo fufficienter
+          ar<lb ed="#G" n="9" break="no"/>guitur, quod gladius non sit precise causa vulneris con 
+          <lb ed="#G" n="10"/>seruatiua: sic in proposito &amp;c. 
+        </p>
+        <p xml:id="HuYgTa-266071-d1e591">
+          <lb ed="#G" n="11"/>
+          <pc type="indent"/>Ad quintum dicendum, quod antecedens non est ve 
+          <lb ed="#G" n="12"/>rum, absolute loquendo: quii dato, quod recidiuet per 
+          <lb ed="#G" n="13"/>vnum de leuioribus mortalibus peccatis, &amp; antequam 
+          <lb ed="#G" n="14"/>poeniteret, fuerit in multis, &amp; grauissimis peccatis: tund 
+          <lb ed="#G" n="15"/>post recidiuationem est in meliori statu, &amp; dispositione 
+          <lb ed="#G" n="16"/>quam fuerit antequam poeniteret de illis grauissimis 
+          <lb ed="#G" n="17"/>peccatis. 
+        </p>
+        <p xml:id="HuYgTa-266071-d1e611">
+          <lb ed="#G" n="18"/>
+          <pc type="indent"/>Ad probationem dicendum, quod quamuis iustitia 
+          <lb ed="#G" n="19"/>recidiuantis non veniant in recordationem De, secun 
+          <lb ed="#G" n="20"/>dum quod huiusmodi, quantum ad hunc effectum, qui 
+          <lb ed="#G" n="21"/>est consecutio vitae aeternae: tamen semper sunt in recor 
+          <lb ed="#G" n="22"/>datione Dei, quantum ad hunc effectum, qui est deletio 
+          <lb ed="#G" n="23"/>peccati praecedentis ipsam poenitentiam. Etiam conse 
+          <lb ed="#G" n="24"/>quentia est neganda cum sua probatione: quia dato, quod 
+          <lb ed="#G" n="25"/>homo postrecidiuationem non sit in meliori statu, vel 
+          <lb ed="#G" n="26"/>sit in peiori statu, quam fuit antequam poeniteret, hos 
+          <lb ed="#G" n="27"/>non erit pro tanto, quod habeat eadem peccata, que per 
+          <lb ed="#G" n="28"/>poenitentiam fuerunt dimissa: ed hoc erit pro tanto:
+          qui<lb ed="#G" n="29" break="no"/>recidiuando de nouo commisit similia peccata prioribus 
+          <lb ed="#G" n="30"/>per poenitentiam deletis, vel maiora, &amp; grauiora. 
+        </p>
+        <p xml:id="HuYgTa-266071-d1e644">
+          <lb ed="#G" n="31"/>
+          <pc type="indent"/>Ad sextum dicendum, quo d quamuis iterata
+          iniqui<lb ed="#G" n="32" break="no"/>tas possit exinanire minimam concessam, quantum ac 
+          <lb ed="#G" n="33"/>effectum futurum, qui est vitae vternae consecutio: tamen 
+          <lb ed="#G" n="34"/>non potest eam exinanire, quantum ad effectu iam
+          pre<lb ed="#G" n="35" break="no"/>teritum, qui est preteriti peccati deletio: quia sicut illud 
+          <lb ed="#G" n="36"/>quod est praesens, non potest non esse: quia omne, quod 
+          <lb ed="#G" n="37"/>est, quando est, necesse est esse, v dicitur i
+          periherme<lb ed="#G" n="38" break="no"/>nias: sic illud, quod praeteritum est, non potest non
+          fuis<lb ed="#G" n="39" break="no"/>se, &amp; per consequens peccata, quae poenitentia deleuit, 
+          <lb ed="#G" n="40"/>non possunt non esse deleta 
+        </p>
+        <p xml:id="HuYgTa-266071-d1e670">
+          <lb ed="#G" n="41"/>
+          <pc type="indent"/>Alia opin, ponit, quod peccata per poenitentiam
+          de<lb ed="#G" n="42" break="no"/>leta, non redeunt propter quodlibet peccatum
+          morta<lb ed="#G" n="43" break="no"/>le, quo poenitens recidiuat: sed tantummodo propter 4 
+          <lb ed="#G" n="44"/>uorum vnum est fraternum odium, aliud apostatare a 
+          <lb ed="#G" n="45"/>fide, tertium confessionem contemnere, quartum poen 
+          <lb ed="#G" n="46"/>tentia poenitentiae, puta si dolet se poenituisse de
+          praete<lb ed="#G" n="47" break="no"/>ritis peccatis. Et haec opin roboratur omnibus auctorita 
+          <lb ed="#G" n="48"/>tibus, quas Magister in c istius di adducit, &amp; adeo fuit 
+          <lb ed="#G" n="49"/>famosa ista opin, quod Magister non praesumpsit ei
+          con<lb ed="#G" n="50" break="no"/>tradicere, sicut patet in littera. Pro ista opin argueb ant 
+          <lb ed="#G" n="51"/>sui desensores sic. 
+        </p>
+        <p xml:id="HuYgTa-266071-d1e699">
+          <lb ed="#G" n="52"/>
+          <pc type="indent"/>1 Illud, quod conditionaliter dimittitur, hoc non 
+          <lb ed="#G" n="53"/>astante conditione reuertitur, &amp; non intelligitur esse di 
+          <lb ed="#G" n="54"/>missum: sed Deus non dimittit peccata, nisi sub hac
+          con<lb ed="#G" n="55" break="no"/>ditione, vt ille, cui dimittit, videlicet praedicta a.
+          pecca<lb ed="#G" n="56" break="no"/>ta: ergo si aliquod praedictorum a fecerit, tunc peccata 
+          <lb ed="#G" n="57"/>reuertentur Maior patet. Minorem probant auctoritati 
+          <lb ed="#G" n="58"/>bus, quas Magister hic adducit. 
+        </p>
+        <p xml:id="HuYgTa-266071-d1e720">
+          <lb ed="#G" n="59"/>
+          <pc type="indent"/>2 Praeterea, quicunque facit contra remissionis com 
+          <lb ed="#G" n="60"/>plementum, fundamentum, &amp; sacramentum, illius
+          pec<lb ed="#G" n="61" break="no"/>catum vel non dimittitur, vel si dimissum est, reuertitur; 
+          <lb ed="#G" n="62"/>Sed habens fraternum odium facit contra remissionis 
+          <lb ed="#G" n="63"/>complementum, puta, contra caritatem, quae operit pec 
+          <lb ed="#G" n="64"/>cata, apostatans a fide facit contra remissionis
+          funda<lb ed="#G" n="65" break="no"/>mentum, scilicet contra fidem, sed spernens confiteri, &amp;  
+          <lb ed="#G" n="66"/>poenitens se poenituisse facit contra remissionis
+          sacra<lb ed="#G" n="67" break="no"/>me itum: quia confessio, &amp; contritio, sunt partes
+          poeni<lb ed="#G" n="68" break="no"/>tentiae, quae est remissionis sacramentum: ergo &amp;c.
+          Vn<lb ed="#G" n="69" break="no"/>de sic suit famosa ista opin aliquibus temporibus, quod 
+          <lb ed="#G" n="70"/>praedicta sub his duobus versibus fuerunt comprehensa. 
+          <lb ed="#G" n="71"/>Fratre vodit, apostata fit, spernitque fateri. Peeuituisse pr 
+          <lb ed="#G" n="72"/>ger, pristina culpa redit. 
+        </p>
+        <p xml:id="HuYgTa-266071-d1e755">
+          <lb ed="#G" n="73"/>
+          <pc type="indent"/>Sed nec ista opinio stare potest. 
+          <!--752.xml-->
+          <cb ed="#G" n="b"/>
+          <lb ed="#G" n="74"/>Quia cum amne peccatum mortale repugnet gra 
+          <lb ed="#G" n="75"/>tiae, &amp; caritati, non apparet aliqua sufficiens ratio, quare 
+          <lb ed="#G" n="76"/>propter haec quattuor peccata redeant ea, quae sunt
+          di<lb ed="#G" n="77" break="no"/>missa, &amp; non propter alia 
+        </p>
+        <p xml:id="HuYgTa-266071-d1e775">
+          <lb ed="#G" n="78"/>
+          <pc type="indent"/> Praeterea, cum isti dicunt, peccata reuerti, vel intel 
+          <lb ed="#G" n="79"/>lipunt, quod reuertantur eadem numero, &amp; hoc est
+          im<lb ed="#G" n="80" break="no"/>possibile: quia per misericordiam Dei ad nihilum
+          reda<lb ed="#G" n="81" break="no"/>cta sunt: vel intelligunt, quod reuertantur non caden
+          nu<lb ed="#G" n="82" break="no"/>mero, sed eadem specie; tunc arguo sic. 
+        </p>
+        <p xml:id="HuYgTa-266071-d1e791">
+          <lb ed="#G" n="83"/>
+          <pc type="indent"/>lsta peccata de non esse procedunt ad esse: aut ergo 
+          <lb ed="#G" n="84"/>Deus producit ea ad esse, &amp; hoc non, quia qui facit pec 
+          <lb ed="#G" n="85"/>catum, seruus est peccati, sicut ait Apostolus: &amp; sic Deus 
+          <lb ed="#G" n="86"/>esset seruus peccati, &amp; mortalis peccator, quod est abiu 
+          <lb ed="#G" n="87"/>dum etiam cogitare: aut homo, &amp; hoc non, quia isti actus,  
+          <lb ed="#G" n="88"/>scilicet fraternum odium, &amp; sic de aliis quattuor, non sunt 
+          <lb ed="#G" n="89"/>de sua natura inductiui peccati adulteri, parricidis,
+          ma<lb ed="#G" n="90" break="no"/>tricidii, &amp; sic de aliis grauissimis peccatis, quae
+          quando<lb ed="#G" n="91" break="no"/>que per peenitentiam creduntur esse dimissa 
+        </p>
+        <p xml:id="HuYgTa-266071-d1e815">
+          <lb ed="#G" n="92"/>
+          <pc type="indent"/>Ad primum dicendum, quod minor non est vera, quia 
+          <lb ed="#G" n="93"/>Deus dat gratiam, &amp; caritatem, quae formale repugnan 
+          <lb ed="#G" n="94"/>tiam labent ad omne mortale peccatum: &amp; ideo
+          abso<lb ed="#G" n="95" break="no"/>lute ad nihilum redit omne mortale peccatum
+          praeexi<lb ed="#G" n="96" break="no"/>tens in subiecto, cui gratia, &amp; caritas, &amp; infunduntur, &amp;  
+          <lb ed="#G" n="97"/>per consequens simpliciter, &amp; non sub predicta
+          conditio<lb ed="#G" n="98" break="no"/>ne remittuntur peccata, vera, &amp; non ficta existente
+          ho<lb ed="#G" n="99" break="no"/>minis poenitentia. Verum est bene, quod vita spiritualis 
+          <lb ed="#G" n="100"/>per gratiam datur homini poenitenti sub conditione vi 
+          <lb ed="#G" n="101"/>tandi omne mortale peccatum, &amp; non solum praedictam 
+          <lb ed="#G" n="102"/>quattuor, de quibus isti loquuntur. Vnde sicut Deus
+          di<lb ed="#G" n="103" break="no"/>xit homini existenti in paradiso, quacunque hora come 
+          <lb ed="#G" n="104"/>deris ex eo, scilicet de pomo prohibito, morte morieris 
+          <lb ed="#G" n="105"/>sic etiam intelligendum est, quod Deus dicat
+          poeniten<lb ed="#G" n="106" break="no"/>ti, cum illi gratiam viuificantem influit, quacunque ho 
+          <lb ed="#G" n="107"/>ra peccatum mortale commiseris, spiritualiter morieris,  
+          <lb ed="#G" n="108"/>&amp; vita gratiae priuatus eris. Et ex hoc tamen non
+          sequi<lb ed="#G" n="109" break="no"/>tur, quod aliquod peccatum dimissum formaliter, &amp; per- 
+          <lb ed="#G" n="110"/>fecte reuertatur. 
+        </p>
+        <p xml:id="HuYgTa-266071-d1e861">
+          <lb ed="#G" n="111"/>Ad secundum concedo maiorem, quantum ad primi 
+          <lb ed="#G" n="112"/>membrum illius disiunctionis: quia pro tunc quando 
+          <lb ed="#G" n="113"/>actualiter facit contra illa tria, tunc nullum peccatum  
+          <lb ed="#G" n="114"/>eiremittitur. Et quia ad veritatem disiunctiuae
+          proposi<lb ed="#G" n="115" break="no"/>tionis sufficit alteram partem esse veram, ideo maior 
+          <lb ed="#G" n="116"/>proposito est vera. Et licet etiam minor sit vera, tamen 
+          <lb ed="#G" n="117"/>conclusio est falsa, quia virtute illarum praemissarum non 
+          <lb ed="#G" n="118"/>sequitur gratia formae altera pars disiunctionis, scilicet  
+          <lb ed="#G" n="119"/>quod peccata dimissa redeant, sicut ista opi intendit
+          con<lb ed="#G" n="120" break="no"/>cludere, sed sequitur ista tota disiunctiua proposito
+          sci<lb ed="#G" n="121" break="no"/>licet quod vel peccata non dimittuntur, vel si dimissa 
+          <lb ed="#G" n="122"/>sunt, reuertuntur, &amp; tunc ista disiunctiua verificatur gra 
+          <lb ed="#G" n="123"/>tia primae partis, &amp; non gratia secundae partis, quia
+          ill<lb ed="#G" n="124" break="no"/>per se accepta est falsa, vnde sicut dicendo, omne cutrens 
+          <lb ed="#G" n="125"/>mouetur, vel quiescit: Sortes currit: ergo Sortes quiescit 
+          <lb ed="#G" n="126"/>non sequitur conclusio, quamuis ambae praemissae sint vo 
+          <lb ed="#G" n="127"/>re: quia proceditur a pluribus causis Veritatis ad vnam: sec 
+          <lb ed="#G" n="128"/>bene sequitur concluso disiunctiue prolata, scilicet quod 
+          <lb ed="#G" n="129"/>Sortes, vel mouetur, vel quiescit: sic in proposito, &amp;c 
+        </p>
+        <p xml:id="HuYgTa-266071-d1e906">
+          <lb ed="#G" n="130"/>
+          <pc type="indent"/>Opinio tertia est, quod in recidiuante post
+          peniten<lb ed="#G" n="131" break="no"/>tiam peccata dimissa non redeunt formaliter, &amp;
+          secun<lb ed="#G" n="132" break="no"/>dum propriam existentiam, sed redeunt secundum
+          aequi<lb ed="#G" n="133" break="no"/>pollentiam, quia ita vitiatus, &amp; a Deo elvngatus erit 
+          <lb ed="#G" n="134"/>er mortale peccatum, quo recidiuat, sicut si peccata 
+          <lb ed="#G" n="135"/>preterita non essent sibi dimissa Et isto modo
+          intelli<lb ed="#G" n="136" break="no"/>gunt illud verbum P. Iac. Qui ofsenderit in vno, factus 
+          <lb ed="#G" n="137"/>est omnium reus 
+        </p>
+        <p xml:id="HuYgTa-266071-d1e928">
+          <lb ed="#G" n="138"/>
+          <pc type="indent"/>Sed etiam ista opin. irrationabilis esse videtur, qui 
+          <lb ed="#G" n="139"/>secundum i a dicta, sequeretur, quod peccatum
+          simpli<lb ed="#G" n="140" break="no"/>cis fornicationis, quo ille recidiuat, qui primo penituit 
+          <lb ed="#G" n="141"/>de centum homicidiis, aeque illum hominem vitiaret, &amp; 
+          <lb ed="#G" n="142"/>a Deo elongaret, sicut fecerant illa cetum, vel mille ho 
+          <lb ed="#G" n="143"/>micidia prius, quam peniteret, quod omnino absurdun 
+          <lb ed="#G" n="144"/>esse videtur. Nec verbum S lacobi est ad eorum propo 
+          <lb ed="#G" n="145"/>situm. Debet enim hoc verbum intelligi non quantum 
+          <lb ed="#G" n="146"/>ad aequipollentiam vitii, &amp; offensionis Dei, sed quantum 
+          <!--753.xml-->
+          <pb ed="#G" n="P2_141-v"/>
+          <cb ed="#G" n="a"/>
+          <lb ed="#G" n="1"/>ad sententiam poenae damni: quia poena damni, quae conn 
+          <lb ed="#G" n="2"/>sistit in carentia visionis diuinae essentiae secudum se, ess 
+          <lb ed="#G" n="3"/>omnibus decedentibus in mortali peccato communis 
+          <lb ed="#G" n="4"/>siue plura, &amp; grauiora habeant peccata: siue pauciora, &amp; 
+          <lb ed="#G" n="5"/>minus grauia Poena vero sensus est inaequalis, &amp; varia 
+          <lb ed="#G" n="6"/>secundum varietatem delictorum. Etiam in ipsa pena 
+          <lb ed="#G" n="7"/>damni potest esse aliqualis inaequalitas, secundum quo 
+          <lb ed="#G" n="8"/>vnus ex carentia diuinae visionis magis torqueatur. 
+          <lb ed="#G" n="9"/>quam alter, prout videt, quod ex suis demeritis plura, &amp; 
+          <lb ed="#G" n="10"/>maiora sibi ipsi praestitit impedimenta respectu beatifi 
+          <lb ed="#G" n="11"/>cae visionis. 
+        </p>
+        <p xml:id="HuYgTa-266071-d1e983">
+          <lb ed="#G" n="12"/>Conclusio 2. est, quod peccata dimissa possunt dici re 
+          <lb ed="#G" n="13"/>dire non in se, sed in sequentis peccati aliquali
+          aggraua<lb ed="#G" n="14" break="no"/>tione: Quia ratione annexae ingratitudinis aggrauatu 
+          <lb ed="#G" n="15"/>aliquo modo peccatum recidiuationis. Et isto modo
+          re<lb ed="#G" n="16" break="no"/>deundi debent intelligi auctoritates, quas Magister pro 
+          <lb ed="#G" n="17"/>secunda opinione hic adducit in littera. 
+        </p>
+        <p xml:id="HuYgTa-266071-d1e999">
+          <lb ed="#G" n="18"/>
+          <pc type="indent"/>ARTICVLVS Ii, 
+          <lb ed="#G" n="19"/>Vtrum peccata dimissa per peenitentiam, redeant 
+          <lb ed="#G" n="20"/>
+          <pc type="indent"/>quo ad peenam recidiuante ipso 
+          <lb ed="#G" n="21"/>
+          <pc type="indent"/>peenitente.
+        </p>
+        <p xml:id="HuYgTa-266071-d1e1017">
+          <lb ed="#G" n="22"/>QVANTVM ad secundum artic. pono duas
+          con<lb ed="#G" n="23" break="no"/>clusiones 
+          <lb ed="#G" n="24"/>Prima est, quod poena dimissa non reuertitur tota, u 
+          <lb ed="#G" n="25"/>in se, &amp; secundum se¬ 
+        </p>
+        <p xml:id="HuYgTa-266071-d1e1028">
+          <lb ed="#G" n="26"/>
+          <pc type="indent"/>1 Quia homo nonrequirit debitum primo dimissum 
+          <lb ed="#G" n="27"/>propter debitum de nouo contractum: ergo nec Deus 
+          <lb ed="#G" n="28"/>Antecedens patet: quia in lure ciuili dicitur, quod obli 
+          <lb ed="#G" n="29"/>gatio semel extincta, amplius non reuiuiscit.
+          Conse<lb ed="#G" n="30" break="no"/>quentia etiam patet, quia non est minus miserice rs Deus 
+          <lb ed="#G" n="31"/>quam homo, nec iura eiuilia sunt magis clementia, quam 
+          <lb ed="#G" n="32"/>lex diui na 
+        </p>
+        <p xml:id="HuYgTa-266071-d1e1049">
+          <lb ed="#G" n="33"/>2 Praeterea, culpa dimissa non redit secundum se, ex 
+          <lb ed="#G" n="34"/>go nec pena. Antecedens patet ex prima concluncne 
+          <lb ed="#G" n="35"/>primi arti, consequentia etiam nota est: quia poena
+          da<lb ed="#G" n="36" break="no"/>tur propter culpam, intelligendo de poena, de qua ad 
+          <lb ed="#G" n="37"/>praesens loquimur
+        </p>
+        <p xml:id="HuYgTa-266071-d1e1062">
+          <lb ed="#G" n="38"/>Sed contra istud sunt omnes illi, quorum opiniones 
+          <lb ed="#G" n="39"/>sunt recitatae in praecedenti ar quia, sicut dicunt redire 
+          <lb ed="#G" n="40"/>culpam: sic &amp; dicunt, redire penam Sed de his non plu 
+          <lb ed="#G" n="41"/>dicam: quia motiuis eorum responsum est in praedictis. 
+        </p>
+        <p xml:id="HuYgTa-266071-d1e1073">
+          <lb ed="#G" n="42"/>
+          <pc type="indent"/>Sunt etiam alii, qui dicunt, quod licet in recidiuante 
+          <lb ed="#G" n="43"/>peccata non redeant quo ad culpam, ramen redeunt quo 
+          <lb ed="#G" n="44"/>ad poenam: Quia sicut patet in fuan Dominus seruum 
+          <lb ed="#G" n="45"/>nequam, cui omne debitum dimiserat, tradidit
+          tor<lb ed="#G" n="46" break="no"/>toribus, donec redderet nouisfimum quadrantem: sic 
+          <lb ed="#G" n="47"/>quamuis poen tenti Deus dimiserit debitum poenae,
+          ta<lb ed="#G" n="48" break="no"/>men si poenitens efficitur nequam per recidiuationem, 
+          <lb ed="#G" n="49"/>tunc Deus requirit ab eo omnem poenam dimissam 
+        </p>
+        <p xml:id="HuYgTa-266071-d1e1095">
+          <lb ed="#G" n="50"/>
+          <pc type="indent"/>Sed ista opinio non valet, quia non consurget
+          duple<lb ed="#G" n="51" break="no"/>tribulatio, vt dicit prophetatigitur si propter praeceden 
+          <lb ed="#G" n="52"/>tem contritionem, vel confessionem, vel satisfactionem 
+          <lb ed="#G" n="53"/>Deus ipsi penitenti penam dimisit, antequam
+          recidiua<lb ed="#G" n="54" break="no"/>uit, de huiusmodi poena vlterius nihil re quiret. 
+        </p>
+        <p xml:id="HuYgTa-266071-d1e1111">
+          <lb ed="#G" n="55"/>
+          <pc type="indent"/>Ad illud, quod adducunt de Matthaeo dicendum, quod 
+          <lb ed="#G" n="56"/>illa au ctoritas, &amp; omnes aliae consimiles, intelligendae 
+          <lb ed="#G" n="57"/>de aggratiatione pene debitae pecrate recidiuationis: nam 
+          <lb ed="#G" n="58"/>sicut illud peccatum aggrauatur aliquo modo rationi 
+          <lb ed="#G" n="59"/>annexae ingratitudinis: sic etiam pena huic peccato
+          de<lb ed="#G" n="60" break="no"/>bita grauior erit, quam esset, si huiusmodi peccatum
+          an<lb ed="#G" n="61" break="no"/>nexam ingratitudinem non haberet. 
+        </p>
+        <p xml:id="HuYgTa-266071-d1e1131">
+          <lb ed="#G" n="62"/>
+          <pc type="indent"/>Secunda conclusio est, quod si penitenti non fuit
+          to<lb ed="#G" n="63" break="no"/>ta pena dimissa, antequam recidiuaret, tunc quamuis 
+          <lb ed="#G" n="64"/>pars dimissa non exigatur vlterius: totum tamen residuum 
+          <lb ed="#G" n="65"/>de huiusmodi pena totaliter exigetur: Quia hoc exigi 
+          <lb ed="#G" n="66"/>diuina iustitia, quod nullum malum maneat impunitum 
+          <lb ed="#G" n="67"/>malum enim culpae non trahitur ad ordinem vniuersi, 
+          <lb ed="#G" n="68"/>nisi per penam, &amp; ideo vniuersum non esset bene ordi¬ 
+          <!--753.xml-->
+          <cb ed="#G" n="b"/>
+          <lb ed="#G" n="69"/>natum, si alicui modo culpae non corresponderet
+          ali<lb ed="#G" n="70" break="no"/>quod malum penae¬ 
+        </p>
+        <p xml:id="HuYgTa-266071-d1e1161">
+          <lb ed="#G" n="71"/>
+          <pc type="indent"/>Forte dicetur, si non exigetur a recidiuante de pena 
+          <lb ed="#G" n="72"/>peccati remissi, nisi illa pars poenae, quae non est remissa, 
+          <lb ed="#G" n="73"/>&amp; de qua nondum satisfecit, tunc si moritur in peccato. 
+          <lb ed="#G" n="74"/>quo recidiuauit, non punietur perpetuo in inferno pro 
+          <lb ed="#G" n="75"/>illis primis peccatis, pro quibus adhuc satisfacere in pat 
+          <lb ed="#G" n="76"/>te tenebatur. Sed consequens estralsum, quia in inferno 
+          <lb ed="#G" n="77"/>est perpetua poena Probatio consequentiae, quia in
+          con<lb ed="#G" n="78" break="no"/>tritione poena aeterna mutata fuit in penam temporalem, 
+          <lb ed="#G" n="79"/>ergo residuum illius penae, quod manet post
+          contritio<lb ed="#G" n="80" break="no"/>nem, erit temporate Si enim non esset temporale, tund 
+          <lb ed="#G" n="81"/>non esset residuum poenae manentis post contritionem, 
+          <lb ed="#G" n="82"/>sed esset tota pena peccatis debita ante contritionem, 
+          <lb ed="#G" n="83"/>quia illa fuit aeterna, &amp; haberet praedicta opinio
+          propo<lb ed="#G" n="84" break="no"/>situm, quae ponit, quod peccatum per recidiuationem 
+          <lb ed="#G" n="85"/>reuertatur, quantum ad totam suam penam 
+        </p>
+        <p xml:id="HuYgTa-266071-d1e1198">
+          <lb ed="#G" n="86"/>
+          <pc type="indent"/>Respondeo negando consequentiam. 
+          <lb ed="#G" n="87"/>Ad probationem dicendum, quod licet illa pars
+          poe<lb ed="#G" n="88" break="no"/>nae, quae remansit secundum se, sit temporalis, sil tamen 
+          <lb ed="#G" n="89"/>ille, qui tenetur eam sustinere, non complet eam in hoc 
+          <lb ed="#G" n="90"/>mundo, &amp; moritur in mortali peccato, tunc per accidens 
+          <lb ed="#G" n="91"/>perpetuatur, puta ratione, qua coniungitur penae perpe 
+          <lb ed="#G" n="92"/>tuae debitae mortali peccato, in quo talis homo moritur, 
+          <lb ed="#G" n="93"/>Simile apparet de veniali peccato, cui licet debeatur pe 
+          <lb ed="#G" n="94"/>na temporalis secundum se:tamen si post mortem
+          ho<lb ed="#G" n="95" break="no"/>minis annexum fuerit peccato mortati, tunc per
+          acci<lb ed="#G" n="96" break="no"/>dens, scilicet, ratione mortalis peccati annexi perpetuo 
+          <lb ed="#G" n="97"/>punietur, supposito, quod nulla temporalis poena sit in 
+          <lb ed="#G" n="98"/>inferno, sicut supponit instantia supradicta. 
+        </p>
+        <p xml:id="HuYgTa-266071-d1e1231">
+          <lb ed="#G" n="99"/>
+          <pc type="indent"/>ARTICVLVS III 
+          <lb ed="#G" n="100"/>Vtrum causa (dato quod aliquo modo redeant)  
+          <lb ed="#G" n="101"/>
+          <pc type="indent"/>Piiusmodi reditionis sit 
+          <lb ed="#G" n="102"/>
+          <pc type="indent"/>mgratitudo.
+        </p>
+        <p xml:id="HuYgTa-266071-d1e1249">
+          <lb ed="#G" n="103"/>QVANTVM Ad tertium articulum primo viden 
+          <lb ed="#G" n="104"/>dum est quid sit ingratitudo, secundo de quaesito. 
+        </p>
+        <p xml:id="HuYgTa-266071-d1e1256">
+          <lb ed="#G" n="105"/>
+          <pc type="indent"/>Dico ergo primo, quod ingratitudo est quaedam
+          ho<lb ed="#G" n="106" break="no"/>minis ineptitudo, quae voluntarie contingit, quod
+          debi<lb ed="#G" n="107" break="no"/>tas gratiarum actiones reddere negligit, vel oppositum 
+          <lb ed="#G" n="108"/>huiusmodi actionum impendit ei, a quo libere
+          benefi<lb ed="#G" n="109" break="no"/>cium prius accepit. Possunt etiam distingui 4. gradus 
+          <lb ed="#G" n="110"/>ipsius ingratitudinis: quia aliqui sunt, qui acceptum
+          be<lb ed="#G" n="111" break="no"/>neficium non retribuunt, quando retribuere possunt, 
+          <lb ed="#G" n="112"/>alit sunt, qui retribuere contemnunt: tertu, qui
+          benefi<lb ed="#G" n="113" break="no"/>cium adeo peruipendunt, quod penitus obliuioni tradunt 
+          <lb ed="#G" n="114"/>Quarti sunt, qui opere indebito etiam ipsum suum
+          be<lb ed="#G" n="115" break="no"/>nefactorem offendere praesumunt Contra primos ait 
+          <lb ed="#G" n="116"/>
+          <ref xml:id="HuYgTa-266071-Rd1e1286">bern ser. 35</ref>: Sratiarum cessat decursus, vbi non fuerit 
+          <lb ed="#G" n="117"/>recursus. Contra secundos ait <ref xml:id="HuYgTa-266071-Rd1e1291">Bern ser. 52.</ref> peruersi
+          cor<lb ed="#G" n="118" break="no"/>dis est occasiones ingratitudinis inuestigare: nemo illud 
+          <lb ed="#G" n="119"/>facit, nisi ille, qui etiam oratis est ingratus. Contra
+          ter<lb ed="#G" n="120" break="no"/>tios ait bernm de diligendo Deo, vuperbiae est, &amp; delictu 
+          <lb ed="#G" n="121"/>maximum vti datis, tamquam innatis. Contra quartos 
+          <lb ed="#G" n="122"/>ait idem Dern. super cant. Ingratitudo est ventus vrens, 
+          <lb ed="#G" n="123"/>siccans fontem pietatis, rorem misericordiae, &amp; fluenta 
+          <lb ed="#G" n="124"/>gratiae. 
+        </p>
+        <p xml:id="HuYgTa-266071-d1e1310">
+          <lb ed="#G" n="125"/>
+          <pc type="indent"/>Quantum est de quaesito in isto. 3 artic teneo
+          breui<lb ed="#G" n="126" break="no"/>ter conclusionem affirmatiuam, scilicet quod
+          ingratitu<lb ed="#G" n="127" break="no"/>do est causa reditionis peccatorum praecedenter
+          dimis<lb ed="#G" n="128" break="no"/>sorum modo, quo dicuntur redire huiusmodi peccata, 
+          <lb ed="#G" n="129"/>quia aggrauatio contingit in peccato recidiuationis
+          ra<lb ed="#G" n="130" break="no"/>tione, qua recidiuans ingratus est de praecedenti benefi 
+          <lb ed="#G" n="131"/>cio, quo Deus eum absoluit a peccato: sed peccata
+          di<lb ed="#G" n="132" break="no"/>missa non reuertuntur in se, sed solum in sequentis pec 
+          <lb ed="#G" n="133"/>cati aggrauatione, ergo &amp;c. Maior patet, quia quanto 
+          <lb ed="#G" n="134"/>maior in recidiuante fuerit ingratitudo, tanto magis sui 
+          <!--754.xml-->
+          <pb ed="#G" n="P2_142-r"/>
+          <cb ed="#G" n="a"/>
+          <lb ed="#G" n="1"/>eccati accumulatur aggrauatio. Minor etiam patet ex 
+          <lb ed="#G" n="2"/>dictis in 1. articulo.  
+        </p>
+        <p xml:id="HuYgTa-266071-d1e1348">
+          <lb ed="#G" n="3"/>
+          <pc type="indent"/>ARTICVLVS III1. 
+          <lb ed="#G" n="4"/>Quid sit sacramentum, ey quia res sacramenti 
+          <lb ed="#G" n="5"/>in poenitentiae sacramento.
+        </p>
+        <p xml:id="HuYgTa-266071-d1e1359">
+          <lb ed="#G" n="6"/>QVANTVM ad quartum articulum est aduerten 
+          <lb ed="#G" n="7"/>dum, quod in sacramento ponitentiae est tria
+          com<lb ed="#G" n="8" break="no"/>siderare, scilicet exteriorem actionem, interiorem
+          con<lb ed="#G" n="9" break="no"/>tritionem, &amp; peccati remissionem. Et secundum hoc po 
+          <lb ed="#G" n="10"/>no triplicem conclusionem. 
+        </p>
+        <p xml:id="HuYgTa-266071-d1e1372">
+          <lb ed="#G" n="11"/>
+          <pc type="indent"/>Prima est, quod poenitentia, quantum ad actus
+          exte<lb ed="#G" n="12" break="no"/>riores, qui sunt actus confitentis, &amp; actus sacerdotis
+          ab<lb ed="#G" n="13" break="no"/>soluentis, &amp; satisfactionem iniungentis, est
+          sacramen<lb ed="#G" n="14" break="no"/>tum tantum. 
+        </p>
+        <p xml:id="HuYgTa-266071-d1e1385">
+          <lb ed="#G" n="15"/>
+          <pc type="indent"/>Secunda conclusio est, quod peccati remissio est res 
+          <lb ed="#G" n="16"/>sacramenti tantum. 
+        </p>
+        <p xml:id="HuYgTa-266071-d1e1394">
+          <lb ed="#G" n="17"/>Tertia conclusio est, quod interior poenitentia,
+          scili<lb ed="#G" n="18" break="no"/>cet contritio est sacramentum, &amp; res sactamenti; est enim 
+          <lb ed="#G" n="19"/>sactamentum respectu remissionis, sed est res sacramen 
+          <lb ed="#G" n="20"/>ti respectu exterioris actionis tam confitentis, quam 
+          <lb ed="#G" n="21"/>etiam absoluentis hic non insisto, quia ista satis hic pa 
+          <lb ed="#G" n="22"/>tent in litter a. 
+        </p>
+        <p xml:id="HuYgTa-266071-d1e1410">
+          <lb ed="#G" n="23"/>
+          <pc type="indent"/>Ad argumentum princ. potest dici, quod non est simi 
+          <lb ed="#G" n="24"/>le de seruo manumisso &amp;c. quia maioris clementiae est 
+          <lb ed="#G" n="25"/>ex diuina, quam humana. vel potest dici, quod sicut 
+          <lb ed="#G" n="26"/>manumissus peccans contra dominum suum,
+          retrudi<lb ed="#G" n="27" break="no"/>tur non in eandem seruitutem numero, sed specie, nec 
+          <lb ed="#G" n="28"/>ex eadem causa, qua primo, sed ex noua causa, puta ex 
+          <lb ed="#G" n="29"/>nouo crimine, quo offendit dom num suum: sic recidi 
+          <lb ed="#G" n="30"/>uans relabitur in seruiturem peccati, non tamen in
+          ea<lb ed="#G" n="31" break="no"/>dem numero, in qua prius erat, antequam peniteret, nec 
+          <lb ed="#G" n="32"/>ex eadem causa, sed ex peccato pro nunc de nouo
+          per<lb ed="#G" n="33" break="no"/>petrato: &amp; ideo non oportet, ratione huius seruitutis, re 
+          <lb ed="#G" n="34"/>dire peccata, quae prius suerunt dimissa, &amp; in hoc
+          termi<lb ed="#G" n="35" break="no"/>natur tractatus de poenitentia. 
+        </p>
+      </div>
+    </body>
+  </text>
 </TEI>

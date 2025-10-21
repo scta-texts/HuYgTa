@@ -1,642 +1,642 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Quaestio 1</title>
-            <author ref="#ThomasStrasbourg">Thomas of Strasbourg</author>
-            <respStmt>
-               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
-               <resp>Transcription Editor</resp>
-               <resp>TEI Encoder</resp>
-            </respStmt>
-         </titleStmt>
-         <editionStmt>
-            <edition n="0.0.0-dev">
-               <title>Quaestio 1</title>
-               <date when="2020-11-26">November 26, 2020</date>
-            </edition>
-         </editionStmt>
-         <publicationStmt>
-            <authority>SCTA</authority>
-            <availability status="free">
-               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
-               </p>
-            </availability>
-         </publicationStmt>
-         <sourceDesc>
-            <listWit>
-               <witness xml:id="G" n="cod-TxxxqU">Genoa 1585</witness>
-            </listWit>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
-         <editorialDecl>
-            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
-       guidelines for a diplomatic edition.</p>
-         </editorialDecl>
-      </encodingDesc>
-      <revisionDesc status="draft">
-         <listChange>
-            <change when="2020-11-26" status="draft" n="0.0.0">
-               <p>Created file for the first time.</p>
-            </change>
-         </listChange>
-      </revisionDesc>
-   </teiHeader>
-   <text xml:lang="la">
-      <front>
-         <div xml:id="starts-on">
-            <pb ed="#G" n="114-v"/>
-            <cb ed="#G" n="b"/>
-         </div>
-      </front>
-      <body>
-         <div xml:id="HuYgTa-e87344"><!-- HuYgTa-l1d41q1 -->
-            <head xml:id="HuYgTa-e87344-Hd1e108">Quaestio 1</head>
-            <head xml:id="HuYgTa-e87344-Hd1e111" type="question-title">
-      An reprobatio precibus sanctorum impediri possit
-    </head>
-            <p xml:id="HuYgTa-e87344-d1e114">
-               <lb ed="#G" n="102"/>
-               <pc type="indent"/>Quaestio 1
-      <lb ed="#G" n="103"/>An reprobatio precibus sanctorum 
-      <lb ed="#G" n="104"/>impediri possit;
-    </p>
-            <p xml:id="HuYgTa-e87344-d1e125">
-               <lb ed="#G" n="105"/>VTRVM reprobatio possit impediri
-      pre<lb ed="#G" n="106" break="no"/>cibus sanctorum.
-    </p>
-            <p xml:id="HuYgTa-e87344-d1e132">
-      Et videtur quod sic. 
-      <lb ed="#G" n="107"/>Quia illud, quod est promotiuum vnius 
-      <lb ed="#G" n="108"/>oppositorum, hoc est impeditiuum alte 
-      <lb ed="#G" n="109"/>rius, maxime si talia sint opposita
-      imme<lb ed="#G" n="110" break="no"/>diata: sed praedestinatio, &amp; reprobatio 
-      <lb ed="#G" n="111"/>sunt opposita immediata: quia sine omni 
-      <lb ed="#G" n="112"/>medio omnes homines vel sunt praedestinati, vel
-      reprob<lb ed="#G" n="113" break="no"/>ti, &amp; praedestinatio iuuatur precibus sanctorum, vt dicit 
-      <lb ed="#G" n="114"/>Peatus Aug. ergo reprobatio impediri poterit precibus 
-      <lb ed="#G" n="115"/>sanctorum. 
-    </p>
-            <p xml:id="HuYgTa-e87344-d1e155">
-               <lb ed="#G" n="116"/>
-               <pc type="indent"/>Contra in inferno nulla est redemptio, ut legitur, sed  
-      <lb ed="#G" n="117"/>reprobatus est in infernum ordinatus, ergo &amp; cer. Quia 
-      <!--268.xml-->
-      <pb ed="#G" n="115-r"/>
-               <cb ed="#G" n="a"/>
-               <lb ed="#G" n="1"/>
-               <ref xml:id="HuYgTa-e87344-Rd1e172">magister in illa 21. dist.</ref> inquirit de causa reprobationis &amp;  
-      <lb ed="#G" n="2"/>praedestinationis; ideo primo videndum est de causa
-      repro<lb ed="#G" n="3" break="no"/>pationis; Secundo de causa predestinationis; Tertio, vtrum 
-      <lb ed="#G" n="4"/>tedestinatio iuuari possit precibus sanctorum. Quarto, 
-      <lb ed="#G" n="5"/>vtrum reprobatio impediri possit precibus sanctorum. 
-    </p>
-            <p xml:id="HuYgTa-e87344-d1e185">
-               <lb ed="#G" n="6"/>
-               <pc type="indent"/>RESOLVTI O. 
-      <lb ed="#G" n="7"/>Ti nmalus vsas lib eri arbitri in adidtis in paruulis vero
-      inhabi<lb ed="#G" n="8" break="no"/>lta a retipiendum diuinae gratiae inflexum reprobationis
-      cau<lb ed="#G" n="9" break="no"/>sa xistit; ita bonus vsus eiusdem, vri aptitudo ad vecipiendam 
-      <lb ed="#G" n="10"/>dininam gratiam. p raedest in ationis causa st atuitur Vnde
-      quam<lb ed="#G" n="11" break="no"/>u, diuina praedest inatio secundum se diuorum precibus nequeat 
-      <lb ed="#G" n="12"/>ehuuari, etus tamen exequitio iisdem precibus poterit
-      comad<lb ed="#G" n="13" break="no"/>tari, quimadmodum reprobatio, nisi disfinitiua sit, diuorum 
-      <lb ed="#G" n="14"/>diferationibus poterit praepediri. 
-    </p>
-            <p xml:id="HuYgTa-e87344-d1e209">
-               <lb ed="#G" n="15"/>
-               <pc type="indent"/>ARTICVLVS L 
-      <lb ed="#G" n="16"/>
-               <pc type="indent"/>De causa reprobationis.
-    </p>
-            <p xml:id="HuYgTa-e87344-d1e220">
-               <lb ed="#G" n="17"/>QVAVTVM ad primum articulum de causa
-      repro<lb ed="#G" n="18" break="no"/> bationis videtur esse dicendum, quod ipsius
-      repro<lb ed="#G" n="19" break="no"/>bationis possumus assignare causam, quia ad poenam aeter 
-      <lb ed="#G" n="20"/>am nullus ordinatur a iusto iudice sine praecognitione 
-      <lb ed="#G" n="21"/>tane sed reprobatus a Deo, qui est iustus iudex, est ad 
-      <lb ed="#G" n="22"/>utam eternam deputatus, seu ordinatus, ergo &amp;c 
-      <lb ed="#G" n="23"/>haec autem causa ex parte reprobatorum duplex
-      po<lb ed="#G" n="24" break="no"/>ti allignari, secundum quod reprobati ab hoc saeculo de 
-      <lb ed="#G" n="25"/>adentes in duplici statu esse videntur, Quidam enim sunt 
-      <lb ed="#G" n="26"/>instatu adultorum, quidam in statu paruulorum. 
-    </p>
-            <p xml:id="HuYgTa-e87344-d1e244">
-               <lb ed="#G" n="27"/>
-               <pc type="indent"/>Quantum ad adultos causa reprobationis dici potest 
-      <lb ed="#G" n="28"/>nalus vsus liberi arbitrij vsque ad finem vitae in ipsis
-      du<lb ed="#G" n="29" break="no"/>aturus, ab aeterno a Deo praescitus: Vnde quia Deus
-      sci<lb ed="#G" n="30" break="no"/>ni ab aeterno talem hominem in fine vitae suae abuti suc 
-      <lb ed="#G" n="31"/>hbero arbitrio, ideo a tali homine influxui diuinae gratiae 
-      <lb ed="#G" n="32"/>su, temeritate finaliter resistente, Deus ab aeterno decre 
-      <lb ed="#G" n="33"/>a suam gratiam finaliter subtrahere, &amp; a gloria aeternae 
-      <lb ed="#G" n="34"/>eatitudinis tamquam inhabilem reprobare. 
-      <lb ed="#G" n="35"/>Quantum autem ad paruulos absque sacramento
-      ba<lb ed="#G" n="36" break="no"/>usmatis decedentes causa reprobationis dici potest inc 
-      <lb ed="#G" n="37"/>nitudo, sen inhabilitas ad recipiendum influxum gratiae 
-      <lb ed="#G" n="38"/>minae ab aeterno a Deo precognita, quae ipsis prouenit 
-      <lb ed="#G" n="39"/>el ex causa naturali, puta quia ex naturali sua
-      complexio<lb ed="#G" n="40" break="no"/>ne tam cito moriuntur, quod baptixari non possunt, vel 
-      <lb ed="#G" n="41"/>excausa voluntaria, voluntate tamen aliena, puta quia 
-      <lb ed="#G" n="42"/>nascuntur, vel nutriuntur ab infidelibus, qui eos
-      no<lb ed="#G" n="43" break="no"/>lunt haptixare. 
-    </p>
-            <p xml:id="HuYgTa-e87344-d1e286">
-               <lb ed="#G" n="44"/>
-               <pc type="indent"/>Etenim imaginandum in isto proposito, quod sicut  
-      <lb ed="#G" n="45"/>sl radios vbique diffundit, &amp; quantum in se est huiusmodi 
-      <lb ed="#G" n="46"/>usasione omnia illuminat, si tamen aliqua huiusmodi 
-      <lb ed="#G" n="47"/>dnosis radus obicem ponunt, illa tenebrosa manebunt, 
-      <lb ed="#G" n="48"/>Deus solem gratiae spiritualis, quantum est ex parte suae 
-      <lb ed="#G" n="49"/>onitatis, oriri facit super bonos, &amp; malos, quia quantum  
-      <lb ed="#G" n="50"/>nex parte suae bonitatis ipse neminem vult perire: sec 
-      <lb ed="#G" n="51"/>Spis vult omnes homines saluos fieri, &amp; ad agnitionem 
-      <lb ed="#G" n="52"/>teritatis venire. Quia tamen ipse in aliquibus ab aeterno 
-      <lb ed="#G" n="53"/>paenidit obicem resistentem huiusmodi gratiae diffusa 
-      <lb ed="#G" n="54"/>modo praedicto, ideo tales modo, quo dictum est, a Deo 
-      <lb ed="#G" n="55"/>peuntur reprobari. Et quia causa reprobationis ipsorum 
-      <lb ed="#G" n="56"/>noltorum reducitur illo modo in actualem, &amp; propriam 
-      <lb ed="#G" n="57"/>eram ipsorum, reprobatio autem paruulorum non reduci 
-      <lb ed="#G" n="58"/>tr in iplorum propriam culpam, ideo adultis reprobatis 
-      <lb ed="#G" n="59"/>nn solum perna damni, sed etiam prena sensus debetur,  
-      <lb ed="#G" n="60"/>probdetur a iusto iudice; paruulis autem tantum
-      mo<lb ed="#G" n="61" break="no"/>noena damni, quae est carentia diuinae visionis; Et haec 
-      <lb ed="#G" n="62"/>tamum ad primum articulum sufficiant.
-    </p>
-            <p xml:id="HuYgTa-e87344-d1e333">
-      <!--268.xml-->
-               <cb ed="#G" n="b"/>
-               <lb ed="#G" n="63"/>ARTICVLVS II 
-      <lb ed="#G" n="64"/>De causa praedestmationis.
-    </p>
-            <p xml:id="HuYgTa-e87344-d1e344">
-               <lb ed="#G" n="65"/>QVANTVM ad secundum articulum, quae sit causa 
-      <lb ed="#G" n="66"/>e praedestinationis, est aduertendum, quod quia op 
-      <lb ed="#G" n="67"/>positorum oppositae sunt cause, praedestinatio autem &amp; 
-      <lb ed="#G" n="68"/>reprobatio aliquo modo sunt opposita, ideo causam
-      prae<lb ed="#G" n="69" break="no"/>destinationis assignare possumus ex oppositis causarum 
-      <lb ed="#G" n="70"/>praedictarum ipsius reprobationis. 
-    </p>
-            <p xml:id="HuYgTa-e87344-d1e360">
-               <lb ed="#G" n="71"/>
-               <pc type="indent"/>vt igitur singula singulis per oppositum valeant
-      respon<lb ed="#G" n="72" break="no"/>lere, dico, saluo tamen semper meliori iudicio, quod cau 
-      <lb ed="#G" n="73"/>sa praedestinationis ipsorum adultorum videtur esse
-      bo<lb ed="#G" n="74" break="no"/>nus vsus liberi arbitrij ab aeterno a Deo praecognitus fi- 
-      <lb ed="#G" n="75"/>naliter duraturus, quae bonum vsum finale Deus ab
-      aeter<lb ed="#G" n="76" break="no"/>no conteplans, proposuit talibus hominibus huiusmodi 
-      <lb ed="#G" n="77"/>vsum habituris sic dare gratiam finaliter in praesenti, vt me 
-      <lb ed="#G" n="78"/>diante gratia in praesenti perueniant ad gloriam in
-      futu<lb ed="#G" n="79" break="no"/>ro. Dixi autem notanter finalem, seu finaliter: quia nihil 
-      <lb ed="#G" n="80"/>obstat, quin reprobatus quandoque habeat bonum vsum 
-      <lb ed="#G" n="81"/>liberi arbitrij in praesenti, praeuidit tamen Deus, quod sua 
-      <lb ed="#G" n="82"/>libertate abutendo, ab huiusmodi bono vsu finaliter se 
-      <lb ed="#G" n="83"/>auertet: igitur nec gratiam finaliter habebit in praesenti, 
-      <lb ed="#G" n="84"/>nec gloriam in futuro, quia sicut dicit textus veritatis. Qui 7 
-      <lb ed="#G" n="85"/>erseuerauerit vsque in finem, hic saluus erit. Et econuer 
-      <lb ed="#G" n="86"/>so praedestinatus in praesenti quandoque potest habere 
-      <lb ed="#G" n="87"/>malum vsum, sciuit tamen Deus ab aererno, quod in tali 
-      <lb ed="#G" n="88"/>malo vsu finaliter non manebit, ideo proposuit Deus ab  
-      <lb ed="#G" n="89"/>aeterno tali homini dare gratiam finalem in presenti &amp;  
-      <lb ed="#G" n="90"/>gloriam in futuro. Iuxta illud. Si impius egerit
-      poeniten<lb ed="#G" n="91" break="no"/>tiam ab omnibus peccatis suis, quae operatus est, &amp; fecerit 
-      <lb ed="#G" n="92"/>iustitiam, vitia vitet, omnium iniquitatum suarum non re¬ l 
-      <lb ed="#G" n="93"/>cordabor: Causa ante praedestinationis ipsorum
-      paruulo<lb ed="#G" n="94" break="no"/>rum potest dici quaedam aptitudo respectu baptismalis 
-      <lb ed="#G" n="95"/>gratiae, quam Deus preuidens, ab aeterno ipsos
-      praedesti<lb ed="#G" n="96" break="no"/>auit ad vitam aeternam, &amp; illa aptitudo conuenit eis ali 
-      <lb ed="#G" n="97"/>uo modo naturaliter, puta quia non sunt adeo infirmae 
-      <lb ed="#G" n="98"/>completionis, quin tantum possint durare in praesenti vi 
-      <lb ed="#G" n="99"/>ta, donec baptixentur: Et aliquo modo voluntarie,
-      volun<lb ed="#G" n="100" break="no"/>tate tamen aliena; puta quia tales sunt parentes, vel
-      nu<lb ed="#G" n="101" break="no"/>tritores, qui eos baptixari non prohibent 
-    </p>
-            <p xml:id="HuYgTa-e87344-d1e432">
-               <lb ed="#G" n="102"/>
-               <pc type="indent"/>Sed his praedictis videtur obuiare posito magnorum 
-      <lb ed="#G" n="103"/>Doctorum loquentium in illa materia, scilicet <ref xml:id="HuYgTa-e87344-Rd1e440">sancti
-      Tho<lb ed="#G" n="104" break="no"/>mae</ref> &amp; <ref xml:id="HuYgTa-e87344-Rd1e445">venerabilis Doctoris fratris AEgidij</ref>, qui ambo con 
-      <lb ed="#G" n="105"/>corditer dicunt, quod licet in generali possit assignari ra 
-      <lb ed="#G" n="106"/>io predestinationis, &amp; reprobonis, puta dicendo quod ali 
-      <lb ed="#G" n="107"/>qui sunt praedestinati, vt in ipsis reluceat misericordia, &amp;  
-      <lb ed="#G" n="108"/>ponitas diuina; Aliqui vero reprobati, vt in ipsis reluceat 
-      <lb ed="#G" n="109"/>iustitia diuina. Quare autem in speciali illi sint
-      praedesti<lb ed="#G" n="110" break="no"/>ati, &amp; illi reprobati, nulla causa est, nisi voluntas diuina.  
-    </p>
-            <p xml:id="HuYgTa-e87344-d1e462">
-               <lb ed="#G" n="111"/>
-               <pc type="indent"/>Et hoc declarant primo exemplo naturali, quia
-      quam<lb ed="#G" n="112" break="no"/>uis materia secudum se sit penitus vniformis in omnibus 
-      <lb ed="#G" n="113"/>uis partibus, tamen in principio productionis partium
-      vni<lb ed="#G" n="114" break="no"/>uersi aliqua pars materiae supposita est formae nobiliori; 
-      <lb ed="#G" n="115"/>alia formae ignobiliori; cuius si ratio petitur, quamuis in 
-    </p>
-            <p xml:id="HuYgTa-e87344-d1e478">
-               <lb ed="#G" n="116"/>
-               <pc type="indent"/>enerali de hoc possit reddi ratio, dicendo quod hoc pro 
-      <lb ed="#G" n="117"/>anto factum est: quia sic exigebat diuersitas formarum 
-      <lb ed="#G" n="118"/>pecificarum rerum naturalium, tamen nulla ratio in spe 
-      <lb ed="#G" n="119"/>ciali potest assignari, quare haec pars materiae supposita 
-      <lb ed="#G" n="120"/>sit huic formae, &amp; illa illi, quia hoc dependet ex simplici 
-      <lb ed="#G" n="121"/>voluntate Dei. 
-    </p>
-            <p xml:id="HuYgTa-e87344-d1e497">
-               <lb ed="#G" n="122"/>
-               <pc type="indent"/>Secundo declarant hoc idem exemplo sumpto in
-      ar<lb ed="#G" n="123" break="no"/>ificialibus; Videmus enim in arte aedificatoria, quod
-      ra<lb ed="#G" n="124" break="no"/>tio habet hoc in vniuersali, quod aliquis lapis ponitur in 
-      <lb ed="#G" n="125"/>vna parte aedificij, &amp; aliquis in alia: sed datis pluribus
-      la<lb ed="#G" n="126" break="no"/>idibus aequalibus non potest aliqua ratio in speciali
-      as<lb ed="#G" n="127" break="no"/>signari, quare hic lapis ponatur in hac parte aedificij, &amp;
-      il<lb ed="#G" n="128" break="no"/>e in alia, nisi sola voluntas artificis, tui sic placet. Sic in 
-      <lb ed="#G" n="129"/>propesito, ergo &amp;c. 
-    </p>
-            <p xml:id="HuYgTa-e87344-d1e519">
-               <lb ed="#G" n="130"/>
-               <pc type="indent"/>ec tamen ex hoc conuincitur, aliquam iniustitiam esse 
-      <lb ed="#G" n="131"/>in Deo, scu apud Deum: quia effectus predestinationis non 
-      <!--269.xml-->
-      <pb ed="#G" n="115-v"/>
-               <cb ed="#G" n="a"/>
-               <lb ed="#G" n="1"/>redditur alicui ex debito: sed ex mera gratia: In gratuitis 
-      <lb ed="#G" n="2"/>autem non attenditur ratio iustitiae vel iniustitiae, sed
-      po<lb ed="#G" n="3" break="no"/>test, qui dispensat, dare &amp; plus, &amp; minus pro libitae suae vo 
-      <lb ed="#G" n="4"/>luntatis absque preiudicio cuiuscunque. luxta quod ait 
-      <lb ed="#G" n="5"/>paterfamilias; Amice non facio tibi iniuriam: Et infra 
-      <lb ed="#G" n="6"/>Non licet mihi quod ego uolo facere :
-    </p>
-            <p xml:id="HuYgTa-e87344-d1e548">
-               <lb ed="#G" n="7"/>1 Potest etiam argui pro illa opinione sic. Nullum
-      ten<lb ed="#G" n="8" break="no"/>porale potest esse ratio eius, quod est eternum, sed omne 
-      <lb ed="#G" n="9"/>quod se tenet ex parte creaturae est temporale,
-      praedista<lb ed="#G" n="10" break="no"/>tio autem est aeterna, &amp; similiter reprobatio, ergo nihil se 
-      <lb ed="#G" n="11"/>tenens ex parte creaturae potest esse causa praed
-      estinatio<lb ed="#G" n="12" break="no"/>nis, seu reprobationis,
-    </p>
-            <p xml:id="HuYgTa-e87344-d1e564">
-               <lb ed="#G" n="13"/>2 Preterea, illud, quod est effectus predestinationis, non 
-      <lb ed="#G" n="14"/>potest esse causa eius, sed bonus vsus liberi arbitrij est ef- 
-      <lb ed="#G" n="15"/>fectus praedestinationis, ergo non valet illud, quod
-      supe<lb ed="#G" n="16" break="no"/>rius posuisti. Maior patet: quia idem non potest esse causa, 
-      <lb ed="#G" n="17"/>&amp; effectus respectu eiusdem. Minor etiam patet, quia om 
-      <lb ed="#G" n="18"/>ne bonum, quod se tenet ex parte praedestinati, videtur es 
-      <lb ed="#G" n="19"/>se effectus praedestinationis
-    </p>
-            <p xml:id="HuYgTa-e87344-d1e582">
-               <lb ed="#G" n="20"/>3 Praeterea, si praedestinatio habere se causam se tenen 
-      <lb ed="#G" n="21"/>tem ex parte praedestinati, tunc gratia Dei haberet
-      cau<lb ed="#G" n="22" break="no"/>sam ex parte predestinati: Falsitas consequentis patet: quia 
-      <lb ed="#G" n="23"/>si gratia esset ex meritis, iam gratia non esset gratia, sicut  
-      <lb ed="#G" n="24"/>ait Apostolus.
-    </p>
-            <p xml:id="HuYgTa-e87344-d1e595">
-               <lb ed="#G" n="25"/>4 Praeterea, Apostolus loquens de Esau &amp; lacob ait,  
-      <lb ed="#G" n="26"/>Cum nondum nati essent, aut aliquid boni, aut mali
-      egis<lb ed="#G" n="27" break="no"/>sent, secundum electionem, non ex operibus, dictum est: 
-      <lb ed="#G" n="28"/>Tacob dilexi, Esau autem odio habui; &amp; ibidem dicitur,  
-      <lb ed="#G" n="29"/>cuius vult miseretur, &amp; quem vult indurat, &amp; ponit
-      Apo<lb ed="#G" n="30" break="no"/>stolus ibidem exemplum de figulo, qui de eadem massa 
-      <lb ed="#G" n="31"/>facit vasa honoris, &amp; contumeliae, prout sibi placet. 
-    </p>
-            <p xml:id="HuYgTa-e87344-d1e614">
-               <lb ed="#G" n="32"/>
-               <pc type="indent"/>His non obstantibus, potest argui contra communem 
-      <lb ed="#G" n="33"/>opinionem sic. 
-    </p>
-            <p xml:id="HuYgTa-e87344-d1e623">
-               <lb ed="#G" n="34"/>1 Si absque causa se tenente ex parte hominum Deus 
-      <lb ed="#G" n="35"/>vnum ordinaret ad gloriam, &amp; alium ad poenam ab
-      aeter<lb ed="#G" n="36" break="no"/>no, tunc Deus esset acceptator personarum: Falsitas
-      con<lb ed="#G" n="37" break="no"/>sequentis patet <ref xml:id="HuYgTa-e87344-Rd1e633">Actuum 10.</ref> Consequentia probatur: quia 
-      <lb ed="#G" n="38"/>ille videtur esse acceptator personarum, qui duobus
-      exi<lb ed="#G" n="39" break="no"/>stentibus aequalibus vni dat, quod alteri denegat.
-    </p>
-            <p xml:id="HuYgTa-e87344-d1e642">
-               <lb ed="#G" n="40"/>2 Praeterea, Deus est diues in misericordia secundum 
-      <lb ed="#G" n="41"/>Apostolum, sed sireprobaret aliquem fine causa, tunc in 
-      <lb ed="#G" n="42"/>tali actu nihil misericordiae appareret, ergo &amp;c. 
-    </p>
-            <p xml:id="HuYgTa-e87344-d1e651">
-               <lb ed="#G" n="43"/>
-               <pc type="indent"/>3 Preterea, Apost. ait, quos presciuit, hoc
-      praedestina<lb ed="#G" n="44" break="no"/>uit, ergo prescientia alicuius se tenentis ex parte
-      praede<lb ed="#G" n="45" break="no"/>stinati videtur fuisse causa, vel ratio praedestinationis
-    </p>
-            <p xml:id="HuYgTa-e87344-d1e662">
-               <lb ed="#G" n="46"/>4 Praeterea, <name xml:id="HuYgTa-e87344-Nd1e666" ref="#Ambrose">Ambr</name> in glos: ad Nom. 9. super illo verbo. 
-      <lb ed="#G" n="47"/>miserebor cui miserebor, dicit, id est misericordiam illi
-      da<lb ed="#G" n="48" break="no"/>bo, quem praescio toto corde reuersorum ad me.
-    </p>
-            <p xml:id="HuYgTa-e87344-d1e674">
-               <lb ed="#G" n="49"/>3 Item beatus <ref xml:id="HuYgTa-e87344-Rd1e678">Aug. 83. quaestionum</ref> ait, Deus cui vuli 
-      <lb ed="#G" n="50"/>miseretur, &amp; quem vult indurat, per hoc tamen Dei boni 
-      <lb ed="#G" n="51"/>tas iniusta esse non potest, venit enim de occultissimis 
-      <lb ed="#G" n="52"/>meritis. 
-    </p>
-            <p xml:id="HuYgTa-e87344-d1e689">
-               <lb ed="#G" n="53"/>
-               <pc type="indent"/>Forte dicetur, quod Aug. aut sibi contradiceret, vel opor- 
-      <lb ed="#G" n="54"/>tet dicere, quod illam auctoritatem per aliam reuocauit: 
-      <lb ed="#G" n="55"/>Nam Aug. in lib de praedestinatione sic ait, Non quia
-      fu<lb ed="#G" n="56" break="no"/>turos nos esse tales praesciuit, ideo elegit, sed vt essemus 
-      <lb ed="#G" n="57"/>tales per ipsam electionem gratiae suae, qua gratificauit
-      no<lb ed="#G" n="58" break="no"/>n dilecto filio suo; Et in eodem lib ait. Taceat humana 
-      <lb ed="#G" n="59"/>lingua, nec prorsus in praedestinatione de meritis extolla 
-      <lb ed="#G" n="60"/>tur, diuinae enim voluntatis est hoc donum, non
-      huma<lb ed="#G" n="61" break="no"/>nae fragilitatis meritum. 
-    </p>
-            <p xml:id="HuYgTa-e87344-d1e713">
-               <lb ed="#G" n="62"/>
-               <pc type="indent"/>Respondeo, quod Augus in prima auctoritate loquitur de 
-      <lb ed="#G" n="63"/>merito large, quod dicitur meritum aliquo modo de
-      con<lb ed="#G" n="64" break="no"/>truo; In aliis autem sequentibus loquitur de merito pro 
-      <lb ed="#G" n="65"/>prie dicto, puta de condigno. Et ideo hic nec est
-      reuoca<lb ed="#G" n="66" break="no"/>tio, nec contradictio, sed aequiuocatio.
-    </p>
-            <p xml:id="HuYgTa-e87344-d1e729">
-               <lb ed="#G" n="67"/>e Preterea, non videtur bene dictum, quod pro generali 
-      <lb ed="#G" n="68"/>causa reprobationis assignant isti Doctores relucentiam  
-      <lb ed="#G" n="69"/>diuinae iustitiae: quia nullus iustus iudex per se intendit iu 
-      <lb ed="#G" n="70"/>stitiam punitiuam, sed tantum ex suppositone punibilis 
-      <lb ed="#G" n="71"/>culpae. Sed Deus non potest esse iniustus; &amp; iustitia, qua 
-      <lb ed="#G" n="72"/>quae relucet in reprobatis, seu damnatis, est iustitia maxi¬ 
-      <!--269.xml-->
-      <cb ed="#G" n="b"/>
-               <lb ed="#G" n="73"/>me punitiua, &amp; uindicatiua, ergo relucentiam talis
-      iusti<lb ed="#G" n="74" break="no"/>tiae non potest Deus per se, &amp; finaliter in actu reprobatio 
-      <lb ed="#G" n="75"/>nis intendere, sed prescientiam mali, &amp; demeritorij usus 
-      <lb ed="#G" n="76"/>liberi arbitrij, propter quam Deus talem iustitiam
-      decre<lb ed="#G" n="77" break="no"/>uit exercere.
-    </p>
-            <p xml:id="HuYgTa-e87344-d1e760">
-               <lb ed="#G" n="78"/>3 Praeterea, illud non debet poni praecise propter relu 
-      <lb ed="#G" n="79"/>centiam diuinae iustitiae, sine quo diuina iustitia sufficien 
-      <lb ed="#G" n="80"/>ter potest relucere, sed dato, quod nullus esset
-      reproba<lb ed="#G" n="81" break="no"/>tus, adhuc in solis electis Dei iustitia sufficienter reluce 
-      <lb ed="#G" n="82"/>ret, iuxta illud Apostoli, De reliquo reposita est mihi
-      co<lb ed="#G" n="83" break="no"/>rona iustitiae, quam reddet mihi in illum diem lustus
-      iu<lb ed="#G" n="84" break="no"/>dex, ergo &amp; caetera
-    </p>
-            <p xml:id="HuYgTa-e87344-d1e778">
-               <lb ed="#G" n="85"/>3 Preterea, si Deus solum pro libito voluntatis aliquen 
-      <lb ed="#G" n="86"/>reprobaret, tunc Deus esset crudelis, &amp; iniustus
-      conse<lb ed="#G" n="87" break="no"/>uens est impossibile, ergo impossibile videtur esse illud 
-      <lb ed="#G" n="88"/>antecedens positum per istos Doctores : Consequentia 
-      <lb ed="#G" n="89"/>atet: quia omnis ille, qui sine alia ratione, quam solum 
-      <lb ed="#G" n="90"/>propter libitum voluntatis aliquam creaturam capacem  
-      <lb ed="#G" n="91"/>rationis &amp; experientiae deputat ad aeternam &amp;
-      horribilis<lb ed="#G" n="92" break="no"/>simam poenam, ille vtique videtur esse crudelis, &amp; per con 
-      <lb ed="#G" n="93"/>sequens iniustus. 
-    </p>
-            <p xml:id="HuYgTa-e87344-d1e800">
-               <lb ed="#G" n="94"/>
-               <pc type="indent"/>Et per hoc etiam patet, quod exempla non sunt ad pro 
-      <lb ed="#G" n="95"/>positum: Quia partes materiae, vel lapides non habent ex 
-      <lb ed="#G" n="96"/>erientiam boni, vel mali, honoris vel contumeliae,
-      qua<lb ed="#G" n="97" break="no"/>lem experientiam constat homines habere: &amp; ideo licet 
-      <lb ed="#G" n="98"/>illud, quod dictum est de lapidibus, &amp; de materia fieri pos 
-      <lb ed="#G" n="99"/>sit absque iniuria &amp; crudelitatis nota, absque tamen his fie 
-      <lb ed="#G" n="100"/>ri non potest, quod homo ordinetur, vel deputetur ad
-      aeter<lb ed="#G" n="101" break="no"/>nam poenam, non habendo respectum ad aliqua sua
-      deme<lb ed="#G" n="102" break="no"/>rita, sed solum attendendo voluntatem, &amp; libitum
-      depu<lb ed="#G" n="103" break="no"/>tantis: lllud etiam, quod inducunt de patrefamilias, qui 
-      <lb ed="#G" n="104"/>ledit prout voluit, quamuis locum habeat loquendo de 
-      <lb ed="#G" n="105"/>raedestinatis, tamen de reprobatis loquendo penitus non 
-      <lb ed="#G" n="106"/>habet locum: quia in gratuitis absque praeiudicio
-      cuius<lb ed="#G" n="107" break="no"/>cumque potest dari, &amp; plus, &amp; minus pro uoluntate distri 
-      <lb ed="#G" n="108"/>buentis, non autem in inferendis poenis, ergo &amp;c 
-    </p>
-            <p xml:id="HuYgTa-e87344-d1e838">
-               <lb ed="#G" n="109"/>
-               <pc type="indent"/>Ad primam ergo rationem dicendum ad maiorem, 
-      <lb ed="#G" n="110"/>uod quamuis temporale, vt temporale est, non possit es 
-      <lb ed="#G" n="111"/>se ratio aeterni; tamen temporale vt aeternaliter a Deo 
-      <lb ed="#G" n="112"/>tenceptum, seu praescitum, potest esse ratio aliquo
-      mo<lb ed="#G" n="113" break="no"/>do motiua, quare Deus ab aeterno decreuit aliquid fieri 
-      <lb ed="#G" n="114"/>in tempore, 
-    </p>
-            <p xml:id="HuYgTa-e87344-d1e856">
-               <lb ed="#G" n="115"/>
-               <pc type="indent"/>Ad secundam dicendum, quod bonus vsus liberi arbitrii 
-      <lb ed="#G" n="116"/>potest dupliciter intelligi. Vno modo, vt est meritorius vi 
-      <lb ed="#G" n="117"/>tae eternae de condigno, vel etiam de congruo, secundum 
-      <lb ed="#G" n="118"/>ropinquam dispofitionem, vel motionem ad gratiam
-      gra<lb ed="#G" n="119" break="no"/>tum facientem, de qua motione dicetur infra. Secundo 
-      <lb ed="#G" n="120"/>potest accipi bonus vsus liberi arbitrij, penes bonitatem 
-      <lb ed="#G" n="121"/>morum, in quam bonitatem potest homo ex puris
-      natu<lb ed="#G" n="122" break="no"/>ralibus: De qua etiam bonitate scripserunt philosophi
-      mo<lb ed="#G" n="123" break="no"/>rales; Primo ergo modo accipiendo bonitatem vsus libe 
-      <lb ed="#G" n="124"/>ri arbitrij, tunc minor est vera. Secundo modo
-      accipien<lb ed="#G" n="125" break="no"/>do huiusmodi bonitatem, minor non est vera: quia non  
-      <lb ed="#G" n="126"/>oportet illam bonitatem reducere in supernaturale prin 
-      <lb ed="#G" n="127"/>cipium, sed sufficit ad eam consequendam bona
-      consue<lb ed="#G" n="128" break="no"/>tudo hominis praesupposita communi, &amp; vniuersali Dei 
-      <lb ed="#G" n="129"/>insiuentia, &amp; de hac bonitate locutus sum superius, ideo 
-      <lb ed="#G" n="130"/>argumentum non est ad propositum 
-    </p>
-            <p xml:id="HuYgTa-e87344-d1e895">
-               <lb ed="#G" n="131"/>
-               <pc type="indent"/>Ad tertiam dicendum, quod gratia Dei non potest 
-      <lb ed="#G" n="132"/>habere causam meritoriam de condigno: quia tunc
-      gra<lb ed="#G" n="133" break="no"/>tia non esset gratia; tamen gratia potest habere causam 
-      <lb ed="#G" n="134"/>de congruo meritoriam. Et quamuis forte alicui illud 
-      <lb ed="#G" n="135"/>videatur abusiuum, tamen de communi doctrina istorum 
-      <lb ed="#G" n="136"/>Doctorum necessario sequitur: quia ipsi dicunt, quod
-      li<lb ed="#G" n="137" break="no"/>cet homo prius quam habeat caritatem, &amp; gratiam
-      gra<lb ed="#G" n="138" break="no"/>tumfacientem non possit mereri uitam aeternam de con 
-      <lb ed="#G" n="139"/>digno, potest tamen de congruo; modo secundum
-      il<lb ed="#G" n="140" break="no"/>los eosdem Doctores, gloria vitae aeternae est gratia
-      con<lb ed="#G" n="141" break="no"/>summata; Ex quibus sequitur, quod non habens gratiam 
-      <lb ed="#G" n="142"/>potest mereri de congruo gratiam consummatam, &amp; per 
-      <lb ed="#G" n="143"/>consequens conuenienter, &amp; sine abusione dici potest; 
-      <lb ed="#G" n="144"/>quod non habens gratiam potest mereri de congruo 
-      <!--270.xml-->
-      <pb ed="#G" n="116-r"/>
-               <cb ed="#G" n="a"/>
-               <lb ed="#G" n="1"/>gratiam initiatam, puta gratiam veniae, de qua procedit 
-      <lb ed="#G" n="2"/>predictum argumentum. 
-    </p>
-            <p xml:id="HuYgTa-e87344-d1e941">
-               <lb ed="#G" n="3"/>
-               <pc type="indent"/>Ad quartam dicedum, quod quamuis non ex operibus 
-      <lb ed="#G" n="4"/>tune factis dictum fuerit a Deo, lacob dilexi; Esau autem 
-      <lb ed="#G" n="5"/>odio habui, tamen hoc dicere potuit Deus, motiuum
-      ali<lb ed="#G" n="6" break="no"/>quo modo accipiendo ex operibus in suturum faciendis; 
-    </p>
-            <p xml:id="HuYgTa-e87344-d1e954">
-               <lb ed="#G" n="7"/>
-               <pc type="indent"/>ARTICVLVS III 
-      <lb ed="#G" n="8"/>Vtrum predestinatio iuuari possit precibus 
-      <lb ed="#G" n="9"/>sanctorum.
-    </p>
-            <p xml:id="HuYgTa-e87344-d1e965">
-               <lb ed="#G" n="10"/>QVANTVM ad tertium articulum, vtrum
-      praedesti<lb ed="#G" n="11" break="no"/>natio iuuari possit precibus sanctorum, est
-      scien<lb ed="#G" n="12" break="no"/>dum, quod praedistinatio potest dupliciter accipi, vno mo 
-      <lb ed="#G" n="13"/>do secundum se; Alio modo quantum ad suum effectum 
-      <lb ed="#G" n="14"/>&amp; secundum hoc ponam duas conclusiones. 
-    </p>
-            <p xml:id="HuYgTa-e87344-d1e979">
-               <lb ed="#G" n="15"/>
-               <pc type="indent"/>Prima est, quod praedestinatio secundum se
-      considera<lb ed="#G" n="16" break="no"/>ta non potest iuuari precibus sanctorum: quia quod est ef 
-      <lb ed="#G" n="17"/>fectus praedestinationis, hoc non iuuat praedestinationem 
-      <lb ed="#G" n="18"/>sumptam secundum se, sed preces sanctorum, quae fiunt 
-      <lb ed="#G" n="19"/>pro praedestinatis, sunt effectus praedestinationis,
-      ordina<lb ed="#G" n="20" break="no"/>nit enim Deus hoc, quod tales sancti pro talibus
-      praede<lb ed="#G" n="21" break="no"/>stinatis debeant deprecari, ergo &amp;c. 
-    </p>
-            <p xml:id="HuYgTa-e87344-d1e999">
-               <lb ed="#G" n="22"/>
-               <pc type="indent"/>Forte dicetur, quod illud sit contra glo, super illo
-      ver<lb ed="#G" n="23" break="no"/>bo, deprecatus est lsaac Dominum pro vxore sua, eo quod 
-      <lb ed="#G" n="24"/>esset sterilis; qui exaudiuit eum, deditque conceptum 
-      <lb ed="#G" n="25"/>Rebeccae: Dicit enim lbi glosa; In lsaac facta est
-      promis<lb ed="#G" n="26" break="no"/>sio, sed sanctorum precibus adiuuanda est Dei praefinitio.  
-      <lb ed="#G" n="27"/>2 Preterea, illud, quod causatur a creatura, hoc potess 
-      <lb ed="#G" n="28"/>iuuari per creaturam, sed, vt superius dixisti, quod
-      praede<lb ed="#G" n="29" break="no"/>stinatio habet causam ex parte praedestinati, ergo &amp;c 
-    </p>
-            <p xml:id="HuYgTa-e87344-d1e1021">
-               <lb ed="#G" n="30"/>
-               <pc type="indent"/>Sed pro solutione illarum &amp; consimilium obiectionum 
-      <lb ed="#G" n="31"/>pono secundam conclusionem, quod praedestinatio
-      quam<lb ed="#G" n="32" break="no"/>tum ad executionem, &amp; suorum effectuum in esse posito 
-      <lb ed="#G" n="33"/>nem potest iuuari precibus sanctorum, quia sicut Deus in 
-      <lb ed="#G" n="34"/>productione rerum naturalium saepe vnum effectum
-      po<lb ed="#G" n="35" break="no"/>nit esse med iante alio, sic in supernaturalibus quandoque 
-      <lb ed="#G" n="36"/>vnum effectum ordinat pro executione alterius; Et sic 
-      <lb ed="#G" n="37"/>prationes sanctorum iuuant praedestinationem quantum 
-      <lb ed="#G" n="38"/>ad executionem sui effectus, quia ad hoc huiusmodi
-      ora<lb ed="#G" n="39" break="no"/>tiones Deus ordinauit, vt mediantibus eis, hi, pro quibus 
-      <lb ed="#G" n="40"/>oratur, gratiam consequantur in praesenti, &amp; gloriam  
-      <lb ed="#G" n="41"/>in futuro; &amp; illa est intentio <ref xml:id="HuYgTa-e87344-Rd1e1051">Beati Dion. 3. de diuinis non</ref> 
-               <lb ed="#G" n="42"/>vbi per plures similitudines hoc declarat, quas ad praesens 
-      <lb ed="#G" n="43"/>causa breuitatis omitto. 
-    </p>
-            <p xml:id="HuYgTa-e87344-d1e1059">
-               <lb ed="#G" n="44"/>
-               <pc type="indent"/>Et per hoc patet ad primam instantiam: quia glo. non 
-      <lb ed="#G" n="45"/>loquitur ibi de praedestinatione in se, sed in ordine ad
-      e<lb ed="#G" n="46" break="no"/>xecutionem. 
-    </p>
-            <p xml:id="HuYgTa-e87344-d1e1070">
-               <lb ed="#G" n="47"/>
-               <pc type="indent"/>Ad secundam dicendum, quod non fuit intentionis 
-      <lb ed="#G" n="48"/>meae dicere, quod praedestinatio secundum se, &amp; simpliciter ha 
-      <lb ed="#G" n="49"/>beat causam in creatura, quia tuc diuinum propositum, set 
-      <lb ed="#G" n="50"/>diuina Voluntas esset causata a creatura, sed tantum
-      volui<lb ed="#G" n="51" break="no"/>dicere, quod aliquid se tenens ex parte creaturae, vt est a 
-      <lb ed="#G" n="52"/>Deo ab aeterno praescitum, potest esse ratio, quare diuinum 
-      <lb ed="#G" n="53"/>propositum, seu diuina voluntas transeat super aliquo ho 
-      <lb ed="#G" n="54"/>mine complacenter, &amp; taliter, vt ad vitam praedestinetur 
-      <lb ed="#G" n="55"/>eternam, &amp; illud, vt dictum est, in sui executione potest 
-      <lb ed="#G" n="56"/>quuari precibus sanctorum, iuxta quod ait Beatus Aug 
-      <lb ed="#G" n="57"/>in libro de bono perseuerantie. Si nondum sunt vocati 
-      <lb ed="#G" n="58"/>pro illis vt vocentur oremus, fortassis enim sic
-      praedesti<lb ed="#G" n="59" break="no"/>nati sunt vt nostris orationibus concedantur. 
-    </p>
-            <p xml:id="HuYgTa-e87344-d1e1103">
-               <lb ed="#G" n="60"/>
-               <pc type="indent"/>ARPICVLVS ILII 
-      <lb ed="#G" n="61"/>Vtrum reprobatio impediri possit precibus 
-      <lb ed="#G" n="62"/>sanctarum. 
-    </p>
-            <p xml:id="HuYgTa-e87344-d1e1115">
-               <lb ed="#G" n="63"/>
-               <pc type="indent"/>QVANTVM ad quartum articulum, vtrum
-      reproba<lb ed="#G" n="64" break="no"/>R tio impediri possit precibus sanctorum, Est aduer 
-      <!--270.xml-->
-      <cb ed="#G" n="b"/>
-               <lb ed="#G" n="65"/>endum, quod ille articulus non immerito redditur
-      du<lb ed="#G" n="66" break="no"/>bius propter scripta aliquorum sanctorum. Legitur enim 
-      <lb ed="#G" n="67"/>in lib dialogorum Beati Crego. quod per orationes
-      San<lb ed="#G" n="68" break="no"/>cti Gregorij Traianus Imperator liberatus fuerit de infer 
-      <lb ed="#G" n="69"/>no ad agedam penitentiam: Et de sancta Orilia
-      virgine<lb ed="#G" n="70" break="no"/>cuius reliquiae habentur in partibus Alemaniae in diocesi 
-      <lb ed="#G" n="71"/>Argentinensi, quod tandiu legit, fseuit, &amp; orauit pro
-      ani<lb ed="#G" n="72" break="no"/>ma patris sui ad Dominum, vsque quo Deus animam
-      il<lb ed="#G" n="73" break="no"/>lam de inferno liberauit. Et forte propter haec, &amp; his si 
-      <lb ed="#G" n="74"/>milia ortum habuit error AEgvptiorum dicentium, quod 
-      <lb ed="#G" n="75"/>tantae virtutis sunt orationes sanctorum, quod immutant 
-      <lb ed="#G" n="76"/>diuinum suppositum, intantum quod Deus propter huiusmodi 
-      <lb ed="#G" n="77"/>prationes quandoque illud dimittit, quod facere decreuit. 
-    </p>
-            <p xml:id="HuYgTa-e87344-d1e1157">
-               <lb ed="#G" n="78"/>
-               <pc type="indent"/>Propter haec igitur est aduertendum, quod sicut
-      iudi<lb ed="#G" n="79" break="no"/>ces humani in suis iudiciis duplici vtuntur sententia, qua 
-      <lb ed="#G" n="80"/>rum prima dicitur sententia interlocutoria; alia
-      senten<lb ed="#G" n="81" break="no"/>tia diffinitiua. Prima sententia est mutabilis: quia saepius 
-      <lb ed="#G" n="82"/>in fudicio accidit, quod pro illa parte cadit sententia
-      dif<lb ed="#G" n="83" break="no"/>finitiua, contra quam partem ante ceciderat sententia in 
-      <lb ed="#G" n="84"/>terlocutoria. Alia autem est simpliciter irreuocabilis, &amp;  
-      <lb ed="#G" n="85"/>immutabilis ante iudicem, qui tulit eam. Sic
-      metaphori<lb ed="#G" n="86" break="no"/>te loquendo, illae duae sententiae quandoque proferuntur 
-      <lb ed="#G" n="87"/>a Deo; Vnde cum Dominus dixit ad lonam Prophetam, 
-      <lb ed="#G" n="88"/>Adhuc quadraginta dies &amp; Niniue subuertetur; illa
-      sen<lb ed="#G" n="89" break="no"/>entia non fuit simpliciter diffinitiua, quia reuocabilis 
-      <lb ed="#G" n="90"/>erat: erat enim quasi conditionalis, puta hac adiecta
-      con<lb ed="#G" n="91" break="no"/>ditione, si conuersi non fuerint de peccatis, &amp; quia
-      con<lb ed="#G" n="92" break="no"/>ditionalis sententia non tenet non stante conditione, ideo 
-      <lb ed="#G" n="93"/>Niniue non fuit subuersa, quia habitatores eius egerunt 
-      <lb ed="#G" n="94"/>penitentiam: Sententia vero lata contra puerum, pro vita 
-      <lb ed="#G" n="95"/>tuius orauit Dauid quasi esse videtur aliquo modo
-      sen<lb ed="#G" n="96" break="no"/>tentia diffinitiua, quia Dominus non exaudiuit preces,  
-      <lb ed="#G" n="97"/>Dauid, Cum igitur reprobatio videatur esse quasi quedam 
-      <lb ed="#G" n="98"/>sententia Dei, dici potest, quod tales, qui ad preces
-      san<lb ed="#G" n="99" break="no"/>ctorum sunt liberati, non fuerunt vltimate &amp; diffinitiue 
-      <lb ed="#G" n="100"/>reprobati; sed quasi conditionaliter &amp; interlocutorie¬ 
-    </p>
-            <p xml:id="HuYgTa-e87344-d1e1212">
-               <lb ed="#G" n="101"/>
-               <pc type="indent"/>Et secundum hoc circa illum articulum possunt poni 
-      <lb ed="#G" n="102"/>due conclusiones. 
-    </p>
-            <p xml:id="HuYgTa-e87344-d1e1221">
-               <lb ed="#G" n="103"/>
-               <pc type="indent"/>Prima, quod si sumitur reprobatio pro interlocutoria 
-      <lb ed="#G" n="104"/>sententia, tunc impediri potest, hoc es mutari potest preci 
-      <lb ed="#G" n="105"/>bus sanctorum, quia iudicis sententia non excludens
-      o<lb ed="#G" n="106" break="no"/>mnem desensionem &amp; promotionem eius, qui
-      sententia<lb ed="#G" n="107" break="no"/>tus est, non est immutabilis, &amp; per consequens
-      impedi<lb ed="#G" n="108" break="no"/>bilis, vel per viam defensionis, puta allegando pro causa 
-      <lb ed="#G" n="109"/>melius, quam hactenus fuit allegatum, vel per viam
-      sup<lb ed="#G" n="110" break="no"/>plicationis, puta quod amici sui precibus placant iudicema 
-      <lb ed="#G" n="111"/>bed reprobatio illo primo modo sumpta est sententia non 
-      <lb ed="#G" n="112"/>excludens omnem defensionem &amp; promotionem ipsius 
-      <lb ed="#G" n="113"/>sententiati, ergo &amp;c 
-    </p>
-            <p xml:id="HuYgTa-e87344-d1e1250">
-               <lb ed="#G" n="114"/>
-               <pc type="indent"/>Secunda conclusio esse potest, quod reprobatio
-      secun<lb ed="#G" n="115" break="no"/>do modo accepta nequaquam est impedibilis
-      quibuscu<lb ed="#G" n="116" break="no"/>que precibus: quia quod irreuocabiliter sententiatum efs 
-      <lb ed="#G" n="117"/>a sapientissimo &amp; omnipotente iudice, hoc precibus qui 
-      <lb ed="#G" n="118"/>buscumque immutari, vel impediri non potest, sed secun 
-      <lb ed="#G" n="119"/>do modo accipiendo reprobationem, reprobatus est irre 
-      <lb ed="#G" n="120"/>uocabiliter puta diffinitiue sententiatus a sapientissimo,  
-      <lb ed="#G" n="121"/>&amp; omnipotente iudice, ergo &amp;c. Quia tamen
-      communi<lb ed="#G" n="122" break="no"/>ter loquimur de reprobatione isto secundo modo, ideo 
-      <lb ed="#G" n="123"/>absolute loquendo melius dicitur, quod reprobatio non 
-      <lb ed="#G" n="124"/>potest impediri precibus sanctorum 
-    </p>
-            <p xml:id="HuYgTa-e87344-d1e1279">
-               <lb ed="#G" n="125"/>
-               <pc type="indent"/>Ad argumentum principale dicendum, quod maior non 
-      <lb ed="#G" n="126"/>st vera, nisi loquendo de oppositis prout habent ficri cir 
-      <lb ed="#G" n="127"/>ca idem subiectum singulare, ex hoc enim, quod
-      promo<lb ed="#G" n="128" break="no"/>uetur calor in Sorte, non sequitur, quod impediatur
-      fri<lb ed="#G" n="129" break="no"/>gus in Platone, &amp; illud quod est promotiuum caloris in 
-      <lb ed="#G" n="130"/>Sorte, non oportet, quod sit impeditiuum frigiditatis in 
-      <lb ed="#G" n="131"/>Platone, licet bene sit impeditiuum frigiditatis in Sortes 
-      <lb ed="#G" n="132"/>Et quia praedestinatio &amp; reprobatio proprie dicta non ha 
-      <lb ed="#G" n="133"/>bent idem esse circa idem subiectum, seu suppositum
-      nu<lb ed="#G" n="134" break="no"/>mero, ideo argumentum non est ad propositum.
-    </p>
-         </div>
-      </body>
-   </text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 1</title>
+        <author ref="#ThomasStrasbourg">Thomas of Strasbourg</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 1</title>
+          <date when="2020-11-26">November 26, 2020</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="G" n="cod-TxxxqU">Genoa 1585</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2020-11-26" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#G" n="114-v"/>
+        <cb ed="#G" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="HuYgTa-e87344"><!-- HuYgTa-l1d41q1 -->
+        <head xml:id="HuYgTa-e87344-Hd1e108">Quaestio 1</head>
+        <head xml:id="HuYgTa-e87344-Hd1e111" type="question-title">
+          An reprobatio precibus sanctorum impediri possit
+        </head>
+        <p xml:id="HuYgTa-e87344-d1e114">
+          <lb ed="#G" n="102"/>
+          <pc type="indent"/>Quaestio 1
+          <lb ed="#G" n="103"/>An reprobatio precibus sanctorum 
+          <lb ed="#G" n="104"/>impediri possit;
+        </p>
+        <p xml:id="HuYgTa-e87344-d1e125">
+          <lb ed="#G" n="105"/>VTRVM reprobatio possit impediri
+          pre<lb ed="#G" n="106" break="no"/>cibus sanctorum.
+        </p>
+        <p xml:id="HuYgTa-e87344-d1e132">
+          Et videtur quod sic. 
+          <lb ed="#G" n="107"/>Quia illud, quod est promotiuum vnius 
+          <lb ed="#G" n="108"/>oppositorum, hoc est impeditiuum alte 
+          <lb ed="#G" n="109"/>rius, maxime si talia sint opposita
+          imme<lb ed="#G" n="110" break="no"/>diata: sed praedestinatio, &amp; reprobatio 
+          <lb ed="#G" n="111"/>sunt opposita immediata: quia sine omni 
+          <lb ed="#G" n="112"/>medio omnes homines vel sunt praedestinati, vel
+          reprob<lb ed="#G" n="113" break="no"/>ti, &amp; praedestinatio iuuatur precibus sanctorum, vt dicit 
+          <lb ed="#G" n="114"/>Peatus Aug. ergo reprobatio impediri poterit precibus 
+          <lb ed="#G" n="115"/>sanctorum. 
+        </p>
+        <p xml:id="HuYgTa-e87344-d1e155">
+          <lb ed="#G" n="116"/>
+          <pc type="indent"/>Contra in inferno nulla est redemptio, ut legitur, sed  
+          <lb ed="#G" n="117"/>reprobatus est in infernum ordinatus, ergo &amp; cer. Quia 
+          <!--268.xml-->
+          <pb ed="#G" n="115-r"/>
+          <cb ed="#G" n="a"/>
+          <lb ed="#G" n="1"/>
+          <ref xml:id="HuYgTa-e87344-Rd1e172">magister in illa 21. dist.</ref> inquirit de causa reprobationis &amp;  
+          <lb ed="#G" n="2"/>praedestinationis; ideo primo videndum est de causa
+          repro<lb ed="#G" n="3" break="no"/>pationis; Secundo de causa predestinationis; Tertio, vtrum 
+          <lb ed="#G" n="4"/>tedestinatio iuuari possit precibus sanctorum. Quarto, 
+          <lb ed="#G" n="5"/>vtrum reprobatio impediri possit precibus sanctorum. 
+        </p>
+        <p xml:id="HuYgTa-e87344-d1e185">
+          <lb ed="#G" n="6"/>
+          <pc type="indent"/>RESOLVTI O. 
+          <lb ed="#G" n="7"/>Ti nmalus vsas lib eri arbitri in adidtis in paruulis vero
+          inhabi<lb ed="#G" n="8" break="no"/>lta a retipiendum diuinae gratiae inflexum reprobationis
+          cau<lb ed="#G" n="9" break="no"/>sa xistit; ita bonus vsus eiusdem, vri aptitudo ad vecipiendam 
+          <lb ed="#G" n="10"/>dininam gratiam. p raedest in ationis causa st atuitur Vnde
+          quam<lb ed="#G" n="11" break="no"/>u, diuina praedest inatio secundum se diuorum precibus nequeat 
+          <lb ed="#G" n="12"/>ehuuari, etus tamen exequitio iisdem precibus poterit
+          comad<lb ed="#G" n="13" break="no"/>tari, quimadmodum reprobatio, nisi disfinitiua sit, diuorum 
+          <lb ed="#G" n="14"/>diferationibus poterit praepediri. 
+        </p>
+        <p xml:id="HuYgTa-e87344-d1e209">
+          <lb ed="#G" n="15"/>
+          <pc type="indent"/>ARTICVLVS L 
+          <lb ed="#G" n="16"/>
+          <pc type="indent"/>De causa reprobationis.
+        </p>
+        <p xml:id="HuYgTa-e87344-d1e220">
+          <lb ed="#G" n="17"/>QVAVTVM ad primum articulum de causa
+          repro<lb ed="#G" n="18" break="no"/> bationis videtur esse dicendum, quod ipsius
+          repro<lb ed="#G" n="19" break="no"/>bationis possumus assignare causam, quia ad poenam aeter 
+          <lb ed="#G" n="20"/>am nullus ordinatur a iusto iudice sine praecognitione 
+          <lb ed="#G" n="21"/>tane sed reprobatus a Deo, qui est iustus iudex, est ad 
+          <lb ed="#G" n="22"/>utam eternam deputatus, seu ordinatus, ergo &amp;c 
+          <lb ed="#G" n="23"/>haec autem causa ex parte reprobatorum duplex
+          po<lb ed="#G" n="24" break="no"/>ti allignari, secundum quod reprobati ab hoc saeculo de 
+          <lb ed="#G" n="25"/>adentes in duplici statu esse videntur, Quidam enim sunt 
+          <lb ed="#G" n="26"/>instatu adultorum, quidam in statu paruulorum. 
+        </p>
+        <p xml:id="HuYgTa-e87344-d1e244">
+          <lb ed="#G" n="27"/>
+          <pc type="indent"/>Quantum ad adultos causa reprobationis dici potest 
+          <lb ed="#G" n="28"/>nalus vsus liberi arbitrij vsque ad finem vitae in ipsis
+          du<lb ed="#G" n="29" break="no"/>aturus, ab aeterno a Deo praescitus: Vnde quia Deus
+          sci<lb ed="#G" n="30" break="no"/>ni ab aeterno talem hominem in fine vitae suae abuti suc 
+          <lb ed="#G" n="31"/>hbero arbitrio, ideo a tali homine influxui diuinae gratiae 
+          <lb ed="#G" n="32"/>su, temeritate finaliter resistente, Deus ab aeterno decre 
+          <lb ed="#G" n="33"/>a suam gratiam finaliter subtrahere, &amp; a gloria aeternae 
+          <lb ed="#G" n="34"/>eatitudinis tamquam inhabilem reprobare. 
+          <lb ed="#G" n="35"/>Quantum autem ad paruulos absque sacramento
+          ba<lb ed="#G" n="36" break="no"/>usmatis decedentes causa reprobationis dici potest inc 
+          <lb ed="#G" n="37"/>nitudo, sen inhabilitas ad recipiendum influxum gratiae 
+          <lb ed="#G" n="38"/>minae ab aeterno a Deo precognita, quae ipsis prouenit 
+          <lb ed="#G" n="39"/>el ex causa naturali, puta quia ex naturali sua
+          complexio<lb ed="#G" n="40" break="no"/>ne tam cito moriuntur, quod baptixari non possunt, vel 
+          <lb ed="#G" n="41"/>excausa voluntaria, voluntate tamen aliena, puta quia 
+          <lb ed="#G" n="42"/>nascuntur, vel nutriuntur ab infidelibus, qui eos
+          no<lb ed="#G" n="43" break="no"/>lunt haptixare. 
+        </p>
+        <p xml:id="HuYgTa-e87344-d1e286">
+          <lb ed="#G" n="44"/>
+          <pc type="indent"/>Etenim imaginandum in isto proposito, quod sicut  
+          <lb ed="#G" n="45"/>sl radios vbique diffundit, &amp; quantum in se est huiusmodi 
+          <lb ed="#G" n="46"/>usasione omnia illuminat, si tamen aliqua huiusmodi 
+          <lb ed="#G" n="47"/>dnosis radus obicem ponunt, illa tenebrosa manebunt, 
+          <lb ed="#G" n="48"/>Deus solem gratiae spiritualis, quantum est ex parte suae 
+          <lb ed="#G" n="49"/>onitatis, oriri facit super bonos, &amp; malos, quia quantum  
+          <lb ed="#G" n="50"/>nex parte suae bonitatis ipse neminem vult perire: sec 
+          <lb ed="#G" n="51"/>Spis vult omnes homines saluos fieri, &amp; ad agnitionem 
+          <lb ed="#G" n="52"/>teritatis venire. Quia tamen ipse in aliquibus ab aeterno 
+          <lb ed="#G" n="53"/>paenidit obicem resistentem huiusmodi gratiae diffusa 
+          <lb ed="#G" n="54"/>modo praedicto, ideo tales modo, quo dictum est, a Deo 
+          <lb ed="#G" n="55"/>peuntur reprobari. Et quia causa reprobationis ipsorum 
+          <lb ed="#G" n="56"/>noltorum reducitur illo modo in actualem, &amp; propriam 
+          <lb ed="#G" n="57"/>eram ipsorum, reprobatio autem paruulorum non reduci 
+          <lb ed="#G" n="58"/>tr in iplorum propriam culpam, ideo adultis reprobatis 
+          <lb ed="#G" n="59"/>nn solum perna damni, sed etiam prena sensus debetur,  
+          <lb ed="#G" n="60"/>probdetur a iusto iudice; paruulis autem tantum
+          mo<lb ed="#G" n="61" break="no"/>noena damni, quae est carentia diuinae visionis; Et haec 
+          <lb ed="#G" n="62"/>tamum ad primum articulum sufficiant.
+        </p>
+        <p xml:id="HuYgTa-e87344-d1e333">
+          <!--268.xml-->
+          <cb ed="#G" n="b"/>
+          <lb ed="#G" n="63"/>ARTICVLVS II 
+          <lb ed="#G" n="64"/>De causa praedestmationis.
+        </p>
+        <p xml:id="HuYgTa-e87344-d1e344">
+          <lb ed="#G" n="65"/>QVANTVM ad secundum articulum, quae sit causa 
+          <lb ed="#G" n="66"/>e praedestinationis, est aduertendum, quod quia op 
+          <lb ed="#G" n="67"/>positorum oppositae sunt cause, praedestinatio autem &amp; 
+          <lb ed="#G" n="68"/>reprobatio aliquo modo sunt opposita, ideo causam
+          prae<lb ed="#G" n="69" break="no"/>destinationis assignare possumus ex oppositis causarum 
+          <lb ed="#G" n="70"/>praedictarum ipsius reprobationis. 
+        </p>
+        <p xml:id="HuYgTa-e87344-d1e360">
+          <lb ed="#G" n="71"/>
+          <pc type="indent"/>vt igitur singula singulis per oppositum valeant
+          respon<lb ed="#G" n="72" break="no"/>lere, dico, saluo tamen semper meliori iudicio, quod cau 
+          <lb ed="#G" n="73"/>sa praedestinationis ipsorum adultorum videtur esse
+          bo<lb ed="#G" n="74" break="no"/>nus vsus liberi arbitrij ab aeterno a Deo praecognitus fi- 
+          <lb ed="#G" n="75"/>naliter duraturus, quae bonum vsum finale Deus ab
+          aeter<lb ed="#G" n="76" break="no"/>no conteplans, proposuit talibus hominibus huiusmodi 
+          <lb ed="#G" n="77"/>vsum habituris sic dare gratiam finaliter in praesenti, vt me 
+          <lb ed="#G" n="78"/>diante gratia in praesenti perueniant ad gloriam in
+          futu<lb ed="#G" n="79" break="no"/>ro. Dixi autem notanter finalem, seu finaliter: quia nihil 
+          <lb ed="#G" n="80"/>obstat, quin reprobatus quandoque habeat bonum vsum 
+          <lb ed="#G" n="81"/>liberi arbitrij in praesenti, praeuidit tamen Deus, quod sua 
+          <lb ed="#G" n="82"/>libertate abutendo, ab huiusmodi bono vsu finaliter se 
+          <lb ed="#G" n="83"/>auertet: igitur nec gratiam finaliter habebit in praesenti, 
+          <lb ed="#G" n="84"/>nec gloriam in futuro, quia sicut dicit textus veritatis. Qui 7 
+          <lb ed="#G" n="85"/>erseuerauerit vsque in finem, hic saluus erit. Et econuer 
+          <lb ed="#G" n="86"/>so praedestinatus in praesenti quandoque potest habere 
+          <lb ed="#G" n="87"/>malum vsum, sciuit tamen Deus ab aererno, quod in tali 
+          <lb ed="#G" n="88"/>malo vsu finaliter non manebit, ideo proposuit Deus ab  
+          <lb ed="#G" n="89"/>aeterno tali homini dare gratiam finalem in presenti &amp;  
+          <lb ed="#G" n="90"/>gloriam in futuro. Iuxta illud. Si impius egerit
+          poeniten<lb ed="#G" n="91" break="no"/>tiam ab omnibus peccatis suis, quae operatus est, &amp; fecerit 
+          <lb ed="#G" n="92"/>iustitiam, vitia vitet, omnium iniquitatum suarum non re¬ l 
+          <lb ed="#G" n="93"/>cordabor: Causa ante praedestinationis ipsorum
+          paruulo<lb ed="#G" n="94" break="no"/>rum potest dici quaedam aptitudo respectu baptismalis 
+          <lb ed="#G" n="95"/>gratiae, quam Deus preuidens, ab aeterno ipsos
+          praedesti<lb ed="#G" n="96" break="no"/>auit ad vitam aeternam, &amp; illa aptitudo conuenit eis ali 
+          <lb ed="#G" n="97"/>uo modo naturaliter, puta quia non sunt adeo infirmae 
+          <lb ed="#G" n="98"/>completionis, quin tantum possint durare in praesenti vi 
+          <lb ed="#G" n="99"/>ta, donec baptixentur: Et aliquo modo voluntarie,
+          volun<lb ed="#G" n="100" break="no"/>tate tamen aliena; puta quia tales sunt parentes, vel
+          nu<lb ed="#G" n="101" break="no"/>tritores, qui eos baptixari non prohibent 
+        </p>
+        <p xml:id="HuYgTa-e87344-d1e432">
+          <lb ed="#G" n="102"/>
+          <pc type="indent"/>Sed his praedictis videtur obuiare posito magnorum 
+          <lb ed="#G" n="103"/>Doctorum loquentium in illa materia, scilicet <ref xml:id="HuYgTa-e87344-Rd1e440">sancti
+            Tho<lb ed="#G" n="104" break="no"/>mae</ref> &amp; <ref xml:id="HuYgTa-e87344-Rd1e445">venerabilis Doctoris fratris AEgidij</ref>, qui ambo con 
+          <lb ed="#G" n="105"/>corditer dicunt, quod licet in generali possit assignari ra 
+          <lb ed="#G" n="106"/>io predestinationis, &amp; reprobonis, puta dicendo quod ali 
+          <lb ed="#G" n="107"/>qui sunt praedestinati, vt in ipsis reluceat misericordia, &amp;  
+          <lb ed="#G" n="108"/>ponitas diuina; Aliqui vero reprobati, vt in ipsis reluceat 
+          <lb ed="#G" n="109"/>iustitia diuina. Quare autem in speciali illi sint
+          praedesti<lb ed="#G" n="110" break="no"/>ati, &amp; illi reprobati, nulla causa est, nisi voluntas diuina.  
+        </p>
+        <p xml:id="HuYgTa-e87344-d1e462">
+          <lb ed="#G" n="111"/>
+          <pc type="indent"/>Et hoc declarant primo exemplo naturali, quia
+          quam<lb ed="#G" n="112" break="no"/>uis materia secudum se sit penitus vniformis in omnibus 
+          <lb ed="#G" n="113"/>uis partibus, tamen in principio productionis partium
+          vni<lb ed="#G" n="114" break="no"/>uersi aliqua pars materiae supposita est formae nobiliori; 
+          <lb ed="#G" n="115"/>alia formae ignobiliori; cuius si ratio petitur, quamuis in 
+        </p>
+        <p xml:id="HuYgTa-e87344-d1e478">
+          <lb ed="#G" n="116"/>
+          <pc type="indent"/>enerali de hoc possit reddi ratio, dicendo quod hoc pro 
+          <lb ed="#G" n="117"/>anto factum est: quia sic exigebat diuersitas formarum 
+          <lb ed="#G" n="118"/>pecificarum rerum naturalium, tamen nulla ratio in spe 
+          <lb ed="#G" n="119"/>ciali potest assignari, quare haec pars materiae supposita 
+          <lb ed="#G" n="120"/>sit huic formae, &amp; illa illi, quia hoc dependet ex simplici 
+          <lb ed="#G" n="121"/>voluntate Dei. 
+        </p>
+        <p xml:id="HuYgTa-e87344-d1e497">
+          <lb ed="#G" n="122"/>
+          <pc type="indent"/>Secundo declarant hoc idem exemplo sumpto in
+          ar<lb ed="#G" n="123" break="no"/>ificialibus; Videmus enim in arte aedificatoria, quod
+          ra<lb ed="#G" n="124" break="no"/>tio habet hoc in vniuersali, quod aliquis lapis ponitur in 
+          <lb ed="#G" n="125"/>vna parte aedificij, &amp; aliquis in alia: sed datis pluribus
+          la<lb ed="#G" n="126" break="no"/>idibus aequalibus non potest aliqua ratio in speciali
+          as<lb ed="#G" n="127" break="no"/>signari, quare hic lapis ponatur in hac parte aedificij, &amp;
+          il<lb ed="#G" n="128" break="no"/>e in alia, nisi sola voluntas artificis, tui sic placet. Sic in 
+          <lb ed="#G" n="129"/>propesito, ergo &amp;c. 
+        </p>
+        <p xml:id="HuYgTa-e87344-d1e519">
+          <lb ed="#G" n="130"/>
+          <pc type="indent"/>ec tamen ex hoc conuincitur, aliquam iniustitiam esse 
+          <lb ed="#G" n="131"/>in Deo, scu apud Deum: quia effectus predestinationis non 
+          <!--269.xml-->
+          <pb ed="#G" n="115-v"/>
+          <cb ed="#G" n="a"/>
+          <lb ed="#G" n="1"/>redditur alicui ex debito: sed ex mera gratia: In gratuitis 
+          <lb ed="#G" n="2"/>autem non attenditur ratio iustitiae vel iniustitiae, sed
+          po<lb ed="#G" n="3" break="no"/>test, qui dispensat, dare &amp; plus, &amp; minus pro libitae suae vo 
+          <lb ed="#G" n="4"/>luntatis absque preiudicio cuiuscunque. luxta quod ait 
+          <lb ed="#G" n="5"/>paterfamilias; Amice non facio tibi iniuriam: Et infra 
+          <lb ed="#G" n="6"/>Non licet mihi quod ego uolo facere :
+        </p>
+        <p xml:id="HuYgTa-e87344-d1e548">
+          <lb ed="#G" n="7"/>1 Potest etiam argui pro illa opinione sic. Nullum
+          ten<lb ed="#G" n="8" break="no"/>porale potest esse ratio eius, quod est eternum, sed omne 
+          <lb ed="#G" n="9"/>quod se tenet ex parte creaturae est temporale,
+          praedista<lb ed="#G" n="10" break="no"/>tio autem est aeterna, &amp; similiter reprobatio, ergo nihil se 
+          <lb ed="#G" n="11"/>tenens ex parte creaturae potest esse causa praed
+          estinatio<lb ed="#G" n="12" break="no"/>nis, seu reprobationis,
+        </p>
+        <p xml:id="HuYgTa-e87344-d1e564">
+          <lb ed="#G" n="13"/>2 Preterea, illud, quod est effectus predestinationis, non 
+          <lb ed="#G" n="14"/>potest esse causa eius, sed bonus vsus liberi arbitrij est ef- 
+          <lb ed="#G" n="15"/>fectus praedestinationis, ergo non valet illud, quod
+          supe<lb ed="#G" n="16" break="no"/>rius posuisti. Maior patet: quia idem non potest esse causa, 
+          <lb ed="#G" n="17"/>&amp; effectus respectu eiusdem. Minor etiam patet, quia om 
+          <lb ed="#G" n="18"/>ne bonum, quod se tenet ex parte praedestinati, videtur es 
+          <lb ed="#G" n="19"/>se effectus praedestinationis
+        </p>
+        <p xml:id="HuYgTa-e87344-d1e582">
+          <lb ed="#G" n="20"/>3 Praeterea, si praedestinatio habere se causam se tenen 
+          <lb ed="#G" n="21"/>tem ex parte praedestinati, tunc gratia Dei haberet
+          cau<lb ed="#G" n="22" break="no"/>sam ex parte predestinati: Falsitas consequentis patet: quia 
+          <lb ed="#G" n="23"/>si gratia esset ex meritis, iam gratia non esset gratia, sicut  
+          <lb ed="#G" n="24"/>ait Apostolus.
+        </p>
+        <p xml:id="HuYgTa-e87344-d1e595">
+          <lb ed="#G" n="25"/>4 Praeterea, Apostolus loquens de Esau &amp; lacob ait,  
+          <lb ed="#G" n="26"/>Cum nondum nati essent, aut aliquid boni, aut mali
+          egis<lb ed="#G" n="27" break="no"/>sent, secundum electionem, non ex operibus, dictum est: 
+          <lb ed="#G" n="28"/>Tacob dilexi, Esau autem odio habui; &amp; ibidem dicitur,  
+          <lb ed="#G" n="29"/>cuius vult miseretur, &amp; quem vult indurat, &amp; ponit
+          Apo<lb ed="#G" n="30" break="no"/>stolus ibidem exemplum de figulo, qui de eadem massa 
+          <lb ed="#G" n="31"/>facit vasa honoris, &amp; contumeliae, prout sibi placet. 
+        </p>
+        <p xml:id="HuYgTa-e87344-d1e614">
+          <lb ed="#G" n="32"/>
+          <pc type="indent"/>His non obstantibus, potest argui contra communem 
+          <lb ed="#G" n="33"/>opinionem sic. 
+        </p>
+        <p xml:id="HuYgTa-e87344-d1e623">
+          <lb ed="#G" n="34"/>1 Si absque causa se tenente ex parte hominum Deus 
+          <lb ed="#G" n="35"/>vnum ordinaret ad gloriam, &amp; alium ad poenam ab
+          aeter<lb ed="#G" n="36" break="no"/>no, tunc Deus esset acceptator personarum: Falsitas
+          con<lb ed="#G" n="37" break="no"/>sequentis patet <ref xml:id="HuYgTa-e87344-Rd1e633">Actuum 10.</ref> Consequentia probatur: quia 
+          <lb ed="#G" n="38"/>ille videtur esse acceptator personarum, qui duobus
+          exi<lb ed="#G" n="39" break="no"/>stentibus aequalibus vni dat, quod alteri denegat.
+        </p>
+        <p xml:id="HuYgTa-e87344-d1e642">
+          <lb ed="#G" n="40"/>2 Praeterea, Deus est diues in misericordia secundum 
+          <lb ed="#G" n="41"/>Apostolum, sed sireprobaret aliquem fine causa, tunc in 
+          <lb ed="#G" n="42"/>tali actu nihil misericordiae appareret, ergo &amp;c. 
+        </p>
+        <p xml:id="HuYgTa-e87344-d1e651">
+          <lb ed="#G" n="43"/>
+          <pc type="indent"/>3 Preterea, Apost. ait, quos presciuit, hoc
+          praedestina<lb ed="#G" n="44" break="no"/>uit, ergo prescientia alicuius se tenentis ex parte
+          praede<lb ed="#G" n="45" break="no"/>stinati videtur fuisse causa, vel ratio praedestinationis
+        </p>
+        <p xml:id="HuYgTa-e87344-d1e662">
+          <lb ed="#G" n="46"/>4 Praeterea, <name xml:id="HuYgTa-e87344-Nd1e666" ref="#Ambrose">Ambr</name> in glos: ad Nom. 9. super illo verbo. 
+          <lb ed="#G" n="47"/>miserebor cui miserebor, dicit, id est misericordiam illi
+          da<lb ed="#G" n="48" break="no"/>bo, quem praescio toto corde reuersorum ad me.
+        </p>
+        <p xml:id="HuYgTa-e87344-d1e674">
+          <lb ed="#G" n="49"/>3 Item beatus <ref xml:id="HuYgTa-e87344-Rd1e678">Aug. 83. quaestionum</ref> ait, Deus cui vuli 
+          <lb ed="#G" n="50"/>miseretur, &amp; quem vult indurat, per hoc tamen Dei boni 
+          <lb ed="#G" n="51"/>tas iniusta esse non potest, venit enim de occultissimis 
+          <lb ed="#G" n="52"/>meritis. 
+        </p>
+        <p xml:id="HuYgTa-e87344-d1e689">
+          <lb ed="#G" n="53"/>
+          <pc type="indent"/>Forte dicetur, quod Aug. aut sibi contradiceret, vel opor- 
+          <lb ed="#G" n="54"/>tet dicere, quod illam auctoritatem per aliam reuocauit: 
+          <lb ed="#G" n="55"/>Nam Aug. in lib de praedestinatione sic ait, Non quia
+          fu<lb ed="#G" n="56" break="no"/>turos nos esse tales praesciuit, ideo elegit, sed vt essemus 
+          <lb ed="#G" n="57"/>tales per ipsam electionem gratiae suae, qua gratificauit
+          no<lb ed="#G" n="58" break="no"/>n dilecto filio suo; Et in eodem lib ait. Taceat humana 
+          <lb ed="#G" n="59"/>lingua, nec prorsus in praedestinatione de meritis extolla 
+          <lb ed="#G" n="60"/>tur, diuinae enim voluntatis est hoc donum, non
+          huma<lb ed="#G" n="61" break="no"/>nae fragilitatis meritum. 
+        </p>
+        <p xml:id="HuYgTa-e87344-d1e713">
+          <lb ed="#G" n="62"/>
+          <pc type="indent"/>Respondeo, quod Augus in prima auctoritate loquitur de 
+          <lb ed="#G" n="63"/>merito large, quod dicitur meritum aliquo modo de
+          con<lb ed="#G" n="64" break="no"/>truo; In aliis autem sequentibus loquitur de merito pro 
+          <lb ed="#G" n="65"/>prie dicto, puta de condigno. Et ideo hic nec est
+          reuoca<lb ed="#G" n="66" break="no"/>tio, nec contradictio, sed aequiuocatio.
+        </p>
+        <p xml:id="HuYgTa-e87344-d1e729">
+          <lb ed="#G" n="67"/>e Preterea, non videtur bene dictum, quod pro generali 
+          <lb ed="#G" n="68"/>causa reprobationis assignant isti Doctores relucentiam  
+          <lb ed="#G" n="69"/>diuinae iustitiae: quia nullus iustus iudex per se intendit iu 
+          <lb ed="#G" n="70"/>stitiam punitiuam, sed tantum ex suppositone punibilis 
+          <lb ed="#G" n="71"/>culpae. Sed Deus non potest esse iniustus; &amp; iustitia, qua 
+          <lb ed="#G" n="72"/>quae relucet in reprobatis, seu damnatis, est iustitia maxi¬ 
+          <!--269.xml-->
+          <cb ed="#G" n="b"/>
+          <lb ed="#G" n="73"/>me punitiua, &amp; uindicatiua, ergo relucentiam talis
+          iusti<lb ed="#G" n="74" break="no"/>tiae non potest Deus per se, &amp; finaliter in actu reprobatio 
+          <lb ed="#G" n="75"/>nis intendere, sed prescientiam mali, &amp; demeritorij usus 
+          <lb ed="#G" n="76"/>liberi arbitrij, propter quam Deus talem iustitiam
+          decre<lb ed="#G" n="77" break="no"/>uit exercere.
+        </p>
+        <p xml:id="HuYgTa-e87344-d1e760">
+          <lb ed="#G" n="78"/>3 Praeterea, illud non debet poni praecise propter relu 
+          <lb ed="#G" n="79"/>centiam diuinae iustitiae, sine quo diuina iustitia sufficien 
+          <lb ed="#G" n="80"/>ter potest relucere, sed dato, quod nullus esset
+          reproba<lb ed="#G" n="81" break="no"/>tus, adhuc in solis electis Dei iustitia sufficienter reluce 
+          <lb ed="#G" n="82"/>ret, iuxta illud Apostoli, De reliquo reposita est mihi
+          co<lb ed="#G" n="83" break="no"/>rona iustitiae, quam reddet mihi in illum diem lustus
+          iu<lb ed="#G" n="84" break="no"/>dex, ergo &amp; caetera
+        </p>
+        <p xml:id="HuYgTa-e87344-d1e778">
+          <lb ed="#G" n="85"/>3 Preterea, si Deus solum pro libito voluntatis aliquen 
+          <lb ed="#G" n="86"/>reprobaret, tunc Deus esset crudelis, &amp; iniustus
+          conse<lb ed="#G" n="87" break="no"/>uens est impossibile, ergo impossibile videtur esse illud 
+          <lb ed="#G" n="88"/>antecedens positum per istos Doctores : Consequentia 
+          <lb ed="#G" n="89"/>atet: quia omnis ille, qui sine alia ratione, quam solum 
+          <lb ed="#G" n="90"/>propter libitum voluntatis aliquam creaturam capacem  
+          <lb ed="#G" n="91"/>rationis &amp; experientiae deputat ad aeternam &amp;
+          horribilis<lb ed="#G" n="92" break="no"/>simam poenam, ille vtique videtur esse crudelis, &amp; per con 
+          <lb ed="#G" n="93"/>sequens iniustus. 
+        </p>
+        <p xml:id="HuYgTa-e87344-d1e800">
+          <lb ed="#G" n="94"/>
+          <pc type="indent"/>Et per hoc etiam patet, quod exempla non sunt ad pro 
+          <lb ed="#G" n="95"/>positum: Quia partes materiae, vel lapides non habent ex 
+          <lb ed="#G" n="96"/>erientiam boni, vel mali, honoris vel contumeliae,
+          qua<lb ed="#G" n="97" break="no"/>lem experientiam constat homines habere: &amp; ideo licet 
+          <lb ed="#G" n="98"/>illud, quod dictum est de lapidibus, &amp; de materia fieri pos 
+          <lb ed="#G" n="99"/>sit absque iniuria &amp; crudelitatis nota, absque tamen his fie 
+          <lb ed="#G" n="100"/>ri non potest, quod homo ordinetur, vel deputetur ad
+          aeter<lb ed="#G" n="101" break="no"/>nam poenam, non habendo respectum ad aliqua sua
+          deme<lb ed="#G" n="102" break="no"/>rita, sed solum attendendo voluntatem, &amp; libitum
+          depu<lb ed="#G" n="103" break="no"/>tantis: lllud etiam, quod inducunt de patrefamilias, qui 
+          <lb ed="#G" n="104"/>ledit prout voluit, quamuis locum habeat loquendo de 
+          <lb ed="#G" n="105"/>raedestinatis, tamen de reprobatis loquendo penitus non 
+          <lb ed="#G" n="106"/>habet locum: quia in gratuitis absque praeiudicio
+          cuius<lb ed="#G" n="107" break="no"/>cumque potest dari, &amp; plus, &amp; minus pro uoluntate distri 
+          <lb ed="#G" n="108"/>buentis, non autem in inferendis poenis, ergo &amp;c 
+        </p>
+        <p xml:id="HuYgTa-e87344-d1e838">
+          <lb ed="#G" n="109"/>
+          <pc type="indent"/>Ad primam ergo rationem dicendum ad maiorem, 
+          <lb ed="#G" n="110"/>uod quamuis temporale, vt temporale est, non possit es 
+          <lb ed="#G" n="111"/>se ratio aeterni; tamen temporale vt aeternaliter a Deo 
+          <lb ed="#G" n="112"/>tenceptum, seu praescitum, potest esse ratio aliquo
+          mo<lb ed="#G" n="113" break="no"/>do motiua, quare Deus ab aeterno decreuit aliquid fieri 
+          <lb ed="#G" n="114"/>in tempore, 
+        </p>
+        <p xml:id="HuYgTa-e87344-d1e856">
+          <lb ed="#G" n="115"/>
+          <pc type="indent"/>Ad secundam dicendum, quod bonus vsus liberi arbitrii 
+          <lb ed="#G" n="116"/>potest dupliciter intelligi. Vno modo, vt est meritorius vi 
+          <lb ed="#G" n="117"/>tae eternae de condigno, vel etiam de congruo, secundum 
+          <lb ed="#G" n="118"/>ropinquam dispofitionem, vel motionem ad gratiam
+          gra<lb ed="#G" n="119" break="no"/>tum facientem, de qua motione dicetur infra. Secundo 
+          <lb ed="#G" n="120"/>potest accipi bonus vsus liberi arbitrij, penes bonitatem 
+          <lb ed="#G" n="121"/>morum, in quam bonitatem potest homo ex puris
+          natu<lb ed="#G" n="122" break="no"/>ralibus: De qua etiam bonitate scripserunt philosophi
+          mo<lb ed="#G" n="123" break="no"/>rales; Primo ergo modo accipiendo bonitatem vsus libe 
+          <lb ed="#G" n="124"/>ri arbitrij, tunc minor est vera. Secundo modo
+          accipien<lb ed="#G" n="125" break="no"/>do huiusmodi bonitatem, minor non est vera: quia non  
+          <lb ed="#G" n="126"/>oportet illam bonitatem reducere in supernaturale prin 
+          <lb ed="#G" n="127"/>cipium, sed sufficit ad eam consequendam bona
+          consue<lb ed="#G" n="128" break="no"/>tudo hominis praesupposita communi, &amp; vniuersali Dei 
+          <lb ed="#G" n="129"/>insiuentia, &amp; de hac bonitate locutus sum superius, ideo 
+          <lb ed="#G" n="130"/>argumentum non est ad propositum 
+        </p>
+        <p xml:id="HuYgTa-e87344-d1e895">
+          <lb ed="#G" n="131"/>
+          <pc type="indent"/>Ad tertiam dicendum, quod gratia Dei non potest 
+          <lb ed="#G" n="132"/>habere causam meritoriam de condigno: quia tunc
+          gra<lb ed="#G" n="133" break="no"/>tia non esset gratia; tamen gratia potest habere causam 
+          <lb ed="#G" n="134"/>de congruo meritoriam. Et quamuis forte alicui illud 
+          <lb ed="#G" n="135"/>videatur abusiuum, tamen de communi doctrina istorum 
+          <lb ed="#G" n="136"/>Doctorum necessario sequitur: quia ipsi dicunt, quod
+          li<lb ed="#G" n="137" break="no"/>cet homo prius quam habeat caritatem, &amp; gratiam
+          gra<lb ed="#G" n="138" break="no"/>tumfacientem non possit mereri uitam aeternam de con 
+          <lb ed="#G" n="139"/>digno, potest tamen de congruo; modo secundum
+          il<lb ed="#G" n="140" break="no"/>los eosdem Doctores, gloria vitae aeternae est gratia
+          con<lb ed="#G" n="141" break="no"/>summata; Ex quibus sequitur, quod non habens gratiam 
+          <lb ed="#G" n="142"/>potest mereri de congruo gratiam consummatam, &amp; per 
+          <lb ed="#G" n="143"/>consequens conuenienter, &amp; sine abusione dici potest; 
+          <lb ed="#G" n="144"/>quod non habens gratiam potest mereri de congruo 
+          <!--270.xml-->
+          <pb ed="#G" n="116-r"/>
+          <cb ed="#G" n="a"/>
+          <lb ed="#G" n="1"/>gratiam initiatam, puta gratiam veniae, de qua procedit 
+          <lb ed="#G" n="2"/>predictum argumentum. 
+        </p>
+        <p xml:id="HuYgTa-e87344-d1e941">
+          <lb ed="#G" n="3"/>
+          <pc type="indent"/>Ad quartam dicedum, quod quamuis non ex operibus 
+          <lb ed="#G" n="4"/>tune factis dictum fuerit a Deo, lacob dilexi; Esau autem 
+          <lb ed="#G" n="5"/>odio habui, tamen hoc dicere potuit Deus, motiuum
+          ali<lb ed="#G" n="6" break="no"/>quo modo accipiendo ex operibus in suturum faciendis; 
+        </p>
+        <p xml:id="HuYgTa-e87344-d1e954">
+          <lb ed="#G" n="7"/>
+          <pc type="indent"/>ARTICVLVS III 
+          <lb ed="#G" n="8"/>Vtrum predestinatio iuuari possit precibus 
+          <lb ed="#G" n="9"/>sanctorum.
+        </p>
+        <p xml:id="HuYgTa-e87344-d1e965">
+          <lb ed="#G" n="10"/>QVANTVM ad tertium articulum, vtrum
+          praedesti<lb ed="#G" n="11" break="no"/>natio iuuari possit precibus sanctorum, est
+          scien<lb ed="#G" n="12" break="no"/>dum, quod praedistinatio potest dupliciter accipi, vno mo 
+          <lb ed="#G" n="13"/>do secundum se; Alio modo quantum ad suum effectum 
+          <lb ed="#G" n="14"/>&amp; secundum hoc ponam duas conclusiones. 
+        </p>
+        <p xml:id="HuYgTa-e87344-d1e979">
+          <lb ed="#G" n="15"/>
+          <pc type="indent"/>Prima est, quod praedestinatio secundum se
+          considera<lb ed="#G" n="16" break="no"/>ta non potest iuuari precibus sanctorum: quia quod est ef 
+          <lb ed="#G" n="17"/>fectus praedestinationis, hoc non iuuat praedestinationem 
+          <lb ed="#G" n="18"/>sumptam secundum se, sed preces sanctorum, quae fiunt 
+          <lb ed="#G" n="19"/>pro praedestinatis, sunt effectus praedestinationis,
+          ordina<lb ed="#G" n="20" break="no"/>nit enim Deus hoc, quod tales sancti pro talibus
+          praede<lb ed="#G" n="21" break="no"/>stinatis debeant deprecari, ergo &amp;c. 
+        </p>
+        <p xml:id="HuYgTa-e87344-d1e999">
+          <lb ed="#G" n="22"/>
+          <pc type="indent"/>Forte dicetur, quod illud sit contra glo, super illo
+          ver<lb ed="#G" n="23" break="no"/>bo, deprecatus est lsaac Dominum pro vxore sua, eo quod 
+          <lb ed="#G" n="24"/>esset sterilis; qui exaudiuit eum, deditque conceptum 
+          <lb ed="#G" n="25"/>Rebeccae: Dicit enim lbi glosa; In lsaac facta est
+          promis<lb ed="#G" n="26" break="no"/>sio, sed sanctorum precibus adiuuanda est Dei praefinitio.  
+          <lb ed="#G" n="27"/>2 Preterea, illud, quod causatur a creatura, hoc potess 
+          <lb ed="#G" n="28"/>iuuari per creaturam, sed, vt superius dixisti, quod
+          praede<lb ed="#G" n="29" break="no"/>stinatio habet causam ex parte praedestinati, ergo &amp;c 
+        </p>
+        <p xml:id="HuYgTa-e87344-d1e1021">
+          <lb ed="#G" n="30"/>
+          <pc type="indent"/>Sed pro solutione illarum &amp; consimilium obiectionum 
+          <lb ed="#G" n="31"/>pono secundam conclusionem, quod praedestinatio
+          quam<lb ed="#G" n="32" break="no"/>tum ad executionem, &amp; suorum effectuum in esse posito 
+          <lb ed="#G" n="33"/>nem potest iuuari precibus sanctorum, quia sicut Deus in 
+          <lb ed="#G" n="34"/>productione rerum naturalium saepe vnum effectum
+          po<lb ed="#G" n="35" break="no"/>nit esse med iante alio, sic in supernaturalibus quandoque 
+          <lb ed="#G" n="36"/>vnum effectum ordinat pro executione alterius; Et sic 
+          <lb ed="#G" n="37"/>prationes sanctorum iuuant praedestinationem quantum 
+          <lb ed="#G" n="38"/>ad executionem sui effectus, quia ad hoc huiusmodi
+          ora<lb ed="#G" n="39" break="no"/>tiones Deus ordinauit, vt mediantibus eis, hi, pro quibus 
+          <lb ed="#G" n="40"/>oratur, gratiam consequantur in praesenti, &amp; gloriam  
+          <lb ed="#G" n="41"/>in futuro; &amp; illa est intentio <ref xml:id="HuYgTa-e87344-Rd1e1051">Beati Dion. 3. de diuinis non</ref> 
+          <lb ed="#G" n="42"/>vbi per plures similitudines hoc declarat, quas ad praesens 
+          <lb ed="#G" n="43"/>causa breuitatis omitto. 
+        </p>
+        <p xml:id="HuYgTa-e87344-d1e1059">
+          <lb ed="#G" n="44"/>
+          <pc type="indent"/>Et per hoc patet ad primam instantiam: quia glo. non 
+          <lb ed="#G" n="45"/>loquitur ibi de praedestinatione in se, sed in ordine ad
+          e<lb ed="#G" n="46" break="no"/>xecutionem. 
+        </p>
+        <p xml:id="HuYgTa-e87344-d1e1070">
+          <lb ed="#G" n="47"/>
+          <pc type="indent"/>Ad secundam dicendum, quod non fuit intentionis 
+          <lb ed="#G" n="48"/>meae dicere, quod praedestinatio secundum se, &amp; simpliciter ha 
+          <lb ed="#G" n="49"/>beat causam in creatura, quia tuc diuinum propositum, set 
+          <lb ed="#G" n="50"/>diuina Voluntas esset causata a creatura, sed tantum
+          volui<lb ed="#G" n="51" break="no"/>dicere, quod aliquid se tenens ex parte creaturae, vt est a 
+          <lb ed="#G" n="52"/>Deo ab aeterno praescitum, potest esse ratio, quare diuinum 
+          <lb ed="#G" n="53"/>propositum, seu diuina voluntas transeat super aliquo ho 
+          <lb ed="#G" n="54"/>mine complacenter, &amp; taliter, vt ad vitam praedestinetur 
+          <lb ed="#G" n="55"/>eternam, &amp; illud, vt dictum est, in sui executione potest 
+          <lb ed="#G" n="56"/>quuari precibus sanctorum, iuxta quod ait Beatus Aug 
+          <lb ed="#G" n="57"/>in libro de bono perseuerantie. Si nondum sunt vocati 
+          <lb ed="#G" n="58"/>pro illis vt vocentur oremus, fortassis enim sic
+          praedesti<lb ed="#G" n="59" break="no"/>nati sunt vt nostris orationibus concedantur. 
+        </p>
+        <p xml:id="HuYgTa-e87344-d1e1103">
+          <lb ed="#G" n="60"/>
+          <pc type="indent"/>ARPICVLVS ILII 
+          <lb ed="#G" n="61"/>Vtrum reprobatio impediri possit precibus 
+          <lb ed="#G" n="62"/>sanctarum. 
+        </p>
+        <p xml:id="HuYgTa-e87344-d1e1115">
+          <lb ed="#G" n="63"/>
+          <pc type="indent"/>QVANTVM ad quartum articulum, vtrum
+          reproba<lb ed="#G" n="64" break="no"/>R tio impediri possit precibus sanctorum, Est aduer 
+          <!--270.xml-->
+          <cb ed="#G" n="b"/>
+          <lb ed="#G" n="65"/>endum, quod ille articulus non immerito redditur
+          du<lb ed="#G" n="66" break="no"/>bius propter scripta aliquorum sanctorum. Legitur enim 
+          <lb ed="#G" n="67"/>in lib dialogorum Beati Crego. quod per orationes
+          San<lb ed="#G" n="68" break="no"/>cti Gregorij Traianus Imperator liberatus fuerit de infer 
+          <lb ed="#G" n="69"/>no ad agedam penitentiam: Et de sancta Orilia
+          virgine<lb ed="#G" n="70" break="no"/>cuius reliquiae habentur in partibus Alemaniae in diocesi 
+          <lb ed="#G" n="71"/>Argentinensi, quod tandiu legit, fseuit, &amp; orauit pro
+          ani<lb ed="#G" n="72" break="no"/>ma patris sui ad Dominum, vsque quo Deus animam
+          il<lb ed="#G" n="73" break="no"/>lam de inferno liberauit. Et forte propter haec, &amp; his si 
+          <lb ed="#G" n="74"/>milia ortum habuit error AEgvptiorum dicentium, quod 
+          <lb ed="#G" n="75"/>tantae virtutis sunt orationes sanctorum, quod immutant 
+          <lb ed="#G" n="76"/>diuinum suppositum, intantum quod Deus propter huiusmodi 
+          <lb ed="#G" n="77"/>prationes quandoque illud dimittit, quod facere decreuit. 
+        </p>
+        <p xml:id="HuYgTa-e87344-d1e1157">
+          <lb ed="#G" n="78"/>
+          <pc type="indent"/>Propter haec igitur est aduertendum, quod sicut
+          iudi<lb ed="#G" n="79" break="no"/>ces humani in suis iudiciis duplici vtuntur sententia, qua 
+          <lb ed="#G" n="80"/>rum prima dicitur sententia interlocutoria; alia
+          senten<lb ed="#G" n="81" break="no"/>tia diffinitiua. Prima sententia est mutabilis: quia saepius 
+          <lb ed="#G" n="82"/>in fudicio accidit, quod pro illa parte cadit sententia
+          dif<lb ed="#G" n="83" break="no"/>finitiua, contra quam partem ante ceciderat sententia in 
+          <lb ed="#G" n="84"/>terlocutoria. Alia autem est simpliciter irreuocabilis, &amp;  
+          <lb ed="#G" n="85"/>immutabilis ante iudicem, qui tulit eam. Sic
+          metaphori<lb ed="#G" n="86" break="no"/>te loquendo, illae duae sententiae quandoque proferuntur 
+          <lb ed="#G" n="87"/>a Deo; Vnde cum Dominus dixit ad lonam Prophetam, 
+          <lb ed="#G" n="88"/>Adhuc quadraginta dies &amp; Niniue subuertetur; illa
+          sen<lb ed="#G" n="89" break="no"/>entia non fuit simpliciter diffinitiua, quia reuocabilis 
+          <lb ed="#G" n="90"/>erat: erat enim quasi conditionalis, puta hac adiecta
+          con<lb ed="#G" n="91" break="no"/>ditione, si conuersi non fuerint de peccatis, &amp; quia
+          con<lb ed="#G" n="92" break="no"/>ditionalis sententia non tenet non stante conditione, ideo 
+          <lb ed="#G" n="93"/>Niniue non fuit subuersa, quia habitatores eius egerunt 
+          <lb ed="#G" n="94"/>penitentiam: Sententia vero lata contra puerum, pro vita 
+          <lb ed="#G" n="95"/>tuius orauit Dauid quasi esse videtur aliquo modo
+          sen<lb ed="#G" n="96" break="no"/>tentia diffinitiua, quia Dominus non exaudiuit preces,  
+          <lb ed="#G" n="97"/>Dauid, Cum igitur reprobatio videatur esse quasi quedam 
+          <lb ed="#G" n="98"/>sententia Dei, dici potest, quod tales, qui ad preces
+          san<lb ed="#G" n="99" break="no"/>ctorum sunt liberati, non fuerunt vltimate &amp; diffinitiue 
+          <lb ed="#G" n="100"/>reprobati; sed quasi conditionaliter &amp; interlocutorie¬ 
+        </p>
+        <p xml:id="HuYgTa-e87344-d1e1212">
+          <lb ed="#G" n="101"/>
+          <pc type="indent"/>Et secundum hoc circa illum articulum possunt poni 
+          <lb ed="#G" n="102"/>due conclusiones. 
+        </p>
+        <p xml:id="HuYgTa-e87344-d1e1221">
+          <lb ed="#G" n="103"/>
+          <pc type="indent"/>Prima, quod si sumitur reprobatio pro interlocutoria 
+          <lb ed="#G" n="104"/>sententia, tunc impediri potest, hoc es mutari potest preci 
+          <lb ed="#G" n="105"/>bus sanctorum, quia iudicis sententia non excludens
+          o<lb ed="#G" n="106" break="no"/>mnem desensionem &amp; promotionem eius, qui
+          sententia<lb ed="#G" n="107" break="no"/>tus est, non est immutabilis, &amp; per consequens
+          impedi<lb ed="#G" n="108" break="no"/>bilis, vel per viam defensionis, puta allegando pro causa 
+          <lb ed="#G" n="109"/>melius, quam hactenus fuit allegatum, vel per viam
+          sup<lb ed="#G" n="110" break="no"/>plicationis, puta quod amici sui precibus placant iudicema 
+          <lb ed="#G" n="111"/>bed reprobatio illo primo modo sumpta est sententia non 
+          <lb ed="#G" n="112"/>excludens omnem defensionem &amp; promotionem ipsius 
+          <lb ed="#G" n="113"/>sententiati, ergo &amp;c 
+        </p>
+        <p xml:id="HuYgTa-e87344-d1e1250">
+          <lb ed="#G" n="114"/>
+          <pc type="indent"/>Secunda conclusio esse potest, quod reprobatio
+          secun<lb ed="#G" n="115" break="no"/>do modo accepta nequaquam est impedibilis
+          quibuscu<lb ed="#G" n="116" break="no"/>que precibus: quia quod irreuocabiliter sententiatum efs 
+          <lb ed="#G" n="117"/>a sapientissimo &amp; omnipotente iudice, hoc precibus qui 
+          <lb ed="#G" n="118"/>buscumque immutari, vel impediri non potest, sed secun 
+          <lb ed="#G" n="119"/>do modo accipiendo reprobationem, reprobatus est irre 
+          <lb ed="#G" n="120"/>uocabiliter puta diffinitiue sententiatus a sapientissimo,  
+          <lb ed="#G" n="121"/>&amp; omnipotente iudice, ergo &amp;c. Quia tamen
+          communi<lb ed="#G" n="122" break="no"/>ter loquimur de reprobatione isto secundo modo, ideo 
+          <lb ed="#G" n="123"/>absolute loquendo melius dicitur, quod reprobatio non 
+          <lb ed="#G" n="124"/>potest impediri precibus sanctorum 
+        </p>
+        <p xml:id="HuYgTa-e87344-d1e1279">
+          <lb ed="#G" n="125"/>
+          <pc type="indent"/>Ad argumentum principale dicendum, quod maior non 
+          <lb ed="#G" n="126"/>st vera, nisi loquendo de oppositis prout habent ficri cir 
+          <lb ed="#G" n="127"/>ca idem subiectum singulare, ex hoc enim, quod
+          promo<lb ed="#G" n="128" break="no"/>uetur calor in Sorte, non sequitur, quod impediatur
+          fri<lb ed="#G" n="129" break="no"/>gus in Platone, &amp; illud quod est promotiuum caloris in 
+          <lb ed="#G" n="130"/>Sorte, non oportet, quod sit impeditiuum frigiditatis in 
+          <lb ed="#G" n="131"/>Platone, licet bene sit impeditiuum frigiditatis in Sortes 
+          <lb ed="#G" n="132"/>Et quia praedestinatio &amp; reprobatio proprie dicta non ha 
+          <lb ed="#G" n="133"/>bent idem esse circa idem subiectum, seu suppositum
+          nu<lb ed="#G" n="134" break="no"/>mero, ideo argumentum non est ad propositum.
+        </p>
+      </div>
+    </body>
+  </text>
 </TEI>

@@ -1,95 +1,95 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Circa textum 1</title>
-            <author ref="#ThomasStrasbourg">Thomas of Strasbourg</author>
-            <respStmt>
-               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
-               <resp>Transcription Editor</resp>
-               <resp>TEI Encoder</resp>
-            </respStmt>
-         </titleStmt>
-         <editionStmt>
-            <edition n="0.0.0-dev">
-               <title>Circa textum 1</title>
-               <date when="2020-11-26">November 26, 2020</date>
-            </edition>
-         </editionStmt>
-         <publicationStmt>
-            <authority>SCTA</authority>
-            <availability status="free">
-               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
-               </p>
-            </availability>
-         </publicationStmt>
-         <sourceDesc>
-            <listWit>
-               <witness xml:id="G" n="cod-TxxxqU">Genoa 1585</witness>
-            </listWit>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
-         <editorialDecl>
-            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
-       guidelines for a diplomatic edition.</p>
-         </editorialDecl>
-      </encodingDesc>
-      <revisionDesc status="draft">
-         <listChange>
-            <change when="2020-11-26" status="draft" n="0.0.0">
-               <p>Created file for the first time.</p>
-            </change>
-         </listChange>
-      </revisionDesc>
-   </teiHeader>
-   <text xml:lang="la">
-      <front>
-         <div xml:id="starts-on">
-           <pb ed="#G" n="P2_193-r"/>
-            <cb ed="#G" n="a"/>
-         </div>
-      </front>
-      <body>
-         <div xml:id="HuYgTa-305241"><!-- HuYgTa-l4d49ct1 -->
-            <head xml:id="HuYgTa-305241-Hd1e108">Circa textum 1</head>
-            <p xml:id="HuYgTa-305241-d1e111">
-               <lb ed="#G" n="42"/>
-               <pc type="indent"/>DISTINCTIO. XLIX 
-      <lb ed="#G" n="43"/>Dilucida huius distinctionis diuisio in qua de bono 
-      <lb ed="#G" n="44"/>rum retributione peragitur. 
-    </p>
-            <p xml:id="HuYgTa-305241-d1e122">
-               <lb ed="#G" n="45"/>
-               <pc type="indent"/>OST resurrectionem. Postquam Ma 
-      <lb ed="#G" n="46"/>gister determiauit de extremi iudi 
-      <lb ed="#G" n="47"/>ij disceptatione, tunc in istis
-      duab<lb ed="#G" n="48" break="no"/>vltimis distinctionibus tractat de 
-      <lb ed="#G" n="49"/>iudicatorum remuneratione. Et di 
-      <lb ed="#G" n="50"/>uiditur in duas partes, quia primo  
-      <lb ed="#G" n="51"/>determinat de retributione
-      bono<lb ed="#G" n="52" break="no"/>rum. Secundo de retributione
-      ma<lb ed="#G" n="53" break="no"/>lorum distinctione vltima, ibi, Hic oritur quaestio Prim; 
-      <lb ed="#G" n="54"/>in duas, quia primo tractat de communi beatitudine 
-      <lb ed="#G" n="55"/>om ium. Secundo de differentia beatitudinis post, &amp; an 
-      <lb ed="#G" n="56"/>te iudicium, ibi, Post haec quaeri solet. Prima in duas,
-      qui<lb ed="#G" n="57" break="no"/>primo tractat de electorum beatitudine in generali. Se 
-      <lb ed="#G" n="58"/>cundo de partibus peatitudinis in speciali, ibi, colet etiam 
-      <lb ed="#G" n="59"/>queri, vtrum aliquid de Deo. Prima pars est praesenti 
-      <lb ed="#G" n="60"/>lectionis: Et diuiditur in duas partes, quia primo
-      osten<lb ed="#G" n="61" break="no"/>dit, quomodo tam poene, quam gloriae est dispar
-      partici<lb ed="#G" n="62" break="no"/>patio, Secundo quomodo respectu heatitudinis, est on 
-      <lb ed="#G" n="63"/>nium conis appetitus, &amp; affectatio, ibi, Solet etiam quaeri de 
-      <lb ed="#G" n="64"/>beatitudine. Prima in duas, nam primo ostendit in gloria 
-      <lb ed="#G" n="65"/>beatorum esse distinctionem, Secundo hoc declarat a
-      si<lb ed="#G" n="66" break="no"/>mili per corporum glorificationem, ibi. Nam sicut crit 
-      <!--856.xml-->
-      <cb ed="#G" n="b"/>
-               <lb ed="#G" n="67"/>differens. Et in hoc stat diuisio, &amp; sententia istius electio 
-      <lb ed="#G" n="68"/>nis in generali, circa quam quaero in speciali.  
-    </p>
-         </div>
-      </body>
-   </text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Circa textum 1</title>
+        <author ref="#ThomasStrasbourg">Thomas of Strasbourg</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Circa textum 1</title>
+          <date when="2020-11-26">November 26, 2020</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="G" n="cod-TxxxqU">Genoa 1585</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2020-11-26" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#G" n="P2_193-r"/>
+        <cb ed="#G" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="HuYgTa-305241"><!-- HuYgTa-l4d49ct1 -->
+        <head xml:id="HuYgTa-305241-Hd1e108">Circa textum 1</head>
+        <p xml:id="HuYgTa-305241-d1e111">
+          <lb ed="#G" n="42"/>
+          <pc type="indent"/>DISTINCTIO. XLIX 
+          <lb ed="#G" n="43"/>Dilucida huius distinctionis diuisio in qua de bono 
+          <lb ed="#G" n="44"/>rum retributione peragitur. 
+        </p>
+        <p xml:id="HuYgTa-305241-d1e122">
+          <lb ed="#G" n="45"/>
+          <pc type="indent"/>OST resurrectionem. Postquam Ma 
+          <lb ed="#G" n="46"/>gister determiauit de extremi iudi 
+          <lb ed="#G" n="47"/>ij disceptatione, tunc in istis
+          duab<lb ed="#G" n="48" break="no"/>vltimis distinctionibus tractat de 
+          <lb ed="#G" n="49"/>iudicatorum remuneratione. Et di 
+          <lb ed="#G" n="50"/>uiditur in duas partes, quia primo  
+          <lb ed="#G" n="51"/>determinat de retributione
+          bono<lb ed="#G" n="52" break="no"/>rum. Secundo de retributione
+          ma<lb ed="#G" n="53" break="no"/>lorum distinctione vltima, ibi, Hic oritur quaestio Prim; 
+          <lb ed="#G" n="54"/>in duas, quia primo tractat de communi beatitudine 
+          <lb ed="#G" n="55"/>om ium. Secundo de differentia beatitudinis post, &amp; an 
+          <lb ed="#G" n="56"/>te iudicium, ibi, Post haec quaeri solet. Prima in duas,
+          qui<lb ed="#G" n="57" break="no"/>primo tractat de electorum beatitudine in generali. Se 
+          <lb ed="#G" n="58"/>cundo de partibus peatitudinis in speciali, ibi, colet etiam 
+          <lb ed="#G" n="59"/>queri, vtrum aliquid de Deo. Prima pars est praesenti 
+          <lb ed="#G" n="60"/>lectionis: Et diuiditur in duas partes, quia primo
+          osten<lb ed="#G" n="61" break="no"/>dit, quomodo tam poene, quam gloriae est dispar
+          partici<lb ed="#G" n="62" break="no"/>patio, Secundo quomodo respectu heatitudinis, est on 
+          <lb ed="#G" n="63"/>nium conis appetitus, &amp; affectatio, ibi, Solet etiam quaeri de 
+          <lb ed="#G" n="64"/>beatitudine. Prima in duas, nam primo ostendit in gloria 
+          <lb ed="#G" n="65"/>beatorum esse distinctionem, Secundo hoc declarat a
+          si<lb ed="#G" n="66" break="no"/>mili per corporum glorificationem, ibi. Nam sicut crit 
+          <!--856.xml-->
+          <cb ed="#G" n="b"/>
+          <lb ed="#G" n="67"/>differens. Et in hoc stat diuisio, &amp; sententia istius electio 
+          <lb ed="#G" n="68"/>nis in generali, circa quam quaero in speciali.  
+        </p>
+      </div>
+    </body>
+  </text>
 </TEI>

@@ -1,106 +1,106 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Circa textum</title>
-            <author ref="#ThomasStrasbourg">Thomas of Strasbourg</author>
-            <respStmt>
-               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
-               <resp>Transcription Editor</resp>
-               <resp>TEI Encoder</resp>
-            </respStmt>
-         </titleStmt>
-         <editionStmt>
-            <edition n="0.0.0-dev">
-               <title>Circa textum</title>
-               <date when="2020-11-26">November 26, 2020</date>
-            </edition>
-         </editionStmt>
-         <publicationStmt>
-            <authority>SCTA</authority>
-            <availability status="free">
-               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
-               </p>
-            </availability>
-         </publicationStmt>
-         <sourceDesc>
-            <listWit>
-               <witness xml:id="G" n="cod-TxxxqU">Genoa 1585</witness>
-            </listWit>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
-         <editorialDecl>
-            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
-       guidelines for a diplomatic edition.</p>
-         </editorialDecl>
-      </encodingDesc>
-      <revisionDesc status="draft">
-         <listChange>
-            <change when="2020-11-26" status="draft" n="0.0.0">
-               <p>Created file for the first time.</p>
-            </change>
-         </listChange>
-      </revisionDesc>
-   </teiHeader>
-   <text xml:lang="la">
-      <front>
-         <div xml:id="starts-on">
-            <pb ed="#G" n="-r"/>
-            <cb ed="#G" n="a"/>
-         </div>
-      </front>
-      <body>
-         <div xml:id="HuYgTa-e93836"><!-- HuYgTa-l1d47et48ct1 -->
-            <head xml:id="HuYgTa-e93836-Hd1e108">Circa textum</head>
-            <p xml:id="HuYgTa-e93836-d1e111">
-               <lb ed="#G" n="26"/>DISTINCTIO NLVII EtLVIIl 
-      <lb ed="#G" n="27"/>Preuissima, ac vesoluta harum distinctionum diuisio 
-      <lb ed="#G" n="28"/>in quibus de diumae voluntatis efficacia 
-      <lb ed="#G" n="29"/>comparatiue agitur.
-    </p>
-            <p xml:id="HuYgTa-e93836-d1e122">
-               <lb ed="#G" n="30"/>OLVNTaS quippe Dei &amp;c. Hic
-      Ma<lb ed="#G" n="31" break="no"/>gister tractat de diuinae voluntatis 
-      <lb ed="#G" n="32"/>efficacia ipsam considerando
-      positi<lb ed="#G" n="33" break="no"/>ue, &amp; diuiditur in duas partes: nam 
-      <lb ed="#G" n="34"/>primo considerat vniuersaliter
-      hu<lb ed="#G" n="35" break="no"/>usmodi efficaciam, Secundo conside 
-      <lb ed="#G" n="36"/>rat humanae voluntatis ad diuinam 
-      <lb ed="#G" n="37"/>voluntatem conformitatem, &amp; con 
-      <lb ed="#G" n="38"/>cordiam ibi, ociendum est: Prima in duas: nam primo osten 
-      <lb ed="#G" n="39"/>dit omnia fieri secundum diuinam voluntatem, Secundo 
-      <lb ed="#G" n="40"/>ex dictis ostendit oriri incidentem dubietatem ibi, His 
-      <lb ed="#G" n="41"/>verbis: &amp; haec in tres: nam primo tangit dubitationem: 
-      <lb ed="#G" n="42"/>Secundo apponit solutionem, &amp; tertio praedictorum
-      fa<lb ed="#G" n="43" break="no"/>cit recapitulationem. Secuda ibi, verum vt supra. Tertia 
-      <lb ed="#G" n="44"/>ibi, Ex predictis &amp;c. Sequitur 48. distinctio. Sciendum est &amp;c 
-      <lb ed="#G" n="45"/>In qua Magister considerat humanae voluntatis
-      confor<lb ed="#G" n="46" break="no"/>mitatem ad diuinam voluntatem, &amp; diuiditur in duas 
-      <lb ed="#G" n="47"/>partes; nam primo ostendit Magister, quod conformitas 
-      <lb ed="#G" n="48"/>in volito, puta si homo illud idemuult, quod Deus vult 
-      <lb ed="#G" n="49"/>non semper facit esse bonam hominis voluntatem &amp;econ 
-      <lb ed="#G" n="50"/>uerso si homo non vult illud, quod Deus vult, hoc non
-      sem<lb ed="#G" n="51" break="no"/>per sacit malam hominis voluntatem. Secundo ostendit 
-      <lb ed="#G" n="52"/>quod bona Dei voluntas quandoque potest impleri per 
-      <lb ed="#G" n="53"/>malam hominis voluntatem. Secunda pars incipit ibi,
-      ll<lb ed="#G" n="54" break="no"/>lud quoque &amp;c. Et haec diuiditur in quattuor partes; quia 
-      <lb ed="#G" n="55"/>primo ponit intentae veritatis determinationem,
-      Secun<lb ed="#G" n="56" break="no"/>do instat per vnam obiectionem, Tertio huiusmodi obie 
-      <lb ed="#G" n="57"/>ctionis subiungit solutionem, Quarto ostendit, quod ex 
-      <lb ed="#G" n="58"/>praedictis soluuntur plures quaestiones, quae fieri 
-      <lb ed="#G" n="59"/>possunt circa Christi, ac ceterorum sanctorum 
-      <lb ed="#G" n="60"/>passionem. Secunda ibi, Sed ad hoc
-      op<lb ed="#G" n="61" break="no"/>ponitur sic. Tertia ibi, Ad quod
-      res<lb ed="#G" n="62" break="no"/>pondentes. Quarta ibi, Ex quo 
-      <lb ed="#G" n="63"/>soluitur. Circa istas duas 
-      <lb ed="#G" n="64"/>vltimas distinctioes 
-      <lb ed="#G" n="65"/>primi libri 
-      <lb ed="#G" n="66"/>quaero hanc
-      quaestio<lb ed="#G" n="67" break="no"/>nem.
-    </p>
-         </div>
-      </body>
-   </text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Circa textum</title>
+        <author ref="#ThomasStrasbourg">Thomas of Strasbourg</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Circa textum</title>
+          <date when="2020-11-26">November 26, 2020</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="G" n="cod-TxxxqU">Genoa 1585</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2020-11-26" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#G" n="123-v"/>
+        <cb ed="#G" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="HuYgTa-e93836"><!-- HuYgTa-l1d47et48ct1 -->
+        <head xml:id="HuYgTa-e93836-Hd1e108">Circa textum</head>
+        <p xml:id="HuYgTa-e93836-d1e111">
+          <lb ed="#G" n="26"/>DISTINCTIO NLVII EtLVIIl 
+          <lb ed="#G" n="27"/>Preuissima, ac vesoluta harum distinctionum diuisio 
+          <lb ed="#G" n="28"/>in quibus de diumae voluntatis efficacia 
+          <lb ed="#G" n="29"/>comparatiue agitur.
+        </p>
+        <p xml:id="HuYgTa-e93836-d1e122">
+          <lb ed="#G" n="30"/>OLVNTaS quippe Dei &amp;c. Hic
+          Ma<lb ed="#G" n="31" break="no"/>gister tractat de diuinae voluntatis 
+          <lb ed="#G" n="32"/>efficacia ipsam considerando
+          positi<lb ed="#G" n="33" break="no"/>ue, &amp; diuiditur in duas partes: nam 
+          <lb ed="#G" n="34"/>primo considerat vniuersaliter
+          hu<lb ed="#G" n="35" break="no"/>usmodi efficaciam, Secundo conside 
+          <lb ed="#G" n="36"/>rat humanae voluntatis ad diuinam 
+          <lb ed="#G" n="37"/>voluntatem conformitatem, &amp; con 
+          <lb ed="#G" n="38"/>cordiam ibi, ociendum est: Prima in duas: nam primo osten 
+          <lb ed="#G" n="39"/>dit omnia fieri secundum diuinam voluntatem, Secundo 
+          <lb ed="#G" n="40"/>ex dictis ostendit oriri incidentem dubietatem ibi, His 
+          <lb ed="#G" n="41"/>verbis: &amp; haec in tres: nam primo tangit dubitationem: 
+          <lb ed="#G" n="42"/>Secundo apponit solutionem, &amp; tertio praedictorum
+          fa<lb ed="#G" n="43" break="no"/>cit recapitulationem. Secuda ibi, verum vt supra. Tertia 
+          <lb ed="#G" n="44"/>ibi, Ex predictis &amp;c. Sequitur 48. distinctio. Sciendum est &amp;c 
+          <lb ed="#G" n="45"/>In qua Magister considerat humanae voluntatis
+          confor<lb ed="#G" n="46" break="no"/>mitatem ad diuinam voluntatem, &amp; diuiditur in duas 
+          <lb ed="#G" n="47"/>partes; nam primo ostendit Magister, quod conformitas 
+          <lb ed="#G" n="48"/>in volito, puta si homo illud idemuult, quod Deus vult 
+          <lb ed="#G" n="49"/>non semper facit esse bonam hominis voluntatem &amp;econ 
+          <lb ed="#G" n="50"/>uerso si homo non vult illud, quod Deus vult, hoc non
+          sem<lb ed="#G" n="51" break="no"/>per sacit malam hominis voluntatem. Secundo ostendit 
+          <lb ed="#G" n="52"/>quod bona Dei voluntas quandoque potest impleri per 
+          <lb ed="#G" n="53"/>malam hominis voluntatem. Secunda pars incipit ibi,
+          ll<lb ed="#G" n="54" break="no"/>lud quoque &amp;c. Et haec diuiditur in quattuor partes; quia 
+          <lb ed="#G" n="55"/>primo ponit intentae veritatis determinationem,
+          Secun<lb ed="#G" n="56" break="no"/>do instat per vnam obiectionem, Tertio huiusmodi obie 
+          <lb ed="#G" n="57"/>ctionis subiungit solutionem, Quarto ostendit, quod ex 
+          <lb ed="#G" n="58"/>praedictis soluuntur plures quaestiones, quae fieri 
+          <lb ed="#G" n="59"/>possunt circa Christi, ac ceterorum sanctorum 
+          <lb ed="#G" n="60"/>passionem. Secunda ibi, Sed ad hoc
+          op<lb ed="#G" n="61" break="no"/>ponitur sic. Tertia ibi, Ad quod
+          res<lb ed="#G" n="62" break="no"/>pondentes. Quarta ibi, Ex quo 
+          <lb ed="#G" n="63"/>soluitur. Circa istas duas 
+          <lb ed="#G" n="64"/>vltimas distinctioes 
+          <lb ed="#G" n="65"/>primi libri 
+          <lb ed="#G" n="66"/>quaero hanc
+          quaestio<lb ed="#G" n="67" break="no"/>nem.
+        </p>
+      </div>
+    </body>
+  </text>
 </TEI>

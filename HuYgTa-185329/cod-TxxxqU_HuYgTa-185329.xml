@@ -1,738 +1,738 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Quaestio 1</title>
-            <author ref="#ThomasStrasbourg">Thomas of Strasbourg</author>
-            <respStmt>
-               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
-               <resp>Transcription Editor</resp>
-               <resp>TEI Encoder</resp>
-            </respStmt>
-         </titleStmt>
-         <editionStmt>
-            <edition n="0.0.0-dev">
-               <title>Quaestio 1</title>
-               <date when="2020-11-26">November 26, 2020</date>
-            </edition>
-         </editionStmt>
-         <publicationStmt>
-            <authority>SCTA</authority>
-            <availability status="free">
-               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
-               </p>
-            </availability>
-         </publicationStmt>
-         <sourceDesc>
-            <listWit>
-               <witness xml:id="G" n="cod-TxxxqU">Genoa 1585</witness>
-            </listWit>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
-         <editorialDecl>
-            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
-       guidelines for a diplomatic edition.</p>
-         </editorialDecl>
-      </encodingDesc>
-      <revisionDesc status="draft">
-         <listChange>
-            <change when="2020-11-26" status="draft" n="0.0.0">
-               <p>Created file for the first time.</p>
-            </change>
-         </listChange>
-      </revisionDesc>
-   </teiHeader>
-   <text xml:lang="la">
-      <front>
-         <div xml:id="starts-on">
-            <pb ed="#G" n="P2_33-r"/>
-            <cb ed="#G" n="a"/>
-         </div>
-      </front>
-      <body>
-         <div xml:id="HuYgTa-185329"><!-- HuYgTa-l3d19et20q1 -->
-            <head xml:id="HuYgTa-185329-Hd1e108">Quaestio 1</head>
-            <head xml:id="HuYgTa-185329-Hd1e111" type="question-title">
-      An omnes homines beneficio passionis 
-      Christi a quocunque malo satis 
-      fuerint liberati
-    </head>
-            <p xml:id="HuYgTa-185329-d1e114">
-               <lb ed="#G" n="9"/>
-               <pc type="indent"/>Quaestio 1 
-      <lb ed="#G" n="10"/>An omnes homines beneficio passionis 
-      <lb ed="#G" n="11"/>Christi a quocunque malo satis 
-      <lb ed="#G" n="12"/>fuerint liberati
-    </p>
-            <p xml:id="HuYgTa-185329-d1e127">
-               <lb ed="#G" n="13"/>VTRVM omnes homines per Christi passionem
-      ha<lb ed="#G" n="14" break="no"/>buerint sufficientem ab omni malo liberationem. 
-      <lb ed="#G" n="15"/>videtur quod non: quia nullus damnatur pro eo, de quo 
-      <lb ed="#G" n="16"/>est sufficienter liberatus: sed multi homines damnantur: 
-      <lb ed="#G" n="17"/>ergo &amp;c 
-    </p>
-            <p xml:id="HuYgTa-185329-d1e140">
-               <lb ed="#G" n="18"/>
-               <pc type="indent"/>Contra, Christi passio aequaliter se habet respectu on 
-      <lb ed="#G" n="19"/>nium peccatorum: aut ergo delet omnia peccata pro om 
-      <lb ed="#G" n="20"/>nibus satisfaciendo, aut nullum: sed falsum est dicere, quo 
-      <lb ed="#G" n="21"/>nullum deleuerit; ergo deleuit omnia, deleto autem ma 
-      <lb ed="#G" n="22"/>lo culpe, deletur &amp; malum poene: ergo &amp;c. Hic quattuo 
-      <lb ed="#G" n="23"/>sunt videnda: Nam cum malum diuidatur in malum cul 
-      <lb ed="#G" n="24"/>pae, &amp; malum poenae: ideo primo est videndum: vtrum per 
-      <lb ed="#G" n="25"/>passionem Christi sufficienter simus liberati a malo cul 
-      <lb ed="#G" n="26"/>pae. Secundo, vtrum a malo ipsius poenae. Et hoc quantim 
-      <lb ed="#G" n="27"/>ad 10. dist. Tertio, vtrum alter modus nostrae
-      liberatio<lb ed="#G" n="28" break="no"/>nis, quam per passionem Christi fuerit conueniens. Quan 
-      <lb ed="#G" n="29"/>to vtrum alter modus fuerit possibilis. Et hoc quantun 
-      <lb ed="#G" n="30"/>ad 20. distinctionem. 
-    </p>
-            <p xml:id="HuYgTa-185329-d1e174">
-               <lb ed="#G" n="31"/>
-               <pc type="indent"/>RES OLVT 1 O. 
-      <lb ed="#G" n="32"/>Es si formale principium expulsiuum culpae sit gratia gratum fa 
-      <lb ed="#G" n="33"/>titns: Passio tamen christi est sufficiens causa effrctiua. qua 
-      <lb ed="#G" n="34"/>dispofitiue saltem, &amp; meritorie culpam delet. Vnde cuncto. 
-      <lb ed="#G" n="35"/>mortales a quacunque peena, siue temporali, siue aetrrna vale 
-      <lb ed="#G" n="36"/>liberare. Neque alitd accomodatius antidotum ad sannan 
-      <lb ed="#G" n="37"/>dum nostrum lethale vulnus poterat veperiri. 
-    </p>
-            <p xml:id="HuYgTa-185329-d1e194">
-               <lb ed="#G" n="38"/>
-               <pc type="indent"/>ARTICVLVS
-      I<lb ed="#G" n="39" break="no"/>Vtrum per passionem cbristi sifficienter rati a malo culpae simus
-      libe<lb ed="#G" n="40" break="no"/>
-               <pc type="indent"/>SIRCA primum est aduertendum, quod illo libera 
-      <lb ed="#G" n="41"/>Amur a peccato, quo a nobis expellitur dupliciter 
-      <lb ed="#G" n="42"/>Vno modo formaliter. Alio modo effectiue. Et secundi 
-      <lb ed="#G" n="43"/>hoc ponam duas conclusiones. 
-    </p>
-            <p xml:id="HuYgTa-185329-d1e214">
-               <lb ed="#G" n="44"/>
-               <pc type="indent"/>Prima est, quod gratia gratum faciens est formale prin 
-      <lb ed="#G" n="45"/>cipium expulsiuum peccati 
-      <lb ed="#G" n="46"/>1 Quia vna quaque forma congrue potest dici
-      forma<lb ed="#G" n="47" break="no"/>le expulsiuum illius, quod quamuis ipsum precedat in
-      subie<lb ed="#G" n="48" break="no"/>cto: impossibile est tamen ipsum remanere adueniente 
-      <lb ed="#G" n="49"/>forma: sed gratia respectu mortalis peccati, de quo ad pro 
-      <lb ed="#G" n="50"/>sens loquor est huiusmodi: ergo &amp;c
-    </p>
-            <p xml:id="HuYgTa-185329-d1e234">
-               <lb ed="#G" n="51"/>2 Praeterea, arguit pro ista conclusione quidam doctor 
-      <lb ed="#G" n="52"/>sie. llla, quae formaliter opponuntur, vt priuatio &amp;
-      habi<lb ed="#G" n="53" break="no"/>tus illa, necessario circa ide subiectum mutuo se expellum 
-      <lb ed="#G" n="54"/>Sed peccatum opponitur gratiae sicut priuatio opponitus 
-      <lb ed="#G" n="55"/>habitui: ergo &amp;c
-    </p>
-            <p xml:id="HuYgTa-185329-d1e247">
-               <lb ed="#G" n="56"/>Sed contra istam minorem arguit quidam alius doctor qua 
-      <lb ed="#G" n="57"/>fuor rationibus quibus pbat, quod gratia, &amp; peccatum non ol 
-      <!--536.xml-->
-      <cb ed="#G" n="b"/>
-               <lb ed="#G" n="58"/>ponantur directe, sicut habitus, &amp; priuatio.
-    </p>
-            <p xml:id="HuYgTa-185329-d1e260">
-               <lb ed="#G" n="59"/>1 Primo sic. Priuatio, &amp; habitus sunt apta nata
-      fier<lb ed="#G" n="60" break="no"/>circa idem subiectu immediatum: sed subiectu immediatum gra 
-      <lb ed="#G" n="61"/>tiae est essentia animae, aut voluntas: subiectum aut imme 
-      <lb ed="#G" n="62"/>diatum peccati est actus voluntatis: ergo &amp;c 
-    </p>
-            <p xml:id="HuYgTa-185329-d1e272">
-               <lb ed="#G" n="63"/>
-               <pc type="indent"/>Praeterea, priuatio primae perfectionis non potest ha 
-      <lb ed="#G" n="64"/>bere rationem culpae, sed poenae. cum igitur gratia sit quidam 
-      <lb ed="#G" n="65"/>habitus, &amp; habeat rationem primae perfectionis, eius pri 
-      <lb ed="#G" n="66"/>uatio non erit culpa: sed poena 
-    </p>
-            <p xml:id="HuYgTa-185329-d1e285">
-               <lb ed="#G" n="67"/>
-               <pc type="indent"/>Praeterea, habitus, &amp; priuatio ita se habent circa idem 
-      <lb ed="#G" n="68"/>subiectum, quod necesse est alterum eorum inesse subiecto; 
-      <lb ed="#G" n="69"/>sed Deus potest facere vnum hominem in suis puris nati 
-      <lb ed="#G" n="70"/>ralibus, in quo nec sit peccatum nec gratia 
-    </p>
-            <p xml:id="HuYgTa-185329-d1e298">
-               <lb ed="#G" n="71"/>
-               <pc type="indent"/>Praeterea, vni habitui secundum specie non opponitur 
-      <lb ed="#G" n="72"/>nisi vna priuatio secundum speciem: sed gratia est vnus
-      ha<lb ed="#G" n="73" break="no"/>bitus secundum speciem: peccata autem mortalia sunt
-      di<lb ed="#G" n="74" break="no"/>uersarum specierum, &amp; rationum. 
-    </p>
-            <p xml:id="HuYgTa-185329-d1e311">
-               <lb ed="#G" n="75"/>
-               <pc type="indent"/>Sed, vtrum illa minor sit vera, vel falsa non curo ad 
-      <lb ed="#G" n="76"/>praesens: dico tamen, quod rationes non concludunt 
-      <lb ed="#G" n="77"/>ldeo ad primum dicendum, quod minor non est vera, pro ea par 
-      <lb ed="#G" n="78"/>te, qua dicit, quod actus voluntatis sit immediatum subiectun 
-      <lb ed="#G" n="79"/>peccati: quia imediato subiecto alicuius teudente in 
-      <lb ed="#G" n="80"/>non esse, impossibibile est via naturae illud remanere: sed 
-      <lb ed="#G" n="81"/>omnis actus voluntatis, postquam elicitus est trasit in non 
-      <lb ed="#G" n="82"/>esse: ergo in nullo peccatore culpa remaneret, quod videtur 
-      <lb ed="#G" n="83"/>valde inconueniens dictum apud quellibet catholicum, 
-    </p>
-            <p xml:id="HuYgTa-185329-d1e335">
-               <lb ed="#G" n="84"/>
-               <pc type="indent"/>Ad secundum nego maiorem: Nam in iustitia est
-      for<lb ed="#G" n="85" break="no"/>malis priuatio iustitiae, &amp; tamen iniustitia vere habet
-      ra<lb ed="#G" n="86" break="no"/>tionem culpae, quis iustitia, cui illa opponitur, non minus 
-      <lb ed="#G" n="87"/>habeat rationem primae persectionis, quam gratia. Et eodem  
-      <lb ed="#G" n="88"/>modo de infidelitate, quae opponitur fidei priuatiue, &amp; si 
-      <lb ed="#G" n="89"/>de multis aliis. Vnde etiam originalis culba formaliter ac 
-      <lb ed="#G" n="90"/>cepta, opponitur priuatiue originali iustitiae: quia culpa 
-      <lb ed="#G" n="91"/>originalis non est aliud secundum suum esse formale, quam  
-      <lb ed="#G" n="92"/>carentia originalis iustitiae cum debito habendi eam, &amp;
-      ta<lb ed="#G" n="93" break="no"/>men originalis iustitia, cum sit quidam habitus, oportet, quod 
-      <lb ed="#G" n="94"/>habeat rationem primae perfectionis. 
-    </p>
-            <p xml:id="HuYgTa-185329-d1e364">
-               <lb ed="#G" n="95"/>
-               <pc type="indent"/>Ad tertium dicendum, quod maior non est vera,
-      vniuersali<lb ed="#G" n="96" break="no"/>ter loquendo: nam aegritudo opponitur priuatiue ipsi
-      sani<lb ed="#G" n="97" break="no"/>tati, &amp; tamen medici ponunt medium inter sanu, &amp; aegrum. 
-      <lb ed="#G" n="98"/>Vnde illud quod medium tenet medici appellant neutrum. Ite 
-      <lb ed="#G" n="99"/>talis homo existens in puris naturalibus, nec haberet
-      o<lb ed="#G" n="100" break="no"/>riginalem iustitiam, nec originalem culpam, &amp; tamen nulli
-      du<lb ed="#G" n="101" break="no"/>est biu, quin originalis culpa sit priuatio originalis
-      iusti<lb ed="#G" n="102" break="no"/>tiae, sic in proposito &amp;c. 
-    </p>
-            <p xml:id="HuYgTa-185329-d1e387">
-               <lb ed="#G" n="103"/>
-               <pc type="indent"/>Ad quartum dicicendum, quod quis mortalia peccata
-      consi<lb ed="#G" n="104" break="no"/>derata quo ad suum esse materiale, puta, in utum dicunt con 
-      <lb ed="#G" n="105"/>uersione ad comutabile bonum, sint diuersarum rationum 
-      <lb ed="#G" n="106"/>secundum quoed talia bona diuersificantur, ad quae conuertit se ho 
-      <lb ed="#G" n="107"/>mo per peccatu: tamen considerata qtum ad suum formale, pu 
-      <lb ed="#G" n="108"/>ta, quo ad auersionem ab incomutauili bono, sic omnia pec 
-      <lb ed="#G" n="109"/>canta mortalia sunt vnius rationis formalis. Quod notans 
-      <lb ed="#G" n="110"/>peatus lacobus ait. Qui offendit in vno factus est omni 
-      <lb ed="#G" n="111"/>reus. Cum igitur opposito culpae ad gratiam magis
-      de<lb ed="#G" n="112" break="no"/>beat atrendi ratione auersionis, qua culpa auertit a Deo 
-      <lb ed="#G" n="113"/>ad quem gratia conuertit: ideo culpa opponitur gratiae, 
-      <lb ed="#G" n="114"/>n on vt diuersificatur ratione: sed vt est vnius rationis. 
-    </p>
-            <p xml:id="HuYgTa-185329-d1e418">
-               <lb ed="#G" n="115"/>
-               <pc type="indent"/>Secunda conclusio, quod passio Christi, seu Christus in 
-      <lb ed="#G" n="116"/>quantum homo per suam passionem est causa effectiua 
-      <lb ed="#G" n="117"/>neletionis peccati, saltem dispositua, quod addo pro
-      tan<lb ed="#G" n="118" break="no"/>to: quia tota trinitas vnus deus delet culpam
-      principali<lb ed="#G" n="119" break="no"/>ter: Christus per suam passionem dispositiue: &amp; sacramen 
-      <lb ed="#G" n="120"/>ta instrumentaliter; nam cum caritas Christi, qua nos
-      di<lb ed="#G" n="121" break="no"/>lexit, maxime in sua sanctissima passione potuerit: ideo 
-      <lb ed="#G" n="122"/>er huiusmodi passionem maxime nos ad sui dilectionem 
-      <lb ed="#G" n="123"/>incitatuit, &amp; per cousequens ad culpae detestationem. 
-      <lb ed="#G" n="124"/>ldeo dicitur Apocal. 1. quod ipse lauit nos a peccatis
-      no<lb ed="#G" n="125" break="no"/>stris in sanguine suo. Et dicit Apostolus. Si enim sanguis 
-      <lb ed="#G" n="126"/>hircorum &amp;c: quanto magis sanguis Christi emundabi 
-      <lb ed="#G" n="127"/>conscientias nostras ab operibus mortuis. Est etiam
-      sen<lb ed="#G" n="128" break="no"/>tentia Magistri hic in littera, qui ait, quod passio Christi 
-      <lb ed="#G" n="129"/>quicquid culparum erat, deleuit. SED contra illud 
-      <lb ed="#G" n="130"/>vniuersale dictum Magistri quidam arguunt sic. 1 Quo¬ 
-      <!--537.xml-->
-      <pb ed="#G" n="P2_33-v"/>
-               <cb ed="#G" n="a"/>
-               <lb ed="#G" n="1"/>deletum est, amplius deleri non potest: sed peccata pati 
-      <lb ed="#G" n="2"/>veteris testamenti deleta erant antequam Christus
-      pate<lb ed="#G" n="3" break="no"/>retur: ergo passio Christi non deleuit omnem culpam.
-    </p>
-            <p xml:id="HuYgTa-185329-d1e470">
-               <lb ed="#G" n="4"/>2 Praeterea, si passio Christi delet omnem culpam, sei 
-      <lb ed="#G" n="5"/>omnia peccata: ergo superflua sunt alia remedia.
-    </p>
-            <p xml:id="HuYgTa-185329-d1e477">
-               <lb ed="#G" n="6"/>3 Praeterea, illorum, quae sunt aequalia, vnum non de 
-      <lb ed="#G" n="7"/>struit aliud: sed quantum bonum fuit passio Christi ex 
-      <lb ed="#G" n="8"/>parte patientis, tantum malum erat actio ex parte infe 
-      <lb ed="#G" n="9"/>rentis: igitur peccatum occidentium Christum per suam 
-      <lb ed="#G" n="10"/>assionem non videtur esse deletum. Propter hoc ait Ani 
-      <lb ed="#G" n="11"/>lib Cur Deus homo, Si tam malum est Christum occid 
-      <lb ed="#G" n="12"/>re, quam bona est vita eius, quomodo potest mors eius 
-      <lb ed="#G" n="13"/>superare, &amp; delere peccata eorum, qui eum occiderunt; 
-      <lb ed="#G" n="14"/>aut si alicuius eorum peccata delet, quomodo potest alio 
-      <lb ed="#G" n="15"/>rum peccata deleret
-    </p>
-            <p xml:id="HuYgTa-185329-d1e501">
-               <lb ed="#G" n="16"/>Ad primum dicendum, quod patres veteris testamenti
-      fi<lb ed="#G" n="17" break="no"/>dem habuerunt de Christo, &amp; eius passione futura, quae 
-      <lb ed="#G" n="18"/>fides dispositiue cooperabatur ad deletionem omnium 
-      <lb ed="#G" n="19"/>suarum culparum. 
-    </p>
-            <p xml:id="HuYgTa-185329-d1e512">
-               <lb ed="#G" n="20"/>
-               <pc type="indent"/>Dicetur forte: quomodo ergo delebantur peccata sin 
-      <lb ed="#G" n="21"/>plicium popularium, qui nullam reuelationem habeban 
-      <lb ed="#G" n="22"/>de Christo: Respondeo, quod talibus simplicibus suffecit
-      fi<lb ed="#G" n="23" break="no"/>des implicita de Christo, &amp; istam fidem habuerunt:
-      qui<lb ed="#G" n="24" break="no"/>crediderunt in illum Deum, &amp; eo modo, in quem, &amp; qui 
-      <lb ed="#G" n="25"/>modo patres crediderunt 
-    </p>
-            <p xml:id="HuYgTa-185329-d1e531">
-               <lb ed="#G" n="26"/>
-               <pc type="indent"/>Ad secundum dicendum, quod alia remedia non
-      su<lb ed="#G" n="27" break="no"/>perssuunt, puta, ipsa sacramenta: quia virtutem a passio 
-      <lb ed="#G" n="28"/>ne Christi capiunt, &amp; sunt quasi instrumenta passionis in 
-      <lb ed="#G" n="29"/>culparum deletione 
-    </p>
-            <p xml:id="HuYgTa-185329-d1e544">
-               <lb ed="#G" n="30"/>
-               <pc type="indent"/>Ad tertium dicendum, quod quia occisores Christ. 
-      <lb ed="#G" n="31"/>ignorabant ipsum esse Dei filium: quia secundum
-      Apo<lb ed="#G" n="32" break="no"/>stolum, si ipsum Deum cognouissent, regem gloriae ne 
-      <lb ed="#G" n="33"/>quaquam crucifixissent: ideo ignorantia eorum aliquali 
-      <lb ed="#G" n="34"/>ter excusabat delictum eorum : Propter quod ait Anse 
-      <lb ed="#G" n="35"/>quod malum eorum non fuit aequale bono vitae Christi. 
-    </p>
-            <p xml:id="HuYgTa-185329-d1e562">
-               <lb ed="#G" n="36"/>
-               <pc type="indent"/>ARTICVLVS I 
-      <lb ed="#G" n="37"/>Vtrum per passionem christi, sufficienter
-      simu<lb ed="#G" n="38" break="no"/>
-               <pc type="indent"/>liberati a malo culpe¬
-    </p>
-            <p xml:id="HuYgTa-185329-d1e575">
-               <lb ed="#G" n="39"/>QVANTVM ad secundum articulum ponam duas 
-      <lb ed="#G" n="40"/>
-               <pc type="indent"/>conclusiones. Prima est, quod passio Christi es 
-      <lb ed="#G" n="41"/>sufficiens omnes homines liberare ab omni poena tam 
-      <lb ed="#G" n="42"/>temporali, quam aeterna debita pro peccatis tam actuali 
-      <lb ed="#G" n="43"/>bus, quam etiam originali
-    </p>
-            <p xml:id="HuYgTa-185329-d1e591">
-               <lb ed="#G" n="44"/>1 Quia vita Christi, qui Deus fuit, &amp; homo, quam ipse 
-      <lb ed="#G" n="45"/>obtulit Deo patri pro nostris peccatis: ideo fuit nobilis. 
-      <lb ed="#G" n="46"/>&amp; perfecta oblatio tam in se, quam ex parte patris
-      grati<lb ed="#G" n="47" break="no"/>ficantis, &amp; gratificanter suscipientis huiusmodi
-      oblatio<lb ed="#G" n="48" break="no"/>nem, quod talis oblatio suffecisset pro poena debita
-      pec<lb ed="#G" n="49" break="no"/>catis non solum omnium, qui sunt, erunt, &amp; fuerunt, veri 
-      <lb ed="#G" n="50"/>etiam pro infinitis adhuc aliis hominibus, si fierent. E 
-      <lb ed="#G" n="51"/>hoc satis innuitur 1. Toan. 2. vbi dicitur. Ipse propiciatio 
-      <lb ed="#G" n="52"/>est pro peccatis nostris, non pro nostris autem tantum, sed 
-      <lb ed="#G" n="53"/>etiam pro totius mundi
-    </p>
-            <p xml:id="HuYgTa-185329-d1e615">
-               <lb ed="#G" n="54"/>2 Ista est intentio Clos. super illo verbo Sach. Tu
-      quo<lb ed="#G" n="55" break="no"/>que in sanguine testamenti tui eduxisti vinctos de lacu; in 
-      <lb ed="#G" n="56"/>quo non erat aqua
-    </p>
-            <p xml:id="HuYgTa-185329-d1e625">
-               <lb ed="#G" n="57"/>3 Item, Oseae 13. dicitur in persona Christi. Ero mors 
-      <lb ed="#G" n="58"/>tua o mors, &amp; morsus tuus ero inferne 
-    </p>
-            <p xml:id="HuYgTa-185329-d1e632">
-               <lb ed="#G" n="59"/>
-               <pc type="indent"/>Item Augustinus ait. Christus sua simplici morte 
-      <lb ed="#G" n="60"/>destruxit nostram duplam mortem. Quod verbum
-      Augi<lb ed="#G" n="61" break="no"/>stini intelligendum est efficaciter quo ad aeternam mon 
-      <lb ed="#G" n="62"/>tem eorum, qui fide formata credunt in Christum, u 
-      <lb ed="#G" n="63"/>exemplariter quo ad temporalem mortem: quia in sua 
-      <lb ed="#G" n="64"/>sanctissima resurrectione dedit nobis exemplum, &amp; certam 
-      <lb ed="#G" n="65"/>spem futurae nostrae resurrectionis, &amp; immortalitatis. 
-    </p>
-            <p xml:id="HuYgTa-185329-d1e652">
-               <lb ed="#G" n="66"/>
-               <pc type="indent"/>Sed contra istam conclusionem potest instari
-      sic<lb ed="#G" n="67" break="no"/>1 Nullo finito destruitur sufficienter illud, quod es 
-      <lb ed="#G" n="68"/>infinitum, sed passio Christi erat quid finitum, poena aeter 
-      <lb ed="#G" n="69"/>na quid infinitum: ergo &amp;c 
-    </p>
-            <p xml:id="HuYgTa-185329-d1e665">
-               <lb ed="#G" n="70"/>
-               <pc type="indent"/>2 Praeterea, melior est vita, qua viuitur in vita aeterna, 
-      <!--537.xml-->
-      <cb ed="#G" n="b"/>
-               <lb ed="#G" n="71"/>&amp; beatifica, quam qua viultur in hoc mundo vita tempo 
-      <lb ed="#G" n="72"/>rali: sed non sufficienter satisfit, quando minus bonum da 
-      <lb ed="#G" n="73"/>tur per perditionem maioris boni, &amp; per consequens datio 
-      <lb ed="#G" n="74"/>temporalis vitae Christi non sufficit in emendam pro
-      amis<lb ed="#G" n="75" break="no"/>sione beatae, &amp; aeternae vitae. 3 Praeterea, illud, quod fi- 
-      <lb ed="#G" n="76"/>niri non potest, non potest destrui: sed poena aeterna finiri 
-      <lb ed="#G" n="77"/>non potest, cum aeternui non possit capere finem. Maior 
-      <lb ed="#G" n="78"/>etiam patet: quia omne, quod destruitur, finitur: ergo per 
-      <lb ed="#G" n="79"/>oppositum, quod non potest finiri, non potest destrui. 
-    </p>
-            <p xml:id="HuYgTa-185329-d1e696">
-               <lb ed="#G" n="80"/>
-               <pc type="indent"/>Respondeo, ad primum quod minor deficit dupliciter: Pri 
-      <lb ed="#G" n="81"/>mo: quia poena inferni non est infinita in vigore, sed soli 
-      <lb ed="#G" n="82"/>in quadam suceessione, seu duratione: &amp; tate infinitum
-      po<lb ed="#G" n="83" break="no"/>test intercipi etiam a finita virtute. Secundo: quia passio 
-      <lb ed="#G" n="84"/>Christi quamuis in se fuerit finita: tamen ex parte perso. 
-      <lb ed="#G" n="85"/>nae illius, qui patiebatur, potuit dici infinita, co quod
-      ta<lb ed="#G" n="86" break="no"/>lis persona fuit infinita. Etiam ratione acceptationis, qua 
-      <lb ed="#G" n="87"/>Deus pater acceptauit huiusmodi pastionem, ipsa passio 
-      <lb ed="#G" n="88"/>potest dici aliquo modo infinitae virtutis: quia Deus ipsam 
-      <lb ed="#G" n="89"/>acceptauit pro infinitis offensionibus, si essent, vel fuissent 
-      <lb ed="#G" n="90"/>iufinitae. Ad secundum patet per idem. Ad tertium
-      di<lb ed="#G" n="91" break="no"/>cendum, quod argumentum bene procedit, de eo, quod est sim 
-      <lb ed="#G" n="92"/>pliciter, &amp; actu infinitum, non autem de com, quod est poten 
-      <lb ed="#G" n="93"/>tia, &amp; secundum quid solum infinitum. Vnde quamuis
-      poe<lb ed="#G" n="94" break="no"/>na inferni sit infinita per comparationem ad potentiam acti 
-      <lb ed="#G" n="95"/>uam cuiuscumque puri hominis, eo quoe nullus purus homo 
-      <lb ed="#G" n="96"/>habuit in se potentiam actiuam, qua se ab huiusmodi poe 
-      <lb ed="#G" n="97"/>na posset liberare, non est tamen infinita per comparatio 
-      <lb ed="#G" n="98"/>nem ad potentiam passiuam etiam puri hominis: quia 
-      <lb ed="#G" n="99"/>qui liberantur a tali poena, habent in se potentiam, qua pos 
-      <lb ed="#G" n="100"/>lunt liberari, quamuis non habeant in se potentiam,
-      qu<lb ed="#G" n="101" break="no"/>se possint liberare. Secunda conclusio est, quod non
-      ob<lb ed="#G" n="102" break="no"/>stante sufficientia passionis Christi, qua omnes poterat li 
-      <lb ed="#G" n="103"/>perare, de facto tamen, &amp; efficaciter omnes homines non  
-      <lb ed="#G" n="104"/>sunt liberati: nam Christus tamquam caput omnium
-      sa<lb ed="#G" n="105" break="no"/>tisfecit pro omnibus hominibus, tamquam pro suis mem 
-      <lb ed="#G" n="106"/>bris. quicumque igitur in sua pertinacia perdurantes, no 
-      <lb ed="#G" n="107"/>lunt esse membra Christi, talibus non prodest passio Chri 
-      <lb ed="#G" n="108"/>sti. Sicut enim influentia a capite descendens, non pro¬¬ 
-      <lb ed="#G" n="109"/>dest membro preciso a toto sub illo capite existente: sic 
-      <lb ed="#G" n="110"/>virtus passionis Christi non liberat eos, qui per veram fidem 
-      <lb ed="#G" n="111"/>non compulantur Christo: nec etiam de facto tollit ab ho 
-      <lb ed="#G" n="112"/>minibus omnem poenam temporalem: quia saepius dimit 
-      <lb ed="#G" n="113"/>tit malos esse in multis tribulationibus, &amp; afflictionibus 
-      <lb ed="#G" n="114"/>propter malitiam eorum, Et similiter bonos propter aus 
-      <lb ed="#G" n="115"/>mentum in praesenti virtutum, &amp; meritorum, &amp; in
-      futu<lb ed="#G" n="116" break="no"/>ro praemiorum. 
-    </p>
-            <p xml:id="HuYgTa-185329-d1e781">
-               <lb ed="#G" n="117"/>
-               <pc type="indent"/>ARTICVLVS III 
-      <lb ed="#G" n="118"/>Vtrum modus nostra liberationis, quam  
-      <lb ed="#G" n="119"/>
-               <pc type="indent"/>per passionem cbrissi, fuerit 
-      <lb ed="#G" n="120"/>
-               <pc type="indent"/>conueniens
-    </p>
-            <p xml:id="HuYgTa-185329-d1e800">
-               <lb ed="#G" n="121"/>VANTVM ad tertium articulum, &amp; quartum
-      si<lb ed="#G" n="122" break="no"/>
-               <pc type="indent"/>mul respondet <ref xml:id="HuYgTa-185329-Rd1e808">Aug. 13. de trin.</ref> quod alius
-      mo<lb ed="#G" n="123" break="no"/>dus Deo fuit possibilis; nullus tamen fuit ita congruus 
-      <lb ed="#G" n="124"/>
-               <quote xml:id="HuYgTa-185329-Qd1e816" source="http://scta.info/resource/adt-l13-d1e1457" synch="79-81">sanandae nostrae miseriae</quote>, quam per Christi passionen 
-    </p>
-            <p xml:id="HuYgTa-185329-d1e820">
-               <lb ed="#G" n="125"/>
-               <pc type="indent"/>Nam secundum eundem Aug. homo debuit satisfaci 
-      <lb ed="#G" n="126"/>re, &amp; non potuit: Deus potuit, sed non debuit. Tum igitu 
-      <lb ed="#G" n="127"/>congruum sit, vt ille satisfaciat, qui potest, &amp; tenetur: igi 
-      <lb ed="#G" n="128"/>tur congruum erat, vt Christus Deus, &amp; homo satisface 
-      <lb ed="#G" n="129"/>ret, qui, vt homo erat, satisfacere deberet, &amp;, vt Deus,
-      sa<lb ed="#G" n="130" break="no"/>tissacere posset
-    </p>
-            <p xml:id="HuYgTa-185329-d1e838">
-               <lb ed="#G" n="131"/>2 Praeterea congruum erat, vt satissactio pro omnibus 
-      <lb ed="#G" n="132"/>humanae naturae defectibus fieret per talem poenam, quae 
-      <lb ed="#G" n="133"/>oninem aliam poenam virtualiter contineret: talis autem 
-      <lb ed="#G" n="134"/>est poena mortis: quia omnium terribilium finis est mors 
-      <lb ed="#G" n="135"/>vt dicitur <ref xml:id="HuYgTa-185329-Rd1e851">3 ethicorum</ref> 
-            </p>
-            <p xml:id="HuYgTa-185329-d1e855">
-               <lb ed="#G" n="136"/>
-               <pc type="indent"/>Forte dicetur, quod minus peccatum non congrue, 
-      <lb ed="#G" n="137"/>siue conuenienter expiatur per maius peccatum: sed Adi 
-      <lb ed="#G" n="138"/>inobedientia fuit minus peccatum, quam Christi
-      violen<lb ed="#G" n="139" break="no"/>tia, seu occisio violenta.
-    </p>
-            <p xml:id="HuYgTa-185329-d1e868">
-      <!--538.xml-->
-               <pb ed="#G" n="P2_34-r"/>
-               <cb ed="#G" n="a"/>
-               <lb ed="#G" n="1"/>Respondeo, quod occisio Christi ex parte occidentium 
-      <lb ed="#G" n="2"/>non erat satisfactoria, sed erat maximum peccatum: sed  
-      <lb ed="#G" n="3"/>ex parte occisi, puta, occisio passio fuit maxime
-      satisfacto<lb ed="#G" n="4" break="no"/>ria: quia erat maximae virtutis.
-    </p>
-            <p xml:id="HuYgTa-185329-d1e886">
-               <lb ed="#G" n="5"/>3 Praeterea, ille modus nostrae liberationis est
-      conue<lb ed="#G" n="6" break="no"/>nientior, quo homo magis afficitur ad Dei dilectionem, 
-      <lb ed="#G" n="7"/>magis inducitur ad virtutum perfectionem, &amp; cautior 
-      <lb ed="#G" n="8"/>redditur contra omnem malitiae tentationem: sed isto 
-      <lb ed="#G" n="9"/>modus est huiusmodi. Vnde primam partem istius
-      mino<lb ed="#G" n="10" break="no"/>ris tangit Apostolus dicens Commendat suam caritaten 
-      <lb ed="#G" n="11"/>Deus in nobis: quoniam cum inimici essemus, Christus 
-      <lb ed="#G" n="12"/>pro nobis mortuus est. Et iterum. Sic Deus dilexit
-      mun<lb ed="#G" n="13" break="no"/>dum, vt vnigenitum suum daret. Secundam partem
-      tan<lb ed="#G" n="14" break="no"/>git beatus Petr. prima sua canonica dicens. Christus pro 
-      <lb ed="#G" n="15"/>nobis passus est, vobis relinquens exemplum, vt sequa 
-      <lb ed="#G" n="16"/>mini vestigia eius. Tertia pars istius minoris tangitur. <ref xml:id="HuYgTa-185329-Rd1e914">I. 
-        <lb ed="#G" n="17"/>ad Cor. 8.</ref> vbi dicitur. <quote xml:id="HuYgTa-185329-Qd1e919" source="http://scta.info/resource/Icor6_20" synch="1-5">Empti enim estis pretio magno</quote>, glo 
-      <lb ed="#G" n="18"/>rificate, &amp; portate Deum in corpore vestro qu. d. Apo 
-      <lb ed="#G" n="19"/>stolus. Corpus vestrum amplius non debet esse
-      subie<lb ed="#G" n="20" break="no"/>ctum peccato : quia redempti estis pretioso thesta
-      Do<lb ed="#G" n="21" break="no"/>nostro Tesu Christo. 
-    </p>
-            <p xml:id="HuYgTa-185329-d1e933">
-               <lb ed="#G" n="22"/>
-               <pc type="indent"/>ARTICVLVS IIII 
-      <lb ed="#G" n="23"/>Vtrum alter modus nostrae liberationis, quam por 
-      <lb ed="#G" n="24"/>
-               <pc type="indent"/>passionem cbristi, fuerit possibilis.
-    </p>
-            <p xml:id="HuYgTa-185329-d1e946">
-               <lb ed="#G" n="25"/>VANTVM ad quartum articulum ponam duas 
-      <lb ed="#G" n="26"/> conclusiones. Prima est, quod referendo Iy
-      pos<lb ed="#G" n="27" break="no"/>sibile ad nostram humanam potentiam, tunc nullus fuit 
-      <lb ed="#G" n="28"/>alius modus possibilis nostrae liberationis.
-    </p>
-            <p xml:id="HuYgTa-185329-d1e957">
-               <lb ed="#G" n="29"/>1 Quia quilibet purus homo pensatis suis viribus adet 
-      <lb ed="#G" n="30"/>fuit reus, quod ipse sufficere non poterat ad sui ipsius libs 
-      <lb ed="#G" n="31"/>rationem, quanto magis non sufficit pro liberatione
-      co<lb ed="#G" n="32" break="no"/>terorum, cui enim sua merita non sufficiunt ad
-      satisfa<lb ed="#G" n="33" break="no"/>ciendum pro peccatis propriis, planum est, quod non
-      va<lb ed="#G" n="34" break="no"/>let satisfacere pro alienis 
-    </p>
-            <p xml:id="HuYgTa-185329-d1e973">
-               <lb ed="#G" n="35"/>
-               <pc type="indent"/>2 Praeterea, talis debuit esse liberator humani generis,  
-      <lb ed="#G" n="36"/>qui suis meritis posset aeternam beatitudinem, quam
-      ho<lb ed="#G" n="37" break="no"/>mo per peccatum perdiderat, recuperare: sed talem
-      recu<lb ed="#G" n="38" break="no"/>perationem fieri a quocuque puro homine erat impossibile¬ 
-    </p>
-            <p xml:id="HuYgTa-185329-d1e986">
-               <lb ed="#G" n="39"/>
-               <pc type="indent"/>Sed contra illud videtur esse opinio cuiusdam
-      moder<lb ed="#G" n="40" break="no"/>ni doctoris, qui ait, quod licet de condigno nullus purus 
-      <lb ed="#G" n="41"/>homo potuit satisfacere pro peccato totius humani
-      ge<lb ed="#G" n="42" break="no"/>neris, tamen de congruo etiam purus homo potuit
-      satis<lb ed="#G" n="43" break="no"/>facere, si Deus satisfactionem fieri per mortem Christi non 
-      <lb ed="#G" n="44"/>praeordinasset. Hanc conclusionem ipse probat dupliciter
-    </p>
-            <p xml:id="HuYgTa-185329-d1e1004">
-               <lb ed="#G" n="45"/>1 Primo sic. Quando duo actus ita se habent, quod boni 
-      <lb ed="#G" n="46"/>tas vnius aequatur malitiae alterius, tuc bonus potest esse  
-      <lb ed="#G" n="47"/>satisfactorius pro malo saltem de congruo: sed possibile 
-      <lb ed="#G" n="48"/>est actum puri hominis aequari in bonitate malitiae
-      pecc<lb ed="#G" n="49" break="no"/>ti Adae: ergo de congruo actus puri hominis tantum po 
-      <lb ed="#G" n="50"/>tuit esse satisfactorius, quantum actus Adae fuit demerito 
-      <lb ed="#G" n="51"/>rius pro persona, &amp; natura 
-    </p>
-            <p xml:id="HuYgTa-185329-d1e1023">
-               <lb ed="#G" n="52"/>
-               <pc type="indent"/>2 Praeterea, culpa Adae redundauit in totam naturam, 
-      <lb ed="#G" n="53"/>quantum ad condemnationem: ergo eius poenitentia po 
-      <lb ed="#G" n="54"/>tuit de congruo redundare in totam naturam quantum 
-      <lb ed="#G" n="55"/>ad satisfactionem, &amp; reparationem. Probat ipse consequen 
-      <lb ed="#G" n="56"/>tiam: quia culpa Adae pro tanto redundauit in totam na 
-      <lb ed="#G" n="57"/>turam: quia, dum peccauit, in ipso erat virtualiter tota na 
-      <lb ed="#G" n="58"/>tura: cum igitur eodem modo in ipso fuerit tota natura, 
-      <lb ed="#G" n="59"/>quando poenituit satisfaciendo pro se, pro tota humana 
-      <lb ed="#G" n="60"/>natura satis facere potuit 
-    </p>
-            <p xml:id="HuYgTa-185329-d1e1047">
-               <lb ed="#G" n="61"/>
-               <pc type="indent"/>3 Praeterea, ad hoc idem arguitur sic. Sicut se habet 
-      <lb ed="#G" n="62"/>gratiarum actio respectu beneficiorum, sic se habet satis. 
-      <lb ed="#G" n="63"/>factio respectu peccatorum: sed pro beneficiis sufficit
-      gra<lb ed="#G" n="64" break="no"/>tiarum actio quantum homo potest reddere, etiam dato 
-      <lb ed="#G" n="65"/>quod non sit aequiualens beneficiis, vt patet <ref xml:id="HuYgTa-185329-Rd1e1062">8. ethicorum</ref>; 
-      <lb ed="#G" n="66"/>ergo pro peccatis &amp;c
-    </p>
-            <p xml:id="HuYgTa-185329-d1e1068">
-               <lb ed="#G" n="67"/>4 Praeterea, validius est bonum ad reparandum, quam 
-      <lb ed="#G" n="68"/>malum ad destruendum: sed vnus homo per vnum actum 
-      <lb ed="#G" n="69"/>malum potuit totam naturam corrumpere: ergo vnus 
-      <!--538.xml-->
-      <cb ed="#G" n="b"/>
-               <lb ed="#G" n="70"/>homo per actus suos virtuosos, &amp; bonos potuit totam na 
-      <lb ed="#G" n="71"/>
-               <pc type="indent"/>turam reparare.
-    </p>
-            <p xml:id="HuYgTa-185329-d1e1088">
-               <lb ed="#G" n="72"/>s Praeterea, crudelis est creditor, qui plus exigit a
-      debi<lb ed="#G" n="73" break="no"/>tore, quam possit: cum igitur Deus non sit crudelis: ergo 
-      <lb ed="#G" n="74"/>ad emendam humani peccati sufficit illud, quod potest fa 
-      <lb ed="#G" n="75"/>tere homo. Sed praedicta posito non potest stare. 1 Quia 
-      <lb ed="#G" n="76"/>quidquid homo potest de congruo, hoc immediate a Dec 
-      <lb ed="#G" n="77"/>consequitur, dummodo faciat totum, quod in se est: sec 
-      <lb ed="#G" n="78"/>quantumcumque Adam, vel quicumque alius purus
-      ho<lb ed="#G" n="79" break="no"/>mo fecisset totum, quod in se luit, seu totum, quod potuis 
-      <lb ed="#G" n="80"/>set: propter hoc tamen genus humanum liberatum non 
-      <lb ed="#G" n="81"/>fuisset: ergo nullus purus homo potuit de congruo
-      satis<lb ed="#G" n="82" break="no"/>facere pro toto humano genere.
-    </p>
-            <p xml:id="HuYgTa-185329-d1e1114">
-               <lb ed="#G" n="83"/>2 Praeterea, ille, qui de congruo offensum Dominum 
-      <lb ed="#G" n="84"/>debet placare, non debet esse de numero offendentium, 
-      <lb ed="#G" n="85"/>alias se intromittens de placatione, iratum Dominum non 
-      <lb ed="#G" n="86"/>placaret: sed potius irritaret: sed quilibet purus homo 
-      <lb ed="#G" n="87"/>quantum in se fuit, erat de numero offendentium : ergo 
-      <lb ed="#G" n="88"/>ullus purus homo congruus placator esse potuit.
-    </p>
-            <p xml:id="HuYgTa-185329-d1e1130">
-               <lb ed="#G" n="89"/>Ad primum dicendum, quod posito, quod <name xml:id="HuYgTa-185329-Nd1e1134">Adam</name> de 
-      <lb ed="#G" n="90"/>congruo potuerit elicere actum bonitate intensiua aequi 
-      <lb ed="#G" n="91"/>pollentem malitiae peccati sui, nullum tamen potuit
-      eli<lb ed="#G" n="92" break="no"/>cere actum aequiualentem bonitate extensiua malitiae sui 
-      <lb ed="#G" n="93"/>peccati: quia per malitiam perdidit originalem iustitiam,  
-      <lb ed="#G" n="94"/>quam in suos posteros originaliter transfudisset, si ipsam 
-      <lb ed="#G" n="95"/>non perdidisset, sed per nullam bonitatem cuiuscumque 
-      <lb ed="#G" n="96"/>sui actus potuit acquirere gratiam, seu virtutem, :quam 
-      <lb ed="#G" n="97"/>trasfunderet in suos posteros loco originalis iustitiae, quam 
-      <lb ed="#G" n="98"/>pro se, &amp; pro ipsis perdidit vniuersaliter: quia nullus
-      pu<lb ed="#G" n="99" break="no"/>rus homo gratiam in alterum potest transfundere, quam  
-      <lb ed="#G" n="100"/>uis Christus hoc potuerit: quia Deus, &amp; homo fuit. 
-    </p>
-            <p xml:id="HuYgTa-185329-d1e1163">
-               <lb ed="#G" n="101"/>
-               <pc type="indent"/>Et per idem patet ad secundum argumentum. 
-      <lb ed="#G" n="102"/>Ad tertium dicendum, quod non est simile de gratia 
-      <lb ed="#G" n="103"/>rum actione, &amp; satisfactione: quia qui gratias agit, non
-      ab<lb ed="#G" n="104" break="no"/>soluitur quin ad vlteriores gratiarum actiones, cum sibi 
-      <lb ed="#G" n="105"/>possibilitas affuerit, teneatur: &amp; ideo et non equiualens 
-      <lb ed="#G" n="106"/>ab agete gratias debet acceptari: sed qui satisfacit, satisfa 
-      <lb ed="#G" n="107"/>ctione absoluitur, nec ad aliquid vltra tenetur: ideo &amp;c 
-    </p>
-            <p xml:id="HuYgTa-185329-d1e1183">
-               <lb ed="#G" n="108"/>
-               <pc type="indent"/>Ad quartum nego maiorem: quia in naturalibus, &amp;  
-      <lb ed="#G" n="109"/>moralibus potest malitia vnius destruere. quod bonitas 
-      <lb ed="#G" n="110"/>multorum non potest reparare. Vnde solet dici in
-      pro<lb ed="#G" n="111" break="no"/>perbio, quod vnus stultus lapidem talem proiicere posset 
-      <lb ed="#G" n="112"/>in puteum, quem decem sapientes extrahere non possent 
-    </p>
-            <p xml:id="HuYgTa-185329-d1e1199">
-               <lb ed="#G" n="113"/>
-               <pc type="indent"/>Ad quinctum dicendum, quod ille creditor non ess 
-      <lb ed="#G" n="114"/>existimandus crudelis, qui cooperatur debitori in eo, quod 
-      <lb ed="#G" n="115"/>exigit ab eo, vt possit satisfacere. Et sic est in proposito: 
-      <lb ed="#G" n="116"/>uia vt homo satisfacere posset. Misit Deus filium suum 
-      <lb ed="#G" n="117"/>natum ex muliere, factum sub lege (secundum quod ait 
-      <lb ed="#G" n="118"/>Apostolus, ) vt eos, qui sub lege erant, redimeret, &amp; pro 
-      <lb ed="#G" n="119"/>teteris hominibus satisfaceret
-    </p>
-            <p xml:id="HuYgTa-185329-d1e1219">
-               <lb ed="#G" n="120"/>Secunda conclusio est, quod referendo Iy possibile ad  
-      <lb ed="#G" n="121"/>Dei absolutam potentiam, tunc alter modus fuit
-      possi<lb ed="#G" n="122" break="no"/>bilis nostrae liberationis, seu redemptionis, quae ad
-      prae<lb ed="#G" n="123" break="no"/>sens accipio pro eodem
-    </p>
-            <p xml:id="HuYgTa-185329-d1e1230">
-               <lb ed="#G" n="124"/>1 Quia illud facit pro alicuius redemptione, quod
-      bo<lb ed="#G" n="125" break="no"/>nitas illius acceptat, cuius imperio detinetur: sed Deus 
-      <lb ed="#G" n="126"/>cuius imperio homo peccator detinebatur a diabolo,
-      po<lb ed="#G" n="127" break="no"/>tuit acceptare pro offensa illata per hominem opus
-      quam<lb ed="#G" n="128" break="no"/>tumlibet modicum cuiuscumque creaturae: ergo &amp;c. Et 
-      <lb ed="#G" n="129"/>sic intelligenda sunt verba bern cum ait, quod vnica gutta 
-      <lb ed="#G" n="130"/>sanguinis Christi sufficere potuit pro liberatione totius 
-      <lb ed="#G" n="131"/>humani generis.
-    </p>
-            <p xml:id="HuYgTa-185329-d1e1250">
-               <lb ed="#G" n="132"/>2 Praeterea, potentia infinita non limitatur in actione 
-      <lb ed="#G" n="133"/>sua ad aliquem vnum modum finitum: sed Dei potentia 
-      <lb ed="#G" n="134"/>est infinita, modus autem, quo liberati sumus per Christi 
-      <lb ed="#G" n="135"/>assionem, est modus finitus: ergo &amp;c
-    </p>
-            <p xml:id="HuYgTa-185329-d1e1262">
-               <lb ed="#G" n="136"/>3 Praeterea, est intentio sanctorum: quia dicit <ref xml:id="HuYgTa-185329-Rd1e1266">Creg 
-        <lb ed="#G" n="137"/>Papa 2o, moralium</ref>, Deus omnipotens, qui nos existere 
-      <lb ed="#G" n="138"/>fecit de nihilo, reuocare nos etiam sine sua morte potuis 
-      <lb ed="#G" n="139"/>set. Et <name xml:id="HuYgTa-185329-Nd1e1275">Leo Papa</name> ait, Omnipotentia Dei filij liberare
-      po<lb ed="#G" n="140" break="no"/>tuisset genus humanum a diaboli dominio solo imperio 
-      <lb ed="#G" n="141"/>voluntatis aeternae. Sed contra illud sonare videntur quae 
-      <lb ed="#G" n="142"/>dam auctoritates.
-    </p>
-            <p xml:id="HuYgTa-185329-d1e1286">
-      Nam beatus <name xml:id="HuYgTa-185329-Nd1e1288" ref="#Ambrose">Ambrosius</name> ait. 
-      <!--539.xml-->
-      <pb ed="#G" n="P2_34-v"/>
-               <cb ed="#G" n="a"/>
-               <lb ed="#G" n="1"/>1 qantum fuit peccatum nostrum, vt saluari non posse 
-      <lb ed="#G" n="2"/>mus, nisi Christus prnobis moreretur debitoribus mortis
-    </p>
-            <p xml:id="HuYgTa-185329-d1e1303">
-               <lb ed="#G" n="3"/>2 Et <ref xml:id="HuYgTa-185329-Rd1e1307">Ans. lib cur Deus homo</ref> ait, non potuit transire 
-      <lb ed="#G" n="4"/>calix, nisi biberet illum, non quia non posset vitare mor 
-      <lb ed="#G" n="5"/>tem, si vellet: sed quia impossibile erat aliter saluari mum 
-      <lb ed="#G" n="6"/>dum
-    </p>
-            <p xml:id="HuYgTa-185329-d1e1317">
-               <lb ed="#G" n="7"/>3 Praeterea, quod est contra Dei iustitiam hoc impossi 
-      <lb ed="#G" n="8"/>bile est, quia Deus iniustus esse non potest: sed contra Dei 
-      <lb ed="#G" n="9"/>iustitiam est, quod pro Dei offensa non satisfit legitime 
-      <lb ed="#G" n="10"/>nec legitime satisfieri potuit nisi eo modo, quo factum e 
-      <lb ed="#G" n="11"/>ergo auter modus videtur fuisse impossibilis. 
-    </p>
-            <p xml:id="HuYgTa-185329-d1e1330">
-               <lb ed="#G" n="12"/>
-               <pc type="indent"/>4 Praeterea, quod a Deo praeordinatum est, &amp; a pro 
-      <lb ed="#G" n="13"/>phetis praedictum est, qui mentiri non possunt, hoc
-      impo<lb ed="#G" n="14" break="no"/>sibile est aliter se habere: sed liberatio humani generis 
-      <lb ed="#G" n="15"/>per passionem Christi ab aeterno a Deo fuit praeuisa, &amp; in 
-      <lb ed="#G" n="16"/>testamento per prophetas praedicta: ergo &amp;c. 
-    </p>
-            <p xml:id="HuYgTa-185329-d1e1346">
-               <lb ed="#G" n="17"/>
-               <pc type="indent"/>RESPONDEO ad primum, &amp; ad secundum, quod illi docto 
-      <lb ed="#G" n="18"/>res excludunt alium modum ex parte nostrae potentiae
-      a<lb ed="#G" n="19" break="no"/>ctiuae, non ex parte diuinae potentiae. 
-    </p>
-            <p xml:id="HuYgTa-185329-d1e1358">
-               <lb ed="#G" n="20"/>
-               <pc type="indent"/>Posset etiam dici: quia ibi loquuntur de potentia Dei 
-      <lb ed="#G" n="21"/>ordinata, qua Deus solum dicitur illud posse quod ab
-      ae<lb ed="#G" n="22" break="no"/>terno se facturum disposuit. 
-    </p>
-            <p xml:id="HuYgTa-185329-d1e1369">
-               <lb ed="#G" n="23"/>
-               <pc type="indent"/>Ad tertium dicendum, quod illud quod secundum nostra 
-      <lb ed="#G" n="24"/>rationis iudicium pro nunc esset iniustum, secundum
-      abso<lb ed="#G" n="25" break="no"/>lutam Dei potentiam, &amp; secundum alium ordinem, qui a 
-      <lb ed="#G" n="26"/>Deo posset institui, quem nos ignoramus, esset iustum. Vn 
-      <lb ed="#G" n="27"/>de quauis Petrum damnare, &amp; ludam saluare esset
-      iniu<lb ed="#G" n="28" break="no"/>stum: secundum ordinem quem nos videmus (tamen Deus 
-      <lb ed="#G" n="29"/>secundum absolutam suam potentiam hoc posset facere si
-      vel<lb ed="#G" n="30" break="no"/>let, qa talem ordinem institueret, quo illud non esset iniustum; 
-      <lb ed="#G" n="31"/>sic in proposito &amp;c. 
-    </p>
-            <p xml:id="HuYgTa-185329-d1e1393">
-               <lb ed="#G" n="32"/>
-               <pc type="indent"/>Ad quartum dicitur, quod argumentum procedit de
-      po<lb ed="#G" n="33" break="no"/>tentia Dei ordinata, sed non de absoluta 
-    </p>
-            <p xml:id="HuYgTa-185329-d1e1402">
-               <lb ed="#G" n="34"/>
-               <pc type="indent"/>Ex praedictis etiam patet per modum corrolarium, quod non e vo 
-      <lb ed="#G" n="35"/>tum illud, quod asserunt qudam doctores dicentes, quod redeptio fi 
-      <lb ed="#G" n="36"/>iusto pretio soluto, liberatio autem fit quibuscunque modis: 
-      <lb ed="#G" n="37"/>ideo non potuit genus humanu aliter redimi, quam per
-      incarn<lb ed="#G" n="38" break="no"/>tionem alicuius diuinae psonae qua aliter non potuit reddi iu 
-      <lb ed="#G" n="39"/>stu ptium prredeptione numam generis: poterat tamen (vt 
-      <lb ed="#G" n="40"/>dicunt) secundum absolutam Dei potentiam aliter liberari 
-    </p>
-            <p xml:id="HuYgTa-185329-d1e1422">
-               <lb ed="#G" n="41"/>
-               <pc type="indent"/>1 Quia (vt iam dixi) illud quoed non est iustum, secudum
-      ordi<lb ed="#G" n="42" break="no"/>nem quem videmus, posset esse iuitum secudum ordinem, que Deus 
-      <lb ed="#G" n="43"/>secundum absolutam suam potentiam posset instituere, sicut 
-      <lb ed="#G" n="44"/>patuit etiam in exemplo de luda, &amp; de Petro.
-    </p>
-            <p xml:id="HuYgTa-185329-d1e1435">
-               <lb ed="#G" n="45"/>2 Item captiuus iuste redimitur, cum tanta fit
-      satisfa<lb ed="#G" n="46" break="no"/>ctio, quantam acceptat hic, cui debetur satisfactio, set 
-      <lb ed="#G" n="47"/>vt superius dixi) Deus cui debetur pro peccato human 
-      <lb ed="#G" n="48"/>generis satisfactio, potest de absoluta sua potentia, &amp; de di- 
-      <lb ed="#G" n="49"/>uina sua benenolentia de minimo opere hominis conten 
-      <lb ed="#G" n="50"/>tari: ergo &amp;c
-    </p>
-            <p xml:id="HuYgTa-185329-d1e1452">
-               <lb ed="#G" n="51"/>AD argumentum principale dicendum, quod ad effi 
-      <lb ed="#G" n="52"/>caciam alicuius effectus duo requiruntur, scilicet virtus 
-      <lb ed="#G" n="53"/>sufficiens ex parte agentis, &amp; disposirio debita ex parte pro 
-      <lb ed="#G" n="54"/>tientis, quorum quocunque deficiente, vt plurimum im 
-      <lb ed="#G" n="55"/>peditur effectus. Sed nunc est ita, quod quamuis
-      vir<lb ed="#G" n="56" break="no"/>tus Christi sit sufficiens ad saluandum omnes homines,  
-      <lb ed="#G" n="57"/>tamen sunt aliqui, qui vel deficiunt in fide, qua
-      disponi<lb ed="#G" n="58" break="no"/>tur humanus intellectus ad hoc, quod percipiat benefi 
-      <lb ed="#G" n="59"/>cia redemptionis: vel deficiunt in caritate, qua
-      disponi<lb ed="#G" n="60" break="no"/>tur humanus affectus, nec curant facere, quod in se est, vt 
-      <lb ed="#G" n="61"/>huiusmodi dispositiones consequantur: ideo iuste danantur. 
-    </p>
-            <p xml:id="HuYgTa-185329-d1e1478">
-               <lb ed="#G" n="62"/>
-               <pc type="indent"/>Et per idem patet ad rationem in contrarium, puta, 
-      <lb ed="#G" n="63"/>quare vnus redimitur, &amp; non alter, 
-    </p>
-         </div>
-      </body>
-   </text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 1</title>
+        <author ref="#ThomasStrasbourg">Thomas of Strasbourg</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 1</title>
+          <date when="2020-11-26">November 26, 2020</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="G" n="cod-TxxxqU">Genoa 1585</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2020-11-26" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#G" n="P2_33-r"/>
+        <cb ed="#G" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="HuYgTa-185329"><!-- HuYgTa-l3d19et20q1 -->
+        <head xml:id="HuYgTa-185329-Hd1e108">Quaestio 1</head>
+        <head xml:id="HuYgTa-185329-Hd1e111" type="question-title">
+          An omnes homines beneficio passionis 
+          Christi a quocunque malo satis 
+          fuerint liberati
+        </head>
+        <p xml:id="HuYgTa-185329-d1e114">
+          <lb ed="#G" n="9"/>
+          <pc type="indent"/>Quaestio 1 
+          <lb ed="#G" n="10"/>An omnes homines beneficio passionis 
+          <lb ed="#G" n="11"/>Christi a quocunque malo satis 
+          <lb ed="#G" n="12"/>fuerint liberati
+        </p>
+        <p xml:id="HuYgTa-185329-d1e127">
+          <lb ed="#G" n="13"/>VTRVM omnes homines per Christi passionem
+          ha<lb ed="#G" n="14" break="no"/>buerint sufficientem ab omni malo liberationem. 
+          <lb ed="#G" n="15"/>videtur quod non: quia nullus damnatur pro eo, de quo 
+          <lb ed="#G" n="16"/>est sufficienter liberatus: sed multi homines damnantur: 
+          <lb ed="#G" n="17"/>ergo &amp;c 
+        </p>
+        <p xml:id="HuYgTa-185329-d1e140">
+          <lb ed="#G" n="18"/>
+          <pc type="indent"/>Contra, Christi passio aequaliter se habet respectu on 
+          <lb ed="#G" n="19"/>nium peccatorum: aut ergo delet omnia peccata pro om 
+          <lb ed="#G" n="20"/>nibus satisfaciendo, aut nullum: sed falsum est dicere, quo 
+          <lb ed="#G" n="21"/>nullum deleuerit; ergo deleuit omnia, deleto autem ma 
+          <lb ed="#G" n="22"/>lo culpe, deletur &amp; malum poene: ergo &amp;c. Hic quattuo 
+          <lb ed="#G" n="23"/>sunt videnda: Nam cum malum diuidatur in malum cul 
+          <lb ed="#G" n="24"/>pae, &amp; malum poenae: ideo primo est videndum: vtrum per 
+          <lb ed="#G" n="25"/>passionem Christi sufficienter simus liberati a malo cul 
+          <lb ed="#G" n="26"/>pae. Secundo, vtrum a malo ipsius poenae. Et hoc quantim 
+          <lb ed="#G" n="27"/>ad 10. dist. Tertio, vtrum alter modus nostrae
+          liberatio<lb ed="#G" n="28" break="no"/>nis, quam per passionem Christi fuerit conueniens. Quan 
+          <lb ed="#G" n="29"/>to vtrum alter modus fuerit possibilis. Et hoc quantun 
+          <lb ed="#G" n="30"/>ad 20. distinctionem. 
+        </p>
+        <p xml:id="HuYgTa-185329-d1e174">
+          <lb ed="#G" n="31"/>
+          <pc type="indent"/>RES OLVT 1 O. 
+          <lb ed="#G" n="32"/>Es si formale principium expulsiuum culpae sit gratia gratum fa 
+          <lb ed="#G" n="33"/>titns: Passio tamen christi est sufficiens causa effrctiua. qua 
+          <lb ed="#G" n="34"/>dispofitiue saltem, &amp; meritorie culpam delet. Vnde cuncto. 
+          <lb ed="#G" n="35"/>mortales a quacunque peena, siue temporali, siue aetrrna vale 
+          <lb ed="#G" n="36"/>liberare. Neque alitd accomodatius antidotum ad sannan 
+          <lb ed="#G" n="37"/>dum nostrum lethale vulnus poterat veperiri. 
+        </p>
+        <p xml:id="HuYgTa-185329-d1e194">
+          <lb ed="#G" n="38"/>
+          <pc type="indent"/>ARTICVLVS
+          I<lb ed="#G" n="39" break="no"/>Vtrum per passionem cbristi sifficienter rati a malo culpae simus
+          libe<lb ed="#G" n="40" break="no"/>
+          <pc type="indent"/>SIRCA primum est aduertendum, quod illo libera 
+          <lb ed="#G" n="41"/>Amur a peccato, quo a nobis expellitur dupliciter 
+          <lb ed="#G" n="42"/>Vno modo formaliter. Alio modo effectiue. Et secundi 
+          <lb ed="#G" n="43"/>hoc ponam duas conclusiones. 
+        </p>
+        <p xml:id="HuYgTa-185329-d1e214">
+          <lb ed="#G" n="44"/>
+          <pc type="indent"/>Prima est, quod gratia gratum faciens est formale prin 
+          <lb ed="#G" n="45"/>cipium expulsiuum peccati 
+          <lb ed="#G" n="46"/>1 Quia vna quaque forma congrue potest dici
+          forma<lb ed="#G" n="47" break="no"/>le expulsiuum illius, quod quamuis ipsum precedat in
+          subie<lb ed="#G" n="48" break="no"/>cto: impossibile est tamen ipsum remanere adueniente 
+          <lb ed="#G" n="49"/>forma: sed gratia respectu mortalis peccati, de quo ad pro 
+          <lb ed="#G" n="50"/>sens loquor est huiusmodi: ergo &amp;c
+        </p>
+        <p xml:id="HuYgTa-185329-d1e234">
+          <lb ed="#G" n="51"/>2 Praeterea, arguit pro ista conclusione quidam doctor 
+          <lb ed="#G" n="52"/>sie. llla, quae formaliter opponuntur, vt priuatio &amp;
+          habi<lb ed="#G" n="53" break="no"/>tus illa, necessario circa ide subiectum mutuo se expellum 
+          <lb ed="#G" n="54"/>Sed peccatum opponitur gratiae sicut priuatio opponitus 
+          <lb ed="#G" n="55"/>habitui: ergo &amp;c
+        </p>
+        <p xml:id="HuYgTa-185329-d1e247">
+          <lb ed="#G" n="56"/>Sed contra istam minorem arguit quidam alius doctor qua 
+          <lb ed="#G" n="57"/>fuor rationibus quibus pbat, quod gratia, &amp; peccatum non ol 
+          <!--536.xml-->
+          <cb ed="#G" n="b"/>
+          <lb ed="#G" n="58"/>ponantur directe, sicut habitus, &amp; priuatio.
+        </p>
+        <p xml:id="HuYgTa-185329-d1e260">
+          <lb ed="#G" n="59"/>1 Primo sic. Priuatio, &amp; habitus sunt apta nata
+          fier<lb ed="#G" n="60" break="no"/>circa idem subiectu immediatum: sed subiectu immediatum gra 
+          <lb ed="#G" n="61"/>tiae est essentia animae, aut voluntas: subiectum aut imme 
+          <lb ed="#G" n="62"/>diatum peccati est actus voluntatis: ergo &amp;c 
+        </p>
+        <p xml:id="HuYgTa-185329-d1e272">
+          <lb ed="#G" n="63"/>
+          <pc type="indent"/>Praeterea, priuatio primae perfectionis non potest ha 
+          <lb ed="#G" n="64"/>bere rationem culpae, sed poenae. cum igitur gratia sit quidam 
+          <lb ed="#G" n="65"/>habitus, &amp; habeat rationem primae perfectionis, eius pri 
+          <lb ed="#G" n="66"/>uatio non erit culpa: sed poena 
+        </p>
+        <p xml:id="HuYgTa-185329-d1e285">
+          <lb ed="#G" n="67"/>
+          <pc type="indent"/>Praeterea, habitus, &amp; priuatio ita se habent circa idem 
+          <lb ed="#G" n="68"/>subiectum, quod necesse est alterum eorum inesse subiecto; 
+          <lb ed="#G" n="69"/>sed Deus potest facere vnum hominem in suis puris nati 
+          <lb ed="#G" n="70"/>ralibus, in quo nec sit peccatum nec gratia 
+        </p>
+        <p xml:id="HuYgTa-185329-d1e298">
+          <lb ed="#G" n="71"/>
+          <pc type="indent"/>Praeterea, vni habitui secundum specie non opponitur 
+          <lb ed="#G" n="72"/>nisi vna priuatio secundum speciem: sed gratia est vnus
+          ha<lb ed="#G" n="73" break="no"/>bitus secundum speciem: peccata autem mortalia sunt
+          di<lb ed="#G" n="74" break="no"/>uersarum specierum, &amp; rationum. 
+        </p>
+        <p xml:id="HuYgTa-185329-d1e311">
+          <lb ed="#G" n="75"/>
+          <pc type="indent"/>Sed, vtrum illa minor sit vera, vel falsa non curo ad 
+          <lb ed="#G" n="76"/>praesens: dico tamen, quod rationes non concludunt 
+          <lb ed="#G" n="77"/>ldeo ad primum dicendum, quod minor non est vera, pro ea par 
+          <lb ed="#G" n="78"/>te, qua dicit, quod actus voluntatis sit immediatum subiectun 
+          <lb ed="#G" n="79"/>peccati: quia imediato subiecto alicuius teudente in 
+          <lb ed="#G" n="80"/>non esse, impossibibile est via naturae illud remanere: sed 
+          <lb ed="#G" n="81"/>omnis actus voluntatis, postquam elicitus est trasit in non 
+          <lb ed="#G" n="82"/>esse: ergo in nullo peccatore culpa remaneret, quod videtur 
+          <lb ed="#G" n="83"/>valde inconueniens dictum apud quellibet catholicum, 
+        </p>
+        <p xml:id="HuYgTa-185329-d1e335">
+          <lb ed="#G" n="84"/>
+          <pc type="indent"/>Ad secundum nego maiorem: Nam in iustitia est
+          for<lb ed="#G" n="85" break="no"/>malis priuatio iustitiae, &amp; tamen iniustitia vere habet
+          ra<lb ed="#G" n="86" break="no"/>tionem culpae, quis iustitia, cui illa opponitur, non minus 
+          <lb ed="#G" n="87"/>habeat rationem primae persectionis, quam gratia. Et eodem  
+          <lb ed="#G" n="88"/>modo de infidelitate, quae opponitur fidei priuatiue, &amp; si 
+          <lb ed="#G" n="89"/>de multis aliis. Vnde etiam originalis culba formaliter ac 
+          <lb ed="#G" n="90"/>cepta, opponitur priuatiue originali iustitiae: quia culpa 
+          <lb ed="#G" n="91"/>originalis non est aliud secundum suum esse formale, quam  
+          <lb ed="#G" n="92"/>carentia originalis iustitiae cum debito habendi eam, &amp;
+          ta<lb ed="#G" n="93" break="no"/>men originalis iustitia, cum sit quidam habitus, oportet, quod 
+          <lb ed="#G" n="94"/>habeat rationem primae perfectionis. 
+        </p>
+        <p xml:id="HuYgTa-185329-d1e364">
+          <lb ed="#G" n="95"/>
+          <pc type="indent"/>Ad tertium dicendum, quod maior non est vera,
+          vniuersali<lb ed="#G" n="96" break="no"/>ter loquendo: nam aegritudo opponitur priuatiue ipsi
+          sani<lb ed="#G" n="97" break="no"/>tati, &amp; tamen medici ponunt medium inter sanu, &amp; aegrum. 
+          <lb ed="#G" n="98"/>Vnde illud quod medium tenet medici appellant neutrum. Ite 
+          <lb ed="#G" n="99"/>talis homo existens in puris naturalibus, nec haberet
+          o<lb ed="#G" n="100" break="no"/>riginalem iustitiam, nec originalem culpam, &amp; tamen nulli
+          du<lb ed="#G" n="101" break="no"/>est biu, quin originalis culpa sit priuatio originalis
+          iusti<lb ed="#G" n="102" break="no"/>tiae, sic in proposito &amp;c. 
+        </p>
+        <p xml:id="HuYgTa-185329-d1e387">
+          <lb ed="#G" n="103"/>
+          <pc type="indent"/>Ad quartum dicicendum, quod quis mortalia peccata
+          consi<lb ed="#G" n="104" break="no"/>derata quo ad suum esse materiale, puta, in utum dicunt con 
+          <lb ed="#G" n="105"/>uersione ad comutabile bonum, sint diuersarum rationum 
+          <lb ed="#G" n="106"/>secundum quoed talia bona diuersificantur, ad quae conuertit se ho 
+          <lb ed="#G" n="107"/>mo per peccatu: tamen considerata qtum ad suum formale, pu 
+          <lb ed="#G" n="108"/>ta, quo ad auersionem ab incomutauili bono, sic omnia pec 
+          <lb ed="#G" n="109"/>canta mortalia sunt vnius rationis formalis. Quod notans 
+          <lb ed="#G" n="110"/>peatus lacobus ait. Qui offendit in vno factus est omni 
+          <lb ed="#G" n="111"/>reus. Cum igitur opposito culpae ad gratiam magis
+          de<lb ed="#G" n="112" break="no"/>beat atrendi ratione auersionis, qua culpa auertit a Deo 
+          <lb ed="#G" n="113"/>ad quem gratia conuertit: ideo culpa opponitur gratiae, 
+          <lb ed="#G" n="114"/>n on vt diuersificatur ratione: sed vt est vnius rationis. 
+        </p>
+        <p xml:id="HuYgTa-185329-d1e418">
+          <lb ed="#G" n="115"/>
+          <pc type="indent"/>Secunda conclusio, quod passio Christi, seu Christus in 
+          <lb ed="#G" n="116"/>quantum homo per suam passionem est causa effectiua 
+          <lb ed="#G" n="117"/>neletionis peccati, saltem dispositua, quod addo pro
+          tan<lb ed="#G" n="118" break="no"/>to: quia tota trinitas vnus deus delet culpam
+          principali<lb ed="#G" n="119" break="no"/>ter: Christus per suam passionem dispositiue: &amp; sacramen 
+          <lb ed="#G" n="120"/>ta instrumentaliter; nam cum caritas Christi, qua nos
+          di<lb ed="#G" n="121" break="no"/>lexit, maxime in sua sanctissima passione potuerit: ideo 
+          <lb ed="#G" n="122"/>er huiusmodi passionem maxime nos ad sui dilectionem 
+          <lb ed="#G" n="123"/>incitatuit, &amp; per cousequens ad culpae detestationem. 
+          <lb ed="#G" n="124"/>ldeo dicitur Apocal. 1. quod ipse lauit nos a peccatis
+          no<lb ed="#G" n="125" break="no"/>stris in sanguine suo. Et dicit Apostolus. Si enim sanguis 
+          <lb ed="#G" n="126"/>hircorum &amp;c: quanto magis sanguis Christi emundabi 
+          <lb ed="#G" n="127"/>conscientias nostras ab operibus mortuis. Est etiam
+          sen<lb ed="#G" n="128" break="no"/>tentia Magistri hic in littera, qui ait, quod passio Christi 
+          <lb ed="#G" n="129"/>quicquid culparum erat, deleuit. SED contra illud 
+          <lb ed="#G" n="130"/>vniuersale dictum Magistri quidam arguunt sic. 1 Quo¬ 
+          <!--537.xml-->
+          <pb ed="#G" n="P2_33-v"/>
+          <cb ed="#G" n="a"/>
+          <lb ed="#G" n="1"/>deletum est, amplius deleri non potest: sed peccata pati 
+          <lb ed="#G" n="2"/>veteris testamenti deleta erant antequam Christus
+          pate<lb ed="#G" n="3" break="no"/>retur: ergo passio Christi non deleuit omnem culpam.
+        </p>
+        <p xml:id="HuYgTa-185329-d1e470">
+          <lb ed="#G" n="4"/>2 Praeterea, si passio Christi delet omnem culpam, sei 
+          <lb ed="#G" n="5"/>omnia peccata: ergo superflua sunt alia remedia.
+        </p>
+        <p xml:id="HuYgTa-185329-d1e477">
+          <lb ed="#G" n="6"/>3 Praeterea, illorum, quae sunt aequalia, vnum non de 
+          <lb ed="#G" n="7"/>struit aliud: sed quantum bonum fuit passio Christi ex 
+          <lb ed="#G" n="8"/>parte patientis, tantum malum erat actio ex parte infe 
+          <lb ed="#G" n="9"/>rentis: igitur peccatum occidentium Christum per suam 
+          <lb ed="#G" n="10"/>assionem non videtur esse deletum. Propter hoc ait Ani 
+          <lb ed="#G" n="11"/>lib Cur Deus homo, Si tam malum est Christum occid 
+          <lb ed="#G" n="12"/>re, quam bona est vita eius, quomodo potest mors eius 
+          <lb ed="#G" n="13"/>superare, &amp; delere peccata eorum, qui eum occiderunt; 
+          <lb ed="#G" n="14"/>aut si alicuius eorum peccata delet, quomodo potest alio 
+          <lb ed="#G" n="15"/>rum peccata deleret
+        </p>
+        <p xml:id="HuYgTa-185329-d1e501">
+          <lb ed="#G" n="16"/>Ad primum dicendum, quod patres veteris testamenti
+          fi<lb ed="#G" n="17" break="no"/>dem habuerunt de Christo, &amp; eius passione futura, quae 
+          <lb ed="#G" n="18"/>fides dispositiue cooperabatur ad deletionem omnium 
+          <lb ed="#G" n="19"/>suarum culparum. 
+        </p>
+        <p xml:id="HuYgTa-185329-d1e512">
+          <lb ed="#G" n="20"/>
+          <pc type="indent"/>Dicetur forte: quomodo ergo delebantur peccata sin 
+          <lb ed="#G" n="21"/>plicium popularium, qui nullam reuelationem habeban 
+          <lb ed="#G" n="22"/>de Christo: Respondeo, quod talibus simplicibus suffecit
+          fi<lb ed="#G" n="23" break="no"/>des implicita de Christo, &amp; istam fidem habuerunt:
+          qui<lb ed="#G" n="24" break="no"/>crediderunt in illum Deum, &amp; eo modo, in quem, &amp; qui 
+          <lb ed="#G" n="25"/>modo patres crediderunt 
+        </p>
+        <p xml:id="HuYgTa-185329-d1e531">
+          <lb ed="#G" n="26"/>
+          <pc type="indent"/>Ad secundum dicendum, quod alia remedia non
+          su<lb ed="#G" n="27" break="no"/>perssuunt, puta, ipsa sacramenta: quia virtutem a passio 
+          <lb ed="#G" n="28"/>ne Christi capiunt, &amp; sunt quasi instrumenta passionis in 
+          <lb ed="#G" n="29"/>culparum deletione 
+        </p>
+        <p xml:id="HuYgTa-185329-d1e544">
+          <lb ed="#G" n="30"/>
+          <pc type="indent"/>Ad tertium dicendum, quod quia occisores Christ. 
+          <lb ed="#G" n="31"/>ignorabant ipsum esse Dei filium: quia secundum
+          Apo<lb ed="#G" n="32" break="no"/>stolum, si ipsum Deum cognouissent, regem gloriae ne 
+          <lb ed="#G" n="33"/>quaquam crucifixissent: ideo ignorantia eorum aliquali 
+          <lb ed="#G" n="34"/>ter excusabat delictum eorum : Propter quod ait Anse 
+          <lb ed="#G" n="35"/>quod malum eorum non fuit aequale bono vitae Christi. 
+        </p>
+        <p xml:id="HuYgTa-185329-d1e562">
+          <lb ed="#G" n="36"/>
+          <pc type="indent"/>ARTICVLVS I 
+          <lb ed="#G" n="37"/>Vtrum per passionem christi, sufficienter
+          simu<lb ed="#G" n="38" break="no"/>
+          <pc type="indent"/>liberati a malo culpe¬
+        </p>
+        <p xml:id="HuYgTa-185329-d1e575">
+          <lb ed="#G" n="39"/>QVANTVM ad secundum articulum ponam duas 
+          <lb ed="#G" n="40"/>
+          <pc type="indent"/>conclusiones. Prima est, quod passio Christi es 
+          <lb ed="#G" n="41"/>sufficiens omnes homines liberare ab omni poena tam 
+          <lb ed="#G" n="42"/>temporali, quam aeterna debita pro peccatis tam actuali 
+          <lb ed="#G" n="43"/>bus, quam etiam originali
+        </p>
+        <p xml:id="HuYgTa-185329-d1e591">
+          <lb ed="#G" n="44"/>1 Quia vita Christi, qui Deus fuit, &amp; homo, quam ipse 
+          <lb ed="#G" n="45"/>obtulit Deo patri pro nostris peccatis: ideo fuit nobilis. 
+          <lb ed="#G" n="46"/>&amp; perfecta oblatio tam in se, quam ex parte patris
+          grati<lb ed="#G" n="47" break="no"/>ficantis, &amp; gratificanter suscipientis huiusmodi
+          oblatio<lb ed="#G" n="48" break="no"/>nem, quod talis oblatio suffecisset pro poena debita
+          pec<lb ed="#G" n="49" break="no"/>catis non solum omnium, qui sunt, erunt, &amp; fuerunt, veri 
+          <lb ed="#G" n="50"/>etiam pro infinitis adhuc aliis hominibus, si fierent. E 
+          <lb ed="#G" n="51"/>hoc satis innuitur 1. Toan. 2. vbi dicitur. Ipse propiciatio 
+          <lb ed="#G" n="52"/>est pro peccatis nostris, non pro nostris autem tantum, sed 
+          <lb ed="#G" n="53"/>etiam pro totius mundi
+        </p>
+        <p xml:id="HuYgTa-185329-d1e615">
+          <lb ed="#G" n="54"/>2 Ista est intentio Clos. super illo verbo Sach. Tu
+          quo<lb ed="#G" n="55" break="no"/>que in sanguine testamenti tui eduxisti vinctos de lacu; in 
+          <lb ed="#G" n="56"/>quo non erat aqua
+        </p>
+        <p xml:id="HuYgTa-185329-d1e625">
+          <lb ed="#G" n="57"/>3 Item, Oseae 13. dicitur in persona Christi. Ero mors 
+          <lb ed="#G" n="58"/>tua o mors, &amp; morsus tuus ero inferne 
+        </p>
+        <p xml:id="HuYgTa-185329-d1e632">
+          <lb ed="#G" n="59"/>
+          <pc type="indent"/>Item Augustinus ait. Christus sua simplici morte 
+          <lb ed="#G" n="60"/>destruxit nostram duplam mortem. Quod verbum
+          Augi<lb ed="#G" n="61" break="no"/>stini intelligendum est efficaciter quo ad aeternam mon 
+          <lb ed="#G" n="62"/>tem eorum, qui fide formata credunt in Christum, u 
+          <lb ed="#G" n="63"/>exemplariter quo ad temporalem mortem: quia in sua 
+          <lb ed="#G" n="64"/>sanctissima resurrectione dedit nobis exemplum, &amp; certam 
+          <lb ed="#G" n="65"/>spem futurae nostrae resurrectionis, &amp; immortalitatis. 
+        </p>
+        <p xml:id="HuYgTa-185329-d1e652">
+          <lb ed="#G" n="66"/>
+          <pc type="indent"/>Sed contra istam conclusionem potest instari
+          sic<lb ed="#G" n="67" break="no"/>1 Nullo finito destruitur sufficienter illud, quod es 
+          <lb ed="#G" n="68"/>infinitum, sed passio Christi erat quid finitum, poena aeter 
+          <lb ed="#G" n="69"/>na quid infinitum: ergo &amp;c 
+        </p>
+        <p xml:id="HuYgTa-185329-d1e665">
+          <lb ed="#G" n="70"/>
+          <pc type="indent"/>2 Praeterea, melior est vita, qua viuitur in vita aeterna, 
+          <!--537.xml-->
+          <cb ed="#G" n="b"/>
+          <lb ed="#G" n="71"/>&amp; beatifica, quam qua viultur in hoc mundo vita tempo 
+          <lb ed="#G" n="72"/>rali: sed non sufficienter satisfit, quando minus bonum da 
+          <lb ed="#G" n="73"/>tur per perditionem maioris boni, &amp; per consequens datio 
+          <lb ed="#G" n="74"/>temporalis vitae Christi non sufficit in emendam pro
+          amis<lb ed="#G" n="75" break="no"/>sione beatae, &amp; aeternae vitae. 3 Praeterea, illud, quod fi- 
+          <lb ed="#G" n="76"/>niri non potest, non potest destrui: sed poena aeterna finiri 
+          <lb ed="#G" n="77"/>non potest, cum aeternui non possit capere finem. Maior 
+          <lb ed="#G" n="78"/>etiam patet: quia omne, quod destruitur, finitur: ergo per 
+          <lb ed="#G" n="79"/>oppositum, quod non potest finiri, non potest destrui. 
+        </p>
+        <p xml:id="HuYgTa-185329-d1e696">
+          <lb ed="#G" n="80"/>
+          <pc type="indent"/>Respondeo, ad primum quod minor deficit dupliciter: Pri 
+          <lb ed="#G" n="81"/>mo: quia poena inferni non est infinita in vigore, sed soli 
+          <lb ed="#G" n="82"/>in quadam suceessione, seu duratione: &amp; tate infinitum
+          po<lb ed="#G" n="83" break="no"/>test intercipi etiam a finita virtute. Secundo: quia passio 
+          <lb ed="#G" n="84"/>Christi quamuis in se fuerit finita: tamen ex parte perso. 
+          <lb ed="#G" n="85"/>nae illius, qui patiebatur, potuit dici infinita, co quod
+          ta<lb ed="#G" n="86" break="no"/>lis persona fuit infinita. Etiam ratione acceptationis, qua 
+          <lb ed="#G" n="87"/>Deus pater acceptauit huiusmodi pastionem, ipsa passio 
+          <lb ed="#G" n="88"/>potest dici aliquo modo infinitae virtutis: quia Deus ipsam 
+          <lb ed="#G" n="89"/>acceptauit pro infinitis offensionibus, si essent, vel fuissent 
+          <lb ed="#G" n="90"/>iufinitae. Ad secundum patet per idem. Ad tertium
+          di<lb ed="#G" n="91" break="no"/>cendum, quod argumentum bene procedit, de eo, quod est sim 
+          <lb ed="#G" n="92"/>pliciter, &amp; actu infinitum, non autem de com, quod est poten 
+          <lb ed="#G" n="93"/>tia, &amp; secundum quid solum infinitum. Vnde quamuis
+          poe<lb ed="#G" n="94" break="no"/>na inferni sit infinita per comparationem ad potentiam acti 
+          <lb ed="#G" n="95"/>uam cuiuscumque puri hominis, eo quoe nullus purus homo 
+          <lb ed="#G" n="96"/>habuit in se potentiam actiuam, qua se ab huiusmodi poe 
+          <lb ed="#G" n="97"/>na posset liberare, non est tamen infinita per comparatio 
+          <lb ed="#G" n="98"/>nem ad potentiam passiuam etiam puri hominis: quia 
+          <lb ed="#G" n="99"/>qui liberantur a tali poena, habent in se potentiam, qua pos 
+          <lb ed="#G" n="100"/>lunt liberari, quamuis non habeant in se potentiam,
+          qu<lb ed="#G" n="101" break="no"/>se possint liberare. Secunda conclusio est, quod non
+          ob<lb ed="#G" n="102" break="no"/>stante sufficientia passionis Christi, qua omnes poterat li 
+          <lb ed="#G" n="103"/>perare, de facto tamen, &amp; efficaciter omnes homines non  
+          <lb ed="#G" n="104"/>sunt liberati: nam Christus tamquam caput omnium
+          sa<lb ed="#G" n="105" break="no"/>tisfecit pro omnibus hominibus, tamquam pro suis mem 
+          <lb ed="#G" n="106"/>bris. quicumque igitur in sua pertinacia perdurantes, no 
+          <lb ed="#G" n="107"/>lunt esse membra Christi, talibus non prodest passio Chri 
+          <lb ed="#G" n="108"/>sti. Sicut enim influentia a capite descendens, non pro¬¬ 
+          <lb ed="#G" n="109"/>dest membro preciso a toto sub illo capite existente: sic 
+          <lb ed="#G" n="110"/>virtus passionis Christi non liberat eos, qui per veram fidem 
+          <lb ed="#G" n="111"/>non compulantur Christo: nec etiam de facto tollit ab ho 
+          <lb ed="#G" n="112"/>minibus omnem poenam temporalem: quia saepius dimit 
+          <lb ed="#G" n="113"/>tit malos esse in multis tribulationibus, &amp; afflictionibus 
+          <lb ed="#G" n="114"/>propter malitiam eorum, Et similiter bonos propter aus 
+          <lb ed="#G" n="115"/>mentum in praesenti virtutum, &amp; meritorum, &amp; in
+          futu<lb ed="#G" n="116" break="no"/>ro praemiorum. 
+        </p>
+        <p xml:id="HuYgTa-185329-d1e781">
+          <lb ed="#G" n="117"/>
+          <pc type="indent"/>ARTICVLVS III 
+          <lb ed="#G" n="118"/>Vtrum modus nostra liberationis, quam  
+          <lb ed="#G" n="119"/>
+          <pc type="indent"/>per passionem cbrissi, fuerit 
+          <lb ed="#G" n="120"/>
+          <pc type="indent"/>conueniens
+        </p>
+        <p xml:id="HuYgTa-185329-d1e800">
+          <lb ed="#G" n="121"/>VANTVM ad tertium articulum, &amp; quartum
+          si<lb ed="#G" n="122" break="no"/>
+          <pc type="indent"/>mul respondet <ref xml:id="HuYgTa-185329-Rd1e808">Aug. 13. de trin.</ref> quod alius
+          mo<lb ed="#G" n="123" break="no"/>dus Deo fuit possibilis; nullus tamen fuit ita congruus 
+          <lb ed="#G" n="124"/>
+          <quote xml:id="HuYgTa-185329-Qd1e816" source="http://scta.info/resource/adt-l13-d1e1457" synch="79-81">sanandae nostrae miseriae</quote>, quam per Christi passionen 
+        </p>
+        <p xml:id="HuYgTa-185329-d1e820">
+          <lb ed="#G" n="125"/>
+          <pc type="indent"/>Nam secundum eundem Aug. homo debuit satisfaci 
+          <lb ed="#G" n="126"/>re, &amp; non potuit: Deus potuit, sed non debuit. Tum igitu 
+          <lb ed="#G" n="127"/>congruum sit, vt ille satisfaciat, qui potest, &amp; tenetur: igi 
+          <lb ed="#G" n="128"/>tur congruum erat, vt Christus Deus, &amp; homo satisface 
+          <lb ed="#G" n="129"/>ret, qui, vt homo erat, satisfacere deberet, &amp;, vt Deus,
+          sa<lb ed="#G" n="130" break="no"/>tissacere posset
+        </p>
+        <p xml:id="HuYgTa-185329-d1e838">
+          <lb ed="#G" n="131"/>2 Praeterea congruum erat, vt satissactio pro omnibus 
+          <lb ed="#G" n="132"/>humanae naturae defectibus fieret per talem poenam, quae 
+          <lb ed="#G" n="133"/>oninem aliam poenam virtualiter contineret: talis autem 
+          <lb ed="#G" n="134"/>est poena mortis: quia omnium terribilium finis est mors 
+          <lb ed="#G" n="135"/>vt dicitur <ref xml:id="HuYgTa-185329-Rd1e851">3 ethicorum</ref> 
+        </p>
+        <p xml:id="HuYgTa-185329-d1e855">
+          <lb ed="#G" n="136"/>
+          <pc type="indent"/>Forte dicetur, quod minus peccatum non congrue, 
+          <lb ed="#G" n="137"/>siue conuenienter expiatur per maius peccatum: sed Adi 
+          <lb ed="#G" n="138"/>inobedientia fuit minus peccatum, quam Christi
+          violen<lb ed="#G" n="139" break="no"/>tia, seu occisio violenta.
+        </p>
+        <p xml:id="HuYgTa-185329-d1e868">
+          <!--538.xml-->
+          <pb ed="#G" n="P2_34-r"/>
+          <cb ed="#G" n="a"/>
+          <lb ed="#G" n="1"/>Respondeo, quod occisio Christi ex parte occidentium 
+          <lb ed="#G" n="2"/>non erat satisfactoria, sed erat maximum peccatum: sed  
+          <lb ed="#G" n="3"/>ex parte occisi, puta, occisio passio fuit maxime
+          satisfacto<lb ed="#G" n="4" break="no"/>ria: quia erat maximae virtutis.
+        </p>
+        <p xml:id="HuYgTa-185329-d1e886">
+          <lb ed="#G" n="5"/>3 Praeterea, ille modus nostrae liberationis est
+          conue<lb ed="#G" n="6" break="no"/>nientior, quo homo magis afficitur ad Dei dilectionem, 
+          <lb ed="#G" n="7"/>magis inducitur ad virtutum perfectionem, &amp; cautior 
+          <lb ed="#G" n="8"/>redditur contra omnem malitiae tentationem: sed isto 
+          <lb ed="#G" n="9"/>modus est huiusmodi. Vnde primam partem istius
+          mino<lb ed="#G" n="10" break="no"/>ris tangit Apostolus dicens Commendat suam caritaten 
+          <lb ed="#G" n="11"/>Deus in nobis: quoniam cum inimici essemus, Christus 
+          <lb ed="#G" n="12"/>pro nobis mortuus est. Et iterum. Sic Deus dilexit
+          mun<lb ed="#G" n="13" break="no"/>dum, vt vnigenitum suum daret. Secundam partem
+          tan<lb ed="#G" n="14" break="no"/>git beatus Petr. prima sua canonica dicens. Christus pro 
+          <lb ed="#G" n="15"/>nobis passus est, vobis relinquens exemplum, vt sequa 
+          <lb ed="#G" n="16"/>mini vestigia eius. Tertia pars istius minoris tangitur. <ref xml:id="HuYgTa-185329-Rd1e914">I. 
+            <lb ed="#G" n="17"/>ad Cor. 8.</ref> vbi dicitur. <quote xml:id="HuYgTa-185329-Qd1e919" source="http://scta.info/resource/Icor6_20" synch="1-5">Empti enim estis pretio magno</quote>, glo 
+          <lb ed="#G" n="18"/>rificate, &amp; portate Deum in corpore vestro qu. d. Apo 
+          <lb ed="#G" n="19"/>stolus. Corpus vestrum amplius non debet esse
+          subie<lb ed="#G" n="20" break="no"/>ctum peccato : quia redempti estis pretioso thesta
+          Do<lb ed="#G" n="21" break="no"/>nostro Tesu Christo. 
+        </p>
+        <p xml:id="HuYgTa-185329-d1e933">
+          <lb ed="#G" n="22"/>
+          <pc type="indent"/>ARTICVLVS IIII 
+          <lb ed="#G" n="23"/>Vtrum alter modus nostrae liberationis, quam por 
+          <lb ed="#G" n="24"/>
+          <pc type="indent"/>passionem cbristi, fuerit possibilis.
+        </p>
+        <p xml:id="HuYgTa-185329-d1e946">
+          <lb ed="#G" n="25"/>VANTVM ad quartum articulum ponam duas 
+          <lb ed="#G" n="26"/> conclusiones. Prima est, quod referendo Iy
+          pos<lb ed="#G" n="27" break="no"/>sibile ad nostram humanam potentiam, tunc nullus fuit 
+          <lb ed="#G" n="28"/>alius modus possibilis nostrae liberationis.
+        </p>
+        <p xml:id="HuYgTa-185329-d1e957">
+          <lb ed="#G" n="29"/>1 Quia quilibet purus homo pensatis suis viribus adet 
+          <lb ed="#G" n="30"/>fuit reus, quod ipse sufficere non poterat ad sui ipsius libs 
+          <lb ed="#G" n="31"/>rationem, quanto magis non sufficit pro liberatione
+          co<lb ed="#G" n="32" break="no"/>terorum, cui enim sua merita non sufficiunt ad
+          satisfa<lb ed="#G" n="33" break="no"/>ciendum pro peccatis propriis, planum est, quod non
+          va<lb ed="#G" n="34" break="no"/>let satisfacere pro alienis 
+        </p>
+        <p xml:id="HuYgTa-185329-d1e973">
+          <lb ed="#G" n="35"/>
+          <pc type="indent"/>2 Praeterea, talis debuit esse liberator humani generis,  
+          <lb ed="#G" n="36"/>qui suis meritis posset aeternam beatitudinem, quam
+          ho<lb ed="#G" n="37" break="no"/>mo per peccatum perdiderat, recuperare: sed talem
+          recu<lb ed="#G" n="38" break="no"/>perationem fieri a quocuque puro homine erat impossibile¬ 
+        </p>
+        <p xml:id="HuYgTa-185329-d1e986">
+          <lb ed="#G" n="39"/>
+          <pc type="indent"/>Sed contra illud videtur esse opinio cuiusdam
+          moder<lb ed="#G" n="40" break="no"/>ni doctoris, qui ait, quod licet de condigno nullus purus 
+          <lb ed="#G" n="41"/>homo potuit satisfacere pro peccato totius humani
+          ge<lb ed="#G" n="42" break="no"/>neris, tamen de congruo etiam purus homo potuit
+          satis<lb ed="#G" n="43" break="no"/>facere, si Deus satisfactionem fieri per mortem Christi non 
+          <lb ed="#G" n="44"/>praeordinasset. Hanc conclusionem ipse probat dupliciter
+        </p>
+        <p xml:id="HuYgTa-185329-d1e1004">
+          <lb ed="#G" n="45"/>1 Primo sic. Quando duo actus ita se habent, quod boni 
+          <lb ed="#G" n="46"/>tas vnius aequatur malitiae alterius, tuc bonus potest esse  
+          <lb ed="#G" n="47"/>satisfactorius pro malo saltem de congruo: sed possibile 
+          <lb ed="#G" n="48"/>est actum puri hominis aequari in bonitate malitiae
+          pecc<lb ed="#G" n="49" break="no"/>ti Adae: ergo de congruo actus puri hominis tantum po 
+          <lb ed="#G" n="50"/>tuit esse satisfactorius, quantum actus Adae fuit demerito 
+          <lb ed="#G" n="51"/>rius pro persona, &amp; natura 
+        </p>
+        <p xml:id="HuYgTa-185329-d1e1023">
+          <lb ed="#G" n="52"/>
+          <pc type="indent"/>2 Praeterea, culpa Adae redundauit in totam naturam, 
+          <lb ed="#G" n="53"/>quantum ad condemnationem: ergo eius poenitentia po 
+          <lb ed="#G" n="54"/>tuit de congruo redundare in totam naturam quantum 
+          <lb ed="#G" n="55"/>ad satisfactionem, &amp; reparationem. Probat ipse consequen 
+          <lb ed="#G" n="56"/>tiam: quia culpa Adae pro tanto redundauit in totam na 
+          <lb ed="#G" n="57"/>turam: quia, dum peccauit, in ipso erat virtualiter tota na 
+          <lb ed="#G" n="58"/>tura: cum igitur eodem modo in ipso fuerit tota natura, 
+          <lb ed="#G" n="59"/>quando poenituit satisfaciendo pro se, pro tota humana 
+          <lb ed="#G" n="60"/>natura satis facere potuit 
+        </p>
+        <p xml:id="HuYgTa-185329-d1e1047">
+          <lb ed="#G" n="61"/>
+          <pc type="indent"/>3 Praeterea, ad hoc idem arguitur sic. Sicut se habet 
+          <lb ed="#G" n="62"/>gratiarum actio respectu beneficiorum, sic se habet satis. 
+          <lb ed="#G" n="63"/>factio respectu peccatorum: sed pro beneficiis sufficit
+          gra<lb ed="#G" n="64" break="no"/>tiarum actio quantum homo potest reddere, etiam dato 
+          <lb ed="#G" n="65"/>quod non sit aequiualens beneficiis, vt patet <ref xml:id="HuYgTa-185329-Rd1e1062">8. ethicorum</ref>; 
+          <lb ed="#G" n="66"/>ergo pro peccatis &amp;c
+        </p>
+        <p xml:id="HuYgTa-185329-d1e1068">
+          <lb ed="#G" n="67"/>4 Praeterea, validius est bonum ad reparandum, quam 
+          <lb ed="#G" n="68"/>malum ad destruendum: sed vnus homo per vnum actum 
+          <lb ed="#G" n="69"/>malum potuit totam naturam corrumpere: ergo vnus 
+          <!--538.xml-->
+          <cb ed="#G" n="b"/>
+          <lb ed="#G" n="70"/>homo per actus suos virtuosos, &amp; bonos potuit totam na 
+          <lb ed="#G" n="71"/>
+          <pc type="indent"/>turam reparare.
+        </p>
+        <p xml:id="HuYgTa-185329-d1e1088">
+          <lb ed="#G" n="72"/>s Praeterea, crudelis est creditor, qui plus exigit a
+          debi<lb ed="#G" n="73" break="no"/>tore, quam possit: cum igitur Deus non sit crudelis: ergo 
+          <lb ed="#G" n="74"/>ad emendam humani peccati sufficit illud, quod potest fa 
+          <lb ed="#G" n="75"/>tere homo. Sed praedicta posito non potest stare. 1 Quia 
+          <lb ed="#G" n="76"/>quidquid homo potest de congruo, hoc immediate a Dec 
+          <lb ed="#G" n="77"/>consequitur, dummodo faciat totum, quod in se est: sec 
+          <lb ed="#G" n="78"/>quantumcumque Adam, vel quicumque alius purus
+          ho<lb ed="#G" n="79" break="no"/>mo fecisset totum, quod in se luit, seu totum, quod potuis 
+          <lb ed="#G" n="80"/>set: propter hoc tamen genus humanum liberatum non 
+          <lb ed="#G" n="81"/>fuisset: ergo nullus purus homo potuit de congruo
+          satis<lb ed="#G" n="82" break="no"/>facere pro toto humano genere.
+        </p>
+        <p xml:id="HuYgTa-185329-d1e1114">
+          <lb ed="#G" n="83"/>2 Praeterea, ille, qui de congruo offensum Dominum 
+          <lb ed="#G" n="84"/>debet placare, non debet esse de numero offendentium, 
+          <lb ed="#G" n="85"/>alias se intromittens de placatione, iratum Dominum non 
+          <lb ed="#G" n="86"/>placaret: sed potius irritaret: sed quilibet purus homo 
+          <lb ed="#G" n="87"/>quantum in se fuit, erat de numero offendentium : ergo 
+          <lb ed="#G" n="88"/>ullus purus homo congruus placator esse potuit.
+        </p>
+        <p xml:id="HuYgTa-185329-d1e1130">
+          <lb ed="#G" n="89"/>Ad primum dicendum, quod posito, quod <name xml:id="HuYgTa-185329-Nd1e1134">Adam</name> de 
+          <lb ed="#G" n="90"/>congruo potuerit elicere actum bonitate intensiua aequi 
+          <lb ed="#G" n="91"/>pollentem malitiae peccati sui, nullum tamen potuit
+          eli<lb ed="#G" n="92" break="no"/>cere actum aequiualentem bonitate extensiua malitiae sui 
+          <lb ed="#G" n="93"/>peccati: quia per malitiam perdidit originalem iustitiam,  
+          <lb ed="#G" n="94"/>quam in suos posteros originaliter transfudisset, si ipsam 
+          <lb ed="#G" n="95"/>non perdidisset, sed per nullam bonitatem cuiuscumque 
+          <lb ed="#G" n="96"/>sui actus potuit acquirere gratiam, seu virtutem, :quam 
+          <lb ed="#G" n="97"/>trasfunderet in suos posteros loco originalis iustitiae, quam 
+          <lb ed="#G" n="98"/>pro se, &amp; pro ipsis perdidit vniuersaliter: quia nullus
+          pu<lb ed="#G" n="99" break="no"/>rus homo gratiam in alterum potest transfundere, quam  
+          <lb ed="#G" n="100"/>uis Christus hoc potuerit: quia Deus, &amp; homo fuit. 
+        </p>
+        <p xml:id="HuYgTa-185329-d1e1163">
+          <lb ed="#G" n="101"/>
+          <pc type="indent"/>Et per idem patet ad secundum argumentum. 
+          <lb ed="#G" n="102"/>Ad tertium dicendum, quod non est simile de gratia 
+          <lb ed="#G" n="103"/>rum actione, &amp; satisfactione: quia qui gratias agit, non
+          ab<lb ed="#G" n="104" break="no"/>soluitur quin ad vlteriores gratiarum actiones, cum sibi 
+          <lb ed="#G" n="105"/>possibilitas affuerit, teneatur: &amp; ideo et non equiualens 
+          <lb ed="#G" n="106"/>ab agete gratias debet acceptari: sed qui satisfacit, satisfa 
+          <lb ed="#G" n="107"/>ctione absoluitur, nec ad aliquid vltra tenetur: ideo &amp;c 
+        </p>
+        <p xml:id="HuYgTa-185329-d1e1183">
+          <lb ed="#G" n="108"/>
+          <pc type="indent"/>Ad quartum nego maiorem: quia in naturalibus, &amp;  
+          <lb ed="#G" n="109"/>moralibus potest malitia vnius destruere. quod bonitas 
+          <lb ed="#G" n="110"/>multorum non potest reparare. Vnde solet dici in
+          pro<lb ed="#G" n="111" break="no"/>perbio, quod vnus stultus lapidem talem proiicere posset 
+          <lb ed="#G" n="112"/>in puteum, quem decem sapientes extrahere non possent 
+        </p>
+        <p xml:id="HuYgTa-185329-d1e1199">
+          <lb ed="#G" n="113"/>
+          <pc type="indent"/>Ad quinctum dicendum, quod ille creditor non ess 
+          <lb ed="#G" n="114"/>existimandus crudelis, qui cooperatur debitori in eo, quod 
+          <lb ed="#G" n="115"/>exigit ab eo, vt possit satisfacere. Et sic est in proposito: 
+          <lb ed="#G" n="116"/>uia vt homo satisfacere posset. Misit Deus filium suum 
+          <lb ed="#G" n="117"/>natum ex muliere, factum sub lege (secundum quod ait 
+          <lb ed="#G" n="118"/>Apostolus, ) vt eos, qui sub lege erant, redimeret, &amp; pro 
+          <lb ed="#G" n="119"/>teteris hominibus satisfaceret
+        </p>
+        <p xml:id="HuYgTa-185329-d1e1219">
+          <lb ed="#G" n="120"/>Secunda conclusio est, quod referendo Iy possibile ad  
+          <lb ed="#G" n="121"/>Dei absolutam potentiam, tunc alter modus fuit
+          possi<lb ed="#G" n="122" break="no"/>bilis nostrae liberationis, seu redemptionis, quae ad
+          prae<lb ed="#G" n="123" break="no"/>sens accipio pro eodem
+        </p>
+        <p xml:id="HuYgTa-185329-d1e1230">
+          <lb ed="#G" n="124"/>1 Quia illud facit pro alicuius redemptione, quod
+          bo<lb ed="#G" n="125" break="no"/>nitas illius acceptat, cuius imperio detinetur: sed Deus 
+          <lb ed="#G" n="126"/>cuius imperio homo peccator detinebatur a diabolo,
+          po<lb ed="#G" n="127" break="no"/>tuit acceptare pro offensa illata per hominem opus
+          quam<lb ed="#G" n="128" break="no"/>tumlibet modicum cuiuscumque creaturae: ergo &amp;c. Et 
+          <lb ed="#G" n="129"/>sic intelligenda sunt verba bern cum ait, quod vnica gutta 
+          <lb ed="#G" n="130"/>sanguinis Christi sufficere potuit pro liberatione totius 
+          <lb ed="#G" n="131"/>humani generis.
+        </p>
+        <p xml:id="HuYgTa-185329-d1e1250">
+          <lb ed="#G" n="132"/>2 Praeterea, potentia infinita non limitatur in actione 
+          <lb ed="#G" n="133"/>sua ad aliquem vnum modum finitum: sed Dei potentia 
+          <lb ed="#G" n="134"/>est infinita, modus autem, quo liberati sumus per Christi 
+          <lb ed="#G" n="135"/>assionem, est modus finitus: ergo &amp;c
+        </p>
+        <p xml:id="HuYgTa-185329-d1e1262">
+          <lb ed="#G" n="136"/>3 Praeterea, est intentio sanctorum: quia dicit <ref xml:id="HuYgTa-185329-Rd1e1266">Creg 
+            <lb ed="#G" n="137"/>Papa 2o, moralium</ref>, Deus omnipotens, qui nos existere 
+          <lb ed="#G" n="138"/>fecit de nihilo, reuocare nos etiam sine sua morte potuis 
+          <lb ed="#G" n="139"/>set. Et <name xml:id="HuYgTa-185329-Nd1e1275">Leo Papa</name> ait, Omnipotentia Dei filij liberare
+          po<lb ed="#G" n="140" break="no"/>tuisset genus humanum a diaboli dominio solo imperio 
+          <lb ed="#G" n="141"/>voluntatis aeternae. Sed contra illud sonare videntur quae 
+          <lb ed="#G" n="142"/>dam auctoritates.
+        </p>
+        <p xml:id="HuYgTa-185329-d1e1286">
+          Nam beatus <name xml:id="HuYgTa-185329-Nd1e1288" ref="#Ambrose">Ambrosius</name> ait. 
+          <!--539.xml-->
+          <pb ed="#G" n="P2_34-v"/>
+          <cb ed="#G" n="a"/>
+          <lb ed="#G" n="1"/>1 qantum fuit peccatum nostrum, vt saluari non posse 
+          <lb ed="#G" n="2"/>mus, nisi Christus prnobis moreretur debitoribus mortis
+        </p>
+        <p xml:id="HuYgTa-185329-d1e1303">
+          <lb ed="#G" n="3"/>2 Et <ref xml:id="HuYgTa-185329-Rd1e1307">Ans. lib cur Deus homo</ref> ait, non potuit transire 
+          <lb ed="#G" n="4"/>calix, nisi biberet illum, non quia non posset vitare mor 
+          <lb ed="#G" n="5"/>tem, si vellet: sed quia impossibile erat aliter saluari mum 
+          <lb ed="#G" n="6"/>dum
+        </p>
+        <p xml:id="HuYgTa-185329-d1e1317">
+          <lb ed="#G" n="7"/>3 Praeterea, quod est contra Dei iustitiam hoc impossi 
+          <lb ed="#G" n="8"/>bile est, quia Deus iniustus esse non potest: sed contra Dei 
+          <lb ed="#G" n="9"/>iustitiam est, quod pro Dei offensa non satisfit legitime 
+          <lb ed="#G" n="10"/>nec legitime satisfieri potuit nisi eo modo, quo factum e 
+          <lb ed="#G" n="11"/>ergo auter modus videtur fuisse impossibilis. 
+        </p>
+        <p xml:id="HuYgTa-185329-d1e1330">
+          <lb ed="#G" n="12"/>
+          <pc type="indent"/>4 Praeterea, quod a Deo praeordinatum est, &amp; a pro 
+          <lb ed="#G" n="13"/>phetis praedictum est, qui mentiri non possunt, hoc
+          impo<lb ed="#G" n="14" break="no"/>sibile est aliter se habere: sed liberatio humani generis 
+          <lb ed="#G" n="15"/>per passionem Christi ab aeterno a Deo fuit praeuisa, &amp; in 
+          <lb ed="#G" n="16"/>testamento per prophetas praedicta: ergo &amp;c. 
+        </p>
+        <p xml:id="HuYgTa-185329-d1e1346">
+          <lb ed="#G" n="17"/>
+          <pc type="indent"/>RESPONDEO ad primum, &amp; ad secundum, quod illi docto 
+          <lb ed="#G" n="18"/>res excludunt alium modum ex parte nostrae potentiae
+          a<lb ed="#G" n="19" break="no"/>ctiuae, non ex parte diuinae potentiae. 
+        </p>
+        <p xml:id="HuYgTa-185329-d1e1358">
+          <lb ed="#G" n="20"/>
+          <pc type="indent"/>Posset etiam dici: quia ibi loquuntur de potentia Dei 
+          <lb ed="#G" n="21"/>ordinata, qua Deus solum dicitur illud posse quod ab
+          ae<lb ed="#G" n="22" break="no"/>terno se facturum disposuit. 
+        </p>
+        <p xml:id="HuYgTa-185329-d1e1369">
+          <lb ed="#G" n="23"/>
+          <pc type="indent"/>Ad tertium dicendum, quod illud quod secundum nostra 
+          <lb ed="#G" n="24"/>rationis iudicium pro nunc esset iniustum, secundum
+          abso<lb ed="#G" n="25" break="no"/>lutam Dei potentiam, &amp; secundum alium ordinem, qui a 
+          <lb ed="#G" n="26"/>Deo posset institui, quem nos ignoramus, esset iustum. Vn 
+          <lb ed="#G" n="27"/>de quauis Petrum damnare, &amp; ludam saluare esset
+          iniu<lb ed="#G" n="28" break="no"/>stum: secundum ordinem quem nos videmus (tamen Deus 
+          <lb ed="#G" n="29"/>secundum absolutam suam potentiam hoc posset facere si
+          vel<lb ed="#G" n="30" break="no"/>let, qa talem ordinem institueret, quo illud non esset iniustum; 
+          <lb ed="#G" n="31"/>sic in proposito &amp;c. 
+        </p>
+        <p xml:id="HuYgTa-185329-d1e1393">
+          <lb ed="#G" n="32"/>
+          <pc type="indent"/>Ad quartum dicitur, quod argumentum procedit de
+          po<lb ed="#G" n="33" break="no"/>tentia Dei ordinata, sed non de absoluta 
+        </p>
+        <p xml:id="HuYgTa-185329-d1e1402">
+          <lb ed="#G" n="34"/>
+          <pc type="indent"/>Ex praedictis etiam patet per modum corrolarium, quod non e vo 
+          <lb ed="#G" n="35"/>tum illud, quod asserunt qudam doctores dicentes, quod redeptio fi 
+          <lb ed="#G" n="36"/>iusto pretio soluto, liberatio autem fit quibuscunque modis: 
+          <lb ed="#G" n="37"/>ideo non potuit genus humanu aliter redimi, quam per
+          incarn<lb ed="#G" n="38" break="no"/>tionem alicuius diuinae psonae qua aliter non potuit reddi iu 
+          <lb ed="#G" n="39"/>stu ptium prredeptione numam generis: poterat tamen (vt 
+          <lb ed="#G" n="40"/>dicunt) secundum absolutam Dei potentiam aliter liberari 
+        </p>
+        <p xml:id="HuYgTa-185329-d1e1422">
+          <lb ed="#G" n="41"/>
+          <pc type="indent"/>1 Quia (vt iam dixi) illud quoed non est iustum, secudum
+          ordi<lb ed="#G" n="42" break="no"/>nem quem videmus, posset esse iuitum secudum ordinem, que Deus 
+          <lb ed="#G" n="43"/>secundum absolutam suam potentiam posset instituere, sicut 
+          <lb ed="#G" n="44"/>patuit etiam in exemplo de luda, &amp; de Petro.
+        </p>
+        <p xml:id="HuYgTa-185329-d1e1435">
+          <lb ed="#G" n="45"/>2 Item captiuus iuste redimitur, cum tanta fit
+          satisfa<lb ed="#G" n="46" break="no"/>ctio, quantam acceptat hic, cui debetur satisfactio, set 
+          <lb ed="#G" n="47"/>vt superius dixi) Deus cui debetur pro peccato human 
+          <lb ed="#G" n="48"/>generis satisfactio, potest de absoluta sua potentia, &amp; de di- 
+          <lb ed="#G" n="49"/>uina sua benenolentia de minimo opere hominis conten 
+          <lb ed="#G" n="50"/>tari: ergo &amp;c
+        </p>
+        <p xml:id="HuYgTa-185329-d1e1452">
+          <lb ed="#G" n="51"/>AD argumentum principale dicendum, quod ad effi 
+          <lb ed="#G" n="52"/>caciam alicuius effectus duo requiruntur, scilicet virtus 
+          <lb ed="#G" n="53"/>sufficiens ex parte agentis, &amp; disposirio debita ex parte pro 
+          <lb ed="#G" n="54"/>tientis, quorum quocunque deficiente, vt plurimum im 
+          <lb ed="#G" n="55"/>peditur effectus. Sed nunc est ita, quod quamuis
+          vir<lb ed="#G" n="56" break="no"/>tus Christi sit sufficiens ad saluandum omnes homines,  
+          <lb ed="#G" n="57"/>tamen sunt aliqui, qui vel deficiunt in fide, qua
+          disponi<lb ed="#G" n="58" break="no"/>tur humanus intellectus ad hoc, quod percipiat benefi 
+          <lb ed="#G" n="59"/>cia redemptionis: vel deficiunt in caritate, qua
+          disponi<lb ed="#G" n="60" break="no"/>tur humanus affectus, nec curant facere, quod in se est, vt 
+          <lb ed="#G" n="61"/>huiusmodi dispositiones consequantur: ideo iuste danantur. 
+        </p>
+        <p xml:id="HuYgTa-185329-d1e1478">
+          <lb ed="#G" n="62"/>
+          <pc type="indent"/>Et per idem patet ad rationem in contrarium, puta, 
+          <lb ed="#G" n="63"/>quare vnus redimitur, &amp; non alter, 
+        </p>
+      </div>
+    </body>
+  </text>
 </TEI>

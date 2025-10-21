@@ -1,106 +1,106 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Circa textum</title>
-            <author ref="#ThomasStrasbourg">Thomas of Strasbourg</author>
-            <respStmt>
-               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
-               <resp>Transcription Editor</resp>
-               <resp>TEI Encoder</resp>
-            </respStmt>
-         </titleStmt>
-         <editionStmt>
-            <edition n="0.0.0-dev">
-               <title>Circa textum</title>
-               <date when="2020-11-26">November 26, 2020</date>
-            </edition>
-         </editionStmt>
-         <publicationStmt>
-            <authority>SCTA</authority>
-            <availability status="free">
-               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
-               </p>
-            </availability>
-         </publicationStmt>
-         <sourceDesc>
-            <listWit>
-               <witness xml:id="G" n="cod-TxxxqU">Genoa 1585</witness>
-            </listWit>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
-         <editorialDecl>
-            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
-       guidelines for a diplomatic edition.</p>
-         </editorialDecl>
-      </encodingDesc>
-      <revisionDesc status="draft">
-         <listChange>
-            <change when="2020-11-26" status="draft" n="0.0.0">
-               <p>Created file for the first time.</p>
-            </change>
-         </listChange>
-      </revisionDesc>
-   </teiHeader>
-   <text xml:lang="la">
-      <front>
-         <div xml:id="starts-on">
-            <pb ed="#G" n="-r"/>
-            <cb ed="#G" n="a"/>
-         </div>
-      </front>
-      <body>
-         <div xml:id="HuYgTa-e76237"><!-- HuYgTa-l1d33ct1 -->
-            <head xml:id="HuYgTa-e76237-Hd1e108">Circa textum</head>
-            <p xml:id="HuYgTa-e76237-d1e111">
-               <lb ed="#G" n="85"/>
-               <pc type="indent"/>DISTINCTIO XXXIII. 
-      <lb ed="#G" n="86"/>Aperta, &amp; sacilis diuisio huius distinctionis, in 
-      <lb ed="#G" n="87"/>qua de multarum inter se se proprietatum 
-      <lb ed="#G" n="88"/>collatione determinatur. 
-    </p>
-            <p xml:id="HuYgTa-e76237-d1e124">
-               <lb ed="#G" n="89"/>
-               <pc type="indent"/>OSTSVPRADICTA &amp;c. Post 
-      <lb ed="#G" n="90"/>quam Magister a distinctione
-      se<lb ed="#G" n="91" break="no"/>cunda vsque huc tractauit de es- 
-      <lb ed="#G" n="92"/>sentia diuina, personis, ac
-      pprie<lb ed="#G" n="93" break="no"/>tatibus, hic insistit eorum
-      adinui<lb ed="#G" n="94" break="no"/>cem comparationibus, &amp;
-      diuidi<lb ed="#G" n="95" break="no"/>tur in duas partes: quia primo con 
-      <lb ed="#G" n="96"/>parat proprietates ad personas, &amp;  
-      <lb ed="#G" n="97"/>ad essentiam, inquirendo eorum ab inuicem different
-      am<lb ed="#G" n="98" break="no"/>becundo praecise comparat personas ad essentiam ibi, Prae 
-      <lb ed="#G" n="99"/>dictis est adiicendum. Prima in duas: nam primo hic
-      po<lb ed="#G" n="100" break="no"/>nitur veritatis determinatio. Secundo contraria
-      argu<lb ed="#G" n="101" break="no"/>mentatio ibi, Hoc autem negant. Prima in duas: nam pri 
-      <lb ed="#G" n="102"/>mo Magister ostendit proprietatem personalem esse idem 
-      <lb ed="#G" n="103"/>realiter diuinae personae, secundo ostendit eandem
-      pro<lb ed="#G" n="104" break="no"/>prietatem esse idem re aliter diuinae essentiae ibi. Quod  
-      <lb ed="#G" n="105"/>enim proprietas, vequitur illa pars, Hoc autem negant, 
-      <lb ed="#G" n="106"/>&amp; diuiditur in duas partes; nam primo arguit
-      con<lb ed="#G" n="107" break="no"/>tra iam dictam veritatem ratione, secundo
-      auctori<lb ed="#G" n="108" break="no"/>tate ibi, Verumtamen nondum &amp;cetera. Prima in 
-      <lb ed="#G" n="109"/>duas nam primo arguit ex dictis quorundam doctorum 
-      <lb ed="#G" n="110"/>secundo ex dictis haereticorum ibi, Ceterum
-      haeretico<lb ed="#G" n="111" break="no"/>rum. Prima in duas; nam primo ponit Qilberti Porretam  
-      <lb ed="#G" n="112"/>arguitionem, secundo Magister interponit suam
-      respon<lb ed="#G" n="113" break="no"/>sionem ibi, Eorum doctrinis, Sequitur illa pars, Ceterum  
-      <lb ed="#G" n="114"/>haereticorum, &amp; diuiditur in tres partes; nam primo
-      Ma<lb ed="#G" n="115" break="no"/>ister in argumentis haereticorum asserit esse frauduler 
-      <lb ed="#G" n="116"/>tiam &amp; calliditatem, secundo respondet eorum argumen 
-      <lb ed="#G" n="117"/>tis inxta catholicam veritatem, Tertio ostendit ex respe 
-      <lb ed="#G" n="118"/>sione sua oriri quandam inattingibilem difficultatem. 
-      <lb ed="#G" n="119"/>Secunda ibi, Quorum audaciae, Tertia ibi, Sed forte
-      quae<lb ed="#G" n="120" break="no"/>res. Sequitur illa pars, Verumtamen noadum, &amp;diuiditur 
-      <lb ed="#G" n="121"/>in duas, secundum quod contra praedictam vcritatem
-      ar<lb ed="#G" n="122" break="no"/>guitur per duas auctoritates, Secunda ibi, Item illis
-      ver<lb ed="#G" n="123" break="no"/>bis, Quaelibet illarum diuiditur in duas, quia primo per 
-      <lb ed="#G" n="124"/>auctoritatem opponit, secundo soluit, &amp; partes patent.
-    </p>
-         </div>
-      </body>
-   </text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Circa textum</title>
+        <author ref="#ThomasStrasbourg">Thomas of Strasbourg</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Circa textum</title>
+          <date when="2020-11-26">November 26, 2020</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="G" n="cod-TxxxqU">Genoa 1585</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2020-11-26" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#G" n="100-r"/>
+        <cb ed="#G" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="HuYgTa-e76237"><!-- HuYgTa-l1d33ct1 -->
+        <head xml:id="HuYgTa-e76237-Hd1e108">Circa textum</head>
+        <p xml:id="HuYgTa-e76237-d1e111">
+          <lb ed="#G" n="85"/>
+          <pc type="indent"/>DISTINCTIO XXXIII. 
+          <lb ed="#G" n="86"/>Aperta, &amp; sacilis diuisio huius distinctionis, in 
+          <lb ed="#G" n="87"/>qua de multarum inter se se proprietatum 
+          <lb ed="#G" n="88"/>collatione determinatur. 
+        </p>
+        <p xml:id="HuYgTa-e76237-d1e124">
+          <lb ed="#G" n="89"/>
+          <pc type="indent"/>OSTSVPRADICTA &amp;c. Post 
+          <lb ed="#G" n="90"/>quam Magister a distinctione
+          se<lb ed="#G" n="91" break="no"/>cunda vsque huc tractauit de es- 
+          <lb ed="#G" n="92"/>sentia diuina, personis, ac
+          pprie<lb ed="#G" n="93" break="no"/>tatibus, hic insistit eorum
+          adinui<lb ed="#G" n="94" break="no"/>cem comparationibus, &amp;
+          diuidi<lb ed="#G" n="95" break="no"/>tur in duas partes: quia primo con 
+          <lb ed="#G" n="96"/>parat proprietates ad personas, &amp;  
+          <lb ed="#G" n="97"/>ad essentiam, inquirendo eorum ab inuicem different
+          am<lb ed="#G" n="98" break="no"/>becundo praecise comparat personas ad essentiam ibi, Prae 
+          <lb ed="#G" n="99"/>dictis est adiicendum. Prima in duas: nam primo hic
+          po<lb ed="#G" n="100" break="no"/>nitur veritatis determinatio. Secundo contraria
+          argu<lb ed="#G" n="101" break="no"/>mentatio ibi, Hoc autem negant. Prima in duas: nam pri 
+          <lb ed="#G" n="102"/>mo Magister ostendit proprietatem personalem esse idem 
+          <lb ed="#G" n="103"/>realiter diuinae personae, secundo ostendit eandem
+          pro<lb ed="#G" n="104" break="no"/>prietatem esse idem re aliter diuinae essentiae ibi. Quod  
+          <lb ed="#G" n="105"/>enim proprietas, vequitur illa pars, Hoc autem negant, 
+          <lb ed="#G" n="106"/>&amp; diuiditur in duas partes; nam primo arguit
+          con<lb ed="#G" n="107" break="no"/>tra iam dictam veritatem ratione, secundo
+          auctori<lb ed="#G" n="108" break="no"/>tate ibi, Verumtamen nondum &amp;cetera. Prima in 
+          <lb ed="#G" n="109"/>duas nam primo arguit ex dictis quorundam doctorum 
+          <lb ed="#G" n="110"/>secundo ex dictis haereticorum ibi, Ceterum
+          haeretico<lb ed="#G" n="111" break="no"/>rum. Prima in duas; nam primo ponit Qilberti Porretam  
+          <lb ed="#G" n="112"/>arguitionem, secundo Magister interponit suam
+          respon<lb ed="#G" n="113" break="no"/>sionem ibi, Eorum doctrinis, Sequitur illa pars, Ceterum  
+          <lb ed="#G" n="114"/>haereticorum, &amp; diuiditur in tres partes; nam primo
+          Ma<lb ed="#G" n="115" break="no"/>ister in argumentis haereticorum asserit esse frauduler 
+          <lb ed="#G" n="116"/>tiam &amp; calliditatem, secundo respondet eorum argumen 
+          <lb ed="#G" n="117"/>tis inxta catholicam veritatem, Tertio ostendit ex respe 
+          <lb ed="#G" n="118"/>sione sua oriri quandam inattingibilem difficultatem. 
+          <lb ed="#G" n="119"/>Secunda ibi, Quorum audaciae, Tertia ibi, Sed forte
+          quae<lb ed="#G" n="120" break="no"/>res. Sequitur illa pars, Verumtamen noadum, &amp;diuiditur 
+          <lb ed="#G" n="121"/>in duas, secundum quod contra praedictam vcritatem
+          ar<lb ed="#G" n="122" break="no"/>guitur per duas auctoritates, Secunda ibi, Item illis
+          ver<lb ed="#G" n="123" break="no"/>bis, Quaelibet illarum diuiditur in duas, quia primo per 
+          <lb ed="#G" n="124"/>auctoritatem opponit, secundo soluit, &amp; partes patent.
+        </p>
+      </div>
+    </body>
+  </text>
 </TEI>

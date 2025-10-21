@@ -1,105 +1,105 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Circa textum</title>
-            <author ref="#ThomasStrasbourg">Thomas of Strasbourg</author>
-            <respStmt>
-               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
-               <resp>Transcription Editor</resp>
-               <resp>TEI Encoder</resp>
-            </respStmt>
-         </titleStmt>
-         <editionStmt>
-            <edition n="0.0.0-dev">
-               <title>Circa textum</title>
-               <date when="2020-11-26">November 26, 2020</date>
-            </edition>
-         </editionStmt>
-         <publicationStmt>
-            <authority>SCTA</authority>
-            <availability status="free">
-               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
-               </p>
-            </availability>
-         </publicationStmt>
-         <sourceDesc>
-            <listWit>
-               <witness xml:id="G" n="cod-TxxxqU">Genoa 1585</witness>
-            </listWit>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
-         <editorialDecl>
-            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
-       guidelines for a diplomatic edition.</p>
-         </editorialDecl>
-      </encodingDesc>
-      <revisionDesc status="draft">
-         <listChange>
-            <change when="2020-11-26" status="draft" n="0.0.0">
-               <p>Created file for the first time.</p>
-            </change>
-         </listChange>
-      </revisionDesc>
-   </teiHeader>
-   <text xml:lang="la">
-      <front>
-         <div xml:id="starts-on">
-           <pb ed="#G" n="P2_186-r"/>
-            <cb ed="#G" n="a"/>
-         </div>
-      </front>
-      <body>
-         <div xml:id="HuYgTa-300214"><!-- HuYgTa-l4d46ct1 -->
-            <head xml:id="HuYgTa-300214-Hd1e108">Circa textum</head>
-            <p xml:id="HuYgTa-300214-d1e111">
-      <!--842.xml-->
-               <cb ed="#G" n="b"/>
-               <lb ed="#G" n="74"/>DISTINCTIO NLV. 
-      <lb ed="#G" n="75"/>Lucida huius distinctionis duusio, in qua de statim dam 
-      <lb ed="#G" n="76"/>natorum peculiariter agitur. 
-    </p>
-            <p xml:id="HuYgTa-300214-d1e124">
-               <lb ed="#G" n="77"/>
-               <pc type="indent"/>ED QVARITVR RIC. Postquam 
-      <lb ed="#G" n="78"/>Magister tractauit de statu defuncto 
-      <lb ed="#G" n="79"/>rum, quorum animae sunt in purgato 
-      <lb ed="#G" n="80"/>rio : nunc tractat de statu
-      damnato<lb ed="#G" n="81" break="no"/>rum, quorum animae sunt in inferno. 
-      <lb ed="#G" n="82"/>Et diuiditur in duas partes: nam
-      pri<lb ed="#G" n="83" break="no"/>mo Magister mouet quaestionem, 
-      <lb ed="#G" n="84"/>vtrum secundum nudam Dei
-      iusti<lb ed="#G" n="85" break="no"/>tiam, vel etiam aliquo modo, secundum misericordiam,  
-      <lb ed="#G" n="86"/>illi puniantur, qui fvnt in inferno. Secundo ostendit, quo 
-      <lb ed="#G" n="87"/>modo huiusmodi virtures dicutur esse in Deo, vel in ope 
-      <lb ed="#G" n="88"/>re diuino, ibi, Sed quomodo iustitiam. Prima in tres, quia 
-      <lb ed="#G" n="89"/>primo iam dictam mouet quaestionem, &amp; recitat circa ea 
-      <lb ed="#G" n="90"/>nam opinionem. Secundo illius opinionis attentat
-      im<lb ed="#G" n="91" break="no"/>probationem. Et tertio determinat quaestionem, iuxta 
-      <lb ed="#G" n="92"/>suam intentionem. Secunda, ibi, Sed his occurrit. Tertia, 
-      <lb ed="#G" n="93"/>ibi, Ecce ita asserit. Et haec diuiditur in tres partes, quia 
-      <lb ed="#G" n="94"/>primo praedictae quaestionis ponit determinationem.
-      Se<lb ed="#G" n="95" break="no"/>cundo respondet ad oppositam obiectionem. Tertio
-      cu<lb ed="#G" n="96" break="no"/>iusdam dicti innuit explanationem. Secunda ibi. Quod 
-      <lb ed="#G" n="97"/>ergo dictum est. Tertia, ibi, Huius iudicium occultum. Si 
-      <lb ed="#G" n="98"/>quitur illa pars, Sed quomodo. Et diuiditur in tres
-      par<lb ed="#G" n="99" break="no"/>tes, quia primo, insinuat, quod aliquo modo diuina
-      mise<lb ed="#G" n="100" break="no"/>ricordia, &amp; iustitia, per comparationem ad exteriora ope- 
-      <lb ed="#G" n="101"/>ra, distinguuntur. Secundo declarat, quomodo alia, &amp; alia 
-      <lb ed="#G" n="102"/>ppera diuinae iustitiae, misericordiae, &amp; bonitati attribuunt 
-      <lb ed="#G" n="103"/>Et tertio manifestat, quomodo in omni diuino opere, mi 
-      <lb ed="#G" n="104"/>sericordia, &amp; iustitia inueniuntur, Secunda, ibi, Quod
-      au<lb ed="#G" n="105" break="no"/>tem quedam opera. Tertia ibi, Post haec considerari opot 
-      <lb ed="#G" n="106"/>tet. Prima in tres, quia primo, circa praedicta proponit 
-      <lb ed="#G" n="107"/>quaestionem. Secundo, subdit responsionem. Et tertio,
-      ad<lb ed="#G" n="108" break="no"/>ducit, &amp; tollit aliam incidentem dubitationem.
-      Secun<lb ed="#G" n="109" break="no"/>da ibi, His responderi potest. Tertia ibi, Sed secundum hoc 
-      <lb ed="#G" n="110"/>occurrit. Et haec est diuisio istius ac, distinctionis, circa 
-      <lb ed="#G" n="111"/>quam quaero 
-    </p>
-         </div>
-      </body>
-   </text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Circa textum</title>
+        <author ref="#ThomasStrasbourg">Thomas of Strasbourg</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Circa textum</title>
+          <date when="2020-11-26">November 26, 2020</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="G" n="cod-TxxxqU">Genoa 1585</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2020-11-26" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#G" n="P2_186-r"/>
+        <cb ed="#G" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="HuYgTa-300214"><!-- HuYgTa-l4d46ct1 -->
+        <head xml:id="HuYgTa-300214-Hd1e108">Circa textum</head>
+        <p xml:id="HuYgTa-300214-d1e111">
+          <!--842.xml-->
+          <cb ed="#G" n="b"/>
+          <lb ed="#G" n="74"/>DISTINCTIO NLV. 
+          <lb ed="#G" n="75"/>Lucida huius distinctionis duusio, in qua de statim dam 
+          <lb ed="#G" n="76"/>natorum peculiariter agitur. 
+        </p>
+        <p xml:id="HuYgTa-300214-d1e124">
+          <lb ed="#G" n="77"/>
+          <pc type="indent"/>ED QVARITVR RIC. Postquam 
+          <lb ed="#G" n="78"/>Magister tractauit de statu defuncto 
+          <lb ed="#G" n="79"/>rum, quorum animae sunt in purgato 
+          <lb ed="#G" n="80"/>rio : nunc tractat de statu
+          damnato<lb ed="#G" n="81" break="no"/>rum, quorum animae sunt in inferno. 
+          <lb ed="#G" n="82"/>Et diuiditur in duas partes: nam
+          pri<lb ed="#G" n="83" break="no"/>mo Magister mouet quaestionem, 
+          <lb ed="#G" n="84"/>vtrum secundum nudam Dei
+          iusti<lb ed="#G" n="85" break="no"/>tiam, vel etiam aliquo modo, secundum misericordiam,  
+          <lb ed="#G" n="86"/>illi puniantur, qui fvnt in inferno. Secundo ostendit, quo 
+          <lb ed="#G" n="87"/>modo huiusmodi virtures dicutur esse in Deo, vel in ope 
+          <lb ed="#G" n="88"/>re diuino, ibi, Sed quomodo iustitiam. Prima in tres, quia 
+          <lb ed="#G" n="89"/>primo iam dictam mouet quaestionem, &amp; recitat circa ea 
+          <lb ed="#G" n="90"/>nam opinionem. Secundo illius opinionis attentat
+          im<lb ed="#G" n="91" break="no"/>probationem. Et tertio determinat quaestionem, iuxta 
+          <lb ed="#G" n="92"/>suam intentionem. Secunda, ibi, Sed his occurrit. Tertia, 
+          <lb ed="#G" n="93"/>ibi, Ecce ita asserit. Et haec diuiditur in tres partes, quia 
+          <lb ed="#G" n="94"/>primo praedictae quaestionis ponit determinationem.
+          Se<lb ed="#G" n="95" break="no"/>cundo respondet ad oppositam obiectionem. Tertio
+          cu<lb ed="#G" n="96" break="no"/>iusdam dicti innuit explanationem. Secunda ibi. Quod 
+          <lb ed="#G" n="97"/>ergo dictum est. Tertia, ibi, Huius iudicium occultum. Si 
+          <lb ed="#G" n="98"/>quitur illa pars, Sed quomodo. Et diuiditur in tres
+          par<lb ed="#G" n="99" break="no"/>tes, quia primo, insinuat, quod aliquo modo diuina
+          mise<lb ed="#G" n="100" break="no"/>ricordia, &amp; iustitia, per comparationem ad exteriora ope- 
+          <lb ed="#G" n="101"/>ra, distinguuntur. Secundo declarat, quomodo alia, &amp; alia 
+          <lb ed="#G" n="102"/>ppera diuinae iustitiae, misericordiae, &amp; bonitati attribuunt 
+          <lb ed="#G" n="103"/>Et tertio manifestat, quomodo in omni diuino opere, mi 
+          <lb ed="#G" n="104"/>sericordia, &amp; iustitia inueniuntur, Secunda, ibi, Quod
+          au<lb ed="#G" n="105" break="no"/>tem quedam opera. Tertia ibi, Post haec considerari opot 
+          <lb ed="#G" n="106"/>tet. Prima in tres, quia primo, circa praedicta proponit 
+          <lb ed="#G" n="107"/>quaestionem. Secundo, subdit responsionem. Et tertio,
+          ad<lb ed="#G" n="108" break="no"/>ducit, &amp; tollit aliam incidentem dubitationem.
+          Secun<lb ed="#G" n="109" break="no"/>da ibi, His responderi potest. Tertia ibi, Sed secundum hoc 
+          <lb ed="#G" n="110"/>occurrit. Et haec est diuisio istius ac, distinctionis, circa 
+          <lb ed="#G" n="111"/>quam quaero 
+        </p>
+      </div>
+    </body>
+  </text>
 </TEI>

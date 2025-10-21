@@ -1,103 +1,103 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Circa textum</title>
-            <author ref="#ThomasStrasbourg">Thomas of Strasbourg</author>
-            <respStmt>
-               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
-               <resp>Transcription Editor</resp>
-               <resp>TEI Encoder</resp>
-            </respStmt>
-         </titleStmt>
-         <editionStmt>
-            <edition n="0.0.0-dev">
-               <title>Circa textum</title>
-               <date when="2020-11-26">November 26, 2020</date>
-            </edition>
-         </editionStmt>
-         <publicationStmt>
-            <authority>SCTA</authority>
-            <availability status="free">
-               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
-               </p>
-            </availability>
-         </publicationStmt>
-         <sourceDesc>
-            <listWit>
-               <witness xml:id="G" n="cod-TxxxqU">Genoa 1585</witness>
-            </listWit>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
-         <editorialDecl>
-            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
-       guidelines for a diplomatic edition.</p>
-         </editorialDecl>
-      </encodingDesc>
-      <revisionDesc status="draft">
-         <listChange>
-            <change when="2020-11-26" status="draft" n="0.0.0">
-               <p>Created file for the first time.</p>
-            </change>
-         </listChange>
-      </revisionDesc>
-   </teiHeader>
-   <text xml:lang="la">
-      <front>
-         <div xml:id="starts-on">
-            <pb ed="#G" n="-r"/>
-            <cb ed="#G" n="a"/>
-         </div>
-      </front>
-      <body>
-         <div xml:id="HuYgTa-e24467"><!-- HuYgTa-l1d3ct1 -->
-            <head xml:id="HuYgTa-e24467-Hd1e108">Circa textum</head>
-            <p xml:id="HuYgTa-e24467-d1e111">
-               <lb ed="#G" n="33"/>
-               <pc type="indent"/>DISTINCTIO III 
-      <lb ed="#G" n="34"/>Facitis ac aperta diuisio huius distinctionis: n qua 
-      <lb ed="#G" n="35"/>Magister Dissimae essentiae vnitatem,
-      diuinarum<lb ed="#G" n="36" break="no"/>que personarum trinitatem catholicis 
-      <lb ed="#G" n="37"/>rationibus, &amp; congruis similitudini 
-      <lb ed="#G" n="38"/>
-               <pc type="indent"/>bus nititur persuadere. 
-    </p>
-            <p xml:id="HuYgTa-e24467-d1e131">
-               <lb ed="#G" n="39"/>
-               <pc type="indent"/>POSTO LVSN AMQVE &amp;c. 
-      <lb ed="#G" n="40"/>Postquam magister probauit
-      diui<lb ed="#G" n="41" break="no"/>nae essentiae vnitatem, &amp;
-      persona<lb ed="#G" n="42" break="no"/>rum trinitatem ex auctoritatibus 
-      <lb ed="#G" n="43"/>scripturae: hic probat hoc idem ex 
-      <lb ed="#G" n="44"/>similitudine creaturae. Et diuiditur 
-      <lb ed="#G" n="45"/>in duas partes: quia primo magister 
-      <lb ed="#G" n="46"/>probat diuinae essentiae vnitatem, 
-      <lb ed="#G" n="47"/>&amp; personarum trinitatem rationibus vniuersalibus acce 
-      <lb ed="#G" n="48"/>ceptis ex creaturis. Secundo facit hoc specialiter ex ima 
-      <lb ed="#G" n="49"/>gine Dei fundata in essentia animae rationalis ibi, Nuns 
-      <lb ed="#G" n="50"/>vero ad eam &amp;c. Prima in duas: quia primo ex
-      naturali<lb ed="#G" n="51" break="no"/>bus rationibus ostendit diuinae essentiae vnitatem.
-      Secu<lb ed="#G" n="52" break="no"/>do ex vestigio creatoris reperto in creaturis ostendit por 
-      <lb ed="#G" n="53"/>sonarum diuinarum trinitatem ibi, Nunc restat
-      ostende<lb ed="#G" n="54" break="no"/>re Prima diuiditur in quattuor, secundum quod
-      magi<lb ed="#G" n="55" break="no"/>ster adducit quattuor rationes probantes Dei vnitatem. 
-      <lb ed="#G" n="56"/>Quarum prima sumitur ex creaturae magnitudinc, &amp; quam 
-      <lb ed="#G" n="57"/>titate. Secunda ex creaturae mutabilitate. Tertia ex
-      crea<lb ed="#G" n="58" break="no"/>turae bonitate. Quarta ex creaturae speciositate. Secunda 
-      <lb ed="#G" n="59"/>ibi, Alia etiam modo &amp;c. Tertia ibi, Considerauerunt 
-      <lb ed="#G" n="60"/>&amp;c. Quarta ibi, Intellexerunt &amp;c. Tunc sequitur illa pars 
-      <lb ed="#G" n="61"/>Nunc restat ostedere &amp;c. Et diuiditur in tres partes. Quia 
-      <lb ed="#G" n="62"/>primo ostendit magister quomodo vestigium creatori 
-      <lb ed="#G" n="63"/>creaturis imprimitur Secundo quomodo ex huiuimodi 
-      <lb ed="#G" n="64"/>vestigio trinitas creatoris cognoscitur. Tertio quomodo 
-      <lb ed="#G" n="65"/>huiusmodi cognitio est valde imperfecta, nisi pro
-      quan<lb ed="#G" n="66" break="no"/>to catholica fide perficitur, Secunda ibi, In illa enim sum 
-      <lb ed="#G" n="67"/>ma trinitate &amp;c. Tertia ibi, Ecce ostensum est qualiter 
-      <lb ed="#G" n="68"/>&amp;c. Hic quaero hanc quaestionem.
-    </p>
-         </div>
-      </body>
-   </text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Circa textum</title>
+        <author ref="#ThomasStrasbourg">Thomas of Strasbourg</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Circa textum</title>
+          <date when="2020-11-26">November 26, 2020</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="G" n="cod-TxxxqU">Genoa 1585</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2020-11-26" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#G" n="33-r"/>
+        <cb ed="#G" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="HuYgTa-e24467"><!-- HuYgTa-l1d3ct1 -->
+        <head xml:id="HuYgTa-e24467-Hd1e108">Circa textum</head>
+        <p xml:id="HuYgTa-e24467-d1e111">
+          <lb ed="#G" n="33"/>
+          <pc type="indent"/>DISTINCTIO III 
+          <lb ed="#G" n="34"/>Facitis ac aperta diuisio huius distinctionis: n qua 
+          <lb ed="#G" n="35"/>Magister Dissimae essentiae vnitatem,
+          diuinarum<lb ed="#G" n="36" break="no"/>que personarum trinitatem catholicis 
+          <lb ed="#G" n="37"/>rationibus, &amp; congruis similitudini 
+          <lb ed="#G" n="38"/>
+          <pc type="indent"/>bus nititur persuadere. 
+        </p>
+        <p xml:id="HuYgTa-e24467-d1e131">
+          <lb ed="#G" n="39"/>
+          <pc type="indent"/>POSTO LVSN AMQVE &amp;c. 
+          <lb ed="#G" n="40"/>Postquam magister probauit
+          diui<lb ed="#G" n="41" break="no"/>nae essentiae vnitatem, &amp;
+          persona<lb ed="#G" n="42" break="no"/>rum trinitatem ex auctoritatibus 
+          <lb ed="#G" n="43"/>scripturae: hic probat hoc idem ex 
+          <lb ed="#G" n="44"/>similitudine creaturae. Et diuiditur 
+          <lb ed="#G" n="45"/>in duas partes: quia primo magister 
+          <lb ed="#G" n="46"/>probat diuinae essentiae vnitatem, 
+          <lb ed="#G" n="47"/>&amp; personarum trinitatem rationibus vniuersalibus acce 
+          <lb ed="#G" n="48"/>ceptis ex creaturis. Secundo facit hoc specialiter ex ima 
+          <lb ed="#G" n="49"/>gine Dei fundata in essentia animae rationalis ibi, Nuns 
+          <lb ed="#G" n="50"/>vero ad eam &amp;c. Prima in duas: quia primo ex
+          naturali<lb ed="#G" n="51" break="no"/>bus rationibus ostendit diuinae essentiae vnitatem.
+          Secu<lb ed="#G" n="52" break="no"/>do ex vestigio creatoris reperto in creaturis ostendit por 
+          <lb ed="#G" n="53"/>sonarum diuinarum trinitatem ibi, Nunc restat
+          ostende<lb ed="#G" n="54" break="no"/>re Prima diuiditur in quattuor, secundum quod
+          magi<lb ed="#G" n="55" break="no"/>ster adducit quattuor rationes probantes Dei vnitatem. 
+          <lb ed="#G" n="56"/>Quarum prima sumitur ex creaturae magnitudinc, &amp; quam 
+          <lb ed="#G" n="57"/>titate. Secunda ex creaturae mutabilitate. Tertia ex
+          crea<lb ed="#G" n="58" break="no"/>turae bonitate. Quarta ex creaturae speciositate. Secunda 
+          <lb ed="#G" n="59"/>ibi, Alia etiam modo &amp;c. Tertia ibi, Considerauerunt 
+          <lb ed="#G" n="60"/>&amp;c. Quarta ibi, Intellexerunt &amp;c. Tunc sequitur illa pars 
+          <lb ed="#G" n="61"/>Nunc restat ostedere &amp;c. Et diuiditur in tres partes. Quia 
+          <lb ed="#G" n="62"/>primo ostendit magister quomodo vestigium creatori 
+          <lb ed="#G" n="63"/>creaturis imprimitur Secundo quomodo ex huiuimodi 
+          <lb ed="#G" n="64"/>vestigio trinitas creatoris cognoscitur. Tertio quomodo 
+          <lb ed="#G" n="65"/>huiusmodi cognitio est valde imperfecta, nisi pro
+          quan<lb ed="#G" n="66" break="no"/>to catholica fide perficitur, Secunda ibi, In illa enim sum 
+          <lb ed="#G" n="67"/>ma trinitate &amp;c. Tertia ibi, Ecce ostensum est qualiter 
+          <lb ed="#G" n="68"/>&amp;c. Hic quaero hanc quaestionem.
+        </p>
+      </div>
+    </body>
+  </text>
 </TEI>

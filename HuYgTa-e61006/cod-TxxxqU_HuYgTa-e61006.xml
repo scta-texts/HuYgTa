@@ -1,427 +1,427 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Quaestio 1</title>
-            <author ref="#ThomasStrasbourg">Thomas of Strasbourg</author>
-            <respStmt>
-               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
-               <resp>Transcription Editor</resp>
-               <resp>TEI Encoder</resp>
-            </respStmt>
-         </titleStmt>
-         <editionStmt>
-            <edition n="0.0.0-dev">
-               <title>Quaestio 1</title>
-               <date when="2020-11-26">November 26, 2020</date>
-            </edition>
-         </editionStmt>
-         <publicationStmt>
-            <authority>SCTA</authority>
-            <availability status="free">
-               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
-               </p>
-            </availability>
-         </publicationStmt>
-         <sourceDesc>
-            <listWit>
-               <witness xml:id="G" n="cod-TxxxqU">Genoa 1585</witness>
-            </listWit>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
-         <editorialDecl>
-            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
-       guidelines for a diplomatic edition.</p>
-         </editorialDecl>
-      </encodingDesc>
-      <revisionDesc status="draft">
-         <listChange>
-            <change when="2020-11-26" status="draft" n="0.0.0">
-               <p>Created file for the first time.</p>
-            </change>
-         </listChange>
-      </revisionDesc>
-   </teiHeader>
-   <text xml:lang="la">
-      <front>
-         <div xml:id="starts-on">
-            <pb ed="#G" n="80-v"/>
-            <cb ed="#G" n="a"/>
-         </div>
-      </front>
-      <body>
-         <div xml:id="HuYgTa-e61006"><!-- HuYgTa-l1d21q1 -->
-            <head xml:id="HuYgTa-e61006-Hd1e108">Quaestio 1</head>
-            <head xml:id="HuYgTa-e61006-Hd1e111" type="question-title">
-      An haec proposito vera sit, videlicet, solus Pater est Deus.
-    </head>
-            <p xml:id="HuYgTa-e61006-d1e114">
-               <lb ed="#G" n="23"/>
-               <pc type="indent"/>Quaestio 1 
-      <lb ed="#G" n="24"/>An haec proposito vera sit, videlicet,  
-      <lb ed="#G" n="25"/>Solus Pater est Deus.
-    </p>
-            <p xml:id="HuYgTa-e61006-d1e125">
-               <lb ed="#G" n="26"/>TRVM IAEc sit uera. solus pater est 
-      <lb ed="#G" n="27"/>Deus :
-    </p>
-            <p xml:id="HuYgTa-e61006-d1e132">
-      Et videtur quod sic: quia si non,  
-      <lb ed="#G" n="28"/>hoc esset pro tanto, quia excluderet fi- 
-      <lb ed="#G" n="29"/>lium, sed hoc non facit: quia secundum. 
-      <lb ed="#G" n="30"/>
-               <ref xml:id="HuYgTa-e61006-Rd1e140">Aug. 1. de trin</ref> solus additum patri non  
-      <lb ed="#G" n="31"/> excludit filium.
-    </p>
-            <p xml:id="HuYgTa-e61006-d1e147">
-               <lb ed="#G" n="32"/>In contrarium videtur esse <ref xml:id="HuYgTa-e61006-Rd1e151">Aug. 8 de tri.</ref> vbi ait <quote xml:id="HuYgTa-e61006-Qd1e154" source="http://scta.info/resource/adt-l6-d1e823" synch="56-63">patrem  
-      <lb ed="#G" n="33"/>esse Deum: sed non esse solum Deum</quote>. Quia dictio
-      ex<lb ed="#G" n="34" break="no"/>clusiua addita alicui termino, vt plurimum videtur exclu 
-      <lb ed="#G" n="35"/>dere ab huiusmodi termino omne illud, quod non est de 
-      <lb ed="#G" n="36"/>principali, seu primario suo conceptu, &amp; quia magister 
-      <lb ed="#G" n="37"/>nanc materiam de dictionibus exclusiuis introduxit in hac 
-      <lb ed="#G" n="38"/>221. dist, propter personas diuinas, quae relatiue differunt; 
-      <lb ed="#G" n="39"/>ideo primo videndum est, vtrum vnum relatiuum sit do 
-      <lb ed="#G" n="40"/>principali conceptu, seu de primario intellectu alterius: 
-      <lb ed="#G" n="41"/>becundo utrum dictio exclusiua addita vni relatiuorum 
-      <lb ed="#G" n="42"/>excludat aliud : Tertio illud, quod quaeritur. Quarto. 
-      <lb ed="#G" n="43"/>ptrum haec sit vera, solus Deus est Deus. 
-    </p>
-            <p xml:id="HuYgTa-e61006-d1e182">
-               <lb ed="#G" n="44"/>
-               <pc type="indent"/>RESOLVTIO 
-      <lb ed="#G" n="45"/>AIterum quidem velatiuorum non esse de primario conceptu, va 
-      <lb ed="#G" n="46"/>tio cogit consiteri Vnde exclusionis nota alteri eorum
-      adiun<lb ed="#G" n="47" break="no"/>cta, alterum non secludit. Quamobrem, proposito haec, solius 
-      <lb ed="#G" n="48"/>Pater est Deus, omnino neganda est, quando quidem ea
-      ad<lb ed="#G" n="49" break="no"/>missa statim infertur, Dei filium non esse Deum. 
-    </p>
-            <p xml:id="HuYgTa-e61006-d1e200">
-               <lb ed="#G" n="50"/>
-               <pc type="indent"/>ARTICVLVS I 
-      <lb ed="#G" n="51"/>Vtrum vnum relatiuum sit de principasi
-      conce<lb ed="#G" n="52" break="no"/>
-               <pc type="indent"/>ptu, seu de primario lntellectu alterius. 
-      <lb ed="#G" n="53"/>C primo sunt opiniones repugnantes, teneo me
-      ta<lb ed="#G" n="54" break="no"/>Dmen cum illa, que dicit, quod vnum relatiuorum 
-      <!--199.xml-->
-      <cb ed="#G" n="b"/>
-               <lb ed="#G" n="55"/>non sit de primario conceptu alterius: sed de
-      cointelle<lb ed="#G" n="56" break="no"/>ctu, seu connotato conceptu alterius: quia ficut dicit
-      do<lb ed="#G" n="57" break="no"/>ctor noster &amp; bene.
-    </p>
-            <p xml:id="HuYgTa-e61006-d1e229">
-               <lb ed="#G" n="58"/>1 Ouandocunque aliqua sic se habent, quod unum est de 
-      <lb ed="#G" n="59"/>principali conceptu alterius, si vnum immediate profertur 
-      <lb ed="#G" n="60"/>cum altero, tunc committitur nugatio, vt patet, cum
-      di<lb ed="#G" n="61" break="no"/>citur homo animal; sed cum dicitur pater filii, uel duplum 
-      <lb ed="#G" n="62"/>dimidij, &amp; sic de alijs relatiuis, non committitur aliqua 
-      <lb ed="#G" n="63"/>nugatio, ergo &amp;c
-    </p>
-            <p xml:id="HuYgTa-e61006-d1e245">
-               <lb ed="#G" n="64"/>2 Praeterea, illud; quod ab aliquo est essentialiter
-      di<lb ed="#G" n="65" break="no"/>stinctum, vel saltem non intrinsece spectat ad suam
-      es<lb ed="#G" n="66" break="no"/>sentiam, hoc non est de primario suo intellectu, sed vnum 
-      <lb ed="#G" n="67"/>celatiuum ad minus in creaturis est ab altero
-      essentiali<lb ed="#G" n="68" break="no"/>ter distinctum, ergo &amp;c. 
-    </p>
-            <p xml:id="HuYgTa-e61006-d1e258">
-               <lb ed="#G" n="69"/>
-               <pc type="indent"/>3 Praeterea, natura oppositorum non patitur, quod vnum 
-      <lb ed="#G" n="70"/>oppositorum sit de principali conceptu alterius, sed duo 
-      <lb ed="#G" n="71"/>correlatiua vere sunt opposita, ergo &amp;c 
-    </p>
-            <p xml:id="HuYgTa-e61006-d1e270">
-               <lb ed="#G" n="72"/>
-               <pc type="indent"/>Sed quidam antiqui tenuerunt oppositum, &amp; potest 
-      <lb ed="#G" n="73"/>pinio eorum probari. Primo sic. 
-    </p>
-            <p xml:id="HuYgTa-e61006-d1e279">
-               <lb ed="#G" n="74"/>
-               <pc type="indent"/>lila, quae sunt simul natur ali intelligentia, videtur,  
-      <lb ed="#G" n="75"/>quod quolibet illorum sit de principali intellectu
-      alte<lb ed="#G" n="76" break="no"/>ius, sed relatiua sunt huiusmodi, vt patet in
-      praedica<lb ed="#G" n="77" break="no"/>nentis, ergo &amp;c
-    </p>
-            <p xml:id="HuYgTa-e61006-d1e292">
-               <lb ed="#G" n="78"/>2 Praeterea: illud, quod sic se habet ad alterum, quod 
-      <lb ed="#G" n="79"/>psum nullo conceptu potest concipi sine illo: videtur, quod 
-      <lb ed="#G" n="80"/>illud sit de principali suo conceptu; da oppositum, tunc 
-      <lb ed="#G" n="81"/>saltem secundum illum principalem conceptum illud
-      pos<lb ed="#G" n="82" break="no"/>set ab illo praescindi, &amp; concipi sine eo, sed vnum
-      relati<lb ed="#G" n="83" break="no"/>uum nullo modo potest concipi sine termino, qui est suum 
-      <lb ed="#G" n="84"/>correlatiuum, ergo &amp;c. 
-    </p>
-            <p xml:id="HuYgTa-e61006-d1e310">
-               <lb ed="#G" n="85"/>
-               <pc type="indent"/>Praeterea, cuius conceptus minus potest praescindi 
-      <lb ed="#G" n="86"/>ib aliquo, quam conceptus speciei a differentia propria; 
-      <lb ed="#G" n="87"/>hoc necessario requirit illud in suo principali conceptum, 
-      <lb ed="#G" n="88"/>illa patet, quia species in suo principali conceptu
-      requi<lb ed="#G" n="89" break="no"/>rit differentiam, cum sit pars suae diffinitionis, sed re- 
-      <lb ed="#G" n="90"/>latiuum respectu sui corrclatiui est huiusmodi, ergo &amp;c 
-      <lb ed="#G" n="91"/>probatio assumpte: quia haec species homo, potest
-      con<lb ed="#G" n="92" break="no"/>cipi, ut est, animal non concipiendo rationale; sed vnum rela  
-      <lb ed="#G" n="93"/>tiuum nullo conceptu est conceptibile sine altero, ergo &amp;c 
-    </p>
-            <p xml:id="HuYgTa-e61006-d1e334">
-               <lb ed="#G" n="94"/>
-               <pc type="indent"/>4 Praeterea, illud, cuius principalis conceptus est
-      es<lb ed="#G" n="95" break="no"/>se ad aliud, illud in suo principali conceptu requirit aliud,  
-      <lb ed="#G" n="96"/>&amp; per consequens illud non est de suo cointellectu, sed  
-      <lb ed="#G" n="97"/>de suo principali intellectu, sed omne verum relatiuum 
-      <lb ed="#G" n="98"/>est huiusmodi: quia sunm esse est ad aliud se habere, vt 
-      <lb ed="#G" n="99"/>patet in, praedicamentis.
-    </p>
-            <p xml:id="HuYgTa-e61006-d1e352">
-               <lb ed="#G" n="100"/>3 Praeterea, iste principalis conceptus aut est relatiuus, c. de 
-      <lb ed="#G" n="101"/>ut absolutus. Si relatiuus, tunc necessario terminatur ad quae sunt 
-      <lb ed="#G" n="102"/>aliud; Si absolutus, hoc esset contra naturam relatiui: quia ad
-      ali<lb ed="#G" n="103" break="no"/>tum in conceptu principali res quasi diffinitiue &amp; forma 
-      <lb ed="#G" n="104"/>iter exprimatur ergo cuiuscunque rei principalis
-      conce<lb ed="#G" n="105" break="no"/>ptus est absol:itus ipsa necessario erit absoluta, &amp; sic
-      rela<lb ed="#G" n="106" break="no"/>tiuum non esset relatiuum, quod est contradictio.
-    </p>
-            <p xml:id="HuYgTa-e61006-d1e371">
-               <lb ed="#G" n="107"/>Sed istis non obstantibus teneo cum doctore nostro, Contr 
-      <lb ed="#G" n="108"/>vt prius. Afduertendum est tamen, quod rationes, quas Opinio 
-      <lb ed="#G" n="109"/>hic conscripsi ex falsa imaginatione procedunt, videntur nem 
-      <lb ed="#G" n="110"/>enim praetendere, quod conceptus principalis &amp;
-      conce<lb ed="#G" n="111" break="no"/>ptus secundarius, qui dicitur connotatus, siue
-      cointelle<lb ed="#G" n="112" break="no"/>ctus, sint duo conceptus distincti, distinctis temporibus 
-      <lb ed="#G" n="113"/>eliciti, &amp; illud non est verum, saltem in proposito; puta 
-      <lb ed="#G" n="114"/>loquendo de relatiuis: quia vno simplici actu, quo
-      intel<lb ed="#G" n="115" break="no"/>igitur pater, attingitur etiam cognitiue ipse filius, pater 
-      <lb ed="#G" n="116"/>tamen concipitur principaliter: quia intelligitur in recto 
-      <lb ed="#G" n="117"/>filius autem secundario, siue ex connotato: quia
-      concipi<lb ed="#G" n="118" break="no"/>tur in obliquo, &amp; per modum extremi terminantis
-      ten<lb ed="#G" n="119" break="no"/>dentiam &amp; lationem illius, quod est in recto conceptum, 
-      <lb ed="#G" n="120"/>siue principaliter intellectum, puta patris: Propter quod 
-      <lb ed="#G" n="121"/>uamuis obiectiue distinguantur penes principale, &amp;
-      se<lb ed="#G" n="122" break="no"/>cundarium, eo quod pro tunc, quando intelliguntur,
-      v<lb ed="#G" n="123" break="no"/>num per se directe &amp; in recto intellectui obiiciatur,
-      al<lb ed="#G" n="124" break="no"/>terum autem vt dixi terminatiue &amp; in obliquo, his
-      ta<lb ed="#G" n="125" break="no"/>men duobus obiectiue consideratis, ex parte nostri in 
-      <lb ed="#G" n="126"/>lectus subiectiue vnicus actus intelligendi correspondet. 
-    </p>
-            <p xml:id="HuYgTa-e61006-d1e417">
-               <lb ed="#G" n="127"/>
-               <pc type="indent"/>Ex hoc respondeo ad rationes. 
-      <!--200.xml-->
-      <pb ed="#G" n="81-r"/>
-               <cb ed="#G" n="a"/>
-               <lb ed="#G" n="1"/>Ad primum nego maiorem, nisi sic sint simul, quod 
-      <lb ed="#G" n="2"/>vnum non possit concipi in recto, nisi &amp; alterum in
-      re<lb ed="#G" n="3" break="no"/>cto concipiatur, sicut perfecte non potest concipi homo, 
-      <lb ed="#G" n="4"/>nisi rationale in recto concipiatur. 
-    </p>
-            <p xml:id="HuYgTa-e61006-d1e439">
-               <lb ed="#G" n="5"/>
-               <pc type="indent"/>Ad secundum patet per idem: quia quamuis ipsum 
-      <lb ed="#G" n="6"/>corellatiuum non concipiatur distincto conceptu
-      subie<lb ed="#G" n="7" break="no"/>ctiue, concipitur tamen aliter obiectiue, quia in obliquo,  
-      <lb ed="#G" n="8"/>&amp; illud sufficit ad hoc, quod dicatur concipi secundario.  
-      <lb ed="#G" n="9"/>Ad tertium dicendum, nego minorem; ad probationem 
-      <lb ed="#G" n="10"/>dico, quod cum homo concipitur vt animal ille non esi 
-      <lb ed="#G" n="11"/>conceptus speciei, sed est conceptus generis: &amp; quia
-      con<lb ed="#G" n="12" break="no"/>ceptus generis abstrahit a suis differentijs diuisiuis, vt pro 
-      <lb ed="#G" n="13"/>tet 3. met. ideo non mirum si homo vt animal concipia 
-      <lb ed="#G" n="14"/>tur sine rationali, quamuis vt sic non possit concipi sine 
-      <lb ed="#G" n="15"/>sensibili, quod est differentia constitutiua respectu
-      ani<lb ed="#G" n="16" break="no"/>malis.  
-    </p>
-            <p xml:id="HuYgTa-e61006-d1e470">
-               <lb ed="#G" n="17"/>
-               <pc type="indent"/>Ad quartum dicendum ad maiorem, quod illud requi  
-      <lb ed="#G" n="18"/>tit illud aliud terminatiue &amp; oblique, &amp; prconsequens non 
-      <lb ed="#G" n="19"/>requirit ipsum tam quam princ ipaliter conceptum obio 
-      <lb ed="#G" n="20"/>ctiue, sed solum secundarie, quamuis vtrumque concipia 
-      <lb ed="#G" n="21"/>tur eodem conceptu subiectiue, puta eodem indistincto 
-      <lb ed="#G" n="22"/>actu intelligendi. 
-    </p>
-            <p xml:id="HuYgTa-e61006-d1e488">
-               <lb ed="#G" n="23"/>
-               <pc type="indent"/>Ad quintum dicendum, quod ille principalis
-      conce<lb ed="#G" n="24" break="no"/>ptus est relatiuus, &amp; terminatur ad aliud modo, quo 
-      <lb ed="#G" n="25"/>iam dixi. 
-    </p>
-            <p xml:id="HuYgTa-e61006-d1e499">
-               <lb ed="#G" n="26"/>
-               <pc type="indent"/>ARTICVLVSI 
-      <lb ed="#G" n="27"/>Vtrum Dictio exclusiua addita vni relatiuo. 
-      <lb ed="#G" n="28"/>rum excludat aliud
-    </p>
-            <p xml:id="HuYgTa-e61006-d1e511">
-               <lb ed="#G" n="29"/>SVANTVM ad secundum principale, vtrum dictio 
-      <lb ed="#G" n="30"/>o, exclusiua addita vni relatiuorum excludat aliud, 
-      <lb ed="#G" n="31"/>dicendum, quod dictio exclusiua addita vni relatiuorum 
-      <lb ed="#G" n="32"/>excludit alterum. 
-    </p>
-            <p xml:id="HuYgTa-e61006-d1e522">
-               <lb ed="#G" n="33"/>
-               <pc type="indent"/>1 Quia quamuis dictio exclusiua non excludat a
-      ter<lb ed="#G" n="34" break="no"/>mino, cui additur illud, quod est de suo conceptu
-      princi<lb ed="#G" n="35" break="no"/>pali, excludit tamen omne illud, quod est de conceptu se 
-      <lb ed="#G" n="36"/>cundario; sed, sicut iam patuit, vnum relatiuum non est 
-      <lb ed="#G" n="37"/>de conceptu principali alterius, sed tantum modo
-      secun<lb ed="#G" n="38" break="no"/>dario, ideo &amp;c maior patet per philosophum. 1.
-      physico<lb ed="#G" n="39" break="no"/>rum, vbi contra Parmenidem &amp; Melissum ait quantum 
-      <lb ed="#G" n="40"/>od primam partem maioris, Si illud, quodvere est, esset solu 
-      <lb ed="#G" n="41"/>homo, adhuc necesse est esse animal bipes. Quantum ad 
-      <lb ed="#G" n="42"/>ecundam partem ait, Non enim amplius principium est,  
-      <lb ed="#G" n="43"/>si vnum solum. Et subdit rationem, Principium enim
-      cu<lb ed="#G" n="44" break="no"/>ausdam, aut quorundam est. Ex quo apparet, quod dictio 
-      <lb ed="#G" n="45"/>exclusiua addita vni relatiuorum excludit alterum, &amp; 
-      <lb ed="#G" n="46"/>per consequens excludit seipsum, sicut addita principio 
-      <lb ed="#G" n="47"/>excludit principiatum, quo excluso negatur, &amp; excludit 
-      <lb ed="#G" n="48"/>etiam ipsum principium: quia vnum relatiuorum non po 
-      <lb ed="#G" n="49"/>test manere, excluso reliquo; posita enim se ponunt, &amp; 
-      <lb ed="#G" n="50"/>perempta se perimunt, vt dicitur in praedicamentis. Ex 
-      <lb ed="#G" n="51"/>quo etiam apparet, quod per additionem dictionis exclu 
-      <lb ed="#G" n="52"/>nue ad vnum relatiuorum contingit manifesta
-      implica<lb ed="#G" n="53" break="no"/>no contradictionis quia relatiuum ad affirmationem sui 
-      <lb ed="#G" n="54"/>ponitur, &amp; ad exclusionem sui corellatiui tollitur &amp;
-      ne<lb ed="#G" n="55" break="no"/>gatur.
-    </p>
-            <p xml:id="HuYgTa-e61006-d1e577">
-               <lb ed="#G" n="56"/>2 Praeterea, a elencorum dicitur: Solus idem est, quod non 
-      <lb ed="#G" n="57"/>cum alio; &amp; hoc idem habetur in topicis Aristotelis. Sed  
-      <lb ed="#G" n="58"/>in creaturis vnum relatiue oppositorum est aliud ab alto 
-      <lb ed="#G" n="59"/>ro, &amp; etiam in diuinis pater est alius a filio, ergo solus vel 
-      <lb ed="#G" n="60"/>ilia confimilis dictio exclusiua addita vni excludit aliud. 
-    </p>
-            <p xml:id="HuYgTa-e61006-d1e590">
-               <lb ed="#G" n="61"/>
-               <pc type="indent"/>Sed est quaedam opinio, quae simpliciter tenct opposi 
-      <lb ed="#G" n="62"/>tum huius. Rationes illorum sunt illae.
-    </p>
-            <p xml:id="HuYgTa-e61006-d1e599">
-               <lb ed="#G" n="63"/>2 Quia dictio exclusiua solummodo illa excludit ab 
-      <lb ed="#G" n="64"/>inuicem, quae ab inuicem possunt in essendo separari: sec 
-      <lb ed="#G" n="65"/>vnum relatiuorum non potest separari ab altero, nec in 
-      <lb ed="#G" n="66"/>essendo, nec intelligendo.
-    </p>
-            <p xml:id="HuYgTa-e61006-d1e610">
-               <lb ed="#G" n="67"/>2 Praeterea, maior est connexio inter duo relatiua, 
-      <lb ed="#G" n="68"/>quam inter totum integrale &amp; suam partem, quia
-      relati<lb ed="#G" n="69" break="no"/>nia posita se ponunt &amp; perempta se perimunt: sed dictio 
-      <lb ed="#G" n="70"/>exclusiua addita huiusmodi toti non excludit parte: non 
-      <lb ed="#G" n="71"/>onim sequitur, Sola domus est, ergo paries non est; immo 
-      <!--200.xml-->
-      <cb ed="#G" n="b"/>
-               <lb ed="#G" n="72"/>ffirmatiue potest inferri; ergo paries est. 
-    </p>
-            <p xml:id="HuYgTa-e61006-d1e631">
-               <lb ed="#G" n="73"/>
-               <pc type="indent"/>3 Praeterea, Si solus pater est, pater est, si pater est,
-      fi<lb ed="#G" n="74" break="no"/>lius est, ergo si solus pater est, filius est, &amp; per consequens 
-      <lb ed="#G" n="75"/>non ex cluditur. 
-    </p>
-            <p xml:id="HuYgTa-e61006-d1e642">
-               <lb ed="#G" n="76"/>
-               <pc type="indent"/>4 Praeterea, illud, quod est de intellectu alicuius, non  
-      <lb ed="#G" n="77"/>excluditur per additionem distinctionis exclusiuae ab ip 
-      <lb ed="#G" n="78"/>o: non nm sequitur, solus homo est, ergo animal non est, 
-      <lb ed="#G" n="79"/>uia animal est de intellectu hominis: sed vnum
-      relati<lb ed="#G" n="80" break="no"/>uorum est de intellectu alterius. 
-    </p>
-            <p xml:id="HuYgTa-e61006-d1e658">
-               <lb ed="#G" n="81"/>
-               <pc type="indent"/>Sed illa non concludunt &amp; communis opinio tenes 
-      <lb ed="#G" n="82"/>oppositum, ergo. 
-    </p>
-            <p xml:id="HuYgTa-e61006-d1e667">
-               <lb ed="#G" n="83"/>
-               <pc type="indent"/>Ad primum dicendum, quod maior est falsa, vt patuit 
-      <lb ed="#G" n="84"/>in praecedentibus 
-    </p>
-            <p xml:id="HuYgTa-e61006-d1e676">
-               <lb ed="#G" n="85"/>
-               <pc type="indent"/>Ad secundum dicendum, quod maior non est vera
-      con<lb ed="#G" n="86" break="no"/>iderando constitutionem rei: quia pars integralis
-      spe<lb ed="#G" n="87" break="no"/>ctat ad constitutionem totius, vnum autem relatiuorum 
-      <lb ed="#G" n="88"/>non spectat ad constitutionem alterius. 
-    </p>
-            <p xml:id="HuYgTa-e61006-d1e689">
-               <lb ed="#G" n="89"/>
-               <pc type="indent"/>Ad tertium dicendum, quod prima consequentia, quae 
-      <lb ed="#G" n="90"/>ssumitur pro maiore, potest negari: quia dictio exclufius 
-      <lb ed="#G" n="91"/>addita vni relatiuorum sapit naturam distinctionis distra 
-      <lb ed="#G" n="92"/>hentis; sicut igitur non sequitur, homo mortuus est, ergo 
-      <lb ed="#G" n="93"/>nomo est, sic non sequitur, solus pater est, ergo pater est: 
-      <lb ed="#G" n="94"/>&amp; illa videtur esse expressa intentio Aristo. 1. physicorum 
-      <lb ed="#G" n="95"/>cum ait: non enim amplius principium est, si vnum solum. 
-    </p>
-            <p xml:id="HuYgTa-e61006-d1e710">
-               <lb ed="#G" n="96"/>
-               <pc type="indent"/>Ad quartum dicendum, quod maior est vera, si est de 
-      <lb ed="#G" n="97"/>suo principali intellectu; sic autem, vt patuit, non est vnum 
-      <lb ed="#G" n="98"/>relatiuum de intellectu alterius, ergo non valet quod 
-      <lb ed="#G" n="99"/>dicitur.  
-    </p>
-            <p xml:id="HuYgTa-e61006-d1e723">
-               <lb ed="#G" n="100"/>
-               <pc type="indent"/>ARTICVLVS II. 
-      <lb ed="#G" n="101"/>Vtrum Haec proposito vera sit videlicet solus 
-      <lb ed="#G" n="102"/>
-               <pc type="indent"/>pater est Deus.
-    </p>
-            <p xml:id="HuYgTa-e61006-d1e736">
-               <lb ed="#G" n="103"/>VANTVM ad tertium principale; vtrum haec sit
-      ve<lb ed="#G" n="104" break="no"/>ra, solus pater est Deus, dicedum, quod haec
-      pro<lb ed="#G" n="105" break="no"/>osito, solus pater est Deus, est neganda: quia cum dictio 
-      <lb ed="#G" n="106"/>exclusiua addita vni relatiuorum excludat alterum, ergo si 
-      <lb ed="#G" n="107"/>illa est vera, sequeretur, quod filius non esset Deus.  
-    </p>
-            <p xml:id="HuYgTa-e61006-d1e749">
-               <lb ed="#G" n="108"/>
-               <pc type="indent"/>Et si dicitur, August. quandoque concedit illam, solus 
-      <lb ed="#G" n="109"/>pater est immortalis;  
-    </p>
-            <p xml:id="HuYgTa-e61006-d1e758">
-               <lb ed="#G" n="110"/>
-               <pc type="indent"/>Dicendum, quod quia patri appropriatur virtus, &amp; po 
-      <lb ed="#G" n="111"/>tentia, sicut filio sapientia; ideo sicut ratione
-      appropria<lb ed="#G" n="112" break="no"/>tionis dicitur in persona filij, Ovrum coeli circuiui sola  
-      <lb ed="#G" n="113"/>sic quia immortalitas attestatur virtuti, seu potentiae; ideo 
-      <lb ed="#G" n="114"/>appropriate conceditur illa, so lus pater habet immorta 
-      <lb ed="#G" n="115"/>itatem, per hoc enim non excluduntur aliae diuinae
-      per<lb ed="#G" n="116" break="no"/>onae a consortio praedicati: sed tantummodo
-      excludun<lb ed="#G" n="117" break="no"/>tur ab appropriatione eius. 
-    </p>
-            <p xml:id="HuYgTa-e61006-d1e780">
-               <lb ed="#G" n="118"/>
-               <pc type="indent"/>Est tamen sciendum, quod si in propositone praedicta 
-      <lb ed="#G" n="119"/>Iy solus non tenetur exclusiue; sed praecisiue, tunc propo 
-      <lb ed="#G" n="120"/>atio est vera. Est enim sensus, quod illud diuinum
-      suppo<lb ed="#G" n="121" break="no"/>situm, quod in esse personali per solam paternitatem con 
-      <lb ed="#G" n="122"/>stituitur, est Deus; sic enim non exluduntur aliae diuinae 
-      <lb ed="#G" n="123"/>personae a consortio illius praedicati, quod est Deus: sed  
-      <lb ed="#G" n="124"/>tantummodo praescinditur forma subiecti. 
-    </p>
-            <p xml:id="HuYgTa-e61006-d1e801">
-               <lb ed="#G" n="125"/>
-               <pc type="indent"/>ARTICVLVS IIII 
-      <lb ed="#G" n="126"/>Vtrum Haec proposito vera sit, solus Deus 
-      <lb ed="#G" n="127"/>est Deus.
-    </p>
-            <p xml:id="HuYgTa-e61006-d1e812">
-               <lb ed="#G" n="128"/>QVANTVM ad quartum principale, vtrum haec propo 
-      <lb ed="#G" n="129"/> sitio, solus Deus est Deus, sit concedenda, d ico, 
-      <lb ed="#G" n="130"/>quod haec proposito, solus Deus est Deus, vel sola
-      trini<lb ed="#G" n="131" break="no"/>tas est Deus, est absolute concedenda: quia pr talia datur in 
-      <lb ed="#G" n="132"/>telligi, quod solummodo illud, quod habet naturam
-      di<lb ed="#G" n="133" break="no"/>uinam est Deus, vel quod solum tres personae in vna
-      na<lb ed="#G" n="134" break="no"/>tura sunt verus Deus. 
-    </p>
-            <p xml:id="HuYgTa-e61006-d1e830">
-               <lb ed="#G" n="135"/>
-               <pc type="indent"/>Ad argumentum in oppositum principale patet per 
-      <lb ed="#G" n="136"/>dicta in3 articulo.
-    </p>
-         </div>
-      </body>
-   </text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 1</title>
+        <author ref="#ThomasStrasbourg">Thomas of Strasbourg</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 1</title>
+          <date when="2020-11-26">November 26, 2020</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="G" n="cod-TxxxqU">Genoa 1585</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2020-11-26" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#G" n="80-v"/>
+        <cb ed="#G" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="HuYgTa-e61006"><!-- HuYgTa-l1d21q1 -->
+        <head xml:id="HuYgTa-e61006-Hd1e108">Quaestio 1</head>
+        <head xml:id="HuYgTa-e61006-Hd1e111" type="question-title">
+          An haec proposito vera sit, videlicet, solus Pater est Deus.
+        </head>
+        <p xml:id="HuYgTa-e61006-d1e114">
+          <lb ed="#G" n="23"/>
+          <pc type="indent"/>Quaestio 1 
+          <lb ed="#G" n="24"/>An haec proposito vera sit, videlicet,  
+          <lb ed="#G" n="25"/>Solus Pater est Deus.
+        </p>
+        <p xml:id="HuYgTa-e61006-d1e125">
+          <lb ed="#G" n="26"/>TRVM IAEc sit uera. solus pater est 
+          <lb ed="#G" n="27"/>Deus :
+        </p>
+        <p xml:id="HuYgTa-e61006-d1e132">
+          Et videtur quod sic: quia si non,  
+          <lb ed="#G" n="28"/>hoc esset pro tanto, quia excluderet fi- 
+          <lb ed="#G" n="29"/>lium, sed hoc non facit: quia secundum. 
+          <lb ed="#G" n="30"/>
+          <ref xml:id="HuYgTa-e61006-Rd1e140">Aug. 1. de trin</ref> solus additum patri non  
+          <lb ed="#G" n="31"/> excludit filium.
+        </p>
+        <p xml:id="HuYgTa-e61006-d1e147">
+          <lb ed="#G" n="32"/>In contrarium videtur esse <ref xml:id="HuYgTa-e61006-Rd1e151">Aug. 8 de tri.</ref> vbi ait <quote xml:id="HuYgTa-e61006-Qd1e154" source="http://scta.info/resource/adt-l6-d1e823" synch="56-63">patrem  
+            <lb ed="#G" n="33"/>esse Deum: sed non esse solum Deum</quote>. Quia dictio
+          ex<lb ed="#G" n="34" break="no"/>clusiua addita alicui termino, vt plurimum videtur exclu 
+          <lb ed="#G" n="35"/>dere ab huiusmodi termino omne illud, quod non est de 
+          <lb ed="#G" n="36"/>principali, seu primario suo conceptu, &amp; quia magister 
+          <lb ed="#G" n="37"/>nanc materiam de dictionibus exclusiuis introduxit in hac 
+          <lb ed="#G" n="38"/>221. dist, propter personas diuinas, quae relatiue differunt; 
+          <lb ed="#G" n="39"/>ideo primo videndum est, vtrum vnum relatiuum sit do 
+          <lb ed="#G" n="40"/>principali conceptu, seu de primario intellectu alterius: 
+          <lb ed="#G" n="41"/>becundo utrum dictio exclusiua addita vni relatiuorum 
+          <lb ed="#G" n="42"/>excludat aliud : Tertio illud, quod quaeritur. Quarto. 
+          <lb ed="#G" n="43"/>ptrum haec sit vera, solus Deus est Deus. 
+        </p>
+        <p xml:id="HuYgTa-e61006-d1e182">
+          <lb ed="#G" n="44"/>
+          <pc type="indent"/>RESOLVTIO 
+          <lb ed="#G" n="45"/>AIterum quidem velatiuorum non esse de primario conceptu, va 
+          <lb ed="#G" n="46"/>tio cogit consiteri Vnde exclusionis nota alteri eorum
+          adiun<lb ed="#G" n="47" break="no"/>cta, alterum non secludit. Quamobrem, proposito haec, solius 
+          <lb ed="#G" n="48"/>Pater est Deus, omnino neganda est, quando quidem ea
+          ad<lb ed="#G" n="49" break="no"/>missa statim infertur, Dei filium non esse Deum. 
+        </p>
+        <p xml:id="HuYgTa-e61006-d1e200">
+          <lb ed="#G" n="50"/>
+          <pc type="indent"/>ARTICVLVS I 
+          <lb ed="#G" n="51"/>Vtrum vnum relatiuum sit de principasi
+          conce<lb ed="#G" n="52" break="no"/>
+          <pc type="indent"/>ptu, seu de primario lntellectu alterius. 
+          <lb ed="#G" n="53"/>C primo sunt opiniones repugnantes, teneo me
+          ta<lb ed="#G" n="54" break="no"/>Dmen cum illa, que dicit, quod vnum relatiuorum 
+          <!--199.xml-->
+          <cb ed="#G" n="b"/>
+          <lb ed="#G" n="55"/>non sit de primario conceptu alterius: sed de
+          cointelle<lb ed="#G" n="56" break="no"/>ctu, seu connotato conceptu alterius: quia ficut dicit
+          do<lb ed="#G" n="57" break="no"/>ctor noster &amp; bene.
+        </p>
+        <p xml:id="HuYgTa-e61006-d1e229">
+          <lb ed="#G" n="58"/>1 Ouandocunque aliqua sic se habent, quod unum est de 
+          <lb ed="#G" n="59"/>principali conceptu alterius, si vnum immediate profertur 
+          <lb ed="#G" n="60"/>cum altero, tunc committitur nugatio, vt patet, cum
+          di<lb ed="#G" n="61" break="no"/>citur homo animal; sed cum dicitur pater filii, uel duplum 
+          <lb ed="#G" n="62"/>dimidij, &amp; sic de alijs relatiuis, non committitur aliqua 
+          <lb ed="#G" n="63"/>nugatio, ergo &amp;c
+        </p>
+        <p xml:id="HuYgTa-e61006-d1e245">
+          <lb ed="#G" n="64"/>2 Praeterea, illud; quod ab aliquo est essentialiter
+          di<lb ed="#G" n="65" break="no"/>stinctum, vel saltem non intrinsece spectat ad suam
+          es<lb ed="#G" n="66" break="no"/>sentiam, hoc non est de primario suo intellectu, sed vnum 
+          <lb ed="#G" n="67"/>celatiuum ad minus in creaturis est ab altero
+          essentiali<lb ed="#G" n="68" break="no"/>ter distinctum, ergo &amp;c. 
+        </p>
+        <p xml:id="HuYgTa-e61006-d1e258">
+          <lb ed="#G" n="69"/>
+          <pc type="indent"/>3 Praeterea, natura oppositorum non patitur, quod vnum 
+          <lb ed="#G" n="70"/>oppositorum sit de principali conceptu alterius, sed duo 
+          <lb ed="#G" n="71"/>correlatiua vere sunt opposita, ergo &amp;c 
+        </p>
+        <p xml:id="HuYgTa-e61006-d1e270">
+          <lb ed="#G" n="72"/>
+          <pc type="indent"/>Sed quidam antiqui tenuerunt oppositum, &amp; potest 
+          <lb ed="#G" n="73"/>pinio eorum probari. Primo sic. 
+        </p>
+        <p xml:id="HuYgTa-e61006-d1e279">
+          <lb ed="#G" n="74"/>
+          <pc type="indent"/>lila, quae sunt simul natur ali intelligentia, videtur,  
+          <lb ed="#G" n="75"/>quod quolibet illorum sit de principali intellectu
+          alte<lb ed="#G" n="76" break="no"/>ius, sed relatiua sunt huiusmodi, vt patet in
+          praedica<lb ed="#G" n="77" break="no"/>nentis, ergo &amp;c
+        </p>
+        <p xml:id="HuYgTa-e61006-d1e292">
+          <lb ed="#G" n="78"/>2 Praeterea: illud, quod sic se habet ad alterum, quod 
+          <lb ed="#G" n="79"/>psum nullo conceptu potest concipi sine illo: videtur, quod 
+          <lb ed="#G" n="80"/>illud sit de principali suo conceptu; da oppositum, tunc 
+          <lb ed="#G" n="81"/>saltem secundum illum principalem conceptum illud
+          pos<lb ed="#G" n="82" break="no"/>set ab illo praescindi, &amp; concipi sine eo, sed vnum
+          relati<lb ed="#G" n="83" break="no"/>uum nullo modo potest concipi sine termino, qui est suum 
+          <lb ed="#G" n="84"/>correlatiuum, ergo &amp;c. 
+        </p>
+        <p xml:id="HuYgTa-e61006-d1e310">
+          <lb ed="#G" n="85"/>
+          <pc type="indent"/>Praeterea, cuius conceptus minus potest praescindi 
+          <lb ed="#G" n="86"/>ib aliquo, quam conceptus speciei a differentia propria; 
+          <lb ed="#G" n="87"/>hoc necessario requirit illud in suo principali conceptum, 
+          <lb ed="#G" n="88"/>illa patet, quia species in suo principali conceptu
+          requi<lb ed="#G" n="89" break="no"/>rit differentiam, cum sit pars suae diffinitionis, sed re- 
+          <lb ed="#G" n="90"/>latiuum respectu sui corrclatiui est huiusmodi, ergo &amp;c 
+          <lb ed="#G" n="91"/>probatio assumpte: quia haec species homo, potest
+          con<lb ed="#G" n="92" break="no"/>cipi, ut est, animal non concipiendo rationale; sed vnum rela  
+          <lb ed="#G" n="93"/>tiuum nullo conceptu est conceptibile sine altero, ergo &amp;c 
+        </p>
+        <p xml:id="HuYgTa-e61006-d1e334">
+          <lb ed="#G" n="94"/>
+          <pc type="indent"/>4 Praeterea, illud, cuius principalis conceptus est
+          es<lb ed="#G" n="95" break="no"/>se ad aliud, illud in suo principali conceptu requirit aliud,  
+          <lb ed="#G" n="96"/>&amp; per consequens illud non est de suo cointellectu, sed  
+          <lb ed="#G" n="97"/>de suo principali intellectu, sed omne verum relatiuum 
+          <lb ed="#G" n="98"/>est huiusmodi: quia sunm esse est ad aliud se habere, vt 
+          <lb ed="#G" n="99"/>patet in, praedicamentis.
+        </p>
+        <p xml:id="HuYgTa-e61006-d1e352">
+          <lb ed="#G" n="100"/>3 Praeterea, iste principalis conceptus aut est relatiuus, c. de 
+          <lb ed="#G" n="101"/>ut absolutus. Si relatiuus, tunc necessario terminatur ad quae sunt 
+          <lb ed="#G" n="102"/>aliud; Si absolutus, hoc esset contra naturam relatiui: quia ad
+          ali<lb ed="#G" n="103" break="no"/>tum in conceptu principali res quasi diffinitiue &amp; forma 
+          <lb ed="#G" n="104"/>iter exprimatur ergo cuiuscunque rei principalis
+          conce<lb ed="#G" n="105" break="no"/>ptus est absol:itus ipsa necessario erit absoluta, &amp; sic
+          rela<lb ed="#G" n="106" break="no"/>tiuum non esset relatiuum, quod est contradictio.
+        </p>
+        <p xml:id="HuYgTa-e61006-d1e371">
+          <lb ed="#G" n="107"/>Sed istis non obstantibus teneo cum doctore nostro, Contr 
+          <lb ed="#G" n="108"/>vt prius. Afduertendum est tamen, quod rationes, quas Opinio 
+          <lb ed="#G" n="109"/>hic conscripsi ex falsa imaginatione procedunt, videntur nem 
+          <lb ed="#G" n="110"/>enim praetendere, quod conceptus principalis &amp;
+          conce<lb ed="#G" n="111" break="no"/>ptus secundarius, qui dicitur connotatus, siue
+          cointelle<lb ed="#G" n="112" break="no"/>ctus, sint duo conceptus distincti, distinctis temporibus 
+          <lb ed="#G" n="113"/>eliciti, &amp; illud non est verum, saltem in proposito; puta 
+          <lb ed="#G" n="114"/>loquendo de relatiuis: quia vno simplici actu, quo
+          intel<lb ed="#G" n="115" break="no"/>igitur pater, attingitur etiam cognitiue ipse filius, pater 
+          <lb ed="#G" n="116"/>tamen concipitur principaliter: quia intelligitur in recto 
+          <lb ed="#G" n="117"/>filius autem secundario, siue ex connotato: quia
+          concipi<lb ed="#G" n="118" break="no"/>tur in obliquo, &amp; per modum extremi terminantis
+          ten<lb ed="#G" n="119" break="no"/>dentiam &amp; lationem illius, quod est in recto conceptum, 
+          <lb ed="#G" n="120"/>siue principaliter intellectum, puta patris: Propter quod 
+          <lb ed="#G" n="121"/>uamuis obiectiue distinguantur penes principale, &amp;
+          se<lb ed="#G" n="122" break="no"/>cundarium, eo quod pro tunc, quando intelliguntur,
+          v<lb ed="#G" n="123" break="no"/>num per se directe &amp; in recto intellectui obiiciatur,
+          al<lb ed="#G" n="124" break="no"/>terum autem vt dixi terminatiue &amp; in obliquo, his
+          ta<lb ed="#G" n="125" break="no"/>men duobus obiectiue consideratis, ex parte nostri in 
+          <lb ed="#G" n="126"/>lectus subiectiue vnicus actus intelligendi correspondet. 
+        </p>
+        <p xml:id="HuYgTa-e61006-d1e417">
+          <lb ed="#G" n="127"/>
+          <pc type="indent"/>Ex hoc respondeo ad rationes. 
+          <!--200.xml-->
+          <pb ed="#G" n="81-r"/>
+          <cb ed="#G" n="a"/>
+          <lb ed="#G" n="1"/>Ad primum nego maiorem, nisi sic sint simul, quod 
+          <lb ed="#G" n="2"/>vnum non possit concipi in recto, nisi &amp; alterum in
+          re<lb ed="#G" n="3" break="no"/>cto concipiatur, sicut perfecte non potest concipi homo, 
+          <lb ed="#G" n="4"/>nisi rationale in recto concipiatur. 
+        </p>
+        <p xml:id="HuYgTa-e61006-d1e439">
+          <lb ed="#G" n="5"/>
+          <pc type="indent"/>Ad secundum patet per idem: quia quamuis ipsum 
+          <lb ed="#G" n="6"/>corellatiuum non concipiatur distincto conceptu
+          subie<lb ed="#G" n="7" break="no"/>ctiue, concipitur tamen aliter obiectiue, quia in obliquo,  
+          <lb ed="#G" n="8"/>&amp; illud sufficit ad hoc, quod dicatur concipi secundario.  
+          <lb ed="#G" n="9"/>Ad tertium dicendum, nego minorem; ad probationem 
+          <lb ed="#G" n="10"/>dico, quod cum homo concipitur vt animal ille non esi 
+          <lb ed="#G" n="11"/>conceptus speciei, sed est conceptus generis: &amp; quia
+          con<lb ed="#G" n="12" break="no"/>ceptus generis abstrahit a suis differentijs diuisiuis, vt pro 
+          <lb ed="#G" n="13"/>tet 3. met. ideo non mirum si homo vt animal concipia 
+          <lb ed="#G" n="14"/>tur sine rationali, quamuis vt sic non possit concipi sine 
+          <lb ed="#G" n="15"/>sensibili, quod est differentia constitutiua respectu
+          ani<lb ed="#G" n="16" break="no"/>malis.  
+        </p>
+        <p xml:id="HuYgTa-e61006-d1e470">
+          <lb ed="#G" n="17"/>
+          <pc type="indent"/>Ad quartum dicendum ad maiorem, quod illud requi  
+          <lb ed="#G" n="18"/>tit illud aliud terminatiue &amp; oblique, &amp; prconsequens non 
+          <lb ed="#G" n="19"/>requirit ipsum tam quam princ ipaliter conceptum obio 
+          <lb ed="#G" n="20"/>ctiue, sed solum secundarie, quamuis vtrumque concipia 
+          <lb ed="#G" n="21"/>tur eodem conceptu subiectiue, puta eodem indistincto 
+          <lb ed="#G" n="22"/>actu intelligendi. 
+        </p>
+        <p xml:id="HuYgTa-e61006-d1e488">
+          <lb ed="#G" n="23"/>
+          <pc type="indent"/>Ad quintum dicendum, quod ille principalis
+          conce<lb ed="#G" n="24" break="no"/>ptus est relatiuus, &amp; terminatur ad aliud modo, quo 
+          <lb ed="#G" n="25"/>iam dixi. 
+        </p>
+        <p xml:id="HuYgTa-e61006-d1e499">
+          <lb ed="#G" n="26"/>
+          <pc type="indent"/>ARTICVLVSI 
+          <lb ed="#G" n="27"/>Vtrum Dictio exclusiua addita vni relatiuo. 
+          <lb ed="#G" n="28"/>rum excludat aliud
+        </p>
+        <p xml:id="HuYgTa-e61006-d1e511">
+          <lb ed="#G" n="29"/>SVANTVM ad secundum principale, vtrum dictio 
+          <lb ed="#G" n="30"/>o, exclusiua addita vni relatiuorum excludat aliud, 
+          <lb ed="#G" n="31"/>dicendum, quod dictio exclusiua addita vni relatiuorum 
+          <lb ed="#G" n="32"/>excludit alterum. 
+        </p>
+        <p xml:id="HuYgTa-e61006-d1e522">
+          <lb ed="#G" n="33"/>
+          <pc type="indent"/>1 Quia quamuis dictio exclusiua non excludat a
+          ter<lb ed="#G" n="34" break="no"/>mino, cui additur illud, quod est de suo conceptu
+          princi<lb ed="#G" n="35" break="no"/>pali, excludit tamen omne illud, quod est de conceptu se 
+          <lb ed="#G" n="36"/>cundario; sed, sicut iam patuit, vnum relatiuum non est 
+          <lb ed="#G" n="37"/>de conceptu principali alterius, sed tantum modo
+          secun<lb ed="#G" n="38" break="no"/>dario, ideo &amp;c maior patet per philosophum. 1.
+          physico<lb ed="#G" n="39" break="no"/>rum, vbi contra Parmenidem &amp; Melissum ait quantum 
+          <lb ed="#G" n="40"/>od primam partem maioris, Si illud, quodvere est, esset solu 
+          <lb ed="#G" n="41"/>homo, adhuc necesse est esse animal bipes. Quantum ad 
+          <lb ed="#G" n="42"/>ecundam partem ait, Non enim amplius principium est,  
+          <lb ed="#G" n="43"/>si vnum solum. Et subdit rationem, Principium enim
+          cu<lb ed="#G" n="44" break="no"/>ausdam, aut quorundam est. Ex quo apparet, quod dictio 
+          <lb ed="#G" n="45"/>exclusiua addita vni relatiuorum excludit alterum, &amp; 
+          <lb ed="#G" n="46"/>per consequens excludit seipsum, sicut addita principio 
+          <lb ed="#G" n="47"/>excludit principiatum, quo excluso negatur, &amp; excludit 
+          <lb ed="#G" n="48"/>etiam ipsum principium: quia vnum relatiuorum non po 
+          <lb ed="#G" n="49"/>test manere, excluso reliquo; posita enim se ponunt, &amp; 
+          <lb ed="#G" n="50"/>perempta se perimunt, vt dicitur in praedicamentis. Ex 
+          <lb ed="#G" n="51"/>quo etiam apparet, quod per additionem dictionis exclu 
+          <lb ed="#G" n="52"/>nue ad vnum relatiuorum contingit manifesta
+          implica<lb ed="#G" n="53" break="no"/>no contradictionis quia relatiuum ad affirmationem sui 
+          <lb ed="#G" n="54"/>ponitur, &amp; ad exclusionem sui corellatiui tollitur &amp;
+          ne<lb ed="#G" n="55" break="no"/>gatur.
+        </p>
+        <p xml:id="HuYgTa-e61006-d1e577">
+          <lb ed="#G" n="56"/>2 Praeterea, a elencorum dicitur: Solus idem est, quod non 
+          <lb ed="#G" n="57"/>cum alio; &amp; hoc idem habetur in topicis Aristotelis. Sed  
+          <lb ed="#G" n="58"/>in creaturis vnum relatiue oppositorum est aliud ab alto 
+          <lb ed="#G" n="59"/>ro, &amp; etiam in diuinis pater est alius a filio, ergo solus vel 
+          <lb ed="#G" n="60"/>ilia confimilis dictio exclusiua addita vni excludit aliud. 
+        </p>
+        <p xml:id="HuYgTa-e61006-d1e590">
+          <lb ed="#G" n="61"/>
+          <pc type="indent"/>Sed est quaedam opinio, quae simpliciter tenct opposi 
+          <lb ed="#G" n="62"/>tum huius. Rationes illorum sunt illae.
+        </p>
+        <p xml:id="HuYgTa-e61006-d1e599">
+          <lb ed="#G" n="63"/>2 Quia dictio exclusiua solummodo illa excludit ab 
+          <lb ed="#G" n="64"/>inuicem, quae ab inuicem possunt in essendo separari: sec 
+          <lb ed="#G" n="65"/>vnum relatiuorum non potest separari ab altero, nec in 
+          <lb ed="#G" n="66"/>essendo, nec intelligendo.
+        </p>
+        <p xml:id="HuYgTa-e61006-d1e610">
+          <lb ed="#G" n="67"/>2 Praeterea, maior est connexio inter duo relatiua, 
+          <lb ed="#G" n="68"/>quam inter totum integrale &amp; suam partem, quia
+          relati<lb ed="#G" n="69" break="no"/>nia posita se ponunt &amp; perempta se perimunt: sed dictio 
+          <lb ed="#G" n="70"/>exclusiua addita huiusmodi toti non excludit parte: non 
+          <lb ed="#G" n="71"/>onim sequitur, Sola domus est, ergo paries non est; immo 
+          <!--200.xml-->
+          <cb ed="#G" n="b"/>
+          <lb ed="#G" n="72"/>ffirmatiue potest inferri; ergo paries est. 
+        </p>
+        <p xml:id="HuYgTa-e61006-d1e631">
+          <lb ed="#G" n="73"/>
+          <pc type="indent"/>3 Praeterea, Si solus pater est, pater est, si pater est,
+          fi<lb ed="#G" n="74" break="no"/>lius est, ergo si solus pater est, filius est, &amp; per consequens 
+          <lb ed="#G" n="75"/>non ex cluditur. 
+        </p>
+        <p xml:id="HuYgTa-e61006-d1e642">
+          <lb ed="#G" n="76"/>
+          <pc type="indent"/>4 Praeterea, illud, quod est de intellectu alicuius, non  
+          <lb ed="#G" n="77"/>excluditur per additionem distinctionis exclusiuae ab ip 
+          <lb ed="#G" n="78"/>o: non nm sequitur, solus homo est, ergo animal non est, 
+          <lb ed="#G" n="79"/>uia animal est de intellectu hominis: sed vnum
+          relati<lb ed="#G" n="80" break="no"/>uorum est de intellectu alterius. 
+        </p>
+        <p xml:id="HuYgTa-e61006-d1e658">
+          <lb ed="#G" n="81"/>
+          <pc type="indent"/>Sed illa non concludunt &amp; communis opinio tenes 
+          <lb ed="#G" n="82"/>oppositum, ergo. 
+        </p>
+        <p xml:id="HuYgTa-e61006-d1e667">
+          <lb ed="#G" n="83"/>
+          <pc type="indent"/>Ad primum dicendum, quod maior est falsa, vt patuit 
+          <lb ed="#G" n="84"/>in praecedentibus 
+        </p>
+        <p xml:id="HuYgTa-e61006-d1e676">
+          <lb ed="#G" n="85"/>
+          <pc type="indent"/>Ad secundum dicendum, quod maior non est vera
+          con<lb ed="#G" n="86" break="no"/>iderando constitutionem rei: quia pars integralis
+          spe<lb ed="#G" n="87" break="no"/>ctat ad constitutionem totius, vnum autem relatiuorum 
+          <lb ed="#G" n="88"/>non spectat ad constitutionem alterius. 
+        </p>
+        <p xml:id="HuYgTa-e61006-d1e689">
+          <lb ed="#G" n="89"/>
+          <pc type="indent"/>Ad tertium dicendum, quod prima consequentia, quae 
+          <lb ed="#G" n="90"/>ssumitur pro maiore, potest negari: quia dictio exclufius 
+          <lb ed="#G" n="91"/>addita vni relatiuorum sapit naturam distinctionis distra 
+          <lb ed="#G" n="92"/>hentis; sicut igitur non sequitur, homo mortuus est, ergo 
+          <lb ed="#G" n="93"/>nomo est, sic non sequitur, solus pater est, ergo pater est: 
+          <lb ed="#G" n="94"/>&amp; illa videtur esse expressa intentio Aristo. 1. physicorum 
+          <lb ed="#G" n="95"/>cum ait: non enim amplius principium est, si vnum solum. 
+        </p>
+        <p xml:id="HuYgTa-e61006-d1e710">
+          <lb ed="#G" n="96"/>
+          <pc type="indent"/>Ad quartum dicendum, quod maior est vera, si est de 
+          <lb ed="#G" n="97"/>suo principali intellectu; sic autem, vt patuit, non est vnum 
+          <lb ed="#G" n="98"/>relatiuum de intellectu alterius, ergo non valet quod 
+          <lb ed="#G" n="99"/>dicitur.  
+        </p>
+        <p xml:id="HuYgTa-e61006-d1e723">
+          <lb ed="#G" n="100"/>
+          <pc type="indent"/>ARTICVLVS II. 
+          <lb ed="#G" n="101"/>Vtrum Haec proposito vera sit videlicet solus 
+          <lb ed="#G" n="102"/>
+          <pc type="indent"/>pater est Deus.
+        </p>
+        <p xml:id="HuYgTa-e61006-d1e736">
+          <lb ed="#G" n="103"/>VANTVM ad tertium principale; vtrum haec sit
+          ve<lb ed="#G" n="104" break="no"/>ra, solus pater est Deus, dicedum, quod haec
+          pro<lb ed="#G" n="105" break="no"/>osito, solus pater est Deus, est neganda: quia cum dictio 
+          <lb ed="#G" n="106"/>exclusiua addita vni relatiuorum excludat alterum, ergo si 
+          <lb ed="#G" n="107"/>illa est vera, sequeretur, quod filius non esset Deus.  
+        </p>
+        <p xml:id="HuYgTa-e61006-d1e749">
+          <lb ed="#G" n="108"/>
+          <pc type="indent"/>Et si dicitur, August. quandoque concedit illam, solus 
+          <lb ed="#G" n="109"/>pater est immortalis;  
+        </p>
+        <p xml:id="HuYgTa-e61006-d1e758">
+          <lb ed="#G" n="110"/>
+          <pc type="indent"/>Dicendum, quod quia patri appropriatur virtus, &amp; po 
+          <lb ed="#G" n="111"/>tentia, sicut filio sapientia; ideo sicut ratione
+          appropria<lb ed="#G" n="112" break="no"/>tionis dicitur in persona filij, Ovrum coeli circuiui sola  
+          <lb ed="#G" n="113"/>sic quia immortalitas attestatur virtuti, seu potentiae; ideo 
+          <lb ed="#G" n="114"/>appropriate conceditur illa, so lus pater habet immorta 
+          <lb ed="#G" n="115"/>itatem, per hoc enim non excluduntur aliae diuinae
+          per<lb ed="#G" n="116" break="no"/>onae a consortio praedicati: sed tantummodo
+          excludun<lb ed="#G" n="117" break="no"/>tur ab appropriatione eius. 
+        </p>
+        <p xml:id="HuYgTa-e61006-d1e780">
+          <lb ed="#G" n="118"/>
+          <pc type="indent"/>Est tamen sciendum, quod si in propositone praedicta 
+          <lb ed="#G" n="119"/>Iy solus non tenetur exclusiue; sed praecisiue, tunc propo 
+          <lb ed="#G" n="120"/>atio est vera. Est enim sensus, quod illud diuinum
+          suppo<lb ed="#G" n="121" break="no"/>situm, quod in esse personali per solam paternitatem con 
+          <lb ed="#G" n="122"/>stituitur, est Deus; sic enim non exluduntur aliae diuinae 
+          <lb ed="#G" n="123"/>personae a consortio illius praedicati, quod est Deus: sed  
+          <lb ed="#G" n="124"/>tantummodo praescinditur forma subiecti. 
+        </p>
+        <p xml:id="HuYgTa-e61006-d1e801">
+          <lb ed="#G" n="125"/>
+          <pc type="indent"/>ARTICVLVS IIII 
+          <lb ed="#G" n="126"/>Vtrum Haec proposito vera sit, solus Deus 
+          <lb ed="#G" n="127"/>est Deus.
+        </p>
+        <p xml:id="HuYgTa-e61006-d1e812">
+          <lb ed="#G" n="128"/>QVANTVM ad quartum principale, vtrum haec propo 
+          <lb ed="#G" n="129"/> sitio, solus Deus est Deus, sit concedenda, d ico, 
+          <lb ed="#G" n="130"/>quod haec proposito, solus Deus est Deus, vel sola
+          trini<lb ed="#G" n="131" break="no"/>tas est Deus, est absolute concedenda: quia pr talia datur in 
+          <lb ed="#G" n="132"/>telligi, quod solummodo illud, quod habet naturam
+          di<lb ed="#G" n="133" break="no"/>uinam est Deus, vel quod solum tres personae in vna
+          na<lb ed="#G" n="134" break="no"/>tura sunt verus Deus. 
+        </p>
+        <p xml:id="HuYgTa-e61006-d1e830">
+          <lb ed="#G" n="135"/>
+          <pc type="indent"/>Ad argumentum in oppositum principale patet per 
+          <lb ed="#G" n="136"/>dicta in3 articulo.
+        </p>
+      </div>
+    </body>
+  </text>
 </TEI>

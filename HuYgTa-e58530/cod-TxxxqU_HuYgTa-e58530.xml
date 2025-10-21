@@ -1,111 +1,111 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Circa textum</title>
-            <author ref="#ThomasStrasbourg">Thomas of Strasbourg</author>
-            <respStmt>
-               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
-               <resp>Transcription Editor</resp>
-               <resp>TEI Encoder</resp>
-            </respStmt>
-         </titleStmt>
-         <editionStmt>
-            <edition n="0.0.0-dev">
-               <title>Circa textum</title>
-               <date when="2020-11-26">November 26, 2020</date>
-            </edition>
-         </editionStmt>
-         <publicationStmt>
-            <authority>SCTA</authority>
-            <availability status="free">
-               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
-               </p>
-            </availability>
-         </publicationStmt>
-         <sourceDesc>
-            <listWit>
-               <witness xml:id="G" n="cod-TxxxqU">Genoa 1585</witness>
-            </listWit>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
-         <editorialDecl>
-            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
-       guidelines for a diplomatic edition.</p>
-         </editorialDecl>
-      </encodingDesc>
-      <revisionDesc status="draft">
-         <listChange>
-            <change when="2020-11-26" status="draft" n="0.0.0">
-               <p>Created file for the first time.</p>
-            </change>
-         </listChange>
-      </revisionDesc>
-   </teiHeader>
-   <text xml:lang="la">
-      <front>
-         <div xml:id="starts-on">
-            <pb ed="#G" n="-r"/>
-            <cb ed="#G" n="a"/>
-         </div>
-      </front>
-      <body>
-         <div xml:id="HuYgTa-e58530"><!-- HuYgTa-l1d18ct1 -->
-            <head xml:id="HuYgTa-e58530-Hd1e108">Circa textum</head>
-            <p xml:id="HuYgTa-e58530-d1e111">
-               <lb ed="#G" n="51"/>
-               <pc type="indent"/>DISTINCTIO XVIII 
-      <lb ed="#G" n="52"/>Tertiae particulae principalis tractatus de processioni 
-      <lb ed="#G" n="53"/>temporali spiritus sancti distincta, &amp; facilis si 
-      <lb ed="#G" n="54"/>diuisio, in qua de proprietate spiritus 
-      <lb ed="#G" n="55"/>sancti importata sub nomine 
-      <lb ed="#G" n="56"/>dati sute doni sedulo 
-      <lb ed="#G" n="57"/>peti actatir.
-    </p>
-            <p xml:id="HuYgTa-e58530-d1e131">
-               <lb ed="#G" n="58"/>RATEREA diligenter &amp;c Pofs 
-      <lb ed="#G" n="59"/>quam Magister tractauit de
-      mo<lb ed="#G" n="60" break="no"/>do temporalis processionis ipsius 
-      <lb ed="#G" n="61"/>spiritus xancti, in hac 18. distinctio 
-      <lb ed="#G" n="62"/>ne tractat de proprietate ipsius 
-      <lb ed="#G" n="63"/>piritus sancti signata sub nomi- 
-      <lb ed="#G" n="64"/>ne dati; siue doni, Et potest breui 
-      <lb ed="#G" n="65"/>ter ista distinctio diuidi in quin 
-      <lb ed="#G" n="66"/>que partes, secundum quod Magister circa hoc nomen
-      do<lb ed="#G" n="67" break="no"/>num prout conuenit spiritui sancto mouet quinque quae 
-      <lb ed="#G" n="68"/>ctiones. Secunda ibi, Sed quaeritur cui donabilis. Tertia 
-      <!--192.xml-->
-      <cb ed="#G" n="b"/>
-               <lb ed="#G" n="69"/>ibi. Hic oritur quaestio. Quarta ibi, Hic quaeritur vtrun 
-      <lb ed="#G" n="70"/>filius. Quinta ibi, Post haec queritur vtrum &amp;c. Prima di 
-      <lb ed="#G" n="71"/>uiditur in tres: quia primo arguendo ad vtramque partem 
-      <lb ed="#G" n="72"/>mouet quaestionem, secundo eirca motam quaestionen 
-      <lb ed="#G" n="73"/>ponit suam determinationem, &amp; tertio suae determinatio 
-      <lb ed="#G" n="74"/>ni adiungit probationem. Secunda ibi, Ad quod dicimus 
-      <lb ed="#G" n="75"/>Tertia ibi. Non ergo spiritus sanctus. Similiter quaestio 
-      <lb ed="#G" n="76"/>secunda diuiditur in tres partes: nam primo magister prae 
-      <lb ed="#G" n="77"/>mittit titulum quaestionis, secundo tangit materiam
-      so<lb ed="#G" n="78" break="no"/>lutionis, Et tertio subiungit quoddam notabile ex
-      prae<lb ed="#G" n="79" break="no"/>dictis. Secunda ibi, Ad quod dicimus Tertia ibi. Et notan 
-      <lb ed="#G" n="80"/>dum est. Etiam tertia quaestio diuiditur in tres partes, se 
-      <lb ed="#G" n="81"/>cundum quod primo mouetur quaestio. Secundo additur 
-      <lb ed="#G" n="82"/>responsio, Et tertio ex praedictis quasi corellarie
-      multi<lb ed="#G" n="83" break="no"/>plex infertur illatio, Secunda ibi, Ad hoc breuiter respon 
-      <lb ed="#G" n="84"/>demus. Tertia ibi, Ecce his verbis. Et haec in quattuor. 
-      <lb ed="#G" n="85"/>secundum quod inferuntur quattuor corellaria, Secunda 
-      <lb ed="#G" n="86"/>ibi, Ex supradictis. Tertia ibi, fit secundum hoc &amp;c.
-      Quar<lb ed="#G" n="87" break="no"/>ta ibi, ltaque &amp; spiritus sanctus. Quarta quaestio similiter 
-      <lb ed="#G" n="88"/>diuiditur in duas partes: nam primo proponit quaestionem, 
-      <lb ed="#G" n="89"/>Secundo annectit responsionem, Responsio incipit ibi 
-      <lb ed="#G" n="90"/>Ad quod dicimus, quod filius &amp;c. Vltima quaestio
-      diuidi<lb ed="#G" n="91" break="no"/>tur in duas partes, secundum quod primo mouetur
-      quae<lb ed="#G" n="92" break="no"/>stio. Secundo in futurum differtur eius responsio
-      Secun<lb ed="#G" n="93" break="no"/>da ibi, Huius quaestionis determinationem. Circa hanc di 
-      <lb ed="#G" n="94"/>stinctionem quaero. 
-    </p>
-         </div>
-      </body>
-   </text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Circa textum</title>
+        <author ref="#ThomasStrasbourg">Thomas of Strasbourg</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Circa textum</title>
+          <date when="2020-11-26">November 26, 2020</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="G" n="cod-TxxxqU">Genoa 1585</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2020-11-26" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#G" n="77-r"/>
+        <cb ed="#G" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="HuYgTa-e58530"><!-- HuYgTa-l1d18ct1 -->
+        <head xml:id="HuYgTa-e58530-Hd1e108">Circa textum</head>
+        <p xml:id="HuYgTa-e58530-d1e111">
+          <lb ed="#G" n="51"/>
+          <pc type="indent"/>DISTINCTIO XVIII 
+          <lb ed="#G" n="52"/>Tertiae particulae principalis tractatus de processioni 
+          <lb ed="#G" n="53"/>temporali spiritus sancti distincta, &amp; facilis si 
+          <lb ed="#G" n="54"/>diuisio, in qua de proprietate spiritus 
+          <lb ed="#G" n="55"/>sancti importata sub nomine 
+          <lb ed="#G" n="56"/>dati sute doni sedulo 
+          <lb ed="#G" n="57"/>peti actatir.
+        </p>
+        <p xml:id="HuYgTa-e58530-d1e131">
+          <lb ed="#G" n="58"/>RATEREA diligenter &amp;c Pofs 
+          <lb ed="#G" n="59"/>quam Magister tractauit de
+          mo<lb ed="#G" n="60" break="no"/>do temporalis processionis ipsius 
+          <lb ed="#G" n="61"/>spiritus xancti, in hac 18. distinctio 
+          <lb ed="#G" n="62"/>ne tractat de proprietate ipsius 
+          <lb ed="#G" n="63"/>piritus sancti signata sub nomi- 
+          <lb ed="#G" n="64"/>ne dati; siue doni, Et potest breui 
+          <lb ed="#G" n="65"/>ter ista distinctio diuidi in quin 
+          <lb ed="#G" n="66"/>que partes, secundum quod Magister circa hoc nomen
+          do<lb ed="#G" n="67" break="no"/>num prout conuenit spiritui sancto mouet quinque quae 
+          <lb ed="#G" n="68"/>ctiones. Secunda ibi, Sed quaeritur cui donabilis. Tertia 
+          <!--192.xml-->
+          <cb ed="#G" n="b"/>
+          <lb ed="#G" n="69"/>ibi. Hic oritur quaestio. Quarta ibi, Hic quaeritur vtrun 
+          <lb ed="#G" n="70"/>filius. Quinta ibi, Post haec queritur vtrum &amp;c. Prima di 
+          <lb ed="#G" n="71"/>uiditur in tres: quia primo arguendo ad vtramque partem 
+          <lb ed="#G" n="72"/>mouet quaestionem, secundo eirca motam quaestionen 
+          <lb ed="#G" n="73"/>ponit suam determinationem, &amp; tertio suae determinatio 
+          <lb ed="#G" n="74"/>ni adiungit probationem. Secunda ibi, Ad quod dicimus 
+          <lb ed="#G" n="75"/>Tertia ibi. Non ergo spiritus sanctus. Similiter quaestio 
+          <lb ed="#G" n="76"/>secunda diuiditur in tres partes: nam primo magister prae 
+          <lb ed="#G" n="77"/>mittit titulum quaestionis, secundo tangit materiam
+          so<lb ed="#G" n="78" break="no"/>lutionis, Et tertio subiungit quoddam notabile ex
+          prae<lb ed="#G" n="79" break="no"/>dictis. Secunda ibi, Ad quod dicimus Tertia ibi. Et notan 
+          <lb ed="#G" n="80"/>dum est. Etiam tertia quaestio diuiditur in tres partes, se 
+          <lb ed="#G" n="81"/>cundum quod primo mouetur quaestio. Secundo additur 
+          <lb ed="#G" n="82"/>responsio, Et tertio ex praedictis quasi corellarie
+          multi<lb ed="#G" n="83" break="no"/>plex infertur illatio, Secunda ibi, Ad hoc breuiter respon 
+          <lb ed="#G" n="84"/>demus. Tertia ibi, Ecce his verbis. Et haec in quattuor. 
+          <lb ed="#G" n="85"/>secundum quod inferuntur quattuor corellaria, Secunda 
+          <lb ed="#G" n="86"/>ibi, Ex supradictis. Tertia ibi, fit secundum hoc &amp;c.
+          Quar<lb ed="#G" n="87" break="no"/>ta ibi, ltaque &amp; spiritus sanctus. Quarta quaestio similiter 
+          <lb ed="#G" n="88"/>diuiditur in duas partes: nam primo proponit quaestionem, 
+          <lb ed="#G" n="89"/>Secundo annectit responsionem, Responsio incipit ibi 
+          <lb ed="#G" n="90"/>Ad quod dicimus, quod filius &amp;c. Vltima quaestio
+          diuidi<lb ed="#G" n="91" break="no"/>tur in duas partes, secundum quod primo mouetur
+          quae<lb ed="#G" n="92" break="no"/>stio. Secundo in futurum differtur eius responsio
+          Secun<lb ed="#G" n="93" break="no"/>da ibi, Huius quaestionis determinationem. Circa hanc di 
+          <lb ed="#G" n="94"/>stinctionem quaero. 
+        </p>
+      </div>
+    </body>
+  </text>
 </TEI>

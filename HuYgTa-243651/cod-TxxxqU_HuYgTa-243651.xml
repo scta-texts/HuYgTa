@@ -1,98 +1,98 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Circa textum</title>
-            <author ref="#ThomasStrasbourg">Thomas of Strasbourg</author>
-            <respStmt>
-               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
-               <resp>Transcription Editor</resp>
-               <resp>TEI Encoder</resp>
-            </respStmt>
-         </titleStmt>
-         <editionStmt>
-            <edition n="0.0.0-dev">
-               <title>Circa textum</title>
-               <date when="2020-11-26">November 26, 2020</date>
-            </edition>
-         </editionStmt>
-         <publicationStmt>
-            <authority>SCTA</authority>
-            <availability status="free">
-               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
-               </p>
-            </availability>
-         </publicationStmt>
-         <sourceDesc>
-            <listWit>
-               <witness xml:id="G" n="cod-TxxxqU">Genoa 1585</witness>
-            </listWit>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
-         <editorialDecl>
-            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
-       guidelines for a diplomatic edition.</p>
-         </editorialDecl>
-      </encodingDesc>
-      <revisionDesc status="draft">
-         <listChange>
-            <change when="2020-11-26" status="draft" n="0.0.0">
-               <p>Created file for the first time.</p>
-            </change>
-         </listChange>
-      </revisionDesc>
-   </teiHeader>
-   <text xml:lang="la">
-      <front>
-         <div xml:id="starts-on">
-           <pb ed="#G" n="P2_110-v"/>
-            <cb ed="#G" n="a"/>
-         </div>
-      </front>
-      <body>
-         <div xml:id="HuYgTa-243651"><!-- HuYgTa-l4d13ct1 -->
-            <head xml:id="HuYgTa-243651-Hd1e108">Circa textum</head>
-            <p xml:id="HuYgTa-243651-d1e111">
-               <lb ed="#G" n="86"/>
-               <pc type="indent"/>DISTINCTIO XIII. 
-      <lb ed="#G" n="87"/>Facilis huius distincti onis duuisio, in qua agtir di 
-      <lb ed="#G" n="88"/>
-               <pc type="indent"/>condicionc ministri cucharistiae. 
-    </p>
-            <p xml:id="HuYgTa-243651-d1e124">
-               <lb ed="#G" n="89"/>
-               <pc type="indent"/>LETETIAM QVAR1. Postui 
-      <lb ed="#G" n="90"/>magister determinauit de istius sactamen 
-      <lb ed="#G" n="91"/>ti consecratione: nunc in ista 12x.
-      distain<lb ed="#G" n="92" break="no"/>uirit de consecrantis condicione &amp;di 
-      <lb ed="#G" n="93"/>uiditur in duas partes: quia primo detm 
-      <lb ed="#G" n="94"/>dicione consecrantis determinat. Secun 
-      <lb ed="#G" n="95"/>do circa determinata epilogat, ibi, De hoc coelesti. Prim 
-      <lb ed="#G" n="96"/>in duas: quia primo tractat de consecrantis vita, &amp; pro 
-      <lb ed="#G" n="97"/>essione Secundo de eius ordine, &amp; intentione, ibi, inhu 
-      <lb ed="#G" n="98"/>ius autem mvsterij. Prima in duas: quia primo tractatde 
-      <lb ed="#G" n="99"/>sacerdotibus mortalibus peccatis maculatis. Secundo de 
-      <lb ed="#G" n="100"/>acerdotibus haereticis, &amp; excommunicatis, ibi, llli vero d 
-      <lb ed="#G" n="101"/>qui excommunicati. Prima in tres: quia primo, vtrumpr¬I 
-      <lb ed="#G" n="102"/>ui sacerdotes conficiant, mouet quaestionem. Secundo 
-      <lb ed="#G" n="103"/>adiungit suam responsionem. Tertio suae responsiooi 
-      <lb ed="#G" n="104"/>innuit probationem. Secunda, ibi, Ad quod dici potes 
-      <lb ed="#G" n="105"/>Tertia, ibi; Quia non immerito consecrantis. Sequiturib 
-      <lb ed="#G" n="106"/>la pars, in huius autem mysterij. Et diuiditur in duas pai 
-      <lb ed="#G" n="107"/>tes: quia primo ostendit, quod sacerdotalis ordo, &amp; con 
-      <lb ed="#G" n="108"/>secrantis intentio, necessario requiruntur ad veram con 
-      <lb ed="#G" n="109"/>poris Christi consecrationem,. Secundo determinat quoa 
-      <lb ed="#G" n="110"/>dam incidens circa corporis Christi manducationemibi 
-      <lb ed="#G" n="111"/>lllud etiam sane. Tunc sequitur illa pars, De hoc cnlesi 
-      <lb ed="#G" n="112"/>Et diuiditur in duas: quia primo epilogando innui 
-      <lb ed="#G" n="113"/>quod ille, qui non credit, quae dicta sunt in hoc tractaum 
-      <lb ed="#G" n="114"/>de isto sacramento, est reputandus haereticus. Secundi 
-      <lb ed="#G" n="115"/>gratia huius ostendit, quid sit haereticus, ibi, Ne autem 
-      <lb ed="#G" n="116"/>gnores. Circa istam distinct. quaero in speciali¬ 
-    </p>
-         </div>
-      </body>
-   </text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Circa textum</title>
+        <author ref="#ThomasStrasbourg">Thomas of Strasbourg</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Circa textum</title>
+          <date when="2020-11-26">November 26, 2020</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="G" n="cod-TxxxqU">Genoa 1585</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2020-11-26" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#G" n="P2_110-v"/>
+        <cb ed="#G" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="HuYgTa-243651"><!-- HuYgTa-l4d13ct1 -->
+        <head xml:id="HuYgTa-243651-Hd1e108">Circa textum</head>
+        <p xml:id="HuYgTa-243651-d1e111">
+          <lb ed="#G" n="86"/>
+          <pc type="indent"/>DISTINCTIO XIII. 
+          <lb ed="#G" n="87"/>Facilis huius distincti onis duuisio, in qua agtir di 
+          <lb ed="#G" n="88"/>
+          <pc type="indent"/>condicionc ministri cucharistiae. 
+        </p>
+        <p xml:id="HuYgTa-243651-d1e124">
+          <lb ed="#G" n="89"/>
+          <pc type="indent"/>LETETIAM QVAR1. Postui 
+          <lb ed="#G" n="90"/>magister determinauit de istius sactamen 
+          <lb ed="#G" n="91"/>ti consecratione: nunc in ista 12x.
+          distain<lb ed="#G" n="92" break="no"/>uirit de consecrantis condicione &amp;di 
+          <lb ed="#G" n="93"/>uiditur in duas partes: quia primo detm 
+          <lb ed="#G" n="94"/>dicione consecrantis determinat. Secun 
+          <lb ed="#G" n="95"/>do circa determinata epilogat, ibi, De hoc coelesti. Prim 
+          <lb ed="#G" n="96"/>in duas: quia primo tractat de consecrantis vita, &amp; pro 
+          <lb ed="#G" n="97"/>essione Secundo de eius ordine, &amp; intentione, ibi, inhu 
+          <lb ed="#G" n="98"/>ius autem mvsterij. Prima in duas: quia primo tractatde 
+          <lb ed="#G" n="99"/>sacerdotibus mortalibus peccatis maculatis. Secundo de 
+          <lb ed="#G" n="100"/>acerdotibus haereticis, &amp; excommunicatis, ibi, llli vero d 
+          <lb ed="#G" n="101"/>qui excommunicati. Prima in tres: quia primo, vtrumpr¬I 
+          <lb ed="#G" n="102"/>ui sacerdotes conficiant, mouet quaestionem. Secundo 
+          <lb ed="#G" n="103"/>adiungit suam responsionem. Tertio suae responsiooi 
+          <lb ed="#G" n="104"/>innuit probationem. Secunda, ibi, Ad quod dici potes 
+          <lb ed="#G" n="105"/>Tertia, ibi; Quia non immerito consecrantis. Sequiturib 
+          <lb ed="#G" n="106"/>la pars, in huius autem mysterij. Et diuiditur in duas pai 
+          <lb ed="#G" n="107"/>tes: quia primo ostendit, quod sacerdotalis ordo, &amp; con 
+          <lb ed="#G" n="108"/>secrantis intentio, necessario requiruntur ad veram con 
+          <lb ed="#G" n="109"/>poris Christi consecrationem,. Secundo determinat quoa 
+          <lb ed="#G" n="110"/>dam incidens circa corporis Christi manducationemibi 
+          <lb ed="#G" n="111"/>lllud etiam sane. Tunc sequitur illa pars, De hoc cnlesi 
+          <lb ed="#G" n="112"/>Et diuiditur in duas: quia primo epilogando innui 
+          <lb ed="#G" n="113"/>quod ille, qui non credit, quae dicta sunt in hoc tractaum 
+          <lb ed="#G" n="114"/>de isto sacramento, est reputandus haereticus. Secundi 
+          <lb ed="#G" n="115"/>gratia huius ostendit, quid sit haereticus, ibi, Ne autem 
+          <lb ed="#G" n="116"/>gnores. Circa istam distinct. quaero in speciali¬ 
+        </p>
+      </div>
+    </body>
+  </text>
 </TEI>

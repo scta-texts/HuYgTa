@@ -1,94 +1,94 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Circa textum</title>
-            <author ref="#ThomasStrasbourg">Thomas of Strasbourg</author>
-            <respStmt>
-               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
-               <resp>Transcription Editor</resp>
-               <resp>TEI Encoder</resp>
-            </respStmt>
-         </titleStmt>
-         <editionStmt>
-            <edition n="0.0.0-dev">
-               <title>Circa textum</title>
-               <date when="2020-11-26">November 26, 2020</date>
-            </edition>
-         </editionStmt>
-         <publicationStmt>
-            <authority>SCTA</authority>
-            <availability status="free">
-               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
-               </p>
-            </availability>
-         </publicationStmt>
-         <sourceDesc>
-            <listWit>
-               <witness xml:id="G" n="cod-TxxxqU">Genoa 1585</witness>
-            </listWit>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
-         <editorialDecl>
-            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
-       guidelines for a diplomatic edition.</p>
-         </editorialDecl>
-      </encodingDesc>
-      <revisionDesc status="draft">
-         <listChange>
-            <change when="2020-11-26" status="draft" n="0.0.0">
-               <p>Created file for the first time.</p>
-            </change>
-         </listChange>
-      </revisionDesc>
-   </teiHeader>
-   <text xml:lang="la">
-      <front>
-         <div xml:id="starts-on">
-           <pb ed="#G" n="P2_164-r"/>
-            <cb ed="#G" n="a"/>
-         </div>
-      </front>
-      <body>
-         <div xml:id="HuYgTa-283669"><!-- HuYgTa-l4d34ct1 -->
-            <head xml:id="HuYgTa-283669-Hd1e108">Circa textum</head>
-            <p xml:id="HuYgTa-283669-d1e111">
-               <lb ed="#G" n="27"/>DISTINCTIO XXXIIII. . 
-      <lb ed="#G" n="28"/>Compendiosa huius distinctionis duusio, in qua ao 
-      <lb ed="#G" n="29"/>tur de Matrimonum contrabentibus
-    </p>
-            <p xml:id="HuYgTa-283669-d1e120">
-               <lb ed="#G" n="30"/>
-               <pc type="indent"/>VNC superest ostendere. Postquam 
-      <lb ed="#G" n="31"/>
-               <pc type="indent"/>magister determinauit de boni 
-      <lb ed="#G" n="32"/>ma trimonialibus, quae sunt matri 
-      <lb ed="#G" n="33"/>monii causa finalis, nuic in ista. 34 
-      <lb ed="#G" n="34"/>distin incipit tractare de personi 
-      <lb ed="#G" n="35"/>contrahentibus, quae sunt matrimo 
-      <lb ed="#G" n="36"/>nii causa materialis. Et diuiditur 
-      <lb ed="#G" n="37"/>in duas partes, quia primo tracta. 
-      <lb ed="#G" n="38"/>de personis aliquo modo illegitimis ad matrimonium per 
-      <lb ed="#G" n="39"/>ficiendum. Secundo de personis omnino inhabilibus ad ma 
-      <lb ed="#G" n="40"/>trimonium contrahendum, dist. 37. ibi, Sunt igitur quidam
-      or<lb ed="#G" n="41" break="no"/>dines. Prima in duastnam primo tractat de impedimer 
-      <lb ed="#G" n="42"/>tis contractum matrimonsi praecedentibus Secundo de 
-      <lb ed="#G" n="43"/>impedimentis concomitantibus, &amp; subsequentibus, ibi 
-      <lb ed="#G" n="44"/>Hoc etiam notandum. Prima in duas: quia primo conside 
-      <lb ed="#G" n="45"/>rat quaedam impedimenta, quae quadoque matrimonium
-      to<lb ed="#G" n="46" break="no"/>taliter dirimunt. Secundo de quibusdam, quae numquam 
-      <lb ed="#G" n="47"/>matrimonium poenitus tollunt, ibi De his etiam. Prima in 
-      <lb ed="#G" n="48"/>duas, quia primo quaedam impedimenta matrimonium 
-      <lb ed="#G" n="49"/>dirimentia tangit in vniuersali Secudo aliqua praedicto 
-      <lb ed="#G" n="50"/>rum tagit in speciali, ibi De his enim. Et haec in tres, quia 
-      <lb ed="#G" n="51"/>primo ostendit, quomodo matrimonium impeditur na 
-      <lb ed="#G" n="52"/>tur ali frigiditate. Secundo, maleficit prauitate. Tertio, fu 
-      <lb ed="#G" n="53"/>riosa infirmitate, Secunda, ibi, De maleficii aute. Tertia, 
-      <lb ed="#G" n="54"/>ibi Furiosi quoque. Circa istam distinctionem quaero. 
-    </p>
-         </div>
-      </body>
-   </text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Circa textum</title>
+        <author ref="#ThomasStrasbourg">Thomas of Strasbourg</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Circa textum</title>
+          <date when="2020-11-26">November 26, 2020</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="G" n="cod-TxxxqU">Genoa 1585</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2020-11-26" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#G" n="P2_164-r"/>
+        <cb ed="#G" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="HuYgTa-283669"><!-- HuYgTa-l4d34ct1 -->
+        <head xml:id="HuYgTa-283669-Hd1e108">Circa textum</head>
+        <p xml:id="HuYgTa-283669-d1e111">
+          <lb ed="#G" n="27"/>DISTINCTIO XXXIIII. . 
+          <lb ed="#G" n="28"/>Compendiosa huius distinctionis duusio, in qua ao 
+          <lb ed="#G" n="29"/>tur de Matrimonum contrabentibus
+        </p>
+        <p xml:id="HuYgTa-283669-d1e120">
+          <lb ed="#G" n="30"/>
+          <pc type="indent"/>VNC superest ostendere. Postquam 
+          <lb ed="#G" n="31"/>
+          <pc type="indent"/>magister determinauit de boni 
+          <lb ed="#G" n="32"/>ma trimonialibus, quae sunt matri 
+          <lb ed="#G" n="33"/>monii causa finalis, nuic in ista. 34 
+          <lb ed="#G" n="34"/>distin incipit tractare de personi 
+          <lb ed="#G" n="35"/>contrahentibus, quae sunt matrimo 
+          <lb ed="#G" n="36"/>nii causa materialis. Et diuiditur 
+          <lb ed="#G" n="37"/>in duas partes, quia primo tracta. 
+          <lb ed="#G" n="38"/>de personis aliquo modo illegitimis ad matrimonium per 
+          <lb ed="#G" n="39"/>ficiendum. Secundo de personis omnino inhabilibus ad ma 
+          <lb ed="#G" n="40"/>trimonium contrahendum, dist. 37. ibi, Sunt igitur quidam
+          or<lb ed="#G" n="41" break="no"/>dines. Prima in duastnam primo tractat de impedimer 
+          <lb ed="#G" n="42"/>tis contractum matrimonsi praecedentibus Secundo de 
+          <lb ed="#G" n="43"/>impedimentis concomitantibus, &amp; subsequentibus, ibi 
+          <lb ed="#G" n="44"/>Hoc etiam notandum. Prima in duas: quia primo conside 
+          <lb ed="#G" n="45"/>rat quaedam impedimenta, quae quadoque matrimonium
+          to<lb ed="#G" n="46" break="no"/>taliter dirimunt. Secundo de quibusdam, quae numquam 
+          <lb ed="#G" n="47"/>matrimonium poenitus tollunt, ibi De his etiam. Prima in 
+          <lb ed="#G" n="48"/>duas, quia primo quaedam impedimenta matrimonium 
+          <lb ed="#G" n="49"/>dirimentia tangit in vniuersali Secudo aliqua praedicto 
+          <lb ed="#G" n="50"/>rum tagit in speciali, ibi De his enim. Et haec in tres, quia 
+          <lb ed="#G" n="51"/>primo ostendit, quomodo matrimonium impeditur na 
+          <lb ed="#G" n="52"/>tur ali frigiditate. Secundo, maleficit prauitate. Tertio, fu 
+          <lb ed="#G" n="53"/>riosa infirmitate, Secunda, ibi, De maleficii aute. Tertia, 
+          <lb ed="#G" n="54"/>ibi Furiosi quoque. Circa istam distinctionem quaero. 
+        </p>
+      </div>
+    </body>
+  </text>
 </TEI>

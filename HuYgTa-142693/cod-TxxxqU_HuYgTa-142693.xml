@@ -1,111 +1,111 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Circa textum</title>
-            <author ref="#ThomasStrasbourg">Thomas of Strasbourg</author>
-            <respStmt>
-               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
-               <resp>Transcription Editor</resp>
-               <resp>TEI Encoder</resp>
-            </respStmt>
-         </titleStmt>
-         <editionStmt>
-            <edition n="0.0.0-dev">
-               <title>Circa textum</title>
-               <date when="2020-11-26">November 26, 2020</date>
-            </edition>
-         </editionStmt>
-         <publicationStmt>
-            <authority>SCTA</authority>
-            <availability status="free">
-               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
-               </p>
-            </availability>
-         </publicationStmt>
-         <sourceDesc>
-            <listWit>
-               <witness xml:id="G" n="cod-TxxxqU">Genoa 1585</witness>
-            </listWit>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
-         <editorialDecl>
-            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
-       guidelines for a diplomatic edition.</p>
-         </editorialDecl>
-      </encodingDesc>
-      <revisionDesc status="draft">
-         <listChange>
-            <change when="2020-11-26" status="draft" n="0.0.0">
-               <p>Created file for the first time.</p>
-            </change>
-         </listChange>
-      </revisionDesc>
-   </teiHeader>
-   <text xml:lang="la">
-      <front>
-         <div xml:id="starts-on">
-            <pb ed="#G" n="187-r"/>
-            <cb ed="#G" n="a"/>
-         </div>
-      </front>
-      <body>
-         <div xml:id="HuYgTa-142693"><!-- HuYgTa-l2d28-29ct1 -->
-            <head xml:id="HuYgTa-142693-Hd1e108">Circa textum</head>
-            <p xml:id="HuYgTa-142693-d1e111">
-      <!--412.xml-->
-               <pb ed="#G" n="187-r"/>
-               <cb ed="#G" n="a"/>
-               <lb ed="#G" n="1"/>DISTINCTIO NVIIL ETNxI 
-      <lb ed="#G" n="2"/>Compendiosa harum distinctionum diuisio, in quibus 
-      <lb ed="#G" n="3"/>defectus ac insufficientia siberi arbitrij 
-      <lb ed="#G" n="4"/>
-               <pc type="indent"/>aperumtur.
-    </p>
-            <p xml:id="HuYgTa-142693-d1e131">
-               <lb ed="#G" n="5"/>D VERO INC ONCVSSE &amp;c. 
-      <lb ed="#G" n="6"/>Postquam Magister determinauit 
-      <lb ed="#G" n="7"/>de gratiae &amp; virtutis perfectione, &amp;  
-      <lb ed="#G" n="8"/>xcellentia, hic tractat Magister de 
-      <lb ed="#G" n="9"/>liberi arbitrij defectione, &amp;
-      insuffi<lb ed="#G" n="10" break="no"/>cientia. Et diuiditur in duas partes 
-      <lb ed="#G" n="11"/>nam primo Magister ostendit insuf 
-      <lb ed="#G" n="12"/>ficientiam liberi arbitrii quantum 
-      <lb ed="#G" n="13"/>ad omnes homines generaliter. Secundo quo ad primos 
-      <lb ed="#G" n="14"/>parentes specialiter ibi, Post haec considerandum. Prima 
-      <lb ed="#G" n="15"/>n duas, quia primo Magister de liberi arbitrii insufficien 
-      <lb ed="#G" n="16"/>tia, &amp; gratiae Dei indigentia praemittit intentam
-      verita<lb ed="#G" n="17" break="no"/>tem,. Secundo econtra exprimit erroris Pelagij absurdita 
-      <lb ed="#G" n="18"/>tem ibi, Pelagianorum haeres.Et haec in duas: nam primo 
-      <lb ed="#G" n="19"/>errorem Pelagianorum praedictae ueritati contrarium re 
-      <lb ed="#G" n="20"/>citat. Secundo auctoritate Hicronvmi supradictam
-      ve<lb ed="#G" n="21" break="no"/>ritatem confirmat ibi, ld ergo de gratia. Prima in duas: 
-      <lb ed="#G" n="22"/>nam primo ponit errorem, ac eius palliationem.
-      Secun<lb ed="#G" n="23" break="no"/>do pro errore adducit multiplicem probationem ibi, Quod 
-      <lb ed="#G" n="24"/>vero dicunt sine gratia. Et haec diuiditur in quattuor
-      par<lb ed="#G" n="25" break="no"/>tes, secundum quod quattuor adducit probationes.
-      Se<lb ed="#G" n="26" break="no"/>cunda ibi, Similiter autem. Tertia ibi, Alibi etiam Aug.¬ 
-      <lb ed="#G" n="27"/>Quarta ibi, His etiam intelligendum est &amp;c. Et quaelibet 
-      <lb ed="#G" n="28"/>istarum potest subdiuidi, secundum quod Magister
-      pri<lb ed="#G" n="29" break="no"/>mo recitat erroris munitionem. Secundo munitionis de 
-      <lb ed="#G" n="30"/>structionem, &amp; partes patent. Sequitur illa pars, Post haec 
-      <lb ed="#G" n="31"/>considerandum &amp;c, vbi incipit distinctio 25. in qua
-      Magi<lb ed="#G" n="32" break="no"/>ster ostendit insufficientiam liberi arbitrij quo ad primos 
-      <lb ed="#G" n="33"/>parentes specialiter. Et diuiditur in tres partes; quia
-      pri<lb ed="#G" n="34" break="no"/>no ostendit, quod primus homo gratia indiguerit, licet
-      ip<lb ed="#G" n="35" break="no"/>sam non habuerit. Secundo ostendit, quod virtutes
-      ha<lb ed="#G" n="36" break="no"/>buiti, quas tamen per peccatum perdidit. Tertio innuit 
-      <lb ed="#G" n="37"/>qualiter punitus exstitit ex eo, quod peccauit. Secunda 
-      <lb ed="#G" n="38"/>abi, praeterea quaeri solet Tertia ibi, In illius quoque
-      pec<lb ed="#G" n="39" break="no"/>cat. Et haec in duas: quia primo Magister ostendit, quod
-      pec<lb ed="#G" n="40" break="no"/>catum primi hominis ipsum de paradiso expulit.
-      Secun<lb ed="#G" n="41" break="no"/>do inquirit, vtrum ante expulsionem de ligno vitae come 
-      <lb ed="#G" n="42"/>derit ibi, Potest autem quaeri, Circa has distinctiones quae 
-      <lb ed="#G" n="43"/>ro hanc quaestionem. 
-    </p>
-         </div>
-      </body>
-   </text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Circa textum</title>
+        <author ref="#ThomasStrasbourg">Thomas of Strasbourg</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Circa textum</title>
+          <date when="2020-11-26">November 26, 2020</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="G" n="cod-TxxxqU">Genoa 1585</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2020-11-26" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#G" n="187-r"/>
+        <cb ed="#G" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="HuYgTa-142693"><!-- HuYgTa-l2d28-29ct1 -->
+        <head xml:id="HuYgTa-142693-Hd1e108">Circa textum</head>
+        <p xml:id="HuYgTa-142693-d1e111">
+          <!--412.xml-->
+          <pb ed="#G" n="187-r"/>
+          <cb ed="#G" n="a"/>
+          <lb ed="#G" n="1"/>DISTINCTIO NVIIL ETNxI 
+          <lb ed="#G" n="2"/>Compendiosa harum distinctionum diuisio, in quibus 
+          <lb ed="#G" n="3"/>defectus ac insufficientia siberi arbitrij 
+          <lb ed="#G" n="4"/>
+          <pc type="indent"/>aperumtur.
+        </p>
+        <p xml:id="HuYgTa-142693-d1e131">
+          <lb ed="#G" n="5"/>D VERO INC ONCVSSE &amp;c. 
+          <lb ed="#G" n="6"/>Postquam Magister determinauit 
+          <lb ed="#G" n="7"/>de gratiae &amp; virtutis perfectione, &amp;  
+          <lb ed="#G" n="8"/>xcellentia, hic tractat Magister de 
+          <lb ed="#G" n="9"/>liberi arbitrij defectione, &amp;
+          insuffi<lb ed="#G" n="10" break="no"/>cientia. Et diuiditur in duas partes 
+          <lb ed="#G" n="11"/>nam primo Magister ostendit insuf 
+          <lb ed="#G" n="12"/>ficientiam liberi arbitrii quantum 
+          <lb ed="#G" n="13"/>ad omnes homines generaliter. Secundo quo ad primos 
+          <lb ed="#G" n="14"/>parentes specialiter ibi, Post haec considerandum. Prima 
+          <lb ed="#G" n="15"/>n duas, quia primo Magister de liberi arbitrii insufficien 
+          <lb ed="#G" n="16"/>tia, &amp; gratiae Dei indigentia praemittit intentam
+          verita<lb ed="#G" n="17" break="no"/>tem,. Secundo econtra exprimit erroris Pelagij absurdita 
+          <lb ed="#G" n="18"/>tem ibi, Pelagianorum haeres.Et haec in duas: nam primo 
+          <lb ed="#G" n="19"/>errorem Pelagianorum praedictae ueritati contrarium re 
+          <lb ed="#G" n="20"/>citat. Secundo auctoritate Hicronvmi supradictam
+          ve<lb ed="#G" n="21" break="no"/>ritatem confirmat ibi, ld ergo de gratia. Prima in duas: 
+          <lb ed="#G" n="22"/>nam primo ponit errorem, ac eius palliationem.
+          Secun<lb ed="#G" n="23" break="no"/>do pro errore adducit multiplicem probationem ibi, Quod 
+          <lb ed="#G" n="24"/>vero dicunt sine gratia. Et haec diuiditur in quattuor
+          par<lb ed="#G" n="25" break="no"/>tes, secundum quod quattuor adducit probationes.
+          Se<lb ed="#G" n="26" break="no"/>cunda ibi, Similiter autem. Tertia ibi, Alibi etiam Aug.¬ 
+          <lb ed="#G" n="27"/>Quarta ibi, His etiam intelligendum est &amp;c. Et quaelibet 
+          <lb ed="#G" n="28"/>istarum potest subdiuidi, secundum quod Magister
+          pri<lb ed="#G" n="29" break="no"/>mo recitat erroris munitionem. Secundo munitionis de 
+          <lb ed="#G" n="30"/>structionem, &amp; partes patent. Sequitur illa pars, Post haec 
+          <lb ed="#G" n="31"/>considerandum &amp;c, vbi incipit distinctio 25. in qua
+          Magi<lb ed="#G" n="32" break="no"/>ster ostendit insufficientiam liberi arbitrij quo ad primos 
+          <lb ed="#G" n="33"/>parentes specialiter. Et diuiditur in tres partes; quia
+          pri<lb ed="#G" n="34" break="no"/>no ostendit, quod primus homo gratia indiguerit, licet
+          ip<lb ed="#G" n="35" break="no"/>sam non habuerit. Secundo ostendit, quod virtutes
+          ha<lb ed="#G" n="36" break="no"/>buiti, quas tamen per peccatum perdidit. Tertio innuit 
+          <lb ed="#G" n="37"/>qualiter punitus exstitit ex eo, quod peccauit. Secunda 
+          <lb ed="#G" n="38"/>abi, praeterea quaeri solet Tertia ibi, In illius quoque
+          pec<lb ed="#G" n="39" break="no"/>cat. Et haec in duas: quia primo Magister ostendit, quod
+          pec<lb ed="#G" n="40" break="no"/>catum primi hominis ipsum de paradiso expulit.
+          Secun<lb ed="#G" n="41" break="no"/>do inquirit, vtrum ante expulsionem de ligno vitae come 
+          <lb ed="#G" n="42"/>derit ibi, Potest autem quaeri, Circa has distinctiones quae 
+          <lb ed="#G" n="43"/>ro hanc quaestionem. 
+        </p>
+      </div>
+    </body>
+  </text>
 </TEI>

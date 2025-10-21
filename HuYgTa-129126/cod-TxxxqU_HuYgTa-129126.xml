@@ -1,96 +1,96 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Circa textum</title>
-            <author ref="#ThomasStrasbourg">Thomas of Strasbourg</author>
-            <respStmt>
-               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
-               <resp>Transcription Editor</resp>
-               <resp>TEI Encoder</resp>
-            </respStmt>
-         </titleStmt>
-         <editionStmt>
-            <edition n="0.0.0-dev">
-               <title>Circa textum</title>
-               <date when="2020-11-26">November 26, 2020</date>
-            </edition>
-         </editionStmt>
-         <publicationStmt>
-            <authority>SCTA</authority>
-            <availability status="free">
-               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
-               </p>
-            </availability>
-         </publicationStmt>
-         <sourceDesc>
-            <listWit>
-               <witness xml:id="G" n="cod-TxxxqU">Genoa 1585</witness>
-            </listWit>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
-         <editorialDecl>
-            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
-       guidelines for a diplomatic edition.</p>
-         </editorialDecl>
-      </encodingDesc>
-      <revisionDesc status="draft">
-         <listChange>
-            <change when="2020-11-26" status="draft" n="0.0.0">
-               <p>Created file for the first time.</p>
-            </change>
-         </listChange>
-      </revisionDesc>
-   </teiHeader>
-   <text xml:lang="la">
-      <front>
-         <div xml:id="starts-on">
-            <pb ed="#G" n="-r"/>
-            <cb ed="#G" n="a"/>
-         </div>
-      </front>
-      <body>
-         <div xml:id="HuYgTa-129126"><!-- HuYgTa-l2d18ct1 -->
-            <head xml:id="HuYgTa-129126-Hd1e108">Circa textum</head>
-            <p xml:id="HuYgTa-129126-d1e111">
-               <lb ed="#G" n="5"/>
-               <pc type="indent"/>DISTINCTIO XVIII 
-      <lb ed="#G" n="6"/>perspicua huius distinctionis diuisio, in qua de
-      mu<lb ed="#G" n="7" break="no"/>
-               <pc type="indent"/>lieris formatione probe agitur. 
-    </p>
-            <p xml:id="HuYgTa-129126-d1e124">
-               <lb ed="#G" n="8"/>
-               <pc type="indent"/>N EODEM QVO QVE &amp;c.
-      Post<lb ed="#G" n="9" break="no"/>quam visum est de viri
-      productio<lb ed="#G" n="10" break="no"/>ne, hic videdum est de mulieris for 
-      <lb ed="#G" n="11"/>matione. Et diuiditur in duas
-      par<lb ed="#G" n="12" break="no"/>tes: nam primo Magister determi- 
-      <lb ed="#G" n="13"/>nat, qualiter mulier producta
-      fue<lb ed="#G" n="14" break="no"/>rit quantum ad corporis
-      substan<lb ed="#G" n="15" break="no"/>tiam. Secundo, quomodo creata sit 
-      <lb ed="#G" n="16"/>quantum ad animam, ibi; Quemadmodum mulieris.
-      Pri<lb ed="#G" n="17" break="no"/>ma in duas: nam primo ostendit, quomodo, &amp; quare
-      cor<lb ed="#G" n="18" break="no"/>pus fuae de costa ipsius Adae fuerit formatum. Secundo 
-      <lb ed="#G" n="19"/>mouet quasdam quaestiones circa illius corporis materia, 
-      <lb ed="#G" n="20"/>le principium, ibi, Solet etiam quaeri. Et haec in tres: nam 
-      <lb ed="#G" n="21"/>primo quaerit Magister, cum corpus mulieris formatum 
-      <lb ed="#G" n="22"/>tuerit de costa, vtrum aliqua materia fuerit illi costae
-      ad<lb ed="#G" n="23" break="no"/>dita. Secundo innuit, quod ministerio angelorum forma 
-      <lb ed="#G" n="24"/>tio illius corporis fuerit peracta. Tertio inquirit, vtrum i 
-      <lb ed="#G" n="25"/>lud corpus praefuerit secundum rationem seminalem in 
-      <lb ed="#G" n="26"/>costa memorata. Secunda ibi, lllud etiam. Tertia ibi, Sed  
-      <lb ed="#G" n="27"/>quaeritur an ratio. Et haec in duas: quia primo ostendit, quod 
-      <lb ed="#G" n="28"/>ea, quae naturaliter fiunt, sunt secundum rationem semi- 
-      <lb ed="#G" n="29"/>nalem in potentia creaturae:. Secundo, quod ea, quae
-      miracu<lb ed="#G" n="30" break="no"/>lose fiunt, non secundum rationem seminalem in
-      poten<lb ed="#G" n="31" break="no"/>tia creaturae, sed solum in Dei potestate. Secuda ibi, Om 
-      <lb ed="#G" n="32"/>nium igitur rerum causae. Circa istam distinctionem deci 
-      <lb ed="#G" n="33"/>mamoctauam quaero hanc quaestionem. 
-    </p>
-         </div>
-      </body>
-   </text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Circa textum</title>
+        <author ref="#ThomasStrasbourg">Thomas of Strasbourg</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Circa textum</title>
+          <date when="2020-11-26">November 26, 2020</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="G" n="cod-TxxxqU">Genoa 1585</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2020-11-26" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#G" n="-r"/>
+        <cb ed="#G" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="HuYgTa-129126"><!-- HuYgTa-l2d18ct1 -->
+        <head xml:id="HuYgTa-129126-Hd1e108">Circa textum</head>
+        <p xml:id="HuYgTa-129126-d1e111">
+          <lb ed="#G" n="5"/>
+          <pc type="indent"/>DISTINCTIO XVIII 
+          <lb ed="#G" n="6"/>perspicua huius distinctionis diuisio, in qua de
+          mu<lb ed="#G" n="7" break="no"/>
+          <pc type="indent"/>lieris formatione probe agitur. 
+        </p>
+        <p xml:id="HuYgTa-129126-d1e124">
+          <lb ed="#G" n="8"/>
+          <pc type="indent"/>N EODEM QVO QVE &amp;c.
+          Post<lb ed="#G" n="9" break="no"/>quam visum est de viri
+          productio<lb ed="#G" n="10" break="no"/>ne, hic videdum est de mulieris for 
+          <lb ed="#G" n="11"/>matione. Et diuiditur in duas
+          par<lb ed="#G" n="12" break="no"/>tes: nam primo Magister determi- 
+          <lb ed="#G" n="13"/>nat, qualiter mulier producta
+          fue<lb ed="#G" n="14" break="no"/>rit quantum ad corporis
+          substan<lb ed="#G" n="15" break="no"/>tiam. Secundo, quomodo creata sit 
+          <lb ed="#G" n="16"/>quantum ad animam, ibi; Quemadmodum mulieris.
+          Pri<lb ed="#G" n="17" break="no"/>ma in duas: nam primo ostendit, quomodo, &amp; quare
+          cor<lb ed="#G" n="18" break="no"/>pus fuae de costa ipsius Adae fuerit formatum. Secundo 
+          <lb ed="#G" n="19"/>mouet quasdam quaestiones circa illius corporis materia, 
+          <lb ed="#G" n="20"/>le principium, ibi, Solet etiam quaeri. Et haec in tres: nam 
+          <lb ed="#G" n="21"/>primo quaerit Magister, cum corpus mulieris formatum 
+          <lb ed="#G" n="22"/>tuerit de costa, vtrum aliqua materia fuerit illi costae
+          ad<lb ed="#G" n="23" break="no"/>dita. Secundo innuit, quod ministerio angelorum forma 
+          <lb ed="#G" n="24"/>tio illius corporis fuerit peracta. Tertio inquirit, vtrum i 
+          <lb ed="#G" n="25"/>lud corpus praefuerit secundum rationem seminalem in 
+          <lb ed="#G" n="26"/>costa memorata. Secunda ibi, lllud etiam. Tertia ibi, Sed  
+          <lb ed="#G" n="27"/>quaeritur an ratio. Et haec in duas: quia primo ostendit, quod 
+          <lb ed="#G" n="28"/>ea, quae naturaliter fiunt, sunt secundum rationem semi- 
+          <lb ed="#G" n="29"/>nalem in potentia creaturae:. Secundo, quod ea, quae
+          miracu<lb ed="#G" n="30" break="no"/>lose fiunt, non secundum rationem seminalem in
+          poten<lb ed="#G" n="31" break="no"/>tia creaturae, sed solum in Dei potestate. Secuda ibi, Om 
+          <lb ed="#G" n="32"/>nium igitur rerum causae. Circa istam distinctionem deci 
+          <lb ed="#G" n="33"/>mamoctauam quaero hanc quaestionem. 
+        </p>
+      </div>
+    </body>
+  </text>
 </TEI>

@@ -1,91 +1,91 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Circa textum 2</title>
-            <author ref="#ThomasStrasbourg">Thomas of Strasbourg</author>
-            <respStmt>
-               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
-               <resp>Transcription Editor</resp>
-               <resp>TEI Encoder</resp>
-            </respStmt>
-         </titleStmt>
-         <editionStmt>
-            <edition n="0.0.0-dev">
-               <title>Circa textum 2</title>
-               <date when="2020-11-26">November 26, 2020</date>
-            </edition>
-         </editionStmt>
-         <publicationStmt>
-            <authority>SCTA</authority>
-            <availability status="free">
-               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
-               </p>
-            </availability>
-         </publicationStmt>
-         <sourceDesc>
-            <listWit>
-               <witness xml:id="G" n="cod-TxxxqU">Genoa 1585</witness>
-            </listWit>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
-         <editorialDecl>
-            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
-       guidelines for a diplomatic edition.</p>
-         </editorialDecl>
-      </encodingDesc>
-      <revisionDesc status="draft">
-         <listChange>
-            <change when="2020-11-26" status="draft" n="0.0.0">
-               <p>Created file for the first time.</p>
-            </change>
-         </listChange>
-      </revisionDesc>
-   </teiHeader>
-   <text xml:lang="la">
-      <front>
-         <div xml:id="starts-on">
-            <pb ed="#G" n="136-v"/>
-            <cb ed="#G" n="b"/>
-         </div>
-      </front>
-      <body>
-         <div xml:id="HuYgTa-103428"><!-- HuYgTa-l2d2ct2 -->
-            <head xml:id="HuYgTa-103428-Hd1e108">Circa textum 2</head>
-            <p xml:id="HuYgTa-103428-d1e111">
-               <lb ed="#G" n="123"/>Secundae particulae principalis huius, distinctionis 
-      <lb ed="#G" n="124"/>
-               <pc type="indent"/>breussima subdiuisio, n qua locus primae
-      habi<lb ed="#G" n="125" break="no"/>
-               <pc type="indent"/>tationis angelorum particulariter 
-      <lb ed="#G" n="126"/>
-               <pc type="indent"/>assignatir.
-    </p>
-            <p xml:id="HuYgTa-103428-d1e129">
-               <lb ed="#G" n="127"/>AM OSTENSVM est &amp;c. Postquam 
-      <lb ed="#G" n="128"/>Magister tractauit de tempore, seu 
-      <lb ed="#G" n="129"/>initio creationis ipsorum angelorum, 
-      <lb ed="#G" n="130"/>Hic ostendit locum primae
-      habita<lb ed="#G" n="131" break="no"/>tionis eorum, &amp; duo facit, nam
-      pri<lb ed="#G" n="132" break="no"/>mo circa hoc praemittit suam deter 
-      <lb ed="#G" n="133"/>minationem, Secundo circa
-      deter<lb ed="#G" n="134" break="no"/>minata mouet vnam quaestionem 
-      <lb ed="#G" n="135"/>&amp; adiungit suam responsionem, ibi, Hic queri solet. Pri 
-      <lb ed="#G" n="136"/>ma in duas: nam primor imuit angelorum ad corporalem  
-      <lb ed="#G" n="137"/>creaturam quandam assimilationem ibi, Simul ergo
-      vi<lb ed="#G" n="138" break="no"/>sibilium &amp;c. Prima in tres; nam primo ostendit ab initio 
-      <lb ed="#G" n="139"/>angelorum coelum fuisse eorum habitationem: Secundo. 
-      <lb ed="#G" n="140"/>no minat illud cae lum ostendendo eius qualitatem &amp; con 
-      <lb ed="#G" n="141"/>ditionem, Et tertio praedictorum addit recapitulationem, 
-      <!--312.xml-->
-      <pb ed="#G" n="137-r"/>
-               <cb ed="#G" n="a"/>
-               <lb ed="#G" n="1"/>Secunda ibi, Nec appellatur. Tertia ibi, Ex his liquet Cin 
-      <lb ed="#G" n="2"/>ca istam lectionem quaero hanc quaestionem. 
-    </p>
-         </div>
-      </body>
-   </text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Circa textum 2</title>
+        <author ref="#ThomasStrasbourg">Thomas of Strasbourg</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Circa textum 2</title>
+          <date when="2020-11-26">November 26, 2020</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="G" n="cod-TxxxqU">Genoa 1585</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2020-11-26" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#G" n="136-v"/>
+        <cb ed="#G" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="HuYgTa-103428"><!-- HuYgTa-l2d2ct2 -->
+        <head xml:id="HuYgTa-103428-Hd1e108">Circa textum 2</head>
+        <p xml:id="HuYgTa-103428-d1e111">
+          <lb ed="#G" n="123"/>Secundae particulae principalis huius, distinctionis 
+          <lb ed="#G" n="124"/>
+          <pc type="indent"/>breussima subdiuisio, n qua locus primae
+          habi<lb ed="#G" n="125" break="no"/>
+          <pc type="indent"/>tationis angelorum particulariter 
+          <lb ed="#G" n="126"/>
+          <pc type="indent"/>assignatir.
+        </p>
+        <p xml:id="HuYgTa-103428-d1e129">
+          <lb ed="#G" n="127"/>AM OSTENSVM est &amp;c. Postquam 
+          <lb ed="#G" n="128"/>Magister tractauit de tempore, seu 
+          <lb ed="#G" n="129"/>initio creationis ipsorum angelorum, 
+          <lb ed="#G" n="130"/>Hic ostendit locum primae
+          habita<lb ed="#G" n="131" break="no"/>tionis eorum, &amp; duo facit, nam
+          pri<lb ed="#G" n="132" break="no"/>mo circa hoc praemittit suam deter 
+          <lb ed="#G" n="133"/>minationem, Secundo circa
+          deter<lb ed="#G" n="134" break="no"/>minata mouet vnam quaestionem 
+          <lb ed="#G" n="135"/>&amp; adiungit suam responsionem, ibi, Hic queri solet. Pri 
+          <lb ed="#G" n="136"/>ma in duas: nam primor imuit angelorum ad corporalem  
+          <lb ed="#G" n="137"/>creaturam quandam assimilationem ibi, Simul ergo
+          vi<lb ed="#G" n="138" break="no"/>sibilium &amp;c. Prima in tres; nam primo ostendit ab initio 
+          <lb ed="#G" n="139"/>angelorum coelum fuisse eorum habitationem: Secundo. 
+          <lb ed="#G" n="140"/>no minat illud cae lum ostendendo eius qualitatem &amp; con 
+          <lb ed="#G" n="141"/>ditionem, Et tertio praedictorum addit recapitulationem, 
+          <!--312.xml-->
+          <pb ed="#G" n="137-r"/>
+          <cb ed="#G" n="a"/>
+          <lb ed="#G" n="1"/>Secunda ibi, Nec appellatur. Tertia ibi, Ex his liquet Cin 
+          <lb ed="#G" n="2"/>ca istam lectionem quaero hanc quaestionem. 
+        </p>
+      </div>
+    </body>
+  </text>
 </TEI>

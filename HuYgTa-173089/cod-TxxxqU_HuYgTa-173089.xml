@@ -1,95 +1,95 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Circa textum</title>
-            <author ref="#ThomasStrasbourg">Thomas of Strasbourg</author>
-            <respStmt>
-               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
-               <resp>Transcription Editor</resp>
-               <resp>TEI Encoder</resp>
-            </respStmt>
-         </titleStmt>
-         <editionStmt>
-            <edition n="0.0.0-dev">
-               <title>Circa textum</title>
-               <date when="2020-11-26">November 26, 2020</date>
-            </edition>
-         </editionStmt>
-         <publicationStmt>
-            <authority>SCTA</authority>
-            <availability status="free">
-               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
-               </p>
-            </availability>
-         </publicationStmt>
-         <sourceDesc>
-            <listWit>
-               <witness xml:id="G" n="cod-TxxxqU">Genoa 1585</witness>
-            </listWit>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
-         <editorialDecl>
-            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
-       guidelines for a diplomatic edition.</p>
-         </editorialDecl>
-      </encodingDesc>
-      <revisionDesc status="draft">
-         <listChange>
-            <change when="2020-11-26" status="draft" n="0.0.0">
-               <p>Created file for the first time.</p>
-            </change>
-         </listChange>
-      </revisionDesc>
-   </teiHeader>
-   <text xml:lang="la">
-      <front>
-         <div xml:id="starts-on">
-           <pb ed="#G" n="P2_16-v"/>
-            <cb ed="#G" n="b"/>
-         </div>
-      </front>
-      <body>
-         <div xml:id="HuYgTa-173089"><!-- HuYgTa-l3d8ct1 -->
-            <head xml:id="HuYgTa-173089-Hd1e108">Circa textum</head>
-            <p xml:id="HuYgTa-173089-d1e111">
-               <lb ed="#G" n="121"/>
-               <pc type="indent"/>DISTINCTIO. VIII. 
-      <lb ed="#G" n="122"/>Aperta, q&amp; distincta diuisio huius distinctionis,  
-      <lb ed="#G" n="123"/>in qua de veritate quarundam
-      pro<lb ed="#G" n="124" break="no"/>positonum disseritur.
-    </p>
-            <p xml:id="HuYgTa-173089-d1e124">
-               <lb ed="#G" n="125"/>POST PRADICTA &amp;c. Postquam 
-      <lb ed="#G" n="126"/>Magifter tractauit quasdam difficultates 
-      <lb ed="#G" n="127"/>quae ortum videntur habere ex
-      supradi<lb ed="#G" n="128" break="no"/>cta vnione, vel saltem ex termino
-      vnio<lb ed="#G" n="129" break="no"/>nis; nunc tractat de quibusdam
-      praedica<lb ed="#G" n="130" break="no"/>tis conuenientibus ipsis naturis vnitis. 
-      <lb ed="#G" n="131"/>Et diuiditur in duas partes: nam primo manifestat
-      ali<lb ed="#G" n="132" break="no"/>qua conuenientia diuinae naturae ex vnione ad humanam. 
-      <lb ed="#G" n="133"/>Secundo declarat alia humanae naturae conuenientia per 
-      <lb ed="#G" n="134"/>vnionem ad diuinam, ibi, Praeterea inuestigari. Prima 
-      <lb ed="#G" n="135"/>in duas: nam primo Magister inquirit, vtrum natura
-      di<lb ed="#G" n="136" break="no"/>uina deboat dici nata de virgine. Secundo vtrum
-      Chri<lb ed="#G" n="137" break="no"/>stus debeat dici bis natus, duplici scilicet generatione, 
-      <!--504.xml-->
-      <pb ed="#G" n="P2_17-r"/>
-               <cb ed="#G" n="a"/>
-               <lb ed="#G" n="1"/>abi, Quaeri etiam solet. Prima in tres: quia primo
-      Magi<lb ed="#G" n="2" break="no"/>ster mouet quaestionem &amp; assignat eius resposionem.
-      Se<lb ed="#G" n="3" break="no"/>cundo contra responsionem adducit obiectionem. Et ter 
-      <lb ed="#G" n="4"/>tio obiectionis illius ponit solutionem. Secunda ibi,
-      vi<lb ed="#G" n="5" break="no"/>detur tamen posse Tertia ibi, Sed si diligenter. Sequitur 
-      <lb ed="#G" n="6"/>illa pars, Quaeri etiam solet, Et diuiditur in duas parte 
-      <lb ed="#G" n="7"/>nam primo ponit praedictam inquisitionem. Secundo es 
-      <lb ed="#G" n="8"/>dictis sanctorum subinfert veram responsionem, ibi, Ad 
-      <lb ed="#G" n="9"/>quod dici potest. Haec est sententia istius distinctionis in 
-      <lb ed="#G" n="10"/>generali, circa quam quaero hanc quaestionem in speciali¬ 
-    </p>
-         </div>
-      </body>
-   </text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Circa textum</title>
+        <author ref="#ThomasStrasbourg">Thomas of Strasbourg</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Circa textum</title>
+          <date when="2020-11-26">November 26, 2020</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="G" n="cod-TxxxqU">Genoa 1585</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2020-11-26" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#G" n="P2_16-v"/>
+        <cb ed="#G" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="HuYgTa-173089"><!-- HuYgTa-l3d8ct1 -->
+        <head xml:id="HuYgTa-173089-Hd1e108">Circa textum</head>
+        <p xml:id="HuYgTa-173089-d1e111">
+          <lb ed="#G" n="121"/>
+          <pc type="indent"/>DISTINCTIO. VIII. 
+          <lb ed="#G" n="122"/>Aperta, q&amp; distincta diuisio huius distinctionis,  
+          <lb ed="#G" n="123"/>in qua de veritate quarundam
+          pro<lb ed="#G" n="124" break="no"/>positonum disseritur.
+        </p>
+        <p xml:id="HuYgTa-173089-d1e124">
+          <lb ed="#G" n="125"/>POST PRADICTA &amp;c. Postquam 
+          <lb ed="#G" n="126"/>Magifter tractauit quasdam difficultates 
+          <lb ed="#G" n="127"/>quae ortum videntur habere ex
+          supradi<lb ed="#G" n="128" break="no"/>cta vnione, vel saltem ex termino
+          vnio<lb ed="#G" n="129" break="no"/>nis; nunc tractat de quibusdam
+          praedica<lb ed="#G" n="130" break="no"/>tis conuenientibus ipsis naturis vnitis. 
+          <lb ed="#G" n="131"/>Et diuiditur in duas partes: nam primo manifestat
+          ali<lb ed="#G" n="132" break="no"/>qua conuenientia diuinae naturae ex vnione ad humanam. 
+          <lb ed="#G" n="133"/>Secundo declarat alia humanae naturae conuenientia per 
+          <lb ed="#G" n="134"/>vnionem ad diuinam, ibi, Praeterea inuestigari. Prima 
+          <lb ed="#G" n="135"/>in duas: nam primo Magister inquirit, vtrum natura
+          di<lb ed="#G" n="136" break="no"/>uina deboat dici nata de virgine. Secundo vtrum
+          Chri<lb ed="#G" n="137" break="no"/>stus debeat dici bis natus, duplici scilicet generatione, 
+          <!--504.xml-->
+          <pb ed="#G" n="P2_17-r"/>
+          <cb ed="#G" n="a"/>
+          <lb ed="#G" n="1"/>abi, Quaeri etiam solet. Prima in tres: quia primo
+          Magi<lb ed="#G" n="2" break="no"/>ster mouet quaestionem &amp; assignat eius resposionem.
+          Se<lb ed="#G" n="3" break="no"/>cundo contra responsionem adducit obiectionem. Et ter 
+          <lb ed="#G" n="4"/>tio obiectionis illius ponit solutionem. Secunda ibi,
+          vi<lb ed="#G" n="5" break="no"/>detur tamen posse Tertia ibi, Sed si diligenter. Sequitur 
+          <lb ed="#G" n="6"/>illa pars, Quaeri etiam solet, Et diuiditur in duas parte 
+          <lb ed="#G" n="7"/>nam primo ponit praedictam inquisitionem. Secundo es 
+          <lb ed="#G" n="8"/>dictis sanctorum subinfert veram responsionem, ibi, Ad 
+          <lb ed="#G" n="9"/>quod dici potest. Haec est sententia istius distinctionis in 
+          <lb ed="#G" n="10"/>generali, circa quam quaero hanc quaestionem in speciali¬ 
+        </p>
+      </div>
+    </body>
+  </text>
 </TEI>

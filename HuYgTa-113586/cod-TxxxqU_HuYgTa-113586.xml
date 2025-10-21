@@ -1,703 +1,703 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Quaestio 1</title>
-            <author ref="#ThomasStrasbourg">Thomas of Strasbourg</author>
-            <respStmt>
-               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
-               <resp>Transcription Editor</resp>
-               <resp>TEI Encoder</resp>
-            </respStmt>
-         </titleStmt>
-         <editionStmt>
-            <edition n="0.0.0-dev">
-               <title>Quaestio 1</title>
-               <date when="2020-11-26">November 26, 2020</date>
-            </edition>
-         </editionStmt>
-         <publicationStmt>
-            <authority>SCTA</authority>
-            <availability status="free">
-               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
-               </p>
-            </availability>
-         </publicationStmt>
-         <sourceDesc>
-            <listWit>
-               <witness xml:id="G" n="cod-TxxxqU">Genoa 1585</witness>
-            </listWit>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
-         <editorialDecl>
-            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
-       guidelines for a diplomatic edition.</p>
-         </editorialDecl>
-      </encodingDesc>
-      <revisionDesc status="draft">
-         <listChange>
-            <change when="2020-11-26" status="draft" n="0.0.0">
-               <p>Created file for the first time.</p>
-            </change>
-         </listChange>
-      </revisionDesc>
-   </teiHeader>
-   <text xml:lang="la">
-      <front>
-         <div xml:id="starts-on">
-            <pb ed="#G" n="149-v"/>
-            <cb ed="#G" n="a"/>
-         </div>
-      </front>
-      <body>
-         <div xml:id="HuYgTa-113586"><!-- HuYgTa-l2d7q1 -->
-            <head xml:id="HuYgTa-113586-Hd1e108">Quaestio 1</head>
-            <head xml:id="HuYgTa-113586-Hd1e111" type="question-title">
-      An daemones occulta cordium
-      hominum cognoscant.
-    </head>
-            <p xml:id="HuYgTa-113586-d1e114">
-               <lb ed="#G" n="55"/>Quaestio I.
-      <lb ed="#G" n="56"/>An daemones occulta cordium
-      homi<lb ed="#G" n="57" break="no"/>num cognoscant.
-    </p>
-            <p xml:id="HuYgTa-113586-d1e123">
-               <lb ed="#G" n="58"/>VVTRVM daemones cognoscant occulta cordium, 
-      si<lb ed="#G" n="59" break="no"/>ue cogitationes mentis humanae.
-    </p>
-            <p xml:id="HuYgTa-113586-d1e130">
-      Et videtur, quod 
-      <!--337.xml-->
-      <cb ed="#G" n="b"/>
-               <lb ed="#G" n="60"/>sic: quia daemon cognoscit omnia peccata nostra, pro qui 
-      <lb ed="#G" n="61"/>bus puniri debemus, cum ipse sit exsecutor iudicis: sed mul 
-      <lb ed="#G" n="62"/>ta sunt peccata, pro quibus puniendi sumus, quae consistunt 
-      <lb ed="#G" n="63"/>sola cogitatione, &amp; in occulto cordis; ergo &amp;c 
-      <lb ed="#G" n="64"/>Contra, si demon cognosceret occulta mentis
-      huma<lb ed="#G" n="65" break="no"/>nae, tunc daemon illaberetur menti humanae consequens 
-      <lb ed="#G" n="66"/>est salsum: quia hunc honorem secundum Aug. Deus sib 
-      <lb ed="#G" n="67"/>soli reseruauit. Hic quattuor sunt videnda. Primo vtrum 
-      <lb ed="#G" n="68"/>daemones possint illabi animae rationali Secundo, vtrum 
-      <lb ed="#G" n="69"/>cognoscant nostras cogitationes, Tertio, vtrum
-      cogno<lb ed="#G" n="70" break="no"/>scant futura. Et quarto, vtrum diuinationibus demonum 
-      <lb ed="#G" n="71"/>sit credendum. 
-    </p>
-            <p xml:id="HuYgTa-113586-d1e164">
-               <lb ed="#G" n="72"/>
-               <pc type="indent"/>RESOLVTIO 
-      <lb ed="#G" n="73"/>Et si angelus in quocumque corpore vna cum anima esse possit, co 
-      <lb ed="#G" n="74"/>git ationes quoed nostras quo ad terminorum significationem opti 
-      <lb ed="#G" n="75"/>me cognoltat, horum tamen complexionem, quo ad certam
-      af<lb ed="#G" n="76" break="no"/>firm ationem, &amp; negationem penitus ignorant. 
-    </p>
-            <p xml:id="HuYgTa-113586-d1e180">
-               <lb ed="#G" n="77"/>
-               <pc type="indent"/>ARTICVLVS II 
-      <lb ed="#G" n="78"/>Vtrum Demones possint illabi amima 
-      <lb ed="#G" n="79"/>
-               <pc type="indent"/>rationali¬
-    </p>
-            <p xml:id="HuYgTa-113586-d1e193">
-               <lb ed="#G" n="80"/>QVANTVM ad primum ponam tres conclusiones 
-    </p>
-            <p xml:id="HuYgTa-113586-d1e198">
-               <lb ed="#G" n="81"/>
-               <pc type="indent"/>Prima est, quod daemon, vel quicumque angclus 
-      <lb ed="#G" n="82"/>potest esse in quocumque corpore, nisi prohibeatur a su 
-      <lb ed="#G" n="83"/>periori potestate. Secunda est, quod daemon, seu angelus 
-      <lb ed="#G" n="84"/>potest esse in eodem corpore cum anima rationali.
-      Ter<lb ed="#G" n="85" break="no"/>tia est, quod demon, siue angelus non potest esse in
-      ani<lb ed="#G" n="86" break="no"/>ma rationali, nec per consequens illabitur ei 
-    </p>
-            <p xml:id="HuYgTa-113586-d1e216">
-               <lb ed="#G" n="87"/>
-               <pc type="indent"/>Dico ergo primo, quod daemoni non repugnat esse in 
-      <lb ed="#G" n="88"/>quocumque corpore 
-    </p>
-            <p xml:id="HuYgTa-113586-d1e225">
-               <lb ed="#G" n="89"/>1 Quia non plus repugnat spiritui esse in corpore, 
-      <lb ed="#G" n="90"/>quam alicui corpori esse in alio corpore, sed corpori
-      glo<lb ed="#G" n="91" break="no"/>rificato non repugnat esse in quocumque corpore, quod 
-      <lb ed="#G" n="92"/>patet de corporibus spherae actiuorum &amp; passiuorum: quia 
-      <lb ed="#G" n="93"/>intrat &amp; exit ianuis clausis, vt apparuit de corpore
-      Chri<lb ed="#G" n="94" break="no"/>sti, etiam patet de corpore caelesti: quia corpora glorifica 
-      <lb ed="#G" n="95"/>ta transeunt omnes celos inferiores, &amp; requiescunt in con 
-      <lb ed="#G" n="96"/>pore caeli empyrei.
-    </p>
-            <p xml:id="HuYgTa-113586-d1e246">
-               <lb ed="#G" n="97"/>2 Praeterea, quamuis extensum vt extensum est, non compa 
-      <lb ed="#G" n="98"/>tiatur in se aliud extensum naturaliter, eo quod dimesio 
-      <lb ed="#G" n="99"/>resistat dimesioni; tamen sine repugnantia extensum
-      con<lb ed="#G" n="100" break="no"/>patitur secum, ac etiam in se non extensum: sed
-      substan<lb ed="#G" n="101" break="no"/>tia angelica non est extensa, quia nec est quanta de se,
-      si<lb ed="#G" n="102" break="no"/>cut corpus, nec coniuncta quantitati, sicut substantia rei 
-      <lb ed="#G" n="103"/>corporalis: nec est coniuncta quanto, sicut anima rationa 
-      <lb ed="#G" n="104"/>lis, quae est actus corporis physici organici &amp;c. 
-    </p>
-            <p xml:id="HuYgTa-113586-d1e266">
-               <lb ed="#G" n="105"/>
-               <pc type="indent"/>3 Praeterea, incorporea natura ibi nimirum est, vbi 
-      <lb ed="#G" n="106"/>operatur, vt ait Damaslibro primo, sed angelus operatui 
-      <lb ed="#G" n="107"/>in corporibus: igitur dum operat in eis, est in eis; ergo &amp;c 
-    </p>
-            <p xml:id="HuYgTa-113586-d1e277">
-               <lb ed="#G" n="108"/>
-               <pc type="indent"/>4 Praeterea, non apparet, quare angelo magis
-      repu<lb ed="#G" n="109" break="no"/>gnet esse in corpore, quam animae rationali; sed amimae ra 
-      <lb ed="#G" n="110"/>tionali non repugnat 
-    </p>
-            <p xml:id="HuYgTa-113586-d1e288">
-               <lb ed="#G" n="111"/>
-               <pc type="indent"/>Sed huic conclusioni videtur obuiare Qlosa super Aba. 
-      <lb ed="#G" n="112"/>cuc. 2. ca. quae dicit, quod spiritus immundus potest assiste, 
-      <lb ed="#G" n="113"/>re simulacris; sed intrinsecus esse non potest 
-    </p>
-            <p xml:id="HuYgTa-113586-d1e299">
-               <lb ed="#G" n="114"/>
-               <pc type="indent"/>Respondeo, quod per talia verba Closa intendit exclu 
-      <lb ed="#G" n="115"/>sionem non localem, sed essentialem, vult enim dicere, quod 
-      <lb ed="#G" n="116"/>daemon cum ipso simulacro non facit vnum per essentiam, 
-      <lb ed="#G" n="117"/>sicut materia cum forma 
-    </p>
-            <p xml:id="HuYgTa-113586-d1e312">
-               <lb ed="#G" n="118"/>
-               <pc type="indent"/>Secundo dico, quod angelus potest esse cum anima r 
-      <lb ed="#G" n="119"/>tionali in eodem corpore, nisia Deo prohibeatur 
-    </p>
-            <p xml:id="HuYgTa-113586-d1e322">
-               <lb ed="#G" n="120"/>
-               <pc type="indent"/>Quia quamuis duae substantiae spirituales non
-      pos<lb ed="#G" n="121" break="no"/>sint esse eodem modo in eodem, diuersis tamen modis 
-      <lb ed="#G" n="122"/>nihil repugnat eis esse in eodem:igitur in eodem corpo 
-      <lb ed="#G" n="123"/>re, in quo est anima rationalis per informationem, poterit 
-      <lb ed="#G" n="124"/>esse angelus, siue bonus, siue malus per operationem. 
-      <lb ed="#G" n="125"/>2 Praeterea, daemones fuisse in humanis corporibus 
-      <!--338.xml-->
-      <pb ed="#G" n="150-r"/>
-               <cb ed="#G" n="a"/>
-               <lb ed="#G" n="1"/>&amp; homines multipliciter vexasse, textus sacrae scripturae 
-      <lb ed="#G" n="2"/>saepius protestatur: Dicitur enim, quod offerebant aposto 
-      <lb ed="#G" n="3"/>lis vexatos a spiritibus immundis, qui curabatur omnes. 
-      <lb ed="#G" n="4"/>idem patet alibi.
-    </p>
-            <p xml:id="HuYgTa-113586-d1e355">
-               <lb ed="#G" n="5"/>Sed Forte dicetur, cum anima rationalis sit tota in to 
-      <lb ed="#G" n="6"/>to corpore, &amp; tota in qualibet parte corporis, vt patuit 
-      <lb ed="#G" n="7"/>in primo libro, igitur daemon non potest esse in
-      corpo<lb ed="#G" n="8" break="no"/>re, nec in aliqua parte corporis, in quo est anima, nin
-      il<lb ed="#G" n="9" break="no"/>laberetur ei 
-    </p>
-            <p xml:id="HuYgTa-113586-d1e368">
-               <lb ed="#G" n="10"/>
-               <pc type="indent"/>Respondeo negando consequentiam. Nam quamuis 
-      <lb ed="#G" n="11"/>ex hoc bene arguatur, quod daemon &amp; anima simul sint,  
-      <lb ed="#G" n="12"/>illapsus tamen vnius in alterum ex hoc argui non potest. 
-    </p>
-            <p xml:id="HuYgTa-113586-d1e379">
-               <lb ed="#G" n="13"/>
-               <pc type="indent"/>Dico tertio, quod daemon, siue angelus per
-      substantia<lb ed="#G" n="14" break="no"/>lem illapsum non potest esse in anima. 
-    </p>
-            <p xml:id="HuYgTa-113586-d1e388">
-               <lb ed="#G" n="15"/>
-               <pc type="indent"/>1 Quia nullus spiritus per illapsum potest esse in alio 
-      <lb ed="#G" n="16"/>spiritu: sed tam anima, quam angelus sunt spiritus: Maior  
-      <lb ed="#G" n="17"/>patet per Aug. in de fide ad Petrum, vbi ait, quod
-      singu<lb ed="#G" n="18" break="no"/>us spiritibus inest terminus, quo a se inuicem distinguun 
-      <lb ed="#G" n="19"/>tur, &amp; vnus in alio non est 
-    </p>
-            <p xml:id="HuYgTa-113586-d1e404">
-               <lb ed="#G" n="20"/>
-               <pc type="indent"/>2 Praeterea, quod solius Dei proprium est, angelo
-      con<lb ed="#G" n="21" break="no"/>aenire non potest: sed illabi animae est huiusmodi;
-      qui<lb ed="#G" n="22" break="no"/>secundum beatum August. in de ecclesiasticis dogmati 
-      <lb ed="#G" n="23"/>bus, illabi menti illi tantum possibile est, qui creauit ea. 
-    </p>
-            <p xml:id="HuYgTa-113586-d1e418">
-               <lb ed="#G" n="24"/>
-               <pc type="indent"/>3 Praeterea, quicquid est in essentia rei, vt essentia est, 
-      <lb ed="#G" n="25"/>hoc facit ad esse rei, &amp; conseruat rem in esse, propter hoc 
-      <lb ed="#G" n="26"/>enim essentia dicitur ab esse, vt patet per beatum Aug. 2 
-      <lb ed="#G" n="27"/>de tri. Sed nullus angelus facit ad esse animae, nec eam con 
-      <lb ed="#G" n="28"/>seruat in esse, ergo nullus angelus est in essentia animae, 
-      <lb ed="#G" n="29"/>vt essentia est, nec per consequens illabitur ei¬ 
-    </p>
-            <p xml:id="HuYgTa-113586-d1e436">
-               <lb ed="#G" n="30"/>
-               <pc type="indent"/>Forte dicetur, quod per istam eandem rationem
-      po<lb ed="#G" n="31" break="no"/>test probari, quod angelus non possit esse in essentia
-      ali<lb ed="#G" n="32" break="no"/>tuius corporis, quod videtur contradicere primae conclu 
-      <lb ed="#G" n="33"/>sioni; quia nec facit ad esse corporis, nec conseruat
-      cor<lb ed="#G" n="34" break="no"/>pus in esse 
-    </p>
-            <p xml:id="HuYgTa-113586-d1e452">
-               <lb ed="#G" n="35"/>
-               <pc type="indent"/>Respondeo, quod virtute istius rationis non probatur,  
-      <lb ed="#G" n="36"/>quod angelus non sit in essentia corporis absolute &amp; sim 
-      <lb ed="#G" n="37"/>pliciter, quamuis bene probetur, quod angelus non sit in 
-      <lb ed="#G" n="38"/>essentia corporis, vt essentia, seu substantia est, &amp; hac
-      con<lb ed="#G" n="39" break="no"/>tedo: quia primae conclusioni non contradicit, num
-      an<lb ed="#G" n="40" break="no"/>gelus non potest esse in essentia corporis, vt essentia est; 
-      <lb ed="#G" n="41"/>ed vt extensa est, secundum quod dicunt magni doctores, 
-    </p>
-            <p xml:id="HuYgTa-113586-d1e472">
-               <lb ed="#G" n="42"/>
-               <pc type="indent"/>Vtrum Demones cognoscant nostras 
-      <lb ed="#G" n="43"/>
-               <pc type="indent"/>cogitationes.
-    </p>
-            <p xml:id="HuYgTa-113586-d1e483">
-               <lb ed="#G" n="44"/>ARTICVLVS II 
-      <lb ed="#G" n="45"/>QVANTVM ad secundum articulum sic procedam: 
-    </p>
-            <p xml:id="HuYgTa-113586-d1e490">
-               <lb ed="#G" n="46"/>
-               <pc type="indent"/>. Primo enim ostendam qualiter angelus
-      cogno<lb ed="#G" n="47" break="no"/>scat humanas cogitationes, prout cogitatio dicit actum  
-      <lb ed="#G" n="48"/>intellectus, Secundo ostendam hoc idem, prout dicit, vel 
-      <lb ed="#G" n="49"/>amplicat actum affectus 
-    </p>
-            <p xml:id="HuYgTa-113586-d1e504">
-               <lb ed="#G" n="50"/>
-               <pc type="indent"/>Quantum ad primum est aduertendum, quod
-      gram<lb ed="#G" n="51" break="no"/>maticaliter loquendo cogitatio dicitur quasi coagitatio,  
-      <lb ed="#G" n="52"/>id est, vnius cum altero agitatio, &amp; ideo proprie
-      loquen<lb ed="#G" n="53" break="no"/>do cogitatio non dicit, necsignat actum intellectus, qui est 
-      <lb ed="#G" n="54"/>simplicium apprehensio, sed actum componentem
-      affir<lb ed="#G" n="55" break="no"/>matiue, vel diuidentem negatiue. Hoc supposito ponam 
-      <lb ed="#G" n="56"/>luas conclusiones. 
-    </p>
-            <p xml:id="HuYgTa-113586-d1e524">
-               <lb ed="#G" n="57"/>
-               <pc type="indent"/>Prima est, quod angelus naturaliter cognoscit nostras 
-      <lb ed="#G" n="58"/>cogitationes quantum ad terminorum significationem, 
-      <lb ed="#G" n="59"/>Secunda est, quod non intelligit eas quantum ad compo 
-      <lb ed="#G" n="60"/>sitionis vel diuisionis determinationem. 
-    </p>
-            <p xml:id="HuYgTa-113586-d1e537">
-               <lb ed="#G" n="61"/>
-               <pc type="indent"/>1 Primum probo sicillle, qui omnem actum
-      intelle<lb ed="#G" n="62" break="no"/>ctus nostri cognoscit, qui est simplex apprehensio; ille 
-      <lb ed="#G" n="63"/>etiam omnem actum componentem, vel diuidentem con 
-      <lb ed="#G" n="64"/>gnoscit, quo ad significatum terminorum. Ista patet,
-      qui<lb ed="#G" n="65" break="no"/>terminorum significatum in vno actu composito non est 
-      <lb ed="#G" n="66"/>aliud, nisi significatum plurium simplicium, sed angelus 
-      <lb ed="#G" n="67"/>naturaliter potest cognoscere omnem actum nostri
-      inte<lb ed="#G" n="68" break="no"/>lectus, qui est simplicium terminorum, eo quod ipse
-      eui<lb ed="#G" n="69" break="no"/>denter videat, qua specle vtimur in organo phantasiae, cum 
-      <!--338.xml-->
-      <cb ed="#G" n="b"/>
-               <lb ed="#G" n="70"/>illa species prae ceteris specialiter actiuetur: qua
-      actuali<lb ed="#G" n="71" break="no"/>ter vtimur cognoscendo.
-    </p>
-            <p xml:id="HuYgTa-113586-d1e570">
-               <lb ed="#G" n="72"/>2 Praeterea, quicumque persecte cognoscit aliquod sub 
-      <lb ed="#G" n="73"/>iectum, ille poterit cognoscere omnia, quae sunt in subio 
-      <lb ed="#G" n="74"/>cto: sed angelus perfecte cognoseit nostram potentiam  
-      <lb ed="#G" n="75"/>intellectiuam, ergo etiam cognoscit actum intelligendi 
-      <lb ed="#G" n="76"/>psam informantem.
-    </p>
-            <p xml:id="HuYgTa-113586-d1e583">
-               <lb ed="#G" n="77"/>3 Praeterea, perfecte cognitis omnibus causis alicuius 
-      <lb ed="#G" n="78"/>effectus, cognoscitur &amp; effectus: sed angelus perfecte
-      co<lb ed="#G" n="79" break="no"/>gnoscit omnes causas nostri actus intelligendi. Maior pro 
-      <lb ed="#G" n="80"/>tet: quia scire est causas rei cognoscere, vt patet primo 
-      <lb ed="#G" n="81"/>posteriorum; minorem declaro: quia angelus intelligit 
-      <lb ed="#G" n="82"/>seu cognoscit intellectum nostrum possibilem, &amp; agentem 
-      <lb ed="#G" n="83"/>obiectum intelligibile, &amp; speciem obiecti, quae sunt suffi 
-      <lb ed="#G" n="84"/>cientes causae actus intelligendi. 
-    </p>
-            <p xml:id="HuYgTa-113586-d1e603">
-               <lb ed="#G" n="85"/>
-               <pc type="indent"/>4 Praeterea, intellectus, qui non cognoscit spiritualia 
-      <lb ed="#G" n="86"/>per corporalia, ille non minus pfecte cognoscit accidentia 
-      <lb ed="#G" n="87"/>piritualia, quam corporalia angelus est nuiusmodi; cum 
-      <lb ed="#G" n="88"/>igitur perfecte cognoscat omnia accidentia corporalia:
-      igi<lb ed="#G" n="89" break="no"/>tur etiam perfecte cognoscit nostrum actum
-      intelligen<lb ed="#G" n="90" break="no"/>di, qui est quoddam accidens spirituale 
-    </p>
-            <p xml:id="HuYgTa-113586-d1e622">
-               <lb ed="#G" n="91"/>
-               <pc type="indent"/>3 Praeterea, sicut perfecte viso corpore videntur
-      figu<lb ed="#G" n="92" break="no"/>rae, &amp; picturae, quae sunt in corpore, sic perfecte viso
-      intel<lb ed="#G" n="93" break="no"/>ectu videntur species &amp; actus intelligendi, quae sunt qua 
-      <lb ed="#G" n="94"/>si quaedam figurae spirituales ipsius intellectus: sed
-      ange<lb ed="#G" n="95" break="no"/>us perfecte cognoscit intellectum nostrum 
-    </p>
-            <p xml:id="HuYgTa-113586-d1e638">
-               <lb ed="#G" n="96"/>
-               <pc type="indent"/>&amp; Praeterea, sicut se habet sensus ad sensibile, sic se ha 
-      <lb ed="#G" n="97"/>bet intellectus ad intelligibile; sed nullum est sensibile, 
-      <lb ed="#G" n="98"/>quod subtersugiat notitiam sensitiuam sensus creati; quia 
-      <lb ed="#G" n="99"/>sicut patet 2. de anima si esset aliquod sensibile, quod non 
-      <lb ed="#G" n="100"/>posset percipi aliquo quinque sensuum, oporteret dare
-      se<lb ed="#G" n="101" break="no"/>vtum sensum:igitur cogitatio nostra cum sit ens actu
-      in<lb ed="#G" n="102" break="no"/>telligibile, non poterit subterfugere notitiam
-      intelle<lb ed="#G" n="103" break="no"/>tus angelici, qui est intellectus perfectus &amp; a nullo
-      im<lb ed="#G" n="104" break="no"/>peditus. 
-    </p>
-            <p xml:id="HuYgTa-113586-d1e662">
-               <lb ed="#G" n="105"/>
-               <pc type="indent"/>Sed contrarium istius conclusionis tenens quidam 
-      <lb ed="#G" n="106"/>loctor dicit 
-    </p>
-            <p xml:id="HuYgTa-113586-d1e671">
-               <lb ed="#G" n="107"/>
-               <pc type="indent"/>1 Quod quantumlibet aliquid nostro intellectui
-      vi<lb ed="#G" n="108" break="no"/>leatur, si tamen scriptura sacra tenet, &amp; docet oppositum, 
-      <lb ed="#G" n="109"/>taptiuadus est intellectus in obsequium scripturae sacrae: 
-      <lb ed="#G" n="110"/>sed in multis locis sacrae scripturae habetur, quod solus 
-      <lb ed="#G" n="111"/>Deus intuetur corda hominum. Ista minor patet,
-      quo<lb ed="#G" n="112" break="no"/>niam dicitur, Tu Deus, qui solus nosti corda hominum 
-      <lb ed="#G" n="113"/>Et alibi, Homo videt quae patent: Deus autem intuetur 
-      <lb ed="#G" n="114"/>cor. Et Apostolus ait, Nemo nouit sensum hominis &amp;c 
-    </p>
-            <p xml:id="HuYgTa-113586-d1e693">
-               <lb ed="#G" n="115"/>
-               <pc type="indent"/>2 Praeterea, hoc idem probat sanctorum auctoritati 
-      <lb ed="#G" n="116"/>bus; quia August. in libro de ecclesiasticis dogmatibus di 
-      <lb ed="#G" n="117"/>cit, Non est possibile, quod angelus videat hominis cogi 
-      <lb ed="#G" n="118"/>tationem, immo quia quandoque dixerat oppositum, ideo 
-      <lb ed="#G" n="119"/>noc retractat in libro retractationum. 
-    </p>
-            <p xml:id="HuYgTa-113586-d1e709">
-               <lb ed="#G" n="120"/>
-               <pc type="indent"/>3 Preterea, illud, per quod probatur filius Dei esse  
-      <lb ed="#G" n="121"/>Deus, non potest conuenire creaturae, sed cognoscere com 
-      <lb ed="#G" n="122"/>sitationes hominum est huiusmodi: quia Chryso. super 
-      <lb ed="#G" n="123"/>Matthaeum dicit, quod cognitio cogitationum in
-      Chri<lb ed="#G" n="124" break="no"/>sto fuit argumentum Deitatis. 
-    </p>
-            <p xml:id="HuYgTa-113586-d1e726">
-               <lb ed="#G" n="125"/>
-               <pc type="indent"/>Addit autem iste doctor causam praedictorum dicens, 
-      <lb ed="#G" n="126"/>uod angelus nostram intellectionem, cogitationem, &amp;  
-      <lb ed="#G" n="127"/>volitionem pro tanto non potest cognoscere: quia licet 
-      <lb ed="#G" n="128"/>praedicta, scilicet intellectio, cogitatio &amp; volitio,
-      quan<lb ed="#G" n="129" break="no"/>tum ad actum primum non subsint imperio voluntatis; 
-      <lb ed="#G" n="130"/>ubsunt tamen quantum ad actum secundum, qui est
-      gi<lb ed="#G" n="131" break="no"/>gnere suam similitudinem actiue in mente alterius. Et 
-      <lb ed="#G" n="132"/>ideo secundum istum doctorem, nisi adsit consensus
-      no<lb ed="#G" n="133" break="no"/>strae voluntatis ad hoc, quod angelus cognoscat nostras 
-      <lb ed="#G" n="134"/>cogitationes, &amp; volitiones, ipse angelus eas cognoscere 
-      <lb ed="#G" n="135"/>non potest. 
-    </p>
-            <p xml:id="HuYgTa-113586-d1e755">
-               <lb ed="#G" n="136"/>
-               <pc type="indent"/>Preterea, arguit doctor communis hoc idem sic
-      Ea<lb ed="#G" n="137" break="no"/>uae in nostra voluntate sunt, vel a voluntate
-      depen<lb ed="#G" n="138" break="no"/>dent, soli Deo subiecta sunt, &amp; per consequens angeli
-      ta<lb ed="#G" n="139" break="no"/>lia cognoscere non possunt, nostrae cogitationes sunt 
-      <lb ed="#G" n="140"/>uiusmodi. 
-    </p>
-            <p xml:id="HuYgTa-113586-d1e771">
-               <lb ed="#G" n="141"/>
-               <pc type="indent"/>Praeterea, ad cognoscendum cogitationes hominis 
-      <lb ed="#G" n="142"/>non sufficit cognitio specierum: sed oportet, vt usus ea¬ 
-      <!--339.xml-->
-      <pb ed="#G" n="150-v"/>
-               <cb ed="#G" n="a"/>
-               <lb ed="#G" n="1"/>rum cognoscatur, sed vsum specierum angeli cognoscer.i 
-      <lb ed="#G" n="2"/>non possunt: quia ex voluntate dependet, quae soli Deo 
-      <lb ed="#G" n="3"/>sobijcitur, 
-    </p>
-            <p xml:id="HuYgTa-113586-d1e793">
-               <lb ed="#G" n="4"/>
-               <pc type="indent"/>Sed his non obstantibus teneo praedictam
-      conclusio<lb ed="#G" n="5" break="no"/>nem, &amp; confirmo eam sic: Potentia in genere suo
-      perfe<lb ed="#G" n="6" break="no"/>cta, potest in omne illud, quod per se continetur sub suo 
-      <lb ed="#G" n="7"/>obiecto adaequato: sed cogitationes nostrae quantum ad 
-      <lb ed="#G" n="8"/>naturam actus, cum sint actu intelligibiles, per se compre 
-      <lb ed="#G" n="9"/>henduntur sub obiecto adaequato potentiae intellectiuae 
-      <lb ed="#G" n="10"/>angeli, ergo &amp;c 
-    </p>
-            <p xml:id="HuYgTa-113586-d1e813">
-               <lb ed="#G" n="11"/>
-               <pc type="indent"/>Ad primas tres rationes dicendum, quod cognoscere 
-      <lb ed="#G" n="12"/>nostras cogitationes non solum quantum ad naturam actus. 
-      <lb ed="#G" n="13"/>&amp; significatum terminorum: sed etiam quantum ad
-      cogi<lb ed="#G" n="14" break="no"/>tantis intentionem quo ad affirmationem, &amp; negatione, 
-      <lb ed="#G" n="15"/>hoc solus Deus potest, vt patebit in conclusione
-      sequen<lb ed="#G" n="16" break="no"/>ti. Et de hoc etiam loquuntur omnes auctoritates adducte 
-      <lb ed="#G" n="17"/>in rationibus supradictis: sed quantum ad naturam actus,  
-      <lb ed="#G" n="18"/>&amp; significatum terminorum, nihil prohibet ipsum
-      ange<lb ed="#G" n="19" break="no"/>lu cognoscere nostras cogitationes. Nec valet, quod assignat 
-      <lb ed="#G" n="20"/>pro causa sui dicti de assensu voluntatis: quia non credo 
-      <lb ed="#G" n="21"/>que aliquis homo sit ita stultus, quod velit daemones cognosc. 
-      <lb ed="#G" n="22"/>re suos actus interiores, &amp; tamen ipsi saepe tales actus
-      co<lb ed="#G" n="23" break="no"/>gnoscunt etiam inuitis nobis 
-    </p>
-            <p xml:id="HuYgTa-113586-d1e846">
-               <lb ed="#G" n="24"/>
-               <pc type="indent"/>Ad quartum dicendum, quod actus intelligendi, quo 
-      <lb ed="#G" n="25"/>ad naturam suam non dependet a voluntate, cum sit
-      na<lb ed="#G" n="26" break="no"/>turaliter prior actu voluntatis, quamuis aliquo modo de 
-      <lb ed="#G" n="27"/>pendeat a voluntate quantum ad continuationem suam 
-    </p>
-            <p xml:id="HuYgTa-113586-d1e860">
-               <lb ed="#G" n="28"/>
-               <pc type="indent"/>Ad quintum dicendum, quod vel per vsum specierum 
-      <lb ed="#G" n="29"/>intelligis gignitionem vnius speciei ab altera iuxta
-      mo<lb ed="#G" n="30" break="no"/>dum loquendi Augus, qui dicit, quod cum intelligimus 
-      <lb ed="#G" n="31"/>actu, tunc a specle, quae est in memoria, gignitur species 
-      <lb ed="#G" n="32"/>quae est in intelligentia, quae est parenti simillima, &amp; sic 
-      <lb ed="#G" n="33"/>nego minorem: quia talem vsum augeli bene percipiunt 
-      <lb ed="#G" n="34"/>quia vident speciem oenitam in esse pleno, quam prius 
-      <lb ed="#G" n="35"/>viderant in esse semipleno; vel per huiusmodi vsum
-      in<lb ed="#G" n="36" break="no"/>telligis affirmationem &amp; negationem, tunc concedo mi- 
-      <lb ed="#G" n="37"/>norem: quia non est contra me: quia non cognito tal 
-      <lb ed="#G" n="38"/>vsu potest angelus naturam actus intelligendi perfecte 
-      <lb ed="#G" n="39"/>cognoscere 
-    </p>
-            <p xml:id="HuYgTa-113586-d1e891">
-               <lb ed="#G" n="40"/>
-               <pc type="indent"/>Secunda conclusio est, quod angelus cogitationes
-      no<lb ed="#G" n="41" break="no"/>stras quantum ad affirmationem, &amp; negationem per se, &amp;  
-      <lb ed="#G" n="42"/>determinate cognoscere non potest: cognoscit tamen ut 
-      <lb ed="#G" n="43"/>plurimum eas indirecte ex aliquibus signis in corporibu 
-      <lb ed="#G" n="44"/>nostris apparentibus. Primum declaro sic. Quandocunqu 
-      <lb ed="#G" n="45"/>idem representatiuum representat opposita, videns illuc 
-      <lb ed="#G" n="46"/>representatiuum, vnum illorum representatiuorum, non po 
-      <lb ed="#G" n="47"/>test virtute illius representatiui determinate
-      cognosce<lb ed="#G" n="48" break="no"/>re; si enim vna vox diuersa significat, quamuis per auditum 
-      <lb ed="#G" n="49"/>eius possimus iudicare, quod ille, qui profert ea velit hoc, 
-      <lb ed="#G" n="50"/>vel hoc dicere; non tamen possumus iudicare virtute
-      il<lb ed="#G" n="51" break="no"/>lius vocis, quod prolator eius velit determinate dicere 
-      <lb ed="#G" n="52"/>hoc, sed eaedem sunt species intelligibiles, quibus
-      reprae<lb ed="#G" n="53" break="no"/>sentantur obiecta actus affirmatiui, &amp; actus negatiui. quia 
-      <lb ed="#G" n="54"/>rectum est iudex sui &amp; obliqui, vt dicitur primo de ani 
-      <lb ed="#G" n="55"/>ma; per eandem enim speciem non mutatam possumus 
-      <lb ed="#G" n="56"/>cogitare sacere, &amp; non facere, fugere, &amp; non fugere: quia s 
-      <lb ed="#G" n="57"/>cut dicit <ref xml:id="HuYgTa-113586-Rd1e934">Aug. 12. de ci. Dei</ref>, Talia, quae priuatiue dicuntur 
-      <lb ed="#G" n="58"/>
-               <quote xml:id="HuYgTa-113586-Qd1e939" source="http://scta.info/resource/adcd-l12-d1e1698">non in specie, sed in priuatione sciuntur</quote>; Igitur quamuis 
-      <lb ed="#G" n="59"/>angelus possit naturaliter cognoscere me cogitare de re 
-      <lb ed="#G" n="60"/>quacumque eo, quod videat speciem illius rei gigni in meo in 
-      <lb ed="#G" n="61"/>tellectu, &amp; eius phantasma actu moueri in ipsa phatasia 
-      <lb ed="#G" n="62"/>non poterit tamen scire per certitudinem &amp;
-      determina<lb ed="#G" n="63" break="no"/>te, vtrum de tali re cooitem affirmatiue, vel negatiue. 
-    </p>
-            <p xml:id="HuYgTa-113586-d1e954">
-               <lb ed="#G" n="64"/>
-               <pc type="indent"/>Quod autem angelus vt plurimum nostras
-      cogitatio<lb ed="#G" n="65" break="no"/>nes quo ad affirmationem, &amp; negationem cognoicat con 
-      <lb ed="#G" n="66"/>lecturatiue &amp; indirecte patet: quia rara est aliqua
-      cogita<lb ed="#G" n="67" break="no"/>tio, si fortis fuerit, quin aliquod indicium, seu signum su 
-      <lb ed="#G" n="68"/>demonstret in aliqua parte corporis, quae quidem signa ci 
-      <lb ed="#G" n="69"/>angelo abscondi non possint, de nostris intentionibus an 
-      <lb ed="#G" n="70"/>gelus poterit determinate iudicare, &amp; cognoscere illud 
-      <lb ed="#G" n="71"/>quod cogitamus, non obstante indeterminatione speciei 
-      <lb ed="#G" n="72"/>pro affirmatione, &amp; negatione 
-    </p>
-            <p xml:id="HuYgTa-113586-d1e978">
-               <lb ed="#G" n="73"/>
-               <pc type="indent"/>Quomodo autem cognitio angelica se habeat ad no¬ 
-      <!--339.xml-->
-      <cb ed="#G" n="b"/>
-               <lb ed="#G" n="74"/>stram volitionem, siue ad cogitationem, prout cogitatio 
-      <lb ed="#G" n="75"/>implicat actum nostrae voluntatis, potest ex praedictis
-      ali<lb ed="#G" n="76" break="no"/>qualiter esse notum: quia actus ipsius voluntatis sequitur 
-      <lb ed="#G" n="77"/>actum intellectus componentis, &amp; diuidentis; voluntas 
-      <lb ed="#G" n="78"/>enim nec acceptat aliquid per actum complacentiae, nec 
-      <lb ed="#G" n="79"/>refutat per actum displicentiae, nisi illud sit apprehesum 
-      <lb ed="#G" n="80"/>vt conueniens, vel disconueniens: cum igitur de similibus 
-      <lb ed="#G" n="81"/>idem sit iudicium, ideo potest eodem modo dici de actu 
-      <lb ed="#G" n="82"/>voluntatis, sicut dictum est de actu intellectus
-      compone<lb ed="#G" n="83" break="no"/>tis, &amp; diuidentis 
-    </p>
-            <p xml:id="HuYgTa-113586-d1e1011">
-               <lb ed="#G" n="84"/>
-               <pc type="indent"/>ARTICVLVS III 
-      <lb ed="#G" n="85"/>Vtrum demones cognoscant futira. 
-      <lb ed="#G" n="86"/>QVANTVM ad tertium articulum dico, quod daemo 
-      <lb ed="#G" n="87"/>
-               <pc type="indent"/>nes scire futura dupliciter potest intelligi,
-      secun<lb ed="#G" n="88" break="no"/>dum quod futura dicuntur esse duplicia, puta
-      contingen<lb ed="#G" n="89" break="no"/>tia, &amp; necessaria 
-    </p>
-            <p xml:id="HuYgTa-113586-d1e1031">
-               <lb ed="#G" n="90"/>
-               <pc type="indent"/>Si igitur quaeritur de contingentibus futuris sic dico; 
-      <lb ed="#G" n="91"/>quod daemon ex suis naturalibus certitudinaliter non eo 
-      <lb ed="#G" n="92"/>gnoscit aliquod futurum: quia omne, quod
-      certitudinali<lb ed="#G" n="93" break="no"/>ter cognoscitur, aut cognoscitur in se, aut in sua causa: sed 
-      <lb ed="#G" n="94"/>futurum contingens non cognoscitur ab angelo per se,
-      si<lb ed="#G" n="95" break="no"/>ue in se, quia tunc non esset futurum sed praesens; nec in 
-      <lb ed="#G" n="96"/>sua causa, cum eius propinqua causa sit mutabilis; nullam  
-      <lb ed="#G" n="97"/>enim habet causam immutabilem, &amp; necessariam. Si 
-      <lb ed="#G" n="98"/>enim haberet causam immutabilem, &amp; necessariam, tunc 
-      <lb ed="#G" n="99"/>non esset contingens, sed necessarium: Potest tamen ex 
-      <lb ed="#G" n="100"/>aliquibus signis coniecturari de multis futuris
-      contin<lb ed="#G" n="101" break="no"/>gentibus 
-    </p>
-            <p xml:id="HuYgTa-113586-d1e1063">
-               <lb ed="#G" n="102"/>
-               <pc type="indent"/>Si vero quaeritur de futuris necessarijs, sic dico duo. Pri 
-      <lb ed="#G" n="103"/>mo, quod daemon non potest de huiusmodi futuris omni 
-      <lb ed="#G" n="104"/>mode certam habere notitiam: quia nescit, vtrum causae 
-      <lb ed="#G" n="105"/>talium futurorum impediantur a causa superiori, sicut de 
-      <lb ed="#G" n="106"/>facto contingit, quando sol steterat tempore losue,
-      retro<lb ed="#G" n="107" break="no"/>cessit tempore Exechiae, obscuratus fuit in die plenae
-      lu<lb ed="#G" n="108" break="no"/>nae in lesu Christi domini nostri passione: de qua
-      ecli<lb ed="#G" n="109" break="no"/>psi dicit Diony. epistola ad Policarpum, quod non erat tune 
-      <lb ed="#G" n="110"/>conuentus solis &amp; lunae. Solus. n. Deus ommmode tertam  
-      <lb ed="#G" n="111"/>potest habere futurorum notitiam, ad cuius nutum, &amp; vo 
-      <lb ed="#G" n="112"/>luntatem causae quaecunque permanent, &amp; mutatur: Et isto 
-      <lb ed="#G" n="113"/>mode, loquendo de certa futurorum notitia scribitur, An 
-      <lb ed="#G" n="114"/>nunciate nobis, quae ventura sunt in futurum, &amp; sciemus,  
-      <lb ed="#G" n="115"/>quia dij estis vos 
-    </p>
-            <p xml:id="HuYgTa-113586-d1e1098">
-               <lb ed="#G" n="116"/>
-               <pc type="indent"/>Secundo dico, quod loquendo de certa futurorum
-      no<lb ed="#G" n="117" break="no"/>citia, quae potest haberi per quamcumque artem, uel
-      ex<lb ed="#G" n="118" break="no"/>berientiam, in qua notitia praesupponitur communis cur 
-      <lb ed="#G" n="119"/>sus causarum, sic daemon potest certa notitia prae scire effe 
-      <lb ed="#G" n="120"/>ctus necessarios ex suarum causarum notitia, priusquam 
-      <lb ed="#G" n="121"/>eueniant: quia vt sic, etiam multi homines possunt scire 
-      <lb ed="#G" n="122"/>futura, cum bene docti fuerint in astrologia, &amp; in alijs
-      ae<lb ed="#G" n="123" break="no"/>tibus &amp; experientijs: daemon autem melius noscit huius 
-      <lb ed="#G" n="124"/>modi artes quibuscumque hominibus, cum propter
-      acu<lb ed="#G" n="125" break="no"/>men sui intellectus melius &amp; clarius cognoscat causas &amp;  
-      <lb ed="#G" n="126"/>concursus causarum, ex quarum notitia tales artes
-      depe<lb ed="#G" n="127" break="no"/>dent: etiam propter diuturnitatem temporis daemon ma 
-      <lb ed="#G" n="128"/>gis viget experientia quibuscumque hominibus Propter 
-      <lb ed="#G" n="129"/>quod ait lsidorus primo lib de summo bono, quod praeua 
-      <lb ed="#G" n="130"/>ricatores angeli sanctitate amissa non amiserunt viuacita 
-      <lb ed="#G" n="131"/>tem sensuum angelicae creaturae, sed triplici modo prae 
-      <lb ed="#G" n="132"/>scientiae vigent, subtilitate naturae, experientia
-      tempo<lb ed="#G" n="133" break="no"/>rum, &amp; reuelatione summarum potestatum, scilicet bono 
-      <lb ed="#G" n="134"/>rum spirituum. 
-    </p>
-            <p xml:id="HuYgTa-113586-d1e1144">
-               <lb ed="#G" n="135"/>
-               <pc type="indent"/>Forte dicetur contra praedicta, &amp; specialiter contra pri 
-      <lb ed="#G" n="136"/>mam conclusionem istius tertij articuli, quod angeli a prin 
-      <lb ed="#G" n="137"/>cipio suae creationis habuerunt species omnium futura 
-      <lb ed="#G" n="138"/>rum rerum sibi concreatas: quia nullam speciem de
-      no<lb ed="#G" n="139" break="no"/>uo acquirunt ex progressu rerum in esse, siue sint res con 
-      <lb ed="#G" n="140"/>tingentes, siue necessariae: cum igitur praedictae species sen 
-      <lb ed="#G" n="141"/>per sint, &amp; fuerint praesentes intellectui angelico; ergo vi 
-      <lb ed="#G" n="142"/>detur, quod angelus semper cognoscat, &amp; cognouerit fu 
-      <!--340.xml-->
-      <pb ed="#G" n="151-r"/>
-               <cb ed="#G" n="a"/>
-               <lb ed="#G" n="1"/>tura, siue contingentia sint, siue necessaria, cum eorum
-      re<lb ed="#G" n="2" break="no"/>presentatiua semper intellectui angelico sint praesentia 
-      <lb ed="#G" n="3"/>Sed instantia ista, quamuis multum sit apparens; non 
-      <lb ed="#G" n="4"/>tamen concludit: quia si concluderet, tunc renelationes 
-      <lb ed="#G" n="5"/>nullae fierent superioribus angelis ab ipso Deo, &amp; inferio 
-      <lb ed="#G" n="6"/>ribus per superiores. consequentia patet: quia per huiusmo 
-      <lb ed="#G" n="7"/>di species scirent omnia futura: Sed falsitas consequentis 
-      <lb ed="#G" n="8"/>manifeste patet ex dictis sanctorum, &amp; ex scriptura sacra, 
-      <lb ed="#G" n="9"/>vt patet in Daniele, vbi angelus, qui fuit princeps Persarum 
-      <lb ed="#G" n="10"/>adhuc nesciuit liberationem populi lsrael. Periret etiam  
-      <lb ed="#G" n="11"/>omnis illuminatio inferiorum angelorum a superioribus 
-      <lb ed="#G" n="12"/>quantum ad cognitionem futurorum, quod est contra Dio.  
-      <lb ed="#G" n="13"/>in multis suis libris. 
-    </p>
-            <p xml:id="HuYgTa-113586-d1e1201">
-               <lb ed="#G" n="14"/>
-               <pc type="indent"/>Ad soluendam autem praedictam instantiam multi no 
-      <lb ed="#G" n="15"/>garent maiorem, quia dicunt, quod angeli cognoscunt om- 
-      <lb ed="#G" n="16"/>nia per species acquisitas. Alij negarent eam in parte, quam 
-      <lb ed="#G" n="17"/>uis non in toto: quia dicunt, quod angeli cognoscunt vni 
-      <lb ed="#G" n="18"/>uersalia per species concreatas, particularia vero
-      cogno<lb ed="#G" n="19" break="no"/>scunt per species acquisitas
-    </p>
-            <p xml:id="HuYgTa-113586-d1e1219">
-               <lb ed="#G" n="20"/>Sed istae duae opiniones dissonant a dictis magnorum 
-      <lb ed="#G" n="21"/>doctorum, &amp; specialiter a dictis Beati Augustini super Oe 
-      <lb ed="#G" n="22"/>nesaad litteram. 
-    </p>
-            <p xml:id="HuYgTa-113586-d1e1228">
-               <lb ed="#G" n="23"/>
-               <pc type="indent"/>Ideo aliter respondeo: Propter quod sciendum, quod
-      spe<lb ed="#G" n="24" break="no"/>cies in mente angeli, cum per ipsam cognoscit angelus 
-      <lb ed="#G" n="25"/>actualiter, tunc ducit angelum in perfectam nontitiam rei, 
-      <lb ed="#G" n="26"/>cuius est species: &amp; ideo quamuis primo, &amp; per se ducat in 
-      <lb ed="#G" n="27"/>cognitionem naturae, tamen propter perfectionem illius 
-      <lb ed="#G" n="28"/>cognitionis ducit in cognitionem omnium illorum,
-      qui<lb ed="#G" n="29" break="no"/>bus natura illa est coniuncta: &amp; quia natura illa comiuncta 
-      <lb ed="#G" n="30"/>est praesentibus particularibus &amp; non futuris; ideo ducit 
-      <lb ed="#G" n="31"/>in notitiam praesentium &amp; non futurorum. 
-    </p>
-            <p xml:id="HuYgTa-113586-d1e1253">
-               <lb ed="#G" n="32"/>
-               <pc type="indent"/>Forte dicetur, quod si species in mente angeli non pos 
-      <lb ed="#G" n="33"/>set ducete nisi in notitiam rei praesentis, tunc esset
-      inino<lb ed="#G" n="34" break="no"/>ris virtutis, quam species humani intellectus, quae aeque 
-      <lb ed="#G" n="35"/>perfecte ducit in cognitionem rosae non existentis, sicut  
-      <lb ed="#G" n="36"/>existentis
-    </p>
-            <p xml:id="HuYgTa-113586-d1e1269">
-               <lb ed="#G" n="37"/>Respondeo, quod istud non arguit imperfectionem in 
-      <lb ed="#G" n="38"/>pecie angeli, sed magnam perfectionem: quia causat per 
-      <lb ed="#G" n="39"/>fectiorem notitiam. nec est simile de speciebus nostris &amp;  
-      <lb ed="#G" n="40"/>angelicis: nam cognitio nostra causatur a speciebus abstra 
-      <lb ed="#G" n="41"/>ctis a phantasmatibus, quae remanent in phant asia, vt dici 
-      <lb ed="#G" n="42"/>tur 2. de anima; ideo per se obiectum representatum per 
-      <lb ed="#G" n="43"/>nostram speciem est sola quidditas abstracta, vt patet 3. de 
-      <lb ed="#G" n="44"/>anima. Species autem in mentibus angelorum causata 
-      <lb ed="#G" n="45"/>sunt ab eisdem diuinis ideis, a quibus res in esse
-      producum<lb ed="#G" n="46" break="no"/>tur, quarum rerum huiusmodi species sunt
-      representati<lb ed="#G" n="47" break="no"/>uae in mentibus angelorum, &amp; secundum quod ideae diui 
-      <lb ed="#G" n="48"/>nae rerum sunt productiuae, sic species angelorum earunden 
-      <lb ed="#G" n="49"/>rerum sunt representatiuae. Et ideo quia ideae sunt rerum 
-      <lb ed="#G" n="50"/>productiuae non secundum abstractas quidditates, sed
-      se<lb ed="#G" n="51" break="no"/>cundum quidditates cum suo actuali esse: ideo species in 
-      <lb ed="#G" n="52"/>mente angeli ipsas representant non secundum esse ab 
-      <lb ed="#G" n="53"/>stractum, sed representant ipsam naturam, vt
-      determina<lb ed="#G" n="54" break="no"/>ta est per suum actuale esse, &amp; per consequens naturali com 
-      <lb ed="#G" n="55"/>gnitione &amp; certa, futura contingentia, quae non habet esse 
-      <lb ed="#G" n="56"/>determinatum in suis causis, ipse angelus non potest
-      co<lb ed="#G" n="57" break="no"/>gnoscere, nisi eorum natura sit actualiter in esse
-      produ<lb ed="#G" n="58" break="no"/>cta: ergo &amp;c. 
-    </p>
-            <p xml:id="HuYgTa-113586-d1e1319">
-               <lb ed="#G" n="59"/>
-               <pc type="indent"/>ARTICVLVS IIIL 
-      <lb ed="#G" n="60"/>Vtrum diuinationibus demonum sit 
-      <lb ed="#G" n="61"/>
-               <pc type="indent"/>credendum
-    </p>
-            <p xml:id="HuYgTa-113586-d1e1332">
-               <lb ed="#G" n="62"/>QVANTVM ad quartum articulum patet ex iam di 
-      <lb ed="#G" n="63"/> ctis quid sit dicendum: nam si diuinatio
-      attendi<lb ed="#G" n="64" break="no"/>tur quantum ad futura, si talia sint contingentia, daemon 
-      <lb ed="#G" n="65"/>potest aliquando dicere aliqua vera ex aliquibus signis &amp; 
-      <lb ed="#G" n="66"/>coiecturis, quo modo etiam potest diuinare de nostris com 
-      <lb ed="#G" n="67"/>gitationibus. In talibus tamen dictis suis nulla fides est
-      ad<lb ed="#G" n="68" break="no"/>nibenda; quia si semel verum dicit, saepius tamen falli po 
-      <lb ed="#G" n="69"/>test. Si autem diuinatio attenditur quantum ad talia fu¬ 
-      <!--340.xml-->
-      <cb ed="#G" n="b"/>
-               <lb ed="#G" n="70"/>tura, quae sunt in suis causis necessarijs, sic nisi a Deo
-      pro<lb ed="#G" n="71" break="no"/>hibeatur, vel per nimias suas poenas afflictus tales causas 
-      <lb ed="#G" n="72"/>non consideret, ipse de omnibus talibus, si vellet, posset 
-      <lb ed="#G" n="73"/>praedicere veritatem iuxta notitiam, quam habet de
-      ta<lb ed="#G" n="74" break="no"/>libus causis, modo, quo dictum est. Nec ctiam in tali
-      diui<lb ed="#G" n="75" break="no"/>natione est credendum dictis ipsius daemonis; quia quam  
-      <lb ed="#G" n="76"/>uis ex suis naturalibus ipse perfecte comprehendere pos 
-      <lb ed="#G" n="77"/>sit tales causas: tamen ad sui confusionem credendum 
-      <lb ed="#G" n="78"/>est, quod diuino iudicio saepius impediatur, ne tales
-      ve<lb ed="#G" n="79" break="no"/>ritates debite apprehendat, quatenus si praenosticare
-      vel<lb ed="#G" n="80" break="no"/>let, &amp; per hoc homines allicere, ignorans esse probetur,  
-      <lb ed="#G" n="81"/>&amp;: per consequens eius vaticinatio spernatur, &amp;
-      deridea<lb ed="#G" n="82" break="no"/>tur, iuxta illud Psalm. Draco iste, quem formasti ad
-      il<lb ed="#G" n="83" break="no"/>ludendum ei. 
-    </p>
-            <p xml:id="HuYgTa-113586-d1e1387">
-               <lb ed="#G" n="84"/>
-               <pc type="indent"/>Ad argumentum principale dicendum, quod nostra
-      pec<lb ed="#G" n="85" break="no"/>cata cognoscit ex signis &amp; coniecturis, vel etiam Deo
-      re<lb ed="#G" n="86" break="no"/>aclante tamquam tortor malesactorum percipere potest 
-      <lb ed="#G" n="87"/>a iudice, seu a nunciis iudicis, scilicet a bonis angelis
-      pec<lb ed="#G" n="88" break="no"/>cata poniendorum 
-    </p>
-         </div>
-      </body>
-   </text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 1</title>
+        <author ref="#ThomasStrasbourg">Thomas of Strasbourg</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 1</title>
+          <date when="2020-11-26">November 26, 2020</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="G" n="cod-TxxxqU">Genoa 1585</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2020-11-26" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#G" n="149-v"/>
+        <cb ed="#G" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="HuYgTa-113586"><!-- HuYgTa-l2d7q1 -->
+        <head xml:id="HuYgTa-113586-Hd1e108">Quaestio 1</head>
+        <head xml:id="HuYgTa-113586-Hd1e111" type="question-title">
+          An daemones occulta cordium
+          hominum cognoscant.
+        </head>
+        <p xml:id="HuYgTa-113586-d1e114">
+          <lb ed="#G" n="55"/>Quaestio I.
+          <lb ed="#G" n="56"/>An daemones occulta cordium
+          homi<lb ed="#G" n="57" break="no"/>num cognoscant.
+        </p>
+        <p xml:id="HuYgTa-113586-d1e123">
+          <lb ed="#G" n="58"/>VVTRVM daemones cognoscant occulta cordium, 
+          si<lb ed="#G" n="59" break="no"/>ue cogitationes mentis humanae.
+        </p>
+        <p xml:id="HuYgTa-113586-d1e130">
+          Et videtur, quod 
+          <!--337.xml-->
+          <cb ed="#G" n="b"/>
+          <lb ed="#G" n="60"/>sic: quia daemon cognoscit omnia peccata nostra, pro qui 
+          <lb ed="#G" n="61"/>bus puniri debemus, cum ipse sit exsecutor iudicis: sed mul 
+          <lb ed="#G" n="62"/>ta sunt peccata, pro quibus puniendi sumus, quae consistunt 
+          <lb ed="#G" n="63"/>sola cogitatione, &amp; in occulto cordis; ergo &amp;c 
+          <lb ed="#G" n="64"/>Contra, si demon cognosceret occulta mentis
+          huma<lb ed="#G" n="65" break="no"/>nae, tunc daemon illaberetur menti humanae consequens 
+          <lb ed="#G" n="66"/>est salsum: quia hunc honorem secundum Aug. Deus sib 
+          <lb ed="#G" n="67"/>soli reseruauit. Hic quattuor sunt videnda. Primo vtrum 
+          <lb ed="#G" n="68"/>daemones possint illabi animae rationali Secundo, vtrum 
+          <lb ed="#G" n="69"/>cognoscant nostras cogitationes, Tertio, vtrum
+          cogno<lb ed="#G" n="70" break="no"/>scant futura. Et quarto, vtrum diuinationibus demonum 
+          <lb ed="#G" n="71"/>sit credendum. 
+        </p>
+        <p xml:id="HuYgTa-113586-d1e164">
+          <lb ed="#G" n="72"/>
+          <pc type="indent"/>RESOLVTIO 
+          <lb ed="#G" n="73"/>Et si angelus in quocumque corpore vna cum anima esse possit, co 
+          <lb ed="#G" n="74"/>git ationes quoed nostras quo ad terminorum significationem opti 
+          <lb ed="#G" n="75"/>me cognoltat, horum tamen complexionem, quo ad certam
+          af<lb ed="#G" n="76" break="no"/>firm ationem, &amp; negationem penitus ignorant. 
+        </p>
+        <p xml:id="HuYgTa-113586-d1e180">
+          <lb ed="#G" n="77"/>
+          <pc type="indent"/>ARTICVLVS II 
+          <lb ed="#G" n="78"/>Vtrum Demones possint illabi amima 
+          <lb ed="#G" n="79"/>
+          <pc type="indent"/>rationali¬
+        </p>
+        <p xml:id="HuYgTa-113586-d1e193">
+          <lb ed="#G" n="80"/>QVANTVM ad primum ponam tres conclusiones 
+        </p>
+        <p xml:id="HuYgTa-113586-d1e198">
+          <lb ed="#G" n="81"/>
+          <pc type="indent"/>Prima est, quod daemon, vel quicumque angclus 
+          <lb ed="#G" n="82"/>potest esse in quocumque corpore, nisi prohibeatur a su 
+          <lb ed="#G" n="83"/>periori potestate. Secunda est, quod daemon, seu angelus 
+          <lb ed="#G" n="84"/>potest esse in eodem corpore cum anima rationali.
+          Ter<lb ed="#G" n="85" break="no"/>tia est, quod demon, siue angelus non potest esse in
+          ani<lb ed="#G" n="86" break="no"/>ma rationali, nec per consequens illabitur ei 
+        </p>
+        <p xml:id="HuYgTa-113586-d1e216">
+          <lb ed="#G" n="87"/>
+          <pc type="indent"/>Dico ergo primo, quod daemoni non repugnat esse in 
+          <lb ed="#G" n="88"/>quocumque corpore 
+        </p>
+        <p xml:id="HuYgTa-113586-d1e225">
+          <lb ed="#G" n="89"/>1 Quia non plus repugnat spiritui esse in corpore, 
+          <lb ed="#G" n="90"/>quam alicui corpori esse in alio corpore, sed corpori
+          glo<lb ed="#G" n="91" break="no"/>rificato non repugnat esse in quocumque corpore, quod 
+          <lb ed="#G" n="92"/>patet de corporibus spherae actiuorum &amp; passiuorum: quia 
+          <lb ed="#G" n="93"/>intrat &amp; exit ianuis clausis, vt apparuit de corpore
+          Chri<lb ed="#G" n="94" break="no"/>sti, etiam patet de corpore caelesti: quia corpora glorifica 
+          <lb ed="#G" n="95"/>ta transeunt omnes celos inferiores, &amp; requiescunt in con 
+          <lb ed="#G" n="96"/>pore caeli empyrei.
+        </p>
+        <p xml:id="HuYgTa-113586-d1e246">
+          <lb ed="#G" n="97"/>2 Praeterea, quamuis extensum vt extensum est, non compa 
+          <lb ed="#G" n="98"/>tiatur in se aliud extensum naturaliter, eo quod dimesio 
+          <lb ed="#G" n="99"/>resistat dimesioni; tamen sine repugnantia extensum
+          con<lb ed="#G" n="100" break="no"/>patitur secum, ac etiam in se non extensum: sed
+          substan<lb ed="#G" n="101" break="no"/>tia angelica non est extensa, quia nec est quanta de se,
+          si<lb ed="#G" n="102" break="no"/>cut corpus, nec coniuncta quantitati, sicut substantia rei 
+          <lb ed="#G" n="103"/>corporalis: nec est coniuncta quanto, sicut anima rationa 
+          <lb ed="#G" n="104"/>lis, quae est actus corporis physici organici &amp;c. 
+        </p>
+        <p xml:id="HuYgTa-113586-d1e266">
+          <lb ed="#G" n="105"/>
+          <pc type="indent"/>3 Praeterea, incorporea natura ibi nimirum est, vbi 
+          <lb ed="#G" n="106"/>operatur, vt ait Damaslibro primo, sed angelus operatui 
+          <lb ed="#G" n="107"/>in corporibus: igitur dum operat in eis, est in eis; ergo &amp;c 
+        </p>
+        <p xml:id="HuYgTa-113586-d1e277">
+          <lb ed="#G" n="108"/>
+          <pc type="indent"/>4 Praeterea, non apparet, quare angelo magis
+          repu<lb ed="#G" n="109" break="no"/>gnet esse in corpore, quam animae rationali; sed amimae ra 
+          <lb ed="#G" n="110"/>tionali non repugnat 
+        </p>
+        <p xml:id="HuYgTa-113586-d1e288">
+          <lb ed="#G" n="111"/>
+          <pc type="indent"/>Sed huic conclusioni videtur obuiare Qlosa super Aba. 
+          <lb ed="#G" n="112"/>cuc. 2. ca. quae dicit, quod spiritus immundus potest assiste, 
+          <lb ed="#G" n="113"/>re simulacris; sed intrinsecus esse non potest 
+        </p>
+        <p xml:id="HuYgTa-113586-d1e299">
+          <lb ed="#G" n="114"/>
+          <pc type="indent"/>Respondeo, quod per talia verba Closa intendit exclu 
+          <lb ed="#G" n="115"/>sionem non localem, sed essentialem, vult enim dicere, quod 
+          <lb ed="#G" n="116"/>daemon cum ipso simulacro non facit vnum per essentiam, 
+          <lb ed="#G" n="117"/>sicut materia cum forma 
+        </p>
+        <p xml:id="HuYgTa-113586-d1e312">
+          <lb ed="#G" n="118"/>
+          <pc type="indent"/>Secundo dico, quod angelus potest esse cum anima r 
+          <lb ed="#G" n="119"/>tionali in eodem corpore, nisia Deo prohibeatur 
+        </p>
+        <p xml:id="HuYgTa-113586-d1e322">
+          <lb ed="#G" n="120"/>
+          <pc type="indent"/>Quia quamuis duae substantiae spirituales non
+          pos<lb ed="#G" n="121" break="no"/>sint esse eodem modo in eodem, diuersis tamen modis 
+          <lb ed="#G" n="122"/>nihil repugnat eis esse in eodem:igitur in eodem corpo 
+          <lb ed="#G" n="123"/>re, in quo est anima rationalis per informationem, poterit 
+          <lb ed="#G" n="124"/>esse angelus, siue bonus, siue malus per operationem. 
+          <lb ed="#G" n="125"/>2 Praeterea, daemones fuisse in humanis corporibus 
+          <!--338.xml-->
+          <pb ed="#G" n="150-r"/>
+          <cb ed="#G" n="a"/>
+          <lb ed="#G" n="1"/>&amp; homines multipliciter vexasse, textus sacrae scripturae 
+          <lb ed="#G" n="2"/>saepius protestatur: Dicitur enim, quod offerebant aposto 
+          <lb ed="#G" n="3"/>lis vexatos a spiritibus immundis, qui curabatur omnes. 
+          <lb ed="#G" n="4"/>idem patet alibi.
+        </p>
+        <p xml:id="HuYgTa-113586-d1e355">
+          <lb ed="#G" n="5"/>Sed Forte dicetur, cum anima rationalis sit tota in to 
+          <lb ed="#G" n="6"/>to corpore, &amp; tota in qualibet parte corporis, vt patuit 
+          <lb ed="#G" n="7"/>in primo libro, igitur daemon non potest esse in
+          corpo<lb ed="#G" n="8" break="no"/>re, nec in aliqua parte corporis, in quo est anima, nin
+          il<lb ed="#G" n="9" break="no"/>laberetur ei 
+        </p>
+        <p xml:id="HuYgTa-113586-d1e368">
+          <lb ed="#G" n="10"/>
+          <pc type="indent"/>Respondeo negando consequentiam. Nam quamuis 
+          <lb ed="#G" n="11"/>ex hoc bene arguatur, quod daemon &amp; anima simul sint,  
+          <lb ed="#G" n="12"/>illapsus tamen vnius in alterum ex hoc argui non potest. 
+        </p>
+        <p xml:id="HuYgTa-113586-d1e379">
+          <lb ed="#G" n="13"/>
+          <pc type="indent"/>Dico tertio, quod daemon, siue angelus per
+          substantia<lb ed="#G" n="14" break="no"/>lem illapsum non potest esse in anima. 
+        </p>
+        <p xml:id="HuYgTa-113586-d1e388">
+          <lb ed="#G" n="15"/>
+          <pc type="indent"/>1 Quia nullus spiritus per illapsum potest esse in alio 
+          <lb ed="#G" n="16"/>spiritu: sed tam anima, quam angelus sunt spiritus: Maior  
+          <lb ed="#G" n="17"/>patet per Aug. in de fide ad Petrum, vbi ait, quod
+          singu<lb ed="#G" n="18" break="no"/>us spiritibus inest terminus, quo a se inuicem distinguun 
+          <lb ed="#G" n="19"/>tur, &amp; vnus in alio non est 
+        </p>
+        <p xml:id="HuYgTa-113586-d1e404">
+          <lb ed="#G" n="20"/>
+          <pc type="indent"/>2 Praeterea, quod solius Dei proprium est, angelo
+          con<lb ed="#G" n="21" break="no"/>aenire non potest: sed illabi animae est huiusmodi;
+          qui<lb ed="#G" n="22" break="no"/>secundum beatum August. in de ecclesiasticis dogmati 
+          <lb ed="#G" n="23"/>bus, illabi menti illi tantum possibile est, qui creauit ea. 
+        </p>
+        <p xml:id="HuYgTa-113586-d1e418">
+          <lb ed="#G" n="24"/>
+          <pc type="indent"/>3 Praeterea, quicquid est in essentia rei, vt essentia est, 
+          <lb ed="#G" n="25"/>hoc facit ad esse rei, &amp; conseruat rem in esse, propter hoc 
+          <lb ed="#G" n="26"/>enim essentia dicitur ab esse, vt patet per beatum Aug. 2 
+          <lb ed="#G" n="27"/>de tri. Sed nullus angelus facit ad esse animae, nec eam con 
+          <lb ed="#G" n="28"/>seruat in esse, ergo nullus angelus est in essentia animae, 
+          <lb ed="#G" n="29"/>vt essentia est, nec per consequens illabitur ei¬ 
+        </p>
+        <p xml:id="HuYgTa-113586-d1e436">
+          <lb ed="#G" n="30"/>
+          <pc type="indent"/>Forte dicetur, quod per istam eandem rationem
+          po<lb ed="#G" n="31" break="no"/>test probari, quod angelus non possit esse in essentia
+          ali<lb ed="#G" n="32" break="no"/>tuius corporis, quod videtur contradicere primae conclu 
+          <lb ed="#G" n="33"/>sioni; quia nec facit ad esse corporis, nec conseruat
+          cor<lb ed="#G" n="34" break="no"/>pus in esse 
+        </p>
+        <p xml:id="HuYgTa-113586-d1e452">
+          <lb ed="#G" n="35"/>
+          <pc type="indent"/>Respondeo, quod virtute istius rationis non probatur,  
+          <lb ed="#G" n="36"/>quod angelus non sit in essentia corporis absolute &amp; sim 
+          <lb ed="#G" n="37"/>pliciter, quamuis bene probetur, quod angelus non sit in 
+          <lb ed="#G" n="38"/>essentia corporis, vt essentia, seu substantia est, &amp; hac
+          con<lb ed="#G" n="39" break="no"/>tedo: quia primae conclusioni non contradicit, num
+          an<lb ed="#G" n="40" break="no"/>gelus non potest esse in essentia corporis, vt essentia est; 
+          <lb ed="#G" n="41"/>ed vt extensa est, secundum quod dicunt magni doctores, 
+        </p>
+        <p xml:id="HuYgTa-113586-d1e472">
+          <lb ed="#G" n="42"/>
+          <pc type="indent"/>Vtrum Demones cognoscant nostras 
+          <lb ed="#G" n="43"/>
+          <pc type="indent"/>cogitationes.
+        </p>
+        <p xml:id="HuYgTa-113586-d1e483">
+          <lb ed="#G" n="44"/>ARTICVLVS II 
+          <lb ed="#G" n="45"/>QVANTVM ad secundum articulum sic procedam: 
+        </p>
+        <p xml:id="HuYgTa-113586-d1e490">
+          <lb ed="#G" n="46"/>
+          <pc type="indent"/>. Primo enim ostendam qualiter angelus
+          cogno<lb ed="#G" n="47" break="no"/>scat humanas cogitationes, prout cogitatio dicit actum  
+          <lb ed="#G" n="48"/>intellectus, Secundo ostendam hoc idem, prout dicit, vel 
+          <lb ed="#G" n="49"/>amplicat actum affectus 
+        </p>
+        <p xml:id="HuYgTa-113586-d1e504">
+          <lb ed="#G" n="50"/>
+          <pc type="indent"/>Quantum ad primum est aduertendum, quod
+          gram<lb ed="#G" n="51" break="no"/>maticaliter loquendo cogitatio dicitur quasi coagitatio,  
+          <lb ed="#G" n="52"/>id est, vnius cum altero agitatio, &amp; ideo proprie
+          loquen<lb ed="#G" n="53" break="no"/>do cogitatio non dicit, necsignat actum intellectus, qui est 
+          <lb ed="#G" n="54"/>simplicium apprehensio, sed actum componentem
+          affir<lb ed="#G" n="55" break="no"/>matiue, vel diuidentem negatiue. Hoc supposito ponam 
+          <lb ed="#G" n="56"/>luas conclusiones. 
+        </p>
+        <p xml:id="HuYgTa-113586-d1e524">
+          <lb ed="#G" n="57"/>
+          <pc type="indent"/>Prima est, quod angelus naturaliter cognoscit nostras 
+          <lb ed="#G" n="58"/>cogitationes quantum ad terminorum significationem, 
+          <lb ed="#G" n="59"/>Secunda est, quod non intelligit eas quantum ad compo 
+          <lb ed="#G" n="60"/>sitionis vel diuisionis determinationem. 
+        </p>
+        <p xml:id="HuYgTa-113586-d1e537">
+          <lb ed="#G" n="61"/>
+          <pc type="indent"/>1 Primum probo sicillle, qui omnem actum
+          intelle<lb ed="#G" n="62" break="no"/>ctus nostri cognoscit, qui est simplex apprehensio; ille 
+          <lb ed="#G" n="63"/>etiam omnem actum componentem, vel diuidentem con 
+          <lb ed="#G" n="64"/>gnoscit, quo ad significatum terminorum. Ista patet,
+          qui<lb ed="#G" n="65" break="no"/>terminorum significatum in vno actu composito non est 
+          <lb ed="#G" n="66"/>aliud, nisi significatum plurium simplicium, sed angelus 
+          <lb ed="#G" n="67"/>naturaliter potest cognoscere omnem actum nostri
+          inte<lb ed="#G" n="68" break="no"/>lectus, qui est simplicium terminorum, eo quod ipse
+          eui<lb ed="#G" n="69" break="no"/>denter videat, qua specle vtimur in organo phantasiae, cum 
+          <!--338.xml-->
+          <cb ed="#G" n="b"/>
+          <lb ed="#G" n="70"/>illa species prae ceteris specialiter actiuetur: qua
+          actuali<lb ed="#G" n="71" break="no"/>ter vtimur cognoscendo.
+        </p>
+        <p xml:id="HuYgTa-113586-d1e570">
+          <lb ed="#G" n="72"/>2 Praeterea, quicumque persecte cognoscit aliquod sub 
+          <lb ed="#G" n="73"/>iectum, ille poterit cognoscere omnia, quae sunt in subio 
+          <lb ed="#G" n="74"/>cto: sed angelus perfecte cognoseit nostram potentiam  
+          <lb ed="#G" n="75"/>intellectiuam, ergo etiam cognoscit actum intelligendi 
+          <lb ed="#G" n="76"/>psam informantem.
+        </p>
+        <p xml:id="HuYgTa-113586-d1e583">
+          <lb ed="#G" n="77"/>3 Praeterea, perfecte cognitis omnibus causis alicuius 
+          <lb ed="#G" n="78"/>effectus, cognoscitur &amp; effectus: sed angelus perfecte
+          co<lb ed="#G" n="79" break="no"/>gnoscit omnes causas nostri actus intelligendi. Maior pro 
+          <lb ed="#G" n="80"/>tet: quia scire est causas rei cognoscere, vt patet primo 
+          <lb ed="#G" n="81"/>posteriorum; minorem declaro: quia angelus intelligit 
+          <lb ed="#G" n="82"/>seu cognoscit intellectum nostrum possibilem, &amp; agentem 
+          <lb ed="#G" n="83"/>obiectum intelligibile, &amp; speciem obiecti, quae sunt suffi 
+          <lb ed="#G" n="84"/>cientes causae actus intelligendi. 
+        </p>
+        <p xml:id="HuYgTa-113586-d1e603">
+          <lb ed="#G" n="85"/>
+          <pc type="indent"/>4 Praeterea, intellectus, qui non cognoscit spiritualia 
+          <lb ed="#G" n="86"/>per corporalia, ille non minus pfecte cognoscit accidentia 
+          <lb ed="#G" n="87"/>piritualia, quam corporalia angelus est nuiusmodi; cum 
+          <lb ed="#G" n="88"/>igitur perfecte cognoscat omnia accidentia corporalia:
+          igi<lb ed="#G" n="89" break="no"/>tur etiam perfecte cognoscit nostrum actum
+          intelligen<lb ed="#G" n="90" break="no"/>di, qui est quoddam accidens spirituale 
+        </p>
+        <p xml:id="HuYgTa-113586-d1e622">
+          <lb ed="#G" n="91"/>
+          <pc type="indent"/>3 Praeterea, sicut perfecte viso corpore videntur
+          figu<lb ed="#G" n="92" break="no"/>rae, &amp; picturae, quae sunt in corpore, sic perfecte viso
+          intel<lb ed="#G" n="93" break="no"/>ectu videntur species &amp; actus intelligendi, quae sunt qua 
+          <lb ed="#G" n="94"/>si quaedam figurae spirituales ipsius intellectus: sed
+          ange<lb ed="#G" n="95" break="no"/>us perfecte cognoscit intellectum nostrum 
+        </p>
+        <p xml:id="HuYgTa-113586-d1e638">
+          <lb ed="#G" n="96"/>
+          <pc type="indent"/>&amp; Praeterea, sicut se habet sensus ad sensibile, sic se ha 
+          <lb ed="#G" n="97"/>bet intellectus ad intelligibile; sed nullum est sensibile, 
+          <lb ed="#G" n="98"/>quod subtersugiat notitiam sensitiuam sensus creati; quia 
+          <lb ed="#G" n="99"/>sicut patet 2. de anima si esset aliquod sensibile, quod non 
+          <lb ed="#G" n="100"/>posset percipi aliquo quinque sensuum, oporteret dare
+          se<lb ed="#G" n="101" break="no"/>vtum sensum:igitur cogitatio nostra cum sit ens actu
+          in<lb ed="#G" n="102" break="no"/>telligibile, non poterit subterfugere notitiam
+          intelle<lb ed="#G" n="103" break="no"/>tus angelici, qui est intellectus perfectus &amp; a nullo
+          im<lb ed="#G" n="104" break="no"/>peditus. 
+        </p>
+        <p xml:id="HuYgTa-113586-d1e662">
+          <lb ed="#G" n="105"/>
+          <pc type="indent"/>Sed contrarium istius conclusionis tenens quidam 
+          <lb ed="#G" n="106"/>loctor dicit 
+        </p>
+        <p xml:id="HuYgTa-113586-d1e671">
+          <lb ed="#G" n="107"/>
+          <pc type="indent"/>1 Quod quantumlibet aliquid nostro intellectui
+          vi<lb ed="#G" n="108" break="no"/>leatur, si tamen scriptura sacra tenet, &amp; docet oppositum, 
+          <lb ed="#G" n="109"/>taptiuadus est intellectus in obsequium scripturae sacrae: 
+          <lb ed="#G" n="110"/>sed in multis locis sacrae scripturae habetur, quod solus 
+          <lb ed="#G" n="111"/>Deus intuetur corda hominum. Ista minor patet,
+          quo<lb ed="#G" n="112" break="no"/>niam dicitur, Tu Deus, qui solus nosti corda hominum 
+          <lb ed="#G" n="113"/>Et alibi, Homo videt quae patent: Deus autem intuetur 
+          <lb ed="#G" n="114"/>cor. Et Apostolus ait, Nemo nouit sensum hominis &amp;c 
+        </p>
+        <p xml:id="HuYgTa-113586-d1e693">
+          <lb ed="#G" n="115"/>
+          <pc type="indent"/>2 Praeterea, hoc idem probat sanctorum auctoritati 
+          <lb ed="#G" n="116"/>bus; quia August. in libro de ecclesiasticis dogmatibus di 
+          <lb ed="#G" n="117"/>cit, Non est possibile, quod angelus videat hominis cogi 
+          <lb ed="#G" n="118"/>tationem, immo quia quandoque dixerat oppositum, ideo 
+          <lb ed="#G" n="119"/>noc retractat in libro retractationum. 
+        </p>
+        <p xml:id="HuYgTa-113586-d1e709">
+          <lb ed="#G" n="120"/>
+          <pc type="indent"/>3 Preterea, illud, per quod probatur filius Dei esse  
+          <lb ed="#G" n="121"/>Deus, non potest conuenire creaturae, sed cognoscere com 
+          <lb ed="#G" n="122"/>sitationes hominum est huiusmodi: quia Chryso. super 
+          <lb ed="#G" n="123"/>Matthaeum dicit, quod cognitio cogitationum in
+          Chri<lb ed="#G" n="124" break="no"/>sto fuit argumentum Deitatis. 
+        </p>
+        <p xml:id="HuYgTa-113586-d1e726">
+          <lb ed="#G" n="125"/>
+          <pc type="indent"/>Addit autem iste doctor causam praedictorum dicens, 
+          <lb ed="#G" n="126"/>uod angelus nostram intellectionem, cogitationem, &amp;  
+          <lb ed="#G" n="127"/>volitionem pro tanto non potest cognoscere: quia licet 
+          <lb ed="#G" n="128"/>praedicta, scilicet intellectio, cogitatio &amp; volitio,
+          quan<lb ed="#G" n="129" break="no"/>tum ad actum primum non subsint imperio voluntatis; 
+          <lb ed="#G" n="130"/>ubsunt tamen quantum ad actum secundum, qui est
+          gi<lb ed="#G" n="131" break="no"/>gnere suam similitudinem actiue in mente alterius. Et 
+          <lb ed="#G" n="132"/>ideo secundum istum doctorem, nisi adsit consensus
+          no<lb ed="#G" n="133" break="no"/>strae voluntatis ad hoc, quod angelus cognoscat nostras 
+          <lb ed="#G" n="134"/>cogitationes, &amp; volitiones, ipse angelus eas cognoscere 
+          <lb ed="#G" n="135"/>non potest. 
+        </p>
+        <p xml:id="HuYgTa-113586-d1e755">
+          <lb ed="#G" n="136"/>
+          <pc type="indent"/>Preterea, arguit doctor communis hoc idem sic
+          Ea<lb ed="#G" n="137" break="no"/>uae in nostra voluntate sunt, vel a voluntate
+          depen<lb ed="#G" n="138" break="no"/>dent, soli Deo subiecta sunt, &amp; per consequens angeli
+          ta<lb ed="#G" n="139" break="no"/>lia cognoscere non possunt, nostrae cogitationes sunt 
+          <lb ed="#G" n="140"/>uiusmodi. 
+        </p>
+        <p xml:id="HuYgTa-113586-d1e771">
+          <lb ed="#G" n="141"/>
+          <pc type="indent"/>Praeterea, ad cognoscendum cogitationes hominis 
+          <lb ed="#G" n="142"/>non sufficit cognitio specierum: sed oportet, vt usus ea¬ 
+          <!--339.xml-->
+          <pb ed="#G" n="150-v"/>
+          <cb ed="#G" n="a"/>
+          <lb ed="#G" n="1"/>rum cognoscatur, sed vsum specierum angeli cognoscer.i 
+          <lb ed="#G" n="2"/>non possunt: quia ex voluntate dependet, quae soli Deo 
+          <lb ed="#G" n="3"/>sobijcitur, 
+        </p>
+        <p xml:id="HuYgTa-113586-d1e793">
+          <lb ed="#G" n="4"/>
+          <pc type="indent"/>Sed his non obstantibus teneo praedictam
+          conclusio<lb ed="#G" n="5" break="no"/>nem, &amp; confirmo eam sic: Potentia in genere suo
+          perfe<lb ed="#G" n="6" break="no"/>cta, potest in omne illud, quod per se continetur sub suo 
+          <lb ed="#G" n="7"/>obiecto adaequato: sed cogitationes nostrae quantum ad 
+          <lb ed="#G" n="8"/>naturam actus, cum sint actu intelligibiles, per se compre 
+          <lb ed="#G" n="9"/>henduntur sub obiecto adaequato potentiae intellectiuae 
+          <lb ed="#G" n="10"/>angeli, ergo &amp;c 
+        </p>
+        <p xml:id="HuYgTa-113586-d1e813">
+          <lb ed="#G" n="11"/>
+          <pc type="indent"/>Ad primas tres rationes dicendum, quod cognoscere 
+          <lb ed="#G" n="12"/>nostras cogitationes non solum quantum ad naturam actus. 
+          <lb ed="#G" n="13"/>&amp; significatum terminorum: sed etiam quantum ad
+          cogi<lb ed="#G" n="14" break="no"/>tantis intentionem quo ad affirmationem, &amp; negatione, 
+          <lb ed="#G" n="15"/>hoc solus Deus potest, vt patebit in conclusione
+          sequen<lb ed="#G" n="16" break="no"/>ti. Et de hoc etiam loquuntur omnes auctoritates adducte 
+          <lb ed="#G" n="17"/>in rationibus supradictis: sed quantum ad naturam actus,  
+          <lb ed="#G" n="18"/>&amp; significatum terminorum, nihil prohibet ipsum
+          ange<lb ed="#G" n="19" break="no"/>lu cognoscere nostras cogitationes. Nec valet, quod assignat 
+          <lb ed="#G" n="20"/>pro causa sui dicti de assensu voluntatis: quia non credo 
+          <lb ed="#G" n="21"/>que aliquis homo sit ita stultus, quod velit daemones cognosc. 
+          <lb ed="#G" n="22"/>re suos actus interiores, &amp; tamen ipsi saepe tales actus
+          co<lb ed="#G" n="23" break="no"/>gnoscunt etiam inuitis nobis 
+        </p>
+        <p xml:id="HuYgTa-113586-d1e846">
+          <lb ed="#G" n="24"/>
+          <pc type="indent"/>Ad quartum dicendum, quod actus intelligendi, quo 
+          <lb ed="#G" n="25"/>ad naturam suam non dependet a voluntate, cum sit
+          na<lb ed="#G" n="26" break="no"/>turaliter prior actu voluntatis, quamuis aliquo modo de 
+          <lb ed="#G" n="27"/>pendeat a voluntate quantum ad continuationem suam 
+        </p>
+        <p xml:id="HuYgTa-113586-d1e860">
+          <lb ed="#G" n="28"/>
+          <pc type="indent"/>Ad quintum dicendum, quod vel per vsum specierum 
+          <lb ed="#G" n="29"/>intelligis gignitionem vnius speciei ab altera iuxta
+          mo<lb ed="#G" n="30" break="no"/>dum loquendi Augus, qui dicit, quod cum intelligimus 
+          <lb ed="#G" n="31"/>actu, tunc a specle, quae est in memoria, gignitur species 
+          <lb ed="#G" n="32"/>quae est in intelligentia, quae est parenti simillima, &amp; sic 
+          <lb ed="#G" n="33"/>nego minorem: quia talem vsum augeli bene percipiunt 
+          <lb ed="#G" n="34"/>quia vident speciem oenitam in esse pleno, quam prius 
+          <lb ed="#G" n="35"/>viderant in esse semipleno; vel per huiusmodi vsum
+          in<lb ed="#G" n="36" break="no"/>telligis affirmationem &amp; negationem, tunc concedo mi- 
+          <lb ed="#G" n="37"/>norem: quia non est contra me: quia non cognito tal 
+          <lb ed="#G" n="38"/>vsu potest angelus naturam actus intelligendi perfecte 
+          <lb ed="#G" n="39"/>cognoscere 
+        </p>
+        <p xml:id="HuYgTa-113586-d1e891">
+          <lb ed="#G" n="40"/>
+          <pc type="indent"/>Secunda conclusio est, quod angelus cogitationes
+          no<lb ed="#G" n="41" break="no"/>stras quantum ad affirmationem, &amp; negationem per se, &amp;  
+          <lb ed="#G" n="42"/>determinate cognoscere non potest: cognoscit tamen ut 
+          <lb ed="#G" n="43"/>plurimum eas indirecte ex aliquibus signis in corporibu 
+          <lb ed="#G" n="44"/>nostris apparentibus. Primum declaro sic. Quandocunqu 
+          <lb ed="#G" n="45"/>idem representatiuum representat opposita, videns illuc 
+          <lb ed="#G" n="46"/>representatiuum, vnum illorum representatiuorum, non po 
+          <lb ed="#G" n="47"/>test virtute illius representatiui determinate
+          cognosce<lb ed="#G" n="48" break="no"/>re; si enim vna vox diuersa significat, quamuis per auditum 
+          <lb ed="#G" n="49"/>eius possimus iudicare, quod ille, qui profert ea velit hoc, 
+          <lb ed="#G" n="50"/>vel hoc dicere; non tamen possumus iudicare virtute
+          il<lb ed="#G" n="51" break="no"/>lius vocis, quod prolator eius velit determinate dicere 
+          <lb ed="#G" n="52"/>hoc, sed eaedem sunt species intelligibiles, quibus
+          reprae<lb ed="#G" n="53" break="no"/>sentantur obiecta actus affirmatiui, &amp; actus negatiui. quia 
+          <lb ed="#G" n="54"/>rectum est iudex sui &amp; obliqui, vt dicitur primo de ani 
+          <lb ed="#G" n="55"/>ma; per eandem enim speciem non mutatam possumus 
+          <lb ed="#G" n="56"/>cogitare sacere, &amp; non facere, fugere, &amp; non fugere: quia s 
+          <lb ed="#G" n="57"/>cut dicit <ref xml:id="HuYgTa-113586-Rd1e934">Aug. 12. de ci. Dei</ref>, Talia, quae priuatiue dicuntur 
+          <lb ed="#G" n="58"/>
+          <quote xml:id="HuYgTa-113586-Qd1e939" source="http://scta.info/resource/adcd-l12-d1e1698">non in specie, sed in priuatione sciuntur</quote>; Igitur quamuis 
+          <lb ed="#G" n="59"/>angelus possit naturaliter cognoscere me cogitare de re 
+          <lb ed="#G" n="60"/>quacumque eo, quod videat speciem illius rei gigni in meo in 
+          <lb ed="#G" n="61"/>tellectu, &amp; eius phantasma actu moueri in ipsa phatasia 
+          <lb ed="#G" n="62"/>non poterit tamen scire per certitudinem &amp;
+          determina<lb ed="#G" n="63" break="no"/>te, vtrum de tali re cooitem affirmatiue, vel negatiue. 
+        </p>
+        <p xml:id="HuYgTa-113586-d1e954">
+          <lb ed="#G" n="64"/>
+          <pc type="indent"/>Quod autem angelus vt plurimum nostras
+          cogitatio<lb ed="#G" n="65" break="no"/>nes quo ad affirmationem, &amp; negationem cognoicat con 
+          <lb ed="#G" n="66"/>lecturatiue &amp; indirecte patet: quia rara est aliqua
+          cogita<lb ed="#G" n="67" break="no"/>tio, si fortis fuerit, quin aliquod indicium, seu signum su 
+          <lb ed="#G" n="68"/>demonstret in aliqua parte corporis, quae quidem signa ci 
+          <lb ed="#G" n="69"/>angelo abscondi non possint, de nostris intentionibus an 
+          <lb ed="#G" n="70"/>gelus poterit determinate iudicare, &amp; cognoscere illud 
+          <lb ed="#G" n="71"/>quod cogitamus, non obstante indeterminatione speciei 
+          <lb ed="#G" n="72"/>pro affirmatione, &amp; negatione 
+        </p>
+        <p xml:id="HuYgTa-113586-d1e978">
+          <lb ed="#G" n="73"/>
+          <pc type="indent"/>Quomodo autem cognitio angelica se habeat ad no¬ 
+          <!--339.xml-->
+          <cb ed="#G" n="b"/>
+          <lb ed="#G" n="74"/>stram volitionem, siue ad cogitationem, prout cogitatio 
+          <lb ed="#G" n="75"/>implicat actum nostrae voluntatis, potest ex praedictis
+          ali<lb ed="#G" n="76" break="no"/>qualiter esse notum: quia actus ipsius voluntatis sequitur 
+          <lb ed="#G" n="77"/>actum intellectus componentis, &amp; diuidentis; voluntas 
+          <lb ed="#G" n="78"/>enim nec acceptat aliquid per actum complacentiae, nec 
+          <lb ed="#G" n="79"/>refutat per actum displicentiae, nisi illud sit apprehesum 
+          <lb ed="#G" n="80"/>vt conueniens, vel disconueniens: cum igitur de similibus 
+          <lb ed="#G" n="81"/>idem sit iudicium, ideo potest eodem modo dici de actu 
+          <lb ed="#G" n="82"/>voluntatis, sicut dictum est de actu intellectus
+          compone<lb ed="#G" n="83" break="no"/>tis, &amp; diuidentis 
+        </p>
+        <p xml:id="HuYgTa-113586-d1e1011">
+          <lb ed="#G" n="84"/>
+          <pc type="indent"/>ARTICVLVS III 
+          <lb ed="#G" n="85"/>Vtrum demones cognoscant futira. 
+          <lb ed="#G" n="86"/>QVANTVM ad tertium articulum dico, quod daemo 
+          <lb ed="#G" n="87"/>
+          <pc type="indent"/>nes scire futura dupliciter potest intelligi,
+          secun<lb ed="#G" n="88" break="no"/>dum quod futura dicuntur esse duplicia, puta
+          contingen<lb ed="#G" n="89" break="no"/>tia, &amp; necessaria 
+        </p>
+        <p xml:id="HuYgTa-113586-d1e1031">
+          <lb ed="#G" n="90"/>
+          <pc type="indent"/>Si igitur quaeritur de contingentibus futuris sic dico; 
+          <lb ed="#G" n="91"/>quod daemon ex suis naturalibus certitudinaliter non eo 
+          <lb ed="#G" n="92"/>gnoscit aliquod futurum: quia omne, quod
+          certitudinali<lb ed="#G" n="93" break="no"/>ter cognoscitur, aut cognoscitur in se, aut in sua causa: sed 
+          <lb ed="#G" n="94"/>futurum contingens non cognoscitur ab angelo per se,
+          si<lb ed="#G" n="95" break="no"/>ue in se, quia tunc non esset futurum sed praesens; nec in 
+          <lb ed="#G" n="96"/>sua causa, cum eius propinqua causa sit mutabilis; nullam  
+          <lb ed="#G" n="97"/>enim habet causam immutabilem, &amp; necessariam. Si 
+          <lb ed="#G" n="98"/>enim haberet causam immutabilem, &amp; necessariam, tunc 
+          <lb ed="#G" n="99"/>non esset contingens, sed necessarium: Potest tamen ex 
+          <lb ed="#G" n="100"/>aliquibus signis coniecturari de multis futuris
+          contin<lb ed="#G" n="101" break="no"/>gentibus 
+        </p>
+        <p xml:id="HuYgTa-113586-d1e1063">
+          <lb ed="#G" n="102"/>
+          <pc type="indent"/>Si vero quaeritur de futuris necessarijs, sic dico duo. Pri 
+          <lb ed="#G" n="103"/>mo, quod daemon non potest de huiusmodi futuris omni 
+          <lb ed="#G" n="104"/>mode certam habere notitiam: quia nescit, vtrum causae 
+          <lb ed="#G" n="105"/>talium futurorum impediantur a causa superiori, sicut de 
+          <lb ed="#G" n="106"/>facto contingit, quando sol steterat tempore losue,
+          retro<lb ed="#G" n="107" break="no"/>cessit tempore Exechiae, obscuratus fuit in die plenae
+          lu<lb ed="#G" n="108" break="no"/>nae in lesu Christi domini nostri passione: de qua
+          ecli<lb ed="#G" n="109" break="no"/>psi dicit Diony. epistola ad Policarpum, quod non erat tune 
+          <lb ed="#G" n="110"/>conuentus solis &amp; lunae. Solus. n. Deus ommmode tertam  
+          <lb ed="#G" n="111"/>potest habere futurorum notitiam, ad cuius nutum, &amp; vo 
+          <lb ed="#G" n="112"/>luntatem causae quaecunque permanent, &amp; mutatur: Et isto 
+          <lb ed="#G" n="113"/>mode, loquendo de certa futurorum notitia scribitur, An 
+          <lb ed="#G" n="114"/>nunciate nobis, quae ventura sunt in futurum, &amp; sciemus,  
+          <lb ed="#G" n="115"/>quia dij estis vos 
+        </p>
+        <p xml:id="HuYgTa-113586-d1e1098">
+          <lb ed="#G" n="116"/>
+          <pc type="indent"/>Secundo dico, quod loquendo de certa futurorum
+          no<lb ed="#G" n="117" break="no"/>citia, quae potest haberi per quamcumque artem, uel
+          ex<lb ed="#G" n="118" break="no"/>berientiam, in qua notitia praesupponitur communis cur 
+          <lb ed="#G" n="119"/>sus causarum, sic daemon potest certa notitia prae scire effe 
+          <lb ed="#G" n="120"/>ctus necessarios ex suarum causarum notitia, priusquam 
+          <lb ed="#G" n="121"/>eueniant: quia vt sic, etiam multi homines possunt scire 
+          <lb ed="#G" n="122"/>futura, cum bene docti fuerint in astrologia, &amp; in alijs
+          ae<lb ed="#G" n="123" break="no"/>tibus &amp; experientijs: daemon autem melius noscit huius 
+          <lb ed="#G" n="124"/>modi artes quibuscumque hominibus, cum propter
+          acu<lb ed="#G" n="125" break="no"/>men sui intellectus melius &amp; clarius cognoscat causas &amp;  
+          <lb ed="#G" n="126"/>concursus causarum, ex quarum notitia tales artes
+          depe<lb ed="#G" n="127" break="no"/>dent: etiam propter diuturnitatem temporis daemon ma 
+          <lb ed="#G" n="128"/>gis viget experientia quibuscumque hominibus Propter 
+          <lb ed="#G" n="129"/>quod ait lsidorus primo lib de summo bono, quod praeua 
+          <lb ed="#G" n="130"/>ricatores angeli sanctitate amissa non amiserunt viuacita 
+          <lb ed="#G" n="131"/>tem sensuum angelicae creaturae, sed triplici modo prae 
+          <lb ed="#G" n="132"/>scientiae vigent, subtilitate naturae, experientia
+          tempo<lb ed="#G" n="133" break="no"/>rum, &amp; reuelatione summarum potestatum, scilicet bono 
+          <lb ed="#G" n="134"/>rum spirituum. 
+        </p>
+        <p xml:id="HuYgTa-113586-d1e1144">
+          <lb ed="#G" n="135"/>
+          <pc type="indent"/>Forte dicetur contra praedicta, &amp; specialiter contra pri 
+          <lb ed="#G" n="136"/>mam conclusionem istius tertij articuli, quod angeli a prin 
+          <lb ed="#G" n="137"/>cipio suae creationis habuerunt species omnium futura 
+          <lb ed="#G" n="138"/>rum rerum sibi concreatas: quia nullam speciem de
+          no<lb ed="#G" n="139" break="no"/>uo acquirunt ex progressu rerum in esse, siue sint res con 
+          <lb ed="#G" n="140"/>tingentes, siue necessariae: cum igitur praedictae species sen 
+          <lb ed="#G" n="141"/>per sint, &amp; fuerint praesentes intellectui angelico; ergo vi 
+          <lb ed="#G" n="142"/>detur, quod angelus semper cognoscat, &amp; cognouerit fu 
+          <!--340.xml-->
+          <pb ed="#G" n="151-r"/>
+          <cb ed="#G" n="a"/>
+          <lb ed="#G" n="1"/>tura, siue contingentia sint, siue necessaria, cum eorum
+          re<lb ed="#G" n="2" break="no"/>presentatiua semper intellectui angelico sint praesentia 
+          <lb ed="#G" n="3"/>Sed instantia ista, quamuis multum sit apparens; non 
+          <lb ed="#G" n="4"/>tamen concludit: quia si concluderet, tunc renelationes 
+          <lb ed="#G" n="5"/>nullae fierent superioribus angelis ab ipso Deo, &amp; inferio 
+          <lb ed="#G" n="6"/>ribus per superiores. consequentia patet: quia per huiusmo 
+          <lb ed="#G" n="7"/>di species scirent omnia futura: Sed falsitas consequentis 
+          <lb ed="#G" n="8"/>manifeste patet ex dictis sanctorum, &amp; ex scriptura sacra, 
+          <lb ed="#G" n="9"/>vt patet in Daniele, vbi angelus, qui fuit princeps Persarum 
+          <lb ed="#G" n="10"/>adhuc nesciuit liberationem populi lsrael. Periret etiam  
+          <lb ed="#G" n="11"/>omnis illuminatio inferiorum angelorum a superioribus 
+          <lb ed="#G" n="12"/>quantum ad cognitionem futurorum, quod est contra Dio.  
+          <lb ed="#G" n="13"/>in multis suis libris. 
+        </p>
+        <p xml:id="HuYgTa-113586-d1e1201">
+          <lb ed="#G" n="14"/>
+          <pc type="indent"/>Ad soluendam autem praedictam instantiam multi no 
+          <lb ed="#G" n="15"/>garent maiorem, quia dicunt, quod angeli cognoscunt om- 
+          <lb ed="#G" n="16"/>nia per species acquisitas. Alij negarent eam in parte, quam 
+          <lb ed="#G" n="17"/>uis non in toto: quia dicunt, quod angeli cognoscunt vni 
+          <lb ed="#G" n="18"/>uersalia per species concreatas, particularia vero
+          cogno<lb ed="#G" n="19" break="no"/>scunt per species acquisitas
+        </p>
+        <p xml:id="HuYgTa-113586-d1e1219">
+          <lb ed="#G" n="20"/>Sed istae duae opiniones dissonant a dictis magnorum 
+          <lb ed="#G" n="21"/>doctorum, &amp; specialiter a dictis Beati Augustini super Oe 
+          <lb ed="#G" n="22"/>nesaad litteram. 
+        </p>
+        <p xml:id="HuYgTa-113586-d1e1228">
+          <lb ed="#G" n="23"/>
+          <pc type="indent"/>Ideo aliter respondeo: Propter quod sciendum, quod
+          spe<lb ed="#G" n="24" break="no"/>cies in mente angeli, cum per ipsam cognoscit angelus 
+          <lb ed="#G" n="25"/>actualiter, tunc ducit angelum in perfectam nontitiam rei, 
+          <lb ed="#G" n="26"/>cuius est species: &amp; ideo quamuis primo, &amp; per se ducat in 
+          <lb ed="#G" n="27"/>cognitionem naturae, tamen propter perfectionem illius 
+          <lb ed="#G" n="28"/>cognitionis ducit in cognitionem omnium illorum,
+          qui<lb ed="#G" n="29" break="no"/>bus natura illa est coniuncta: &amp; quia natura illa comiuncta 
+          <lb ed="#G" n="30"/>est praesentibus particularibus &amp; non futuris; ideo ducit 
+          <lb ed="#G" n="31"/>in notitiam praesentium &amp; non futurorum. 
+        </p>
+        <p xml:id="HuYgTa-113586-d1e1253">
+          <lb ed="#G" n="32"/>
+          <pc type="indent"/>Forte dicetur, quod si species in mente angeli non pos 
+          <lb ed="#G" n="33"/>set ducete nisi in notitiam rei praesentis, tunc esset
+          inino<lb ed="#G" n="34" break="no"/>ris virtutis, quam species humani intellectus, quae aeque 
+          <lb ed="#G" n="35"/>perfecte ducit in cognitionem rosae non existentis, sicut  
+          <lb ed="#G" n="36"/>existentis
+        </p>
+        <p xml:id="HuYgTa-113586-d1e1269">
+          <lb ed="#G" n="37"/>Respondeo, quod istud non arguit imperfectionem in 
+          <lb ed="#G" n="38"/>pecie angeli, sed magnam perfectionem: quia causat per 
+          <lb ed="#G" n="39"/>fectiorem notitiam. nec est simile de speciebus nostris &amp;  
+          <lb ed="#G" n="40"/>angelicis: nam cognitio nostra causatur a speciebus abstra 
+          <lb ed="#G" n="41"/>ctis a phantasmatibus, quae remanent in phant asia, vt dici 
+          <lb ed="#G" n="42"/>tur 2. de anima; ideo per se obiectum representatum per 
+          <lb ed="#G" n="43"/>nostram speciem est sola quidditas abstracta, vt patet 3. de 
+          <lb ed="#G" n="44"/>anima. Species autem in mentibus angelorum causata 
+          <lb ed="#G" n="45"/>sunt ab eisdem diuinis ideis, a quibus res in esse
+          producum<lb ed="#G" n="46" break="no"/>tur, quarum rerum huiusmodi species sunt
+          representati<lb ed="#G" n="47" break="no"/>uae in mentibus angelorum, &amp; secundum quod ideae diui 
+          <lb ed="#G" n="48"/>nae rerum sunt productiuae, sic species angelorum earunden 
+          <lb ed="#G" n="49"/>rerum sunt representatiuae. Et ideo quia ideae sunt rerum 
+          <lb ed="#G" n="50"/>productiuae non secundum abstractas quidditates, sed
+          se<lb ed="#G" n="51" break="no"/>cundum quidditates cum suo actuali esse: ideo species in 
+          <lb ed="#G" n="52"/>mente angeli ipsas representant non secundum esse ab 
+          <lb ed="#G" n="53"/>stractum, sed representant ipsam naturam, vt
+          determina<lb ed="#G" n="54" break="no"/>ta est per suum actuale esse, &amp; per consequens naturali com 
+          <lb ed="#G" n="55"/>gnitione &amp; certa, futura contingentia, quae non habet esse 
+          <lb ed="#G" n="56"/>determinatum in suis causis, ipse angelus non potest
+          co<lb ed="#G" n="57" break="no"/>gnoscere, nisi eorum natura sit actualiter in esse
+          produ<lb ed="#G" n="58" break="no"/>cta: ergo &amp;c. 
+        </p>
+        <p xml:id="HuYgTa-113586-d1e1319">
+          <lb ed="#G" n="59"/>
+          <pc type="indent"/>ARTICVLVS IIIL 
+          <lb ed="#G" n="60"/>Vtrum diuinationibus demonum sit 
+          <lb ed="#G" n="61"/>
+          <pc type="indent"/>credendum
+        </p>
+        <p xml:id="HuYgTa-113586-d1e1332">
+          <lb ed="#G" n="62"/>QVANTVM ad quartum articulum patet ex iam di 
+          <lb ed="#G" n="63"/> ctis quid sit dicendum: nam si diuinatio
+          attendi<lb ed="#G" n="64" break="no"/>tur quantum ad futura, si talia sint contingentia, daemon 
+          <lb ed="#G" n="65"/>potest aliquando dicere aliqua vera ex aliquibus signis &amp; 
+          <lb ed="#G" n="66"/>coiecturis, quo modo etiam potest diuinare de nostris com 
+          <lb ed="#G" n="67"/>gitationibus. In talibus tamen dictis suis nulla fides est
+          ad<lb ed="#G" n="68" break="no"/>nibenda; quia si semel verum dicit, saepius tamen falli po 
+          <lb ed="#G" n="69"/>test. Si autem diuinatio attenditur quantum ad talia fu¬ 
+          <!--340.xml-->
+          <cb ed="#G" n="b"/>
+          <lb ed="#G" n="70"/>tura, quae sunt in suis causis necessarijs, sic nisi a Deo
+          pro<lb ed="#G" n="71" break="no"/>hibeatur, vel per nimias suas poenas afflictus tales causas 
+          <lb ed="#G" n="72"/>non consideret, ipse de omnibus talibus, si vellet, posset 
+          <lb ed="#G" n="73"/>praedicere veritatem iuxta notitiam, quam habet de
+          ta<lb ed="#G" n="74" break="no"/>libus causis, modo, quo dictum est. Nec ctiam in tali
+          diui<lb ed="#G" n="75" break="no"/>natione est credendum dictis ipsius daemonis; quia quam  
+          <lb ed="#G" n="76"/>uis ex suis naturalibus ipse perfecte comprehendere pos 
+          <lb ed="#G" n="77"/>sit tales causas: tamen ad sui confusionem credendum 
+          <lb ed="#G" n="78"/>est, quod diuino iudicio saepius impediatur, ne tales
+          ve<lb ed="#G" n="79" break="no"/>ritates debite apprehendat, quatenus si praenosticare
+          vel<lb ed="#G" n="80" break="no"/>let, &amp; per hoc homines allicere, ignorans esse probetur,  
+          <lb ed="#G" n="81"/>&amp;: per consequens eius vaticinatio spernatur, &amp;
+          deridea<lb ed="#G" n="82" break="no"/>tur, iuxta illud Psalm. Draco iste, quem formasti ad
+          il<lb ed="#G" n="83" break="no"/>ludendum ei. 
+        </p>
+        <p xml:id="HuYgTa-113586-d1e1387">
+          <lb ed="#G" n="84"/>
+          <pc type="indent"/>Ad argumentum principale dicendum, quod nostra
+          pec<lb ed="#G" n="85" break="no"/>cata cognoscit ex signis &amp; coniecturis, vel etiam Deo
+          re<lb ed="#G" n="86" break="no"/>aclante tamquam tortor malesactorum percipere potest 
+          <lb ed="#G" n="87"/>a iudice, seu a nunciis iudicis, scilicet a bonis angelis
+          pec<lb ed="#G" n="88" break="no"/>cata poniendorum 
+        </p>
+      </div>
+    </body>
+  </text>
 </TEI>

@@ -1,892 +1,892 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Quaestio 3</title>
-            <author ref="#ThomasStrasbourg">Thomas of Strasbourg</author>
-            <respStmt>
-               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
-               <resp>Transcription Editor</resp>
-               <resp>TEI Encoder</resp>
-            </respStmt>
-         </titleStmt>
-         <editionStmt>
-            <edition n="0.0.0-dev">
-               <title>Quaestio 3</title>
-               <date when="2020-11-26">November 26, 2020</date>
-            </edition>
-         </editionStmt>
-         <publicationStmt>
-            <authority>SCTA</authority>
-            <availability status="free">
-               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
-               </p>
-            </availability>
-         </publicationStmt>
-         <sourceDesc>
-            <listWit>
-               <witness xml:id="G" n="cod-TxxxqU">Genoa 1585</witness>
-            </listWit>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
-         <editorialDecl>
-            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
-       guidelines for a diplomatic edition.</p>
-         </editorialDecl>
-      </encodingDesc>
-      <revisionDesc status="draft">
-         <listChange>
-            <change when="2020-11-26" status="draft" n="0.0.0">
-               <p>Created file for the first time.</p>
-            </change>
-         </listChange>
-      </revisionDesc>
-   </teiHeader>
-   <text xml:lang="la">
-      <front>
-         <div xml:id="starts-on">
-           <pb ed="#G" n="P2_224-v"/>
-            <cb ed="#G" n="a"/>
-         </div>
-      </front>
-      <body>
-         <div xml:id="HuYgTa-329097"><!-- HuYgTa-l4d50q3 -->
-            <head xml:id="HuYgTa-329097-Hd1e108">Quaestio 3</head>
-            <head xml:id="HuYgTa-329097-Hd1e111" type="question-title">
-      An Deus sub ratione entis infiniti sit subiectum in 
-      theologia viatoris.
-    </head>
-            <!-- seciton is strange; can't tell if there is something else weird going on here -->
-            <!-- seems like a question from book 1 prologue -->
-            <p xml:id="HuYgTa-329097-d1e118">
-               <lb ed="#G" n="45"/>Questio. <!-- no quesiton number --> 
-      <lb ed="#G" n="46"/>An Deus sub ratione entis infiniti sit subiectum in 
-      <lb ed="#G" n="47"/>Theologia viatoris.
-    </p>
-            <p xml:id="HuYgTa-329097-d1e130">
-               <lb ed="#G" n="48"/>SONTRA duos alios socios reuerendos resumpsi 
-      <lb ed="#G" n="49"/>in principiis istius lecturae, quorum tamen dicta 
-      <lb ed="#G" n="50"/>hic nolo scribere, nisi quantum ad illa puncta, quae
-      qui<lb ed="#G" n="51" break="no"/>busdam meis dictis in prologo primi libri videntur repu 
-      <lb ed="#G" n="52"/>gnare, Duo enim reuerendi socii vniformiter posuerunt 
-      <lb ed="#G" n="53"/>hanc conclusionem, quod Deus sub ratione entis infiniti 
-      <lb ed="#G" n="54"/>est subiectum in theologia viatoris. Et quia ista conclusio 
-      <lb ed="#G" n="55"/>repugnat his, quae circa subiectum theologiae dixi in pro 
-      <lb ed="#G" n="56"/>logo primi libri, quaestione prima: ideo motiua istorum 
-      <lb ed="#G" n="57"/>sociorum, &amp; meas replicationes, ac responsiones breuiter 
-      <lb ed="#G" n="58"/>hic ponam vt ex eorum lectura veritas eorum, quae dixi in 
-      <lb ed="#G" n="59"/>prologo, magis clucescat 
-    </p>
-            <p xml:id="HuYgTa-329097-d1e159">
-               <lb ed="#G" n="60"/>
-               <pc type="indent"/>lam dictam autem conclusionem vnus istorum probat sic.¬ 
-      <lb ed="#G" n="61"/>1 Sub illo conceptu Deus est subiectu in nostra thec 
-      <lb ed="#G" n="62"/>logia, qui est proximior primo, &amp; perfectissimo conceptur 
-      <lb ed="#G" n="63"/>Sed conceptus entis infiniti est huiusmodi: ergo &amp;c.
-      Ma<lb ed="#G" n="64" break="no"/>ior patet: quia in conceptibus ordinatis ille conceptus est 
-      <lb ed="#G" n="65"/>perfectior, qui est primo, &amp; perfectissimo conceptui proxi 
-      <lb ed="#G" n="66"/>mior. Patet etiam ista maior per Ansel in libus monologio 
-      <lb ed="#G" n="67"/>vbi per hoc, quod Deus est illud, quo maius cogitari non  
-      <lb ed="#G" n="68"/>potest, demonstrat omnes veritates theologicas de subie 
-      <lb ed="#G" n="69"/>cto theologiae: lllud autem est diffinitio infiniti.
-      Proba<lb ed="#G" n="70" break="no"/>tur etiam minor : quia circumscriptis omnibus attributis a 
-      <!--919.xml-->
-      <cb ed="#G" n="b"/>
-               <lb ed="#G" n="71"/>diuina essentia, &amp; ipsa sola relicta adhuc ipsa remanet in 
-      <lb ed="#G" n="72"/>finita. 
-    </p>
-            <p xml:id="HuYgTa-329097-d1e196">
-               <lb ed="#G" n="73"/>2 Praeterea, theologia nostra est de Deo sub conceptu 
-      <lb ed="#G" n="74"/>perfectiori, quem de Deo possumus in via habere: Sed con 
-      <lb ed="#G" n="75"/>ceptus infiniti est huiusmodi: ergo &amp;c. Maior est nota pro 
-      <lb ed="#G" n="76"/>batur minor. 
-    </p>
-            <p xml:id="HuYgTa-329097-d1e207">
-               <lb ed="#G" n="77"/>
-               <pc type="indent"/>Et primo quo ad hoc, quod conceptus entis infiniti sit 
-      <lb ed="#G" n="78"/>probilior. Quia ille conceptus est nobilior, &amp; perfectior,  
-      <lb ed="#G" n="79"/>per quem superior natura, scilicet ipsa deitas distinguitur 
-      <lb ed="#G" n="80"/>ab inferiori, scilicet a natura creata: Sed talis distinctio fi 
-      <lb ed="#G" n="81"/>solum per conceptum infiniti: quia in aliis conceptibus na 
-      <lb ed="#G" n="82"/>tura diuina conuenit cum creatura 
-    </p>
-            <p xml:id="HuYgTa-329097-d1e225">
-               <lb ed="#G" n="83"/>
-               <pc type="indent"/>Secundo probatur ista minor quo ad hoc, quod conceptu 
-      <lb ed="#G" n="84"/>insiniti sit nobis notus in via: quia Aristot. istum conceptum 
-      <lb ed="#G" n="85"/>probat conuenire ipsi Deo in. <ref xml:id="HuYgTa-329097-Rd1e235">8. physic.</ref> &amp; in <ref xml:id="HuYgTa-329097-Rd1e239">12. metaph</ref> 
-            </p>
-            <p xml:id="HuYgTa-329097-d1e243">
-               <lb ed="#G" n="86"/>
-               <pc type="indent"/>Sed ista conclusio nec in se, nec in suis motiuis videtur 
-      <lb ed="#G" n="87"/>posse stare. Igitur primo arguam directe contra istam cor 
-      <lb ed="#G" n="88"/>clusionem. Secundo procedam contra eius motiua. Quantum 
-      <lb ed="#G" n="89"/>ad primum arguo ex his, quae superius dixi in prologo sic. 
-    </p>
-            <p xml:id="HuYgTa-329097-d1e257">
-               <lb ed="#G" n="90"/>
-               <pc type="indent"/>1 Si Deus sub ratione entis infiniti esset obiectum in 
-      <lb ed="#G" n="91"/>nostra theologia, tunc ista scientia esset infinita.
-      Conse<lb ed="#G" n="92" break="no"/>quens est falsum, ergo &amp; antecedens Falsitas
-      consequen<lb ed="#G" n="93" break="no"/>tis patet. Quia omnis habitus formaliter perficiens subie 
-      <lb ed="#G" n="94"/>ctu finitum necessario est finitus, Sed scientia nostrae theo 
-      <lb ed="#G" n="95"/>ogiae est habitus formaliter perficiens nostrum intellectum 
-      <lb ed="#G" n="96"/>possibilem, qui est subiectum creatum, &amp; finitu; ergo &amp;c 
-      <lb ed="#G" n="97"/>Consequentiam probo. Quia illud, quod specificatur ab 
-      <lb ed="#G" n="98"/>infinito secundum quod est infinitum, hoc necessario est 
-      <lb ed="#G" n="99"/>nfinitum Sed si Deus esset subiectum in nostra
-      theolo<lb ed="#G" n="100" break="no"/>gia sub ratione entis infiniti, tunc nostra theologia speci 
-      <lb ed="#G" n="101"/>ficaretur a re infinita secundum que est infinita, quia scientia 
-      <lb ed="#G" n="102"/>specificatur ab obiecto accepto secundum rationem forma 
-      <lb ed="#G" n="103"/>lem, sub qua subiicitur in ipsa scientia. 
-    </p>
-            <p xml:id="HuYgTa-329097-d1e292">
-               <lb ed="#G" n="104"/>
-               <pc type="indent"/>Et hoc confirmo sic. Quicquid adaequatur infinito, hoc 
-      <lb ed="#G" n="105"/>necessario est infinitum, Sed quaelibet scientia adaequatur 
-      <lb ed="#G" n="106"/>uo obiecto accepto secundum illam rationem, sub qua 
-      <lb ed="#G" n="107"/>ubiicitur in ea. Propter hanc enim adaequationem num 
-      <lb ed="#G" n="108"/>uam plures scientiae habent pro subiecto eandem rem 
-      <lb ed="#G" n="109"/>sub eadem subiectali ratione acceptam, quamuis eadem  
-      <lb ed="#G" n="110"/>tes accepta sub alia, &amp; alia subiectali ratione possit esse  
-      <lb ed="#G" n="111"/>subiectum in alia &amp; alia scientia. 
-    </p>
-            <p xml:id="HuYgTa-329097-d1e314">
-               <lb ed="#G" n="112"/>
-               <pc type="indent"/>2 Praeterea, secundum istum socium Deus sub
-      ratio<lb ed="#G" n="113" break="no"/>ne deitatis non potest esse subiectum in theologia viato 
-      <lb ed="#G" n="114"/>ris, &amp; hoc pro tanto, quia sub ratione deitatis Deus est in 
-      <lb ed="#G" n="115"/>comprehensibilis a viatore. Ex isto arguo sic. Propter quod 
-      <lb ed="#G" n="116"/>vnumquodque tale, &amp; illud magis, vt patet <ref xml:id="HuYgTa-329097-Rd1e329">1. posteriorum</ref>. 
-      <lb ed="#G" n="117"/>ped ratio deitatis propter hoc est incomprehensibilis, a via 
-      <lb ed="#G" n="118"/>tore, quia includit rationem infinitatis, seu rationem
-      en<lb ed="#G" n="119" break="no"/>tis infiniti; ergo si Deus propter incomprehensibilitaten 
-      <lb ed="#G" n="120"/>non potest esse subiectum in theologia viatoris sub ratio 
-      <lb ed="#G" n="121"/>ne deitatis, tunc aequali ratione, vel maiori non poterit 
-      <lb ed="#G" n="122"/>esse subiectum in theologia viatoris sub ratione entis in 
-      <lb ed="#G" n="123"/>finiti; ergo &amp;c. 
-    </p>
-            <p xml:id="HuYgTa-329097-d1e348">
-               <lb ed="#G" n="124"/>
-               <pc type="indent"/>Ad primam rationem istius socii dico, quod ista ratio est ni 
-      <lb ed="#G" n="125"/>mis truncata, propter quod non solum non habet
-      existen<lb ed="#G" n="126" break="no"/>tiam, verum etiam modicam habet apparentiam ad inferen 
-      <lb ed="#G" n="127"/>dum conclusionem ab isto socio intentam. Ad formam
-      ta<lb ed="#G" n="128" break="no"/>men argumenti dico, quod maior est falsa, supposito, quod 
-      <lb ed="#G" n="129"/>ille conceptus secundus, qui dicitur proximior primo, non 
-      <lb ed="#G" n="130"/>sit minus incomprehensibilis, quam conceptus primus 
-      <lb ed="#G" n="131"/>Hoc enim posito si primus, &amp; perfectissimus conceptus 
-      <lb ed="#G" n="132"/>non potest esse ratio subiectalis ratione suae incomprehe 
-      <lb ed="#G" n="133"/>sibilitatis tunc pari ratione, nec secundus, sic autem est in 
-      <lb ed="#G" n="134"/>
-               <pc type="indent"/>proposito, quia conceptus entis infiniti non est minus in 
-      <lb ed="#G" n="135"/>comprehensibil is quam conceptus deitatis, quem
-      conce<lb ed="#G" n="136" break="no"/>itum iste socius, &amp; etiam Scotus, quem in hoc sequitur 
-      <lb ed="#G" n="137"/>appellant conceptum primum, &amp; perfectissimum
-      incom<lb ed="#G" n="138" break="no"/>pre hensibilem a viatore. Quod autem conceptus Dei 
-      <lb ed="#G" n="139"/>sub ratione entis infiniti non sit minus
-      incomprehensi<lb ed="#G" n="140" break="no"/>bilis a viatore, quam sub ratione deitatis, quamuis pateat 
-      <lb ed="#G" n="141"/>ex iam dictis, tamen adhuc istud probo sic.
-      Quandocum<lb ed="#G" n="142" break="no"/>ue aliquae duae rationes sic se habent, quod quicquid con 
-      <lb ed="#G" n="143"/>rchenditur sub vna, hoc necessario compreheditur sub 
-      <!--920.xml-->
-      <pb ed="#G" n="P2_225-r"/>
-               <cb ed="#G" n="a"/>
-               <lb ed="#G" n="1"/>
-               <!-- accidental line -->
-               <lb ed="#G" n="2"/>alia, tunc si vna illarum est incomprehensibilis, &amp; altera 
-      <lb ed="#G" n="3"/>Sed quicquid comprehenditur sub ratione deitatis, hoc 
-      <lb ed="#G" n="4"/>necessario comprehenditur sub ratione entis infiniti lo 
-      <lb ed="#G" n="5"/>quendo de infinitate non molis: sed perfectionis; sicut li 
-      <lb ed="#G" n="6"/>quimur in proposito: ergo &amp;c. Maior patet. Minorem pro 
-      <lb ed="#G" n="7"/>bo: quia si aliquid comprehenderetur sub ratione
-      deita<lb ed="#G" n="8" break="no"/>tis, quod non comprehenderetur sub ratione entis infini 
-      <lb ed="#G" n="9"/>ti, tunc ratio infiniti non esset ratio infiniti: quia hoc est 
-      <lb ed="#G" n="10"/>de ratione infiniti, quod sibi non possit fieri additio: eo, quod non 
-      <lb ed="#G" n="11"/>possit cogitari aliquid maius eo. Etiam probatio illius
-      ma<lb ed="#G" n="12" break="no"/>roris nullam euidentiam facit de ista maiori: quia concesso 
-      <lb ed="#G" n="13"/>quod ille conceptus sit ceteris conceptibus perfectior, qui 
-      <lb ed="#G" n="14"/>est persectissimo conceptui proximior, tamen ex hoc non 
-      <lb ed="#G" n="15"/>abetur, quod Deus sub illo conceptu sit subiectum
-      theo<lb ed="#G" n="16" break="no"/>logiae, nisi aliud dicatur. 
-    </p>
-            <p xml:id="HuYgTa-329097-d1e442">
-               <lb ed="#G" n="17"/>Secunda probatio cum hoc, quod non est ad propositum, 
-      <lb ed="#G" n="18"/>etiam assumit falsum: quia multae sunt veritates
-      theolo<lb ed="#G" n="19" break="no"/>giae, quae sunt simpliciter indemonstrabiles. Etiam non
-      com<lb ed="#G" n="20" break="no"/>fiderat Ansc omnia in libro monologio, quae sunt in thec 
-      <lb ed="#G" n="21"/>logia demonstrabilia: ergo Ansel non demonstrat ibi por 
-      <lb ed="#G" n="22"/>illam propositionem omnes veritates contentas in thec 
-      <lb ed="#G" n="23"/>logia, sicut asserit illa probatio. Etiam minor istius primae 
-      <lb ed="#G" n="24"/>rationis non videtur esse vera, quia conceptui
-      perfectissi<lb ed="#G" n="25" break="no"/>mo, &amp; posituo proximior esse videtur conceptus
-      posi<lb ed="#G" n="26" break="no"/>tiuus, quam conceptus priuatiuus, seu negatiuus: Sed con 
-      <lb ed="#G" n="27"/>ceptus primae veritatis, &amp; purae bonitatis summe
-      amabi<lb ed="#G" n="28" break="no"/>tis est conceptus valde nobilis, &amp; posituus, conceptus 
-      <lb ed="#G" n="29"/>autem entis infiniti est conceptus priuatiuus, vt iste socius 
-      <lb ed="#G" n="30"/>inferius in suis dictis ponit; ergo conceptui deitatis, qui 
-      <lb ed="#G" n="31"/>est conceptus perfectissimus, &amp; posituus, proximior esse 
-      <lb ed="#G" n="32"/>videtur conceptus puri boni summe amabilis, quam
-      con<lb ed="#G" n="33" break="no"/>ceptus entis infiniti. Etiam probatio illius minoris cum 
-      <lb ed="#G" n="34"/>hoc, quod modicum videtur esse ad propositum, assumit 
-      <lb ed="#G" n="35"/>non solum impossibile, sed etiam incompossibile: quia non  
-      <lb ed="#G" n="36"/>solum omnibus perfectionibus attributalibus circumscripti 
-      <lb ed="#G" n="37"/>a diuina essentia; verum etiam vna sola perfectione ab ea 
-      <lb ed="#G" n="38"/>circumscripta, tunc diuina essentia non maneret diuina 
-      <lb ed="#G" n="39"/>essentia, &amp; hoc nec in re, nec in intellectu, quia Vt patet. 
-      <lb ed="#G" n="40"/>met hoc intelligitur nomine diuinae essentiae, quod est 
-      <lb ed="#G" n="41"/>perfectum omni perfectione habes perfectiones omnium 
-      <lb ed="#G" n="42"/>generum. Dato etiam per impossibile, &amp; incompossibile 
-      <lb ed="#G" n="43"/>quod circumscriptis a diuina essentia omnibus perfectio 
-      <lb ed="#G" n="44"/>mibus, ipsa diuina essentia maneret, tamen ipsa non mane 
-      <lb ed="#G" n="45"/>ret infinita: quia si maneret infinita, vel hoc esset infinita 
-      <lb ed="#G" n="46"/>te molis, &amp; hoc non quia apud omnem verum intellectu 
-      <lb ed="#G" n="47"/>tam theologicum, quam philosophicum nomine diuina 
-      <lb ed="#G" n="48"/>essentiae intelligitur purus actus carens omni magnitud 
-      <lb ed="#G" n="49"/>ne molis. Vel hoc esset infinitate perfectionis, &amp; hoc non 
-      <lb ed="#G" n="50"/>quia impossibile est aliquid concipi, vt ens infinitum inf 
-      <lb ed="#G" n="51"/>nitate perfectionis, quod vt sic caret infinitis perfectioni 
-      <lb ed="#G" n="52"/>bus;, Sed diuina essentia : vt sic manens, careret infinitis 
-      <lb ed="#G" n="53"/>perfectionibus: quia perfectiones attributales sunt infini 
-      <lb ed="#G" n="54"/>tae, quae omnes supponuntur a diuina essentia sic
-      manen<lb ed="#G" n="55" break="no"/>te esse circumscriptae. 
-    </p>
-            <p xml:id="HuYgTa-329097-d1e529">
-               <lb ed="#G" n="56"/>
-               <pc type="indent"/>Ad secundum dicendum, quod maior non videtur esse ve 
-      <lb ed="#G" n="57"/>ra: quia ratio subiecti theologiae viatoris debet esse talis 
-      <lb ed="#G" n="58"/>quod ab omni vero theologo communiter attingatur; 
-      <lb ed="#G" n="59"/>Sed aliqui conceptus sunt tantae perfectionis, quod vix: 
-      <lb ed="#G" n="60"/>perfectissimis theologis, &amp; studiosissimis attingutur.
-      Ali<lb ed="#G" n="61" break="no"/>qui etiam conceptus sunt tantae perfectionis, quod solum 
-      <lb ed="#G" n="62"/>in extasi mentis ab aliquibus uiris contemplatiuis specia 
-      <lb ed="#G" n="63"/>liter attinguntur, ergo non videtur, quod theologia
-      no<lb ed="#G" n="64" break="no"/>stra sit de Deo sub conceptu perfectiori, quem de Deo pos 
-      <lb ed="#G" n="65"/>sumus habere in via: sicut asseritur in ista maiori proposi 
-      <lb ed="#G" n="66"/>tione. Etiam minor non est vera, quia conceptus positiuus 
-      <lb ed="#G" n="67"/>circa idem subiectum videtur esse perfectior conceptu 
-      <lb ed="#G" n="68"/>priuatiuo; Sed multos concept: positiuos possumus in
-      vi<lb ed="#G" n="69" break="no"/>de Deo habere, qui sunt magnae perfectionis, &amp; eximiae 
-      <lb ed="#G" n="70"/>nobilitatis. Possumus enim Deum concipere per modum glo 
-      <lb ed="#G" n="71"/>rificatoris, puri boni, summe amabilis, vere diligibilis, &amp;  
-      <lb ed="#G" n="72"/>sic de alijs multis conceptibus; ergo prima pars minoris 
-      <lb ed="#G" n="73"/>videtur esse falsa Etiam conceptus Dei sub ratione entis in 
-      <lb ed="#G" n="74"/>finiti est nobis aliquo modo improportionatus, &amp; incom 
-      <!--920.xml-->
-      <cb ed="#G" n="b"/>
-               <lb ed="#G" n="75"/>prehesibilis, vt patet ex praedictis; ergo etiam secuda pars 
-      <lb ed="#G" n="76"/>minoris, si debite accipitur, sub maiori videtur deficere. 
-    </p>
-            <p xml:id="HuYgTa-329097-d1e585">
-               <lb ed="#G" n="77"/>
-               <pc type="indent"/>Ad probationem primae partis illius minoris dicendum; 
-      <lb ed="#G" n="78"/>uod maior non est vniuersaliter vera, quia per
-      conce<lb ed="#G" n="79" break="no"/>ptum improducibilis differt natura superior, scilicet ipsa 
-      <lb ed="#G" n="80"/>deitas ab omni creata natura, &amp; tamen talis conceptus 
-      <lb ed="#G" n="81"/>non est perfectior ceteris conceptibus, quos de Deo in 
-      <lb ed="#G" n="82"/>via habere possumus; nam huiusmodi conceptus etiam
-      po<lb ed="#G" n="83" break="no"/>test haberi de quolibet ente prohibito, quod impossibile 
-      <lb ed="#G" n="84"/>est produci ad esse. Etiam minor illius probationis est sim 
-      <lb ed="#G" n="85"/>pliciter falsa: quia natura diuina per hoc, quod est actus 
-      <lb ed="#G" n="86"/>purus, primum principium, vltimus finis, summum bonum, 
-      <lb ed="#G" n="87"/>&amp; multis aliis conceptibus distinguitur a qualibet natura 
-      <lb ed="#G" n="88"/>inferiori; ergo non solum distinguitur natura superior ab 
-      <lb ed="#G" n="89"/>inferiori per conceptum entis infiniti; sicut assumit
-      mi<lb ed="#G" n="90" break="no"/>nor illius probationis. Similiter probatio 2. partis
-      vide<lb ed="#G" n="91" break="no"/>tur esse contra illud, quod iste socius intendit per suam 
-      <lb ed="#G" n="92"/>conclusionem, quia numquam scientia inferior probat
-      ra<lb ed="#G" n="93" break="no"/>tionem subiecti scientiae superioris. Sed omnis scientia
-      hu<lb ed="#G" n="94" break="no"/>manitus adinuenta est inferior sacra theologia; ergo ratio 
-      <lb ed="#G" n="95"/>infiniti illius, quod probat Arist. In scientia humanitus in 
-      <lb ed="#G" n="96"/>uenta non potest esse ratio subiecti in sacra theologia. 
-      <lb ed="#G" n="97"/>cum viatoris, theologia finita limitataque sit, eius quoque
-      for<lb ed="#G" n="98" break="no"/>
-               <pc type="indent"/>male subiectum, sub quo ea, quae in huiusmodi facult ate tvradun 
-      <lb ed="#G" n="99"/>tur, considerantur, finitum limit atumque erit. Nam si secus 
-      <lb ed="#G" n="100"/>accideret, cotum periret theologicum negotium, si quidem
-      igno<lb ed="#G" n="101" break="no"/>tum, &amp; inceprebensibile viatori ratione infinitatis permaneret. 
-      <lb ed="#G" n="102"/>ED ad haec praedictus socius multum eleganter respo. 
-      <lb ed="#G" n="103"/>Ddet in secundo suo principio. In responsionibus auten 
-      <lb ed="#G" n="104"/>suis vtitur principaliter tribus fundamentis; 
-    </p>
-            <p xml:id="HuYgTa-329097-d1e653">
-               <lb ed="#G" n="105"/>
-               <pc type="indent"/>Quorum primum est, quod conceptus entis infiniti est 
-      <lb ed="#G" n="106"/>naturaliter comprehensibilis a viatore, non autem
-      con<lb ed="#G" n="107" break="no"/>ceptus Dei, seu deitatis, &amp; loquitur de infinito infinitate 
-      <lb ed="#G" n="108"/>perfectionis. 
-    </p>
-            <p xml:id="HuYgTa-329097-d1e666">
-               <lb ed="#G" n="109"/>
-               <pc type="indent"/>Secundum fundamentum est quasi probatio istius pri 
-      <lb ed="#G" n="110"/>mi, &amp; est istud, quod infinitum, de quo sequimur in
-      pro<lb ed="#G" n="111" break="no"/>posito, priuatiue opponitur enti finito, &amp; per consequens 
-      <lb ed="#G" n="112"/>c onceptus eius est abstrahibilis a: rebus sensibilibus 
-      <lb ed="#G" n="113"/>mediante conc eptu entis finiti; sicut conceptus
-      priuati<lb ed="#G" n="114" break="no"/>ue oppositi est abstrahibilis mediante conceptu habitus,  
-      <lb ed="#G" n="115"/>cui opponitur. 
-    </p>
-            <p xml:id="HuYgTa-329097-d1e686">
-               <lb ed="#G" n="116"/>
-               <pc type="indent"/>Tertium fundamentum est, quod bonitas Dei, &amp;cprae 
-      <lb ed="#G" n="117"/>dicata per me superius allegata non dicuntur de Deo in 
-      <lb ed="#G" n="118"/>primo modo dicendi per se, sed solum in secundo. Igitur 
-      <lb ed="#G" n="119"/>vt breuius transeam, primo arguam contra ista fundamen 
-      <lb ed="#G" n="120"/>ta. Secundo ostendam, quod suis responsionibus obiectio 
-      <lb ed="#G" n="121"/>nes meae non sunt solutae 
-    </p>
-            <p xml:id="HuYgTa-329097-d1e704">
-               <lb ed="#G" n="122"/>
-               <pc type="indent"/>Contra primum ergo fundamentum arguo
-      sic<lb ed="#G" n="123" break="no"/>1 Quandocumque aliquod praedicatum adaequate
-      prae<lb ed="#G" n="124" break="no"/>dicatur de aliquo subiecto cum dictione exclusiua
-      addi<lb ed="#G" n="125" break="no"/>ta ad subiectum, tunc cuiuscumque intellectui constat de 
-      <lb ed="#G" n="126"/>veritate illius propositonis, si a tali intellectu conceptus 
-      <lb ed="#G" n="127"/>praedicati est comprehensibilis, conceptus etiam subiecti 
-      <lb ed="#G" n="128"/>erit comprehensibilis: &amp; econuerso, si conceptus subiecti 
-      <lb ed="#G" n="129"/>est incomprehensibilis, conceptus praedicati erit in¬¬ 
-      <lb ed="#G" n="130"/>comprehensibilis. Sed hoc praedicatum, quod est ens infini 
-      <lb ed="#G" n="131"/>tum infinitate perfectionis, praedicatur de Deo
-      adaequa<lb ed="#G" n="132" break="no"/>te cum dictione exclusiua addita ad subiectum, &amp; de veri 
-      <lb ed="#G" n="133"/>tate istius propositonis constat intellectui viatoris; ergo si 
-      <lb ed="#G" n="134"/>conceptus entis infiniti est naturaliter comprehensibilis 
-      <lb ed="#G" n="135"/>ab intellectu viatoris, sequitur, quod ab eodem intellectu 
-      <lb ed="#G" n="136"/>conceptus Dei, ac deitatis sit naturaliter comprehensibi 
-      <lb ed="#G" n="137"/>is, &amp; econuerso, si conceptus Dei est naturaliter
-      incom<lb ed="#G" n="138" break="no"/>prehensibilis, sequitur, quod conceptus entis infiniti sit 
-      <lb ed="#G" n="139"/>naturaliter incomprehensibilis; cuius oppositum asserit 
-      <lb ed="#G" n="140"/>primum fundamentum positum per istum socium. Maior 
-      <lb ed="#G" n="141"/>patet, quia apud quemcumque intellectum conceptus 
-      <lb ed="#G" n="142"/>praedicati esset comprehensibilis, &amp; conceptus subiecti es 
-      <lb ed="#G" n="143"/>set incomprehensibilis, illi intellectui non constaret di 
-      <lb ed="#G" n="144"/>veritate illius propositonis, seu praedicationis; quia talis 
-      <lb ed="#G" n="145"/>inteliectus non posset cognoscere habitudinem adaequa¬ 
-      <!--921.xml-->
-      <pb ed="#G" n="P2_225-v"/>
-               <cb ed="#G" n="a"/>
-               <lb ed="#G" n="1"/>cotrat,  
-      <lb ed="#G" n="2"/>fundami 
-      <lb ed="#G" n="3"/>tum. 
-      <lb ed="#G" n="4"/>tionis illius praedicati ad hoc subiectum, &amp; praecisam, ac 
-      <lb ed="#G" n="5"/>solitariam contractionem istius subiecti respectu istius pra 
-      <lb ed="#G" n="6"/>dicati. Minor etiam est nota: quia intellectui viateris con 
-      <lb ed="#G" n="7"/>stat de veritate istius propositonis, qua dicit, solus Deus 
-      <lb ed="#G" n="8"/>est ens infinitae perfectionis. Etiam huiusmodi predicatun 
-      <lb ed="#G" n="9"/>predicatur adaequate de Deo, quia omnis verus Deus esi 
-      <lb ed="#G" n="10"/>ens infinitae perfectionis, &amp; etiam solus verus Deus est ens 
-      <lb ed="#G" n="11"/>infinitae perfectionis: ergo &amp;c. 
-    </p>
-            <p xml:id="HuYgTa-329097-d1e791">
-               <lb ed="#G" n="12"/>
-               <pc type="indent"/>2 Praeterea, in conceptibus per se ordinatis, si primus 
-      <lb ed="#G" n="13"/>coceptus est incoprehensibilis; necesse est secundum esse  
-      <lb ed="#G" n="14"/>incomprehensibilem, &amp; econuerso, si secundus est incom 
-      <lb ed="#G" n="15"/>prehesibilis, necesse est primum esse comprehensibilem 
-      <lb ed="#G" n="16"/>Sed secundum istum socium, ac etiam secundum doctorem 
-      <lb ed="#G" n="17"/>quem in hac conclusione sequitur, coceptus deitatis est 
-      <lb ed="#G" n="18"/>primus, &amp; simplicissimus conceptus de Deo formabilis; &amp;  
-      <lb ed="#G" n="19"/>conceptus entis infiniti est conceptus secundus, &amp; inter 
-      <lb ed="#G" n="20"/>ceteros proximior illi primo conceptui: ergo si conceptus 
-      <lb ed="#G" n="21"/>entis infiniti est naturaliter comprehensibilis a viatore, 
-      <lb ed="#G" n="22"/>conceptus deitatis erit naturaliter comprehensibilis, &amp;  
-      <lb ed="#G" n="23"/>econuerso &amp;c. Maior patet: quia quamuis in per se
-      ordin<lb ed="#G" n="24" break="no"/>tis conceptibus conceptus prior sit abstrahibilis a conce 
-      <lb ed="#G" n="25"/>ptu posteriori: tamen conceptus posterior non est abstra 
-      <lb ed="#G" n="26"/>hibilis a conceptu priori; quia necessario praesupponit, qui 
-      <lb ed="#G" n="27"/>includit eum. Minor est nota apud istum socium, ac etiam 
-      <lb ed="#G" n="28"/>apud supradictum doctorem 
-    </p>
-            <p xml:id="HuYgTa-329097-d1e834">
-               <lb ed="#G" n="29"/>
-               <pc type="indent"/>3 Praeterea, vel iste socius hic loquitur de conceptu 
-      <lb ed="#G" n="30"/>eorrespondente cognitioni quia est, vel de conceptu con 
-      <lb ed="#G" n="31"/>respodente cognitioni quid est. Si primo modo, tunc istud 
-      <lb ed="#G" n="32"/>suum fundamentum penitus est falsum: quia conceptus 
-      <lb ed="#G" n="33"/>deitatis quantum ad coenitionem quia est, non minus, set 
-      <lb ed="#G" n="34"/>multo magis est comprehensibilis, quam conceptus enti 
-      <lb ed="#G" n="35"/>infiniti. Nam quia Deus est, per se notum est, vt ait Dam  
-      <lb ed="#G" n="36"/>in primo suo libro: Sed esse ali quod ens infinitum infini 
-      <lb ed="#G" n="37"/>tate perfectionis, non est per se notum; nam apud multos 
-      <lb ed="#G" n="38"/>philosophos est negatum, &amp; apud aliquos paucos est cum 
-      <lb ed="#G" n="39"/>magno studio inuestigatum. Vnde communiter
-      supponi<lb ed="#G" n="40" break="no"/>mus fuisse de intentione Arist. &amp; commentatoris, quod 
-      <lb ed="#G" n="41"/>Deus sit, &amp; verissime, ac certissime habeat esse, &amp; tamen 
-      <lb ed="#G" n="42"/>communiter quaerimus, vtrum fuerit de intentione ipso 
-      <lb ed="#G" n="43"/>rum, Deum esse infinitum ens, infinitae virtutis, &amp;
-      perfe<lb ed="#G" n="44" break="no"/>ctionis. Et multi doctores tenent, quod hoc nonfuerit de 
-      <lb ed="#G" n="45"/>intentione eorum. Ex quo manifeste patet, quod intelle 
-      <lb ed="#G" n="46"/>ctu viatoris non minus, sed magis est comprehensibilis 
-      <lb ed="#G" n="47"/>conceptus deitatis, quam conceptus entis infiniti, &amp;
-      ho<lb ed="#G" n="48" break="no"/>quantum ad cognitionem quia est. 
-    </p>
-            <p xml:id="HuYgTa-329097-d1e882">
-               <lb ed="#G" n="49"/>
-               <pc type="indent"/>Si autem loquitur iste socius, ac etiam magister eius de 
-      <lb ed="#G" n="50"/>conceptu correspondente cognitioni quid est, tunc
-      neu<lb ed="#G" n="51" break="no"/>tur istorum conceptuum est a viatore naturaliter
-      com<lb ed="#G" n="52" break="no"/>prehensibilis: quia nullum istorum conceptuum naturali 
-      <lb ed="#G" n="53"/>ter habere possumus, nisi mediante cognitione accepta 
-      <lb ed="#G" n="54"/>a sensibilibus rebus, secundum quod causa concipitur me 
-      <lb ed="#G" n="55"/>diante sui effectus cognitione. Cum igitur nullus effectus 
-      <lb ed="#G" n="56"/>ducat in cognitionem quidditatis, &amp; essentiae suae
-      causae<lb ed="#G" n="57" break="no"/>nisi sit cffectus adaequatus huiusmodi causae, &amp; in rebus 
-      <lb ed="#G" n="58"/>sensibilibus nullus appareat effectus adaequatus virtuti 
-      <lb ed="#G" n="59"/>deitatis, vel virtuti entis infinitae perfectionis; nam talen 
-      <lb ed="#G" n="60"/>effectum oporteret esse infinitum, quaecunque enim sunt 
-      <lb ed="#G" n="61"/>adaequata, si vnum est infinitum: &amp; reliquum: igitur sicui 
-      <lb ed="#G" n="62"/>isto modo viat or non potest naturaliter
-      comprehende<lb ed="#G" n="63" break="no"/>re conceptum deitatis, sic nec poterit naturaliter
-      compre<lb ed="#G" n="64" break="no"/>hendere conceptum entis infiniti infinitate perfectionis 
-    </p>
-            <p xml:id="HuYgTa-329097-d1e921">
-               <lb ed="#G" n="65"/>
-               <pc type="indent"/>Contra secundum fundamentum arguo sic 
-      <lb ed="#G" n="66"/>31 Impossibile est oppositum priuatiuum, quod cogno 
-      <lb ed="#G" n="67"/>citur per habitum, esse maioris entitatis, actualitatis, ac 
-      <lb ed="#G" n="68"/>intelligibilitatis, quam positiuum sibi oppositum, cuius 
-      <lb ed="#G" n="69"/>comprehensione, &amp; cognitione comprehenditur, &amp; con 
-      <lb ed="#G" n="70"/>gnoscitur huiusmodi priuatiuum, Sed ens infinitum inf 
-      <lb ed="#G" n="71"/>nitate perfectionis est maioris entitatis, actualitatis, &amp; in 
-      <lb ed="#G" n="72"/>telligibilitatis, quam quodcumque ens infinitae perfectionis; 
-      <lb ed="#G" n="73"/>ergo ens infinitae perfectionis non oppontur priuatiu 
-      <lb ed="#G" n="74"/>enti finito, nec eius coceptus habetur mediante conce 
-      <lb ed="#G" n="75"/>ptu entis finiti; sicut conceptus priuationis habetur
-      me<lb ed="#G" n="76" break="no"/>diante conceptu ipsius habitus, sicut dicit iste socius in 
-      <!--921.xml-->
-      <cb ed="#G" n="c"/>
-               <lb ed="#G" n="77"/>suo secundo fundamento. 
-    </p>
-            <p xml:id="HuYgTa-329097-d1e958">
-               <lb ed="#G" n="78"/>
-               <pc type="indent"/>2 Preterea, nullum priuatiuum, seu nulla priuatio com 
-      <lb ed="#G" n="79"/>rehendit in se formaliter, vel eminenter omnem perfe 
-      <lb ed="#G" n="80"/>ctionem positiui, seu habitus sibi oppositi: Sed ens
-      infini<lb ed="#G" n="81" break="no"/>tum infinitate perfectionis comprehendit in se omnem 
-      <lb ed="#G" n="82"/>perfectionem entis finiti, &amp; hoc vel formaliter quantum 
-      <lb ed="#G" n="83"/>ad ea, quae dicunt perfectionem simpliciter; vel
-      eminen<lb ed="#G" n="84" break="no"/>ter quantum ad ceteras perfectiones, quae non sunt
-      per<lb ed="#G" n="85" break="no"/>sectiones simpliciter: ergo &amp;c Maior patet, quia priuatiue 
-      <lb ed="#G" n="86"/>opposita sunt illius condicionis, quod omnis perfectior 
-      <lb ed="#G" n="87"/>conueniens habitui tollitur a priuatione: igitur
-      impossi<lb ed="#G" n="88" break="no"/>bile est, quod comprehendatur in ea Patet etiam minor 
-      <lb ed="#G" n="89"/>quia illud, cui deficit aliqua perfectio, hoc non est conce 
-      <lb ed="#G" n="90"/>ptibile, vt ens infinitae perfectionis. 
-    </p>
-            <p xml:id="HuYgTa-329097-d1e991">
-               <lb ed="#G" n="91"/>
-               <pc type="indent"/>Contra tertium fundamentum arguo sic. 
-      <lb ed="#G" n="92"/>1 Conceptus quidditatiuus ipsius deitatis non potest 
-      <lb ed="#G" n="93"/>haberi perfecte sine conceptu suae bonitatis: ergo bonitas 
-      <lb ed="#G" n="94"/>Dei conuenit Deo in primo modo dicendi per se, &amp; non 
-      <lb ed="#G" n="95"/>in secundo modo per modum passionis. Consequentia 
-      <lb ed="#G" n="96"/>patet, quia perfectus conceptus, qui est conceptus diffini 
-      <lb ed="#G" n="97"/>tiuus rei, est abstrahibilis ab omnibus conuenientibus ip 
-      <lb ed="#G" n="98"/>si rei in secundo modo dicendi per se: Nam propria passio 
-      <lb ed="#G" n="99"/>non ingreditur diffinitionem rei substantialis, seu substan 
-      <lb ed="#G" n="100"/>riae, vt patet primo posteriorum &amp;. <ref xml:id="HuYgTa-329097-Rd1e1017">7. metaph.</ref> igitur per 
-      <lb ed="#G" n="101"/>oppositum, si conceptus quidditatiuus Dei non est abstra 
-      <lb ed="#G" n="102"/>hibilis a conceptu suae bonitatis; sequitur necessario, quod 
-      <lb ed="#G" n="103"/>bonitas Dei conueniat sibi in primo modo dicendi
-      per<lb ed="#G" n="104" break="no"/>se, &amp; non in secundo, sicut propria passio. Antecedens etiam 
-      <lb ed="#G" n="105"/>atet: quia si datur oppositum, tunc posset cogitari aliqud  
-      <lb ed="#G" n="106"/>maius bonum, quam sit illud bonum: quod est Deus. Con 
-      <lb ed="#G" n="107"/>sequentia ista probatur ex hoc: quia illud concipitur, &amp;  
-      <lb ed="#G" n="108"/>cogitatur, vt maius bonum, cuius bonitas taliter se
-      ha<lb ed="#G" n="109" break="no"/>bet ad ipsum, quod ipsum non potest concipi conceptu 
-      <lb ed="#G" n="110"/>quidditatiuo, nisi concipiatur sua bonitas,; quam illud, quod 
-      <lb ed="#G" n="111"/>potest concipi conceptu quidditatiuo absque conceptu 
-      <lb ed="#G" n="112"/>bonitatis. Sed falsitas consequentis patet: quia sicut Deus 
-      <lb ed="#G" n="113"/>est illud, quo maius cogitari non potest: sic Deus est
-      tale<lb ed="#G" n="114" break="no"/>bonum, quo maius bonum non potest cogitari. 
-    </p>
-            <p xml:id="HuYgTa-329097-d1e1051">
-               <lb ed="#G" n="115"/>
-               <pc type="indent"/>2 Preterea, illud, quod est de intrinseca, &amp; formali
-      ra<lb ed="#G" n="116" break="no"/>tione alicuius, hoc conuenit ei primo modo dicendi per 
-      <lb ed="#G" n="117"/>se, &amp; non in secundo. Sed bonitas Dei est intrinseca, &amp; 
-      <lb ed="#G" n="118"/>formali ratione ipsius Dei: ergo &amp;c. Maior patet ex dictio 
-      <lb ed="#G" n="119"/>Arist. primo posteriorum Minorem probo quia omne ab 
-      <lb ed="#G" n="120"/>solutum realiter conueniens enti simpliciter simplici ost 
-      <lb ed="#G" n="121"/>de sua formali ratione: Sed bonitas Dei est quid absolutum 
-      <lb ed="#G" n="122"/>&amp; realiter conuenit Deo, qui est ens simpliciter simplex 
-      <lb ed="#G" n="123"/>ergo &amp;c. Maior patet, quia ente simpliciter simplici nihil 
-      <lb ed="#G" n="124"/>simplicius potest cogitari. Sed cuicumque rei conuenit 
-      <lb ed="#G" n="125"/>aliquod absolutum non existens de intrinseca ratione il 
-      <lb ed="#G" n="126"/>lius rei, illa re possumus aliqud simplicius cogitare; quia
-      po<lb ed="#G" n="127" break="no"/>terimus cogitare vnam rem taliter se habentem, quod 
-      <lb ed="#G" n="128"/>omne absolutum sibi realiter conueniens est intrinseca 
-      <lb ed="#G" n="129"/>&amp; formali sua ratione. Etiam minor est nota quo ad om 
-      <lb ed="#G" n="130"/>nes suas partes. Quod enim bonitas Dei sit quid absolu 
-      <lb ed="#G" n="131"/>tum, patet: quia omne illud, quod est commune tribus ? 
-      <lb ed="#G" n="132"/>sonis, hoc est absolutum in diuinis, vt fatentur omnes ca 
-      <lb ed="#G" n="133"/>tholici doctores. Sed bonitas diuina est realiter vna om- 
-      <lb ed="#G" n="134"/>nium trium personatum in diuinis. Quod etiam bonitas 
-      <lb ed="#G" n="135"/>diuina realiter Deo conueniat, nullus sanae mentis
-      nega<lb ed="#G" n="136" break="no"/>re potest Quod etiam Deus sit simpliciter simplex, non 
-      <lb ed="#G" n="137"/>solum catholici, verum etiam omnes veri philosophi con 
-      <lb ed="#G" n="138"/>fitentur 
-    </p>
-            <p xml:id="HuYgTa-329097-d1e1109">
-               <lb ed="#G" n="139"/>
-               <pc type="indent"/>His praemissis, ostendam breuiter, quod responsiones 
-      <lb ed="#G" n="140"/>istius socii non sufficiunt ad tollendum ea, quae superius 
-      <lb ed="#G" n="141"/>adduxi contra eum  
-    </p>
-            <p xml:id="HuYgTa-329097-d1e1120">
-               <lb ed="#G" n="142"/>
-               <pc type="indent"/>Ad primam enim meam rationem respondendo, ipse 
-      <lb ed="#G" n="143"/>negat consequentiam. Ad probationem, quia dicebam il 
-      <lb ed="#G" n="144"/>lud, quod specificatur ab infinito, secundum quod est infi 
-      <lb ed="#G" n="145"/>nitum, hoc necessario est infinitum, respondet, quod
-      ali<lb ed="#G" n="146" break="no"/>quid specificari ab altero, potest dupliciter intelligi. Vno 
-      <lb ed="#G" n="147"/>modo, vt a causa intrinseca, &amp; formali. Alio modo, vt a 
-      <lb ed="#G" n="148"/>causa extrinseca, &amp; cfficiente. Et isto secundo modo
-      ma<lb ed="#G" n="149" break="no"/>ior est falsa. Cum igitur scientia specificetur a subiecto 
-      <!--922.xml-->
-      <pb ed="#G" n="P2_225B-r"/>
-               <cb ed="#G" n="a"/>
-               <lb ed="#G" n="1"/>isto secundo modo, scilicet vt a causa extrinseca, &amp; efficien 
-      <lb ed="#G" n="2"/>te; ideo non oportet scientiam esse infinitam, si est de si 
-      <lb ed="#G" n="3"/>biecto infinito, sub ratione qua est infinitum 
-    </p>
-            <p xml:id="HuYgTa-329097-d1e1155">
-               <lb ed="#G" n="4"/>
-               <pc type="indent"/>Sed istud non valet: quia istam responsionem praeueni 
-      <lb ed="#G" n="5"/>per confirmationem, quam praedictae probationi adiunxi 
-      <lb ed="#G" n="6"/>ad quam tamen confirmationem iste socius nihil re spon 
-      <lb ed="#G" n="7"/>det: quia non obstante, quod aliquid sit causa alicuius ex 
-      <lb ed="#G" n="8"/>trinseca, si tamen in hoc sit adaequata eius mensura, tunc 
-      <lb ed="#G" n="9"/>ex finitate, vel infinitate causae sufficienter arguitur
-      fini<lb ed="#G" n="10" break="no"/>tas vel infinitas ipsius effectus: Nam si effectus huiusmodi 
-      <lb ed="#G" n="11"/>esset finitus causa existente infinita, tunc nulla esset
-      adae<lb ed="#G" n="12" break="no"/>quatio, nec aliqua esset proportio inter huiusmodi
-      cau<lb ed="#G" n="13" break="no"/>lam, &amp; effectum. Sed nunc ita est, quod obiectum acceptum 
-      <lb ed="#G" n="14"/>sub formali ratione, qua subiicitur in scientia, est adaequa 
-      <lb ed="#G" n="15"/>ta mensura ipsius scientiae: igitur quamuis obiectum sit 
-      <lb ed="#G" n="16"/>causa extrinseca ipsius scientiae, tamen si Deus, qui in se 
-      <lb ed="#G" n="17"/>est formaliter infinitus, esset subiectum alicuius
-      scien<lb ed="#G" n="18" break="no"/>tiae sub ratione entis infiniti, tunc sequeretur, quod illa  
-      <lb ed="#G" n="19"/>scientia esset infinita. 
-    </p>
-            <p xml:id="HuYgTa-329097-d1e1194">
-               <lb ed="#G" n="20"/>
-               <pc type="indent"/>Ad secundam rationem iterum negat consequentiam 
-      <lb ed="#G" n="21"/>uia in ista consequentia proceditur a minori ad maius 
-      <lb ed="#G" n="22"/>negatiue; nam minus videtur, quod Deus sub conceptu 
-      <lb ed="#G" n="23"/>deitatis sit subiectum in theologia viatoris, quam sub con 
-      <lb ed="#G" n="24"/>ceptu entis infiniti, eo, quod conceptus deitatis non
-      pos<lb ed="#G" n="25" break="no"/>sit comprehendi ab aliquo viatore. Ad probationem
-      di<lb ed="#G" n="26" break="no"/>rit, quod ratio deitatis non est propter hoc incompreha 
-      <lb ed="#G" n="27"/>sibilis: quia includit rationem infinitatis: sed hoc est pro 
-      <lb ed="#G" n="28"/>tanto: quia ratio deitatis non est abstrahibilis a rebus sen 
-      <lb ed="#G" n="29"/>sibilibus virtute intellectus agentis. 
-    </p>
-            <p xml:id="HuYgTa-329097-d1e1220">
-               <lb ed="#G" n="30"/>
-               <pc type="indent"/>Sed nec istud valet: quia respiciendo ea, quae dixi
-      con<lb ed="#G" n="31" break="no"/>tra primum fundamentum, tunc immediate apparet, quod 
-      <lb ed="#G" n="32"/>hic falsum assumitur, cum dicitur, quod consequentia mea 
-      <lb ed="#G" n="33"/>procedat ab eo, quod minus videtur: quia si accipimus con 
-      <lb ed="#G" n="34"/>ceptus correspondentes cognitioni quid est, tunc
-      proce<lb ed="#G" n="35" break="no"/>ditur ab aequali ad aequale, siue per locum a simili. Si
-      au<lb ed="#G" n="36" break="no"/>tem accipimus conceptus correspondentes cognitioni 
-      <lb ed="#G" n="37"/>quia est, tunc illa consequentia procedit negatiue ab eo 
-      <lb ed="#G" n="38"/>quod magis videtur, ad illud, quod minus videtur: quia con 
-      <lb ed="#G" n="39"/>gnitione quia est magis est nobis euidens conceptus de 
-      <lb ed="#G" n="40"/>ratis, quam conceptus entis infiniti infinitate
-      perfectio<lb ed="#G" n="41" break="no"/>nis, vt patet ex tertia ratione ducta contra primum
-      funda<lb ed="#G" n="42" break="no"/>mentum. Et ex eodem apparet, quod falsum assumitur it 
-      <lb ed="#G" n="43"/>responsione ad probationem consequentiae: quia quantum 
-      <lb ed="#G" n="44"/>ad perfectum conceptum correspondentem cognitioni 
-      <lb ed="#G" n="45"/>quid est, tunc sicut conceptus deitatis non est
-      abstrahibi<lb ed="#G" n="46" break="no"/>lis virtute intellectus agentis ab ipsis rebus sensibilibus 
-      <lb ed="#G" n="47"/>sic nec conceptus entis infiniti infinitate perfectionis: quid 
-      <lb ed="#G" n="48"/>isti duo conceptus adaequate se habent, vt patet ex prima 
-      <lb ed="#G" n="49"/>ratione contra primum fundamentum. Sed quantum ad 
-      <lb ed="#G" n="50"/>conceptum correspondentem cognitioni quia est, tund 
-      <lb ed="#G" n="51"/>conceptus deitatis vere est abstrahibilis virtute intelle 
-      <lb ed="#G" n="52"/>ctus agentis a rebus sensibilibus, &amp; non minus, sed magi 
-      <lb ed="#G" n="53"/>quam conceptus entis infiniti: Vnde Apostolus loquen 
-      <lb ed="#G" n="54"/>de cognitione philosophorum, quam habuerunt de
-      dei<lb ed="#G" n="55" break="no"/>tate, ostendit eos huiusmodi cognitionem accepisse a
-      cre<lb ed="#G" n="56" break="no"/>turis, dicent, lnuisibilia Dei per ea, quae facta sunt, intellu 
-      <lb ed="#G" n="57"/>cta conspiciuntur: sempiterna quoque virtus eius, &amp; dei 
-      <lb ed="#G" n="58"/>tas. Etiam Magister in primo libro distin. 2. ostendit por 
-      <lb ed="#G" n="59"/>multas auctoritates, quod deitatis cognitionem habere 
-      <lb ed="#G" n="60"/>possumus per imaginem Dei, &amp; per vestigium, quae repe 
-      <lb ed="#G" n="61"/>riuntur in creaturis 
-    </p>
-            <p xml:id="HuYgTa-329097-d1e1294">
-               <lb ed="#G" n="62"/>
-               <pc type="indent"/>Ad instantiam, quam duxi contra maiorem primae sus 
-      <lb ed="#G" n="63"/>rationis; ipse non respondet directe, sed solum nititur pro 
-      <lb ed="#G" n="64"/>bare, quod conceptus entis infiniti sit comprehensibili 
-      <lb ed="#G" n="65"/>ab intellectu viatoris. Et hoc arguit sic¬ 
-    </p>
-            <p xml:id="HuYgTa-329097-d1e1308">
-               <lb ed="#G" n="66"/>
-               <pc type="indent"/>Nullus conceptus, abstractus a rebus sensibilibus virtu 
-      <lb ed="#G" n="67"/>te luminis nostri intellectus agentis, est
-      incomprehensi<lb ed="#G" n="68" break="no"/>bilis ab intellectu possibili viatoris. Sed conceptus entis 
-      <lb ed="#G" n="69"/>infiniti est huiusmodi; ergo &amp;c. Maior est nota. Probatur 
-      <lb ed="#G" n="70"/>minor, quia conceptus entis finiti abstrahitur: ergo etiam 
-      <lb ed="#G" n="71"/>conceptus entis infiniti 
-    </p>
-            <p xml:id="HuYgTa-329097-d1e1326">
-               <lb ed="#G" n="72"/>
-               <pc type="indent"/>Hic dico, quod minor ista est falsa, loquendo de conc 
-      <lb ed="#G" n="73"/>ptu correspondente cognitioni quid est. Nec valet proba 
-      <!--922.xml-->
-      <cb ed="#G" n="b"/>
-               <lb ed="#G" n="74"/>tio, quia procedit affirmatiue de eo, quod magis videtur 
-      <lb ed="#G" n="75"/>ad illud, quod minus videtur. Nam conceptus perfectus 
-      <lb ed="#G" n="76"/>&amp; quidditatiuus entis finiti est proportionatus nostro in 
-      <lb ed="#G" n="77"/>tellectui, qui est finitus, &amp; limitatus, &amp; per consequens na 
-      <lb ed="#G" n="78"/>turaliter loquendo, ipse est magis comprehensibilis ab in 
-      <lb ed="#G" n="79"/>tellectu viatoris, quam conceptus quidditatiuus entis in 
-      <lb ed="#G" n="80"/>finiti, qui, naturaliter loquendo, est improportionatus in 
-      <lb ed="#G" n="81"/>tellectui viatoris. Sed si iste socius intelligit istam
-      mino<lb ed="#G" n="82" break="no"/>rem de conceptu correspondente cognitioni quia est, tuc 
-      <lb ed="#G" n="83"/>tota ratione concessa, iste socius nihil habet de suo
-      pro<lb ed="#G" n="84" break="no"/>posito: quia isto modo non habetur, quod conceptus
-      en<lb ed="#G" n="85" break="no"/>tis infiniti sit magis comprehensibilis, quam conceptus. 
-      <lb ed="#G" n="86"/>deitatis, cuius oppositum ipse intendit
-    </p>
-            <p xml:id="HuYgTa-329097-d1e1368">
-               <lb ed="#G" n="87"/>Ad illud, quod dixi contra minorem propositionem non 
-      <lb ed="#G" n="88"/>respondet, sed solum probat suam minorem sic. llle
-      con<lb ed="#G" n="89" break="no"/>ceptus est proximior primo conceptui quidditatiuo
-      dei<lb ed="#G" n="90" break="no"/>tatis, qui magis exprimit illud, quod est intrinsecum
-      dei<lb ed="#G" n="91" break="no"/>tati: Sed conceptus entis infiniti est huiusmodi, &amp; non con 
-      <lb ed="#G" n="92"/>ceptus summi boni: quia summum bonum se habet ad 
-      <lb ed="#G" n="93"/>deitatem, sicut passio. Istam minorem cum sua
-      probatio<lb ed="#G" n="94" break="no"/>ne nego quia oppositum eius probaui superius arguendo 
-      <lb ed="#G" n="95"/>contra tertium fundamentum. 
-    </p>
-            <p xml:id="HuYgTa-329097-d1e1390">
-               <lb ed="#G" n="96"/>
-               <pc type="indent"/>Deinde, quando probaui, quod probatio minoris
-      pri<lb ed="#G" n="97" break="no"/>mae rationis istius socii reuerendi implicat impossibile, &amp;  
-      <lb ed="#G" n="98"/>incompossibile, ipse iterum non respondet ad motiuum F 
-      <lb ed="#G" n="99"/>meum: sed solum nititur probare, quod circumscriptis om 
-      <lb ed="#G" n="100"/>nibus perfectionibus attributalibus ab ipsa essentia
-      diui<lb ed="#G" n="101" break="no"/>na, adhuc essentia diuina maneat infinita. Et arguit
-      sic<lb ed="#G" n="102" break="no"/>lllud, quod nihil intrinsece habet ab aliquibus, &amp;
-      cir<lb ed="#G" n="103" break="no"/>cumscriptum ab illis habet entitatem excedentem om- 
-      <lb ed="#G" n="104"/>nem entitatem finitam, hoc circumscriptum ab illis
-      ne<lb ed="#G" n="105" break="no"/>cessario est infinitum: Sed essentia diuina nihil habet
-      in<lb ed="#G" n="106" break="no"/>trinsece a perfectionibus attributalibus, &amp; circumscripta 
-      <lb ed="#G" n="107"/>ab eis adhuc habet entitatem excedentem omnem enti 
-      <lb ed="#G" n="108"/>tatem finitam, ergo &amp;c. 
-    </p>
-            <p xml:id="HuYgTa-329097-d1e1423">
-               <lb ed="#G" n="109"/>
-               <pc type="indent"/>Addit etiam iste socius, quod sicut abstrahentium non 
-      <lb ed="#G" n="110"/>est mendacium, sic etiam circumscribentium non est 
-      <lb ed="#G" n="111"/>mendacium. 
-    </p>
-            <p xml:id="HuYgTa-329097-d1e1434">
-               <lb ed="#G" n="112"/>
-               <pc type="indent"/>Ad primum dico, quod minor est simpliciter falsa; quia 
-      <lb ed="#G" n="113"/>quicum que vere concipit deitatem, ille concipit rem in 
-      <lb ed="#G" n="114"/>cludentem omnem perfectionem, vt patet etiam per
-      Ari<lb ed="#G" n="115" break="no"/>stotelem 5. metaph ideo perfectio Dei dicit ipsam substam 
-      <lb ed="#G" n="116"/>tiam Dei, &amp; est quid intrinsecum ipsi Deo. Vnde propter 
-      <lb ed="#G" n="117"/>huiusmodi intimam intrinsecationem dicit beatus
-      Au<lb ed="#G" n="118" break="no"/>ustinus, quod Deus est sine quantitate magnus, sine qua 
-      <lb ed="#G" n="119"/>litate bonus, &amp; sic de aliis diuinis perfectionibus. Quasi 
-      <lb ed="#G" n="120"/>dicat, magnitudo, bonitas, sapientia, &amp; omnes aliae Dei per 
-      <lb ed="#G" n="121"/>fectiones sic sunt intrinsecae ipsi Deo, quod non sunt
-      quanti<lb ed="#G" n="122" break="no"/>tas, vel qualitas, sed sunt ipsa substantia Dei. Vnde omnis 
-      <lb ed="#G" n="123"/>perfectio sic est intrinseca ipsi diuinae essentiae, quod si
-      pro<lb ed="#G" n="124" break="no"/>fecte deberet diffiniri ipsa diuina essentia, tunc per inclu 
-      <lb ed="#G" n="125"/>sionem omnis perfectionis exprimeretur, quasi substantia 
-      <lb ed="#G" n="126"/>lis differentia deitatis, qua ipsa deitas substantialiter
-      di<lb ed="#G" n="127" break="no"/>stingueretur ab omni eo, quod non est deitas. Ite, falsum 
-      <lb ed="#G" n="128"/>assumitur in eadem minori, cum dicitur, quod deitas
-      cir<lb ed="#G" n="129" break="no"/>cumscripta ab omnibus perfectionibus adhuc haberet
-      e<lb ed="#G" n="130" break="no"/>titatem excedentem omnem entitatem finitam, quia vt 
-      <lb ed="#G" n="131"/>supra probaui huiusmodi perfectionibus circumscriptis 
-      <lb ed="#G" n="132"/>deitate, tunc non maneret deitas; &amp; hoc non solum in re 
-      <lb ed="#G" n="133"/>extra, sed nec in intellectu, quia sine huiusmodi
-      perfe<lb ed="#G" n="134" break="no"/>ctionibus intellectus non potest concipere rationem dei 
-      <lb ed="#G" n="135"/>tatis; ergo &amp;c 
-    </p>
-            <p xml:id="HuYgTa-329097-d1e1492">
-               <lb ed="#G" n="136"/>
-               <pc type="indent"/>Ad secundum dicendum, quod licet abstrahentium non 
-      <lb ed="#G" n="137"/>sit mendacium, quando abstrahitur aliquid naturaliter 
-      <lb ed="#G" n="138"/>prius a suo posteriori, sicut quantum a quali; tamen quando 
-      <lb ed="#G" n="139"/>abstrahitur aliquid ab eo, quod spectat ad suam substantia 
-      <lb ed="#G" n="140"/>&amp; est de sua diffinitione, tunc talis abstractio numquam 
-      <lb ed="#G" n="141"/>caret mendacio. Sic autem est in proposito; ergo &amp;c 
-    </p>
-            <p xml:id="HuYgTa-329097-d1e1510">
-               <lb ed="#G" n="142"/>
-               <pc type="indent"/>Ad illud, quod dixi contra maiorem secundae suae ratio 
-      <lb ed="#G" n="143"/>nis, non respondet. Sed tamen probat, quod conceptus entis, &amp;  
-      <lb ed="#G" n="144"/>ratio sua punctaliter stat in hoc. Quia conceptus entis fi 
-      <lb ed="#G" n="145"/>niti attingitur, ergo &amp; conceptus entis infiniti; quia
-      pri<lb ed="#G" n="146" break="no"/>uatio cognoscitur per habitum. 
-      <!--923.xml-->
-      <pb ed="#G" n="P2_225B-v"/>
-               <cb ed="#G" n="a"/>
-               <lb ed="#G" n="1"/>Sed nec istud valet; Quia maniseste hic committitur 
-      <lb ed="#G" n="2"/>fallacia consequentis, vt patet ex dictis superius. Etiam sup 
-      <lb ed="#G" n="3"/>ponitur, quod ens infinitae perfectionis opponitur enti
-      fi<lb ed="#G" n="4" break="no"/>nito, sicut priuatio opponitur habitui, cuius oppositum su 
-      <lb ed="#G" n="5"/>perius probaui, procedendo contra secundum fundamen 
-      <lb ed="#G" n="6"/>tum; ideo &amp;c
-    </p>
-            <p xml:id="HuYgTa-329097-d1e1545">
-               <lb ed="#G" n="7"/>Deinde contra ea, quae dixi impugnando minorem se 
-      <lb ed="#G" n="8"/>cundae rationis, iste socius probat, quod conceptus
-      priua<lb ed="#G" n="9" break="no"/>tiuus tirca idem subiectum sit magis perfectus, quam
-      con<lb ed="#G" n="10" break="no"/>ceptus positiuus. Et arguit sic. lste conceptus est perfectior. 
-      <lb ed="#G" n="11"/>quo maior exprimitur perfectio illius rei, cuius dicitur es 
-      <lb ed="#G" n="12"/>se conceptus, Sed conceptu priuatiuo quandoque
-      expri<lb ed="#G" n="13" break="no"/>mitur maior perfectio. Ista patet, quia quando concipis 
-      <lb ed="#G" n="14"/>animam humanam esse ens immortale, concipio ipsam 
-      <lb ed="#G" n="15"/>conceptu priuatiuo, &amp; tamen per huiusmodi conceptum 
-      <lb ed="#G" n="16"/>magis exprimitur perfectio animae, quam si conciperem 
-      <lb ed="#G" n="17"/>eam conceptu posituo. 
-    </p>
-            <p xml:id="HuYgTa-329097-d1e1571">
-               <lb ed="#G" n="18"/>
-               <pc type="indent"/>Sed nec istud valet, quia minor est simpliciter falsa;
-      n<lb ed="#G" n="19" break="no"/>conceptus priuatiuus per se nullam exprimit perfectio 
-      <lb ed="#G" n="20"/>nem, quamuis per accidens exprimat perfectionem habi 
-      <lb ed="#G" n="21"/>tus, quem priuat. Ad probationem dicendum, quod con 
-      <lb ed="#G" n="22"/>ceptus entis immortalis non est conceptus priuatiuus; nam 
-      <lb ed="#G" n="23"/>sicut grammatice loquendo, negatio negationis facit at 
-      <lb ed="#G" n="24"/>firmationem, quia duae negationes faciunt vnam affirma 
-      <lb ed="#G" n="25"/>tionem, sic priuatio priuationis, naturaliter loquendo, di 
-      <lb ed="#G" n="26"/>cit positionem. Cum igitur conceptus entis immortalis 
-      <lb ed="#G" n="27"/>exprimat priuationem, seu negationem priuationis, put 
-      <lb ed="#G" n="28"/>negationem mortis, quae est priuatio vitae: ideo conceptus 
-      <lb ed="#G" n="29"/>quo concipitur anima esse ens immortale, est conceptus 
-      <lb ed="#G" n="30"/>simpliciter positiuus. 
-    </p>
-            <p xml:id="HuYgTa-329097-d1e1604">
-               <lb ed="#G" n="31"/>
-               <pc type="indent"/>Ad illa, quae dixi contra probationem praedicte
-      mino<lb ed="#G" n="32" break="no"/>ris respondet iste socius dicens, quod quando dixit nati 
-      <lb ed="#G" n="33"/>ram superiorem solum distingui a natura inferiori per con 
-      <lb ed="#G" n="34"/>ceptum entis infiniti, tunc ipse intellexit de conceptu
-      quid<lb ed="#G" n="35" break="no"/>ditatiuo: Cum igitur conceptus improducibiis, &amp;
-      conce<lb ed="#G" n="36" break="no"/>ptus summi boni, &amp; ceterorum, de quibus instantiae meae 
-      <lb ed="#G" n="37"/>procedunt, non sint conceptus quidditatiui; ideo quauis 
-      <lb ed="#G" n="38"/>per conceptum improducibilis, &amp; summi boni, natura su 
-      <lb ed="#G" n="39"/>perior distinguatur ab inferiori, tamen adhuc stat ista vo 
-      <lb ed="#G" n="40"/>ritas, quod natura superior solum distinguitur a natura 
-      <lb ed="#G" n="41"/>inferiori per conceptum entis infiniti, referendo Iy soli 
-      <lb ed="#G" n="42"/>ad conceptum quidditatiuum. 
-    </p>
-            <p xml:id="HuYgTa-329097-d1e1635">
-               <lb ed="#G" n="43"/>
-               <pc type="indent"/>Sed ista responsio primo deficit: quia non saluatur
-      pri<lb ed="#G" n="44" break="no"/>mum dictum istius socii; nam ipse absolute dixit sine con 
-      <lb ed="#G" n="45"/>tractione ad conceptum quidditatiuum, quod natura
-      su<lb ed="#G" n="46" break="no"/>porior solum distinguitur a natura inferiori per
-      conce<lb ed="#G" n="47" break="no"/>ptum entis infiniti, Secundo deficit: quia sic responden 
-      <lb ed="#G" n="48"/>do, iste socius, volens vitare praedicta inconuenientia, inc 
-      <lb ed="#G" n="49"/>dit in alia maiora: quia ex ista responsione sequitur, quod 
-      <lb ed="#G" n="50"/>nullo conceptu quidditatiuo natura superior distingua 
-      <lb ed="#G" n="51"/>tur a natura inferiori, nisi tantummodo illo conceptu, qu 
-      <lb ed="#G" n="52"/>est conceptus entis infiniti, &amp; sic conceptu deitatis, qui est 
-      <lb ed="#G" n="53"/>primus quidditatiuus, &amp; simplicissimus conceptus
-      natu<lb ed="#G" n="54" break="no"/>rae superioris, ipsa natura superior non distingueretur a
-      na<lb ed="#G" n="55" break="no"/>tura inferiori, quod est valde absurdum dicere. Quod au 
-      <lb ed="#G" n="56"/>tem istud sequatur ad iam dictam responsionem, probo 
-      <lb ed="#G" n="57"/>sic. Sicut dictio exclusiua addita vni rei excludit omnem 
-      <lb ed="#G" n="58"/>aliam rem a consortio illius, quod sub talis solitudinis ex 
-      <lb ed="#G" n="59"/>pressione attribuit illi rei: sic dictio exclusiua addita vn 
-      <lb ed="#G" n="60"/>conceptui excludit a quolibet alio conceptu illud, quod 
-      <lb ed="#G" n="61"/>sub expressione huiusmodi solitudinis attribuitur illi con 
-      <lb ed="#G" n="62"/>ceptur. Sed secundum istam responsionem distinctio
-      na<lb ed="#G" n="63" break="no"/>turae superioris ab inferiori inter omnes conceptus quid 
-      <lb ed="#G" n="64"/>ditatiuos attribuitur soli conceptui entis infiniti: ergo nm 
-      <lb ed="#G" n="65"/>tura superior nullo alio conceptu quidditatiuo distingu 
-      <!--923.xml-->
-      <cb ed="#G" n="b"/>
-               <lb ed="#G" n="66"/>tur a natura inferiori. Cum igitur conceptus deitatis sit 
-      <lb ed="#G" n="67"/>alius conceptus quidditatiuus a conceptu entis infiniti, 
-      <lb ed="#G" n="68"/>sicut patet ex dictis istius socij:igitur &amp;c. Alia dicta istius 
-      <lb ed="#G" n="69"/>reuerendi socij vlterius non recito: quia vel manifeste appa 
-      <lb ed="#G" n="70"/>ret, quod non tangunt ea, quae ego dixi contra eum, vel si quam 
-      <lb ed="#G" n="71"/>habent apparentiam, illa tollitur per ea, quae adduxi
-      su<lb ed="#G" n="72" break="no"/>perius contra tria istius socij reuerendi fundamenta 
-    </p>
-            <p xml:id="HuYgTa-329097-d1e1710">
-               <lb ed="#G" n="73"/>
-               <pc type="indent"/>Erat etiam alius socius concurrens mecum in lectura, 
-      <lb ed="#G" n="74"/>qui posuit eaudem conclusionem, cuius ratio fuit haec 
-      <lb ed="#G" n="75"/>Quando ab intellectu sub aliquo statu non attingitur ra 
-      <lb ed="#G" n="76"/>tio propria subiecti alicuius scientiae, tunc ratio subiecti 
-      <lb ed="#G" n="77"/>ua pro statu illo est ratio propinquior, &amp; vicinior rationi 
-      <lb ed="#G" n="78"/>primae, &amp; propriae illius subiecti. Sed ratio propria
-      deita<lb ed="#G" n="79" break="no"/>tis pro statu viae est nobis ex naturalibus simpliciter
-      im<lb ed="#G" n="80" break="no"/>possibilis, quia nec continetur formaliter, nec virtualiter 
-      <lb ed="#G" n="81"/>in conceptibus creaturae: ergo ratio entis infiniti, quae est 
-      <lb ed="#G" n="82"/>illi primae rationi vicinior, erit ratio subiectiua in satta 
-      <lb ed="#G" n="83"/>theologia, in qua subiectum est ipse Deus. 
-    </p>
-            <p xml:id="HuYgTa-329097-d1e1739">
-               <lb ed="#G" n="84"/>
-               <pc type="indent"/>Sed quia iste socius quasi nihil videtur addere super 
-      <lb ed="#G" n="85"/>dicta prioris socii, nisi illud solum, quod dicit probande 
-      <lb ed="#G" n="86"/>suam minorem: ideo contra ipsum non faciam singulare 
-      <lb ed="#G" n="87"/>processum, sed solum vnico medio arguam contra illam 
-      <lb ed="#G" n="88"/>minoris probationem sic 
-    </p>
-            <p xml:id="HuYgTa-329097-d1e1755">
-               <lb ed="#G" n="89"/>
-               <pc type="indent"/>llla probatio non expedit, sed potius impedit, ex
-      cu<lb ed="#G" n="90" break="no"/>ius virtute probantis principale oppositum sufficienter 
-      <lb ed="#G" n="91"/>impeditur, ac improbatur. Sed talis est probatio adducta 
-      <lb ed="#G" n="92"/>per istum socium: ergo &amp;c. Maior patet. Minorem
-      pro<lb ed="#G" n="93" break="no"/>bo: quia ratio propria entis infiniti, nec formaliter 
-      <lb ed="#G" n="94"/>nec virtualiter continetur iu conceptibus creaturae:
-      igi<lb ed="#G" n="95" break="no"/>tur si per huiusiuodi non continentiam sufficienter proba 
-      <lb ed="#G" n="96"/>tur, quod ratio deitatis sit simpliciter a nobis pro statu via 
-      <lb ed="#G" n="97"/>inattingibilis, &amp; per hoc huiusmodi ratio non possit esse ra 
-      <lb ed="#G" n="98"/>tio subiectiua in theologia viatoris, tuc per idem medium 
-      <lb ed="#G" n="99"/>sufficienter probabitur, quod ratio entis infiniti non pos 
-      <lb ed="#G" n="100"/>sit attingi a nobis, nec per consequens possit esse ratio siu 
-      <lb ed="#G" n="101"/>biectiua in theologia viatoris, quod est oppositum princi 
-      <lb ed="#G" n="102"/>palis intenti istius reuerondi socij. Quod autem ratio en 
-      <lb ed="#G" n="103"/>tis infiniti, loquendo semper de infinitate perfectionis, non 
-      <lb ed="#G" n="104"/>contineatur in conceptibus creaturae formaliter, nec vir 
-      <lb ed="#G" n="105"/>tualiter, patet, quia in continentia formali continentis pro 
-      <lb ed="#G" n="106"/>sectio aequatur perfectioni contenti; &amp; in continentia vir 
-      <lb ed="#G" n="107"/>tuali continens est perfectius contento, Sed nullius creatu 
-      <lb ed="#G" n="108"/>rae ratio, seu conceptus est aeque perfectus sicut conceptus 
-      <lb ed="#G" n="109"/>entis infiniti infinitate perfectionis, nec est perfectior
-      eo<lb ed="#G" n="110" break="no"/>ergo ratio talis entis infiniti, nec formaliter, nec virtual 
-      <lb ed="#G" n="111"/>ter continetur in conceptibus creaturae. Si diceret iste so 
-      <lb ed="#G" n="112"/>cius, quod ratio entis infiniti infinitate perfectionis salten 
-      <lb ed="#G" n="113"/>quo ad cognitionem quia est, continetur in conceptibus cres 
-      <lb ed="#G" n="114"/>turae, tunc dico, quod isto modo conceptus, vel ratio deitatis 
-      <lb ed="#G" n="115"/>potius continetur in conceptibus creaturae, quam conceptus 
-      <lb ed="#G" n="116"/>entis infiniti, vt supra probaui contra alium socium istam 
-      <lb ed="#G" n="117"/>eandem conclusionem asserentem. Etiam sola cognitio quod 
-      <lb ed="#G" n="118"/>est non sufficit ad habendum rationem propriam subiectiuam 
-      <lb ed="#G" n="119"/>in aliqua scientia, &amp; maxime si illa scientia non est
-      simpli<lb ed="#G" n="120" break="no"/>citer, &amp; proprie subalterna, scientia autem theologiae non  
-      <lb ed="#G" n="121"/>est proprie subalterna, vt patet per ea, quae dixi in
-      prolo<lb ed="#G" n="122" break="no"/>go primi libri. Vt igitur finis principio rudeat, concludo il 
-      <lb ed="#G" n="123"/>lud, quod dixi in prima quaestione prologi, s. quod deus 
-      <lb ed="#G" n="124"/>est subiectum in theologia viatoris sub ratione veri sun 
-      <lb ed="#G" n="125"/>me diligibilis, vt huiusmodi verum est proportionatum 
-      <lb ed="#G" n="126"/>rationali animae habitu fidei dispositae, &amp; nondum
-      perfe<lb ed="#G" n="127" break="no"/>ctae per habitum luminis gloriae. Ad quam gloriam
-      me<lb ed="#G" n="128" break="no"/>fratre Thomam, ordinis sancti Aug. cum istius lecturae lecto 
-      <lb ed="#G" n="129"/>tibus perducere dignetur ipse glorificator sanctorum, qui 
-      <lb ed="#G" n="130"/>viuit, &amp; regnat in secula saeculorum. Amen¬
-    </p>
-         </div>
-      </body>
-   </text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 3</title>
+        <author ref="#ThomasStrasbourg">Thomas of Strasbourg</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 3</title>
+          <date when="2020-11-26">November 26, 2020</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="G" n="cod-TxxxqU">Genoa 1585</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2020-11-26" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#G" n="P2_224-v"/>
+        <cb ed="#G" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="HuYgTa-329097"><!-- HuYgTa-l4d50q3 -->
+        <head xml:id="HuYgTa-329097-Hd1e108">Quaestio 3</head>
+        <head xml:id="HuYgTa-329097-Hd1e111" type="question-title">
+          An Deus sub ratione entis infiniti sit subiectum in 
+          theologia viatoris.
+        </head>
+        <!-- seciton is strange; can't tell if there is something else weird going on here -->
+        <!-- seems like a question from book 1 prologue -->
+        <p xml:id="HuYgTa-329097-d1e118">
+          <lb ed="#G" n="45"/>Questio. <!-- no quesiton number --> 
+          <lb ed="#G" n="46"/>An Deus sub ratione entis infiniti sit subiectum in 
+          <lb ed="#G" n="47"/>Theologia viatoris.
+        </p>
+        <p xml:id="HuYgTa-329097-d1e130">
+          <lb ed="#G" n="48"/>SONTRA duos alios socios reuerendos resumpsi 
+          <lb ed="#G" n="49"/>in principiis istius lecturae, quorum tamen dicta 
+          <lb ed="#G" n="50"/>hic nolo scribere, nisi quantum ad illa puncta, quae
+          qui<lb ed="#G" n="51" break="no"/>busdam meis dictis in prologo primi libri videntur repu 
+          <lb ed="#G" n="52"/>gnare, Duo enim reuerendi socii vniformiter posuerunt 
+          <lb ed="#G" n="53"/>hanc conclusionem, quod Deus sub ratione entis infiniti 
+          <lb ed="#G" n="54"/>est subiectum in theologia viatoris. Et quia ista conclusio 
+          <lb ed="#G" n="55"/>repugnat his, quae circa subiectum theologiae dixi in pro 
+          <lb ed="#G" n="56"/>logo primi libri, quaestione prima: ideo motiua istorum 
+          <lb ed="#G" n="57"/>sociorum, &amp; meas replicationes, ac responsiones breuiter 
+          <lb ed="#G" n="58"/>hic ponam vt ex eorum lectura veritas eorum, quae dixi in 
+          <lb ed="#G" n="59"/>prologo, magis clucescat 
+        </p>
+        <p xml:id="HuYgTa-329097-d1e159">
+          <lb ed="#G" n="60"/>
+          <pc type="indent"/>lam dictam autem conclusionem vnus istorum probat sic.¬ 
+          <lb ed="#G" n="61"/>1 Sub illo conceptu Deus est subiectu in nostra thec 
+          <lb ed="#G" n="62"/>logia, qui est proximior primo, &amp; perfectissimo conceptur 
+          <lb ed="#G" n="63"/>Sed conceptus entis infiniti est huiusmodi: ergo &amp;c.
+          Ma<lb ed="#G" n="64" break="no"/>ior patet: quia in conceptibus ordinatis ille conceptus est 
+          <lb ed="#G" n="65"/>perfectior, qui est primo, &amp; perfectissimo conceptui proxi 
+          <lb ed="#G" n="66"/>mior. Patet etiam ista maior per Ansel in libus monologio 
+          <lb ed="#G" n="67"/>vbi per hoc, quod Deus est illud, quo maius cogitari non  
+          <lb ed="#G" n="68"/>potest, demonstrat omnes veritates theologicas de subie 
+          <lb ed="#G" n="69"/>cto theologiae: lllud autem est diffinitio infiniti.
+          Proba<lb ed="#G" n="70" break="no"/>tur etiam minor : quia circumscriptis omnibus attributis a 
+          <!--919.xml-->
+          <cb ed="#G" n="b"/>
+          <lb ed="#G" n="71"/>diuina essentia, &amp; ipsa sola relicta adhuc ipsa remanet in 
+          <lb ed="#G" n="72"/>finita. 
+        </p>
+        <p xml:id="HuYgTa-329097-d1e196">
+          <lb ed="#G" n="73"/>2 Praeterea, theologia nostra est de Deo sub conceptu 
+          <lb ed="#G" n="74"/>perfectiori, quem de Deo possumus in via habere: Sed con 
+          <lb ed="#G" n="75"/>ceptus infiniti est huiusmodi: ergo &amp;c. Maior est nota pro 
+          <lb ed="#G" n="76"/>batur minor. 
+        </p>
+        <p xml:id="HuYgTa-329097-d1e207">
+          <lb ed="#G" n="77"/>
+          <pc type="indent"/>Et primo quo ad hoc, quod conceptus entis infiniti sit 
+          <lb ed="#G" n="78"/>probilior. Quia ille conceptus est nobilior, &amp; perfectior,  
+          <lb ed="#G" n="79"/>per quem superior natura, scilicet ipsa deitas distinguitur 
+          <lb ed="#G" n="80"/>ab inferiori, scilicet a natura creata: Sed talis distinctio fi 
+          <lb ed="#G" n="81"/>solum per conceptum infiniti: quia in aliis conceptibus na 
+          <lb ed="#G" n="82"/>tura diuina conuenit cum creatura 
+        </p>
+        <p xml:id="HuYgTa-329097-d1e225">
+          <lb ed="#G" n="83"/>
+          <pc type="indent"/>Secundo probatur ista minor quo ad hoc, quod conceptu 
+          <lb ed="#G" n="84"/>insiniti sit nobis notus in via: quia Aristot. istum conceptum 
+          <lb ed="#G" n="85"/>probat conuenire ipsi Deo in. <ref xml:id="HuYgTa-329097-Rd1e235">8. physic.</ref> &amp; in <ref xml:id="HuYgTa-329097-Rd1e239">12. metaph</ref> 
+        </p>
+        <p xml:id="HuYgTa-329097-d1e243">
+          <lb ed="#G" n="86"/>
+          <pc type="indent"/>Sed ista conclusio nec in se, nec in suis motiuis videtur 
+          <lb ed="#G" n="87"/>posse stare. Igitur primo arguam directe contra istam cor 
+          <lb ed="#G" n="88"/>clusionem. Secundo procedam contra eius motiua. Quantum 
+          <lb ed="#G" n="89"/>ad primum arguo ex his, quae superius dixi in prologo sic. 
+        </p>
+        <p xml:id="HuYgTa-329097-d1e257">
+          <lb ed="#G" n="90"/>
+          <pc type="indent"/>1 Si Deus sub ratione entis infiniti esset obiectum in 
+          <lb ed="#G" n="91"/>nostra theologia, tunc ista scientia esset infinita.
+          Conse<lb ed="#G" n="92" break="no"/>quens est falsum, ergo &amp; antecedens Falsitas
+          consequen<lb ed="#G" n="93" break="no"/>tis patet. Quia omnis habitus formaliter perficiens subie 
+          <lb ed="#G" n="94"/>ctu finitum necessario est finitus, Sed scientia nostrae theo 
+          <lb ed="#G" n="95"/>ogiae est habitus formaliter perficiens nostrum intellectum 
+          <lb ed="#G" n="96"/>possibilem, qui est subiectum creatum, &amp; finitu; ergo &amp;c 
+          <lb ed="#G" n="97"/>Consequentiam probo. Quia illud, quod specificatur ab 
+          <lb ed="#G" n="98"/>infinito secundum quod est infinitum, hoc necessario est 
+          <lb ed="#G" n="99"/>nfinitum Sed si Deus esset subiectum in nostra
+          theolo<lb ed="#G" n="100" break="no"/>gia sub ratione entis infiniti, tunc nostra theologia speci 
+          <lb ed="#G" n="101"/>ficaretur a re infinita secundum que est infinita, quia scientia 
+          <lb ed="#G" n="102"/>specificatur ab obiecto accepto secundum rationem forma 
+          <lb ed="#G" n="103"/>lem, sub qua subiicitur in ipsa scientia. 
+        </p>
+        <p xml:id="HuYgTa-329097-d1e292">
+          <lb ed="#G" n="104"/>
+          <pc type="indent"/>Et hoc confirmo sic. Quicquid adaequatur infinito, hoc 
+          <lb ed="#G" n="105"/>necessario est infinitum, Sed quaelibet scientia adaequatur 
+          <lb ed="#G" n="106"/>uo obiecto accepto secundum illam rationem, sub qua 
+          <lb ed="#G" n="107"/>ubiicitur in ea. Propter hanc enim adaequationem num 
+          <lb ed="#G" n="108"/>uam plures scientiae habent pro subiecto eandem rem 
+          <lb ed="#G" n="109"/>sub eadem subiectali ratione acceptam, quamuis eadem  
+          <lb ed="#G" n="110"/>tes accepta sub alia, &amp; alia subiectali ratione possit esse  
+          <lb ed="#G" n="111"/>subiectum in alia &amp; alia scientia. 
+        </p>
+        <p xml:id="HuYgTa-329097-d1e314">
+          <lb ed="#G" n="112"/>
+          <pc type="indent"/>2 Praeterea, secundum istum socium Deus sub
+          ratio<lb ed="#G" n="113" break="no"/>ne deitatis non potest esse subiectum in theologia viato 
+          <lb ed="#G" n="114"/>ris, &amp; hoc pro tanto, quia sub ratione deitatis Deus est in 
+          <lb ed="#G" n="115"/>comprehensibilis a viatore. Ex isto arguo sic. Propter quod 
+          <lb ed="#G" n="116"/>vnumquodque tale, &amp; illud magis, vt patet <ref xml:id="HuYgTa-329097-Rd1e329">1. posteriorum</ref>. 
+          <lb ed="#G" n="117"/>ped ratio deitatis propter hoc est incomprehensibilis, a via 
+          <lb ed="#G" n="118"/>tore, quia includit rationem infinitatis, seu rationem
+          en<lb ed="#G" n="119" break="no"/>tis infiniti; ergo si Deus propter incomprehensibilitaten 
+          <lb ed="#G" n="120"/>non potest esse subiectum in theologia viatoris sub ratio 
+          <lb ed="#G" n="121"/>ne deitatis, tunc aequali ratione, vel maiori non poterit 
+          <lb ed="#G" n="122"/>esse subiectum in theologia viatoris sub ratione entis in 
+          <lb ed="#G" n="123"/>finiti; ergo &amp;c. 
+        </p>
+        <p xml:id="HuYgTa-329097-d1e348">
+          <lb ed="#G" n="124"/>
+          <pc type="indent"/>Ad primam rationem istius socii dico, quod ista ratio est ni 
+          <lb ed="#G" n="125"/>mis truncata, propter quod non solum non habet
+          existen<lb ed="#G" n="126" break="no"/>tiam, verum etiam modicam habet apparentiam ad inferen 
+          <lb ed="#G" n="127"/>dum conclusionem ab isto socio intentam. Ad formam
+          ta<lb ed="#G" n="128" break="no"/>men argumenti dico, quod maior est falsa, supposito, quod 
+          <lb ed="#G" n="129"/>ille conceptus secundus, qui dicitur proximior primo, non 
+          <lb ed="#G" n="130"/>sit minus incomprehensibilis, quam conceptus primus 
+          <lb ed="#G" n="131"/>Hoc enim posito si primus, &amp; perfectissimus conceptus 
+          <lb ed="#G" n="132"/>non potest esse ratio subiectalis ratione suae incomprehe 
+          <lb ed="#G" n="133"/>sibilitatis tunc pari ratione, nec secundus, sic autem est in 
+          <lb ed="#G" n="134"/>
+          <pc type="indent"/>proposito, quia conceptus entis infiniti non est minus in 
+          <lb ed="#G" n="135"/>comprehensibil is quam conceptus deitatis, quem
+          conce<lb ed="#G" n="136" break="no"/>itum iste socius, &amp; etiam Scotus, quem in hoc sequitur 
+          <lb ed="#G" n="137"/>appellant conceptum primum, &amp; perfectissimum
+          incom<lb ed="#G" n="138" break="no"/>pre hensibilem a viatore. Quod autem conceptus Dei 
+          <lb ed="#G" n="139"/>sub ratione entis infiniti non sit minus
+          incomprehensi<lb ed="#G" n="140" break="no"/>bilis a viatore, quam sub ratione deitatis, quamuis pateat 
+          <lb ed="#G" n="141"/>ex iam dictis, tamen adhuc istud probo sic.
+          Quandocum<lb ed="#G" n="142" break="no"/>ue aliquae duae rationes sic se habent, quod quicquid con 
+          <lb ed="#G" n="143"/>rchenditur sub vna, hoc necessario compreheditur sub 
+          <!--920.xml-->
+          <pb ed="#G" n="P2_225-r"/>
+          <cb ed="#G" n="a"/>
+          <lb ed="#G" n="1"/>
+          <!-- accidental line -->
+          <lb ed="#G" n="2"/>alia, tunc si vna illarum est incomprehensibilis, &amp; altera 
+          <lb ed="#G" n="3"/>Sed quicquid comprehenditur sub ratione deitatis, hoc 
+          <lb ed="#G" n="4"/>necessario comprehenditur sub ratione entis infiniti lo 
+          <lb ed="#G" n="5"/>quendo de infinitate non molis: sed perfectionis; sicut li 
+          <lb ed="#G" n="6"/>quimur in proposito: ergo &amp;c. Maior patet. Minorem pro 
+          <lb ed="#G" n="7"/>bo: quia si aliquid comprehenderetur sub ratione
+          deita<lb ed="#G" n="8" break="no"/>tis, quod non comprehenderetur sub ratione entis infini 
+          <lb ed="#G" n="9"/>ti, tunc ratio infiniti non esset ratio infiniti: quia hoc est 
+          <lb ed="#G" n="10"/>de ratione infiniti, quod sibi non possit fieri additio: eo, quod non 
+          <lb ed="#G" n="11"/>possit cogitari aliquid maius eo. Etiam probatio illius
+          ma<lb ed="#G" n="12" break="no"/>roris nullam euidentiam facit de ista maiori: quia concesso 
+          <lb ed="#G" n="13"/>quod ille conceptus sit ceteris conceptibus perfectior, qui 
+          <lb ed="#G" n="14"/>est persectissimo conceptui proximior, tamen ex hoc non 
+          <lb ed="#G" n="15"/>abetur, quod Deus sub illo conceptu sit subiectum
+          theo<lb ed="#G" n="16" break="no"/>logiae, nisi aliud dicatur. 
+        </p>
+        <p xml:id="HuYgTa-329097-d1e442">
+          <lb ed="#G" n="17"/>Secunda probatio cum hoc, quod non est ad propositum, 
+          <lb ed="#G" n="18"/>etiam assumit falsum: quia multae sunt veritates
+          theolo<lb ed="#G" n="19" break="no"/>giae, quae sunt simpliciter indemonstrabiles. Etiam non
+          com<lb ed="#G" n="20" break="no"/>fiderat Ansc omnia in libro monologio, quae sunt in thec 
+          <lb ed="#G" n="21"/>logia demonstrabilia: ergo Ansel non demonstrat ibi por 
+          <lb ed="#G" n="22"/>illam propositionem omnes veritates contentas in thec 
+          <lb ed="#G" n="23"/>logia, sicut asserit illa probatio. Etiam minor istius primae 
+          <lb ed="#G" n="24"/>rationis non videtur esse vera, quia conceptui
+          perfectissi<lb ed="#G" n="25" break="no"/>mo, &amp; posituo proximior esse videtur conceptus
+          posi<lb ed="#G" n="26" break="no"/>tiuus, quam conceptus priuatiuus, seu negatiuus: Sed con 
+          <lb ed="#G" n="27"/>ceptus primae veritatis, &amp; purae bonitatis summe
+          amabi<lb ed="#G" n="28" break="no"/>tis est conceptus valde nobilis, &amp; posituus, conceptus 
+          <lb ed="#G" n="29"/>autem entis infiniti est conceptus priuatiuus, vt iste socius 
+          <lb ed="#G" n="30"/>inferius in suis dictis ponit; ergo conceptui deitatis, qui 
+          <lb ed="#G" n="31"/>est conceptus perfectissimus, &amp; posituus, proximior esse 
+          <lb ed="#G" n="32"/>videtur conceptus puri boni summe amabilis, quam
+          con<lb ed="#G" n="33" break="no"/>ceptus entis infiniti. Etiam probatio illius minoris cum 
+          <lb ed="#G" n="34"/>hoc, quod modicum videtur esse ad propositum, assumit 
+          <lb ed="#G" n="35"/>non solum impossibile, sed etiam incompossibile: quia non  
+          <lb ed="#G" n="36"/>solum omnibus perfectionibus attributalibus circumscripti 
+          <lb ed="#G" n="37"/>a diuina essentia; verum etiam vna sola perfectione ab ea 
+          <lb ed="#G" n="38"/>circumscripta, tunc diuina essentia non maneret diuina 
+          <lb ed="#G" n="39"/>essentia, &amp; hoc nec in re, nec in intellectu, quia Vt patet. 
+          <lb ed="#G" n="40"/>met hoc intelligitur nomine diuinae essentiae, quod est 
+          <lb ed="#G" n="41"/>perfectum omni perfectione habes perfectiones omnium 
+          <lb ed="#G" n="42"/>generum. Dato etiam per impossibile, &amp; incompossibile 
+          <lb ed="#G" n="43"/>quod circumscriptis a diuina essentia omnibus perfectio 
+          <lb ed="#G" n="44"/>mibus, ipsa diuina essentia maneret, tamen ipsa non mane 
+          <lb ed="#G" n="45"/>ret infinita: quia si maneret infinita, vel hoc esset infinita 
+          <lb ed="#G" n="46"/>te molis, &amp; hoc non quia apud omnem verum intellectu 
+          <lb ed="#G" n="47"/>tam theologicum, quam philosophicum nomine diuina 
+          <lb ed="#G" n="48"/>essentiae intelligitur purus actus carens omni magnitud 
+          <lb ed="#G" n="49"/>ne molis. Vel hoc esset infinitate perfectionis, &amp; hoc non 
+          <lb ed="#G" n="50"/>quia impossibile est aliquid concipi, vt ens infinitum inf 
+          <lb ed="#G" n="51"/>nitate perfectionis, quod vt sic caret infinitis perfectioni 
+          <lb ed="#G" n="52"/>bus;, Sed diuina essentia : vt sic manens, careret infinitis 
+          <lb ed="#G" n="53"/>perfectionibus: quia perfectiones attributales sunt infini 
+          <lb ed="#G" n="54"/>tae, quae omnes supponuntur a diuina essentia sic
+          manen<lb ed="#G" n="55" break="no"/>te esse circumscriptae. 
+        </p>
+        <p xml:id="HuYgTa-329097-d1e529">
+          <lb ed="#G" n="56"/>
+          <pc type="indent"/>Ad secundum dicendum, quod maior non videtur esse ve 
+          <lb ed="#G" n="57"/>ra: quia ratio subiecti theologiae viatoris debet esse talis 
+          <lb ed="#G" n="58"/>quod ab omni vero theologo communiter attingatur; 
+          <lb ed="#G" n="59"/>Sed aliqui conceptus sunt tantae perfectionis, quod vix: 
+          <lb ed="#G" n="60"/>perfectissimis theologis, &amp; studiosissimis attingutur.
+          Ali<lb ed="#G" n="61" break="no"/>qui etiam conceptus sunt tantae perfectionis, quod solum 
+          <lb ed="#G" n="62"/>in extasi mentis ab aliquibus uiris contemplatiuis specia 
+          <lb ed="#G" n="63"/>liter attinguntur, ergo non videtur, quod theologia
+          no<lb ed="#G" n="64" break="no"/>stra sit de Deo sub conceptu perfectiori, quem de Deo pos 
+          <lb ed="#G" n="65"/>sumus habere in via: sicut asseritur in ista maiori proposi 
+          <lb ed="#G" n="66"/>tione. Etiam minor non est vera, quia conceptus positiuus 
+          <lb ed="#G" n="67"/>circa idem subiectum videtur esse perfectior conceptu 
+          <lb ed="#G" n="68"/>priuatiuo; Sed multos concept: positiuos possumus in
+          vi<lb ed="#G" n="69" break="no"/>de Deo habere, qui sunt magnae perfectionis, &amp; eximiae 
+          <lb ed="#G" n="70"/>nobilitatis. Possumus enim Deum concipere per modum glo 
+          <lb ed="#G" n="71"/>rificatoris, puri boni, summe amabilis, vere diligibilis, &amp;  
+          <lb ed="#G" n="72"/>sic de alijs multis conceptibus; ergo prima pars minoris 
+          <lb ed="#G" n="73"/>videtur esse falsa Etiam conceptus Dei sub ratione entis in 
+          <lb ed="#G" n="74"/>finiti est nobis aliquo modo improportionatus, &amp; incom 
+          <!--920.xml-->
+          <cb ed="#G" n="b"/>
+          <lb ed="#G" n="75"/>prehesibilis, vt patet ex praedictis; ergo etiam secuda pars 
+          <lb ed="#G" n="76"/>minoris, si debite accipitur, sub maiori videtur deficere. 
+        </p>
+        <p xml:id="HuYgTa-329097-d1e585">
+          <lb ed="#G" n="77"/>
+          <pc type="indent"/>Ad probationem primae partis illius minoris dicendum; 
+          <lb ed="#G" n="78"/>uod maior non est vniuersaliter vera, quia per
+          conce<lb ed="#G" n="79" break="no"/>ptum improducibilis differt natura superior, scilicet ipsa 
+          <lb ed="#G" n="80"/>deitas ab omni creata natura, &amp; tamen talis conceptus 
+          <lb ed="#G" n="81"/>non est perfectior ceteris conceptibus, quos de Deo in 
+          <lb ed="#G" n="82"/>via habere possumus; nam huiusmodi conceptus etiam
+          po<lb ed="#G" n="83" break="no"/>test haberi de quolibet ente prohibito, quod impossibile 
+          <lb ed="#G" n="84"/>est produci ad esse. Etiam minor illius probationis est sim 
+          <lb ed="#G" n="85"/>pliciter falsa: quia natura diuina per hoc, quod est actus 
+          <lb ed="#G" n="86"/>purus, primum principium, vltimus finis, summum bonum, 
+          <lb ed="#G" n="87"/>&amp; multis aliis conceptibus distinguitur a qualibet natura 
+          <lb ed="#G" n="88"/>inferiori; ergo non solum distinguitur natura superior ab 
+          <lb ed="#G" n="89"/>inferiori per conceptum entis infiniti; sicut assumit
+          mi<lb ed="#G" n="90" break="no"/>nor illius probationis. Similiter probatio 2. partis
+          vide<lb ed="#G" n="91" break="no"/>tur esse contra illud, quod iste socius intendit per suam 
+          <lb ed="#G" n="92"/>conclusionem, quia numquam scientia inferior probat
+          ra<lb ed="#G" n="93" break="no"/>tionem subiecti scientiae superioris. Sed omnis scientia
+          hu<lb ed="#G" n="94" break="no"/>manitus adinuenta est inferior sacra theologia; ergo ratio 
+          <lb ed="#G" n="95"/>infiniti illius, quod probat Arist. In scientia humanitus in 
+          <lb ed="#G" n="96"/>uenta non potest esse ratio subiecti in sacra theologia. 
+          <lb ed="#G" n="97"/>cum viatoris, theologia finita limitataque sit, eius quoque
+          for<lb ed="#G" n="98" break="no"/>
+          <pc type="indent"/>male subiectum, sub quo ea, quae in huiusmodi facult ate tvradun 
+          <lb ed="#G" n="99"/>tur, considerantur, finitum limit atumque erit. Nam si secus 
+          <lb ed="#G" n="100"/>accideret, cotum periret theologicum negotium, si quidem
+          igno<lb ed="#G" n="101" break="no"/>tum, &amp; inceprebensibile viatori ratione infinitatis permaneret. 
+          <lb ed="#G" n="102"/>ED ad haec praedictus socius multum eleganter respo. 
+          <lb ed="#G" n="103"/>Ddet in secundo suo principio. In responsionibus auten 
+          <lb ed="#G" n="104"/>suis vtitur principaliter tribus fundamentis; 
+        </p>
+        <p xml:id="HuYgTa-329097-d1e653">
+          <lb ed="#G" n="105"/>
+          <pc type="indent"/>Quorum primum est, quod conceptus entis infiniti est 
+          <lb ed="#G" n="106"/>naturaliter comprehensibilis a viatore, non autem
+          con<lb ed="#G" n="107" break="no"/>ceptus Dei, seu deitatis, &amp; loquitur de infinito infinitate 
+          <lb ed="#G" n="108"/>perfectionis. 
+        </p>
+        <p xml:id="HuYgTa-329097-d1e666">
+          <lb ed="#G" n="109"/>
+          <pc type="indent"/>Secundum fundamentum est quasi probatio istius pri 
+          <lb ed="#G" n="110"/>mi, &amp; est istud, quod infinitum, de quo sequimur in
+          pro<lb ed="#G" n="111" break="no"/>posito, priuatiue opponitur enti finito, &amp; per consequens 
+          <lb ed="#G" n="112"/>c onceptus eius est abstrahibilis a: rebus sensibilibus 
+          <lb ed="#G" n="113"/>mediante conc eptu entis finiti; sicut conceptus
+          priuati<lb ed="#G" n="114" break="no"/>ue oppositi est abstrahibilis mediante conceptu habitus,  
+          <lb ed="#G" n="115"/>cui opponitur. 
+        </p>
+        <p xml:id="HuYgTa-329097-d1e686">
+          <lb ed="#G" n="116"/>
+          <pc type="indent"/>Tertium fundamentum est, quod bonitas Dei, &amp;cprae 
+          <lb ed="#G" n="117"/>dicata per me superius allegata non dicuntur de Deo in 
+          <lb ed="#G" n="118"/>primo modo dicendi per se, sed solum in secundo. Igitur 
+          <lb ed="#G" n="119"/>vt breuius transeam, primo arguam contra ista fundamen 
+          <lb ed="#G" n="120"/>ta. Secundo ostendam, quod suis responsionibus obiectio 
+          <lb ed="#G" n="121"/>nes meae non sunt solutae 
+        </p>
+        <p xml:id="HuYgTa-329097-d1e704">
+          <lb ed="#G" n="122"/>
+          <pc type="indent"/>Contra primum ergo fundamentum arguo
+          sic<lb ed="#G" n="123" break="no"/>1 Quandocumque aliquod praedicatum adaequate
+          prae<lb ed="#G" n="124" break="no"/>dicatur de aliquo subiecto cum dictione exclusiua
+          addi<lb ed="#G" n="125" break="no"/>ta ad subiectum, tunc cuiuscumque intellectui constat de 
+          <lb ed="#G" n="126"/>veritate illius propositonis, si a tali intellectu conceptus 
+          <lb ed="#G" n="127"/>praedicati est comprehensibilis, conceptus etiam subiecti 
+          <lb ed="#G" n="128"/>erit comprehensibilis: &amp; econuerso, si conceptus subiecti 
+          <lb ed="#G" n="129"/>est incomprehensibilis, conceptus praedicati erit in¬¬ 
+          <lb ed="#G" n="130"/>comprehensibilis. Sed hoc praedicatum, quod est ens infini 
+          <lb ed="#G" n="131"/>tum infinitate perfectionis, praedicatur de Deo
+          adaequa<lb ed="#G" n="132" break="no"/>te cum dictione exclusiua addita ad subiectum, &amp; de veri 
+          <lb ed="#G" n="133"/>tate istius propositonis constat intellectui viatoris; ergo si 
+          <lb ed="#G" n="134"/>conceptus entis infiniti est naturaliter comprehensibilis 
+          <lb ed="#G" n="135"/>ab intellectu viatoris, sequitur, quod ab eodem intellectu 
+          <lb ed="#G" n="136"/>conceptus Dei, ac deitatis sit naturaliter comprehensibi 
+          <lb ed="#G" n="137"/>is, &amp; econuerso, si conceptus Dei est naturaliter
+          incom<lb ed="#G" n="138" break="no"/>prehensibilis, sequitur, quod conceptus entis infiniti sit 
+          <lb ed="#G" n="139"/>naturaliter incomprehensibilis; cuius oppositum asserit 
+          <lb ed="#G" n="140"/>primum fundamentum positum per istum socium. Maior 
+          <lb ed="#G" n="141"/>patet, quia apud quemcumque intellectum conceptus 
+          <lb ed="#G" n="142"/>praedicati esset comprehensibilis, &amp; conceptus subiecti es 
+          <lb ed="#G" n="143"/>set incomprehensibilis, illi intellectui non constaret di 
+          <lb ed="#G" n="144"/>veritate illius propositonis, seu praedicationis; quia talis 
+          <lb ed="#G" n="145"/>inteliectus non posset cognoscere habitudinem adaequa¬ 
+          <!--921.xml-->
+          <pb ed="#G" n="P2_225-v"/>
+          <cb ed="#G" n="a"/>
+          <lb ed="#G" n="1"/>cotrat,  
+          <lb ed="#G" n="2"/>fundami 
+          <lb ed="#G" n="3"/>tum. 
+          <lb ed="#G" n="4"/>tionis illius praedicati ad hoc subiectum, &amp; praecisam, ac 
+          <lb ed="#G" n="5"/>solitariam contractionem istius subiecti respectu istius pra 
+          <lb ed="#G" n="6"/>dicati. Minor etiam est nota: quia intellectui viateris con 
+          <lb ed="#G" n="7"/>stat de veritate istius propositonis, qua dicit, solus Deus 
+          <lb ed="#G" n="8"/>est ens infinitae perfectionis. Etiam huiusmodi predicatun 
+          <lb ed="#G" n="9"/>predicatur adaequate de Deo, quia omnis verus Deus esi 
+          <lb ed="#G" n="10"/>ens infinitae perfectionis, &amp; etiam solus verus Deus est ens 
+          <lb ed="#G" n="11"/>infinitae perfectionis: ergo &amp;c. 
+        </p>
+        <p xml:id="HuYgTa-329097-d1e791">
+          <lb ed="#G" n="12"/>
+          <pc type="indent"/>2 Praeterea, in conceptibus per se ordinatis, si primus 
+          <lb ed="#G" n="13"/>coceptus est incoprehensibilis; necesse est secundum esse  
+          <lb ed="#G" n="14"/>incomprehensibilem, &amp; econuerso, si secundus est incom 
+          <lb ed="#G" n="15"/>prehesibilis, necesse est primum esse comprehensibilem 
+          <lb ed="#G" n="16"/>Sed secundum istum socium, ac etiam secundum doctorem 
+          <lb ed="#G" n="17"/>quem in hac conclusione sequitur, coceptus deitatis est 
+          <lb ed="#G" n="18"/>primus, &amp; simplicissimus conceptus de Deo formabilis; &amp;  
+          <lb ed="#G" n="19"/>conceptus entis infiniti est conceptus secundus, &amp; inter 
+          <lb ed="#G" n="20"/>ceteros proximior illi primo conceptui: ergo si conceptus 
+          <lb ed="#G" n="21"/>entis infiniti est naturaliter comprehensibilis a viatore, 
+          <lb ed="#G" n="22"/>conceptus deitatis erit naturaliter comprehensibilis, &amp;  
+          <lb ed="#G" n="23"/>econuerso &amp;c. Maior patet: quia quamuis in per se
+          ordin<lb ed="#G" n="24" break="no"/>tis conceptibus conceptus prior sit abstrahibilis a conce 
+          <lb ed="#G" n="25"/>ptu posteriori: tamen conceptus posterior non est abstra 
+          <lb ed="#G" n="26"/>hibilis a conceptu priori; quia necessario praesupponit, qui 
+          <lb ed="#G" n="27"/>includit eum. Minor est nota apud istum socium, ac etiam 
+          <lb ed="#G" n="28"/>apud supradictum doctorem 
+        </p>
+        <p xml:id="HuYgTa-329097-d1e834">
+          <lb ed="#G" n="29"/>
+          <pc type="indent"/>3 Praeterea, vel iste socius hic loquitur de conceptu 
+          <lb ed="#G" n="30"/>eorrespondente cognitioni quia est, vel de conceptu con 
+          <lb ed="#G" n="31"/>respodente cognitioni quid est. Si primo modo, tunc istud 
+          <lb ed="#G" n="32"/>suum fundamentum penitus est falsum: quia conceptus 
+          <lb ed="#G" n="33"/>deitatis quantum ad coenitionem quia est, non minus, set 
+          <lb ed="#G" n="34"/>multo magis est comprehensibilis, quam conceptus enti 
+          <lb ed="#G" n="35"/>infiniti. Nam quia Deus est, per se notum est, vt ait Dam  
+          <lb ed="#G" n="36"/>in primo suo libro: Sed esse ali quod ens infinitum infini 
+          <lb ed="#G" n="37"/>tate perfectionis, non est per se notum; nam apud multos 
+          <lb ed="#G" n="38"/>philosophos est negatum, &amp; apud aliquos paucos est cum 
+          <lb ed="#G" n="39"/>magno studio inuestigatum. Vnde communiter
+          supponi<lb ed="#G" n="40" break="no"/>mus fuisse de intentione Arist. &amp; commentatoris, quod 
+          <lb ed="#G" n="41"/>Deus sit, &amp; verissime, ac certissime habeat esse, &amp; tamen 
+          <lb ed="#G" n="42"/>communiter quaerimus, vtrum fuerit de intentione ipso 
+          <lb ed="#G" n="43"/>rum, Deum esse infinitum ens, infinitae virtutis, &amp;
+          perfe<lb ed="#G" n="44" break="no"/>ctionis. Et multi doctores tenent, quod hoc nonfuerit de 
+          <lb ed="#G" n="45"/>intentione eorum. Ex quo manifeste patet, quod intelle 
+          <lb ed="#G" n="46"/>ctu viatoris non minus, sed magis est comprehensibilis 
+          <lb ed="#G" n="47"/>conceptus deitatis, quam conceptus entis infiniti, &amp;
+          ho<lb ed="#G" n="48" break="no"/>quantum ad cognitionem quia est. 
+        </p>
+        <p xml:id="HuYgTa-329097-d1e882">
+          <lb ed="#G" n="49"/>
+          <pc type="indent"/>Si autem loquitur iste socius, ac etiam magister eius de 
+          <lb ed="#G" n="50"/>conceptu correspondente cognitioni quid est, tunc
+          neu<lb ed="#G" n="51" break="no"/>tur istorum conceptuum est a viatore naturaliter
+          com<lb ed="#G" n="52" break="no"/>prehensibilis: quia nullum istorum conceptuum naturali 
+          <lb ed="#G" n="53"/>ter habere possumus, nisi mediante cognitione accepta 
+          <lb ed="#G" n="54"/>a sensibilibus rebus, secundum quod causa concipitur me 
+          <lb ed="#G" n="55"/>diante sui effectus cognitione. Cum igitur nullus effectus 
+          <lb ed="#G" n="56"/>ducat in cognitionem quidditatis, &amp; essentiae suae
+          causae<lb ed="#G" n="57" break="no"/>nisi sit cffectus adaequatus huiusmodi causae, &amp; in rebus 
+          <lb ed="#G" n="58"/>sensibilibus nullus appareat effectus adaequatus virtuti 
+          <lb ed="#G" n="59"/>deitatis, vel virtuti entis infinitae perfectionis; nam talen 
+          <lb ed="#G" n="60"/>effectum oporteret esse infinitum, quaecunque enim sunt 
+          <lb ed="#G" n="61"/>adaequata, si vnum est infinitum: &amp; reliquum: igitur sicui 
+          <lb ed="#G" n="62"/>isto modo viat or non potest naturaliter
+          comprehende<lb ed="#G" n="63" break="no"/>re conceptum deitatis, sic nec poterit naturaliter
+          compre<lb ed="#G" n="64" break="no"/>hendere conceptum entis infiniti infinitate perfectionis 
+        </p>
+        <p xml:id="HuYgTa-329097-d1e921">
+          <lb ed="#G" n="65"/>
+          <pc type="indent"/>Contra secundum fundamentum arguo sic 
+          <lb ed="#G" n="66"/>31 Impossibile est oppositum priuatiuum, quod cogno 
+          <lb ed="#G" n="67"/>citur per habitum, esse maioris entitatis, actualitatis, ac 
+          <lb ed="#G" n="68"/>intelligibilitatis, quam positiuum sibi oppositum, cuius 
+          <lb ed="#G" n="69"/>comprehensione, &amp; cognitione comprehenditur, &amp; con 
+          <lb ed="#G" n="70"/>gnoscitur huiusmodi priuatiuum, Sed ens infinitum inf 
+          <lb ed="#G" n="71"/>nitate perfectionis est maioris entitatis, actualitatis, &amp; in 
+          <lb ed="#G" n="72"/>telligibilitatis, quam quodcumque ens infinitae perfectionis; 
+          <lb ed="#G" n="73"/>ergo ens infinitae perfectionis non oppontur priuatiu 
+          <lb ed="#G" n="74"/>enti finito, nec eius coceptus habetur mediante conce 
+          <lb ed="#G" n="75"/>ptu entis finiti; sicut conceptus priuationis habetur
+          me<lb ed="#G" n="76" break="no"/>diante conceptu ipsius habitus, sicut dicit iste socius in 
+          <!--921.xml-->
+          <cb ed="#G" n="c"/>
+          <lb ed="#G" n="77"/>suo secundo fundamento. 
+        </p>
+        <p xml:id="HuYgTa-329097-d1e958">
+          <lb ed="#G" n="78"/>
+          <pc type="indent"/>2 Preterea, nullum priuatiuum, seu nulla priuatio com 
+          <lb ed="#G" n="79"/>rehendit in se formaliter, vel eminenter omnem perfe 
+          <lb ed="#G" n="80"/>ctionem positiui, seu habitus sibi oppositi: Sed ens
+          infini<lb ed="#G" n="81" break="no"/>tum infinitate perfectionis comprehendit in se omnem 
+          <lb ed="#G" n="82"/>perfectionem entis finiti, &amp; hoc vel formaliter quantum 
+          <lb ed="#G" n="83"/>ad ea, quae dicunt perfectionem simpliciter; vel
+          eminen<lb ed="#G" n="84" break="no"/>ter quantum ad ceteras perfectiones, quae non sunt
+          per<lb ed="#G" n="85" break="no"/>sectiones simpliciter: ergo &amp;c Maior patet, quia priuatiue 
+          <lb ed="#G" n="86"/>opposita sunt illius condicionis, quod omnis perfectior 
+          <lb ed="#G" n="87"/>conueniens habitui tollitur a priuatione: igitur
+          impossi<lb ed="#G" n="88" break="no"/>bile est, quod comprehendatur in ea Patet etiam minor 
+          <lb ed="#G" n="89"/>quia illud, cui deficit aliqua perfectio, hoc non est conce 
+          <lb ed="#G" n="90"/>ptibile, vt ens infinitae perfectionis. 
+        </p>
+        <p xml:id="HuYgTa-329097-d1e991">
+          <lb ed="#G" n="91"/>
+          <pc type="indent"/>Contra tertium fundamentum arguo sic. 
+          <lb ed="#G" n="92"/>1 Conceptus quidditatiuus ipsius deitatis non potest 
+          <lb ed="#G" n="93"/>haberi perfecte sine conceptu suae bonitatis: ergo bonitas 
+          <lb ed="#G" n="94"/>Dei conuenit Deo in primo modo dicendi per se, &amp; non 
+          <lb ed="#G" n="95"/>in secundo modo per modum passionis. Consequentia 
+          <lb ed="#G" n="96"/>patet, quia perfectus conceptus, qui est conceptus diffini 
+          <lb ed="#G" n="97"/>tiuus rei, est abstrahibilis ab omnibus conuenientibus ip 
+          <lb ed="#G" n="98"/>si rei in secundo modo dicendi per se: Nam propria passio 
+          <lb ed="#G" n="99"/>non ingreditur diffinitionem rei substantialis, seu substan 
+          <lb ed="#G" n="100"/>riae, vt patet primo posteriorum &amp;. <ref xml:id="HuYgTa-329097-Rd1e1017">7. metaph.</ref> igitur per 
+          <lb ed="#G" n="101"/>oppositum, si conceptus quidditatiuus Dei non est abstra 
+          <lb ed="#G" n="102"/>hibilis a conceptu suae bonitatis; sequitur necessario, quod 
+          <lb ed="#G" n="103"/>bonitas Dei conueniat sibi in primo modo dicendi
+          per<lb ed="#G" n="104" break="no"/>se, &amp; non in secundo, sicut propria passio. Antecedens etiam 
+          <lb ed="#G" n="105"/>atet: quia si datur oppositum, tunc posset cogitari aliqud  
+          <lb ed="#G" n="106"/>maius bonum, quam sit illud bonum: quod est Deus. Con 
+          <lb ed="#G" n="107"/>sequentia ista probatur ex hoc: quia illud concipitur, &amp;  
+          <lb ed="#G" n="108"/>cogitatur, vt maius bonum, cuius bonitas taliter se
+          ha<lb ed="#G" n="109" break="no"/>bet ad ipsum, quod ipsum non potest concipi conceptu 
+          <lb ed="#G" n="110"/>quidditatiuo, nisi concipiatur sua bonitas,; quam illud, quod 
+          <lb ed="#G" n="111"/>potest concipi conceptu quidditatiuo absque conceptu 
+          <lb ed="#G" n="112"/>bonitatis. Sed falsitas consequentis patet: quia sicut Deus 
+          <lb ed="#G" n="113"/>est illud, quo maius cogitari non potest: sic Deus est
+          tale<lb ed="#G" n="114" break="no"/>bonum, quo maius bonum non potest cogitari. 
+        </p>
+        <p xml:id="HuYgTa-329097-d1e1051">
+          <lb ed="#G" n="115"/>
+          <pc type="indent"/>2 Preterea, illud, quod est de intrinseca, &amp; formali
+          ra<lb ed="#G" n="116" break="no"/>tione alicuius, hoc conuenit ei primo modo dicendi per 
+          <lb ed="#G" n="117"/>se, &amp; non in secundo. Sed bonitas Dei est intrinseca, &amp; 
+          <lb ed="#G" n="118"/>formali ratione ipsius Dei: ergo &amp;c. Maior patet ex dictio 
+          <lb ed="#G" n="119"/>Arist. primo posteriorum Minorem probo quia omne ab 
+          <lb ed="#G" n="120"/>solutum realiter conueniens enti simpliciter simplici ost 
+          <lb ed="#G" n="121"/>de sua formali ratione: Sed bonitas Dei est quid absolutum 
+          <lb ed="#G" n="122"/>&amp; realiter conuenit Deo, qui est ens simpliciter simplex 
+          <lb ed="#G" n="123"/>ergo &amp;c. Maior patet, quia ente simpliciter simplici nihil 
+          <lb ed="#G" n="124"/>simplicius potest cogitari. Sed cuicumque rei conuenit 
+          <lb ed="#G" n="125"/>aliquod absolutum non existens de intrinseca ratione il 
+          <lb ed="#G" n="126"/>lius rei, illa re possumus aliqud simplicius cogitare; quia
+          po<lb ed="#G" n="127" break="no"/>terimus cogitare vnam rem taliter se habentem, quod 
+          <lb ed="#G" n="128"/>omne absolutum sibi realiter conueniens est intrinseca 
+          <lb ed="#G" n="129"/>&amp; formali sua ratione. Etiam minor est nota quo ad om 
+          <lb ed="#G" n="130"/>nes suas partes. Quod enim bonitas Dei sit quid absolu 
+          <lb ed="#G" n="131"/>tum, patet: quia omne illud, quod est commune tribus ? 
+          <lb ed="#G" n="132"/>sonis, hoc est absolutum in diuinis, vt fatentur omnes ca 
+          <lb ed="#G" n="133"/>tholici doctores. Sed bonitas diuina est realiter vna om- 
+          <lb ed="#G" n="134"/>nium trium personatum in diuinis. Quod etiam bonitas 
+          <lb ed="#G" n="135"/>diuina realiter Deo conueniat, nullus sanae mentis
+          nega<lb ed="#G" n="136" break="no"/>re potest Quod etiam Deus sit simpliciter simplex, non 
+          <lb ed="#G" n="137"/>solum catholici, verum etiam omnes veri philosophi con 
+          <lb ed="#G" n="138"/>fitentur 
+        </p>
+        <p xml:id="HuYgTa-329097-d1e1109">
+          <lb ed="#G" n="139"/>
+          <pc type="indent"/>His praemissis, ostendam breuiter, quod responsiones 
+          <lb ed="#G" n="140"/>istius socii non sufficiunt ad tollendum ea, quae superius 
+          <lb ed="#G" n="141"/>adduxi contra eum  
+        </p>
+        <p xml:id="HuYgTa-329097-d1e1120">
+          <lb ed="#G" n="142"/>
+          <pc type="indent"/>Ad primam enim meam rationem respondendo, ipse 
+          <lb ed="#G" n="143"/>negat consequentiam. Ad probationem, quia dicebam il 
+          <lb ed="#G" n="144"/>lud, quod specificatur ab infinito, secundum quod est infi 
+          <lb ed="#G" n="145"/>nitum, hoc necessario est infinitum, respondet, quod
+          ali<lb ed="#G" n="146" break="no"/>quid specificari ab altero, potest dupliciter intelligi. Vno 
+          <lb ed="#G" n="147"/>modo, vt a causa intrinseca, &amp; formali. Alio modo, vt a 
+          <lb ed="#G" n="148"/>causa extrinseca, &amp; cfficiente. Et isto secundo modo
+          ma<lb ed="#G" n="149" break="no"/>ior est falsa. Cum igitur scientia specificetur a subiecto 
+          <!--922.xml-->
+          <pb ed="#G" n="P2_225B-r"/>
+          <cb ed="#G" n="a"/>
+          <lb ed="#G" n="1"/>isto secundo modo, scilicet vt a causa extrinseca, &amp; efficien 
+          <lb ed="#G" n="2"/>te; ideo non oportet scientiam esse infinitam, si est de si 
+          <lb ed="#G" n="3"/>biecto infinito, sub ratione qua est infinitum 
+        </p>
+        <p xml:id="HuYgTa-329097-d1e1155">
+          <lb ed="#G" n="4"/>
+          <pc type="indent"/>Sed istud non valet: quia istam responsionem praeueni 
+          <lb ed="#G" n="5"/>per confirmationem, quam praedictae probationi adiunxi 
+          <lb ed="#G" n="6"/>ad quam tamen confirmationem iste socius nihil re spon 
+          <lb ed="#G" n="7"/>det: quia non obstante, quod aliquid sit causa alicuius ex 
+          <lb ed="#G" n="8"/>trinseca, si tamen in hoc sit adaequata eius mensura, tunc 
+          <lb ed="#G" n="9"/>ex finitate, vel infinitate causae sufficienter arguitur
+          fini<lb ed="#G" n="10" break="no"/>tas vel infinitas ipsius effectus: Nam si effectus huiusmodi 
+          <lb ed="#G" n="11"/>esset finitus causa existente infinita, tunc nulla esset
+          adae<lb ed="#G" n="12" break="no"/>quatio, nec aliqua esset proportio inter huiusmodi
+          cau<lb ed="#G" n="13" break="no"/>lam, &amp; effectum. Sed nunc ita est, quod obiectum acceptum 
+          <lb ed="#G" n="14"/>sub formali ratione, qua subiicitur in scientia, est adaequa 
+          <lb ed="#G" n="15"/>ta mensura ipsius scientiae: igitur quamuis obiectum sit 
+          <lb ed="#G" n="16"/>causa extrinseca ipsius scientiae, tamen si Deus, qui in se 
+          <lb ed="#G" n="17"/>est formaliter infinitus, esset subiectum alicuius
+          scien<lb ed="#G" n="18" break="no"/>tiae sub ratione entis infiniti, tunc sequeretur, quod illa  
+          <lb ed="#G" n="19"/>scientia esset infinita. 
+        </p>
+        <p xml:id="HuYgTa-329097-d1e1194">
+          <lb ed="#G" n="20"/>
+          <pc type="indent"/>Ad secundam rationem iterum negat consequentiam 
+          <lb ed="#G" n="21"/>uia in ista consequentia proceditur a minori ad maius 
+          <lb ed="#G" n="22"/>negatiue; nam minus videtur, quod Deus sub conceptu 
+          <lb ed="#G" n="23"/>deitatis sit subiectum in theologia viatoris, quam sub con 
+          <lb ed="#G" n="24"/>ceptu entis infiniti, eo, quod conceptus deitatis non
+          pos<lb ed="#G" n="25" break="no"/>sit comprehendi ab aliquo viatore. Ad probationem
+          di<lb ed="#G" n="26" break="no"/>rit, quod ratio deitatis non est propter hoc incompreha 
+          <lb ed="#G" n="27"/>sibilis: quia includit rationem infinitatis: sed hoc est pro 
+          <lb ed="#G" n="28"/>tanto: quia ratio deitatis non est abstrahibilis a rebus sen 
+          <lb ed="#G" n="29"/>sibilibus virtute intellectus agentis. 
+        </p>
+        <p xml:id="HuYgTa-329097-d1e1220">
+          <lb ed="#G" n="30"/>
+          <pc type="indent"/>Sed nec istud valet: quia respiciendo ea, quae dixi
+          con<lb ed="#G" n="31" break="no"/>tra primum fundamentum, tunc immediate apparet, quod 
+          <lb ed="#G" n="32"/>hic falsum assumitur, cum dicitur, quod consequentia mea 
+          <lb ed="#G" n="33"/>procedat ab eo, quod minus videtur: quia si accipimus con 
+          <lb ed="#G" n="34"/>ceptus correspondentes cognitioni quid est, tunc
+          proce<lb ed="#G" n="35" break="no"/>ditur ab aequali ad aequale, siue per locum a simili. Si
+          au<lb ed="#G" n="36" break="no"/>tem accipimus conceptus correspondentes cognitioni 
+          <lb ed="#G" n="37"/>quia est, tunc illa consequentia procedit negatiue ab eo 
+          <lb ed="#G" n="38"/>quod magis videtur, ad illud, quod minus videtur: quia con 
+          <lb ed="#G" n="39"/>gnitione quia est magis est nobis euidens conceptus de 
+          <lb ed="#G" n="40"/>ratis, quam conceptus entis infiniti infinitate
+          perfectio<lb ed="#G" n="41" break="no"/>nis, vt patet ex tertia ratione ducta contra primum
+          funda<lb ed="#G" n="42" break="no"/>mentum. Et ex eodem apparet, quod falsum assumitur it 
+          <lb ed="#G" n="43"/>responsione ad probationem consequentiae: quia quantum 
+          <lb ed="#G" n="44"/>ad perfectum conceptum correspondentem cognitioni 
+          <lb ed="#G" n="45"/>quid est, tunc sicut conceptus deitatis non est
+          abstrahibi<lb ed="#G" n="46" break="no"/>lis virtute intellectus agentis ab ipsis rebus sensibilibus 
+          <lb ed="#G" n="47"/>sic nec conceptus entis infiniti infinitate perfectionis: quid 
+          <lb ed="#G" n="48"/>isti duo conceptus adaequate se habent, vt patet ex prima 
+          <lb ed="#G" n="49"/>ratione contra primum fundamentum. Sed quantum ad 
+          <lb ed="#G" n="50"/>conceptum correspondentem cognitioni quia est, tund 
+          <lb ed="#G" n="51"/>conceptus deitatis vere est abstrahibilis virtute intelle 
+          <lb ed="#G" n="52"/>ctus agentis a rebus sensibilibus, &amp; non minus, sed magi 
+          <lb ed="#G" n="53"/>quam conceptus entis infiniti: Vnde Apostolus loquen 
+          <lb ed="#G" n="54"/>de cognitione philosophorum, quam habuerunt de
+          dei<lb ed="#G" n="55" break="no"/>tate, ostendit eos huiusmodi cognitionem accepisse a
+          cre<lb ed="#G" n="56" break="no"/>turis, dicent, lnuisibilia Dei per ea, quae facta sunt, intellu 
+          <lb ed="#G" n="57"/>cta conspiciuntur: sempiterna quoque virtus eius, &amp; dei 
+          <lb ed="#G" n="58"/>tas. Etiam Magister in primo libro distin. 2. ostendit por 
+          <lb ed="#G" n="59"/>multas auctoritates, quod deitatis cognitionem habere 
+          <lb ed="#G" n="60"/>possumus per imaginem Dei, &amp; per vestigium, quae repe 
+          <lb ed="#G" n="61"/>riuntur in creaturis 
+        </p>
+        <p xml:id="HuYgTa-329097-d1e1294">
+          <lb ed="#G" n="62"/>
+          <pc type="indent"/>Ad instantiam, quam duxi contra maiorem primae sus 
+          <lb ed="#G" n="63"/>rationis; ipse non respondet directe, sed solum nititur pro 
+          <lb ed="#G" n="64"/>bare, quod conceptus entis infiniti sit comprehensibili 
+          <lb ed="#G" n="65"/>ab intellectu viatoris. Et hoc arguit sic¬ 
+        </p>
+        <p xml:id="HuYgTa-329097-d1e1308">
+          <lb ed="#G" n="66"/>
+          <pc type="indent"/>Nullus conceptus, abstractus a rebus sensibilibus virtu 
+          <lb ed="#G" n="67"/>te luminis nostri intellectus agentis, est
+          incomprehensi<lb ed="#G" n="68" break="no"/>bilis ab intellectu possibili viatoris. Sed conceptus entis 
+          <lb ed="#G" n="69"/>infiniti est huiusmodi; ergo &amp;c. Maior est nota. Probatur 
+          <lb ed="#G" n="70"/>minor, quia conceptus entis finiti abstrahitur: ergo etiam 
+          <lb ed="#G" n="71"/>conceptus entis infiniti 
+        </p>
+        <p xml:id="HuYgTa-329097-d1e1326">
+          <lb ed="#G" n="72"/>
+          <pc type="indent"/>Hic dico, quod minor ista est falsa, loquendo de conc 
+          <lb ed="#G" n="73"/>ptu correspondente cognitioni quid est. Nec valet proba 
+          <!--922.xml-->
+          <cb ed="#G" n="b"/>
+          <lb ed="#G" n="74"/>tio, quia procedit affirmatiue de eo, quod magis videtur 
+          <lb ed="#G" n="75"/>ad illud, quod minus videtur. Nam conceptus perfectus 
+          <lb ed="#G" n="76"/>&amp; quidditatiuus entis finiti est proportionatus nostro in 
+          <lb ed="#G" n="77"/>tellectui, qui est finitus, &amp; limitatus, &amp; per consequens na 
+          <lb ed="#G" n="78"/>turaliter loquendo, ipse est magis comprehensibilis ab in 
+          <lb ed="#G" n="79"/>tellectu viatoris, quam conceptus quidditatiuus entis in 
+          <lb ed="#G" n="80"/>finiti, qui, naturaliter loquendo, est improportionatus in 
+          <lb ed="#G" n="81"/>tellectui viatoris. Sed si iste socius intelligit istam
+          mino<lb ed="#G" n="82" break="no"/>rem de conceptu correspondente cognitioni quia est, tuc 
+          <lb ed="#G" n="83"/>tota ratione concessa, iste socius nihil habet de suo
+          pro<lb ed="#G" n="84" break="no"/>posito: quia isto modo non habetur, quod conceptus
+          en<lb ed="#G" n="85" break="no"/>tis infiniti sit magis comprehensibilis, quam conceptus. 
+          <lb ed="#G" n="86"/>deitatis, cuius oppositum ipse intendit
+        </p>
+        <p xml:id="HuYgTa-329097-d1e1368">
+          <lb ed="#G" n="87"/>Ad illud, quod dixi contra minorem propositionem non 
+          <lb ed="#G" n="88"/>respondet, sed solum probat suam minorem sic. llle
+          con<lb ed="#G" n="89" break="no"/>ceptus est proximior primo conceptui quidditatiuo
+          dei<lb ed="#G" n="90" break="no"/>tatis, qui magis exprimit illud, quod est intrinsecum
+          dei<lb ed="#G" n="91" break="no"/>tati: Sed conceptus entis infiniti est huiusmodi, &amp; non con 
+          <lb ed="#G" n="92"/>ceptus summi boni: quia summum bonum se habet ad 
+          <lb ed="#G" n="93"/>deitatem, sicut passio. Istam minorem cum sua
+          probatio<lb ed="#G" n="94" break="no"/>ne nego quia oppositum eius probaui superius arguendo 
+          <lb ed="#G" n="95"/>contra tertium fundamentum. 
+        </p>
+        <p xml:id="HuYgTa-329097-d1e1390">
+          <lb ed="#G" n="96"/>
+          <pc type="indent"/>Deinde, quando probaui, quod probatio minoris
+          pri<lb ed="#G" n="97" break="no"/>mae rationis istius socii reuerendi implicat impossibile, &amp;  
+          <lb ed="#G" n="98"/>incompossibile, ipse iterum non respondet ad motiuum F 
+          <lb ed="#G" n="99"/>meum: sed solum nititur probare, quod circumscriptis om 
+          <lb ed="#G" n="100"/>nibus perfectionibus attributalibus ab ipsa essentia
+          diui<lb ed="#G" n="101" break="no"/>na, adhuc essentia diuina maneat infinita. Et arguit
+          sic<lb ed="#G" n="102" break="no"/>lllud, quod nihil intrinsece habet ab aliquibus, &amp;
+          cir<lb ed="#G" n="103" break="no"/>cumscriptum ab illis habet entitatem excedentem om- 
+          <lb ed="#G" n="104"/>nem entitatem finitam, hoc circumscriptum ab illis
+          ne<lb ed="#G" n="105" break="no"/>cessario est infinitum: Sed essentia diuina nihil habet
+          in<lb ed="#G" n="106" break="no"/>trinsece a perfectionibus attributalibus, &amp; circumscripta 
+          <lb ed="#G" n="107"/>ab eis adhuc habet entitatem excedentem omnem enti 
+          <lb ed="#G" n="108"/>tatem finitam, ergo &amp;c. 
+        </p>
+        <p xml:id="HuYgTa-329097-d1e1423">
+          <lb ed="#G" n="109"/>
+          <pc type="indent"/>Addit etiam iste socius, quod sicut abstrahentium non 
+          <lb ed="#G" n="110"/>est mendacium, sic etiam circumscribentium non est 
+          <lb ed="#G" n="111"/>mendacium. 
+        </p>
+        <p xml:id="HuYgTa-329097-d1e1434">
+          <lb ed="#G" n="112"/>
+          <pc type="indent"/>Ad primum dico, quod minor est simpliciter falsa; quia 
+          <lb ed="#G" n="113"/>quicum que vere concipit deitatem, ille concipit rem in 
+          <lb ed="#G" n="114"/>cludentem omnem perfectionem, vt patet etiam per
+          Ari<lb ed="#G" n="115" break="no"/>stotelem 5. metaph ideo perfectio Dei dicit ipsam substam 
+          <lb ed="#G" n="116"/>tiam Dei, &amp; est quid intrinsecum ipsi Deo. Vnde propter 
+          <lb ed="#G" n="117"/>huiusmodi intimam intrinsecationem dicit beatus
+          Au<lb ed="#G" n="118" break="no"/>ustinus, quod Deus est sine quantitate magnus, sine qua 
+          <lb ed="#G" n="119"/>litate bonus, &amp; sic de aliis diuinis perfectionibus. Quasi 
+          <lb ed="#G" n="120"/>dicat, magnitudo, bonitas, sapientia, &amp; omnes aliae Dei per 
+          <lb ed="#G" n="121"/>fectiones sic sunt intrinsecae ipsi Deo, quod non sunt
+          quanti<lb ed="#G" n="122" break="no"/>tas, vel qualitas, sed sunt ipsa substantia Dei. Vnde omnis 
+          <lb ed="#G" n="123"/>perfectio sic est intrinseca ipsi diuinae essentiae, quod si
+          pro<lb ed="#G" n="124" break="no"/>fecte deberet diffiniri ipsa diuina essentia, tunc per inclu 
+          <lb ed="#G" n="125"/>sionem omnis perfectionis exprimeretur, quasi substantia 
+          <lb ed="#G" n="126"/>lis differentia deitatis, qua ipsa deitas substantialiter
+          di<lb ed="#G" n="127" break="no"/>stingueretur ab omni eo, quod non est deitas. Ite, falsum 
+          <lb ed="#G" n="128"/>assumitur in eadem minori, cum dicitur, quod deitas
+          cir<lb ed="#G" n="129" break="no"/>cumscripta ab omnibus perfectionibus adhuc haberet
+          e<lb ed="#G" n="130" break="no"/>titatem excedentem omnem entitatem finitam, quia vt 
+          <lb ed="#G" n="131"/>supra probaui huiusmodi perfectionibus circumscriptis 
+          <lb ed="#G" n="132"/>deitate, tunc non maneret deitas; &amp; hoc non solum in re 
+          <lb ed="#G" n="133"/>extra, sed nec in intellectu, quia sine huiusmodi
+          perfe<lb ed="#G" n="134" break="no"/>ctionibus intellectus non potest concipere rationem dei 
+          <lb ed="#G" n="135"/>tatis; ergo &amp;c 
+        </p>
+        <p xml:id="HuYgTa-329097-d1e1492">
+          <lb ed="#G" n="136"/>
+          <pc type="indent"/>Ad secundum dicendum, quod licet abstrahentium non 
+          <lb ed="#G" n="137"/>sit mendacium, quando abstrahitur aliquid naturaliter 
+          <lb ed="#G" n="138"/>prius a suo posteriori, sicut quantum a quali; tamen quando 
+          <lb ed="#G" n="139"/>abstrahitur aliquid ab eo, quod spectat ad suam substantia 
+          <lb ed="#G" n="140"/>&amp; est de sua diffinitione, tunc talis abstractio numquam 
+          <lb ed="#G" n="141"/>caret mendacio. Sic autem est in proposito; ergo &amp;c 
+        </p>
+        <p xml:id="HuYgTa-329097-d1e1510">
+          <lb ed="#G" n="142"/>
+          <pc type="indent"/>Ad illud, quod dixi contra maiorem secundae suae ratio 
+          <lb ed="#G" n="143"/>nis, non respondet. Sed tamen probat, quod conceptus entis, &amp;  
+          <lb ed="#G" n="144"/>ratio sua punctaliter stat in hoc. Quia conceptus entis fi 
+          <lb ed="#G" n="145"/>niti attingitur, ergo &amp; conceptus entis infiniti; quia
+          pri<lb ed="#G" n="146" break="no"/>uatio cognoscitur per habitum. 
+          <!--923.xml-->
+          <pb ed="#G" n="P2_225B-v"/>
+          <cb ed="#G" n="a"/>
+          <lb ed="#G" n="1"/>Sed nec istud valet; Quia maniseste hic committitur 
+          <lb ed="#G" n="2"/>fallacia consequentis, vt patet ex dictis superius. Etiam sup 
+          <lb ed="#G" n="3"/>ponitur, quod ens infinitae perfectionis opponitur enti
+          fi<lb ed="#G" n="4" break="no"/>nito, sicut priuatio opponitur habitui, cuius oppositum su 
+          <lb ed="#G" n="5"/>perius probaui, procedendo contra secundum fundamen 
+          <lb ed="#G" n="6"/>tum; ideo &amp;c
+        </p>
+        <p xml:id="HuYgTa-329097-d1e1545">
+          <lb ed="#G" n="7"/>Deinde contra ea, quae dixi impugnando minorem se 
+          <lb ed="#G" n="8"/>cundae rationis, iste socius probat, quod conceptus
+          priua<lb ed="#G" n="9" break="no"/>tiuus tirca idem subiectum sit magis perfectus, quam
+          con<lb ed="#G" n="10" break="no"/>ceptus positiuus. Et arguit sic. lste conceptus est perfectior. 
+          <lb ed="#G" n="11"/>quo maior exprimitur perfectio illius rei, cuius dicitur es 
+          <lb ed="#G" n="12"/>se conceptus, Sed conceptu priuatiuo quandoque
+          expri<lb ed="#G" n="13" break="no"/>mitur maior perfectio. Ista patet, quia quando concipis 
+          <lb ed="#G" n="14"/>animam humanam esse ens immortale, concipio ipsam 
+          <lb ed="#G" n="15"/>conceptu priuatiuo, &amp; tamen per huiusmodi conceptum 
+          <lb ed="#G" n="16"/>magis exprimitur perfectio animae, quam si conciperem 
+          <lb ed="#G" n="17"/>eam conceptu posituo. 
+        </p>
+        <p xml:id="HuYgTa-329097-d1e1571">
+          <lb ed="#G" n="18"/>
+          <pc type="indent"/>Sed nec istud valet, quia minor est simpliciter falsa;
+          n<lb ed="#G" n="19" break="no"/>conceptus priuatiuus per se nullam exprimit perfectio 
+          <lb ed="#G" n="20"/>nem, quamuis per accidens exprimat perfectionem habi 
+          <lb ed="#G" n="21"/>tus, quem priuat. Ad probationem dicendum, quod con 
+          <lb ed="#G" n="22"/>ceptus entis immortalis non est conceptus priuatiuus; nam 
+          <lb ed="#G" n="23"/>sicut grammatice loquendo, negatio negationis facit at 
+          <lb ed="#G" n="24"/>firmationem, quia duae negationes faciunt vnam affirma 
+          <lb ed="#G" n="25"/>tionem, sic priuatio priuationis, naturaliter loquendo, di 
+          <lb ed="#G" n="26"/>cit positionem. Cum igitur conceptus entis immortalis 
+          <lb ed="#G" n="27"/>exprimat priuationem, seu negationem priuationis, put 
+          <lb ed="#G" n="28"/>negationem mortis, quae est priuatio vitae: ideo conceptus 
+          <lb ed="#G" n="29"/>quo concipitur anima esse ens immortale, est conceptus 
+          <lb ed="#G" n="30"/>simpliciter positiuus. 
+        </p>
+        <p xml:id="HuYgTa-329097-d1e1604">
+          <lb ed="#G" n="31"/>
+          <pc type="indent"/>Ad illa, quae dixi contra probationem praedicte
+          mino<lb ed="#G" n="32" break="no"/>ris respondet iste socius dicens, quod quando dixit nati 
+          <lb ed="#G" n="33"/>ram superiorem solum distingui a natura inferiori per con 
+          <lb ed="#G" n="34"/>ceptum entis infiniti, tunc ipse intellexit de conceptu
+          quid<lb ed="#G" n="35" break="no"/>ditatiuo: Cum igitur conceptus improducibiis, &amp;
+          conce<lb ed="#G" n="36" break="no"/>ptus summi boni, &amp; ceterorum, de quibus instantiae meae 
+          <lb ed="#G" n="37"/>procedunt, non sint conceptus quidditatiui; ideo quauis 
+          <lb ed="#G" n="38"/>per conceptum improducibilis, &amp; summi boni, natura su 
+          <lb ed="#G" n="39"/>perior distinguatur ab inferiori, tamen adhuc stat ista vo 
+          <lb ed="#G" n="40"/>ritas, quod natura superior solum distinguitur a natura 
+          <lb ed="#G" n="41"/>inferiori per conceptum entis infiniti, referendo Iy soli 
+          <lb ed="#G" n="42"/>ad conceptum quidditatiuum. 
+        </p>
+        <p xml:id="HuYgTa-329097-d1e1635">
+          <lb ed="#G" n="43"/>
+          <pc type="indent"/>Sed ista responsio primo deficit: quia non saluatur
+          pri<lb ed="#G" n="44" break="no"/>mum dictum istius socii; nam ipse absolute dixit sine con 
+          <lb ed="#G" n="45"/>tractione ad conceptum quidditatiuum, quod natura
+          su<lb ed="#G" n="46" break="no"/>porior solum distinguitur a natura inferiori per
+          conce<lb ed="#G" n="47" break="no"/>ptum entis infiniti, Secundo deficit: quia sic responden 
+          <lb ed="#G" n="48"/>do, iste socius, volens vitare praedicta inconuenientia, inc 
+          <lb ed="#G" n="49"/>dit in alia maiora: quia ex ista responsione sequitur, quod 
+          <lb ed="#G" n="50"/>nullo conceptu quidditatiuo natura superior distingua 
+          <lb ed="#G" n="51"/>tur a natura inferiori, nisi tantummodo illo conceptu, qu 
+          <lb ed="#G" n="52"/>est conceptus entis infiniti, &amp; sic conceptu deitatis, qui est 
+          <lb ed="#G" n="53"/>primus quidditatiuus, &amp; simplicissimus conceptus
+          natu<lb ed="#G" n="54" break="no"/>rae superioris, ipsa natura superior non distingueretur a
+          na<lb ed="#G" n="55" break="no"/>tura inferiori, quod est valde absurdum dicere. Quod au 
+          <lb ed="#G" n="56"/>tem istud sequatur ad iam dictam responsionem, probo 
+          <lb ed="#G" n="57"/>sic. Sicut dictio exclusiua addita vni rei excludit omnem 
+          <lb ed="#G" n="58"/>aliam rem a consortio illius, quod sub talis solitudinis ex 
+          <lb ed="#G" n="59"/>pressione attribuit illi rei: sic dictio exclusiua addita vn 
+          <lb ed="#G" n="60"/>conceptui excludit a quolibet alio conceptu illud, quod 
+          <lb ed="#G" n="61"/>sub expressione huiusmodi solitudinis attribuitur illi con 
+          <lb ed="#G" n="62"/>ceptur. Sed secundum istam responsionem distinctio
+          na<lb ed="#G" n="63" break="no"/>turae superioris ab inferiori inter omnes conceptus quid 
+          <lb ed="#G" n="64"/>ditatiuos attribuitur soli conceptui entis infiniti: ergo nm 
+          <lb ed="#G" n="65"/>tura superior nullo alio conceptu quidditatiuo distingu 
+          <!--923.xml-->
+          <cb ed="#G" n="b"/>
+          <lb ed="#G" n="66"/>tur a natura inferiori. Cum igitur conceptus deitatis sit 
+          <lb ed="#G" n="67"/>alius conceptus quidditatiuus a conceptu entis infiniti, 
+          <lb ed="#G" n="68"/>sicut patet ex dictis istius socij:igitur &amp;c. Alia dicta istius 
+          <lb ed="#G" n="69"/>reuerendi socij vlterius non recito: quia vel manifeste appa 
+          <lb ed="#G" n="70"/>ret, quod non tangunt ea, quae ego dixi contra eum, vel si quam 
+          <lb ed="#G" n="71"/>habent apparentiam, illa tollitur per ea, quae adduxi
+          su<lb ed="#G" n="72" break="no"/>perius contra tria istius socij reuerendi fundamenta 
+        </p>
+        <p xml:id="HuYgTa-329097-d1e1710">
+          <lb ed="#G" n="73"/>
+          <pc type="indent"/>Erat etiam alius socius concurrens mecum in lectura, 
+          <lb ed="#G" n="74"/>qui posuit eaudem conclusionem, cuius ratio fuit haec 
+          <lb ed="#G" n="75"/>Quando ab intellectu sub aliquo statu non attingitur ra 
+          <lb ed="#G" n="76"/>tio propria subiecti alicuius scientiae, tunc ratio subiecti 
+          <lb ed="#G" n="77"/>ua pro statu illo est ratio propinquior, &amp; vicinior rationi 
+          <lb ed="#G" n="78"/>primae, &amp; propriae illius subiecti. Sed ratio propria
+          deita<lb ed="#G" n="79" break="no"/>tis pro statu viae est nobis ex naturalibus simpliciter
+          im<lb ed="#G" n="80" break="no"/>possibilis, quia nec continetur formaliter, nec virtualiter 
+          <lb ed="#G" n="81"/>in conceptibus creaturae: ergo ratio entis infiniti, quae est 
+          <lb ed="#G" n="82"/>illi primae rationi vicinior, erit ratio subiectiua in satta 
+          <lb ed="#G" n="83"/>theologia, in qua subiectum est ipse Deus. 
+        </p>
+        <p xml:id="HuYgTa-329097-d1e1739">
+          <lb ed="#G" n="84"/>
+          <pc type="indent"/>Sed quia iste socius quasi nihil videtur addere super 
+          <lb ed="#G" n="85"/>dicta prioris socii, nisi illud solum, quod dicit probande 
+          <lb ed="#G" n="86"/>suam minorem: ideo contra ipsum non faciam singulare 
+          <lb ed="#G" n="87"/>processum, sed solum vnico medio arguam contra illam 
+          <lb ed="#G" n="88"/>minoris probationem sic 
+        </p>
+        <p xml:id="HuYgTa-329097-d1e1755">
+          <lb ed="#G" n="89"/>
+          <pc type="indent"/>llla probatio non expedit, sed potius impedit, ex
+          cu<lb ed="#G" n="90" break="no"/>ius virtute probantis principale oppositum sufficienter 
+          <lb ed="#G" n="91"/>impeditur, ac improbatur. Sed talis est probatio adducta 
+          <lb ed="#G" n="92"/>per istum socium: ergo &amp;c. Maior patet. Minorem
+          pro<lb ed="#G" n="93" break="no"/>bo: quia ratio propria entis infiniti, nec formaliter 
+          <lb ed="#G" n="94"/>nec virtualiter continetur iu conceptibus creaturae:
+          igi<lb ed="#G" n="95" break="no"/>tur si per huiusiuodi non continentiam sufficienter proba 
+          <lb ed="#G" n="96"/>tur, quod ratio deitatis sit simpliciter a nobis pro statu via 
+          <lb ed="#G" n="97"/>inattingibilis, &amp; per hoc huiusmodi ratio non possit esse ra 
+          <lb ed="#G" n="98"/>tio subiectiua in theologia viatoris, tuc per idem medium 
+          <lb ed="#G" n="99"/>sufficienter probabitur, quod ratio entis infiniti non pos 
+          <lb ed="#G" n="100"/>sit attingi a nobis, nec per consequens possit esse ratio siu 
+          <lb ed="#G" n="101"/>biectiua in theologia viatoris, quod est oppositum princi 
+          <lb ed="#G" n="102"/>palis intenti istius reuerondi socij. Quod autem ratio en 
+          <lb ed="#G" n="103"/>tis infiniti, loquendo semper de infinitate perfectionis, non 
+          <lb ed="#G" n="104"/>contineatur in conceptibus creaturae formaliter, nec vir 
+          <lb ed="#G" n="105"/>tualiter, patet, quia in continentia formali continentis pro 
+          <lb ed="#G" n="106"/>sectio aequatur perfectioni contenti; &amp; in continentia vir 
+          <lb ed="#G" n="107"/>tuali continens est perfectius contento, Sed nullius creatu 
+          <lb ed="#G" n="108"/>rae ratio, seu conceptus est aeque perfectus sicut conceptus 
+          <lb ed="#G" n="109"/>entis infiniti infinitate perfectionis, nec est perfectior
+          eo<lb ed="#G" n="110" break="no"/>ergo ratio talis entis infiniti, nec formaliter, nec virtual 
+          <lb ed="#G" n="111"/>ter continetur in conceptibus creaturae. Si diceret iste so 
+          <lb ed="#G" n="112"/>cius, quod ratio entis infiniti infinitate perfectionis salten 
+          <lb ed="#G" n="113"/>quo ad cognitionem quia est, continetur in conceptibus cres 
+          <lb ed="#G" n="114"/>turae, tunc dico, quod isto modo conceptus, vel ratio deitatis 
+          <lb ed="#G" n="115"/>potius continetur in conceptibus creaturae, quam conceptus 
+          <lb ed="#G" n="116"/>entis infiniti, vt supra probaui contra alium socium istam 
+          <lb ed="#G" n="117"/>eandem conclusionem asserentem. Etiam sola cognitio quod 
+          <lb ed="#G" n="118"/>est non sufficit ad habendum rationem propriam subiectiuam 
+          <lb ed="#G" n="119"/>in aliqua scientia, &amp; maxime si illa scientia non est
+          simpli<lb ed="#G" n="120" break="no"/>citer, &amp; proprie subalterna, scientia autem theologiae non  
+          <lb ed="#G" n="121"/>est proprie subalterna, vt patet per ea, quae dixi in
+          prolo<lb ed="#G" n="122" break="no"/>go primi libri. Vt igitur finis principio rudeat, concludo il 
+          <lb ed="#G" n="123"/>lud, quod dixi in prima quaestione prologi, s. quod deus 
+          <lb ed="#G" n="124"/>est subiectum in theologia viatoris sub ratione veri sun 
+          <lb ed="#G" n="125"/>me diligibilis, vt huiusmodi verum est proportionatum 
+          <lb ed="#G" n="126"/>rationali animae habitu fidei dispositae, &amp; nondum
+          perfe<lb ed="#G" n="127" break="no"/>ctae per habitum luminis gloriae. Ad quam gloriam
+          me<lb ed="#G" n="128" break="no"/>fratre Thomam, ordinis sancti Aug. cum istius lecturae lecto 
+          <lb ed="#G" n="129"/>tibus perducere dignetur ipse glorificator sanctorum, qui 
+          <lb ed="#G" n="130"/>viuit, &amp; regnat in secula saeculorum. Amen¬
+        </p>
+      </div>
+    </body>
+  </text>
 </TEI>

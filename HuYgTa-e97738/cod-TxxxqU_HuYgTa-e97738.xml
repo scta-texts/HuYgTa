@@ -1,90 +1,90 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Circa textum 2</title>
-            <author ref="#ThomasStrasbourg">Thomas of Strasbourg</author>
-            <respStmt>
-               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
-               <resp>Transcription Editor</resp>
-               <resp>TEI Encoder</resp>
-            </respStmt>
-         </titleStmt>
-         <editionStmt>
-            <edition n="0.0.0-dev">
-               <title>Circa textum 2</title>
-               <date when="2020-11-26">November 26, 2020</date>
-            </edition>
-         </editionStmt>
-         <publicationStmt>
-            <authority>SCTA</authority>
-            <availability status="free">
-               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
-               </p>
-            </availability>
-         </publicationStmt>
-         <sourceDesc>
-            <listWit>
-               <witness xml:id="G" n="cod-TxxxqU">Genoa 1585</witness>
-            </listWit>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
-         <editorialDecl>
-            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
-       guidelines for a diplomatic edition.</p>
-         </editorialDecl>
-      </encodingDesc>
-      <revisionDesc status="draft">
-         <listChange>
-            <change when="2020-11-26" status="draft" n="0.0.0">
-               <p>Created file for the first time.</p>
-            </change>
-         </listChange>
-      </revisionDesc>
-   </teiHeader>
-   <text xml:lang="la">
-      <front>
-         <div xml:id="starts-on">
-            <pb ed="#G" n="-r"/>
-            <cb ed="#G" n="a"/>
-         </div>
-      </front>
-      <body>
-         <div xml:id="HuYgTa-e97738"><!-- HuYgTa-l2d1ct2 -->
-            <head xml:id="HuYgTa-e97738-Hd1e108">Circa textum 2</head>
-            <p xml:id="HuYgTa-e97738-d1e111">
-      <!--297.xml-->
-               <cb ed="#G" n="b"/>
-               <lb ed="#G" n="70"/>Secundae partis huius distinctionis non obscura
-      subdi<lb ed="#G" n="71" break="no"/>iusio, n qua tum creaturae, tum creatoris
-      boni<lb ed="#G" n="72" break="no"/>
-               <pc type="indent"/>tas peculiariter patefit 
-    </p>
-            <p xml:id="HuYgTa-e97738-d1e127">
-               <lb ed="#G" n="73"/>
-               <pc type="indent"/>REDAMVS ERO O &amp;c. Postquam 
-      <lb ed="#G" n="74"/>Magister determinauit de
-      creatu<lb ed="#G" n="75" break="no"/>rarum causa productiua, hic tangit 
-      <lb ed="#G" n="76"/>de bonitate diuina tam creatoris,  
-      <lb ed="#G" n="77"/>quam creaturae finaliter motiua, 
-      <lb ed="#G" n="78"/>&amp; diuiditur in duas partes: nam
-      pri<lb ed="#G" n="79" break="no"/>mo de huiusmodi causa finali
-      de<lb ed="#G" n="80" break="no"/>terminat, secundo circa praedicta 
-      <lb ed="#G" n="81"/>epilogat,. ac ordinem dicendorum insinuat ibi, Ex
-      prae<lb ed="#G" n="82" break="no"/>missis. Prima in duas: nam primo ostendit causam finalem 
-      <lb ed="#G" n="83"/>a qua Deus ad producendum omnem creaturam
-      moue<lb ed="#G" n="84" break="no"/>batur, Secundo tangit de fine, ad quem quaelibet
-      creatu<lb ed="#G" n="85" break="no"/>ra finaliter ordinatur ibi, Et si queritur &amp;c. Et haec in tres; 
-      <lb ed="#G" n="86"/>nam primo ostendit causam finalem creaturae rationalis,  
-      <lb ed="#G" n="87"/>Secundo ostendit immediatum finem creationis creatu 
-      <lb ed="#G" n="88"/>rae corporalis, Tertio mouet quaedam dubia circa creatio 
-      <lb ed="#G" n="89"/>nem hominis, Secunda ibi, Et sicut factus. Tertia ibi, De 
-      <lb ed="#G" n="90"/>homine quoque. Circa istam secundam partem primae di 
-      <lb ed="#G" n="91"/>stinctionis quaero hanc quaestionem 
-    </p>
-         </div>
-      </body>
-   </text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Circa textum 2</title>
+        <author ref="#ThomasStrasbourg">Thomas of Strasbourg</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Circa textum 2</title>
+          <date when="2020-11-26">November 26, 2020</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="G" n="cod-TxxxqU">Genoa 1585</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2020-11-26" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#G" n="129-v"/>
+        <cb ed="#G" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="HuYgTa-e97738"><!-- HuYgTa-l2d1ct2 -->
+        <head xml:id="HuYgTa-e97738-Hd1e108">Circa textum 2</head>
+        <p xml:id="HuYgTa-e97738-d1e111">
+          <!--297.xml-->
+          <cb ed="#G" n="b"/>
+          <lb ed="#G" n="70"/>Secundae partis huius distinctionis non obscura
+          subdi<lb ed="#G" n="71" break="no"/>iusio, n qua tum creaturae, tum creatoris
+          boni<lb ed="#G" n="72" break="no"/>
+          <pc type="indent"/>tas peculiariter patefit 
+        </p>
+        <p xml:id="HuYgTa-e97738-d1e127">
+          <lb ed="#G" n="73"/>
+          <pc type="indent"/>REDAMVS ERO O &amp;c. Postquam 
+          <lb ed="#G" n="74"/>Magister determinauit de
+          creatu<lb ed="#G" n="75" break="no"/>rarum causa productiua, hic tangit 
+          <lb ed="#G" n="76"/>de bonitate diuina tam creatoris,  
+          <lb ed="#G" n="77"/>quam creaturae finaliter motiua, 
+          <lb ed="#G" n="78"/>&amp; diuiditur in duas partes: nam
+          pri<lb ed="#G" n="79" break="no"/>mo de huiusmodi causa finali
+          de<lb ed="#G" n="80" break="no"/>terminat, secundo circa praedicta 
+          <lb ed="#G" n="81"/>epilogat,. ac ordinem dicendorum insinuat ibi, Ex
+          prae<lb ed="#G" n="82" break="no"/>missis. Prima in duas: nam primo ostendit causam finalem 
+          <lb ed="#G" n="83"/>a qua Deus ad producendum omnem creaturam
+          moue<lb ed="#G" n="84" break="no"/>batur, Secundo tangit de fine, ad quem quaelibet
+          creatu<lb ed="#G" n="85" break="no"/>ra finaliter ordinatur ibi, Et si queritur &amp;c. Et haec in tres; 
+          <lb ed="#G" n="86"/>nam primo ostendit causam finalem creaturae rationalis,  
+          <lb ed="#G" n="87"/>Secundo ostendit immediatum finem creationis creatu 
+          <lb ed="#G" n="88"/>rae corporalis, Tertio mouet quaedam dubia circa creatio 
+          <lb ed="#G" n="89"/>nem hominis, Secunda ibi, Et sicut factus. Tertia ibi, De 
+          <lb ed="#G" n="90"/>homine quoque. Circa istam secundam partem primae di 
+          <lb ed="#G" n="91"/>stinctionis quaero hanc quaestionem 
+        </p>
+      </div>
+    </body>
+  </text>
 </TEI>

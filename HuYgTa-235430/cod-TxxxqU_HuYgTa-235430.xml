@@ -1,992 +1,992 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Quaestio 2</title>
-            <author ref="#ThomasStrasbourg">Thomas of Strasbourg</author>
-            <respStmt>
-               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
-               <resp>Transcription Editor</resp>
-               <resp>TEI Encoder</resp>
-            </respStmt>
-         </titleStmt>
-         <editionStmt>
-            <edition n="0.0.0-dev">
-               <title>Quaestio 2</title>
-               <date when="2020-11-26">November 26, 2020</date>
-            </edition>
-         </editionStmt>
-         <publicationStmt>
-            <authority>SCTA</authority>
-            <availability status="free">
-               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
-               </p>
-            </availability>
-         </publicationStmt>
-         <sourceDesc>
-            <listWit>
-               <witness xml:id="G" n="cod-TxxxqU">Genoa 1585</witness>
-            </listWit>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
-         <editorialDecl>
-            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
-       guidelines for a diplomatic edition.</p>
-         </editorialDecl>
-      </encodingDesc>
-      <revisionDesc status="draft">
-         <listChange>
-            <change when="2020-11-26" status="draft" n="0.0.0">
-               <p>Created file for the first time.</p>
-            </change>
-         </listChange>
-      </revisionDesc>
-   </teiHeader>
-   <text xml:lang="la">
-      <front>
-         <div xml:id="starts-on">
-           <pb ed="#G" n="P2_99-v"/>
-            <cb ed="#G" n="b"/>
-         </div>
-      </front>
-      <body>
-         <div xml:id="HuYgTa-235430"><!-- HuYgTa-l4d11q2 -->
-            <head xml:id="HuYgTa-235430-Hd1e108">Quaestio 2</head>
-            <head xml:id="HuYgTa-235430-Hd1e111" type="question-title">An Eucharistia vnum sit sacramentum.</head>
-            <p xml:id="HuYgTa-235430-d1e114">
-               <lb ed="#G" n="100"/>
-               <pc type="indent"/>Quaestio <sic>I <!-- actually II --></sic>
-               <lb ed="#G" n="101"/>An Eucharistia vnum sit sacramentum.
-    </p>
-            <p xml:id="HuYgTa-235430-d1e127">
-               <lb ed="#G" n="102"/>I TRVM Fucharistia sit vnum sactamentum.
-    </p>
-            <p xml:id="HuYgTa-235430-d1e132">
-     
-      Vide<lb ed="#G" n="103" break="no"/>Vtur, quod non 
-      <lb ed="#G" n="104"/>Quia vnum sactamentum debet habere vnam
-      mate<lb ed="#G" n="105" break="no"/>riam, &amp; vnam formam. Sed ad consecrandum Fucharistiam 
-      <lb ed="#G" n="106"/>concurrit duplex materia, &amp; duplex forma: ergo &amp;c.
-      Ma<lb ed="#G" n="107" break="no"/>or patet discurrendo per alia singula sacramenta. Minor 
-      <lb ed="#G" n="108"/>quantum ad dualitatem materiae patet hic in littera: quia 
-      <lb ed="#G" n="109"/>ad integritatem materiae ipsius Fucharistiae de
-      necessita<lb ed="#G" n="110" break="no"/>te requiritur panis, &amp; vmum. Quod autem requiratur du 
-      <lb ed="#G" n="111"/>lex forma, patet: quia per alia verba, &amp; distincte fit con 
-      <lb ed="#G" n="112"/>sec ratio corporis, &amp; consecratio sanguinis.  
-      <lb ed="#G" n="113"/>In contrarium est <ref xml:id="HuYgTa-235430-Rd1e158">magister in ista 12. distinct</ref> vbi loquen 
-      <lb ed="#G" n="114"/>de speciebus panis, &amp; vini ait. <quote xml:id="HuYgTa-235430-Qd1e163" source="http://scta.info/resource/pl-l4d11c4-d1e146" synch="22-34">Nec debent dici duo
-      sacra<lb ed="#G" n="115" break="no"/>menta: sed vnum: quia sub vtraque specie idem sumitur</quote>,  
-      <lb ed="#G" n="116"/>Hic quattuor sunt videnda 
-    </p>
-            <p xml:id="HuYgTa-235430-d1e172">
-               <lb ed="#G" n="117"/>
-               <pc type="indent"/>Primo, quae sit debita materia conuertenda in eorpus 
-      <lb ed="#G" n="118"/>Christi, &amp; quae in sanguinem. 
-    </p>
-            <p xml:id="HuYgTa-235430-d1e181">
-               <lb ed="#G" n="119"/>
-               <pc type="indent"/>Secundo de principali quaesito.  
-      <lb ed="#G" n="120"/>Tertio vtrum sub vtraque specie panis scilicet, &amp; vini 
-      <lb ed="#G" n="121"/>stud sacramentum sit tradendum populo Christiano. 
-    </p>
-            <p xml:id="HuYgTa-235430-d1e192">
-               <lb ed="#G" n="122"/>
-               <pc type="indent"/>Quarto vtrum sub vtraque specie Christus in coena 
-      <lb ed="#G" n="123"/>tumpierit seipsum, ac tradiderit omnibus suis discipulis
-    </p>
-            <p xml:id="HuYgTa-235430-d1e201">
-      <!--670.xml-->
-               <pb ed="#G" n="P2_100-r"/>
-               <cb ed="#G" n="a"/>
-               <lb ed="#G" n="1"/>RESOLVTIO. 
-      <lb ed="#G" n="2"/>Apta quidem materia fucharistiae cum sit panis triticeus
-      axi<lb ed="#G" n="3" break="no"/>mus scilicet non autem ferment atus: Itidem vinum vitis, non  
-      <lb ed="#G" n="4"/>autem liquor alius Vnum tamen numero dicitur
-      saccamen<lb ed="#G" n="5" break="no"/>tum, non vnum quidem numero simpliciter indiuisibilit ate, 
-      <lb ed="#G" n="6"/>
-               <pc type="indent"/>tuat continuit ate, sed vnum numero perfectionali integritate.
-    </p>
-            <p xml:id="HuYgTa-235430-d1e225">
-               <lb ed="#G" n="7"/>ARTICVLVS 1 
-      <lb ed="#G" n="8"/>Quae sit debita materia conuertenda in corpus 
-      <lb ed="#G" n="9"/>christi, qud quae in sanguinem.
-    </p>
-            <p xml:id="HuYgTa-235430-d1e234">
-               <lb ed="#G" n="10"/>SVANTVM: ad primum primo videndum est de ma 
-      <lb ed="#G" n="11"/>Tteria conuertenda in corpus. Et quo ad hoc pono 
-      <lb ed="#G" n="12"/>tres conclusiones. 
-    </p>
-            <p xml:id="HuYgTa-235430-d1e244">
-               <lb ed="#G" n="13"/>Prima est, quod talis mareria est panis. 
-      <lb ed="#G" n="14"/>Secunda, quod, secundum communiorem doctrinam, 
-      <lb ed="#G" n="15"/>talis panis debet esse triticeus.
-      <lb ed="#G" n="16"/>Tertia quod huiusmodi panis debet esse aximus, id esti 
-      <lb ed="#G" n="17"/>non fermentatus.
-    </p>
-            <p xml:id="HuYgTa-235430-d1e257">
-               <lb ed="#G" n="18"/>Probatio primae conclusionis est. 1 Quia illa est debita 
-      <lb ed="#G" n="19"/>materia conficiendi corpus Christi, qua Christus vsus est,  
-      <lb ed="#G" n="20"/>in conficiendo corpus suum istud sacramentum instituit: 
-      <lb ed="#G" n="21"/>ed tunc fuit vsus pane, vt patet in Euangelio; ergo &amp;c 
-    </p>
-            <p xml:id="HuYgTa-235430-d1e268">
-               <lb ed="#G" n="22"/>
-               <pc type="indent"/>2 Praeterea, istud sacramentum habet spiritualiter, 
-      <lb ed="#G" n="23"/>sumentem confortare: sed panis cor hominis confirmat,  
-      <lb ed="#G" n="24"/>vt dicitur in Dsal. ergo ratione similitudinis debita
-      ma<lb ed="#G" n="25" break="no"/>teria istius sacramenti est substantia panis. Et istam
-      ratio<lb ed="#G" n="26" break="no"/>nem tangit glosa 1. ad Corinth.I1. 
-    </p>
-            <p xml:id="HuYgTa-235430-d1e284">
-               <lb ed="#G" n="27"/>1 Forte contra istud dicetur, quod talis debet esse
-      ma<lb ed="#G" n="28" break="no"/>teria istius sacramenti, vt signa remanentia ducant in
-      me<lb ed="#G" n="29" break="no"/>moriam passionis Christi: quia Christus, istud
-      sacramen<lb ed="#G" n="30" break="no"/>tum instituendo, dixit discipulis Hoc facite in meam
-      con<lb ed="#G" n="31" break="no"/>memorationem. Et Apostolus inquit. Quotiescunque 
-      <lb ed="#G" n="32"/>manducabitis panem hunc, &amp; calicem bibetis: mortem 
-      <lb ed="#G" n="33"/>domini annunciabitis: sed ad huiusmodi passionem
-      in<lb ed="#G" n="34" break="no"/>finuadam magis valeret effusio sanguinis agni, vel vituli,  
-      <lb ed="#G" n="35"/>quam posito panis in altari. 
-    </p>
-            <p xml:id="HuYgTa-235430-d1e306">
-               <lb ed="#G" n="36"/>2 Praeterea, confirmatur istud sic. <ref xml:id="HuYgTa-235430-Rd1e310">
-                  <name xml:id="HuYgTa-235430-Nd1e312">Hugo de sancto
-      vi<lb ed="#G" n="37" break="no"/>ctore</name> in li. de sacramentis</ref> ait, Crescente veritatis
-      cogni<lb ed="#G" n="38" break="no"/>tione signa debuerunt esse euidentiora: sed cognitio
-      ve<lb ed="#G" n="39" break="no"/>ritatis maior fuit tempore legis Mosaice, quam tempore 
-      <lb ed="#G" n="40"/>legis naturae, &amp; iterum maior tempore legis euangelicae,  
-      <lb ed="#G" n="41"/>quam legis Mosaicae : ergo materia istius sacramenti, vel 
-      <lb ed="#G" n="42"/>debet esse euidentior ad significandum corpus Christi, &amp;  
-      <lb ed="#G" n="43"/>passionem, quam ea, quae offerebantur in duabus
-      praece<lb ed="#G" n="44" break="no"/>dentibus legibus, vel magis conformiter debet accipi ad 
-      <lb ed="#G" n="45"/>ea, quae offerebantur in lege Moysis. Cuius contrarium fi 
-      <lb ed="#G" n="46"/>ret si materia eius esset panis: quia Melchisedech rex
-      sa<lb ed="#G" n="47" break="no"/>lem obtulit panem, &amp; vinum tempore legis naturae, vt pa 
-      <lb ed="#G" n="48"/>ter Cen. 14. Ad primum dicendum, quod minor non est 
-      <lb ed="#G" n="49"/>vera: Nam si quis attente consideraret, quomodo triticum, 
-      <lb ed="#G" n="50"/>de quo fit panis aptus ad istud sacramentum, primo in
-      a<lb ed="#G" n="51" break="no"/>rea trituratur, secundo mola teritur, deinde farina aqua 
-      <lb ed="#G" n="52"/>ligatur, &amp; glutinatur, &amp; sic pasta formatur: &amp; vltimo in 
-      <lb ed="#G" n="53"/>clibanum ardentem mittitur, vt eius humiditas consumatur, 
-      <lb ed="#G" n="54"/>haec omnia spiritualiter interpretando, vtique videret ho 
-      <lb ed="#G" n="55"/>mo, quod expressius passio Christi daretur intelligi in pane, 
-      <lb ed="#G" n="56"/>quam in cuiuscumque bestiae sanguinis effusione. 
-    </p>
-            <p xml:id="HuYgTa-235430-d1e360">
-               <lb ed="#G" n="57"/>
-               <pc type="indent"/>Ad secundum dicendum, qplicet cognitio veritatisclarior 
-      <lb ed="#G" n="58"/>esset in lege scripta in lege naturae: tamen qua lex Mosaica, siue 
-      <lb ed="#G" n="59"/>lex scripta, vel data per Movsen, quantum ad oblationes 
-      <lb ed="#G" n="60"/>cerimoniales, erat transitoria, &amp; abolenda, veniente
-      le<lb ed="#G" n="61" break="no"/>pe euangelica, lex autem naturae debet esse perpetua, &amp; non 
-      <lb ed="#G" n="62"/>deserenda: sed potius per euangelicam lege perficienda, ad 
-      <lb ed="#G" n="63"/>illa n. quae sunt de lege naturali, semper obligatur homo, 
-      <lb ed="#G" n="64"/>ideo lex euangelica, quae semper durare debet vsque ad fine 
-      <lb ed="#G" n="65"/>mundi, istius perpetui, &amp; excellentissimi sacramenti
-      ma<lb ed="#G" n="66" break="no"/>teriam potius debuit accipere a lege naturae, quam a lege 
-      <lb ed="#G" n="67"/>veteris scripture. Etiam concesso toto svllogismo, nihil con¬ 
-      <!--670.xml-->
-      <cb ed="#G" n="b"/>
-               <lb ed="#G" n="68"/>cluditur contra conclusionem praedictam: quia non solum in 
-      <lb ed="#G" n="69"/>lege naturae panis offerebatur, sed etiam in lege Movsis; 
-      <lb ed="#G" n="70"/>Vnde dixit Movses Aaron, &amp; filiis eius. Panes quoque con 
-      <lb ed="#G" n="71"/>secrationis edite, qui positi sunt in crastino, sicut precepit 
-      <lb ed="#G" n="72"/>mihi dominus. Et alibi, Omnis, qui habuerit maculam de 
-      <lb ed="#G" n="73"/>semine Aaro sacerdotis, non accedet offerre hostias domis 
-      <lb ed="#G" n="74"/>o, nec panes Deo suo : vescetur tamen panibus, qui
-      offe<lb ed="#G" n="75" break="no"/>runtur in sanctuario. Patet etiam istud de panibus, qui 
-      <lb ed="#G" n="76"/>ponebantur in mensa propositonis coram domino.  
-    </p>
-            <p xml:id="HuYgTa-235430-d1e413">
-               <lb ed="#G" n="77"/>
-               <pc type="indent"/>Secundo dico, quod secundum communem doctrinam 
-      <lb ed="#G" n="78"/>iste panis debet esse triticeus: quia in triticeo pane credi 
-      <lb ed="#G" n="79"/>tur Christus confecisse, &amp; vsum consecrandi in triticeo 
-      <lb ed="#G" n="80"/>pane dicitur ecclesia ab Apostolis accepisse, &amp; non
-      vide<lb ed="#G" n="81" break="no"/>tur esse dubium, quin hunc vsum Apostoli a Christo
-      ac<lb ed="#G" n="82" break="no"/>ceperint in cena, quando Christus praesentibus Apostolis 
-      <lb ed="#G" n="83"/>consecrauit.  
-    </p>
-            <p xml:id="HuYgTa-235430-d1e433">
-               <lb ed="#G" n="84"/>Forte contra istud dicetur, quod sicut se habet aqua ad 
-      <lb ed="#G" n="85"/>baptismum, sic panis ad istud sacramentum, sed eo ipso, quod 
-      <lb ed="#G" n="86"/>dominus instituens baptismum, non distinxit de aquis; 
-      <lb ed="#G" n="87"/>quauis multiplex sit aqua, puta maris, sontis, &amp; fluminis 
-      <lb ed="#G" n="88"/>ideo onis aqua est debita materia baptismi: sic quia in insti 
-      <lb ed="#G" n="89"/>tutione istius sacramenti non legitur distinxisse de panes 
-      <lb ed="#G" n="90"/>ideo omnis panis videtur esse aptus ad consecrandum. 
-    </p>
-            <p xml:id="HuYgTa-235430-d1e451">
-               <lb ed="#G" n="91"/>
-               <pc type="indent"/>2 Praeterea granum speltae denudatum a palea est
-      simi<lb ed="#G" n="92" break="no"/>le gtano tritici, &amp; per consequens videtur, quod pane speltae 
-      <lb ed="#G" n="93"/>debite possimus corpus Christi consecrare. 
-    </p>
-            <p xml:id="HuYgTa-235430-d1e462">
-               <lb ed="#G" n="94"/>
-               <pc type="indent"/>3 Praeterea, raro inuenitur panis de puro tritico: ergo si 
-      <lb ed="#G" n="95"/>in solo panc triticeo potest fieri consecratio, tuc essemus 
-      <lb ed="#G" n="96"/>saepius in periculo. Ad primum potest dici, quod supposi 
-      <lb ed="#G" n="97"/>to, quod Christus consecrando corpus suum vsus suerit
-      pa<lb ed="#G" n="98" break="no"/>ne triticeo, tunc quia Christi actio nostra est instructio: 
-      <lb ed="#G" n="99"/>ideo dato, quod de pane, quo in consecrando vti debemus,  
-      <lb ed="#G" n="100"/>non distinxerit voce, vel scripio, tamen ipso facto, &amp; oper 
-      <lb ed="#G" n="101"/>te nos instruendo sufficienter distinxit.  
-    </p>
-            <p xml:id="HuYgTa-235430-d1e484">
-               <lb ed="#G" n="102"/>
-               <pc type="indent"/>Etiam potest dici, quod non est simile de baptismo, &amp;  
-      <lb ed="#G" n="103"/>Eucharistia: quia baptismus est sacramentum necessitatis: 
-      <lb ed="#G" n="104"/>ideo eius materia debet esse omnibus communis, ac etiam 
-      <lb ed="#G" n="105"/>eius minister debet esse communis in articulo
-      necessita<lb ed="#G" n="106" break="no"/>tis: sed Eucharistia non est sacramentum necessitatis
-      o<lb ed="#G" n="107" break="no"/>mnimode: ideo nec eius ministri nec eius materia erunt 
-      <lb ed="#G" n="108"/>ita communes sicut in baptismo. 
-    </p>
-            <p xml:id="HuYgTa-235430-d1e504">
-               <lb ed="#G" n="109"/>
-               <pc type="indent"/>Ad secundum dicunt quidam, quod granum speltae est 
-      <lb ed="#G" n="110"/>eiusdem speciei cum grano tritici: ideo si consecratur in 
-      <lb ed="#G" n="111"/>missa panis speltae vere consecratum est. 
-    </p>
-            <p xml:id="HuYgTa-235430-d1e516">
-               <lb ed="#G" n="112"/>
-               <pc type="indent"/>Doctor communis, ac multi alij doctores tenent oppo 
-      <lb ed="#G" n="113"/>itum dicentes, quod si quis in consecrando vteretur
-      pa<lb ed="#G" n="114" break="no"/>ne speltae, vel cuiuscumque alterius grani praeter granum 
-      <lb ed="#G" n="115"/>tritici, talis non conficeret corpus Christi: sicut nec 
-      <lb ed="#G" n="116"/>ille conficeret sanguinem, qui tantum modo aquam
-      ha<lb ed="#G" n="117" break="no"/>beret in calice: quia sicut huic deficeret debita materia 
-      <lb ed="#G" n="118"/>conficiendi sanguinem Christi, sic &amp; illi deficeret debita ma 
-      <lb ed="#G" n="119"/>teria conficiendi corpus Christi. Dicunt etiam isti doctores,  
-      <lb ed="#G" n="120"/>que spelta non est eiusdem speciei cum tritico: quia illa, quae 
-      <lb ed="#G" n="121"/>ic se habent, quod vnum numquam generatur ex altero,
-      ta<lb ed="#G" n="122" break="no"/>lia non sunt eiusdem speciei: sed seminatis granis tritici,  
-      <lb ed="#G" n="123"/>nuquam generatur grana speltae, nec econuerso: ergo &amp;c. 
-    </p>
-            <p xml:id="HuYgTa-235430-d1e547">
-               <lb ed="#G" n="124"/>
-               <pc type="indent"/>Ratio communis istorum doctorum est: quia Christus 
-      <lb ed="#G" n="125"/>comparat se grano tritici, vbi de se ipso loquens ait.
-      Nisi<lb ed="#G" n="126" break="no"/>granum frumenti cadens in terram mortuum fuerit,
-      ip<lb ed="#G" n="127" break="no"/>sum solum manet. Quod verbum tractans August. super 
-      <lb ed="#G" n="128"/>loan. ait Cum sint multa grana frugum, nulli comparat 
-      <lb ed="#G" n="129"/>se Christus nisi frumento. Vnde mos coepit ecclesiae de 
-      <lb ed="#G" n="130"/>hoc solo grano conficere corpus domini, Vnus etiam istorum 
-      <lb ed="#G" n="131"/>doctorum allegando pro ista parte decretum dicit, quod 
-      <lb ed="#G" n="132"/>de sacramentis distinct. 2. cap. In sacramento, habeatur.  
-      <lb ed="#G" n="133"/>quod pane triticeo, &amp; non alio debet fieri consecratio
-      cor<lb ed="#G" n="134" break="no"/>oris Christi. 
-    </p>
-            <p xml:id="HuYgTa-235430-d1e576">
-               <lb ed="#G" n="135"/>
-               <pc type="indent"/>Alij dicunt, quod quamuis panis speltae sit alterius spe 
-      <lb ed="#G" n="136"/>ciei, quam triticum, tamen quia spelta est species
-      fru<lb ed="#G" n="137" break="no"/>menti, ideo si quis consecraret panem spelte, ille vere. 
-      <lb ed="#G" n="138"/>conficeret corpus Christi. 
-    </p>
-            <p xml:id="HuYgTa-235430-d1e589">
-               <lb ed="#G" n="139"/>
-               <pc type="indent"/>Ego vellem, quod in isto puncto, &amp; in omnibus 
-      <lb ed="#G" n="140"/>aliis, vbi tangitur de his, quae sunt de necessitate sa 
-      <!--671.xml-->
-      <pb ed="#G" n="P2_100-v"/>
-               <cb ed="#G" n="a"/>
-               <lb ed="#G" n="1"/>eramenti, &amp; sine quibus non putatur esse veritas
-      sacra<lb ed="#G" n="2" break="no"/>menti, numquam doctores ecclesias sibi contradicerent 
-      <lb ed="#G" n="3"/>mutuo, &amp; vbicumque hoc fieret, quod ecclesia Romana 
-      <lb ed="#G" n="4"/>per suam determinationem remedium adhiberet. 
-    </p>
-            <p xml:id="HuYgTa-235430-d1e613">
-               <lb ed="#G" n="5"/>
-               <pc type="indent"/>Duo ergo dico quantum ad praesens. Primum est, quod 
-      <lb ed="#G" n="6"/>reputo consultius, quod in consecrando corpus Christ 
-      <lb ed="#G" n="7"/>sacerdos vtatur pane triticeo: quia tutius, &amp; consultius es 
-      <lb ed="#G" n="8"/>se videtur, quod sacerdos vtatur illo pane, quem omnis 
-      <lb ed="#G" n="9"/>doctor Christianus reputat conuerti in corpus Christi 
-      <lb ed="#G" n="10"/>dictis verbis consecrationis ab ipso sacerdote, quam quod 
-      <lb ed="#G" n="11"/>vtatur illo, quem multi, &amp; magni doctores reputant non 
-      <lb ed="#G" n="12"/>conuerti: sed omnis doctor Christianus reputat panem 
-      <lb ed="#G" n="13"/>triticeum conuerti, &amp; multi reputant alium panem non 
-      <lb ed="#G" n="14"/>conuerti: ergo &amp;c 
-    </p>
-            <p xml:id="HuYgTa-235430-d1e639">
-               <lb ed="#G" n="15"/>
-               <pc type="indent"/>Secundo uico, quod salua istorum venerabilium
-      do<lb ed="#G" n="16" break="no"/>ctorum reuerentia, mihi non videtur, quod sufficienter 
-      <lb ed="#G" n="17"/>probent hanc negatiuam, quam ponunt, scilicet non esse 
-      <lb ed="#G" n="18"/>ibi sacramentum, si sacerdos benedicit alium panem, quam 
-      <lb ed="#G" n="19"/>triticeum. 
-    </p>
-            <p xml:id="HuYgTa-235430-d1e656">
-               <lb ed="#G" n="20"/>
-               <pc type="indent"/>Ad cuius intellectum est aduertendum, quod secundum <ref xml:id="HuYgTa-235430-Rd1e662">lsi¬ 
-        <lb ed="#G" n="21"/>dorum ethi. 17</ref>: frumentum in plus se habet, quam triticum; 
-      <lb ed="#G" n="22"/>Vnde circa principium illius capituli dicit, quod frumen 
-      <lb ed="#G" n="23"/>ta sunt, quae aristas habent : reliqua autem, quae non
-      ha<lb ed="#G" n="24" break="no"/>bent aristas, fruges appellantur: Et ideo ibidem dicit
-      sili<lb ed="#G" n="25" break="no"/>ginem, &amp; ordeum, &amp; inulta alia consimilia esse de
-      gene<lb ed="#G" n="26" break="no"/>re frumentorum, eo quod habent aristas. Cum igitur nec 
-      <lb ed="#G" n="27"/>ex fide catholica, nec ex scriptura sacra, nec ex aliquo sta 
-      <lb ed="#G" n="28"/>tuto ecclesiae possit plus haberi de ista materia, nisi quod 
-      <lb ed="#G" n="29"/>panis in corpus Christi virtute diuina ad benedictionem 
-      <lb ed="#G" n="30"/>lacerdotis conuertendus debet esse de vero frumento, vt 
-      <lb ed="#G" n="31"/>patebit in respondendo dictis istorum doctorum: ideo 
-      <lb ed="#G" n="32"/>non videtur, quod ad negationem panis triticei debeat 
-      <lb ed="#G" n="33"/>negari verum corpus Christi, dummodo panis a
-      sacerdo<lb ed="#G" n="34" break="no"/>te secundum debitam formam verborum benedictus sit 
-      <lb ed="#G" n="35"/>de frumento.
-    </p>
-            <p xml:id="HuYgTa-235430-d1e698">
-               <lb ed="#G" n="36"/>Forte dicetur, quod licet frumentum sit genus, habens 
-      <lb ed="#G" n="37"/>sub se plures species: tamen quia nobilissima species
-      fru<lb ed="#G" n="38" break="no"/>menti est triticum: ideo quando per se profertur frumen 
-      <lb ed="#G" n="39"/>tum, tunc debet intelligi triticum, &amp; per consequens
-      li<lb ed="#G" n="40" break="no"/>cet dicatur, quod panis praedictus debeat esse de frumen 
-      <lb ed="#G" n="41"/>to: tamen ex hoc non habetur quin debeat esse ex solo 
-      <lb ed="#G" n="42"/>tritico.  
-    </p>
-            <p xml:id="HuYgTa-235430-d1e716">
-               <lb ed="#G" n="43"/>
-               <pc type="indent"/>Dicendum, quod prima consequentia non est vera 
-      <lb ed="#G" n="44"/>quia licet homo sit nobilissima species animalis: tamer 
-      <lb ed="#G" n="45"/>non sequitur, est animal: ergo homo, posset enim esse 
-      <lb ed="#G" n="46"/>equus, vel asinus. Vnde ibi est expressa fallacia
-      consequen<lb ed="#G" n="47" break="no"/>tis: quia directe proceditur a positone consequentis ad 
-      <lb ed="#G" n="48"/>positionem antecedentis: sic in proposito: ideo &amp;c. 
-    </p>
-            <p xml:id="HuYgTa-235430-d1e734">
-               <lb ed="#G" n="49"/>
-               <pc type="indent"/>Forte dices, quod istud esset contra regulam, quam 
-      <lb ed="#G" n="50"/>ponit <ref xml:id="HuYgTa-235430-Rd1e742">Arist. in lib topicorum</ref> dicens, quod quando aliquod 
-      <lb ed="#G" n="51"/>nomen significat plura, vnum principaliter, aliud ex con 
-      <lb ed="#G" n="52"/>sequenti: si tale nomen absolute profertur: tunc debet in 
-      <lb ed="#G" n="53"/>telligi de eo, quod principaliter significat. 
-    </p>
-            <p xml:id="HuYgTa-235430-d1e753">
-               <lb ed="#G" n="54"/>
-               <pc type="indent"/>Respondeo, quod ista regula non est intelligenda de com 
-      <lb ed="#G" n="55"/>munitate generis: quia genus non significat sic principali 
-      <lb ed="#G" n="56"/>ter vnam speciem, quod aliam significet ex consequenti : sec 
-      <lb ed="#G" n="57"/>est intelligenda de communitate analogiae. Vnde si hoc 
-      <lb ed="#G" n="58"/>nomen ens per se profertur, tunc magis intelligendum 
-      <lb ed="#G" n="59"/>est de substantia, quam de accidente: hoc tamen non
-      ob<lb ed="#G" n="60" break="no"/>stante, non esset bona consequentia dicendo, hoc est ens: 
-      <lb ed="#G" n="61"/>ergo non est accidens quia &amp; si non principaliter
-      nomi<lb ed="#G" n="62" break="no"/>ne entis significatur accidens: tamen ex consequenti
-      si<lb ed="#G" n="63" break="no"/>gnificatur: igitur ad positionem entis non potest
-      legiti<lb ed="#G" n="64" break="no"/>me inferri negatio accidentis. 
-    </p>
-            <p xml:id="HuYgTa-235430-d1e782">
-               <lb ed="#G" n="65"/>
-               <pc type="indent"/>Ad primum igitur motiuum istorum doctorum dicen 
-      <lb ed="#G" n="66"/>lum, quod Christus non comparauit se praecise grano tritici 
-      <lb ed="#G" n="67"/>sed indistincte comparauit se grano frumenti, vt expressi 
-      <lb ed="#G" n="68"/>patet in textu, quem ipsimet allegant. Et per idem patet 
-      <lb ed="#G" n="69"/>ad auctoritatem Augustini, quam pro se adducunt 
-    </p>
-            <p xml:id="HuYgTa-235430-d1e799">
-               <lb ed="#G" n="70"/>
-               <pc type="indent"/>Ad illud, quod additur de <ref xml:id="HuYgTa-235430-Rd1e805">decretis</ref>, dico, quod salua illius 
-      <lb ed="#G" n="71"/>subtilis doctoris reuerentia, nec in textu, quem allegat 
-      <lb ed="#G" n="72"/>nec in apnaratu habetur, quoed in triticeo, &amp; non in alio
-      pa<lb ed="#G" n="73" break="no"/>ae consecretur. ista enim iunt verba illius textus.
-    </p>
-            <p xml:id="HuYgTa-235430-d1e816">
-      <!--671.xml-->
-               <cb ed="#G" n="b"/>
-               <lb ed="#G" n="74"/>In sacramento corporis, &amp; sanguinis domini nihil am 
-      <lb ed="#G" n="75"/>plius offeratur, quam ipse dominus tradidit, hoc est panis 
-      <lb ed="#G" n="76"/>&amp; vinum aqua mixtum: nec amplius in sacrificijs
-      offera<lb ed="#G" n="77" break="no"/>tur, quam de vuis, &amp; frumentis. Etiam apparatus ibidem 
-      <lb ed="#G" n="78"/>non excludit ab isto benedicto sacrificio aliquod verum 
-      <lb ed="#G" n="79"/>frumentum: sed excludit pper, &amp; lolium, &amp;c. quae non 
-      <lb ed="#G" n="80"/>sunt vera frumenta. Etiam ex intentione legis, <ref xml:id="HuYgTa-235430-Rd1e837" target="http://scta.info/resource/cice-l1t1-d1e119">extra de 
-        <lb ed="#G" n="81"/>sum tri. &amp; fide catho. c. Firmiter credimus</ref>, vbi specialis 
-      <lb ed="#G" n="82"/>fit mentio de materia istius sacramenti, &amp; nec in textu 
-      <lb ed="#G" n="83"/>nec in apparatu inuenire potui, quod vsquam ista
-      mate<lb ed="#G" n="84" break="no"/>ria sit limitata ad panem triticeum tantum: licet bene in 
-      <lb ed="#G" n="85"/>eniatur, quod ista materia est restricta ad panem confectu 
-      <lb ed="#G" n="86"/>de vero frumento: 
-    </p>
-            <p xml:id="HuYgTa-235430-d1e854">
-               <lb ed="#G" n="87"/>
-               <pc type="indent"/>Et cum dicitur in principio istius coclusionis, quod
-      Chri<lb ed="#G" n="88" break="no"/>stus conficiendo corpus suum sacramentaliter, vsus fuit 
-      <lb ed="#G" n="89"/>ane triticeo, &amp; hunc vsum Apostoli acceptum a
-      Chri<lb ed="#G" n="90" break="no"/>sto commiserunt ecclesiae, quamuis istud non probetur 
-      <lb ed="#G" n="91"/>&amp; forte valde difficile Sit ad probandum, eo quod nec de 
-      <lb ed="#G" n="92"/>cretum, nec decretales, nec euangelium, nec epistolae 
-      <lb ed="#G" n="93"/>nec aliqua originalia sanctorum de hoc faciant
-      mentio<lb ed="#G" n="94" break="no"/>nem: tamen hoc toto pos ito in esse, adhuc dicere posset 
-      <lb ed="#G" n="95"/>ille, qui esset oppositae opinionis, quod iste vsus non
-      ar<lb ed="#G" n="96" break="no"/>guit necessitatem, puta, qud istud sacramentum non possit 
-      <lb ed="#G" n="97"/>erfici nisi in pane tritici: sed tantummodo arguit
-      con<lb ed="#G" n="98" break="no"/>gruitate: Vnde si in omnibus speciebus frumentorum ali 
-      <lb ed="#G" n="99"/>qua species esset purior tritico, adhuc magis decens esset 
-      <lb ed="#G" n="100"/>vti illa specic, quam tritico in isto purissimo sacramentot 
-      <lb ed="#G" n="101"/>&amp; tamen hoc posito, non excluderetur panis de tritico,  
-      <lb ed="#G" n="102"/>quin ipso possemus vti in consecrando. Sic quamuis
-      ec<lb ed="#G" n="103" break="no"/>clesia vtatur pane triticeo: tamen ex hoc non
-      concludi<lb ed="#G" n="104" break="no"/>tur, quin in articulo necessitatis possit vti pane confecto 
-      <lb ed="#G" n="105"/>de grossiore frumento, dummodo sit verum frumentum, 
-    </p>
-            <p xml:id="HuYgTa-235430-d1e900">
-               <lb ed="#G" n="106"/>
-               <pc type="indent"/>Licet etiam ego per hanc texturam verborum
-      meo<lb ed="#G" n="107" break="no"/>rum non velim directe contradicere conmunitati
-      tanto<lb ed="#G" n="108" break="no"/>rum doctorum: tamen si vellem eis contradicere, haec
-      ra<lb ed="#G" n="109" break="no"/>tio me moueret 
-    </p>
-            <p xml:id="HuYgTa-235430-d1e913">
-               <lb ed="#G" n="110"/>
-               <pc type="indent"/>Quia videmus, quod maiori periculo sancta mater
-      ec<lb ed="#G" n="111" break="no"/>clesia suis statutis, &amp; praeceptis magis nititur obuiare: sed  
-      <lb ed="#G" n="112"/>si illa communis opinio esset vera, tunc maius esset peri 
-      <lb ed="#G" n="113"/>culum in consecratione Corporis Christi habere panem  
-      <lb ed="#G" n="114"/>non triticcum: quamuiscumque esset de quouis alio
-      fru<lb ed="#G" n="115" break="no"/>mento, quam in consecratione sanguinis habere calicem 
-      <lb ed="#G" n="116"/>de puro vino non admixto aqua; ergo si illa opinio esset 
-      <lb ed="#G" n="117"/>vera, tunc ecclesia Dei magis suis statutis praeciperet in 
-      <lb ed="#G" n="118"/>consecratione corporis Christi vti pane triticeo, &amp; nullo 
-      <lb ed="#G" n="119"/>alio cuiuscumque frumenti alterius specici a specie triti 
-      <lb ed="#G" n="120"/>ci, quam in consecratione sanguinis vti vino mixto, &amp; non 
-      <lb ed="#G" n="121"/>uro. Maior est nota. Probatur minor: quia maius pericu 
-      <lb ed="#G" n="122"/>um est omittere illud, quod est de necessitate sacramen 
-      <lb ed="#G" n="123"/>ti, quam illud, quod est de bene esse sacramenti: sed, secu 
-      <lb ed="#G" n="124"/>dum illam opinionem, quod panis sit triticeus, hoc est de 
-      <lb ed="#G" n="125"/>necessitate sacramenti: nam secundum eos, si non est
-      tri<lb ed="#G" n="126" break="no"/>ticeus, non consecratur corpus Christi: sed miscere aquam 
-      <lb ed="#G" n="127"/>cum vino non est de necessitate sacramenti, sed solum 
-      <lb ed="#G" n="128"/>de bene esse sacramentit: nam etiam secundum eos, &amp; se 
-      <lb ed="#G" n="129"/>tundum veritatem, dato, quod non sit aqua apposita:
-      ta<lb ed="#G" n="130" break="no"/>men vere conficitur, seu consecratur sanguis Christi. Sed  
-      <lb ed="#G" n="131"/>conclusio istius rationis est falsa: ergo aliqua praemissarum 
-      <lb ed="#G" n="132"/>erit falsa: non maior, vt de se patet, ergo minor, &amp; per
-      con<lb ed="#G" n="133" break="no"/>sequens illa opinio non videtur esse vera. Quod autem 
-      <lb ed="#G" n="134"/>conclusio Sit falsa, patet discurrenti per totum corpus
-      iu<lb ed="#G" n="135" break="no"/>ris tam in decretis, quam in idecretalibus, vbi saepissime 
-      <lb ed="#G" n="136"/>inuenitur districte preceptum de admixtione aquae cum 
-      <lb ed="#G" n="137"/>vino in calice in consecratione sanguinis, &amp; maxime hoc 
-      <lb ed="#G" n="138"/>habetur de conse. dist in multis capitulis illius distinctio 
-      <lb ed="#G" n="139"/>nis: &amp; tamen nusquam inuenitur ex statuto ecclesiae
-      prae<lb ed="#G" n="140" break="no"/>ceptum de pane triticeo habendo in consecratione
-      cor<lb ed="#G" n="141" break="no"/>poris Christi. 
-    </p>
-            <p xml:id="HuYgTa-235430-d1e987">
-               <lb ed="#G" n="142"/>
-               <pc type="indent"/>Ad tertiam instantiam factam contra
-      conclusionem<lb ed="#G" n="143" break="no"/>dicerent doctores praedicti, quod illa genera admixta
-      tripli<lb ed="#G" n="144" break="no"/>citer se possunt habere: quia vel sunt in tanta copia, quod vin 
-      <lb ed="#G" n="145"/>cunt virtutem tritici, &amp; per consequens conuertunt 
-      <lb ed="#G" n="146"/>triticum in suam naturam: vel econuerso ita modicae 
-      <!--672.xml-->
-      <pb ed="#G" n="P2_101-r"/>
-               <cb ed="#G" n="a"/>
-               <lb ed="#G" n="1"/>funt virtutis, quod vincuntur a tritico, &amp; conuertuntur 
-      <lb ed="#G" n="2"/>in naturam tritici : Vel neutra virtus plene vincit aliam: 
-      <lb ed="#G" n="3"/>sed qualibet actione alterius a sua natura remittitur, &amp;  
-      <lb ed="#G" n="4"/>per consequens ex eis fit tertia natura mixta. Primo, &amp;  
-      <lb ed="#G" n="5"/>tertio modo secundum istam opinionem non conficere 
-      <lb ed="#G" n="6"/>tur corpus Christi ex benedictione talis panis, eo quod 
-      <lb ed="#G" n="7"/>simpliciter non esset triticeus: Sed secundo modo vere 
-      <lb ed="#G" n="8"/>conficeretur: quia ille panis vere esset triticeus, quamui 
-      <lb ed="#G" n="9"/>non ita purus, sicut si illa alia grana non fuissent admixta 
-      <lb ed="#G" n="10"/>Sed qui nollet tenere istam opinionem, ille posset dicere 
-      <lb ed="#G" n="11"/>quod si illa grana admixta tritico sunt grana veri frumer 
-      <lb ed="#G" n="12"/>ti, tunc siue grana admixta vincant grana tritici, siue econ 
-      <lb ed="#G" n="13"/>uerso vincantur a granis tritici, siue propter aequalitaten 
-      <lb ed="#G" n="14"/>virtutis faciant quoddam mixtum, de genere tamen
-      fru<lb ed="#G" n="15" break="no"/>mentorum, semper de pane ex talibus granis decocto, ve 
-      <lb ed="#G" n="16"/>re potest confici corpus Christi, eo quod talis panis veri 
-      <lb ed="#G" n="17"/>sit factus de granis frumentorum. Vnde quia raro
-      inue<lb ed="#G" n="18" break="no"/>nitur aliqua species frumenti omnino sincera: sed vt plu 
-      <lb ed="#G" n="19"/>rimum, grana vnius speciei miscentur granis alterius spo 
-      <lb ed="#G" n="20"/>ciei: ideo notanter illud decretum superius allegatum 
-      <lb ed="#G" n="21"/>
-               <ref xml:id="HuYgTa-235430-Rd1e1054">de conse. dist. 2.</ref> loquitur in plurali de frumentis sic
-      di<lb ed="#G" n="22" break="no"/>cens. Nec amplius in sacrificus scilicet corporis, &amp;
-      san<lb ed="#G" n="23" break="no"/>guinis Christi offeratur, quam de vuis, &amp; frumentis. Si 
-      <lb ed="#G" n="24"/>autem grana admixta tritico non sunt de genere frumer 
-      <lb ed="#G" n="25"/>torum, tunc potest dici iuxta tripartitam distinctionem 
-      <lb ed="#G" n="26"/>praemissam, quod ita modicum posset esse de illa
-      admix<lb ed="#G" n="27" break="no"/>ta materia, quod etiam si esset de lapide, adhuc non
-      ob<lb ed="#G" n="28" break="no"/>staret quin ex pane tali vere conficeretur corpus Christi 
-      <lb ed="#G" n="29"/>Et ista videtur esse intentio apparatus superius adducti 
-      <lb ed="#G" n="30"/>excludentis piper, &amp; lolium: Dicit enim, quod si piper 
-      <lb ed="#G" n="31"/>vel lolium frumento admisceretur, tunc de illa parte, 
-      <lb ed="#G" n="32"/>quae videlicet includeret piper; vel lolium, non
-      confice<lb ed="#G" n="33" break="no"/>retur: sed de reliqua, hoc est, de alia parte eiusdem panis. 
-      <lb ed="#G" n="34"/>vbi esset materia frumenti sine pipere, vere conficeretur. 
-    </p>
-            <p xml:id="HuYgTa-235430-d1e1087">
-               <lb ed="#G" n="35"/>
-               <pc type="indent"/>Tertio dico, quod decens est, &amp; conueniens, vt panis 
-      <lb ed="#G" n="36"/>praedictus sit aximus: quia prima die aximorum non
-      de<lb ed="#G" n="37" break="no"/>buit inueniri fermentatum in domibus ludaeorum, vt pa 
-      <lb ed="#G" n="38"/>et in Exod, sed prima dic aximorum Christus comedit 
-      <lb ed="#G" n="39"/>asca cum discipulis suis, &amp; tunc istud sacramentum
-      in<lb ed="#G" n="40" break="no"/>tituit cum corpus suum de pane confecit. ergo Christus 
-      <lb ed="#G" n="41"/>in aximo pane confecit, &amp; per consequens etiam nos 
-      <lb ed="#G" n="42"/>in aximo pane conficere debemus. Minor patet expresse 
-      <lb ed="#G" n="43"/>in Euangelijs. Conclusionem istam Qraeci negant, &amp;
-      di<lb ed="#G" n="44" break="no"/>cunt, quod panis fermentatus sit de necessitate
-      sacramen<lb ed="#G" n="45" break="no"/>ti, &amp; ideo dicunt Latinos non consecrate, eo que in
-      conse<lb ed="#G" n="46" break="no"/>crando vtuntur pane aximo: Dicunt etiam Christum 
-      <lb ed="#G" n="47"/>consecrasse in fermento
-    </p>
-            <p xml:id="HuYgTa-235430-d1e1120">
-               <lb ed="#G" n="48"/>1 Et si dicitur eis, quod primo dic aximorum non fui 
-      <lb ed="#G" n="49"/>fermentatum in domibus ludaecrum, ipsi respondent, qo 
-      <lb ed="#G" n="50"/>Christus non consecrauit prima die aximorum: quia illa  
-      <lb ed="#G" n="51"/>die, vt dicunt, Christus mortuus est in cruce, quod
-      pro<lb ed="#G" n="52" break="no"/>pant per illud loan ludaei non introierunt in praetorium 
-      <lb ed="#G" n="53"/>vt non contaminarentur, sed manducarent pasca : ergi 
-      <lb ed="#G" n="54"/>patet, quod nondum comederant agnum pascalem, qui 
-      <lb ed="#G" n="55"/>sibi nominatur pasca : Cum igitur agnus pascalis comed 
-      <lb ed="#G" n="56"/>debuerit prima die aximorum, vt patet in Exo. &amp; illud 
-      <lb ed="#G" n="57"/>quod iam dictum est de ludaeis, fuerit die veneris, qua po 
-      <lb ed="#G" n="58"/>tierunt a Pilato, vt Christum crucifigerent: ergo dies
-      io<lb ed="#G" n="59" break="no"/>nis proxime praecedens non potuit esse prima dies
-      axi<lb ed="#G" n="60" break="no"/>morum, &amp; per consequens in domibus ludaeorum tunc 
-      <lb ed="#G" n="61"/>suit fermentatum, de quo Christus in coena consecrauit 
-      <lb ed="#G" n="62"/>corpus suum.
-    </p>
-            <p xml:id="HuYgTa-235430-d1e1155">
-               <lb ed="#G" n="63"/>2 Praeterea, dies festus pascae erat prima dies aximorum; 
-      <lb ed="#G" n="64"/>sed dies coenae fuit ante diem festum pascae, vt patet in 
-      <lb ed="#G" n="65"/>soan. vbi loannes notans diem coenae ait. Ante diem
-      fe<lb ed="#G" n="66" break="no"/>stum paseae &amp;c. Et quia contra istud commentum
-      falsissi<lb ed="#G" n="67" break="no"/>mum sunt expresse tres superius notati euangelistae, scili 
-      <lb ed="#G" n="68"/>cet Matthaeus, Marcus, &amp; Lucas: ideo aliqui (araecorum 
-      <lb ed="#G" n="69"/>ad tantam insaniam deuenerunt, quod dicerent tres pra 
-      <lb ed="#G" n="70"/>dictos euangelistas falsum scripsisse: &amp; ideo eos correctos 
-      <lb ed="#G" n="71"/>fuisse per loan verbis iam allegatis. Sed istud non valet 
-      <lb ed="#G" n="72"/>Quia, vt recitant multi, &amp; magni doctores, ab exordi 
-      <lb ed="#G" n="73"/>institutionis istius sacramenti vsque ad Leonem Papam 
-      <!--672.xml-->
-      <cb ed="#G" n="b"/>
-               <lb ed="#G" n="74"/>tota ecclesia Dei confecit in aximo: sed temporeLeonis 
-      <lb ed="#G" n="75"/>Papae ad extirpandam haeresim Ebionitarum, qui dice 
-      <lb ed="#G" n="76"/>bant, quod de necessitate salutis oporteret quemlibet ho 
-      <lb ed="#G" n="77"/>minem cum obseruatione euangelij obseruare
-      ceremo<lb ed="#G" n="78" break="no"/>nialia legis praecepta, &amp; per consequens consecrare in
-      axi<lb ed="#G" n="79" break="no"/>mo, tunc praecebit ecclesia conficere ex fermentato. Dein 
-      <lb ed="#G" n="80"/>de post aliquo rum annorum curricula, iam dicta haeresi 
-      <lb ed="#G" n="81"/>penitus ext irpata, sacerdotes in partibus Latinis, primum 
-      <lb ed="#G" n="82"/>modum, scilicet consecrandi in aximo resumpserunt, eo 
-      <lb ed="#G" n="83"/>quod clare deducitur ex euangelio, vt superius patuit,  
-      <lb ed="#G" n="84"/>Christum in aximo con secrasse. Sacerdotes vero Qraeciae 
-      <lb ed="#G" n="85"/>modum primum non resumpserunt: sed consecrationem 
-      <lb ed="#G" n="86"/>in fermentato vsque ad haec tempora continuerunt. Ex 
-      <lb ed="#G" n="87"/>quo, patet, quod isti fatui Oraeci imponendo nobis, quoc 
-      <lb ed="#G" n="88"/>non consecremus, eo quod consecrando vtimur aximo, 
-      <lb ed="#G" n="89"/>ipsi hanc rabiem imponunt patribus suis, &amp; sanctissimis 
-      <lb ed="#G" n="90"/>doctoribus suis, &amp; omnibus suis sacerdotibus, qui Leonem 
-      <lb ed="#G" n="91"/>Papam praecesserunt. Et in hoc etiam loquuntur contra 
-      <lb ed="#G" n="92"/>Apostolum Paulum primordialem doctor em eorum, 
-      <lb ed="#G" n="93"/>qui loquens de isto sacramento ait. Itaque epulemur in axi 
-      <lb ed="#G" n="94"/>mis sinceritatis, &amp; Veritatis. Quod vtique Apostolus non  
-      <lb ed="#G" n="95"/>dixisset: si in fermentato consecrasset 
-    </p>
-            <p xml:id="HuYgTa-235430-d1e1233">
-               <lb ed="#G" n="96"/>2 Praeterea, dato, quod Christus manducasset pasca 
-      <lb ed="#G" n="97"/>ante diem. 14. 1. mensis, quo die ex praecepto legis agnus 
-      <lb ed="#G" n="98"/>pascalis comedi debuit, quem diem euangelistae vocant 
-      <lb ed="#G" n="99"/>primam diem aximorum, adhuc ista fictio non valet istis 
-      <lb ed="#G" n="100"/>fictoribus: quia sicut patet in Exod. &amp; in Num. lex
-      prae<lb ed="#G" n="101" break="no"/>cepit vt agnus pascalis comederetur cum aximis, &amp;
-      lactu<lb ed="#G" n="102" break="no"/>cis agrestibus Sed Christus dicit, No veni soluere legem, 
-      <lb ed="#G" n="103"/>sed adimplere. Quod verbum tractans Chrysostomus
-      su<lb ed="#G" n="104" break="no"/>per Mat. ait. Apertissime dominus demonstrauit, quod 
-      <lb ed="#G" n="105"/>s principio circumcisionis suae vsque ad diem pascae extre 
-      <lb ed="#G" n="106"/>mae non erat contrarius diuinis legibus in quibus
-      praeci<lb ed="#G" n="107" break="no"/>piebatur, vt cum aximis agnus pascalis comederetur: ergo 
-      <lb ed="#G" n="108"/>Christus tamquam perfecti ssimus legis obseruator pane 
-      <lb ed="#G" n="109"/>aximum habuit in mensa: quando post esum agni corpus 
-      <lb ed="#G" n="110"/>suum consecrauit. 
-    </p>
-            <p xml:id="HuYgTa-235430-d1e1268">
-               <lb ed="#G" n="111"/>
-               <pc type="indent"/>Ad primum motiuum Oraecorum potest respondori 
-      <lb ed="#G" n="112"/>ex verbis Chrysostomi, qui erat doctor Oraecorum: ipse 
-      <lb ed="#G" n="113"/>enim super Matth. ait, quod illi lud aei, vt desiderium sut 
-      <lb ed="#G" n="114"/>ossent implere in morte Christi, non comederunt pas 
-      <lb ed="#G" n="115"/>calem agnum vespere praecedenti, qua muis ex praecepro 
-      <lb ed="#G" n="116"/>legis hoc facere tenerentur: Christus autem, qui non erat 
-      <lb ed="#G" n="117"/>praeuaricat or legis, sed perfectus obseruator, comedit 
-      <lb ed="#G" n="118"/>pasca cum discipulis suis decimaquarta die ad vesperam 
-      <lb ed="#G" n="119"/>sicut praecipitur in lege. Dato etiam, quod ipsi vespere prae 
-      <lb ed="#G" n="120"/>cedente comedissent pasca, accipiendo pasca pro agno pa 
-      <lb ed="#G" n="121"/>scali, adhuc non debuerunt intrare praetorium: propter 
-      <lb ed="#G" n="122"/>hoc vt illo dic manducarent pasca, accipiendo pasca pro 
-      <lb ed="#G" n="123"/>pane aximo: Quinque nm. modis dicitur pasca inter quos 
-      <lb ed="#G" n="124"/>vnus est, quod pasca dicitur cibus pascalis, seu panis aximus, vt 
-      <lb ed="#G" n="125"/>patet per <ref xml:id="HuYgTa-235430-Rd1e1304">Innocentium tertium in libro de officio misse 
-        <lb ed="#G" n="126"/>arte. 3. cap. 4.</ref> 
-            </p>
-            <p xml:id="HuYgTa-235430-d1e1310">
-               <lb ed="#G" n="127"/>
-               <pc type="indent"/>Ad secundum dicendum, quod quintadecima dies mensis 
-      <lb ed="#G" n="128"/>primi erat dies celeberrimus secundum praeceptum legis 
-      <lb ed="#G" n="129"/>vt patet Exod. 12. &amp; proximo vespere praecedenti
-      come<lb ed="#G" n="130" break="no"/>debatur agnus pascalis, Vt patet ibidem. lllud igitui 
-      <lb ed="#G" n="131"/>inte, quod ponit loannes, non est referendum ad diem  
-      <lb ed="#G" n="132"/>de cimumquartum, in cuius vespere manducandus erat 
-      <lb ed="#G" n="133"/>agnus: sed referendum est ad diem quintum decimum, qui 
-      <lb ed="#G" n="134"/>propter sui celebritatem dicebatur festus dies pascae. Istud 
-      <lb ed="#G" n="135"/>etiam patet Nu. 28. vbi dicitur sic. Mense autem primo 
-      <lb ed="#G" n="136"/>quartadecima die mensis, phase domini erit, &amp;
-      quinta<lb ed="#G" n="137" break="no"/>decima die sollemnitas aximorum: septem diebus vescen 
-      <lb ed="#G" n="138"/>tur aximis, quarum dies prima venerabilis, &amp; sancta erit. 
-      <lb ed="#G" n="139"/>Quod autem per Iy phase intelligatur immolatio agni 
-      <lb ed="#G" n="140"/>aschalis, hoc patet Deuter. 15 vbi dicitur populo Israel,  
-      <lb ed="#G" n="141"/>immolabis phase ad solis occubitum, quando egressus es 
-      <lb ed="#G" n="142"/>de Aegvpto, &amp; comedes in loco, quem elegerit dominus 
-      <lb ed="#G" n="143"/>Deus tuus. 
-    </p>
-            <p xml:id="HuYgTa-235430-d1e1353">
-               <lb ed="#G" n="144"/>
-               <pc type="indent"/>Secundo, quo ad istum primum articulum circa secun 
-      <lb ed="#G" n="145"/>dam eius partem pono duas conclusiones. Prima est, qu 
-      <lb ed="#G" n="146"/>de nullo alio, vino quam de naturali vino vitis potest ffer; 
-      <!--673.xml-->
-      <pb ed="#G" n="P2_101-v"/>
-               <cb ed="#G" n="a"/>
-               <lb ed="#G" n="1"/>tonfecratio sanguinis Christi: quia in tali vino Christus 
-      <lb ed="#G" n="2"/>instituens istud sactamentum consecrauit, vt patet in 
-      <lb ed="#G" n="3"/>Matth. Ex ista conclusione possunt inferri tria corollaria, 
-      <lb ed="#G" n="4"/>Primum est, quod de vino pomorum, &amp; cerasorum, vel
-      quo<lb ed="#G" n="5" break="no"/>rumcumque aliorum fructuum, solo fructu vitis excepto 
-      <lb ed="#G" n="6"/>non potest fieri sanguinis Christi consecratio, eo quod 
-      <lb ed="#G" n="7"/>nullum illorum sit vinum vitis.  
-    </p>
-            <p xml:id="HuYgTa-235430-d1e1386">
-               <lb ed="#G" n="8"/>
-               <pc type="indent"/>Secundum est, quod de vero aceto non potest fieri
-      com<lb ed="#G" n="9" break="no"/>secratio: quia sicut homo mortuus non est homo, sic
-      ace<lb ed="#G" n="10" break="no"/>tum cum sit vinum corruptum, non est vinum, vt ait <ref xml:id="HuYgTa-235430-Rd1e1396">Ari 
-        <lb ed="#G" n="11"/>stotel. 8, Meta.</ref> Et hoc patet ex naturalibus qualitatibus 
-      <lb ed="#G" n="12"/>eorum: quia vinum naturaliter calefacit, &amp; acetum natu 
-      <lb ed="#G" n="13"/>raliter frigefacit. Notanter autem dixi de vero aceto: 
-      <lb ed="#G" n="14"/>quia licet quandoque vinum sit acetosum, seu dispositum 
-      <lb ed="#G" n="15"/>ad acetum : tamen de huiusmodi vino potest fieri sangui 
-      <lb ed="#G" n="16"/>nis consecratio, dummodo adhuc habeat formam substan 
-      <lb ed="#G" n="17"/>tialem vini, &amp; non aceti. 
-    </p>
-            <p xml:id="HuYgTa-235430-d1e1415">
-               <lb ed="#G" n="18"/>
-               <pc type="indent"/>Tertium corollarium est, quod de vergusio non
-      po<lb ed="#G" n="19" break="no"/>test fieri praedicta consecratio; Quia quamdiu res est in 
-      <lb ed="#G" n="20"/>fieri, tunc non est in facto esse: sed vua agresta, de qua ex 
-      <lb ed="#G" n="21"/>primitur vergusium, est adhuc in fieri quo ad vinum: ergo 
-      <lb ed="#G" n="22"/>vergusium non est vinum.  
-    </p>
-            <p xml:id="HuYgTa-235430-d1e1431">
-               <lb ed="#G" n="23"/>
-               <pc type="indent"/>Secunda conclusio est quod huiusmodi vino debet ad 
-      <lb ed="#G" n="24"/>misceri aqua. Primo, quia sic creditur Christus
-      conse<lb ed="#G" n="25" break="no"/>crasse, vt ait <ref xml:id="HuYgTa-235430-Rd1e1441">Damascenus lib. 4.</ref> Communis enim
-      con<lb ed="#G" n="26" break="no"/>suetudo terrae sanctae est non bibere vinum, nisi sit
-      lim<lb ed="#G" n="27" break="no"/>phatum, &amp; hoc propter fortitudinem vini crescentis in 
-      <lb ed="#G" n="28"/>illa patria: Et ideo verisimile est, quod Christus, qui ordi 
-      <lb ed="#G" n="29"/>natissimam, &amp; temperatissimam vitam duxit cum discipu 
-      <lb ed="#G" n="30"/>lis suis, vinum lymphauerit, quod consecrauit. Secundo, quia 
-      <lb ed="#G" n="31"/>istud est de statuto ecclesiae, vt patet <ref xml:id="HuYgTa-235430-Rd1e1458">de conse. dist. 2. c. 1.</ref> 
-               <lb ed="#G" n="32"/>&amp;c. in sacramento. Cauere tamen debet, qui calice
-      prae<lb ed="#G" n="33" break="no"/>parat, ne multum ponat de aqua, &amp; maxime quando
-      vi<lb ed="#G" n="34" break="no"/>num est debile propter duo. Primo, quia si tantum
-      po<lb ed="#G" n="35" break="no"/>neretur de aqua, quod aqua vinum a sua natura transmuta 
-      <lb ed="#G" n="36"/>ret in tantum, quod vinum conuerteretur in aquam, ve 
-      <lb ed="#G" n="37"/>quod ex aqua, &amp; vino resultaret quoddam mixtum, quod 
-      <lb ed="#G" n="38"/>nec esset aqua, nec vinum, tunc non fieret sanguinis Chri 
-      <lb ed="#G" n="39"/>sti consecratio, Secundo, quia nisi aqua infusa vincatur a 
-      <lb ed="#G" n="40"/>virtute vini totaliter, &amp; in vinum conuertatur, tunc licet 
-      <lb ed="#G" n="41"/>partes vini conuerterentur in sanguinem, tamen ille hu 
-      <lb ed="#G" n="42"/>mor aqueus, qui nondum esset conuersus in naturam
-      vi<lb ed="#G" n="43" break="no"/>ni, non conuerteretur in sanguimem: Et ideo valde parum 
-      <lb ed="#G" n="44"/>debet poni de aqua, vt illa aqua in naturam vini sit
-      con<lb ed="#G" n="45" break="no"/>uersa prius, quam verba consecrationis dicantur super
-      calice<lb ed="#G" n="46" break="no"/>est etiam hic aduertendum, quod apposito aquae non 
-      <lb ed="#G" n="47"/>est de necessitate sacramenti: quia si non apponeretur: tamen 
-      <lb ed="#G" n="48"/>vere consecraretur sanguis Christi ex vino puro : Est
-      ta<lb ed="#G" n="49" break="no"/>men de necessitate consecrantis: quia sacerdos consecrans 
-      <lb ed="#G" n="50"/>sine aqua admixta uino, faceret contra statutum
-      eccle<lb ed="#G" n="51" break="no"/>siae Homanae. Et notanter dico, Homanae: quia in
-      ecclesi<lb ed="#G" n="52" break="no"/>Oraecorum fit consecratio sine aqua¬ 
-    </p>
-            <p xml:id="HuYgTa-235430-d1e1507">
-               <lb ed="#G" n="53"/>
-               <pc type="indent"/>ARTICVLV S 1i. 
-      <lb ed="#G" n="54"/>Vtrum cucharistia vnum sit sacramentum 
-    </p>
-            <p xml:id="HuYgTa-235430-d1e1516">
-               <lb ed="#G" n="55"/>VAMTVM ad secundum articulum dico sicut
-      di<lb ed="#G" n="56" break="no"/>Sxi <ref xml:id="HuYgTa-235430-Rd1e1522">superius dist. 8. in solutione argumenti princi 
-        <lb ed="#G" n="57"/>palis</ref>, nec aliquid aliud ad praesens addo causa breuitatis. 
-    </p>
-            <p xml:id="HuYgTa-235430-d1e1529">
-               <lb ed="#G" n="58"/>
-               <pc type="indent"/>AR TICVLV s rii. 
-      <lb ed="#G" n="59"/>Vtrum sub vtraque specie panis scilicet, &amp; vmi istud 
-      <lb ed="#G" n="60"/>sacramentum sit tradendum populo Christiano. 
-    </p>
-            <p xml:id="HuYgTa-235430-d1e1540">
-               <lb ed="#G" n="61"/>
-               <pc type="indent"/>VANTVM ad tertium articulum dicendum, quod 
-      <lb ed="#G" n="62"/>
-               <pc type="indent"/>icet in passione Christi sanguis eius a corpore 
-      <lb ed="#G" n="63"/>fuerit separatus vsque ad horam, qua surrexit a mortuis, 
-      <lb ed="#G" n="64"/>&amp; per consequens, qui consecrasset in tempore medio, il 
-      <lb ed="#G" n="65"/>le sub speciebus panis habuisset corpus sine sanguine, &amp;  
-      <lb ed="#G" n="66"/>sub speciebus vini habuisset sanguinem sine corpore: ta¬ 
-      <!--673.xml-->
-      <cb ed="#G" n="b"/>
-               <lb ed="#G" n="67"/>men post resurrectionem Christi sanguis eius semperma 
-      <lb ed="#G" n="68"/>sit vnitus corpori, &amp; in sempiternum sic manebit: ide; 
-      <lb ed="#G" n="69"/>qui post resurrectionem consecrauit, vel in futurum col 
-      <lb ed="#G" n="70"/>secrabit popter vnionem realem sanguinis, &amp; corpons 
-      <lb ed="#G" n="71"/>Christi sub vtraque specic panis, scilicet &amp; vini, habet co 
-      <lb ed="#G" n="72"/>us, &amp; sanguinem domini lesu Christi: ideo commum 
-      <lb ed="#G" n="73"/>populo secundum consuetudinem Romanae ecclesie
-      ve<lb ed="#G" n="74" break="no"/>ritas corporis, &amp; sanguinis datur tantum modo sub spece 
-      <lb ed="#G" n="75"/>panis, &amp; hoc propter vitandum periculum effusionis, ial 
-      <lb ed="#G" n="76"/>distillationis sanguinis, quod posset accidere, si sub spo 
-      <lb ed="#G" n="77"/>cie vini rudi, immorigerato, &amp; impetuoso populo sangim 
-      <lb ed="#G" n="78"/>traderetur. 
-    </p>
-            <p xml:id="HuYgTa-235430-d1e1590">
-               <lb ed="#G" n="79"/>I1 Forte dicetur, si sub accidentibus, seu speciebusmll 
-      <lb ed="#G" n="80"/>nis vere habetur sanguis Christi, tunc in vanum iterun 
-      <lb ed="#G" n="81"/>consecratur sanguis Christi calicis benedictione
-      Conse<lb ed="#G" n="82" break="no"/>quentia patet: quia frustra ordinatur aliquis actus ad h 
-      <lb ed="#G" n="83"/>bendum, quod iam realiter habetur.
-    </p>
-            <p xml:id="HuYgTa-235430-d1e1603">
-               <lb ed="#G" n="84"/>2 Praeterea, Christus dicit. Nisi manducaueritis cam 
-      <lb ed="#G" n="85"/>filij hominis, &amp; biberitis eius sanguinem, non habebits 
-      <lb ed="#G" n="86"/>vitam in vobis: sed sanguis per modum potus datur soli. 
-      <lb ed="#G" n="87"/>ub speciebus vini: igitur cuilibet Christiano debet
-      san<lb ed="#G" n="88" break="no"/>guis dari etiam sub speciebus vini ad hoc, vt non
-      prine<lb ed="#G" n="89" break="no"/>tur vita spirituali, &amp; aeterna, 
-    </p>
-            <p xml:id="HuYgTa-235430-d1e1619">
-               <lb ed="#G" n="90"/>
-               <pc type="indent"/>3 Praeterea, omnis ordinata refectio datur per modi 
-      <lb ed="#G" n="91"/>cibi, &amp; potus: sed istius sacramenti communio est quaedi 
-      <lb ed="#G" n="92"/>prdinata spiritualis refectio: ergo &amp;c. 
-    </p>
-            <p xml:id="HuYgTa-235430-d1e1630">
-               <lb ed="#G" n="93"/>
-               <pc type="indent"/>4 Praeterea, Craeci illud sactamentum tradunt por 
-      <lb ed="#G" n="94"/>lo sub speciebus panis, &amp; vini, &amp; hunc ritum putantura 
-      <lb ed="#G" n="95"/>cepisse a Deato Paulo Apostolo: ergo &amp;c. 
-    </p>
-            <p xml:id="HuYgTa-235430-d1e1642">
-               <lb ed="#G" n="96"/>
-               <pc type="indent"/>Ad primum nego consequentiam. Ad probationi 
-      <lb ed="#G" n="97"/>dicendum, quod istud sacramentum non solum significat do 
-      <lb ed="#G" n="98"/>futuro nobis gratiam conferendam mediante percepto 
-      <lb ed="#G" n="99"/>ne istius benedicti sacramenti: verum etiam de praetentoi 
-      <lb ed="#G" n="100"/>ignificat Christi passionem: ideo distincte debet fieri ta 
-      <lb ed="#G" n="101"/>secratio sanguinis, vt expresse significetur, quod in Chriid 
-      <lb ed="#G" n="102"/>passione sanguis eius per effusionem fuit separatus a coni 
-      <lb ed="#G" n="103"/>pore: igitur quamuis sanguis Christi sit concomitantol 
-      <lb ed="#G" n="104"/>sub speciebus panis, sub quibus corpus vnitum sangun 
-      <lb ed="#G" n="105"/>est ex vi sacramenti: tamen propter praedictam signitel 
-      <lb ed="#G" n="106"/>tionem idem sanguis ex vi sacramenti est sub specien 
-      <lb ed="#G" n="107"/>vini, &amp; corpus concomitanter, cui huiusmodi sanguis ml 
-      <lb ed="#G" n="108"/>nunc realiter est vnitus. Et istud non debet dici fruum 
-      <lb ed="#G" n="109"/>uia rationabilem causam habet, puta significationel 
-      <lb ed="#G" n="110"/>am dictam. Etiam actus, qui ordinatur ad habendumi 
-      <lb ed="#G" n="111"/>lud, quod habetur alio modo, quam pro nunc haben 
-      <lb ed="#G" n="112"/>talis actus non est frustra: sed sic est in proposito, quia acu 
-      <lb ed="#G" n="113"/>uo sanguis consecratur, ordinatur ad hoc, vt sangl 
-      <lb ed="#G" n="114"/>christi nabeatur ex vi sacramenti sub speciebus vini qu 
-      <lb ed="#G" n="115"/>rius sub speciebus panis habebatur cocomitanter, &amp;no 
-      <lb ed="#G" n="116"/>ex vi sacramenti. 
-    </p>
-            <p xml:id="HuYgTa-235430-d1e1692">
-               <lb ed="#G" n="117"/>
-               <pc type="indent"/>Ad secundum dicendum, quod qui digne recipit co 
-      <lb ed="#G" n="118"/>us Christi sub speciebus panis, vere manducat eius am 
-      <lb ed="#G" n="119"/>nem, &amp; bibit eius sanguinem: quamquam hoc non fa 
-      <lb ed="#G" n="120"/>sub ista expresso signo, Sicut si reciperet istud sacramenmi 
-      <lb ed="#G" n="121"/>etiam sub accidentibus vini. Sub qualibet enim speed 
-      <lb ed="#G" n="122"/>panis, s: &amp; vini habetur totus Christus, qui est animesi 
-      <lb ed="#G" n="123"/>ritualis &amp; cibus, &amp; potus.
-    </p>
-            <p xml:id="HuYgTa-235430-d1e1712">
-               <lb ed="#G" n="124"/>Ad tertium dicendum, quod cui datur corpus Chriu 
-      <lb ed="#G" n="125"/>illi datur spiritualis refectio pr modum cibi, &amp; potus quad 
-      <lb ed="#G" n="126"/>ad re significata, licet non quantum ad specien signincantem 
-    </p>
-            <p xml:id="HuYgTa-235430-d1e1721">
-               <lb ed="#G" n="127"/>
-               <pc type="indent"/>Ad quartum dicendum, que in hoc Qraeci non repteno 
-      <lb ed="#G" n="128"/>duntur, &amp; dato, quod bene faciant, tamen melius faenus 
-      <lb ed="#G" n="129"/>atini, qui magis caute obuiant periculo, quod posset  
-      <lb ed="#G" n="130"/>tingere ex sanguinis effusione. 
-    </p>
-            <p xml:id="HuYgTa-235430-d1e1734">
-               <lb ed="#G" n="131"/>
-               <pc type="indent"/>ARTICVLVS II 
-      <lb ed="#G" n="132"/>Vtrum sub vtr aque specie, christus in egna simpso 
-      <lb ed="#G" n="133"/>
-               <pc type="indent"/>rit seipsum, ac tradiderit omnibus discipuus, 
-    </p>
-            <p xml:id="HuYgTa-235430-d1e1747">
-               <lb ed="#G" n="134"/>
-               <pc type="indent"/>VANTVM ad quartum articulum pono duas
-      con<lb ed="#G" n="135" break="no"/>ualusiones. Prima est, que in communione sacd 
-      <!--674.xml-->
-      <pb ed="#G" n="P2_102-r"/>
-               <cb ed="#G" n="a"/>
-               <lb ed="#G" n="1"/>uando Christus se trad idit discipulis suis ad
-      manducan<lb ed="#G" n="2" break="no"/>dum etiam ipse manducauit, &amp; bibit corpus suum, &amp;
-      san<lb ed="#G" n="3" break="no"/>guinem suum. Istud quamuis non habeatur expresse ex 
-      <lb ed="#G" n="4"/>euangelio: potest tamen haberi ex sanctorum doctorum 
-      <lb ed="#G" n="5"/>testimonio 
-    </p>
-            <p xml:id="HuYgTa-235430-d1e1774">
-               <lb ed="#G" n="6"/>
-               <pc type="indent"/>Quia heatus Hieronvmus dicit, &amp; habetur <ref xml:id="HuYgTa-235430-Rd1e1780">de
-      con<lb ed="#G" n="7" break="no"/>se. dist. 2: c. non Movses.</ref> Dns lesus ipse cum Apostolis 
-      <lb ed="#G" n="8"/>conuiua, &amp; conuiuium ipse comedens, &amp; qui comeditur. 
-    </p>
-            <p xml:id="HuYgTa-235430-d1e1788">
-               <lb ed="#G" n="9"/>
-               <pc type="indent"/>Praeterea, super illo verbo, de sanguine arietis,
-      di<lb ed="#G" n="10" break="no"/>cit glosa Esicij, sic, primo sacerdos, deinde filij intingebant 
-      <lb ed="#G" n="11"/>quia Christus in coena prius sanguinem suum accepit,
-      dein<lb ed="#G" n="12" break="no"/>de discipulis suis dedit, bibit enim, &amp; aliis bibere dedit. 
-      <lb ed="#G" n="13"/>3 Praeterea, ficut Christus prius baptixatus est, vt
-      da<lb ed="#G" n="14" break="no"/>ret aliis exemplum baptir andi, sic ipse prius istius sacra 
-      <lb ed="#G" n="15"/>menti percepit communionem, vt aliis daret exemplum 
-      <lb ed="#G" n="16"/>ommunicandi
-    </p>
-            <p xml:id="HuYgTa-235430-d1e1810">
-               <lb ed="#G" n="17"/>4 Praeterea, <ref xml:id="HuYgTa-235430-Rd1e1814" target="http://scta.info/resource/cice-l1t1-d1e119">extra de sum tri, &amp; fide catholica. c.
-      Fir<lb ed="#G" n="18" break="no"/>imiter credimus</ref>: in apparatu habentur isti versus. Rex 
-      <lb ed="#G" n="19"/>sedet in coena, cinctus turba duodena. Se tenet in
-      mani<lb ed="#G" n="20" break="no"/>bus: se cibat ipse cibus. 
-    </p>
-            <p xml:id="HuYgTa-235430-d1e1824">
-               <lb ed="#G" n="21"/>
-               <pc type="indent"/>Sed contra istud est quorundam doctorum opinio, que 
-      <lb ed="#G" n="22"/>robatur sic. Essentialis differentia est inter comedens, 
-      <lb ed="#G" n="23"/>&amp; comestum sed Christus non potuit essentialiter a
-      se<lb ed="#G" n="24" break="no"/>ipso differre : ergo non potuit seipsum comedere. 
-    </p>
-            <p xml:id="HuYgTa-235430-d1e1837">
-               <lb ed="#G" n="25"/>
-               <pc type="indent"/> Praeterea, assumptum, &amp; assumens realiter differunt: 
-      <lb ed="#G" n="26"/>nihil enim assumit seipsum: sed quod comeditur, a
-      co<lb ed="#G" n="27" break="no"/>nedente assumitur.
-    </p>
-            <p xml:id="HuYgTa-235430-d1e1848">
-               <lb ed="#G" n="28"/>3 Praeterea, duo sunt modi sumendi istud
-      sacramen<lb ed="#G" n="29" break="no"/>um, scilicet sacramentalis, &amp; spiritualis, sed nullo
-      isto<lb ed="#G" n="30" break="no"/>um modorum Christus sumpsit illud sacramentum. Non 
-      <lb ed="#G" n="31"/>spiritualiter : quia sumens spiritualiter istud
-      sactamen<lb ed="#G" n="32" break="no"/>um, augetur in gratia : sed Christus non potuit augeri 
-      <lb ed="#G" n="33"/>gratia: quia ab instanti conceptionis suae habuit
-      gra<lb ed="#G" n="34" break="no"/>im non ad mensuram. Nec sacramentaliter: quia ipse 
-      <lb ed="#G" n="35"/>st verus compre hensor: ergo fruebatur seipso nude, &amp;  
-      <lb ed="#G" n="36"/>ne sacramentali velamine
-    </p>
-            <p xml:id="HuYgTa-235430-d1e1871">
-               <lb ed="#G" n="37"/>Ad primum dicendum, quod licet illud, quod comeditur 
-      <lb ed="#G" n="38"/>orporaliter, &amp; naturaliter differt a comedente
-      essen<lb ed="#G" n="39" break="no"/>aliter, seu realiter : hoc tamen non est necesse
-      loquen<lb ed="#G" n="40" break="no"/>o de eo, quod comeditur spiritualiter, &amp;
-      sacramentali<lb ed="#G" n="41" break="no"/>t, vt est in proposito: quia licet in comestione corpo 
-      <lb ed="#G" n="42"/>lires, quae comeditur, diuidatur, &amp; corrumpatur ab 
-      <lb ed="#G" n="43"/>tione comedentis saluo manente ipso comedente, &amp;  
-      <lb ed="#G" n="44"/>a consequens necessaria est differentia inter
-      comeden<lb ed="#G" n="45" break="no"/>m, &amp; comestum: tamen illud, quod spiritualiter, vel 
-      <lb ed="#G" n="46"/>eramentaliter comeditur, nec diuiditur, nec corrumpitur 
-      <lb ed="#G" n="47"/>ideo non est. necessaria huiusmodi differentia inter
-      co<lb ed="#G" n="48" break="no"/>edentem, &amp; comestum
-    </p>
-            <p xml:id="HuYgTa-235430-d1e1900">
-               <lb ed="#G" n="49"/>Ad secundum dicendum, quod maior non est necessaria 
-      <lb ed="#G" n="50"/>quendo de assumptione sacramentali, &amp; spirituali 
-      <lb ed="#G" n="51"/>Ad tertium potest dici, quod Christus vtroque modo 
-      <lb ed="#G" n="52"/>mpsit corpus, &amp; sanguinem suum.
-    </p>
-            <p xml:id="HuYgTa-235430-d1e1911">
-               <lb ed="#G" n="53"/>Ad primam probationem dicendum, quod spiritualis 
-      <lb ed="#G" n="54"/>optio istius sacramenti non auget gratiam, nisi in his 
-      <lb ed="#G" n="55"/>Thuiusmodi augmenti habent indigentiam. 
-      <lb ed="#G" n="56"/>d secundam probationem dicendum, quod quamdiu 
-      <lb ed="#G" n="57"/>hristus fuit in hoc mundo, tamdiu simul fuit
-      compre<lb ed="#G" n="58" break="no"/>nisor, &amp; viator : ergo licet frueretur seipso nude, &amp; sine 
-      <lb ed="#G" n="59"/>amentali velamine inquantum comprehensor:
-      ta<lb ed="#G" n="60" break="no"/>en prout fuit viator potuit seipsum sumere sub
-      sacra<lb ed="#G" n="61" break="no"/>entali velamine.
-    </p>
-            <p xml:id="HuYgTa-235430-d1e1933">
-               <lb ed="#G" n="62"/>Conclusio secunda est, quod Christus omnibus
-      disci<lb ed="#G" n="63" break="no"/>lis suis tradidit istud sacramentum: 1 Quod patet in 
-      <lb ed="#G" n="64"/>nte vbi Christus omnibus discipulis idest Apostolis ait. 
-      <lb ed="#G" n="65"/>ipite, &amp; comedite, hoc est corpus meum. Et accipiens 
-      <lb ed="#G" n="66"/>licem gratias egit, &amp; dedit discipulis suis dicens, bibite 
-      <lb ed="#G" n="67"/>hoc omnes, hic est sanguis meus.
-    </p>
-            <p xml:id="HuYgTa-235430-d1e1949">
-               <lb ed="#G" n="68"/>Forte dices, licet Christus omnibus istud sacramenti 
-      <lb ed="#G" n="69"/>ebuerit : ex hoc tamen non habetur, quod omnes
-      accepe<lb ed="#G" n="70" break="no"/>aepe enim praebetur homini, quod ipse tamen non
-      acci<lb ed="#G" n="71" break="no"/>lstud expresse tollitur per illud, quohabetur in Marco, 
-      <lb ed="#G" n="72"/>n dicitur sic. Sumite, hoc est corpus meum. Et accepto 
-      <lb ed="#G" n="73"/>re pratias agens dedit illis, &amp; biberunt ex eo omnes.
-    </p>
-            <p xml:id="HuYgTa-235430-d1e1965">
-      <!--674.xml-->
-               <cb ed="#G" n="b"/>
-               <lb ed="#G" n="74"/>Praeterea, ludas in illa coena sumpsit istud
-      sacramen<lb ed="#G" n="75" break="no"/>tum sub vtraque specie : ergo omnes alij. Consequentia 
-      <lb ed="#G" n="76"/>atet: quia de nullo in proposito dubitatur, quod
-      sum<lb ed="#G" n="77" break="no"/>serit istud sacramentum sub specie panis, vt patet
-      aucto<lb ed="#G" n="78" break="no"/>ritate August. &amp; habetur <ref xml:id="HuYgTa-235430-Rd1e1982">de conse. dist. 2. c. &amp; sancta</ref>. vbi 
-      <lb ed="#G" n="79"/>sic dicitur. Non mala erat buccella, quae data est ludae a 
-      <lb ed="#G" n="80"/>domino, salutem medicus dedit: sed ille, quia indipnus 
-      <lb ed="#G" n="81"/>erat, accepit ad peruiciem sui. Item <ref xml:id="HuYgTa-235430-Rd1e1992">idem Aug.</ref> ait,
-      Chri<lb ed="#G" n="82" break="no"/>stus corpus suum in coena cum aliis discipulis ludae dedit,  
-      <lb ed="#G" n="83"/>vt nobis exemplum daret, quod peccatoribus occultis non  
-      <lb ed="#G" n="84"/>ssent sacramenta deneganda, &amp; vt omnem occasionem 
-      <lb ed="#G" n="85"/>ei auferret malefaciendi, quam alsumere potuisset, si in 
-      <lb ed="#G" n="86"/>aliquo ab aliis discipulis ante apertam malitiam fuisset 
-      <lb ed="#G" n="87"/>discretus. Quod autem sumpserit illud sactamentum sub 
-      <lb ed="#G" n="88"/>specie vini patet per euangelium prius allegatum.
-      Prae<lb ed="#G" n="89" break="no"/>terea, Dionysius in de ecclesiastica hierarchia, ait. Svm  
-      <lb ed="#G" n="90"/>polorum conditor partitur sanctissima non vnimode ei 
-      <lb ed="#G" n="91"/>sacra concenanti, scilicet ludae. Et per illa sanctissima in 
-      <lb ed="#G" n="92"/>telligit corpus, &amp; sanguinem Christi, sicut ibidem patet. 
-    </p>
-            <p xml:id="HuYgTa-235430-d1e2020">
-               <lb ed="#G" n="93"/>
-               <pc type="indent"/>Forte dices,, quod Christus promiserit discipulis
-      ca<lb ed="#G" n="94" break="no"/>licem sacramenti istius bibentibus, quod secum essent 
-      <lb ed="#G" n="95"/>pibituri in regno patris sui : sed in regno non fuit bibi 
-      <lb ed="#G" n="96"/>turus ludas: ergo non videtur, quod biberit de calice 
-    </p>
-            <p xml:id="HuYgTa-235430-d1e2033">
-               <lb ed="#G" n="97"/>
-               <pc type="indent"/>Respondeo, quod hoc promifit Christus bibentibus 
-      <lb ed="#G" n="98"/>illum calicem, non solum sacramentaliter, sed etiam 
-      <lb ed="#G" n="99"/>piritualiter: ludas vero istud sacramentum ita sumpsit 
-      <lb ed="#G" n="100"/>sacramentaliter, quod non spiritualiter: ergo ad ludam non 
-      <lb ed="#G" n="101"/>spectabat hniusmodi promissio. 
-    </p>
-            <p xml:id="HuYgTa-235430-d1e2049">
-               <lb ed="#G" n="102"/>
-               <pc type="indent"/>Ad argumentum principale dictum est <ref xml:id="HuYgTa-235430-Rd1e2055">dist. 8.</ref> 
-            </p>
-         </div>
-      </body>
-   </text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 2</title>
+        <author ref="#ThomasStrasbourg">Thomas of Strasbourg</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 2</title>
+          <date when="2020-11-26">November 26, 2020</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="G" n="cod-TxxxqU">Genoa 1585</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2020-11-26" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#G" n="P2_99-v"/>
+        <cb ed="#G" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="HuYgTa-235430"><!-- HuYgTa-l4d11q2 -->
+        <head xml:id="HuYgTa-235430-Hd1e108">Quaestio 2</head>
+        <head xml:id="HuYgTa-235430-Hd1e111" type="question-title">An Eucharistia vnum sit sacramentum.</head>
+        <p xml:id="HuYgTa-235430-d1e114">
+          <lb ed="#G" n="100"/>
+          <pc type="indent"/>Quaestio <sic>I <!-- actually II --></sic>
+          <lb ed="#G" n="101"/>An Eucharistia vnum sit sacramentum.
+        </p>
+        <p xml:id="HuYgTa-235430-d1e127">
+          <lb ed="#G" n="102"/>I TRVM Fucharistia sit vnum sactamentum.
+        </p>
+        <p xml:id="HuYgTa-235430-d1e132">
+          
+          Vide<lb ed="#G" n="103" break="no"/>Vtur, quod non 
+          <lb ed="#G" n="104"/>Quia vnum sactamentum debet habere vnam
+          mate<lb ed="#G" n="105" break="no"/>riam, &amp; vnam formam. Sed ad consecrandum Fucharistiam 
+          <lb ed="#G" n="106"/>concurrit duplex materia, &amp; duplex forma: ergo &amp;c.
+          Ma<lb ed="#G" n="107" break="no"/>or patet discurrendo per alia singula sacramenta. Minor 
+          <lb ed="#G" n="108"/>quantum ad dualitatem materiae patet hic in littera: quia 
+          <lb ed="#G" n="109"/>ad integritatem materiae ipsius Fucharistiae de
+          necessita<lb ed="#G" n="110" break="no"/>te requiritur panis, &amp; vmum. Quod autem requiratur du 
+          <lb ed="#G" n="111"/>lex forma, patet: quia per alia verba, &amp; distincte fit con 
+          <lb ed="#G" n="112"/>sec ratio corporis, &amp; consecratio sanguinis.  
+          <lb ed="#G" n="113"/>In contrarium est <ref xml:id="HuYgTa-235430-Rd1e158">magister in ista 12. distinct</ref> vbi loquen 
+          <lb ed="#G" n="114"/>de speciebus panis, &amp; vini ait. <quote xml:id="HuYgTa-235430-Qd1e163" source="http://scta.info/resource/pl-l4d11c4-d1e146" synch="22-34">Nec debent dici duo
+            sacra<lb ed="#G" n="115" break="no"/>menta: sed vnum: quia sub vtraque specie idem sumitur</quote>,  
+          <lb ed="#G" n="116"/>Hic quattuor sunt videnda 
+        </p>
+        <p xml:id="HuYgTa-235430-d1e172">
+          <lb ed="#G" n="117"/>
+          <pc type="indent"/>Primo, quae sit debita materia conuertenda in eorpus 
+          <lb ed="#G" n="118"/>Christi, &amp; quae in sanguinem. 
+        </p>
+        <p xml:id="HuYgTa-235430-d1e181">
+          <lb ed="#G" n="119"/>
+          <pc type="indent"/>Secundo de principali quaesito.  
+          <lb ed="#G" n="120"/>Tertio vtrum sub vtraque specie panis scilicet, &amp; vini 
+          <lb ed="#G" n="121"/>stud sacramentum sit tradendum populo Christiano. 
+        </p>
+        <p xml:id="HuYgTa-235430-d1e192">
+          <lb ed="#G" n="122"/>
+          <pc type="indent"/>Quarto vtrum sub vtraque specie Christus in coena 
+          <lb ed="#G" n="123"/>tumpierit seipsum, ac tradiderit omnibus suis discipulis
+        </p>
+        <p xml:id="HuYgTa-235430-d1e201">
+          <!--670.xml-->
+          <pb ed="#G" n="P2_100-r"/>
+          <cb ed="#G" n="a"/>
+          <lb ed="#G" n="1"/>RESOLVTIO. 
+          <lb ed="#G" n="2"/>Apta quidem materia fucharistiae cum sit panis triticeus
+          axi<lb ed="#G" n="3" break="no"/>mus scilicet non autem ferment atus: Itidem vinum vitis, non  
+          <lb ed="#G" n="4"/>autem liquor alius Vnum tamen numero dicitur
+          saccamen<lb ed="#G" n="5" break="no"/>tum, non vnum quidem numero simpliciter indiuisibilit ate, 
+          <lb ed="#G" n="6"/>
+          <pc type="indent"/>tuat continuit ate, sed vnum numero perfectionali integritate.
+        </p>
+        <p xml:id="HuYgTa-235430-d1e225">
+          <lb ed="#G" n="7"/>ARTICVLVS 1 
+          <lb ed="#G" n="8"/>Quae sit debita materia conuertenda in corpus 
+          <lb ed="#G" n="9"/>christi, qud quae in sanguinem.
+        </p>
+        <p xml:id="HuYgTa-235430-d1e234">
+          <lb ed="#G" n="10"/>SVANTVM: ad primum primo videndum est de ma 
+          <lb ed="#G" n="11"/>Tteria conuertenda in corpus. Et quo ad hoc pono 
+          <lb ed="#G" n="12"/>tres conclusiones. 
+        </p>
+        <p xml:id="HuYgTa-235430-d1e244">
+          <lb ed="#G" n="13"/>Prima est, quod talis mareria est panis. 
+          <lb ed="#G" n="14"/>Secunda, quod, secundum communiorem doctrinam, 
+          <lb ed="#G" n="15"/>talis panis debet esse triticeus.
+          <lb ed="#G" n="16"/>Tertia quod huiusmodi panis debet esse aximus, id esti 
+          <lb ed="#G" n="17"/>non fermentatus.
+        </p>
+        <p xml:id="HuYgTa-235430-d1e257">
+          <lb ed="#G" n="18"/>Probatio primae conclusionis est. 1 Quia illa est debita 
+          <lb ed="#G" n="19"/>materia conficiendi corpus Christi, qua Christus vsus est,  
+          <lb ed="#G" n="20"/>in conficiendo corpus suum istud sacramentum instituit: 
+          <lb ed="#G" n="21"/>ed tunc fuit vsus pane, vt patet in Euangelio; ergo &amp;c 
+        </p>
+        <p xml:id="HuYgTa-235430-d1e268">
+          <lb ed="#G" n="22"/>
+          <pc type="indent"/>2 Praeterea, istud sacramentum habet spiritualiter, 
+          <lb ed="#G" n="23"/>sumentem confortare: sed panis cor hominis confirmat,  
+          <lb ed="#G" n="24"/>vt dicitur in Dsal. ergo ratione similitudinis debita
+          ma<lb ed="#G" n="25" break="no"/>teria istius sacramenti est substantia panis. Et istam
+          ratio<lb ed="#G" n="26" break="no"/>nem tangit glosa 1. ad Corinth.I1. 
+        </p>
+        <p xml:id="HuYgTa-235430-d1e284">
+          <lb ed="#G" n="27"/>1 Forte contra istud dicetur, quod talis debet esse
+          ma<lb ed="#G" n="28" break="no"/>teria istius sacramenti, vt signa remanentia ducant in
+          me<lb ed="#G" n="29" break="no"/>moriam passionis Christi: quia Christus, istud
+          sacramen<lb ed="#G" n="30" break="no"/>tum instituendo, dixit discipulis Hoc facite in meam
+          con<lb ed="#G" n="31" break="no"/>memorationem. Et Apostolus inquit. Quotiescunque 
+          <lb ed="#G" n="32"/>manducabitis panem hunc, &amp; calicem bibetis: mortem 
+          <lb ed="#G" n="33"/>domini annunciabitis: sed ad huiusmodi passionem
+          in<lb ed="#G" n="34" break="no"/>finuadam magis valeret effusio sanguinis agni, vel vituli,  
+          <lb ed="#G" n="35"/>quam posito panis in altari. 
+        </p>
+        <p xml:id="HuYgTa-235430-d1e306">
+          <lb ed="#G" n="36"/>2 Praeterea, confirmatur istud sic. <ref xml:id="HuYgTa-235430-Rd1e310">
+            <name xml:id="HuYgTa-235430-Nd1e312">Hugo de sancto
+              vi<lb ed="#G" n="37" break="no"/>ctore</name> in li. de sacramentis</ref> ait, Crescente veritatis
+          cogni<lb ed="#G" n="38" break="no"/>tione signa debuerunt esse euidentiora: sed cognitio
+          ve<lb ed="#G" n="39" break="no"/>ritatis maior fuit tempore legis Mosaice, quam tempore 
+          <lb ed="#G" n="40"/>legis naturae, &amp; iterum maior tempore legis euangelicae,  
+          <lb ed="#G" n="41"/>quam legis Mosaicae : ergo materia istius sacramenti, vel 
+          <lb ed="#G" n="42"/>debet esse euidentior ad significandum corpus Christi, &amp;  
+          <lb ed="#G" n="43"/>passionem, quam ea, quae offerebantur in duabus
+          praece<lb ed="#G" n="44" break="no"/>dentibus legibus, vel magis conformiter debet accipi ad 
+          <lb ed="#G" n="45"/>ea, quae offerebantur in lege Moysis. Cuius contrarium fi 
+          <lb ed="#G" n="46"/>ret si materia eius esset panis: quia Melchisedech rex
+          sa<lb ed="#G" n="47" break="no"/>lem obtulit panem, &amp; vinum tempore legis naturae, vt pa 
+          <lb ed="#G" n="48"/>ter Cen. 14. Ad primum dicendum, quod minor non est 
+          <lb ed="#G" n="49"/>vera: Nam si quis attente consideraret, quomodo triticum, 
+          <lb ed="#G" n="50"/>de quo fit panis aptus ad istud sacramentum, primo in
+          a<lb ed="#G" n="51" break="no"/>rea trituratur, secundo mola teritur, deinde farina aqua 
+          <lb ed="#G" n="52"/>ligatur, &amp; glutinatur, &amp; sic pasta formatur: &amp; vltimo in 
+          <lb ed="#G" n="53"/>clibanum ardentem mittitur, vt eius humiditas consumatur, 
+          <lb ed="#G" n="54"/>haec omnia spiritualiter interpretando, vtique videret ho 
+          <lb ed="#G" n="55"/>mo, quod expressius passio Christi daretur intelligi in pane, 
+          <lb ed="#G" n="56"/>quam in cuiuscumque bestiae sanguinis effusione. 
+        </p>
+        <p xml:id="HuYgTa-235430-d1e360">
+          <lb ed="#G" n="57"/>
+          <pc type="indent"/>Ad secundum dicendum, qplicet cognitio veritatisclarior 
+          <lb ed="#G" n="58"/>esset in lege scripta in lege naturae: tamen qua lex Mosaica, siue 
+          <lb ed="#G" n="59"/>lex scripta, vel data per Movsen, quantum ad oblationes 
+          <lb ed="#G" n="60"/>cerimoniales, erat transitoria, &amp; abolenda, veniente
+          le<lb ed="#G" n="61" break="no"/>pe euangelica, lex autem naturae debet esse perpetua, &amp; non 
+          <lb ed="#G" n="62"/>deserenda: sed potius per euangelicam lege perficienda, ad 
+          <lb ed="#G" n="63"/>illa n. quae sunt de lege naturali, semper obligatur homo, 
+          <lb ed="#G" n="64"/>ideo lex euangelica, quae semper durare debet vsque ad fine 
+          <lb ed="#G" n="65"/>mundi, istius perpetui, &amp; excellentissimi sacramenti
+          ma<lb ed="#G" n="66" break="no"/>teriam potius debuit accipere a lege naturae, quam a lege 
+          <lb ed="#G" n="67"/>veteris scripture. Etiam concesso toto svllogismo, nihil con¬ 
+          <!--670.xml-->
+          <cb ed="#G" n="b"/>
+          <lb ed="#G" n="68"/>cluditur contra conclusionem praedictam: quia non solum in 
+          <lb ed="#G" n="69"/>lege naturae panis offerebatur, sed etiam in lege Movsis; 
+          <lb ed="#G" n="70"/>Vnde dixit Movses Aaron, &amp; filiis eius. Panes quoque con 
+          <lb ed="#G" n="71"/>secrationis edite, qui positi sunt in crastino, sicut precepit 
+          <lb ed="#G" n="72"/>mihi dominus. Et alibi, Omnis, qui habuerit maculam de 
+          <lb ed="#G" n="73"/>semine Aaro sacerdotis, non accedet offerre hostias domis 
+          <lb ed="#G" n="74"/>o, nec panes Deo suo : vescetur tamen panibus, qui
+          offe<lb ed="#G" n="75" break="no"/>runtur in sanctuario. Patet etiam istud de panibus, qui 
+          <lb ed="#G" n="76"/>ponebantur in mensa propositonis coram domino.  
+        </p>
+        <p xml:id="HuYgTa-235430-d1e413">
+          <lb ed="#G" n="77"/>
+          <pc type="indent"/>Secundo dico, quod secundum communem doctrinam 
+          <lb ed="#G" n="78"/>iste panis debet esse triticeus: quia in triticeo pane credi 
+          <lb ed="#G" n="79"/>tur Christus confecisse, &amp; vsum consecrandi in triticeo 
+          <lb ed="#G" n="80"/>pane dicitur ecclesia ab Apostolis accepisse, &amp; non
+          vide<lb ed="#G" n="81" break="no"/>tur esse dubium, quin hunc vsum Apostoli a Christo
+          ac<lb ed="#G" n="82" break="no"/>ceperint in cena, quando Christus praesentibus Apostolis 
+          <lb ed="#G" n="83"/>consecrauit.  
+        </p>
+        <p xml:id="HuYgTa-235430-d1e433">
+          <lb ed="#G" n="84"/>Forte contra istud dicetur, quod sicut se habet aqua ad 
+          <lb ed="#G" n="85"/>baptismum, sic panis ad istud sacramentum, sed eo ipso, quod 
+          <lb ed="#G" n="86"/>dominus instituens baptismum, non distinxit de aquis; 
+          <lb ed="#G" n="87"/>quauis multiplex sit aqua, puta maris, sontis, &amp; fluminis 
+          <lb ed="#G" n="88"/>ideo onis aqua est debita materia baptismi: sic quia in insti 
+          <lb ed="#G" n="89"/>tutione istius sacramenti non legitur distinxisse de panes 
+          <lb ed="#G" n="90"/>ideo omnis panis videtur esse aptus ad consecrandum. 
+        </p>
+        <p xml:id="HuYgTa-235430-d1e451">
+          <lb ed="#G" n="91"/>
+          <pc type="indent"/>2 Praeterea granum speltae denudatum a palea est
+          simi<lb ed="#G" n="92" break="no"/>le gtano tritici, &amp; per consequens videtur, quod pane speltae 
+          <lb ed="#G" n="93"/>debite possimus corpus Christi consecrare. 
+        </p>
+        <p xml:id="HuYgTa-235430-d1e462">
+          <lb ed="#G" n="94"/>
+          <pc type="indent"/>3 Praeterea, raro inuenitur panis de puro tritico: ergo si 
+          <lb ed="#G" n="95"/>in solo panc triticeo potest fieri consecratio, tuc essemus 
+          <lb ed="#G" n="96"/>saepius in periculo. Ad primum potest dici, quod supposi 
+          <lb ed="#G" n="97"/>to, quod Christus consecrando corpus suum vsus suerit
+          pa<lb ed="#G" n="98" break="no"/>ne triticeo, tunc quia Christi actio nostra est instructio: 
+          <lb ed="#G" n="99"/>ideo dato, quod de pane, quo in consecrando vti debemus,  
+          <lb ed="#G" n="100"/>non distinxerit voce, vel scripio, tamen ipso facto, &amp; oper 
+          <lb ed="#G" n="101"/>te nos instruendo sufficienter distinxit.  
+        </p>
+        <p xml:id="HuYgTa-235430-d1e484">
+          <lb ed="#G" n="102"/>
+          <pc type="indent"/>Etiam potest dici, quod non est simile de baptismo, &amp;  
+          <lb ed="#G" n="103"/>Eucharistia: quia baptismus est sacramentum necessitatis: 
+          <lb ed="#G" n="104"/>ideo eius materia debet esse omnibus communis, ac etiam 
+          <lb ed="#G" n="105"/>eius minister debet esse communis in articulo
+          necessita<lb ed="#G" n="106" break="no"/>tis: sed Eucharistia non est sacramentum necessitatis
+          o<lb ed="#G" n="107" break="no"/>mnimode: ideo nec eius ministri nec eius materia erunt 
+          <lb ed="#G" n="108"/>ita communes sicut in baptismo. 
+        </p>
+        <p xml:id="HuYgTa-235430-d1e504">
+          <lb ed="#G" n="109"/>
+          <pc type="indent"/>Ad secundum dicunt quidam, quod granum speltae est 
+          <lb ed="#G" n="110"/>eiusdem speciei cum grano tritici: ideo si consecratur in 
+          <lb ed="#G" n="111"/>missa panis speltae vere consecratum est. 
+        </p>
+        <p xml:id="HuYgTa-235430-d1e516">
+          <lb ed="#G" n="112"/>
+          <pc type="indent"/>Doctor communis, ac multi alij doctores tenent oppo 
+          <lb ed="#G" n="113"/>itum dicentes, quod si quis in consecrando vteretur
+          pa<lb ed="#G" n="114" break="no"/>ne speltae, vel cuiuscumque alterius grani praeter granum 
+          <lb ed="#G" n="115"/>tritici, talis non conficeret corpus Christi: sicut nec 
+          <lb ed="#G" n="116"/>ille conficeret sanguinem, qui tantum modo aquam
+          ha<lb ed="#G" n="117" break="no"/>beret in calice: quia sicut huic deficeret debita materia 
+          <lb ed="#G" n="118"/>conficiendi sanguinem Christi, sic &amp; illi deficeret debita ma 
+          <lb ed="#G" n="119"/>teria conficiendi corpus Christi. Dicunt etiam isti doctores,  
+          <lb ed="#G" n="120"/>que spelta non est eiusdem speciei cum tritico: quia illa, quae 
+          <lb ed="#G" n="121"/>ic se habent, quod vnum numquam generatur ex altero,
+          ta<lb ed="#G" n="122" break="no"/>lia non sunt eiusdem speciei: sed seminatis granis tritici,  
+          <lb ed="#G" n="123"/>nuquam generatur grana speltae, nec econuerso: ergo &amp;c. 
+        </p>
+        <p xml:id="HuYgTa-235430-d1e547">
+          <lb ed="#G" n="124"/>
+          <pc type="indent"/>Ratio communis istorum doctorum est: quia Christus 
+          <lb ed="#G" n="125"/>comparat se grano tritici, vbi de se ipso loquens ait.
+          Nisi<lb ed="#G" n="126" break="no"/>granum frumenti cadens in terram mortuum fuerit,
+          ip<lb ed="#G" n="127" break="no"/>sum solum manet. Quod verbum tractans August. super 
+          <lb ed="#G" n="128"/>loan. ait Cum sint multa grana frugum, nulli comparat 
+          <lb ed="#G" n="129"/>se Christus nisi frumento. Vnde mos coepit ecclesiae de 
+          <lb ed="#G" n="130"/>hoc solo grano conficere corpus domini, Vnus etiam istorum 
+          <lb ed="#G" n="131"/>doctorum allegando pro ista parte decretum dicit, quod 
+          <lb ed="#G" n="132"/>de sacramentis distinct. 2. cap. In sacramento, habeatur.  
+          <lb ed="#G" n="133"/>quod pane triticeo, &amp; non alio debet fieri consecratio
+          cor<lb ed="#G" n="134" break="no"/>oris Christi. 
+        </p>
+        <p xml:id="HuYgTa-235430-d1e576">
+          <lb ed="#G" n="135"/>
+          <pc type="indent"/>Alij dicunt, quod quamuis panis speltae sit alterius spe 
+          <lb ed="#G" n="136"/>ciei, quam triticum, tamen quia spelta est species
+          fru<lb ed="#G" n="137" break="no"/>menti, ideo si quis consecraret panem spelte, ille vere. 
+          <lb ed="#G" n="138"/>conficeret corpus Christi. 
+        </p>
+        <p xml:id="HuYgTa-235430-d1e589">
+          <lb ed="#G" n="139"/>
+          <pc type="indent"/>Ego vellem, quod in isto puncto, &amp; in omnibus 
+          <lb ed="#G" n="140"/>aliis, vbi tangitur de his, quae sunt de necessitate sa 
+          <!--671.xml-->
+          <pb ed="#G" n="P2_100-v"/>
+          <cb ed="#G" n="a"/>
+          <lb ed="#G" n="1"/>eramenti, &amp; sine quibus non putatur esse veritas
+          sacra<lb ed="#G" n="2" break="no"/>menti, numquam doctores ecclesias sibi contradicerent 
+          <lb ed="#G" n="3"/>mutuo, &amp; vbicumque hoc fieret, quod ecclesia Romana 
+          <lb ed="#G" n="4"/>per suam determinationem remedium adhiberet. 
+        </p>
+        <p xml:id="HuYgTa-235430-d1e613">
+          <lb ed="#G" n="5"/>
+          <pc type="indent"/>Duo ergo dico quantum ad praesens. Primum est, quod 
+          <lb ed="#G" n="6"/>reputo consultius, quod in consecrando corpus Christ 
+          <lb ed="#G" n="7"/>sacerdos vtatur pane triticeo: quia tutius, &amp; consultius es 
+          <lb ed="#G" n="8"/>se videtur, quod sacerdos vtatur illo pane, quem omnis 
+          <lb ed="#G" n="9"/>doctor Christianus reputat conuerti in corpus Christi 
+          <lb ed="#G" n="10"/>dictis verbis consecrationis ab ipso sacerdote, quam quod 
+          <lb ed="#G" n="11"/>vtatur illo, quem multi, &amp; magni doctores reputant non 
+          <lb ed="#G" n="12"/>conuerti: sed omnis doctor Christianus reputat panem 
+          <lb ed="#G" n="13"/>triticeum conuerti, &amp; multi reputant alium panem non 
+          <lb ed="#G" n="14"/>conuerti: ergo &amp;c 
+        </p>
+        <p xml:id="HuYgTa-235430-d1e639">
+          <lb ed="#G" n="15"/>
+          <pc type="indent"/>Secundo uico, quod salua istorum venerabilium
+          do<lb ed="#G" n="16" break="no"/>ctorum reuerentia, mihi non videtur, quod sufficienter 
+          <lb ed="#G" n="17"/>probent hanc negatiuam, quam ponunt, scilicet non esse 
+          <lb ed="#G" n="18"/>ibi sacramentum, si sacerdos benedicit alium panem, quam 
+          <lb ed="#G" n="19"/>triticeum. 
+        </p>
+        <p xml:id="HuYgTa-235430-d1e656">
+          <lb ed="#G" n="20"/>
+          <pc type="indent"/>Ad cuius intellectum est aduertendum, quod secundum <ref xml:id="HuYgTa-235430-Rd1e662">lsi¬ 
+            <lb ed="#G" n="21"/>dorum ethi. 17</ref>: frumentum in plus se habet, quam triticum; 
+          <lb ed="#G" n="22"/>Vnde circa principium illius capituli dicit, quod frumen 
+          <lb ed="#G" n="23"/>ta sunt, quae aristas habent : reliqua autem, quae non
+          ha<lb ed="#G" n="24" break="no"/>bent aristas, fruges appellantur: Et ideo ibidem dicit
+          sili<lb ed="#G" n="25" break="no"/>ginem, &amp; ordeum, &amp; inulta alia consimilia esse de
+          gene<lb ed="#G" n="26" break="no"/>re frumentorum, eo quod habent aristas. Cum igitur nec 
+          <lb ed="#G" n="27"/>ex fide catholica, nec ex scriptura sacra, nec ex aliquo sta 
+          <lb ed="#G" n="28"/>tuto ecclesiae possit plus haberi de ista materia, nisi quod 
+          <lb ed="#G" n="29"/>panis in corpus Christi virtute diuina ad benedictionem 
+          <lb ed="#G" n="30"/>lacerdotis conuertendus debet esse de vero frumento, vt 
+          <lb ed="#G" n="31"/>patebit in respondendo dictis istorum doctorum: ideo 
+          <lb ed="#G" n="32"/>non videtur, quod ad negationem panis triticei debeat 
+          <lb ed="#G" n="33"/>negari verum corpus Christi, dummodo panis a
+          sacerdo<lb ed="#G" n="34" break="no"/>te secundum debitam formam verborum benedictus sit 
+          <lb ed="#G" n="35"/>de frumento.
+        </p>
+        <p xml:id="HuYgTa-235430-d1e698">
+          <lb ed="#G" n="36"/>Forte dicetur, quod licet frumentum sit genus, habens 
+          <lb ed="#G" n="37"/>sub se plures species: tamen quia nobilissima species
+          fru<lb ed="#G" n="38" break="no"/>menti est triticum: ideo quando per se profertur frumen 
+          <lb ed="#G" n="39"/>tum, tunc debet intelligi triticum, &amp; per consequens
+          li<lb ed="#G" n="40" break="no"/>cet dicatur, quod panis praedictus debeat esse de frumen 
+          <lb ed="#G" n="41"/>to: tamen ex hoc non habetur quin debeat esse ex solo 
+          <lb ed="#G" n="42"/>tritico.  
+        </p>
+        <p xml:id="HuYgTa-235430-d1e716">
+          <lb ed="#G" n="43"/>
+          <pc type="indent"/>Dicendum, quod prima consequentia non est vera 
+          <lb ed="#G" n="44"/>quia licet homo sit nobilissima species animalis: tamer 
+          <lb ed="#G" n="45"/>non sequitur, est animal: ergo homo, posset enim esse 
+          <lb ed="#G" n="46"/>equus, vel asinus. Vnde ibi est expressa fallacia
+          consequen<lb ed="#G" n="47" break="no"/>tis: quia directe proceditur a positone consequentis ad 
+          <lb ed="#G" n="48"/>positionem antecedentis: sic in proposito: ideo &amp;c. 
+        </p>
+        <p xml:id="HuYgTa-235430-d1e734">
+          <lb ed="#G" n="49"/>
+          <pc type="indent"/>Forte dices, quod istud esset contra regulam, quam 
+          <lb ed="#G" n="50"/>ponit <ref xml:id="HuYgTa-235430-Rd1e742">Arist. in lib topicorum</ref> dicens, quod quando aliquod 
+          <lb ed="#G" n="51"/>nomen significat plura, vnum principaliter, aliud ex con 
+          <lb ed="#G" n="52"/>sequenti: si tale nomen absolute profertur: tunc debet in 
+          <lb ed="#G" n="53"/>telligi de eo, quod principaliter significat. 
+        </p>
+        <p xml:id="HuYgTa-235430-d1e753">
+          <lb ed="#G" n="54"/>
+          <pc type="indent"/>Respondeo, quod ista regula non est intelligenda de com 
+          <lb ed="#G" n="55"/>munitate generis: quia genus non significat sic principali 
+          <lb ed="#G" n="56"/>ter vnam speciem, quod aliam significet ex consequenti : sec 
+          <lb ed="#G" n="57"/>est intelligenda de communitate analogiae. Vnde si hoc 
+          <lb ed="#G" n="58"/>nomen ens per se profertur, tunc magis intelligendum 
+          <lb ed="#G" n="59"/>est de substantia, quam de accidente: hoc tamen non
+          ob<lb ed="#G" n="60" break="no"/>stante, non esset bona consequentia dicendo, hoc est ens: 
+          <lb ed="#G" n="61"/>ergo non est accidens quia &amp; si non principaliter
+          nomi<lb ed="#G" n="62" break="no"/>ne entis significatur accidens: tamen ex consequenti
+          si<lb ed="#G" n="63" break="no"/>gnificatur: igitur ad positionem entis non potest
+          legiti<lb ed="#G" n="64" break="no"/>me inferri negatio accidentis. 
+        </p>
+        <p xml:id="HuYgTa-235430-d1e782">
+          <lb ed="#G" n="65"/>
+          <pc type="indent"/>Ad primum igitur motiuum istorum doctorum dicen 
+          <lb ed="#G" n="66"/>lum, quod Christus non comparauit se praecise grano tritici 
+          <lb ed="#G" n="67"/>sed indistincte comparauit se grano frumenti, vt expressi 
+          <lb ed="#G" n="68"/>patet in textu, quem ipsimet allegant. Et per idem patet 
+          <lb ed="#G" n="69"/>ad auctoritatem Augustini, quam pro se adducunt 
+        </p>
+        <p xml:id="HuYgTa-235430-d1e799">
+          <lb ed="#G" n="70"/>
+          <pc type="indent"/>Ad illud, quod additur de <ref xml:id="HuYgTa-235430-Rd1e805">decretis</ref>, dico, quod salua illius 
+          <lb ed="#G" n="71"/>subtilis doctoris reuerentia, nec in textu, quem allegat 
+          <lb ed="#G" n="72"/>nec in apnaratu habetur, quoed in triticeo, &amp; non in alio
+          pa<lb ed="#G" n="73" break="no"/>ae consecretur. ista enim iunt verba illius textus.
+        </p>
+        <p xml:id="HuYgTa-235430-d1e816">
+          <!--671.xml-->
+          <cb ed="#G" n="b"/>
+          <lb ed="#G" n="74"/>In sacramento corporis, &amp; sanguinis domini nihil am 
+          <lb ed="#G" n="75"/>plius offeratur, quam ipse dominus tradidit, hoc est panis 
+          <lb ed="#G" n="76"/>&amp; vinum aqua mixtum: nec amplius in sacrificijs
+          offera<lb ed="#G" n="77" break="no"/>tur, quam de vuis, &amp; frumentis. Etiam apparatus ibidem 
+          <lb ed="#G" n="78"/>non excludit ab isto benedicto sacrificio aliquod verum 
+          <lb ed="#G" n="79"/>frumentum: sed excludit pper, &amp; lolium, &amp;c. quae non 
+          <lb ed="#G" n="80"/>sunt vera frumenta. Etiam ex intentione legis, <ref xml:id="HuYgTa-235430-Rd1e837" target="http://scta.info/resource/cice-l1t1-d1e119">extra de 
+            <lb ed="#G" n="81"/>sum tri. &amp; fide catho. c. Firmiter credimus</ref>, vbi specialis 
+          <lb ed="#G" n="82"/>fit mentio de materia istius sacramenti, &amp; nec in textu 
+          <lb ed="#G" n="83"/>nec in apparatu inuenire potui, quod vsquam ista
+          mate<lb ed="#G" n="84" break="no"/>ria sit limitata ad panem triticeum tantum: licet bene in 
+          <lb ed="#G" n="85"/>eniatur, quod ista materia est restricta ad panem confectu 
+          <lb ed="#G" n="86"/>de vero frumento: 
+        </p>
+        <p xml:id="HuYgTa-235430-d1e854">
+          <lb ed="#G" n="87"/>
+          <pc type="indent"/>Et cum dicitur in principio istius coclusionis, quod
+          Chri<lb ed="#G" n="88" break="no"/>stus conficiendo corpus suum sacramentaliter, vsus fuit 
+          <lb ed="#G" n="89"/>ane triticeo, &amp; hunc vsum Apostoli acceptum a
+          Chri<lb ed="#G" n="90" break="no"/>sto commiserunt ecclesiae, quamuis istud non probetur 
+          <lb ed="#G" n="91"/>&amp; forte valde difficile Sit ad probandum, eo quod nec de 
+          <lb ed="#G" n="92"/>cretum, nec decretales, nec euangelium, nec epistolae 
+          <lb ed="#G" n="93"/>nec aliqua originalia sanctorum de hoc faciant
+          mentio<lb ed="#G" n="94" break="no"/>nem: tamen hoc toto pos ito in esse, adhuc dicere posset 
+          <lb ed="#G" n="95"/>ille, qui esset oppositae opinionis, quod iste vsus non
+          ar<lb ed="#G" n="96" break="no"/>guit necessitatem, puta, qud istud sacramentum non possit 
+          <lb ed="#G" n="97"/>erfici nisi in pane tritici: sed tantummodo arguit
+          con<lb ed="#G" n="98" break="no"/>gruitate: Vnde si in omnibus speciebus frumentorum ali 
+          <lb ed="#G" n="99"/>qua species esset purior tritico, adhuc magis decens esset 
+          <lb ed="#G" n="100"/>vti illa specic, quam tritico in isto purissimo sacramentot 
+          <lb ed="#G" n="101"/>&amp; tamen hoc posito, non excluderetur panis de tritico,  
+          <lb ed="#G" n="102"/>quin ipso possemus vti in consecrando. Sic quamuis
+          ec<lb ed="#G" n="103" break="no"/>clesia vtatur pane triticeo: tamen ex hoc non
+          concludi<lb ed="#G" n="104" break="no"/>tur, quin in articulo necessitatis possit vti pane confecto 
+          <lb ed="#G" n="105"/>de grossiore frumento, dummodo sit verum frumentum, 
+        </p>
+        <p xml:id="HuYgTa-235430-d1e900">
+          <lb ed="#G" n="106"/>
+          <pc type="indent"/>Licet etiam ego per hanc texturam verborum
+          meo<lb ed="#G" n="107" break="no"/>rum non velim directe contradicere conmunitati
+          tanto<lb ed="#G" n="108" break="no"/>rum doctorum: tamen si vellem eis contradicere, haec
+          ra<lb ed="#G" n="109" break="no"/>tio me moueret 
+        </p>
+        <p xml:id="HuYgTa-235430-d1e913">
+          <lb ed="#G" n="110"/>
+          <pc type="indent"/>Quia videmus, quod maiori periculo sancta mater
+          ec<lb ed="#G" n="111" break="no"/>clesia suis statutis, &amp; praeceptis magis nititur obuiare: sed  
+          <lb ed="#G" n="112"/>si illa communis opinio esset vera, tunc maius esset peri 
+          <lb ed="#G" n="113"/>culum in consecratione Corporis Christi habere panem  
+          <lb ed="#G" n="114"/>non triticcum: quamuiscumque esset de quouis alio
+          fru<lb ed="#G" n="115" break="no"/>mento, quam in consecratione sanguinis habere calicem 
+          <lb ed="#G" n="116"/>de puro vino non admixto aqua; ergo si illa opinio esset 
+          <lb ed="#G" n="117"/>vera, tunc ecclesia Dei magis suis statutis praeciperet in 
+          <lb ed="#G" n="118"/>consecratione corporis Christi vti pane triticeo, &amp; nullo 
+          <lb ed="#G" n="119"/>alio cuiuscumque frumenti alterius specici a specie triti 
+          <lb ed="#G" n="120"/>ci, quam in consecratione sanguinis vti vino mixto, &amp; non 
+          <lb ed="#G" n="121"/>uro. Maior est nota. Probatur minor: quia maius pericu 
+          <lb ed="#G" n="122"/>um est omittere illud, quod est de necessitate sacramen 
+          <lb ed="#G" n="123"/>ti, quam illud, quod est de bene esse sacramenti: sed, secu 
+          <lb ed="#G" n="124"/>dum illam opinionem, quod panis sit triticeus, hoc est de 
+          <lb ed="#G" n="125"/>necessitate sacramenti: nam secundum eos, si non est
+          tri<lb ed="#G" n="126" break="no"/>ticeus, non consecratur corpus Christi: sed miscere aquam 
+          <lb ed="#G" n="127"/>cum vino non est de necessitate sacramenti, sed solum 
+          <lb ed="#G" n="128"/>de bene esse sacramentit: nam etiam secundum eos, &amp; se 
+          <lb ed="#G" n="129"/>tundum veritatem, dato, quod non sit aqua apposita:
+          ta<lb ed="#G" n="130" break="no"/>men vere conficitur, seu consecratur sanguis Christi. Sed  
+          <lb ed="#G" n="131"/>conclusio istius rationis est falsa: ergo aliqua praemissarum 
+          <lb ed="#G" n="132"/>erit falsa: non maior, vt de se patet, ergo minor, &amp; per
+          con<lb ed="#G" n="133" break="no"/>sequens illa opinio non videtur esse vera. Quod autem 
+          <lb ed="#G" n="134"/>conclusio Sit falsa, patet discurrenti per totum corpus
+          iu<lb ed="#G" n="135" break="no"/>ris tam in decretis, quam in idecretalibus, vbi saepissime 
+          <lb ed="#G" n="136"/>inuenitur districte preceptum de admixtione aquae cum 
+          <lb ed="#G" n="137"/>vino in calice in consecratione sanguinis, &amp; maxime hoc 
+          <lb ed="#G" n="138"/>habetur de conse. dist in multis capitulis illius distinctio 
+          <lb ed="#G" n="139"/>nis: &amp; tamen nusquam inuenitur ex statuto ecclesiae
+          prae<lb ed="#G" n="140" break="no"/>ceptum de pane triticeo habendo in consecratione
+          cor<lb ed="#G" n="141" break="no"/>poris Christi. 
+        </p>
+        <p xml:id="HuYgTa-235430-d1e987">
+          <lb ed="#G" n="142"/>
+          <pc type="indent"/>Ad tertiam instantiam factam contra
+          conclusionem<lb ed="#G" n="143" break="no"/>dicerent doctores praedicti, quod illa genera admixta
+          tripli<lb ed="#G" n="144" break="no"/>citer se possunt habere: quia vel sunt in tanta copia, quod vin 
+          <lb ed="#G" n="145"/>cunt virtutem tritici, &amp; per consequens conuertunt 
+          <lb ed="#G" n="146"/>triticum in suam naturam: vel econuerso ita modicae 
+          <!--672.xml-->
+          <pb ed="#G" n="P2_101-r"/>
+          <cb ed="#G" n="a"/>
+          <lb ed="#G" n="1"/>funt virtutis, quod vincuntur a tritico, &amp; conuertuntur 
+          <lb ed="#G" n="2"/>in naturam tritici : Vel neutra virtus plene vincit aliam: 
+          <lb ed="#G" n="3"/>sed qualibet actione alterius a sua natura remittitur, &amp;  
+          <lb ed="#G" n="4"/>per consequens ex eis fit tertia natura mixta. Primo, &amp;  
+          <lb ed="#G" n="5"/>tertio modo secundum istam opinionem non conficere 
+          <lb ed="#G" n="6"/>tur corpus Christi ex benedictione talis panis, eo quod 
+          <lb ed="#G" n="7"/>simpliciter non esset triticeus: Sed secundo modo vere 
+          <lb ed="#G" n="8"/>conficeretur: quia ille panis vere esset triticeus, quamui 
+          <lb ed="#G" n="9"/>non ita purus, sicut si illa alia grana non fuissent admixta 
+          <lb ed="#G" n="10"/>Sed qui nollet tenere istam opinionem, ille posset dicere 
+          <lb ed="#G" n="11"/>quod si illa grana admixta tritico sunt grana veri frumer 
+          <lb ed="#G" n="12"/>ti, tunc siue grana admixta vincant grana tritici, siue econ 
+          <lb ed="#G" n="13"/>uerso vincantur a granis tritici, siue propter aequalitaten 
+          <lb ed="#G" n="14"/>virtutis faciant quoddam mixtum, de genere tamen
+          fru<lb ed="#G" n="15" break="no"/>mentorum, semper de pane ex talibus granis decocto, ve 
+          <lb ed="#G" n="16"/>re potest confici corpus Christi, eo quod talis panis veri 
+          <lb ed="#G" n="17"/>sit factus de granis frumentorum. Vnde quia raro
+          inue<lb ed="#G" n="18" break="no"/>nitur aliqua species frumenti omnino sincera: sed vt plu 
+          <lb ed="#G" n="19"/>rimum, grana vnius speciei miscentur granis alterius spo 
+          <lb ed="#G" n="20"/>ciei: ideo notanter illud decretum superius allegatum 
+          <lb ed="#G" n="21"/>
+          <ref xml:id="HuYgTa-235430-Rd1e1054">de conse. dist. 2.</ref> loquitur in plurali de frumentis sic
+          di<lb ed="#G" n="22" break="no"/>cens. Nec amplius in sacrificus scilicet corporis, &amp;
+          san<lb ed="#G" n="23" break="no"/>guinis Christi offeratur, quam de vuis, &amp; frumentis. Si 
+          <lb ed="#G" n="24"/>autem grana admixta tritico non sunt de genere frumer 
+          <lb ed="#G" n="25"/>torum, tunc potest dici iuxta tripartitam distinctionem 
+          <lb ed="#G" n="26"/>praemissam, quod ita modicum posset esse de illa
+          admix<lb ed="#G" n="27" break="no"/>ta materia, quod etiam si esset de lapide, adhuc non
+          ob<lb ed="#G" n="28" break="no"/>staret quin ex pane tali vere conficeretur corpus Christi 
+          <lb ed="#G" n="29"/>Et ista videtur esse intentio apparatus superius adducti 
+          <lb ed="#G" n="30"/>excludentis piper, &amp; lolium: Dicit enim, quod si piper 
+          <lb ed="#G" n="31"/>vel lolium frumento admisceretur, tunc de illa parte, 
+          <lb ed="#G" n="32"/>quae videlicet includeret piper; vel lolium, non
+          confice<lb ed="#G" n="33" break="no"/>retur: sed de reliqua, hoc est, de alia parte eiusdem panis. 
+          <lb ed="#G" n="34"/>vbi esset materia frumenti sine pipere, vere conficeretur. 
+        </p>
+        <p xml:id="HuYgTa-235430-d1e1087">
+          <lb ed="#G" n="35"/>
+          <pc type="indent"/>Tertio dico, quod decens est, &amp; conueniens, vt panis 
+          <lb ed="#G" n="36"/>praedictus sit aximus: quia prima die aximorum non
+          de<lb ed="#G" n="37" break="no"/>buit inueniri fermentatum in domibus ludaeorum, vt pa 
+          <lb ed="#G" n="38"/>et in Exod, sed prima dic aximorum Christus comedit 
+          <lb ed="#G" n="39"/>asca cum discipulis suis, &amp; tunc istud sacramentum
+          in<lb ed="#G" n="40" break="no"/>tituit cum corpus suum de pane confecit. ergo Christus 
+          <lb ed="#G" n="41"/>in aximo pane confecit, &amp; per consequens etiam nos 
+          <lb ed="#G" n="42"/>in aximo pane conficere debemus. Minor patet expresse 
+          <lb ed="#G" n="43"/>in Euangelijs. Conclusionem istam Qraeci negant, &amp;
+          di<lb ed="#G" n="44" break="no"/>cunt, quod panis fermentatus sit de necessitate
+          sacramen<lb ed="#G" n="45" break="no"/>ti, &amp; ideo dicunt Latinos non consecrate, eo que in
+          conse<lb ed="#G" n="46" break="no"/>crando vtuntur pane aximo: Dicunt etiam Christum 
+          <lb ed="#G" n="47"/>consecrasse in fermento
+        </p>
+        <p xml:id="HuYgTa-235430-d1e1120">
+          <lb ed="#G" n="48"/>1 Et si dicitur eis, quod primo dic aximorum non fui 
+          <lb ed="#G" n="49"/>fermentatum in domibus ludaecrum, ipsi respondent, qo 
+          <lb ed="#G" n="50"/>Christus non consecrauit prima die aximorum: quia illa  
+          <lb ed="#G" n="51"/>die, vt dicunt, Christus mortuus est in cruce, quod
+          pro<lb ed="#G" n="52" break="no"/>pant per illud loan ludaei non introierunt in praetorium 
+          <lb ed="#G" n="53"/>vt non contaminarentur, sed manducarent pasca : ergi 
+          <lb ed="#G" n="54"/>patet, quod nondum comederant agnum pascalem, qui 
+          <lb ed="#G" n="55"/>sibi nominatur pasca : Cum igitur agnus pascalis comed 
+          <lb ed="#G" n="56"/>debuerit prima die aximorum, vt patet in Exo. &amp; illud 
+          <lb ed="#G" n="57"/>quod iam dictum est de ludaeis, fuerit die veneris, qua po 
+          <lb ed="#G" n="58"/>tierunt a Pilato, vt Christum crucifigerent: ergo dies
+          io<lb ed="#G" n="59" break="no"/>nis proxime praecedens non potuit esse prima dies
+          axi<lb ed="#G" n="60" break="no"/>morum, &amp; per consequens in domibus ludaeorum tunc 
+          <lb ed="#G" n="61"/>suit fermentatum, de quo Christus in coena consecrauit 
+          <lb ed="#G" n="62"/>corpus suum.
+        </p>
+        <p xml:id="HuYgTa-235430-d1e1155">
+          <lb ed="#G" n="63"/>2 Praeterea, dies festus pascae erat prima dies aximorum; 
+          <lb ed="#G" n="64"/>sed dies coenae fuit ante diem festum pascae, vt patet in 
+          <lb ed="#G" n="65"/>soan. vbi loannes notans diem coenae ait. Ante diem
+          fe<lb ed="#G" n="66" break="no"/>stum paseae &amp;c. Et quia contra istud commentum
+          falsissi<lb ed="#G" n="67" break="no"/>mum sunt expresse tres superius notati euangelistae, scili 
+          <lb ed="#G" n="68"/>cet Matthaeus, Marcus, &amp; Lucas: ideo aliqui (araecorum 
+          <lb ed="#G" n="69"/>ad tantam insaniam deuenerunt, quod dicerent tres pra 
+          <lb ed="#G" n="70"/>dictos euangelistas falsum scripsisse: &amp; ideo eos correctos 
+          <lb ed="#G" n="71"/>fuisse per loan verbis iam allegatis. Sed istud non valet 
+          <lb ed="#G" n="72"/>Quia, vt recitant multi, &amp; magni doctores, ab exordi 
+          <lb ed="#G" n="73"/>institutionis istius sacramenti vsque ad Leonem Papam 
+          <!--672.xml-->
+          <cb ed="#G" n="b"/>
+          <lb ed="#G" n="74"/>tota ecclesia Dei confecit in aximo: sed temporeLeonis 
+          <lb ed="#G" n="75"/>Papae ad extirpandam haeresim Ebionitarum, qui dice 
+          <lb ed="#G" n="76"/>bant, quod de necessitate salutis oporteret quemlibet ho 
+          <lb ed="#G" n="77"/>minem cum obseruatione euangelij obseruare
+          ceremo<lb ed="#G" n="78" break="no"/>nialia legis praecepta, &amp; per consequens consecrare in
+          axi<lb ed="#G" n="79" break="no"/>mo, tunc praecebit ecclesia conficere ex fermentato. Dein 
+          <lb ed="#G" n="80"/>de post aliquo rum annorum curricula, iam dicta haeresi 
+          <lb ed="#G" n="81"/>penitus ext irpata, sacerdotes in partibus Latinis, primum 
+          <lb ed="#G" n="82"/>modum, scilicet consecrandi in aximo resumpserunt, eo 
+          <lb ed="#G" n="83"/>quod clare deducitur ex euangelio, vt superius patuit,  
+          <lb ed="#G" n="84"/>Christum in aximo con secrasse. Sacerdotes vero Qraeciae 
+          <lb ed="#G" n="85"/>modum primum non resumpserunt: sed consecrationem 
+          <lb ed="#G" n="86"/>in fermentato vsque ad haec tempora continuerunt. Ex 
+          <lb ed="#G" n="87"/>quo, patet, quod isti fatui Oraeci imponendo nobis, quoc 
+          <lb ed="#G" n="88"/>non consecremus, eo quod consecrando vtimur aximo, 
+          <lb ed="#G" n="89"/>ipsi hanc rabiem imponunt patribus suis, &amp; sanctissimis 
+          <lb ed="#G" n="90"/>doctoribus suis, &amp; omnibus suis sacerdotibus, qui Leonem 
+          <lb ed="#G" n="91"/>Papam praecesserunt. Et in hoc etiam loquuntur contra 
+          <lb ed="#G" n="92"/>Apostolum Paulum primordialem doctor em eorum, 
+          <lb ed="#G" n="93"/>qui loquens de isto sacramento ait. Itaque epulemur in axi 
+          <lb ed="#G" n="94"/>mis sinceritatis, &amp; Veritatis. Quod vtique Apostolus non  
+          <lb ed="#G" n="95"/>dixisset: si in fermentato consecrasset 
+        </p>
+        <p xml:id="HuYgTa-235430-d1e1233">
+          <lb ed="#G" n="96"/>2 Praeterea, dato, quod Christus manducasset pasca 
+          <lb ed="#G" n="97"/>ante diem. 14. 1. mensis, quo die ex praecepto legis agnus 
+          <lb ed="#G" n="98"/>pascalis comedi debuit, quem diem euangelistae vocant 
+          <lb ed="#G" n="99"/>primam diem aximorum, adhuc ista fictio non valet istis 
+          <lb ed="#G" n="100"/>fictoribus: quia sicut patet in Exod. &amp; in Num. lex
+          prae<lb ed="#G" n="101" break="no"/>cepit vt agnus pascalis comederetur cum aximis, &amp;
+          lactu<lb ed="#G" n="102" break="no"/>cis agrestibus Sed Christus dicit, No veni soluere legem, 
+          <lb ed="#G" n="103"/>sed adimplere. Quod verbum tractans Chrysostomus
+          su<lb ed="#G" n="104" break="no"/>per Mat. ait. Apertissime dominus demonstrauit, quod 
+          <lb ed="#G" n="105"/>s principio circumcisionis suae vsque ad diem pascae extre 
+          <lb ed="#G" n="106"/>mae non erat contrarius diuinis legibus in quibus
+          praeci<lb ed="#G" n="107" break="no"/>piebatur, vt cum aximis agnus pascalis comederetur: ergo 
+          <lb ed="#G" n="108"/>Christus tamquam perfecti ssimus legis obseruator pane 
+          <lb ed="#G" n="109"/>aximum habuit in mensa: quando post esum agni corpus 
+          <lb ed="#G" n="110"/>suum consecrauit. 
+        </p>
+        <p xml:id="HuYgTa-235430-d1e1268">
+          <lb ed="#G" n="111"/>
+          <pc type="indent"/>Ad primum motiuum Oraecorum potest respondori 
+          <lb ed="#G" n="112"/>ex verbis Chrysostomi, qui erat doctor Oraecorum: ipse 
+          <lb ed="#G" n="113"/>enim super Matth. ait, quod illi lud aei, vt desiderium sut 
+          <lb ed="#G" n="114"/>ossent implere in morte Christi, non comederunt pas 
+          <lb ed="#G" n="115"/>calem agnum vespere praecedenti, qua muis ex praecepro 
+          <lb ed="#G" n="116"/>legis hoc facere tenerentur: Christus autem, qui non erat 
+          <lb ed="#G" n="117"/>praeuaricat or legis, sed perfectus obseruator, comedit 
+          <lb ed="#G" n="118"/>pasca cum discipulis suis decimaquarta die ad vesperam 
+          <lb ed="#G" n="119"/>sicut praecipitur in lege. Dato etiam, quod ipsi vespere prae 
+          <lb ed="#G" n="120"/>cedente comedissent pasca, accipiendo pasca pro agno pa 
+          <lb ed="#G" n="121"/>scali, adhuc non debuerunt intrare praetorium: propter 
+          <lb ed="#G" n="122"/>hoc vt illo dic manducarent pasca, accipiendo pasca pro 
+          <lb ed="#G" n="123"/>pane aximo: Quinque nm. modis dicitur pasca inter quos 
+          <lb ed="#G" n="124"/>vnus est, quod pasca dicitur cibus pascalis, seu panis aximus, vt 
+          <lb ed="#G" n="125"/>patet per <ref xml:id="HuYgTa-235430-Rd1e1304">Innocentium tertium in libro de officio misse 
+            <lb ed="#G" n="126"/>arte. 3. cap. 4.</ref> 
+        </p>
+        <p xml:id="HuYgTa-235430-d1e1310">
+          <lb ed="#G" n="127"/>
+          <pc type="indent"/>Ad secundum dicendum, quod quintadecima dies mensis 
+          <lb ed="#G" n="128"/>primi erat dies celeberrimus secundum praeceptum legis 
+          <lb ed="#G" n="129"/>vt patet Exod. 12. &amp; proximo vespere praecedenti
+          come<lb ed="#G" n="130" break="no"/>debatur agnus pascalis, Vt patet ibidem. lllud igitui 
+          <lb ed="#G" n="131"/>inte, quod ponit loannes, non est referendum ad diem  
+          <lb ed="#G" n="132"/>de cimumquartum, in cuius vespere manducandus erat 
+          <lb ed="#G" n="133"/>agnus: sed referendum est ad diem quintum decimum, qui 
+          <lb ed="#G" n="134"/>propter sui celebritatem dicebatur festus dies pascae. Istud 
+          <lb ed="#G" n="135"/>etiam patet Nu. 28. vbi dicitur sic. Mense autem primo 
+          <lb ed="#G" n="136"/>quartadecima die mensis, phase domini erit, &amp;
+          quinta<lb ed="#G" n="137" break="no"/>decima die sollemnitas aximorum: septem diebus vescen 
+          <lb ed="#G" n="138"/>tur aximis, quarum dies prima venerabilis, &amp; sancta erit. 
+          <lb ed="#G" n="139"/>Quod autem per Iy phase intelligatur immolatio agni 
+          <lb ed="#G" n="140"/>aschalis, hoc patet Deuter. 15 vbi dicitur populo Israel,  
+          <lb ed="#G" n="141"/>immolabis phase ad solis occubitum, quando egressus es 
+          <lb ed="#G" n="142"/>de Aegvpto, &amp; comedes in loco, quem elegerit dominus 
+          <lb ed="#G" n="143"/>Deus tuus. 
+        </p>
+        <p xml:id="HuYgTa-235430-d1e1353">
+          <lb ed="#G" n="144"/>
+          <pc type="indent"/>Secundo, quo ad istum primum articulum circa secun 
+          <lb ed="#G" n="145"/>dam eius partem pono duas conclusiones. Prima est, qu 
+          <lb ed="#G" n="146"/>de nullo alio, vino quam de naturali vino vitis potest ffer; 
+          <!--673.xml-->
+          <pb ed="#G" n="P2_101-v"/>
+          <cb ed="#G" n="a"/>
+          <lb ed="#G" n="1"/>tonfecratio sanguinis Christi: quia in tali vino Christus 
+          <lb ed="#G" n="2"/>instituens istud sactamentum consecrauit, vt patet in 
+          <lb ed="#G" n="3"/>Matth. Ex ista conclusione possunt inferri tria corollaria, 
+          <lb ed="#G" n="4"/>Primum est, quod de vino pomorum, &amp; cerasorum, vel
+          quo<lb ed="#G" n="5" break="no"/>rumcumque aliorum fructuum, solo fructu vitis excepto 
+          <lb ed="#G" n="6"/>non potest fieri sanguinis Christi consecratio, eo quod 
+          <lb ed="#G" n="7"/>nullum illorum sit vinum vitis.  
+        </p>
+        <p xml:id="HuYgTa-235430-d1e1386">
+          <lb ed="#G" n="8"/>
+          <pc type="indent"/>Secundum est, quod de vero aceto non potest fieri
+          com<lb ed="#G" n="9" break="no"/>secratio: quia sicut homo mortuus non est homo, sic
+          ace<lb ed="#G" n="10" break="no"/>tum cum sit vinum corruptum, non est vinum, vt ait <ref xml:id="HuYgTa-235430-Rd1e1396">Ari 
+            <lb ed="#G" n="11"/>stotel. 8, Meta.</ref> Et hoc patet ex naturalibus qualitatibus 
+          <lb ed="#G" n="12"/>eorum: quia vinum naturaliter calefacit, &amp; acetum natu 
+          <lb ed="#G" n="13"/>raliter frigefacit. Notanter autem dixi de vero aceto: 
+          <lb ed="#G" n="14"/>quia licet quandoque vinum sit acetosum, seu dispositum 
+          <lb ed="#G" n="15"/>ad acetum : tamen de huiusmodi vino potest fieri sangui 
+          <lb ed="#G" n="16"/>nis consecratio, dummodo adhuc habeat formam substan 
+          <lb ed="#G" n="17"/>tialem vini, &amp; non aceti. 
+        </p>
+        <p xml:id="HuYgTa-235430-d1e1415">
+          <lb ed="#G" n="18"/>
+          <pc type="indent"/>Tertium corollarium est, quod de vergusio non
+          po<lb ed="#G" n="19" break="no"/>test fieri praedicta consecratio; Quia quamdiu res est in 
+          <lb ed="#G" n="20"/>fieri, tunc non est in facto esse: sed vua agresta, de qua ex 
+          <lb ed="#G" n="21"/>primitur vergusium, est adhuc in fieri quo ad vinum: ergo 
+          <lb ed="#G" n="22"/>vergusium non est vinum.  
+        </p>
+        <p xml:id="HuYgTa-235430-d1e1431">
+          <lb ed="#G" n="23"/>
+          <pc type="indent"/>Secunda conclusio est quod huiusmodi vino debet ad 
+          <lb ed="#G" n="24"/>misceri aqua. Primo, quia sic creditur Christus
+          conse<lb ed="#G" n="25" break="no"/>crasse, vt ait <ref xml:id="HuYgTa-235430-Rd1e1441">Damascenus lib. 4.</ref> Communis enim
+          con<lb ed="#G" n="26" break="no"/>suetudo terrae sanctae est non bibere vinum, nisi sit
+          lim<lb ed="#G" n="27" break="no"/>phatum, &amp; hoc propter fortitudinem vini crescentis in 
+          <lb ed="#G" n="28"/>illa patria: Et ideo verisimile est, quod Christus, qui ordi 
+          <lb ed="#G" n="29"/>natissimam, &amp; temperatissimam vitam duxit cum discipu 
+          <lb ed="#G" n="30"/>lis suis, vinum lymphauerit, quod consecrauit. Secundo, quia 
+          <lb ed="#G" n="31"/>istud est de statuto ecclesiae, vt patet <ref xml:id="HuYgTa-235430-Rd1e1458">de conse. dist. 2. c. 1.</ref> 
+          <lb ed="#G" n="32"/>&amp;c. in sacramento. Cauere tamen debet, qui calice
+          prae<lb ed="#G" n="33" break="no"/>parat, ne multum ponat de aqua, &amp; maxime quando
+          vi<lb ed="#G" n="34" break="no"/>num est debile propter duo. Primo, quia si tantum
+          po<lb ed="#G" n="35" break="no"/>neretur de aqua, quod aqua vinum a sua natura transmuta 
+          <lb ed="#G" n="36"/>ret in tantum, quod vinum conuerteretur in aquam, ve 
+          <lb ed="#G" n="37"/>quod ex aqua, &amp; vino resultaret quoddam mixtum, quod 
+          <lb ed="#G" n="38"/>nec esset aqua, nec vinum, tunc non fieret sanguinis Chri 
+          <lb ed="#G" n="39"/>sti consecratio, Secundo, quia nisi aqua infusa vincatur a 
+          <lb ed="#G" n="40"/>virtute vini totaliter, &amp; in vinum conuertatur, tunc licet 
+          <lb ed="#G" n="41"/>partes vini conuerterentur in sanguinem, tamen ille hu 
+          <lb ed="#G" n="42"/>mor aqueus, qui nondum esset conuersus in naturam
+          vi<lb ed="#G" n="43" break="no"/>ni, non conuerteretur in sanguimem: Et ideo valde parum 
+          <lb ed="#G" n="44"/>debet poni de aqua, vt illa aqua in naturam vini sit
+          con<lb ed="#G" n="45" break="no"/>uersa prius, quam verba consecrationis dicantur super
+          calice<lb ed="#G" n="46" break="no"/>est etiam hic aduertendum, quod apposito aquae non 
+          <lb ed="#G" n="47"/>est de necessitate sacramenti: quia si non apponeretur: tamen 
+          <lb ed="#G" n="48"/>vere consecraretur sanguis Christi ex vino puro : Est
+          ta<lb ed="#G" n="49" break="no"/>men de necessitate consecrantis: quia sacerdos consecrans 
+          <lb ed="#G" n="50"/>sine aqua admixta uino, faceret contra statutum
+          eccle<lb ed="#G" n="51" break="no"/>siae Homanae. Et notanter dico, Homanae: quia in
+          ecclesi<lb ed="#G" n="52" break="no"/>Oraecorum fit consecratio sine aqua¬ 
+        </p>
+        <p xml:id="HuYgTa-235430-d1e1507">
+          <lb ed="#G" n="53"/>
+          <pc type="indent"/>ARTICVLV S 1i. 
+          <lb ed="#G" n="54"/>Vtrum cucharistia vnum sit sacramentum 
+        </p>
+        <p xml:id="HuYgTa-235430-d1e1516">
+          <lb ed="#G" n="55"/>VAMTVM ad secundum articulum dico sicut
+          di<lb ed="#G" n="56" break="no"/>Sxi <ref xml:id="HuYgTa-235430-Rd1e1522">superius dist. 8. in solutione argumenti princi 
+            <lb ed="#G" n="57"/>palis</ref>, nec aliquid aliud ad praesens addo causa breuitatis. 
+        </p>
+        <p xml:id="HuYgTa-235430-d1e1529">
+          <lb ed="#G" n="58"/>
+          <pc type="indent"/>AR TICVLV s rii. 
+          <lb ed="#G" n="59"/>Vtrum sub vtraque specie panis scilicet, &amp; vmi istud 
+          <lb ed="#G" n="60"/>sacramentum sit tradendum populo Christiano. 
+        </p>
+        <p xml:id="HuYgTa-235430-d1e1540">
+          <lb ed="#G" n="61"/>
+          <pc type="indent"/>VANTVM ad tertium articulum dicendum, quod 
+          <lb ed="#G" n="62"/>
+          <pc type="indent"/>icet in passione Christi sanguis eius a corpore 
+          <lb ed="#G" n="63"/>fuerit separatus vsque ad horam, qua surrexit a mortuis, 
+          <lb ed="#G" n="64"/>&amp; per consequens, qui consecrasset in tempore medio, il 
+          <lb ed="#G" n="65"/>le sub speciebus panis habuisset corpus sine sanguine, &amp;  
+          <lb ed="#G" n="66"/>sub speciebus vini habuisset sanguinem sine corpore: ta¬ 
+          <!--673.xml-->
+          <cb ed="#G" n="b"/>
+          <lb ed="#G" n="67"/>men post resurrectionem Christi sanguis eius semperma 
+          <lb ed="#G" n="68"/>sit vnitus corpori, &amp; in sempiternum sic manebit: ide; 
+          <lb ed="#G" n="69"/>qui post resurrectionem consecrauit, vel in futurum col 
+          <lb ed="#G" n="70"/>secrabit popter vnionem realem sanguinis, &amp; corpons 
+          <lb ed="#G" n="71"/>Christi sub vtraque specic panis, scilicet &amp; vini, habet co 
+          <lb ed="#G" n="72"/>us, &amp; sanguinem domini lesu Christi: ideo commum 
+          <lb ed="#G" n="73"/>populo secundum consuetudinem Romanae ecclesie
+          ve<lb ed="#G" n="74" break="no"/>ritas corporis, &amp; sanguinis datur tantum modo sub spece 
+          <lb ed="#G" n="75"/>panis, &amp; hoc propter vitandum periculum effusionis, ial 
+          <lb ed="#G" n="76"/>distillationis sanguinis, quod posset accidere, si sub spo 
+          <lb ed="#G" n="77"/>cie vini rudi, immorigerato, &amp; impetuoso populo sangim 
+          <lb ed="#G" n="78"/>traderetur. 
+        </p>
+        <p xml:id="HuYgTa-235430-d1e1590">
+          <lb ed="#G" n="79"/>I1 Forte dicetur, si sub accidentibus, seu speciebusmll 
+          <lb ed="#G" n="80"/>nis vere habetur sanguis Christi, tunc in vanum iterun 
+          <lb ed="#G" n="81"/>consecratur sanguis Christi calicis benedictione
+          Conse<lb ed="#G" n="82" break="no"/>quentia patet: quia frustra ordinatur aliquis actus ad h 
+          <lb ed="#G" n="83"/>bendum, quod iam realiter habetur.
+        </p>
+        <p xml:id="HuYgTa-235430-d1e1603">
+          <lb ed="#G" n="84"/>2 Praeterea, Christus dicit. Nisi manducaueritis cam 
+          <lb ed="#G" n="85"/>filij hominis, &amp; biberitis eius sanguinem, non habebits 
+          <lb ed="#G" n="86"/>vitam in vobis: sed sanguis per modum potus datur soli. 
+          <lb ed="#G" n="87"/>ub speciebus vini: igitur cuilibet Christiano debet
+          san<lb ed="#G" n="88" break="no"/>guis dari etiam sub speciebus vini ad hoc, vt non
+          prine<lb ed="#G" n="89" break="no"/>tur vita spirituali, &amp; aeterna, 
+        </p>
+        <p xml:id="HuYgTa-235430-d1e1619">
+          <lb ed="#G" n="90"/>
+          <pc type="indent"/>3 Praeterea, omnis ordinata refectio datur per modi 
+          <lb ed="#G" n="91"/>cibi, &amp; potus: sed istius sacramenti communio est quaedi 
+          <lb ed="#G" n="92"/>prdinata spiritualis refectio: ergo &amp;c. 
+        </p>
+        <p xml:id="HuYgTa-235430-d1e1630">
+          <lb ed="#G" n="93"/>
+          <pc type="indent"/>4 Praeterea, Craeci illud sactamentum tradunt por 
+          <lb ed="#G" n="94"/>lo sub speciebus panis, &amp; vini, &amp; hunc ritum putantura 
+          <lb ed="#G" n="95"/>cepisse a Deato Paulo Apostolo: ergo &amp;c. 
+        </p>
+        <p xml:id="HuYgTa-235430-d1e1642">
+          <lb ed="#G" n="96"/>
+          <pc type="indent"/>Ad primum nego consequentiam. Ad probationi 
+          <lb ed="#G" n="97"/>dicendum, quod istud sacramentum non solum significat do 
+          <lb ed="#G" n="98"/>futuro nobis gratiam conferendam mediante percepto 
+          <lb ed="#G" n="99"/>ne istius benedicti sacramenti: verum etiam de praetentoi 
+          <lb ed="#G" n="100"/>ignificat Christi passionem: ideo distincte debet fieri ta 
+          <lb ed="#G" n="101"/>secratio sanguinis, vt expresse significetur, quod in Chriid 
+          <lb ed="#G" n="102"/>passione sanguis eius per effusionem fuit separatus a coni 
+          <lb ed="#G" n="103"/>pore: igitur quamuis sanguis Christi sit concomitantol 
+          <lb ed="#G" n="104"/>sub speciebus panis, sub quibus corpus vnitum sangun 
+          <lb ed="#G" n="105"/>est ex vi sacramenti: tamen propter praedictam signitel 
+          <lb ed="#G" n="106"/>tionem idem sanguis ex vi sacramenti est sub specien 
+          <lb ed="#G" n="107"/>vini, &amp; corpus concomitanter, cui huiusmodi sanguis ml 
+          <lb ed="#G" n="108"/>nunc realiter est vnitus. Et istud non debet dici fruum 
+          <lb ed="#G" n="109"/>uia rationabilem causam habet, puta significationel 
+          <lb ed="#G" n="110"/>am dictam. Etiam actus, qui ordinatur ad habendumi 
+          <lb ed="#G" n="111"/>lud, quod habetur alio modo, quam pro nunc haben 
+          <lb ed="#G" n="112"/>talis actus non est frustra: sed sic est in proposito, quia acu 
+          <lb ed="#G" n="113"/>uo sanguis consecratur, ordinatur ad hoc, vt sangl 
+          <lb ed="#G" n="114"/>christi nabeatur ex vi sacramenti sub speciebus vini qu 
+          <lb ed="#G" n="115"/>rius sub speciebus panis habebatur cocomitanter, &amp;no 
+          <lb ed="#G" n="116"/>ex vi sacramenti. 
+        </p>
+        <p xml:id="HuYgTa-235430-d1e1692">
+          <lb ed="#G" n="117"/>
+          <pc type="indent"/>Ad secundum dicendum, quod qui digne recipit co 
+          <lb ed="#G" n="118"/>us Christi sub speciebus panis, vere manducat eius am 
+          <lb ed="#G" n="119"/>nem, &amp; bibit eius sanguinem: quamquam hoc non fa 
+          <lb ed="#G" n="120"/>sub ista expresso signo, Sicut si reciperet istud sacramenmi 
+          <lb ed="#G" n="121"/>etiam sub accidentibus vini. Sub qualibet enim speed 
+          <lb ed="#G" n="122"/>panis, s: &amp; vini habetur totus Christus, qui est animesi 
+          <lb ed="#G" n="123"/>ritualis &amp; cibus, &amp; potus.
+        </p>
+        <p xml:id="HuYgTa-235430-d1e1712">
+          <lb ed="#G" n="124"/>Ad tertium dicendum, quod cui datur corpus Chriu 
+          <lb ed="#G" n="125"/>illi datur spiritualis refectio pr modum cibi, &amp; potus quad 
+          <lb ed="#G" n="126"/>ad re significata, licet non quantum ad specien signincantem 
+        </p>
+        <p xml:id="HuYgTa-235430-d1e1721">
+          <lb ed="#G" n="127"/>
+          <pc type="indent"/>Ad quartum dicendum, que in hoc Qraeci non repteno 
+          <lb ed="#G" n="128"/>duntur, &amp; dato, quod bene faciant, tamen melius faenus 
+          <lb ed="#G" n="129"/>atini, qui magis caute obuiant periculo, quod posset  
+          <lb ed="#G" n="130"/>tingere ex sanguinis effusione. 
+        </p>
+        <p xml:id="HuYgTa-235430-d1e1734">
+          <lb ed="#G" n="131"/>
+          <pc type="indent"/>ARTICVLVS II 
+          <lb ed="#G" n="132"/>Vtrum sub vtr aque specie, christus in egna simpso 
+          <lb ed="#G" n="133"/>
+          <pc type="indent"/>rit seipsum, ac tradiderit omnibus discipuus, 
+        </p>
+        <p xml:id="HuYgTa-235430-d1e1747">
+          <lb ed="#G" n="134"/>
+          <pc type="indent"/>VANTVM ad quartum articulum pono duas
+          con<lb ed="#G" n="135" break="no"/>ualusiones. Prima est, que in communione sacd 
+          <!--674.xml-->
+          <pb ed="#G" n="P2_102-r"/>
+          <cb ed="#G" n="a"/>
+          <lb ed="#G" n="1"/>uando Christus se trad idit discipulis suis ad
+          manducan<lb ed="#G" n="2" break="no"/>dum etiam ipse manducauit, &amp; bibit corpus suum, &amp;
+          san<lb ed="#G" n="3" break="no"/>guinem suum. Istud quamuis non habeatur expresse ex 
+          <lb ed="#G" n="4"/>euangelio: potest tamen haberi ex sanctorum doctorum 
+          <lb ed="#G" n="5"/>testimonio 
+        </p>
+        <p xml:id="HuYgTa-235430-d1e1774">
+          <lb ed="#G" n="6"/>
+          <pc type="indent"/>Quia heatus Hieronvmus dicit, &amp; habetur <ref xml:id="HuYgTa-235430-Rd1e1780">de
+            con<lb ed="#G" n="7" break="no"/>se. dist. 2: c. non Movses.</ref> Dns lesus ipse cum Apostolis 
+          <lb ed="#G" n="8"/>conuiua, &amp; conuiuium ipse comedens, &amp; qui comeditur. 
+        </p>
+        <p xml:id="HuYgTa-235430-d1e1788">
+          <lb ed="#G" n="9"/>
+          <pc type="indent"/>Praeterea, super illo verbo, de sanguine arietis,
+          di<lb ed="#G" n="10" break="no"/>cit glosa Esicij, sic, primo sacerdos, deinde filij intingebant 
+          <lb ed="#G" n="11"/>quia Christus in coena prius sanguinem suum accepit,
+          dein<lb ed="#G" n="12" break="no"/>de discipulis suis dedit, bibit enim, &amp; aliis bibere dedit. 
+          <lb ed="#G" n="13"/>3 Praeterea, ficut Christus prius baptixatus est, vt
+          da<lb ed="#G" n="14" break="no"/>ret aliis exemplum baptir andi, sic ipse prius istius sacra 
+          <lb ed="#G" n="15"/>menti percepit communionem, vt aliis daret exemplum 
+          <lb ed="#G" n="16"/>ommunicandi
+        </p>
+        <p xml:id="HuYgTa-235430-d1e1810">
+          <lb ed="#G" n="17"/>4 Praeterea, <ref xml:id="HuYgTa-235430-Rd1e1814" target="http://scta.info/resource/cice-l1t1-d1e119">extra de sum tri, &amp; fide catholica. c.
+            Fir<lb ed="#G" n="18" break="no"/>imiter credimus</ref>: in apparatu habentur isti versus. Rex 
+          <lb ed="#G" n="19"/>sedet in coena, cinctus turba duodena. Se tenet in
+          mani<lb ed="#G" n="20" break="no"/>bus: se cibat ipse cibus. 
+        </p>
+        <p xml:id="HuYgTa-235430-d1e1824">
+          <lb ed="#G" n="21"/>
+          <pc type="indent"/>Sed contra istud est quorundam doctorum opinio, que 
+          <lb ed="#G" n="22"/>robatur sic. Essentialis differentia est inter comedens, 
+          <lb ed="#G" n="23"/>&amp; comestum sed Christus non potuit essentialiter a
+          se<lb ed="#G" n="24" break="no"/>ipso differre : ergo non potuit seipsum comedere. 
+        </p>
+        <p xml:id="HuYgTa-235430-d1e1837">
+          <lb ed="#G" n="25"/>
+          <pc type="indent"/> Praeterea, assumptum, &amp; assumens realiter differunt: 
+          <lb ed="#G" n="26"/>nihil enim assumit seipsum: sed quod comeditur, a
+          co<lb ed="#G" n="27" break="no"/>nedente assumitur.
+        </p>
+        <p xml:id="HuYgTa-235430-d1e1848">
+          <lb ed="#G" n="28"/>3 Praeterea, duo sunt modi sumendi istud
+          sacramen<lb ed="#G" n="29" break="no"/>um, scilicet sacramentalis, &amp; spiritualis, sed nullo
+          isto<lb ed="#G" n="30" break="no"/>um modorum Christus sumpsit illud sacramentum. Non 
+          <lb ed="#G" n="31"/>spiritualiter : quia sumens spiritualiter istud
+          sactamen<lb ed="#G" n="32" break="no"/>um, augetur in gratia : sed Christus non potuit augeri 
+          <lb ed="#G" n="33"/>gratia: quia ab instanti conceptionis suae habuit
+          gra<lb ed="#G" n="34" break="no"/>im non ad mensuram. Nec sacramentaliter: quia ipse 
+          <lb ed="#G" n="35"/>st verus compre hensor: ergo fruebatur seipso nude, &amp;  
+          <lb ed="#G" n="36"/>ne sacramentali velamine
+        </p>
+        <p xml:id="HuYgTa-235430-d1e1871">
+          <lb ed="#G" n="37"/>Ad primum dicendum, quod licet illud, quod comeditur 
+          <lb ed="#G" n="38"/>orporaliter, &amp; naturaliter differt a comedente
+          essen<lb ed="#G" n="39" break="no"/>aliter, seu realiter : hoc tamen non est necesse
+          loquen<lb ed="#G" n="40" break="no"/>o de eo, quod comeditur spiritualiter, &amp;
+          sacramentali<lb ed="#G" n="41" break="no"/>t, vt est in proposito: quia licet in comestione corpo 
+          <lb ed="#G" n="42"/>lires, quae comeditur, diuidatur, &amp; corrumpatur ab 
+          <lb ed="#G" n="43"/>tione comedentis saluo manente ipso comedente, &amp;  
+          <lb ed="#G" n="44"/>a consequens necessaria est differentia inter
+          comeden<lb ed="#G" n="45" break="no"/>m, &amp; comestum: tamen illud, quod spiritualiter, vel 
+          <lb ed="#G" n="46"/>eramentaliter comeditur, nec diuiditur, nec corrumpitur 
+          <lb ed="#G" n="47"/>ideo non est. necessaria huiusmodi differentia inter
+          co<lb ed="#G" n="48" break="no"/>edentem, &amp; comestum
+        </p>
+        <p xml:id="HuYgTa-235430-d1e1900">
+          <lb ed="#G" n="49"/>Ad secundum dicendum, quod maior non est necessaria 
+          <lb ed="#G" n="50"/>quendo de assumptione sacramentali, &amp; spirituali 
+          <lb ed="#G" n="51"/>Ad tertium potest dici, quod Christus vtroque modo 
+          <lb ed="#G" n="52"/>mpsit corpus, &amp; sanguinem suum.
+        </p>
+        <p xml:id="HuYgTa-235430-d1e1911">
+          <lb ed="#G" n="53"/>Ad primam probationem dicendum, quod spiritualis 
+          <lb ed="#G" n="54"/>optio istius sacramenti non auget gratiam, nisi in his 
+          <lb ed="#G" n="55"/>Thuiusmodi augmenti habent indigentiam. 
+          <lb ed="#G" n="56"/>d secundam probationem dicendum, quod quamdiu 
+          <lb ed="#G" n="57"/>hristus fuit in hoc mundo, tamdiu simul fuit
+          compre<lb ed="#G" n="58" break="no"/>nisor, &amp; viator : ergo licet frueretur seipso nude, &amp; sine 
+          <lb ed="#G" n="59"/>amentali velamine inquantum comprehensor:
+          ta<lb ed="#G" n="60" break="no"/>en prout fuit viator potuit seipsum sumere sub
+          sacra<lb ed="#G" n="61" break="no"/>entali velamine.
+        </p>
+        <p xml:id="HuYgTa-235430-d1e1933">
+          <lb ed="#G" n="62"/>Conclusio secunda est, quod Christus omnibus
+          disci<lb ed="#G" n="63" break="no"/>lis suis tradidit istud sacramentum: 1 Quod patet in 
+          <lb ed="#G" n="64"/>nte vbi Christus omnibus discipulis idest Apostolis ait. 
+          <lb ed="#G" n="65"/>ipite, &amp; comedite, hoc est corpus meum. Et accipiens 
+          <lb ed="#G" n="66"/>licem gratias egit, &amp; dedit discipulis suis dicens, bibite 
+          <lb ed="#G" n="67"/>hoc omnes, hic est sanguis meus.
+        </p>
+        <p xml:id="HuYgTa-235430-d1e1949">
+          <lb ed="#G" n="68"/>Forte dices, licet Christus omnibus istud sacramenti 
+          <lb ed="#G" n="69"/>ebuerit : ex hoc tamen non habetur, quod omnes
+          accepe<lb ed="#G" n="70" break="no"/>aepe enim praebetur homini, quod ipse tamen non
+          acci<lb ed="#G" n="71" break="no"/>lstud expresse tollitur per illud, quohabetur in Marco, 
+          <lb ed="#G" n="72"/>n dicitur sic. Sumite, hoc est corpus meum. Et accepto 
+          <lb ed="#G" n="73"/>re pratias agens dedit illis, &amp; biberunt ex eo omnes.
+        </p>
+        <p xml:id="HuYgTa-235430-d1e1965">
+          <!--674.xml-->
+          <cb ed="#G" n="b"/>
+          <lb ed="#G" n="74"/>Praeterea, ludas in illa coena sumpsit istud
+          sacramen<lb ed="#G" n="75" break="no"/>tum sub vtraque specie : ergo omnes alij. Consequentia 
+          <lb ed="#G" n="76"/>atet: quia de nullo in proposito dubitatur, quod
+          sum<lb ed="#G" n="77" break="no"/>serit istud sacramentum sub specie panis, vt patet
+          aucto<lb ed="#G" n="78" break="no"/>ritate August. &amp; habetur <ref xml:id="HuYgTa-235430-Rd1e1982">de conse. dist. 2. c. &amp; sancta</ref>. vbi 
+          <lb ed="#G" n="79"/>sic dicitur. Non mala erat buccella, quae data est ludae a 
+          <lb ed="#G" n="80"/>domino, salutem medicus dedit: sed ille, quia indipnus 
+          <lb ed="#G" n="81"/>erat, accepit ad peruiciem sui. Item <ref xml:id="HuYgTa-235430-Rd1e1992">idem Aug.</ref> ait,
+          Chri<lb ed="#G" n="82" break="no"/>stus corpus suum in coena cum aliis discipulis ludae dedit,  
+          <lb ed="#G" n="83"/>vt nobis exemplum daret, quod peccatoribus occultis non  
+          <lb ed="#G" n="84"/>ssent sacramenta deneganda, &amp; vt omnem occasionem 
+          <lb ed="#G" n="85"/>ei auferret malefaciendi, quam alsumere potuisset, si in 
+          <lb ed="#G" n="86"/>aliquo ab aliis discipulis ante apertam malitiam fuisset 
+          <lb ed="#G" n="87"/>discretus. Quod autem sumpserit illud sactamentum sub 
+          <lb ed="#G" n="88"/>specie vini patet per euangelium prius allegatum.
+          Prae<lb ed="#G" n="89" break="no"/>terea, Dionysius in de ecclesiastica hierarchia, ait. Svm  
+          <lb ed="#G" n="90"/>polorum conditor partitur sanctissima non vnimode ei 
+          <lb ed="#G" n="91"/>sacra concenanti, scilicet ludae. Et per illa sanctissima in 
+          <lb ed="#G" n="92"/>telligit corpus, &amp; sanguinem Christi, sicut ibidem patet. 
+        </p>
+        <p xml:id="HuYgTa-235430-d1e2020">
+          <lb ed="#G" n="93"/>
+          <pc type="indent"/>Forte dices,, quod Christus promiserit discipulis
+          ca<lb ed="#G" n="94" break="no"/>licem sacramenti istius bibentibus, quod secum essent 
+          <lb ed="#G" n="95"/>pibituri in regno patris sui : sed in regno non fuit bibi 
+          <lb ed="#G" n="96"/>turus ludas: ergo non videtur, quod biberit de calice 
+        </p>
+        <p xml:id="HuYgTa-235430-d1e2033">
+          <lb ed="#G" n="97"/>
+          <pc type="indent"/>Respondeo, quod hoc promifit Christus bibentibus 
+          <lb ed="#G" n="98"/>illum calicem, non solum sacramentaliter, sed etiam 
+          <lb ed="#G" n="99"/>piritualiter: ludas vero istud sacramentum ita sumpsit 
+          <lb ed="#G" n="100"/>sacramentaliter, quod non spiritualiter: ergo ad ludam non 
+          <lb ed="#G" n="101"/>spectabat hniusmodi promissio. 
+        </p>
+        <p xml:id="HuYgTa-235430-d1e2049">
+          <lb ed="#G" n="102"/>
+          <pc type="indent"/>Ad argumentum principale dictum est <ref xml:id="HuYgTa-235430-Rd1e2055">dist. 8.</ref> 
+        </p>
+      </div>
+    </body>
+  </text>
 </TEI>

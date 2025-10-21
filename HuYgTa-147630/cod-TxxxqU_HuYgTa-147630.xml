@@ -1,912 +1,912 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Quaestio 1</title>
-            <author ref="#ThomasStrasbourg">Thomas of Strasbourg</author>
-            <respStmt>
-               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
-               <resp>Transcription Editor</resp>
-               <resp>TEI Encoder</resp>
-            </respStmt>
-         </titleStmt>
-         <editionStmt>
-            <edition n="0.0.0-dev">
-               <title>Quaestio 1</title>
-               <date when="2020-11-26">November 26, 2020</date>
-            </edition>
-         </editionStmt>
-         <publicationStmt>
-            <authority>SCTA</authority>
-            <availability status="free">
-               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
-               </p>
-            </availability>
-         </publicationStmt>
-         <sourceDesc>
-            <listWit>
-               <witness xml:id="G" n="cod-TxxxqU">Genoa 1585</witness>
-            </listWit>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
-         <editorialDecl>
-            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
-       guidelines for a diplomatic edition.</p>
-         </editorialDecl>
-      </encodingDesc>
-      <revisionDesc status="draft">
-         <listChange>
-            <change when="2020-11-26" status="draft" n="0.0.0">
-               <p>Created file for the first time.</p>
-            </change>
-         </listChange>
-      </revisionDesc>
-   </teiHeader>
-   <text xml:lang="la">
-      <front>
-         <div xml:id="starts-on">
-            <pb ed="#G" n="193-r"/>
-            <cb ed="#G" n="b"/>
-         </div>
-      </front>
-      <body>
-         <div xml:id="HuYgTa-147630"><!-- HuYgTa-l2d34q1 -->
-            <head xml:id="HuYgTa-147630-Hd1e108">Quaestio 1</head>
-            <head xml:id="HuYgTa-147630-Hd1e111" type="question-title">An malum causetur a bono</head>
-            <p xml:id="HuYgTa-147630-d1e114">
-               <lb ed="#G" n="114"/>
-               <pc type="indent"/>Quaestio 1. 
-      <lb ed="#G" n="115"/>An malum causetur a bono
-    </p>
-            <p xml:id="HuYgTa-147630-d1e123">
-               <lb ed="#G" n="116"/>VVTRVM malum causetur a bono.
-    </p>
-            <p xml:id="HuYgTa-147630-d1e128">
-      Et videtur, quod 
-      <lb ed="#G" n="117"/>non : quia omnis effectus aliquo modo assimilatu 
-      <lb ed="#G" n="118"/>suae causae: sed malum in nullo assimilatur bono: &amp;c.
-      Ma<lb ed="#G" n="119" break="no"/>ior patet: quia quae sunt causatorum preinsunt suis causis,  
-      <lb ed="#G" n="120"/>vt patet in libello de causis, &amp; per consequens
-      assimilan<lb ed="#G" n="121" break="no"/>tur eis. Minor autem videtur esse nota: quia vnum contra 
-      <lb ed="#G" n="122"/>riorum non assimilatur alteri, cum maxime a se inuicen 
-      <lb ed="#G" n="123"/>distent, vt patet in praedicam entis: sed bonum, &amp; malum 
-      <lb ed="#G" n="124"/>sunt contraria, vt patet ibidem 
-    </p>
-            <p xml:id="HuYgTa-147630-d1e149">
-               <lb ed="#G" n="125"/>
-               <pc type="indent"/>Contra illud, quod praecise originatur ex aliquo, ho 
-      <lb ed="#G" n="126"/>causatur ex illo: sed <ref xml:id="HuYgTa-147630-Rd1e157">Augustinus dicit in Enchirid.</ref> quod 
-      <lb ed="#G" n="127"/>malum non potest oriri nisi ex bono. Hic quattuor sunt 
-      <lb ed="#G" n="128"/>videnda. Primo, vtrum malum dicat aliquam naturan 
-      <lb ed="#G" n="129"/>posituam. Secundo de eo, quod quaeritur. Tertio, vtrum 
-      <lb ed="#G" n="130"/>malum culpae possit corrumpere totum bonum. Et
-      quar<lb ed="#G" n="131" break="no"/>to, vtrum possibile sit esse aliquod purum malum
-    </p>
-            <p xml:id="HuYgTa-147630-d1e172">
-      <!--425.xml-->
-               <pb ed="#G" n="193-v"/>
-               <cb ed="#G" n="a"/>
-               <lb ed="#G" n="1"/>RESOLVTIO. 
-      <lb ed="#G" n="2"/>licet malum direcle per se nullam dicat essentiam, indirecte
-      ta<lb ed="#G" n="3" break="no"/>men nonnullam connotat naturam Vnde quamuis de se forma 
-      <lb ed="#G" n="4"/>lem causam non includat, materialem vero non secludat,
-      fina<lb ed="#G" n="5" break="no"/>lem autem per accidens resbiciat: efficientem tamen proxima 
-      <lb ed="#G" n="6"/>non admittit. 
-    </p>
-            <p xml:id="HuYgTa-147630-d1e194">
-               <lb ed="#G" n="7"/>
-               <pc type="indent"/>ARTICVLVS 1. 
-      <lb ed="#G" n="8"/>Vtrum malum dicat dsiquam naturam 
-      <lb ed="#G" n="9"/>posituam.
-    </p>
-            <p xml:id="HuYgTa-147630-d1e205">
-               <lb ed="#G" n="10"/>SVANTVM ad primum est aduertendum, quod ali 
-      <lb ed="#G" n="11"/>A quid dicere naturam positiuam potest dupliciter 
-      <lb ed="#G" n="12"/>intelligi. Vno modo directe &amp; per se. Alio modo
-      indire<lb ed="#G" n="13" break="no"/>cte, &amp; conotatiue. Et secundum hoc pono duas conclusiones 
-    </p>
-            <p xml:id="HuYgTa-147630-d1e216">
-               <lb ed="#G" n="14"/>
-               <pc type="indent"/>Prima est, quod malum directe, &amp; per se non dicit
-      ali<lb ed="#G" n="15" break="no"/>quam naturam positiuam 
-      <lb ed="#G" n="16"/>1 Quia illud, quod tantum dicit priuationem, non ess 
-      <lb ed="#G" n="17"/>ens posituum: malum est huiusmodi. Maior patet, quia 
-      <lb ed="#G" n="18"/>riuatio de se est non ens, vt patet primo physicorum.
-      Mi<lb ed="#G" n="19" break="no"/>nor etiam patet, quia malum non est aliud, nisi
-      priua<lb ed="#G" n="20" break="no"/>tio boni¬
-    </p>
-            <p xml:id="HuYgTa-147630-d1e236">
-               <lb ed="#G" n="21"/>2 Praeterea, illud, quod sic se habet, quod quanto ma 
-      <lb ed="#G" n="22"/>gis intenditur, tanto minus dicit de entitate, &amp; tanto ma 
-      <lb ed="#G" n="23"/>gis tollit perfectionem &amp; entitatem, illud secundum se 
-      <lb ed="#G" n="24"/>nullam dicit naturam positiuam: malum est huiusmodi 
-      <lb ed="#G" n="25"/>Propter hoc enim dicit <ref xml:id="HuYgTa-147630-Rd1e249">philosophus. 4 ethi.</ref> Malum
-      se<lb ed="#G" n="26" break="no"/>ipsum corrumpit, &amp; si integrum sit, imputabile fit.
-    </p>
-            <p xml:id="HuYgTa-147630-d1e256">
-               <lb ed="#G" n="27"/>3 Praeterea, bonum dicitur aequaliter enti, vt dicitur 
-      <lb ed="#G" n="28"/>
-               <ref xml:id="HuYgTa-147630-Rd1e262">1. ethicorum</ref> igitur omne illud, quod dicit entitatem posi 
-      <lb ed="#G" n="29"/>tiuam, oportet, quod sit bonum, &amp; per consequens, si
-      ma<lb ed="#G" n="30" break="no"/>lum diceret secundum se aliquam naturam, seu entitate 
-      <lb ed="#G" n="31"/>posituam, tuc malum esset bonum, quod est impossibile
-    </p>
-            <p xml:id="HuYgTa-147630-d1e273">
-               <lb ed="#G" n="32"/>4 Praeterea, <ref xml:id="HuYgTa-147630-Rd1e277">Dama. lib. 2.</ref> ait, Nihil aliud est malum, 
-      <lb ed="#G" n="33"/>quam priuatio boni. 
-    </p>
-            <p xml:id="HuYgTa-147630-d1e283">
-               <lb ed="#G" n="34"/>
-               <pc type="indent"/>Item <ref xml:id="HuYgTa-147630-Rd1e289">Augustinus. 12. de ci. Dei</ref> ait, <quote xml:id="HuYgTa-147630-Qd1e292" type="paraphrase" source="http://scta.info/resource/adcd-l12-d1e1698" synch="57-63"><!-- very fuzzy source connection; dbcheck;--> Malum se habet ad 
-        <lb ed="#G" n="35"/>intellectum, sicut tenebra se habet ad oculum, seu ad
-      vi<lb ed="#G" n="36" break="no"/>sum, &amp; silentium ad auditum</quote>. 
-    </p>
-            <p xml:id="HuYgTa-147630-d1e301">
-               <lb ed="#G" n="37"/>
-               <pc type="indent"/>Sed contra istud Pythagorici, ac Manichei, qui
-      oppo<lb ed="#G" n="38" break="no"/>sitae videntur fuisse opinionis, possent sic instare. 
-    </p>
-            <p xml:id="HuYgTa-147630-d1e310">
-               <lb ed="#G" n="39"/>
-               <pc type="indent"/>1 Omne, quod corrumpit aliquid, agit in ipsum, &amp; per 
-      <lb ed="#G" n="40"/>consequens dicit entitatem positiuam, quia agere praesup 
-      <lb ed="#G" n="41"/>ponit esse, sed malum corrumpit bonum, vt patet: <ref xml:id="HuYgTa-147630-Rd1e320">4. de di non</ref> 
-            </p>
-            <p xml:id="HuYgTa-147630-d1e324">
-               <lb ed="#G" n="42"/>
-               <pc type="indent"/>Praeterea, quicquid a Deo creatur, est ens positiuum 
-      <lb ed="#G" n="43"/>sed malum a Deo creatur, iuxta illud, lsaiae. Ego dominus 
-      <lb ed="#G" n="44"/>faciens pacem, &amp; creans malum. 
-    </p>
-            <p xml:id="HuYgTa-147630-d1e336">
-               <lb ed="#G" n="45"/>
-               <pc type="indent"/>3 Praeterea, in hoc differt opposito contraria a con- 
-      <lb ed="#G" n="46"/>tradictoria, &amp; priuatiua, quod dicit ens reale &amp; positiuum 
-      <lb ed="#G" n="47"/>in vtroque suorum extremorum, sed bonum &amp; malum sunt 
-      <lb ed="#G" n="48"/>contraria, vt patet in libro praedicamentorum.
-    </p>
-            <p xml:id="HuYgTa-147630-d1e349">
-               <lb ed="#G" n="49"/>4 Praeterea, illud, quod intenditur, &amp; remittitur, est 
-      <lb ed="#G" n="50"/>ens positiuum; malum est huiusmodi: ergo &amp;c 
-    </p>
-            <p xml:id="HuYgTa-147630-d1e356">
-               <lb ed="#G" n="51"/>
-               <pc type="indent"/>Forte dicetur ad istud, quod malum intenditur, &amp; re- 
-      <lb ed="#G" n="52"/>mittitur per accidens, puta ratione maioris, vel minoris 
-      <lb ed="#G" n="53"/>boni, quod cotrumpit: maius enim malum est homicidium, 
-      <lb ed="#G" n="54"/>quam adulterium, quia maius bonum corrumpit, &amp;
-      ma<lb ed="#G" n="55" break="no"/>ius malum est parricidium, quam simplex homicidium 
-    </p>
-            <p xml:id="HuYgTa-147630-d1e372">
-               <lb ed="#G" n="56"/>
-               <pc type="indent"/>lstud non valet, quia causa non intenditur, nec remitti 
-      <lb ed="#G" n="57"/>tur propter intensionem &amp; remissionem effectus, sed potius 
-      <lb ed="#G" n="58"/>econuerso: sed malum est causa cotruptionis ipsius boni¬ 
-    </p>
-            <p xml:id="HuYgTa-147630-d1e383">
-               <lb ed="#G" n="59"/>
-               <pc type="indent"/>Praeterea, malum, quod ab aliquo refutatur, est
-      ma<lb ed="#G" n="60" break="no"/>oris entitatis, quam bonum, quod ab eo appetitur : ergo 
-      <lb ed="#G" n="61"/>tale malum erit ens positiuum, Consequentia patet.
-      Pro<lb ed="#G" n="62" break="no"/>bo antecedens, quia ouis refugit praesentiam lupi, &amp;
-      ap<lb ed="#G" n="63" break="no"/>petit absentiam lupi: ergo praesentia lupi est quoddam
-      ma<lb ed="#G" n="64" break="no"/>um, &amp; absentia eius quoddam bonum, quia bonum est 
-      <lb ed="#G" n="65"/>quod omnia appetunt, vt patet primo ethicorum, &amp; malum 
-      <lb ed="#G" n="66"/>econtra, quod omnia sugiuntised presentia lupi est forma 
-      <!--425.xml-->
-      <cb ed="#G" n="b"/>
-               <lb ed="#G" n="67"/>liter maioris entitatis, quam absentia ipsius: ergo &amp;c 
-    </p>
-            <p xml:id="HuYgTa-147630-d1e412">
-               <lb ed="#G" n="68"/>
-               <pc type="indent"/>Sed ista non concludunt 
-      <lb ed="#G" n="69"/>Ad primum igitur dicendum, quod malum sumptum 
-      <lb ed="#G" n="70"/>in concreto dicitur agere ratione implicationis subiecti, 
-      <lb ed="#G" n="71"/>in quo fundatur. Si autem sumitur in abstracto, puta ipsa 
-      <lb ed="#G" n="72"/>malitia, tunc non agit; &amp; si dicitur ipsum malum
-      aliquam<lb ed="#G" n="73" break="no"/>do corrumpere, hoc non est intelligendum actiue, sed for 
-      <lb ed="#G" n="74"/>maliter, quia malum secundum se abstracte sumptum est 
-      <lb ed="#G" n="75"/>formaliter ipsa corruptio iboni, vel cotruptum esse
-      ip<lb ed="#G" n="76" break="no"/>sius boni, sicut caecitas est corruptio visus. 
-    </p>
-            <p xml:id="HuYgTa-147630-d1e437">
-               <lb ed="#G" n="77"/>
-               <pc type="indent"/>Ad secundum dicendum, quod minor cum sua
-      proba<lb ed="#G" n="78" break="no"/>tione intelligenda est de malo poenae: quae quidem poena, 
-      <lb ed="#G" n="79"/>dum infertur a iusto iudice, quamuis sit malum secudum 
-      <lb ed="#G" n="80"/>quid, puta respectu appetitus illius, cui infertur, seu
-      infli<lb ed="#G" n="81" break="no"/>itur poena: est tamen quoddam bonum simpliciter, cum 
-      <lb ed="#G" n="82"/>implicet virtutem iustitiae.  
-    </p>
-            <p xml:id="HuYgTa-147630-d1e455">
-               <lb ed="#G" n="83"/>
-               <pc type="indent"/>Ad tertium dicendum, quod bonum, &amp; malum opponuntur 
-      <lb ed="#G" n="84"/>non contrarie, sed opponuntur priuatiue. Ad
-      probatio<lb ed="#G" n="85" break="no"/>nem dico, quod philosophus loquitur ibi multum large 
-      <lb ed="#G" n="86"/>de contrariis, sicut etiam primo physicorum dicit formam, 
-      <lb ed="#G" n="87"/>&amp; priuationem contraria esse principia 
-    </p>
-            <p xml:id="HuYgTa-147630-d1e471">
-               <lb ed="#G" n="88"/>
-               <pc type="indent"/>Ad quartum dicendum, quod suscipere magis &amp; minus 
-      <lb ed="#G" n="89"/>potest contingere dupliciter. Vno modo per accessum ad 
-      <lb ed="#G" n="90"/>formam aliquam, seu secundum maiorem &amp; minorem 
-      <lb ed="#G" n="91"/>participationem alicuius formae: &amp; sic maior est vera. Alio 
-      <lb ed="#G" n="92"/>modo, non secundum participationem formae, sed
-      secun<lb ed="#G" n="93" break="no"/>dum maiorem &amp; minorem corruptionem formae, &amp; sic 
-      <lb ed="#G" n="94"/>maior non est vera 
-    </p>
-            <p xml:id="HuYgTa-147630-d1e491">
-               <lb ed="#G" n="95"/>
-               <pc type="indent"/>Ad instantiam dico, quod malum non est causa effectiua 
-      <lb ed="#G" n="96"/>corruptionis boni, sed est formaliter ipsa corruptio bonis 
-    </p>
-            <p xml:id="HuYgTa-147630-d1e500">
-               <lb ed="#G" n="97"/>
-               <pc type="indent"/>Alias inuenitur talis additio.  
-      <lb ed="#G" n="98"/>Responsio etiam ad instantiam licet aliquam contineat 
-      <lb ed="#G" n="99"/>veritatem, loquendo de causa simpliciter positua: tamen 
-      <lb ed="#G" n="100"/>non est vera, loquendo de causa priuatiuas haec enim dici 
-      <lb ed="#G" n="101"/>tur mala, vel peror, prout illud, quod priuat, est bonum, 
-      <lb ed="#G" n="102"/>vel melius: propter quod dicitur,<ref xml:id="HuYgTa-147630-Rd1e517"> 7. ethi.</ref> quod pessimum 
-      <lb ed="#G" n="103"/>opponitur optimo.
-    </p>
-            <p xml:id="HuYgTa-147630-d1e523">
-               <lb ed="#G" n="104"/>Ad quintum dicendum, quod ouis fugit praesentiam 
-      <lb ed="#G" n="105"/>lupi, quia fugit priuationem suae propriae entitatis, quae 
-      <lb ed="#G" n="106"/>posset sibi accidere per praesentiam lupi. Appetit autem 
-      <lb ed="#G" n="107"/>absentiam lupi non propter non entitatem ipsius
-      absen<lb ed="#G" n="108" break="no"/>tiae, sed propter conseruationem suae propriae entitatis, &amp;  
-      <lb ed="#G" n="109"/>permanentiam. lgitur pro seipsa ouis appetit entitatem,  
-      <lb ed="#G" n="110"/>&amp; esse; &amp; refutat priuationem, &amp; non esse. Ex quo patet, quod 
-      <lb ed="#G" n="111"/>antecedens non est verum 
-    </p>
-            <p xml:id="HuYgTa-147630-d1e544">
-               <lb ed="#G" n="112"/>
-               <pc type="indent"/>Secunda conclusio est, qud ipsum malum conotatiue dicit 
-      <lb ed="#G" n="113"/>naturam positiuam, quia ipsui malum fundatur in ente posituo.
-    </p>
-            <p xml:id="HuYgTa-147630-d1e553">
-               <lb ed="#G" n="114"/>1 Nam priuatio dicit aptitudinem in subiecto, sed ma 
-      <lb ed="#G" n="115"/>um est priuatio boni: ergo semper ipsum malum dicit ca 
-      <lb ed="#G" n="116"/>rentiam bonitatis debitam illi rei, quae dicitur mala, &amp;  
-      <lb ed="#G" n="117"/>per consequens necessario connotat ens positiuum
-    </p>
-            <p xml:id="HuYgTa-147630-d1e564">
-               <lb ed="#G" n="118"/>2 Praeterea, priuatio &amp; habitus apta nata sunt fieri
-      cir<lb ed="#G" n="119" break="no"/>ta idem subiectum, sed habitus oppositus malitiae, scilicet 
-      <lb ed="#G" n="120"/>psa bonitas, est in ente posituo: ergo &amp; ipsa malitia 
-    </p>
-            <p xml:id="HuYgTa-147630-d1e573">
-               <lb ed="#G" n="121"/>
-               <pc type="indent"/>Praeterea, u. met. dicitur, quod verum &amp; falsum sunt 
-      <lb ed="#G" n="122"/>in anima, bonum autem &amp; malum sunt in rebus : ergo &amp;c 
-    </p>
-            <p xml:id="HuYgTa-147630-d1e582">
-               <lb ed="#G" n="123"/>
-               <pc type="indent"/>Sed contra istud potest instari sic. Si malum
-      fundare<lb ed="#G" n="124" break="no"/>tur in ente posituo, tunc malum fundaretur in bono.
-      con<lb ed="#G" n="125" break="no"/>sequentia patet, quia bonum dicitur aequaliter enti, vt pa 
-      <lb ed="#G" n="126"/>tet primo ethicorum. Falsitas consequentis potestimulti 
-      <lb ed="#G" n="127"/>pliciter probari. 
-    </p>
-            <p xml:id="HuYgTa-147630-d1e598">
-               <lb ed="#G" n="128"/>
-               <pc type="indent"/>Primo sic. Vnum oppositorum non est subiectum alte 
-      <lb ed="#G" n="129"/>tius: sed bonum &amp; malum sunt opposita 
-    </p>
-            <p xml:id="HuYgTa-147630-d1e608">
-               <lb ed="#G" n="130"/>
-               <pc type="indent"/>Secundo sic, omne fundatum in aliquo denominat
-      il<lb ed="#G" n="131" break="no"/>ud, in quo fundatur: ergo bonum esset malum, si malum 
-      <lb ed="#G" n="132"/>fundaretur in bonc. 
-    </p>
-            <p xml:id="HuYgTa-147630-d1e619">
-               <lb ed="#G" n="133"/>
-               <pc type="indent"/>Tertio, quia bonum est, quod omnia appetunt, vt
-      dici<lb ed="#G" n="134" break="no"/>tur i ethi, sed illud, quod subiicitur malo, non est
-      appeti<lb ed="#G" n="135" break="no"/>bile, nullus enim appetit esse in miseriis 
-    </p>
-            <p xml:id="HuYgTa-147630-d1e630">
-               <lb ed="#G" n="136"/>
-               <pc type="indent"/>Quarto, quia <ref xml:id="HuYgTa-147630-Rd1e636">Dionysius. 4. de di non</ref> ait, quod malum ne 
-      <lb ed="#G" n="137"/>uc est existens, neque in existentibus. Et hoc Dionysius 
-      <lb ed="#G" n="138"/>ibidem probat per hoc, quia omne existens est bonum,
-      ma<lb ed="#G" n="139" break="no"/>um autem nec est bonum, nec est in bono 
-      <!--426.xml-->
-      <pb ed="#G" n="194-r"/>
-               <cb ed="#G" n="a"/>
-               <lb ed="#G" n="1"/>hespondeo, concedo consequentiam, sed nego falsitatem 
-      <lb ed="#G" n="2"/>consequentis, quia <ref xml:id="HuYgTa-147630-Rd1e657">philosophus. 4. metaphys</ref> in hoc distin 
-      <lb ed="#G" n="3"/>guit priuationem a negatione, quia priuatio est negatio 
-      <lb ed="#G" n="4"/>in subiecto apto nato: cum igitur malum sit priuatio, &amp;  
-      <lb ed="#G" n="5"/>omne subiectum vt est ens, seu existens, sit bonum, eo quod 
-      <lb ed="#G" n="6"/>ponum vnum, &amp; ens conuertantur, vt patet <ref xml:id="HuYgTa-147630-Rd1e668">4. metaphy</ref> 
-               <lb ed="#G" n="7"/>ideo necessario malum fundatur in aliquo bono. Et ista 
-      <lb ed="#G" n="8"/>est intentio <ref xml:id="HuYgTa-147630-Rd1e676">Augustini. 14 de ciui. Dei</ref>, vbi ait, <quote xml:id="HuYgTa-147630-Qd1e679" source="http://scta.info/resource/adcd-l14-d1e2066" synch="328-334">Mala non  
-        <lb ed="#G" n="9"/>nisi in bonis esse possunt</quote>. <ref xml:id="HuYgTa-147630-Rd1e684">Magister etiam ait hic in
-      litte<lb ed="#G" n="10" break="no"/>ra</ref>, <quote xml:id="HuYgTa-147630-Qd1e689" source="http://scta.info/resource/pl-l2d34c4-d1e111" synch="1-12">Qui recte acuteque sapit, non nisi in bono malum esse  
-            <lb ed="#G" n="11"/>intelligit</quote>.  
-    </p>
-            <p xml:id="HuYgTa-147630-d1e695">
-               <lb ed="#G" n="12"/>
-               <pc type="indent"/>Ad primam igitur probationem dicendum, quod
-      bo<lb ed="#G" n="13" break="no"/>um tripliciter sumitur. Vno modo pro ipsa rei perfectio 
-      <lb ed="#G" n="14"/>ne ficut claritas visus dicitur bonum ipsius oculi, &amp;
-      per<lb ed="#G" n="15" break="no"/>fctio virtutis bonum anime. Alio modo sumitur bonum 
-      <lb ed="#G" n="16"/>pro ipso subiecto, quod est aptum natum habere huiusme 
-      <lb ed="#G" n="17"/>diperfectionem, &amp; sic ipse oculus, vel anima dicitur
-      bo<lb ed="#G" n="18" break="no"/>num Tertio modo sumitur pro ipsa re perfecta, &amp; sic
-      con<lb ed="#G" n="19" break="no"/>lectitur utrumque. Primo modo non est subiectum
-      ip<lb ed="#G" n="20" break="no"/>sius mali, sed est habitus priuatiue oppositus ipsi malo, 
-      <lb ed="#G" n="21"/>quitollitur, &amp; corrumpitur per ipsum malum: sed bonum 
-      <lb ed="#G" n="22"/>secundo modo dictum est subiectum ipsius mali, quia ens 
-      <lb ed="#G" n="23"/>inpotentia est subiectum tam habitus, quam priuationis 
-      <lb ed="#G" n="24"/>non fimul sed alt ernatim. 
-    </p>
-            <p xml:id="HuYgTa-147630-d1e728">
-               <lb ed="#G" n="25"/>
-               <pc type="indent"/>Et per hoc patet ad secundum, quia bonum de
-      secun<lb ed="#G" n="26" break="no"/>do modo dictum, prout actu priuatum est, sua debita per 
-      <lb ed="#G" n="27"/>fectione est actu malum propter actualem inexistentiam 
-      <lb ed="#G" n="28"/>priuationis suae debitae perfectionis, quamuis sit
-      poten<lb ed="#G" n="29" break="no"/>tia bonum propter aptitudinem, quam habet ad huius 
-      <lb ed="#G" n="30"/>modi perfectionem, quae quidem aptitudo numquam
-      to<lb ed="#G" n="31" break="no"/>taliter tollitur manente natura rei. Et ideo omne malum 
-      <lb ed="#G" n="32"/>nest alicui bono. 
-    </p>
-            <p xml:id="HuYgTa-147630-d1e750">
-               <lb ed="#G" n="33"/>
-               <pc type="indent"/>Ad tertium dicendum, quod licet subiectum ipsius ma 
-      <lb ed="#G" n="34"/>li priuationis non sit appetibile ratione, qua subiicitur 
-      <lb ed="#G" n="35"/>priationi: tamen ratione aptitudinis, quam habet ad suam 
-      <lb ed="#G" n="36"/>perfectionem, bene est appetibile¬ 
-    </p>
-            <p xml:id="HuYgTa-147630-d1e764">
-               <lb ed="#G" n="37"/>
-               <pc type="indent"/>Ad quartum dicendum, quod per illa verba non inten 
-      <lb ed="#G" n="38"/>Dionysius negare, quin malum per modum
-      priuatio<lb ed="#G" n="39" break="no"/>fit in existentibus, sed solum intendit negare, quodi 
-      <lb ed="#G" n="40"/>Nper modum accidentis positiui. Et cum ait Dionyvsius, 
-      <lb ed="#G" n="41"/>od malum non est in bono, ibi accipit bonum pro bo 
-      <lb ed="#G" n="42"/>Pprimo modo dicto: ergo &amp;c. 
-    </p>
-            <p xml:id="HuYgTa-147630-d1e782">
-               <lb ed="#G" n="43"/>
-               <pc type="indent"/>ARTICVLVS II 
-      <lb ed="#G" n="44"/>
-               <pc type="indent"/>Vtrum malum causetur a bono.
-    </p>
-            <p xml:id="HuYgTa-147630-d1e793">
-               <lb ed="#G" n="45"/>QVANTVM ad secundum principale possent poni 
-      <lb ed="#G" n="46"/>quattuor conclusiones secundum quattuor gene 
-      <lb ed="#G" n="47"/>usarum: de tribus tamen generibus causarum
-      breui<lb ed="#G" n="48" break="no"/>er me expediam
-    </p>
-            <p xml:id="HuYgTa-147630-d1e804">
-               <lb ed="#G" n="49"/>Dieo primo, quod malum non habet causam formalem 
-      <lb ed="#G" n="50"/>quna illud, quod per se est priuatio formae, non habet causam 
-      <lb ed="#G" n="51"/>prmalem: malti est huiusmodi, vt patet ex precedentibus 
-    </p>
-            <p xml:id="HuYgTa-147630-d1e813">
-               <lb ed="#G" n="52"/>
-               <pc type="indent"/>Secundo dico, quod malum habet causam materialem, 
-      <lb ed="#G" n="53"/>ne sbiectiuam, quia priuatio non est simplex negatio 
-      <lb ed="#G" n="54"/> est negatio in subiecto determinato &amp; apto nato. 
-    </p>
-            <p xml:id="HuYgTa-147630-d1e824">
-               <lb ed="#G" n="55"/>
-               <pc type="indent"/>Tertio dico, quod malum habet causam finalem por 
-      <lb ed="#G" n="56"/>eedens, puta inquantum est coniunctum alicui effectui; 
-      <lb ed="#G" n="57"/> per se ordinabilis est in aliquem finem  
-    </p>
-            <p xml:id="HuYgTa-147630-d1e836">
-               <lb ed="#G" n="58"/>
-               <pc type="indent"/>Quarto dico, quod causa efficiens immediata ipsius 
-      <lb ed="#G" n="59"/>nali est aliquod bonum deficiens, scu defectiuum: causa 
-      <lb ed="#G" n="60"/>Tero remota ipsius mali, est aliquod bonum, quod non vt 
-      <lb ed="#G" n="61"/>erciens, sed vt perfectum, est causa alicuius boni per se 
-      <lb ed="#G" n="62"/>euius eaufationem sequitur per accidens &amp; praeter
-      in<lb ed="#G" n="63" break="no"/>ntionem agentis aliquod malum annexum tali bono 
-      <lb ed="#G" n="64"/>Serbi gratia, causa immediata monstruositatis, quae est in 
-      <lb ed="#G" n="65"/>rus formatione, est quoddam bonum deficiens, puta vis 
-      <lb ed="#G" n="66"/>esem inis insufficiens. lllius autem malitiae, quae est in 
-      <lb ed="#G" n="67"/>rmine causa, est aliqua qualitas, quae alterat semen 
-      <lb ed="#G" n="68"/>leoms alterationem sequitur per accidens insufficien 
-      <lb ed="#G" n="69"/>tasem inis. Ista rgitur vitus non agit vt imperfecta, ucl 
-      <!--426.xml-->
-      <cb ed="#G" n="b"/>
-               <lb ed="#G" n="70"/>vt deficiens bonum: immo quanto est sufficientior, &amp; per 
-      <lb ed="#G" n="71"/>ectior: tanto magis per se similitudinem suam inducit in 
-      <lb ed="#G" n="72"/>semine: ad cuius maiorem inductionem semper per
-      acci<lb ed="#G" n="73" break="no"/>dens sequitur maior malitia seminis respectu
-      formatio<lb ed="#G" n="74" break="no"/>nis ipsius fotus. 
-    </p>
-            <p xml:id="HuYgTa-147630-d1e882">
-               <lb ed="#G" n="75"/>
-               <pc type="indent"/>Etiam ex parte humanae voluntatis istud aliquo modo 
-      <lb ed="#G" n="76"/>potest declarari. Nam humana voluntas, prout actualiter 
-      <lb ed="#G" n="77"/>non attendit ad iudicium rectae rationis, &amp; legis diuinae,  
-      <lb ed="#G" n="78"/>est quasi quoddam bonum defectiuum, &amp; eadem voluntas, 
-      <lb ed="#G" n="79"/>prout per se fertur in aliquod bonum secundum quid, pu 
-      <lb ed="#G" n="80"/>ta in carnalem delectationem, saepius fertur in malum
-      sim<lb ed="#G" n="81" break="no"/>pliciter, annexum tali delectationi, puta inordinatam adul 
-      <lb ed="#G" n="82"/>terij actionem. Et videtur esse intentio Dionysij. 4. de 
-      <lb ed="#G" n="83"/>di no vbi ait, quod malsi non agit nisi virtute boni. Et ibidem 
-      <lb ed="#G" n="84"/>ait, quod omnium malorum principium, &amp; finis est bonum 
-    </p>
-            <p xml:id="HuYgTa-147630-d1e908">
-               <lb ed="#G" n="85"/>
-               <pc type="indent"/>Inuenitur alias talis additio. Propter praedictam non 
-      <lb ed="#G" n="86"/>attentionem voluntatis saepius ipsa voluntas non debite 
-      <lb ed="#G" n="87"/>prouisa, incante eligit in agendis. Hanc autem non atten 
-      <lb ed="#G" n="88"/>tionem saepe incurrit voluntas ex motione positiua, qua 
-      <lb ed="#G" n="89"/> rebus mundanis allicitur, quae allectio, quanto suo
-      mo<lb ed="#G" n="90" break="no"/>do est maior, &amp; perfectior, tanto magis impeditur iam di 
-      <lb ed="#G" n="91"/>cta attentio voluntatis. 
-    </p>
-            <p xml:id="HuYgTa-147630-d1e928">
-               <lb ed="#G" n="92"/>
-               <pc type="indent"/>Est etiam hic aduertendum, quod licet iam dicto
-      mo<lb ed="#G" n="93" break="no"/>do similiter contingat malum in naturalibus, &amp;
-      morali<lb ed="#G" n="94" break="no"/>bus: tamen in hoc est dissimile, quod praeter iam dictum 
-      <lb ed="#G" n="95"/>modum peccandi voluntas ex mera sua liberalitate
-      po<lb ed="#G" n="96" break="no"/>test, peccare non obstante rectae rationis iudicio, pro ut su 
-      <lb ed="#G" n="97"/>perius declaraui. Haec in additione praedicta 
-    </p>
-            <p xml:id="HuYgTa-147630-d1e946">
-               <lb ed="#G" n="98"/>
-               <pc type="indent"/>Sed contra praedictas clausulas istius quartae conclusio 
-      <lb ed="#G" n="99"/>nis multipliciter potest instari: &amp; etiam de facto ab
-      ali<lb ed="#G" n="100" break="no"/>quibus doctoribus instatur contra primam sic,  
-    </p>
-            <p xml:id="HuYgTa-147630-d1e957">
-               <lb ed="#G" n="101"/>1 Si bonum esset causa mali inquantum deficiens, tuc 
-      <lb ed="#G" n="102"/>praehaberet in se defectum, &amp; malum, antequam causaret 
-      <lb ed="#G" n="103"/>malum, &amp; tunc de illo nalo quaeritur, a quo causetur, &amp;  
-      <lb ed="#G" n="104"/>sic vel ibitur in infinitum, quod est impossibile, vel
-      opor<lb ed="#G" n="105" break="no"/>tet deuenire ad vnum primum malum, quod est causa
-      o<lb ed="#G" n="106" break="no"/>mnium malorum, quod est superius reprobatum in
-      prin<lb ed="#G" n="107" break="no"/>cipio istius secundi libri, &amp; similiter in 1. lib vel oportet 
-      <lb ed="#G" n="108"/>dicere, quod bonum perfectum, &amp; non deficiens sit imme 
-      <lb ed="#G" n="109"/>liata, &amp; per se causa mali, quod est contra primam
-      clausu<lb ed="#G" n="110" break="no"/>lam istius conclusionis. 
-    </p>
-            <p xml:id="HuYgTa-147630-d1e982">
-               <lb ed="#G" n="111"/>
-               <pc type="indent"/>Praeterea, si bonum inquantum deficiens esset causa 
-      <lb ed="#G" n="112"/>mali, tunc Deus, qui est bonum omnino indeficiens nullum 
-      <lb ed="#G" n="113"/>malum posset causare, quod est falsum, salte de malo poenae, 
-      <lb ed="#G" n="114"/>iuxta illud. Non est malum in ciuitate, quod Deus non faciat. 
-    </p>
-            <p xml:id="HuYgTa-147630-d1e995">
-               <lb ed="#G" n="115"/>
-               <pc type="indent"/>Praeterea, defectus inquantum defectus, potest esse  
-      <lb ed="#G" n="116"/>causa immediata boni : ergo Ponum inquantum bonum, 
-      <lb ed="#G" n="117"/>&amp; per consequens non inquantum deficiens, potest esse  
-      <lb ed="#G" n="118"/>immediata causa mali consequentia patet, probatur
-      an<lb ed="#G" n="119" break="no"/>tecedens, quia enigma fidei inquantum includit obscuri 
-      <lb ed="#G" n="120"/>atem, est causa merendi; cum fides non habeat meritum, 
-      <lb ed="#G" n="121"/>cui humana ratio praebet experimentum, 
-    </p>
-            <p xml:id="HuYgTa-147630-d1e1015">
-               <lb ed="#G" n="122"/>
-               <pc type="indent"/>Praeterea, si voluntas esset causa peccati, inquantum 
-      <lb ed="#G" n="123"/>deficiens aut hoc bonum, propter cuius absentiam
-      dici<lb ed="#G" n="124" break="no"/>tur deficiens, de iure debet inesse voluntati, &amp; non inest, 
-      <lb ed="#G" n="125"/>&amp; tunc poena praecederet culpam, aut non debet inesse 
-      <lb ed="#G" n="126"/>voluntati, &amp; tunc ratione carentiae talis boni voluntas non 
-      <lb ed="#G" n="127"/>dicetur bonum deficiens; sicut nec lapis dicitur bonum 
-      <lb ed="#G" n="128"/>defectiuum propter catentiam virtutis visiuae. 
-    </p>
-            <p xml:id="HuYgTa-147630-d1e1035">
-               <lb ed="#G" n="129"/>
-               <pc type="indent"/>Contra secundam clausulam, qua dixi, quod bonum in 
-      <lb ed="#G" n="130"/>uantum bonum potest esse causa alicuius mali, quamus 
-      <lb ed="#G" n="131"/>er accidens potest similiter argui fic 
-    </p>
-            <p xml:id="HuYgTa-147630-d1e1046">
-               <lb ed="#G" n="132"/>
-               <pc type="indent"/>Omnis causa per accidens reducitur ad causam per 
-      <lb ed="#G" n="133"/>se; igitur si malum habet causam per accidens, videtur. 
-      <lb ed="#G" n="134"/>quod etiam debeat habere causam per se 
-    </p>
-            <p xml:id="HuYgTa-147630-d1e1057">
-               <lb ed="#G" n="135"/>
-               <pc type="indent"/>2 Praeterea, quod euenit in actione praeter intentionem 
-      <lb ed="#G" n="136"/>agentis, excusat peccatum, sicut credens percutere hosten 
-      <lb ed="#G" n="137"/>reipublicae, &amp; praeter intentionem percutit patre, excusat 
-      <lb ed="#G" n="138"/>in decretis a parricidio: sed istud, quod pec accidens
-      eue<lb ed="#G" n="139" break="no"/>nit, preter intentionem euenit: igitur si malum euenit per 
-      <lb ed="#G" n="140"/>accidens, nullus faciendo malum peccaret. 
-    </p>
-            <p xml:id="HuYgTa-147630-d1e1076">
-               <lb ed="#G" n="141"/>
-               <pc type="indent"/>Praeterea, effectus per accidens euenit, vt taro, sed  
-      <lb ed="#G" n="142"/>malum cuenit, vt in pluribus: ergo &amp;c.
-    </p>
-            <p xml:id="HuYgTa-147630-d1e1085">
-      <!--427.xml-->
-               <pb ed="#G" n="194-v"/>
-               <cb ed="#G" n="a"/>
-               <lb ed="#G" n="1"/>4 Praeterea, natura per se est causa eorum, quae naturali 
-      <lb ed="#G" n="2"/>ter fiunt, vt patet. <ref xml:id="HuYgTa-147630-Rd1e1098">2. phy.</ref> sed aliqua mala, &amp; aliqui defe 
-      <lb ed="#G" n="3"/>ctus naturaliter eueniunt, vt mors, senectus: infirmitas, &amp;  
-      <lb ed="#G" n="4"/>cetera huiusmodi. 
-    </p>
-            <p xml:id="HuYgTa-147630-d1e1106">
-               <lb ed="#G" n="5"/>
-               <pc type="indent"/>3 Praeterea, omne bonum, vel est bonum in actu, vel 
-      <lb ed="#G" n="6"/>in potentia: sed neutrum istorum potest esse causa mali 
-      <lb ed="#G" n="7"/>Non quidem bonum in actu: quia hoc tollitur, &amp;
-      priua<lb ed="#G" n="8" break="no"/>tur per malum. Nec bonum in potentia potest esse
-      caus<lb ed="#G" n="9" break="no"/>mali in actu; nam effectus in actu requirit causam in actu; 
-      <lb ed="#G" n="10"/>vt patet. <ref xml:id="HuYgTa-147630-Rd1e1123">2. physicorum.</ref> 
-            </p>
-            <p xml:id="HuYgTa-147630-d1e1127">
-               <lb ed="#G" n="11"/>
-               <pc type="indent"/>Ad primum igitur dicendum, quod illud malum, quod 
-      <lb ed="#G" n="12"/>est in bonitate deficiente, causatur a bono non deficiente 
-      <lb ed="#G" n="13"/>er accidens tamen, vt dictum est in secunda clausula, &amp;  
-      <lb ed="#G" n="14"/>hoc in naturalibus. In actibus autem humanis illius
-      defi<lb ed="#G" n="15" break="no"/>cientiae, quod voluntas actualiter non attendit ad rectae 
-      <lb ed="#G" n="16"/>rationis iudicium, &amp; diuinae legis mandatum, non
-      opor<lb ed="#G" n="17" break="no"/>tet aliam assignare causam, quam libertatem
-      contradictio<lb ed="#G" n="18" break="no"/>nis humanae voluntatis. Et ideo nec in naturalibus, nec in 
-      <lb ed="#G" n="19"/>humanis est processus in infinitum, nec etiam datur vni 
-      <lb ed="#G" n="20"/>primum malum, quamuis bonum non sit causa per se
-      i<lb ed="#G" n="21" break="no"/>psius mali 
-    </p>
-            <p xml:id="HuYgTa-147630-d1e1156">
-               <lb ed="#G" n="22"/>
-               <pc type="indent"/>Ad secundum dicendum, quodDeus nullius mali est
-      caus<lb ed="#G" n="23" break="no"/>per se. Vnde etiam ipsum malum poenae est a Deo per aco 
-      <lb ed="#G" n="24"/>dens: quia Deus per se causat bonum virtutis iustitiae, ad 
-      <lb ed="#G" n="25"/>quod per accidens sequitur malum poenae¬ 
-    </p>
-            <p xml:id="HuYgTa-147630-d1e1169">
-               <lb ed="#G" n="26"/>
-               <pc type="indent"/>Ad tertium dicendum, quod obscuritas fidei non es 
-      <lb ed="#G" n="27"/>per se causa illius meriti: sed voluntas bona rationem
-      ca<lb ed="#G" n="28" break="no"/>ptiuans in obsequium fidei, quae gratia Dei sibi cooperat 
-      <lb ed="#G" n="29"/>te, sponte consentit propter Deum talibus, quae non
-      vi<lb ed="#G" n="30" break="no"/>det, haec est per se causa iam dicti meriti. 
-    </p>
-            <p xml:id="HuYgTa-147630-d1e1186">
-               <lb ed="#G" n="31"/>
-               <pc type="indent"/>Ad quartum dicendum, quod defectus, qui praeintelli 
-      <lb ed="#G" n="32"/>gitur in voluntate ante peccatum, puta illa non actualis at 
-      <lb ed="#G" n="33"/>tentio iudicij rectae rationis, &amp; legis diuinae non est culpa 
-      <lb ed="#G" n="34"/>neque poena, antequam voluntas progrediatur in actun 
-      <lb ed="#G" n="35"/>electionis: quia ante huiusmodi actum voluntas non ten 
-      <lb ed="#G" n="36"/>batur ad talem actualem attentionem, &amp; potuit ea care 
-      <lb ed="#G" n="37"/>re sine omi malitia ex sola sua libertate. Sed talis negatio. 
-      <lb ed="#G" n="38"/>seu tarentia accipit rationem culpae ex ipsa application 
-      <lb ed="#G" n="39"/>ad actum praedictum: quia ex huiusmodi applicatione illa  
-      <lb ed="#G" n="40"/>actualis attentio debita efficitur, quae ante non fuit debita 
-    </p>
-            <p xml:id="HuYgTa-147630-d1e1212">
-               <lb ed="#G" n="41"/>
-               <pc type="indent"/>Etiam potest dici, quod huiusmodi defectus potest re 
-      <lb ed="#G" n="42"/>duci ad malum poenae, quae poena, quamuis praecedat
-      pec<lb ed="#G" n="43" break="no"/>catum actuale; tamen sequitur peccatum originale: nam  
-      <lb ed="#G" n="44"/>propter fomitem derelictum in homine ex peccato orig 
-      <lb ed="#G" n="45"/>nali, voluntas hominis sic allicitur a rebus temporalibus 
-      <lb ed="#G" n="46"/>&amp; per consequens sic distrahitur, quod quandoque non at 
-      <lb ed="#G" n="47"/>tendit ad rectum iudicium rationis 
-    </p>
-            <p xml:id="HuYgTa-147630-d1e1232">
-               <lb ed="#G" n="48"/>
-               <pc type="indent"/>Ad primum contra secundam clausulam dicendum, 
-      <lb ed="#G" n="49"/>sicut causa per accidens reducitur ad causam per se: ita e 
-      <lb ed="#G" n="50"/>fectus per accidens reducitur ad effectum per se, &amp; quia 
-      <lb ed="#G" n="51"/>in praesenti loquimur de malo, vt est effectus per accidens 
-      <lb ed="#G" n="52"/>ideo non oportet ipsi malo assignare causam per se; sed 
-      <lb ed="#G" n="53"/>sufficit ipsum malum esse coniunctum tali effectui, qui ha 
-      <lb ed="#G" n="54"/>bet causam per se 
-    </p>
-            <p xml:id="HuYgTa-147630-d1e1252">
-               <lb ed="#G" n="55"/>
-               <pc type="indent"/>Ad secundum dicendum, quod quando agens omnem 
-      <lb ed="#G" n="56"/>diligentiam, quam debuit, adhibuit, quod tumc in sua acti 
-      <lb ed="#G" n="57"/>ne euenit praeter suam intentionem, excusat a peccato. 
-      <lb ed="#G" n="58"/>sed sic non est in proposito de malo peccati: quia pecca 
-      <lb ed="#G" n="59"/>tor non adhibet debitam diligentiam, nec resistit
-      pecca<lb ed="#G" n="60" break="no"/>to, quantum resistere potest 
-    </p>
-            <p xml:id="HuYgTa-147630-d1e1270">
-               <lb ed="#G" n="61"/>
-               <pc type="indent"/>Ad tertium dicendum, quod non omne per acciden 
-      <lb ed="#G" n="62"/>euenit, vt raro: quia generans per accidens intendit corri 
-      <lb ed="#G" n="63"/>ptionem; nam si posset generare sine corruptione,
-      tun<lb ed="#G" n="64" break="no"/>penitus nihil corrumperet; &amp; nihilominus tot sunt con 
-      <lb ed="#G" n="65"/>ruptiones, quot sunt generationes, cum generatio vnius si 
-      <lb ed="#G" n="66"/>corruptio alterius: per accidens eni eueniens vt raro, non 
-      <lb ed="#G" n="67"/>est quodcumque per accidens, sed tale per accidens, quod 
-      <lb ed="#G" n="68"/>dicitur fortuitum, aut casuale, vt patet. <ref xml:id="HuYgTa-147630-Rd1e1291">2. physicorum</ref> 
-            </p>
-            <p xml:id="HuYgTa-147630-d1e1295">
-               <lb ed="#G" n="69"/>
-               <pc type="indent"/>Ad quartum dicendum, quod quamuis talia
-      naturali<lb ed="#G" n="70" break="no"/>ter eueniant, inquantum omnia illa dicuntur naturaliter 
-      <lb ed="#G" n="71"/>euenire, quae ex necessitate materiae eueniunt: tamen non 
-      <lb ed="#G" n="72"/>sunt per se intenta ab agente naturali 
-    </p>
-            <p xml:id="HuYgTa-147630-d1e1309">
-               <lb ed="#G" n="73"/>
-               <pc type="indent"/>Ad quintum dicendum, quod causa mali, nec est bonum 
-      <!--427.xml-->
-      <cb ed="#G" n="b"/>
-               <lb ed="#G" n="74"/>in actu, quod priuatur per huiusmodi malum: nec est bonum 
-      <lb ed="#G" n="75"/>in potentia, quod fundatur per huiusmodi malum: sed est 
-      <lb ed="#G" n="76"/>bonum, quod est agens, quod inducendo vnam formam  
-      <lb ed="#G" n="77"/>expellit aliam, &amp; relinquit malitiam priuationis talis for 
-      <lb ed="#G" n="78"/>mae expulsae in subiecto, quod est bonum in potentia 
-    </p>
-            <p xml:id="HuYgTa-147630-d1e1331">
-               <lb ed="#G" n="79"/>
-               <pc type="indent"/>Alias talis additio inuenitur. Malum etiam culpae cau 
-      <lb ed="#G" n="80"/>satur a voluntate, ac rebus mouentibus, &amp; allicientibu 
-      <lb ed="#G" n="81"/>voluntatem, quae bonae sunt, cum a Deo creatae sunt 
-    </p>
-            <p xml:id="HuYgTa-147630-d1e1342">
-               <lb ed="#G" n="82"/>
-               <pc type="indent"/>ARTICVLVS
-      IIl<lb ed="#G" n="83" break="no"/>Vtrum Malum culpae possit corrumpere 
-      <lb ed="#G" n="84"/>
-               <pc type="indent"/>totum bonim
-    </p>
-            <p xml:id="HuYgTa-147630-d1e1355">
-               <lb ed="#G" n="85"/>QVANTVM ad tertium articulum est aduertendum, 
-      <lb ed="#G" n="86"/>quod triplex est bonum, quod aliquo modo
-      lae<lb ed="#G" n="87" break="no"/>ditur, seu destruitur per ipsum malum culpae. Primum est 
-      <lb ed="#G" n="88"/>bonum gratiae. Secundum bonum naturae consideratae se 
-      <lb ed="#G" n="89"/>cundum se. Et tertium bonum naturae consistens in qua 
-    </p>
-            <p xml:id="HuYgTa-147630-d1e1368">
-               <lb ed="#G" n="90"/>
-               <pc type="indent"/>Prima est, quod bonum gratiae totaliter tollitur, vel
-      destrui<lb ed="#G" n="91" break="no"/>dam naturali habilitate. Et secundum hoc possum
-      pone<lb ed="#G" n="92" break="no"/>tur per malum mortalis culpae; quia, quae incompossibilia 
-      <lb ed="#G" n="93"/>re tres breues conclusiones.
-    </p>
-            <p xml:id="HuYgTa-147630-d1e1381">
-               <lb ed="#G" n="94"/>sunt in eodem subiecto, vno adueniente destruitur, &amp;
-      ce<lb ed="#G" n="95" break="no"/>dit alterum: cul pa mortalis, &amp; gratia sunt in eodem
-      sub<lb ed="#G" n="96" break="no"/>iecto incompossibilia, vt patet ex dictis superius; ergo &amp;c 
-    </p>
-            <p xml:id="HuYgTa-147630-d1e1391">
-               <lb ed="#G" n="97"/>
-               <pc type="indent"/>Conclusio secunda est, quod bonum naturae secundum 
-      <lb ed="#G" n="98"/>se consideratae nec tollitur, nec diminuitur, proprie
-      lo<lb ed="#G" n="99" break="no"/>quendo, per malum culpae: quia quamuis natura aliquo 
-      <lb ed="#G" n="100"/>modo vulneretur ex mortali peccato, tamen nec in
-      to<lb ed="#G" n="101" break="no"/>to, nec in parte tollitur per peccatum. Nam etiam in
-      dae<lb ed="#G" n="102" break="no"/>mone, cuius peccatum inter omnia peccata videtur fuisse 
-      <lb ed="#G" n="103"/>grauissimum, naturalia manserunt integra, &amp; incorrupta, 
-    </p>
-            <p xml:id="HuYgTa-147630-d1e1411">
-               <lb ed="#G" n="104"/>
-               <pc type="indent"/>Tertia conclusio est, quod bonum consistens in praedicta 
-      <lb ed="#G" n="105"/>vt patet per <ref xml:id="HuYgTa-147630-Rd1e1419">Dionysium. 4. de, di, non</ref> 
-               <lb ed="#G" n="106"/>naturali habilitate, numquam totaliter tolletur, quandit 
-      <lb ed="#G" n="107"/>homo est in statu viae, tamen per peccatum mortale dimi 
-      <lb ed="#G" n="108"/>nuitur, quia quantum acquiritur de habilitate ad mali 
-      <lb ed="#G" n="109"/>tantum diminuitur de habilitate ad bonum: quia quantum 
-      <lb ed="#G" n="110"/>acceditur ad vnum oppositorum, tantum receditur ab
-      al<lb ed="#G" n="111" break="no"/>tero. Sed quanto magis continuatur peccatum, seu actus 
-      <lb ed="#G" n="112"/>vitiosus, tanto maior habilitas acquiritur ad malum vitio 
-      <lb ed="#G" n="113"/>sum; ergo &amp;c. 
-    </p>
-            <p xml:id="HuYgTa-147630-d1e1441">
-               <lb ed="#G" n="114"/>
-               <pc type="indent"/>1 Sic igitur iuxta has tres conclusiones homo descendens 
-      <lb ed="#G" n="115"/>ab Hierusalem in Hiericho, per quem figuratur mortali 
-      <lb ed="#G" n="116"/>peccator, primo a latronibus totaliter spoliatur habitu 
-      <lb ed="#G" n="117"/>gratiae, &amp; caritatis, quo ad primam conclusionem.
-      Secun<lb ed="#G" n="118" break="no"/>do vulneratur in naturalibus; quo ad secundam conclusio 
-      <lb ed="#G" n="119"/>nem. Et tertio semiuiuus relinquitur ratione diminutio 
-      <lb ed="#G" n="120"/>nis habilitatis ad bonum, quo ad tertiam conclusionem, 
-      <lb ed="#G" n="121"/>Sed forte dicetur, quod termini positi in tertia conclusio 
-      <lb ed="#G" n="122"/>ne non possunt simul stare, quia illa habilitas, cum sit in 
-      <lb ed="#G" n="123"/>re finita, &amp; creata, non potest esse infinita, sed omne fini 
-      <lb ed="#G" n="124"/>tum tandem totaliter tollitur per continuam ablationem 
-      <lb ed="#G" n="125"/>alicuius finiti ab ipso; ergo illa habilitas ad bonum por 
-      <lb ed="#G" n="126"/>continuam iterationem peccatorum in statu viae potest 
-      <lb ed="#G" n="127"/>tantum diminui, quod vltimo totaliter tolletur. 
-    </p>
-            <p xml:id="HuYgTa-147630-d1e1476">
-               <lb ed="#G" n="128"/>
-               <pc type="indent"/>Et si dicitur, sicut quidam dicunt, quod licet secundum 
-      <lb ed="#G" n="129"/>partes eiusdem quantitatis aliquod finitum non possit 
-      <lb ed="#G" n="130"/>diminui in infinitum, tamen secundum partes eiusdem  
-      <lb ed="#G" n="131"/>proportionis potest finitum diminui in infinitum, quod 
-      <lb ed="#G" n="132"/>numquam totaliter tolletur; sicut apparet in diuisione 
-      <lb ed="#G" n="133"/>continui 
-    </p>
-            <p xml:id="HuYgTa-147630-d1e1494">
-               <lb ed="#G" n="134"/>
-               <pc type="indent"/>lstud non valet ad propositum, quia sequeretur, quod 
-      <lb ed="#G" n="135"/>maiora peccata minus tollerent de habilitate ad bonum, 
-      <lb ed="#G" n="136"/>quam minora peccata. Probatur consequentia; quia vt 
-      <lb ed="#G" n="137"/>plurimum peccata sequentia sunt grauiora, quam
-      praece<lb ed="#G" n="138" break="no"/>dentia, sed in diuisione, seu diminutione secundum par 
-      <lb ed="#G" n="139"/>tes eiusdem proportionis illud, quod tollitur in secundi 
-      <lb ed="#G" n="140"/>diuisione, est medietas illius, quod tollitur in prima
-      diuisio<lb ed="#G" n="141" break="no"/>ne; &amp; quoe tollitur in tertia, est medietas illius, quod ablati 
-      <!--428.xml-->
-      <pb ed="#G" n="195-r"/>
-               <cb ed="#G" n="a"/>
-               <lb ed="#G" n="1"/>est in secunda, &amp; sic deinceps. Falsitas etiam
-      consequen<lb ed="#G" n="2" break="no"/>tis patet, quia communiter videmus, quod quanto aliquis  
-      <lb ed="#G" n="3"/>est maior peccator, tanto minorem inclinationem habet 
-      <lb ed="#G" n="4"/>ad bonum. Vnde quia peccatum in spiritumsanctum,
-      ce<lb ed="#G" n="5" break="no"/>teris paribus, est maximum peccatum: ideo, ceteris
-      pari<lb ed="#G" n="6" break="no"/>bus, magis tollit habilitatem ad bonum 
-    </p>
-            <p xml:id="HuYgTa-147630-d1e1536">
-               <lb ed="#G" n="7"/>
-               <pc type="indent"/>Respondeo negando minorem, qua dicitur, quod om- 
-      <lb ed="#G" n="8"/>ne finitum tandem tollitur totaliter per continuam
-      abi<lb ed="#G" n="9" break="no"/>tionem alicuius finiti ab ipso; quia angulus contingentia 
-      <lb ed="#G" n="10"/>extrinsecus, qui causatur in contactu lineae rectae, quandi 
-      <lb ed="#G" n="11"/>trahitur super circumferentia circuli, est valde paruus, &amp; 
-      <lb ed="#G" n="12"/>multum acutus: &amp; tamen si circulus cresceret in infinit 
-      <lb ed="#G" n="13"/>angulus praedictus decresceret, &amp; minueretur in infinitum; 
-      <lb ed="#G" n="14"/>ficut probatur in geometria 
-    </p>
-            <p xml:id="HuYgTa-147630-d1e1559">
-               <lb ed="#G" n="15"/>
-               <pc type="indent"/>Et potest etiam probari ratione; quia eadem
-      longitu<lb ed="#G" n="16" break="no"/>do signata, puta longitudo vnius palmi accepta in
-      circu<lb ed="#G" n="17" break="no"/>lo maiori, est minus turua, &amp; minus distat a rectitudine, 
-      <lb ed="#G" n="18"/>quam si accipiatur in circulo minori; ergo quanto
-      circu<lb ed="#G" n="19" break="no"/>lus magis crescit: tanto illa pars circuli, super quam
-      tran<lb ed="#G" n="20" break="no"/>siens linea recta causat angulum contingentiae, magis re 
-      <lb ed="#G" n="21"/>cedita curuitate, &amp; magis appropinquat ad rectitudinen 
-      <lb ed="#G" n="22"/>sed quantum iam dicta pars circuli appropinquat ad re- 
-      <lb ed="#G" n="23"/>ctitudinem, tantum tollitur de angulo praedicto: sicut
-      pa<lb ed="#G" n="24" break="no"/>tet ad sensum in supra scripta figura 
-    </p>
-            <p xml:id="HuYgTa-147630-d1e1585">
-               <lb ed="#G" n="25"/>
-               <pc type="indent"/>Quia tamen numquam illa pars circuli efficitur plene 
-      <lb ed="#G" n="26"/>recta etiam dato quod circulus cresceret in infinitum; quia 
-      <lb ed="#G" n="27"/>quaelibet pars circuli est curua: nam sicut impossibile est,  
-      <lb ed="#G" n="28"/>&amp; contradictionem implicat in vna linea, quae tota est recta 
-      <lb ed="#G" n="29"/>dare partem curuam, sic impossibile est in vna linea, quae 
-      <lb ed="#G" n="30"/>tota est curua dare aliquam partem rectam: sed linca
-      cir<lb ed="#G" n="31" break="no"/>culi tota est curua, vt patet in geometria: igitur dato, quod 
-      <lb ed="#G" n="32"/>circulus cresceret in infinitum, quauis ex hoc agulus praed 
-      <lb ed="#G" n="33"/>ctus semper minueretur: tamen ex hoc numquam totali 
-      <lb ed="#G" n="34"/>ter tolleretur. Nec esset necesse istam diminutionem 
-      <lb ed="#G" n="35"/>fieri secundum partes eiusdem proportionis: quia posset 
-      <lb ed="#G" n="36"/>fieri secundum partes eiusdem quantitatis: nam si circu 
-      <lb ed="#G" n="37"/>lus in infinitum cresceret hoc modo, quod semper vna 
-      <lb ed="#G" n="38"/>die cresceret tantum, quantum alia dic : etiam praedictus 
-      <lb ed="#G" n="39"/>angulus in infinitum decresceret qualibet die aequaliter; 
-      <lb ed="#G" n="40"/>tantum scilicet vna die, quantum alia die¬ 
-    </p>
-            <p xml:id="HuYgTa-147630-d1e1624">
-               <lb ed="#G" n="41"/>
-               <pc type="indent"/>Est etiam aduertendum, quod si quis praedictam
-      par<lb ed="#G" n="42" break="no"/>tem circuli resecaret a circulo, tunc dirigendo eam
-      ver<lb ed="#G" n="43" break="no"/>sus lineam, quae huiusmodi partem contingit, perfecta ta 
-      <lb ed="#G" n="44"/>li directione immediate totaliter tollitur praedictus
-      an<lb ed="#G" n="45" break="no"/>gulus. 
-    </p>
-            <p xml:id="HuYgTa-147630-d1e1640">
-               <lb ed="#G" n="46"/>
-               <pc type="indent"/>Sic quamuis non totaliter tollatur habilitas ad bonsi, 
-      <lb ed="#G" n="47"/>quandiu viuit pr eccator in hoc circulari periodo, puta in 
-      <lb ed="#G" n="48"/>statu viae: tamen rupto isto circulo, hoc est mortuo pecca 
-      <lb ed="#G" n="49"/>tore, &amp; posita anima extra statum viae, tunc immediati 
-      <lb ed="#G" n="50"/>huiusmodi habilitas totaliter tollitur: &amp; anima efficitur 
-      <lb ed="#G" n="51"/>penitus obstinata in malitia peccatorum intantum, quod 
-      <lb ed="#G" n="52"/>secundum legem communem numquam redire poterit 
-      <lb ed="#G" n="53"/>ad poenitentiam ordinatam  
-    </p>
-            <p xml:id="HuYgTa-147630-d1e1662">
-               <lb ed="#G" n="54"/>
-               <pc type="indent"/>Et notanter dico de lege communi: quia vsquequo
-      ex<lb ed="#G" n="55" break="no"/>tendat se misericordia Dei secundum potentiam suam 
-      <lb ed="#G" n="56"/>absolutam, ad praesens nolo pertractare. 
-    </p>
-            <p xml:id="HuYgTa-147630-d1e1673">
-               <lb ed="#G" n="57"/>
-               <pc type="indent"/>Etrorem etiam Origenis, qui posuit, prout sibi imponi 
-      <lb ed="#G" n="58"/>tur, quod etiam ipsi damnati quandoque redibunt ad
-      ve<lb ed="#G" n="59" break="no"/>ram poenitentiam, cum suis motiuis alibi propono tracta 
-      <lb ed="#G" n="60"/>re, cum locus fuerit opportunus. 
-    </p>
-            <p xml:id="HuYgTa-147630-d1e1687">
-               <lb ed="#G" n="61"/>
-               <pc type="indent"/>ARTICVLVS IIIL 
-      <lb ed="#G" n="62"/>Vtrum possibile sit esse aliquod 
-      <lb ed="#G" n="63"/>
-               <pc type="indent"/>purum malum.
-    </p>
-            <p xml:id="HuYgTa-147630-d1e1700">
-               <lb ed="#G" n="64"/>QVANTVM ad quartum articulum dico breuiter; 
-    </p>
-            <p xml:id="HuYgTa-147630-d1e1705">
-               <lb ed="#G" n="65"/>
-               <pc type="indent"/>quod non potest dari aliquid, quod sit omnino 
-      <lb ed="#G" n="66"/>purum malum. 
-    </p>
-            <p xml:id="HuYgTa-147630-d1e1714">
-      <!--428.xml-->
-               <cb ed="#G" n="b"/>
-               <lb ed="#G" n="67"/>1 Quia si in rerum natura esset dare purum malum, 
-      <lb ed="#G" n="68"/>tunc in rerum natura esset dare purum nihil: sed
-      conse<lb ed="#G" n="69" break="no"/>quens implicat contradictionem: ergo &amp; antecedeus. Con 
-      <lb ed="#G" n="70"/>tradictio consequentis patet: quia esset ex suppositione, 
-      <lb ed="#G" n="71"/>&amp; non esset: nam purum nihil non potest esse. Consequen 
-      <lb ed="#G" n="72"/>tia etiam patet: quia bonum conuertitur cum ente, &amp; per 
-      <lb ed="#G" n="73"/>consequens, quod est purum malum nullo modo est ens 
-      <lb ed="#G" n="74"/>de necessitate igitur erit purum nihil 
-    </p>
-            <p xml:id="HuYgTa-147630-d1e1738">
-               <lb ed="#G" n="75"/>
-               <pc type="indent"/>2 Praeterea, illud non potest poni in effectu, cuius posi 
-      <lb ed="#G" n="76"/>tio est suiipsius destructio; sed purum malum est huiusmo 
-      <lb ed="#G" n="77"/>di, vt patet per <ref xml:id="HuYgTa-147630-Rd1e1748">Ari. 4. ethicorum</ref>, vbi dicit, Malum seipsum 
-      <lb ed="#G" n="78"/>corrumpit, &amp; si integrum sit, importabile fit. 
-      <lb ed="#G" n="79"/>Sed contra istam conclusionem fuit error
-      Manichaeo<lb ed="#G" n="80" break="no"/>rum, quorum motiua scripsi <ref xml:id="HuYgTa-147630-Rd1e1758">libro primo dist. 2. q4.1. art. 4</ref> 
-               <lb ed="#G" n="81"/>Tetigi etiam eundem errorem <ref xml:id="HuYgTa-147630-Rd1e1763">lib. 2. dist. 1. q4.1. art. 1 </ref>
-            </p>
-            <p xml:id="HuYgTa-147630-d1e1767">
-               <lb ed="#G" n="82"/>
-               <pc type="indent"/>Praeterea potest adhuc pro isto errore argui sic
-      secun<lb ed="#G" n="83" break="no"/>dum regulam Aristotelis in libro topicorum. 
-    </p>
-            <p xml:id="HuYgTa-147630-d1e1777">
-               <lb ed="#G" n="84"/>
-               <pc type="indent"/>1 Si simpliciter ad simpliciter, magis ad magis, &amp;
-      ma<lb ed="#G" n="85" break="no"/>xime ad maxime: sed in rerum natura est dare malum sim¬i 
-      <lb ed="#G" n="86"/>liciter, quod opponitur bono simpliciter, &amp; magis
-      ma<lb ed="#G" n="87" break="no"/>lum quod opponitur magis bono: ergo erit dare maxime 
-      <lb ed="#G" n="88"/>malum, quod opponitur maxime bono, sed tale maxim; 
-      <lb ed="#G" n="89"/>bonum est purum bonum: ergo tale maxime malum erit 
-      <lb ed="#G" n="90"/>purum malum. 
-    </p>
-            <p xml:id="HuYgTa-147630-d1e1797">
-               <lb ed="#G" n="91"/>
-               <pc type="indent"/>2 Praeterea, in omni genere est dare vnum primum, a 
-      <lb ed="#G" n="92"/>quo omnia alia illius generis oriuntur, vel saltem mensi 
-      <lb ed="#G" n="93"/>rantur, vt patet. <ref xml:id="HuYgTa-147630-Rd1e1807">10 metaphysi</ref>, sed primum in quolibet 
-      <lb ed="#G" n="94"/>genere entitatem illius generis habet puram, &amp; imper 
-      <lb ed="#G" n="95"/>mixtam, ergo in genere malorum erit dare vnum malum 
-      <lb ed="#G" n="96"/>primum, &amp; per consequens purum malum. 
-    </p>
-            <p xml:id="HuYgTa-147630-d1e1818">
-               <lb ed="#G" n="97"/>
-               <pc type="indent"/>Ad primum dicendum, quod regula illa non tenet
-      ne<lb ed="#G" n="98" break="no"/>cessario in his, quae sunt diuersarum rationum, sed bonum 
-      <lb ed="#G" n="99"/>maximum est bonum increatum, &amp;bonum simpliciter, &amp;  
-      <lb ed="#G" n="100"/>magis bonum sunt bona creata, quae omnino sunt
-      alte<lb ed="#G" n="101" break="no"/>rius rationis a bono increato; ideo gratia illius regulae
-      ni<lb ed="#G" n="102" break="no"/>hil arguitur in proposito. Si autem argumentum inniti 
-      <lb ed="#G" n="103"/>tur regulae oppositorum, tunc solutum est in primo
-      lib<lb ed="#G" n="104" break="no"/>Ad secur dum dicendum, quod licet in rebus posituis 
-      <lb ed="#G" n="105"/>in quolibet genere sit dare vnum primum, quod est mer 
-      <lb ed="#G" n="106"/>sura omnium ceterorum, hoc tamen non oportet in
-      pri<lb ed="#G" n="107" break="no"/>uatiuis: quia sicut priuatiuis non conuenit esse nisi in
-      com<lb ed="#G" n="108" break="no"/>aratione ad entia positiua; sic eis non conuenit mensura 
-      <lb ed="#G" n="109"/>ri secundum se, sed solum in ordine ad ipsa entia positua 
-    </p>
-            <p xml:id="HuYgTa-147630-d1e1851">
-               <lb ed="#G" n="110"/>
-               <pc type="indent"/>Ad argumentum principale dicendum, quod non est 
-      <lb ed="#G" n="111"/>necesse, quod causa per accidens assimilet sibi effectum; 
-      <lb ed="#G" n="112"/>sed bonum est causa per accidens ipsius mali: non oportes 
-      <lb ed="#G" n="113"/>enim ipsi malo dare causam per se: igitur argumentum 
-      <lb ed="#G" n="114"/>non valet.
-    </p>
-         </div>
-      </body>
-   </text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 1</title>
+        <author ref="#ThomasStrasbourg">Thomas of Strasbourg</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 1</title>
+          <date when="2020-11-26">November 26, 2020</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="G" n="cod-TxxxqU">Genoa 1585</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2020-11-26" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#G" n="193-r"/>
+        <cb ed="#G" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="HuYgTa-147630"><!-- HuYgTa-l2d34q1 -->
+        <head xml:id="HuYgTa-147630-Hd1e108">Quaestio 1</head>
+        <head xml:id="HuYgTa-147630-Hd1e111" type="question-title">An malum causetur a bono</head>
+        <p xml:id="HuYgTa-147630-d1e114">
+          <lb ed="#G" n="114"/>
+          <pc type="indent"/>Quaestio 1. 
+          <lb ed="#G" n="115"/>An malum causetur a bono
+        </p>
+        <p xml:id="HuYgTa-147630-d1e123">
+          <lb ed="#G" n="116"/>VVTRVM malum causetur a bono.
+        </p>
+        <p xml:id="HuYgTa-147630-d1e128">
+          Et videtur, quod 
+          <lb ed="#G" n="117"/>non : quia omnis effectus aliquo modo assimilatu 
+          <lb ed="#G" n="118"/>suae causae: sed malum in nullo assimilatur bono: &amp;c.
+          Ma<lb ed="#G" n="119" break="no"/>ior patet: quia quae sunt causatorum preinsunt suis causis,  
+          <lb ed="#G" n="120"/>vt patet in libello de causis, &amp; per consequens
+          assimilan<lb ed="#G" n="121" break="no"/>tur eis. Minor autem videtur esse nota: quia vnum contra 
+          <lb ed="#G" n="122"/>riorum non assimilatur alteri, cum maxime a se inuicen 
+          <lb ed="#G" n="123"/>distent, vt patet in praedicam entis: sed bonum, &amp; malum 
+          <lb ed="#G" n="124"/>sunt contraria, vt patet ibidem 
+        </p>
+        <p xml:id="HuYgTa-147630-d1e149">
+          <lb ed="#G" n="125"/>
+          <pc type="indent"/>Contra illud, quod praecise originatur ex aliquo, ho 
+          <lb ed="#G" n="126"/>causatur ex illo: sed <ref xml:id="HuYgTa-147630-Rd1e157">Augustinus dicit in Enchirid.</ref> quod 
+          <lb ed="#G" n="127"/>malum non potest oriri nisi ex bono. Hic quattuor sunt 
+          <lb ed="#G" n="128"/>videnda. Primo, vtrum malum dicat aliquam naturan 
+          <lb ed="#G" n="129"/>posituam. Secundo de eo, quod quaeritur. Tertio, vtrum 
+          <lb ed="#G" n="130"/>malum culpae possit corrumpere totum bonum. Et
+          quar<lb ed="#G" n="131" break="no"/>to, vtrum possibile sit esse aliquod purum malum
+        </p>
+        <p xml:id="HuYgTa-147630-d1e172">
+          <!--425.xml-->
+          <pb ed="#G" n="193-v"/>
+          <cb ed="#G" n="a"/>
+          <lb ed="#G" n="1"/>RESOLVTIO. 
+          <lb ed="#G" n="2"/>licet malum direcle per se nullam dicat essentiam, indirecte
+          ta<lb ed="#G" n="3" break="no"/>men nonnullam connotat naturam Vnde quamuis de se forma 
+          <lb ed="#G" n="4"/>lem causam non includat, materialem vero non secludat,
+          fina<lb ed="#G" n="5" break="no"/>lem autem per accidens resbiciat: efficientem tamen proxima 
+          <lb ed="#G" n="6"/>non admittit. 
+        </p>
+        <p xml:id="HuYgTa-147630-d1e194">
+          <lb ed="#G" n="7"/>
+          <pc type="indent"/>ARTICVLVS 1. 
+          <lb ed="#G" n="8"/>Vtrum malum dicat dsiquam naturam 
+          <lb ed="#G" n="9"/>posituam.
+        </p>
+        <p xml:id="HuYgTa-147630-d1e205">
+          <lb ed="#G" n="10"/>SVANTVM ad primum est aduertendum, quod ali 
+          <lb ed="#G" n="11"/>A quid dicere naturam positiuam potest dupliciter 
+          <lb ed="#G" n="12"/>intelligi. Vno modo directe &amp; per se. Alio modo
+          indire<lb ed="#G" n="13" break="no"/>cte, &amp; conotatiue. Et secundum hoc pono duas conclusiones 
+        </p>
+        <p xml:id="HuYgTa-147630-d1e216">
+          <lb ed="#G" n="14"/>
+          <pc type="indent"/>Prima est, quod malum directe, &amp; per se non dicit
+          ali<lb ed="#G" n="15" break="no"/>quam naturam positiuam 
+          <lb ed="#G" n="16"/>1 Quia illud, quod tantum dicit priuationem, non ess 
+          <lb ed="#G" n="17"/>ens posituum: malum est huiusmodi. Maior patet, quia 
+          <lb ed="#G" n="18"/>riuatio de se est non ens, vt patet primo physicorum.
+          Mi<lb ed="#G" n="19" break="no"/>nor etiam patet, quia malum non est aliud, nisi
+          priua<lb ed="#G" n="20" break="no"/>tio boni¬
+        </p>
+        <p xml:id="HuYgTa-147630-d1e236">
+          <lb ed="#G" n="21"/>2 Praeterea, illud, quod sic se habet, quod quanto ma 
+          <lb ed="#G" n="22"/>gis intenditur, tanto minus dicit de entitate, &amp; tanto ma 
+          <lb ed="#G" n="23"/>gis tollit perfectionem &amp; entitatem, illud secundum se 
+          <lb ed="#G" n="24"/>nullam dicit naturam positiuam: malum est huiusmodi 
+          <lb ed="#G" n="25"/>Propter hoc enim dicit <ref xml:id="HuYgTa-147630-Rd1e249">philosophus. 4 ethi.</ref> Malum
+          se<lb ed="#G" n="26" break="no"/>ipsum corrumpit, &amp; si integrum sit, imputabile fit.
+        </p>
+        <p xml:id="HuYgTa-147630-d1e256">
+          <lb ed="#G" n="27"/>3 Praeterea, bonum dicitur aequaliter enti, vt dicitur 
+          <lb ed="#G" n="28"/>
+          <ref xml:id="HuYgTa-147630-Rd1e262">1. ethicorum</ref> igitur omne illud, quod dicit entitatem posi 
+          <lb ed="#G" n="29"/>tiuam, oportet, quod sit bonum, &amp; per consequens, si
+          ma<lb ed="#G" n="30" break="no"/>lum diceret secundum se aliquam naturam, seu entitate 
+          <lb ed="#G" n="31"/>posituam, tuc malum esset bonum, quod est impossibile
+        </p>
+        <p xml:id="HuYgTa-147630-d1e273">
+          <lb ed="#G" n="32"/>4 Praeterea, <ref xml:id="HuYgTa-147630-Rd1e277">Dama. lib. 2.</ref> ait, Nihil aliud est malum, 
+          <lb ed="#G" n="33"/>quam priuatio boni. 
+        </p>
+        <p xml:id="HuYgTa-147630-d1e283">
+          <lb ed="#G" n="34"/>
+          <pc type="indent"/>Item <ref xml:id="HuYgTa-147630-Rd1e289">Augustinus. 12. de ci. Dei</ref> ait, <quote xml:id="HuYgTa-147630-Qd1e292" type="paraphrase" source="http://scta.info/resource/adcd-l12-d1e1698" synch="57-63"><!-- very fuzzy source connection; dbcheck;--> Malum se habet ad 
+            <lb ed="#G" n="35"/>intellectum, sicut tenebra se habet ad oculum, seu ad
+            vi<lb ed="#G" n="36" break="no"/>sum, &amp; silentium ad auditum</quote>. 
+        </p>
+        <p xml:id="HuYgTa-147630-d1e301">
+          <lb ed="#G" n="37"/>
+          <pc type="indent"/>Sed contra istud Pythagorici, ac Manichei, qui
+          oppo<lb ed="#G" n="38" break="no"/>sitae videntur fuisse opinionis, possent sic instare. 
+        </p>
+        <p xml:id="HuYgTa-147630-d1e310">
+          <lb ed="#G" n="39"/>
+          <pc type="indent"/>1 Omne, quod corrumpit aliquid, agit in ipsum, &amp; per 
+          <lb ed="#G" n="40"/>consequens dicit entitatem positiuam, quia agere praesup 
+          <lb ed="#G" n="41"/>ponit esse, sed malum corrumpit bonum, vt patet: <ref xml:id="HuYgTa-147630-Rd1e320">4. de di non</ref> 
+        </p>
+        <p xml:id="HuYgTa-147630-d1e324">
+          <lb ed="#G" n="42"/>
+          <pc type="indent"/>Praeterea, quicquid a Deo creatur, est ens positiuum 
+          <lb ed="#G" n="43"/>sed malum a Deo creatur, iuxta illud, lsaiae. Ego dominus 
+          <lb ed="#G" n="44"/>faciens pacem, &amp; creans malum. 
+        </p>
+        <p xml:id="HuYgTa-147630-d1e336">
+          <lb ed="#G" n="45"/>
+          <pc type="indent"/>3 Praeterea, in hoc differt opposito contraria a con- 
+          <lb ed="#G" n="46"/>tradictoria, &amp; priuatiua, quod dicit ens reale &amp; positiuum 
+          <lb ed="#G" n="47"/>in vtroque suorum extremorum, sed bonum &amp; malum sunt 
+          <lb ed="#G" n="48"/>contraria, vt patet in libro praedicamentorum.
+        </p>
+        <p xml:id="HuYgTa-147630-d1e349">
+          <lb ed="#G" n="49"/>4 Praeterea, illud, quod intenditur, &amp; remittitur, est 
+          <lb ed="#G" n="50"/>ens positiuum; malum est huiusmodi: ergo &amp;c 
+        </p>
+        <p xml:id="HuYgTa-147630-d1e356">
+          <lb ed="#G" n="51"/>
+          <pc type="indent"/>Forte dicetur ad istud, quod malum intenditur, &amp; re- 
+          <lb ed="#G" n="52"/>mittitur per accidens, puta ratione maioris, vel minoris 
+          <lb ed="#G" n="53"/>boni, quod cotrumpit: maius enim malum est homicidium, 
+          <lb ed="#G" n="54"/>quam adulterium, quia maius bonum corrumpit, &amp;
+          ma<lb ed="#G" n="55" break="no"/>ius malum est parricidium, quam simplex homicidium 
+        </p>
+        <p xml:id="HuYgTa-147630-d1e372">
+          <lb ed="#G" n="56"/>
+          <pc type="indent"/>lstud non valet, quia causa non intenditur, nec remitti 
+          <lb ed="#G" n="57"/>tur propter intensionem &amp; remissionem effectus, sed potius 
+          <lb ed="#G" n="58"/>econuerso: sed malum est causa cotruptionis ipsius boni¬ 
+        </p>
+        <p xml:id="HuYgTa-147630-d1e383">
+          <lb ed="#G" n="59"/>
+          <pc type="indent"/>Praeterea, malum, quod ab aliquo refutatur, est
+          ma<lb ed="#G" n="60" break="no"/>oris entitatis, quam bonum, quod ab eo appetitur : ergo 
+          <lb ed="#G" n="61"/>tale malum erit ens positiuum, Consequentia patet.
+          Pro<lb ed="#G" n="62" break="no"/>bo antecedens, quia ouis refugit praesentiam lupi, &amp;
+          ap<lb ed="#G" n="63" break="no"/>petit absentiam lupi: ergo praesentia lupi est quoddam
+          ma<lb ed="#G" n="64" break="no"/>um, &amp; absentia eius quoddam bonum, quia bonum est 
+          <lb ed="#G" n="65"/>quod omnia appetunt, vt patet primo ethicorum, &amp; malum 
+          <lb ed="#G" n="66"/>econtra, quod omnia sugiuntised presentia lupi est forma 
+          <!--425.xml-->
+          <cb ed="#G" n="b"/>
+          <lb ed="#G" n="67"/>liter maioris entitatis, quam absentia ipsius: ergo &amp;c 
+        </p>
+        <p xml:id="HuYgTa-147630-d1e412">
+          <lb ed="#G" n="68"/>
+          <pc type="indent"/>Sed ista non concludunt 
+          <lb ed="#G" n="69"/>Ad primum igitur dicendum, quod malum sumptum 
+          <lb ed="#G" n="70"/>in concreto dicitur agere ratione implicationis subiecti, 
+          <lb ed="#G" n="71"/>in quo fundatur. Si autem sumitur in abstracto, puta ipsa 
+          <lb ed="#G" n="72"/>malitia, tunc non agit; &amp; si dicitur ipsum malum
+          aliquam<lb ed="#G" n="73" break="no"/>do corrumpere, hoc non est intelligendum actiue, sed for 
+          <lb ed="#G" n="74"/>maliter, quia malum secundum se abstracte sumptum est 
+          <lb ed="#G" n="75"/>formaliter ipsa corruptio iboni, vel cotruptum esse
+          ip<lb ed="#G" n="76" break="no"/>sius boni, sicut caecitas est corruptio visus. 
+        </p>
+        <p xml:id="HuYgTa-147630-d1e437">
+          <lb ed="#G" n="77"/>
+          <pc type="indent"/>Ad secundum dicendum, quod minor cum sua
+          proba<lb ed="#G" n="78" break="no"/>tione intelligenda est de malo poenae: quae quidem poena, 
+          <lb ed="#G" n="79"/>dum infertur a iusto iudice, quamuis sit malum secudum 
+          <lb ed="#G" n="80"/>quid, puta respectu appetitus illius, cui infertur, seu
+          infli<lb ed="#G" n="81" break="no"/>itur poena: est tamen quoddam bonum simpliciter, cum 
+          <lb ed="#G" n="82"/>implicet virtutem iustitiae.  
+        </p>
+        <p xml:id="HuYgTa-147630-d1e455">
+          <lb ed="#G" n="83"/>
+          <pc type="indent"/>Ad tertium dicendum, quod bonum, &amp; malum opponuntur 
+          <lb ed="#G" n="84"/>non contrarie, sed opponuntur priuatiue. Ad
+          probatio<lb ed="#G" n="85" break="no"/>nem dico, quod philosophus loquitur ibi multum large 
+          <lb ed="#G" n="86"/>de contrariis, sicut etiam primo physicorum dicit formam, 
+          <lb ed="#G" n="87"/>&amp; priuationem contraria esse principia 
+        </p>
+        <p xml:id="HuYgTa-147630-d1e471">
+          <lb ed="#G" n="88"/>
+          <pc type="indent"/>Ad quartum dicendum, quod suscipere magis &amp; minus 
+          <lb ed="#G" n="89"/>potest contingere dupliciter. Vno modo per accessum ad 
+          <lb ed="#G" n="90"/>formam aliquam, seu secundum maiorem &amp; minorem 
+          <lb ed="#G" n="91"/>participationem alicuius formae: &amp; sic maior est vera. Alio 
+          <lb ed="#G" n="92"/>modo, non secundum participationem formae, sed
+          secun<lb ed="#G" n="93" break="no"/>dum maiorem &amp; minorem corruptionem formae, &amp; sic 
+          <lb ed="#G" n="94"/>maior non est vera 
+        </p>
+        <p xml:id="HuYgTa-147630-d1e491">
+          <lb ed="#G" n="95"/>
+          <pc type="indent"/>Ad instantiam dico, quod malum non est causa effectiua 
+          <lb ed="#G" n="96"/>corruptionis boni, sed est formaliter ipsa corruptio bonis 
+        </p>
+        <p xml:id="HuYgTa-147630-d1e500">
+          <lb ed="#G" n="97"/>
+          <pc type="indent"/>Alias inuenitur talis additio.  
+          <lb ed="#G" n="98"/>Responsio etiam ad instantiam licet aliquam contineat 
+          <lb ed="#G" n="99"/>veritatem, loquendo de causa simpliciter positua: tamen 
+          <lb ed="#G" n="100"/>non est vera, loquendo de causa priuatiuas haec enim dici 
+          <lb ed="#G" n="101"/>tur mala, vel peror, prout illud, quod priuat, est bonum, 
+          <lb ed="#G" n="102"/>vel melius: propter quod dicitur,<ref xml:id="HuYgTa-147630-Rd1e517"> 7. ethi.</ref> quod pessimum 
+          <lb ed="#G" n="103"/>opponitur optimo.
+        </p>
+        <p xml:id="HuYgTa-147630-d1e523">
+          <lb ed="#G" n="104"/>Ad quintum dicendum, quod ouis fugit praesentiam 
+          <lb ed="#G" n="105"/>lupi, quia fugit priuationem suae propriae entitatis, quae 
+          <lb ed="#G" n="106"/>posset sibi accidere per praesentiam lupi. Appetit autem 
+          <lb ed="#G" n="107"/>absentiam lupi non propter non entitatem ipsius
+          absen<lb ed="#G" n="108" break="no"/>tiae, sed propter conseruationem suae propriae entitatis, &amp;  
+          <lb ed="#G" n="109"/>permanentiam. lgitur pro seipsa ouis appetit entitatem,  
+          <lb ed="#G" n="110"/>&amp; esse; &amp; refutat priuationem, &amp; non esse. Ex quo patet, quod 
+          <lb ed="#G" n="111"/>antecedens non est verum 
+        </p>
+        <p xml:id="HuYgTa-147630-d1e544">
+          <lb ed="#G" n="112"/>
+          <pc type="indent"/>Secunda conclusio est, qud ipsum malum conotatiue dicit 
+          <lb ed="#G" n="113"/>naturam positiuam, quia ipsui malum fundatur in ente posituo.
+        </p>
+        <p xml:id="HuYgTa-147630-d1e553">
+          <lb ed="#G" n="114"/>1 Nam priuatio dicit aptitudinem in subiecto, sed ma 
+          <lb ed="#G" n="115"/>um est priuatio boni: ergo semper ipsum malum dicit ca 
+          <lb ed="#G" n="116"/>rentiam bonitatis debitam illi rei, quae dicitur mala, &amp;  
+          <lb ed="#G" n="117"/>per consequens necessario connotat ens positiuum
+        </p>
+        <p xml:id="HuYgTa-147630-d1e564">
+          <lb ed="#G" n="118"/>2 Praeterea, priuatio &amp; habitus apta nata sunt fieri
+          cir<lb ed="#G" n="119" break="no"/>ta idem subiectum, sed habitus oppositus malitiae, scilicet 
+          <lb ed="#G" n="120"/>psa bonitas, est in ente posituo: ergo &amp; ipsa malitia 
+        </p>
+        <p xml:id="HuYgTa-147630-d1e573">
+          <lb ed="#G" n="121"/>
+          <pc type="indent"/>Praeterea, u. met. dicitur, quod verum &amp; falsum sunt 
+          <lb ed="#G" n="122"/>in anima, bonum autem &amp; malum sunt in rebus : ergo &amp;c 
+        </p>
+        <p xml:id="HuYgTa-147630-d1e582">
+          <lb ed="#G" n="123"/>
+          <pc type="indent"/>Sed contra istud potest instari sic. Si malum
+          fundare<lb ed="#G" n="124" break="no"/>tur in ente posituo, tunc malum fundaretur in bono.
+          con<lb ed="#G" n="125" break="no"/>sequentia patet, quia bonum dicitur aequaliter enti, vt pa 
+          <lb ed="#G" n="126"/>tet primo ethicorum. Falsitas consequentis potestimulti 
+          <lb ed="#G" n="127"/>pliciter probari. 
+        </p>
+        <p xml:id="HuYgTa-147630-d1e598">
+          <lb ed="#G" n="128"/>
+          <pc type="indent"/>Primo sic. Vnum oppositorum non est subiectum alte 
+          <lb ed="#G" n="129"/>tius: sed bonum &amp; malum sunt opposita 
+        </p>
+        <p xml:id="HuYgTa-147630-d1e608">
+          <lb ed="#G" n="130"/>
+          <pc type="indent"/>Secundo sic, omne fundatum in aliquo denominat
+          il<lb ed="#G" n="131" break="no"/>ud, in quo fundatur: ergo bonum esset malum, si malum 
+          <lb ed="#G" n="132"/>fundaretur in bonc. 
+        </p>
+        <p xml:id="HuYgTa-147630-d1e619">
+          <lb ed="#G" n="133"/>
+          <pc type="indent"/>Tertio, quia bonum est, quod omnia appetunt, vt
+          dici<lb ed="#G" n="134" break="no"/>tur i ethi, sed illud, quod subiicitur malo, non est
+          appeti<lb ed="#G" n="135" break="no"/>bile, nullus enim appetit esse in miseriis 
+        </p>
+        <p xml:id="HuYgTa-147630-d1e630">
+          <lb ed="#G" n="136"/>
+          <pc type="indent"/>Quarto, quia <ref xml:id="HuYgTa-147630-Rd1e636">Dionysius. 4. de di non</ref> ait, quod malum ne 
+          <lb ed="#G" n="137"/>uc est existens, neque in existentibus. Et hoc Dionysius 
+          <lb ed="#G" n="138"/>ibidem probat per hoc, quia omne existens est bonum,
+          ma<lb ed="#G" n="139" break="no"/>um autem nec est bonum, nec est in bono 
+          <!--426.xml-->
+          <pb ed="#G" n="194-r"/>
+          <cb ed="#G" n="a"/>
+          <lb ed="#G" n="1"/>hespondeo, concedo consequentiam, sed nego falsitatem 
+          <lb ed="#G" n="2"/>consequentis, quia <ref xml:id="HuYgTa-147630-Rd1e657">philosophus. 4. metaphys</ref> in hoc distin 
+          <lb ed="#G" n="3"/>guit priuationem a negatione, quia priuatio est negatio 
+          <lb ed="#G" n="4"/>in subiecto apto nato: cum igitur malum sit priuatio, &amp;  
+          <lb ed="#G" n="5"/>omne subiectum vt est ens, seu existens, sit bonum, eo quod 
+          <lb ed="#G" n="6"/>ponum vnum, &amp; ens conuertantur, vt patet <ref xml:id="HuYgTa-147630-Rd1e668">4. metaphy</ref> 
+          <lb ed="#G" n="7"/>ideo necessario malum fundatur in aliquo bono. Et ista 
+          <lb ed="#G" n="8"/>est intentio <ref xml:id="HuYgTa-147630-Rd1e676">Augustini. 14 de ciui. Dei</ref>, vbi ait, <quote xml:id="HuYgTa-147630-Qd1e679" source="http://scta.info/resource/adcd-l14-d1e2066" synch="328-334">Mala non  
+            <lb ed="#G" n="9"/>nisi in bonis esse possunt</quote>. <ref xml:id="HuYgTa-147630-Rd1e684">Magister etiam ait hic in
+              litte<lb ed="#G" n="10" break="no"/>ra</ref>, <quote xml:id="HuYgTa-147630-Qd1e689" source="http://scta.info/resource/pl-l2d34c4-d1e111" synch="1-12">Qui recte acuteque sapit, non nisi in bono malum esse  
+                <lb ed="#G" n="11"/>intelligit</quote>.  
+        </p>
+        <p xml:id="HuYgTa-147630-d1e695">
+          <lb ed="#G" n="12"/>
+          <pc type="indent"/>Ad primam igitur probationem dicendum, quod
+          bo<lb ed="#G" n="13" break="no"/>um tripliciter sumitur. Vno modo pro ipsa rei perfectio 
+          <lb ed="#G" n="14"/>ne ficut claritas visus dicitur bonum ipsius oculi, &amp;
+          per<lb ed="#G" n="15" break="no"/>fctio virtutis bonum anime. Alio modo sumitur bonum 
+          <lb ed="#G" n="16"/>pro ipso subiecto, quod est aptum natum habere huiusme 
+          <lb ed="#G" n="17"/>diperfectionem, &amp; sic ipse oculus, vel anima dicitur
+          bo<lb ed="#G" n="18" break="no"/>num Tertio modo sumitur pro ipsa re perfecta, &amp; sic
+          con<lb ed="#G" n="19" break="no"/>lectitur utrumque. Primo modo non est subiectum
+          ip<lb ed="#G" n="20" break="no"/>sius mali, sed est habitus priuatiue oppositus ipsi malo, 
+          <lb ed="#G" n="21"/>quitollitur, &amp; corrumpitur per ipsum malum: sed bonum 
+          <lb ed="#G" n="22"/>secundo modo dictum est subiectum ipsius mali, quia ens 
+          <lb ed="#G" n="23"/>inpotentia est subiectum tam habitus, quam priuationis 
+          <lb ed="#G" n="24"/>non fimul sed alt ernatim. 
+        </p>
+        <p xml:id="HuYgTa-147630-d1e728">
+          <lb ed="#G" n="25"/>
+          <pc type="indent"/>Et per hoc patet ad secundum, quia bonum de
+          secun<lb ed="#G" n="26" break="no"/>do modo dictum, prout actu priuatum est, sua debita per 
+          <lb ed="#G" n="27"/>fectione est actu malum propter actualem inexistentiam 
+          <lb ed="#G" n="28"/>priuationis suae debitae perfectionis, quamuis sit
+          poten<lb ed="#G" n="29" break="no"/>tia bonum propter aptitudinem, quam habet ad huius 
+          <lb ed="#G" n="30"/>modi perfectionem, quae quidem aptitudo numquam
+          to<lb ed="#G" n="31" break="no"/>taliter tollitur manente natura rei. Et ideo omne malum 
+          <lb ed="#G" n="32"/>nest alicui bono. 
+        </p>
+        <p xml:id="HuYgTa-147630-d1e750">
+          <lb ed="#G" n="33"/>
+          <pc type="indent"/>Ad tertium dicendum, quod licet subiectum ipsius ma 
+          <lb ed="#G" n="34"/>li priuationis non sit appetibile ratione, qua subiicitur 
+          <lb ed="#G" n="35"/>priationi: tamen ratione aptitudinis, quam habet ad suam 
+          <lb ed="#G" n="36"/>perfectionem, bene est appetibile¬ 
+        </p>
+        <p xml:id="HuYgTa-147630-d1e764">
+          <lb ed="#G" n="37"/>
+          <pc type="indent"/>Ad quartum dicendum, quod per illa verba non inten 
+          <lb ed="#G" n="38"/>Dionysius negare, quin malum per modum
+          priuatio<lb ed="#G" n="39" break="no"/>fit in existentibus, sed solum intendit negare, quodi 
+          <lb ed="#G" n="40"/>Nper modum accidentis positiui. Et cum ait Dionyvsius, 
+          <lb ed="#G" n="41"/>od malum non est in bono, ibi accipit bonum pro bo 
+          <lb ed="#G" n="42"/>Pprimo modo dicto: ergo &amp;c. 
+        </p>
+        <p xml:id="HuYgTa-147630-d1e782">
+          <lb ed="#G" n="43"/>
+          <pc type="indent"/>ARTICVLVS II 
+          <lb ed="#G" n="44"/>
+          <pc type="indent"/>Vtrum malum causetur a bono.
+        </p>
+        <p xml:id="HuYgTa-147630-d1e793">
+          <lb ed="#G" n="45"/>QVANTVM ad secundum principale possent poni 
+          <lb ed="#G" n="46"/>quattuor conclusiones secundum quattuor gene 
+          <lb ed="#G" n="47"/>usarum: de tribus tamen generibus causarum
+          breui<lb ed="#G" n="48" break="no"/>er me expediam
+        </p>
+        <p xml:id="HuYgTa-147630-d1e804">
+          <lb ed="#G" n="49"/>Dieo primo, quod malum non habet causam formalem 
+          <lb ed="#G" n="50"/>quna illud, quod per se est priuatio formae, non habet causam 
+          <lb ed="#G" n="51"/>prmalem: malti est huiusmodi, vt patet ex precedentibus 
+        </p>
+        <p xml:id="HuYgTa-147630-d1e813">
+          <lb ed="#G" n="52"/>
+          <pc type="indent"/>Secundo dico, quod malum habet causam materialem, 
+          <lb ed="#G" n="53"/>ne sbiectiuam, quia priuatio non est simplex negatio 
+          <lb ed="#G" n="54"/> est negatio in subiecto determinato &amp; apto nato. 
+        </p>
+        <p xml:id="HuYgTa-147630-d1e824">
+          <lb ed="#G" n="55"/>
+          <pc type="indent"/>Tertio dico, quod malum habet causam finalem por 
+          <lb ed="#G" n="56"/>eedens, puta inquantum est coniunctum alicui effectui; 
+          <lb ed="#G" n="57"/> per se ordinabilis est in aliquem finem  
+        </p>
+        <p xml:id="HuYgTa-147630-d1e836">
+          <lb ed="#G" n="58"/>
+          <pc type="indent"/>Quarto dico, quod causa efficiens immediata ipsius 
+          <lb ed="#G" n="59"/>nali est aliquod bonum deficiens, scu defectiuum: causa 
+          <lb ed="#G" n="60"/>Tero remota ipsius mali, est aliquod bonum, quod non vt 
+          <lb ed="#G" n="61"/>erciens, sed vt perfectum, est causa alicuius boni per se 
+          <lb ed="#G" n="62"/>euius eaufationem sequitur per accidens &amp; praeter
+          in<lb ed="#G" n="63" break="no"/>ntionem agentis aliquod malum annexum tali bono 
+          <lb ed="#G" n="64"/>Serbi gratia, causa immediata monstruositatis, quae est in 
+          <lb ed="#G" n="65"/>rus formatione, est quoddam bonum deficiens, puta vis 
+          <lb ed="#G" n="66"/>esem inis insufficiens. lllius autem malitiae, quae est in 
+          <lb ed="#G" n="67"/>rmine causa, est aliqua qualitas, quae alterat semen 
+          <lb ed="#G" n="68"/>leoms alterationem sequitur per accidens insufficien 
+          <lb ed="#G" n="69"/>tasem inis. Ista rgitur vitus non agit vt imperfecta, ucl 
+          <!--426.xml-->
+          <cb ed="#G" n="b"/>
+          <lb ed="#G" n="70"/>vt deficiens bonum: immo quanto est sufficientior, &amp; per 
+          <lb ed="#G" n="71"/>ectior: tanto magis per se similitudinem suam inducit in 
+          <lb ed="#G" n="72"/>semine: ad cuius maiorem inductionem semper per
+          acci<lb ed="#G" n="73" break="no"/>dens sequitur maior malitia seminis respectu
+          formatio<lb ed="#G" n="74" break="no"/>nis ipsius fotus. 
+        </p>
+        <p xml:id="HuYgTa-147630-d1e882">
+          <lb ed="#G" n="75"/>
+          <pc type="indent"/>Etiam ex parte humanae voluntatis istud aliquo modo 
+          <lb ed="#G" n="76"/>potest declarari. Nam humana voluntas, prout actualiter 
+          <lb ed="#G" n="77"/>non attendit ad iudicium rectae rationis, &amp; legis diuinae,  
+          <lb ed="#G" n="78"/>est quasi quoddam bonum defectiuum, &amp; eadem voluntas, 
+          <lb ed="#G" n="79"/>prout per se fertur in aliquod bonum secundum quid, pu 
+          <lb ed="#G" n="80"/>ta in carnalem delectationem, saepius fertur in malum
+          sim<lb ed="#G" n="81" break="no"/>pliciter, annexum tali delectationi, puta inordinatam adul 
+          <lb ed="#G" n="82"/>terij actionem. Et videtur esse intentio Dionysij. 4. de 
+          <lb ed="#G" n="83"/>di no vbi ait, quod malsi non agit nisi virtute boni. Et ibidem 
+          <lb ed="#G" n="84"/>ait, quod omnium malorum principium, &amp; finis est bonum 
+        </p>
+        <p xml:id="HuYgTa-147630-d1e908">
+          <lb ed="#G" n="85"/>
+          <pc type="indent"/>Inuenitur alias talis additio. Propter praedictam non 
+          <lb ed="#G" n="86"/>attentionem voluntatis saepius ipsa voluntas non debite 
+          <lb ed="#G" n="87"/>prouisa, incante eligit in agendis. Hanc autem non atten 
+          <lb ed="#G" n="88"/>tionem saepe incurrit voluntas ex motione positiua, qua 
+          <lb ed="#G" n="89"/> rebus mundanis allicitur, quae allectio, quanto suo
+          mo<lb ed="#G" n="90" break="no"/>do est maior, &amp; perfectior, tanto magis impeditur iam di 
+          <lb ed="#G" n="91"/>cta attentio voluntatis. 
+        </p>
+        <p xml:id="HuYgTa-147630-d1e928">
+          <lb ed="#G" n="92"/>
+          <pc type="indent"/>Est etiam hic aduertendum, quod licet iam dicto
+          mo<lb ed="#G" n="93" break="no"/>do similiter contingat malum in naturalibus, &amp;
+          morali<lb ed="#G" n="94" break="no"/>bus: tamen in hoc est dissimile, quod praeter iam dictum 
+          <lb ed="#G" n="95"/>modum peccandi voluntas ex mera sua liberalitate
+          po<lb ed="#G" n="96" break="no"/>test, peccare non obstante rectae rationis iudicio, pro ut su 
+          <lb ed="#G" n="97"/>perius declaraui. Haec in additione praedicta 
+        </p>
+        <p xml:id="HuYgTa-147630-d1e946">
+          <lb ed="#G" n="98"/>
+          <pc type="indent"/>Sed contra praedictas clausulas istius quartae conclusio 
+          <lb ed="#G" n="99"/>nis multipliciter potest instari: &amp; etiam de facto ab
+          ali<lb ed="#G" n="100" break="no"/>quibus doctoribus instatur contra primam sic,  
+        </p>
+        <p xml:id="HuYgTa-147630-d1e957">
+          <lb ed="#G" n="101"/>1 Si bonum esset causa mali inquantum deficiens, tuc 
+          <lb ed="#G" n="102"/>praehaberet in se defectum, &amp; malum, antequam causaret 
+          <lb ed="#G" n="103"/>malum, &amp; tunc de illo nalo quaeritur, a quo causetur, &amp;  
+          <lb ed="#G" n="104"/>sic vel ibitur in infinitum, quod est impossibile, vel
+          opor<lb ed="#G" n="105" break="no"/>tet deuenire ad vnum primum malum, quod est causa
+          o<lb ed="#G" n="106" break="no"/>mnium malorum, quod est superius reprobatum in
+          prin<lb ed="#G" n="107" break="no"/>cipio istius secundi libri, &amp; similiter in 1. lib vel oportet 
+          <lb ed="#G" n="108"/>dicere, quod bonum perfectum, &amp; non deficiens sit imme 
+          <lb ed="#G" n="109"/>liata, &amp; per se causa mali, quod est contra primam
+          clausu<lb ed="#G" n="110" break="no"/>lam istius conclusionis. 
+        </p>
+        <p xml:id="HuYgTa-147630-d1e982">
+          <lb ed="#G" n="111"/>
+          <pc type="indent"/>Praeterea, si bonum inquantum deficiens esset causa 
+          <lb ed="#G" n="112"/>mali, tunc Deus, qui est bonum omnino indeficiens nullum 
+          <lb ed="#G" n="113"/>malum posset causare, quod est falsum, salte de malo poenae, 
+          <lb ed="#G" n="114"/>iuxta illud. Non est malum in ciuitate, quod Deus non faciat. 
+        </p>
+        <p xml:id="HuYgTa-147630-d1e995">
+          <lb ed="#G" n="115"/>
+          <pc type="indent"/>Praeterea, defectus inquantum defectus, potest esse  
+          <lb ed="#G" n="116"/>causa immediata boni : ergo Ponum inquantum bonum, 
+          <lb ed="#G" n="117"/>&amp; per consequens non inquantum deficiens, potest esse  
+          <lb ed="#G" n="118"/>immediata causa mali consequentia patet, probatur
+          an<lb ed="#G" n="119" break="no"/>tecedens, quia enigma fidei inquantum includit obscuri 
+          <lb ed="#G" n="120"/>atem, est causa merendi; cum fides non habeat meritum, 
+          <lb ed="#G" n="121"/>cui humana ratio praebet experimentum, 
+        </p>
+        <p xml:id="HuYgTa-147630-d1e1015">
+          <lb ed="#G" n="122"/>
+          <pc type="indent"/>Praeterea, si voluntas esset causa peccati, inquantum 
+          <lb ed="#G" n="123"/>deficiens aut hoc bonum, propter cuius absentiam
+          dici<lb ed="#G" n="124" break="no"/>tur deficiens, de iure debet inesse voluntati, &amp; non inest, 
+          <lb ed="#G" n="125"/>&amp; tunc poena praecederet culpam, aut non debet inesse 
+          <lb ed="#G" n="126"/>voluntati, &amp; tunc ratione carentiae talis boni voluntas non 
+          <lb ed="#G" n="127"/>dicetur bonum deficiens; sicut nec lapis dicitur bonum 
+          <lb ed="#G" n="128"/>defectiuum propter catentiam virtutis visiuae. 
+        </p>
+        <p xml:id="HuYgTa-147630-d1e1035">
+          <lb ed="#G" n="129"/>
+          <pc type="indent"/>Contra secundam clausulam, qua dixi, quod bonum in 
+          <lb ed="#G" n="130"/>uantum bonum potest esse causa alicuius mali, quamus 
+          <lb ed="#G" n="131"/>er accidens potest similiter argui fic 
+        </p>
+        <p xml:id="HuYgTa-147630-d1e1046">
+          <lb ed="#G" n="132"/>
+          <pc type="indent"/>Omnis causa per accidens reducitur ad causam per 
+          <lb ed="#G" n="133"/>se; igitur si malum habet causam per accidens, videtur. 
+          <lb ed="#G" n="134"/>quod etiam debeat habere causam per se 
+        </p>
+        <p xml:id="HuYgTa-147630-d1e1057">
+          <lb ed="#G" n="135"/>
+          <pc type="indent"/>2 Praeterea, quod euenit in actione praeter intentionem 
+          <lb ed="#G" n="136"/>agentis, excusat peccatum, sicut credens percutere hosten 
+          <lb ed="#G" n="137"/>reipublicae, &amp; praeter intentionem percutit patre, excusat 
+          <lb ed="#G" n="138"/>in decretis a parricidio: sed istud, quod pec accidens
+          eue<lb ed="#G" n="139" break="no"/>nit, preter intentionem euenit: igitur si malum euenit per 
+          <lb ed="#G" n="140"/>accidens, nullus faciendo malum peccaret. 
+        </p>
+        <p xml:id="HuYgTa-147630-d1e1076">
+          <lb ed="#G" n="141"/>
+          <pc type="indent"/>Praeterea, effectus per accidens euenit, vt taro, sed  
+          <lb ed="#G" n="142"/>malum cuenit, vt in pluribus: ergo &amp;c.
+        </p>
+        <p xml:id="HuYgTa-147630-d1e1085">
+          <!--427.xml-->
+          <pb ed="#G" n="194-v"/>
+          <cb ed="#G" n="a"/>
+          <lb ed="#G" n="1"/>4 Praeterea, natura per se est causa eorum, quae naturali 
+          <lb ed="#G" n="2"/>ter fiunt, vt patet. <ref xml:id="HuYgTa-147630-Rd1e1098">2. phy.</ref> sed aliqua mala, &amp; aliqui defe 
+          <lb ed="#G" n="3"/>ctus naturaliter eueniunt, vt mors, senectus: infirmitas, &amp;  
+          <lb ed="#G" n="4"/>cetera huiusmodi. 
+        </p>
+        <p xml:id="HuYgTa-147630-d1e1106">
+          <lb ed="#G" n="5"/>
+          <pc type="indent"/>3 Praeterea, omne bonum, vel est bonum in actu, vel 
+          <lb ed="#G" n="6"/>in potentia: sed neutrum istorum potest esse causa mali 
+          <lb ed="#G" n="7"/>Non quidem bonum in actu: quia hoc tollitur, &amp;
+          priua<lb ed="#G" n="8" break="no"/>tur per malum. Nec bonum in potentia potest esse
+          caus<lb ed="#G" n="9" break="no"/>mali in actu; nam effectus in actu requirit causam in actu; 
+          <lb ed="#G" n="10"/>vt patet. <ref xml:id="HuYgTa-147630-Rd1e1123">2. physicorum.</ref> 
+        </p>
+        <p xml:id="HuYgTa-147630-d1e1127">
+          <lb ed="#G" n="11"/>
+          <pc type="indent"/>Ad primum igitur dicendum, quod illud malum, quod 
+          <lb ed="#G" n="12"/>est in bonitate deficiente, causatur a bono non deficiente 
+          <lb ed="#G" n="13"/>er accidens tamen, vt dictum est in secunda clausula, &amp;  
+          <lb ed="#G" n="14"/>hoc in naturalibus. In actibus autem humanis illius
+          defi<lb ed="#G" n="15" break="no"/>cientiae, quod voluntas actualiter non attendit ad rectae 
+          <lb ed="#G" n="16"/>rationis iudicium, &amp; diuinae legis mandatum, non
+          opor<lb ed="#G" n="17" break="no"/>tet aliam assignare causam, quam libertatem
+          contradictio<lb ed="#G" n="18" break="no"/>nis humanae voluntatis. Et ideo nec in naturalibus, nec in 
+          <lb ed="#G" n="19"/>humanis est processus in infinitum, nec etiam datur vni 
+          <lb ed="#G" n="20"/>primum malum, quamuis bonum non sit causa per se
+          i<lb ed="#G" n="21" break="no"/>psius mali 
+        </p>
+        <p xml:id="HuYgTa-147630-d1e1156">
+          <lb ed="#G" n="22"/>
+          <pc type="indent"/>Ad secundum dicendum, quodDeus nullius mali est
+          caus<lb ed="#G" n="23" break="no"/>per se. Vnde etiam ipsum malum poenae est a Deo per aco 
+          <lb ed="#G" n="24"/>dens: quia Deus per se causat bonum virtutis iustitiae, ad 
+          <lb ed="#G" n="25"/>quod per accidens sequitur malum poenae¬ 
+        </p>
+        <p xml:id="HuYgTa-147630-d1e1169">
+          <lb ed="#G" n="26"/>
+          <pc type="indent"/>Ad tertium dicendum, quod obscuritas fidei non es 
+          <lb ed="#G" n="27"/>per se causa illius meriti: sed voluntas bona rationem
+          ca<lb ed="#G" n="28" break="no"/>ptiuans in obsequium fidei, quae gratia Dei sibi cooperat 
+          <lb ed="#G" n="29"/>te, sponte consentit propter Deum talibus, quae non
+          vi<lb ed="#G" n="30" break="no"/>det, haec est per se causa iam dicti meriti. 
+        </p>
+        <p xml:id="HuYgTa-147630-d1e1186">
+          <lb ed="#G" n="31"/>
+          <pc type="indent"/>Ad quartum dicendum, quod defectus, qui praeintelli 
+          <lb ed="#G" n="32"/>gitur in voluntate ante peccatum, puta illa non actualis at 
+          <lb ed="#G" n="33"/>tentio iudicij rectae rationis, &amp; legis diuinae non est culpa 
+          <lb ed="#G" n="34"/>neque poena, antequam voluntas progrediatur in actun 
+          <lb ed="#G" n="35"/>electionis: quia ante huiusmodi actum voluntas non ten 
+          <lb ed="#G" n="36"/>batur ad talem actualem attentionem, &amp; potuit ea care 
+          <lb ed="#G" n="37"/>re sine omi malitia ex sola sua libertate. Sed talis negatio. 
+          <lb ed="#G" n="38"/>seu tarentia accipit rationem culpae ex ipsa application 
+          <lb ed="#G" n="39"/>ad actum praedictum: quia ex huiusmodi applicatione illa  
+          <lb ed="#G" n="40"/>actualis attentio debita efficitur, quae ante non fuit debita 
+        </p>
+        <p xml:id="HuYgTa-147630-d1e1212">
+          <lb ed="#G" n="41"/>
+          <pc type="indent"/>Etiam potest dici, quod huiusmodi defectus potest re 
+          <lb ed="#G" n="42"/>duci ad malum poenae, quae poena, quamuis praecedat
+          pec<lb ed="#G" n="43" break="no"/>catum actuale; tamen sequitur peccatum originale: nam  
+          <lb ed="#G" n="44"/>propter fomitem derelictum in homine ex peccato orig 
+          <lb ed="#G" n="45"/>nali, voluntas hominis sic allicitur a rebus temporalibus 
+          <lb ed="#G" n="46"/>&amp; per consequens sic distrahitur, quod quandoque non at 
+          <lb ed="#G" n="47"/>tendit ad rectum iudicium rationis 
+        </p>
+        <p xml:id="HuYgTa-147630-d1e1232">
+          <lb ed="#G" n="48"/>
+          <pc type="indent"/>Ad primum contra secundam clausulam dicendum, 
+          <lb ed="#G" n="49"/>sicut causa per accidens reducitur ad causam per se: ita e 
+          <lb ed="#G" n="50"/>fectus per accidens reducitur ad effectum per se, &amp; quia 
+          <lb ed="#G" n="51"/>in praesenti loquimur de malo, vt est effectus per accidens 
+          <lb ed="#G" n="52"/>ideo non oportet ipsi malo assignare causam per se; sed 
+          <lb ed="#G" n="53"/>sufficit ipsum malum esse coniunctum tali effectui, qui ha 
+          <lb ed="#G" n="54"/>bet causam per se 
+        </p>
+        <p xml:id="HuYgTa-147630-d1e1252">
+          <lb ed="#G" n="55"/>
+          <pc type="indent"/>Ad secundum dicendum, quod quando agens omnem 
+          <lb ed="#G" n="56"/>diligentiam, quam debuit, adhibuit, quod tumc in sua acti 
+          <lb ed="#G" n="57"/>ne euenit praeter suam intentionem, excusat a peccato. 
+          <lb ed="#G" n="58"/>sed sic non est in proposito de malo peccati: quia pecca 
+          <lb ed="#G" n="59"/>tor non adhibet debitam diligentiam, nec resistit
+          pecca<lb ed="#G" n="60" break="no"/>to, quantum resistere potest 
+        </p>
+        <p xml:id="HuYgTa-147630-d1e1270">
+          <lb ed="#G" n="61"/>
+          <pc type="indent"/>Ad tertium dicendum, quod non omne per acciden 
+          <lb ed="#G" n="62"/>euenit, vt raro: quia generans per accidens intendit corri 
+          <lb ed="#G" n="63"/>ptionem; nam si posset generare sine corruptione,
+          tun<lb ed="#G" n="64" break="no"/>penitus nihil corrumperet; &amp; nihilominus tot sunt con 
+          <lb ed="#G" n="65"/>ruptiones, quot sunt generationes, cum generatio vnius si 
+          <lb ed="#G" n="66"/>corruptio alterius: per accidens eni eueniens vt raro, non 
+          <lb ed="#G" n="67"/>est quodcumque per accidens, sed tale per accidens, quod 
+          <lb ed="#G" n="68"/>dicitur fortuitum, aut casuale, vt patet. <ref xml:id="HuYgTa-147630-Rd1e1291">2. physicorum</ref> 
+        </p>
+        <p xml:id="HuYgTa-147630-d1e1295">
+          <lb ed="#G" n="69"/>
+          <pc type="indent"/>Ad quartum dicendum, quod quamuis talia
+          naturali<lb ed="#G" n="70" break="no"/>ter eueniant, inquantum omnia illa dicuntur naturaliter 
+          <lb ed="#G" n="71"/>euenire, quae ex necessitate materiae eueniunt: tamen non 
+          <lb ed="#G" n="72"/>sunt per se intenta ab agente naturali 
+        </p>
+        <p xml:id="HuYgTa-147630-d1e1309">
+          <lb ed="#G" n="73"/>
+          <pc type="indent"/>Ad quintum dicendum, quod causa mali, nec est bonum 
+          <!--427.xml-->
+          <cb ed="#G" n="b"/>
+          <lb ed="#G" n="74"/>in actu, quod priuatur per huiusmodi malum: nec est bonum 
+          <lb ed="#G" n="75"/>in potentia, quod fundatur per huiusmodi malum: sed est 
+          <lb ed="#G" n="76"/>bonum, quod est agens, quod inducendo vnam formam  
+          <lb ed="#G" n="77"/>expellit aliam, &amp; relinquit malitiam priuationis talis for 
+          <lb ed="#G" n="78"/>mae expulsae in subiecto, quod est bonum in potentia 
+        </p>
+        <p xml:id="HuYgTa-147630-d1e1331">
+          <lb ed="#G" n="79"/>
+          <pc type="indent"/>Alias talis additio inuenitur. Malum etiam culpae cau 
+          <lb ed="#G" n="80"/>satur a voluntate, ac rebus mouentibus, &amp; allicientibu 
+          <lb ed="#G" n="81"/>voluntatem, quae bonae sunt, cum a Deo creatae sunt 
+        </p>
+        <p xml:id="HuYgTa-147630-d1e1342">
+          <lb ed="#G" n="82"/>
+          <pc type="indent"/>ARTICVLVS
+          IIl<lb ed="#G" n="83" break="no"/>Vtrum Malum culpae possit corrumpere 
+          <lb ed="#G" n="84"/>
+          <pc type="indent"/>totum bonim
+        </p>
+        <p xml:id="HuYgTa-147630-d1e1355">
+          <lb ed="#G" n="85"/>QVANTVM ad tertium articulum est aduertendum, 
+          <lb ed="#G" n="86"/>quod triplex est bonum, quod aliquo modo
+          lae<lb ed="#G" n="87" break="no"/>ditur, seu destruitur per ipsum malum culpae. Primum est 
+          <lb ed="#G" n="88"/>bonum gratiae. Secundum bonum naturae consideratae se 
+          <lb ed="#G" n="89"/>cundum se. Et tertium bonum naturae consistens in qua 
+        </p>
+        <p xml:id="HuYgTa-147630-d1e1368">
+          <lb ed="#G" n="90"/>
+          <pc type="indent"/>Prima est, quod bonum gratiae totaliter tollitur, vel
+          destrui<lb ed="#G" n="91" break="no"/>dam naturali habilitate. Et secundum hoc possum
+          pone<lb ed="#G" n="92" break="no"/>tur per malum mortalis culpae; quia, quae incompossibilia 
+          <lb ed="#G" n="93"/>re tres breues conclusiones.
+        </p>
+        <p xml:id="HuYgTa-147630-d1e1381">
+          <lb ed="#G" n="94"/>sunt in eodem subiecto, vno adueniente destruitur, &amp;
+          ce<lb ed="#G" n="95" break="no"/>dit alterum: cul pa mortalis, &amp; gratia sunt in eodem
+          sub<lb ed="#G" n="96" break="no"/>iecto incompossibilia, vt patet ex dictis superius; ergo &amp;c 
+        </p>
+        <p xml:id="HuYgTa-147630-d1e1391">
+          <lb ed="#G" n="97"/>
+          <pc type="indent"/>Conclusio secunda est, quod bonum naturae secundum 
+          <lb ed="#G" n="98"/>se consideratae nec tollitur, nec diminuitur, proprie
+          lo<lb ed="#G" n="99" break="no"/>quendo, per malum culpae: quia quamuis natura aliquo 
+          <lb ed="#G" n="100"/>modo vulneretur ex mortali peccato, tamen nec in
+          to<lb ed="#G" n="101" break="no"/>to, nec in parte tollitur per peccatum. Nam etiam in
+          dae<lb ed="#G" n="102" break="no"/>mone, cuius peccatum inter omnia peccata videtur fuisse 
+          <lb ed="#G" n="103"/>grauissimum, naturalia manserunt integra, &amp; incorrupta, 
+        </p>
+        <p xml:id="HuYgTa-147630-d1e1411">
+          <lb ed="#G" n="104"/>
+          <pc type="indent"/>Tertia conclusio est, quod bonum consistens in praedicta 
+          <lb ed="#G" n="105"/>vt patet per <ref xml:id="HuYgTa-147630-Rd1e1419">Dionysium. 4. de, di, non</ref> 
+          <lb ed="#G" n="106"/>naturali habilitate, numquam totaliter tolletur, quandit 
+          <lb ed="#G" n="107"/>homo est in statu viae, tamen per peccatum mortale dimi 
+          <lb ed="#G" n="108"/>nuitur, quia quantum acquiritur de habilitate ad mali 
+          <lb ed="#G" n="109"/>tantum diminuitur de habilitate ad bonum: quia quantum 
+          <lb ed="#G" n="110"/>acceditur ad vnum oppositorum, tantum receditur ab
+          al<lb ed="#G" n="111" break="no"/>tero. Sed quanto magis continuatur peccatum, seu actus 
+          <lb ed="#G" n="112"/>vitiosus, tanto maior habilitas acquiritur ad malum vitio 
+          <lb ed="#G" n="113"/>sum; ergo &amp;c. 
+        </p>
+        <p xml:id="HuYgTa-147630-d1e1441">
+          <lb ed="#G" n="114"/>
+          <pc type="indent"/>1 Sic igitur iuxta has tres conclusiones homo descendens 
+          <lb ed="#G" n="115"/>ab Hierusalem in Hiericho, per quem figuratur mortali 
+          <lb ed="#G" n="116"/>peccator, primo a latronibus totaliter spoliatur habitu 
+          <lb ed="#G" n="117"/>gratiae, &amp; caritatis, quo ad primam conclusionem.
+          Secun<lb ed="#G" n="118" break="no"/>do vulneratur in naturalibus; quo ad secundam conclusio 
+          <lb ed="#G" n="119"/>nem. Et tertio semiuiuus relinquitur ratione diminutio 
+          <lb ed="#G" n="120"/>nis habilitatis ad bonum, quo ad tertiam conclusionem, 
+          <lb ed="#G" n="121"/>Sed forte dicetur, quod termini positi in tertia conclusio 
+          <lb ed="#G" n="122"/>ne non possunt simul stare, quia illa habilitas, cum sit in 
+          <lb ed="#G" n="123"/>re finita, &amp; creata, non potest esse infinita, sed omne fini 
+          <lb ed="#G" n="124"/>tum tandem totaliter tollitur per continuam ablationem 
+          <lb ed="#G" n="125"/>alicuius finiti ab ipso; ergo illa habilitas ad bonum por 
+          <lb ed="#G" n="126"/>continuam iterationem peccatorum in statu viae potest 
+          <lb ed="#G" n="127"/>tantum diminui, quod vltimo totaliter tolletur. 
+        </p>
+        <p xml:id="HuYgTa-147630-d1e1476">
+          <lb ed="#G" n="128"/>
+          <pc type="indent"/>Et si dicitur, sicut quidam dicunt, quod licet secundum 
+          <lb ed="#G" n="129"/>partes eiusdem quantitatis aliquod finitum non possit 
+          <lb ed="#G" n="130"/>diminui in infinitum, tamen secundum partes eiusdem  
+          <lb ed="#G" n="131"/>proportionis potest finitum diminui in infinitum, quod 
+          <lb ed="#G" n="132"/>numquam totaliter tolletur; sicut apparet in diuisione 
+          <lb ed="#G" n="133"/>continui 
+        </p>
+        <p xml:id="HuYgTa-147630-d1e1494">
+          <lb ed="#G" n="134"/>
+          <pc type="indent"/>lstud non valet ad propositum, quia sequeretur, quod 
+          <lb ed="#G" n="135"/>maiora peccata minus tollerent de habilitate ad bonum, 
+          <lb ed="#G" n="136"/>quam minora peccata. Probatur consequentia; quia vt 
+          <lb ed="#G" n="137"/>plurimum peccata sequentia sunt grauiora, quam
+          praece<lb ed="#G" n="138" break="no"/>dentia, sed in diuisione, seu diminutione secundum par 
+          <lb ed="#G" n="139"/>tes eiusdem proportionis illud, quod tollitur in secundi 
+          <lb ed="#G" n="140"/>diuisione, est medietas illius, quod tollitur in prima
+          diuisio<lb ed="#G" n="141" break="no"/>ne; &amp; quoe tollitur in tertia, est medietas illius, quod ablati 
+          <!--428.xml-->
+          <pb ed="#G" n="195-r"/>
+          <cb ed="#G" n="a"/>
+          <lb ed="#G" n="1"/>est in secunda, &amp; sic deinceps. Falsitas etiam
+          consequen<lb ed="#G" n="2" break="no"/>tis patet, quia communiter videmus, quod quanto aliquis  
+          <lb ed="#G" n="3"/>est maior peccator, tanto minorem inclinationem habet 
+          <lb ed="#G" n="4"/>ad bonum. Vnde quia peccatum in spiritumsanctum,
+          ce<lb ed="#G" n="5" break="no"/>teris paribus, est maximum peccatum: ideo, ceteris
+          pari<lb ed="#G" n="6" break="no"/>bus, magis tollit habilitatem ad bonum 
+        </p>
+        <p xml:id="HuYgTa-147630-d1e1536">
+          <lb ed="#G" n="7"/>
+          <pc type="indent"/>Respondeo negando minorem, qua dicitur, quod om- 
+          <lb ed="#G" n="8"/>ne finitum tandem tollitur totaliter per continuam
+          abi<lb ed="#G" n="9" break="no"/>tionem alicuius finiti ab ipso; quia angulus contingentia 
+          <lb ed="#G" n="10"/>extrinsecus, qui causatur in contactu lineae rectae, quandi 
+          <lb ed="#G" n="11"/>trahitur super circumferentia circuli, est valde paruus, &amp; 
+          <lb ed="#G" n="12"/>multum acutus: &amp; tamen si circulus cresceret in infinit 
+          <lb ed="#G" n="13"/>angulus praedictus decresceret, &amp; minueretur in infinitum; 
+          <lb ed="#G" n="14"/>ficut probatur in geometria 
+        </p>
+        <p xml:id="HuYgTa-147630-d1e1559">
+          <lb ed="#G" n="15"/>
+          <pc type="indent"/>Et potest etiam probari ratione; quia eadem
+          longitu<lb ed="#G" n="16" break="no"/>do signata, puta longitudo vnius palmi accepta in
+          circu<lb ed="#G" n="17" break="no"/>lo maiori, est minus turua, &amp; minus distat a rectitudine, 
+          <lb ed="#G" n="18"/>quam si accipiatur in circulo minori; ergo quanto
+          circu<lb ed="#G" n="19" break="no"/>lus magis crescit: tanto illa pars circuli, super quam
+          tran<lb ed="#G" n="20" break="no"/>siens linea recta causat angulum contingentiae, magis re 
+          <lb ed="#G" n="21"/>cedita curuitate, &amp; magis appropinquat ad rectitudinen 
+          <lb ed="#G" n="22"/>sed quantum iam dicta pars circuli appropinquat ad re- 
+          <lb ed="#G" n="23"/>ctitudinem, tantum tollitur de angulo praedicto: sicut
+          pa<lb ed="#G" n="24" break="no"/>tet ad sensum in supra scripta figura 
+        </p>
+        <p xml:id="HuYgTa-147630-d1e1585">
+          <lb ed="#G" n="25"/>
+          <pc type="indent"/>Quia tamen numquam illa pars circuli efficitur plene 
+          <lb ed="#G" n="26"/>recta etiam dato quod circulus cresceret in infinitum; quia 
+          <lb ed="#G" n="27"/>quaelibet pars circuli est curua: nam sicut impossibile est,  
+          <lb ed="#G" n="28"/>&amp; contradictionem implicat in vna linea, quae tota est recta 
+          <lb ed="#G" n="29"/>dare partem curuam, sic impossibile est in vna linea, quae 
+          <lb ed="#G" n="30"/>tota est curua dare aliquam partem rectam: sed linca
+          cir<lb ed="#G" n="31" break="no"/>culi tota est curua, vt patet in geometria: igitur dato, quod 
+          <lb ed="#G" n="32"/>circulus cresceret in infinitum, quauis ex hoc agulus praed 
+          <lb ed="#G" n="33"/>ctus semper minueretur: tamen ex hoc numquam totali 
+          <lb ed="#G" n="34"/>ter tolleretur. Nec esset necesse istam diminutionem 
+          <lb ed="#G" n="35"/>fieri secundum partes eiusdem proportionis: quia posset 
+          <lb ed="#G" n="36"/>fieri secundum partes eiusdem quantitatis: nam si circu 
+          <lb ed="#G" n="37"/>lus in infinitum cresceret hoc modo, quod semper vna 
+          <lb ed="#G" n="38"/>die cresceret tantum, quantum alia dic : etiam praedictus 
+          <lb ed="#G" n="39"/>angulus in infinitum decresceret qualibet die aequaliter; 
+          <lb ed="#G" n="40"/>tantum scilicet vna die, quantum alia die¬ 
+        </p>
+        <p xml:id="HuYgTa-147630-d1e1624">
+          <lb ed="#G" n="41"/>
+          <pc type="indent"/>Est etiam aduertendum, quod si quis praedictam
+          par<lb ed="#G" n="42" break="no"/>tem circuli resecaret a circulo, tunc dirigendo eam
+          ver<lb ed="#G" n="43" break="no"/>sus lineam, quae huiusmodi partem contingit, perfecta ta 
+          <lb ed="#G" n="44"/>li directione immediate totaliter tollitur praedictus
+          an<lb ed="#G" n="45" break="no"/>gulus. 
+        </p>
+        <p xml:id="HuYgTa-147630-d1e1640">
+          <lb ed="#G" n="46"/>
+          <pc type="indent"/>Sic quamuis non totaliter tollatur habilitas ad bonsi, 
+          <lb ed="#G" n="47"/>quandiu viuit pr eccator in hoc circulari periodo, puta in 
+          <lb ed="#G" n="48"/>statu viae: tamen rupto isto circulo, hoc est mortuo pecca 
+          <lb ed="#G" n="49"/>tore, &amp; posita anima extra statum viae, tunc immediati 
+          <lb ed="#G" n="50"/>huiusmodi habilitas totaliter tollitur: &amp; anima efficitur 
+          <lb ed="#G" n="51"/>penitus obstinata in malitia peccatorum intantum, quod 
+          <lb ed="#G" n="52"/>secundum legem communem numquam redire poterit 
+          <lb ed="#G" n="53"/>ad poenitentiam ordinatam  
+        </p>
+        <p xml:id="HuYgTa-147630-d1e1662">
+          <lb ed="#G" n="54"/>
+          <pc type="indent"/>Et notanter dico de lege communi: quia vsquequo
+          ex<lb ed="#G" n="55" break="no"/>tendat se misericordia Dei secundum potentiam suam 
+          <lb ed="#G" n="56"/>absolutam, ad praesens nolo pertractare. 
+        </p>
+        <p xml:id="HuYgTa-147630-d1e1673">
+          <lb ed="#G" n="57"/>
+          <pc type="indent"/>Etrorem etiam Origenis, qui posuit, prout sibi imponi 
+          <lb ed="#G" n="58"/>tur, quod etiam ipsi damnati quandoque redibunt ad
+          ve<lb ed="#G" n="59" break="no"/>ram poenitentiam, cum suis motiuis alibi propono tracta 
+          <lb ed="#G" n="60"/>re, cum locus fuerit opportunus. 
+        </p>
+        <p xml:id="HuYgTa-147630-d1e1687">
+          <lb ed="#G" n="61"/>
+          <pc type="indent"/>ARTICVLVS IIIL 
+          <lb ed="#G" n="62"/>Vtrum possibile sit esse aliquod 
+          <lb ed="#G" n="63"/>
+          <pc type="indent"/>purum malum.
+        </p>
+        <p xml:id="HuYgTa-147630-d1e1700">
+          <lb ed="#G" n="64"/>QVANTVM ad quartum articulum dico breuiter; 
+        </p>
+        <p xml:id="HuYgTa-147630-d1e1705">
+          <lb ed="#G" n="65"/>
+          <pc type="indent"/>quod non potest dari aliquid, quod sit omnino 
+          <lb ed="#G" n="66"/>purum malum. 
+        </p>
+        <p xml:id="HuYgTa-147630-d1e1714">
+          <!--428.xml-->
+          <cb ed="#G" n="b"/>
+          <lb ed="#G" n="67"/>1 Quia si in rerum natura esset dare purum malum, 
+          <lb ed="#G" n="68"/>tunc in rerum natura esset dare purum nihil: sed
+          conse<lb ed="#G" n="69" break="no"/>quens implicat contradictionem: ergo &amp; antecedeus. Con 
+          <lb ed="#G" n="70"/>tradictio consequentis patet: quia esset ex suppositione, 
+          <lb ed="#G" n="71"/>&amp; non esset: nam purum nihil non potest esse. Consequen 
+          <lb ed="#G" n="72"/>tia etiam patet: quia bonum conuertitur cum ente, &amp; per 
+          <lb ed="#G" n="73"/>consequens, quod est purum malum nullo modo est ens 
+          <lb ed="#G" n="74"/>de necessitate igitur erit purum nihil 
+        </p>
+        <p xml:id="HuYgTa-147630-d1e1738">
+          <lb ed="#G" n="75"/>
+          <pc type="indent"/>2 Praeterea, illud non potest poni in effectu, cuius posi 
+          <lb ed="#G" n="76"/>tio est suiipsius destructio; sed purum malum est huiusmo 
+          <lb ed="#G" n="77"/>di, vt patet per <ref xml:id="HuYgTa-147630-Rd1e1748">Ari. 4. ethicorum</ref>, vbi dicit, Malum seipsum 
+          <lb ed="#G" n="78"/>corrumpit, &amp; si integrum sit, importabile fit. 
+          <lb ed="#G" n="79"/>Sed contra istam conclusionem fuit error
+          Manichaeo<lb ed="#G" n="80" break="no"/>rum, quorum motiua scripsi <ref xml:id="HuYgTa-147630-Rd1e1758">libro primo dist. 2. q4.1. art. 4</ref> 
+          <lb ed="#G" n="81"/>Tetigi etiam eundem errorem <ref xml:id="HuYgTa-147630-Rd1e1763">lib. 2. dist. 1. q4.1. art. 1 </ref>
+        </p>
+        <p xml:id="HuYgTa-147630-d1e1767">
+          <lb ed="#G" n="82"/>
+          <pc type="indent"/>Praeterea potest adhuc pro isto errore argui sic
+          secun<lb ed="#G" n="83" break="no"/>dum regulam Aristotelis in libro topicorum. 
+        </p>
+        <p xml:id="HuYgTa-147630-d1e1777">
+          <lb ed="#G" n="84"/>
+          <pc type="indent"/>1 Si simpliciter ad simpliciter, magis ad magis, &amp;
+          ma<lb ed="#G" n="85" break="no"/>xime ad maxime: sed in rerum natura est dare malum sim¬i 
+          <lb ed="#G" n="86"/>liciter, quod opponitur bono simpliciter, &amp; magis
+          ma<lb ed="#G" n="87" break="no"/>lum quod opponitur magis bono: ergo erit dare maxime 
+          <lb ed="#G" n="88"/>malum, quod opponitur maxime bono, sed tale maxim; 
+          <lb ed="#G" n="89"/>bonum est purum bonum: ergo tale maxime malum erit 
+          <lb ed="#G" n="90"/>purum malum. 
+        </p>
+        <p xml:id="HuYgTa-147630-d1e1797">
+          <lb ed="#G" n="91"/>
+          <pc type="indent"/>2 Praeterea, in omni genere est dare vnum primum, a 
+          <lb ed="#G" n="92"/>quo omnia alia illius generis oriuntur, vel saltem mensi 
+          <lb ed="#G" n="93"/>rantur, vt patet. <ref xml:id="HuYgTa-147630-Rd1e1807">10 metaphysi</ref>, sed primum in quolibet 
+          <lb ed="#G" n="94"/>genere entitatem illius generis habet puram, &amp; imper 
+          <lb ed="#G" n="95"/>mixtam, ergo in genere malorum erit dare vnum malum 
+          <lb ed="#G" n="96"/>primum, &amp; per consequens purum malum. 
+        </p>
+        <p xml:id="HuYgTa-147630-d1e1818">
+          <lb ed="#G" n="97"/>
+          <pc type="indent"/>Ad primum dicendum, quod regula illa non tenet
+          ne<lb ed="#G" n="98" break="no"/>cessario in his, quae sunt diuersarum rationum, sed bonum 
+          <lb ed="#G" n="99"/>maximum est bonum increatum, &amp;bonum simpliciter, &amp;  
+          <lb ed="#G" n="100"/>magis bonum sunt bona creata, quae omnino sunt
+          alte<lb ed="#G" n="101" break="no"/>rius rationis a bono increato; ideo gratia illius regulae
+          ni<lb ed="#G" n="102" break="no"/>hil arguitur in proposito. Si autem argumentum inniti 
+          <lb ed="#G" n="103"/>tur regulae oppositorum, tunc solutum est in primo
+          lib<lb ed="#G" n="104" break="no"/>Ad secur dum dicendum, quod licet in rebus posituis 
+          <lb ed="#G" n="105"/>in quolibet genere sit dare vnum primum, quod est mer 
+          <lb ed="#G" n="106"/>sura omnium ceterorum, hoc tamen non oportet in
+          pri<lb ed="#G" n="107" break="no"/>uatiuis: quia sicut priuatiuis non conuenit esse nisi in
+          com<lb ed="#G" n="108" break="no"/>aratione ad entia positiua; sic eis non conuenit mensura 
+          <lb ed="#G" n="109"/>ri secundum se, sed solum in ordine ad ipsa entia positua 
+        </p>
+        <p xml:id="HuYgTa-147630-d1e1851">
+          <lb ed="#G" n="110"/>
+          <pc type="indent"/>Ad argumentum principale dicendum, quod non est 
+          <lb ed="#G" n="111"/>necesse, quod causa per accidens assimilet sibi effectum; 
+          <lb ed="#G" n="112"/>sed bonum est causa per accidens ipsius mali: non oportes 
+          <lb ed="#G" n="113"/>enim ipsi malo dare causam per se: igitur argumentum 
+          <lb ed="#G" n="114"/>non valet.
+        </p>
+      </div>
+    </body>
+  </text>
 </TEI>

@@ -1,957 +1,957 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Quaestio 1</title>
-            <author ref="#ThomasStrasbourg">Thomas of Strasbourg</author>
-            <respStmt>
-               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
-               <resp>Transcription Editor</resp>
-               <resp>TEI Encoder</resp>
-            </respStmt>
-         </titleStmt>
-         <editionStmt>
-            <edition n="0.0.0-dev">
-               <title>Quaestio 1</title>
-               <date when="2020-11-26">November 26, 2020</date>
-            </edition>
-         </editionStmt>
-         <publicationStmt>
-            <authority>SCTA</authority>
-            <availability status="free">
-               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
-               </p>
-            </availability>
-         </publicationStmt>
-         <sourceDesc>
-            <listWit>
-               <witness xml:id="G" n="cod-TxxxqU">Genoa 1585</witness>
-            </listWit>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
-         <editorialDecl>
-            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
-       guidelines for a diplomatic edition.</p>
-         </editorialDecl>
-      </encodingDesc>
-      <revisionDesc status="draft">
-         <listChange>
-            <change when="2020-11-26" status="draft" n="0.0.0">
-               <p>Created file for the first time.</p>
-            </change>
-         </listChange>
-      </revisionDesc>
-   </teiHeader>
-   <text xml:lang="la">
-      <front>
-         <div xml:id="starts-on">
-            <pb ed="#G" n="161-v"/>
-            <cb ed="#G" n="b"/>
-         </div>
-      </front>
-      <body>
-         <div xml:id="HuYgTa-123148"><!-- HuYgTa-l2d14q1 -->
-            <head xml:id="HuYgTa-123148-Hd1e108">Quaestio 1</head>
-            <head xml:id="HuYgTa-123148-Hd1e111" type="question-title">
-      An caelum sit causa horum inferiorum.
-    </head>
-            <p xml:id="HuYgTa-123148-d1e114">
-               <lb ed="#G" n="116"/>
-               <pc type="indent"/>Questio 1. 
-      <lb ed="#G" n="117"/>An caelum sit causa horum inferiorum, 
-    </p>
-            <p xml:id="HuYgTa-123148-d1e123">
-               <lb ed="#G" n="118"/>
-               <pc type="indent"/>VTRVM caelum per motum suum sit
-      can<lb ed="#G" n="119" break="no"/>sa effectuum istorum inferiorum. Et video 
-      <lb ed="#G" n="120"/>tur quod non, quia sequeretur, quod oex 
-      <lb ed="#G" n="121"/>mnes effectus istorum inferiorum neces 
-      <lb ed="#G" n="122"/>sario euenirent. conse quentia patet, quia 
-      <lb ed="#G" n="123"/>posita necessaria causa, &amp; vniformi,
-      seque<lb ed="#G" n="124" break="no"/>tur effectus necessarius, &amp; vniformis: ergo &amp;c. 
-    </p>
-            <p xml:id="HuYgTa-123148-d1e143">
-               <lb ed="#G" n="125"/>
-               <pc type="indent"/>Contra <ref xml:id="HuYgTa-123148-Rd1e149">Commen. 12: metaph</ref> ait, quod calores genita 
-      <lb ed="#G" n="126"/>ex caloribus stellarum generantes quamlibet specrem
-      spec<lb ed="#G" n="127" break="no"/>cicrum in animalibus habent mensuras proprias illius ex 
-      <lb ed="#G" n="128"/>loris ex quantitatibus motuum stellarum, &amp; dispositonibus 
-      <!--362.xml-->
-      <pb ed="#G" n="162-r"/>
-               <cb ed="#G" n="a"/>
-               <lb ed="#G" n="1"/>earum ad inuicem in propinquitate &amp; remotione. Hio 
-      <lb ed="#G" n="2"/>quattuor sunt videnda. Primo vtrum motus caeli sit ips 
-      <lb ed="#G" n="3"/>caelo naturalis. Secundo de eo quoed quaeritur. Tertio vtrun 
-      <lb ed="#G" n="4"/>habeant influentiam super liberum arbitrium. Et quarto 
-      <lb ed="#G" n="5"/>vtrum aliquod caelum habeat influentiam realem in haec 
-      <lb ed="#G" n="6"/>inferiora, non obstante quod ipsum immobile permaneat 
-    </p>
-            <p xml:id="HuYgTa-123148-d1e180">
-               <lb ed="#G" n="7"/>
-               <pc type="indent"/>RESOLVTIO. 
-      <lb ed="#G" n="8"/>Etfi caeli motus naturalis dici possit ob naturalem habilitatem 
-      <lb ed="#G" n="9"/>
-               <pc type="indent"/>quam habet caelum ad talem motum: non tamen ob id
-      natura<lb ed="#G" n="10" break="no"/>us dicitur, quod effectiue a forma sibi intrinseca causetur; I 
-      <lb ed="#G" n="11"/>quidem intelligentia sphaerae assistat, non aut em informet Ve 
-      <lb ed="#G" n="12"/>rum caelum ipsum realem habet actionem circa haec inferiora, 
-      <lb ed="#G" n="13"/>libero avbitrio excepto in quod directe agere vmquam potest. 
-    </p>
-            <p xml:id="HuYgTa-123148-d1e202">
-               <lb ed="#G" n="14"/>
-               <pc type="indent"/>ARTICVLVSI 
-      <lb ed="#G" n="15"/>trum motus celi sit ipsi colo natiralis
-    </p>
-            <p xml:id="HuYgTa-123148-d1e211">
-               <lb ed="#G" n="16"/>SVANTVM ad primum praemitto, primo vnam
-      di<lb ed="#G" n="17" break="no"/>stinctionem, ex qua secundo eliciam duas conclu 
-      <lb ed="#G" n="18"/>siones. Distin ctio talis est, quod motum caeli esse
-      natura<lb ed="#G" n="19" break="no"/>lem ipsi celo dupliciter potest intelligi. Vno modo, quo 
-      <lb ed="#G" n="20"/>pro tanto dicatur talis motus ipsi caelo naturalis, quia fit 
-      <lb ed="#G" n="21"/>aforma intrinseca, &amp; naturali ipsius caeli effectiue. Alio 
-      <lb ed="#G" n="22"/>modo, quod ipsum caelum naturalem habilitate habeat 
-      <lb ed="#G" n="23"/>ad talem motum. Quo ad primum membrum istius
-      di<lb ed="#G" n="24" break="no"/>stinctionis pono conclusionem negatiuam, quo ad secun 
-      <lb ed="#G" n="25"/>dum pono affirmatiuam 
-    </p>
-            <p xml:id="HuYgTa-123148-d1e235">
-               <lb ed="#G" n="26"/>
-               <pc type="indent"/>Primam conclusionem probo sic. Si motus caeli esset 
-      <lb ed="#G" n="27"/>effectiue a forma sibi intrinseca, &amp; naturali: vel hoc essei 
-      <lb ed="#G" n="28"/>pro tanto, quia principium talis motus esset forma corpe 
-      <lb ed="#G" n="29"/>reitatis ipsius caeli, vel quod ipsa intelligentia, quam dici 
-      <lb ed="#G" n="30"/>mus motorem caeli, esset coniuncta ipsi caelo secundum 
-      <lb ed="#G" n="31"/>esse, sibi dando esse animatum, &amp; per consequens
-      moue<lb ed="#G" n="32" break="no"/>ri, sed nec sic, nec sic:ergo &amp;c Maior patet: minorem
-      pro<lb ed="#G" n="33" break="no"/>bo, quia si primo modo: tunc vel celum numquam mous 
-      <lb ed="#G" n="34"/>retur, vel moueretur in instanti. Nam omne tempus re 
-      <lb ed="#G" n="35"/>quisitum in motu, vel requiritur propter resistentiam
-      mo<lb ed="#G" n="36" break="no"/>bilis ad motorem, sicut in motu animalium: vel propter 
-      <lb ed="#G" n="37"/>resistentiam medij sicut in motu grauium &amp; leuium. Sec 
-      <lb ed="#G" n="38"/>in motu caelestium nulla est resistentia medij, vt de se pa 
-      <lb ed="#G" n="39"/>tet, nec est resistentia mobilis ad motorem, quia sola ma 
-      <lb ed="#G" n="40"/>teria non facit in talibus aliquam resistentiam: sicut appa 
-      <lb ed="#G" n="41"/>ret de graui, quod in vacuo vbi nullam haberet
-      reusten<lb ed="#G" n="42" break="no"/>tiam medij, moueretur in instanti; sed isto posito non
-      es<lb ed="#G" n="43" break="no"/>set maior resistentia mobilis ad motorem in caelo, quam  
-      <lb ed="#G" n="44"/>sit in ipso graui. Nec potest dari secundum, puta, quod in 
-      <lb ed="#G" n="45"/>telligetia, quam appellamus motorem caeli, sit forma, siue 
-      <lb ed="#G" n="46"/>anima caeli: nam cum intellectus &amp; voluntas ipsius intel 
-      <lb ed="#G" n="47"/>ligentiae fundentur immediate in essentia eius: igitur si 
-      <lb ed="#G" n="48"/>intelligentia formaliter per essentiam suam esset coniun 
-      <lb ed="#G" n="49"/>cta ipsi caelo, tunc non contingeret caelum in mouendo 
-      <lb ed="#G" n="50"/>immediate per intellectum &amp; voluntatem, sed mediante 
-      <lb ed="#G" n="51"/>essentia: propter quod oporteret intelligentiam moueri 
-      <lb ed="#G" n="52"/>caelum mediante aliqua organica virtute, sicut de facto vi 
-      <lb ed="#G" n="53"/>demus in nobis de anima rationali; &amp; per consequens
-      mo<lb ed="#G" n="54" break="no"/>tus caeli non posset perpetuari, quia virtus immediate mo 
-      <lb ed="#G" n="55"/>tiua ipsius caeli necessario lassarctur
-    </p>
-            <p xml:id="HuYgTa-123148-d1e305">
-               <lb ed="#G" n="56"/>Et confirmatur, quia forma intellectualis immediate con 
-      <lb ed="#G" n="57"/>iuncta corpori per essentiam tenet insimum gradum in 
-      <lb ed="#G" n="58"/>genere intelligentiarum: igitur celum non differt specic ab 
-      <lb ed="#G" n="59"/>homine, quia non possent dari duae species, cuius vtriusquen 
-      <lb ed="#G" n="60"/>forma teneret gradum infimum in genere intelligibilium. 
-    </p>
-            <p xml:id="HuYgTa-123148-d1e318">
-               <lb ed="#G" n="61"/>
-               <pc type="indent"/>In ista materia quidam doctor multum dubie loquitur 
-      <lb ed="#G" n="62"/>attamen quantum ex dictis suis apparet, magis videtur 
-      <lb ed="#G" n="63"/>affirmare, quod intelligentia sit anima corporis caelesti 
-      <lb ed="#G" n="64"/>viuificans ipsum: &amp; quod non solum vniatur sibi per mo 
-      <lb ed="#G" n="65"/>tum, sicut figulus iungitur rotae. Et haec, vt dicit, non vi 
-      <!--362.xml-->
-      <cb ed="#G" n="b"/>
-               <lb ed="#G" n="66"/>dentur a side dissonare, sed magis videntur sequi ex his,  
-      <lb ed="#G" n="67"/>quae sides tenet 
-    </p>
-            <p xml:id="HuYgTa-123148-d1e343">
-               <lb ed="#G" n="68"/>
-               <pc type="indent"/>Quia caelum est causa aliquorum animatorum, &amp; ipsa 
-      <lb ed="#G" n="69"/>in esse conseruat, quod facere non posset sua corporeitas.
-    </p>
-            <p xml:id="HuYgTa-123148-d1e352">
-               <lb ed="#G" n="70"/>2 Praeterea, probat ipse idem sic, quia in caelo apparent 
-      <lb ed="#G" n="71"/>virtutes, quae non possunt reduci in corporeitatem
-      celi<lb ed="#G" n="72" break="no"/>Oriens enim habet specialem virtutem, cum ipsum sit dex 
-      <lb ed="#G" n="73"/>trum, &amp; occidens sinistrum, 
-    </p>
-            <p xml:id="HuYgTa-123148-d1e363">
-               <lb ed="#G" n="74"/>
-               <pc type="indent"/>Item, aliqua virtus est in polis : polus enim articus 
-      <lb ed="#G" n="75"/>trahit actum, vt apparet in experimento nautarum. Et alia 
-      <lb ed="#G" n="76"/>est virtus eiusdem stelle, cum fuerit in alia, &amp; alia
-      domo<lb ed="#G" n="77" break="no"/>gitur necesse est, vt dicit iste doctor, quod tales virtutes 
-      <lb ed="#G" n="78"/>deriuentur a celo in virtute animae sibi vnitae. 
-    </p>
-            <p xml:id="HuYgTa-123148-d1e379">
-               <lb ed="#G" n="79"/>
-               <pc type="indent"/>praeterea, si non, tunc corpus caeleste non esset
-      cor<lb ed="#G" n="80" break="no"/>pus physicum, sed mathematicum, quia non esset in eo 
-      <lb ed="#G" n="81"/>principium naturale 
-    </p>
-            <p xml:id="HuYgTa-123148-d1e390">
-               <lb ed="#G" n="82"/>
-               <pc type="indent"/>Praeterea, aliter non apparet, quomodo spiritus
-      cae<lb ed="#G" n="83" break="no"/>lestes possi nt mouere corpus caeleste. 
-    </p>
-            <p xml:id="HuYgTa-123148-d1e399">
-               <lb ed="#G" n="84"/>
-               <pc type="indent"/>Et istud dicit esse de intentione <name xml:id="HuYgTa-123148-Nd1e405">Comentatoris</name> &amp; <name xml:id="HuYgTa-123148-Nd1e408">Ar 
-        <lb ed="#G" n="85"/>stotelis</name>. Dicit enim <ref xml:id="HuYgTa-123148-Rd1e413">Commentator in de substantia orbis</ref>; 
-      <lb ed="#G" n="86"/>quod corpus caeleste est materia animarum caelestium. Et 
-      <lb ed="#G" n="87"/>in eodem libro ait, quod corpus caeleste est simplex, &amp; ni 
-      <lb ed="#G" n="88"/>transmutabile ab aliquo extrinseco: ideo non indiget in 
-      <lb ed="#G" n="89"/>suo esse anima sensibili, nec imaginatiua, sed tantum in 
-      <lb ed="#G" n="90"/>diget anima mouente in loco. Et <ref xml:id="HuYgTa-123148-Rd1e427">12. metaph</ref> ait, quod 
-      <lb ed="#G" n="91"/>bene apparet corpora caelestia esse animata, &amp; quod non 
-      <lb ed="#G" n="92"/>habent de virtutibus animae nisi intellectum, &amp; virtutem 
-      <lb ed="#G" n="93"/>desideratiuam, quae mouet in loco 
-    </p>
-            <p xml:id="HuYgTa-123148-d1e439">
-               <lb ed="#G" n="94"/>
-               <pc type="indent"/>Et si dicitur isti doctori, quod Sol &amp; Cuna, &amp; cetera comn 
-      <lb ed="#G" n="95"/>ora caelestia rationaliter possent adorari: si isto modo 
-      <lb ed="#G" n="96"/>quodlibet eorum viueret per formam ipsum intrinsece 
-      <lb ed="#G" n="97"/>informantem, quae esset sanctus &amp; beatus angelus.  
-    </p>
-            <p xml:id="HuYgTa-123148-d1e452">
-               <lb ed="#G" n="98"/>
-               <pc type="indent"/>Ipse praecise respondet has verbis, quod antiqui
-      adoram<lb ed="#G" n="99" break="no"/>tes Solem &amp; stellas idolatrae erant, quia eis rationem
-      pri<lb ed="#G" n="100" break="no"/>mi principij tribuebant. Et iste <ref xml:id="HuYgTa-123148-Rd1e462">idem doctor quaestione 
-        <lb ed="#G" n="101"/>immediate sequenti, scilicet quaestione vltima 14.
-      distin<lb ed="#G" n="102" break="no"/>ctionis 2. libri sententiarum circa finem illius quaestionis</ref> 
-               <lb ed="#G" n="103"/>ait, quod concedi potest, quod corpora caelestia sunt
-      ani<lb ed="#G" n="104" break="no"/>mata aliqualiter &amp; sunt animalia, sed aequiuoce cum
-      ani<lb ed="#G" n="105" break="no"/>malibus, quae sunt hic inferius 
-    </p>
-            <p xml:id="HuYgTa-123148-d1e477">
-               <lb ed="#G" n="106"/>
-               <pc type="indent"/>Sed ista dicta non videntur esse vera 
-      <lb ed="#G" n="107"/>1 Quia quicumque angelus celum sic informaret, illu 
-      <lb ed="#G" n="108"/>numquam posset esse in vno loco communi cum ceteris 
-      <lb ed="#G" n="109"/>beatis, puta in caelo empvreo. Nam si vmquam tale caelum 
-      <lb ed="#G" n="110"/>intraret, tunc vel corpus informatum per ipsum secum 
-      <lb ed="#G" n="111"/>traheret: vel si tale corpus dimitteret tunc
-      corrumpere<lb ed="#G" n="112" break="no"/>tur talc compositum ex angelo, &amp; corpore caelesti, quorum 
-      <lb ed="#G" n="113"/>vtrumque absurdum esse videtur.
-    </p>
-            <p xml:id="HuYgTa-123148-d1e499">
-               <lb ed="#G" n="114"/>2 Praeterea, Damascenus libro secundo ait. Nullus 
-      <lb ed="#G" n="115"/>animatos caelos, vel luminaria existimer: inanimati sunt 
-      <lb ed="#G" n="116"/>enim 
-    </p>
-            <p xml:id="HuYgTa-123148-d1e508">
-               <lb ed="#G" n="117"/>
-               <pc type="indent"/>3 Praeterea, <ref xml:id="HuYgTa-123148-Rd1e514">Commentator 5. metaphysicae</ref> dicit, quod 
-      <lb ed="#G" n="118"/>corporibus caelestibus non est res animata, quia illic non  
-      <lb ed="#G" n="119"/>est aliquid, quod animetur per animam, vel quod viuas 
-      <lb ed="#G" n="120"/>per vitam. Et idem <ref xml:id="HuYgTa-123148-Rd1e524">Commentator 2. cael. &amp; mun</ref> ait di 
-      <lb ed="#G" n="121"/>ipsis caelorum motoribus, Hae formae sunt abstractae secun 
-      <lb ed="#G" n="122"/>dum esse  
-    </p>
-            <p xml:id="HuYgTa-123148-d1e532">
-               <lb ed="#G" n="123"/>
-               <pc type="indent"/>Ad primum igitur motiuum istius doctoris dicendum, 
-      <lb ed="#G" n="124"/>quod caelum, quamuis non sit formaliter viuum &amp; anima 
-      <lb ed="#G" n="125"/>tum, proprie loquendo de viuo &amp; animato: quia tamen 
-      <lb ed="#G" n="126"/>nfluentiam suam dirigit huc inferius in virtute
-      intelli<lb ed="#G" n="127" break="no"/>sentiae ipsum mouentis, quae vere viuit: ideo potest esse  
-      <lb ed="#G" n="128"/>causa viuorum &amp; animatorum. Sicut enim semen decisum 
-      <lb ed="#G" n="129"/>ab animali viuo, quia agit in virtute animalis viui, causat 
-      <lb ed="#G" n="130"/>animal viuum: sic &amp;c. Est enim caelum quasi quoddam 
-      <lb ed="#G" n="131"/>vniuersale seminarium ipsius Dei respectu omnium
-      infe<lb ed="#G" n="132" break="no"/>riorum, quod quidem seminarium ad suum opus exequo 
-      <lb ed="#G" n="133"/>dum applicatur quadam ordinatione diuina, medianti 
-      <lb ed="#G" n="134"/>motu causato ab i psis angelis 
-    </p>
-            <p xml:id="HuYgTa-123148-d1e564">
-               <lb ed="#G" n="135"/>
-               <pc type="indent"/>Ad secundum dicendum, quod propter huiusmodi
-      v<lb ed="#G" n="136" break="no"/>rietatem virtutum, quam videmus in partibus caeli, non 
-      <lb ed="#G" n="137"/>oportet nos dicere caelum proprie animatum, nam saepius 
-      <lb ed="#G" n="138"/>contingit, quod vnus lapis continuus est alterius virtutis in 
-      <!--363.xml-->
-      <pb ed="#G" n="162-v"/>
-               <cb ed="#G" n="a"/>
-               <lb ed="#G" n="1"/>vna parte sui, quam in alia parte. Ego enimlipse vidi, quod 
-      <lb ed="#G" n="2"/>calamita traxit ferrum in vna sui parte, &amp; in multis alijs 
-      <lb ed="#G" n="3"/>suis partibus penitus nihil traxit 
-    </p>
-            <p xml:id="HuYgTa-123148-d1e590">
-               <lb ed="#G" n="4"/>
-               <pc type="indent"/>Et per hoc etiam patet ad tertium argumentum
-    </p>
-            <p xml:id="HuYgTa-123148-d1e597">
-               <lb ed="#G" n="5"/>Ad quartum dicendum, quod corpus celeste non dehet d 
-      <lb ed="#G" n="6"/>ci mathematicum, quamuis non sit proprie animatum: quia 
-      <lb ed="#G" n="7"/>multis qualitatibus videmus corpus coeleste esse coniun 
-      <lb ed="#G" n="8"/>ctum, mathematicum autem corpus abstrahit ab oi quali 
-      <lb ed="#G" n="9"/>tate. Quomodo autem in coelo sit principium naturale re 
-      <lb ed="#G" n="10"/>spectu motus caelestis, patebit in sequenti conclusione 
-    </p>
-            <p xml:id="HuYgTa-123148-d1e613">
-               <lb ed="#G" n="11"/>
-               <pc type="indent"/>Ad quintum dicendum, quod quamuis intelligentia 
-      <lb ed="#G" n="12"/>non sint immersae corporibus coelorum formaliter: tamet 
-      <lb ed="#G" n="13"/>per intellectum &amp; voluntatem possunt mouere orbes, vt 
-      <lb ed="#G" n="14"/>superius declaraui dist. 8. istius secundi sententiarum, 
-    </p>
-            <p xml:id="HuYgTa-123148-d1e626">
-               <lb ed="#G" n="15"/>
-               <pc type="indent"/>Ad dicta Commentatoris &amp; ceterorum philosophorum 
-      <lb ed="#G" n="16"/>dicendum, quod ipsi appellabant quandoque
-      intelligen<lb ed="#G" n="17" break="no"/>tiam animam coeli, propter maximam proportionem, quam 
-      <lb ed="#G" n="18"/>considerabant intelligentiam motricem habere ad suum 
-      <lb ed="#G" n="19"/>mobile. Dicebant etiam coelum viuere per talem intelli 
-      <lb ed="#G" n="20"/>gentiam: quia motum primum, qui est vita in entibus, us 
-      <lb ed="#G" n="21"/>dicitur. <ref xml:id="HuYgTa-123148-Rd1e645">8. physicorum</ref>, recipiebat coelum ab ipsa intelligen 
-      <lb ed="#G" n="22"/>tia. Etiam omnis motus aliquo modo dicitur opus vita 
-      <lb ed="#G" n="23"/>intantum, quod etiam aquae semper in motu existentes di 
-      <lb ed="#G" n="24"/>cuntur aquae viuae: stantes vero dicuntur mortue. Dicta est 
-      <lb ed="#G" n="25"/>philolophorum hic non sunt ad propositum, cum modo 
-      <lb ed="#G" n="26"/>Christianae fidei volumus istam tractare materiam:
-      qui<lb ed="#G" n="27" break="no"/>ipsi philosophi posuerunt motum aeternum, nec aliquor 
-      <lb ed="#G" n="28"/>inconueniens reputassent ipsas motrices orbium num 
-      <lb ed="#G" n="29"/>quam intrare coelum empyreum pro sua beatitudine, sal 
-      <lb ed="#G" n="30"/>tem accidentali cumulanda quia ipsi tale coelum non po 
-      <lb ed="#G" n="31"/>suerunt. Fideles igitur, qui secundum fidem Christianam 
-      <lb ed="#G" n="32"/>in coelo empvreo asserunt congregari post diem iudici 
-      <lb ed="#G" n="33"/>vniuersitatem omnium beatorum, tam hominum, quam 
-      <lb ed="#G" n="34"/>angelorum; aliter debent loqui in hac materia, quam ph 
-      <lb ed="#G" n="35"/>dophi, etiam dato, quod predicta opinio fuisset philosophorum 
-    </p>
-            <p xml:id="HuYgTa-123148-d1e679">
-               <lb ed="#G" n="36"/>
-               <pc type="indent"/>Nec valet ista responsio, qua soluit ad instantiam: qui 
-      <lb ed="#G" n="37"/>quamuis secundum illam solutionem non liceret
-      adora<lb ed="#G" n="38" break="no"/>re coelum adoratione latriae: posset tamen adorati
-      adora<lb ed="#G" n="39" break="no"/>tione duliae, quae adoratio exhibetur rebus sanctis, quae 
-      <lb ed="#G" n="40"/>lunt citra primum principium. 
-    </p>
-            <p xml:id="HuYgTa-123148-d1e696">
-               <lb ed="#G" n="41"/>
-               <pc type="indent"/>Secundo dico, quod motus coeli est sibi connaturalis. 
-      <lb ed="#G" n="42"/>inquantum coelum naturalem habet inclinationem ad ta 
-      <lb ed="#G" n="43"/>lem motum, scilicet circularem. 
-    </p>
-            <p xml:id="HuYgTa-123148-d1e707">
-               <lb ed="#G" n="44"/>
-               <pc type="indent"/>Nam sicut motus deorsum est naturalis ipsi graui; &amp;  
-      <lb ed="#G" n="45"/>motus sursum est naturalis ipsi leui; eo quod grauia naturalem 
-      <lb ed="#G" n="46"/>habent inclinationem ad cetrum, &amp; leuia a centro, sic com 
-      <lb ed="#G" n="47"/>lum eo, quod nec graue sit, nec leue, naturalem videtur habe 
-      <lb ed="#G" n="48"/>re inclinationem ad moueri circa centrum, Vnde, vt
-      ma<lb ed="#G" n="49" break="no"/>iorem habilitatem haberet ad talem motum, scilicet
-      cir<lb ed="#G" n="50" break="no"/>cularem: ideo figuram sphaericam tribuit illi Deus. 
-      <lb ed="#G" n="51"/>2 Praeterea, quicquid est a causa superiori secundun 
-      <lb ed="#G" n="52"/>Commentatorem, hoc est rebus naturale : per hoc enim 
-      <lb ed="#G" n="53"/>saluat Commentator, quod sphaera ignis non mouetur viol 
-      <lb ed="#G" n="54"/>ter circulariter, quia nullum violentum perpetuum, sed 
-      <lb ed="#G" n="55"/>naturaliter, vt ait, mouetur circulariter, eo quod hoc sib 
-      <lb ed="#G" n="56"/>compet at per causam superiorem. Sed motus coeli actiui 
-      <lb ed="#G" n="57"/>est a causa superiori; scilicet ab ipsa intelligentia, &amp; ab
-      ip<lb ed="#G" n="58" break="no"/>so Deo. Nam intelligentia mouetur a Deo ad hoc, vt mo 
-      <lb ed="#G" n="59"/>ueat orbem. Vnde de Deo dicitur <ref xml:id="HuYgTa-123148-Rd1e746">12, metaphy.</ref> Mouet 
-      <lb ed="#G" n="60"/>autem, vt desideratum, &amp; amatum, scilicet ipsas intelligs 
-      <lb ed="#G" n="61"/>tias, quae motae a Deo vt desiderantes &amp; amantes, vlterius 
-      <lb ed="#G" n="62"/>mouent ipsos orbes: igitur etiam vt sic, motus coeli potesi 
-      <lb ed="#G" n="63"/>dici naturalis ipsi coelo 
-    </p>
-            <p xml:id="HuYgTa-123148-d1e758">
-               <lb ed="#G" n="64"/>
-               <pc type="indent"/>Sed contrarium istius conclusionis videtur tenere qui 
-      <lb ed="#G" n="65"/>dam doctor: Et probat tripliciter, quod motus coeli naturalis 
-      <lb ed="#G" n="66"/>dici non possit
-    </p>
-            <p xml:id="HuYgTa-123148-d1e769">
-               <lb ed="#G" n="67"/>1 Primo sic. Natura corporis simplicis inclinat ad vnum 
-      <lb ed="#G" n="68"/>motum simplicem: sed in coelo non est vnus motus tan 
-      <lb ed="#G" n="69"/>tum, sed plures: quia ibi sunt motus opposit: cum motu 
-      <lb ed="#G" n="70"/>primi mobilis sit ab oriente in occidens: motus vero
-      pla<lb ed="#G" n="71" break="no"/>netarum econuerso, ergo &amp;c 
-    </p>
-            <p xml:id="HuYgTa-123148-d1e782">
-               <lb ed="#G" n="72"/>
-               <pc type="indent"/>Praeterea, motus est naturalis ex conaturalitate m 
-      <lb ed="#G" n="73"/>bilis ad terminum: cum igitur locus sit terminus motus 
-      <!--363.xml-->
-      <cb ed="#G" n="b"/>
-               <lb ed="#G" n="74"/>localis: igitur quamuis connaturalites mobilis pessit ca 
-      <lb ed="#G" n="75"/>are motum naturalem ad locum, non tamen potest
-      cau<lb ed="#G" n="76" break="no"/>sare motum in loco.
-    </p>
-            <p xml:id="HuYgTa-123148-d1e802">
-               <lb ed="#G" n="77"/>3 Praeterea, si motus celi esset naturalis, quies in eoden 
-      <lb ed="#G" n="78"/>loco esset violenta: sed cousequens est falsum: quia in
-      fi<lb ed="#G" n="79" break="no"/>ne mundi, cum cessabit coelum a motu, esset in deteriori 
-      <lb ed="#G" n="80"/>dispositone, quam nunc, quod est ponendum 
-    </p>
-            <p xml:id="HuYgTa-123148-d1e814">
-               <lb ed="#G" n="81"/>
-               <pc type="indent"/>Sed ista non concludunt: igitur 
-      <lb ed="#G" n="82"/>Ad primum dicendum ad minorem, quod sicut in
-      coe<lb ed="#G" n="83" break="no"/>lo sunt plures motus, sic sunt plura mobilia: &amp; sicut in ips 
-      <lb ed="#G" n="84"/>uis mobilibus est conuenientia, &amp; differentia, sic etiam in 
-      <lb ed="#G" n="85"/>motibus. Conueniunt. nm omnia mobilia ceelestia in hoc 
-      <lb ed="#G" n="86"/>quod habent qualitatem neutram, puta quae nec est
-      gra<lb ed="#G" n="87" break="no"/>uitas, nec leuitas. Et ideo omnis motus coelestium
-      mobi<lb ed="#G" n="88" break="no"/>lium in hoc conueniunt, quod sunt circulares. Eadem
-      ta<lb ed="#G" n="89" break="no"/>men mobilia differunt inter se secundum aliquas propria 
-      <lb ed="#G" n="90"/>eorum qualitates, &amp; dispositi ones, secundum hoc, etiam  
-      <lb ed="#G" n="91"/>non obstante iam dicta coelestium motuum
-      conuenien<lb ed="#G" n="92" break="no"/>tia, ipsi tamen possunt differre inter se 
-    </p>
-            <p xml:id="HuYgTa-123148-d1e845">
-               <lb ed="#G" n="93"/>
-               <pc type="indent"/>Ad secundum dicendum, quod quamuis
-      connaturali<lb ed="#G" n="94" break="no"/>tas mobilis ad locum non causet motum in loco, loquen 
-      <lb ed="#G" n="95"/>do de motu recto, bene tamen causat motum circularem 
-      <lb ed="#G" n="96"/>in loco, 
-    </p>
-            <p xml:id="HuYgTa-123148-d1e858">
-               <lb ed="#G" n="97"/>
-               <pc type="indent"/>Ad tertium nego consequentiam, loquendo de motu 
-      <lb ed="#G" n="98"/>circulari, quia talis motus non est ad locum, sed est in
-      lo<lb ed="#G" n="99" break="no"/>co; &amp; ideo in eodem loco, in quo naturaliter mouetur, 
-      <lb ed="#G" n="100"/>cessante motore ab operatione, naturaliter qescit. Quia 
-      <lb ed="#G" n="101"/>sicut coelum nunc propter qualitatem neutram, nec mo 
-      <lb ed="#G" n="102"/>uetur ad centrum, nec a centro, sed circa centrum, sit pri 
-      <lb ed="#G" n="103"/>pter eandem qualitatem, cessante motore ab actu
-      moue<lb ed="#G" n="104" break="no"/>di, quies eius naturalis nec erit in centro, nec super
-      cen<lb ed="#G" n="105" break="no"/>trum, sed circa centrum 
-    </p>
-            <p xml:id="HuYgTa-123148-d1e882">
-               <lb ed="#G" n="106"/>
-               <pc type="indent"/>ARTICVLVS I1 
-      <lb ed="#G" n="107"/>Vtrum coelum sit causa horum inferiorum
-    </p>
-            <p xml:id="HuYgTa-123148-d1e891">
-               <lb ed="#G" n="108"/>SVANTVM ad secundum articulum pono tres bre 
-      <lb ed="#G" n="109"/> ues conclusiones. Prima est, quod coelum habet 
-      <lb ed="#G" n="110"/>actionem realem in ista inferiora. Ista conclusio non indi 
-      <lb ed="#G" n="111"/>get multa probatione
-    </p>
-            <p xml:id="HuYgTa-123148-d1e902">
-               <lb ed="#G" n="112"/>1 Quia quotidie multas reales alterationes percipi 
-      <lb ed="#G" n="113"/>mus, quas in nullum aliud agens reducere possumus, quam 
-      <lb ed="#G" n="114"/>in ipsum coelum; ergo &amp;c
-    </p>
-            <p xml:id="HuYgTa-123148-d1e912">
-               <lb ed="#G" n="115"/>2 Praeterea, huiusmodi effectus reales competere
-      ip<lb ed="#G" n="116" break="no"/>sis abstris est demonstratiue probatum in ipsa Astrologia 
-      <lb ed="#G" n="117"/>ergo &amp;c
-    </p>
-            <p xml:id="HuYgTa-123148-d1e921">
-               <lb ed="#G" n="118"/>3 Praeterea, sicut omnis motus reducitur in mouen 
-      <lb ed="#G" n="119"/>immobile: sic omnis corporalis alteratio reducitur in
-      al<lb ed="#G" n="120" break="no"/>terans inalterabile; sed ipsum coelum secundum
-      philo<lb ed="#G" n="121" break="no"/>sophum, &amp; Commentatorem est primum alterans inalte 
-      <lb ed="#G" n="122"/>rabile; ergo &amp;c
-    </p>
-            <p xml:id="HuYgTa-123148-d1e934">
-               <lb ed="#G" n="123"/>4 Praeterea, quod habet causalitatem super
-      nobilissi<lb ed="#G" n="124" break="no"/>mam speciem rerum inferiorum, ab illo non potest dene 
-      <lb ed="#G" n="125"/>gari causalitas respectu inferiorum; coelum est huiusmod 
-      <lb ed="#G" n="126"/>quia habet causalitatem super hominem, qui est nobilissi 
-      <lb ed="#G" n="127"/>ma species inferiorum: dicitur enim 2. physicorum, quod 
-      <lb ed="#G" n="128"/>homo generat hominem &amp; Soll ergo &amp;c 
-    </p>
-            <p xml:id="HuYgTa-123148-d1e950">
-               <lb ed="#G" n="129"/>
-               <pc type="indent"/>Secunda conclusio est, quod motus coeli non est ipsi coelo 
-      <lb ed="#G" n="130"/>per se ratio agendi in ista inferiora 
-    </p>
-            <p xml:id="HuYgTa-123148-d1e959">
-               <lb ed="#G" n="131"/>
-               <pc type="indent"/>Quia illud quod est per se ratio agendi, semper
-      po<lb ed="#G" n="132" break="no"/>nit in ipso agente aliquam formam absolutam habentem 
-      <lb ed="#G" n="133"/>esse permanens in ipso agente, sed motus coeli nihil tal 
-      <lb ed="#G" n="134"/>ponit in ipso agente, scilicet coelo; nam si poneret huius 
-      <lb ed="#G" n="135"/>modi formam in coelo; vel talis forma esset substantialis) 
-      <lb ed="#G" n="136"/>&amp; tunc motus celi esset generatio, vel accidentalis; &amp; tum 
-      <lb ed="#G" n="137"/>esset alteratio, si talis forma esset qualitas; vel
-      augmen<lb ed="#G" n="138" break="no"/>tatio, si esset quantitas, sed coelum nec alteratur, nec
-      au<lb ed="#G" n="139" break="no"/>getur, ergo &amp; 
-    </p>
-            <p xml:id="HuYgTa-123148-d1e983">
-               <lb ed="#G" n="140"/>
-               <pc type="indent"/>Praeterea, illud, quod est formaliter suceessiuum non 
-      <!--364.xml-->
-      <pb ed="#G" n="163-r"/>
-               <cb ed="#G" n="a"/>
-               <lb ed="#G" n="1"/>permanens, sed motus caeli est formaliter suceessiuus, ea, 
-      <lb ed="#G" n="2"/>quae, producuntur per caelum, sunt formaliter
-      permanen<lb ed="#G" n="3" break="no"/>tia, ficut patet in istis rebus inferioribus a caelo productis 
-      <lb ed="#G" n="4"/>Minor est nota. Probo maiorem, quia, cum causa non sit 
-      <lb ed="#G" n="5"/>minoris permanentiae, quam effectus, impossibile esse
-      vi<lb ed="#G" n="6" break="no"/>detur, quod illud, quod est per se ratio producendi alte 
-      <lb ed="#G" n="7"/>rum, sit formaliter suceessiuum, dum ipsum productun 
-      <lb ed="#G" n="8"/>est vere res permanens 
-    </p>
-            <p xml:id="HuYgTa-123148-d1e1015">
-               <lb ed="#G" n="9"/>
-               <pc type="indent"/>Tertio dico, quod motus caeli non est causa sine qua 
-      <lb ed="#G" n="10"/>non, seu necessario requisitus quantum ad omnem
-      ope<lb ed="#G" n="11" break="no"/>rationem, quam celum habet in ista inferiora. 
-    </p>
-            <p xml:id="HuYgTa-123148-d1e1026">
-               <lb ed="#G" n="12"/>
-               <pc type="indent"/>Quia dato, quod Sol stet in medio caeli, nec aliquod 
-      <lb ed="#G" n="13"/>corpus caeleste moueatur, adhuc Sol inferiora illumina 
-      <lb ed="#G" n="14"/>ret, &amp; refsectendo radios suos super terram vere, &amp; reali 
-      <lb ed="#G" n="15"/>ter calefaceret, quia ex quo calor generatur ex reflexio.  
-      <lb ed="#G" n="16"/>ne radiorum solarium super terram, vt patet in libro cel 
-      <lb ed="#G" n="17"/>&amp; mundi: &amp; radii non minus, sed magis reflecterentur, si 
-      <lb ed="#G" n="18"/>Sol fixe staret, quam nunc: cum mobiliter transit, non pos 
-      <lb ed="#G" n="19"/>sum videre, quin cessante motu caeli, Sol realiter possit ca 
-      <lb ed="#G" n="20"/>lorem generare.
-    </p>
-            <p xml:id="HuYgTa-123148-d1e1050">
-               <lb ed="#G" n="21"/>2 Praeterea, caelum empvreum realem habet
-      insluen<lb ed="#G" n="22" break="no"/>tiam in haec inferiora, vt patebit in artic. 4. &amp; tamen
-      nu<lb ed="#G" n="23" break="no"/>quam mouetur: igitur pari ratione &amp; ceteri celi non mo 
-      <lb ed="#G" n="24"/>ti, possunt habere realem actionem. 
-    </p>
-            <p xml:id="HuYgTa-123148-d1e1061">
-               <lb ed="#G" n="25"/>
-               <pc type="indent"/>Praeterea, corpus corruptibile manens immotum, 
-      <lb ed="#G" n="26"/>potest habere actionem realem : ergo &amp; corpus incorrum 
-      <lb ed="#G" n="27"/>ptibile, cuiusmodi est caelum consequentia patet: ante 
-      <lb ed="#G" n="28"/>cedens ad sensum apparet de ipso Magnete, qui manen 
-      <lb ed="#G" n="29"/>penitus immotus, trahit ad seipsum ferrum: &amp; ignis
-      ma<lb ed="#G" n="30" break="no"/>nens in eodem loco calefacit omne sibi approximatum, 
-      <lb ed="#G" n="31"/>Nec valet, si dicitur, quod hoc facit praesupponendo
-      mo<lb ed="#G" n="32" break="no"/>tum caeli, quia articulus Parisiensis dicit, Dicere, quod igni 
-      <lb ed="#G" n="33"/>non possit comburere stupam sibi approximatam, stante 
-      <lb ed="#G" n="34"/>motu caeli, error. 
-    </p>
-            <p xml:id="HuYgTa-123148-d1e1087">
-               <lb ed="#G" n="35"/>
-               <pc type="indent"/>Sed contra istam conclusionem sunt quidam
-      reueren<lb ed="#G" n="36" break="no"/>di doctores, qui ponunt, quod, si celum non mouereturi 
-      <lb ed="#G" n="37"/>nullo modo posset agere actione reali in ista
-      inferio<lb ed="#G" n="38" break="no"/>ra, quamuis sibi posset competere actio spiritualis,
-      pu<lb ed="#G" n="39" break="no"/>ta illuminare. 
-    </p>
-            <p xml:id="HuYgTa-123148-d1e1103">
-               <lb ed="#G" n="40"/>
-               <pc type="indent"/>Dicit etiam doctor communis, quod cessante
-      actio<lb ed="#G" n="41" break="no"/>ne ipsius intelligentiae ita, quod non amplius moucat ca 
-      <lb ed="#G" n="42"/>lum, oportet, quod cesset actio corporis caelestis respectu 
-      <lb ed="#G" n="43"/>inferiorum: &amp; hoc loquendo de illa operatione, quae es 
-      <lb ed="#G" n="44"/>realis transmutatio, &amp; cessante tali operatione corpori 
-      <lb ed="#G" n="45"/>caelestis, oportet, quod cesset operatio elementaris, quia c 
-      <lb ed="#G" n="46"/>lum agit in virtute intelligentiae ipsum mouentis:
-      infe<lb ed="#G" n="47" break="no"/>riora vero agunt in virtute caeli: ergo &amp;c. 
-      <lb ed="#G" n="48"/>2 Praeterea, istud aliqui istorum doctorum confirmant 
-      <lb ed="#G" n="49"/>sic. Conditio primi principij non competit ipsi caelo, sec 
-      <lb ed="#G" n="50"/>agere non motum est conditio primi principij: ergo caelun 
-      <lb ed="#G" n="51"/>non potest habere realem actionem nisi moucatur. 
-    </p>
-            <p xml:id="HuYgTa-123148-d1e1135">
-               <lb ed="#G" n="52"/>
-               <pc type="indent"/>Praeterea, primum in vnoquoque genere est causa o 
-      <lb ed="#G" n="53"/>mnium ceterorum illius generis, sed motus caeli est
-      pri<lb ed="#G" n="54" break="no"/>mus omnium motuum, vt patet <ref xml:id="HuYgTa-123148-Rd1e1145">8. physicorum</ref>. Cum
-      igi<lb ed="#G" n="55" break="no"/>tur cessante causa, cesset effectus, saitem quo ad suum
-      he<lb ed="#G" n="56" break="no"/>ri: igitur cessante motu caeli, non poterit ficri aliqui  
-      <lb ed="#G" n="57"/>motus in rebus inferioribus. 
-    </p>
-            <p xml:id="HuYgTa-123148-d1e1156">
-               <lb ed="#G" n="58"/>
-               <pc type="indent"/>Sed istis non obstantibus, teneo primam conclusionem 
-      <lb ed="#G" n="59"/>maxime propter articulum iam dictum Parisiis
-      excom<lb ed="#G" n="60" break="no"/>municatum, quem nescirem bene glosare pro ista
-      secun<lb ed="#G" n="61" break="no"/>da opinione.
-    </p>
-            <p xml:id="HuYgTa-123148-d1e1169">
-               <lb ed="#G" n="62"/>2 Praeterea, ignis infernalis, cessante motu caeli, aget 
-      <lb ed="#G" n="63"/>naturaliter in corpora damnatorum. Vnde magis reputo 
-      <lb ed="#G" n="64"/>Dei miraculum, quod huiusmodi corpora non incineren 
-      <lb ed="#G" n="65"/>tur, &amp; dissoluantur, quam, quod ab igne comburantur 
-      <lb ed="#G" n="66"/>Primum enim est supernaturale: secundum autem
-      natu<lb ed="#G" n="67" break="no"/>rale, non obstante motus caeli cessatione 
-    </p>
-            <p xml:id="HuYgTa-123148-d1e1185">
-               <lb ed="#G" n="68"/>
-               <pc type="indent"/>Ad primum eorum motiuum dicendum, quod caelun 
-      <lb ed="#G" n="69"/>non agit in virtute intelligentiae quantum ad quamlibet 
-      <lb ed="#G" n="70"/>sui operationem, quia, sicut isti met dicunt, caelum potess 
-      <lb ed="#G" n="71"/>haec inferiora illuminare, cessante operatione
-      intelli<lb ed="#G" n="72" break="no"/>gentiae, sed incidentia radiorum solarium, &amp; reflexio est 
-      <lb ed="#G" n="73"/>causa caloris, &amp; incendij, ergo quo ad talem operationen 
-      <!--364.xml-->
-      <cb ed="#G" n="b"/>
-               <lb ed="#G" n="74"/>etiam realem non dependet ab intelligentia 
-    </p>
-            <p xml:id="HuYgTa-123148-d1e1209">
-               <lb ed="#G" n="75"/>
-               <pc type="indent"/>Ad secundum dicendum, quod agere non motum
-      lo<lb ed="#G" n="76" break="no"/>caliter non est primi principij conditio, sed agere sic non 
-      <lb ed="#G" n="77"/>motum, puta, quod non praesupponat aliquam infiuenti 
-      <lb ed="#G" n="78"/>causae superioris. Primo modo multae creaturae agunt non 
-      <lb ed="#G" n="79"/>motae, vt appatet de magneto. Sed secundo modo, nulla 
-      <lb ed="#G" n="80"/>creatura agit non mota, quia omnis creatura agens aliquo 
-      <lb ed="#G" n="81"/>modo alteratur per insiuentiam causae superioris. Etiam 
-      <lb ed="#G" n="82"/>ratio est contra facientes eam, quia per eandem forman 
-      <lb ed="#G" n="83"/>probaretur, quod sol non posset illuminare, sicut, quod 
-      <lb ed="#G" n="84"/>non posset transmutare, cum tamen isti ponant, sicut di 
-      <lb ed="#G" n="85"/>necessitate ponere coguntur per vaticinium lsaiae
-      pro<lb ed="#G" n="86" break="no"/>phetae, quod cessante motu caeli, erit lumen Cunae, sicus 
-      <lb ed="#G" n="87"/>nunc est lumen Solis; &amp; lumen Solis septempliciter.
-    </p>
-            <p xml:id="HuYgTa-123148-d1e1242">
-               <lb ed="#G" n="88"/>Ad tertium dicendum ad maiorem, quia primum in go 
-      <lb ed="#G" n="89"/>nere est causa ceterorum, non quantum ad esse
-      simplici<lb ed="#G" n="90" break="no"/>ter, &amp; absolute, sed quantum ad esse mensuratum: sicut  
-      <lb ed="#G" n="91"/>igitur cessante albedine, quae est primus color mensurans 
-      <lb ed="#G" n="92"/>omnem alium colorem, non oporteret omnem alium con 
-      <lb ed="#G" n="93"/>lorem cessare simpliciter, sed solum cessare quantum ac 
-      <lb ed="#G" n="94"/>esse mensuratum, quod ceteris coloribus competit per 
-      <lb ed="#G" n="95"/>albedinem secundum modum, quem videmus penes istum 
-      <lb ed="#G" n="96"/>cursum rerum coloratarum, sic in proposito &amp;c 
-    </p>
-            <p xml:id="HuYgTa-123148-d1e1265">
-               <lb ed="#G" n="97"/>
-               <pc type="indent"/>Et si dicitur, quod dicta philosophorum sunt contra 
-      <lb ed="#G" n="98"/>me quo ad istam conclusionem 
-    </p>
-            <p xml:id="HuYgTa-123148-d1e1274">
-               <lb ed="#G" n="99"/>
-               <pc type="indent"/>Respondeo dupliciter. Primo, quod philosophos in isto 
-      <lb ed="#G" n="100"/>non multum curo; quia ipsi crediderunt, quod impossibi 
-      <lb ed="#G" n="101"/>le esset motum celi cessare; aequa enim facilitate concedi 
-      <lb ed="#G" n="102"/>ret philosophus totam mundi machinam destrui, sicut 
-      <lb ed="#G" n="103"/>motum caeli cessare: quia frustra secundum eum esset
-      ip<lb ed="#G" n="104" break="no"/>sum caelum, si non moueretur: &amp; frustra esset angelus,
-      si<lb ed="#G" n="105" break="no"/>ue intelligentia, si non moueret. Deus autem &amp; natura 
-      <lb ed="#G" n="106"/>secundum philosophum non possunt aliquid facere frustra¬ 
-    </p>
-            <p xml:id="HuYgTa-123148-d1e1296">
-               <lb ed="#G" n="107"/>
-               <pc type="indent"/>Secundo dico, quod supposito per impossibile apud 
-      <lb ed="#G" n="108"/>philosophum, quod caelum maneat, cessante motu: &amp; So 
-      <lb ed="#G" n="109"/>&amp; Cuna, &amp; stellae illuminent haec inferiora : philosophu 
-      <lb ed="#G" n="110"/>non negaret actionem realem ab ipso caelo, quamuis
-      ne<lb ed="#G" n="111" break="no"/>garet nouitatem, &amp; variationem actionis realis. Ipse enim 
-      <lb ed="#G" n="112"/>haberet dicere, quod sicut Sol semper illuminaret istuc 
-      <lb ed="#G" n="113"/>emisperium, &amp; numquam ab eo recederet, sic semper
-      ca<lb ed="#G" n="114" break="no"/>efaceret, &amp; semper causaret aestatem, &amp; nuquam
-      hyemen<lb ed="#G" n="115" break="no"/>Propter hoc secundo de generatione cum prius ostendi 
-      <lb ed="#G" n="116"/>set cursum Solis in circulo vodiaco esse causam totius va 
-      <lb ed="#G" n="117"/>rietatis in istis inferioribus; tandem circa finem addit, quod 
-      <lb ed="#G" n="118"/>idem manens idem, semper facit idem: 
-    </p>
-            <p xml:id="HuYgTa-123148-d1e1327">
-               <lb ed="#G" n="119"/>
-               <pc type="indent"/>ARTICVLVS IIL 
-      <lb ed="#G" n="120"/>eotrum caolum habeat insiuentium super fi 
-      <lb ed="#G" n="121"/>
-               <pc type="indent"/>berum arbitrumi.
-    </p>
-            <p xml:id="HuYgTa-123148-d1e1340">
-               <lb ed="#G" n="122"/>VANTVM ad tertium articulum pono duas
-      con<lb ed="#G" n="123" break="no"/>clusiones. Prima est, quod celum non potest dire 
-      <lb ed="#G" n="124"/>cte agere in liberum arbitrium. 
-    </p>
-            <p xml:id="HuYgTa-123148-d1e1349">
-               <lb ed="#G" n="125"/>
-               <pc type="indent"/>Quia res pure corporalis non potest directe in rem 
-      <lb ed="#G" n="126"/>simpliciter spitirualem: sed celum est res simpliciter
-      cor<lb ed="#G" n="127" break="no"/>poralis; voluntas autem siue liberum arbitrium est res
-      sim<lb ed="#G" n="128" break="no"/>pliciter spiritualis: ergo &amp;c.
-    </p>
-            <p xml:id="HuYgTa-123148-d1e1363">
-               <lb ed="#G" n="129"/>2 Praeterea, nullum pure passiuum est liberum, sed si 
-      <lb ed="#G" n="130"/>caelum directe ageret in liberum arbitrium, tuc liberum 
-      <lb ed="#G" n="131"/>arbitrium respectu talis actionis esset pure passiusi, &amp; sic 
-      <lb ed="#G" n="132"/>liberum arbitrium non esset liberum, quod est
-      contradi<lb ed="#G" n="133" break="no"/>ctio. minor est nota: patet etiam maior, quia in libertate 
-      <lb ed="#G" n="134"/>pure passiui non est pati, vel non pati, sed necesse est ipsum 
-      <lb ed="#G" n="135"/>pati, cum virtus agentis directe ipsum attingit 
-    </p>
-            <p xml:id="HuYgTa-123148-d1e1381">
-               <lb ed="#G" n="136"/>
-               <pc type="indent"/>Praeterea, ex puris naturalibus nec laudamur, nec vi 
-      <lb ed="#G" n="137"/>tuperamur, vt patet in ethic sed si caelum directe agere 
-      <lb ed="#G" n="138"/>in liberum arbitrium: tunc actus liberi arbitrij essent
-      pu<lb ed="#G" n="139" break="no"/>re naturales: igitur in actibus liberi arbitrij nec esset
-      vir<lb ed="#G" n="140" break="no"/>tus, nec vitium &amp; per consequens nec ipsis deberetur pra 
-      <lb ed="#G" n="141"/>mium, neque poena, quod est contra fidem 
-    </p>
-            <p xml:id="HuYgTa-123148-d1e1399">
-               <lb ed="#G" n="142"/>
-               <pc type="indent"/>Per primam rationem patet, quod falsa est quaedam
-      opi<lb ed="#G" n="143" break="no"/>nio, quae ponit, quod corpus caeleste directe agit in liberum 
-      <!--365.xml-->
-      <pb ed="#G" n="163-v"/>
-               <cb ed="#G" n="a"/>
-               <lb ed="#G" n="1"/>arbitrium, quia cum omne, quod recipitur, ad modum rei 
-      <lb ed="#G" n="2"/>recipientis reperiatur; ideo talis actio, quamuis necessaria 
-      <lb ed="#G" n="3"/>sit ex parte agetis, libere tmen recipitur in libero arbitrio 
-      <lb ed="#G" n="4"/>&amp; per consequens non impedit liberam eius actionem 
-    </p>
-            <p xml:id="HuYgTa-123148-d1e1423">
-               <lb ed="#G" n="5"/>
-               <pc type="indent"/>Ex duabus vero aliis rationibus patet, quod adhuc fal 
-      <lb ed="#G" n="6"/>sior est illa antiqua opinio, quae posuit, quod caelum sic di 
-      <lb ed="#G" n="7"/>ecte agit in liberum arbitrium, quod ipsum necessitatur 
-      <lb ed="#G" n="8"/>in sua inclinatione secundum necessarium motum caeli¬ 
-    </p>
-            <p xml:id="HuYgTa-123148-d1e1436">
-               <lb ed="#G" n="9"/>
-               <pc type="indent"/>Has etiam ambas opiniones simul refellit <ref xml:id="HuYgTa-123148-Rd1e1442">Aristotele 
-        <lb ed="#G" n="10"/>2. de anima</ref> dicens quod iste, qui dicit voluntatem hom  
-      <lb ed="#G" n="11"/>nis augeri ad praesens; id est subiectam esse directe
-      tem<lb ed="#G" n="12" break="no"/>pori, &amp; per consequens motui ipsius caeli, talis dicit
-      intel<lb ed="#G" n="13" break="no"/>lectum esse sensum, quasi dicat, si voluntas esset immedi 
-      <lb ed="#G" n="14"/>te subiecta motui caelesti; tunc voluntas esset appetitus 
-      <lb ed="#G" n="15"/>sensitiuus, quo posito sequitur, quod intellectus, qui est 
-      <lb ed="#G" n="16"/>virtus cognitiua respondens voluntati, esset sensus, quia 
-      <lb ed="#G" n="17"/>est uirtus cognita, respondens appetitui sensitiuo. 
-    </p>
-            <p xml:id="HuYgTa-123148-d1e1463">
-               <lb ed="#G" n="18"/>
-               <pc type="indent"/>Sed contra philosophum posset instari sic. Sicut se haber 
-      <lb ed="#G" n="19"/>mobile ad mobile: sic motor ad motorem, sed mobile caele 
-      <lb ed="#G" n="20"/>ste mediatam habet, &amp; directam actionem in corpus
-      huma<lb ed="#G" n="21" break="no"/>num: ergo motor caelestis directe aget in animam humanam, 
-      <lb ed="#G" n="22"/>quae est motor corporis humani, sed secundum
-      philoso<lb ed="#G" n="23" break="no"/>phum intelligentia non potest moueri ad aliquam
-      for<lb ed="#G" n="24" break="no"/>mam, nisi mediante motu caelestis corporis: ergo caeleste 
-      <lb ed="#G" n="25"/>corpus directe, &amp; immediate aget in animam humanam. 
-    </p>
-            <p xml:id="HuYgTa-123148-d1e1486">
-               <lb ed="#G" n="26"/>
-               <pc type="indent"/>Respondeo, quod ista argumentatio non plus
-      conclu<lb ed="#G" n="27" break="no"/>dit, nisi, quod celum habeat directam infuentiam in
-      vi<lb ed="#G" n="28" break="no"/>res inferiores ipsius animae, secundum quas anima imme 
-      <lb ed="#G" n="29"/>diate mouet corpus: &amp; hoc conclusio mea negat: sed
-      ne<lb ed="#G" n="30" break="no"/>gat celum directe agere in liberum arbitrium, quod se to 
-      <lb ed="#G" n="31"/>net ex parte intellectus, &amp; uoluntatis, quae sunt poten 
-      <lb ed="#G" n="32"/>tiae superiores ipsius animae a Deo immediate creatae, &amp; 
-      <lb ed="#G" n="33"/>non eductae de potentia materiae, sicut potentiae
-      organi<lb ed="#G" n="34" break="no"/>cae, sensitiuae, &amp; motiuae¬
-    </p>
-            <p xml:id="HuYgTa-123148-d1e1510">
-               <lb ed="#G" n="35"/>Secundo dico, quod indirecte caelum potest agere in 
-      <lb ed="#G" n="36"/>liberum arbitrium. Nam cum appetitus sensitiuus, &amp;
-      ap<lb ed="#G" n="37" break="no"/>petitus intellectiuus radicaliter coniuncti sint in nobis; 
-      <lb ed="#G" n="38"/>sicut duae rotae connexae in eodem stipite, vt patet <ref xml:id="HuYgTa-123148-Rd1e1520">3. di 
-        <lb ed="#G" n="39"/>anima</ref>: ideo celum directe immutans sensitiuum appeti 
-      <lb ed="#G" n="40"/>tum aliquo modo indirecte etiam agit in appetitum
-      in<lb ed="#G" n="41" break="no"/>tellectiuum, &amp; per consequens in liberum arbitrium ipsum 
-      <lb ed="#G" n="42"/>alliciendo secundum immutationem virtutis sensitiui 
-      <lb ed="#G" n="43"/>Nec mirum, quia isto modo etiam res aliae, puta cibus, &amp; 
-      <lb ed="#G" n="44"/>potus, vires sensitiuas inflamantes possunt agere in libe 
-      <lb ed="#G" n="45"/>rum arbitrium, quamuis indirecte: omnes tamen talet 
-      <lb ed="#G" n="46"/>motus, gratia Dei cooperante, libertate a Deo nobis com 
-      <lb ed="#G" n="47"/>municata, possumus superare: iuxta quoed ait <name xml:id="HuYgTa-123148-Nd1e1543">Ptholomeus</name> 
-               <lb ed="#G" n="48"/>Sapiens dominabitur astris per sapientiam Propter quo 
-      <lb ed="#G" n="49"/>ait Dam as. <ref xml:id="HuYgTa-123148-Rd1e1550">2. libro</ref>. Nos autem liberi arbitrij a conditore 
-      <lb ed="#G" n="50"/>facti, existimus domini nostrorum actuum: si enim ex
-      astro<lb ed="#G" n="51" break="no"/>rum allatione agimus omnia secudum necessitatem, nec 
-      <lb ed="#G" n="52"/>virtus, nec vitium, seu malitia est in nobis. Haec ille 
-    </p>
-            <p xml:id="HuYgTa-123148-d1e1561">
-               <lb ed="#G" n="53"/>
-               <pc type="indent"/>ARTICVLVS III1 
-      <lb ed="#G" n="54"/>Vtrum aliquod colum habeat infiuentiam vealem in 
-      <lb ed="#G" n="55"/>haec inferiora non obstante quod ipsum 
-      <lb ed="#G" n="56"/>simmobile permaneat.
-    </p>
-            <p xml:id="HuYgTa-123148-d1e1574">
-               <lb ed="#G" n="57"/>VANTVM ad quartum articulum teneo
-      conclu<lb ed="#G" n="58" break="no"/>sionem affirmatiuam, quia caelum empyreum ha 
-      <lb ed="#G" n="59"/>bet influentiam in haec inferiora: ergo aliquod corpus i 
-      <lb ed="#G" n="60"/>mobile habet influentiam in haec inferiora, consequentia 
-      <lb ed="#G" n="61"/>patet: quia caelum empvreum est corpus immobile, vt pa 
-      <lb ed="#G" n="62"/>tet ex dictis superius, Antecedens probo, quia si non, tun 
-      <lb ed="#G" n="63"/>vniuersum non esset ordinate dispositum: consequens es 
-      <lb ed="#G" n="64"/>inconueniens, vt patet <ref xml:id="HuYgTa-123148-Rd1e1593">12. metaphysicae</ref>. probo consequen 
-      <lb ed="#G" n="65"/>tiam, quia illud, cuius partes non sunt connexae, nisi
-      se<lb ed="#G" n="66" break="no"/>cundum superficialem contactum: illud non est ordinate 
-      <lb ed="#G" n="67"/>dispositum: sed posito, quod caelum empvreum non ha 
-      <lb ed="#G" n="68"/>beat realem influentiam in corpora, quae sunt infra ipsum; 
-      <lb ed="#G" n="69"/>tunc solummodo coniungetur eis se cundum
-      superficia<lb ed="#G" n="70" break="no"/>lem contactum: ergo &amp;c. 
-      <!--365.xml-->
-      <cb ed="#G" n="b"/>
-               <lb ed="#G" n="71"/>Sed oppositum istius asserit quidam <ref xml:id="HuYgTa-123148-Rd1e1616">venerabilis doctor 
-        <lb ed="#G" n="72"/>in suo scripto. dist. 2. secundi libri sententiarum</ref> 
-            </p>
-            <p xml:id="HuYgTa-123148-d1e1622">
-               <lb ed="#G" n="73"/>
-               <pc type="indent"/>Quia eo ipso, quod celum empvreum non mouetur 
-      <lb ed="#G" n="74"/>non potest sibi competere aliqua realis influentia in
-      ce<lb ed="#G" n="75" break="no"/>tera corpora, quia corpus non agit nisi per motum 
-    </p>
-            <p xml:id="HuYgTa-123148-d1e1633">
-               <lb ed="#G" n="76"/>
-               <pc type="indent"/>2 Praeterea, arguunt quidam alij sic. Anima caeli non 
-      <lb ed="#G" n="77"/>habet aliquam influentiam in corpora ista inferiora nisi 
-      <lb ed="#G" n="78"/>per motum: ergo nec aliquod corpus, consequentia
-      pa<lb ed="#G" n="79" break="no"/>tet, quia secundum <ref xml:id="HuYgTa-123148-Rd1e1646">Augustinum in multis locis super 
-        <lb ed="#G" n="80"/>Sen.</ref> substantia spiritualis praestantior est omni corpore 
-      <lb ed="#G" n="81"/>Antecedens ponitur in <ref xml:id="HuYgTa-123148-Rd1e1653">Commento tertiae propositonis 
-        <lb ed="#G" n="82"/>libri de causis.</ref> 
-            </p>
-            <p xml:id="HuYgTa-123148-d1e1660">
-               <lb ed="#G" n="83"/>
-               <pc type="indent"/>Praeterea, talis influentia non posset recipi in istis 
-      <lb ed="#G" n="84"/>nferioribus, nisi prius reciperetur in corporibus caelesti 
-      <lb ed="#G" n="85"/>bus, quae mediant intes caelum empvyreum, &amp; inferiora 
-      <lb ed="#G" n="86"/>sed caelestia corpora non possunt recipere istam influen 
-      <lb ed="#G" n="87"/>tiam: ergo nec ista inferiora recipient eam.
-    </p>
-            <p xml:id="HuYgTa-123148-d1e1676">
-               <lb ed="#G" n="88"/>4 Item forte contra rationem adductam pro
-      conclu<lb ed="#G" n="89" break="no"/>sione dicetur, quod illa corpora, quae sunt ad alium, &amp; ad 
-      <lb ed="#G" n="90"/>alium statum ordinata: non oportet esse connexa nisi se 
-      <lb ed="#G" n="91"/>cundum superficialem contactum: sed caelum empyreum 
-      <lb ed="#G" n="92"/>est ordinatum ad statum patriae, &amp; alij caeli ad statum viae,  
-      <lb ed="#G" n="93"/>ergo &amp;c. Maior est nota. Sed minor quantum ad primam  
-      <lb ed="#G" n="94"/>sui partem patet ex <ref xml:id="HuYgTa-123148-Rd1e1693">dictis superius. distin. 2</ref>. Patet etiam  
-      <lb ed="#G" n="95"/>quantum ad secundam partem, quia caeli ordinantur ad 
-      <lb ed="#G" n="96"/>genetationem istorum inferiorum, quae solum est
-      neces<lb ed="#G" n="97" break="no"/>saria pro statu ipsius viae. 
-    </p>
-            <p xml:id="HuYgTa-123148-d1e1703">
-               <lb ed="#G" n="98"/>
-               <pc type="indent"/>bed ista non concludunt, quia aut celum empyreum agit 
-      <lb ed="#G" n="99"/>in seipsum, aut in alterum. Ista patet, quia nulla res penitus 
-      <lb ed="#G" n="100"/>destituitur a propria operatione, vt ait <ref xml:id="HuYgTa-123148-Rd1e1713">Commen</ref>. Item se 
-      <lb ed="#G" n="101"/>cundum <ref xml:id="HuYgTa-123148-Rd1e1719">
-                  <name xml:id="HuYgTa-123148-Nd1e1721">Dion,</name>
-               </ref> &amp; <ref xml:id="HuYgTa-123148-Rd1e1725">
-                  <name xml:id="HuYgTa-123148-Nd1e1727">Damascenum</name>
-               </ref>, Ista tria sunt in qualibet 
-      <lb ed="#G" n="102"/>re distincta, scilicet substantia, virtus, &amp; operatio. Ex
-      qui<lb ed="#G" n="103" break="no"/>bus apparet, quod caelo empvreo conuenit operatio, set 
-      <lb ed="#G" n="104"/>actio: igitur ex sufficienti diuisione dicetur, vel agere in 
-      <lb ed="#G" n="105"/>se, vel in alterum. Sed primum dari non potest, quia nullu 
-      <lb ed="#G" n="106"/>corpus est supra seipsum conuersiuum: sed omne, quod agit 
-      <lb ed="#G" n="107"/>n seipsum, est supra seipsum conuersiuum: igitur dabitur 
-      <lb ed="#G" n="108"/>secundum: &amp; hoc est praesens propositum. 
-    </p>
-            <p xml:id="HuYgTa-123148-d1e1747">
-               <lb ed="#G" n="109"/>
-               <pc type="indent"/>Ad primum dicendum, quod nec illa consequentia
-      Va<lb ed="#G" n="110" break="no"/>let, nec eius probatio, quia tempore losue sol non
-      moue<lb ed="#G" n="111" break="no"/>patur per spatium unius dici, &amp; tamen habuit realem
-      in<lb ed="#G" n="112" break="no"/>fiuentiam in ista inferiora, alias ista viuentia hic inferius 
-      <lb ed="#G" n="113"/>tuissent mortua, Item, Magnes non motus trahit ferrum 
-    </p>
-            <p xml:id="HuYgTa-123148-d1e1763">
-               <lb ed="#G" n="114"/>
-               <pc type="indent"/>Ad secundum dicendum, quod quamuis anima celi agat 
-      <lb ed="#G" n="115"/>in ista inferiora mediante motu: ille tamen motus non 
-      <lb ed="#G" n="116"/>est in illa anima subiectiue ita, quod ipsa moueatur. Sic 
-      <lb ed="#G" n="117"/>dato, quod caeli empvrei influentia perueniat ad ista
-      in<lb ed="#G" n="118" break="no"/>feriora, mediante motu celi, ex hoc tamen non
-      conuinci<lb ed="#G" n="119" break="no"/>tur, quod celum empvreum moueatur. 
-    </p>
-            <p xml:id="HuYgTa-123148-d1e1781">
-               <lb ed="#G" n="120"/>
-               <pc type="indent"/>Forte dicetur, quod si caelum empyreum agit mediant, 
-      <lb ed="#G" n="121"/>motu caeli: tunc dependet a caelo, cuius oppositum ego di 
-      <lb ed="#G" n="122"/>xi <ref xml:id="HuYgTa-123148-Rd1e1791">superius. distin. 2.</ref> 
-            </p>
-            <p xml:id="HuYgTa-123148-d1e1796">
-               <lb ed="#G" n="123"/>
-               <pc type="indent"/>Respondeo, quod quamuis agentia inferiora agant
-      mediam<lb ed="#G" n="124" break="no"/>te motu caeli, tamquam mediante regula, &amp; directiuo, &amp; 
-      <lb ed="#G" n="125"/>per consequens dependeant ab eo: tamen caelum empvreum 
-      <lb ed="#G" n="126"/>non influit mediante motu caeli tamquam mediante
-      re<lb ed="#G" n="127" break="no"/>gula, vel directiuo, seu tamquam mediante organo, quod 
-      <lb ed="#G" n="128"/>quidem organum non est in tali influentia requisitum ra 
-      <lb ed="#G" n="129"/>tione caeli empvrei influentis, sed ratione patientis huiu 
-      <lb ed="#G" n="130"/>modi influentiam recipientis: caelum enim empvreum
-      pos<lb ed="#G" n="131" break="no"/>et influere sine motu caeli, tamen patiens non potest hu 
-      <lb ed="#G" n="132"/>usmodi influentiam recipere sine motu caeli, &amp; ideo ex hn 
-      <lb ed="#G" n="133"/>non habetur, quod caelum empyreum dependeat a motu 
-      <lb ed="#G" n="134"/>celi, quamuis bene probetur, quod ista inferiora
-      depen<lb ed="#G" n="135" break="no"/>deant a motu caeli, seu a virtute caelesti 
-    </p>
-            <p xml:id="HuYgTa-123148-d1e1829">
-               <lb ed="#G" n="136"/>
-               <pc type="indent"/>Ad tertium dicendum, quod minor non est vera 
-      <lb ed="#G" n="137"/>Forte dicetur, quod minor ista probari potest ex dictis 
-      <lb ed="#G" n="138"/>
-               <ref xml:id="HuYgTa-123148-Rd1e1839">superius dist. 2.</ref> Dicebam enim ibi, quod celum non pa 
-      <lb ed="#G" n="139"/>titur peregrinas impressiones: &amp; quod est primum alterans 
-      <lb ed="#G" n="140"/>inalterabile; sed illud, quod recipit influentiam alicuius 
-      <lb ed="#G" n="141"/>hoc recipit peregrinas impressiones, &amp; alteratur secundum 
-      <lb ed="#G" n="142"/>impressionem illius influentiae : ergo &amp;c. 
-    </p>
-            <p xml:id="HuYgTa-123148-d1e1852">
-               <lb ed="#G" n="143"/>
-               <pc type="indent"/>Respondeo, quod duplex est influentia. Vna, quam ali¬ 
-      <!--366.xml-->
-      <pb ed="#G" n="164-r"/>
-               <cb ed="#G" n="a"/>
-               <lb ed="#G" n="1"/>quo modo sequitur passio, quae vel abiicit aliquid a
-      sub<lb ed="#G" n="2" break="no"/>stantia, vel perfectione subiecti, vel ex ipsa potest aliquo 
-      <lb ed="#G" n="3"/>modo argui corruptibilitas subiecti. Alia est influentia, 
-      <lb ed="#G" n="4"/>quam non sequitur huiusmodi passio, sed potius ipsa est 
-      <lb ed="#G" n="5"/>alus &amp; perfectio. Ex prima sufficienter arguitur alteratio 
-      <lb ed="#G" n="6"/>proprie dicta, ac peregrina impressio: non autem ex secun 
-      <lb ed="#G" n="7"/>da. Et quia talis est influentia, quae recipitur in coelo;, 
-      <lb ed="#G" n="8"/>ideo &amp;c. Vnde si illa minor cum iam dicta probatione
-      es<lb ed="#G" n="9" break="no"/>set uera, tunc nec Soli, nec alicui stellae coeli conueniret 
-      <lb ed="#G" n="10"/>influentia in haec inferiora: quia inter illa, quae sunt supra 
-      <lb ed="#G" n="11"/>Lunam, &amp; haec inferiora, celum Cunae mediat: &amp; si per
-      ta<lb ed="#G" n="12" break="no"/>se celum non tranfiret superiorum corporum influentia: 
-      <lb ed="#G" n="13"/>tunc numquamperueniret ad haec inferiora, &amp; sic sola Lu 
-      <lb ed="#G" n="14"/>na cum celo suo posset agere in ista inferiora, &amp; nullum 
-      <lb ed="#G" n="15"/>aliud corpus caeleste, quod est absurdum dicere 
-    </p>
-            <p xml:id="HuYgTa-123148-d1e1898">
-               <lb ed="#G" n="16"/>
-               <pc type="indent"/>Ad quattum dicendum, quod maior non est vera:
-      ma<lb ed="#G" n="17" break="no"/>ime quando illi status sic se habent, quod vnus ordinatur 
-      <lb ed="#G" n="18"/>ad alterum: sed status viae ordinatur ad statum patriae: ideo 
-      <lb ed="#G" n="19"/>corpus celeste deseruiens statui viae debet ordinari ad con 
-      <lb ed="#G" n="20"/>pus celeste deseruiens statui patriae: &amp; per consequens
-      il<lb ed="#G" n="21" break="no"/>lud, quod deseruit statui patriae, debet virtualiter
-      influe<lb ed="#G" n="22" break="no"/>re in illud, quod deseruit statui viae 
-    </p>
-            <p xml:id="HuYgTa-123148-d1e1918">
-               <lb ed="#G" n="23"/>
-               <pc type="indent"/>est etiam aduertendum, quod doctor conis positionem prae 
-      <lb ed="#G" n="24"/>dictam, qua dixit celum empvreum non influere in cete 
-      <lb ed="#G" n="25"/>ra corpora, quodammodo videtur recitare in prima par 
-      <lb ed="#G" n="26"/>te summae, vbi ait, quod probabilius tenetur, quod celum empy 
-      <lb ed="#G" n="27"/>reum habet influentiam in corpora inferiora: quia sicut 
-      <lb ed="#G" n="28"/>angeli supremi, qui assistunt ipsi Deo, habent influentiam 
-      <lb ed="#G" n="29"/>super angelos, qui mittuntur, quamuis ipsi non mittantur  
-      <lb ed="#G" n="30"/>sc celum empvreum habet influentiam super corpora, 
-      <lb ed="#G" n="31"/>quae mouentur: licet ipsum non moueatur. 
-    </p>
-            <p xml:id="HuYgTa-123148-d1e1942">
-               <lb ed="#G" n="32"/>
-               <pc type="indent"/>Ad argumentum principale dicendum, quod non
-      ob<lb ed="#G" n="33" break="no"/>stante necessitate motus celi, multa tamen contingenter 
-      <lb ed="#G" n="34"/>eueniunt propter humani arbitrij libertatem. Etiam
-      ra<lb ed="#G" n="35" break="no"/>tione indispositonis, quae per artem quandoque, vel per 
-      <lb ed="#G" n="36"/>naturam potest fieri in materia: eadem constellatio non 
-      <lb ed="#G" n="37"/>semper consequitur hic inferius eundem effectum. ldeo 
-      <lb ed="#G" n="38"/>ait <name xml:id="HuYgTa-123148-Nd1e1961">Ptholomeus</name>, quod exspectandum est iudicium etiam 
-      <lb ed="#G" n="39"/>ex secundis stellis. Et appellat secundas stellas istas mate 
-      <lb ed="#G" n="40"/>rias inferiores vario modo dispositas. Vnde Astrologus vi 
-      <lb ed="#G" n="41"/>dens talem astrorum coniunctionem, ex qua secundum 
-      <lb ed="#G" n="42"/>artem Astrologiae sequitur hic inferius aliquis effectus: 
-      <lb ed="#G" n="43"/>non statim debet pronunciare huiusmodi effectum tali 
-      <lb ed="#G" n="44"/>hora esse venturum : sed debet respicere materiam: quia 
-      <lb ed="#G" n="45"/>materia posset esse adeo indisposita, quod talis effectus 
-      <lb ed="#G" n="46"/>omnino impediretur. 
-    </p>
-         </div>
-      </body>
-   </text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 1</title>
+        <author ref="#ThomasStrasbourg">Thomas of Strasbourg</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 1</title>
+          <date when="2020-11-26">November 26, 2020</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="G" n="cod-TxxxqU">Genoa 1585</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2020-11-26" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#G" n="161-v"/>
+        <cb ed="#G" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="HuYgTa-123148"><!-- HuYgTa-l2d14q1 -->
+        <head xml:id="HuYgTa-123148-Hd1e108">Quaestio 1</head>
+        <head xml:id="HuYgTa-123148-Hd1e111" type="question-title">
+          An caelum sit causa horum inferiorum.
+        </head>
+        <p xml:id="HuYgTa-123148-d1e114">
+          <lb ed="#G" n="116"/>
+          <pc type="indent"/>Questio 1. 
+          <lb ed="#G" n="117"/>An caelum sit causa horum inferiorum, 
+        </p>
+        <p xml:id="HuYgTa-123148-d1e123">
+          <lb ed="#G" n="118"/>
+          <pc type="indent"/>VTRVM caelum per motum suum sit
+          can<lb ed="#G" n="119" break="no"/>sa effectuum istorum inferiorum. Et video 
+          <lb ed="#G" n="120"/>tur quod non, quia sequeretur, quod oex 
+          <lb ed="#G" n="121"/>mnes effectus istorum inferiorum neces 
+          <lb ed="#G" n="122"/>sario euenirent. conse quentia patet, quia 
+          <lb ed="#G" n="123"/>posita necessaria causa, &amp; vniformi,
+          seque<lb ed="#G" n="124" break="no"/>tur effectus necessarius, &amp; vniformis: ergo &amp;c. 
+        </p>
+        <p xml:id="HuYgTa-123148-d1e143">
+          <lb ed="#G" n="125"/>
+          <pc type="indent"/>Contra <ref xml:id="HuYgTa-123148-Rd1e149">Commen. 12: metaph</ref> ait, quod calores genita 
+          <lb ed="#G" n="126"/>ex caloribus stellarum generantes quamlibet specrem
+          spec<lb ed="#G" n="127" break="no"/>cicrum in animalibus habent mensuras proprias illius ex 
+          <lb ed="#G" n="128"/>loris ex quantitatibus motuum stellarum, &amp; dispositonibus 
+          <!--362.xml-->
+          <pb ed="#G" n="162-r"/>
+          <cb ed="#G" n="a"/>
+          <lb ed="#G" n="1"/>earum ad inuicem in propinquitate &amp; remotione. Hio 
+          <lb ed="#G" n="2"/>quattuor sunt videnda. Primo vtrum motus caeli sit ips 
+          <lb ed="#G" n="3"/>caelo naturalis. Secundo de eo quoed quaeritur. Tertio vtrum 
+          <lb ed="#G" n="4"/>habeant influentiam super liberum arbitrium. Et quarto 
+          <lb ed="#G" n="5"/>vtrum aliquod caelum habeat influentiam realem in haec 
+          <lb ed="#G" n="6"/>inferiora, non obstante quod ipsum immobile permaneat 
+        </p>
+        <p xml:id="HuYgTa-123148-d1e180">
+          <lb ed="#G" n="7"/>
+          <pc type="indent"/>RESOLVTIO. 
+          <lb ed="#G" n="8"/>Etfi caeli motus naturalis dici possit ob naturalem habilitatem 
+          <lb ed="#G" n="9"/>
+          <pc type="indent"/>quam habet caelum ad talem motum: non tamen ob id
+          natura<lb ed="#G" n="10" break="no"/>us dicitur, quod effectiue a forma sibi intrinseca causetur; I 
+          <lb ed="#G" n="11"/>quidem intelligentia sphaerae assistat, non aut em informet Ve 
+          <lb ed="#G" n="12"/>rum caelum ipsum realem habet actionem circa haec inferiora, 
+          <lb ed="#G" n="13"/>libero avbitrio excepto in quod directe agere vmquam potest. 
+        </p>
+        <p xml:id="HuYgTa-123148-d1e202">
+          <lb ed="#G" n="14"/>
+          <pc type="indent"/>ARTICVLVSI 
+          <lb ed="#G" n="15"/>trum motus celi sit ipsi colo natiralis
+        </p>
+        <p xml:id="HuYgTa-123148-d1e211">
+          <lb ed="#G" n="16"/>SVANTVM ad primum praemitto, primo vnam
+          di<lb ed="#G" n="17" break="no"/>stinctionem, ex qua secundo eliciam duas conclu 
+          <lb ed="#G" n="18"/>siones. Distin ctio talis est, quod motum caeli esse
+          natura<lb ed="#G" n="19" break="no"/>lem ipsi celo dupliciter potest intelligi. Vno modo, quo 
+          <lb ed="#G" n="20"/>pro tanto dicatur talis motus ipsi caelo naturalis, quia fit 
+          <lb ed="#G" n="21"/>aforma intrinseca, &amp; naturali ipsius caeli effectiue. Alio 
+          <lb ed="#G" n="22"/>modo, quod ipsum caelum naturalem habilitate habeat 
+          <lb ed="#G" n="23"/>ad talem motum. Quo ad primum membrum istius
+          di<lb ed="#G" n="24" break="no"/>stinctionis pono conclusionem negatiuam, quo ad secun 
+          <lb ed="#G" n="25"/>dum pono affirmatiuam 
+        </p>
+        <p xml:id="HuYgTa-123148-d1e235">
+          <lb ed="#G" n="26"/>
+          <pc type="indent"/>Primam conclusionem probo sic. Si motus caeli esset 
+          <lb ed="#G" n="27"/>effectiue a forma sibi intrinseca, &amp; naturali: vel hoc essei 
+          <lb ed="#G" n="28"/>pro tanto, quia principium talis motus esset forma corpe 
+          <lb ed="#G" n="29"/>reitatis ipsius caeli, vel quod ipsa intelligentia, quam dici 
+          <lb ed="#G" n="30"/>mus motorem caeli, esset coniuncta ipsi caelo secundum 
+          <lb ed="#G" n="31"/>esse, sibi dando esse animatum, &amp; per consequens
+          moue<lb ed="#G" n="32" break="no"/>ri, sed nec sic, nec sic:ergo &amp;c Maior patet: minorem
+          pro<lb ed="#G" n="33" break="no"/>bo, quia si primo modo: tunc vel celum numquam mous 
+          <lb ed="#G" n="34"/>retur, vel moueretur in instanti. Nam omne tempus re 
+          <lb ed="#G" n="35"/>quisitum in motu, vel requiritur propter resistentiam
+          mo<lb ed="#G" n="36" break="no"/>bilis ad motorem, sicut in motu animalium: vel propter 
+          <lb ed="#G" n="37"/>resistentiam medij sicut in motu grauium &amp; leuium. Sec 
+          <lb ed="#G" n="38"/>in motu caelestium nulla est resistentia medij, vt de se pa 
+          <lb ed="#G" n="39"/>tet, nec est resistentia mobilis ad motorem, quia sola ma 
+          <lb ed="#G" n="40"/>teria non facit in talibus aliquam resistentiam: sicut appa 
+          <lb ed="#G" n="41"/>ret de graui, quod in vacuo vbi nullam haberet
+          reusten<lb ed="#G" n="42" break="no"/>tiam medij, moueretur in instanti; sed isto posito non
+          es<lb ed="#G" n="43" break="no"/>set maior resistentia mobilis ad motorem in caelo, quam  
+          <lb ed="#G" n="44"/>sit in ipso graui. Nec potest dari secundum, puta, quod in 
+          <lb ed="#G" n="45"/>telligetia, quam appellamus motorem caeli, sit forma, siue 
+          <lb ed="#G" n="46"/>anima caeli: nam cum intellectus &amp; voluntas ipsius intel 
+          <lb ed="#G" n="47"/>ligentiae fundentur immediate in essentia eius: igitur si 
+          <lb ed="#G" n="48"/>intelligentia formaliter per essentiam suam esset coniun 
+          <lb ed="#G" n="49"/>cta ipsi caelo, tunc non contingeret caelum in mouendo 
+          <lb ed="#G" n="50"/>immediate per intellectum &amp; voluntatem, sed mediante 
+          <lb ed="#G" n="51"/>essentia: propter quod oporteret intelligentiam moueri 
+          <lb ed="#G" n="52"/>caelum mediante aliqua organica virtute, sicut de facto vi 
+          <lb ed="#G" n="53"/>demus in nobis de anima rationali; &amp; per consequens
+          mo<lb ed="#G" n="54" break="no"/>tus caeli non posset perpetuari, quia virtus immediate mo 
+          <lb ed="#G" n="55"/>tiua ipsius caeli necessario lassarctur
+        </p>
+        <p xml:id="HuYgTa-123148-d1e305">
+          <lb ed="#G" n="56"/>Et confirmatur, quia forma intellectualis immediate con 
+          <lb ed="#G" n="57"/>iuncta corpori per essentiam tenet insimum gradum in 
+          <lb ed="#G" n="58"/>genere intelligentiarum: igitur celum non differt specic ab 
+          <lb ed="#G" n="59"/>homine, quia non possent dari duae species, cuius vtriusquen 
+          <lb ed="#G" n="60"/>forma teneret gradum infimum in genere intelligibilium. 
+        </p>
+        <p xml:id="HuYgTa-123148-d1e318">
+          <lb ed="#G" n="61"/>
+          <pc type="indent"/>In ista materia quidam doctor multum dubie loquitur 
+          <lb ed="#G" n="62"/>attamen quantum ex dictis suis apparet, magis videtur 
+          <lb ed="#G" n="63"/>affirmare, quod intelligentia sit anima corporis caelesti 
+          <lb ed="#G" n="64"/>viuificans ipsum: &amp; quod non solum vniatur sibi per mo 
+          <lb ed="#G" n="65"/>tum, sicut figulus iungitur rotae. Et haec, vt dicit, non vi 
+          <!--362.xml-->
+          <cb ed="#G" n="b"/>
+          <lb ed="#G" n="66"/>dentur a side dissonare, sed magis videntur sequi ex his,  
+          <lb ed="#G" n="67"/>quae sides tenet 
+        </p>
+        <p xml:id="HuYgTa-123148-d1e343">
+          <lb ed="#G" n="68"/>
+          <pc type="indent"/>Quia caelum est causa aliquorum animatorum, &amp; ipsa 
+          <lb ed="#G" n="69"/>in esse conseruat, quod facere non posset sua corporeitas.
+        </p>
+        <p xml:id="HuYgTa-123148-d1e352">
+          <lb ed="#G" n="70"/>2 Praeterea, probat ipse idem sic, quia in caelo apparent 
+          <lb ed="#G" n="71"/>virtutes, quae non possunt reduci in corporeitatem
+          celi<lb ed="#G" n="72" break="no"/>Oriens enim habet specialem virtutem, cum ipsum sit dex 
+          <lb ed="#G" n="73"/>trum, &amp; occidens sinistrum, 
+        </p>
+        <p xml:id="HuYgTa-123148-d1e363">
+          <lb ed="#G" n="74"/>
+          <pc type="indent"/>Item, aliqua virtus est in polis : polus enim articus 
+          <lb ed="#G" n="75"/>trahit actum, vt apparet in experimento nautarum. Et alia 
+          <lb ed="#G" n="76"/>est virtus eiusdem stelle, cum fuerit in alia, &amp; alia
+          domo<lb ed="#G" n="77" break="no"/>gitur necesse est, vt dicit iste doctor, quod tales virtutes 
+          <lb ed="#G" n="78"/>deriuentur a celo in virtute animae sibi vnitae. 
+        </p>
+        <p xml:id="HuYgTa-123148-d1e379">
+          <lb ed="#G" n="79"/>
+          <pc type="indent"/>praeterea, si non, tunc corpus caeleste non esset
+          cor<lb ed="#G" n="80" break="no"/>pus physicum, sed mathematicum, quia non esset in eo 
+          <lb ed="#G" n="81"/>principium naturale 
+        </p>
+        <p xml:id="HuYgTa-123148-d1e390">
+          <lb ed="#G" n="82"/>
+          <pc type="indent"/>Praeterea, aliter non apparet, quomodo spiritus
+          cae<lb ed="#G" n="83" break="no"/>lestes possi nt mouere corpus caeleste. 
+        </p>
+        <p xml:id="HuYgTa-123148-d1e399">
+          <lb ed="#G" n="84"/>
+          <pc type="indent"/>Et istud dicit esse de intentione <name xml:id="HuYgTa-123148-Nd1e405">Comentatoris</name> &amp; <name xml:id="HuYgTa-123148-Nd1e408">Ar 
+            <lb ed="#G" n="85"/>stotelis</name>. Dicit enim <ref xml:id="HuYgTa-123148-Rd1e413">Commentator in de substantia orbis</ref>; 
+          <lb ed="#G" n="86"/>quod corpus caeleste est materia animarum caelestium. Et 
+          <lb ed="#G" n="87"/>in eodem libro ait, quod corpus caeleste est simplex, &amp; ni 
+          <lb ed="#G" n="88"/>transmutabile ab aliquo extrinseco: ideo non indiget in 
+          <lb ed="#G" n="89"/>suo esse anima sensibili, nec imaginatiua, sed tantum in 
+          <lb ed="#G" n="90"/>diget anima mouente in loco. Et <ref xml:id="HuYgTa-123148-Rd1e427">12. metaph</ref> ait, quod 
+          <lb ed="#G" n="91"/>bene apparet corpora caelestia esse animata, &amp; quod non 
+          <lb ed="#G" n="92"/>habent de virtutibus animae nisi intellectum, &amp; virtutem 
+          <lb ed="#G" n="93"/>desideratiuam, quae mouet in loco 
+        </p>
+        <p xml:id="HuYgTa-123148-d1e439">
+          <lb ed="#G" n="94"/>
+          <pc type="indent"/>Et si dicitur isti doctori, quod Sol &amp; Cuna, &amp; cetera comn 
+          <lb ed="#G" n="95"/>ora caelestia rationaliter possent adorari: si isto modo 
+          <lb ed="#G" n="96"/>quodlibet eorum viueret per formam ipsum intrinsece 
+          <lb ed="#G" n="97"/>informantem, quae esset sanctus &amp; beatus angelus.  
+        </p>
+        <p xml:id="HuYgTa-123148-d1e452">
+          <lb ed="#G" n="98"/>
+          <pc type="indent"/>Ipse praecise respondet has verbis, quod antiqui
+          adoram<lb ed="#G" n="99" break="no"/>tes Solem &amp; stellas idolatrae erant, quia eis rationem
+          pri<lb ed="#G" n="100" break="no"/>mi principij tribuebant. Et iste <ref xml:id="HuYgTa-123148-Rd1e462">idem doctor quaestione 
+            <lb ed="#G" n="101"/>immediate sequenti, scilicet quaestione vltima 14.
+            distin<lb ed="#G" n="102" break="no"/>ctionis 2. libri sententiarum circa finem illius quaestionis</ref> 
+          <lb ed="#G" n="103"/>ait, quod concedi potest, quod corpora caelestia sunt
+          ani<lb ed="#G" n="104" break="no"/>mata aliqualiter &amp; sunt animalia, sed aequiuoce cum
+          ani<lb ed="#G" n="105" break="no"/>malibus, quae sunt hic inferius 
+        </p>
+        <p xml:id="HuYgTa-123148-d1e477">
+          <lb ed="#G" n="106"/>
+          <pc type="indent"/>Sed ista dicta non videntur esse vera 
+          <lb ed="#G" n="107"/>1 Quia quicumque angelus celum sic informaret, illu 
+          <lb ed="#G" n="108"/>numquam posset esse in vno loco communi cum ceteris 
+          <lb ed="#G" n="109"/>beatis, puta in caelo empvreo. Nam si vmquam tale caelum 
+          <lb ed="#G" n="110"/>intraret, tunc vel corpus informatum per ipsum secum 
+          <lb ed="#G" n="111"/>traheret: vel si tale corpus dimitteret tunc
+          corrumpere<lb ed="#G" n="112" break="no"/>tur talc compositum ex angelo, &amp; corpore caelesti, quorum 
+          <lb ed="#G" n="113"/>vtrumque absurdum esse videtur.
+        </p>
+        <p xml:id="HuYgTa-123148-d1e499">
+          <lb ed="#G" n="114"/>2 Praeterea, Damascenus libro secundo ait. Nullus 
+          <lb ed="#G" n="115"/>animatos caelos, vel luminaria existimer: inanimati sunt 
+          <lb ed="#G" n="116"/>enim 
+        </p>
+        <p xml:id="HuYgTa-123148-d1e508">
+          <lb ed="#G" n="117"/>
+          <pc type="indent"/>3 Praeterea, <ref xml:id="HuYgTa-123148-Rd1e514">Commentator 5. metaphysicae</ref> dicit, quod 
+          <lb ed="#G" n="118"/>corporibus caelestibus non est res animata, quia illic non  
+          <lb ed="#G" n="119"/>est aliquid, quod animetur per animam, vel quod viuas 
+          <lb ed="#G" n="120"/>per vitam. Et idem <ref xml:id="HuYgTa-123148-Rd1e524">Commentator 2. cael. &amp; mun</ref> ait di 
+          <lb ed="#G" n="121"/>ipsis caelorum motoribus, Hae formae sunt abstractae secun 
+          <lb ed="#G" n="122"/>dum esse  
+        </p>
+        <p xml:id="HuYgTa-123148-d1e532">
+          <lb ed="#G" n="123"/>
+          <pc type="indent"/>Ad primum igitur motiuum istius doctoris dicendum, 
+          <lb ed="#G" n="124"/>quod caelum, quamuis non sit formaliter viuum &amp; anima 
+          <lb ed="#G" n="125"/>tum, proprie loquendo de viuo &amp; animato: quia tamen 
+          <lb ed="#G" n="126"/>nfluentiam suam dirigit huc inferius in virtute
+          intelli<lb ed="#G" n="127" break="no"/>sentiae ipsum mouentis, quae vere viuit: ideo potest esse  
+          <lb ed="#G" n="128"/>causa viuorum &amp; animatorum. Sicut enim semen decisum 
+          <lb ed="#G" n="129"/>ab animali viuo, quia agit in virtute animalis viui, causat 
+          <lb ed="#G" n="130"/>animal viuum: sic &amp;c. Est enim caelum quasi quoddam 
+          <lb ed="#G" n="131"/>vniuersale seminarium ipsius Dei respectu omnium
+          infe<lb ed="#G" n="132" break="no"/>riorum, quod quidem seminarium ad suum opus exequo 
+          <lb ed="#G" n="133"/>dum applicatur quadam ordinatione diuina, medianti 
+          <lb ed="#G" n="134"/>motu causato ab i psis angelis 
+        </p>
+        <p xml:id="HuYgTa-123148-d1e564">
+          <lb ed="#G" n="135"/>
+          <pc type="indent"/>Ad secundum dicendum, quod propter huiusmodi
+          v<lb ed="#G" n="136" break="no"/>rietatem virtutum, quam videmus in partibus caeli, non 
+          <lb ed="#G" n="137"/>oportet nos dicere caelum proprie animatum, nam saepius 
+          <lb ed="#G" n="138"/>contingit, quod vnus lapis continuus est alterius virtutis in 
+          <!--363.xml-->
+          <pb ed="#G" n="162-v"/>
+          <cb ed="#G" n="a"/>
+          <lb ed="#G" n="1"/>vna parte sui, quam in alia parte. Ego enimlipse vidi, quod 
+          <lb ed="#G" n="2"/>calamita traxit ferrum in vna sui parte, &amp; in multis alijs 
+          <lb ed="#G" n="3"/>suis partibus penitus nihil traxit 
+        </p>
+        <p xml:id="HuYgTa-123148-d1e590">
+          <lb ed="#G" n="4"/>
+          <pc type="indent"/>Et per hoc etiam patet ad tertium argumentum
+        </p>
+        <p xml:id="HuYgTa-123148-d1e597">
+          <lb ed="#G" n="5"/>Ad quartum dicendum, quod corpus celeste non dehet d 
+          <lb ed="#G" n="6"/>ci mathematicum, quamuis non sit proprie animatum: quia 
+          <lb ed="#G" n="7"/>multis qualitatibus videmus corpus coeleste esse coniun 
+          <lb ed="#G" n="8"/>ctum, mathematicum autem corpus abstrahit ab oi quali 
+          <lb ed="#G" n="9"/>tate. Quomodo autem in coelo sit principium naturale re 
+          <lb ed="#G" n="10"/>spectu motus caelestis, patebit in sequenti conclusione 
+        </p>
+        <p xml:id="HuYgTa-123148-d1e613">
+          <lb ed="#G" n="11"/>
+          <pc type="indent"/>Ad quintum dicendum, quod quamuis intelligentia 
+          <lb ed="#G" n="12"/>non sint immersae corporibus coelorum formaliter: tamet 
+          <lb ed="#G" n="13"/>per intellectum &amp; voluntatem possunt mouere orbes, vt 
+          <lb ed="#G" n="14"/>superius declaraui dist. 8. istius secundi sententiarum, 
+        </p>
+        <p xml:id="HuYgTa-123148-d1e626">
+          <lb ed="#G" n="15"/>
+          <pc type="indent"/>Ad dicta Commentatoris &amp; ceterorum philosophorum 
+          <lb ed="#G" n="16"/>dicendum, quod ipsi appellabant quandoque
+          intelligen<lb ed="#G" n="17" break="no"/>tiam animam coeli, propter maximam proportionem, quam 
+          <lb ed="#G" n="18"/>considerabant intelligentiam motricem habere ad suum 
+          <lb ed="#G" n="19"/>mobile. Dicebant etiam coelum viuere per talem intelli 
+          <lb ed="#G" n="20"/>gentiam: quia motum primum, qui est vita in entibus, us 
+          <lb ed="#G" n="21"/>dicitur. <ref xml:id="HuYgTa-123148-Rd1e645">8. physicorum</ref>, recipiebat coelum ab ipsa intelligen 
+          <lb ed="#G" n="22"/>tia. Etiam omnis motus aliquo modo dicitur opus vita 
+          <lb ed="#G" n="23"/>intantum, quod etiam aquae semper in motu existentes di 
+          <lb ed="#G" n="24"/>cuntur aquae viuae: stantes vero dicuntur mortue. Dicta est 
+          <lb ed="#G" n="25"/>philolophorum hic non sunt ad propositum, cum modo 
+          <lb ed="#G" n="26"/>Christianae fidei volumus istam tractare materiam:
+          qui<lb ed="#G" n="27" break="no"/>ipsi philosophi posuerunt motum aeternum, nec aliquor 
+          <lb ed="#G" n="28"/>inconueniens reputassent ipsas motrices orbium num 
+          <lb ed="#G" n="29"/>quam intrare coelum empyreum pro sua beatitudine, sal 
+          <lb ed="#G" n="30"/>tem accidentali cumulanda quia ipsi tale coelum non po 
+          <lb ed="#G" n="31"/>suerunt. Fideles igitur, qui secundum fidem Christianam 
+          <lb ed="#G" n="32"/>in coelo empvreo asserunt congregari post diem iudici 
+          <lb ed="#G" n="33"/>vniuersitatem omnium beatorum, tam hominum, quam 
+          <lb ed="#G" n="34"/>angelorum; aliter debent loqui in hac materia, quam ph 
+          <lb ed="#G" n="35"/>dophi, etiam dato, quod predicta opinio fuisset philosophorum 
+        </p>
+        <p xml:id="HuYgTa-123148-d1e679">
+          <lb ed="#G" n="36"/>
+          <pc type="indent"/>Nec valet ista responsio, qua soluit ad instantiam: qui 
+          <lb ed="#G" n="37"/>quamuis secundum illam solutionem non liceret
+          adora<lb ed="#G" n="38" break="no"/>re coelum adoratione latriae: posset tamen adorati
+          adora<lb ed="#G" n="39" break="no"/>tione duliae, quae adoratio exhibetur rebus sanctis, quae 
+          <lb ed="#G" n="40"/>lunt citra primum principium. 
+        </p>
+        <p xml:id="HuYgTa-123148-d1e696">
+          <lb ed="#G" n="41"/>
+          <pc type="indent"/>Secundo dico, quod motus coeli est sibi connaturalis. 
+          <lb ed="#G" n="42"/>inquantum coelum naturalem habet inclinationem ad ta 
+          <lb ed="#G" n="43"/>lem motum, scilicet circularem. 
+        </p>
+        <p xml:id="HuYgTa-123148-d1e707">
+          <lb ed="#G" n="44"/>
+          <pc type="indent"/>Nam sicut motus deorsum est naturalis ipsi graui; &amp;  
+          <lb ed="#G" n="45"/>motus sursum est naturalis ipsi leui; eo quod grauia naturalem 
+          <lb ed="#G" n="46"/>habent inclinationem ad cetrum, &amp; leuia a centro, sic com 
+          <lb ed="#G" n="47"/>lum eo, quod nec graue sit, nec leue, naturalem videtur habe 
+          <lb ed="#G" n="48"/>re inclinationem ad moueri circa centrum, Vnde, vt
+          ma<lb ed="#G" n="49" break="no"/>iorem habilitatem haberet ad talem motum, scilicet
+          cir<lb ed="#G" n="50" break="no"/>cularem: ideo figuram sphaericam tribuit illi Deus. 
+          <lb ed="#G" n="51"/>2 Praeterea, quicquid est a causa superiori secundun 
+          <lb ed="#G" n="52"/>Commentatorem, hoc est rebus naturale : per hoc enim 
+          <lb ed="#G" n="53"/>saluat Commentator, quod sphaera ignis non mouetur viol 
+          <lb ed="#G" n="54"/>ter circulariter, quia nullum violentum perpetuum, sed 
+          <lb ed="#G" n="55"/>naturaliter, vt ait, mouetur circulariter, eo quod hoc sib 
+          <lb ed="#G" n="56"/>compet at per causam superiorem. Sed motus coeli actiui 
+          <lb ed="#G" n="57"/>est a causa superiori; scilicet ab ipsa intelligentia, &amp; ab
+          ip<lb ed="#G" n="58" break="no"/>so Deo. Nam intelligentia mouetur a Deo ad hoc, vt mo 
+          <lb ed="#G" n="59"/>ueat orbem. Vnde de Deo dicitur <ref xml:id="HuYgTa-123148-Rd1e746">12, metaphy.</ref> Mouet 
+          <lb ed="#G" n="60"/>autem, vt desideratum, &amp; amatum, scilicet ipsas intelligs 
+          <lb ed="#G" n="61"/>tias, quae motae a Deo vt desiderantes &amp; amantes, vlterius 
+          <lb ed="#G" n="62"/>mouent ipsos orbes: igitur etiam vt sic, motus coeli potesi 
+          <lb ed="#G" n="63"/>dici naturalis ipsi coelo 
+        </p>
+        <p xml:id="HuYgTa-123148-d1e758">
+          <lb ed="#G" n="64"/>
+          <pc type="indent"/>Sed contrarium istius conclusionis videtur tenere qui 
+          <lb ed="#G" n="65"/>dam doctor: Et probat tripliciter, quod motus coeli naturalis 
+          <lb ed="#G" n="66"/>dici non possit
+        </p>
+        <p xml:id="HuYgTa-123148-d1e769">
+          <lb ed="#G" n="67"/>1 Primo sic. Natura corporis simplicis inclinat ad vnum 
+          <lb ed="#G" n="68"/>motum simplicem: sed in coelo non est vnus motus tan 
+          <lb ed="#G" n="69"/>tum, sed plures: quia ibi sunt motus opposit: cum motu 
+          <lb ed="#G" n="70"/>primi mobilis sit ab oriente in occidens: motus vero
+          pla<lb ed="#G" n="71" break="no"/>netarum econuerso, ergo &amp;c 
+        </p>
+        <p xml:id="HuYgTa-123148-d1e782">
+          <lb ed="#G" n="72"/>
+          <pc type="indent"/>Praeterea, motus est naturalis ex conaturalitate m 
+          <lb ed="#G" n="73"/>bilis ad terminum: cum igitur locus sit terminus motus 
+          <!--363.xml-->
+          <cb ed="#G" n="b"/>
+          <lb ed="#G" n="74"/>localis: igitur quamuis connaturalites mobilis pessit ca 
+          <lb ed="#G" n="75"/>are motum naturalem ad locum, non tamen potest
+          cau<lb ed="#G" n="76" break="no"/>sare motum in loco.
+        </p>
+        <p xml:id="HuYgTa-123148-d1e802">
+          <lb ed="#G" n="77"/>3 Praeterea, si motus celi esset naturalis, quies in eoden 
+          <lb ed="#G" n="78"/>loco esset violenta: sed cousequens est falsum: quia in
+          fi<lb ed="#G" n="79" break="no"/>ne mundi, cum cessabit coelum a motu, esset in deteriori 
+          <lb ed="#G" n="80"/>dispositone, quam nunc, quod est ponendum 
+        </p>
+        <p xml:id="HuYgTa-123148-d1e814">
+          <lb ed="#G" n="81"/>
+          <pc type="indent"/>Sed ista non concludunt: igitur 
+          <lb ed="#G" n="82"/>Ad primum dicendum ad minorem, quod sicut in
+          coe<lb ed="#G" n="83" break="no"/>lo sunt plures motus, sic sunt plura mobilia: &amp; sicut in ips 
+          <lb ed="#G" n="84"/>uis mobilibus est conuenientia, &amp; differentia, sic etiam in 
+          <lb ed="#G" n="85"/>motibus. Conueniunt. nm omnia mobilia ceelestia in hoc 
+          <lb ed="#G" n="86"/>quod habent qualitatem neutram, puta quae nec est
+          gra<lb ed="#G" n="87" break="no"/>uitas, nec leuitas. Et ideo omnis motus coelestium
+          mobi<lb ed="#G" n="88" break="no"/>lium in hoc conueniunt, quod sunt circulares. Eadem
+          ta<lb ed="#G" n="89" break="no"/>men mobilia differunt inter se secundum aliquas propria 
+          <lb ed="#G" n="90"/>eorum qualitates, &amp; dispositi ones, secundum hoc, etiam  
+          <lb ed="#G" n="91"/>non obstante iam dicta coelestium motuum
+          conuenien<lb ed="#G" n="92" break="no"/>tia, ipsi tamen possunt differre inter se 
+        </p>
+        <p xml:id="HuYgTa-123148-d1e845">
+          <lb ed="#G" n="93"/>
+          <pc type="indent"/>Ad secundum dicendum, quod quamuis
+          connaturali<lb ed="#G" n="94" break="no"/>tas mobilis ad locum non causet motum in loco, loquen 
+          <lb ed="#G" n="95"/>do de motu recto, bene tamen causat motum circularem 
+          <lb ed="#G" n="96"/>in loco, 
+        </p>
+        <p xml:id="HuYgTa-123148-d1e858">
+          <lb ed="#G" n="97"/>
+          <pc type="indent"/>Ad tertium nego consequentiam, loquendo de motu 
+          <lb ed="#G" n="98"/>circulari, quia talis motus non est ad locum, sed est in
+          lo<lb ed="#G" n="99" break="no"/>co; &amp; ideo in eodem loco, in quo naturaliter mouetur, 
+          <lb ed="#G" n="100"/>cessante motore ab operatione, naturaliter qescit. Quia 
+          <lb ed="#G" n="101"/>sicut coelum nunc propter qualitatem neutram, nec mo 
+          <lb ed="#G" n="102"/>uetur ad centrum, nec a centro, sed circa centrum, sit pri 
+          <lb ed="#G" n="103"/>pter eandem qualitatem, cessante motore ab actu
+          moue<lb ed="#G" n="104" break="no"/>di, quies eius naturalis nec erit in centro, nec super
+          cen<lb ed="#G" n="105" break="no"/>trum, sed circa centrum 
+        </p>
+        <p xml:id="HuYgTa-123148-d1e882">
+          <lb ed="#G" n="106"/>
+          <pc type="indent"/>ARTICVLVS I1 
+          <lb ed="#G" n="107"/>Vtrum coelum sit causa horum inferiorum
+        </p>
+        <p xml:id="HuYgTa-123148-d1e891">
+          <lb ed="#G" n="108"/>SVANTVM ad secundum articulum pono tres bre 
+          <lb ed="#G" n="109"/> ues conclusiones. Prima est, quod coelum habet 
+          <lb ed="#G" n="110"/>actionem realem in ista inferiora. Ista conclusio non indi 
+          <lb ed="#G" n="111"/>get multa probatione
+        </p>
+        <p xml:id="HuYgTa-123148-d1e902">
+          <lb ed="#G" n="112"/>1 Quia quotidie multas reales alterationes percipi 
+          <lb ed="#G" n="113"/>mus, quas in nullum aliud agens reducere possumus, quam 
+          <lb ed="#G" n="114"/>in ipsum coelum; ergo &amp;c
+        </p>
+        <p xml:id="HuYgTa-123148-d1e912">
+          <lb ed="#G" n="115"/>2 Praeterea, huiusmodi effectus reales competere
+          ip<lb ed="#G" n="116" break="no"/>sis abstris est demonstratiue probatum in ipsa Astrologia 
+          <lb ed="#G" n="117"/>ergo &amp;c
+        </p>
+        <p xml:id="HuYgTa-123148-d1e921">
+          <lb ed="#G" n="118"/>3 Praeterea, sicut omnis motus reducitur in mouen 
+          <lb ed="#G" n="119"/>immobile: sic omnis corporalis alteratio reducitur in
+          al<lb ed="#G" n="120" break="no"/>terans inalterabile; sed ipsum coelum secundum
+          philo<lb ed="#G" n="121" break="no"/>sophum, &amp; Commentatorem est primum alterans inalte 
+          <lb ed="#G" n="122"/>rabile; ergo &amp;c
+        </p>
+        <p xml:id="HuYgTa-123148-d1e934">
+          <lb ed="#G" n="123"/>4 Praeterea, quod habet causalitatem super
+          nobilissi<lb ed="#G" n="124" break="no"/>mam speciem rerum inferiorum, ab illo non potest dene 
+          <lb ed="#G" n="125"/>gari causalitas respectu inferiorum; coelum est huiusmod 
+          <lb ed="#G" n="126"/>quia habet causalitatem super hominem, qui est nobilissi 
+          <lb ed="#G" n="127"/>ma species inferiorum: dicitur enim 2. physicorum, quod 
+          <lb ed="#G" n="128"/>homo generat hominem &amp; Soll ergo &amp;c 
+        </p>
+        <p xml:id="HuYgTa-123148-d1e950">
+          <lb ed="#G" n="129"/>
+          <pc type="indent"/>Secunda conclusio est, quod motus coeli non est ipsi coelo 
+          <lb ed="#G" n="130"/>per se ratio agendi in ista inferiora 
+        </p>
+        <p xml:id="HuYgTa-123148-d1e959">
+          <lb ed="#G" n="131"/>
+          <pc type="indent"/>Quia illud quod est per se ratio agendi, semper
+          po<lb ed="#G" n="132" break="no"/>nit in ipso agente aliquam formam absolutam habentem 
+          <lb ed="#G" n="133"/>esse permanens in ipso agente, sed motus coeli nihil tal 
+          <lb ed="#G" n="134"/>ponit in ipso agente, scilicet coelo; nam si poneret huius 
+          <lb ed="#G" n="135"/>modi formam in coelo; vel talis forma esset substantialis) 
+          <lb ed="#G" n="136"/>&amp; tunc motus celi esset generatio, vel accidentalis; &amp; tum 
+          <lb ed="#G" n="137"/>esset alteratio, si talis forma esset qualitas; vel
+          augmen<lb ed="#G" n="138" break="no"/>tatio, si esset quantitas, sed coelum nec alteratur, nec
+          au<lb ed="#G" n="139" break="no"/>getur, ergo &amp; 
+        </p>
+        <p xml:id="HuYgTa-123148-d1e983">
+          <lb ed="#G" n="140"/>
+          <pc type="indent"/>Praeterea, illud, quod est formaliter suceessiuum non 
+          <!--364.xml-->
+          <pb ed="#G" n="163-r"/>
+          <cb ed="#G" n="a"/>
+          <lb ed="#G" n="1"/>permanens, sed motus caeli est formaliter suceessiuus, ea, 
+          <lb ed="#G" n="2"/>quae, producuntur per caelum, sunt formaliter
+          permanen<lb ed="#G" n="3" break="no"/>tia, ficut patet in istis rebus inferioribus a caelo productis 
+          <lb ed="#G" n="4"/>Minor est nota. Probo maiorem, quia, cum causa non sit 
+          <lb ed="#G" n="5"/>minoris permanentiae, quam effectus, impossibile esse
+          vi<lb ed="#G" n="6" break="no"/>detur, quod illud, quod est per se ratio producendi alte 
+          <lb ed="#G" n="7"/>rum, sit formaliter suceessiuum, dum ipsum productun 
+          <lb ed="#G" n="8"/>est vere res permanens 
+        </p>
+        <p xml:id="HuYgTa-123148-d1e1015">
+          <lb ed="#G" n="9"/>
+          <pc type="indent"/>Tertio dico, quod motus caeli non est causa sine qua 
+          <lb ed="#G" n="10"/>non, seu necessario requisitus quantum ad omnem
+          ope<lb ed="#G" n="11" break="no"/>rationem, quam celum habet in ista inferiora. 
+        </p>
+        <p xml:id="HuYgTa-123148-d1e1026">
+          <lb ed="#G" n="12"/>
+          <pc type="indent"/>Quia dato, quod Sol stet in medio caeli, nec aliquod 
+          <lb ed="#G" n="13"/>corpus caeleste moueatur, adhuc Sol inferiora illumina 
+          <lb ed="#G" n="14"/>ret, &amp; refsectendo radios suos super terram vere, &amp; reali 
+          <lb ed="#G" n="15"/>ter calefaceret, quia ex quo calor generatur ex reflexio.  
+          <lb ed="#G" n="16"/>ne radiorum solarium super terram, vt patet in libro cel 
+          <lb ed="#G" n="17"/>&amp; mundi: &amp; radii non minus, sed magis reflecterentur, si 
+          <lb ed="#G" n="18"/>Sol fixe staret, quam nunc: cum mobiliter transit, non pos 
+          <lb ed="#G" n="19"/>sum videre, quin cessante motu caeli, Sol realiter possit ca 
+          <lb ed="#G" n="20"/>lorem generare.
+        </p>
+        <p xml:id="HuYgTa-123148-d1e1050">
+          <lb ed="#G" n="21"/>2 Praeterea, caelum empvreum realem habet
+          insluen<lb ed="#G" n="22" break="no"/>tiam in haec inferiora, vt patebit in artic. 4. &amp; tamen
+          nu<lb ed="#G" n="23" break="no"/>quam mouetur: igitur pari ratione &amp; ceteri celi non mo 
+          <lb ed="#G" n="24"/>ti, possunt habere realem actionem. 
+        </p>
+        <p xml:id="HuYgTa-123148-d1e1061">
+          <lb ed="#G" n="25"/>
+          <pc type="indent"/>Praeterea, corpus corruptibile manens immotum, 
+          <lb ed="#G" n="26"/>potest habere actionem realem : ergo &amp; corpus incorrum 
+          <lb ed="#G" n="27"/>ptibile, cuiusmodi est caelum consequentia patet: ante 
+          <lb ed="#G" n="28"/>cedens ad sensum apparet de ipso Magnete, qui manen 
+          <lb ed="#G" n="29"/>penitus immotus, trahit ad seipsum ferrum: &amp; ignis
+          ma<lb ed="#G" n="30" break="no"/>nens in eodem loco calefacit omne sibi approximatum, 
+          <lb ed="#G" n="31"/>Nec valet, si dicitur, quod hoc facit praesupponendo
+          mo<lb ed="#G" n="32" break="no"/>tum caeli, quia articulus Parisiensis dicit, Dicere, quod igni 
+          <lb ed="#G" n="33"/>non possit comburere stupam sibi approximatam, stante 
+          <lb ed="#G" n="34"/>motu caeli, error. 
+        </p>
+        <p xml:id="HuYgTa-123148-d1e1087">
+          <lb ed="#G" n="35"/>
+          <pc type="indent"/>Sed contra istam conclusionem sunt quidam
+          reueren<lb ed="#G" n="36" break="no"/>di doctores, qui ponunt, quod, si celum non mouereturi 
+          <lb ed="#G" n="37"/>nullo modo posset agere actione reali in ista
+          inferio<lb ed="#G" n="38" break="no"/>ra, quamuis sibi posset competere actio spiritualis,
+          pu<lb ed="#G" n="39" break="no"/>ta illuminare. 
+        </p>
+        <p xml:id="HuYgTa-123148-d1e1103">
+          <lb ed="#G" n="40"/>
+          <pc type="indent"/>Dicit etiam doctor communis, quod cessante
+          actio<lb ed="#G" n="41" break="no"/>ne ipsius intelligentiae ita, quod non amplius moucat ca 
+          <lb ed="#G" n="42"/>lum, oportet, quod cesset actio corporis caelestis respectu 
+          <lb ed="#G" n="43"/>inferiorum: &amp; hoc loquendo de illa operatione, quae es 
+          <lb ed="#G" n="44"/>realis transmutatio, &amp; cessante tali operatione corpori 
+          <lb ed="#G" n="45"/>caelestis, oportet, quod cesset operatio elementaris, quia c 
+          <lb ed="#G" n="46"/>lum agit in virtute intelligentiae ipsum mouentis:
+          infe<lb ed="#G" n="47" break="no"/>riora vero agunt in virtute caeli: ergo &amp;c. 
+          <lb ed="#G" n="48"/>2 Praeterea, istud aliqui istorum doctorum confirmant 
+          <lb ed="#G" n="49"/>sic. Conditio primi principij non competit ipsi caelo, sec 
+          <lb ed="#G" n="50"/>agere non motum est conditio primi principij: ergo caelun 
+          <lb ed="#G" n="51"/>non potest habere realem actionem nisi moucatur. 
+        </p>
+        <p xml:id="HuYgTa-123148-d1e1135">
+          <lb ed="#G" n="52"/>
+          <pc type="indent"/>Praeterea, primum in vnoquoque genere est causa o 
+          <lb ed="#G" n="53"/>mnium ceterorum illius generis, sed motus caeli est
+          pri<lb ed="#G" n="54" break="no"/>mus omnium motuum, vt patet <ref xml:id="HuYgTa-123148-Rd1e1145">8. physicorum</ref>. Cum
+          igi<lb ed="#G" n="55" break="no"/>tur cessante causa, cesset effectus, saitem quo ad suum
+          he<lb ed="#G" n="56" break="no"/>ri: igitur cessante motu caeli, non poterit ficri aliqui  
+          <lb ed="#G" n="57"/>motus in rebus inferioribus. 
+        </p>
+        <p xml:id="HuYgTa-123148-d1e1156">
+          <lb ed="#G" n="58"/>
+          <pc type="indent"/>Sed istis non obstantibus, teneo primam conclusionem 
+          <lb ed="#G" n="59"/>maxime propter articulum iam dictum Parisiis
+          excom<lb ed="#G" n="60" break="no"/>municatum, quem nescirem bene glosare pro ista
+          secun<lb ed="#G" n="61" break="no"/>da opinione.
+        </p>
+        <p xml:id="HuYgTa-123148-d1e1169">
+          <lb ed="#G" n="62"/>2 Praeterea, ignis infernalis, cessante motu caeli, aget 
+          <lb ed="#G" n="63"/>naturaliter in corpora damnatorum. Vnde magis reputo 
+          <lb ed="#G" n="64"/>Dei miraculum, quod huiusmodi corpora non incineren 
+          <lb ed="#G" n="65"/>tur, &amp; dissoluantur, quam, quod ab igne comburantur 
+          <lb ed="#G" n="66"/>Primum enim est supernaturale: secundum autem
+          natu<lb ed="#G" n="67" break="no"/>rale, non obstante motus caeli cessatione 
+        </p>
+        <p xml:id="HuYgTa-123148-d1e1185">
+          <lb ed="#G" n="68"/>
+          <pc type="indent"/>Ad primum eorum motiuum dicendum, quod caelun 
+          <lb ed="#G" n="69"/>non agit in virtute intelligentiae quantum ad quamlibet 
+          <lb ed="#G" n="70"/>sui operationem, quia, sicut isti met dicunt, caelum potess 
+          <lb ed="#G" n="71"/>haec inferiora illuminare, cessante operatione
+          intelli<lb ed="#G" n="72" break="no"/>gentiae, sed incidentia radiorum solarium, &amp; reflexio est 
+          <lb ed="#G" n="73"/>causa caloris, &amp; incendij, ergo quo ad talem operationen 
+          <!--364.xml-->
+          <cb ed="#G" n="b"/>
+          <lb ed="#G" n="74"/>etiam realem non dependet ab intelligentia 
+        </p>
+        <p xml:id="HuYgTa-123148-d1e1209">
+          <lb ed="#G" n="75"/>
+          <pc type="indent"/>Ad secundum dicendum, quod agere non motum
+          lo<lb ed="#G" n="76" break="no"/>caliter non est primi principij conditio, sed agere sic non 
+          <lb ed="#G" n="77"/>motum, puta, quod non praesupponat aliquam infiuenti 
+          <lb ed="#G" n="78"/>causae superioris. Primo modo multae creaturae agunt non 
+          <lb ed="#G" n="79"/>motae, vt appatet de magneto. Sed secundo modo, nulla 
+          <lb ed="#G" n="80"/>creatura agit non mota, quia omnis creatura agens aliquo 
+          <lb ed="#G" n="81"/>modo alteratur per insiuentiam causae superioris. Etiam 
+          <lb ed="#G" n="82"/>ratio est contra facientes eam, quia per eandem forman 
+          <lb ed="#G" n="83"/>probaretur, quod sol non posset illuminare, sicut, quod 
+          <lb ed="#G" n="84"/>non posset transmutare, cum tamen isti ponant, sicut di 
+          <lb ed="#G" n="85"/>necessitate ponere coguntur per vaticinium lsaiae
+          pro<lb ed="#G" n="86" break="no"/>phetae, quod cessante motu caeli, erit lumen Cunae, sicus 
+          <lb ed="#G" n="87"/>nunc est lumen Solis; &amp; lumen Solis septempliciter.
+        </p>
+        <p xml:id="HuYgTa-123148-d1e1242">
+          <lb ed="#G" n="88"/>Ad tertium dicendum ad maiorem, quia primum in go 
+          <lb ed="#G" n="89"/>nere est causa ceterorum, non quantum ad esse
+          simplici<lb ed="#G" n="90" break="no"/>ter, &amp; absolute, sed quantum ad esse mensuratum: sicut  
+          <lb ed="#G" n="91"/>igitur cessante albedine, quae est primus color mensurans 
+          <lb ed="#G" n="92"/>omnem alium colorem, non oporteret omnem alium con 
+          <lb ed="#G" n="93"/>lorem cessare simpliciter, sed solum cessare quantum ac 
+          <lb ed="#G" n="94"/>esse mensuratum, quod ceteris coloribus competit per 
+          <lb ed="#G" n="95"/>albedinem secundum modum, quem videmus penes istum 
+          <lb ed="#G" n="96"/>cursum rerum coloratarum, sic in proposito &amp;c 
+        </p>
+        <p xml:id="HuYgTa-123148-d1e1265">
+          <lb ed="#G" n="97"/>
+          <pc type="indent"/>Et si dicitur, quod dicta philosophorum sunt contra 
+          <lb ed="#G" n="98"/>me quo ad istam conclusionem 
+        </p>
+        <p xml:id="HuYgTa-123148-d1e1274">
+          <lb ed="#G" n="99"/>
+          <pc type="indent"/>Respondeo dupliciter. Primo, quod philosophos in isto 
+          <lb ed="#G" n="100"/>non multum curo; quia ipsi crediderunt, quod impossibi 
+          <lb ed="#G" n="101"/>le esset motum celi cessare; aequa enim facilitate concedi 
+          <lb ed="#G" n="102"/>ret philosophus totam mundi machinam destrui, sicut 
+          <lb ed="#G" n="103"/>motum caeli cessare: quia frustra secundum eum esset
+          ip<lb ed="#G" n="104" break="no"/>sum caelum, si non moueretur: &amp; frustra esset angelus,
+          si<lb ed="#G" n="105" break="no"/>ue intelligentia, si non moueret. Deus autem &amp; natura 
+          <lb ed="#G" n="106"/>secundum philosophum non possunt aliquid facere frustra¬ 
+        </p>
+        <p xml:id="HuYgTa-123148-d1e1296">
+          <lb ed="#G" n="107"/>
+          <pc type="indent"/>Secundo dico, quod supposito per impossibile apud 
+          <lb ed="#G" n="108"/>philosophum, quod caelum maneat, cessante motu: &amp; So 
+          <lb ed="#G" n="109"/>&amp; Cuna, &amp; stellae illuminent haec inferiora : philosophu 
+          <lb ed="#G" n="110"/>non negaret actionem realem ab ipso caelo, quamuis
+          ne<lb ed="#G" n="111" break="no"/>garet nouitatem, &amp; variationem actionis realis. Ipse enim 
+          <lb ed="#G" n="112"/>haberet dicere, quod sicut Sol semper illuminaret istuc 
+          <lb ed="#G" n="113"/>emisperium, &amp; numquam ab eo recederet, sic semper
+          ca<lb ed="#G" n="114" break="no"/>efaceret, &amp; semper causaret aestatem, &amp; nuquam
+          hyemen<lb ed="#G" n="115" break="no"/>Propter hoc secundo de generatione cum prius ostendi 
+          <lb ed="#G" n="116"/>set cursum Solis in circulo vodiaco esse causam totius va 
+          <lb ed="#G" n="117"/>rietatis in istis inferioribus; tandem circa finem addit, quod 
+          <lb ed="#G" n="118"/>idem manens idem, semper facit idem: 
+        </p>
+        <p xml:id="HuYgTa-123148-d1e1327">
+          <lb ed="#G" n="119"/>
+          <pc type="indent"/>ARTICVLVS IIL 
+          <lb ed="#G" n="120"/>eotrum caolum habeat insiuentium super fi 
+          <lb ed="#G" n="121"/>
+          <pc type="indent"/>berum arbitrumi.
+        </p>
+        <p xml:id="HuYgTa-123148-d1e1340">
+          <lb ed="#G" n="122"/>VANTVM ad tertium articulum pono duas
+          con<lb ed="#G" n="123" break="no"/>clusiones. Prima est, quod celum non potest dire 
+          <lb ed="#G" n="124"/>cte agere in liberum arbitrium. 
+        </p>
+        <p xml:id="HuYgTa-123148-d1e1349">
+          <lb ed="#G" n="125"/>
+          <pc type="indent"/>Quia res pure corporalis non potest directe in rem 
+          <lb ed="#G" n="126"/>simpliciter spitirualem: sed celum est res simpliciter
+          cor<lb ed="#G" n="127" break="no"/>poralis; voluntas autem siue liberum arbitrium est res
+          sim<lb ed="#G" n="128" break="no"/>pliciter spiritualis: ergo &amp;c.
+        </p>
+        <p xml:id="HuYgTa-123148-d1e1363">
+          <lb ed="#G" n="129"/>2 Praeterea, nullum pure passiuum est liberum, sed si 
+          <lb ed="#G" n="130"/>caelum directe ageret in liberum arbitrium, tuc liberum 
+          <lb ed="#G" n="131"/>arbitrium respectu talis actionis esset pure passiusi, &amp; sic 
+          <lb ed="#G" n="132"/>liberum arbitrium non esset liberum, quod est
+          contradi<lb ed="#G" n="133" break="no"/>ctio. minor est nota: patet etiam maior, quia in libertate 
+          <lb ed="#G" n="134"/>pure passiui non est pati, vel non pati, sed necesse est ipsum 
+          <lb ed="#G" n="135"/>pati, cum virtus agentis directe ipsum attingit 
+        </p>
+        <p xml:id="HuYgTa-123148-d1e1381">
+          <lb ed="#G" n="136"/>
+          <pc type="indent"/>Praeterea, ex puris naturalibus nec laudamur, nec vi 
+          <lb ed="#G" n="137"/>tuperamur, vt patet in ethic sed si caelum directe agere 
+          <lb ed="#G" n="138"/>in liberum arbitrium: tunc actus liberi arbitrij essent
+          pu<lb ed="#G" n="139" break="no"/>re naturales: igitur in actibus liberi arbitrij nec esset
+          vir<lb ed="#G" n="140" break="no"/>tus, nec vitium &amp; per consequens nec ipsis deberetur pra 
+          <lb ed="#G" n="141"/>mium, neque poena, quod est contra fidem 
+        </p>
+        <p xml:id="HuYgTa-123148-d1e1399">
+          <lb ed="#G" n="142"/>
+          <pc type="indent"/>Per primam rationem patet, quod falsa est quaedam
+          opi<lb ed="#G" n="143" break="no"/>nio, quae ponit, quod corpus caeleste directe agit in liberum 
+          <!--365.xml-->
+          <pb ed="#G" n="163-v"/>
+          <cb ed="#G" n="a"/>
+          <lb ed="#G" n="1"/>arbitrium, quia cum omne, quod recipitur, ad modum rei 
+          <lb ed="#G" n="2"/>recipientis reperiatur; ideo talis actio, quamuis necessaria 
+          <lb ed="#G" n="3"/>sit ex parte agetis, libere tmen recipitur in libero arbitrio 
+          <lb ed="#G" n="4"/>&amp; per consequens non impedit liberam eius actionem 
+        </p>
+        <p xml:id="HuYgTa-123148-d1e1423">
+          <lb ed="#G" n="5"/>
+          <pc type="indent"/>Ex duabus vero aliis rationibus patet, quod adhuc fal 
+          <lb ed="#G" n="6"/>sior est illa antiqua opinio, quae posuit, quod caelum sic di 
+          <lb ed="#G" n="7"/>ecte agit in liberum arbitrium, quod ipsum necessitatur 
+          <lb ed="#G" n="8"/>in sua inclinatione secundum necessarium motum caeli¬ 
+        </p>
+        <p xml:id="HuYgTa-123148-d1e1436">
+          <lb ed="#G" n="9"/>
+          <pc type="indent"/>Has etiam ambas opiniones simul refellit <ref xml:id="HuYgTa-123148-Rd1e1442">Aristotele 
+            <lb ed="#G" n="10"/>2. de anima</ref> dicens quod iste, qui dicit voluntatem hom  
+          <lb ed="#G" n="11"/>nis augeri ad praesens; id est subiectam esse directe
+          tem<lb ed="#G" n="12" break="no"/>pori, &amp; per consequens motui ipsius caeli, talis dicit
+          intel<lb ed="#G" n="13" break="no"/>lectum esse sensum, quasi dicat, si voluntas esset immedi 
+          <lb ed="#G" n="14"/>te subiecta motui caelesti; tunc voluntas esset appetitus 
+          <lb ed="#G" n="15"/>sensitiuus, quo posito sequitur, quod intellectus, qui est 
+          <lb ed="#G" n="16"/>virtus cognitiua respondens voluntati, esset sensus, quia 
+          <lb ed="#G" n="17"/>est uirtus cognita, respondens appetitui sensitiuo. 
+        </p>
+        <p xml:id="HuYgTa-123148-d1e1463">
+          <lb ed="#G" n="18"/>
+          <pc type="indent"/>Sed contra philosophum posset instari sic. Sicut se haber 
+          <lb ed="#G" n="19"/>mobile ad mobile: sic motor ad motorem, sed mobile caele 
+          <lb ed="#G" n="20"/>ste mediatam habet, &amp; directam actionem in corpus
+          huma<lb ed="#G" n="21" break="no"/>num: ergo motor caelestis directe aget in animam humanam, 
+          <lb ed="#G" n="22"/>quae est motor corporis humani, sed secundum
+          philoso<lb ed="#G" n="23" break="no"/>phum intelligentia non potest moueri ad aliquam
+          for<lb ed="#G" n="24" break="no"/>mam, nisi mediante motu caelestis corporis: ergo caeleste 
+          <lb ed="#G" n="25"/>corpus directe, &amp; immediate aget in animam humanam. 
+        </p>
+        <p xml:id="HuYgTa-123148-d1e1486">
+          <lb ed="#G" n="26"/>
+          <pc type="indent"/>Respondeo, quod ista argumentatio non plus
+          conclu<lb ed="#G" n="27" break="no"/>dit, nisi, quod celum habeat directam infuentiam in
+          vi<lb ed="#G" n="28" break="no"/>res inferiores ipsius animae, secundum quas anima imme 
+          <lb ed="#G" n="29"/>diate mouet corpus: &amp; hoc conclusio mea negat: sed
+          ne<lb ed="#G" n="30" break="no"/>gat celum directe agere in liberum arbitrium, quod se to 
+          <lb ed="#G" n="31"/>net ex parte intellectus, &amp; uoluntatis, quae sunt poten 
+          <lb ed="#G" n="32"/>tiae superiores ipsius animae a Deo immediate creatae, &amp; 
+          <lb ed="#G" n="33"/>non eductae de potentia materiae, sicut potentiae
+          organi<lb ed="#G" n="34" break="no"/>cae, sensitiuae, &amp; motiuae¬
+        </p>
+        <p xml:id="HuYgTa-123148-d1e1510">
+          <lb ed="#G" n="35"/>Secundo dico, quod indirecte caelum potest agere in 
+          <lb ed="#G" n="36"/>liberum arbitrium. Nam cum appetitus sensitiuus, &amp;
+          ap<lb ed="#G" n="37" break="no"/>petitus intellectiuus radicaliter coniuncti sint in nobis; 
+          <lb ed="#G" n="38"/>sicut duae rotae connexae in eodem stipite, vt patet <ref xml:id="HuYgTa-123148-Rd1e1520">3. di 
+            <lb ed="#G" n="39"/>anima</ref>: ideo celum directe immutans sensitiuum appeti 
+          <lb ed="#G" n="40"/>tum aliquo modo indirecte etiam agit in appetitum
+          in<lb ed="#G" n="41" break="no"/>tellectiuum, &amp; per consequens in liberum arbitrium ipsum 
+          <lb ed="#G" n="42"/>alliciendo secundum immutationem virtutis sensitiui 
+          <lb ed="#G" n="43"/>Nec mirum, quia isto modo etiam res aliae, puta cibus, &amp; 
+          <lb ed="#G" n="44"/>potus, vires sensitiuas inflamantes possunt agere in libe 
+          <lb ed="#G" n="45"/>rum arbitrium, quamuis indirecte: omnes tamen talet 
+          <lb ed="#G" n="46"/>motus, gratia Dei cooperante, libertate a Deo nobis com 
+          <lb ed="#G" n="47"/>municata, possumus superare: iuxta quoed ait <name xml:id="HuYgTa-123148-Nd1e1543">Ptholomeus</name> 
+          <lb ed="#G" n="48"/>Sapiens dominabitur astris per sapientiam Propter quo 
+          <lb ed="#G" n="49"/>ait Dam as. <ref xml:id="HuYgTa-123148-Rd1e1550">2. libro</ref>. Nos autem liberi arbitrij a conditore 
+          <lb ed="#G" n="50"/>facti, existimus domini nostrorum actuum: si enim ex
+          astro<lb ed="#G" n="51" break="no"/>rum allatione agimus omnia secudum necessitatem, nec 
+          <lb ed="#G" n="52"/>virtus, nec vitium, seu malitia est in nobis. Haec ille 
+        </p>
+        <p xml:id="HuYgTa-123148-d1e1561">
+          <lb ed="#G" n="53"/>
+          <pc type="indent"/>ARTICVLVS III1 
+          <lb ed="#G" n="54"/>Vtrum aliquod colum habeat infiuentiam vealem in 
+          <lb ed="#G" n="55"/>haec inferiora non obstante quod ipsum 
+          <lb ed="#G" n="56"/>simmobile permaneat.
+        </p>
+        <p xml:id="HuYgTa-123148-d1e1574">
+          <lb ed="#G" n="57"/>VANTVM ad quartum articulum teneo
+          conclu<lb ed="#G" n="58" break="no"/>sionem affirmatiuam, quia caelum empyreum ha 
+          <lb ed="#G" n="59"/>bet influentiam in haec inferiora: ergo aliquod corpus i 
+          <lb ed="#G" n="60"/>mobile habet influentiam in haec inferiora, consequentia 
+          <lb ed="#G" n="61"/>patet: quia caelum empvreum est corpus immobile, vt pa 
+          <lb ed="#G" n="62"/>tet ex dictis superius, Antecedens probo, quia si non, tun 
+          <lb ed="#G" n="63"/>vniuersum non esset ordinate dispositum: consequens es 
+          <lb ed="#G" n="64"/>inconueniens, vt patet <ref xml:id="HuYgTa-123148-Rd1e1593">12. metaphysicae</ref>. probo consequen 
+          <lb ed="#G" n="65"/>tiam, quia illud, cuius partes non sunt connexae, nisi
+          se<lb ed="#G" n="66" break="no"/>cundum superficialem contactum: illud non est ordinate 
+          <lb ed="#G" n="67"/>dispositum: sed posito, quod caelum empvreum non ha 
+          <lb ed="#G" n="68"/>beat realem influentiam in corpora, quae sunt infra ipsum; 
+          <lb ed="#G" n="69"/>tunc solummodo coniungetur eis se cundum
+          superficia<lb ed="#G" n="70" break="no"/>lem contactum: ergo &amp;c. 
+          <!--365.xml-->
+          <cb ed="#G" n="b"/>
+          <lb ed="#G" n="71"/>Sed oppositum istius asserit quidam <ref xml:id="HuYgTa-123148-Rd1e1616">venerabilis doctor 
+            <lb ed="#G" n="72"/>in suo scripto. dist. 2. secundi libri sententiarum</ref> 
+        </p>
+        <p xml:id="HuYgTa-123148-d1e1622">
+          <lb ed="#G" n="73"/>
+          <pc type="indent"/>Quia eo ipso, quod celum empvreum non mouetur 
+          <lb ed="#G" n="74"/>non potest sibi competere aliqua realis influentia in
+          ce<lb ed="#G" n="75" break="no"/>tera corpora, quia corpus non agit nisi per motum 
+        </p>
+        <p xml:id="HuYgTa-123148-d1e1633">
+          <lb ed="#G" n="76"/>
+          <pc type="indent"/>2 Praeterea, arguunt quidam alij sic. Anima caeli non 
+          <lb ed="#G" n="77"/>habet aliquam influentiam in corpora ista inferiora nisi 
+          <lb ed="#G" n="78"/>per motum: ergo nec aliquod corpus, consequentia
+          pa<lb ed="#G" n="79" break="no"/>tet, quia secundum <ref xml:id="HuYgTa-123148-Rd1e1646">Augustinum in multis locis super 
+            <lb ed="#G" n="80"/>Sen.</ref> substantia spiritualis praestantior est omni corpore 
+          <lb ed="#G" n="81"/>Antecedens ponitur in <ref xml:id="HuYgTa-123148-Rd1e1653">Commento tertiae propositonis 
+            <lb ed="#G" n="82"/>libri de causis.</ref> 
+        </p>
+        <p xml:id="HuYgTa-123148-d1e1660">
+          <lb ed="#G" n="83"/>
+          <pc type="indent"/>Praeterea, talis influentia non posset recipi in istis 
+          <lb ed="#G" n="84"/>nferioribus, nisi prius reciperetur in corporibus caelesti 
+          <lb ed="#G" n="85"/>bus, quae mediant intes caelum empvyreum, &amp; inferiora 
+          <lb ed="#G" n="86"/>sed caelestia corpora non possunt recipere istam influen 
+          <lb ed="#G" n="87"/>tiam: ergo nec ista inferiora recipient eam.
+        </p>
+        <p xml:id="HuYgTa-123148-d1e1676">
+          <lb ed="#G" n="88"/>4 Item forte contra rationem adductam pro
+          conclu<lb ed="#G" n="89" break="no"/>sione dicetur, quod illa corpora, quae sunt ad alium, &amp; ad 
+          <lb ed="#G" n="90"/>alium statum ordinata: non oportet esse connexa nisi se 
+          <lb ed="#G" n="91"/>cundum superficialem contactum: sed caelum empyreum 
+          <lb ed="#G" n="92"/>est ordinatum ad statum patriae, &amp; alij caeli ad statum viae,  
+          <lb ed="#G" n="93"/>ergo &amp;c. Maior est nota. Sed minor quantum ad primam  
+          <lb ed="#G" n="94"/>sui partem patet ex <ref xml:id="HuYgTa-123148-Rd1e1693">dictis superius. distin. 2</ref>. Patet etiam  
+          <lb ed="#G" n="95"/>quantum ad secundam partem, quia caeli ordinantur ad 
+          <lb ed="#G" n="96"/>genetationem istorum inferiorum, quae solum est
+          neces<lb ed="#G" n="97" break="no"/>saria pro statu ipsius viae. 
+        </p>
+        <p xml:id="HuYgTa-123148-d1e1703">
+          <lb ed="#G" n="98"/>
+          <pc type="indent"/>bed ista non concludunt, quia aut celum empyreum agit 
+          <lb ed="#G" n="99"/>in seipsum, aut in alterum. Ista patet, quia nulla res penitus 
+          <lb ed="#G" n="100"/>destituitur a propria operatione, vt ait <ref xml:id="HuYgTa-123148-Rd1e1713">Commen</ref>. Item se 
+          <lb ed="#G" n="101"/>cundum <ref xml:id="HuYgTa-123148-Rd1e1719">
+            <name xml:id="HuYgTa-123148-Nd1e1721">Dion,</name>
+          </ref> &amp; <ref xml:id="HuYgTa-123148-Rd1e1725">
+            <name xml:id="HuYgTa-123148-Nd1e1727">Damascenum</name>
+          </ref>, Ista tria sunt in qualibet 
+          <lb ed="#G" n="102"/>re distincta, scilicet substantia, virtus, &amp; operatio. Ex
+          qui<lb ed="#G" n="103" break="no"/>bus apparet, quod caelo empvreo conuenit operatio, set 
+          <lb ed="#G" n="104"/>actio: igitur ex sufficienti diuisione dicetur, vel agere in 
+          <lb ed="#G" n="105"/>se, vel in alterum. Sed primum dari non potest, quia nullu 
+          <lb ed="#G" n="106"/>corpus est supra seipsum conuersiuum: sed omne, quod agit 
+          <lb ed="#G" n="107"/>n seipsum, est supra seipsum conuersiuum: igitur dabitur 
+          <lb ed="#G" n="108"/>secundum: &amp; hoc est praesens propositum. 
+        </p>
+        <p xml:id="HuYgTa-123148-d1e1747">
+          <lb ed="#G" n="109"/>
+          <pc type="indent"/>Ad primum dicendum, quod nec illa consequentia
+          Va<lb ed="#G" n="110" break="no"/>let, nec eius probatio, quia tempore losue sol non
+          moue<lb ed="#G" n="111" break="no"/>patur per spatium unius dici, &amp; tamen habuit realem
+          in<lb ed="#G" n="112" break="no"/>fiuentiam in ista inferiora, alias ista viuentia hic inferius 
+          <lb ed="#G" n="113"/>tuissent mortua, Item, Magnes non motus trahit ferrum 
+        </p>
+        <p xml:id="HuYgTa-123148-d1e1763">
+          <lb ed="#G" n="114"/>
+          <pc type="indent"/>Ad secundum dicendum, quod quamuis anima celi agat 
+          <lb ed="#G" n="115"/>in ista inferiora mediante motu: ille tamen motus non 
+          <lb ed="#G" n="116"/>est in illa anima subiectiue ita, quod ipsa moueatur. Sic 
+          <lb ed="#G" n="117"/>dato, quod caeli empvrei influentia perueniat ad ista
+          in<lb ed="#G" n="118" break="no"/>feriora, mediante motu celi, ex hoc tamen non
+          conuinci<lb ed="#G" n="119" break="no"/>tur, quod celum empvreum moueatur. 
+        </p>
+        <p xml:id="HuYgTa-123148-d1e1781">
+          <lb ed="#G" n="120"/>
+          <pc type="indent"/>Forte dicetur, quod si caelum empyreum agit mediant, 
+          <lb ed="#G" n="121"/>motu caeli: tunc dependet a caelo, cuius oppositum ego di 
+          <lb ed="#G" n="122"/>xi <ref xml:id="HuYgTa-123148-Rd1e1791">superius. distin. 2.</ref> 
+        </p>
+        <p xml:id="HuYgTa-123148-d1e1796">
+          <lb ed="#G" n="123"/>
+          <pc type="indent"/>Respondeo, quod quamuis agentia inferiora agant
+          mediam<lb ed="#G" n="124" break="no"/>te motu caeli, tamquam mediante regula, &amp; directiuo, &amp; 
+          <lb ed="#G" n="125"/>per consequens dependeant ab eo: tamen caelum empvreum 
+          <lb ed="#G" n="126"/>non influit mediante motu caeli tamquam mediante
+          re<lb ed="#G" n="127" break="no"/>gula, vel directiuo, seu tamquam mediante organo, quod 
+          <lb ed="#G" n="128"/>quidem organum non est in tali influentia requisitum ra 
+          <lb ed="#G" n="129"/>tione caeli empvrei influentis, sed ratione patientis huiu 
+          <lb ed="#G" n="130"/>modi influentiam recipientis: caelum enim empvreum
+          pos<lb ed="#G" n="131" break="no"/>et influere sine motu caeli, tamen patiens non potest hu 
+          <lb ed="#G" n="132"/>usmodi influentiam recipere sine motu caeli, &amp; ideo ex hn 
+          <lb ed="#G" n="133"/>non habetur, quod caelum empyreum dependeat a motu 
+          <lb ed="#G" n="134"/>celi, quamuis bene probetur, quod ista inferiora
+          depen<lb ed="#G" n="135" break="no"/>deant a motu caeli, seu a virtute caelesti 
+        </p>
+        <p xml:id="HuYgTa-123148-d1e1829">
+          <lb ed="#G" n="136"/>
+          <pc type="indent"/>Ad tertium dicendum, quod minor non est vera 
+          <lb ed="#G" n="137"/>Forte dicetur, quod minor ista probari potest ex dictis 
+          <lb ed="#G" n="138"/>
+          <ref xml:id="HuYgTa-123148-Rd1e1839">superius dist. 2.</ref> Dicebam enim ibi, quod celum non pa 
+          <lb ed="#G" n="139"/>titur peregrinas impressiones: &amp; quod est primum alterans 
+          <lb ed="#G" n="140"/>inalterabile; sed illud, quod recipit influentiam alicuius 
+          <lb ed="#G" n="141"/>hoc recipit peregrinas impressiones, &amp; alteratur secundum 
+          <lb ed="#G" n="142"/>impressionem illius influentiae : ergo &amp;c. 
+        </p>
+        <p xml:id="HuYgTa-123148-d1e1852">
+          <lb ed="#G" n="143"/>
+          <pc type="indent"/>Respondeo, quod duplex est influentia. Vna, quam ali¬ 
+          <!--366.xml-->
+          <pb ed="#G" n="164-r"/>
+          <cb ed="#G" n="a"/>
+          <lb ed="#G" n="1"/>quo modo sequitur passio, quae vel abiicit aliquid a
+          sub<lb ed="#G" n="2" break="no"/>stantia, vel perfectione subiecti, vel ex ipsa potest aliquo 
+          <lb ed="#G" n="3"/>modo argui corruptibilitas subiecti. Alia est influentia, 
+          <lb ed="#G" n="4"/>quam non sequitur huiusmodi passio, sed potius ipsa est 
+          <lb ed="#G" n="5"/>alus &amp; perfectio. Ex prima sufficienter arguitur alteratio 
+          <lb ed="#G" n="6"/>proprie dicta, ac peregrina impressio: non autem ex secun 
+          <lb ed="#G" n="7"/>da. Et quia talis est influentia, quae recipitur in coelo;, 
+          <lb ed="#G" n="8"/>ideo &amp;c. Vnde si illa minor cum iam dicta probatione
+          es<lb ed="#G" n="9" break="no"/>set uera, tunc nec Soli, nec alicui stellae coeli conueniret 
+          <lb ed="#G" n="10"/>influentia in haec inferiora: quia inter illa, quae sunt supra 
+          <lb ed="#G" n="11"/>Lunam, &amp; haec inferiora, celum Cunae mediat: &amp; si per
+          ta<lb ed="#G" n="12" break="no"/>se celum non tranfiret superiorum corporum influentia: 
+          <lb ed="#G" n="13"/>tunc numquamperueniret ad haec inferiora, &amp; sic sola Lu 
+          <lb ed="#G" n="14"/>na cum celo suo posset agere in ista inferiora, &amp; nullum 
+          <lb ed="#G" n="15"/>aliud corpus caeleste, quod est absurdum dicere 
+        </p>
+        <p xml:id="HuYgTa-123148-d1e1898">
+          <lb ed="#G" n="16"/>
+          <pc type="indent"/>Ad quattum dicendum, quod maior non est vera:
+          ma<lb ed="#G" n="17" break="no"/>ime quando illi status sic se habent, quod vnus ordinatur 
+          <lb ed="#G" n="18"/>ad alterum: sed status viae ordinatur ad statum patriae: ideo 
+          <lb ed="#G" n="19"/>corpus celeste deseruiens statui viae debet ordinari ad con 
+          <lb ed="#G" n="20"/>pus celeste deseruiens statui patriae: &amp; per consequens
+          il<lb ed="#G" n="21" break="no"/>lud, quod deseruit statui patriae, debet virtualiter
+          influe<lb ed="#G" n="22" break="no"/>re in illud, quod deseruit statui viae 
+        </p>
+        <p xml:id="HuYgTa-123148-d1e1918">
+          <lb ed="#G" n="23"/>
+          <pc type="indent"/>est etiam aduertendum, quod doctor conis positionem prae 
+          <lb ed="#G" n="24"/>dictam, qua dixit celum empvreum non influere in cete 
+          <lb ed="#G" n="25"/>ra corpora, quodammodo videtur recitare in prima par 
+          <lb ed="#G" n="26"/>te summae, vbi ait, quod probabilius tenetur, quod celum empy 
+          <lb ed="#G" n="27"/>reum habet influentiam in corpora inferiora: quia sicut 
+          <lb ed="#G" n="28"/>angeli supremi, qui assistunt ipsi Deo, habent influentiam 
+          <lb ed="#G" n="29"/>super angelos, qui mittuntur, quamuis ipsi non mittantur  
+          <lb ed="#G" n="30"/>sc celum empvreum habet influentiam super corpora, 
+          <lb ed="#G" n="31"/>quae mouentur: licet ipsum non moueatur. 
+        </p>
+        <p xml:id="HuYgTa-123148-d1e1942">
+          <lb ed="#G" n="32"/>
+          <pc type="indent"/>Ad argumentum principale dicendum, quod non
+          ob<lb ed="#G" n="33" break="no"/>stante necessitate motus celi, multa tamen contingenter 
+          <lb ed="#G" n="34"/>eueniunt propter humani arbitrij libertatem. Etiam
+          ra<lb ed="#G" n="35" break="no"/>tione indispositonis, quae per artem quandoque, vel per 
+          <lb ed="#G" n="36"/>naturam potest fieri in materia: eadem constellatio non 
+          <lb ed="#G" n="37"/>semper consequitur hic inferius eundem effectum. ldeo 
+          <lb ed="#G" n="38"/>ait <name xml:id="HuYgTa-123148-Nd1e1961">Ptholomeus</name>, quod exspectandum est iudicium etiam 
+          <lb ed="#G" n="39"/>ex secundis stellis. Et appellat secundas stellas istas mate 
+          <lb ed="#G" n="40"/>rias inferiores vario modo dispositas. Vnde Astrologus vi 
+          <lb ed="#G" n="41"/>dens talem astrorum coniunctionem, ex qua secundum 
+          <lb ed="#G" n="42"/>artem Astrologiae sequitur hic inferius aliquis effectus: 
+          <lb ed="#G" n="43"/>non statim debet pronunciare huiusmodi effectum tali 
+          <lb ed="#G" n="44"/>hora esse venturum : sed debet respicere materiam: quia 
+          <lb ed="#G" n="45"/>materia posset esse adeo indisposita, quod talis effectus 
+          <lb ed="#G" n="46"/>omnino impediretur. 
+        </p>
+      </div>
+    </body>
+  </text>
 </TEI>

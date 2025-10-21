@@ -1,125 +1,125 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Circa textum</title>
-            <author ref="#ThomasStrasbourg">Thomas of Strasbourg</author>
-            <respStmt>
-               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
-               <resp>Transcription Editor</resp>
-               <resp>TEI Encoder</resp>
-            </respStmt>
-         </titleStmt>
-         <editionStmt>
-            <edition n="0.0.0-dev">
-               <title>Circa textum</title>
-               <date when="2020-11-26">November 26, 2020</date>
-            </edition>
-         </editionStmt>
-         <publicationStmt>
-            <authority>SCTA</authority>
-            <availability status="free">
-               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
-               </p>
-            </availability>
-         </publicationStmt>
-         <sourceDesc>
-            <listWit>
-               <witness xml:id="G" n="cod-TxxxqU">Genoa 1585</witness>
-            </listWit>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
-         <editorialDecl>
-            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
-       guidelines for a diplomatic edition.</p>
-         </editorialDecl>
-      </encodingDesc>
-      <revisionDesc status="draft">
-         <listChange>
-            <change when="2020-11-26" status="draft" n="0.0.0">
-               <p>Created file for the first time.</p>
-            </change>
-         </listChange>
-      </revisionDesc>
-   </teiHeader>
-   <text xml:lang="la">
-      <front>
-         <div xml:id="starts-on">
-            <pb ed="#G" n="P2_173-v"/>
-            <cb ed="#G" n="a"/>
-         </div>
-      </front>
-      <body>
-         <div xml:id="HuYgTa-290779"><!-- HuYgTa-l4d41et42ct1 -->
-            <head xml:id="HuYgTa-290779-Hd1e108">Circa textum</head>
-            <p xml:id="HuYgTa-290779-d1e111">
-      <!--817.xml-->
-               <pb ed="#G" n="P2_173-v"/>
-               <cb ed="#G" n="a"/>
-               <lb ed="#G" n="1"/>DISTINCTIO. SLL ETLII 
-      <lb ed="#G" n="2"/>Ab soluta harum distinctionum diuisio, in quibus 
-      <lb ed="#G" n="3"/>
-               <pc type="indent"/>de affinitate, siue cognatione spirituali,  
-      <lb ed="#G" n="4"/>
-               <pc type="indent"/>&amp; legali pertrattatur.
-    </p>
-            <p xml:id="HuYgTa-290779-d1e133">
-               <lb ed="#G" n="5"/>
-               <pc type="indent"/>VNC de affinitate Postquam ma 
-      <lb ed="#G" n="6"/>gister tractauit de cultus disparita 
-      <lb ed="#G" n="7"/>te, &amp; cognatione carnali: nunc in 
-      <lb ed="#G" n="8"/>his duabus distinctionibus vltimis 
-      <lb ed="#G" n="9"/>tractatus de matrimonio incipit 
-      <lb ed="#G" n="10"/>determinare de affinitate, &amp;
-      co<lb ed="#G" n="11" break="no"/>gnatione spirituali, ac etiam lega
-    </p>
-            <p xml:id="HuYgTa-290779-d1e153">
-               <lb ed="#G" n="12"/>1. Et diuiditur in duas partes: quia 
-      <lb ed="#G" n="13"/>primo tractat de affinitatis circa 
-      <lb ed="#G" n="14"/>matrimonium impeditione. Secundo de spirituali, ac le 
-      <lb ed="#G" n="15"/>gali cognatione, ibi, De parentalium graduum. Prima in 
-      <lb ed="#G" n="16"/>tres: quia primo ostendit, qualiter per affinitatem
-      con<lb ed="#G" n="17" break="no"/>iugales contractus impediantur. Secundo innuit, quod 
-      <lb ed="#G" n="18"/>quibusdam peccatis iura affinitatis violantur. Et tertio, 
-      <lb ed="#G" n="19"/>distinguit de aliquibus, quae ex gradibus affinitatis
-      cau<lb ed="#G" n="20" break="no"/>santur, Secunda, ibi, Hic sciendum est. Tertia, ibi,
-      Atten<lb ed="#G" n="21" break="no"/>dendum est. Prima in duas: quia primo tractat de
-      impe<lb ed="#G" n="22" break="no"/>dimentis, &amp; gradibus affinitatis. Secundo ostendit, quo 
-      <lb ed="#G" n="23"/>modo separatur matrimonium huiusmodi gradibus vio 
-      <lb ed="#G" n="24"/>latis, ibi, Et est sciendum. Prima in tres: quia primo
-      oste<lb ed="#G" n="25" break="no"/>dit, per quot gradus affinitatis impeditur matrimonium, 
-      <lb ed="#G" n="26"/>Secundo obicit in contrarium. Et tertio respondet ex 
-      <lb ed="#G" n="27"/>sententia Papae Cregorii ad quendam affinitatis casum. 
-      <lb ed="#G" n="28"/>Secunda, ibi, Sed alit. Tertia, ibi lllud etiam non est pra 
-      <lb ed="#G" n="29"/>tereundum. Sequitur dist. 22. In qua magister determi- 
-      <lb ed="#G" n="30"/>nat de spirituali, &amp; legali cognatione. Et diuiditur in 
-      <lb ed="#G" n="31"/>tres partes, nam primo continuat dicta dicendis, Secun 
-      <lb ed="#G" n="32"/>do tractat de impedimentis prouenientibus ex vinculo 
-      <lb ed="#G" n="33"/>spiritualis, &amp; legalis cognationis. Et tertio determinat 
-      <lb ed="#G" n="34"/>de nuptiis iteratis,. Secunda, ibi, Spirituales filij sunt. Ter 
-      <lb ed="#G" n="35"/>tia, ibi. Sciendum est etiam. Istarum secunda diuiditur 
-      <lb ed="#G" n="36"/>in duas partes: nam primo ostendit, qualiter, &amp; quot
-      mo<lb ed="#G" n="37" break="no"/>dis spiritualis cognatio contrahatur. Secundo,
-      quomo<lb ed="#G" n="38" break="no"/>do per ipsam matrimonium impediatur, ibi Quod auten 
-      <lb ed="#G" n="39"/>compater. Et haec in tres: nam primo ostendit, qualiter 
-      <lb ed="#G" n="40"/>matrimonium impedit spiritualis cognatio directa.
-      Se<lb ed="#G" n="41" break="no"/>cundo, quomodo indirecta. Tertio determinat quaedam 
-      <lb ed="#G" n="42"/>incidentia. Secunda, ibi. Solet etiam quaeri, si
-      comma<lb ed="#G" n="43" break="no"/>trem. Tertia, ibi. Solet etiam quaeri, si vxor. Prima in duas; 
-      <lb ed="#G" n="44"/>nam primo ostendit distincte, quomodo matrimonium 
-      <lb ed="#G" n="45"/>patitur impedimentum ex cognatione spirituali,
-      Secun<lb ed="#G" n="46" break="no"/>do ostendit hoc idem simul ex spirituali, &amp; legali, ibi. Quod 
-      <lb ed="#G" n="47"/>autem spirituales. Prima in tres: nam primo determinat 
-      <lb ed="#G" n="48"/>suum propositum, Secundo, infert quoddam corollarium 
-      <lb ed="#G" n="49"/>Et tertio inducit, &amp; soluit incidens dubium, quod praedi 
-      <lb ed="#G" n="50"/>ctis videtur esse contrarium. Secunda, ibi, Ex his apparet 
-      <lb ed="#G" n="51"/>Tertia, ibi, nis autem obuiare videtur. Haec est diuisio, &amp; 
-      <lb ed="#G" n="52"/>sententia istarum distinctionum, scilicet. 41. &amp;42. in
-      ge<lb ed="#G" n="53" break="no"/>nerali, circa quas quaero in speciali 
-    </p>
-         </div>
-      </body>
-   </text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Circa textum</title>
+        <author ref="#ThomasStrasbourg">Thomas of Strasbourg</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Circa textum</title>
+          <date when="2020-11-26">November 26, 2020</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="G" n="cod-TxxxqU">Genoa 1585</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2020-11-26" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#G" n="P2_173-v"/>
+        <cb ed="#G" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="HuYgTa-290779"><!-- HuYgTa-l4d41et42ct1 -->
+        <head xml:id="HuYgTa-290779-Hd1e108">Circa textum</head>
+        <p xml:id="HuYgTa-290779-d1e111">
+          <!--817.xml-->
+          <pb ed="#G" n="P2_173-v"/>
+          <cb ed="#G" n="a"/>
+          <lb ed="#G" n="1"/>DISTINCTIO. SLL ETLII 
+          <lb ed="#G" n="2"/>Ab soluta harum distinctionum diuisio, in quibus 
+          <lb ed="#G" n="3"/>
+          <pc type="indent"/>de affinitate, siue cognatione spirituali,  
+          <lb ed="#G" n="4"/>
+          <pc type="indent"/>&amp; legali pertrattatur.
+        </p>
+        <p xml:id="HuYgTa-290779-d1e133">
+          <lb ed="#G" n="5"/>
+          <pc type="indent"/>VNC de affinitate Postquam ma 
+          <lb ed="#G" n="6"/>gister tractauit de cultus disparita 
+          <lb ed="#G" n="7"/>te, &amp; cognatione carnali: nunc in 
+          <lb ed="#G" n="8"/>his duabus distinctionibus vltimis 
+          <lb ed="#G" n="9"/>tractatus de matrimonio incipit 
+          <lb ed="#G" n="10"/>determinare de affinitate, &amp;
+          co<lb ed="#G" n="11" break="no"/>gnatione spirituali, ac etiam lega
+        </p>
+        <p xml:id="HuYgTa-290779-d1e153">
+          <lb ed="#G" n="12"/>1. Et diuiditur in duas partes: quia 
+          <lb ed="#G" n="13"/>primo tractat de affinitatis circa 
+          <lb ed="#G" n="14"/>matrimonium impeditione. Secundo de spirituali, ac le 
+          <lb ed="#G" n="15"/>gali cognatione, ibi, De parentalium graduum. Prima in 
+          <lb ed="#G" n="16"/>tres: quia primo ostendit, qualiter per affinitatem
+          con<lb ed="#G" n="17" break="no"/>iugales contractus impediantur. Secundo innuit, quod 
+          <lb ed="#G" n="18"/>quibusdam peccatis iura affinitatis violantur. Et tertio, 
+          <lb ed="#G" n="19"/>distinguit de aliquibus, quae ex gradibus affinitatis
+          cau<lb ed="#G" n="20" break="no"/>santur, Secunda, ibi, Hic sciendum est. Tertia, ibi,
+          Atten<lb ed="#G" n="21" break="no"/>dendum est. Prima in duas: quia primo tractat de
+          impe<lb ed="#G" n="22" break="no"/>dimentis, &amp; gradibus affinitatis. Secundo ostendit, quo 
+          <lb ed="#G" n="23"/>modo separatur matrimonium huiusmodi gradibus vio 
+          <lb ed="#G" n="24"/>latis, ibi, Et est sciendum. Prima in tres: quia primo
+          oste<lb ed="#G" n="25" break="no"/>dit, per quot gradus affinitatis impeditur matrimonium, 
+          <lb ed="#G" n="26"/>Secundo obicit in contrarium. Et tertio respondet ex 
+          <lb ed="#G" n="27"/>sententia Papae Cregorii ad quendam affinitatis casum. 
+          <lb ed="#G" n="28"/>Secunda, ibi, Sed alit. Tertia, ibi lllud etiam non est pra 
+          <lb ed="#G" n="29"/>tereundum. Sequitur dist. 22. In qua magister determi- 
+          <lb ed="#G" n="30"/>nat de spirituali, &amp; legali cognatione. Et diuiditur in 
+          <lb ed="#G" n="31"/>tres partes, nam primo continuat dicta dicendis, Secun 
+          <lb ed="#G" n="32"/>do tractat de impedimentis prouenientibus ex vinculo 
+          <lb ed="#G" n="33"/>spiritualis, &amp; legalis cognationis. Et tertio determinat 
+          <lb ed="#G" n="34"/>de nuptiis iteratis,. Secunda, ibi, Spirituales filij sunt. Ter 
+          <lb ed="#G" n="35"/>tia, ibi. Sciendum est etiam. Istarum secunda diuiditur 
+          <lb ed="#G" n="36"/>in duas partes: nam primo ostendit, qualiter, &amp; quot
+          mo<lb ed="#G" n="37" break="no"/>dis spiritualis cognatio contrahatur. Secundo,
+          quomo<lb ed="#G" n="38" break="no"/>do per ipsam matrimonium impediatur, ibi Quod auten 
+          <lb ed="#G" n="39"/>compater. Et haec in tres: nam primo ostendit, qualiter 
+          <lb ed="#G" n="40"/>matrimonium impedit spiritualis cognatio directa.
+          Se<lb ed="#G" n="41" break="no"/>cundo, quomodo indirecta. Tertio determinat quaedam 
+          <lb ed="#G" n="42"/>incidentia. Secunda, ibi. Solet etiam quaeri, si
+          comma<lb ed="#G" n="43" break="no"/>trem. Tertia, ibi. Solet etiam quaeri, si vxor. Prima in duas; 
+          <lb ed="#G" n="44"/>nam primo ostendit distincte, quomodo matrimonium 
+          <lb ed="#G" n="45"/>patitur impedimentum ex cognatione spirituali,
+          Secun<lb ed="#G" n="46" break="no"/>do ostendit hoc idem simul ex spirituali, &amp; legali, ibi. Quod 
+          <lb ed="#G" n="47"/>autem spirituales. Prima in tres: nam primo determinat 
+          <lb ed="#G" n="48"/>suum propositum, Secundo, infert quoddam corollarium 
+          <lb ed="#G" n="49"/>Et tertio inducit, &amp; soluit incidens dubium, quod praedi 
+          <lb ed="#G" n="50"/>ctis videtur esse contrarium. Secunda, ibi, Ex his apparet 
+          <lb ed="#G" n="51"/>Tertia, ibi, nis autem obuiare videtur. Haec est diuisio, &amp; 
+          <lb ed="#G" n="52"/>sententia istarum distinctionum, scilicet. 41. &amp;42. in
+          ge<lb ed="#G" n="53" break="no"/>nerali, circa quas quaero in speciali 
+        </p>
+      </div>
+    </body>
+  </text>
 </TEI>

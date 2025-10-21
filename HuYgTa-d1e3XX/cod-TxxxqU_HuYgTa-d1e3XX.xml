@@ -1,493 +1,493 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Circa textum 1</title>
-            <author ref="#ThomasStrasbourg">Thomas of Strasbourg</author>
-            <respStmt>
-               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
-               <resp>Transcription Editor</resp>
-               <resp>TEI Encoder</resp>
-            </respStmt>
-         </titleStmt>
-         <editionStmt>
-            <edition n="0.0.0-dev">
-               <title>Circa textum 1</title>
-               <date when="2020-11-26">November 26, 2020</date>
-            </edition>
-         </editionStmt>
-         <publicationStmt>
-            <authority>SCTA</authority>
-            <availability status="free">
-               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
-               </p>
-            </availability>
-         </publicationStmt>
-         <sourceDesc>
-            <listWit>
-               <witness xml:id="G" n="cod-TxxxqU">Genoa 1585</witness>
-            </listWit>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
-         <editorialDecl>
-            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
-       guidelines for a diplomatic edition.</p>
-         </editorialDecl>
-      </encodingDesc>
-      <revisionDesc status="draft">
-         <listChange>
-            <change when="2020-11-26" status="draft" n="0.0.0">
-               <p>Created file for the first time.</p>
-            </change>
-         </listChange>
-      </revisionDesc>
-   </teiHeader>
-   <text xml:lang="la">
-      <front>
-         <div xml:id="starts-on">
-            <pb ed="#G" n="1-r"/>
-            <cb ed="#G" n="a"/>
-         </div>
-      </front>
-      <body>
-         <div xml:id="HuYgTa-d1e3XX"><!-- HuYgTa-l1prolct1 -->
-            <head xml:id="HuYgTa-d1e3XX-Hd1e108">Circa textum 1</head>
-            <p xml:id="HuYgTa-d1e3XX-d1e111">
-               <pb ed="#G" n="1-r"/>
-               <cb ed="#G" n="a"/>
-               <lb ed="#G" n="1"/>EDIT AETS 
-      <lb ed="#G" n="2"/>SVS VoCEM. 
-      <ref xml:id="HuYgTa-d1e3XX-Rd1e121">Aba<lb ed="#G" n="3" break="no"/>cuch 3.</ref> Oloriosu 
-      <lb ed="#G" n="4"/>
-               <name xml:id="HuYgTa-d1e3XX-Nd1e129">doctor Aug.</name> diui 
-      <lb ed="#G" n="5"/>nae naturae super 
-      <lb ed="#G" n="6"/>nam dignitatem. 
-      <lb ed="#G" n="7"/>&amp; rationalis cre 
-      <lb ed="#G" n="8"/>turae aeternam felici 
-      <lb ed="#G" n="9"/>tate consideras &amp; 
-      <lb ed="#G" n="10"/>de ciuitate dei si 
-      <lb ed="#G" n="11"/>ait, nomo ita cre 
-      <lb ed="#G" n="12"/>tus est, vt prid, quod 
-      <lb ed="#G" n="13"/>in eo precellit, a 
-      <lb ed="#G" n="14"/>tingat ad illud, quod 
-      <lb ed="#G" n="15"/>cuncta praecellit, idest, vnum verum optimum, sine quo nulla 
-      <lb ed="#G" n="16"/>natura subsistit, nulla doctrina instruit, nullus vsus expe 
-      <lb ed="#G" n="17"/>dit. Ipse quaeratur, vbi nobis secura sunt omnia: ipse
-      cern<lb ed="#G" n="18" break="no"/>tur, vbi nobis certa sunt omnia: ipse diligatur, vbi
-      nobi<lb ed="#G" n="19" break="no"/>recta sunt omnia. Et eandem sententiam confirmans Pi 
-      <lb ed="#G" n="20"/>tonicorum testimonio, immediate sequenti cap. ait sici 
-      <lb ed="#G" n="21"/>Platonici plerique dixerunt, verum Deum esse rerum a 
-      <lb ed="#G" n="22"/>corem, veritatis illustratorem, &amp; beatitudinis largitori 
-      <lb ed="#G" n="23"/>Hanc eandem veritatem tangeus <name xml:id="HuYgTa-d1e3XX-Nd1e173" ref="#Augustine">Aug.</name> circa principiun 
-      <lb ed="#G" n="24"/>sibri de cognitione verae vitae sic ait, Profecto naturam r 
-      <lb ed="#G" n="25"/>tionalem ad hoc solum factam constat, vt factorem suum vo 
-      <lb ed="#G" n="26"/>rum Deum intelligat, intelligendo diligat, diligendo in 
-      <lb ed="#G" n="27"/>eo, quod est aeterna vita, aeternaliter beate viuat. Ex
-      qui<lb ed="#G" n="28" break="no"/>bus omnibus aperte colligitur, quod vera beatitudo an 
-      <lb ed="#G" n="29"/>mae rationalis haberi non potest, nisi ipsa anima cuncta 
-      <lb ed="#G" n="30"/>ereata transcendens, soli suo creatori tamquam suae bea 
-      <lb ed="#G" n="31"/>ritudinis largitori, ex intimo cordis affectu finaliter conn 
-      <lb ed="#G" n="32"/>iongatur : Nunc autem ita est, quod ats docet, &amp; natura 
-      <lb ed="#G" n="33"/>fimiliter protestatur, exttemum extremo non coniung 
-      <lb ed="#G" n="34"/>fine medio, teste etiam <name xml:id="HuYgTa-d1e3XX-Nd1e200">P. Dionvsio</name> in de Angelica hio 
-      <lb ed="#G" n="35"/>tat Ordinatissima terum distributio, lege diuinae prous 
-      <lb ed="#G" n="36"/>dentiae sic dignoscitur esse disposita, quod infima per mi 
-      <!--40.xml-->
-      <cb ed="#G" n="b"/>
-               <lb ed="#G" n="37"/>dia reducuntur in suprema. Cum igitur rationalis anima 
-      <lb ed="#G" n="38"/>&amp; ipsa natura diuina sint in genere intelligibilium, duo 
-      <lb ed="#G" n="39"/>extrema maxime a se inuicem distantia: quia haec est
-      pu<lb ed="#G" n="40" break="no"/>ra potentia, illa autem actus purus, prout in alia
-      faculta<lb ed="#G" n="41" break="no"/>te euidentius declaratur. Sequitur igitur necessario, quod 
-      <lb ed="#G" n="42"/>sine gratioso medio diuinitus inspirato animam
-      supern<lb ed="#G" n="43" break="no"/>turaliter eleuante, puram suam potentialitatem actiuan 
-      <lb ed="#G" n="44"/>te, &amp; per consequens potentiam animae obiecto diuino 
-      <lb ed="#G" n="45"/>aliqualiter conformante: praedictum actum purissimum 
-      <lb ed="#G" n="46"/>in sua propria claritate anima rationalis non possit beat 
-      <lb ed="#G" n="47"/>fice contemplari, Considerata enim anima, quo ad sua pu 
-      <lb ed="#G" n="48"/>ra naturalia, tunc verificatur illa apostolica sententia, qua 
-      <lb ed="#G" n="49"/>de isto actu purissimo dicitur, quod lucem inhabitat inac 
-      <lb ed="#G" n="50"/>cessibilem, quem nullus hominum vidit, sed nec videro 
-      <lb ed="#G" n="51"/>potest. Propter quod <ref xml:id="HuYgTa-d1e3XX-Rd1e244">
-                  <name xml:id="HuYgTa-d1e3XX-Nd1e246" ref="#Augustine">P. August.</name> 1. de trin</ref> sic ait, Humane 
-      <lb ed="#G" n="52"/>mentis acies inualida, in tam excellenti luce figi non
-      va<lb ed="#G" n="53" break="no"/>let, nisi per iustitiam fidei nutrita vegetetur. Nec mirum; 
-      <lb ed="#G" n="54"/>quia sicut se habet oculus vespertilionis ad lucem solis 
-      <lb ed="#G" n="55"/>sic se habet animae nostrae intellectus ad ea, quae sunt
-      m<lb ed="#G" n="56" break="no"/>nifestissima in natura, vt dicitur 2. metaph. Vnde etiam 
-      <lb ed="#G" n="57"/>Anselmus prosol. causam tantae distantiae &amp; improportio 
-      <lb ed="#G" n="58"/>nis praedictorum duorum extremorum inquirens, sic ait, Curi 
-      <lb ed="#G" n="59"/>domine, cur hoc, quod te videre non possumus sicuti es; 
-      <lb ed="#G" n="60"/>tenebratur oculus infirmitate sua, an reuerberatur fulgo 
-      <lb ed="#G" n="61"/>re tuo: Et respondet ibidem dicens. Sed certe tenebratu 
-      <lb ed="#G" n="62"/>in se, &amp; reuerberatur a te: obscurat sua breuitate, &amp; obrui 
-      <lb ed="#G" n="63"/>tur tua immensitate: vere conteritur angustia sua, &amp; vinci 
-      <lb ed="#G" n="64"/>tur amplitudine tua. Sicut igitur aliquis existens in tens 
-      <lb ed="#G" n="65"/>pris &amp; caligine, quod visu non potest percipere, illud mo 
-      <lb ed="#G" n="66"/>diante voce ipsius rei quaesitae nititur indagare: sic anima 
-      <lb ed="#G" n="67"/>rationalis carcerali clausa custodia molis corporalis; qua 
-      <lb ed="#G" n="68"/>diu peregrinatur a domino in huiusmodi caliginoso, &amp; 
-      <lb ed="#G" n="69"/>tenebroso ergastulo, inhabitans domum luteam, &amp;
-      ter<lb ed="#G" n="70" break="no"/>renum habens fundamentum, cernens se respectu di¬¬ 
-      <lb ed="#G" n="71"/>uinae claritatis naturali cognitione deficere pro
-      sta<lb ed="#G" n="72" break="no"/>tu presentis miseriae, ipsi sacrae theologiae firmissime 
-      <!--41.xml-->
-      <pb ed="#G" n="1-v"/>
-               <cb ed="#G" n="a"/>
-               <lb ed="#G" n="1"/>debet inniti, tamquam uoci propriae eius, cui beatifice 
-      <lb ed="#G" n="2"/>desiderat inherere. Sic enim per varia sacrarum
-      scriptu<lb ed="#G" n="3" break="no"/>rarum volumina dilectum suum inquirens, quasi vocem 
-      <lb ed="#G" n="4"/>eius iugiter insequendo, dilectum ita quaesitum, quantum 
-      <lb ed="#G" n="5"/>uiscunque absconditum in intima abysso suorum secretorum 
-      <lb ed="#G" n="6"/>reuelata tandem facie poterit speculari. Nam in iam dict 
-      <lb ed="#G" n="7"/>discursus termino, pallio vetustatis deposito,
-      animara<lb ed="#G" n="8" break="no"/>tionalis dicet id Cant. inueni quem diligit anima mea 
-      <lb ed="#G" n="9"/>tenui eum, nec dimittam donec introducam illum in do 
-      <lb ed="#G" n="10"/>mum matris meae, &amp; in cubiculum genitricis meae. Et be 
-      <lb ed="#G" n="11"/>ne dicit in domum matris, id est, in domum supernae deita 
-      <lb ed="#G" n="12"/>eis, quia in studio scripturarum, quasi in voce exultationis 
-      <lb ed="#G" n="13"/>&amp; confessionis transibit in locum tabernaculi
-      admirabi<lb ed="#G" n="14" break="no"/>lis vsque ad domum Dei Rectus igitur ordo ad beatitu 
-      <lb ed="#G" n="15"/>dinem procedendo, hic esse videtur, vox dilecti audiatur 
-      <lb ed="#G" n="16"/>primitus in scriptura, &amp; ipse denique videatur in diuina 
-      <lb ed="#G" n="17"/>sua natura. Quem ordinem videtur ipse <name xml:id="HuYgTa-d1e3XX-Nd1e339" ref="#Job">Iob</name> obseruasse, 
-      <lb ed="#G" n="18"/>cum vltimo sui libri cap. ait, Auditu auris audiui te, &amp;  
-      <lb ed="#G" n="19"/>nunc oculus meus videt te. Vnde &amp; in termino vie, aeter 
-      <lb ed="#G" n="20"/>na scilicet beatitudine existentes dicere possunt illud psal 
-      <lb ed="#G" n="21"/>mi. Sicut aud iuimus, sic vidimus in ciuitate domini virtu 
-      <lb ed="#G" n="22"/>tum. Sicut enim metallum prius ignitur, &amp; laxatur, quam 
-      <lb ed="#G" n="23"/>in debitas formas transfundatur ab artifice; sic homo stu 
-      <lb ed="#G" n="24"/>diosus sacrae scripturae deditus, ignito Dei eloquio prius 
-      <lb ed="#G" n="25"/>in seipso debet liquefieri &amp; deinde reuelata Dei visione 
-      <lb ed="#G" n="26"/>in supernae deitatis imaginem clarifice transformari: vt sic 
-      <lb ed="#G" n="27"/>precedenter liquefactus veraciter dicere possit illud cant 
-      <lb ed="#G" n="28"/>3 Anima mea liquefacta est: vt dilectus meus locutus est 
-      <lb ed="#G" n="29"/>Et subsequenter transformatus dicat cum Apost. Nos at 
-      <lb ed="#G" n="30"/>e tem reuelata facie gloriam Domini speculantes in
-      ean<lb ed="#G" n="31" break="no"/>s dem imaginem transformamur a claritate in claritatem. 
-    </p>
-            <p xml:id="HuYgTa-d1e3XX-d1e374">
-               <lb ed="#G" n="32"/>
-               <pc type="indent"/>Ex dictis hucusque duo principaliter habemus: quorum 
-      <lb ed="#G" n="33"/>primum est, quod anima rationalis non potest esse beata 
-      <lb ed="#G" n="34"/>nisi ad apertam Dei visionem fuerit eleuata. Secundum 
-      <lb ed="#G" n="35"/>est, quod ad huiusmodi visionem nullatenus eleuatur, ni 
-      <lb ed="#G" n="36"/>si prius vocem Dei in scripturis fideliter sequatur. Et qua 
-      <lb ed="#G" n="37"/>vocem eius audire non possumus, nisi ipse loquatur; ideo 
-      <lb ed="#G" n="38"/>ne anima rationalis a via veritatis ex carentia istius diui 
-      <lb ed="#G" n="39"/>nae vocis erraret, sed potius recto tramite, duce Dei voce 
-      <lb ed="#G" n="40"/>ad vitam aeternam mearet: pater misericordiarum, &amp; Deus 
-      <lb ed="#G" n="41"/>totius consolationis, pater, inquam, luminum, a quo
-      De<lb ed="#G" n="42" break="no"/>cedit omne datum optimum, &amp; omne donum perfectum. 
-      <lb ed="#G" n="43"/>cuius vox, seu verbum est lucerna pedibus, &amp; lumen semi 
-      <lb ed="#G" n="44"/>tis cuiuslibet animae fidelis. Hic inquam pater, pro nostra 
-      <lb ed="#G" n="45"/>obtinenda salute, ex abysso cordis sui verbum bonum erum 
-      <lb ed="#G" n="46"/>ctauit: cum vocem suam, scripturam. ssacram, Patribus in 
-      <lb ed="#G" n="47"/>spirauit, &amp; nobis in sacro canone eam communicauit. Et 
-      <lb ed="#G" n="48"/>hoc est quod Abacuch propheta insinuauit, cum dixit. DE 
-      <lb ed="#G" n="49"/>DIT AEVSSVS VOCEM SVAM, vbi supra 
-    </p>
-            <p xml:id="HuYgTa-d1e3XX-d1e418">
-               <lb ed="#G" n="50"/>
-               <pc type="indent"/>In quibus verbis dupliciter exponendis, scriptura
-      sa<lb ed="#G" n="51" break="no"/>cri canonis nobis omnibus in ea studentibus proponitur 
-      <lb ed="#G" n="52"/>dupliciter commendanda. Primo, vt vniuersaliter
-      consi<lb ed="#G" n="53" break="no"/>derata in nouo, veterique testamento spatiosissime
-      dila<lb ed="#G" n="54" break="no"/>tata. Secundo, vt specialiter consignata, &amp; a magistro De 
-      <lb ed="#G" n="55"/>tro in libus sent compendio ordinatissime compilata 
-    </p>
-            <p xml:id="HuYgTa-d1e3XX-d1e436">
-               <lb ed="#G" n="56"/>
-               <pc type="indent"/>Quantum ad primum ad praesens dicere possum, quod in 
-      <lb ed="#G" n="57"/>verbis praeassumptis, ipsa scriptura sacra quadrupliciter 
-      <lb ed="#G" n="58"/>commendatur. Primo a munificentia copiosa magnifice 
-      <lb ed="#G" n="59"/>largitiua. Secundo ab eminentia prodigiosa mirifice
-      con<lb ed="#G" n="60" break="no"/>tentiua. Tertio a luculentia generosa clarifice lustratiua 
-      <lb ed="#G" n="61"/>Et quarto a profluentia deliciosa m ellifice refectiua. Ra 
-      <lb ed="#G" n="62"/>tione primi, verba sacri eloquij sunt insignita decore
-      in<lb ed="#G" n="63" break="no"/>aestimabilis dignitatis. Ratione secundi, sunt custo dita to 
-      <lb ed="#G" n="64"/>nore impenetrabilis difficu ltatis. Ratione tertij sunt ex 
-      <lb ed="#G" n="65"/>polita splendore inobumbrabilis claritatis. Et ratione 
-      <lb ed="#G" n="66"/>quarti sunt emellita dulcore inconsummabilis bonitatis 
-      <lb ed="#G" n="67"/>lstorum primum est ostensiuum principij ipsius sacrae
-      scri<lb ed="#G" n="68" break="no"/>pturae originaliter productiui: secundum insinuat iuum 
-      <lb ed="#G" n="69"/>materialiter subiectiui: tertium monstratiuum
-      formali<lb ed="#G" n="70" break="no"/>ter processiuil, &amp; quartum exhibitiuum finaliter
-      affecti<lb ed="#G" n="71" break="no"/>ui. Munificentia copiosa magnifice largitiua,
-      ostensi<lb ed="#G" n="72" break="no"/>ua principij sacri eloquij originaliter productiui,
-      no<lb ed="#G" n="73" break="no"/>tatur, cum praemittitur DTD1 T. Eminentia prodi¬ 
-      <!--41.xml-->
-      <cb ed="#G" n="b"/>
-               <lb ed="#G" n="74"/>giosa mirifice contentiua insinuatiui principij sacri 
-      <lb ed="#G" n="75"/>eloquij materi aliter subiectiui, innuitur cum
-      anne<lb ed="#G" n="76" break="no"/>ctitur  A R TS S VS. Luculentia generosa
-      clari<lb ed="#G" n="77" break="no"/>fice lustratiua, monstratiua principij sacri eloquij forma 
-      <lb ed="#G" n="78"/>liter processiui ostenditur, cum tertio postpo nitur
-      vo<lb ed="#G" n="79" break="no"/>tem. Sed profluentia deliciosa mellifice refectiua, exhi 
-      <lb ed="#G" n="80"/>bitiua principij sacri eloquij finaliter affectiui
-      intelligi<lb ed="#G" n="81" break="no"/>tur, cum vltimo subinfertur S VVM¬ 
-    </p>
-            <p xml:id="HuYgTa-d1e3XX-d1e502">
-               <lb ed="#G" n="82"/>
-               <pc type="indent"/>Dico ergo primo, quod munificentia copiosa
-      magni<lb ed="#G" n="83" break="no"/>fice lar gitiua, ostensiua principij sacri eloquij originali 
-      <lb ed="#G" n="84"/>ter productiui, notatur ibi, cum praemittitur DEDIT 
-      <lb ed="#G" n="85"/>Nulla enim creatura veram sapientiam dare potuit: 
-      <lb ed="#G" n="86"/>quia ipsa non habuit, teste ipso <name xml:id="HuYgTa-d1e3XX-Nd1e517" ref="#Job">Iob</name>, qui 28. sui lib
-      ca<lb ed="#G" n="87" break="no"/>uaestionem mouet in hunc modum. Vnde ergo venit 
-      <lb ed="#G" n="88"/>apientia, &amp; quis est locus intelligentiae: Et respondens 
-      <lb ed="#G" n="89"/>simmediate dicit. Abscondita est ab oculis omnium
-      ui<lb ed="#G" n="90" break="no"/>sentium, volucres quoque coeli latet. Perditio, &amp; mors 
-      <lb ed="#G" n="91"/>dixerunt, Auribus nostris audiuimus famam eius, deus 
-      <lb ed="#G" n="92"/>intelligit viam eius, &amp; ipse nouit locum illius. Ipse 
-      <lb ed="#G" n="93"/>enim fines mundi intuetur, &amp; omnia, quae sub coelo 
-      <lb ed="#G" n="94"/>sunt, respicit. Cum igitur nihil det, quod non habet,  
-      <lb ed="#G" n="95"/>a nulla creatura postulare debemus sapientiam, sed a 
-      <lb ed="#G" n="96"/>solo creatore, dicentes cum <name xml:id="HuYgTa-d1e3XX-Nd1e542">Salom</name>. Da mihi domine 
-      <lb ed="#G" n="97"/>sedium tuarum assistricem sapientiam. Et infra in eod. 
-      <lb ed="#G" n="98"/>cap. Mitte illam de coelis sanctis tuis, &amp; a sede
-      magni<lb ed="#G" n="99" break="no"/>tudinis tuae, vt mecum sit, &amp; mecum laboret: vt sciam 
-      <lb ed="#G" n="100"/>uid acceptum sit coram te. Omnis enim sapientia a 
-      <lb ed="#G" n="101"/>domino Deo est, &amp; cum illo fuit semper, &amp; est ante 
-      <lb ed="#G" n="102"/>aeuum. Ipse enim creauit illam in Spiritu sancto, &amp;
-      vi<lb ed="#G" n="103" break="no"/>dit, &amp; dinumerauit, &amp; mensus est, &amp; effudit illam
-      su<lb ed="#G" n="104" break="no"/>per omnia opera sua, &amp; super omnem carnem secundum 
-      <lb ed="#G" n="105"/>latum suum: &amp; praebet illam diligentibus se.,
-      lbidem<lb ed="#G" n="106" break="no"/>Si enim ipse philosophus, propter dignitatem humanae 
-      <lb ed="#G" n="107"/>sapientiae dixit i. metaph. quod iuste putatur non huma 
-      <lb ed="#G" n="108"/>na fore possessio, solus enim Deus habet hunc honorem 
-      <lb ed="#G" n="109"/>quanto magis haec sacratissima Dei scientia a solo Deo 
-      <lb ed="#G" n="110"/>dicetur immediatissime dependere: lgitur sicut ait
-      Au<lb ed="#G" n="111" break="no"/>gustinus. 8. de trinitate in prooemio, Deo supplicandum 
-      <lb ed="#G" n="112"/>est deuotissima pietate, vt intellectum aperiat, quo
-      pos<lb ed="#G" n="113" break="no"/>sit mente cerni essentia Veritatis. Propter quod dicitur 
-      <lb ed="#G" n="114"/>lac. 1. Si quis autem vestrum indiget sapientia, postulei 
-      <lb ed="#G" n="115"/>Deo, qui dat omnibus affluenter, &amp; non improperat 
-      <lb ed="#G" n="116"/>&amp; dabitur ei item soan. 5. dicitur, Dedit nobis sensum.i. 
-      <lb ed="#G" n="117"/>scripturam, vt cognoscamus Deum verum, &amp; simus in 
-      <lb ed="#G" n="118"/>vero filio eius, item Sapien. 7 Optaui, &amp; datus est mi- 
-      <lb ed="#G" n="119"/>hi sensus, inuocaui, &amp; venit in me spiritus
-      sapientiae<lb ed="#G" n="120" break="no"/>ldeo dominus, spiritualiter intelligendo, loquens de 
-      <lb ed="#G" n="121"/>scriptura sua sancta, ait, Dedi te in lucem gentium, vt 
-      <lb ed="#G" n="122"/>sis salus mea vsque ad extremum terrae. Et quia dixit
-      il<lb ed="#G" n="123" break="no"/>e sapiens, Danti mihi sapientiam dabo gloriam, Ideo 
-      <lb ed="#G" n="124"/>sicut dicitur t coeli &amp; mundi, laudare habemus Deum 
-      <lb ed="#G" n="125"/>vnum creatorem praeeminentem proprietatibus rerum 
-      <lb ed="#G" n="126"/>Laudemus igitur Deum in ternario numero, vt dicitur 
-      <lb ed="#G" n="127"/>ibidem, dicentes cum Apostolo, Soli Deo honor &amp;
-      glo<lb ed="#G" n="128" break="no"/>ria in saecula seculorum. 
-    </p>
-            <p xml:id="HuYgTa-d1e3XX-d1e615">
-               <lb ed="#G" n="129"/>
-               <pc type="indent"/>Dixi secundo, quod eminentia prodigiosa mirifice con 
-      <lb ed="#G" n="130"/>tentiua, insinuatiua principij sacri eloquij materialiter 
-      <lb ed="#G" n="131"/>ubiectiui innuitur, cum annectitur AE Vs SVs. Tanta 
-      <lb ed="#G" n="132"/>enim est profunditas istius sctipturae benedictae ratione 
-      <lb ed="#G" n="133"/>subiecti, siue causae materialis, quod merito, vt sic,
-      ab<lb ed="#G" n="134" break="no"/>ysso comparatur, Propter quod dicitur. Abyssus sicut
-      ve<lb ed="#G" n="135" break="no"/>stimentum amictus eius. Sicut enim vestimentum
-      ab<lb ed="#G" n="136" break="no"/>scondit, &amp; a nostra contemplatione caelat illud ipsum, 
-      <lb ed="#G" n="137"/>quod velat, sic diuina claritas propter eius abyssalem im 
-      <lb ed="#G" n="138"/>mensitatem respectu oculorum nostrorum operitur ana 
-      <lb ed="#G" n="139"/>gogicis velamentis, iuxta quod ait Diony. in de Ang. 
-      <lb ed="#G" n="140"/>hierarch. Neque enim possibile nobis est aliter intueri 
-      <lb ed="#G" n="141"/>diuinum radium nisi veritate sa crorum velaminum, ana 
-      <lb ed="#G" n="142"/>gogice circumuelatum. Super quo verbo ait <ref xml:id="HuYgTa-d1e3XX-Rd1e649">
-                  <name xml:id="HuYgTa-d1e3XX-Nd1e651">Hugo</name>
-      ibi<lb ed="#G" n="143" break="no"/>dem in commento</ref>. Quemadmodum infirmi oculi solem 
-      <lb ed="#G" n="144"/>nube tectum libere conspiciunt, qui eius coruscum
-      lu<lb ed="#G" n="145" break="no"/>men uideren on possunt, sic diuinum radium oportet e s 
-      <lb ed="#G" n="146"/>sc circumuelatum, vt ipsum intelligamus. Vnde propter 
-      <!--42.xml-->
-      <pb ed="#G" n="2-r"/>
-               <cb ed="#G" n="a"/>
-               <lb ed="#G" n="1"/>istius abyssi inattigibilem profunditatem quaeritur.
-      Pro<lb ed="#G" n="2" break="no"/>fundum abyssi quis dimensus est, &amp; sapientiam Dei
-      prae<lb ed="#G" n="3" break="no"/>cedentem omnia quis inuestigauit: Cui quaestioni
-      respo<lb ed="#G" n="4" break="no"/>dens sapientia increata, dicit. Qirum coeli circuiui sola 
-      <lb ed="#G" n="5"/>&amp; profundum abyssi penetraui. Hoc enim non potest ali 
-      <lb ed="#G" n="6"/>qua creatura, teste Apostolo, qui ait. O altitudo
-      diuitia<lb ed="#G" n="7" break="no"/>rum sapientiae &amp; scientiae Dei: quam incomprehensibi 
-      <lb ed="#G" n="8"/>lia sunt iudicia eius, &amp; ininuestigabiles viae eius. Vbi 
-      Apo<lb ed="#G" n="9" break="no"/>stolus primo praemittit suam admirationem di. O alt. 
-      <lb ed="#G" n="10"/>Secundo admirationis rationem, Altitudo sapientiae, &amp;  
-      <lb ed="#G" n="11"/>scientiae Dei. Tertio rationis confirmationem. Quam 
-      <lb ed="#G" n="12"/>incompre. &amp;c. 
-    </p>
-            <p xml:id="HuYgTa-d1e3XX-d1e697">
-               <lb ed="#G" n="13"/>
-               <pc type="indent"/>Dixi tertio; quod luculentia generosa clarifice
-      lustra<lb ed="#G" n="14" break="no"/>tiua, monstratiua principij sacri eloquij formaliter
-      pro<lb ed="#G" n="15" break="no"/>cessiui ostenditur cum tertio postponitur vocem. Haec enim 
-      <lb ed="#G" n="16"/>vrox per sui luculentiam, &amp; claritatem, omnes studiosos 
-      <lb ed="#G" n="17"/>insequentes perlustrat admirabili claritate. Vnde
-      loan<lb ed="#G" n="18" break="no"/>12. scribitur. venit ergo vox de coelo. di. Clarific aui, &amp;  
-      <lb ed="#G" n="19"/>iterum clarificabo. q. d. In veteri testamento clarificaui 
-      <lb ed="#G" n="20"/>Prophetas, &amp; Patriarch. &amp; in nouo clarificabo cunctos 
-      <lb ed="#G" n="21"/>studiosos christicolas. Et quid mirum, quod ipsa clarificat 
-      <lb ed="#G" n="22"/>cum de ipsa dicatur. Clara est, quae numquam marcescit 
-      <lb ed="#G" n="23"/>sapientia, &amp; facile videtur ab his, qui diligunt eam. Et 
-      <lb ed="#G" n="24"/>ibid. Vapor est enim virtutis Dei, &amp; emanatio quaedan 
-      <lb ed="#G" n="25"/>claritatis omnipotentis Dei sincera: &amp; ideo nihil
-      coin<lb ed="#G" n="26" break="no"/>quinatum in illam incurrit. Candor est lucis aeternae, &amp; 
-      <lb ed="#G" n="27"/>peculum sine macula Dei maiestatis, &amp; imago bonitatis 
-      <lb ed="#G" n="28"/>illius. &amp; cum sit vna, omnia potest : &amp; permanens in se 
-      <lb ed="#G" n="29"/>omnia innouat, &amp; per nationes in animas sanctas se trans 
-      <lb ed="#G" n="30"/>fert, amicos, &amp; prophetas constituit. Et sequitur paucis 
-      <lb ed="#G" n="31"/>interpositis. Est enim haec speciosior sole, &amp; super omne 
-      <lb ed="#G" n="32"/>stellarum dispositionem, luci comparata inuenitur prior. 
-      <lb ed="#G" n="33"/>sili enim succedit nox; Sapientiam autem non vincit ma 
-      <lb ed="#G" n="34"/>litia. Dicit dominus de ista sacra scriptura Ego feci vt in 
-      <lb ed="#G" n="35"/>coelis idest in coelestibus mentibus oriretur lumen
-      inde<lb ed="#G" n="36" break="no"/>ficiens. Et bene dicit indeficiens, quia sicut dicit <name xml:id="HuYgTa-d1e3XX-Nd1e753">Cassio</name>. 
-      <lb ed="#G" n="37"/>in quadam epist. Sapientia violentia non aufertur,
-      anti<lb ed="#G" n="38" break="no"/>quitate non corrumpitur, absconsione non minuitur,
-      com<lb ed="#G" n="39" break="no"/>municatione multiplicatur. De hac etiam sacrae
-      scriptu<lb ed="#G" n="40" break="no"/>rae claritate loquitur Alanus in li. de planctu naturae, sic 
-      <lb ed="#G" n="41"/>dicens. Sapientia diuina super omnem possessionem
-      prae<lb ed="#G" n="42" break="no"/>eminet, per quam nobis conscientiae thesaurus secretis 
-      <lb ed="#G" n="43"/>penetrabilibus mentis innascitur, fructus aeternae
-      dile<lb ed="#G" n="44" break="no"/>cionis acquiritur. Haec est sol, per quem mentis lumen 
-      <lb ed="#G" n="45"/>diescit, cordis oculis in tenebris clarescit. Haec in
-      caele<lb ed="#G" n="46" break="no"/>stem terrenum hominem in Deum deifica mutatione 
-      <lb ed="#G" n="47"/>couertit. Vnde ait Greg. in quodam cantico ecclesiastici 
-      <lb ed="#G" n="48"/>officij, Vox clara ecce intonat, obscura quaeque increpat 
-      <lb ed="#G" n="49"/>pellantur eminus somnia ab aethere Christus promicat. 
-    </p>
-            <p xml:id="HuYgTa-d1e3XX-d1e785">
-               <lb ed="#G" n="50"/>
-               <pc type="indent"/>Dixi quarto, quod profluentia deliciosa mellifice refe 
-      <lb ed="#G" n="51"/>ctiua, exhibitiua principij sacri eloquij finaliter effectiui 
-      <lb ed="#G" n="52"/>intelligitur, cum subinfertur suam. Suum enim est
-      pro<lb ed="#G" n="53" break="no"/>nomen relatiuum. Vnde dicunt grammatici sic. ls suu 
-      <lb ed="#G" n="54"/>ipse sui referunt: sed cetera monstrant. Et ideo hoc
-      pro<lb ed="#G" n="55" break="no"/>nomen Suam refert hoc nomen Vocem ad illum, a quo 
-      <lb ed="#G" n="56"/>originaliter descendit. Et vt sic aperte implicat causam 
-      <lb ed="#G" n="57"/>finalem, quae suae bonitatis affluentia est omnium refecti 
-      <lb ed="#G" n="58"/>ia, ratione cuius affluentiae poterimus ei dicere illud 
-      <lb ed="#G" n="59"/>sonet vox tua in auribus meis, vox enim tua dulcis &amp;c 
-      <lb ed="#G" n="60"/>Vnde lsa. sic dicitur, Consolabitur ergo dominus Sion  
-      <lb ed="#G" n="61"/>&amp; consolabitur omnes ruinas eius, &amp; ponet desertum eius 
-      <lb ed="#G" n="62"/>quasi delicias, &amp; solitudinem eius quasi hortum
-      domini<lb ed="#G" n="63" break="no"/>gaudium, &amp; laetitia inuenietur in ea, gratiarum actio, &amp;  
-      <lb ed="#G" n="64"/>vox laudis. Vnde vocis istius, vt sua vox est scilicet Dei, 
-      <lb ed="#G" n="65"/>attendens <name xml:id="HuYgTa-d1e3XX-Nd1e824" ref="#Augustine">Aug.</name> suauitatem t confess. sic ait. Ecce aures 
-      <lb ed="#G" n="66"/>cordis mei ante te domine, aperi eas, &amp; dic animae meae: 
-      <lb ed="#G" n="67"/>Salus tua ego sum: curram post vocem hanc, &amp; apprehen 
-      <lb ed="#G" n="68"/>dam te, noli abscodere a me faciem tuam. Propter enim 
-      <lb ed="#G" n="69"/>multifariam consolationem vocis suae vt sua vox est, loan 
-      <lb ed="#G" n="70"/>cum vidisset faciem eius lucere, sicut sol lucet in virtute 
-      <lb ed="#G" n="71"/>sua, dixit de voce sua. Et vox illius tamquam vox
-      aqua<lb ed="#G" n="72" break="no"/>rum multarum idest consolationum diuersarum. In hac 
-      <lb ed="#G" n="73"/>enim voce omnes spirituales animae humanae delectatio 
-      <!--42.xml-->
-      <cb ed="#G" n="b"/>
-               <lb ed="#G" n="74"/>nes vnitissime recluduntur, teste Hieron. in suo breuiae 
-      <lb ed="#G" n="75"/>rio super psalt. vbi exponens illud verbum psal. 147. Ex 
-      <lb ed="#G" n="76"/>adipe frumenti satiat te, sic ait. Pinguis est enim sermo 
-      <lb ed="#G" n="77"/>diuinus, &amp; habet in se omnes delectationes: &amp; sicut aiuat 
-      <lb ed="#G" n="78"/>ludaei quod manna quandocumque comedebant,
-      secun<lb ed="#G" n="79" break="no"/>lum voluntatem cuiuscumque sapiebat in ore. Et quafi 
-      <lb ed="#G" n="80"/>eandem sententiam ponit lsi. 1. de sum. bon. dicens de 
-      <lb ed="#G" n="81"/>criptura sacra. Pro vniuscuiusque intelligentia Variatur,
-      si<lb ed="#G" n="82" break="no"/>cut mana pro singulorum delectatione varium saporem 
-      <lb ed="#G" n="83"/>habebat. Et sic patet de prima expositone verbi
-      princi<lb ed="#G" n="84" break="no"/>aliter introducti. 
-    </p>
-            <p xml:id="HuYgTa-d1e3XX-d1e873">
-               <lb ed="#G" n="85"/>
-               <pc type="indent"/>Exponendo autem secundo modo verba praelibata,
-      di<lb ed="#G" n="86" break="no"/>co quod quattuor in eis denotantur, quibus quattuor
-      li<lb ed="#G" n="87" break="no"/>bri sententiarum potissimc commendantur. Ad cuius
-      de<lb ed="#G" n="88" break="no"/>clarationem est breuiter aduertendum, quod ille
-      vene<lb ed="#G" n="89" break="no"/>rabilis doctor, &amp; magister quadruplicem in genere,
-      quam<lb ed="#G" n="90" break="no"/>uis multiplicem in specie ponit considerationem, iuxta
-      li<lb ed="#G" n="91" break="no"/>brorum suorum quadrifariam distinctionem, Considerat 
-      <lb ed="#G" n="92"/>namque magister Detrus primo diuinorum secretorum 
-      <lb ed="#G" n="93"/>sublimissimam condicionem. Secundo cunctorum creatorum 
-      <lb ed="#G" n="94"/>sufficientissimam productionem. Tertio summorum, &amp; 
-      <lb ed="#G" n="95"/>infimorum mirabilissimam coniunctionem Quarto mul 
-      <lb ed="#G" n="96"/>torum infirmorum efficacissimam curationem. Et vt
-      sen<lb ed="#G" n="97" break="no"/>tentia primi libri ostenditur laudabilis, &amp; gloriosa ex
-      in<lb ed="#G" n="98" break="no"/>dagatione eminentissimae maiestatis: Sententia secundi 
-      <lb ed="#G" n="99"/>commendabilis, &amp; speciosa ex consideratione
-      liberalissi<lb ed="#G" n="100" break="no"/>mae potestatis. Sententia tertij, amicabilis, &amp; gratiosa ex 
-      <lb ed="#G" n="101"/>innuitione immensissimae caritatis. Sententia quarti,
-      de<lb ed="#G" n="102" break="no"/>siderabilis, &amp; fructuosa ex estensione clementissimae
-      pie<lb ed="#G" n="103" break="no"/>tatis. Diuinorum secretorum condicio sublimissima, ex 
-      <lb ed="#G" n="104"/>qua sententia primi libri redditur laudabilis &amp; gloriosa, 
-      <lb ed="#G" n="105"/>intelligitur, cum dicitur abyssus. Cunctorum
-      producto<lb ed="#G" n="106" break="no"/>rum creatio liberalissima, ex qua sententia secundi libri 
-      <lb ed="#G" n="107"/>est commendabilis &amp; speciosa, innuitur, cum
-      praemitti<lb ed="#G" n="108" break="no"/>tur dedit. Diuisorum disiunctorum coniunctio
-      mirabilis<lb ed="#G" n="109" break="no"/>sima, ex qua, sententia tertij libri est amicabilis, &amp;
-      gra<lb ed="#G" n="110" break="no"/>tiosa, cognoscitur, cum tertio subiungitur vocem. Sed
-      ip<lb ed="#G" n="111" break="no"/>sorum infirmorum curatio virtuosissima, ex qua
-      senten<lb ed="#G" n="112" break="no"/>tia quarti libri est desiderabilis &amp; fructuosa, infinuatur,  
-      <lb ed="#G" n="113"/>um vltimo postponitur suam. Dico ergo primo, quod 
-      <lb ed="#G" n="114"/>diuinorum secretorum condicio sublimissima, ex qua 
-      <lb ed="#G" n="115"/>sententia primi libri redditur laudabilis, &amp; gloriosa,
-      n<lb ed="#G" n="116" break="no"/>elligitur, cum dicitur abyssus. In primo namque lib
-      abys<lb ed="#G" n="117" break="no"/>sus abyssum inuocat in voce cataractarum, puta abyssus 
-      <lb ed="#G" n="118"/>ssentialis vnitatis inuocat idest intus vocat, siue
-      perfe<lb ed="#G" n="119" break="no"/>cte considerat abyssum personalis trinitatis in voce idest 
-      <lb ed="#G" n="120"/>in expressione cataractarum idest diuinarum personarum. 
-      <lb ed="#G" n="121"/>Hoc enim non potest aliqua creatura: quia certa lege, &amp;  
-      <lb ed="#G" n="122"/>gvro vallabat abyssos. Difficile enim inuestigamus ea, 
-      <lb ed="#G" n="123"/>uae in terris sunt, &amp; quae in prospectu sunt, inuenimus 
-      <lb ed="#G" n="124"/>cum labore: quae in coelis autem sunt quis inuestigabita 
-      <lb ed="#G" n="125"/>quasi dicat, hoc erit nimis difficile, quodammodo
-      im<lb ed="#G" n="126" break="no"/>ossibile: puta scientifice perscrutari ea, quae sunt in
-      coe<lb ed="#G" n="127" break="no"/>lis sanctissimae Trinitatis. Hic enim, qui scrutator est maie 
-      <lb ed="#G" n="128"/>statis, opprimetur a gloria. Vnde 8. Hilar. de trin. iuxta 
-      <lb ed="#G" n="129"/>rin. difficult atem imminentem circa scientificam
-      per<lb ed="#G" n="130" break="no"/>scrutationem aeternae trinitatis attendens, sic ait. Mihi 
-      <lb ed="#G" n="131"/>n sensu labes est: in intellectu stupor est: in sermone, non 
-      <lb ed="#G" n="132"/>iam infirmitatem, sed silentium confitebor: immensum 
-      <lb ed="#G" n="133"/>st, quod exigitur: incomprehensibile, quod videtur:
-      ex<lb ed="#G" n="134" break="no"/>tra significationem sermonis est, extra sensus intentionem, 
-      <lb ed="#G" n="135"/>extra intelligentiae capacitatem, &amp; quicquid vltra
-      quae<lb ed="#G" n="136" break="no"/>ritur, non annunciatur, non attingitur. non tenetur: ver 
-      <lb ed="#G" n="137"/>borum significantiam rei ipsius natura consumit : sensus 
-      <lb ed="#G" n="138"/>contemplationem imperspicabile lumen obcoecat. Licet 
-      <lb ed="#G" n="139"/>autem illud abyssale mvsterium nullus vmqummortalium 
-      <lb ed="#G" n="140"/>ad plenum potuerit penetrare: tamen sicut riuuli fontium de
-      ca<lb ed="#G" n="141" break="no"/>cumine montium in abyssum conuallium solent emanare, 
-      <lb ed="#G" n="142"/>uibus in infimis constituti poterunt recreari: sic
-      incom<lb ed="#G" n="143" break="no"/>rehensibilis altitudo sanctissimae trinitatis: apud quam  
-      <lb ed="#G" n="144"/>st fons vitae, in cuius lumine videbimus lumen illuminas 
-      <lb ed="#G" n="145"/>mrrabiliter a montibus aeternis, quibusdam claritatis suae 
-      <lb ed="#G" n="146"/>stillicidiis stillantibus super terram ipsius humani cordis,  
-      <!--43.xml-->
-      <pb ed="#G" n="2-v"/>
-               <cb ed="#G" n="a"/>
-               <lb ed="#G" n="1"/>suos studiosos, &amp; deuoros, quo ad intelligibil em
-      consue<lb ed="#G" n="2" break="no"/>uit mirabiliter illustrare: &amp; quo ad concupiscibilem de 
-      <lb ed="#G" n="3"/>lectabiliter inflammare: quia vt dicitur in psal. Adaqua 
-      <lb ed="#G" n="4"/>uit eos velut in abysso multa, in qua scilicet abysso,
-      ine<lb ed="#G" n="5" break="no"/>briabimur ab vbertate domus suae, &amp; torrente
-      volupra<lb ed="#G" n="6" break="no"/>tis suae potabit eos. Vnde praedictorum stillicidiorum 
-      <lb ed="#G" n="7"/>perlustrationem simul &amp; delectationem persentiens, Au 
-      <lb ed="#G" n="8"/>quasi in extasi positus in libs sollilo, sic clamat Olumen 
-      <lb ed="#G" n="9"/>verum, lumen sanctum, lumen delectabile, lumen
-      admi<lb ed="#G" n="10" break="no"/>rabile, lumen superlaudabile, quod illuminat oculos
-      an<lb ed="#G" n="11" break="no"/>geiorum, ecce video, gratias ago: ecce video lumen
-      celi<lb ed="#G" n="12" break="no"/>interlucet in oculis mentis meae radius desuper a facie 
-      <lb ed="#G" n="13"/>luminis tui; &amp; laetificat omnia ossa mea. O si
-      perficere<lb ed="#G" n="14" break="no"/>tur in me: auge, quaeso luminis auctor: auge, quaeso, quod 
-      <lb ed="#G" n="15"/>intus lucet in me: dilatetur, obsecro, dilatetur ex te. Ei 
-      <lb ed="#G" n="16"/>paucis interpositis subdit. Olumen meridianum
-      illumi<lb ed="#G" n="17" break="no"/>nans omnem mundum, cuius lux implet mundum: vaeh 
-      <lb ed="#G" n="18"/>illis oculis, qui te non vident: sol illuminans caelum &amp;  
-      <lb ed="#G" n="19"/>terram: vaeh caligantibus oculis, qui te videre non pos 
-      <lb ed="#G" n="20"/>sunt. Ad cuius luminis plenam perceptionem aeterne. s. 
-      <lb ed="#G" n="21"/>vitae consolationem, nos perducat ipse consolator cun 
-      <lb ed="#G" n="22"/>ctorum dominus dominorum, qui viuit, &amp; regnat in
-      sae<lb ed="#G" n="23" break="no"/>cula saeculorum, Amen¬ 
-    </p>
-         </div>
-      </body>
-   </text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Circa textum 1</title>
+        <author ref="#ThomasStrasbourg">Thomas of Strasbourg</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Circa textum 1</title>
+          <date when="2020-11-26">November 26, 2020</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="G" n="cod-TxxxqU">Genoa 1585</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2020-11-26" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#G" n="1-r"/>
+        <cb ed="#G" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="HuYgTa-d1e3XX"><!-- HuYgTa-l1prolct1 -->
+        <head xml:id="HuYgTa-d1e3XX-Hd1e108">Circa textum 1</head>
+        <p xml:id="HuYgTa-d1e3XX-d1e111">
+          <pb ed="#G" n="1-r"/>
+          <cb ed="#G" n="a"/>
+          <lb ed="#G" n="1"/>EDIT AETS 
+          <lb ed="#G" n="2"/>SVS VoCEM. 
+          <ref xml:id="HuYgTa-d1e3XX-Rd1e121">Aba<lb ed="#G" n="3" break="no"/>cuch 3.</ref> Oloriosu 
+          <lb ed="#G" n="4"/>
+          <name xml:id="HuYgTa-d1e3XX-Nd1e129">doctor Aug.</name> diui 
+          <lb ed="#G" n="5"/>nae naturae super 
+          <lb ed="#G" n="6"/>nam dignitatem. 
+          <lb ed="#G" n="7"/>&amp; rationalis cre 
+          <lb ed="#G" n="8"/>turae aeternam felici 
+          <lb ed="#G" n="9"/>tate consideras &amp; 
+          <lb ed="#G" n="10"/>de ciuitate dei si 
+          <lb ed="#G" n="11"/>ait, nomo ita cre 
+          <lb ed="#G" n="12"/>tus est, vt prid, quod 
+          <lb ed="#G" n="13"/>in eo precellit, a 
+          <lb ed="#G" n="14"/>tingat ad illud, quod 
+          <lb ed="#G" n="15"/>cuncta praecellit, idest, vnum verum optimum, sine quo nulla 
+          <lb ed="#G" n="16"/>natura subsistit, nulla doctrina instruit, nullus vsus expe 
+          <lb ed="#G" n="17"/>dit. Ipse quaeratur, vbi nobis secura sunt omnia: ipse
+          cern<lb ed="#G" n="18" break="no"/>tur, vbi nobis certa sunt omnia: ipse diligatur, vbi
+          nobi<lb ed="#G" n="19" break="no"/>recta sunt omnia. Et eandem sententiam confirmans Pi 
+          <lb ed="#G" n="20"/>tonicorum testimonio, immediate sequenti cap. ait sici 
+          <lb ed="#G" n="21"/>Platonici plerique dixerunt, verum Deum esse rerum a 
+          <lb ed="#G" n="22"/>corem, veritatis illustratorem, &amp; beatitudinis largitori 
+          <lb ed="#G" n="23"/>Hanc eandem veritatem tangeus <name xml:id="HuYgTa-d1e3XX-Nd1e173" ref="#Augustine">Aug.</name> circa principiun 
+          <lb ed="#G" n="24"/>sibri de cognitione verae vitae sic ait, Profecto naturam r 
+          <lb ed="#G" n="25"/>tionalem ad hoc solum factam constat, vt factorem suum vo 
+          <lb ed="#G" n="26"/>rum Deum intelligat, intelligendo diligat, diligendo in 
+          <lb ed="#G" n="27"/>eo, quod est aeterna vita, aeternaliter beate viuat. Ex
+          qui<lb ed="#G" n="28" break="no"/>bus omnibus aperte colligitur, quod vera beatitudo an 
+          <lb ed="#G" n="29"/>mae rationalis haberi non potest, nisi ipsa anima cuncta 
+          <lb ed="#G" n="30"/>ereata transcendens, soli suo creatori tamquam suae bea 
+          <lb ed="#G" n="31"/>ritudinis largitori, ex intimo cordis affectu finaliter conn 
+          <lb ed="#G" n="32"/>iongatur : Nunc autem ita est, quod ats docet, &amp; natura 
+          <lb ed="#G" n="33"/>fimiliter protestatur, exttemum extremo non coniung 
+          <lb ed="#G" n="34"/>fine medio, teste etiam <name xml:id="HuYgTa-d1e3XX-Nd1e200">P. Dionvsio</name> in de Angelica hio 
+          <lb ed="#G" n="35"/>tat Ordinatissima terum distributio, lege diuinae prous 
+          <lb ed="#G" n="36"/>dentiae sic dignoscitur esse disposita, quod infima per mi 
+          <!--40.xml-->
+          <cb ed="#G" n="b"/>
+          <lb ed="#G" n="37"/>dia reducuntur in suprema. Cum igitur rationalis anima 
+          <lb ed="#G" n="38"/>&amp; ipsa natura diuina sint in genere intelligibilium, duo 
+          <lb ed="#G" n="39"/>extrema maxime a se inuicem distantia: quia haec est
+          pu<lb ed="#G" n="40" break="no"/>ra potentia, illa autem actus purus, prout in alia
+          faculta<lb ed="#G" n="41" break="no"/>te euidentius declaratur. Sequitur igitur necessario, quod 
+          <lb ed="#G" n="42"/>sine gratioso medio diuinitus inspirato animam
+          supern<lb ed="#G" n="43" break="no"/>turaliter eleuante, puram suam potentialitatem actiuan 
+          <lb ed="#G" n="44"/>te, &amp; per consequens potentiam animae obiecto diuino 
+          <lb ed="#G" n="45"/>aliqualiter conformante: praedictum actum purissimum 
+          <lb ed="#G" n="46"/>in sua propria claritate anima rationalis non possit beat 
+          <lb ed="#G" n="47"/>fice contemplari, Considerata enim anima, quo ad sua pu 
+          <lb ed="#G" n="48"/>ra naturalia, tunc verificatur illa apostolica sententia, qua 
+          <lb ed="#G" n="49"/>de isto actu purissimo dicitur, quod lucem inhabitat inac 
+          <lb ed="#G" n="50"/>cessibilem, quem nullus hominum vidit, sed nec videro 
+          <lb ed="#G" n="51"/>potest. Propter quod <ref xml:id="HuYgTa-d1e3XX-Rd1e244">
+            <name xml:id="HuYgTa-d1e3XX-Nd1e246" ref="#Augustine">P. August.</name> 1. de trin</ref> sic ait, Humane 
+          <lb ed="#G" n="52"/>mentis acies inualida, in tam excellenti luce figi non
+          va<lb ed="#G" n="53" break="no"/>let, nisi per iustitiam fidei nutrita vegetetur. Nec mirum; 
+          <lb ed="#G" n="54"/>quia sicut se habet oculus vespertilionis ad lucem solis 
+          <lb ed="#G" n="55"/>sic se habet animae nostrae intellectus ad ea, quae sunt
+          m<lb ed="#G" n="56" break="no"/>nifestissima in natura, vt dicitur 2. metaph. Vnde etiam 
+          <lb ed="#G" n="57"/>Anselmus prosol. causam tantae distantiae &amp; improportio 
+          <lb ed="#G" n="58"/>nis praedictorum duorum extremorum inquirens, sic ait, Curi 
+          <lb ed="#G" n="59"/>domine, cur hoc, quod te videre non possumus sicuti es; 
+          <lb ed="#G" n="60"/>tenebratur oculus infirmitate sua, an reuerberatur fulgo 
+          <lb ed="#G" n="61"/>re tuo: Et respondet ibidem dicens. Sed certe tenebratu 
+          <lb ed="#G" n="62"/>in se, &amp; reuerberatur a te: obscurat sua breuitate, &amp; obrui 
+          <lb ed="#G" n="63"/>tur tua immensitate: vere conteritur angustia sua, &amp; vinci 
+          <lb ed="#G" n="64"/>tur amplitudine tua. Sicut igitur aliquis existens in tens 
+          <lb ed="#G" n="65"/>pris &amp; caligine, quod visu non potest percipere, illud mo 
+          <lb ed="#G" n="66"/>diante voce ipsius rei quaesitae nititur indagare: sic anima 
+          <lb ed="#G" n="67"/>rationalis carcerali clausa custodia molis corporalis; qua 
+          <lb ed="#G" n="68"/>diu peregrinatur a domino in huiusmodi caliginoso, &amp; 
+          <lb ed="#G" n="69"/>tenebroso ergastulo, inhabitans domum luteam, &amp;
+          ter<lb ed="#G" n="70" break="no"/>renum habens fundamentum, cernens se respectu di¬¬ 
+          <lb ed="#G" n="71"/>uinae claritatis naturali cognitione deficere pro
+          sta<lb ed="#G" n="72" break="no"/>tu presentis miseriae, ipsi sacrae theologiae firmissime 
+          <!--41.xml-->
+          <pb ed="#G" n="1-v"/>
+          <cb ed="#G" n="a"/>
+          <lb ed="#G" n="1"/>debet inniti, tamquam uoci propriae eius, cui beatifice 
+          <lb ed="#G" n="2"/>desiderat inherere. Sic enim per varia sacrarum
+          scriptu<lb ed="#G" n="3" break="no"/>rarum volumina dilectum suum inquirens, quasi vocem 
+          <lb ed="#G" n="4"/>eius iugiter insequendo, dilectum ita quaesitum, quantum 
+          <lb ed="#G" n="5"/>uiscunque absconditum in intima abysso suorum secretorum 
+          <lb ed="#G" n="6"/>reuelata tandem facie poterit speculari. Nam in iam dict 
+          <lb ed="#G" n="7"/>discursus termino, pallio vetustatis deposito,
+          animara<lb ed="#G" n="8" break="no"/>tionalis dicet id Cant. inueni quem diligit anima mea 
+          <lb ed="#G" n="9"/>tenui eum, nec dimittam donec introducam illum in do 
+          <lb ed="#G" n="10"/>mum matris meae, &amp; in cubiculum genitricis meae. Et be 
+          <lb ed="#G" n="11"/>ne dicit in domum matris, id est, in domum supernae deita 
+          <lb ed="#G" n="12"/>eis, quia in studio scripturarum, quasi in voce exultationis 
+          <lb ed="#G" n="13"/>&amp; confessionis transibit in locum tabernaculi
+          admirabi<lb ed="#G" n="14" break="no"/>lis vsque ad domum Dei Rectus igitur ordo ad beatitu 
+          <lb ed="#G" n="15"/>dinem procedendo, hic esse videtur, vox dilecti audiatur 
+          <lb ed="#G" n="16"/>primitus in scriptura, &amp; ipse denique videatur in diuina 
+          <lb ed="#G" n="17"/>sua natura. Quem ordinem videtur ipse <name xml:id="HuYgTa-d1e3XX-Nd1e339" ref="#Job">Iob</name> obseruasse, 
+          <lb ed="#G" n="18"/>cum vltimo sui libri cap. ait, Auditu auris audiui te, &amp;  
+          <lb ed="#G" n="19"/>nunc oculus meus videt te. Vnde &amp; in termino vie, aeter 
+          <lb ed="#G" n="20"/>na scilicet beatitudine existentes dicere possunt illud psal 
+          <lb ed="#G" n="21"/>mi. Sicut aud iuimus, sic vidimus in ciuitate domini virtu 
+          <lb ed="#G" n="22"/>tum. Sicut enim metallum prius ignitur, &amp; laxatur, quam 
+          <lb ed="#G" n="23"/>in debitas formas transfundatur ab artifice; sic homo stu 
+          <lb ed="#G" n="24"/>diosus sacrae scripturae deditus, ignito Dei eloquio prius 
+          <lb ed="#G" n="25"/>in seipso debet liquefieri &amp; deinde reuelata Dei visione 
+          <lb ed="#G" n="26"/>in supernae deitatis imaginem clarifice transformari: vt sic 
+          <lb ed="#G" n="27"/>precedenter liquefactus veraciter dicere possit illud cant 
+          <lb ed="#G" n="28"/>3 Anima mea liquefacta est: vt dilectus meus locutus est 
+          <lb ed="#G" n="29"/>Et subsequenter transformatus dicat cum Apost. Nos at 
+          <lb ed="#G" n="30"/>e tem reuelata facie gloriam Domini speculantes in
+          ean<lb ed="#G" n="31" break="no"/>s dem imaginem transformamur a claritate in claritatem. 
+        </p>
+        <p xml:id="HuYgTa-d1e3XX-d1e374">
+          <lb ed="#G" n="32"/>
+          <pc type="indent"/>Ex dictis hucusque duo principaliter habemus: quorum 
+          <lb ed="#G" n="33"/>primum est, quod anima rationalis non potest esse beata 
+          <lb ed="#G" n="34"/>nisi ad apertam Dei visionem fuerit eleuata. Secundum 
+          <lb ed="#G" n="35"/>est, quod ad huiusmodi visionem nullatenus eleuatur, ni 
+          <lb ed="#G" n="36"/>si prius vocem Dei in scripturis fideliter sequatur. Et qua 
+          <lb ed="#G" n="37"/>vocem eius audire non possumus, nisi ipse loquatur; ideo 
+          <lb ed="#G" n="38"/>ne anima rationalis a via veritatis ex carentia istius diui 
+          <lb ed="#G" n="39"/>nae vocis erraret, sed potius recto tramite, duce Dei voce 
+          <lb ed="#G" n="40"/>ad vitam aeternam mearet: pater misericordiarum, &amp; Deus 
+          <lb ed="#G" n="41"/>totius consolationis, pater, inquam, luminum, a quo
+          De<lb ed="#G" n="42" break="no"/>cedit omne datum optimum, &amp; omne donum perfectum. 
+          <lb ed="#G" n="43"/>cuius vox, seu verbum est lucerna pedibus, &amp; lumen semi 
+          <lb ed="#G" n="44"/>tis cuiuslibet animae fidelis. Hic inquam pater, pro nostra 
+          <lb ed="#G" n="45"/>obtinenda salute, ex abysso cordis sui verbum bonum erum 
+          <lb ed="#G" n="46"/>ctauit: cum vocem suam, scripturam. ssacram, Patribus in 
+          <lb ed="#G" n="47"/>spirauit, &amp; nobis in sacro canone eam communicauit. Et 
+          <lb ed="#G" n="48"/>hoc est quod Abacuch propheta insinuauit, cum dixit. DE 
+          <lb ed="#G" n="49"/>DIT AEVSSVS VOCEM SVAM, vbi supra 
+        </p>
+        <p xml:id="HuYgTa-d1e3XX-d1e418">
+          <lb ed="#G" n="50"/>
+          <pc type="indent"/>In quibus verbis dupliciter exponendis, scriptura
+          sa<lb ed="#G" n="51" break="no"/>cri canonis nobis omnibus in ea studentibus proponitur 
+          <lb ed="#G" n="52"/>dupliciter commendanda. Primo, vt vniuersaliter
+          consi<lb ed="#G" n="53" break="no"/>derata in nouo, veterique testamento spatiosissime
+          dila<lb ed="#G" n="54" break="no"/>tata. Secundo, vt specialiter consignata, &amp; a magistro De 
+          <lb ed="#G" n="55"/>tro in libus sent compendio ordinatissime compilata 
+        </p>
+        <p xml:id="HuYgTa-d1e3XX-d1e436">
+          <lb ed="#G" n="56"/>
+          <pc type="indent"/>Quantum ad primum ad praesens dicere possum, quod in 
+          <lb ed="#G" n="57"/>verbis praeassumptis, ipsa scriptura sacra quadrupliciter 
+          <lb ed="#G" n="58"/>commendatur. Primo a munificentia copiosa magnifice 
+          <lb ed="#G" n="59"/>largitiua. Secundo ab eminentia prodigiosa mirifice
+          con<lb ed="#G" n="60" break="no"/>tentiua. Tertio a luculentia generosa clarifice lustratiua 
+          <lb ed="#G" n="61"/>Et quarto a profluentia deliciosa m ellifice refectiua. Ra 
+          <lb ed="#G" n="62"/>tione primi, verba sacri eloquij sunt insignita decore
+          in<lb ed="#G" n="63" break="no"/>aestimabilis dignitatis. Ratione secundi, sunt custo dita to 
+          <lb ed="#G" n="64"/>nore impenetrabilis difficu ltatis. Ratione tertij sunt ex 
+          <lb ed="#G" n="65"/>polita splendore inobumbrabilis claritatis. Et ratione 
+          <lb ed="#G" n="66"/>quarti sunt emellita dulcore inconsummabilis bonitatis 
+          <lb ed="#G" n="67"/>lstorum primum est ostensiuum principij ipsius sacrae
+          scri<lb ed="#G" n="68" break="no"/>pturae originaliter productiui: secundum insinuat iuum 
+          <lb ed="#G" n="69"/>materialiter subiectiui: tertium monstratiuum
+          formali<lb ed="#G" n="70" break="no"/>ter processiuil, &amp; quartum exhibitiuum finaliter
+          affecti<lb ed="#G" n="71" break="no"/>ui. Munificentia copiosa magnifice largitiua,
+          ostensi<lb ed="#G" n="72" break="no"/>ua principij sacri eloquij originaliter productiui,
+          no<lb ed="#G" n="73" break="no"/>tatur, cum praemittitur DTD1 T. Eminentia prodi¬ 
+          <!--41.xml-->
+          <cb ed="#G" n="b"/>
+          <lb ed="#G" n="74"/>giosa mirifice contentiua insinuatiui principij sacri 
+          <lb ed="#G" n="75"/>eloquij materi aliter subiectiui, innuitur cum
+          anne<lb ed="#G" n="76" break="no"/>ctitur  A R TS S VS. Luculentia generosa
+          clari<lb ed="#G" n="77" break="no"/>fice lustratiua, monstratiua principij sacri eloquij forma 
+          <lb ed="#G" n="78"/>liter processiui ostenditur, cum tertio postpo nitur
+          vo<lb ed="#G" n="79" break="no"/>tem. Sed profluentia deliciosa mellifice refectiua, exhi 
+          <lb ed="#G" n="80"/>bitiua principij sacri eloquij finaliter affectiui
+          intelligi<lb ed="#G" n="81" break="no"/>tur, cum vltimo subinfertur S VVM¬ 
+        </p>
+        <p xml:id="HuYgTa-d1e3XX-d1e502">
+          <lb ed="#G" n="82"/>
+          <pc type="indent"/>Dico ergo primo, quod munificentia copiosa
+          magni<lb ed="#G" n="83" break="no"/>fice lar gitiua, ostensiua principij sacri eloquij originali 
+          <lb ed="#G" n="84"/>ter productiui, notatur ibi, cum praemittitur DEDIT 
+          <lb ed="#G" n="85"/>Nulla enim creatura veram sapientiam dare potuit: 
+          <lb ed="#G" n="86"/>quia ipsa non habuit, teste ipso <name xml:id="HuYgTa-d1e3XX-Nd1e517" ref="#Job">Iob</name>, qui 28. sui lib
+          ca<lb ed="#G" n="87" break="no"/>uaestionem mouet in hunc modum. Vnde ergo venit 
+          <lb ed="#G" n="88"/>apientia, &amp; quis est locus intelligentiae: Et respondens 
+          <lb ed="#G" n="89"/>simmediate dicit. Abscondita est ab oculis omnium
+          ui<lb ed="#G" n="90" break="no"/>sentium, volucres quoque coeli latet. Perditio, &amp; mors 
+          <lb ed="#G" n="91"/>dixerunt, Auribus nostris audiuimus famam eius, deus 
+          <lb ed="#G" n="92"/>intelligit viam eius, &amp; ipse nouit locum illius. Ipse 
+          <lb ed="#G" n="93"/>enim fines mundi intuetur, &amp; omnia, quae sub coelo 
+          <lb ed="#G" n="94"/>sunt, respicit. Cum igitur nihil det, quod non habet,  
+          <lb ed="#G" n="95"/>a nulla creatura postulare debemus sapientiam, sed a 
+          <lb ed="#G" n="96"/>solo creatore, dicentes cum <name xml:id="HuYgTa-d1e3XX-Nd1e542">Salom</name>. Da mihi domine 
+          <lb ed="#G" n="97"/>sedium tuarum assistricem sapientiam. Et infra in eod. 
+          <lb ed="#G" n="98"/>cap. Mitte illam de coelis sanctis tuis, &amp; a sede
+          magni<lb ed="#G" n="99" break="no"/>tudinis tuae, vt mecum sit, &amp; mecum laboret: vt sciam 
+          <lb ed="#G" n="100"/>uid acceptum sit coram te. Omnis enim sapientia a 
+          <lb ed="#G" n="101"/>domino Deo est, &amp; cum illo fuit semper, &amp; est ante 
+          <lb ed="#G" n="102"/>aeuum. Ipse enim creauit illam in Spiritu sancto, &amp;
+          vi<lb ed="#G" n="103" break="no"/>dit, &amp; dinumerauit, &amp; mensus est, &amp; effudit illam
+          su<lb ed="#G" n="104" break="no"/>per omnia opera sua, &amp; super omnem carnem secundum 
+          <lb ed="#G" n="105"/>latum suum: &amp; praebet illam diligentibus se.,
+          lbidem<lb ed="#G" n="106" break="no"/>Si enim ipse philosophus, propter dignitatem humanae 
+          <lb ed="#G" n="107"/>sapientiae dixit i. metaph. quod iuste putatur non huma 
+          <lb ed="#G" n="108"/>na fore possessio, solus enim Deus habet hunc honorem 
+          <lb ed="#G" n="109"/>quanto magis haec sacratissima Dei scientia a solo Deo 
+          <lb ed="#G" n="110"/>dicetur immediatissime dependere: lgitur sicut ait
+          Au<lb ed="#G" n="111" break="no"/>gustinus. 8. de trinitate in prooemio, Deo supplicandum 
+          <lb ed="#G" n="112"/>est deuotissima pietate, vt intellectum aperiat, quo
+          pos<lb ed="#G" n="113" break="no"/>sit mente cerni essentia Veritatis. Propter quod dicitur 
+          <lb ed="#G" n="114"/>lac. 1. Si quis autem vestrum indiget sapientia, postulei 
+          <lb ed="#G" n="115"/>Deo, qui dat omnibus affluenter, &amp; non improperat 
+          <lb ed="#G" n="116"/>&amp; dabitur ei item soan. 5. dicitur, Dedit nobis sensum.i. 
+          <lb ed="#G" n="117"/>scripturam, vt cognoscamus Deum verum, &amp; simus in 
+          <lb ed="#G" n="118"/>vero filio eius, item Sapien. 7 Optaui, &amp; datus est mi- 
+          <lb ed="#G" n="119"/>hi sensus, inuocaui, &amp; venit in me spiritus
+          sapientiae<lb ed="#G" n="120" break="no"/>ldeo dominus, spiritualiter intelligendo, loquens de 
+          <lb ed="#G" n="121"/>scriptura sua sancta, ait, Dedi te in lucem gentium, vt 
+          <lb ed="#G" n="122"/>sis salus mea vsque ad extremum terrae. Et quia dixit
+          il<lb ed="#G" n="123" break="no"/>e sapiens, Danti mihi sapientiam dabo gloriam, Ideo 
+          <lb ed="#G" n="124"/>sicut dicitur t coeli &amp; mundi, laudare habemus Deum 
+          <lb ed="#G" n="125"/>vnum creatorem praeeminentem proprietatibus rerum 
+          <lb ed="#G" n="126"/>Laudemus igitur Deum in ternario numero, vt dicitur 
+          <lb ed="#G" n="127"/>ibidem, dicentes cum Apostolo, Soli Deo honor &amp;
+          glo<lb ed="#G" n="128" break="no"/>ria in saecula seculorum. 
+        </p>
+        <p xml:id="HuYgTa-d1e3XX-d1e615">
+          <lb ed="#G" n="129"/>
+          <pc type="indent"/>Dixi secundo, quod eminentia prodigiosa mirifice con 
+          <lb ed="#G" n="130"/>tentiua, insinuatiua principij sacri eloquij materialiter 
+          <lb ed="#G" n="131"/>ubiectiui innuitur, cum annectitur AE Vs SVs. Tanta 
+          <lb ed="#G" n="132"/>enim est profunditas istius sctipturae benedictae ratione 
+          <lb ed="#G" n="133"/>subiecti, siue causae materialis, quod merito, vt sic,
+          ab<lb ed="#G" n="134" break="no"/>ysso comparatur, Propter quod dicitur. Abyssus sicut
+          ve<lb ed="#G" n="135" break="no"/>stimentum amictus eius. Sicut enim vestimentum
+          ab<lb ed="#G" n="136" break="no"/>scondit, &amp; a nostra contemplatione caelat illud ipsum, 
+          <lb ed="#G" n="137"/>quod velat, sic diuina claritas propter eius abyssalem im 
+          <lb ed="#G" n="138"/>mensitatem respectu oculorum nostrorum operitur ana 
+          <lb ed="#G" n="139"/>gogicis velamentis, iuxta quod ait Diony. in de Ang. 
+          <lb ed="#G" n="140"/>hierarch. Neque enim possibile nobis est aliter intueri 
+          <lb ed="#G" n="141"/>diuinum radium nisi veritate sa crorum velaminum, ana 
+          <lb ed="#G" n="142"/>gogice circumuelatum. Super quo verbo ait <ref xml:id="HuYgTa-d1e3XX-Rd1e649">
+            <name xml:id="HuYgTa-d1e3XX-Nd1e651">Hugo</name>
+            ibi<lb ed="#G" n="143" break="no"/>dem in commento</ref>. Quemadmodum infirmi oculi solem 
+          <lb ed="#G" n="144"/>nube tectum libere conspiciunt, qui eius coruscum
+          lu<lb ed="#G" n="145" break="no"/>men uideren on possunt, sic diuinum radium oportet e s 
+          <lb ed="#G" n="146"/>sc circumuelatum, vt ipsum intelligamus. Vnde propter 
+          <!--42.xml-->
+          <pb ed="#G" n="2-r"/>
+          <cb ed="#G" n="a"/>
+          <lb ed="#G" n="1"/>istius abyssi inattigibilem profunditatem quaeritur.
+          Pro<lb ed="#G" n="2" break="no"/>fundum abyssi quis dimensus est, &amp; sapientiam Dei
+          prae<lb ed="#G" n="3" break="no"/>cedentem omnia quis inuestigauit: Cui quaestioni
+          respo<lb ed="#G" n="4" break="no"/>dens sapientia increata, dicit. Qirum coeli circuiui sola 
+          <lb ed="#G" n="5"/>&amp; profundum abyssi penetraui. Hoc enim non potest ali 
+          <lb ed="#G" n="6"/>qua creatura, teste Apostolo, qui ait. O altitudo
+          diuitia<lb ed="#G" n="7" break="no"/>rum sapientiae &amp; scientiae Dei: quam incomprehensibi 
+          <lb ed="#G" n="8"/>lia sunt iudicia eius, &amp; ininuestigabiles viae eius. Vbi 
+          Apo<lb ed="#G" n="9" break="no"/>stolus primo praemittit suam admirationem di. O alt. 
+          <lb ed="#G" n="10"/>Secundo admirationis rationem, Altitudo sapientiae, &amp;  
+          <lb ed="#G" n="11"/>scientiae Dei. Tertio rationis confirmationem. Quam 
+          <lb ed="#G" n="12"/>incompre. &amp;c. 
+        </p>
+        <p xml:id="HuYgTa-d1e3XX-d1e697">
+          <lb ed="#G" n="13"/>
+          <pc type="indent"/>Dixi tertio; quod luculentia generosa clarifice
+          lustra<lb ed="#G" n="14" break="no"/>tiua, monstratiua principij sacri eloquij formaliter
+          pro<lb ed="#G" n="15" break="no"/>cessiui ostenditur cum tertio postponitur vocem. Haec enim 
+          <lb ed="#G" n="16"/>vrox per sui luculentiam, &amp; claritatem, omnes studiosos 
+          <lb ed="#G" n="17"/>insequentes perlustrat admirabili claritate. Vnde
+          loan<lb ed="#G" n="18" break="no"/>12. scribitur. venit ergo vox de coelo. di. Clarific aui, &amp;  
+          <lb ed="#G" n="19"/>iterum clarificabo. q. d. In veteri testamento clarificaui 
+          <lb ed="#G" n="20"/>Prophetas, &amp; Patriarch. &amp; in nouo clarificabo cunctos 
+          <lb ed="#G" n="21"/>studiosos christicolas. Et quid mirum, quod ipsa clarificat 
+          <lb ed="#G" n="22"/>cum de ipsa dicatur. Clara est, quae numquam marcescit 
+          <lb ed="#G" n="23"/>sapientia, &amp; facile videtur ab his, qui diligunt eam. Et 
+          <lb ed="#G" n="24"/>ibid. Vapor est enim virtutis Dei, &amp; emanatio quaedan 
+          <lb ed="#G" n="25"/>claritatis omnipotentis Dei sincera: &amp; ideo nihil
+          coin<lb ed="#G" n="26" break="no"/>quinatum in illam incurrit. Candor est lucis aeternae, &amp; 
+          <lb ed="#G" n="27"/>peculum sine macula Dei maiestatis, &amp; imago bonitatis 
+          <lb ed="#G" n="28"/>illius. &amp; cum sit vna, omnia potest : &amp; permanens in se 
+          <lb ed="#G" n="29"/>omnia innouat, &amp; per nationes in animas sanctas se trans 
+          <lb ed="#G" n="30"/>fert, amicos, &amp; prophetas constituit. Et sequitur paucis 
+          <lb ed="#G" n="31"/>interpositis. Est enim haec speciosior sole, &amp; super omne 
+          <lb ed="#G" n="32"/>stellarum dispositionem, luci comparata inuenitur prior. 
+          <lb ed="#G" n="33"/>sili enim succedit nox; Sapientiam autem non vincit ma 
+          <lb ed="#G" n="34"/>litia. Dicit dominus de ista sacra scriptura Ego feci vt in 
+          <lb ed="#G" n="35"/>coelis idest in coelestibus mentibus oriretur lumen
+          inde<lb ed="#G" n="36" break="no"/>ficiens. Et bene dicit indeficiens, quia sicut dicit <name xml:id="HuYgTa-d1e3XX-Nd1e753">Cassio</name>. 
+          <lb ed="#G" n="37"/>in quadam epist. Sapientia violentia non aufertur,
+          anti<lb ed="#G" n="38" break="no"/>quitate non corrumpitur, absconsione non minuitur,
+          com<lb ed="#G" n="39" break="no"/>municatione multiplicatur. De hac etiam sacrae
+          scriptu<lb ed="#G" n="40" break="no"/>rae claritate loquitur Alanus in li. de planctu naturae, sic 
+          <lb ed="#G" n="41"/>dicens. Sapientia diuina super omnem possessionem
+          prae<lb ed="#G" n="42" break="no"/>eminet, per quam nobis conscientiae thesaurus secretis 
+          <lb ed="#G" n="43"/>penetrabilibus mentis innascitur, fructus aeternae
+          dile<lb ed="#G" n="44" break="no"/>cionis acquiritur. Haec est sol, per quem mentis lumen 
+          <lb ed="#G" n="45"/>diescit, cordis oculis in tenebris clarescit. Haec in
+          caele<lb ed="#G" n="46" break="no"/>stem terrenum hominem in Deum deifica mutatione 
+          <lb ed="#G" n="47"/>couertit. Vnde ait Greg. in quodam cantico ecclesiastici 
+          <lb ed="#G" n="48"/>officij, Vox clara ecce intonat, obscura quaeque increpat 
+          <lb ed="#G" n="49"/>pellantur eminus somnia ab aethere Christus promicat. 
+        </p>
+        <p xml:id="HuYgTa-d1e3XX-d1e785">
+          <lb ed="#G" n="50"/>
+          <pc type="indent"/>Dixi quarto, quod profluentia deliciosa mellifice refe 
+          <lb ed="#G" n="51"/>ctiua, exhibitiua principij sacri eloquij finaliter effectiui 
+          <lb ed="#G" n="52"/>intelligitur, cum subinfertur suam. Suum enim est
+          pro<lb ed="#G" n="53" break="no"/>nomen relatiuum. Vnde dicunt grammatici sic. ls suu 
+          <lb ed="#G" n="54"/>ipse sui referunt: sed cetera monstrant. Et ideo hoc
+          pro<lb ed="#G" n="55" break="no"/>nomen Suam refert hoc nomen Vocem ad illum, a quo 
+          <lb ed="#G" n="56"/>originaliter descendit. Et vt sic aperte implicat causam 
+          <lb ed="#G" n="57"/>finalem, quae suae bonitatis affluentia est omnium refecti 
+          <lb ed="#G" n="58"/>ia, ratione cuius affluentiae poterimus ei dicere illud 
+          <lb ed="#G" n="59"/>sonet vox tua in auribus meis, vox enim tua dulcis &amp;c 
+          <lb ed="#G" n="60"/>Vnde lsa. sic dicitur, Consolabitur ergo dominus Sion  
+          <lb ed="#G" n="61"/>&amp; consolabitur omnes ruinas eius, &amp; ponet desertum eius 
+          <lb ed="#G" n="62"/>quasi delicias, &amp; solitudinem eius quasi hortum
+          domini<lb ed="#G" n="63" break="no"/>gaudium, &amp; laetitia inuenietur in ea, gratiarum actio, &amp;  
+          <lb ed="#G" n="64"/>vox laudis. Vnde vocis istius, vt sua vox est scilicet Dei, 
+          <lb ed="#G" n="65"/>attendens <name xml:id="HuYgTa-d1e3XX-Nd1e824" ref="#Augustine">Aug.</name> suauitatem t confess. sic ait. Ecce aures 
+          <lb ed="#G" n="66"/>cordis mei ante te domine, aperi eas, &amp; dic animae meae: 
+          <lb ed="#G" n="67"/>Salus tua ego sum: curram post vocem hanc, &amp; apprehen 
+          <lb ed="#G" n="68"/>dam te, noli abscodere a me faciem tuam. Propter enim 
+          <lb ed="#G" n="69"/>multifariam consolationem vocis suae vt sua vox est, loan 
+          <lb ed="#G" n="70"/>cum vidisset faciem eius lucere, sicut sol lucet in virtute 
+          <lb ed="#G" n="71"/>sua, dixit de voce sua. Et vox illius tamquam vox
+          aqua<lb ed="#G" n="72" break="no"/>rum multarum idest consolationum diuersarum. In hac 
+          <lb ed="#G" n="73"/>enim voce omnes spirituales animae humanae delectatio 
+          <!--42.xml-->
+          <cb ed="#G" n="b"/>
+          <lb ed="#G" n="74"/>nes vnitissime recluduntur, teste Hieron. in suo breuiae 
+          <lb ed="#G" n="75"/>rio super psalt. vbi exponens illud verbum psal. 147. Ex 
+          <lb ed="#G" n="76"/>adipe frumenti satiat te, sic ait. Pinguis est enim sermo 
+          <lb ed="#G" n="77"/>diuinus, &amp; habet in se omnes delectationes: &amp; sicut aiuat 
+          <lb ed="#G" n="78"/>ludaei quod manna quandocumque comedebant,
+          secun<lb ed="#G" n="79" break="no"/>lum voluntatem cuiuscumque sapiebat in ore. Et quafi 
+          <lb ed="#G" n="80"/>eandem sententiam ponit lsi. 1. de sum. bon. dicens de 
+          <lb ed="#G" n="81"/>criptura sacra. Pro vniuscuiusque intelligentia Variatur,
+          si<lb ed="#G" n="82" break="no"/>cut mana pro singulorum delectatione varium saporem 
+          <lb ed="#G" n="83"/>habebat. Et sic patet de prima expositone verbi
+          princi<lb ed="#G" n="84" break="no"/>aliter introducti. 
+        </p>
+        <p xml:id="HuYgTa-d1e3XX-d1e873">
+          <lb ed="#G" n="85"/>
+          <pc type="indent"/>Exponendo autem secundo modo verba praelibata,
+          di<lb ed="#G" n="86" break="no"/>co quod quattuor in eis denotantur, quibus quattuor
+          li<lb ed="#G" n="87" break="no"/>bri sententiarum potissimc commendantur. Ad cuius
+          de<lb ed="#G" n="88" break="no"/>clarationem est breuiter aduertendum, quod ille
+          vene<lb ed="#G" n="89" break="no"/>rabilis doctor, &amp; magister quadruplicem in genere,
+          quam<lb ed="#G" n="90" break="no"/>uis multiplicem in specie ponit considerationem, iuxta
+          li<lb ed="#G" n="91" break="no"/>brorum suorum quadrifariam distinctionem, Considerat 
+          <lb ed="#G" n="92"/>namque magister Detrus primo diuinorum secretorum 
+          <lb ed="#G" n="93"/>sublimissimam condicionem. Secundo cunctorum creatorum 
+          <lb ed="#G" n="94"/>sufficientissimam productionem. Tertio summorum, &amp; 
+          <lb ed="#G" n="95"/>infimorum mirabilissimam coniunctionem Quarto mul 
+          <lb ed="#G" n="96"/>torum infirmorum efficacissimam curationem. Et vt
+          sen<lb ed="#G" n="97" break="no"/>tentia primi libri ostenditur laudabilis, &amp; gloriosa ex
+          in<lb ed="#G" n="98" break="no"/>dagatione eminentissimae maiestatis: Sententia secundi 
+          <lb ed="#G" n="99"/>commendabilis, &amp; speciosa ex consideratione
+          liberalissi<lb ed="#G" n="100" break="no"/>mae potestatis. Sententia tertij, amicabilis, &amp; gratiosa ex 
+          <lb ed="#G" n="101"/>innuitione immensissimae caritatis. Sententia quarti,
+          de<lb ed="#G" n="102" break="no"/>siderabilis, &amp; fructuosa ex estensione clementissimae
+          pie<lb ed="#G" n="103" break="no"/>tatis. Diuinorum secretorum condicio sublimissima, ex 
+          <lb ed="#G" n="104"/>qua sententia primi libri redditur laudabilis &amp; gloriosa, 
+          <lb ed="#G" n="105"/>intelligitur, cum dicitur abyssus. Cunctorum
+          producto<lb ed="#G" n="106" break="no"/>rum creatio liberalissima, ex qua sententia secundi libri 
+          <lb ed="#G" n="107"/>est commendabilis &amp; speciosa, innuitur, cum
+          praemitti<lb ed="#G" n="108" break="no"/>tur dedit. Diuisorum disiunctorum coniunctio
+          mirabilis<lb ed="#G" n="109" break="no"/>sima, ex qua, sententia tertij libri est amicabilis, &amp;
+          gra<lb ed="#G" n="110" break="no"/>tiosa, cognoscitur, cum tertio subiungitur vocem. Sed
+          ip<lb ed="#G" n="111" break="no"/>sorum infirmorum curatio virtuosissima, ex qua
+          senten<lb ed="#G" n="112" break="no"/>tia quarti libri est desiderabilis &amp; fructuosa, infinuatur,  
+          <lb ed="#G" n="113"/>um vltimo postponitur suam. Dico ergo primo, quod 
+          <lb ed="#G" n="114"/>diuinorum secretorum condicio sublimissima, ex qua 
+          <lb ed="#G" n="115"/>sententia primi libri redditur laudabilis, &amp; gloriosa,
+          n<lb ed="#G" n="116" break="no"/>elligitur, cum dicitur abyssus. In primo namque lib
+          abys<lb ed="#G" n="117" break="no"/>sus abyssum inuocat in voce cataractarum, puta abyssus 
+          <lb ed="#G" n="118"/>ssentialis vnitatis inuocat idest intus vocat, siue
+          perfe<lb ed="#G" n="119" break="no"/>cte considerat abyssum personalis trinitatis in voce idest 
+          <lb ed="#G" n="120"/>in expressione cataractarum idest diuinarum personarum. 
+          <lb ed="#G" n="121"/>Hoc enim non potest aliqua creatura: quia certa lege, &amp;  
+          <lb ed="#G" n="122"/>gvro vallabat abyssos. Difficile enim inuestigamus ea, 
+          <lb ed="#G" n="123"/>uae in terris sunt, &amp; quae in prospectu sunt, inuenimus 
+          <lb ed="#G" n="124"/>cum labore: quae in coelis autem sunt quis inuestigabita 
+          <lb ed="#G" n="125"/>quasi dicat, hoc erit nimis difficile, quodammodo
+          im<lb ed="#G" n="126" break="no"/>ossibile: puta scientifice perscrutari ea, quae sunt in
+          coe<lb ed="#G" n="127" break="no"/>lis sanctissimae Trinitatis. Hic enim, qui scrutator est maie 
+          <lb ed="#G" n="128"/>statis, opprimetur a gloria. Vnde 8. Hilar. de trin. iuxta 
+          <lb ed="#G" n="129"/>rin. difficult atem imminentem circa scientificam
+          per<lb ed="#G" n="130" break="no"/>scrutationem aeternae trinitatis attendens, sic ait. Mihi 
+          <lb ed="#G" n="131"/>n sensu labes est: in intellectu stupor est: in sermone, non 
+          <lb ed="#G" n="132"/>iam infirmitatem, sed silentium confitebor: immensum 
+          <lb ed="#G" n="133"/>st, quod exigitur: incomprehensibile, quod videtur:
+          ex<lb ed="#G" n="134" break="no"/>tra significationem sermonis est, extra sensus intentionem, 
+          <lb ed="#G" n="135"/>extra intelligentiae capacitatem, &amp; quicquid vltra
+          quae<lb ed="#G" n="136" break="no"/>ritur, non annunciatur, non attingitur. non tenetur: ver 
+          <lb ed="#G" n="137"/>borum significantiam rei ipsius natura consumit : sensus 
+          <lb ed="#G" n="138"/>contemplationem imperspicabile lumen obcoecat. Licet 
+          <lb ed="#G" n="139"/>autem illud abyssale mvsterium nullus vmqummortalium 
+          <lb ed="#G" n="140"/>ad plenum potuerit penetrare: tamen sicut riuuli fontium de
+          ca<lb ed="#G" n="141" break="no"/>cumine montium in abyssum conuallium solent emanare, 
+          <lb ed="#G" n="142"/>uibus in infimis constituti poterunt recreari: sic
+          incom<lb ed="#G" n="143" break="no"/>rehensibilis altitudo sanctissimae trinitatis: apud quam  
+          <lb ed="#G" n="144"/>st fons vitae, in cuius lumine videbimus lumen illuminas 
+          <lb ed="#G" n="145"/>mrrabiliter a montibus aeternis, quibusdam claritatis suae 
+          <lb ed="#G" n="146"/>stillicidiis stillantibus super terram ipsius humani cordis,  
+          <!--43.xml-->
+          <pb ed="#G" n="2-v"/>
+          <cb ed="#G" n="a"/>
+          <lb ed="#G" n="1"/>suos studiosos, &amp; deuoros, quo ad intelligibil em
+          consue<lb ed="#G" n="2" break="no"/>uit mirabiliter illustrare: &amp; quo ad concupiscibilem de 
+          <lb ed="#G" n="3"/>lectabiliter inflammare: quia vt dicitur in psal. Adaqua 
+          <lb ed="#G" n="4"/>uit eos velut in abysso multa, in qua scilicet abysso,
+          ine<lb ed="#G" n="5" break="no"/>briabimur ab vbertate domus suae, &amp; torrente
+          volupra<lb ed="#G" n="6" break="no"/>tis suae potabit eos. Vnde praedictorum stillicidiorum 
+          <lb ed="#G" n="7"/>perlustrationem simul &amp; delectationem persentiens, Au 
+          <lb ed="#G" n="8"/>quasi in extasi positus in libs sollilo, sic clamat Olumen 
+          <lb ed="#G" n="9"/>verum, lumen sanctum, lumen delectabile, lumen
+          admi<lb ed="#G" n="10" break="no"/>rabile, lumen superlaudabile, quod illuminat oculos
+          an<lb ed="#G" n="11" break="no"/>geiorum, ecce video, gratias ago: ecce video lumen
+          celi<lb ed="#G" n="12" break="no"/>interlucet in oculis mentis meae radius desuper a facie 
+          <lb ed="#G" n="13"/>luminis tui; &amp; laetificat omnia ossa mea. O si
+          perficere<lb ed="#G" n="14" break="no"/>tur in me: auge, quaeso luminis auctor: auge, quaeso, quod 
+          <lb ed="#G" n="15"/>intus lucet in me: dilatetur, obsecro, dilatetur ex te. Ei 
+          <lb ed="#G" n="16"/>paucis interpositis subdit. Olumen meridianum
+          illumi<lb ed="#G" n="17" break="no"/>nans omnem mundum, cuius lux implet mundum: vaeh 
+          <lb ed="#G" n="18"/>illis oculis, qui te non vident: sol illuminans caelum &amp;  
+          <lb ed="#G" n="19"/>terram: vaeh caligantibus oculis, qui te videre non pos 
+          <lb ed="#G" n="20"/>sunt. Ad cuius luminis plenam perceptionem aeterne. s. 
+          <lb ed="#G" n="21"/>vitae consolationem, nos perducat ipse consolator cun 
+          <lb ed="#G" n="22"/>ctorum dominus dominorum, qui viuit, &amp; regnat in
+          sae<lb ed="#G" n="23" break="no"/>cula saeculorum, Amen¬ 
+        </p>
+      </div>
+    </body>
+  </text>
 </TEI>

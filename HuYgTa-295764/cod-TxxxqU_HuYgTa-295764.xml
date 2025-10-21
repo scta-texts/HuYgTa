@@ -1,97 +1,97 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Circa textum</title>
-            <author ref="#ThomasStrasbourg">Thomas of Strasbourg</author>
-            <respStmt>
-               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
-               <resp>Transcription Editor</resp>
-               <resp>TEI Encoder</resp>
-            </respStmt>
-         </titleStmt>
-         <editionStmt>
-            <edition n="0.0.0-dev">
-               <title>Circa textum</title>
-               <date when="2020-11-26">November 26, 2020</date>
-            </edition>
-         </editionStmt>
-         <publicationStmt>
-            <authority>SCTA</authority>
-            <availability status="free">
-               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
-               </p>
-            </availability>
-         </publicationStmt>
-         <sourceDesc>
-            <listWit>
-               <witness xml:id="G" n="cod-TxxxqU">Genoa 1585</witness>
-            </listWit>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
-         <editorialDecl>
-            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
-       guidelines for a diplomatic edition.</p>
-         </editorialDecl>
-      </encodingDesc>
-      <revisionDesc status="draft">
-         <listChange>
-            <change when="2020-11-26" status="draft" n="0.0.0">
-               <p>Created file for the first time.</p>
-            </change>
-         </listChange>
-      </revisionDesc>
-   </teiHeader>
-   <text xml:lang="la">
-      <front>
-         <div xml:id="starts-on">
-           <pb ed="#G" n="P2_180-r"/>
-            <cb ed="#G" n="a"/>
-         </div>
-      </front>
-      <body>
-         <div xml:id="HuYgTa-295764"><!-- HuYgTa-l4d44ct1 -->
-            <head xml:id="HuYgTa-295764-Hd1e108">Circa textum</head>
-            <p xml:id="HuYgTa-295764-d1e111">
-               <lb ed="#G" n="89"/>
-               <pc type="indent"/>DISTINCTIO XLIIII 
-      <lb ed="#G" n="90"/>Facilis huius distinctionis diuisio, mn qua de
-      resurgen<lb ed="#G" n="91" break="no"/>
-               <pc type="indent"/>tium conditione pertractatur. 
-    </p>
-            <p xml:id="HuYgTa-295764-d1e124">
-               <lb ed="#G" n="92"/>
-               <pc type="indent"/>OLENT AVTEM NONNVIEI. 
-      <lb ed="#G" n="93"/>Postquam magister determinauit de 
-      <lb ed="#G" n="94"/>mortuorum resurrectione, nunc vuli 
-      <lb ed="#G" n="95"/>determinare de resurgentium condi 
-      <lb ed="#G" n="96"/>tione. Et diuiditur in duas partes: quod 
-      <lb ed="#G" n="97"/>primo insinuat resurgentium condi 
-      <lb ed="#G" n="98"/>tiones indistincte, &amp; vniuersaliter. Se 
-      <lb ed="#G" n="99"/>gtaei cundo easdem conditiones declarat 
-      <lb ed="#G" n="100"/>distincte, &amp; specialiter, ibi, Hoc autem in corporibus
-      san<lb ed="#G" n="101" break="no"/>ctorum Prima in duas: quia primo manifestat
-      resurgen<lb ed="#G" n="102" break="no"/>tium conditiones, quantum ad eorum staturam, &amp; aetatem, 
-      <lb ed="#G" n="103"/>Secundo, quantum ad corporum suorum integritatem 
-      <lb ed="#G" n="104"/>ibi. Non enim perit Deo, Sequitur illa pars, Hoc autem 
-      <lb ed="#G" n="105"/>Et diuiditur in tres partes: quia primo magister tangit 
-      <lb ed="#G" n="106"/>pecialiter conditiones beatorum. Secundo damnatorum. 
-      <lb ed="#G" n="107"/>Et tertio, abortiuorum. Secunda ibi, De reprobis autem, 
-      <lb ed="#G" n="108"/>Tertia, ibi, lllud etiam inuestigari oportet. Istarum secun 
-      <lb ed="#G" n="109"/>da diuiditur in duas partes: Qua primo ostendit, qualiter 
-      <lb ed="#G" n="110"/>damnati dispositi erunt incorpore, Secundo qualiter se 
-      <lb ed="#G" n="111"/>habebunt ex parte animae, ibi, Cum autem constet.
-      Pri<lb ed="#G" n="112" break="no"/>ma in duas; Quia primo tractat de conditionibus
-      huius<lb ed="#G" n="113" break="no"/>modi corporum. Secundo. incidenter determinat de cru 
-      <lb ed="#G" n="114"/>citatibus demonum, ibi, Quaeri etiam solet Prima in duas 
-      <lb ed="#G" n="115"/>Quia primo tangit huiusmodi corporum deformitate. 
-      <lb ed="#G" n="116"/>Secundo innuit eorundem corporum incorruptibilitatem 
-      <lb ed="#G" n="117"/>ibi, Si vero quaeritur. Et haec est diuisio istius 44. distin &amp; 
-      <lb ed="#G" n="118"/>sententia in generali, circa quam quaeritur in speciali. 
-    </p>
-         </div>
-      </body>
-   </text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Circa textum</title>
+        <author ref="#ThomasStrasbourg">Thomas of Strasbourg</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Circa textum</title>
+          <date when="2020-11-26">November 26, 2020</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="G" n="cod-TxxxqU">Genoa 1585</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2020-11-26" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#G" n="P2_180-r"/>
+        <cb ed="#G" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="HuYgTa-295764"><!-- HuYgTa-l4d44ct1 -->
+        <head xml:id="HuYgTa-295764-Hd1e108">Circa textum</head>
+        <p xml:id="HuYgTa-295764-d1e111">
+          <lb ed="#G" n="89"/>
+          <pc type="indent"/>DISTINCTIO XLIIII 
+          <lb ed="#G" n="90"/>Facilis huius distinctionis diuisio, mn qua de
+          resurgen<lb ed="#G" n="91" break="no"/>
+          <pc type="indent"/>tium conditione pertractatur. 
+        </p>
+        <p xml:id="HuYgTa-295764-d1e124">
+          <lb ed="#G" n="92"/>
+          <pc type="indent"/>OLENT AVTEM NONNVIEI. 
+          <lb ed="#G" n="93"/>Postquam magister determinauit de 
+          <lb ed="#G" n="94"/>mortuorum resurrectione, nunc vuli 
+          <lb ed="#G" n="95"/>determinare de resurgentium condi 
+          <lb ed="#G" n="96"/>tione. Et diuiditur in duas partes: quod 
+          <lb ed="#G" n="97"/>primo insinuat resurgentium condi 
+          <lb ed="#G" n="98"/>tiones indistincte, &amp; vniuersaliter. Se 
+          <lb ed="#G" n="99"/>gtaei cundo easdem conditiones declarat 
+          <lb ed="#G" n="100"/>distincte, &amp; specialiter, ibi, Hoc autem in corporibus
+          san<lb ed="#G" n="101" break="no"/>ctorum Prima in duas: quia primo manifestat
+          resurgen<lb ed="#G" n="102" break="no"/>tium conditiones, quantum ad eorum staturam, &amp; aetatem, 
+          <lb ed="#G" n="103"/>Secundo, quantum ad corporum suorum integritatem 
+          <lb ed="#G" n="104"/>ibi. Non enim perit Deo, Sequitur illa pars, Hoc autem 
+          <lb ed="#G" n="105"/>Et diuiditur in tres partes: quia primo magister tangit 
+          <lb ed="#G" n="106"/>pecialiter conditiones beatorum. Secundo damnatorum. 
+          <lb ed="#G" n="107"/>Et tertio, abortiuorum. Secunda ibi, De reprobis autem, 
+          <lb ed="#G" n="108"/>Tertia, ibi, lllud etiam inuestigari oportet. Istarum secun 
+          <lb ed="#G" n="109"/>da diuiditur in duas partes: Qua primo ostendit, qualiter 
+          <lb ed="#G" n="110"/>damnati dispositi erunt incorpore, Secundo qualiter se 
+          <lb ed="#G" n="111"/>habebunt ex parte animae, ibi, Cum autem constet.
+          Pri<lb ed="#G" n="112" break="no"/>ma in duas; Quia primo tractat de conditionibus
+          huius<lb ed="#G" n="113" break="no"/>modi corporum. Secundo. incidenter determinat de cru 
+          <lb ed="#G" n="114"/>citatibus demonum, ibi, Quaeri etiam solet Prima in duas 
+          <lb ed="#G" n="115"/>Quia primo tangit huiusmodi corporum deformitate. 
+          <lb ed="#G" n="116"/>Secundo innuit eorundem corporum incorruptibilitatem 
+          <lb ed="#G" n="117"/>ibi, Si vero quaeritur. Et haec est diuisio istius 44. distin &amp; 
+          <lb ed="#G" n="118"/>sententia in generali, circa quam quaeritur in speciali. 
+        </p>
+      </div>
+    </body>
+  </text>
 </TEI>

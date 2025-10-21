@@ -1,115 +1,113 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Circa textum</title>
-            <author ref="#ThomasStrasbourg">Thomas of Strasbourg</author>
-            <respStmt>
-               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
-               <resp>Transcription Editor</resp>
-               <resp>TEI Encoder</resp>
-            </respStmt>
-         </titleStmt>
-         <editionStmt>
-            <edition n="0.0.0-dev">
-               <title>Circa textum</title>
-               <date when="2020-11-26">November 26, 2020</date>
-            </edition>
-         </editionStmt>
-         <publicationStmt>
-            <authority>SCTA</authority>
-            <availability status="free">
-               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
-               </p>
-            </availability>
-         </publicationStmt>
-         <sourceDesc>
-            <listWit>
-               <witness xml:id="G" n="cod-TxxxqU">Genoa 1585</witness>
-            </listWit>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
-         <editorialDecl>
-            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
-       guidelines for a diplomatic edition.</p>
-         </editorialDecl>
-      </encodingDesc>
-      <revisionDesc status="draft">
-         <listChange>
-            <change when="2020-11-26" status="draft" n="0.0.0">
-               <p>Created file for the first time.</p>
-            </change>
-         </listChange>
-      </revisionDesc>
-   </teiHeader>
-   <text xml:lang="la">
-      <front>
-         <div xml:id="starts-on">
-            <pb ed="#G" n="-r"/>
-            <cb ed="#G" n="a"/>
-         </div>
-      </front>
-      <body>
-         <div xml:id="HuYgTa-e74194"><!-- HuYgTa-l1d31ct1 -->
-            <head xml:id="HuYgTa-e74194-Hd1e108">Circa textum</head>
-            <p xml:id="HuYgTa-e74194-d1e111">
-               <lb ed="#G" n="30"/>
-               <pc type="indent"/>DISTINCTIO XXI. 
-      <lb ed="#G" n="31"/>Resoluta ac facilis diuisto buus distinctionis in qua 
-      <lb ed="#G" n="32"/>de cotmunibus appropriatis tractatus. 
-      <lb ed="#G" n="33"/>incipit explicari. 
-    </p>
-            <p xml:id="HuYgTa-e74194-d1e124">
-               <lb ed="#G" n="34"/>
-               <pc type="indent"/>RTBREA CONSIDERA 
-      <lb ed="#G" n="35"/>R1 O PORTET. Postquam
-      Ma<lb ed="#G" n="36" break="no"/>gister superius dcterminauit do 
-      <lb ed="#G" n="37"/>diuinarum personarum
-      proprie<lb ed="#G" n="38" break="no"/>tatibus proprie propriis, hic
-      inci<lb ed="#G" n="39" break="no"/>bit determinare de communibus 
-      <lb ed="#G" n="40"/>appropriatis, &amp; diuiditur in duas 
-      <lb ed="#G" n="41"/>partes: quia primo tractat. de com 
-      <lb ed="#G" n="42"/>mumum perfectionum appropriatione, secundo de
-      pro<lb ed="#G" n="43" break="no"/>priorum, &amp; communium ad inuicem comparationem ibi 
-      <lb ed="#G" n="44"/>Hic oritur quaestio. Prima in duas; nam primo mouet
-      quas<lb ed="#G" n="45" break="no"/>dam dubitationes, quarum solutiones valent ad
-      haben<lb ed="#G" n="46" break="no"/>dum in diuinis aliquas appropriationes, secundo exequii 
-      <lb ed="#G" n="47"/>tales appropriationes ibi, No est ptermittendum. Prima in 
-      <lb ed="#G" n="48"/>tres, quia primo de aequalitate mouet tres dubitatioes; se 
-      <lb ed="#G" n="49"/>cudo immediate applicat earum solutioes, &amp; tertio ostendit 
-      <lb ed="#G" n="50"/>similes posse fieri dubitationes, &amp; dari responsiones de 
-      <lb ed="#G" n="51"/>smilitudine, sicut de aequalitate. Secuda ibi, Ad quod di- 
-      <lb ed="#G" n="52"/>cimus, Tertia ibi, Hoc idem dicimus de simili. Tunc sequit 
-      <lb ed="#G" n="53"/>illa pars, Non est pretermittendum; &amp; diuidit in duas partes; 
-      <lb ed="#G" n="54"/>nam primo exequitur istas diuinas appropriationes secudum 
-      <lb ed="#G" n="55"/>sententiam Hilarii, secundo iuxta sententiam August. 
-      <lb ed="#G" n="56"/>sibi, lllud etiam sciri oportet. Prima in duas: quia primo 
-      <lb ed="#G" n="57"/>secundum Hilarium tangit appropriationem, secundo 
-      <lb ed="#G" n="58"/>dictorum Hilarii innuit explanationem ibi. Non enim 
-      <lb ed="#G" n="59"/>secundum praemissam &amp;c. Sequitur illa pars, lllud etiam  
-      <lb ed="#G" n="60"/>sciri oportet: in qua August. patri appropriat vnitatem, 
-      <lb ed="#G" n="61"/>filio aequalitatem, spiritui sancto vnitatis, &amp; aequalitatis 
-      <lb ed="#G" n="62"/>concordiam, &amp; diuiditur in duas partes: nam primo
-      Ma<lb ed="#G" n="63" break="no"/>gister huiusmodi appropriationem ponit: secundo men 
-      <lb ed="#G" n="64"/>bra istius appropriationis exponit ibi, Sed plurimos
-      mo<lb ed="#G" n="65" break="no"/>uet; &amp;haec diuiditur in tres partes; nam primo determinat,  
-      <lb ed="#G" n="66"/>quare patri appropriatur vnitas, secudo, quare filio aequa 
-      <!--233.xml-->
-      <cb ed="#G" n="b"/>
-               <lb ed="#G" n="67"/>litas, Et tertio quare spiritui sancto concordia, seu
-      tram<lb ed="#G" n="68" break="no"/>quillitas, Secunda ibi, Nunc videamus Tertia ibi. Quod 
-      <lb ed="#G" n="69"/>autem in spiritu sancto. Prima adhuc diuiditur in trer 
-      <lb ed="#G" n="70"/>partes; nam primo ostendit, quomodo vnitas patri appro 
-      <lb ed="#G" n="71"/>priatur, secundo quomodo quaelibet diuina persona
-      cui<lb ed="#G" n="72" break="no"/>sibet diuinae personae essentialiter identificatur, Tertio 
-      <lb ed="#G" n="73"/>ostendit qualiter ex his tam Arru, quam Sabellij falsitas 
-      <lb ed="#G" n="74"/>confutatur, Secunda ibi, Hic dici oportet. Secunda ibi, In 
-      <lb ed="#G" n="75"/>quo Arriana. Circa istam distinctionem 31. quaero hanc 
-      <lb ed="#G" n="76"/>quaestionem. 
-    </p>
-         </div>
-      </body>
-   </text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Circa textum</title>
+        <author ref="#ThomasStrasbourg">Thomas of Strasbourg</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Circa textum</title>
+          <date when="2020-11-26">November 26, 2020</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="G" n="cod-TxxxqU">Genoa 1585</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2020-11-26" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#G" n="97-v"/>
+        <cb ed="#G" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="HuYgTa-e74194"><!-- HuYgTa-l1d31ct1 -->
+        <head xml:id="HuYgTa-e74194-Hd1e108">Circa textum</head>
+        <p xml:id="HuYgTa-e74194-d1e111">
+          <lb ed="#G" n="30"/><pc type="indent"/>DISTINCTIO XXI. 
+          <lb ed="#G" n="31"/>Resoluta ac facilis diuisto buus distinctionis in qua 
+          <lb ed="#G" n="32"/>de cotmunibus appropriatis tractatus. 
+          <lb ed="#G" n="33"/>incipit explicari. 
+        </p>
+        <p xml:id="HuYgTa-e74194-d1e124">
+          <lb ed="#G" n="34"/><pc type="indent"/>RTBREA CONSIDERA 
+          <lb ed="#G" n="35"/>R1 O PORTET. Postquam
+          Ma<lb ed="#G" n="36" break="no"/>gister superius dcterminauit do 
+          <lb ed="#G" n="37"/>diuinarum personarum
+          proprie<lb ed="#G" n="38" break="no"/>tatibus proprie propriis, hic
+          inci<lb ed="#G" n="39" break="no"/>bit determinare de communibus 
+          <lb ed="#G" n="40"/>appropriatis, &amp; diuiditur in duas 
+          <lb ed="#G" n="41"/>partes: quia primo tractat. de com 
+          <lb ed="#G" n="42"/>mumum perfectionum appropriatione, secundo de
+          pro<lb ed="#G" n="43" break="no"/>priorum, &amp; communium ad inuicem comparationem ibi 
+          <lb ed="#G" n="44"/>Hic oritur quaestio. Prima in duas; nam primo mouet
+          quas<lb ed="#G" n="45" break="no"/>dam dubitationes, quarum solutiones valent ad
+          haben<lb ed="#G" n="46" break="no"/>dum in diuinis aliquas appropriationes, secundo exequii 
+          <lb ed="#G" n="47"/>tales appropriationes ibi, No est ptermittendum. Prima in 
+          <lb ed="#G" n="48"/>tres, quia primo de aequalitate mouet tres dubitatioes; se 
+          <lb ed="#G" n="49"/>cudo immediate applicat earum solutioes, &amp; tertio ostendit 
+          <lb ed="#G" n="50"/>similes posse fieri dubitationes, &amp; dari responsiones de 
+          <lb ed="#G" n="51"/>smilitudine, sicut de aequalitate. Secuda ibi, Ad quod di- 
+          <lb ed="#G" n="52"/>cimus, Tertia ibi, Hoc idem dicimus de simili. Tunc sequit 
+          <lb ed="#G" n="53"/>illa pars, Non est pretermittendum; &amp; diuidit in duas partes; 
+          <lb ed="#G" n="54"/>nam primo exequitur istas diuinas appropriationes secudum 
+          <lb ed="#G" n="55"/>sententiam Hilarii, secundo iuxta sententiam August. 
+          <lb ed="#G" n="56"/>sibi, lllud etiam sciri oportet. Prima in duas: quia primo 
+          <lb ed="#G" n="57"/>secundum Hilarium tangit appropriationem, secundo 
+          <lb ed="#G" n="58"/>dictorum Hilarii innuit explanationem ibi. Non enim 
+          <lb ed="#G" n="59"/>secundum praemissam &amp;c. Sequitur illa pars, lllud etiam  
+          <lb ed="#G" n="60"/>sciri oportet: in qua August. patri appropriat vnitatem, 
+          <lb ed="#G" n="61"/>filio aequalitatem, spiritui sancto vnitatis, &amp; aequalitatis 
+          <lb ed="#G" n="62"/>concordiam, &amp; diuiditur in duas partes: nam primo
+          Ma<lb ed="#G" n="63" break="no"/>gister huiusmodi appropriationem ponit: secundo men 
+          <lb ed="#G" n="64"/>bra istius appropriationis exponit ibi, Sed plurimos
+          mo<lb ed="#G" n="65" break="no"/>uet; &amp;haec diuiditur in tres partes; nam primo determinat,  
+          <lb ed="#G" n="66"/>quare patri appropriatur vnitas, secudo, quare filio aequa 
+          <!--233.xml-->
+          <cb ed="#G" n="b"/>
+          <lb ed="#G" n="67"/>litas, Et tertio quare spiritui sancto concordia, seu
+          tram<lb ed="#G" n="68" break="no"/>quillitas, Secunda ibi, Nunc videamus Tertia ibi. Quod 
+          <lb ed="#G" n="69"/>autem in spiritu sancto. Prima adhuc diuiditur in trer 
+          <lb ed="#G" n="70"/>partes; nam primo ostendit, quomodo vnitas patri appro 
+          <lb ed="#G" n="71"/>priatur, secundo quomodo quaelibet diuina persona
+          cui<lb ed="#G" n="72" break="no"/>sibet diuinae personae essentialiter identificatur, Tertio 
+          <lb ed="#G" n="73"/>ostendit qualiter ex his tam Arru, quam Sabellij falsitas 
+          <lb ed="#G" n="74"/>confutatur, Secunda ibi, Hic dici oportet. Secunda ibi, In 
+          <lb ed="#G" n="75"/>quo Arriana. Circa istam distinctionem 31. quaero hanc 
+          <lb ed="#G" n="76"/>quaestionem. 
+        </p>
+      </div>
+    </body>
+  </text>
 </TEI>

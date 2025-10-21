@@ -1,113 +1,113 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Circa textum</title>
-            <author ref="#ThomasStrasbourg">Thomas of Strasbourg</author>
-            <respStmt>
-               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
-               <resp>Transcription Editor</resp>
-               <resp>TEI Encoder</resp>
-            </respStmt>
-         </titleStmt>
-         <editionStmt>
-            <edition n="0.0.0-dev">
-               <title>Circa textum</title>
-               <date when="2020-11-26">November 26, 2020</date>
-            </edition>
-         </editionStmt>
-         <publicationStmt>
-            <authority>SCTA</authority>
-            <availability status="free">
-               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
-               </p>
-            </availability>
-         </publicationStmt>
-         <sourceDesc>
-            <listWit>
-               <witness xml:id="G" n="cod-TxxxqU">Genoa 1585</witness>
-            </listWit>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
-         <editorialDecl>
-            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
-       guidelines for a diplomatic edition.</p>
-         </editorialDecl>
-      </encodingDesc>
-      <revisionDesc status="draft">
-         <listChange>
-            <change when="2020-11-26" status="draft" n="0.0.0">
-               <p>Created file for the first time.</p>
-            </change>
-         </listChange>
-      </revisionDesc>
-   </teiHeader>
-   <text xml:lang="la">
-      <front>
-         <div xml:id="starts-on">
-           <pb ed="#G" n="P2_40-r"/>
-            <cb ed="#G" n="a"/>
-         </div>
-      </front>
-      <body>
-         <div xml:id="HuYgTa-190774"><!-- HuYgTa-l3d24et25ct1 -->
-            <head xml:id="HuYgTa-190774-Hd1e108">Circa textum</head>
-            <p xml:id="HuYgTa-190774-d1e111">
-               <lb ed="#G" n="30"/>
-               <pc type="indent"/>DISTINCTIO XXIV et XXV. 
-      <lb ed="#G" n="31"/>Dilucida harum distinctionum diuisio in quibus
-      agi<lb ed="#G" n="32" break="no"/>
-               <pc type="indent"/>tur de fide, tum vt rexpicit obiectum,
-      tun<lb ed="#G" n="33" break="no"/>
-               <pc type="indent"/>vt rexpicit subiectum. 
-    </p>
-            <p xml:id="HuYgTa-190774-d1e129">
-               <lb ed="#G" n="34"/>
-               <pc type="indent"/>IC QVARITVR SI EIDES 
-      <lb ed="#G" n="35"/>&amp;c. Postquam Magister distinctio.  
-      <lb ed="#G" n="36"/>ne 23. tractauit de fide absolute, 
-      <lb ed="#G" n="37"/>nunc in ista dist. 24. prosequitur de 
-      <lb ed="#G" n="38"/>fide comparatiue. Et diuitur in duas 
-      <lb ed="#G" n="39"/>partes: nam primo considerat do 
-      <lb ed="#G" n="40"/>fide in comparatione ad credenda 
-      <lb ed="#G" n="41"/>quae fides respicit obiectiue.
-      Secun<lb ed="#G" n="42" break="no"/>do in comparatione ad credentes, in 
-      <lb ed="#G" n="43"/>in quibus existit fides subiectiue ibi, Praedictis
-      adiicien<lb ed="#G" n="44" break="no"/>dum est. Prima diuiditur in duas partes: nam primo tollit 
-      <lb ed="#G" n="45"/>duplicem instantiam praedictis repugnantem ostendendo. 
-      <lb ed="#G" n="46"/>quod fides est ex non visis. Secundo inquirit, vtrum fides 
-      <lb ed="#G" n="47"/>possit esse de cognitis, ibi, Post hoc quaeri. Prima in duas 
-      <lb ed="#G" n="48"/>quia primo tollit instantiam de visis praeteritis. Secundo 
-      <lb ed="#G" n="49"/>de praesentibus, ibi, Si vero quaeritur. Tunc sequitur
-      di<lb ed="#G" n="50" break="no"/>stinctio 25. Praedictis adiiciendum. Et diuiditur in dua 
-      <lb ed="#G" n="51"/>partes: nam primo fidem comparat ad ipsos fideles,
-      Secun<lb ed="#G" n="52" break="no"/>do ad fidelium virtures, &amp; operationes, ibi, lllud etiam 
-      <lb ed="#G" n="53"/>non est. Prima in duas: nam primo ostendit, quod sine 
-      <lb ed="#G" n="54"/>fide de ipso Mediatore salus numquam fuit. Secundo
-      in<lb ed="#G" n="55" break="no"/>nuit, quae ipsos homines antiqui temporis de necessitate 
-      <lb ed="#G" n="56"/>salutis credere oportuerit, ibi, oed quaeritur cum sine fidi 
-      <lb ed="#G" n="57"/>&amp;c. Prima in duas: nam primo inquirit de fide antiquo.  
-      <lb ed="#G" n="58"/>rum generaliter, Secundo de fide simplicium, &amp;
-      indocto<lb ed="#G" n="59" break="no"/>rum specialiter, ibi. Quid ergo dicetur &amp;c. Sequitur illa  
-      <lb ed="#G" n="60"/>pars, Sed quaeritur &amp;c. Et diuiditur in duas partes: nam  
-      <lb ed="#G" n="61"/>primo de his, qui aduentum Christi praecesserunt,
-      pertra<lb ed="#G" n="62" break="no"/>ctat quaestionem vniuersalem. Secundo de quodam fideli 
-      <lb ed="#G" n="63"/>qui aduentum Christi sequebatur, mouet quaestionem sin 
-      <lb ed="#G" n="64"/>gularem, ibi, Solet etiam quaeri de Cornelio &amp;c.
-      Sequi<lb ed="#G" n="65" break="no"/>tur illa pars, lllud etiam non est. Et diuiditur in tres, par 
-      <lb ed="#G" n="66"/>tes: quia primo quantum ad aequalitatem theologicarum 
-      <lb ed="#G" n="67"/>virtutum, &amp; operationum Magister recitat suam
-      inten<lb ed="#G" n="68" break="no"/>tionem. Secundo applicat quadam obiectionem. Tertio 
-      <lb ed="#G" n="69"/>adaprat illius solutionem. Secunda ibi, Huic vero &amp;c 
-      <!--550.xml-->
-      <cb ed="#G" n="b"/>
-               <lb ed="#G" n="70"/>Tertia ibi, Hoc ergo ea ratione. Haec est sententia istarum 
-      <lb ed="#G" n="71"/>distinctionum generaliter, circa quas quaero hanc
-      quae<lb ed="#G" n="72" break="no"/>stionem specialiter. 
-    </p>
-         </div>
-      </body>
-   </text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Circa textum</title>
+        <author ref="#ThomasStrasbourg">Thomas of Strasbourg</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Circa textum</title>
+          <date when="2020-11-26">November 26, 2020</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="G" n="cod-TxxxqU">Genoa 1585</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2020-11-26" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#G" n="P2_40-r"/>
+        <cb ed="#G" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="HuYgTa-190774"><!-- HuYgTa-l3d24et25ct1 -->
+        <head xml:id="HuYgTa-190774-Hd1e108">Circa textum</head>
+        <p xml:id="HuYgTa-190774-d1e111">
+          <lb ed="#G" n="30"/>
+          <pc type="indent"/>DISTINCTIO XXIV et XXV. 
+          <lb ed="#G" n="31"/>Dilucida harum distinctionum diuisio in quibus
+          agi<lb ed="#G" n="32" break="no"/>
+          <pc type="indent"/>tur de fide, tum vt rexpicit obiectum,
+          tun<lb ed="#G" n="33" break="no"/>
+          <pc type="indent"/>vt rexpicit subiectum. 
+        </p>
+        <p xml:id="HuYgTa-190774-d1e129">
+          <lb ed="#G" n="34"/>
+          <pc type="indent"/>IC QVARITVR SI FIDES 
+          <lb ed="#G" n="35"/>&amp;c. Postquam Magister distinctio.  
+          <lb ed="#G" n="36"/>ne 23. tractauit de fide absolute, 
+          <lb ed="#G" n="37"/>nunc in ista dist. 24. prosequitur de 
+          <lb ed="#G" n="38"/>fide comparatiue. Et diuitur in duas 
+          <lb ed="#G" n="39"/>partes: nam primo considerat do 
+          <lb ed="#G" n="40"/>fide in comparatione ad credenda 
+          <lb ed="#G" n="41"/>quae fides respicit obiectiue.
+          Secun<lb ed="#G" n="42" break="no"/>do in comparatione ad credentes, in 
+          <lb ed="#G" n="43"/>in quibus existit fides subiectiue ibi, Praedictis
+          adiicien<lb ed="#G" n="44" break="no"/>dum est. Prima diuiditur in duas partes: nam primo tollit 
+          <lb ed="#G" n="45"/>duplicem instantiam praedictis repugnantem ostendendo. 
+          <lb ed="#G" n="46"/>quod fides est ex non visis. Secundo inquirit, vtrum fides 
+          <lb ed="#G" n="47"/>possit esse de cognitis, ibi, Post hoc quaeri. Prima in duas 
+          <lb ed="#G" n="48"/>quia primo tollit instantiam de visis praeteritis. Secundo 
+          <lb ed="#G" n="49"/>de praesentibus, ibi, Si vero quaeritur. Tunc sequitur
+          di<lb ed="#G" n="50" break="no"/>stinctio 25. Praedictis adiiciendum. Et diuiditur in dua 
+          <lb ed="#G" n="51"/>partes: nam primo fidem comparat ad ipsos fideles,
+          Secun<lb ed="#G" n="52" break="no"/>do ad fidelium virtures, &amp; operationes, ibi, lllud etiam 
+          <lb ed="#G" n="53"/>non est. Prima in duas: nam primo ostendit, quod sine 
+          <lb ed="#G" n="54"/>fide de ipso Mediatore salus numquam fuit. Secundo
+          in<lb ed="#G" n="55" break="no"/>nuit, quae ipsos homines antiqui temporis de necessitate 
+          <lb ed="#G" n="56"/>salutis credere oportuerit, ibi, oed quaeritur cum sine fidi 
+          <lb ed="#G" n="57"/>&amp;c. Prima in duas: nam primo inquirit de fide antiquo.  
+          <lb ed="#G" n="58"/>rum generaliter, Secundo de fide simplicium, &amp;
+          indocto<lb ed="#G" n="59" break="no"/>rum specialiter, ibi. Quid ergo dicetur &amp;c. Sequitur illa  
+          <lb ed="#G" n="60"/>pars, Sed quaeritur &amp;c. Et diuiditur in duas partes: nam  
+          <lb ed="#G" n="61"/>primo de his, qui aduentum Christi praecesserunt,
+          pertra<lb ed="#G" n="62" break="no"/>ctat quaestionem vniuersalem. Secundo de quodam fideli 
+          <lb ed="#G" n="63"/>qui aduentum Christi sequebatur, mouet quaestionem sin 
+          <lb ed="#G" n="64"/>gularem, ibi, Solet etiam quaeri de Cornelio &amp;c.
+          Sequi<lb ed="#G" n="65" break="no"/>tur illa pars, lllud etiam non est. Et diuiditur in tres, par 
+          <lb ed="#G" n="66"/>tes: quia primo quantum ad aequalitatem theologicarum 
+          <lb ed="#G" n="67"/>virtutum, &amp; operationum Magister recitat suam
+          inten<lb ed="#G" n="68" break="no"/>tionem. Secundo applicat quadam obiectionem. Tertio 
+          <lb ed="#G" n="69"/>adaprat illius solutionem. Secunda ibi, Huic vero &amp;c 
+          <!--550.xml-->
+          <cb ed="#G" n="b"/>
+          <lb ed="#G" n="70"/>Tertia ibi, Hoc ergo ea ratione. Haec est sententia istarum 
+          <lb ed="#G" n="71"/>distinctionum generaliter, circa quas quaero hanc
+          quae<lb ed="#G" n="72" break="no"/>stionem specialiter. 
+        </p>
+      </div>
+    </body>
+  </text>
 </TEI>

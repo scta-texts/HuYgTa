@@ -1,735 +1,735 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Quaestio 1</title>
-            <author ref="#ThomasStrasbourg">Thomas of Strasbourg</author>
-            <respStmt>
-               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
-               <resp>Transcription Editor</resp>
-               <resp>TEI Encoder</resp>
-            </respStmt>
-         </titleStmt>
-         <editionStmt>
-            <edition n="0.0.0-dev">
-               <title>Quaestio 1</title>
-               <date when="2020-11-26">November 26, 2020</date>
-            </edition>
-         </editionStmt>
-         <publicationStmt>
-            <authority>SCTA</authority>
-            <availability status="free">
-               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
-               </p>
-            </availability>
-         </publicationStmt>
-         <sourceDesc>
-            <listWit>
-               <witness xml:id="G" n="cod-TxxxqU">Genoa 1585</witness>
-            </listWit>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
-         <editorialDecl>
-            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
-       guidelines for a diplomatic edition.</p>
-         </editorialDecl>
-      </encodingDesc>
-      <revisionDesc status="draft">
-         <listChange>
-            <change when="2020-11-26" status="draft" n="0.0.0">
-               <p>Created file for the first time.</p>
-            </change>
-         </listChange>
-      </revisionDesc>
-   </teiHeader>
-   <text xml:lang="la">
-      <front>
-         <div xml:id="starts-on">
-            <pb ed="#G" n="71-r"/>
-            <cb ed="#G" n="a"/>
-         </div>
-      </front>
-      <body>
-         <div xml:id="HuYgTa-e53889"><!-- HuYgTa-l1d17q1 -->
-            <head xml:id="HuYgTa-e53889-Hd1e108">Quaestio 1</head>
-            <head xml:id="HuYgTa-e53889-Hd1e111" type="question-title">
-      An in caritate existens euidenter cognoscere
-      possit se in illa existere.
-    </head>
-            <p xml:id="HuYgTa-e53889-d1e114">
-      <!--180.xml-->
-               <cb ed="#G" n="b"/>
-               <lb ed="#G" n="70"/>Quaestio I
-      <lb ed="#G" n="71"/>An in caritate existens euidenter cognoscere 
-      <lb ed="#G" n="72"/>possit se in illa existere.
-    </p>
-            <p xml:id="HuYgTa-e53889-d1e127">
-               <lb ed="#G" n="73"/>VTRVM aliquis existens in caritate possit 
-      <lb ed="#G" n="74"/>
-               <pc type="indent"/>euidenter cognoscere se esse in caritate.
-    </p>
-            <p xml:id="HuYgTa-e53889-d1e136">
-               <lb ed="#G" n="75"/>Et videtur quod sic. Quia <ref xml:id="HuYgTa-e53889-Rd1e140">8. de tri. dici
-      <lb ed="#G" n="76"/>8. Aug.</ref> quod <quote xml:id="HuYgTa-e53889-Qd1e145" source="http://scta.info/resource/adt-l8-d1e1003" synch="9-24">qui diligit fratrem
-      magi<lb ed="#G" n="77" break="no"/>nouit dilectionem, qua diligit, quam fra 
-      <lb ed="#G" n="78"/>trem, quem diligit</quote>, &amp; loquitur de
-      dile<lb ed="#G" n="79" break="no"/>ctione caritatiua, sed fratre potest euidenter cognoscere, 
-      <lb ed="#G" n="80"/>ergo &amp; caritatem. Contra dicitur. Nemo scit, vtrum 
-      <lb ed="#G" n="81"/>pdio, vel amore dignus sit, sed omnia in futurum
-      reser<lb ed="#G" n="82" break="no"/>uantur incerta. Hic est aduertendum quod sicut ait <ref xml:id="HuYgTa-e53889-Rd1e161">phi¬ 
-        <lb ed="#G" n="83"/>losophus 2. posteriorum</ref>, quaestiones sunt aequales nume 
-      <lb ed="#G" n="84"/>ro his, quae vere scimus. Quaestiones autem sunt
-      quadru<lb ed="#G" n="85" break="no"/>plices, sicut ibidem patet, puta si est, an est, quid est, &amp; 
-      <lb ed="#G" n="86"/>ropter quid est. lllarum tamen quaestionum duabus ad 
-      <lb ed="#G" n="87"/>praesens dimissis, duas tantum de caritate tractabo. Primo  
-      <lb ed="#G" n="88"/>gitur videndum est, vtrum possimus cognoscere quid est 
-      <lb ed="#G" n="89"/>caritas. Secundo, vtrum possimus cognoscere, an in nobis 
-      <lb ed="#G" n="90"/>sit caritas. Tertio dato, quod in nobis sit cariras, vtrum 
-      <lb ed="#G" n="91"/>per huiusmodi caritatem possimus exire in actum
-      meri<lb ed="#G" n="92" break="no"/>torium aeternae beatitudinis sine speciali motione
-      spiri<lb ed="#G" n="93" break="no"/>tus sancti. Et quarto vtrum caritas, &amp; gratia sint duo
-      ha<lb ed="#G" n="94" break="no"/>bitus realiter differentes. 
-    </p>
-            <p xml:id="HuYgTa-e53889-d1e192">
-               <lb ed="#G" n="95"/>
-               <pc type="indent"/>RESOLVTIO. 
-      <lb ed="#G" n="96"/>caritatem esse habitum creatum a Deo nobis infulum tota fere 
-      <lb ed="#G" n="97"/>Theologorum schela prifitetur, hunic tamen in nobis esse absqus 
-      <lb ed="#G" n="98"/>peculiari Dei veuelatione dignostere nequaquam possumus,
-      si<lb ed="#G" n="99" break="no"/>cuti eum possidentes, in actum meritorium absque petuliari 
-      <lb ed="#G" n="100"/>spiritus sancti motione exire nequennt 
-    </p>
-            <p xml:id="HuYgTa-e53889-d1e210">
-               <lb ed="#G" n="101"/>
-               <pc type="indent"/>ARTICVLVS I. 
-      <lb ed="#G" n="102"/>Vtrum possimus cognoscere, quid est 
-      <lb ed="#G" n="103"/>caritas.
-    </p>
-            <p xml:id="HuYgTa-e53889-d1e221">
-               <lb ed="#G" n="104"/>VANTVM ad primum, vtrum possimus cognostere 
-      <lb ed="#G" n="105"/>e quid est caritas, est aduertendum, quod duplex est 
-      <lb ed="#G" n="106"/>notitia quantum ad quid est : Vna quantum ad quid
-      no<lb ed="#G" n="107" break="no"/>minis, &amp; illa est facilis: quia communis enti, &amp; non enti 
-      <lb ed="#G" n="108"/>&amp; enti possibili, &amp; prohibito, &amp; ideo quo ad id facilis est 
-      <lb ed="#G" n="109"/>responsio: quia caritas vt sic, est quedam virtus, qua
-      me<lb ed="#G" n="110" break="no"/>diante voluntas elicit perfectum actum meritoriae
-      dile<lb ed="#G" n="111" break="no"/>ctionis in via, &amp; praemiatoriae in patria. Alia est notitia 
-      <lb ed="#G" n="112"/>quantum ad quid rei, &amp; haec de caritate est multum
-      dif<lb ed="#G" n="113" break="no"/>ficilis, &amp; hoc probat summa disparitas opinionum
-      quan<lb ed="#G" n="114" break="no"/>tum ad istum articulum: quia quidam dicunt, quod sit vit 
-      <lb ed="#G" n="115"/>tus creata, quae est habitus formaliter inhaerens voluntati. 
-      <lb ed="#G" n="116"/>Alij dicunt, quod sit virtus increata, quae est ipse spiritus 
-      <lb ed="#G" n="117"/>sanctus mouens voluntatem ad actum dilectionis., 
-    </p>
-            <p xml:id="HuYgTa-e53889-d1e254">
-               <lb ed="#G" n="118"/>
-               <pc type="indent"/>Multitudini igitur doctorum me ad praesens
-      conforman<lb ed="#G" n="119" break="no"/>do teneo primam opionionem, quae probatur sic¬ 
-    </p>
-            <p xml:id="HuYgTa-e53889-d1e263">
-               <lb ed="#G" n="120"/>
-               <pc type="indent"/>1 Si caritas non esset habitus creatus formaliter in 
-      <lb ed="#G" n="121"/>haerens voluntati, actus meritoriae dilectionis non
-      es<lb ed="#G" n="122" break="no"/>et voluntarius: quia sicut motus rei naturalis non
-      exi<lb ed="#G" n="123" break="no"/>stens a principio intrinseco non potest dici naturalis, sed  
-      <lb ed="#G" n="124"/>violentus, sic motus voluntatis non procedens a principio 
-      <!--181.xml-->
-      <pb ed="#G" n="71-v"/>
-               <cb ed="#G" n="a"/>
-               <lb ed="#G" n="1"/>Intrinseco non poterit esse voluntarus 
-    </p>
-            <p xml:id="HuYgTa-e53889-d1e287">
-               <lb ed="#G" n="2"/>
-               <pc type="indent"/>2 Praeterea, illud quod mouetur tantummodo a prin 
-      <lb ed="#G" n="3"/>cipio extrinseco, mouetur ad modum instrumenti, &amp; per 
-      <lb ed="#G" n="4"/>consequens non mouetur libere, quia non est in potesta 
-      <lb ed="#G" n="5"/>te instrumenti agere vel non agere: sed de necessitati 
-      <lb ed="#G" n="6"/>agit iuxta impetum impellentis: sed si caritas non esse 
-      <lb ed="#G" n="7"/>habitus inhaerens voluntati, tunc in actibus dilectionis 
-      <lb ed="#G" n="8"/>meritoriae uoluntas moueretur a principio extrinseco 
-      <lb ed="#G" n="9"/>non conferente aliquam vim inhaerentem ipsi
-      volunta<lb ed="#G" n="10" break="no"/>ti, ergo actus voluntatis non possent esse meritorij quia 
-      <lb ed="#G" n="11"/>non essent liberi. 
-    </p>
-            <p xml:id="HuYgTa-e53889-d1e314">
-               <lb ed="#G" n="12"/>
-               <pc type="indent"/>3 Praeterea, sicut non potest aliquid non album fieri 
-      <lb ed="#G" n="13"/>album formaliter, nisi per albedinem sibi formaliter
-      in<lb ed="#G" n="14" break="no"/>haerentem, sic non potest aliquis Deo non carus fieri Dec 
-      <lb ed="#G" n="15"/>carus formaliter, nisi per caritatem sibi formaliter
-      inhae<lb ed="#G" n="16" break="no"/>rentem: sed peccator conuersus de non caro fit carus 
-    </p>
-            <p xml:id="HuYgTa-e53889-d1e330">
-               <lb ed="#G" n="17"/>
-               <pc type="indent"/>4 Praeterea, impossibile est de opposito transitum
-      fie<lb ed="#G" n="18" break="no"/>ri in oppositum, nisi mediante aliqua mutatione: sed in 
-      <lb ed="#G" n="19"/>puncto conuersionis peccator transit de eo, quod est non 
-      <lb ed="#G" n="20"/>carum esse Deo, ad esse carum: aut ergo mutatio fiere 
-      <lb ed="#G" n="21"/>ex parte Dei, aut ex parte peccatoris conuersi. Non
-      pri<lb ed="#G" n="22" break="no"/>mum, cum Deus sit immutabilis, ergo erit aliquid
-      intrin<lb ed="#G" n="23" break="no"/>sece inhaerens formaliter ipsi conuerso, ratione cuius 
-      <lb ed="#G" n="24"/>nunc dicitur esse carus, quod nos appellamus habitum ca 
-      <lb ed="#G" n="25"/>ritatis: quia si sosus actus esset, tunc talis dormiens non 
-      <lb ed="#G" n="26"/>esset Deo carus, cum pro tunc actum caritatis non eliciat,  
-    </p>
-            <p xml:id="HuYgTa-e53889-d1e356">
-               <lb ed="#G" n="27"/>
-               <pc type="indent"/>3 Praeterea, signum est acquisiti habitus habere dele 
-      <lb ed="#G" n="28"/>ctationem in opere, vt patet <ref xml:id="HuYgTa-e53889-Rd1e364">2 ethicorum</ref>: sed in actibus 
-      <lb ed="#G" n="29"/>diuinae dilectionis est maxima delectatio, ergo in
-      nobi<lb ed="#G" n="30" break="no"/>erit habitus caritatis, ratione cuius in huiusmodi
-      ope<lb ed="#G" n="31" break="no"/>ribus delectemur
-    </p>
-            <p xml:id="HuYgTa-e53889-d1e375">
-               <lb ed="#G" n="32"/>Sed oppositum illius conclusionis tenet magister set 
-      <lb ed="#G" n="33"/>tentiarum dicens hic in littera, quod caritas est ipse spir 
-      <lb ed="#G" n="34"/>tus sanctus assistens bonae voluntati ad eliciendum actu 
-      <lb ed="#G" n="35"/>dilectionis, siue caritatis, quod ipse, &amp; alij sui sequaces
-      pro<lb ed="#G" n="36" break="no"/>bant multipliciter Primo sic¬ 
-    </p>
-            <p xml:id="HuYgTa-e53889-d1e388">
-               <lb ed="#G" n="37"/>
-               <pc type="indent"/>1 Quia non minus Deus immediate operatur in
-      no<lb ed="#G" n="38" break="no"/>bis, quo ad ea, quae sunt gratiae, quam quo ad ea, quae suni 
-      <lb ed="#G" n="39"/>naturae: sed Deus non vtitur aliquo medio in opere 
-      <lb ed="#G" n="40"/>creationis, quando naturam instituit, ergo nec in opere 
-      <lb ed="#G" n="41"/>recreationis, &amp; gratiae vtetur aliquo medio.
-    </p>
-            <p xml:id="HuYgTa-e53889-d1e404">
-               <lb ed="#G" n="42"/>2 Praeterea, si ad actum meritoriae dilectionis non mo 
-      <lb ed="#G" n="43"/>ueretur immediate humana voluntas a spiritu sancto, tums 
-      <lb ed="#G" n="44"/>tali actui de condigno, seu de iustitia non daretur vita
-      ae<lb ed="#G" n="45" break="no"/>terna: consequens est falsum, iuxta illud, De reliquo repo 
-      <lb ed="#G" n="46"/>sita est mihi corona iustitiae, quam reddet mihi in illum 
-      <lb ed="#G" n="47"/>diem iustus iudex; probatur consequentia: quia cum
-      vo<lb ed="#G" n="48" break="no"/>luntas nostra sit finita, &amp; actus suus finitus, ergo si
-      habi<lb ed="#G" n="49" break="no"/>tus, seuuirtus, qua mediante actum meritorium elicit 
-      <lb ed="#G" n="50"/>etiam esset finita, tunc in nullo meritum nostrum
-      adae<lb ed="#G" n="51" break="no"/>quat de condigno ipsam vitam eternam, siue donum glo 
-      <lb ed="#G" n="52"/>riae, ergo oportet, quod talis actus immediate sit a 
-      <lb ed="#G" n="53"/>spiritu sancto.
-    </p>
-            <p xml:id="HuYgTa-e53889-d1e434">
-               <lb ed="#G" n="54"/>3 Praeterea, sicut Deus in creatione produxit aliqua 
-      <lb ed="#G" n="55"/>per seipsum immediate propter eorum excellentiam, pu 
-      <lb ed="#G" n="56"/>ta angelos, seu substantias separatas; aliqua vero median 
-      <lb ed="#G" n="57"/>te vi productiua naturae communicata: sic congruum esse  
-      <lb ed="#G" n="58"/>videtur, vt in gratuitis operibus nostrae creationis ad ea, 
-      <lb ed="#G" n="59"/>quae sunt excellentissima, nos moueat immediate, haec au 
-      <lb ed="#G" n="60"/>tem sunt actus dilectionis, &amp; caritatis. 
-    </p>
-            <p xml:id="HuYgTa-e53889-d1e452">
-               <lb ed="#G" n="61"/>
-               <pc type="indent"/>4 Praeterea, frustra fit per plura, quod aeque bene fieri 
-      <lb ed="#G" n="62"/>potest per pauciora: sed posito habitu creato ipsius
-      cari<lb ed="#G" n="63" break="no"/>tatis, adhuc, vt communiter dicitur, non possumus
-      me<lb ed="#G" n="64" break="no"/>reri sine speciali motione spiritus sancti,. cum igitur non 
-      <lb ed="#G" n="65"/>magis possit spiritus sanctus nos mouere, stante tali ha 
-      <lb ed="#G" n="66"/>bitu, quam ipso non existente: quia eius virtus a nullo 
-      <lb ed="#G" n="67"/>creato dependet, &amp; Deus &amp; natura nihil faciant frustra, 
-      <lb ed="#G" n="68"/>ergo &amp;c. 
-    </p>
-            <p xml:id="HuYgTa-e53889-d1e474">
-               <lb ed="#G" n="69"/>3 Praeterea, actum prophetiae ratione suae excellentia 
-      <lb ed="#G" n="70"/>rmmediate sine aliquo habitu medio elicit spiritus
-      san<lb ed="#G" n="71" break="no"/>ctus in mente ipsius prophetae: sed actus diuinae
-      dilectio<lb ed="#G" n="72" break="no"/>nis est excellentior, quam actus prophetiae. illa minor po 
-      <lb ed="#G" n="73"/>tet: quia Apostolus praefert actum caritatis, &amp; ipsam car 
-      <!--181.xml-->
-      <cb ed="#G" n="b"/>
-               <lb ed="#G" n="74"/>tatem ipsi prophetiae. Maior etiam patet: quia nullus ha 
-      <lb ed="#G" n="75"/>bitus creatus potest intellectum prophetae ducere in no 
-      <lb ed="#G" n="76"/>titiam futurorum
-    </p>
-            <p xml:id="HuYgTa-e53889-d1e498">
-               <lb ed="#G" n="77"/>3 Praeterea, si caritas, per cuius coniunctionem ad nos 
-      <lb ed="#G" n="78"/>dicimur Deo cari, esset aliquis habitus creatus, tuac
-      ali<lb ed="#G" n="79" break="no"/>quod accidens existens in anima sancta esset carius Deo 
-      <lb ed="#G" n="80"/>quam ipsa anima: sed consequens est falsum secundum 
-      <lb ed="#G" n="81"/>omnes doctores: consequentia probatur: quia propter quod 
-      <lb ed="#G" n="82"/>vnumquodque tale, &amp; illud magis, vt patet 1. posteriorum 
-    </p>
-            <p xml:id="HuYgTa-e53889-d1e514">
-               <lb ed="#G" n="83"/>
-               <pc type="indent"/>3 Preterea, nihil est bonum per essentiam, nisi solus 
-      <lb ed="#G" n="84"/>Deus: sed caritas est bona per essentiam: Maior patet 
-      <lb ed="#G" n="85"/>quia omne, quod est citra Deum, sicut est ens per partici 
-      <lb ed="#G" n="86"/>pationem, sic est etiam bonum per participationem:
-      Mi<lb ed="#G" n="87" break="no"/>nor probatur, quia illud est bonum per essentiam, quod 
-      <lb ed="#G" n="88"/>non potest intelligi non bonum, sed quamuis omnis alia 
-      <lb ed="#G" n="89"/>virtus possit intelligi non bona, cum possit esse informis: 
-      <lb ed="#G" n="90"/>sola tamen caritas non potest intelligi non bona, cum
-      im<lb ed="#G" n="91" break="no"/>possibile sit cam esse informem. 
-    </p>
-            <p xml:id="HuYgTa-e53889-d1e538">
-               <lb ed="#G" n="92"/>
-               <pc type="indent"/>S Praeterea. <ref xml:id="HuYgTa-e53889-Rd1e544">8. de trini ait August</ref>. Deum diligit, qui 
-      <lb ed="#G" n="93"/>dilectionem diligit, quia Deus est dilectio, sed illud non 
-      <lb ed="#G" n="94"/>sequeretur, nisi omnis gratuita dilectio esset Deus, sicut 
-      <lb ed="#G" n="95"/>non sequitur, hoc est sensitiuum, ergo est animal, nisi om 
-      <lb ed="#G" n="96"/>ne sensitiuum sit animal. Multas etiam alias auctoritates 
-      <lb ed="#G" n="97"/>adducit magister tam de sacro canone, quam de dictis 
-      <lb ed="#G" n="98"/>sanctorum, quas ad praesens dimitto, quia vna
-      responsio<lb ed="#G" n="99" break="no"/>ne pariter ad omnes respondetur. 
-    </p>
-            <p xml:id="HuYgTa-e53889-d1e564">
-               <lb ed="#G" n="100"/>
-               <pc type="indent"/>Sed quamuis illam opinionem non teneam, ob
-      reue<lb ed="#G" n="101" break="no"/>rentiam multorum doctorum oppositam partem tenet 
-      <lb ed="#G" n="102"/>tium, fateor tamen, quod praedicta opinio non est adeo 
-      <lb ed="#G" n="103"/>periculosa, sicut multi eam videntur aestimare, tria incos 
-      <lb ed="#G" n="104"/>uenientia magistro minus iuste imponentes 
-    </p>
-            <p xml:id="HuYgTa-e53889-d1e580">
-               <lb ed="#G" n="105"/>
-               <pc type="indent"/>Primo videlicet, quod actus dilectionis a voluntate 
-      <lb ed="#G" n="106"/>elicitus sit spiritus sanctus, cum talis actus caritas, siue d 
-      <lb ed="#G" n="107"/>lectio dicatur 
-    </p>
-            <p xml:id="HuYgTa-e53889-d1e591">
-               <lb ed="#G" n="108"/>
-               <pc type="indent"/>Secundo, quod ex puris naturalibus mereri possemus 
-      <lb ed="#G" n="109"/>si sinc habitu caritatis infuso eliceremus actum
-      merito<lb ed="#G" n="110" break="no"/>riae dilectionis, quod fuit error Pelagii¬ 
-    </p>
-            <p xml:id="HuYgTa-e53889-d1e602">
-               <lb ed="#G" n="111"/>
-               <pc type="indent"/>Tertio, quod spiritus sanctus assumeret animam
-      ratio<lb ed="#G" n="112" break="no"/>nalem i vnitatem suppositi, si ipse esset immediatum prin 
-      <lb ed="#G" n="113"/>cipium actus nostrae voluntatis, quod dicitur fuisse erroi 
-      <lb ed="#G" n="114"/>Manichaeorum
-    </p>
-            <p xml:id="HuYgTa-e53889-d1e615">
-               <lb ed="#G" n="115"/>Primum non est contra magistrum: quia vt patet in 
-      <lb ed="#G" n="116"/>
-               <ref xml:id="HuYgTa-e53889-Rd1e621">textu istius 17. distinctionis</ref>, ipse expresse ponit
-      dilectio<lb ed="#G" n="117" break="no"/>nem, inquantum sumitur pro actu nostrae voluntatis, essi 
-      <lb ed="#G" n="118"/>quid creatum, quamuis ad eliciendum huiusmodi actum 
-      <lb ed="#G" n="119"/>non requiratur secundum cum habitus creatus, qui
-      cari<lb ed="#G" n="120" break="no"/>tas nominetur in ipsa voluntate; ad hoc enim secundum 
-      <lb ed="#G" n="121"/>magistrum sufficit immediate ipse spiritus sanctus, qui
-      si<lb ed="#G" n="122" break="no"/>ne aliquo caritatis habitu ipsam voluntatem ad
-      elicien<lb ed="#G" n="123" break="no"/>dum huiusmodi actum perfectissime poterit inclinare. 
-      <lb ed="#G" n="124"/>Nec secundum est contra magistrum propter duo. Pr 
-      <lb ed="#G" n="125"/>mo quia magister non posuit, quod ex nostris puris na 
-      <lb ed="#G" n="126"/>turalibus possemus elicere huiusmodi actum, sed virtute 
-      <lb ed="#G" n="127"/>spiritus sancti: hoc autem non posuit Pelagius. Secundo: 
-      <lb ed="#G" n="128"/>quia quamuis magister non posuit habitum caritatis crea 
-      <lb ed="#G" n="129"/>tum, posuit tamen habitum gratiae a Deo creatum, &amp; ani 
-      <lb ed="#G" n="130"/>niae infusum, dantem ipsi animae esse spirituale, &amp; ipsam 
-      <lb ed="#G" n="131"/>eleuantem super omnia sua naturalia Propter quod ap 
-      <lb ed="#G" n="132"/>paret, quod non valeat illud commune argumentum, quid 
-      <lb ed="#G" n="133"/>fit contra magistrum, quod anima existens in puris natu 
-      <lb ed="#G" n="134"/>ralibus non potest contingere obiectum simpliciter
-      su<lb ed="#G" n="135" break="no"/>pernaturale; Nec potest aliquem actum supernaturalem 
-      <lb ed="#G" n="136"/>elicere circa liuiusmodi obiectum, sed si non haberet in 
-      <lb ed="#G" n="137"/>se habitum caritatis creatae, tunc esset in puris
-      naturali<lb ed="#G" n="138" break="no"/>bus. Hic magister diceret, quod ista minor est falsa: quia 
-      <lb ed="#G" n="139"/>anima talis non est in puris naturalibus: quia per habitum 
-      <lb ed="#G" n="140"/>gratiae constituitur in esse supernaturali, inxta illud apo. 
-      <lb ed="#G" n="141"/>stoli. Ciratia Dei sum id, quod sum 
-    </p>
-            <p xml:id="HuYgTa-e53889-d1e679">
-               <lb ed="#G" n="142"/>
-               <pc type="indent"/>Nec tertium est contra magistrum: quia ad positionem 
-      <lb ed="#G" n="143"/>magistri non sequitur, quod spiritus sanctus assumat talem 
-      <lb ed="#G" n="144"/>animam in vnitatem suppositi, sed solum, quod iungatur 
-      <lb ed="#G" n="145"/>huiusmodi animae, sicut motor supereminens iungitur ip 
-      <lb ed="#G" n="146"/>si mobili. Quamuis igitur his bene intellectis rationes 
-      <!--182.xml-->
-      <pb ed="#G" n="72-r"/>
-               <cb ed="#G" n="a"/>
-               <lb ed="#G" n="1"/>quaecumque fiunt contra magistrum, solubiles apparcant,  
-      <lb ed="#G" n="2"/>&amp; eius, vt mihi videtur, posito sine periculo posset substi 
-      <lb ed="#G" n="3"/>neri, tamen, vt me conformem positonibus modernorum, 
-      <lb ed="#G" n="4"/>ad rationes inductas pro magistro breuiter respondebo, 
-      <lb ed="#G" n="5"/>quamuis rationes alterius partis aeque reputem
-      solubi<lb ed="#G" n="6" break="no"/>les, ficut istas, quae inductae sunt pro magistro. 
-    </p>
-            <p xml:id="HuYgTa-e53889-d1e715">
-               <lb ed="#G" n="7"/>
-               <pc type="indent"/>Ad primum ergo dicendum, quod Deus, &amp; in
-      natu<lb ed="#G" n="8" break="no"/>ralibus, &amp; sprritualibus immediate est causa in genere 
-      <lb ed="#G" n="9"/>causae efficientis, non tamen in genere causae forma 
-      <lb ed="#G" n="10"/>lis: Non enim potest dare esse humanum sine forma
-      hu<lb ed="#G" n="11" break="no"/>mana, &amp; ideo dicetur consimiliter, quod Deus non
-      po<lb ed="#G" n="12" break="no"/>test dare esse carum sine forma caritatis dantis tale es 
-      <lb ed="#G" n="13"/>se, sicut nec daret esse album, quod est effectus formalis 
-      <lb ed="#G" n="14"/>albedinis sinc albedine. 
-    </p>
-            <p xml:id="HuYgTa-e53889-d1e737">
-               <lb ed="#G" n="15"/>
-               <pc type="indent"/>Ad secundum dicendum, quod nihil est sic proprium 
-      <lb ed="#G" n="16"/>amicorum, sicut conuiuere, vt dicitur <ref xml:id="HuYgTa-e53889-Rd1e745">S ethicorum</ref>: ideo 
-      <lb ed="#G" n="17"/>lex iustitiae ipsius amicitiae hoc requirit, vt Deus amicis 
-      <lb ed="#G" n="18"/>suis firma caritate ipsum diligentibus suum impartiatur 
-      <lb ed="#G" n="19"/>iucundum conuictum, qui est vita aeterna, quam
-      aposto<lb ed="#G" n="20" break="no"/>lus appellat coronam iustitiae vel potest dici, quod
-      qui<lb ed="#G" n="21" break="no"/>talis habitus creatus est donum spiritus sancti, ac etiam  
-      <lb ed="#G" n="22"/>quia sprritus sancti motio specialis requiritur ad actum  
-      <lb ed="#G" n="23"/>meritorium, vt patebit in tertio principali, idco virtute 
-      <lb ed="#G" n="24"/>spiritus sancti acquiremus de condigno illam coronam 
-      <lb ed="#G" n="25"/>iustitiae gloriae sempiternae 
-    </p>
-            <p xml:id="HuYgTa-e53889-d1e769">
-               <lb ed="#G" n="26"/>
-               <pc type="indent"/>Ad tertium dicendum sicut ad primum. 
-      <lb ed="#G" n="27"/>Ad quartum dicendum, quod illud non potest aeque 
-      <lb ed="#G" n="28"/>bene fieri sine caritate. Ad probationem dico, quod
-      quam<lb ed="#G" n="29" break="no"/>uis spiritus sanctus possit quemlibet effectum producere 
-      <lb ed="#G" n="30"/>in esse sine agente secundo, non tamen potest dare quod 
-      <lb ed="#G" n="31"/>libet esse formale sine forma, &amp; ideo diceretur, quod non 
-      <lb ed="#G" n="32"/>posset dare esse carum sine caritate. 
-    </p>
-            <p xml:id="HuYgTa-e53889-d1e789">
-               <lb ed="#G" n="33"/>
-               <pc type="indent"/>Ad quintum dicendum, quod maior non est vera: quia 
-      <lb ed="#G" n="34"/>donum prophetiae secundum doctores, est quidam
-      habi<lb ed="#G" n="35" break="no"/>tualis influxus factus a spiritu sancto, ratione cuius, etiam 
-      <lb ed="#G" n="36"/>cessante actu prophetiae, adhuc talis homo vere, &amp; forma 
-      <lb ed="#G" n="37"/>liter est propheta. Ad probationem dico, quod
-      prophe<lb ed="#G" n="38" break="no"/>tia notitiam futurorum habet dispositiue per huiusmod 
-      <lb ed="#G" n="39"/>habitum, sed effectiue per spiritum sanctum influentem 
-      <lb ed="#G" n="40"/>sibi huiusmodi habitum. 
-    </p>
-            <p xml:id="HuYgTa-e53889-d1e811">
-               <lb ed="#G" n="41"/>
-               <pc type="indent"/>Ad sextum dicendum, quod illa regula, qua dicitur 
-      <lb ed="#G" n="42"/>Propter quod vnumquodque tale &amp; illud magis, non te 
-      <lb ed="#G" n="43"/>net in causis formalibus quantum ad denominationes,  
-      <lb ed="#G" n="44"/>quae fiunt in effectibus formalibus: Non enim sequitur  
-      <lb ed="#G" n="45"/>lignum est albsi propter albedinem, ergo albedo est ma 
-      <lb ed="#G" n="46"/>gis alba. Sic proprie loquendo caritas non est cara: sed ess 
-      <lb ed="#G" n="47"/>illud, quo anima formaliter est cara, sicut simitas non est 
-      <lb ed="#G" n="48"/>sima: sed est illud, quo nasus formaliter est simus 
-    </p>
-            <p xml:id="HuYgTa-e53889-d1e833">
-               <lb ed="#G" n="49"/>
-               <pc type="indent"/>Ad septimum dicendum, quod minor non est vera, si 
-      <lb ed="#G" n="50"/>vniformiter sumitur sub maiori. Ad probationem dico 
-      <lb ed="#G" n="51"/>quod non sufficit, quod non possit intelligi non bonum 
-      <lb ed="#G" n="52"/>ad hoc, quod tale sit per essentiam, sicut est ipse Deus : sed 
-      <lb ed="#G" n="53"/>oportet, quod sit purum bonum in se comprehendens 
-      <lb ed="#G" n="54"/>omne bonum. 
-    </p>
-            <p xml:id="HuYgTa-e53889-d1e852">
-               <lb ed="#G" n="55"/>
-               <pc type="indent"/>Ad octauum dicendum, quod Deus causaliter, &amp; exem  
-      <lb ed="#G" n="56"/>plariter est omnis dilectio gratuita: quia est eius ppriissi 
-      <lb ed="#G" n="57"/>ma causa. Cum igitur quicumque ordinata dilectione di 
-      <lb ed="#G" n="58"/>ligit aliquem effectum, quasi necessario habet diligere 
-      <lb ed="#G" n="59"/>propriam eius causam: ideo quicunque diligit dilectionem, 
-      <lb ed="#G" n="60"/>Deum diligit, quia Deus est omnis dilectio, vel
-      formali<lb ed="#G" n="61" break="no"/>ter, si est increata, vel causaliter, si est ab ipso influxa
-      ani<lb ed="#G" n="62" break="no"/>mae amorosae. 
-    </p>
-            <p xml:id="HuYgTa-e53889-d1e874">
-               <lb ed="#G" n="63"/>
-               <pc type="indent"/>ARTICVLVS II 
-      <lb ed="#G" n="64"/>Vtrum possimus cognoscere an in
-      no<lb ed="#G" n="65" break="no"/>bis sit caritas.
-    </p>
-            <p xml:id="HuYgTa-e53889-d1e885">
-               <lb ed="#G" n="66"/>QVANTVM ad secundum principale, vtrum
-      possi<lb ed="#G" n="67" break="no"/>mus cognoscere, an in nobis sit caritas,
-      dicen<lb ed="#G" n="68" break="no"/>dum, quod quantum ex nobis est, puta sine Dei speciali re 
-      <!--182.xml-->
-      <cb ed="#G" n="b"/>
-               <lb ed="#G" n="69"/>elatione, impossibile est nos scire certitudinaliter nos 
-      <lb ed="#G" n="70"/>habere caritatem infusam, seu meritoriam dilectionem 
-      <lb ed="#G" n="71"/>1 Quia in notitiam talis habitus non possumus deue 
-      <lb ed="#G" n="72"/>nire, nisi ex actibus dilectionis; vel igitur notitiam de
-      ta<lb ed="#G" n="73" break="no"/>li habitu haberemus ex substantia actus, vel ex modo 
-      <lb ed="#G" n="74"/>actus. Non primo modo, quia etiam nuda potentia sine 
-      <lb ed="#G" n="75"/>omni habitu potest in substantiam actus : per nudam enim 
-      <lb ed="#G" n="76"/>voluntatem sine omni habitu infuso, vel acquisito possu 
-      <lb ed="#G" n="77"/>mus naturaliter diligere Deum. Nec secundo modo, quia 
-      <lb ed="#G" n="78"/>ille modus vel conuenit actui ratione habitus, puta quia 
-      <lb ed="#G" n="79"/>ex habitu inclinante ille actus dicitur facilis &amp; delectabi 
-      <lb ed="#G" n="80"/>lis, vel ille modus conuenit actui ratione ipsius Dei,
-      pu<lb ed="#G" n="81" break="no"/>ta quia ex acceptatione diuina ille actus dicitur gratus 
-      <lb ed="#G" n="82"/>Deo, &amp; acceptus, &amp; per consequens meritorius Primum 
-      <lb ed="#G" n="83"/>modum quamuis in actu certitudinaliter possimus perci 
-      <lb ed="#G" n="84"/>pere, non tamen possumus scire, vtrum illa facilitatio, seu 
-      <lb ed="#G" n="85"/>delectatio proueniat ex habitu infuso, vel acquifiro, quia 
-      <lb ed="#G" n="86"/>habitus diuinae dilectionis naturaliter acquisitus ex
-      fre<lb ed="#G" n="87" break="no"/>quentatis actibus faceret actus tales delectabiles etiam 
-      <lb ed="#G" n="88"/>in pagano, vel iudaeo, signum enim est acquisiti habitus. 
-      <lb ed="#G" n="89"/>delectationem habere in opere <ref xml:id="HuYgTa-e53889-Rd1e943">2 ethicorum</ref>. Sed
-      secun<lb ed="#G" n="90" break="no"/>dum modum non possumus ex nobis ipsis aliquo modo 
-      <lb ed="#G" n="91"/>scire, nisi Deo reuelante, propter quod dixit Aposto¬¬ 
-      <lb ed="#G" n="92"/>lus, Nihil mihi conscius sum, sed non in hoc
-      iustifi<lb ed="#G" n="93" break="no"/>catus sum 
-    </p>
-            <p xml:id="HuYgTa-e53889-d1e956">
-               <lb ed="#G" n="94"/>
-               <pc type="indent"/>bed forte diceret aliquis, quod secundum philosophum 
-      <lb ed="#G" n="95"/>questio quid est praesupponit questionem an est. cum er- I 
-      <lb ed="#G" n="96"/>go sic se habeat scire ad scire, sicut quaestio ad quaestionem per 
-      <lb ed="#G" n="97"/>nos autem possumus scire quid est caritas, cum sit quidam 
-      <lb ed="#G" n="98"/>habitus creatus, vt patuit in precedenti articulo, ergo 
-      <lb ed="#G" n="99"/>etiam poterimus scire an sit in nobis 
-    </p>
-            <p xml:id="HuYgTa-e53889-d1e974">
-               <lb ed="#G" n="100"/>
-               <pc type="indent"/>2 Praeterea, <ref xml:id="HuYgTa-e53889-Rd1e980">2. posteriorum</ref> dicitur, quod impossibile est 
-      <lb ed="#G" n="101"/>nos habere nobilissimos habitus, &amp; latere nos 
-    </p>
-            <p xml:id="HuYgTa-e53889-d1e986">
-               <lb ed="#G" n="102"/>
-               <pc type="indent"/>Praeterea, <ref xml:id="HuYgTa-e53889-Rd1e992">8. de trini dicit beatus August</ref>. <quote xml:id="HuYgTa-e53889-Qd1e995" source="http://scta.info/resource/adt-l8-d1e965" synch="55-65">Sciri
-      ali<lb ed="#G" n="103" break="no"/>quid, &amp; non diligi potest, diligi autem quod nescitur</quote>
-      ne<lb ed="#G" n="104" break="no"/>quaquam, sed caritas diligitur ab habete caritatem, qui 
-      <lb ed="#G" n="105"/>sicut perfectum scire, est scire se scire; sic perfectum
-      dili<lb ed="#G" n="106" break="no"/>gere, siue perfecta dilectio est diligere se diligere, caritas 
-      <lb ed="#G" n="107"/>autem est perfecta dilectio.
-    </p>
-            <p xml:id="HuYgTa-e53889-d1e1011">
-               <lb ed="#G" n="108"/>Ad primum dicendum, quod setre quid est, loquendo de 
-      <lb ed="#G" n="109"/>quid rei, praesupponit scire an est, &amp; hoc vel in se, vel in 
-      <lb ed="#G" n="110"/>sua causa. Non tamen scire quid est semper praesupponit 
-      <lb ed="#G" n="111"/>rem esse in propria existentia; possum enim scire quid est 
-      <lb ed="#G" n="112"/>rosa, nulla tamen rosa actu existente. Etiam committitur 
-      <lb ed="#G" n="113"/>fallacia figurae dictionis; quia cum deberet inferri, quod 
-      <lb ed="#G" n="114"/>sciremus caritatem esse, infert, quod sciamus eam in
-      no<lb ed="#G" n="115" break="no"/>bis esse; et similiter est ibi fallacia consequentis, puta ea 
-      <lb ed="#G" n="116"/>ritas est, ergo est in me, vel in nobis. 
-    </p>
-            <p xml:id="HuYgTa-e53889-d1e1033">
-               <lb ed="#G" n="117"/>
-               <pc type="indent"/>Ad secundum dicendum, quod philosophus loquitur 
-      <lb ed="#G" n="118"/>ibi de habitibus cognitiuis; illi enii non possunt nos
-      la<lb ed="#G" n="119" break="no"/>tere, &amp; ideo secudum <ref xml:id="HuYgTa-e53889-Rd1e1043">Aug. 15. de tri</ref> fide videt
-      vnusquis<lb ed="#G" n="120" break="no"/>ue in semetipso, quauis non possimus cognoscere, vtrum 
-      <lb ed="#G" n="121"/>huiusmodi fides sit in nobis informis, aut formata: quia 
-      <lb ed="#G" n="122"/>in hoc fides dependet a caritate, 
-    </p>
-            <p xml:id="HuYgTa-e53889-d1e1054">
-               <lb ed="#G" n="123"/>
-               <pc type="indent"/>Ad tertium dicendum, quod ad hoc, quod caritas
-      dili<lb ed="#G" n="124" break="no"/>gatur, sufficit, quod quidditatiue cognoscatur, Dato etiam, 
-      <lb ed="#G" n="125"/>quod quis diligat se diligere, nescit tamen vtrum talis di 
-      <lb ed="#G" n="126"/>lectio sit supernaturalis. 
-    </p>
-            <p xml:id="HuYgTa-e53889-d1e1067">
-               <lb ed="#G" n="127"/>
-               <pc type="indent"/>ARTICVLVS III 
-      <lb ed="#G" n="128"/>Vtrum per huiusmod i ( dato quodm nobis sit
-      cari<lb ed="#G" n="129" break="no"/>tas) caritatem possimus exire in actum meri 
-      <lb ed="#G" n="130"/>torium eternae beatitudinis sine speciali 
-      <lb ed="#G" n="131"/>
-               <pc type="indent"/>motione spiritus sancti.
-    </p>
-            <p xml:id="HuYgTa-e53889-d1e1085">
-               <lb ed="#G" n="132"/>QVANTVM ad tertium principale; posito, quod in 
-      <lb ed="#G" n="133"/>cmnobis sit caritas, vtrum per huiusmodi caritatem 
-      <!--183.xml-->
-      <pb ed="#G" n="72-v"/>
-               <cb ed="#G" n="a"/>
-               <lb ed="#G" n="1"/>possimus exite in actum meritorium aeternae
-      beatitudi<lb ed="#G" n="2" break="no"/>nis sine speciali motione spiritus sancti. Primo ponam con 
-      <lb ed="#G" n="3"/>clusionem, quam tenere propono. Secundo adducam
-      di<lb ed="#G" n="4" break="no"/>stinctionem cuiusdam doctoris in materia proposita,
-      cu<lb ed="#G" n="5" break="no"/>ius distinctionis unum membrum, quod ipse
-      multicipli<lb ed="#G" n="6" break="no"/>titer confirmat, est contra me. Tertio respondebo ac 
-      <lb ed="#G" n="7"/>sua motiua 
-    </p>
-            <p xml:id="HuYgTa-e53889-d1e1114">
-               <lb ed="#G" n="8"/>
-               <pc type="indent"/>Quantum ad primum dico, quod habens caritatem non
-      po<lb ed="#G" n="9" break="no"/>test exire in actum meritorium sine speciali notione
-      spi<lb ed="#G" n="10" break="no"/>ritus sancti 
-    </p>
-            <p xml:id="HuYgTa-e53889-d1e1126">
-               <lb ed="#G" n="11"/>
-               <pc type="indent"/>1 Quia quanto finis alicuius agentis est altior, &amp;
-      ma<lb ed="#G" n="12" break="no"/>gis suam naturam excedens, tanto huiusmodi agens
-      su<lb ed="#G" n="13" break="no"/>blimiori, ac specialiori indiget mouente, siue dirigente; 
-      <lb ed="#G" n="14"/>sed finis deifice diligentis, siue caritatem habentis est
-      su<lb ed="#G" n="15" break="no"/>blimissimus, &amp; totam suam naturam excedit, ergo non 
-      <lb ed="#G" n="16"/>obstante, quod habeat caritatem, &amp; gratiam, indiget mo 
-      <lb ed="#G" n="17"/>tione, &amp; directione singulari ipsius spiritus sancti. 
-    </p>
-            <p xml:id="HuYgTa-e53889-d1e1146">
-               <lb ed="#G" n="18"/>
-               <pc type="indent"/>2 Praeterea, illud idem arguit doctor noster exemplo 
-      <lb ed="#G" n="19"/>satis familiari dicens. Sicut puer habens pennam in
-      ma<lb ed="#G" n="20" break="no"/>nu in actu scribendi se habet ad magistrum ducentem
-      ma<lb ed="#G" n="21" break="no"/>num suam, sic se videtur habere habens caritatem in opere 
-      <lb ed="#G" n="22"/>meritorio ad ipsum spiritum sanctum: sed puer talis
-      quam<lb ed="#G" n="23" break="no"/>uis pennam habeat in manu, non tamen ordinate
-      scribe<lb ed="#G" n="24" break="no"/>ret, nisi magister manum suam duceret, ergo &amp;c 
-    </p>
-            <p xml:id="HuYgTa-e53889-d1e1166">
-               <lb ed="#G" n="25"/>
-               <pc type="indent"/>Praeterea, plus requiritur ad exercendum opera me 
-      <lb ed="#G" n="26"/>ritoria, quam ad prosequendum opera naturalia, sed
-      ha<lb ed="#G" n="27" break="no"/>bens caritatem non potest exercere opera naturalia, nisi 
-      <lb ed="#G" n="28"/>sibi suffragetur vniuersalis influentia, ergo quantum ac 
-      <lb ed="#G" n="29"/>opera meritoria indiget spiritus sancti assistentia, &amp;
-      influ<lb ed="#G" n="30" break="no"/>entia speciali, ergo &amp;c 
-    </p>
-            <p xml:id="HuYgTa-e53889-d1e1184">
-               <lb ed="#G" n="31"/>
-               <pc type="indent"/>Praeterea, dicitur, Qui spiritu Dei aguntur, hi filij 
-      <lb ed="#G" n="32"/>Dei sunt. Et lsaias ait, Omnia opera nostra operatus es 
-      <lb ed="#G" n="33"/>domine Sed qui ab aliquo agitur, ab eodem mouetur. 
-      <lb ed="#G" n="34"/>Sed est quidam doctor, vt praemisi, qui circa hanc mate 
-      <lb ed="#G" n="35"/>teriam distinguit dicens, quod vel intelligitur quod illa  
-      <lb ed="#G" n="36"/>influentia specialis sic sit necessaria, quod sine ea
-      haben<lb ed="#G" n="37" break="no"/>caritatem nullo modo possit meritorie operari; vel quoc 
-      <lb ed="#G" n="38"/>sine ea non possit firmiter, &amp; perseueranter operari. Pri 
-      <lb ed="#G" n="39"/>mo modo negat praedictam conclusionem, secundo
-      mo<lb ed="#G" n="40" break="no"/>do ipsam affirmat.
-    </p>
-            <p xml:id="HuYgTa-e53889-d1e1210">
-      Primum probat sic 
-      <lb ed="#G" n="41"/>1 Sicut res constitutae in esse naturali cum princibis 
-      <lb ed="#G" n="42"/>naturaliter operatiuis se habent ad operationem natura 
-      <lb ed="#G" n="43"/>lem, sic res constitutae in esse supernaturali cum principiis 
-      <lb ed="#G" n="44"/>supernaturalibus se habent ad operationem
-      supernatu<lb ed="#G" n="45" break="no"/>ralem: sed res naturales &amp;c. praesupponunt solum influen 
-      <lb ed="#G" n="46"/>tiam vniuersalem, ergo &amp;c.
-    </p>
-            <p xml:id="HuYgTa-e53889-d1e1226">
-               <lb ed="#G" n="47"/>2 Praeterea, nulla res est destituta sua propria
-      opera<lb ed="#G" n="48" break="no"/>tione: quia secundum <ref xml:id="HuYgTa-e53889-Rd1e1232">Aug. de ci. Dei</ref>, Deus sic res
-      admi<lb ed="#G" n="49" break="no"/>nistrat, vt eas proprios cursus agere sinat, sed Deus potest 
-      <lb ed="#G" n="50"/>illam propriam motionem subtrahere remanente gratia, 
-      <lb ed="#G" n="51"/>&amp; caritate, &amp; per consequens gratia, &amp; caritas habebunt 
-      <lb ed="#G" n="52"/>operationem sine huiusmodi motione. Sed
-      quaecum<lb ed="#G" n="53" break="no"/>que operatio procedens a gratia, &amp; caritate est
-      merito<lb ed="#G" n="54" break="no"/>ria, eroo &amp;c 
-    </p>
-            <p xml:id="HuYgTa-e53889-d1e1250">
-               <lb ed="#G" n="55"/>
-               <pc type="indent"/>Praeterea, opera de genere bonorum sine caritate 
-      <lb ed="#G" n="56"/>facta non sunt meritoria, quae tamen fiunt cum caritate, 
-      <lb ed="#G" n="57"/>meritoria sunt: sed dicere, quod habens caritatem, non
-      pos<lb ed="#G" n="58" break="no"/>sit elicere talia opera sine speciali motione, quae prius
-      si<lb ed="#G" n="59" break="no"/>ne caritate potuit elicere, est inconueniens, ergo &amp;c. 
-    </p>
-            <p xml:id="HuYgTa-e53889-d1e1266">
-               <lb ed="#G" n="60"/>
-               <pc type="indent"/>Praeterea, qui habet spiritum sanctum non indiget 
-      <lb ed="#G" n="61"/>speciali motione spiritus sancti; sed habens caritatem ha 
-      <lb ed="#G" n="62"/>bet in se spiritum sanctum, iuxta illud Caritas Dei
-      diffu<lb ed="#G" n="63" break="no"/>sa est in cordibus nostris per spiritum sanctum, qui datus 
-      <lb ed="#G" n="64"/>est nobis 
-    </p>
-            <p xml:id="HuYgTa-e53889-d1e1282">
-               <lb ed="#G" n="65"/>
-               <pc type="indent"/>Secundam partem suae distinctionis probat sic¬ 
-    </p>
-            <p xml:id="HuYgTa-e53889-d1e1289">
-               <lb ed="#G" n="66"/>
-               <pc type="indent"/>Ad permanendum immobiliter ac perseueranter in 
-      <lb ed="#G" n="67"/>talibus operibus, in quibus magnam patimur difficulta 
-      <lb ed="#G" n="68"/>tem, necessario indigemus spiritus sancti auxilio: sed
-      pro<lb ed="#G" n="69" break="no"/>pter corruptionem naturae per primi parentis peccatum 
-      <lb ed="#G" n="70"/>&amp; inclinationem fomitis, &amp; multitudinem tentationum 
-      <lb ed="#G" n="71"/>quamuis homo sit in caritate, tamen patitur magnam dif 
-      <lb ed="#G" n="72"/>ficultatem in operibus meritoriis, ergo &amp;c. 
-    </p>
-            <p xml:id="HuYgTa-e53889-d1e1309">
-               <lb ed="#G" n="73"/>
-               <pc type="indent"/>Sed illam secundam partem suae distinctionis concedo 
-      <!--183.xml-->
-      <cb ed="#G" n="b"/>
-               <lb ed="#G" n="74"/>tratia principalis meae conclusionis, primam vero nego 
-      <lb ed="#G" n="75"/>1 Quia sicut illud, quod est primum disponens ad
-      in<lb ed="#G" n="76" break="no"/>troductionem formae naturalis, puta caelum, illud idem 
-      <lb ed="#G" n="77"/>est post introductionem coadiuuans in omnibus
-      natura<lb ed="#G" n="78" break="no"/>libus operibus, quae sunt secundum illam formam, sic
-      pri<lb ed="#G" n="79" break="no"/>mum disponens ad introductionem formae
-      supernatu<lb ed="#G" n="80" break="no"/>ralis est coadiuuans in omnibus operibus, quae fiunt
-      se<lb ed="#G" n="81" break="no"/>cundum illam formam: sed primum disponens ad
-      intro<lb ed="#G" n="82" break="no"/>ductionem formae supernaturalis est ipse spiritus
-      san<lb ed="#G" n="83" break="no"/>ctus secundum suam specialem motionem, &amp; singularem  
-      <lb ed="#G" n="84"/>influentiam: quia ad hoc non sufficit influentia generalis 
-      <lb ed="#G" n="85"/>alias homo posset se naturaliter disponere sufficienter ad 
-      <lb ed="#G" n="86"/>infusionem gratiae Dei, &amp; caritatis, cuius oppositum
-      probabi<lb ed="#G" n="87" break="no"/>tur in <ref xml:id="HuYgTa-e53889-Rd1e1350">li. 2.</ref> igitur in omni operatione meritoria
-      necessa<lb ed="#G" n="88" break="no"/>rio concurrit specialis motio spiritus sancti sicut in omni 
-      <lb ed="#G" n="89"/>peratione naturali necessario concurrit influentia caeli¬ 
-    </p>
-            <p xml:id="HuYgTa-e53889-d1e1358">
-               <lb ed="#G" n="90"/>
-               <pc type="indent"/>Ad primum dicendum, quod maior est vera, cum hoc 
-      <lb ed="#G" n="91"/>adiuncto, quod sicut se habent res naturales secundun 
-      <lb ed="#G" n="92"/>influentiam vniuersalem, seu naturalem ad suas
-      opera<lb ed="#G" n="93" break="no"/>tiones naturales; sic se habent res spirituales secundum 
-      <lb ed="#G" n="94"/>influentiam spiritualem, seu specialem ad operationes su 
-      <lb ed="#G" n="95"/>pernaturales, &amp; tunc sequitur oppositum illius, quod
-      ar<lb ed="#G" n="96" break="no"/>uens intendit 
-    </p>
-            <p xml:id="HuYgTa-e53889-d1e1379">
-               <lb ed="#G" n="97"/>
-               <pc type="indent"/>Ad secundum dicendum, quod si subtraheretur influen 
-      <lb ed="#G" n="98"/>tia vniuersalis, dato quod formae naturales manerent, res 
-      <lb ed="#G" n="99"/>tamen secundum eas nihil agerent, sic in proposito,
-      sub<lb ed="#G" n="100" break="no"/>tracta tali speciali motione spiritus sancti, dato, quod caritas 
-      <lb ed="#G" n="101"/>maneret, homo tamen secundum eam nihil operaretur 
-    </p>
-            <p xml:id="HuYgTa-e53889-d1e1395">
-               <lb ed="#G" n="102"/>
-               <pc type="indent"/>Ad tertium dicendum, quod talia opera sine praedicto 
-      <lb ed="#G" n="103"/>influxu non essent meritoria; llle enim influxus est totius 
-      <lb ed="#G" n="104"/>trinitatis, quamuis approprietur spiritui sancto. Propter 
-      <lb ed="#G" n="105"/>quod quantum ad personam patris ait filius, Nemo potest 
-      <lb ed="#G" n="106"/>venire ad me, nisi pater meus traxerit eum; Et quantum. 
-      <lb ed="#G" n="107"/>ad seipsum, idem filius ait. Sine me nihil potestis sacere; 
-      <lb ed="#G" n="108"/>Et quantum ad spiritum sanctum dicitur in Psal. Spiritus. 
-      <lb ed="#G" n="109"/>tuus bonus deducet me in terram rectam. Et illud,
-      Spiri<lb ed="#G" n="110" break="no"/>tus vbi vult spirat. 
-    </p>
-            <p xml:id="HuYgTa-e53889-d1e1419">
-               <lb ed="#G" n="111"/>
-               <pc type="indent"/>Ad quartum dicedum est, quod est pro nobis: quia por 
-      <lb ed="#G" n="112"/>inhabitationem, spiritus sancti in nobis debemus
-      intel<lb ed="#G" n="113" break="no"/>ligere specialem influxum spiritus sancti, quo specialiter 
-      <lb ed="#G" n="114"/>assistit nobis. 
-    </p>
-            <p xml:id="HuYgTa-e53889-d1e1432">
-               <lb ed="#G" n="115"/>
-               <pc type="indent"/>ARTICVLVS IIII. 
-      <lb ed="#G" n="116"/>vtrum caritas, &amp; gratia sint duo habitus 
-      <lb ed="#G" n="117"/>realiter differentes.
-    </p>
-            <p xml:id="HuYgTa-e53889-d1e1443">
-               <lb ed="#G" n="118"/>QVANTVM ad quartum principale, vtrum caritas 
-      <lb ed="#G" n="119"/>&amp; gratia sint duo habitus realiter differentes, di 
-      <lb ed="#G" n="120"/>to, quod habitus caritatis &amp; gratiae sunt duo habitus rea 
-      <lb ed="#G" n="121"/>liter differentes. 
-    </p>
-            <p xml:id="HuYgTa-e53889-d1e1454">
-               <lb ed="#G" n="122"/>
-               <pc type="indent"/>1 Quia illi habitus, quorum vnus per respicit essentis 
-      <lb ed="#G" n="123"/>animae tamquam subiectum, proprium, &amp; immediatum 
-      <lb ed="#G" n="124"/>&amp; alter respicit potentiam, illi necessario differunt, sec 
-      <lb ed="#G" n="125"/>habitus gratiae sicut immediatum, &amp; proprium subiectu 
-      <lb ed="#G" n="126"/>respicit essentiam animae, &amp; caritas voluntatem, quae est 
-      <lb ed="#G" n="127"/>potentia eiusdem essentiae, ergo &amp;c. Maior patet, probo 
-      <lb ed="#G" n="128"/>minorem, quia gratia dat esse animae, iuxta illud Aposto 
-      <lb ed="#G" n="129"/>li, Sratia Dei sum id, quod sum, Caritas dat operari secundum 
-      <lb ed="#G" n="130"/>opera virtutum, iuxta quod ait Grego. Magna quidem  
-      <lb ed="#G" n="131"/>pperatur, si amor est &amp;c. Cum ergo esse respiciat essentiam 
-      <lb ed="#G" n="132"/>&amp; operari potentiam, ideo &amp;c. 
-    </p>
-            <p xml:id="HuYgTa-e53889-d1e1484">
-               <lb ed="#G" n="133"/>
-               <pc type="indent"/>Ad argumentum principale dicendum, quod ille, qui 
-      <lb ed="#G" n="134"/>diligit, magis nouit dilectionem, quam fratrem, quantum 
-      <lb ed="#G" n="135"/>ad essentiam actus, non tamen quantum ad modum
-      a<lb ed="#G" n="136" break="no"/>ctus, qui est acceptatio Dei, &amp; quia sine tali modo quam 
-      <lb ed="#G" n="137"/>uis dicatur dilectio, non tamen proprie dicitur caritas; 
-      <lb ed="#G" n="138"/>ideo quamuis aliquis possit se scire diligere Deum, non 
-      <lb ed="#G" n="139"/>tamen potest scire, vtrum huiusmodi dilectio sit caritas 
-      <lb ed="#G" n="140"/>proprie dicta, siue dilectio meritoria, ideo non valet.
-    </p>
-         </div>
-      </body>
-   </text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 1</title>
+        <author ref="#ThomasStrasbourg">Thomas of Strasbourg</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 1</title>
+          <date when="2020-11-26">November 26, 2020</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="G" n="cod-TxxxqU">Genoa 1585</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2020-11-26" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#G" n="71-r"/>
+        <cb ed="#G" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="HuYgTa-e53889"><!-- HuYgTa-l1d17q1 -->
+        <head xml:id="HuYgTa-e53889-Hd1e108">Quaestio 1</head>
+        <head xml:id="HuYgTa-e53889-Hd1e111" type="question-title">
+          An in caritate existens euidenter cognoscere
+          possit se in illa existere.
+        </head>
+        <p xml:id="HuYgTa-e53889-d1e114">
+          <!--180.xml-->
+          <cb ed="#G" n="b"/>
+          <lb ed="#G" n="70"/>Quaestio I
+          <lb ed="#G" n="71"/>An in caritate existens euidenter cognoscere 
+          <lb ed="#G" n="72"/>possit se in illa existere.
+        </p>
+        <p xml:id="HuYgTa-e53889-d1e127">
+          <lb ed="#G" n="73"/>VTRVM aliquis existens in caritate possit 
+          <lb ed="#G" n="74"/>
+          <pc type="indent"/>euidenter cognoscere se esse in caritate.
+        </p>
+        <p xml:id="HuYgTa-e53889-d1e136">
+          <lb ed="#G" n="75"/>Et videtur quod sic. Quia <ref xml:id="HuYgTa-e53889-Rd1e140">8. de tri. dici
+            <lb ed="#G" n="76"/>8. Aug.</ref> quod <quote xml:id="HuYgTa-e53889-Qd1e145" source="http://scta.info/resource/adt-l8-d1e1003" synch="9-24">qui diligit fratrem
+              magi<lb ed="#G" n="77" break="no"/>nouit dilectionem, qua diligit, quam fra 
+              <lb ed="#G" n="78"/>trem, quem diligit</quote>, &amp; loquitur de
+          dile<lb ed="#G" n="79" break="no"/>ctione caritatiua, sed fratre potest euidenter cognoscere, 
+          <lb ed="#G" n="80"/>ergo &amp; caritatem. Contra dicitur. Nemo scit, vtrum 
+          <lb ed="#G" n="81"/>pdio, vel amore dignus sit, sed omnia in futurum
+          reser<lb ed="#G" n="82" break="no"/>uantur incerta. Hic est aduertendum quod sicut ait <ref xml:id="HuYgTa-e53889-Rd1e161">phi¬ 
+            <lb ed="#G" n="83"/>losophus 2. posteriorum</ref>, quaestiones sunt aequales nume 
+          <lb ed="#G" n="84"/>ro his, quae vere scimus. Quaestiones autem sunt
+          quadru<lb ed="#G" n="85" break="no"/>plices, sicut ibidem patet, puta si est, an est, quid est, &amp; 
+          <lb ed="#G" n="86"/>ropter quid est. lllarum tamen quaestionum duabus ad 
+          <lb ed="#G" n="87"/>praesens dimissis, duas tantum de caritate tractabo. Primo  
+          <lb ed="#G" n="88"/>gitur videndum est, vtrum possimus cognoscere quid est 
+          <lb ed="#G" n="89"/>caritas. Secundo, vtrum possimus cognoscere, an in nobis 
+          <lb ed="#G" n="90"/>sit caritas. Tertio dato, quod in nobis sit cariras, vtrum 
+          <lb ed="#G" n="91"/>per huiusmodi caritatem possimus exire in actum
+          meri<lb ed="#G" n="92" break="no"/>torium aeternae beatitudinis sine speciali motione
+          spiri<lb ed="#G" n="93" break="no"/>tus sancti. Et quarto vtrum caritas, &amp; gratia sint duo
+          ha<lb ed="#G" n="94" break="no"/>bitus realiter differentes. 
+        </p>
+        <p xml:id="HuYgTa-e53889-d1e192">
+          <lb ed="#G" n="95"/>
+          <pc type="indent"/>RESOLVTIO. 
+          <lb ed="#G" n="96"/>caritatem esse habitum creatum a Deo nobis infulum tota fere 
+          <lb ed="#G" n="97"/>Theologorum schela prifitetur, hunic tamen in nobis esse absqus 
+          <lb ed="#G" n="98"/>peculiari Dei veuelatione dignostere nequaquam possumus,
+          si<lb ed="#G" n="99" break="no"/>cuti eum possidentes, in actum meritorium absque petuliari 
+          <lb ed="#G" n="100"/>spiritus sancti motione exire nequennt 
+        </p>
+        <p xml:id="HuYgTa-e53889-d1e210">
+          <lb ed="#G" n="101"/>
+          <pc type="indent"/>ARTICVLVS I. 
+          <lb ed="#G" n="102"/>Vtrum possimus cognoscere, quid est 
+          <lb ed="#G" n="103"/>caritas.
+        </p>
+        <p xml:id="HuYgTa-e53889-d1e221">
+          <lb ed="#G" n="104"/>VANTVM ad primum, vtrum possimus cognostere 
+          <lb ed="#G" n="105"/>e quid est caritas, est aduertendum, quod duplex est 
+          <lb ed="#G" n="106"/>notitia quantum ad quid est : Vna quantum ad quid
+          no<lb ed="#G" n="107" break="no"/>minis, &amp; illa est facilis: quia communis enti, &amp; non enti 
+          <lb ed="#G" n="108"/>&amp; enti possibili, &amp; prohibito, &amp; ideo quo ad id facilis est 
+          <lb ed="#G" n="109"/>responsio: quia caritas vt sic, est quedam virtus, qua
+          me<lb ed="#G" n="110" break="no"/>diante voluntas elicit perfectum actum meritoriae
+          dile<lb ed="#G" n="111" break="no"/>ctionis in via, &amp; praemiatoriae in patria. Alia est notitia 
+          <lb ed="#G" n="112"/>quantum ad quid rei, &amp; haec de caritate est multum
+          dif<lb ed="#G" n="113" break="no"/>ficilis, &amp; hoc probat summa disparitas opinionum
+          quan<lb ed="#G" n="114" break="no"/>tum ad istum articulum: quia quidam dicunt, quod sit vit 
+          <lb ed="#G" n="115"/>tus creata, quae est habitus formaliter inhaerens voluntati. 
+          <lb ed="#G" n="116"/>Alij dicunt, quod sit virtus increata, quae est ipse spiritus 
+          <lb ed="#G" n="117"/>sanctus mouens voluntatem ad actum dilectionis., 
+        </p>
+        <p xml:id="HuYgTa-e53889-d1e254">
+          <lb ed="#G" n="118"/>
+          <pc type="indent"/>Multitudini igitur doctorum me ad praesens
+          conforman<lb ed="#G" n="119" break="no"/>do teneo primam opionionem, quae probatur sic¬ 
+        </p>
+        <p xml:id="HuYgTa-e53889-d1e263">
+          <lb ed="#G" n="120"/>
+          <pc type="indent"/>1 Si caritas non esset habitus creatus formaliter in 
+          <lb ed="#G" n="121"/>haerens voluntati, actus meritoriae dilectionis non
+          es<lb ed="#G" n="122" break="no"/>et voluntarius: quia sicut motus rei naturalis non
+          exi<lb ed="#G" n="123" break="no"/>stens a principio intrinseco non potest dici naturalis, sed  
+          <lb ed="#G" n="124"/>violentus, sic motus voluntatis non procedens a principio 
+          <!--181.xml-->
+          <pb ed="#G" n="71-v"/>
+          <cb ed="#G" n="a"/>
+          <lb ed="#G" n="1"/>Intrinseco non poterit esse voluntarus 
+        </p>
+        <p xml:id="HuYgTa-e53889-d1e287">
+          <lb ed="#G" n="2"/>
+          <pc type="indent"/>2 Praeterea, illud quod mouetur tantummodo a prin 
+          <lb ed="#G" n="3"/>cipio extrinseco, mouetur ad modum instrumenti, &amp; per 
+          <lb ed="#G" n="4"/>consequens non mouetur libere, quia non est in potesta 
+          <lb ed="#G" n="5"/>te instrumenti agere vel non agere: sed de necessitati 
+          <lb ed="#G" n="6"/>agit iuxta impetum impellentis: sed si caritas non esse 
+          <lb ed="#G" n="7"/>habitus inhaerens voluntati, tunc in actibus dilectionis 
+          <lb ed="#G" n="8"/>meritoriae uoluntas moueretur a principio extrinseco 
+          <lb ed="#G" n="9"/>non conferente aliquam vim inhaerentem ipsi
+          volunta<lb ed="#G" n="10" break="no"/>ti, ergo actus voluntatis non possent esse meritorij quia 
+          <lb ed="#G" n="11"/>non essent liberi. 
+        </p>
+        <p xml:id="HuYgTa-e53889-d1e314">
+          <lb ed="#G" n="12"/>
+          <pc type="indent"/>3 Praeterea, sicut non potest aliquid non album fieri 
+          <lb ed="#G" n="13"/>album formaliter, nisi per albedinem sibi formaliter
+          in<lb ed="#G" n="14" break="no"/>haerentem, sic non potest aliquis Deo non carus fieri Dec 
+          <lb ed="#G" n="15"/>carus formaliter, nisi per caritatem sibi formaliter
+          inhae<lb ed="#G" n="16" break="no"/>rentem: sed peccator conuersus de non caro fit carus 
+        </p>
+        <p xml:id="HuYgTa-e53889-d1e330">
+          <lb ed="#G" n="17"/>
+          <pc type="indent"/>4 Praeterea, impossibile est de opposito transitum
+          fie<lb ed="#G" n="18" break="no"/>ri in oppositum, nisi mediante aliqua mutatione: sed in 
+          <lb ed="#G" n="19"/>puncto conuersionis peccator transit de eo, quod est non 
+          <lb ed="#G" n="20"/>carum esse Deo, ad esse carum: aut ergo mutatio fiere 
+          <lb ed="#G" n="21"/>ex parte Dei, aut ex parte peccatoris conuersi. Non
+          pri<lb ed="#G" n="22" break="no"/>mum, cum Deus sit immutabilis, ergo erit aliquid
+          intrin<lb ed="#G" n="23" break="no"/>sece inhaerens formaliter ipsi conuerso, ratione cuius 
+          <lb ed="#G" n="24"/>nunc dicitur esse carus, quod nos appellamus habitum ca 
+          <lb ed="#G" n="25"/>ritatis: quia si sosus actus esset, tunc talis dormiens non 
+          <lb ed="#G" n="26"/>esset Deo carus, cum pro tunc actum caritatis non eliciat,  
+        </p>
+        <p xml:id="HuYgTa-e53889-d1e356">
+          <lb ed="#G" n="27"/>
+          <pc type="indent"/>3 Praeterea, signum est acquisiti habitus habere dele 
+          <lb ed="#G" n="28"/>ctationem in opere, vt patet <ref xml:id="HuYgTa-e53889-Rd1e364">2 ethicorum</ref>: sed in actibus 
+          <lb ed="#G" n="29"/>diuinae dilectionis est maxima delectatio, ergo in
+          nobi<lb ed="#G" n="30" break="no"/>erit habitus caritatis, ratione cuius in huiusmodi
+          ope<lb ed="#G" n="31" break="no"/>ribus delectemur
+        </p>
+        <p xml:id="HuYgTa-e53889-d1e375">
+          <lb ed="#G" n="32"/>Sed oppositum illius conclusionis tenet magister set 
+          <lb ed="#G" n="33"/>tentiarum dicens hic in littera, quod caritas est ipse spir 
+          <lb ed="#G" n="34"/>tus sanctus assistens bonae voluntati ad eliciendum actu 
+          <lb ed="#G" n="35"/>dilectionis, siue caritatis, quod ipse, &amp; alij sui sequaces
+          pro<lb ed="#G" n="36" break="no"/>bant multipliciter Primo sic¬ 
+        </p>
+        <p xml:id="HuYgTa-e53889-d1e388">
+          <lb ed="#G" n="37"/>
+          <pc type="indent"/>1 Quia non minus Deus immediate operatur in
+          no<lb ed="#G" n="38" break="no"/>bis, quo ad ea, quae sunt gratiae, quam quo ad ea, quae suni 
+          <lb ed="#G" n="39"/>naturae: sed Deus non vtitur aliquo medio in opere 
+          <lb ed="#G" n="40"/>creationis, quando naturam instituit, ergo nec in opere 
+          <lb ed="#G" n="41"/>recreationis, &amp; gratiae vtetur aliquo medio.
+        </p>
+        <p xml:id="HuYgTa-e53889-d1e404">
+          <lb ed="#G" n="42"/>2 Praeterea, si ad actum meritoriae dilectionis non mo 
+          <lb ed="#G" n="43"/>ueretur immediate humana voluntas a spiritu sancto, tums 
+          <lb ed="#G" n="44"/>tali actui de condigno, seu de iustitia non daretur vita
+          ae<lb ed="#G" n="45" break="no"/>terna: consequens est falsum, iuxta illud, De reliquo repo 
+          <lb ed="#G" n="46"/>sita est mihi corona iustitiae, quam reddet mihi in illum 
+          <lb ed="#G" n="47"/>diem iustus iudex; probatur consequentia: quia cum
+          vo<lb ed="#G" n="48" break="no"/>luntas nostra sit finita, &amp; actus suus finitus, ergo si
+          habi<lb ed="#G" n="49" break="no"/>tus, seuuirtus, qua mediante actum meritorium elicit 
+          <lb ed="#G" n="50"/>etiam esset finita, tunc in nullo meritum nostrum
+          adae<lb ed="#G" n="51" break="no"/>quat de condigno ipsam vitam eternam, siue donum glo 
+          <lb ed="#G" n="52"/>riae, ergo oportet, quod talis actus immediate sit a 
+          <lb ed="#G" n="53"/>spiritu sancto.
+        </p>
+        <p xml:id="HuYgTa-e53889-d1e434">
+          <lb ed="#G" n="54"/>3 Praeterea, sicut Deus in creatione produxit aliqua 
+          <lb ed="#G" n="55"/>per seipsum immediate propter eorum excellentiam, pu 
+          <lb ed="#G" n="56"/>ta angelos, seu substantias separatas; aliqua vero median 
+          <lb ed="#G" n="57"/>te vi productiua naturae communicata: sic congruum esse  
+          <lb ed="#G" n="58"/>videtur, vt in gratuitis operibus nostrae creationis ad ea, 
+          <lb ed="#G" n="59"/>quae sunt excellentissima, nos moueat immediate, haec au 
+          <lb ed="#G" n="60"/>tem sunt actus dilectionis, &amp; caritatis. 
+        </p>
+        <p xml:id="HuYgTa-e53889-d1e452">
+          <lb ed="#G" n="61"/>
+          <pc type="indent"/>4 Praeterea, frustra fit per plura, quod aeque bene fieri 
+          <lb ed="#G" n="62"/>potest per pauciora: sed posito habitu creato ipsius
+          cari<lb ed="#G" n="63" break="no"/>tatis, adhuc, vt communiter dicitur, non possumus
+          me<lb ed="#G" n="64" break="no"/>reri sine speciali motione spiritus sancti,. cum igitur non 
+          <lb ed="#G" n="65"/>magis possit spiritus sanctus nos mouere, stante tali ha 
+          <lb ed="#G" n="66"/>bitu, quam ipso non existente: quia eius virtus a nullo 
+          <lb ed="#G" n="67"/>creato dependet, &amp; Deus &amp; natura nihil faciant frustra, 
+          <lb ed="#G" n="68"/>ergo &amp;c. 
+        </p>
+        <p xml:id="HuYgTa-e53889-d1e474">
+          <lb ed="#G" n="69"/>3 Praeterea, actum prophetiae ratione suae excellentia 
+          <lb ed="#G" n="70"/>rmmediate sine aliquo habitu medio elicit spiritus
+          san<lb ed="#G" n="71" break="no"/>ctus in mente ipsius prophetae: sed actus diuinae
+          dilectio<lb ed="#G" n="72" break="no"/>nis est excellentior, quam actus prophetiae. illa minor po 
+          <lb ed="#G" n="73"/>tet: quia Apostolus praefert actum caritatis, &amp; ipsam car 
+          <!--181.xml-->
+          <cb ed="#G" n="b"/>
+          <lb ed="#G" n="74"/>tatem ipsi prophetiae. Maior etiam patet: quia nullus ha 
+          <lb ed="#G" n="75"/>bitus creatus potest intellectum prophetae ducere in no 
+          <lb ed="#G" n="76"/>titiam futurorum
+        </p>
+        <p xml:id="HuYgTa-e53889-d1e498">
+          <lb ed="#G" n="77"/>3 Praeterea, si caritas, per cuius coniunctionem ad nos 
+          <lb ed="#G" n="78"/>dicimur Deo cari, esset aliquis habitus creatus, tuac
+          ali<lb ed="#G" n="79" break="no"/>quod accidens existens in anima sancta esset carius Deo 
+          <lb ed="#G" n="80"/>quam ipsa anima: sed consequens est falsum secundum 
+          <lb ed="#G" n="81"/>omnes doctores: consequentia probatur: quia propter quod 
+          <lb ed="#G" n="82"/>vnumquodque tale, &amp; illud magis, vt patet 1. posteriorum 
+        </p>
+        <p xml:id="HuYgTa-e53889-d1e514">
+          <lb ed="#G" n="83"/>
+          <pc type="indent"/>3 Preterea, nihil est bonum per essentiam, nisi solus 
+          <lb ed="#G" n="84"/>Deus: sed caritas est bona per essentiam: Maior patet 
+          <lb ed="#G" n="85"/>quia omne, quod est citra Deum, sicut est ens per partici 
+          <lb ed="#G" n="86"/>pationem, sic est etiam bonum per participationem:
+          Mi<lb ed="#G" n="87" break="no"/>nor probatur, quia illud est bonum per essentiam, quod 
+          <lb ed="#G" n="88"/>non potest intelligi non bonum, sed quamuis omnis alia 
+          <lb ed="#G" n="89"/>virtus possit intelligi non bona, cum possit esse informis: 
+          <lb ed="#G" n="90"/>sola tamen caritas non potest intelligi non bona, cum
+          im<lb ed="#G" n="91" break="no"/>possibile sit cam esse informem. 
+        </p>
+        <p xml:id="HuYgTa-e53889-d1e538">
+          <lb ed="#G" n="92"/>
+          <pc type="indent"/>S Praeterea. <ref xml:id="HuYgTa-e53889-Rd1e544">8. de trini ait August</ref>. Deum diligit, qui 
+          <lb ed="#G" n="93"/>dilectionem diligit, quia Deus est dilectio, sed illud non 
+          <lb ed="#G" n="94"/>sequeretur, nisi omnis gratuita dilectio esset Deus, sicut 
+          <lb ed="#G" n="95"/>non sequitur, hoc est sensitiuum, ergo est animal, nisi om 
+          <lb ed="#G" n="96"/>ne sensitiuum sit animal. Multas etiam alias auctoritates 
+          <lb ed="#G" n="97"/>adducit magister tam de sacro canone, quam de dictis 
+          <lb ed="#G" n="98"/>sanctorum, quas ad praesens dimitto, quia vna
+          responsio<lb ed="#G" n="99" break="no"/>ne pariter ad omnes respondetur. 
+        </p>
+        <p xml:id="HuYgTa-e53889-d1e564">
+          <lb ed="#G" n="100"/>
+          <pc type="indent"/>Sed quamuis illam opinionem non teneam, ob
+          reue<lb ed="#G" n="101" break="no"/>rentiam multorum doctorum oppositam partem tenet 
+          <lb ed="#G" n="102"/>tium, fateor tamen, quod praedicta opinio non est adeo 
+          <lb ed="#G" n="103"/>periculosa, sicut multi eam videntur aestimare, tria incos 
+          <lb ed="#G" n="104"/>uenientia magistro minus iuste imponentes 
+        </p>
+        <p xml:id="HuYgTa-e53889-d1e580">
+          <lb ed="#G" n="105"/>
+          <pc type="indent"/>Primo videlicet, quod actus dilectionis a voluntate 
+          <lb ed="#G" n="106"/>elicitus sit spiritus sanctus, cum talis actus caritas, siue d 
+          <lb ed="#G" n="107"/>lectio dicatur 
+        </p>
+        <p xml:id="HuYgTa-e53889-d1e591">
+          <lb ed="#G" n="108"/>
+          <pc type="indent"/>Secundo, quod ex puris naturalibus mereri possemus 
+          <lb ed="#G" n="109"/>si sinc habitu caritatis infuso eliceremus actum
+          merito<lb ed="#G" n="110" break="no"/>riae dilectionis, quod fuit error Pelagii¬ 
+        </p>
+        <p xml:id="HuYgTa-e53889-d1e602">
+          <lb ed="#G" n="111"/>
+          <pc type="indent"/>Tertio, quod spiritus sanctus assumeret animam
+          ratio<lb ed="#G" n="112" break="no"/>nalem i vnitatem suppositi, si ipse esset immediatum prin 
+          <lb ed="#G" n="113"/>cipium actus nostrae voluntatis, quod dicitur fuisse erroi 
+          <lb ed="#G" n="114"/>Manichaeorum
+        </p>
+        <p xml:id="HuYgTa-e53889-d1e615">
+          <lb ed="#G" n="115"/>Primum non est contra magistrum: quia vt patet in 
+          <lb ed="#G" n="116"/>
+          <ref xml:id="HuYgTa-e53889-Rd1e621">textu istius 17. distinctionis</ref>, ipse expresse ponit
+          dilectio<lb ed="#G" n="117" break="no"/>nem, inquantum sumitur pro actu nostrae voluntatis, essi 
+          <lb ed="#G" n="118"/>quid creatum, quamuis ad eliciendum huiusmodi actum 
+          <lb ed="#G" n="119"/>non requiratur secundum cum habitus creatus, qui
+          cari<lb ed="#G" n="120" break="no"/>tas nominetur in ipsa voluntate; ad hoc enim secundum 
+          <lb ed="#G" n="121"/>magistrum sufficit immediate ipse spiritus sanctus, qui
+          si<lb ed="#G" n="122" break="no"/>ne aliquo caritatis habitu ipsam voluntatem ad
+          elicien<lb ed="#G" n="123" break="no"/>dum huiusmodi actum perfectissime poterit inclinare. 
+          <lb ed="#G" n="124"/>Nec secundum est contra magistrum propter duo. Pr 
+          <lb ed="#G" n="125"/>mo quia magister non posuit, quod ex nostris puris na 
+          <lb ed="#G" n="126"/>turalibus possemus elicere huiusmodi actum, sed virtute 
+          <lb ed="#G" n="127"/>spiritus sancti: hoc autem non posuit Pelagius. Secundo: 
+          <lb ed="#G" n="128"/>quia quamuis magister non posuit habitum caritatis crea 
+          <lb ed="#G" n="129"/>tum, posuit tamen habitum gratiae a Deo creatum, &amp; ani 
+          <lb ed="#G" n="130"/>niae infusum, dantem ipsi animae esse spirituale, &amp; ipsam 
+          <lb ed="#G" n="131"/>eleuantem super omnia sua naturalia Propter quod ap 
+          <lb ed="#G" n="132"/>paret, quod non valeat illud commune argumentum, quid 
+          <lb ed="#G" n="133"/>fit contra magistrum, quod anima existens in puris natu 
+          <lb ed="#G" n="134"/>ralibus non potest contingere obiectum simpliciter
+          su<lb ed="#G" n="135" break="no"/>pernaturale; Nec potest aliquem actum supernaturalem 
+          <lb ed="#G" n="136"/>elicere circa liuiusmodi obiectum, sed si non haberet in 
+          <lb ed="#G" n="137"/>se habitum caritatis creatae, tunc esset in puris
+          naturali<lb ed="#G" n="138" break="no"/>bus. Hic magister diceret, quod ista minor est falsa: quia 
+          <lb ed="#G" n="139"/>anima talis non est in puris naturalibus: quia per habitum 
+          <lb ed="#G" n="140"/>gratiae constituitur in esse supernaturali, inxta illud apo. 
+          <lb ed="#G" n="141"/>stoli. Ciratia Dei sum id, quod sum 
+        </p>
+        <p xml:id="HuYgTa-e53889-d1e679">
+          <lb ed="#G" n="142"/>
+          <pc type="indent"/>Nec tertium est contra magistrum: quia ad positionem 
+          <lb ed="#G" n="143"/>magistri non sequitur, quod spiritus sanctus assumat talem 
+          <lb ed="#G" n="144"/>animam in vnitatem suppositi, sed solum, quod iungatur 
+          <lb ed="#G" n="145"/>huiusmodi animae, sicut motor supereminens iungitur ip 
+          <lb ed="#G" n="146"/>si mobili. Quamuis igitur his bene intellectis rationes 
+          <!--182.xml-->
+          <pb ed="#G" n="72-r"/>
+          <cb ed="#G" n="a"/>
+          <lb ed="#G" n="1"/>quaecumque fiunt contra magistrum, solubiles apparcant,  
+          <lb ed="#G" n="2"/>&amp; eius, vt mihi videtur, posito sine periculo posset substi 
+          <lb ed="#G" n="3"/>neri, tamen, vt me conformem positonibus modernorum, 
+          <lb ed="#G" n="4"/>ad rationes inductas pro magistro breuiter respondebo, 
+          <lb ed="#G" n="5"/>quamuis rationes alterius partis aeque reputem
+          solubi<lb ed="#G" n="6" break="no"/>les, ficut istas, quae inductae sunt pro magistro. 
+        </p>
+        <p xml:id="HuYgTa-e53889-d1e715">
+          <lb ed="#G" n="7"/>
+          <pc type="indent"/>Ad primum ergo dicendum, quod Deus, &amp; in
+          natu<lb ed="#G" n="8" break="no"/>ralibus, &amp; sprritualibus immediate est causa in genere 
+          <lb ed="#G" n="9"/>causae efficientis, non tamen in genere causae forma 
+          <lb ed="#G" n="10"/>lis: Non enim potest dare esse humanum sine forma
+          hu<lb ed="#G" n="11" break="no"/>mana, &amp; ideo dicetur consimiliter, quod Deus non
+          po<lb ed="#G" n="12" break="no"/>test dare esse carum sine forma caritatis dantis tale es 
+          <lb ed="#G" n="13"/>se, sicut nec daret esse album, quod est effectus formalis 
+          <lb ed="#G" n="14"/>albedinis sinc albedine. 
+        </p>
+        <p xml:id="HuYgTa-e53889-d1e737">
+          <lb ed="#G" n="15"/>
+          <pc type="indent"/>Ad secundum dicendum, quod nihil est sic proprium 
+          <lb ed="#G" n="16"/>amicorum, sicut conuiuere, vt dicitur <ref xml:id="HuYgTa-e53889-Rd1e745">S ethicorum</ref>: ideo 
+          <lb ed="#G" n="17"/>lex iustitiae ipsius amicitiae hoc requirit, vt Deus amicis 
+          <lb ed="#G" n="18"/>suis firma caritate ipsum diligentibus suum impartiatur 
+          <lb ed="#G" n="19"/>iucundum conuictum, qui est vita aeterna, quam
+          aposto<lb ed="#G" n="20" break="no"/>lus appellat coronam iustitiae vel potest dici, quod
+          qui<lb ed="#G" n="21" break="no"/>talis habitus creatus est donum spiritus sancti, ac etiam  
+          <lb ed="#G" n="22"/>quia sprritus sancti motio specialis requiritur ad actum  
+          <lb ed="#G" n="23"/>meritorium, vt patebit in tertio principali, idco virtute 
+          <lb ed="#G" n="24"/>spiritus sancti acquiremus de condigno illam coronam 
+          <lb ed="#G" n="25"/>iustitiae gloriae sempiternae 
+        </p>
+        <p xml:id="HuYgTa-e53889-d1e769">
+          <lb ed="#G" n="26"/>
+          <pc type="indent"/>Ad tertium dicendum sicut ad primum. 
+          <lb ed="#G" n="27"/>Ad quartum dicendum, quod illud non potest aeque 
+          <lb ed="#G" n="28"/>bene fieri sine caritate. Ad probationem dico, quod
+          quam<lb ed="#G" n="29" break="no"/>uis spiritus sanctus possit quemlibet effectum producere 
+          <lb ed="#G" n="30"/>in esse sine agente secundo, non tamen potest dare quod 
+          <lb ed="#G" n="31"/>libet esse formale sine forma, &amp; ideo diceretur, quod non 
+          <lb ed="#G" n="32"/>posset dare esse carum sine caritate. 
+        </p>
+        <p xml:id="HuYgTa-e53889-d1e789">
+          <lb ed="#G" n="33"/>
+          <pc type="indent"/>Ad quintum dicendum, quod maior non est vera: quia 
+          <lb ed="#G" n="34"/>donum prophetiae secundum doctores, est quidam
+          habi<lb ed="#G" n="35" break="no"/>tualis influxus factus a spiritu sancto, ratione cuius, etiam 
+          <lb ed="#G" n="36"/>cessante actu prophetiae, adhuc talis homo vere, &amp; forma 
+          <lb ed="#G" n="37"/>liter est propheta. Ad probationem dico, quod
+          prophe<lb ed="#G" n="38" break="no"/>tia notitiam futurorum habet dispositiue per huiusmod 
+          <lb ed="#G" n="39"/>habitum, sed effectiue per spiritum sanctum influentem 
+          <lb ed="#G" n="40"/>sibi huiusmodi habitum. 
+        </p>
+        <p xml:id="HuYgTa-e53889-d1e811">
+          <lb ed="#G" n="41"/>
+          <pc type="indent"/>Ad sextum dicendum, quod illa regula, qua dicitur 
+          <lb ed="#G" n="42"/>Propter quod vnumquodque tale &amp; illud magis, non te 
+          <lb ed="#G" n="43"/>net in causis formalibus quantum ad denominationes,  
+          <lb ed="#G" n="44"/>quae fiunt in effectibus formalibus: Non enim sequitur  
+          <lb ed="#G" n="45"/>lignum est albsi propter albedinem, ergo albedo est ma 
+          <lb ed="#G" n="46"/>gis alba. Sic proprie loquendo caritas non est cara: sed ess 
+          <lb ed="#G" n="47"/>illud, quo anima formaliter est cara, sicut simitas non est 
+          <lb ed="#G" n="48"/>sima: sed est illud, quo nasus formaliter est simus 
+        </p>
+        <p xml:id="HuYgTa-e53889-d1e833">
+          <lb ed="#G" n="49"/>
+          <pc type="indent"/>Ad septimum dicendum, quod minor non est vera, si 
+          <lb ed="#G" n="50"/>vniformiter sumitur sub maiori. Ad probationem dico 
+          <lb ed="#G" n="51"/>quod non sufficit, quod non possit intelligi non bonum 
+          <lb ed="#G" n="52"/>ad hoc, quod tale sit per essentiam, sicut est ipse Deus : sed 
+          <lb ed="#G" n="53"/>oportet, quod sit purum bonum in se comprehendens 
+          <lb ed="#G" n="54"/>omne bonum. 
+        </p>
+        <p xml:id="HuYgTa-e53889-d1e852">
+          <lb ed="#G" n="55"/>
+          <pc type="indent"/>Ad octauum dicendum, quod Deus causaliter, &amp; exem  
+          <lb ed="#G" n="56"/>plariter est omnis dilectio gratuita: quia est eius ppriissi 
+          <lb ed="#G" n="57"/>ma causa. Cum igitur quicumque ordinata dilectione di 
+          <lb ed="#G" n="58"/>ligit aliquem effectum, quasi necessario habet diligere 
+          <lb ed="#G" n="59"/>propriam eius causam: ideo quicunque diligit dilectionem, 
+          <lb ed="#G" n="60"/>Deum diligit, quia Deus est omnis dilectio, vel
+          formali<lb ed="#G" n="61" break="no"/>ter, si est increata, vel causaliter, si est ab ipso influxa
+          ani<lb ed="#G" n="62" break="no"/>mae amorosae. 
+        </p>
+        <p xml:id="HuYgTa-e53889-d1e874">
+          <lb ed="#G" n="63"/>
+          <pc type="indent"/>ARTICVLVS II 
+          <lb ed="#G" n="64"/>Vtrum possimus cognoscere an in
+          no<lb ed="#G" n="65" break="no"/>bis sit caritas.
+        </p>
+        <p xml:id="HuYgTa-e53889-d1e885">
+          <lb ed="#G" n="66"/>QVANTVM ad secundum principale, vtrum
+          possi<lb ed="#G" n="67" break="no"/>mus cognoscere, an in nobis sit caritas,
+          dicen<lb ed="#G" n="68" break="no"/>dum, quod quantum ex nobis est, puta sine Dei speciali re 
+          <!--182.xml-->
+          <cb ed="#G" n="b"/>
+          <lb ed="#G" n="69"/>elatione, impossibile est nos scire certitudinaliter nos 
+          <lb ed="#G" n="70"/>habere caritatem infusam, seu meritoriam dilectionem 
+          <lb ed="#G" n="71"/>1 Quia in notitiam talis habitus non possumus deue 
+          <lb ed="#G" n="72"/>nire, nisi ex actibus dilectionis; vel igitur notitiam de
+          ta<lb ed="#G" n="73" break="no"/>li habitu haberemus ex substantia actus, vel ex modo 
+          <lb ed="#G" n="74"/>actus. Non primo modo, quia etiam nuda potentia sine 
+          <lb ed="#G" n="75"/>omni habitu potest in substantiam actus : per nudam enim 
+          <lb ed="#G" n="76"/>voluntatem sine omni habitu infuso, vel acquisito possu 
+          <lb ed="#G" n="77"/>mus naturaliter diligere Deum. Nec secundo modo, quia 
+          <lb ed="#G" n="78"/>ille modus vel conuenit actui ratione habitus, puta quia 
+          <lb ed="#G" n="79"/>ex habitu inclinante ille actus dicitur facilis &amp; delectabi 
+          <lb ed="#G" n="80"/>lis, vel ille modus conuenit actui ratione ipsius Dei,
+          pu<lb ed="#G" n="81" break="no"/>ta quia ex acceptatione diuina ille actus dicitur gratus 
+          <lb ed="#G" n="82"/>Deo, &amp; acceptus, &amp; per consequens meritorius Primum 
+          <lb ed="#G" n="83"/>modum quamuis in actu certitudinaliter possimus perci 
+          <lb ed="#G" n="84"/>pere, non tamen possumus scire, vtrum illa facilitatio, seu 
+          <lb ed="#G" n="85"/>delectatio proueniat ex habitu infuso, vel acquifiro, quia 
+          <lb ed="#G" n="86"/>habitus diuinae dilectionis naturaliter acquisitus ex
+          fre<lb ed="#G" n="87" break="no"/>quentatis actibus faceret actus tales delectabiles etiam 
+          <lb ed="#G" n="88"/>in pagano, vel iudaeo, signum enim est acquisiti habitus. 
+          <lb ed="#G" n="89"/>delectationem habere in opere <ref xml:id="HuYgTa-e53889-Rd1e943">2 ethicorum</ref>. Sed
+          secun<lb ed="#G" n="90" break="no"/>dum modum non possumus ex nobis ipsis aliquo modo 
+          <lb ed="#G" n="91"/>scire, nisi Deo reuelante, propter quod dixit Aposto¬¬ 
+          <lb ed="#G" n="92"/>lus, Nihil mihi conscius sum, sed non in hoc
+          iustifi<lb ed="#G" n="93" break="no"/>catus sum 
+        </p>
+        <p xml:id="HuYgTa-e53889-d1e956">
+          <lb ed="#G" n="94"/>
+          <pc type="indent"/>bed forte diceret aliquis, quod secundum philosophum 
+          <lb ed="#G" n="95"/>questio quid est praesupponit questionem an est. cum er- I 
+          <lb ed="#G" n="96"/>go sic se habeat scire ad scire, sicut quaestio ad quaestionem per 
+          <lb ed="#G" n="97"/>nos autem possumus scire quid est caritas, cum sit quidam 
+          <lb ed="#G" n="98"/>habitus creatus, vt patuit in precedenti articulo, ergo 
+          <lb ed="#G" n="99"/>etiam poterimus scire an sit in nobis 
+        </p>
+        <p xml:id="HuYgTa-e53889-d1e974">
+          <lb ed="#G" n="100"/>
+          <pc type="indent"/>2 Praeterea, <ref xml:id="HuYgTa-e53889-Rd1e980">2. posteriorum</ref> dicitur, quod impossibile est 
+          <lb ed="#G" n="101"/>nos habere nobilissimos habitus, &amp; latere nos 
+        </p>
+        <p xml:id="HuYgTa-e53889-d1e986">
+          <lb ed="#G" n="102"/>
+          <pc type="indent"/>Praeterea, <ref xml:id="HuYgTa-e53889-Rd1e992">8. de trini dicit beatus August</ref>. <quote xml:id="HuYgTa-e53889-Qd1e995" source="http://scta.info/resource/adt-l8-d1e965" synch="55-65">Sciri
+            ali<lb ed="#G" n="103" break="no"/>quid, &amp; non diligi potest, diligi autem quod nescitur</quote>
+          ne<lb ed="#G" n="104" break="no"/>quaquam, sed caritas diligitur ab habete caritatem, qui 
+          <lb ed="#G" n="105"/>sicut perfectum scire, est scire se scire; sic perfectum
+          dili<lb ed="#G" n="106" break="no"/>gere, siue perfecta dilectio est diligere se diligere, caritas 
+          <lb ed="#G" n="107"/>autem est perfecta dilectio.
+        </p>
+        <p xml:id="HuYgTa-e53889-d1e1011">
+          <lb ed="#G" n="108"/>Ad primum dicendum, quod setre quid est, loquendo de 
+          <lb ed="#G" n="109"/>quid rei, praesupponit scire an est, &amp; hoc vel in se, vel in 
+          <lb ed="#G" n="110"/>sua causa. Non tamen scire quid est semper praesupponit 
+          <lb ed="#G" n="111"/>rem esse in propria existentia; possum enim scire quid est 
+          <lb ed="#G" n="112"/>rosa, nulla tamen rosa actu existente. Etiam committitur 
+          <lb ed="#G" n="113"/>fallacia figurae dictionis; quia cum deberet inferri, quod 
+          <lb ed="#G" n="114"/>sciremus caritatem esse, infert, quod sciamus eam in
+          no<lb ed="#G" n="115" break="no"/>bis esse; et similiter est ibi fallacia consequentis, puta ea 
+          <lb ed="#G" n="116"/>ritas est, ergo est in me, vel in nobis. 
+        </p>
+        <p xml:id="HuYgTa-e53889-d1e1033">
+          <lb ed="#G" n="117"/>
+          <pc type="indent"/>Ad secundum dicendum, quod philosophus loquitur 
+          <lb ed="#G" n="118"/>ibi de habitibus cognitiuis; illi enii non possunt nos
+          la<lb ed="#G" n="119" break="no"/>tere, &amp; ideo secudum <ref xml:id="HuYgTa-e53889-Rd1e1043">Aug. 15. de tri</ref> fide videt
+          vnusquis<lb ed="#G" n="120" break="no"/>ue in semetipso, quauis non possimus cognoscere, vtrum 
+          <lb ed="#G" n="121"/>huiusmodi fides sit in nobis informis, aut formata: quia 
+          <lb ed="#G" n="122"/>in hoc fides dependet a caritate, 
+        </p>
+        <p xml:id="HuYgTa-e53889-d1e1054">
+          <lb ed="#G" n="123"/>
+          <pc type="indent"/>Ad tertium dicendum, quod ad hoc, quod caritas
+          dili<lb ed="#G" n="124" break="no"/>gatur, sufficit, quod quidditatiue cognoscatur, Dato etiam, 
+          <lb ed="#G" n="125"/>quod quis diligat se diligere, nescit tamen vtrum talis di 
+          <lb ed="#G" n="126"/>lectio sit supernaturalis. 
+        </p>
+        <p xml:id="HuYgTa-e53889-d1e1067">
+          <lb ed="#G" n="127"/>
+          <pc type="indent"/>ARTICVLVS III 
+          <lb ed="#G" n="128"/>Vtrum per huiusmod i ( dato quodm nobis sit
+          cari<lb ed="#G" n="129" break="no"/>tas) caritatem possimus exire in actum meri 
+          <lb ed="#G" n="130"/>torium eternae beatitudinis sine speciali 
+          <lb ed="#G" n="131"/>
+          <pc type="indent"/>motione spiritus sancti.
+        </p>
+        <p xml:id="HuYgTa-e53889-d1e1085">
+          <lb ed="#G" n="132"/>QVANTVM ad tertium principale; posito, quod in 
+          <lb ed="#G" n="133"/>cmnobis sit caritas, vtrum per huiusmodi caritatem 
+          <!--183.xml-->
+          <pb ed="#G" n="72-v"/>
+          <cb ed="#G" n="a"/>
+          <lb ed="#G" n="1"/>possimus exite in actum meritorium aeternae
+          beatitudi<lb ed="#G" n="2" break="no"/>nis sine speciali motione spiritus sancti. Primo ponam con 
+          <lb ed="#G" n="3"/>clusionem, quam tenere propono. Secundo adducam
+          di<lb ed="#G" n="4" break="no"/>stinctionem cuiusdam doctoris in materia proposita,
+          cu<lb ed="#G" n="5" break="no"/>ius distinctionis unum membrum, quod ipse
+          multicipli<lb ed="#G" n="6" break="no"/>titer confirmat, est contra me. Tertio respondebo ac 
+          <lb ed="#G" n="7"/>sua motiua 
+        </p>
+        <p xml:id="HuYgTa-e53889-d1e1114">
+          <lb ed="#G" n="8"/>
+          <pc type="indent"/>Quantum ad primum dico, quod habens caritatem non
+          po<lb ed="#G" n="9" break="no"/>test exire in actum meritorium sine speciali notione
+          spi<lb ed="#G" n="10" break="no"/>ritus sancti 
+        </p>
+        <p xml:id="HuYgTa-e53889-d1e1126">
+          <lb ed="#G" n="11"/>
+          <pc type="indent"/>1 Quia quanto finis alicuius agentis est altior, &amp;
+          ma<lb ed="#G" n="12" break="no"/>gis suam naturam excedens, tanto huiusmodi agens
+          su<lb ed="#G" n="13" break="no"/>blimiori, ac specialiori indiget mouente, siue dirigente; 
+          <lb ed="#G" n="14"/>sed finis deifice diligentis, siue caritatem habentis est
+          su<lb ed="#G" n="15" break="no"/>blimissimus, &amp; totam suam naturam excedit, ergo non 
+          <lb ed="#G" n="16"/>obstante, quod habeat caritatem, &amp; gratiam, indiget mo 
+          <lb ed="#G" n="17"/>tione, &amp; directione singulari ipsius spiritus sancti. 
+        </p>
+        <p xml:id="HuYgTa-e53889-d1e1146">
+          <lb ed="#G" n="18"/>
+          <pc type="indent"/>2 Praeterea, illud idem arguit doctor noster exemplo 
+          <lb ed="#G" n="19"/>satis familiari dicens. Sicut puer habens pennam in
+          ma<lb ed="#G" n="20" break="no"/>nu in actu scribendi se habet ad magistrum ducentem
+          ma<lb ed="#G" n="21" break="no"/>num suam, sic se videtur habere habens caritatem in opere 
+          <lb ed="#G" n="22"/>meritorio ad ipsum spiritum sanctum: sed puer talis
+          quam<lb ed="#G" n="23" break="no"/>uis pennam habeat in manu, non tamen ordinate
+          scribe<lb ed="#G" n="24" break="no"/>ret, nisi magister manum suam duceret, ergo &amp;c 
+        </p>
+        <p xml:id="HuYgTa-e53889-d1e1166">
+          <lb ed="#G" n="25"/>
+          <pc type="indent"/>Praeterea, plus requiritur ad exercendum opera me 
+          <lb ed="#G" n="26"/>ritoria, quam ad prosequendum opera naturalia, sed
+          ha<lb ed="#G" n="27" break="no"/>bens caritatem non potest exercere opera naturalia, nisi 
+          <lb ed="#G" n="28"/>sibi suffragetur vniuersalis influentia, ergo quantum ac 
+          <lb ed="#G" n="29"/>opera meritoria indiget spiritus sancti assistentia, &amp;
+          influ<lb ed="#G" n="30" break="no"/>entia speciali, ergo &amp;c 
+        </p>
+        <p xml:id="HuYgTa-e53889-d1e1184">
+          <lb ed="#G" n="31"/>
+          <pc type="indent"/>Praeterea, dicitur, Qui spiritu Dei aguntur, hi filij 
+          <lb ed="#G" n="32"/>Dei sunt. Et lsaias ait, Omnia opera nostra operatus es 
+          <lb ed="#G" n="33"/>domine Sed qui ab aliquo agitur, ab eodem mouetur. 
+          <lb ed="#G" n="34"/>Sed est quidam doctor, vt praemisi, qui circa hanc mate 
+          <lb ed="#G" n="35"/>teriam distinguit dicens, quod vel intelligitur quod illa  
+          <lb ed="#G" n="36"/>influentia specialis sic sit necessaria, quod sine ea
+          haben<lb ed="#G" n="37" break="no"/>caritatem nullo modo possit meritorie operari; vel quoc 
+          <lb ed="#G" n="38"/>sine ea non possit firmiter, &amp; perseueranter operari. Pri 
+          <lb ed="#G" n="39"/>mo modo negat praedictam conclusionem, secundo
+          mo<lb ed="#G" n="40" break="no"/>do ipsam affirmat.
+        </p>
+        <p xml:id="HuYgTa-e53889-d1e1210">
+          Primum probat sic 
+          <lb ed="#G" n="41"/>1 Sicut res constitutae in esse naturali cum princibis 
+          <lb ed="#G" n="42"/>naturaliter operatiuis se habent ad operationem natura 
+          <lb ed="#G" n="43"/>lem, sic res constitutae in esse supernaturali cum principiis 
+          <lb ed="#G" n="44"/>supernaturalibus se habent ad operationem
+          supernatu<lb ed="#G" n="45" break="no"/>ralem: sed res naturales &amp;c. praesupponunt solum influen 
+          <lb ed="#G" n="46"/>tiam vniuersalem, ergo &amp;c.
+        </p>
+        <p xml:id="HuYgTa-e53889-d1e1226">
+          <lb ed="#G" n="47"/>2 Praeterea, nulla res est destituta sua propria
+          opera<lb ed="#G" n="48" break="no"/>tione: quia secundum <ref xml:id="HuYgTa-e53889-Rd1e1232">Aug. de ci. Dei</ref>, Deus sic res
+          admi<lb ed="#G" n="49" break="no"/>nistrat, vt eas proprios cursus agere sinat, sed Deus potest 
+          <lb ed="#G" n="50"/>illam propriam motionem subtrahere remanente gratia, 
+          <lb ed="#G" n="51"/>&amp; caritate, &amp; per consequens gratia, &amp; caritas habebunt 
+          <lb ed="#G" n="52"/>operationem sine huiusmodi motione. Sed
+          quaecum<lb ed="#G" n="53" break="no"/>que operatio procedens a gratia, &amp; caritate est
+          merito<lb ed="#G" n="54" break="no"/>ria, eroo &amp;c 
+        </p>
+        <p xml:id="HuYgTa-e53889-d1e1250">
+          <lb ed="#G" n="55"/>
+          <pc type="indent"/>Praeterea, opera de genere bonorum sine caritate 
+          <lb ed="#G" n="56"/>facta non sunt meritoria, quae tamen fiunt cum caritate, 
+          <lb ed="#G" n="57"/>meritoria sunt: sed dicere, quod habens caritatem, non
+          pos<lb ed="#G" n="58" break="no"/>sit elicere talia opera sine speciali motione, quae prius
+          si<lb ed="#G" n="59" break="no"/>ne caritate potuit elicere, est inconueniens, ergo &amp;c. 
+        </p>
+        <p xml:id="HuYgTa-e53889-d1e1266">
+          <lb ed="#G" n="60"/>
+          <pc type="indent"/>Praeterea, qui habet spiritum sanctum non indiget 
+          <lb ed="#G" n="61"/>speciali motione spiritus sancti; sed habens caritatem ha 
+          <lb ed="#G" n="62"/>bet in se spiritum sanctum, iuxta illud Caritas Dei
+          diffu<lb ed="#G" n="63" break="no"/>sa est in cordibus nostris per spiritum sanctum, qui datus 
+          <lb ed="#G" n="64"/>est nobis 
+        </p>
+        <p xml:id="HuYgTa-e53889-d1e1282">
+          <lb ed="#G" n="65"/>
+          <pc type="indent"/>Secundam partem suae distinctionis probat sic¬ 
+        </p>
+        <p xml:id="HuYgTa-e53889-d1e1289">
+          <lb ed="#G" n="66"/>
+          <pc type="indent"/>Ad permanendum immobiliter ac perseueranter in 
+          <lb ed="#G" n="67"/>talibus operibus, in quibus magnam patimur difficulta 
+          <lb ed="#G" n="68"/>tem, necessario indigemus spiritus sancti auxilio: sed
+          pro<lb ed="#G" n="69" break="no"/>pter corruptionem naturae per primi parentis peccatum 
+          <lb ed="#G" n="70"/>&amp; inclinationem fomitis, &amp; multitudinem tentationum 
+          <lb ed="#G" n="71"/>quamuis homo sit in caritate, tamen patitur magnam dif 
+          <lb ed="#G" n="72"/>ficultatem in operibus meritoriis, ergo &amp;c. 
+        </p>
+        <p xml:id="HuYgTa-e53889-d1e1309">
+          <lb ed="#G" n="73"/>
+          <pc type="indent"/>Sed illam secundam partem suae distinctionis concedo 
+          <!--183.xml-->
+          <cb ed="#G" n="b"/>
+          <lb ed="#G" n="74"/>tratia principalis meae conclusionis, primam vero nego 
+          <lb ed="#G" n="75"/>1 Quia sicut illud, quod est primum disponens ad
+          in<lb ed="#G" n="76" break="no"/>troductionem formae naturalis, puta caelum, illud idem 
+          <lb ed="#G" n="77"/>est post introductionem coadiuuans in omnibus
+          natura<lb ed="#G" n="78" break="no"/>libus operibus, quae sunt secundum illam formam, sic
+          pri<lb ed="#G" n="79" break="no"/>mum disponens ad introductionem formae
+          supernatu<lb ed="#G" n="80" break="no"/>ralis est coadiuuans in omnibus operibus, quae fiunt
+          se<lb ed="#G" n="81" break="no"/>cundum illam formam: sed primum disponens ad
+          intro<lb ed="#G" n="82" break="no"/>ductionem formae supernaturalis est ipse spiritus
+          san<lb ed="#G" n="83" break="no"/>ctus secundum suam specialem motionem, &amp; singularem  
+          <lb ed="#G" n="84"/>influentiam: quia ad hoc non sufficit influentia generalis 
+          <lb ed="#G" n="85"/>alias homo posset se naturaliter disponere sufficienter ad 
+          <lb ed="#G" n="86"/>infusionem gratiae Dei, &amp; caritatis, cuius oppositum
+          probabi<lb ed="#G" n="87" break="no"/>tur in <ref xml:id="HuYgTa-e53889-Rd1e1350">li. 2.</ref> igitur in omni operatione meritoria
+          necessa<lb ed="#G" n="88" break="no"/>rio concurrit specialis motio spiritus sancti sicut in omni 
+          <lb ed="#G" n="89"/>peratione naturali necessario concurrit influentia caeli¬ 
+        </p>
+        <p xml:id="HuYgTa-e53889-d1e1358">
+          <lb ed="#G" n="90"/>
+          <pc type="indent"/>Ad primum dicendum, quod maior est vera, cum hoc 
+          <lb ed="#G" n="91"/>adiuncto, quod sicut se habent res naturales secundun 
+          <lb ed="#G" n="92"/>influentiam vniuersalem, seu naturalem ad suas
+          opera<lb ed="#G" n="93" break="no"/>tiones naturales; sic se habent res spirituales secundum 
+          <lb ed="#G" n="94"/>influentiam spiritualem, seu specialem ad operationes su 
+          <lb ed="#G" n="95"/>pernaturales, &amp; tunc sequitur oppositum illius, quod
+          ar<lb ed="#G" n="96" break="no"/>uens intendit 
+        </p>
+        <p xml:id="HuYgTa-e53889-d1e1379">
+          <lb ed="#G" n="97"/>
+          <pc type="indent"/>Ad secundum dicendum, quod si subtraheretur influen 
+          <lb ed="#G" n="98"/>tia vniuersalis, dato quod formae naturales manerent, res 
+          <lb ed="#G" n="99"/>tamen secundum eas nihil agerent, sic in proposito,
+          sub<lb ed="#G" n="100" break="no"/>tracta tali speciali motione spiritus sancti, dato, quod caritas 
+          <lb ed="#G" n="101"/>maneret, homo tamen secundum eam nihil operaretur 
+        </p>
+        <p xml:id="HuYgTa-e53889-d1e1395">
+          <lb ed="#G" n="102"/>
+          <pc type="indent"/>Ad tertium dicendum, quod talia opera sine praedicto 
+          <lb ed="#G" n="103"/>influxu non essent meritoria; llle enim influxus est totius 
+          <lb ed="#G" n="104"/>trinitatis, quamuis approprietur spiritui sancto. Propter 
+          <lb ed="#G" n="105"/>quod quantum ad personam patris ait filius, Nemo potest 
+          <lb ed="#G" n="106"/>venire ad me, nisi pater meus traxerit eum; Et quantum. 
+          <lb ed="#G" n="107"/>ad seipsum, idem filius ait. Sine me nihil potestis sacere; 
+          <lb ed="#G" n="108"/>Et quantum ad spiritum sanctum dicitur in Psal. Spiritus. 
+          <lb ed="#G" n="109"/>tuus bonus deducet me in terram rectam. Et illud,
+          Spiri<lb ed="#G" n="110" break="no"/>tus vbi vult spirat. 
+        </p>
+        <p xml:id="HuYgTa-e53889-d1e1419">
+          <lb ed="#G" n="111"/>
+          <pc type="indent"/>Ad quartum dicedum est, quod est pro nobis: quia por 
+          <lb ed="#G" n="112"/>inhabitationem, spiritus sancti in nobis debemus
+          intel<lb ed="#G" n="113" break="no"/>ligere specialem influxum spiritus sancti, quo specialiter 
+          <lb ed="#G" n="114"/>assistit nobis. 
+        </p>
+        <p xml:id="HuYgTa-e53889-d1e1432">
+          <lb ed="#G" n="115"/>
+          <pc type="indent"/>ARTICVLVS IIII. 
+          <lb ed="#G" n="116"/>vtrum caritas, &amp; gratia sint duo habitus 
+          <lb ed="#G" n="117"/>realiter differentes.
+        </p>
+        <p xml:id="HuYgTa-e53889-d1e1443">
+          <lb ed="#G" n="118"/>QVANTVM ad quartum principale, vtrum caritas 
+          <lb ed="#G" n="119"/>&amp; gratia sint duo habitus realiter differentes, di 
+          <lb ed="#G" n="120"/>to, quod habitus caritatis &amp; gratiae sunt duo habitus rea 
+          <lb ed="#G" n="121"/>liter differentes. 
+        </p>
+        <p xml:id="HuYgTa-e53889-d1e1454">
+          <lb ed="#G" n="122"/>
+          <pc type="indent"/>1 Quia illi habitus, quorum vnus per respicit essentis 
+          <lb ed="#G" n="123"/>animae tamquam subiectum, proprium, &amp; immediatum 
+          <lb ed="#G" n="124"/>&amp; alter respicit potentiam, illi necessario differunt, sec 
+          <lb ed="#G" n="125"/>habitus gratiae sicut immediatum, &amp; proprium subiectu 
+          <lb ed="#G" n="126"/>respicit essentiam animae, &amp; caritas voluntatem, quae est 
+          <lb ed="#G" n="127"/>potentia eiusdem essentiae, ergo &amp;c. Maior patet, probo 
+          <lb ed="#G" n="128"/>minorem, quia gratia dat esse animae, iuxta illud Aposto 
+          <lb ed="#G" n="129"/>li, Sratia Dei sum id, quod sum, Caritas dat operari secundum 
+          <lb ed="#G" n="130"/>opera virtutum, iuxta quod ait Grego. Magna quidem  
+          <lb ed="#G" n="131"/>pperatur, si amor est &amp;c. Cum ergo esse respiciat essentiam 
+          <lb ed="#G" n="132"/>&amp; operari potentiam, ideo &amp;c. 
+        </p>
+        <p xml:id="HuYgTa-e53889-d1e1484">
+          <lb ed="#G" n="133"/>
+          <pc type="indent"/>Ad argumentum principale dicendum, quod ille, qui 
+          <lb ed="#G" n="134"/>diligit, magis nouit dilectionem, quam fratrem, quantum 
+          <lb ed="#G" n="135"/>ad essentiam actus, non tamen quantum ad modum
+          a<lb ed="#G" n="136" break="no"/>ctus, qui est acceptatio Dei, &amp; quia sine tali modo quam 
+          <lb ed="#G" n="137"/>uis dicatur dilectio, non tamen proprie dicitur caritas; 
+          <lb ed="#G" n="138"/>ideo quamuis aliquis possit se scire diligere Deum, non 
+          <lb ed="#G" n="139"/>tamen potest scire, vtrum huiusmodi dilectio sit caritas 
+          <lb ed="#G" n="140"/>proprie dicta, siue dilectio meritoria, ideo non valet.
+        </p>
+      </div>
+    </body>
+  </text>
 </TEI>

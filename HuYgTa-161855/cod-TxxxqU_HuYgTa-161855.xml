@@ -1,1029 +1,1029 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Quaestio 1</title>
-            <author ref="#ThomasStrasbourg">Thomas of Strasbourg</author>
-            <respStmt>
-               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
-               <resp>Transcription Editor</resp>
-               <resp>TEI Encoder</resp>
-            </respStmt>
-         </titleStmt>
-         <editionStmt>
-            <edition n="0.0.0-dev">
-               <title>Quaestio 1</title>
-               <date when="2020-11-26">November 26, 2020</date>
-            </edition>
-         </editionStmt>
-         <publicationStmt>
-            <authority>SCTA</authority>
-            <availability status="free">
-               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
-               </p>
-            </availability>
-         </publicationStmt>
-         <sourceDesc>
-            <listWit>
-               <witness xml:id="G" n="cod-TxxxqU">Genoa 1585</witness>
-            </listWit>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
-         <editorialDecl>
-            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
-       guidelines for a diplomatic edition.</p>
-         </editorialDecl>
-      </encodingDesc>
-      <revisionDesc status="draft">
-         <listChange>
-            <change when="2020-11-26" status="draft" n="0.0.0">
-               <p>Created file for the first time.</p>
-            </change>
-         </listChange>
-      </revisionDesc>
-   </teiHeader>
-   <text xml:lang="la">
-      <front>
-         <div xml:id="starts-on">
-            <pb ed="#G" n="P2_2-r"/>
-            <cb ed="#G" n="a"/>
-         </div>
-      </front>
-      <body>
-         <div xml:id="HuYgTa-161855"><!-- HuYgTa-l3d1q1 -->
-            <head xml:id="HuYgTa-161855-Hd1e108">Quaestio 1</head>
-            <head xml:id="HuYgTa-161855-Hd1e111" type="question-title">
-      An, si homo non peccasset, 
-      filius Dei humanam naturam assumpsisset.
-    </head>
-            <p xml:id="HuYgTa-161855-d1e114">
-      <!--474.xml-->
-               <pb ed="#G" n="P2_2-r"/>
-               <cb ed="#G" n="a"/>
-               <lb ed="#G" n="1"/>Quaestio I. 
-      <lb ed="#G" n="2"/>An, si homo non peccasset, filius Dei
-      huma<lb ed="#G" n="3" break="no"/>nam naturam assumpsisset.
-    </p>
-            <p xml:id="HuYgTa-161855-d1e130">
-               <lb ed="#G" n="4"/>VVIRVM filius Dei humanam naturam assumpsisset 
-      <lb ed="#G" n="5"/>dato quod homo sine omni peccato in statu inno 
-      <lb ed="#G" n="6"/>
-               <pc type="indent"/>centiae permansisset.
-    </p>
-            <p xml:id="HuYgTa-161855-d1e141">
-      Et videtur quod non. Quia in 
-      <lb ed="#G" n="7"/>Dei operibus nihil debet fieri frustra, cum Deus &amp; natu 
-      <lb ed="#G" n="8"/>ra nihil faciant frustra, vt patet <ref xml:id="HuYgTa-161855-Rd1e147">1. cae. &amp; mun</ref> sed si homo 
-      <lb ed="#G" n="9"/>non peccasset, frustra fuisset Deus homo factus, qui homi 
-      <lb ed="#G" n="10"/>nem a peccato liberasset. Vnde <ref xml:id="HuYgTa-161855-Rd1e155">Augu. in sua oratione 
-        <lb ed="#G" n="11"/>quam dirigit ad virginem gloriosam</ref>, ait. Vt quid
-      nesci<lb ed="#G" n="12" break="no"/>peccati pro peccatoribus pareres, si deesset, qui peccasset; 
-      <lb ed="#G" n="13"/>rt quid mater fieres Saluatoris, si nulla esset
-      indigenti<lb ed="#G" n="14" break="no"/>salutis; 
-    </p>
-            <p xml:id="HuYgTa-161855-d1e168">
-               <lb ed="#G" n="15"/>
-               <pc type="indent"/>Contra, nullus debet priuari summa dignitate rationi 
-      <lb ed="#G" n="16"/>suae totalis innocentiae: ergo si homo non peccasset: ad 
-      <lb ed="#G" n="17"/>huc filius Dei humanam naturam assumpsisset.
-      Antece<lb ed="#G" n="18" break="no"/>dens patet,. quia sicut nullus ex suo delicto conmodum di 
-      <lb ed="#G" n="19"/>gnitatis debet reportare: sic nec ex sua innocentia priua 
-      <lb ed="#G" n="20"/>tionem dignitatis. Consequentia etiam patet; quia ex 
-      <lb ed="#G" n="21"/>quo, postquam homo peccauit, Deus tantam dignitatem 
-      <lb ed="#G" n="22"/>sibi contulit, vt suppositaliter vniretur filio Dei. igitur si 
-      <lb ed="#G" n="23"/>non peccasset, Deus huiusmodi dignitate hominem non 
-      <lb ed="#G" n="24"/>priuasset. Hic quattuor sunt videnda Primo vtrum
-      possi<lb ed="#G" n="25" break="no"/>bile sit personam diuinam assumere naturam creatam in 
-      <lb ed="#G" n="26"/>supposit vnitatem. Secundo vtrum talis assumptio, seu 
-      <lb ed="#G" n="27"/>incarnatio fuerit solitarie terminata ad personam filij 
-      <lb ed="#G" n="28"/>absque hoc, quod terminaretur ad personas patris, &amp;
-      spiri<lb ed="#G" n="29" break="no"/>tus sancti. Tertio vtrum ratione huius incarnationis in 
-      <lb ed="#G" n="30"/>Christo Dei filio fuerint plura esse. Et quarto de
-      princi<lb ed="#G" n="31" break="no"/>pali quaesito. 
-    </p>
-            <p xml:id="HuYgTa-161855-d1e210">
-               <lb ed="#G" n="32"/>
-               <pc type="indent"/>RESOLVTIO. 
-      <lb ed="#G" n="33"/>Quamquam personam diuinam abumere naturam creatam in 
-      <lb ed="#G" n="34"/>vnitate suppositi naturali ratione directe octendere
-      nequa<lb ed="#G" n="35" break="no"/>quam possumus, indirecte tamen non est impossibile, puta, 
-      <lb ed="#G" n="36"/>tum aduersariorum rationibus satisfit cum igitur hanc beni 
-      <lb ed="#G" n="37"/>dictam incarnationem totatrinitas, &amp; appropriate spiritu 
-      <lb ed="#G" n="38"/>sanctus cooperatus sit, solus tamen Dei filius eam
-      singula<lb ed="#G" n="39" break="no"/>ruer terminauit. 
-    </p>
-            <p xml:id="HuYgTa-161855-d1e232">
-               <lb ed="#G" n="40"/>
-               <pc type="indent"/>ARTICLVSI 
-      <lb ed="#G" n="41"/>Vtrum possibile sit personam diuinam assumere
-      na<lb ed="#G" n="42" break="no"/>
-               <pc type="indent"/>turam creatum in suppositi nitatem
-    </p>
-            <p xml:id="HuYgTa-161855-d1e245">
-               <lb ed="#G" n="43"/>QVANTVM ad primum pono duas conclusiones. 
-      <lb ed="#G" n="44"/>Prima est, quod personam diuinam assumere
-      na<lb ed="#G" n="45" break="no"/>turam creatam in vnitatem suppositi, non potest ostend 
-      <lb ed="#G" n="46"/>esse possibile directe, &amp; positiue: puta, quod modus illius 
-      <lb ed="#G" n="47"/>assumptionis, seu vnionis sufficienter ostendatur 
-      <lb ed="#G" n="48"/>Secunda est, quod potest ostendi indirecte &amp;
-      negatiue<lb ed="#G" n="49" break="no"/>puta, potest ostendi, quod non sit impossibile rationibus 
-      <lb ed="#G" n="50"/>in contrarium factis sufficienter respondere. 
-      <lb ed="#G" n="51"/>Primum probo sic. lllud, quod est super omnem ra 
-      <lb ed="#G" n="52"/>cionem humanam, non potest ostendi humana ratione 
-      <!--474.xml-->
-      <cb ed="#G" n="b"/>
-               <lb ed="#G" n="53"/>sed modus iam dictae vnionis est super omnem rationem 
-      <lb ed="#G" n="54"/>humamam. Maior patet: Minor probari potest per mult 
-      <lb ed="#G" n="55"/>dicta sanctorum. Ait enim <name xml:id="HuYgTa-161855-Nd1e279" ref="#Ambrose">Ambro.</name> de verbi Dei
-      incarna<lb ed="#G" n="56" break="no"/>tione contra haereticum sic. Mihi est impossibile
-      oenera<lb ed="#G" n="57" break="no"/>tionis Christi scire secretum: mens deficit, vox silet, non 
-      <lb ed="#G" n="58"/>mea tantum, sed &amp; angelorum super Potestates, super Chi 
-      <lb ed="#G" n="59"/>rubin, &amp; super Seraphin, &amp; super omnem sensum est. Ei 
-      <lb ed="#G" n="60"/>ait <name xml:id="HuYgTa-161855-Nd1e293" ref="#Ambrose">Ambro.</name> Ergo haeretice ori tuo manum impone:
-      scru<lb ed="#G" n="61" break="no"/>tari non licet superma mysteria: licet scire, quod natus sit 
-      <lb ed="#G" n="62"/>sed non licet scire, quomodo natus sit: ineffabilis est enim 
-      <lb ed="#G" n="63"/>illa generatio: humanum sensum &amp; mundi intelligentia 
-      <lb ed="#G" n="64"/>excedit: hoc non capit humanae intelligentiae ratio: sed 
-      <lb ed="#G" n="65"/>prudentiae fidelis prosessio. Et <ref xml:id="HuYgTa-161855-Rd1e307">Augustinus ad Volusianu</ref> 
-               <lb ed="#G" n="66"/>ait de ista mirabili vnione. Hic si ratio quaeritur, non es 
-      <lb ed="#G" n="67"/>admirabile: si exemplum poscitur, non est singulare:
-      de<lb ed="#G" n="68" break="no"/>mus igitur Deum aliquid posse, quod nos fateamur inuc 
-      <lb ed="#G" n="69"/>stigare non posse: in talibus namque rebus tota ratio fa 
-      <lb ed="#G" n="70"/>cti est potentia facientis. Et <ref xml:id="HuYgTa-161855-Rd1e321">
-                  <name xml:id="HuYgTa-161855-Nd1e323">Alanus</name> in suis versiculis de 
-        <lb ed="#G" n="71"/>hoc profundissimo mysterio Dei</ref> ait. Hic natura silet:
-      lo<lb ed="#G" n="72" break="no"/>gicae vis exulat omnis. Phetoricae perit arbitrium, ratioqu 
-      <lb ed="#G" n="73"/>vacillat. Nec mirum, quia ille, qui testimonio Saluatoris 
-      <lb ed="#G" n="74"/>erat lucerna ardens, &amp; lucens, &amp; non solum propheta, sec 
-      <lb ed="#G" n="75"/>plus quam propheta; se dixit non esse dignum soluere
-      cor<lb ed="#G" n="76" break="no"/>rigiam calciamentorum eius, idest, secundum glosam, mi 
-      <lb ed="#G" n="77"/>dum vnionis exprimere naturae diuinae cum humana in 
-      <lb ed="#G" n="78"/>domino nostro lesu Christo. 
-    </p>
-            <p xml:id="HuYgTa-161855-d1e345">
-               <lb ed="#G" n="79"/>
-               <pc type="indent"/>Sed contra istam conclusionem videntur esse dicta san 
-      <lb ed="#G" n="80"/>ctorum, qui modum possibilitatis istius sanctissimae
-      vnio<lb ed="#G" n="81" break="no"/>nis in suis scriptis nituntur ostendere. Quorum vnus ait, quoi 
-      <lb ed="#G" n="82"/>sicut Deus per sui influentiam potest facere, quod
-      substanti<lb ed="#G" n="83" break="no"/>subsistat, &amp; tamen non operetur, vt patuit de igne, in quo 
-      <lb ed="#G" n="84"/>tres pueri fuerunt illaesi, sic potest influere ad esse creata 
-      <lb ed="#G" n="85"/>substantiae, vt scilicet existat: &amp; tamen non per se existat 
-      <lb ed="#G" n="86"/>sed alteri innitatur. Dicunt etiam isti, quod tantae difficulta 
-      <lb ed="#G" n="87"/>tis est spiritum incorporeum luteo corpori vniri, quanta 
-      <lb ed="#G" n="88"/>est naturam humanam in vnitatem suppositi assumere 
-      <lb ed="#G" n="89"/>sed illud est Deo possibile: ergo &amp; istud. Et hanc simili 
-      <lb ed="#G" n="90"/>tudinem tangit etiam Athanasius, cum ait. Sicut anima 
-      <lb ed="#G" n="91"/>rationalis, &amp; caro vnus est homo: ita Deus, &amp; homo vnu 
-      <lb ed="#G" n="92"/>est Christus. Se D ista licet sint bona verba: modus
-      ta<lb ed="#G" n="93" break="no"/>men possibilitatis diuinae incarnationis non ostenditur 
-      <lb ed="#G" n="94"/>Etiam modus probandi non valet: quia non est aequalis 
-      <lb ed="#G" n="95"/>difficultatis illud, quod naturaliter contingit: sicut est il 
-      <lb ed="#G" n="96"/>lud, quod non nisi miraculosissime fieri potest. Sed anima 
-      <lb ed="#G" n="97"/>rationalis naturaliter vnitur corpori humano; immo,
-      si<lb ed="#G" n="98" break="no"/>cut dicunt sancti doctores, si corpori humano, perfecte
-      di<lb ed="#G" n="99" break="no"/>sposito, Deus non infunderet animam, per miraculum 
-      <lb ed="#G" n="100"/>hoc fieret. Item si anima ration alis non vniretur corpori 
-      <lb ed="#G" n="101"/>humano naturaliter, tunc generatio hominis non esset 
-      <lb ed="#G" n="102"/>naturalis; sed miraculosa. Sed alienam naturam assumere 
-      <lb ed="#G" n="103"/>in vnitatem suppositi, non fit naturaliter, sed per
-      maxi<lb ed="#G" n="104" break="no"/>mum miraculum. Dictum etiam Athanasij, quamuis ad 
-      <lb ed="#G" n="105"/>propositum deseruiat in aliqua tenui similitudine, in
-      mul<lb ed="#G" n="106" break="no"/>tis tamen est valde dissimile. Anima enim &amp; corpus
-      con<lb ed="#G" n="107" break="no"/>ssant vnam tertiam naturam: &amp; anima informat corpu 
-      <lb ed="#G" n="108"/>dando sibi esse formale, quae omnia, &amp; multa his similia 
-      <lb ed="#G" n="109"/>dici non possunt de Deo &amp; homine in domino nostro l 
-      <lb ed="#G" n="110"/>su Christo. Nec illud, quod dicunt de igne, sufficit ad prae 
-      <lb ed="#G" n="111"/>sentem declarationem: quia non sequitur illud, quod minus 
-      <lb ed="#G" n="112"/>est difficile, est possibile: ergo &amp; illud magis, quod est diffi 
-      <lb ed="#G" n="113"/>cile, erit possibile. Sed substantiam suspendere a propri 
-      <lb ed="#G" n="114"/>operatione respectu alicuius determinati obiecti, est mul 
-      <lb ed="#G" n="115"/>to minus difficile, quam alienam naturam in vnitatem 
-      <lb ed="#G" n="116"/>supposit assumere. Quia illud potest virtus creata: per ali 
-      <lb ed="#G" n="117"/>qua enim verba &amp; characteres contingit quandoque, qui 
-      <lb ed="#G" n="118"/>ignis hominem non ledit. Sed illud, scilicet ad esse
-      per<lb ed="#G" n="119" break="no"/>sonale alienam naturam assumere, nulla saltem virtus 
-      <lb ed="#G" n="120"/>creata potest: ergo &amp;c. 
-    </p>
-            <p xml:id="HuYgTa-161855-d1e441">
-               <lb ed="#G" n="121"/>
-               <pc type="indent"/>SED contra istam solutionem quidam doctor pro 
-      <lb ed="#G" n="122"/>bat quattuor mediis, quod suppositum creatum possi 
-      <lb ed="#G" n="123"/>assuntere alienam naturam ad vnitatem personalem. Quia 
-      <lb ed="#G" n="124"/>maior conuenientia, &amp; proportio est personalitatis
-      crea<lb ed="#G" n="125" break="no"/>tae ad naturam creatam, quam personalitatis increatae ad na¬ 
-      <!--475.xml-->
-      <pb ed="#G" n="P2_2-v"/>
-               <cb ed="#G" n="a"/>
-               <lb ed="#G" n="1"/>turam creatam, cum igitur persona increata sustentet na 
-      <lb ed="#G" n="2"/>turam creatam, eius assumptionem personaliter termi¬¬ 
-      <lb ed="#G" n="3"/>nando : ergo similiter hoc poterit persona creata, 
-      <lb ed="#G" n="4"/>2 Praeterea, omnis perfectio limitata sinc
-      contradictio<lb ed="#G" n="5" break="no"/>ne poterit competere supposito creato: sed ex hoc, quod 
-      <lb ed="#G" n="6"/>aliquod suppositum sustentat alienam naturam, non
-      re<lb ed="#G" n="7" break="no"/>quirit aliquam virtutem illimitatam: quia nihil facit in 
-      <lb ed="#G" n="8"/>natura sustentata, nisi quod faceret proprium suppositum: 
-      <lb ed="#G" n="9"/>si in proprio supposito sustentaretur : ergo in alieno
-      sup<lb ed="#G" n="10" break="no"/>posito ex tali sustentatione non potest argui maior virtus,  
-      <lb ed="#G" n="11"/>quam illa, quae fuisset in proprio supposito, si huiusmodi 
-      <lb ed="#G" n="12"/>natura fuisset suppositata per proprium suppositum. 
-      <lb ed="#G" n="13"/>3 Praeterea, maioris perfectionis est terminare
-      depen<lb ed="#G" n="14" break="no"/>dentiam alicuius in ratione causae, quam dependentiam  
-      <lb ed="#G" n="15"/>alicuius terminare in ratione personae: quia primum
-      con<lb ed="#G" n="16" break="no"/>petit toti trinitati, &amp; per consequens dicit perfectionem 
-      <lb ed="#G" n="17"/>simpliciter: secundum autem competit soli filio, &amp; per con 
-      <lb ed="#G" n="18"/>sequens non potest dicere perfectionem simpliciter: sed 
-      <lb ed="#G" n="19"/>primum potest competere creato supposito: ergo &amp;
-      se<lb ed="#G" n="20" break="no"/>cundum. 
-    </p>
-            <p xml:id="HuYgTa-161855-d1e507">
-               <lb ed="#G" n="21"/>
-               <pc type="indent"/>4 Praeterea, quanto aliquod suppositum est magis inde 
-      <lb ed="#G" n="22"/>endens, tanto plurium dependentiam potest terminare: 
-      <lb ed="#G" n="23"/>sed suppositum creatum, cum sit absolutum &amp; ad se: est 
-      <lb ed="#G" n="24"/>magis independens, quam suppositum increatum, quod 
-      <lb ed="#G" n="25"/>necessario est relatiuum. ergo &amp;c. 
-    </p>
-            <p xml:id="HuYgTa-161855-d1e523">
-               <lb ed="#G" n="26"/>
-               <pc type="indent"/>SeD contra conclusionem istius doctoris, quam credo 
-      <lb ed="#G" n="27"/>simpliciler falsam, arguo sic. Quia eadem videtur esse
-      li<lb ed="#G" n="28" break="no"/>mitatio naturae ad personam, &amp; personae ad naturam: Sed 
-      <lb ed="#G" n="29"/>nulla vna natura creata potest personari diuersis
-      perso<lb ed="#G" n="30" break="no"/>nis: ergo nulla vna persona creata potest personare
-      di<lb ed="#G" n="31" break="no"/>uersas naturas creatas. Nec valet instantia, si daretur de 
-      <lb ed="#G" n="32"/>materia &amp; forma: quia non personantur, prout distinctas 
-      <lb ed="#G" n="33"/>dicunt naturas: sed vt vnam integrant naturam ex
-      mate<lb ed="#G" n="34" break="no"/>ria, &amp; forma compositam. 
-    </p>
-            <p xml:id="HuYgTa-161855-d1e547">
-               <lb ed="#G" n="35"/>
-               <pc type="indent"/>Ao primum dicendum, quod posse assumere alienam 
-      <lb ed="#G" n="36"/>naturam in vnitatem suppositi, non competit ratione con 
-      <lb ed="#G" n="37"/>uenientiae assumentis ad assumptum: sed ratione
-      praedo<lb ed="#G" n="38" break="no"/>minij virtutis existentis in assumente. 
-    </p>
-            <p xml:id="HuYgTa-161855-d1e560">
-               <lb ed="#G" n="39"/>
-               <pc type="indent"/>Ad secundum dicendum, quod concessa tota ratione, 
-      <lb ed="#G" n="40"/>non plus habetur, nisi quod posse sustentare alienam na 
-      <lb ed="#G" n="41"/>turam Deus possit commumcare supposito creato: &amp; de 
-      <lb ed="#G" n="42"/>hoc ad praesens non quaerimus: nec est ad propositum
-      tam<lb ed="#G" n="43" break="no"/>tum: quia tu intendis probare, quod hoc competat
-      sup<lb ed="#G" n="44" break="no"/>posito creato ex propria sua virtute. Ratio etiam falsum 
-      <lb ed="#G" n="45"/>assumit: quia maior virtus requiritur in supposito ad
-      su<lb ed="#G" n="46" break="no"/>stentandum alienam naturam, quam ad sustentandum pro 
-      <lb ed="#G" n="47"/>priam: quia suppositum sustentando alienam naturam,  
-      <lb ed="#G" n="48"/>oportet quod praeueniat propriam suppositationem illius 
-      <lb ed="#G" n="49"/>naturae, quod fieri non potest, nisi per virtutem infinitam. 
-    </p>
-            <p xml:id="HuYgTa-161855-d1e589">
-               <lb ed="#G" n="50"/>
-               <pc type="indent"/>Ad tertium dicendum, quod maior est falsa, attenden 
-      <lb ed="#G" n="51"/>do potentias, quibus huiusmodi dependentiae
-      terminan<lb ed="#G" n="52" break="no"/>tur. Ad probationem dicendum, quod licet terminatio 
-      <lb ed="#G" n="53"/>psa non dicat perfectionem simpliciter: posse tamen ter 
-      <lb ed="#G" n="54"/>minare dicit perfectionem simpliciter: &amp; competit
-      cuili<lb ed="#G" n="55" break="no"/>bet diuinae personae. 
-    </p>
-            <p xml:id="HuYgTa-161855-d1e607">
-               <lb ed="#G" n="56"/>
-               <pc type="indent"/>Fonre DiCETVn, quod cum nulla res in suo actual 
-      <lb ed="#G" n="57"/>esse sit minoris perfectionis, quam in suo potentiali esse: 
-      <lb ed="#G" n="58"/>ergo si actualis terminatio non dicit perfectionem
-      sim<lb ed="#G" n="59" break="no"/>pliciter : nec posse terminare dicet perfectionem
-      simpli<lb ed="#G" n="60" break="no"/>citer. RESpo NnEo, quod per posse terminare non intel 
-      <lb ed="#G" n="61"/>igo ipsum terminare, siue ipsam terminationem sumptam 
-      <lb ed="#G" n="62"/>in suo esse potentiali: quia, vt sic, non esset maioris, sed 
-      <lb ed="#G" n="63"/>minoris perfectionis, quam actualis terminatio; sed intol 
-      <lb ed="#G" n="64"/>ligo ipsam virtutem terminatiuam. quae suppositum
-      ter<lb ed="#G" n="65" break="no"/>minat, vel potest terminare dependentiam alienae
-      natu<lb ed="#G" n="66" break="no"/>rae in ratione personae. Vnde sicut potentia generatiua di 
-      <lb ed="#G" n="67"/>cit perfectionem simpliciter : &amp; est communis toti
-      trini<lb ed="#G" n="68" break="no"/>tati; quamuis generare non dicat perfectionem
-      simplici<lb ed="#G" n="69" break="no"/>ter, &amp; conuenit soli patri: sic &amp;c 
-    </p>
-            <p xml:id="HuYgTa-161855-d1e643">
-               <lb ed="#G" n="70"/>
-               <pc type="indent"/>Ad quartum dicendum, quod maior non est vera loquendo de 
-      <lb ed="#G" n="71"/>dependentia relatiua: sed solum est vera loquendo de
-      de<lb ed="#G" n="72" break="no"/>endentia virtutis, &amp; perfectionis: puta secundum quod
-      ali<lb ed="#G" n="73" break="no"/>quid habet perfectionem dependente, &amp; incompletam; qua¬ 
-      <!--475.xml-->
-      <cb ed="#G" n="b"/>
-               <lb ed="#G" n="74"/>lis dependentia non est in diuinis. Miror etiam
-      pruden<lb ed="#G" n="75" break="no"/>tiam istius doctoris: quia si ista ratio concluderet: tunc 
-      <lb ed="#G" n="76"/>vna musca maioris virtutis esset, quo ad terminationem 
-      <lb ed="#G" n="77"/>personalis dependentiae, quam omnes tres diuinae
-      perso<lb ed="#G" n="78" break="no"/>nae: cum omnes diuinae personae aeque dependeant mutuo 
-      <lb ed="#G" n="79"/>ad inuicem dependentia relatiua 
-    </p>
-            <p xml:id="HuYgTa-161855-d1e674">
-               <lb ed="#G" n="80"/>
-               <pc type="indent"/>CoTCLVs 10NEM secundam probo sic. lllud non est
-      im<lb ed="#G" n="81" break="no"/>possibile Deo, quod non implicat contradictionem: Sed in 
-      <lb ed="#G" n="82"/>diuino supposito sustentari naturam humanam, vel
-      quamcum<lb ed="#G" n="83" break="no"/>ue aliam naturam creatam, non implicat contradictionem; 
-      <lb ed="#G" n="84"/>quia nec implicat ex parte virtutis diuinae. Quia omne 
-      <lb ed="#G" n="85"/>quod dicit perfectionem, &amp; dignitatem in creatura, relegata 
-      <lb ed="#G" n="86"/>ab eo omni imperfectione, hoc est Deo attribuendum: sed  
-      <lb ed="#G" n="87"/>sustentare alicnam naturam, seu habere virtutem
-      sustenta<lb ed="#G" n="88" break="no"/>li eam, dicit perfectionem in creatura, quamuis sustentare ea 
-      <lb ed="#G" n="89"/>er modum formaliter inhaerentis dicat imperfectionem: 
-      <lb ed="#G" n="90"/>uia ex hoc conuincitur creaturam non esse oino perfectam. 
-      <lb ed="#G" n="91"/>x quo formaliter perficitur ab eo, quod sustentat: ergo 
-      <lb ed="#G" n="92"/>posse sustentare alienam naturam absque omni formali
-      inhae<lb ed="#G" n="93" break="no"/>rentia, potest sine contradictione attribui personae
-      diui<lb ed="#G" n="94" break="no"/>nae. Nec implicat ex parte creaturae: quia natura
-      natura<lb ed="#G" n="95" break="no"/>liter est prior propria suppositatione: ergo sibi non
-      repu<lb ed="#G" n="96" break="no"/>gnat ab ea separari, &amp; per consequens sustentari virtuto 
-      <lb ed="#G" n="97"/>aliena. Ista autem non impossibilitas magis declarari po 
-      <lb ed="#G" n="98"/>test respondendo rationibus, quibus infideles moueri po 
-      <lb ed="#G" n="99"/>terunt contra huiusmodi veritatem. Igitur inducam
-      ali<lb ed="#G" n="100" break="no"/>qua motiua eorum, &amp; ipsis respondebo. 
-    </p>
-            <p xml:id="HuYgTa-161855-d1e724">
-               <lb ed="#G" n="101"/>
-               <pc type="indent"/>Po TEST enim argui sic. 1. Substantia spiritualis non po 
-      <lb ed="#G" n="102"/>test vniri naturae corporali, nisi vel, vt motor, vel, vt
-      for<lb ed="#G" n="103" break="no"/>ma. Sed primus modus vnionis non sufficit ad propositum; 
-      <lb ed="#G" n="104"/>uia alias Angelus posset celum, quod mouet, assumere 
-      <lb ed="#G" n="105"/>in vnitatem personae. Secundus vero modus in proposito 
-      <lb ed="#G" n="106"/>est impossibilis: quia persona diuina non potest, propter 
-      <lb ed="#G" n="107"/>suam infinitam perfectionem, per modum formae vniri 
-      <lb ed="#G" n="108"/>alicui creaturae: quia impossibile est personam, vel naturam 
-      <lb ed="#G" n="109"/>diuinam formaliter inhaerere alicui creaturae. 
-      <lb ed="#G" n="110"/>2 Praeterea, substantiam creatam existere se ipsa, non addit 
-      <lb ed="#G" n="111"/>super eius naturam, nisi relationem ad causam efficientem: 
-      <lb ed="#G" n="112"/>sed nulla potentia fieri potest, quod aliqua creata natura
-      a<lb ed="#G" n="113" break="no"/>ctualiter existens absoluatur a tali relatione: quia omnis 
-      <lb ed="#G" n="114"/>creatura necessario refertur ad creatorem: ergo &amp;c.
-    </p>
-            <p xml:id="HuYgTa-161855-d1e759">
-               <lb ed="#G" n="115"/>3 Preterea, impossibile est aliqua de nouo realiter
-      vni<lb ed="#G" n="116" break="no"/>ri, nisi vel i ambobo, vel in altero salte fiat realis mutatio: 
-      <lb ed="#G" n="117"/>sed hic nec in persona verbi potest esse mutatio: cum 
-      <lb ed="#G" n="118"/>Deus sit immobilis per se, &amp; pr accidens, &amp; ab intra, vt
-      pa<lb ed="#G" n="119" break="no"/>tet <ref xml:id="HuYgTa-161855-Rd1e772">8. physi.</ref> &amp; <ref xml:id="HuYgTa-161855-Rd1e775">12. metaph.</ref> Apud Deum. n. nec est mutatio, 
-      <lb ed="#G" n="120"/>nec vicissitudinis obumbratio, vt dicitur lacobi 1. Nec et 
-      <lb ed="#G" n="121"/>n natura humana: quia per verbi assumptionem nullum esse  
-      <lb ed="#G" n="122"/>formale comunicatur tali naturae: nec aliquod esse, quod 
-      <lb ed="#G" n="123"/>prius habuit, aufertur ab ea: sed nihil mutatur realiter, ni 
-      <lb ed="#G" n="124"/>si vel acquirat, vel amittat aliquod esse reale: ergo &amp;c 
-      <lb ed="#G" n="125"/>4 Praeterea, si possibilis esset praedicta vnio, tunc
-      ali<lb ed="#G" n="126" break="no"/>quando ante huiusmodi vnionem Deus fuisset vnihilis. 
-      <lb ed="#G" n="127"/>creaturae; &amp; per consequens fuisset possibilis vniri Sed com 
-      <lb ed="#G" n="128"/>sequens est falsum: quia quod est possibile ad alique actum, 
-      <lb ed="#G" n="129"/>non reducitur ad cum, nisi moueatur per aliquam causam 
-      <lb ed="#G" n="130"/>gentem sibi extrinsecam: cum idem non possit esse res- 
-      <lb ed="#G" n="131"/>pectu eiusdem mouens, &amp; motum: sed Deus non potest 
-      <lb ed="#G" n="132"/>moueri. 
-    </p>
-            <p xml:id="HuYgTa-161855-d1e807">
-               <lb ed="#G" n="133"/>3 Praeterea, proportio vnibilium requiritur in omni 
-      <lb ed="#G" n="134"/>vnione: sed inter Deum, &amp; naturam creatam, cum distent 
-      <lb ed="#G" n="135"/>in infinitum, nulla videtur esse proportio.  
-    </p>
-            <p xml:id="HuYgTa-161855-d1e816">
-               <lb ed="#G" n="136"/>
-               <pc type="indent"/> Praeterea, duo contraria non possunt simul vniri in 
-      <lb ed="#G" n="137"/>eodem: ergo nec Deus, &amp; creatura. Antecedens patet: 
-      <lb ed="#G" n="138"/>Quia de quocunque praedicatur vnum contrariorum, de eoden 
-      <lb ed="#G" n="139"/>vere negatur reliquum; ergo si contraria simul essent 
-      <lb ed="#G" n="140"/>contradictoria simul praedicarentur de eodem.
-      Conse<lb ed="#G" n="141" break="no"/>uentia etiam patet: quia minus distant duo contraria, 
-      <lb ed="#G" n="142"/>cum ponantur sub eodem genere, quam Deus, &amp;
-      creatu<lb ed="#G" n="143" break="no"/>ra, quae differunt plus quam genere 
-    </p>
-            <p xml:id="HuYgTa-161855-d1e839">
-               <lb ed="#G" n="144"/>
-               <pc type="indent"/>Praeterea, sicut se habet malitia ad summam bonitatem: 
-      <lb ed="#G" n="145"/>sic se habet infirmitas ad summam maiestatem. Sed summa 
-      <lb ed="#G" n="146"/>bonitas nullam compatitur secum malitiam, seu prauita¬ 
-      <!--476.xml-->
-      <pb ed="#G" n="P2_3-r"/>
-               <cb ed="#G" n="a"/>
-               <lb ed="#G" n="1"/>rem: ergo diuina maiestas, cum sit summa, non compatie 
-      <lb ed="#G" n="2"/>tur secum humanam infirmitatem.
-    </p>
-            <p xml:id="HuYgTa-161855-d1e861">
-               <lb ed="#G" n="3"/>3 Praeterea, Deus non pot esse in creatura, nisi vel per 
-      <lb ed="#G" n="4"/>essentiam, vel per praesentiam, vel per potentiam: sed nul 
-      <lb ed="#G" n="5"/>lus istorum modorum per se, nec omnes simul sufficiunt 
-      <lb ed="#G" n="6"/>ad incarnationem verbi: ergo impossibilis videtur esse
-      in<lb ed="#G" n="7" break="no"/>earnatio. Maior probatur: quia Deus non potest esse in 
-      <lb ed="#G" n="8"/>rreatura, nisi vel secundum se, vel secundum suam opera 
-      <lb ed="#G" n="9"/>tionem. Si secudum se, sic est modus secundum essentiam 
-      <lb ed="#G" n="10"/>Si secundum operationem, vel secundum operationem
-      im<lb ed="#G" n="11" break="no"/>manentem, puta secundum intelligere &amp; velle: Sic est 
-      <lb ed="#G" n="12"/>secundum praesentiam, modo, quo dicitur aliquid
-      prae<lb ed="#G" n="13" break="no"/>sens esse rei, quod est in suo prospectu: vel secundum ope 
-      <lb ed="#G" n="14"/>rationem transeuntem: &amp; sic est secundum potentiam.
-      Mi<lb ed="#G" n="15" break="no"/>nor etiam patet: quia istis tribus modis Deus est in omni 
-      <lb ed="#G" n="16"/>bus creaturis: ergo si isti modi ad assumptionem
-      suffice<lb ed="#G" n="17" break="no"/>rent: tunc omnes creaturas in vnitatem suppositi assum 
-      <lb ed="#G" n="18"/>ret: ergo &amp;c. 
-    </p>
-            <p xml:id="HuYgTa-161855-d1e898">
-               <lb ed="#G" n="19"/>
-               <pc type="indent"/>SED ista non concludunt: quia Annunciator istius
-      be<lb ed="#G" n="20" break="no"/>nedictae incarnationis dicit, quod non est impossibile apud 
-      <lb ed="#G" n="21"/>Deum omne verbum 
-    </p>
-            <p xml:id="HuYgTa-161855-d1e909">
-               <lb ed="#G" n="22"/>
-               <pc type="indent"/>AD Primum igitur dicendum, quod dato, quod maior sit
-      ve<lb ed="#G" n="23" break="no"/>ra, loquendo de spirituali substantia creata: falsa tamen est, 
-      <lb ed="#G" n="24"/>loquendo de spirituali substantia increata 
-    </p>
-            <p xml:id="HuYgTa-161855-d1e920">
-               <lb ed="#G" n="25"/>
-               <pc type="indent"/>Ad secundum nego maiorem: quia addit per se esse,  
-      <lb ed="#G" n="26"/>quod vel est quaedam res absoluta, puta quaedam qualitas; 
-      <lb ed="#G" n="27"/>seu proprietas naturae : vel saltem est quidam modus
-      ab<lb ed="#G" n="28" break="no"/>solutus, qui naturaliter est posterior natura: quia
-      sequi<lb ed="#G" n="29" break="no"/>tur eam, sicut naturalis proprietas illud, cuius est proprie 
-      <lb ed="#G" n="30"/>tas: sicut aliqui magni doctores dicunt. vel concessa
-      maio<lb ed="#G" n="31" break="no"/>re dico, quod licet per quamcunque potentiam creatura 
-      <lb ed="#G" n="32"/>non possit absolui a relatione, qua refertur ad creatorem. 
-      <lb ed="#G" n="33"/>potest tamen Deus facere, quod creatura, quae derelicta
-      natu<lb ed="#G" n="34" break="no"/>rali suo cursui, vno modo refertur ad creatorem: sibi non  
-      <lb ed="#G" n="35"/>derelicta, alio modo referatur: &amp; sic est in proposito. 
-    </p>
-            <p xml:id="HuYgTa-161855-d1e949">
-               <lb ed="#G" n="36"/>
-               <pc type="indent"/>Ad tertium dicendum, quod ibi est mutatio realis ex parte hu 
-      <lb ed="#G" n="37"/>manitatis, quae de suo esse potentiali trassata est ad actua 
-      <lb ed="#G" n="38"/>le esse, quod differt ab essentia: vt patebit in tertio articulo. 
-    </p>
-            <p xml:id="HuYgTa-161855-d1e961">
-               <lb ed="#G" n="39"/>
-               <pc type="indent"/>Ad quartum dicendum, quod Deus, antequam vniretur 
-      <lb ed="#G" n="40"/>humanae naturae, fuit ei vnibilis: non tamen vnitate
-      passi<lb ed="#G" n="41" break="no"/>na se tenente ex parte Dei, sed solum ex parte creaturae. 
-      <lb ed="#G" n="42"/>&amp; ideo non requirebatur motor reducens aliquam possi 
-      <lb ed="#G" n="43"/>bilitatem passiuam in actum, quae se teneret ex parte Dei: 
-      <lb ed="#G" n="44"/>sed solum ex parte naturae humanae: quia Deus solum fuit 
-      <lb ed="#G" n="45"/>vnibilis vnitate actiua: puta qa potuit sibi vnire creaturam, 
-      <lb ed="#G" n="46"/>Ad quintum dicendum ad maiorem, quod inter vnibilia 
-      <lb ed="#G" n="47"/>non semper requiritur proportio commensurationis, sed  
-      <lb ed="#G" n="48"/>ordinis: finitum autem ad infinitum licet non habeat 
-      <lb ed="#G" n="49"/>proportionem commensurationis, habet tamen
-      propor<lb ed="#G" n="50" break="no"/>tionem ordinis, seu ordinatae imitationis. Vnde quamuis 
-      <lb ed="#G" n="51"/>primum mouens sit virtutis infinitae: vt patet <ref xml:id="HuYgTa-161855-Rd1e993">8.
-      physico<lb ed="#G" n="52" break="no"/>rum</ref>, omnia tamen ordinantur ad ipsum: vt patet <ref xml:id="HuYgTa-161855-Rd1e998">ibidem</ref>, 
-      <lb ed="#G" n="53"/>&amp; <ref xml:id="HuYgTa-161855-Rd1e1004">12 metaphysic¬ </ref>
-            </p>
-            <p xml:id="HuYgTa-161855-d1e1008">
-               <lb ed="#G" n="54"/>
-               <pc type="indent"/>Ad sextum dicendum, quod sicut duo contraria possunt 
-      <lb ed="#G" n="55"/>esse in eodem supposito, in alia tamen, &amp; alia parte: sic
-      dei<lb ed="#G" n="56" break="no"/>tas, &amp; humanitas in eodem Christo: est enim Deus seci 
-      <lb ed="#G" n="57"/>dum aeternam naturam a patre aeternaliter genitus: &amp; ho 
-      <lb ed="#G" n="58"/>mo secundum temporalem naturam a matre
-      temporali<lb ed="#G" n="59" break="no"/>ter natus. 
-    </p>
-            <p xml:id="HuYgTa-161855-d1e1026">
-               <lb ed="#G" n="60"/>
-               <pc type="indent"/>Ad septimum dicendum, quod non est simile: quia 
-      <lb ed="#G" n="61"/>malitia non potest assumi sine derogatione bonitatis 
-      <lb ed="#G" n="62"/>sed infirmitas potuit assumi absque omni derogatione sum 
-      <lb ed="#G" n="63"/>mae maiestatis. Sic enim filius assumpsit, quod non erat,  
-      <lb ed="#G" n="64"/>quod tamen perfecte remansit, quod erat. 
-    </p>
-            <p xml:id="HuYgTa-161855-d1e1042">
-               <lb ed="#G" n="65"/>
-               <pc type="indent"/>Ad octauum nego minorem. Ad probationem
-      dicen<lb ed="#G" n="66" break="no"/>dum, quod licet Deus, vt secundum se per generalem il 
-      <lb ed="#G" n="67"/>lapsum, est in creatura, sic per essentiam dicatur
-      generali<lb ed="#G" n="68" break="no"/>ter esse in omni creatura: tamen prout est in aliqua crea 
-      <lb ed="#G" n="69"/>tura per specialem illapsum: sic multis modis
-      speciali<lb ed="#G" n="70" break="no"/>bus potest esse in specialibus creaturis: puta in virtuosu 
-      <lb ed="#G" n="71"/>viatore per gratiam gratificantem, in comprehensori 
-      <lb ed="#G" n="72"/>per gratiam glorificantem, in Christo per gratiam
-      vnio<lb ed="#G" n="73" break="no"/>nis hypostaticae naturam humanam sustentantem
-    </p>
-            <p xml:id="HuYgTa-161855-d1e1066">
-      <!--476.xml-->
-               <cb ed="#G" n="b"/>
-               <lb ed="#G" n="74"/>ARTICVLVS I 
-      <lb ed="#G" n="75"/>Vtrum talis assumptio, seu incarnatio fuerit solitarit 
-      <lb ed="#G" n="76"/>
-               <pc type="indent"/>termmata ad perscnam filij absque hoc, quod
-      ter<lb ed="#G" n="77" break="no"/>minaretur ad personam patris, &amp; spritus sancti
-    </p>
-            <p xml:id="HuYgTa-161855-d1e1084">
-               <lb ed="#G" n="78"/>SVANTVM ad secundum articulum dico, quod
-      qui<lb ed="#G" n="79" break="no"/> libet Christianus credere tenetur, quod quamuis 
-      <lb ed="#G" n="80"/>tota trinitas, &amp; appropriate spiritus sanctus operatus sit 
-      <lb ed="#G" n="81"/>namc benedictam incarnationem naturam humanam for 
-      <lb ed="#G" n="82"/>mando: ad solam tamen personam filij huiusmodi in¬¬ 
-      <lb ed="#G" n="83"/>carnatio est terminata. Quia ad solam illam personam 
-      <lb ed="#G" n="84"/>terminatur incarnatio, quae vere est incarnata: sed sola  
-      <lb ed="#G" n="85"/>persona filij est incarnata: ergo &amp;c 
-    </p>
-            <p xml:id="HuYgTa-161855-d1e1105">
-               <lb ed="#G" n="86"/>
-               <pc type="indent"/>Non plus ad praesens de isto articulo: quia in sequenti 
-      <lb ed="#G" n="87"/>uaestione intendo pertractare, quo modo illud esse
-      po<lb ed="#G" n="88" break="no"/>tuerit sine omni contradictione. 
-    </p>
-            <p xml:id="HuYgTa-161855-d1e1116">
-               <lb ed="#G" n="89"/>
-               <pc type="indent"/>ARTICVLVS Il 
-      <lb ed="#G" n="90"/>Vtrum ratione huius incarnationis in christo 
-      <lb ed="#G" n="91"/>
-               <pc type="indent"/>Dei filio fuerint plura esse¬
-    </p>
-            <p xml:id="HuYgTa-161855-d1e1129">
-               <lb ed="#G" n="92"/>VANTVM ad tertium articulum, primo distinguen 
-      <lb ed="#G" n="93"/>dum est de esse: quia propter multiplicem eius 
-      <lb ed="#G" n="94"/>acceptionem, multae contingunt aequiuocationes in
-      di<lb ed="#G" n="95" break="no"/>ctis doctorum. Accipitur enim esse quinque modis.
-      Pri<lb ed="#G" n="96" break="no"/>mo pro ipsa rei essentia: &amp; sic dicitur o, topicorum, quod 
-      <lb ed="#G" n="97"/>diffinitio est oratio quid est esse rei significans. Et <ref xml:id="HuYgTa-161855-Rd1e1144">3. de 
-        <lb ed="#G" n="98"/>anima</ref> dicitur, quod intellectus extensus, id est, directo, 
-      <lb ed="#G" n="99"/>&amp; recto aspectu carnis esse cognoscit. Et <ref xml:id="HuYgTa-161855-Rd1e1151">Aui. in
-      metaph<lb ed="#G" n="100" break="no"/>sua</ref> ait, quod primum obiectum intellectus est ens, &amp; esse 
-      <lb ed="#G" n="101"/>In his omnibus &amp; ceteris dictis consimilibus accipitur es 
-      <lb ed="#G" n="102"/>se pro ipsa essentia rei, quae proprie diffinitur, &amp; ipsa diffi 
-      <lb ed="#G" n="103"/>nitione significatur quo ad primum dictum: &amp; recto aspe 
-      <lb ed="#G" n="104"/>ctu intelligitur quo ad secundum, &amp; primo intellectur 
-      <lb ed="#G" n="105"/>obiicitur quo ad tertium. Secundo modo sumitur esse 
-      <lb ed="#G" n="106"/>pro eo, quod vna natura sortitur ex coniunctione ad aliam, 
-      <lb ed="#G" n="107"/>sicut in rebus absolutis. Materia enim sortitur esse exten 
-      <lb ed="#G" n="108"/>um per coniunctionem ad quantitatem, vel ex habitudi 
-      <lb ed="#G" n="109"/>ne ad aliam, sicut in respectiuis. Tertio accipitur esse pro 
-      <lb ed="#G" n="110"/>habitudine compositonis praedicati cum subiecto: &amp; hoc 
-      <lb ed="#G" n="111"/>modo esse, vel ly est accipitur tertio adiacens: quia
-      compu<lb ed="#G" n="112" break="no"/>lat, &amp; coniungit duo extrema, scilicet praedicatum &amp;
-      sub<lb ed="#G" n="113" break="no"/>iectum: sic enim hoc verbum est significat composi¬¬ 
-      <lb ed="#G" n="114"/>tionem, quam sinc composits non est intelligere, vt dici 
-      <lb ed="#G" n="115"/>tur <ref xml:id="HuYgTa-161855-Rd1e1189">1 perihermenias</ref>, &amp; significat, vt verum, secundum quod 
-      <lb ed="#G" n="116"/>dicitur <ref xml:id="HuYgTa-161855-Rd1e1194">s. metap.</ref> Quarto modo accipirur pro actuali ex 
-      <lb ed="#G" n="117"/>stentia rei. Et quinto modo sumitur pro ipsa subsistenti 
-      <lb ed="#G" n="118"/>rei, quae est idem, quod per se subsistere, &amp; alteri non inni 
-      <lb ed="#G" n="119"/>ci. Et secundum hoc, possunt poni quinque conclusiones,  
-      <lb ed="#G" n="120"/>primae quattuor affirmatiuae, &amp; quinta negatiua 
-    </p>
-            <p xml:id="HuYgTa-161855-d1e1207">
-               <lb ed="#G" n="121"/>
-               <pc type="indent"/>PRIuA est, quod primo modo accipiendo esse, scilicet, pr 
-      <lb ed="#G" n="122"/>ipsius rei essentia, sic in Christo sunt plura esse: quia in ip 
-      <lb ed="#G" n="123"/>so sunt plures essentiae, scilicet, diuinitas, &amp; humanitas. 
-    </p>
-            <p xml:id="HuYgTa-161855-d1e1218">
-               <lb ed="#G" n="124"/>
-               <pc type="indent"/>SECVNDoO modo accipiendo esse, etiam sunt plura essi 
-      <lb ed="#G" n="125"/>in Christo, secundum, quod plura sunt in eo, quorum vnum 
-      <lb ed="#G" n="126"/>perfectionaliter coniungitur alteri, vel vnum habitudinem 
-      <lb ed="#G" n="127"/>realem habet ad alterum: anima enim Christi informat 
-      <lb ed="#G" n="128"/>eius materiam, &amp; accidentia totam compositam naturam. 
-    </p>
-            <p xml:id="HuYgTa-161855-d1e1234">
-               <lb ed="#G" n="129"/>
-               <pc type="indent"/>TERTro modo accipiendo esse: tot possumus ponero 
-      <lb ed="#G" n="130"/>esse in Christo, quot possumus veras propositiones de 
-      <lb ed="#G" n="131"/>eo pronunciare. 
-    </p>
-            <p xml:id="HuYgTa-161855-d1e1246">
-               <lb ed="#G" n="132"/>
-               <pc type="indent"/>QARro modo iterum sunt plura esse in Christo; qa 
-      <lb ed="#G" n="133"/>aliud est esse actualis existentiae humanitatis, &amp; aliud 
-      <lb ed="#G" n="134"/>deitatis. Nam esse actualis existentiae humanitatis prtpa 
-      <lb ed="#G" n="135"/>lem gnationem est acquisitu, &amp; differt realiter a sua essentia; 
-      <!--477.xml-->
-      <pb ed="#G" n="P2_3-v"/>
-               <cb ed="#G" n="a"/>
-               <lb ed="#G" n="1"/>quod nequaquam dicere possumus de esse actualis existen 
-      <lb ed="#G" n="2"/>tiae ipsius deitatis. 
-    </p>
-            <p xml:id="HuYgTa-161855-d1e1270">
-               <lb ed="#G" n="3"/>
-               <pc type="indent"/>SeD quinto modo accipiendo esse, dico, quod in Chri 
-      <lb ed="#G" n="4"/>sto est tantummodo vnum esse. Nam licet humana natu 
-      <lb ed="#G" n="5"/>ra Christi actualiter existat, tamen non existit per se: sec 
-      <lb ed="#G" n="6"/>innititur supposito diuino, &amp; ideo esse suae actualis exi 
-      <lb ed="#G" n="7"/>stentiae non est esse subsistentiae: sed tantumodo in
-      Chri<lb ed="#G" n="8" break="no"/>sto est esse diuinae subsistentiae, seu per se existentiae
-    </p>
-            <p xml:id="HuYgTa-161855-d1e1288">
-               <lb ed="#G" n="9"/>2 Praeterea, multiplicatis esse subsistentiae, multiplicar 
-      <lb ed="#G" n="10"/>tur ipsa supposita: quia per se subsistere propric competi 
-      <lb ed="#G" n="11"/>suppositis: sed in Christo non est nisi vnum suppositum, 
-      <lb ed="#G" n="12"/>vt fides sancta tenet, ergo in Christo solum erit vnum tale ees. 
-    </p>
-            <p xml:id="HuYgTa-161855-d1e1299">
-               <lb ed="#G" n="13"/>3 Praeterea, quamuis aliqua natura sit vera substantia, 
-      <lb ed="#G" n="14"/>tamen quamdiu habet modum accidentis, non potest ha 
-      <lb ed="#G" n="15"/>bere esse subsistentiae, seu per se existentiae: sed natura
-      hu<lb ed="#G" n="16" break="no"/>mana, quamuis sit vera substantia, tamen, vt est in Christo, 
-      <lb ed="#G" n="17"/>habet modum accidentis, vt patet per Damas: ergo in 
-      <lb ed="#G" n="18"/>Christo tantummodo erit esse diuinae subsistentiae. 
-    </p>
-            <p xml:id="HuYgTa-161855-d1e1315">
-               <lb ed="#G" n="19"/>
-               <pc type="indent"/>Sed contra istam conclusionem videtur esse
-      sententi<lb ed="#G" n="20" break="no"/>quorumdam doctorum, qui dicunt, quod in Christo sunt 
-      <lb ed="#G" n="21"/>quo esse subsistentiae: vnum simpliciter, quod respondet 
-      <lb ed="#G" n="22"/>diuinae naturae, &amp; alterum secundum quid, quod respon 
-      <lb ed="#G" n="23"/>det humanae naturae. lllud probant sic¬ 
-    </p>
-            <p xml:id="HuYgTa-161855-d1e1331">
-               <lb ed="#G" n="24"/>
-               <pc type="indent"/>Vbicumque sunt duae naturae, quarum vna est eterna, &amp; 
-      <lb ed="#G" n="25"/>increata, alia vero temporalis, &amp; creata: ibi est dare essi 
-      <lb ed="#G" n="26"/>subsistentiae simpliciter, &amp; esse subsistentiae secundum 
-      <lb ed="#G" n="27"/>
-               <pc type="indent"/>quid: sed tales duae naturae sunt in Christo, ergo &amp;c.
-    </p>
-            <p xml:id="HuYgTa-161855-d1e1348">
-               <lb ed="#G" n="28"/>2 Praeterea, diuina praedestinatio respicit rem perfectam 
-      <lb ed="#G" n="29"/>per modum suppositi subsistentis se habentem: sed Chri 
-      <lb ed="#G" n="30"/>stus, secundum humanam naturam praedestinatus fuit ab 
-      <lb ed="#G" n="31"/>aeterno secundum dictum Apostoli, ergo &amp;c 
-    </p>
-            <p xml:id="HuYgTa-161855-d1e1359">
-               <lb ed="#G" n="32"/>
-               <pc type="indent"/>3 Praeterea, Christus in sua passione perdidit esse
-      ho<lb ed="#G" n="33" break="no"/>minis, ergo ante praehabuit esse hominis.
-    </p>
-            <p xml:id="HuYgTa-161855-d1e1368">
-               <lb ed="#G" n="34"/>4 Praeterea, idem esse non potest esse absolutum, &amp;
-      re<lb ed="#G" n="35" break="no"/>latiuum, sed esse suppositi diuini est relatiuum, esse
-      au<lb ed="#G" n="36" break="no"/>tem naturae humanae est absolutum, ergo &amp;c
-    </p>
-            <p xml:id="HuYgTa-161855-d1e1377">
-               <lb ed="#G" n="37"/>3 Praeterea, dicunt etiam aliqui istorum doctorum, quod 
-      <lb ed="#G" n="38"/>doctor noster in hac materia sibi contradicat. Quia in 
-      <lb ed="#G" n="39"/>uo quolibet dicit, quod in Christo non est nisi vnum 
-      <lb ed="#G" n="40"/>esse existentiae. Sed <ref xml:id="HuYgTa-161855-Rd1e1387">3. sententiarum super distin. 8.</ref> dicit 
-      <lb ed="#G" n="41"/>quod in Christo est duplex esse actuale, diuinumscilicet,  
-      <lb ed="#G" n="42"/>&amp; humanum. Nam cum esse, &amp; essentia sint de
-      composi<lb ed="#G" n="43" break="no"/>tione rei, vt est effectus agentis, ideo impossibile est,
-      ali<lb ed="#G" n="44" break="no"/>quam essentiam creatam esse in effectu sine suo esse
-    </p>
-            <p xml:id="HuYgTa-161855-d1e1400">
-               <lb ed="#G" n="45"/>e Praeterea, arguunt isti contra praedictam conclusionem 
-      <lb ed="#G" n="46"/>tic. Vnitas, &amp; multiplicitas ipsius esse in Christo non
-      su<lb ed="#G" n="47" break="no"/>mitur secundum suppositum, ergo sumetur secudum
-      na<lb ed="#G" n="48" break="no"/>turas. Consequentia patet: quia vel sumitur secundum
-      sup<lb ed="#G" n="49" break="no"/>positum, vel secundum naturas. Antecedens probant,: quia si
-      su<lb ed="#G" n="50" break="no"/>meretur secundum suppositum, tunc tria diuina
-      supposi<lb ed="#G" n="51" break="no"/>ta haberent tria esse subsistentiae, quod est falsum, ergo &amp;c 
-    </p>
-            <p xml:id="HuYgTa-161855-d1e1418">
-               <lb ed="#G" n="52"/>
-               <pc type="indent"/>V Praeterea, si humana natura, quae est in Christo, Sibi 
-      <lb ed="#G" n="53"/>ipsi relinqueretur, constat, quod haberet proprium esse 
-      <lb ed="#G" n="54"/>subsistentiae: illud igitur esse, vel nunc habet in Christo. 
-      <lb ed="#G" n="55"/>&amp; tunc habetur propositum: vel non, &amp; tunc in tali
-      de<lb ed="#G" n="56" break="no"/>relictione esset vera generatio propter acceptionem
-      no<lb ed="#G" n="57" break="no"/>ui esse substantialis existentiae.
-    </p>
-            <p xml:id="HuYgTa-161855-d1e1437">
-               <lb ed="#G" n="58"/>S Praeterea, omnis generatio terminatur ad esse: sec 
-      <lb ed="#G" n="59"/>Christus est generatus duplici generatione, ergo habet 
-      <lb ed="#G" n="60"/>duplex esse
-    </p>
-            <p xml:id="HuYgTa-161855-d1e1446">
-               <lb ed="#G" n="61"/>o Praeterea, forma substantialis dat esse simpliciter. cum 
-      <lb ed="#G" n="62"/>ergo in Christo vera fuerit forma substantialis, igitur erit 
-      <lb ed="#G" n="63"/>ibi esse simpliciter, praeter esse deitatis. Et confirmatur 
-      <lb ed="#G" n="64"/>quia <ref xml:id="HuYgTa-161855-Rd1e1456">2. de anima</ref> dicitur, quod viuere viuentib est esse; sed in 
-      <lb ed="#G" n="65"/>Npo e duplex vita, diuina. s&amp; humana, ergo &amp; duplex ee 
-    </p>
-            <p xml:id="HuYgTa-161855-d1e1463">
-               <lb ed="#G" n="66"/>ro Praeterea, Damal lib: 3. ait, quod ea, quae consequun 
-      <lb ed="#G" n="67"/>tur naturam, duplicantur in Christo: sed esse proprie exi 
-      <lb ed="#G" n="68"/>stentiae maxime sequitur naturam  
-    </p>
-            <p xml:id="HuYgTa-161855-d1e1472">
-               <lb ed="#G" n="69"/>
-               <pc type="indent"/>SeD isti, quantum ad haec omnia dicta, vel falsum assu 
-      <lb ed="#G" n="70"/>munt, vel non svllogix antes sunt, vt etiam ait <ref xml:id="HuYgTa-161855-Rd1e1480">philosophus 
-        <lb ed="#G" n="71"/>1. physic.</ref> contra Parmenidem &amp; Melissum, vt plurimum 
-      <lb ed="#G" n="72"/>enim male svllogixant propter aequiuocationem, quam 
-      <lb ed="#G" n="73"/>faciunt de ipso esse. AD PRIMvM igitur dicendum, quod ma 
-      <!--477.xml-->
-      <cb ed="#G" n="b"/>
-               <lb ed="#G" n="74"/>ior est falsa: quia cum natura ereata assumitur ab
-      increa<lb ed="#G" n="75" break="no"/>to supposito, ita que in tali assumptione praeuenitur eius 
-      <lb ed="#G" n="76"/>propria suppositatio, quamuis talis natura creata possit 
-      <lb ed="#G" n="77"/>habere esse existentiae actualis aliud ab esse existentiae
-      ae<lb ed="#G" n="78" break="no"/>ternae haturae, &amp; suppositi aeterni; non tamen habet
-      pro<lb ed="#G" n="79" break="no"/>prium esse subsistentiae, eo quod subsistat subsistentia
-      ae<lb ed="#G" n="80" break="no"/>terni suppositi, a quo assumpta est, &amp; quia sic est in propo 
-      <lb ed="#G" n="81"/>sito, igitur &amp;c. 
-    </p>
-            <p xml:id="HuYgTa-161855-d1e1512">
-               <lb ed="#G" n="82"/>
-               <pc type="indent"/>Ad secundum dicendum, quod humana natura in Christo 
-      <lb ed="#G" n="83"/>non est minus perfecta, nec minus perfecte subsistit a uer 
-      <lb ed="#G" n="84"/>bo Dei sustentata, quam si propria suppositatione
-      subsi<lb ed="#G" n="85" break="no"/>steret, &amp; ideo non minus potest esse praedestinata,
-      quam<lb ed="#G" n="86" break="no"/>uis non habeat proprium esse subsistentiae. Etiam falsum 
-      <lb ed="#G" n="87"/>assumitur: quia non solum entia a Deo sunt
-      praedestina<lb ed="#G" n="88" break="no"/>ta; sed etiam accidentia, &amp; omnes boni euentus eorum, 
-      <lb ed="#G" n="89"/>qui electi sunt ad salutem. 
-    </p>
-            <p xml:id="HuYgTa-161855-d1e1534">
-               <lb ed="#G" n="90"/>
-               <pc type="indent"/>Ad tertium dicendum, quod ibi est fallacia
-      consequen<lb ed="#G" n="91" break="no"/>tis, dicendo, perdidit esse hominis, ergo perdidit proprium 
-      <lb ed="#G" n="92"/>esse subsistentiae hominis: sufficit enim, quod perdiderit 
-      <lb ed="#G" n="93"/>esse actualis existentiae hominis. 
-    </p>
-            <p xml:id="HuYgTa-161855-d1e1548">
-               <lb ed="#G" n="94"/>
-               <pc type="indent"/>Ad quartum dico, quod non plus concluditur, nisi quod 
-      <lb ed="#G" n="95"/>esse existentiae humanae naturae non sit idem, quod esse 
-      <lb ed="#G" n="96"/>diuini suppositi. 
-    </p>
-            <p xml:id="HuYgTa-161855-d1e1559">
-               <lb ed="#G" n="97"/>
-               <pc type="indent"/>FoRTE dicetur, quod secundum doctrinam nostri
-      do<lb ed="#G" n="98" break="no"/>ctoris, si esse existentiae humanae naturae non est idem 
-      <lb ed="#G" n="99"/>uod esse verbi; tuc etem esse subsistentiae humanae naturi 
-      <lb ed="#G" n="100"/>non erit idem esse subsistentiae verbi: quia ipse dicit in secudo 
-      <lb ed="#G" n="101"/>uo quolibet, quod esse existentiae, &amp; esse subsistentiae, non 
-      <lb ed="#G" n="102"/>differunt, nisi respectu diuersorum, puta accidentia ita 
-      <lb ed="#G" n="103"/>habent esse existentiae, quod tamen non habent esse sul 
-      <lb ed="#G" n="104"/>sistentiae: ita enim accidentia actualiter existunt, quod 
-      <lb ed="#G" n="105"/>tamen non subsistunt: quia non per se existunt. In
-      sub<lb ed="#G" n="106" break="no"/>stantiis autem idem est, vt ipse ait, esse existentiae, quod  
-      <lb ed="#G" n="107"/>esse subsistentiae. 
-    </p>
-            <p xml:id="HuYgTa-161855-d1e1588">
-               <lb ed="#G" n="108"/>
-               <pc type="indent"/>RESPONDEO breuiter, quod sicut idem doctor
-      no<lb ed="#G" n="109" break="no"/>ster dicit, humana substantia in Christo habet modum 
-      <lb ed="#G" n="110"/>accidentis, &amp; ideo, quamuis in ceteris perfectis
-      substan<lb ed="#G" n="111" break="no"/>tiis; idem Sit esse existentiae, &amp; esse subsistentiae, non
-      ta<lb ed="#G" n="112" break="no"/>men in Christi humanitate. 
-    </p>
-            <p xml:id="HuYgTa-161855-d1e1604">
-               <lb ed="#G" n="113"/>
-               <pc type="indent"/>Ad quintum dicendum, quod cum doctor noster in 
-      <lb ed="#G" n="114"/>uo quolibet dicit, quod in Christo Sit vnum esse; ipse 
-      <lb ed="#G" n="115"/>intelligit de esse subsistentiae, quod est vnum tantum in 
-      <lb ed="#G" n="116"/>eo. Sed in scripto suo super tertium sententiarum
-      loqui<lb ed="#G" n="117" break="no"/>tur de esse actualis existentiae, quod est duplex in Christo, 
-      <lb ed="#G" n="118"/>puta vnum ex parte diuinae naturae, quod est realiter idem 
-      <lb ed="#G" n="119"/>cum ipsa natura diuina, aliud ex parte humanae naturae, 
-      <lb ed="#G" n="120"/>quod realiter differt ab humana natura, &amp; realem
-      com<lb ed="#G" n="121" break="no"/>ositionem facit cum ea
-    </p>
-            <p xml:id="HuYgTa-161855-d1e1628">
-               <lb ed="#G" n="122"/>FoRTE adhuc dicetur, quod, hoc toto supposito, adhuc 
-      <lb ed="#G" n="123"/>non erit tantum vnum esse subsistentiae in Christo: quia 
-      <lb ed="#G" n="124"/>lanum est, quod essentia diuina per se existit propria
-      subsi<lb ed="#G" n="125" break="no"/>stentia, &amp; per consequens absoluta; persona autem
-      diui<lb ed="#G" n="126" break="no"/>na etiam per se existit subsistentia relatiua: subsistentia 
-      <lb ed="#G" n="127"/>autem relatiua non est subsistentia absoluta, ergo &amp;c. 
-    </p>
-            <p xml:id="HuYgTa-161855-d1e1644">
-               <lb ed="#G" n="128"/>
-               <pc type="indent"/>RESPONDEO, quod Sicut natura diuina non ponit
-      nu<lb ed="#G" n="129" break="no"/>merum cum persona, quia natura diuina in qualibet
-      per<lb ed="#G" n="130" break="no"/>sona est realiter idem cum persona: sic dato, quod in ver 
-      <lb ed="#G" n="131"/>po Dei Sit subsistere absolutum ratione essentiae, &amp;
-      sub<lb ed="#G" n="132" break="no"/>Sistere relatiuum ratione proprietatis relatiuae:
-      susisten<lb ed="#G" n="133" break="no"/>tia tamen absoluta non differt a subsistentia relatiua: sed 
-      <lb ed="#G" n="134"/>in qualibet diuina persona est idem realiter cum subsi 
-      <lb ed="#G" n="135"/>stentia relatiua; quia non magis differt subsistentia a 
-      <lb ed="#G" n="136"/>subsistentia, quam subsistens a subsistente, sed natura
-      sub<lb ed="#G" n="137" break="no"/>istens, &amp; persona subsistens sunt vnum realiter, ergo &amp;c 
-    </p>
-            <p xml:id="HuYgTa-161855-d1e1671">
-               <lb ed="#G" n="138"/>
-               <pc type="indent"/>Ad sextum dicendum, quod antecedens est negandum, 
-      <lb ed="#G" n="139"/>loquendo de esse subsistentiae. Ad probationem dico, quod 
-      <lb ed="#G" n="140"/>vt patet per <ref xml:id="HuYgTa-161855-Rd1e1681">Aug. 7. de trin</ref> dupliciter possumus loqui de 
-      <lb ed="#G" n="141"/>subsistere in diuinis. Vno modo absolute, &amp; Sic vna est 
-      <lb ed="#G" n="142"/>trium personarum subsistentia, sicut earum est vna esser 
-      <lb ed="#G" n="143"/>tia: alio modo pro incommunicabili singularitate, qua 
-      <lb ed="#G" n="144"/>suppositum per se subsistit in aliqua natura incomunica 
-      <lb ed="#G" n="145"/>biliter, &amp; distincte ab omni alio supposito, &amp; Sic in
-      diui<lb ed="#G" n="146" break="no"/>nis sunt tria subsistere, secundum quod sunt tria supposita 
-      <!--478.xml-->
-      <pb ed="#G" n="P2_4-r"/>
-               <cb ed="#G" n="a"/>
-               <lb ed="#G" n="1"/>Fon re dicetur, quod si suppositum diuinum per se
-      subsi<lb ed="#G" n="2" break="no"/>stat, tunc erit suppositum absolutum. 
-    </p>
-            <p xml:id="HuYgTa-161855-d1e1709">
-               <lb ed="#G" n="3"/>
-               <pc type="indent"/>RESPONDEO negando consequentiam, quia per se subsi 
-      <lb ed="#G" n="4"/>stere non facit, nec arguit suppositum absolutum praecise: 
-      <lb ed="#G" n="5"/>ed ad se subsistere. quodlibet autm diuinum suppositum, li 
-      <lb ed="#G" n="6"/>cet substat per se, tamen non subsistit ad se, sed ad aliud¬ 
-    </p>
-            <p xml:id="HuYgTa-161855-d1e1722">
-               <lb ed="#G" n="7"/>
-               <pc type="indent"/>Ad septimum dicendum, quod si natura humana dimitto 
-      <lb ed="#G" n="8"/>retur a verbo, &amp; tamen per communem Dei influentiam 
-      <lb ed="#G" n="9"/>conseruaretur, ne tenderet in non esse, tunc idem esse hu 
-      <lb ed="#G" n="10"/>manae naturae, quod solum fuit esse existentiae, cum suster 
-      <lb ed="#G" n="11"/>tabatur a verbo; modo esset non solum esse existentiae, sed 
-      <lb ed="#G" n="12"/>etiam subsistentiae. esset. enm idem esse, licet alter esset modus 
-      <lb ed="#G" n="13"/>habedi illud esse, quia primo tale esse haberetur cum
-      qua<lb ed="#G" n="14" break="no"/>dam innisione ad alterum: modo autem haberetur praeter hu 
-      <lb ed="#G" n="15"/>iusmodi innixionem. Sicut enim subtracto subiecto in
-      sa<lb ed="#G" n="16" break="no"/>cramento altaris idem esse eiusdem quantitatis, quod  
-      <lb ed="#G" n="17"/>fuit inesse ante conuersionem panis, facta conuersione, ita 
-      <lb ed="#G" n="18"/>erit esse, quod non erit inesse: quia, vt puto, nullum nouum 
-      <lb ed="#G" n="19"/>esse acquirit huiusmodi quantitas per amissionem
-      subie<lb ed="#G" n="20" break="no"/>cti, sed solummodo nouum modum essendi secundum 
-      <lb ed="#G" n="21"/>idem esse, fic in proposito &amp;c. Vnde non est imaginadum, 
-      <lb ed="#G" n="22"/>quod in eadem natura esse subsistentiae, siue per se
-      subsi<lb ed="#G" n="23" break="no"/>stere super esse, actuali existentiae addat aliquod esse: sed  
-      <lb ed="#G" n="24"/>solum addit modum habendi huiusmodi esse 
-    </p>
-            <p xml:id="HuYgTa-161855-d1e1766">
-               <lb ed="#G" n="25"/>
-               <pc type="indent"/>Ad octauum nego maiorem, loquendo de esse
-      subsi<lb ed="#G" n="26" break="no"/>stentiae. Vnde sicut accidens vere generatur, &amp; tamen por 
-      <lb ed="#G" n="27"/>generationem ipsum accidens non acquirit esse subsisten 
-      <lb ed="#G" n="28"/>tiae, sed solum esse existentiae, sic quia humanitas in Chri 
-      <lb ed="#G" n="29"/>sto habet modum essendi accidentis &amp;c 
-    </p>
-            <p xml:id="HuYgTa-161855-d1e1782">
-               <lb ed="#G" n="30"/>
-               <pc type="indent"/>Ad nonum dicendum, quod nec argumentum, nec eius 
-      <lb ed="#G" n="31"/>confirmatio arguit de natura per alterum sustentata: sed  
-      <lb ed="#G" n="32"/>solum de ea, quae secudum comunem cursum naturae sibi 
-      <lb ed="#G" n="33"/>ipsi est derelicta. 
-    </p>
-            <p xml:id="HuYgTa-161855-d1e1795">
-               <lb ed="#G" n="34"/>
-               <pc type="indent"/>Ad decimum dicendum, quod esse subsistentiae non
-      se<lb ed="#G" n="35" break="no"/>quitur naturam humanam, nisi cum sibi ipsi secudum
-      na<lb ed="#G" n="36" break="no"/>turae cursum derelinquitur. 
-    </p>
-            <p xml:id="HuYgTa-161855-d1e1807">
-               <lb ed="#G" n="37"/>
-               <pc type="indent"/>ARTIC. III 
-      <lb ed="#G" n="38"/>Vtrum si homo non peccasset, filius Dei humanam 
-      <lb ed="#G" n="39"/>
-               <pc type="indent"/>naturam assumpsisset
-    </p>
-            <p xml:id="HuYgTa-161855-d1e1820">
-               <lb ed="#G" n="40"/>VANTVM ad quartum articulum dico, quod illud 
-      <lb ed="#G" n="41"/>
-               <pc type="indent"/>admirabile commertium, diuinae scilicet
-      incarn<lb ed="#G" n="42" break="no"/>tionis mysterium, nobis nulla patet ratione: sed sola fide 
-      <lb ed="#G" n="43"/>&amp; assertione sacrae scripturae, iuxta illud Teonis papae in 
-      <lb ed="#G" n="44"/>suo sermone de natiuitate. Vtranque naturam, diuinam,  
-      <lb ed="#G" n="45"/>scilicet, &amp; humanam in vnam conuenisse personam nisi 
-      <lb ed="#G" n="46"/>fides credat, ratio non explicat. Et quia sacra scriptura, vt 
-      <lb ed="#G" n="47"/>lurimum assignat rationem incarnationis fuisse
-      redem<lb ed="#G" n="48" break="no"/>itionem humani generis, liberationem a nostris peccatis,  
-      <lb ed="#G" n="49"/>&amp; destructionem diabolicae captiuitatis: ideo, quamuis 
-      <lb ed="#G" n="50"/>aliqui sollemnes doctores teneant oppositum, tamen ad 
-      <lb ed="#G" n="51"/>praesens dico, quod si homo non peccasset, filius Dei
-      in<lb ed="#G" n="52" break="no"/>tarnatus non fuisset. Quod probo sic cessante caussa. cessat 
-      <lb ed="#G" n="53"/>fffectus: Sed super illo verbo, Apost. Christus venit in 
-      <lb ed="#G" n="54"/>huc mudum, vt peccatores saluos saceret, dicit glo. Nulla 
-      <lb ed="#G" n="55"/>causa veniendi fuit Christo, nisi peccatores saluos facere 
-      <lb ed="#G" n="56"/>tolle morbos, tolle vulnera, nulla est causa medicinae. 
-    </p>
-            <p xml:id="HuYgTa-161855-d1e1862">
-               <lb ed="#G" n="57"/>
-               <pc type="indent"/>2 Praeterea, Augu super illo verbo Mat. 1. Ipse enim sal 
-      <lb ed="#G" n="58"/>uum faciet populum suum a peccatis eorum, dicit. Si
-      ho<lb ed="#G" n="59" break="no"/>mo non peccasset, virgo non peperisset
-    </p>
-            <p xml:id="HuYgTa-161855-d1e1873">
-               <lb ed="#G" n="60"/>3 Praeterea, August. in libro de verbis Apostoli
-      expo<lb ed="#G" n="61" break="no"/>nens illud, venit filius hominis quaerere &amp; saluum
-      face<lb ed="#G" n="62" break="no"/>re, quod perierat, dicit. Si homo non peccasset, filius Dei 
-      <lb ed="#G" n="63"/>non venisset 
-    </p>
-            <p xml:id="HuYgTa-161855-d1e1884">
-               <lb ed="#G" n="64"/>
-               <pc type="indent"/>SED oppositum istius conclusionis quidam doctore; 
-      <lb ed="#G" n="65"/>probant sic. Perfectio vniuersi non innascitur ex culpa: 
-      <lb ed="#G" n="66"/>sed, quod idem Christus sit Deus, &amp; homo, est magna 
-      <lb ed="#G" n="67"/>perfectio vniuersi.
-    </p>
-            <p xml:id="HuYgTa-161855-d1e1897">
-               <lb ed="#G" n="68"/>2 Praeterea, non minus debet beatificari vita sensitiua, 
-      <lb ed="#G" n="69"/>numquam fuit nocens, quam ea, quae post delictum est poeni 
-      <lb ed="#G" n="70"/>tens: sed sensus poenitentis hominis beatitudinem suam ha 
-      <!--478.xml-->
-      <cb ed="#G" n="b"/>
-               <lb ed="#G" n="71"/>bebut in humanitate Christi: sensus asit innocentis hoinis. 
-      <lb ed="#G" n="72"/>si Deus humanam naturam non assumpsisset, nullam reciperent bea 
-      <lb ed="#G" n="73"/>titudinem a Deo: quia nullum obiectum haberent in eo: ergo &amp;c.
-    </p>
-            <p xml:id="HuYgTa-161855-d1e1918">
-               <lb ed="#G" n="74"/>3 Praeterea, humana natura immunis a peccato
-      capa<lb ed="#G" n="75" break="no"/>cior fuisset gratia vnionis, quam natura maculata
-      pecca<lb ed="#G" n="76" break="no"/>to: ergo potius debuit fieri talis vnio in statu innocentiae, 
-      <lb ed="#G" n="77"/>quam in statu peccati: ergo &amp;c.
-    </p>
-            <p xml:id="HuYgTa-161855-d1e1929">
-               <lb ed="#G" n="78"/>1 Praeterea, <ref xml:id="HuYgTa-161855-Rd1e1933">Aug. 15. de trinitate</ref> dicit, quod ideo Deus 
-      <lb ed="#G" n="79"/>incarnari voluit, &amp; sic nos redimere, vt ostenderet.
-      quan<lb ed="#G" n="80" break="no"/>tum nos diligeret: sed Deus non minus dilexisset
-      homi<lb ed="#G" n="81" break="no"/>nem, si non peccasset, igitur per incarnationem
-      huiusmo<lb ed="#G" n="82" break="no"/>di dilectionem sibi demonstrasset 
-    </p>
-            <p xml:id="HuYgTa-161855-d1e1946">
-               <lb ed="#G" n="83"/>3 Praeterea, <ref xml:id="HuYgTa-161855-Rd1e1950">Ansel in lib cur Deus homo</ref>, ait, quod prae 
-      <lb ed="#G" n="84"/>cisa causa, cur homo creatus est ad beatitudinem
-      conse<lb ed="#G" n="85" break="no"/>quendam, non fuit ruina angelorum: quia alias sicut
-      ho<lb ed="#G" n="86" break="no"/>mo non potest non gaudere de sua beatitudine, sic non 
-      <lb ed="#G" n="87"/>posset non gaudere de ruina angelorum. Sic potest a simi 
-      <lb ed="#G" n="88"/>li argui in proposito: quia si ratio praecisa, quare filius Dei 
-      <lb ed="#G" n="89"/>assumpsit humanam naturam, esset peccatum hominis,  
-      <lb ed="#G" n="90"/>tunc sicut ho non pot non gaudere de huiusmodi
-      assum<lb ed="#G" n="91" break="no"/>ptione sic non posset non gaudere a peccato, quod est falsum 
-    </p>
-            <p xml:id="HuYgTa-161855-d1e1971">
-               <lb ed="#G" n="92"/>
-               <pc type="indent"/>AD PRIMvM dicendum, quod absolute, &amp; simpliciter
-      lo<lb ed="#G" n="93" break="no"/>uendo, tunc minor est falsa: quia eade ratione posset dici, quod 
-      <lb ed="#G" n="94"/>Deum assumere naturam angelorum esset de perfectione vni 
-      <lb ed="#G" n="95"/>uersi. vnde pfectio vniuersi non requirit hypostaticam
-      vnio<lb ed="#G" n="96" break="no"/>ne finis, &amp; principij: sed requirit debiti ordinis conexionem 
-      <lb ed="#G" n="97"/>finis ad principium, qua ea, quod sunt ad fine, dirigantur in finem,  
-      <lb ed="#G" n="98"/>&amp; finem consequantur. Et quia iste ordo non fuisset
-      inter<lb ed="#G" n="99" break="no"/>ruptus, si non fuisset peccatum: ideo quamuis posset dici,  
-      <lb ed="#G" n="100"/>quoe dominica incarnatio, qua talis ordo fuit reparatus, sit 
-      <lb ed="#G" n="101"/>de perfectione vniuersi post peccatum hominis: tamen 
-      <lb ed="#G" n="102"/>ante peccatum non fuisset de vniuersi perfectione 
-    </p>
-            <p xml:id="HuYgTa-161855-d1e2000">
-               <lb ed="#G" n="103"/>
-               <pc type="indent"/>Ad secundum, nego minorem pro illa parte, qua dicit,  
-      <lb ed="#G" n="104"/>uoe sensus innocentis hominis &amp;c. Ad probationem dico,  
-      <lb ed="#G" n="105"/>p licet virtutes sensitiuae tunc nullum haberent
-      imme<lb ed="#G" n="106" break="no"/>diatum obiectum in Deo: tamen essent beatae ex redun 
-      <lb ed="#G" n="107"/>dantia virium superiorum, quae immediatum habent
-      obie<lb ed="#G" n="108" break="no"/>ctum in Deo. Et ista videtur esse intentio Augu. ad
-      Dio<lb ed="#G" n="109" break="no"/>scorum, vbi ait, Tantam virtutem dominus dedit animae. 
-      <lb ed="#G" n="110"/>vt eius perfecta beatitudo redundet in vires inferiores. 
-    </p>
-            <p xml:id="HuYgTa-161855-d1e2022">
-               <lb ed="#G" n="111"/>
-               <pc type="indent"/>Ad tertium nego maiorem: quia illa capacitas non est 
-      <lb ed="#G" n="112"/>potentiae naturalis: sed solum potentiae obedientialis,  
-      <lb ed="#G" n="113"/>quae quidem potentia non minus fuit in homine post pec 
-      <lb ed="#G" n="114"/>catum, quam ante peccatum. 
-    </p>
-            <p xml:id="HuYgTa-161855-d1e2036">
-               <lb ed="#G" n="115"/>
-               <pc type="indent"/>FoRTE dicetur, si aequalis capacitas fuit ante peccatum, 
-      <lb ed="#G" n="116"/>post, quamuis illa non fuerit per potentiam naturalem 
-      <lb ed="#G" n="117"/>sed obedientialem : ergo saltem aequaliter fuisset homo 
-      <lb ed="#G" n="118"/>assumptus, si non peccasset, sicut postquam peccauit 
-    </p>
-            <p xml:id="HuYgTa-161855-d1e2049">
-               <lb ed="#G" n="119"/>
-               <pc type="indent"/>RESPONDFO, quod quamuis homo fuisset aequaliter assum 
-      <lb ed="#G" n="120"/>ptibilis:: tamen non affuisset aequalis ratio assumptionis 
-      <lb ed="#G" n="121"/>uia nulla fuisset necessitas nostrae redemptionis. 
-      <lb ed="#G" n="122"/>Ad quartum dicendum, quod vera dilectio maxime
-      pro<lb ed="#G" n="123" break="no"/>patur in necessitatis articulo: ideo quamuis Deus ante 
-      <lb ed="#G" n="124"/>peccatum non minus diligeret hominem, quam post pec 
-      <lb ed="#G" n="125"/>catum: tamen magis fuit opportunum, illud maximum
-      si<lb ed="#G" n="126" break="no"/>num dilectionis ostendere post lapsum peccati, quando 
-      <lb ed="#G" n="127"/>nomo indiguit hoc signo suae liberationis, quam si homo 
-      <lb ed="#G" n="128"/>non peccasset: quia tunc nullam necessitatem istius osten 
-      <lb ed="#G" n="129"/>sionis habuisset. Tamen multa alia signa dilectionis Deus 
-      <lb ed="#G" n="130"/>huiusmodi ostendisset; si non peccasset: puta quia sine om 
-      <lb ed="#G" n="131"/>ni poena, immo cum magna delectatione presentis vitae,  
-      <lb ed="#G" n="132"/>eum ad aeternam beatitudinem assumpsisset, 
-    </p>
-            <p xml:id="HuYgTa-161855-d1e2084">
-               <lb ed="#G" n="133"/>
-               <pc type="indent"/>Ad quintum dicendum, quod peccatu non fuit
-      praeci<lb ed="#G" n="134" break="no"/>sa causa diuinae incarnationis: quia causa praecisa est
-      cau<lb ed="#G" n="135" break="no"/>sa prse, quae necessario, vel est maioris perfectionis, quam  
-      <lb ed="#G" n="136"/>effectus, vel saltem aequalis. Peccatum autem nullius est 
-      <lb ed="#G" n="137"/>erfectionis. Vnde dico quod peccatum fuit causa
-      occa<lb ed="#G" n="138" break="no"/>sionalis: Dei autem dilectio fuit causa per se, &amp;
-      princi<lb ed="#G" n="139" break="no"/>palis. Sed nunc est ita, quod aliquis potest gaudere de ali 
-      <lb ed="#G" n="140"/>quo effectu: quamuis doleat de occasione illius effectus. 
-      <lb ed="#G" n="141"/>Persecutio enim ecclesiae Dei fuit Paulo occasio maioris 
-      <lb ed="#G" n="142"/>meriti, iuxta quod ipse ait, vt, vbi abundauit iniquitas,  
-      <lb ed="#G" n="143"/>aibundet &amp; gratia: tamen &amp;c.
-    </p>
-            <p xml:id="HuYgTa-161855-d1e2113">
-      <!--479.xml-->
-               <pb ed="#G" n="P2_4-v"/>
-               <cb ed="#G" n="a"/>
-               <lb ed="#G" n="1"/>ET per hoc etiam patet ad argumentum principale: 
-      <lb ed="#G" n="2"/>quia quamuis per se, &amp; causaliter innocentia nulli obsit 
-      <lb ed="#G" n="3"/>nec peccatum debeat prodesse: per accidens tamen &amp;
-      oc<lb ed="#G" n="4" break="no"/>casionaliter innocentia quandoque potest obesse,
-      pecca<lb ed="#G" n="5" break="no"/>tum prodesse
-    </p>
-         </div>
-      </body>
-   </text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 1</title>
+        <author ref="#ThomasStrasbourg">Thomas of Strasbourg</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 1</title>
+          <date when="2020-11-26">November 26, 2020</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="G" n="cod-TxxxqU">Genoa 1585</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2020-11-26" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#G" n="P2_2-r"/>
+        <cb ed="#G" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="HuYgTa-161855"><!-- HuYgTa-l3d1q1 -->
+        <head xml:id="HuYgTa-161855-Hd1e108">Quaestio 1</head>
+        <head xml:id="HuYgTa-161855-Hd1e111" type="question-title">
+          An, si homo non peccasset, 
+          filius Dei humanam naturam assumpsisset.
+        </head>
+        <p xml:id="HuYgTa-161855-d1e114">
+          <!--474.xml-->
+          <pb ed="#G" n="P2_2-r"/>
+          <cb ed="#G" n="a"/>
+          <lb ed="#G" n="1"/>Quaestio I. 
+          <lb ed="#G" n="2"/>An, si homo non peccasset, filius Dei
+          huma<lb ed="#G" n="3" break="no"/>nam naturam assumpsisset.
+        </p>
+        <p xml:id="HuYgTa-161855-d1e130">
+          <lb ed="#G" n="4"/>VVIRVM filius Dei humanam naturam assumpsisset 
+          <lb ed="#G" n="5"/>dato quod homo sine omni peccato in statu inno 
+          <lb ed="#G" n="6"/>
+          <pc type="indent"/>centiae permansisset.
+        </p>
+        <p xml:id="HuYgTa-161855-d1e141">
+          Et videtur quod non. Quia in 
+          <lb ed="#G" n="7"/>Dei operibus nihil debet fieri frustra, cum Deus &amp; natu 
+          <lb ed="#G" n="8"/>ra nihil faciant frustra, vt patet <ref xml:id="HuYgTa-161855-Rd1e147">1. cae. &amp; mun</ref> sed si homo 
+          <lb ed="#G" n="9"/>non peccasset, frustra fuisset Deus homo factus, qui homi 
+          <lb ed="#G" n="10"/>nem a peccato liberasset. Vnde <ref xml:id="HuYgTa-161855-Rd1e155">Augu. in sua oratione 
+            <lb ed="#G" n="11"/>quam dirigit ad virginem gloriosam</ref>, ait. Vt quid
+          nesci<lb ed="#G" n="12" break="no"/>peccati pro peccatoribus pareres, si deesset, qui peccasset; 
+          <lb ed="#G" n="13"/>rt quid mater fieres Saluatoris, si nulla esset
+          indigenti<lb ed="#G" n="14" break="no"/>salutis; 
+        </p>
+        <p xml:id="HuYgTa-161855-d1e168">
+          <lb ed="#G" n="15"/>
+          <pc type="indent"/>Contra, nullus debet priuari summa dignitate rationi 
+          <lb ed="#G" n="16"/>suae totalis innocentiae: ergo si homo non peccasset: ad 
+          <lb ed="#G" n="17"/>huc filius Dei humanam naturam assumpsisset.
+          Antece<lb ed="#G" n="18" break="no"/>dens patet,. quia sicut nullus ex suo delicto conmodum di 
+          <lb ed="#G" n="19"/>gnitatis debet reportare: sic nec ex sua innocentia priua 
+          <lb ed="#G" n="20"/>tionem dignitatis. Consequentia etiam patet; quia ex 
+          <lb ed="#G" n="21"/>quo, postquam homo peccauit, Deus tantam dignitatem 
+          <lb ed="#G" n="22"/>sibi contulit, vt suppositaliter vniretur filio Dei. igitur si 
+          <lb ed="#G" n="23"/>non peccasset, Deus huiusmodi dignitate hominem non 
+          <lb ed="#G" n="24"/>priuasset. Hic quattuor sunt videnda Primo vtrum
+          possi<lb ed="#G" n="25" break="no"/>bile sit personam diuinam assumere naturam creatam in 
+          <lb ed="#G" n="26"/>supposit vnitatem. Secundo vtrum talis assumptio, seu 
+          <lb ed="#G" n="27"/>incarnatio fuerit solitarie terminata ad personam filij 
+          <lb ed="#G" n="28"/>absque hoc, quod terminaretur ad personas patris, &amp;
+          spiri<lb ed="#G" n="29" break="no"/>tus sancti. Tertio vtrum ratione huius incarnationis in 
+          <lb ed="#G" n="30"/>Christo Dei filio fuerint plura esse. Et quarto de
+          princi<lb ed="#G" n="31" break="no"/>pali quaesito. 
+        </p>
+        <p xml:id="HuYgTa-161855-d1e210">
+          <lb ed="#G" n="32"/>
+          <pc type="indent"/>RESOLVTIO. 
+          <lb ed="#G" n="33"/>Quamquam personam diuinam abumere naturam creatam in 
+          <lb ed="#G" n="34"/>vnitate suppositi naturali ratione directe octendere
+          nequa<lb ed="#G" n="35" break="no"/>quam possumus, indirecte tamen non est impossibile, puta, 
+          <lb ed="#G" n="36"/>tum aduersariorum rationibus satisfit cum igitur hanc beni 
+          <lb ed="#G" n="37"/>dictam incarnationem totatrinitas, &amp; appropriate spiritu 
+          <lb ed="#G" n="38"/>sanctus cooperatus sit, solus tamen Dei filius eam
+          singula<lb ed="#G" n="39" break="no"/>ruer terminauit. 
+        </p>
+        <p xml:id="HuYgTa-161855-d1e232">
+          <lb ed="#G" n="40"/>
+          <pc type="indent"/>ARTICLVSI 
+          <lb ed="#G" n="41"/>Vtrum possibile sit personam diuinam assumere
+          na<lb ed="#G" n="42" break="no"/>
+          <pc type="indent"/>turam creatum in suppositi nitatem
+        </p>
+        <p xml:id="HuYgTa-161855-d1e245">
+          <lb ed="#G" n="43"/>QVANTVM ad primum pono duas conclusiones. 
+          <lb ed="#G" n="44"/>Prima est, quod personam diuinam assumere
+          na<lb ed="#G" n="45" break="no"/>turam creatam in vnitatem suppositi, non potest ostend 
+          <lb ed="#G" n="46"/>esse possibile directe, &amp; positiue: puta, quod modus illius 
+          <lb ed="#G" n="47"/>assumptionis, seu vnionis sufficienter ostendatur 
+          <lb ed="#G" n="48"/>Secunda est, quod potest ostendi indirecte &amp;
+          negatiue<lb ed="#G" n="49" break="no"/>puta, potest ostendi, quod non sit impossibile rationibus 
+          <lb ed="#G" n="50"/>in contrarium factis sufficienter respondere. 
+          <lb ed="#G" n="51"/>Primum probo sic. lllud, quod est super omnem ra 
+          <lb ed="#G" n="52"/>cionem humanam, non potest ostendi humana ratione 
+          <!--474.xml-->
+          <cb ed="#G" n="b"/>
+          <lb ed="#G" n="53"/>sed modus iam dictae vnionis est super omnem rationem 
+          <lb ed="#G" n="54"/>humamam. Maior patet: Minor probari potest per mult 
+          <lb ed="#G" n="55"/>dicta sanctorum. Ait enim <name xml:id="HuYgTa-161855-Nd1e279" ref="#Ambrose">Ambro.</name> de verbi Dei
+          incarna<lb ed="#G" n="56" break="no"/>tione contra haereticum sic. Mihi est impossibile
+          oenera<lb ed="#G" n="57" break="no"/>tionis Christi scire secretum: mens deficit, vox silet, non 
+          <lb ed="#G" n="58"/>mea tantum, sed &amp; angelorum super Potestates, super Chi 
+          <lb ed="#G" n="59"/>rubin, &amp; super Seraphin, &amp; super omnem sensum est. Ei 
+          <lb ed="#G" n="60"/>ait <name xml:id="HuYgTa-161855-Nd1e293" ref="#Ambrose">Ambro.</name> Ergo haeretice ori tuo manum impone:
+          scru<lb ed="#G" n="61" break="no"/>tari non licet superma mysteria: licet scire, quod natus sit 
+          <lb ed="#G" n="62"/>sed non licet scire, quomodo natus sit: ineffabilis est enim 
+          <lb ed="#G" n="63"/>illa generatio: humanum sensum &amp; mundi intelligentia 
+          <lb ed="#G" n="64"/>excedit: hoc non capit humanae intelligentiae ratio: sed 
+          <lb ed="#G" n="65"/>prudentiae fidelis prosessio. Et <ref xml:id="HuYgTa-161855-Rd1e307">Augustinus ad Volusianu</ref> 
+          <lb ed="#G" n="66"/>ait de ista mirabili vnione. Hic si ratio quaeritur, non es 
+          <lb ed="#G" n="67"/>admirabile: si exemplum poscitur, non est singulare:
+          de<lb ed="#G" n="68" break="no"/>mus igitur Deum aliquid posse, quod nos fateamur inuc 
+          <lb ed="#G" n="69"/>stigare non posse: in talibus namque rebus tota ratio fa 
+          <lb ed="#G" n="70"/>cti est potentia facientis. Et <ref xml:id="HuYgTa-161855-Rd1e321">
+            <name xml:id="HuYgTa-161855-Nd1e323">Alanus</name> in suis versiculis de 
+            <lb ed="#G" n="71"/>hoc profundissimo mysterio Dei</ref> ait. Hic natura silet:
+          lo<lb ed="#G" n="72" break="no"/>gicae vis exulat omnis. Phetoricae perit arbitrium, ratioqu 
+          <lb ed="#G" n="73"/>vacillat. Nec mirum, quia ille, qui testimonio Saluatoris 
+          <lb ed="#G" n="74"/>erat lucerna ardens, &amp; lucens, &amp; non solum propheta, sec 
+          <lb ed="#G" n="75"/>plus quam propheta; se dixit non esse dignum soluere
+          cor<lb ed="#G" n="76" break="no"/>rigiam calciamentorum eius, idest, secundum glosam, mi 
+          <lb ed="#G" n="77"/>dum vnionis exprimere naturae diuinae cum humana in 
+          <lb ed="#G" n="78"/>domino nostro lesu Christo. 
+        </p>
+        <p xml:id="HuYgTa-161855-d1e345">
+          <lb ed="#G" n="79"/>
+          <pc type="indent"/>Sed contra istam conclusionem videntur esse dicta san 
+          <lb ed="#G" n="80"/>ctorum, qui modum possibilitatis istius sanctissimae
+          vnio<lb ed="#G" n="81" break="no"/>nis in suis scriptis nituntur ostendere. Quorum vnus ait, quoi 
+          <lb ed="#G" n="82"/>sicut Deus per sui influentiam potest facere, quod
+          substanti<lb ed="#G" n="83" break="no"/>subsistat, &amp; tamen non operetur, vt patuit de igne, in quo 
+          <lb ed="#G" n="84"/>tres pueri fuerunt illaesi, sic potest influere ad esse creata 
+          <lb ed="#G" n="85"/>substantiae, vt scilicet existat: &amp; tamen non per se existat 
+          <lb ed="#G" n="86"/>sed alteri innitatur. Dicunt etiam isti, quod tantae difficulta 
+          <lb ed="#G" n="87"/>tis est spiritum incorporeum luteo corpori vniri, quanta 
+          <lb ed="#G" n="88"/>est naturam humanam in vnitatem suppositi assumere 
+          <lb ed="#G" n="89"/>sed illud est Deo possibile: ergo &amp; istud. Et hanc simili 
+          <lb ed="#G" n="90"/>tudinem tangit etiam Athanasius, cum ait. Sicut anima 
+          <lb ed="#G" n="91"/>rationalis, &amp; caro vnus est homo: ita Deus, &amp; homo vnu 
+          <lb ed="#G" n="92"/>est Christus. Se D ista licet sint bona verba: modus
+          ta<lb ed="#G" n="93" break="no"/>men possibilitatis diuinae incarnationis non ostenditur 
+          <lb ed="#G" n="94"/>Etiam modus probandi non valet: quia non est aequalis 
+          <lb ed="#G" n="95"/>difficultatis illud, quod naturaliter contingit: sicut est il 
+          <lb ed="#G" n="96"/>lud, quod non nisi miraculosissime fieri potest. Sed anima 
+          <lb ed="#G" n="97"/>rationalis naturaliter vnitur corpori humano; immo,
+          si<lb ed="#G" n="98" break="no"/>cut dicunt sancti doctores, si corpori humano, perfecte
+          di<lb ed="#G" n="99" break="no"/>sposito, Deus non infunderet animam, per miraculum 
+          <lb ed="#G" n="100"/>hoc fieret. Item si anima ration alis non vniretur corpori 
+          <lb ed="#G" n="101"/>humano naturaliter, tunc generatio hominis non esset 
+          <lb ed="#G" n="102"/>naturalis; sed miraculosa. Sed alienam naturam assumere 
+          <lb ed="#G" n="103"/>in vnitatem suppositi, non fit naturaliter, sed per
+          maxi<lb ed="#G" n="104" break="no"/>mum miraculum. Dictum etiam Athanasij, quamuis ad 
+          <lb ed="#G" n="105"/>propositum deseruiat in aliqua tenui similitudine, in
+          mul<lb ed="#G" n="106" break="no"/>tis tamen est valde dissimile. Anima enim &amp; corpus
+          con<lb ed="#G" n="107" break="no"/>ssant vnam tertiam naturam: &amp; anima informat corpu 
+          <lb ed="#G" n="108"/>dando sibi esse formale, quae omnia, &amp; multa his similia 
+          <lb ed="#G" n="109"/>dici non possunt de Deo &amp; homine in domino nostro l 
+          <lb ed="#G" n="110"/>su Christo. Nec illud, quod dicunt de igne, sufficit ad prae 
+          <lb ed="#G" n="111"/>sentem declarationem: quia non sequitur illud, quod minus 
+          <lb ed="#G" n="112"/>est difficile, est possibile: ergo &amp; illud magis, quod est diffi 
+          <lb ed="#G" n="113"/>cile, erit possibile. Sed substantiam suspendere a propri 
+          <lb ed="#G" n="114"/>operatione respectu alicuius determinati obiecti, est mul 
+          <lb ed="#G" n="115"/>to minus difficile, quam alienam naturam in vnitatem 
+          <lb ed="#G" n="116"/>supposit assumere. Quia illud potest virtus creata: per ali 
+          <lb ed="#G" n="117"/>qua enim verba &amp; characteres contingit quandoque, qui 
+          <lb ed="#G" n="118"/>ignis hominem non ledit. Sed illud, scilicet ad esse
+          per<lb ed="#G" n="119" break="no"/>sonale alienam naturam assumere, nulla saltem virtus 
+          <lb ed="#G" n="120"/>creata potest: ergo &amp;c. 
+        </p>
+        <p xml:id="HuYgTa-161855-d1e441">
+          <lb ed="#G" n="121"/>
+          <pc type="indent"/>SED contra istam solutionem quidam doctor pro 
+          <lb ed="#G" n="122"/>bat quattuor mediis, quod suppositum creatum possi 
+          <lb ed="#G" n="123"/>assuntere alienam naturam ad vnitatem personalem. Quia 
+          <lb ed="#G" n="124"/>maior conuenientia, &amp; proportio est personalitatis
+          crea<lb ed="#G" n="125" break="no"/>tae ad naturam creatam, quam personalitatis increatae ad na¬ 
+          <!--475.xml-->
+          <pb ed="#G" n="P2_2-v"/>
+          <cb ed="#G" n="a"/>
+          <lb ed="#G" n="1"/>turam creatam, cum igitur persona increata sustentet na 
+          <lb ed="#G" n="2"/>turam creatam, eius assumptionem personaliter termi¬¬ 
+          <lb ed="#G" n="3"/>nando : ergo similiter hoc poterit persona creata, 
+          <lb ed="#G" n="4"/>2 Praeterea, omnis perfectio limitata sinc
+          contradictio<lb ed="#G" n="5" break="no"/>ne poterit competere supposito creato: sed ex hoc, quod 
+          <lb ed="#G" n="6"/>aliquod suppositum sustentat alienam naturam, non
+          re<lb ed="#G" n="7" break="no"/>quirit aliquam virtutem illimitatam: quia nihil facit in 
+          <lb ed="#G" n="8"/>natura sustentata, nisi quod faceret proprium suppositum: 
+          <lb ed="#G" n="9"/>si in proprio supposito sustentaretur : ergo in alieno
+          sup<lb ed="#G" n="10" break="no"/>posito ex tali sustentatione non potest argui maior virtus,  
+          <lb ed="#G" n="11"/>quam illa, quae fuisset in proprio supposito, si huiusmodi 
+          <lb ed="#G" n="12"/>natura fuisset suppositata per proprium suppositum. 
+          <lb ed="#G" n="13"/>3 Praeterea, maioris perfectionis est terminare
+          depen<lb ed="#G" n="14" break="no"/>dentiam alicuius in ratione causae, quam dependentiam  
+          <lb ed="#G" n="15"/>alicuius terminare in ratione personae: quia primum
+          con<lb ed="#G" n="16" break="no"/>petit toti trinitati, &amp; per consequens dicit perfectionem 
+          <lb ed="#G" n="17"/>simpliciter: secundum autem competit soli filio, &amp; per con 
+          <lb ed="#G" n="18"/>sequens non potest dicere perfectionem simpliciter: sed 
+          <lb ed="#G" n="19"/>primum potest competere creato supposito: ergo &amp;
+          se<lb ed="#G" n="20" break="no"/>cundum. 
+        </p>
+        <p xml:id="HuYgTa-161855-d1e507">
+          <lb ed="#G" n="21"/>
+          <pc type="indent"/>4 Praeterea, quanto aliquod suppositum est magis inde 
+          <lb ed="#G" n="22"/>endens, tanto plurium dependentiam potest terminare: 
+          <lb ed="#G" n="23"/>sed suppositum creatum, cum sit absolutum &amp; ad se: est 
+          <lb ed="#G" n="24"/>magis independens, quam suppositum increatum, quod 
+          <lb ed="#G" n="25"/>necessario est relatiuum. ergo &amp;c. 
+        </p>
+        <p xml:id="HuYgTa-161855-d1e523">
+          <lb ed="#G" n="26"/>
+          <pc type="indent"/>SeD contra conclusionem istius doctoris, quam credo 
+          <lb ed="#G" n="27"/>simpliciler falsam, arguo sic. Quia eadem videtur esse
+          li<lb ed="#G" n="28" break="no"/>mitatio naturae ad personam, &amp; personae ad naturam: Sed 
+          <lb ed="#G" n="29"/>nulla vna natura creata potest personari diuersis
+          perso<lb ed="#G" n="30" break="no"/>nis: ergo nulla vna persona creata potest personare
+          di<lb ed="#G" n="31" break="no"/>uersas naturas creatas. Nec valet instantia, si daretur de 
+          <lb ed="#G" n="32"/>materia &amp; forma: quia non personantur, prout distinctas 
+          <lb ed="#G" n="33"/>dicunt naturas: sed vt vnam integrant naturam ex
+          mate<lb ed="#G" n="34" break="no"/>ria, &amp; forma compositam. 
+        </p>
+        <p xml:id="HuYgTa-161855-d1e547">
+          <lb ed="#G" n="35"/>
+          <pc type="indent"/>Ao primum dicendum, quod posse assumere alienam 
+          <lb ed="#G" n="36"/>naturam in vnitatem suppositi, non competit ratione con 
+          <lb ed="#G" n="37"/>uenientiae assumentis ad assumptum: sed ratione
+          praedo<lb ed="#G" n="38" break="no"/>minij virtutis existentis in assumente. 
+        </p>
+        <p xml:id="HuYgTa-161855-d1e560">
+          <lb ed="#G" n="39"/>
+          <pc type="indent"/>Ad secundum dicendum, quod concessa tota ratione, 
+          <lb ed="#G" n="40"/>non plus habetur, nisi quod posse sustentare alienam na 
+          <lb ed="#G" n="41"/>turam Deus possit commumcare supposito creato: &amp; de 
+          <lb ed="#G" n="42"/>hoc ad praesens non quaerimus: nec est ad propositum
+          tam<lb ed="#G" n="43" break="no"/>tum: quia tu intendis probare, quod hoc competat
+          sup<lb ed="#G" n="44" break="no"/>posito creato ex propria sua virtute. Ratio etiam falsum 
+          <lb ed="#G" n="45"/>assumit: quia maior virtus requiritur in supposito ad
+          su<lb ed="#G" n="46" break="no"/>stentandum alienam naturam, quam ad sustentandum pro 
+          <lb ed="#G" n="47"/>priam: quia suppositum sustentando alienam naturam,  
+          <lb ed="#G" n="48"/>oportet quod praeueniat propriam suppositationem illius 
+          <lb ed="#G" n="49"/>naturae, quod fieri non potest, nisi per virtutem infinitam. 
+        </p>
+        <p xml:id="HuYgTa-161855-d1e589">
+          <lb ed="#G" n="50"/>
+          <pc type="indent"/>Ad tertium dicendum, quod maior est falsa, attenden 
+          <lb ed="#G" n="51"/>do potentias, quibus huiusmodi dependentiae
+          terminan<lb ed="#G" n="52" break="no"/>tur. Ad probationem dicendum, quod licet terminatio 
+          <lb ed="#G" n="53"/>psa non dicat perfectionem simpliciter: posse tamen ter 
+          <lb ed="#G" n="54"/>minare dicit perfectionem simpliciter: &amp; competit
+          cuili<lb ed="#G" n="55" break="no"/>bet diuinae personae. 
+        </p>
+        <p xml:id="HuYgTa-161855-d1e607">
+          <lb ed="#G" n="56"/>
+          <pc type="indent"/>Fonre DiCETVn, quod cum nulla res in suo actual 
+          <lb ed="#G" n="57"/>esse sit minoris perfectionis, quam in suo potentiali esse: 
+          <lb ed="#G" n="58"/>ergo si actualis terminatio non dicit perfectionem
+          sim<lb ed="#G" n="59" break="no"/>pliciter : nec posse terminare dicet perfectionem
+          simpli<lb ed="#G" n="60" break="no"/>citer. RESpo NnEo, quod per posse terminare non intel 
+          <lb ed="#G" n="61"/>igo ipsum terminare, siue ipsam terminationem sumptam 
+          <lb ed="#G" n="62"/>in suo esse potentiali: quia, vt sic, non esset maioris, sed 
+          <lb ed="#G" n="63"/>minoris perfectionis, quam actualis terminatio; sed intol 
+          <lb ed="#G" n="64"/>ligo ipsam virtutem terminatiuam. quae suppositum
+          ter<lb ed="#G" n="65" break="no"/>minat, vel potest terminare dependentiam alienae
+          natu<lb ed="#G" n="66" break="no"/>rae in ratione personae. Vnde sicut potentia generatiua di 
+          <lb ed="#G" n="67"/>cit perfectionem simpliciter : &amp; est communis toti
+          trini<lb ed="#G" n="68" break="no"/>tati; quamuis generare non dicat perfectionem
+          simplici<lb ed="#G" n="69" break="no"/>ter, &amp; conuenit soli patri: sic &amp;c 
+        </p>
+        <p xml:id="HuYgTa-161855-d1e643">
+          <lb ed="#G" n="70"/>
+          <pc type="indent"/>Ad quartum dicendum, quod maior non est vera loquendo de 
+          <lb ed="#G" n="71"/>dependentia relatiua: sed solum est vera loquendo de
+          de<lb ed="#G" n="72" break="no"/>endentia virtutis, &amp; perfectionis: puta secundum quod
+          ali<lb ed="#G" n="73" break="no"/>quid habet perfectionem dependente, &amp; incompletam; qua¬ 
+          <!--475.xml-->
+          <cb ed="#G" n="b"/>
+          <lb ed="#G" n="74"/>lis dependentia non est in diuinis. Miror etiam
+          pruden<lb ed="#G" n="75" break="no"/>tiam istius doctoris: quia si ista ratio concluderet: tunc 
+          <lb ed="#G" n="76"/>vna musca maioris virtutis esset, quo ad terminationem 
+          <lb ed="#G" n="77"/>personalis dependentiae, quam omnes tres diuinae
+          perso<lb ed="#G" n="78" break="no"/>nae: cum omnes diuinae personae aeque dependeant mutuo 
+          <lb ed="#G" n="79"/>ad inuicem dependentia relatiua 
+        </p>
+        <p xml:id="HuYgTa-161855-d1e674">
+          <lb ed="#G" n="80"/>
+          <pc type="indent"/>CoTCLVs 10NEM secundam probo sic. lllud non est
+          im<lb ed="#G" n="81" break="no"/>possibile Deo, quod non implicat contradictionem: Sed in 
+          <lb ed="#G" n="82"/>diuino supposito sustentari naturam humanam, vel
+          quamcum<lb ed="#G" n="83" break="no"/>ue aliam naturam creatam, non implicat contradictionem; 
+          <lb ed="#G" n="84"/>quia nec implicat ex parte virtutis diuinae. Quia omne 
+          <lb ed="#G" n="85"/>quod dicit perfectionem, &amp; dignitatem in creatura, relegata 
+          <lb ed="#G" n="86"/>ab eo omni imperfectione, hoc est Deo attribuendum: sed  
+          <lb ed="#G" n="87"/>sustentare alicnam naturam, seu habere virtutem
+          sustenta<lb ed="#G" n="88" break="no"/>li eam, dicit perfectionem in creatura, quamuis sustentare ea 
+          <lb ed="#G" n="89"/>er modum formaliter inhaerentis dicat imperfectionem: 
+          <lb ed="#G" n="90"/>uia ex hoc conuincitur creaturam non esse oino perfectam. 
+          <lb ed="#G" n="91"/>x quo formaliter perficitur ab eo, quod sustentat: ergo 
+          <lb ed="#G" n="92"/>posse sustentare alienam naturam absque omni formali
+          inhae<lb ed="#G" n="93" break="no"/>rentia, potest sine contradictione attribui personae
+          diui<lb ed="#G" n="94" break="no"/>nae. Nec implicat ex parte creaturae: quia natura
+          natura<lb ed="#G" n="95" break="no"/>liter est prior propria suppositatione: ergo sibi non
+          repu<lb ed="#G" n="96" break="no"/>gnat ab ea separari, &amp; per consequens sustentari virtuto 
+          <lb ed="#G" n="97"/>aliena. Ista autem non impossibilitas magis declarari po 
+          <lb ed="#G" n="98"/>test respondendo rationibus, quibus infideles moueri po 
+          <lb ed="#G" n="99"/>terunt contra huiusmodi veritatem. Igitur inducam
+          ali<lb ed="#G" n="100" break="no"/>qua motiua eorum, &amp; ipsis respondebo. 
+        </p>
+        <p xml:id="HuYgTa-161855-d1e724">
+          <lb ed="#G" n="101"/>
+          <pc type="indent"/>Po TEST enim argui sic. 1. Substantia spiritualis non po 
+          <lb ed="#G" n="102"/>test vniri naturae corporali, nisi vel, vt motor, vel, vt
+          for<lb ed="#G" n="103" break="no"/>ma. Sed primus modus vnionis non sufficit ad propositum; 
+          <lb ed="#G" n="104"/>uia alias Angelus posset celum, quod mouet, assumere 
+          <lb ed="#G" n="105"/>in vnitatem personae. Secundus vero modus in proposito 
+          <lb ed="#G" n="106"/>est impossibilis: quia persona diuina non potest, propter 
+          <lb ed="#G" n="107"/>suam infinitam perfectionem, per modum formae vniri 
+          <lb ed="#G" n="108"/>alicui creaturae: quia impossibile est personam, vel naturam 
+          <lb ed="#G" n="109"/>diuinam formaliter inhaerere alicui creaturae. 
+          <lb ed="#G" n="110"/>2 Praeterea, substantiam creatam existere se ipsa, non addit 
+          <lb ed="#G" n="111"/>super eius naturam, nisi relationem ad causam efficientem: 
+          <lb ed="#G" n="112"/>sed nulla potentia fieri potest, quod aliqua creata natura
+          a<lb ed="#G" n="113" break="no"/>ctualiter existens absoluatur a tali relatione: quia omnis 
+          <lb ed="#G" n="114"/>creatura necessario refertur ad creatorem: ergo &amp;c.
+        </p>
+        <p xml:id="HuYgTa-161855-d1e759">
+          <lb ed="#G" n="115"/>3 Preterea, impossibile est aliqua de nouo realiter
+          vni<lb ed="#G" n="116" break="no"/>ri, nisi vel i ambobo, vel in altero salte fiat realis mutatio: 
+          <lb ed="#G" n="117"/>sed hic nec in persona verbi potest esse mutatio: cum 
+          <lb ed="#G" n="118"/>Deus sit immobilis per se, &amp; pr accidens, &amp; ab intra, vt
+          pa<lb ed="#G" n="119" break="no"/>tet <ref xml:id="HuYgTa-161855-Rd1e772">8. physi.</ref> &amp; <ref xml:id="HuYgTa-161855-Rd1e775">12. metaph.</ref> Apud Deum. n. nec est mutatio, 
+          <lb ed="#G" n="120"/>nec vicissitudinis obumbratio, vt dicitur lacobi 1. Nec et 
+          <lb ed="#G" n="121"/>n natura humana: quia per verbi assumptionem nullum esse  
+          <lb ed="#G" n="122"/>formale comunicatur tali naturae: nec aliquod esse, quod 
+          <lb ed="#G" n="123"/>prius habuit, aufertur ab ea: sed nihil mutatur realiter, ni 
+          <lb ed="#G" n="124"/>si vel acquirat, vel amittat aliquod esse reale: ergo &amp;c 
+          <lb ed="#G" n="125"/>4 Praeterea, si possibilis esset praedicta vnio, tunc
+          ali<lb ed="#G" n="126" break="no"/>quando ante huiusmodi vnionem Deus fuisset vnihilis. 
+          <lb ed="#G" n="127"/>creaturae; &amp; per consequens fuisset possibilis vniri Sed com 
+          <lb ed="#G" n="128"/>sequens est falsum: quia quod est possibile ad alique actum, 
+          <lb ed="#G" n="129"/>non reducitur ad cum, nisi moueatur per aliquam causam 
+          <lb ed="#G" n="130"/>gentem sibi extrinsecam: cum idem non possit esse res- 
+          <lb ed="#G" n="131"/>pectu eiusdem mouens, &amp; motum: sed Deus non potest 
+          <lb ed="#G" n="132"/>moueri. 
+        </p>
+        <p xml:id="HuYgTa-161855-d1e807">
+          <lb ed="#G" n="133"/>3 Praeterea, proportio vnibilium requiritur in omni 
+          <lb ed="#G" n="134"/>vnione: sed inter Deum, &amp; naturam creatam, cum distent 
+          <lb ed="#G" n="135"/>in infinitum, nulla videtur esse proportio.  
+        </p>
+        <p xml:id="HuYgTa-161855-d1e816">
+          <lb ed="#G" n="136"/>
+          <pc type="indent"/> Praeterea, duo contraria non possunt simul vniri in 
+          <lb ed="#G" n="137"/>eodem: ergo nec Deus, &amp; creatura. Antecedens patet: 
+          <lb ed="#G" n="138"/>Quia de quocunque praedicatur vnum contrariorum, de eoden 
+          <lb ed="#G" n="139"/>vere negatur reliquum; ergo si contraria simul essent 
+          <lb ed="#G" n="140"/>contradictoria simul praedicarentur de eodem.
+          Conse<lb ed="#G" n="141" break="no"/>uentia etiam patet: quia minus distant duo contraria, 
+          <lb ed="#G" n="142"/>cum ponantur sub eodem genere, quam Deus, &amp;
+          creatu<lb ed="#G" n="143" break="no"/>ra, quae differunt plus quam genere 
+        </p>
+        <p xml:id="HuYgTa-161855-d1e839">
+          <lb ed="#G" n="144"/>
+          <pc type="indent"/>Praeterea, sicut se habet malitia ad summam bonitatem: 
+          <lb ed="#G" n="145"/>sic se habet infirmitas ad summam maiestatem. Sed summa 
+          <lb ed="#G" n="146"/>bonitas nullam compatitur secum malitiam, seu prauita¬ 
+          <!--476.xml-->
+          <pb ed="#G" n="P2_3-r"/>
+          <cb ed="#G" n="a"/>
+          <lb ed="#G" n="1"/>rem: ergo diuina maiestas, cum sit summa, non compatie 
+          <lb ed="#G" n="2"/>tur secum humanam infirmitatem.
+        </p>
+        <p xml:id="HuYgTa-161855-d1e861">
+          <lb ed="#G" n="3"/>3 Praeterea, Deus non pot esse in creatura, nisi vel per 
+          <lb ed="#G" n="4"/>essentiam, vel per praesentiam, vel per potentiam: sed nul 
+          <lb ed="#G" n="5"/>lus istorum modorum per se, nec omnes simul sufficiunt 
+          <lb ed="#G" n="6"/>ad incarnationem verbi: ergo impossibilis videtur esse
+          in<lb ed="#G" n="7" break="no"/>earnatio. Maior probatur: quia Deus non potest esse in 
+          <lb ed="#G" n="8"/>rreatura, nisi vel secundum se, vel secundum suam opera 
+          <lb ed="#G" n="9"/>tionem. Si secudum se, sic est modus secundum essentiam 
+          <lb ed="#G" n="10"/>Si secundum operationem, vel secundum operationem
+          im<lb ed="#G" n="11" break="no"/>manentem, puta secundum intelligere &amp; velle: Sic est 
+          <lb ed="#G" n="12"/>secundum praesentiam, modo, quo dicitur aliquid
+          prae<lb ed="#G" n="13" break="no"/>sens esse rei, quod est in suo prospectu: vel secundum ope 
+          <lb ed="#G" n="14"/>rationem transeuntem: &amp; sic est secundum potentiam.
+          Mi<lb ed="#G" n="15" break="no"/>nor etiam patet: quia istis tribus modis Deus est in omni 
+          <lb ed="#G" n="16"/>bus creaturis: ergo si isti modi ad assumptionem
+          suffice<lb ed="#G" n="17" break="no"/>rent: tunc omnes creaturas in vnitatem suppositi assum 
+          <lb ed="#G" n="18"/>ret: ergo &amp;c. 
+        </p>
+        <p xml:id="HuYgTa-161855-d1e898">
+          <lb ed="#G" n="19"/>
+          <pc type="indent"/>SED ista non concludunt: quia Annunciator istius
+          be<lb ed="#G" n="20" break="no"/>nedictae incarnationis dicit, quod non est impossibile apud 
+          <lb ed="#G" n="21"/>Deum omne verbum 
+        </p>
+        <p xml:id="HuYgTa-161855-d1e909">
+          <lb ed="#G" n="22"/>
+          <pc type="indent"/>AD Primum igitur dicendum, quod dato, quod maior sit
+          ve<lb ed="#G" n="23" break="no"/>ra, loquendo de spirituali substantia creata: falsa tamen est, 
+          <lb ed="#G" n="24"/>loquendo de spirituali substantia increata 
+        </p>
+        <p xml:id="HuYgTa-161855-d1e920">
+          <lb ed="#G" n="25"/>
+          <pc type="indent"/>Ad secundum nego maiorem: quia addit per se esse,  
+          <lb ed="#G" n="26"/>quod vel est quaedam res absoluta, puta quaedam qualitas; 
+          <lb ed="#G" n="27"/>seu proprietas naturae : vel saltem est quidam modus
+          ab<lb ed="#G" n="28" break="no"/>solutus, qui naturaliter est posterior natura: quia
+          sequi<lb ed="#G" n="29" break="no"/>tur eam, sicut naturalis proprietas illud, cuius est proprie 
+          <lb ed="#G" n="30"/>tas: sicut aliqui magni doctores dicunt. vel concessa
+          maio<lb ed="#G" n="31" break="no"/>re dico, quod licet per quamcunque potentiam creatura 
+          <lb ed="#G" n="32"/>non possit absolui a relatione, qua refertur ad creatorem. 
+          <lb ed="#G" n="33"/>potest tamen Deus facere, quod creatura, quae derelicta
+          natu<lb ed="#G" n="34" break="no"/>rali suo cursui, vno modo refertur ad creatorem: sibi non  
+          <lb ed="#G" n="35"/>derelicta, alio modo referatur: &amp; sic est in proposito. 
+        </p>
+        <p xml:id="HuYgTa-161855-d1e949">
+          <lb ed="#G" n="36"/>
+          <pc type="indent"/>Ad tertium dicendum, quod ibi est mutatio realis ex parte hu 
+          <lb ed="#G" n="37"/>manitatis, quae de suo esse potentiali trassata est ad actua 
+          <lb ed="#G" n="38"/>le esse, quod differt ab essentia: vt patebit in tertio articulo. 
+        </p>
+        <p xml:id="HuYgTa-161855-d1e961">
+          <lb ed="#G" n="39"/>
+          <pc type="indent"/>Ad quartum dicendum, quod Deus, antequam vniretur 
+          <lb ed="#G" n="40"/>humanae naturae, fuit ei vnibilis: non tamen vnitate
+          passi<lb ed="#G" n="41" break="no"/>na se tenente ex parte Dei, sed solum ex parte creaturae. 
+          <lb ed="#G" n="42"/>&amp; ideo non requirebatur motor reducens aliquam possi 
+          <lb ed="#G" n="43"/>bilitatem passiuam in actum, quae se teneret ex parte Dei: 
+          <lb ed="#G" n="44"/>sed solum ex parte naturae humanae: quia Deus solum fuit 
+          <lb ed="#G" n="45"/>vnibilis vnitate actiua: puta qa potuit sibi vnire creaturam, 
+          <lb ed="#G" n="46"/>Ad quintum dicendum ad maiorem, quod inter vnibilia 
+          <lb ed="#G" n="47"/>non semper requiritur proportio commensurationis, sed  
+          <lb ed="#G" n="48"/>ordinis: finitum autem ad infinitum licet non habeat 
+          <lb ed="#G" n="49"/>proportionem commensurationis, habet tamen
+          propor<lb ed="#G" n="50" break="no"/>tionem ordinis, seu ordinatae imitationis. Vnde quamuis 
+          <lb ed="#G" n="51"/>primum mouens sit virtutis infinitae: vt patet <ref xml:id="HuYgTa-161855-Rd1e993">8.
+            physico<lb ed="#G" n="52" break="no"/>rum</ref>, omnia tamen ordinantur ad ipsum: vt patet <ref xml:id="HuYgTa-161855-Rd1e998">ibidem</ref>, 
+          <lb ed="#G" n="53"/>&amp; <ref xml:id="HuYgTa-161855-Rd1e1004">12 metaphysic¬ </ref>
+        </p>
+        <p xml:id="HuYgTa-161855-d1e1008">
+          <lb ed="#G" n="54"/>
+          <pc type="indent"/>Ad sextum dicendum, quod sicut duo contraria possunt 
+          <lb ed="#G" n="55"/>esse in eodem supposito, in alia tamen, &amp; alia parte: sic
+          dei<lb ed="#G" n="56" break="no"/>tas, &amp; humanitas in eodem Christo: est enim Deus seci 
+          <lb ed="#G" n="57"/>dum aeternam naturam a patre aeternaliter genitus: &amp; ho 
+          <lb ed="#G" n="58"/>mo secundum temporalem naturam a matre
+          temporali<lb ed="#G" n="59" break="no"/>ter natus. 
+        </p>
+        <p xml:id="HuYgTa-161855-d1e1026">
+          <lb ed="#G" n="60"/>
+          <pc type="indent"/>Ad septimum dicendum, quod non est simile: quia 
+          <lb ed="#G" n="61"/>malitia non potest assumi sine derogatione bonitatis 
+          <lb ed="#G" n="62"/>sed infirmitas potuit assumi absque omni derogatione sum 
+          <lb ed="#G" n="63"/>mae maiestatis. Sic enim filius assumpsit, quod non erat,  
+          <lb ed="#G" n="64"/>quod tamen perfecte remansit, quod erat. 
+        </p>
+        <p xml:id="HuYgTa-161855-d1e1042">
+          <lb ed="#G" n="65"/>
+          <pc type="indent"/>Ad octauum nego minorem. Ad probationem
+          dicen<lb ed="#G" n="66" break="no"/>dum, quod licet Deus, vt secundum se per generalem il 
+          <lb ed="#G" n="67"/>lapsum, est in creatura, sic per essentiam dicatur
+          generali<lb ed="#G" n="68" break="no"/>ter esse in omni creatura: tamen prout est in aliqua crea 
+          <lb ed="#G" n="69"/>tura per specialem illapsum: sic multis modis
+          speciali<lb ed="#G" n="70" break="no"/>bus potest esse in specialibus creaturis: puta in virtuosu 
+          <lb ed="#G" n="71"/>viatore per gratiam gratificantem, in comprehensori 
+          <lb ed="#G" n="72"/>per gratiam glorificantem, in Christo per gratiam
+          vnio<lb ed="#G" n="73" break="no"/>nis hypostaticae naturam humanam sustentantem
+        </p>
+        <p xml:id="HuYgTa-161855-d1e1066">
+          <!--476.xml-->
+          <cb ed="#G" n="b"/>
+          <lb ed="#G" n="74"/>ARTICVLVS I 
+          <lb ed="#G" n="75"/>Vtrum talis assumptio, seu incarnatio fuerit solitarit 
+          <lb ed="#G" n="76"/>
+          <pc type="indent"/>termmata ad perscnam filij absque hoc, quod
+          ter<lb ed="#G" n="77" break="no"/>minaretur ad personam patris, &amp; spritus sancti
+        </p>
+        <p xml:id="HuYgTa-161855-d1e1084">
+          <lb ed="#G" n="78"/>SVANTVM ad secundum articulum dico, quod
+          qui<lb ed="#G" n="79" break="no"/> libet Christianus credere tenetur, quod quamuis 
+          <lb ed="#G" n="80"/>tota trinitas, &amp; appropriate spiritus sanctus operatus sit 
+          <lb ed="#G" n="81"/>namc benedictam incarnationem naturam humanam for 
+          <lb ed="#G" n="82"/>mando: ad solam tamen personam filij huiusmodi in¬¬ 
+          <lb ed="#G" n="83"/>carnatio est terminata. Quia ad solam illam personam 
+          <lb ed="#G" n="84"/>terminatur incarnatio, quae vere est incarnata: sed sola  
+          <lb ed="#G" n="85"/>persona filij est incarnata: ergo &amp;c 
+        </p>
+        <p xml:id="HuYgTa-161855-d1e1105">
+          <lb ed="#G" n="86"/>
+          <pc type="indent"/>Non plus ad praesens de isto articulo: quia in sequenti 
+          <lb ed="#G" n="87"/>uaestione intendo pertractare, quo modo illud esse
+          po<lb ed="#G" n="88" break="no"/>tuerit sine omni contradictione. 
+        </p>
+        <p xml:id="HuYgTa-161855-d1e1116">
+          <lb ed="#G" n="89"/>
+          <pc type="indent"/>ARTICVLVS Il 
+          <lb ed="#G" n="90"/>Vtrum ratione huius incarnationis in christo 
+          <lb ed="#G" n="91"/>
+          <pc type="indent"/>Dei filio fuerint plura esse¬
+        </p>
+        <p xml:id="HuYgTa-161855-d1e1129">
+          <lb ed="#G" n="92"/>VANTVM ad tertium articulum, primo distinguen 
+          <lb ed="#G" n="93"/>dum est de esse: quia propter multiplicem eius 
+          <lb ed="#G" n="94"/>acceptionem, multae contingunt aequiuocationes in
+          di<lb ed="#G" n="95" break="no"/>ctis doctorum. Accipitur enim esse quinque modis.
+          Pri<lb ed="#G" n="96" break="no"/>mo pro ipsa rei essentia: &amp; sic dicitur o, topicorum, quod 
+          <lb ed="#G" n="97"/>diffinitio est oratio quid est esse rei significans. Et <ref xml:id="HuYgTa-161855-Rd1e1144">3. de 
+            <lb ed="#G" n="98"/>anima</ref> dicitur, quod intellectus extensus, id est, directo, 
+          <lb ed="#G" n="99"/>&amp; recto aspectu carnis esse cognoscit. Et <ref xml:id="HuYgTa-161855-Rd1e1151">Aui. in
+            metaph<lb ed="#G" n="100" break="no"/>sua</ref> ait, quod primum obiectum intellectus est ens, &amp; esse 
+          <lb ed="#G" n="101"/>In his omnibus &amp; ceteris dictis consimilibus accipitur es 
+          <lb ed="#G" n="102"/>se pro ipsa essentia rei, quae proprie diffinitur, &amp; ipsa diffi 
+          <lb ed="#G" n="103"/>nitione significatur quo ad primum dictum: &amp; recto aspe 
+          <lb ed="#G" n="104"/>ctu intelligitur quo ad secundum, &amp; primo intellectur 
+          <lb ed="#G" n="105"/>obiicitur quo ad tertium. Secundo modo sumitur esse 
+          <lb ed="#G" n="106"/>pro eo, quod vna natura sortitur ex coniunctione ad aliam, 
+          <lb ed="#G" n="107"/>sicut in rebus absolutis. Materia enim sortitur esse exten 
+          <lb ed="#G" n="108"/>um per coniunctionem ad quantitatem, vel ex habitudi 
+          <lb ed="#G" n="109"/>ne ad aliam, sicut in respectiuis. Tertio accipitur esse pro 
+          <lb ed="#G" n="110"/>habitudine compositonis praedicati cum subiecto: &amp; hoc 
+          <lb ed="#G" n="111"/>modo esse, vel ly est accipitur tertio adiacens: quia
+          compu<lb ed="#G" n="112" break="no"/>lat, &amp; coniungit duo extrema, scilicet praedicatum &amp;
+          sub<lb ed="#G" n="113" break="no"/>iectum: sic enim hoc verbum est significat composi¬¬ 
+          <lb ed="#G" n="114"/>tionem, quam sinc composits non est intelligere, vt dici 
+          <lb ed="#G" n="115"/>tur <ref xml:id="HuYgTa-161855-Rd1e1189">1 perihermenias</ref>, &amp; significat, vt verum, secundum quod 
+          <lb ed="#G" n="116"/>dicitur <ref xml:id="HuYgTa-161855-Rd1e1194">s. metap.</ref> Quarto modo accipirur pro actuali ex 
+          <lb ed="#G" n="117"/>stentia rei. Et quinto modo sumitur pro ipsa subsistenti 
+          <lb ed="#G" n="118"/>rei, quae est idem, quod per se subsistere, &amp; alteri non inni 
+          <lb ed="#G" n="119"/>ci. Et secundum hoc, possunt poni quinque conclusiones,  
+          <lb ed="#G" n="120"/>primae quattuor affirmatiuae, &amp; quinta negatiua 
+        </p>
+        <p xml:id="HuYgTa-161855-d1e1207">
+          <lb ed="#G" n="121"/>
+          <pc type="indent"/>PRIuA est, quod primo modo accipiendo esse, scilicet, pr 
+          <lb ed="#G" n="122"/>ipsius rei essentia, sic in Christo sunt plura esse: quia in ip 
+          <lb ed="#G" n="123"/>so sunt plures essentiae, scilicet, diuinitas, &amp; humanitas. 
+        </p>
+        <p xml:id="HuYgTa-161855-d1e1218">
+          <lb ed="#G" n="124"/>
+          <pc type="indent"/>SECVNDoO modo accipiendo esse, etiam sunt plura essi 
+          <lb ed="#G" n="125"/>in Christo, secundum, quod plura sunt in eo, quorum vnum 
+          <lb ed="#G" n="126"/>perfectionaliter coniungitur alteri, vel vnum habitudinem 
+          <lb ed="#G" n="127"/>realem habet ad alterum: anima enim Christi informat 
+          <lb ed="#G" n="128"/>eius materiam, &amp; accidentia totam compositam naturam. 
+        </p>
+        <p xml:id="HuYgTa-161855-d1e1234">
+          <lb ed="#G" n="129"/>
+          <pc type="indent"/>TERTro modo accipiendo esse: tot possumus ponero 
+          <lb ed="#G" n="130"/>esse in Christo, quot possumus veras propositiones de 
+          <lb ed="#G" n="131"/>eo pronunciare. 
+        </p>
+        <p xml:id="HuYgTa-161855-d1e1246">
+          <lb ed="#G" n="132"/>
+          <pc type="indent"/>QARro modo iterum sunt plura esse in Christo; qa 
+          <lb ed="#G" n="133"/>aliud est esse actualis existentiae humanitatis, &amp; aliud 
+          <lb ed="#G" n="134"/>deitatis. Nam esse actualis existentiae humanitatis prtpa 
+          <lb ed="#G" n="135"/>lem gnationem est acquisitu, &amp; differt realiter a sua essentia; 
+          <!--477.xml-->
+          <pb ed="#G" n="P2_3-v"/>
+          <cb ed="#G" n="a"/>
+          <lb ed="#G" n="1"/>quod nequaquam dicere possumus de esse actualis existen 
+          <lb ed="#G" n="2"/>tiae ipsius deitatis. 
+        </p>
+        <p xml:id="HuYgTa-161855-d1e1270">
+          <lb ed="#G" n="3"/>
+          <pc type="indent"/>SeD quinto modo accipiendo esse, dico, quod in Chri 
+          <lb ed="#G" n="4"/>sto est tantummodo vnum esse. Nam licet humana natu 
+          <lb ed="#G" n="5"/>ra Christi actualiter existat, tamen non existit per se: sec 
+          <lb ed="#G" n="6"/>innititur supposito diuino, &amp; ideo esse suae actualis exi 
+          <lb ed="#G" n="7"/>stentiae non est esse subsistentiae: sed tantumodo in
+          Chri<lb ed="#G" n="8" break="no"/>sto est esse diuinae subsistentiae, seu per se existentiae
+        </p>
+        <p xml:id="HuYgTa-161855-d1e1288">
+          <lb ed="#G" n="9"/>2 Praeterea, multiplicatis esse subsistentiae, multiplicar 
+          <lb ed="#G" n="10"/>tur ipsa supposita: quia per se subsistere propric competi 
+          <lb ed="#G" n="11"/>suppositis: sed in Christo non est nisi vnum suppositum, 
+          <lb ed="#G" n="12"/>vt fides sancta tenet, ergo in Christo solum erit vnum tale ees. 
+        </p>
+        <p xml:id="HuYgTa-161855-d1e1299">
+          <lb ed="#G" n="13"/>3 Praeterea, quamuis aliqua natura sit vera substantia, 
+          <lb ed="#G" n="14"/>tamen quamdiu habet modum accidentis, non potest ha 
+          <lb ed="#G" n="15"/>bere esse subsistentiae, seu per se existentiae: sed natura
+          hu<lb ed="#G" n="16" break="no"/>mana, quamuis sit vera substantia, tamen, vt est in Christo, 
+          <lb ed="#G" n="17"/>habet modum accidentis, vt patet per Damas: ergo in 
+          <lb ed="#G" n="18"/>Christo tantummodo erit esse diuinae subsistentiae. 
+        </p>
+        <p xml:id="HuYgTa-161855-d1e1315">
+          <lb ed="#G" n="19"/>
+          <pc type="indent"/>Sed contra istam conclusionem videtur esse
+          sententi<lb ed="#G" n="20" break="no"/>quorumdam doctorum, qui dicunt, quod in Christo sunt 
+          <lb ed="#G" n="21"/>quo esse subsistentiae: vnum simpliciter, quod respondet 
+          <lb ed="#G" n="22"/>diuinae naturae, &amp; alterum secundum quid, quod respon 
+          <lb ed="#G" n="23"/>det humanae naturae. lllud probant sic¬ 
+        </p>
+        <p xml:id="HuYgTa-161855-d1e1331">
+          <lb ed="#G" n="24"/>
+          <pc type="indent"/>Vbicumque sunt duae naturae, quarum vna est eterna, &amp; 
+          <lb ed="#G" n="25"/>increata, alia vero temporalis, &amp; creata: ibi est dare essi 
+          <lb ed="#G" n="26"/>subsistentiae simpliciter, &amp; esse subsistentiae secundum 
+          <lb ed="#G" n="27"/>
+          <pc type="indent"/>quid: sed tales duae naturae sunt in Christo, ergo &amp;c.
+        </p>
+        <p xml:id="HuYgTa-161855-d1e1348">
+          <lb ed="#G" n="28"/>2 Praeterea, diuina praedestinatio respicit rem perfectam 
+          <lb ed="#G" n="29"/>per modum suppositi subsistentis se habentem: sed Chri 
+          <lb ed="#G" n="30"/>stus, secundum humanam naturam praedestinatus fuit ab 
+          <lb ed="#G" n="31"/>aeterno secundum dictum Apostoli, ergo &amp;c 
+        </p>
+        <p xml:id="HuYgTa-161855-d1e1359">
+          <lb ed="#G" n="32"/>
+          <pc type="indent"/>3 Praeterea, Christus in sua passione perdidit esse
+          ho<lb ed="#G" n="33" break="no"/>minis, ergo ante praehabuit esse hominis.
+        </p>
+        <p xml:id="HuYgTa-161855-d1e1368">
+          <lb ed="#G" n="34"/>4 Praeterea, idem esse non potest esse absolutum, &amp;
+          re<lb ed="#G" n="35" break="no"/>latiuum, sed esse suppositi diuini est relatiuum, esse
+          au<lb ed="#G" n="36" break="no"/>tem naturae humanae est absolutum, ergo &amp;c
+        </p>
+        <p xml:id="HuYgTa-161855-d1e1377">
+          <lb ed="#G" n="37"/>3 Praeterea, dicunt etiam aliqui istorum doctorum, quod 
+          <lb ed="#G" n="38"/>doctor noster in hac materia sibi contradicat. Quia in 
+          <lb ed="#G" n="39"/>uo quolibet dicit, quod in Christo non est nisi vnum 
+          <lb ed="#G" n="40"/>esse existentiae. Sed <ref xml:id="HuYgTa-161855-Rd1e1387">3. sententiarum super distin. 8.</ref> dicit 
+          <lb ed="#G" n="41"/>quod in Christo est duplex esse actuale, diuinumscilicet,  
+          <lb ed="#G" n="42"/>&amp; humanum. Nam cum esse, &amp; essentia sint de
+          composi<lb ed="#G" n="43" break="no"/>tione rei, vt est effectus agentis, ideo impossibile est,
+          ali<lb ed="#G" n="44" break="no"/>quam essentiam creatam esse in effectu sine suo esse
+        </p>
+        <p xml:id="HuYgTa-161855-d1e1400">
+          <lb ed="#G" n="45"/>e Praeterea, arguunt isti contra praedictam conclusionem 
+          <lb ed="#G" n="46"/>tic. Vnitas, &amp; multiplicitas ipsius esse in Christo non
+          su<lb ed="#G" n="47" break="no"/>mitur secundum suppositum, ergo sumetur secudum
+          na<lb ed="#G" n="48" break="no"/>turas. Consequentia patet: quia vel sumitur secundum
+          sup<lb ed="#G" n="49" break="no"/>positum, vel secundum naturas. Antecedens probant,: quia si
+          su<lb ed="#G" n="50" break="no"/>meretur secundum suppositum, tunc tria diuina
+          supposi<lb ed="#G" n="51" break="no"/>ta haberent tria esse subsistentiae, quod est falsum, ergo &amp;c 
+        </p>
+        <p xml:id="HuYgTa-161855-d1e1418">
+          <lb ed="#G" n="52"/>
+          <pc type="indent"/>V Praeterea, si humana natura, quae est in Christo, Sibi 
+          <lb ed="#G" n="53"/>ipsi relinqueretur, constat, quod haberet proprium esse 
+          <lb ed="#G" n="54"/>subsistentiae: illud igitur esse, vel nunc habet in Christo. 
+          <lb ed="#G" n="55"/>&amp; tunc habetur propositum: vel non, &amp; tunc in tali
+          de<lb ed="#G" n="56" break="no"/>relictione esset vera generatio propter acceptionem
+          no<lb ed="#G" n="57" break="no"/>ui esse substantialis existentiae.
+        </p>
+        <p xml:id="HuYgTa-161855-d1e1437">
+          <lb ed="#G" n="58"/>S Praeterea, omnis generatio terminatur ad esse: sec 
+          <lb ed="#G" n="59"/>Christus est generatus duplici generatione, ergo habet 
+          <lb ed="#G" n="60"/>duplex esse
+        </p>
+        <p xml:id="HuYgTa-161855-d1e1446">
+          <lb ed="#G" n="61"/>o Praeterea, forma substantialis dat esse simpliciter. cum 
+          <lb ed="#G" n="62"/>ergo in Christo vera fuerit forma substantialis, igitur erit 
+          <lb ed="#G" n="63"/>ibi esse simpliciter, praeter esse deitatis. Et confirmatur 
+          <lb ed="#G" n="64"/>quia <ref xml:id="HuYgTa-161855-Rd1e1456">2. de anima</ref> dicitur, quod viuere viuentib est esse; sed in 
+          <lb ed="#G" n="65"/>Npo e duplex vita, diuina. s&amp; humana, ergo &amp; duplex ee 
+        </p>
+        <p xml:id="HuYgTa-161855-d1e1463">
+          <lb ed="#G" n="66"/>ro Praeterea, Damal lib: 3. ait, quod ea, quae consequun 
+          <lb ed="#G" n="67"/>tur naturam, duplicantur in Christo: sed esse proprie exi 
+          <lb ed="#G" n="68"/>stentiae maxime sequitur naturam  
+        </p>
+        <p xml:id="HuYgTa-161855-d1e1472">
+          <lb ed="#G" n="69"/>
+          <pc type="indent"/>SeD isti, quantum ad haec omnia dicta, vel falsum assu 
+          <lb ed="#G" n="70"/>munt, vel non svllogix antes sunt, vt etiam ait <ref xml:id="HuYgTa-161855-Rd1e1480">philosophus 
+            <lb ed="#G" n="71"/>1. physic.</ref> contra Parmenidem &amp; Melissum, vt plurimum 
+          <lb ed="#G" n="72"/>enim male svllogixant propter aequiuocationem, quam 
+          <lb ed="#G" n="73"/>faciunt de ipso esse. AD PRIMvM igitur dicendum, quod ma 
+          <!--477.xml-->
+          <cb ed="#G" n="b"/>
+          <lb ed="#G" n="74"/>ior est falsa: quia cum natura ereata assumitur ab
+          increa<lb ed="#G" n="75" break="no"/>to supposito, ita que in tali assumptione praeuenitur eius 
+          <lb ed="#G" n="76"/>propria suppositatio, quamuis talis natura creata possit 
+          <lb ed="#G" n="77"/>habere esse existentiae actualis aliud ab esse existentiae
+          ae<lb ed="#G" n="78" break="no"/>ternae haturae, &amp; suppositi aeterni; non tamen habet
+          pro<lb ed="#G" n="79" break="no"/>prium esse subsistentiae, eo quod subsistat subsistentia
+          ae<lb ed="#G" n="80" break="no"/>terni suppositi, a quo assumpta est, &amp; quia sic est in propo 
+          <lb ed="#G" n="81"/>sito, igitur &amp;c. 
+        </p>
+        <p xml:id="HuYgTa-161855-d1e1512">
+          <lb ed="#G" n="82"/>
+          <pc type="indent"/>Ad secundum dicendum, quod humana natura in Christo 
+          <lb ed="#G" n="83"/>non est minus perfecta, nec minus perfecte subsistit a uer 
+          <lb ed="#G" n="84"/>bo Dei sustentata, quam si propria suppositatione
+          subsi<lb ed="#G" n="85" break="no"/>steret, &amp; ideo non minus potest esse praedestinata,
+          quam<lb ed="#G" n="86" break="no"/>uis non habeat proprium esse subsistentiae. Etiam falsum 
+          <lb ed="#G" n="87"/>assumitur: quia non solum entia a Deo sunt
+          praedestina<lb ed="#G" n="88" break="no"/>ta; sed etiam accidentia, &amp; omnes boni euentus eorum, 
+          <lb ed="#G" n="89"/>qui electi sunt ad salutem. 
+        </p>
+        <p xml:id="HuYgTa-161855-d1e1534">
+          <lb ed="#G" n="90"/>
+          <pc type="indent"/>Ad tertium dicendum, quod ibi est fallacia
+          consequen<lb ed="#G" n="91" break="no"/>tis, dicendo, perdidit esse hominis, ergo perdidit proprium 
+          <lb ed="#G" n="92"/>esse subsistentiae hominis: sufficit enim, quod perdiderit 
+          <lb ed="#G" n="93"/>esse actualis existentiae hominis. 
+        </p>
+        <p xml:id="HuYgTa-161855-d1e1548">
+          <lb ed="#G" n="94"/>
+          <pc type="indent"/>Ad quartum dico, quod non plus concluditur, nisi quod 
+          <lb ed="#G" n="95"/>esse existentiae humanae naturae non sit idem, quod esse 
+          <lb ed="#G" n="96"/>diuini suppositi. 
+        </p>
+        <p xml:id="HuYgTa-161855-d1e1559">
+          <lb ed="#G" n="97"/>
+          <pc type="indent"/>FoRTE dicetur, quod secundum doctrinam nostri
+          do<lb ed="#G" n="98" break="no"/>ctoris, si esse existentiae humanae naturae non est idem 
+          <lb ed="#G" n="99"/>uod esse verbi; tuc etem esse subsistentiae humanae naturi 
+          <lb ed="#G" n="100"/>non erit idem esse subsistentiae verbi: quia ipse dicit in secudo 
+          <lb ed="#G" n="101"/>uo quolibet, quod esse existentiae, &amp; esse subsistentiae, non 
+          <lb ed="#G" n="102"/>differunt, nisi respectu diuersorum, puta accidentia ita 
+          <lb ed="#G" n="103"/>habent esse existentiae, quod tamen non habent esse sul 
+          <lb ed="#G" n="104"/>sistentiae: ita enim accidentia actualiter existunt, quod 
+          <lb ed="#G" n="105"/>tamen non subsistunt: quia non per se existunt. In
+          sub<lb ed="#G" n="106" break="no"/>stantiis autem idem est, vt ipse ait, esse existentiae, quod  
+          <lb ed="#G" n="107"/>esse subsistentiae. 
+        </p>
+        <p xml:id="HuYgTa-161855-d1e1588">
+          <lb ed="#G" n="108"/>
+          <pc type="indent"/>RESPONDEO breuiter, quod sicut idem doctor
+          no<lb ed="#G" n="109" break="no"/>ster dicit, humana substantia in Christo habet modum 
+          <lb ed="#G" n="110"/>accidentis, &amp; ideo, quamuis in ceteris perfectis
+          substan<lb ed="#G" n="111" break="no"/>tiis; idem Sit esse existentiae, &amp; esse subsistentiae, non
+          ta<lb ed="#G" n="112" break="no"/>men in Christi humanitate. 
+        </p>
+        <p xml:id="HuYgTa-161855-d1e1604">
+          <lb ed="#G" n="113"/>
+          <pc type="indent"/>Ad quintum dicendum, quod cum doctor noster in 
+          <lb ed="#G" n="114"/>uo quolibet dicit, quod in Christo Sit vnum esse; ipse 
+          <lb ed="#G" n="115"/>intelligit de esse subsistentiae, quod est vnum tantum in 
+          <lb ed="#G" n="116"/>eo. Sed in scripto suo super tertium sententiarum
+          loqui<lb ed="#G" n="117" break="no"/>tur de esse actualis existentiae, quod est duplex in Christo, 
+          <lb ed="#G" n="118"/>puta vnum ex parte diuinae naturae, quod est realiter idem 
+          <lb ed="#G" n="119"/>cum ipsa natura diuina, aliud ex parte humanae naturae, 
+          <lb ed="#G" n="120"/>quod realiter differt ab humana natura, &amp; realem
+          com<lb ed="#G" n="121" break="no"/>ositionem facit cum ea
+        </p>
+        <p xml:id="HuYgTa-161855-d1e1628">
+          <lb ed="#G" n="122"/>FoRTE adhuc dicetur, quod, hoc toto supposito, adhuc 
+          <lb ed="#G" n="123"/>non erit tantum vnum esse subsistentiae in Christo: quia 
+          <lb ed="#G" n="124"/>lanum est, quod essentia diuina per se existit propria
+          subsi<lb ed="#G" n="125" break="no"/>stentia, &amp; per consequens absoluta; persona autem
+          diui<lb ed="#G" n="126" break="no"/>na etiam per se existit subsistentia relatiua: subsistentia 
+          <lb ed="#G" n="127"/>autem relatiua non est subsistentia absoluta, ergo &amp;c. 
+        </p>
+        <p xml:id="HuYgTa-161855-d1e1644">
+          <lb ed="#G" n="128"/>
+          <pc type="indent"/>RESPONDEO, quod Sicut natura diuina non ponit
+          nu<lb ed="#G" n="129" break="no"/>merum cum persona, quia natura diuina in qualibet
+          per<lb ed="#G" n="130" break="no"/>sona est realiter idem cum persona: sic dato, quod in ver 
+          <lb ed="#G" n="131"/>po Dei Sit subsistere absolutum ratione essentiae, &amp;
+          sub<lb ed="#G" n="132" break="no"/>Sistere relatiuum ratione proprietatis relatiuae:
+          susisten<lb ed="#G" n="133" break="no"/>tia tamen absoluta non differt a subsistentia relatiua: sed 
+          <lb ed="#G" n="134"/>in qualibet diuina persona est idem realiter cum subsi 
+          <lb ed="#G" n="135"/>stentia relatiua; quia non magis differt subsistentia a 
+          <lb ed="#G" n="136"/>subsistentia, quam subsistens a subsistente, sed natura
+          sub<lb ed="#G" n="137" break="no"/>istens, &amp; persona subsistens sunt vnum realiter, ergo &amp;c 
+        </p>
+        <p xml:id="HuYgTa-161855-d1e1671">
+          <lb ed="#G" n="138"/>
+          <pc type="indent"/>Ad sextum dicendum, quod antecedens est negandum, 
+          <lb ed="#G" n="139"/>loquendo de esse subsistentiae. Ad probationem dico, quod 
+          <lb ed="#G" n="140"/>vt patet per <ref xml:id="HuYgTa-161855-Rd1e1681">Aug. 7. de trin</ref> dupliciter possumus loqui de 
+          <lb ed="#G" n="141"/>subsistere in diuinis. Vno modo absolute, &amp; Sic vna est 
+          <lb ed="#G" n="142"/>trium personarum subsistentia, sicut earum est vna esser 
+          <lb ed="#G" n="143"/>tia: alio modo pro incommunicabili singularitate, qua 
+          <lb ed="#G" n="144"/>suppositum per se subsistit in aliqua natura incomunica 
+          <lb ed="#G" n="145"/>biliter, &amp; distincte ab omni alio supposito, &amp; Sic in
+          diui<lb ed="#G" n="146" break="no"/>nis sunt tria subsistere, secundum quod sunt tria supposita 
+          <!--478.xml-->
+          <pb ed="#G" n="P2_4-r"/>
+          <cb ed="#G" n="a"/>
+          <lb ed="#G" n="1"/>Fon re dicetur, quod si suppositum diuinum per se
+          subsi<lb ed="#G" n="2" break="no"/>stat, tunc erit suppositum absolutum. 
+        </p>
+        <p xml:id="HuYgTa-161855-d1e1709">
+          <lb ed="#G" n="3"/>
+          <pc type="indent"/>RESPONDEO negando consequentiam, quia per se subsi 
+          <lb ed="#G" n="4"/>stere non facit, nec arguit suppositum absolutum praecise: 
+          <lb ed="#G" n="5"/>ed ad se subsistere. quodlibet autm diuinum suppositum, li 
+          <lb ed="#G" n="6"/>cet substat per se, tamen non subsistit ad se, sed ad aliud¬ 
+        </p>
+        <p xml:id="HuYgTa-161855-d1e1722">
+          <lb ed="#G" n="7"/>
+          <pc type="indent"/>Ad septimum dicendum, quod si natura humana dimitto 
+          <lb ed="#G" n="8"/>retur a verbo, &amp; tamen per communem Dei influentiam 
+          <lb ed="#G" n="9"/>conseruaretur, ne tenderet in non esse, tunc idem esse hu 
+          <lb ed="#G" n="10"/>manae naturae, quod solum fuit esse existentiae, cum suster 
+          <lb ed="#G" n="11"/>tabatur a verbo; modo esset non solum esse existentiae, sed 
+          <lb ed="#G" n="12"/>etiam subsistentiae. esset. enm idem esse, licet alter esset modus 
+          <lb ed="#G" n="13"/>habedi illud esse, quia primo tale esse haberetur cum
+          qua<lb ed="#G" n="14" break="no"/>dam innisione ad alterum: modo autem haberetur praeter hu 
+          <lb ed="#G" n="15"/>iusmodi innixionem. Sicut enim subtracto subiecto in
+          sa<lb ed="#G" n="16" break="no"/>cramento altaris idem esse eiusdem quantitatis, quod  
+          <lb ed="#G" n="17"/>fuit inesse ante conuersionem panis, facta conuersione, ita 
+          <lb ed="#G" n="18"/>erit esse, quod non erit inesse: quia, vt puto, nullum nouum 
+          <lb ed="#G" n="19"/>esse acquirit huiusmodi quantitas per amissionem
+          subie<lb ed="#G" n="20" break="no"/>cti, sed solummodo nouum modum essendi secundum 
+          <lb ed="#G" n="21"/>idem esse, fic in proposito &amp;c. Vnde non est imaginadum, 
+          <lb ed="#G" n="22"/>quod in eadem natura esse subsistentiae, siue per se
+          subsi<lb ed="#G" n="23" break="no"/>stere super esse, actuali existentiae addat aliquod esse: sed  
+          <lb ed="#G" n="24"/>solum addit modum habendi huiusmodi esse 
+        </p>
+        <p xml:id="HuYgTa-161855-d1e1766">
+          <lb ed="#G" n="25"/>
+          <pc type="indent"/>Ad octauum nego maiorem, loquendo de esse
+          subsi<lb ed="#G" n="26" break="no"/>stentiae. Vnde sicut accidens vere generatur, &amp; tamen por 
+          <lb ed="#G" n="27"/>generationem ipsum accidens non acquirit esse subsisten 
+          <lb ed="#G" n="28"/>tiae, sed solum esse existentiae, sic quia humanitas in Chri 
+          <lb ed="#G" n="29"/>sto habet modum essendi accidentis &amp;c 
+        </p>
+        <p xml:id="HuYgTa-161855-d1e1782">
+          <lb ed="#G" n="30"/>
+          <pc type="indent"/>Ad nonum dicendum, quod nec argumentum, nec eius 
+          <lb ed="#G" n="31"/>confirmatio arguit de natura per alterum sustentata: sed  
+          <lb ed="#G" n="32"/>solum de ea, quae secudum comunem cursum naturae sibi 
+          <lb ed="#G" n="33"/>ipsi est derelicta. 
+        </p>
+        <p xml:id="HuYgTa-161855-d1e1795">
+          <lb ed="#G" n="34"/>
+          <pc type="indent"/>Ad decimum dicendum, quod esse subsistentiae non
+          se<lb ed="#G" n="35" break="no"/>quitur naturam humanam, nisi cum sibi ipsi secudum
+          na<lb ed="#G" n="36" break="no"/>turae cursum derelinquitur. 
+        </p>
+        <p xml:id="HuYgTa-161855-d1e1807">
+          <lb ed="#G" n="37"/>
+          <pc type="indent"/>ARTIC. III 
+          <lb ed="#G" n="38"/>Vtrum si homo non peccasset, filius Dei humanam 
+          <lb ed="#G" n="39"/>
+          <pc type="indent"/>naturam assumpsisset
+        </p>
+        <p xml:id="HuYgTa-161855-d1e1820">
+          <lb ed="#G" n="40"/>VANTVM ad quartum articulum dico, quod illud 
+          <lb ed="#G" n="41"/>
+          <pc type="indent"/>admirabile commertium, diuinae scilicet
+          incarn<lb ed="#G" n="42" break="no"/>tionis mysterium, nobis nulla patet ratione: sed sola fide 
+          <lb ed="#G" n="43"/>&amp; assertione sacrae scripturae, iuxta illud Teonis papae in 
+          <lb ed="#G" n="44"/>suo sermone de natiuitate. Vtranque naturam, diuinam,  
+          <lb ed="#G" n="45"/>scilicet, &amp; humanam in vnam conuenisse personam nisi 
+          <lb ed="#G" n="46"/>fides credat, ratio non explicat. Et quia sacra scriptura, vt 
+          <lb ed="#G" n="47"/>lurimum assignat rationem incarnationis fuisse
+          redem<lb ed="#G" n="48" break="no"/>itionem humani generis, liberationem a nostris peccatis,  
+          <lb ed="#G" n="49"/>&amp; destructionem diabolicae captiuitatis: ideo, quamuis 
+          <lb ed="#G" n="50"/>aliqui sollemnes doctores teneant oppositum, tamen ad 
+          <lb ed="#G" n="51"/>praesens dico, quod si homo non peccasset, filius Dei
+          in<lb ed="#G" n="52" break="no"/>tarnatus non fuisset. Quod probo sic cessante caussa. cessat 
+          <lb ed="#G" n="53"/>fffectus: Sed super illo verbo, Apost. Christus venit in 
+          <lb ed="#G" n="54"/>huc mudum, vt peccatores saluos saceret, dicit glo. Nulla 
+          <lb ed="#G" n="55"/>causa veniendi fuit Christo, nisi peccatores saluos facere 
+          <lb ed="#G" n="56"/>tolle morbos, tolle vulnera, nulla est causa medicinae. 
+        </p>
+        <p xml:id="HuYgTa-161855-d1e1862">
+          <lb ed="#G" n="57"/>
+          <pc type="indent"/>2 Praeterea, Augu super illo verbo Mat. 1. Ipse enim sal 
+          <lb ed="#G" n="58"/>uum faciet populum suum a peccatis eorum, dicit. Si
+          ho<lb ed="#G" n="59" break="no"/>mo non peccasset, virgo non peperisset
+        </p>
+        <p xml:id="HuYgTa-161855-d1e1873">
+          <lb ed="#G" n="60"/>3 Praeterea, August. in libro de verbis Apostoli
+          expo<lb ed="#G" n="61" break="no"/>nens illud, venit filius hominis quaerere &amp; saluum
+          face<lb ed="#G" n="62" break="no"/>re, quod perierat, dicit. Si homo non peccasset, filius Dei 
+          <lb ed="#G" n="63"/>non venisset 
+        </p>
+        <p xml:id="HuYgTa-161855-d1e1884">
+          <lb ed="#G" n="64"/>
+          <pc type="indent"/>SED oppositum istius conclusionis quidam doctore; 
+          <lb ed="#G" n="65"/>probant sic. Perfectio vniuersi non innascitur ex culpa: 
+          <lb ed="#G" n="66"/>sed, quod idem Christus sit Deus, &amp; homo, est magna 
+          <lb ed="#G" n="67"/>perfectio vniuersi.
+        </p>
+        <p xml:id="HuYgTa-161855-d1e1897">
+          <lb ed="#G" n="68"/>2 Praeterea, non minus debet beatificari vita sensitiua, 
+          <lb ed="#G" n="69"/>numquam fuit nocens, quam ea, quae post delictum est poeni 
+          <lb ed="#G" n="70"/>tens: sed sensus poenitentis hominis beatitudinem suam ha 
+          <!--478.xml-->
+          <cb ed="#G" n="b"/>
+          <lb ed="#G" n="71"/>bebut in humanitate Christi: sensus asit innocentis hoinis. 
+          <lb ed="#G" n="72"/>si Deus humanam naturam non assumpsisset, nullam reciperent bea 
+          <lb ed="#G" n="73"/>titudinem a Deo: quia nullum obiectum haberent in eo: ergo &amp;c.
+        </p>
+        <p xml:id="HuYgTa-161855-d1e1918">
+          <lb ed="#G" n="74"/>3 Praeterea, humana natura immunis a peccato
+          capa<lb ed="#G" n="75" break="no"/>cior fuisset gratia vnionis, quam natura maculata
+          pecca<lb ed="#G" n="76" break="no"/>to: ergo potius debuit fieri talis vnio in statu innocentiae, 
+          <lb ed="#G" n="77"/>quam in statu peccati: ergo &amp;c.
+        </p>
+        <p xml:id="HuYgTa-161855-d1e1929">
+          <lb ed="#G" n="78"/>1 Praeterea, <ref xml:id="HuYgTa-161855-Rd1e1933">Aug. 15. de trinitate</ref> dicit, quod ideo Deus 
+          <lb ed="#G" n="79"/>incarnari voluit, &amp; sic nos redimere, vt ostenderet.
+          quan<lb ed="#G" n="80" break="no"/>tum nos diligeret: sed Deus non minus dilexisset
+          homi<lb ed="#G" n="81" break="no"/>nem, si non peccasset, igitur per incarnationem
+          huiusmo<lb ed="#G" n="82" break="no"/>di dilectionem sibi demonstrasset 
+        </p>
+        <p xml:id="HuYgTa-161855-d1e1946">
+          <lb ed="#G" n="83"/>3 Praeterea, <ref xml:id="HuYgTa-161855-Rd1e1950">Ansel in lib cur Deus homo</ref>, ait, quod prae 
+          <lb ed="#G" n="84"/>cisa causa, cur homo creatus est ad beatitudinem
+          conse<lb ed="#G" n="85" break="no"/>quendam, non fuit ruina angelorum: quia alias sicut
+          ho<lb ed="#G" n="86" break="no"/>mo non potest non gaudere de sua beatitudine, sic non 
+          <lb ed="#G" n="87"/>posset non gaudere de ruina angelorum. Sic potest a simi 
+          <lb ed="#G" n="88"/>li argui in proposito: quia si ratio praecisa, quare filius Dei 
+          <lb ed="#G" n="89"/>assumpsit humanam naturam, esset peccatum hominis,  
+          <lb ed="#G" n="90"/>tunc sicut ho non pot non gaudere de huiusmodi
+          assum<lb ed="#G" n="91" break="no"/>ptione sic non posset non gaudere a peccato, quod est falsum 
+        </p>
+        <p xml:id="HuYgTa-161855-d1e1971">
+          <lb ed="#G" n="92"/>
+          <pc type="indent"/>AD PRIMvM dicendum, quod absolute, &amp; simpliciter
+          lo<lb ed="#G" n="93" break="no"/>uendo, tunc minor est falsa: quia eade ratione posset dici, quod 
+          <lb ed="#G" n="94"/>Deum assumere naturam angelorum esset de perfectione vni 
+          <lb ed="#G" n="95"/>uersi. vnde pfectio vniuersi non requirit hypostaticam
+          vnio<lb ed="#G" n="96" break="no"/>ne finis, &amp; principij: sed requirit debiti ordinis conexionem 
+          <lb ed="#G" n="97"/>finis ad principium, qua ea, quod sunt ad fine, dirigantur in finem,  
+          <lb ed="#G" n="98"/>&amp; finem consequantur. Et quia iste ordo non fuisset
+          inter<lb ed="#G" n="99" break="no"/>ruptus, si non fuisset peccatum: ideo quamuis posset dici,  
+          <lb ed="#G" n="100"/>quoe dominica incarnatio, qua talis ordo fuit reparatus, sit 
+          <lb ed="#G" n="101"/>de perfectione vniuersi post peccatum hominis: tamen 
+          <lb ed="#G" n="102"/>ante peccatum non fuisset de vniuersi perfectione 
+        </p>
+        <p xml:id="HuYgTa-161855-d1e2000">
+          <lb ed="#G" n="103"/>
+          <pc type="indent"/>Ad secundum, nego minorem pro illa parte, qua dicit,  
+          <lb ed="#G" n="104"/>uoe sensus innocentis hominis &amp;c. Ad probationem dico,  
+          <lb ed="#G" n="105"/>p licet virtutes sensitiuae tunc nullum haberent
+          imme<lb ed="#G" n="106" break="no"/>diatum obiectum in Deo: tamen essent beatae ex redun 
+          <lb ed="#G" n="107"/>dantia virium superiorum, quae immediatum habent
+          obie<lb ed="#G" n="108" break="no"/>ctum in Deo. Et ista videtur esse intentio Augu. ad
+          Dio<lb ed="#G" n="109" break="no"/>scorum, vbi ait, Tantam virtutem dominus dedit animae. 
+          <lb ed="#G" n="110"/>vt eius perfecta beatitudo redundet in vires inferiores. 
+        </p>
+        <p xml:id="HuYgTa-161855-d1e2022">
+          <lb ed="#G" n="111"/>
+          <pc type="indent"/>Ad tertium nego maiorem: quia illa capacitas non est 
+          <lb ed="#G" n="112"/>potentiae naturalis: sed solum potentiae obedientialis,  
+          <lb ed="#G" n="113"/>quae quidem potentia non minus fuit in homine post pec 
+          <lb ed="#G" n="114"/>catum, quam ante peccatum. 
+        </p>
+        <p xml:id="HuYgTa-161855-d1e2036">
+          <lb ed="#G" n="115"/>
+          <pc type="indent"/>FoRTE dicetur, si aequalis capacitas fuit ante peccatum, 
+          <lb ed="#G" n="116"/>post, quamuis illa non fuerit per potentiam naturalem 
+          <lb ed="#G" n="117"/>sed obedientialem : ergo saltem aequaliter fuisset homo 
+          <lb ed="#G" n="118"/>assumptus, si non peccasset, sicut postquam peccauit 
+        </p>
+        <p xml:id="HuYgTa-161855-d1e2049">
+          <lb ed="#G" n="119"/>
+          <pc type="indent"/>RESPONDFO, quod quamuis homo fuisset aequaliter assum 
+          <lb ed="#G" n="120"/>ptibilis:: tamen non affuisset aequalis ratio assumptionis 
+          <lb ed="#G" n="121"/>uia nulla fuisset necessitas nostrae redemptionis. 
+          <lb ed="#G" n="122"/>Ad quartum dicendum, quod vera dilectio maxime
+          pro<lb ed="#G" n="123" break="no"/>patur in necessitatis articulo: ideo quamuis Deus ante 
+          <lb ed="#G" n="124"/>peccatum non minus diligeret hominem, quam post pec 
+          <lb ed="#G" n="125"/>catum: tamen magis fuit opportunum, illud maximum
+          si<lb ed="#G" n="126" break="no"/>num dilectionis ostendere post lapsum peccati, quando 
+          <lb ed="#G" n="127"/>nomo indiguit hoc signo suae liberationis, quam si homo 
+          <lb ed="#G" n="128"/>non peccasset: quia tunc nullam necessitatem istius osten 
+          <lb ed="#G" n="129"/>sionis habuisset. Tamen multa alia signa dilectionis Deus 
+          <lb ed="#G" n="130"/>huiusmodi ostendisset; si non peccasset: puta quia sine om 
+          <lb ed="#G" n="131"/>ni poena, immo cum magna delectatione presentis vitae,  
+          <lb ed="#G" n="132"/>eum ad aeternam beatitudinem assumpsisset, 
+        </p>
+        <p xml:id="HuYgTa-161855-d1e2084">
+          <lb ed="#G" n="133"/>
+          <pc type="indent"/>Ad quintum dicendum, quod peccatu non fuit
+          praeci<lb ed="#G" n="134" break="no"/>sa causa diuinae incarnationis: quia causa praecisa est
+          cau<lb ed="#G" n="135" break="no"/>sa prse, quae necessario, vel est maioris perfectionis, quam  
+          <lb ed="#G" n="136"/>effectus, vel saltem aequalis. Peccatum autem nullius est 
+          <lb ed="#G" n="137"/>erfectionis. Vnde dico quod peccatum fuit causa
+          occa<lb ed="#G" n="138" break="no"/>sionalis: Dei autem dilectio fuit causa per se, &amp;
+          princi<lb ed="#G" n="139" break="no"/>palis. Sed nunc est ita, quod aliquis potest gaudere de ali 
+          <lb ed="#G" n="140"/>quo effectu: quamuis doleat de occasione illius effectus. 
+          <lb ed="#G" n="141"/>Persecutio enim ecclesiae Dei fuit Paulo occasio maioris 
+          <lb ed="#G" n="142"/>meriti, iuxta quod ipse ait, vt, vbi abundauit iniquitas,  
+          <lb ed="#G" n="143"/>aibundet &amp; gratia: tamen &amp;c.
+        </p>
+        <p xml:id="HuYgTa-161855-d1e2113">
+          <!--479.xml-->
+          <pb ed="#G" n="P2_4-v"/>
+          <cb ed="#G" n="a"/>
+          <lb ed="#G" n="1"/>ET per hoc etiam patet ad argumentum principale: 
+          <lb ed="#G" n="2"/>quia quamuis per se, &amp; causaliter innocentia nulli obsit 
+          <lb ed="#G" n="3"/>nec peccatum debeat prodesse: per accidens tamen &amp;
+          oc<lb ed="#G" n="4" break="no"/>casionaliter innocentia quandoque potest obesse,
+          pecca<lb ed="#G" n="5" break="no"/>tum prodesse
+        </p>
+      </div>
+    </body>
+  </text>
 </TEI>

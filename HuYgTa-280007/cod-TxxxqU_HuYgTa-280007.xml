@@ -1,109 +1,109 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Circa textum</title>
-            <author ref="#ThomasStrasbourg">Thomas of Strasbourg</author>
-            <respStmt>
-               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
-               <resp>Transcription Editor</resp>
-               <resp>TEI Encoder</resp>
-            </respStmt>
-         </titleStmt>
-         <editionStmt>
-            <edition n="0.0.0-dev">
-               <title>Circa textum</title>
-               <date when="2020-11-26">November 26, 2020</date>
-            </edition>
-         </editionStmt>
-         <publicationStmt>
-            <authority>SCTA</authority>
-            <availability status="free">
-               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
-               </p>
-            </availability>
-         </publicationStmt>
-         <sourceDesc>
-            <listWit>
-               <witness xml:id="G" n="cod-TxxxqU">Genoa 1585</witness>
-            </listWit>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
-         <editorialDecl>
-            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
-       guidelines for a diplomatic edition.</p>
-         </editorialDecl>
-      </encodingDesc>
-      <revisionDesc status="draft">
-         <listChange>
-            <change when="2020-11-26" status="draft" n="0.0.0">
-               <p>Created file for the first time.</p>
-            </change>
-         </listChange>
-      </revisionDesc>
-   </teiHeader>
-   <text xml:lang="la">
-      <front>
-         <div xml:id="starts-on">
-           <pb ed="#G" n="P2_159-r"/>
-            <cb ed="#G" n="a"/>
-         </div>
-      </front>
-      <body>
-         <div xml:id="HuYgTa-280007"><!-- HuYgTa-l4d31ct1 -->
-            <head xml:id="HuYgTa-280007-Hd1e108">Circa textum</head>
-            <p xml:id="HuYgTa-280007-d1e111">
-               <lb ed="#G" n="48"/>
-               <pc type="indent"/>DISTINCTIO. XXXI 
-      <lb ed="#G" n="49"/>Resoluta huius distinctionis diuisio, in qua agitiui 
-      <lb ed="#G" n="50"/>
-               <pc type="indent"/>de causa finali ipsius matrimonij. 
-    </p>
-            <p xml:id="HuYgTa-280007-d1e124">
-               <lb ed="#G" n="51"/>
-               <pc type="indent"/>OST haec de bonis. Postquam 
-      <lb ed="#G" n="52"/>Magister determinauit de causa 
-      <lb ed="#G" n="53"/>formali, ac efficiente ipsius
-      ma<lb ed="#G" n="54" break="no"/>trimonii, nuc tractat de eius
-      cau<lb ed="#G" n="55" break="no"/>sa finali, puta de bonis ipsius ma 
-      <lb ed="#G" n="56"/>trimoni. Et, diuiditur in duas pai 
-      <lb ed="#G" n="57"/>tes: nam primo, vniuersaliter tra 
-      <lb ed="#G" n="58"/>di ctat de tribus bonis matrimoni, 
-      <lb ed="#G" n="59"/>Secundo specialiter considerat de vno illorum, puta de 
-      <lb ed="#G" n="60"/>bono fidei, ibi, Quod vero sine consensu. Prima in duas 
-      <lb ed="#G" n="61"/>partes: nam primo ostendit, quae sint bona matrimonii 
-      <lb ed="#G" n="62"/>secudo innuit, qualiter illa bona excusant peccato actu 
-      <lb ed="#G" n="63"/>carnalis commercii, ibi, Cum igitur haec tria. Prima it 
-      <lb ed="#G" n="64"/>tres: quia primo ostendit, quod matrimonii triplex est 
-      <lb ed="#G" n="65"/>bonum. Secundo, quod istud triplex bonum non conco 
-      <lb ed="#G" n="66"/>mitatur quodlibet matrimoniale coniugium. Tertio spe 
-      <lb ed="#G" n="67"/>cialiter ostendit, quomodo aliqui, sine intentione
-      pro<lb ed="#G" n="68" break="no"/>lis, contrahunt matrimonium Secunda; ibi. Et est
-      scien<lb ed="#G" n="69" break="no"/>dum. Tertia, ibi, Solet quaeri cum masculus. Et haec in 
-      <!--788.xml-->
-      <cb ed="#G" n="b"/>
-               <lb ed="#G" n="70"/>tres: nam primo ostendit, quod absque prolis
-      intentio<lb ed="#G" n="71" break="no"/>ne potest contrahi matrimonium, Secundo, quod inten 
-      <lb ed="#G" n="72"/>tio vitandi prolem exciudit matrimoniale coniugium, 
-      <lb ed="#G" n="73"/>&amp; tertio, quando reputandus sit homicida, qui procurat 
-      <lb ed="#G" n="74"/>abortum. Secunda ibi. Qui vero Tertia, ibi, Hic quaeri so 
-      <lb ed="#G" n="75"/>et Sequitur illa pars, Cum igitur haec t ia. Et diuiditur 
-      <lb ed="#G" n="76"/>in duas partes: nam primo ostendit, quomodo sides, pro 
-      <lb ed="#G" n="77"/>les, &amp; sacramentum, quae sunt tria bona matrimonii,
-      ex<lb ed="#G" n="78" break="no"/>cusant actum carnalis copulae a peccato secundo innuit, 
-      <lb ed="#G" n="79"/>quomodo ambo coniuges parem habent potestatem in 
-      <lb ed="#G" n="80"/>actu isto, ibi, Sciendum etiam est: Prima in duas, quia pri 
-      <lb ed="#G" n="81"/>mo ponit intentae veritatis determinationem. Secundo 
-      <lb ed="#G" n="82"/>adducit contrariam obiectionem, ibi, Sed si concubitus 
-      <lb ed="#G" n="83"/>Et haec in tres, secundum quod tripliciter obiicit, &amp;cui¬ 
-      <lb ed="#G" n="84"/>libet obiectioni suam responsionem adiungit. Secunda, 
-      <lb ed="#G" n="85"/>ibi, Sed forte aliquis dicet. Tertia, ibi, videtur tamen
-      D<lb ed="#G" n="86" break="no"/>preg. Haec est sententia istius ;i, distin in generali;
-      cir<lb ed="#G" n="87" break="no"/>ca quam quaero in speciali, 
-    </p>
-         </div>
-      </body>
-   </text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Circa textum</title>
+        <author ref="#ThomasStrasbourg">Thomas of Strasbourg</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Circa textum</title>
+          <date when="2020-11-26">November 26, 2020</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="G" n="cod-TxxxqU">Genoa 1585</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2020-11-26" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#G" n="P2_159-r"/>
+        <cb ed="#G" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="HuYgTa-280007"><!-- HuYgTa-l4d31ct1 -->
+        <head xml:id="HuYgTa-280007-Hd1e108">Circa textum</head>
+        <p xml:id="HuYgTa-280007-d1e111">
+          <lb ed="#G" n="48"/>
+          <pc type="indent"/>DISTINCTIO. XXXI 
+          <lb ed="#G" n="49"/>Resoluta huius distinctionis diuisio, in qua agitiui 
+          <lb ed="#G" n="50"/>
+          <pc type="indent"/>de causa finali ipsius matrimonij. 
+        </p>
+        <p xml:id="HuYgTa-280007-d1e124">
+          <lb ed="#G" n="51"/>
+          <pc type="indent"/>OST haec de bonis. Postquam 
+          <lb ed="#G" n="52"/>Magister determinauit de causa 
+          <lb ed="#G" n="53"/>formali, ac efficiente ipsius
+          ma<lb ed="#G" n="54" break="no"/>trimonii, nuc tractat de eius
+          cau<lb ed="#G" n="55" break="no"/>sa finali, puta de bonis ipsius ma 
+          <lb ed="#G" n="56"/>trimoni. Et, diuiditur in duas pai 
+          <lb ed="#G" n="57"/>tes: nam primo, vniuersaliter tra 
+          <lb ed="#G" n="58"/>di ctat de tribus bonis matrimoni, 
+          <lb ed="#G" n="59"/>Secundo specialiter considerat de vno illorum, puta de 
+          <lb ed="#G" n="60"/>bono fidei, ibi, Quod vero sine consensu. Prima in duas 
+          <lb ed="#G" n="61"/>partes: nam primo ostendit, quae sint bona matrimonii 
+          <lb ed="#G" n="62"/>secudo innuit, qualiter illa bona excusant peccato actu 
+          <lb ed="#G" n="63"/>carnalis commercii, ibi, Cum igitur haec tria. Prima it 
+          <lb ed="#G" n="64"/>tres: quia primo ostendit, quod matrimonii triplex est 
+          <lb ed="#G" n="65"/>bonum. Secundo, quod istud triplex bonum non conco 
+          <lb ed="#G" n="66"/>mitatur quodlibet matrimoniale coniugium. Tertio spe 
+          <lb ed="#G" n="67"/>cialiter ostendit, quomodo aliqui, sine intentione
+          pro<lb ed="#G" n="68" break="no"/>lis, contrahunt matrimonium Secunda; ibi. Et est
+          scien<lb ed="#G" n="69" break="no"/>dum. Tertia, ibi, Solet quaeri cum masculus. Et haec in 
+          <!--788.xml-->
+          <cb ed="#G" n="b"/>
+          <lb ed="#G" n="70"/>tres: nam primo ostendit, quod absque prolis
+          intentio<lb ed="#G" n="71" break="no"/>ne potest contrahi matrimonium, Secundo, quod inten 
+          <lb ed="#G" n="72"/>tio vitandi prolem exciudit matrimoniale coniugium, 
+          <lb ed="#G" n="73"/>&amp; tertio, quando reputandus sit homicida, qui procurat 
+          <lb ed="#G" n="74"/>abortum. Secunda ibi. Qui vero Tertia, ibi, Hic quaeri so 
+          <lb ed="#G" n="75"/>et Sequitur illa pars, Cum igitur haec t ia. Et diuiditur 
+          <lb ed="#G" n="76"/>in duas partes: nam primo ostendit, quomodo sides, pro 
+          <lb ed="#G" n="77"/>les, &amp; sacramentum, quae sunt tria bona matrimonii,
+          ex<lb ed="#G" n="78" break="no"/>cusant actum carnalis copulae a peccato secundo innuit, 
+          <lb ed="#G" n="79"/>quomodo ambo coniuges parem habent potestatem in 
+          <lb ed="#G" n="80"/>actu isto, ibi, Sciendum etiam est: Prima in duas, quia pri 
+          <lb ed="#G" n="81"/>mo ponit intentae veritatis determinationem. Secundo 
+          <lb ed="#G" n="82"/>adducit contrariam obiectionem, ibi, Sed si concubitus 
+          <lb ed="#G" n="83"/>Et haec in tres, secundum quod tripliciter obiicit, &amp;cui¬ 
+          <lb ed="#G" n="84"/>libet obiectioni suam responsionem adiungit. Secunda, 
+          <lb ed="#G" n="85"/>ibi, Sed forte aliquis dicet. Tertia, ibi, videtur tamen
+          D<lb ed="#G" n="86" break="no"/>preg. Haec est sententia istius ;i, distin in generali;
+          cir<lb ed="#G" n="87" break="no"/>ca quam quaero in speciali, 
+        </p>
+      </div>
+    </body>
+  </text>
 </TEI>

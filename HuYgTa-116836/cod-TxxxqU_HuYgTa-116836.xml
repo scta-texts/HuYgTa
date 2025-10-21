@@ -1,111 +1,111 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Circa textum</title>
-            <author ref="#ThomasStrasbourg">Thomas of Strasbourg</author>
-            <respStmt>
-               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
-               <resp>Transcription Editor</resp>
-               <resp>TEI Encoder</resp>
-            </respStmt>
-         </titleStmt>
-         <editionStmt>
-            <edition n="0.0.0-dev">
-               <title>Circa textum</title>
-               <date when="2020-11-26">November 26, 2020</date>
-            </edition>
-         </editionStmt>
-         <publicationStmt>
-            <authority>SCTA</authority>
-            <availability status="free">
-               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
-               </p>
-            </availability>
-         </publicationStmt>
-         <sourceDesc>
-            <listWit>
-               <witness xml:id="G" n="cod-TxxxqU">Genoa 1585</witness>
-            </listWit>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
-         <editorialDecl>
-            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
-       guidelines for a diplomatic edition.</p>
-         </editorialDecl>
-      </encodingDesc>
-      <revisionDesc status="draft">
-         <listChange>
-            <change when="2020-11-26" status="draft" n="0.0.0">
-               <p>Created file for the first time.</p>
-            </change>
-         </listChange>
-      </revisionDesc>
-   </teiHeader>
-   <text xml:lang="la">
-      <front>
-         <div xml:id="starts-on">
-            <pb ed="#G" n="153-v"/>
-            <cb ed="#G" n="b"/>
-         </div>
-      </front>
-      <body>
-         <div xml:id="HuYgTa-116836"><!-- HuYgTa-l2d9ct1 -->
-            <head xml:id="HuYgTa-116836-Hd1e108">Circa textum</head>
-            <p xml:id="HuYgTa-116836-d1e111">
-               <lb ed="#G" n="109"/>
-               <pc type="indent"/>DISTINCTIO Ix. 
-      <lb ed="#G" n="110"/>Lucida buius distinctionis diuisio, in qua de 
-      <lb ed="#G" n="111"/>
-               <pc type="indent"/>bonorum Ange orum indignitate 
-      <lb ed="#G" n="112"/>
-               <pc type="indent"/>pertractatir. 
-    </p>
-            <p xml:id="HuYgTa-116836-d1e129">
-               <lb ed="#G" n="113"/>
-               <pc type="indent"/>OSTPREDICTA &amp;c. Postquan 
-      <lb ed="#G" n="114"/>Magister determinauit de malo 
-      <lb ed="#G" n="115"/>rum angelorum vilitate, quam 
-      <lb ed="#G" n="116"/>consecuti sunt propter eorum d 
-      <lb ed="#G" n="117"/>Deo auersionem, hiec scilicet
-      di<lb ed="#G" n="118" break="no"/>stinctione. 9. prosequitur de bono 
-      <lb ed="#G" n="119"/>rum angetorum dignitate, quan 
-      <lb ed="#G" n="120"/>&amp; ipsi consecuti sunt propter
-      eo<lb ed="#G" n="121" break="no"/>rum ad Deum conuersionem, &amp; diuiditur in duas partes 
-      <lb ed="#G" n="122"/>nam primo tangit angelorum dignitate ex ordinatissim. 
-      <lb ed="#G" n="123"/>eorum dispositione; Secundo ex vtilissi ma eorum gubema 
-      <lb ed="#G" n="124"/>tione ibi, Hoc etem inuestigandum. Prima in tres; quia pri 
-      <lb ed="#G" n="125"/>mo agit de nouem ordinum bonorum angelorum
-      exprefso<lb ed="#G" n="126" break="no"/>ne. Secundo de eorum ab inuicem distinctione: Tertio di 
-      <lb ed="#G" n="127"/>eorundem per assumptionem bonorum hominum
-      repa<lb ed="#G" n="128" break="no"/>ratione Secunda ibi, lam nunc Tertia ibi, Notandum, d 
-      <lb ed="#G" n="129"/>dicimus. Prima in tres quia primo ponit praedictorum) 
-      <lb ed="#G" n="130"/>prdinum propriam, seu distinctam nominationem.
-      So<lb ed="#G" n="131" break="no"/>cundo explanando, quae dixerat praedictae nominationis) 
-      <lb ed="#G" n="132"/>assigna: rationem Et tertio circa praedicta mouet
-      inciden<lb ed="#G" n="133" break="no"/>tem dubitationem. Secunda ibi, Hic considerandum Ter 
-      <lb ed="#G" n="134"/>tia ibi, Sed oritur quaestio. Sequitur illa pars, lam nunc 
-      <!--346.xml-->
-      <pb ed="#G" n="154-r"/>
-               <cb ed="#G" n="a"/>
-               <lb ed="#G" n="1"/>Adiuiditur in duas partes, secundum quod Magister facit 
-      <lb ed="#G" n="2"/>duas inquifitiones. Prima est, vtrum ordines angclorum 
-      <lb ed="#G" n="3"/>fuerint distincti ab initio suae creationis, Secunda, vtrunm 
-      <lb ed="#G" n="4"/>omnes angeli vnius ordinis sint aequalis perfectionis.
-      Se<lb ed="#G" n="5" break="no"/>tunda ibi, Praeterea considerari oportet. Sequitur illa pars,  
-      <lb ed="#G" n="6"/>Notadum, quod decimus, &amp; diuiditur in tres partes: quia 
-      <lb ed="#G" n="7"/>primo ostendit, quod per assumptionem hominum
-      ordi<lb ed="#G" n="8" break="no"/>ues angelorum integrati &amp; reparati erunt, Secundo
-      iux<lb ed="#G" n="9" break="no"/>ta mam opinionem Magister recitat, quod tot homines 
-      <lb ed="#G" n="10"/>issumentur, quot fuerunt angeli, qui boni permanserunt, 
-      <lb ed="#G" n="11"/>Tertio iuxta aliam opinionem recitat tot homines
-      assu<lb ed="#G" n="12" break="no"/>mendos, quot angeli ceciderunt. Secunda ibi, Non enim 
-      <lb ed="#G" n="13"/>iuta Tertia ibi, Aquibusdam tamen. Et haec est diuisic 
-      <lb ed="#G" n="14"/>stus distinctionis nonae circa quam quaero. 
-    </p>
-         </div>
-      </body>
-   </text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Circa textum</title>
+        <author ref="#ThomasStrasbourg">Thomas of Strasbourg</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Circa textum</title>
+          <date when="2020-11-26">November 26, 2020</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="G" n="cod-TxxxqU">Genoa 1585</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2020-11-26" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#G" n="153-v"/>
+        <cb ed="#G" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="HuYgTa-116836"><!-- HuYgTa-l2d9ct1 -->
+        <head xml:id="HuYgTa-116836-Hd1e108">Circa textum</head>
+        <p xml:id="HuYgTa-116836-d1e111">
+          <lb ed="#G" n="109"/>
+          <pc type="indent"/>DISTINCTIO Ix. 
+          <lb ed="#G" n="110"/>Lucida buius distinctionis diuisio, in qua de 
+          <lb ed="#G" n="111"/>
+          <pc type="indent"/>bonorum Ange orum indignitate 
+          <lb ed="#G" n="112"/>
+          <pc type="indent"/>pertractatir. 
+        </p>
+        <p xml:id="HuYgTa-116836-d1e129">
+          <lb ed="#G" n="113"/>
+          <pc type="indent"/>OSTPREDICTA &amp;c. Postquan 
+          <lb ed="#G" n="114"/>Magister determinauit de malo 
+          <lb ed="#G" n="115"/>rum angelorum vilitate, quam 
+          <lb ed="#G" n="116"/>consecuti sunt propter eorum d 
+          <lb ed="#G" n="117"/>Deo auersionem, hiec scilicet
+          di<lb ed="#G" n="118" break="no"/>stinctione. 9. prosequitur de bono 
+          <lb ed="#G" n="119"/>rum angetorum dignitate, quan 
+          <lb ed="#G" n="120"/>&amp; ipsi consecuti sunt propter
+          eo<lb ed="#G" n="121" break="no"/>rum ad Deum conuersionem, &amp; diuiditur in duas partes 
+          <lb ed="#G" n="122"/>nam primo tangit angelorum dignitate ex ordinatissim. 
+          <lb ed="#G" n="123"/>eorum dispositione; Secundo ex vtilissi ma eorum gubema 
+          <lb ed="#G" n="124"/>tione ibi, Hoc etem inuestigandum. Prima in tres; quia pri 
+          <lb ed="#G" n="125"/>mo agit de nouem ordinum bonorum angelorum
+          exprefso<lb ed="#G" n="126" break="no"/>ne. Secundo de eorum ab inuicem distinctione: Tertio di 
+          <lb ed="#G" n="127"/>eorundem per assumptionem bonorum hominum
+          repa<lb ed="#G" n="128" break="no"/>ratione Secunda ibi, lam nunc Tertia ibi, Notandum, d 
+          <lb ed="#G" n="129"/>dicimus. Prima in tres quia primo ponit praedictorum) 
+          <lb ed="#G" n="130"/>prdinum propriam, seu distinctam nominationem.
+          So<lb ed="#G" n="131" break="no"/>cundo explanando, quae dixerat praedictae nominationis) 
+          <lb ed="#G" n="132"/>assigna: rationem Et tertio circa praedicta mouet
+          inciden<lb ed="#G" n="133" break="no"/>tem dubitationem. Secunda ibi, Hic considerandum Ter 
+          <lb ed="#G" n="134"/>tia ibi, Sed oritur quaestio. Sequitur illa pars, lam nunc 
+          <!--346.xml-->
+          <pb ed="#G" n="154-r"/>
+          <cb ed="#G" n="a"/>
+          <lb ed="#G" n="1"/>Adiuiditur in duas partes, secundum quod Magister facit 
+          <lb ed="#G" n="2"/>duas inquifitiones. Prima est, vtrum ordines angclorum 
+          <lb ed="#G" n="3"/>fuerint distincti ab initio suae creationis, Secunda, vtrunm 
+          <lb ed="#G" n="4"/>omnes angeli vnius ordinis sint aequalis perfectionis.
+          Se<lb ed="#G" n="5" break="no"/>tunda ibi, Praeterea considerari oportet. Sequitur illa pars,  
+          <lb ed="#G" n="6"/>Notadum, quod decimus, &amp; diuiditur in tres partes: quia 
+          <lb ed="#G" n="7"/>primo ostendit, quod per assumptionem hominum
+          ordi<lb ed="#G" n="8" break="no"/>ues angelorum integrati &amp; reparati erunt, Secundo
+          iux<lb ed="#G" n="9" break="no"/>ta mam opinionem Magister recitat, quod tot homines 
+          <lb ed="#G" n="10"/>issumentur, quot fuerunt angeli, qui boni permanserunt, 
+          <lb ed="#G" n="11"/>Tertio iuxta aliam opinionem recitat tot homines
+          assu<lb ed="#G" n="12" break="no"/>mendos, quot angeli ceciderunt. Secunda ibi, Non enim 
+          <lb ed="#G" n="13"/>iuta Tertia ibi, Aquibusdam tamen. Et haec est diuisic 
+          <lb ed="#G" n="14"/>stus distinctionis nonae circa quam quaero. 
+        </p>
+      </div>
+    </body>
+  </text>
 </TEI>

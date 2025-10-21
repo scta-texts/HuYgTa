@@ -1,104 +1,104 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Circa textum</title>
-            <author ref="#ThomasStrasbourg">Thomas of Strasbourg</author>
-            <respStmt>
-               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
-               <resp>Transcription Editor</resp>
-               <resp>TEI Encoder</resp>
-            </respStmt>
-         </titleStmt>
-         <editionStmt>
-            <edition n="0.0.0-dev">
-               <title>Circa textum</title>
-               <date when="2020-11-26">November 26, 2020</date>
-            </edition>
-         </editionStmt>
-         <publicationStmt>
-            <authority>SCTA</authority>
-            <availability status="free">
-               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
-               </p>
-            </availability>
-         </publicationStmt>
-         <sourceDesc>
-            <listWit>
-               <witness xml:id="G" n="cod-TxxxqU">Genoa 1585</witness>
-            </listWit>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
-         <editorialDecl>
-            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
-       guidelines for a diplomatic edition.</p>
-         </editorialDecl>
-      </encodingDesc>
-      <revisionDesc status="draft">
-         <listChange>
-            <change when="2020-11-26" status="draft" n="0.0.0">
-               <p>Created file for the first time.</p>
-            </change>
-         </listChange>
-      </revisionDesc>
-   </teiHeader>
-   <text xml:lang="la">
-      <front>
-         <div xml:id="starts-on">
-            <pb ed="#G" n="-r"/>
-            <cb ed="#G" n="a"/>
-         </div>
-      </front>
-      <body>
-         <div xml:id="HuYgTa-e78741"><!-- HuYgTa-l1d34ct1 -->
-            <head xml:id="HuYgTa-e78741-Hd1e108">Circa textum</head>
-            <p xml:id="HuYgTa-e78741-d1e111">
-               <lb ed="#G" n="34"/>
-               <pc type="indent"/>DISTINCTIO XXXIIII 
-      <lb ed="#G" n="35"/>Absoluta, &amp; facilis duusio buius distinctiois in qua 
-      <lb ed="#G" n="36"/>de mutua diuinarum personarum ad
-      diui<lb ed="#G" n="37" break="no"/>nam essentiam collatione 
-      <lb ed="#G" n="38"/>
-               <pc type="indent"/>disseritur.
-    </p>
-            <p xml:id="HuYgTa-e78741-d1e129">
-               <lb ed="#G" n="39"/>EDICTIS est adiiciendum, 
-      <lb ed="#G" n="40"/>Hic magister comparat personas 
-      <lb ed="#G" n="41"/>ad essentiam, &amp; diuitur in duas
-      par<lb ed="#G" n="42" break="no"/>tes: quia primo pertractat
-      huius<lb ed="#G" n="43" break="no"/>modi comparationes, secundo
-      per<lb ed="#G" n="44" break="no"/>ractat diuinorum quasdam
-      spe<lb ed="#G" n="45" break="no"/>ciales habitudines ibi, Hic
-      consi<lb ed="#G" n="46" break="no"/>derandum. Quantum ad primum 
-      <lb ed="#G" n="47"/>est sciendum, quod ex comparatione essentiae ad
-      perso<lb ed="#G" n="48" break="no"/>nas est intentio magistri ostendere essentiam diuinam esse  
-      <lb ed="#G" n="49"/>idem realiter cum personis: Diuiditur ergo ista pars in tres 
-      <lb ed="#G" n="50"/>partes, nam primo ostendit quomodo quidam contra ian 
-      <lb ed="#G" n="51"/>dictam veritatem arguunt, secundo ostendit, quod tales 
-      <lb ed="#G" n="52"/>scripturas sacras non intelligunt, Tertio ostendit qualiter 
-      <lb ed="#G" n="53"/>rationes eorum deficiunt. Secunda ibi, Hoc quidam
-      di<lb ed="#G" n="54" break="no"/>cunt. Tertia ibi, Ad naturam ergo rerum. 
-    </p>
-            <p xml:id="HuYgTa-e78741-d1e166">
-               <lb ed="#G" n="55"/>
-               <pc type="indent"/>Sequitur illa pars. Hic considerandum &amp;c. &amp;diuiditur 
-      <lb ed="#G" n="56"/>in duas: quia primo magister quorundam terminorum di 
-      <lb ed="#G" n="57"/>uinorum habitudines manifestat, secundo quae dixerat 
-      <lb ed="#G" n="58"/>breuiter recapitulat ibi, De sacramento vnitatis. Prima 
-      <lb ed="#G" n="59"/>n duas: nam primo ostendit quomodo quidam termini 
-      <lb ed="#G" n="60"/>n diuinis secundum vsum loquentium praedicantur
-      o<lb ed="#G" n="61" break="no"/>blique, secundo quomodo quidam praedicantur transum. 
-      <lb ed="#G" n="62"/>ptiue ibi, Praeterea sciendum. Prima in tres; nam primo 
-      <lb ed="#G" n="63"/>manifestat huiusmodi praedicationes, secundo insinuat 
-      <lb ed="#G" n="64"/>quorundam communium, seu essentialium
-      appropriatio<lb ed="#G" n="65" break="no"/>nes, &amp; tertio denotat quomodo circa hoc nomen homou 
-      <lb ed="#G" n="66"/>sion quandoque fuerunt haereticae deceptiones. Secunda 
-      <lb ed="#G" n="67"/>ibi, ex praedictis constat. Tertia ibi, Hoc non est
-      preter<lb ed="#G" n="68" break="no"/>mittendum Circa istam dist. 34. quaero hanc questionem.
-    </p>
-         </div>
-      </body>
-   </text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Circa textum</title>
+        <author ref="#ThomasStrasbourg">Thomas of Strasbourg</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Circa textum</title>
+          <date when="2020-11-26">November 26, 2020</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="G" n="cod-TxxxqU">Genoa 1585</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2020-11-26" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#G" n="103-v"/>
+        <cb ed="#G" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="HuYgTa-e78741"><!-- HuYgTa-l1d34ct1 -->
+        <head xml:id="HuYgTa-e78741-Hd1e108">Circa textum</head>
+        <p xml:id="HuYgTa-e78741-d1e111">
+          <lb ed="#G" n="34"/>
+          <pc type="indent"/>DISTINCTIO XXXIIII 
+          <lb ed="#G" n="35"/>Absoluta, &amp; facilis duusio buius distinctiois in qua 
+          <lb ed="#G" n="36"/>de mutua diuinarum personarum ad
+          diui<lb ed="#G" n="37" break="no"/>nam essentiam collatione 
+          <lb ed="#G" n="38"/>
+          <pc type="indent"/>disseritur.
+        </p>
+        <p xml:id="HuYgTa-e78741-d1e129">
+          <lb ed="#G" n="39"/>EDICTIS est adiiciendum, 
+          <lb ed="#G" n="40"/>Hic magister comparat personas 
+          <lb ed="#G" n="41"/>ad essentiam, &amp; diuitur in duas
+          par<lb ed="#G" n="42" break="no"/>tes: quia primo pertractat
+          huius<lb ed="#G" n="43" break="no"/>modi comparationes, secundo
+          per<lb ed="#G" n="44" break="no"/>ractat diuinorum quasdam
+          spe<lb ed="#G" n="45" break="no"/>ciales habitudines ibi, Hic
+          consi<lb ed="#G" n="46" break="no"/>derandum. Quantum ad primum 
+          <lb ed="#G" n="47"/>est sciendum, quod ex comparatione essentiae ad
+          perso<lb ed="#G" n="48" break="no"/>nas est intentio magistri ostendere essentiam diuinam esse  
+          <lb ed="#G" n="49"/>idem realiter cum personis: Diuiditur ergo ista pars in tres 
+          <lb ed="#G" n="50"/>partes, nam primo ostendit quomodo quidam contra ian 
+          <lb ed="#G" n="51"/>dictam veritatem arguunt, secundo ostendit, quod tales 
+          <lb ed="#G" n="52"/>scripturas sacras non intelligunt, Tertio ostendit qualiter 
+          <lb ed="#G" n="53"/>rationes eorum deficiunt. Secunda ibi, Hoc quidam
+          di<lb ed="#G" n="54" break="no"/>cunt. Tertia ibi, Ad naturam ergo rerum. 
+        </p>
+        <p xml:id="HuYgTa-e78741-d1e166">
+          <lb ed="#G" n="55"/>
+          <pc type="indent"/>Sequitur illa pars. Hic considerandum &amp;c. &amp;diuiditur 
+          <lb ed="#G" n="56"/>in duas: quia primo magister quorundam terminorum di 
+          <lb ed="#G" n="57"/>uinorum habitudines manifestat, secundo quae dixerat 
+          <lb ed="#G" n="58"/>breuiter recapitulat ibi, De sacramento vnitatis. Prima 
+          <lb ed="#G" n="59"/>n duas: nam primo ostendit quomodo quidam termini 
+          <lb ed="#G" n="60"/>n diuinis secundum vsum loquentium praedicantur
+          o<lb ed="#G" n="61" break="no"/>blique, secundo quomodo quidam praedicantur transum. 
+          <lb ed="#G" n="62"/>ptiue ibi, Praeterea sciendum. Prima in tres; nam primo 
+          <lb ed="#G" n="63"/>manifestat huiusmodi praedicationes, secundo insinuat 
+          <lb ed="#G" n="64"/>quorundam communium, seu essentialium
+          appropriatio<lb ed="#G" n="65" break="no"/>nes, &amp; tertio denotat quomodo circa hoc nomen homou 
+          <lb ed="#G" n="66"/>sion quandoque fuerunt haereticae deceptiones. Secunda 
+          <lb ed="#G" n="67"/>ibi, ex praedictis constat. Tertia ibi, Hoc non est
+          preter<lb ed="#G" n="68" break="no"/>mittendum Circa istam dist. 34. quaero hanc questionem.
+        </p>
+      </div>
+    </body>
+  </text>
 </TEI>

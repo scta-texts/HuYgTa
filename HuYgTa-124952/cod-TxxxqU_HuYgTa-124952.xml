@@ -1,96 +1,96 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Circa textum</title>
-            <author ref="#ThomasStrasbourg">Thomas of Strasbourg</author>
-            <respStmt>
-               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
-               <resp>Transcription Editor</resp>
-               <resp>TEI Encoder</resp>
-            </respStmt>
-         </titleStmt>
-         <editionStmt>
-            <edition n="0.0.0-dev">
-               <title>Circa textum</title>
-               <date when="2020-11-26">November 26, 2020</date>
-            </edition>
-         </editionStmt>
-         <publicationStmt>
-            <authority>SCTA</authority>
-            <availability status="free">
-               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
-               </p>
-            </availability>
-         </publicationStmt>
-         <sourceDesc>
-            <listWit>
-               <witness xml:id="G" n="cod-TxxxqU">Genoa 1585</witness>
-            </listWit>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
-         <editorialDecl>
-            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
-       guidelines for a diplomatic edition.</p>
-         </editorialDecl>
-      </encodingDesc>
-      <revisionDesc status="draft">
-         <listChange>
-            <change when="2020-11-26" status="draft" n="0.0.0">
-               <p>Created file for the first time.</p>
-            </change>
-         </listChange>
-      </revisionDesc>
-   </teiHeader>
-   <text xml:lang="la">
-      <front>
-         <div xml:id="starts-on">
-            <pb ed="#G" n="-r"/>
-            <cb ed="#G" n="a"/>
-         </div>
-      </front>
-      <body>
-         <div xml:id="HuYgTa-124952"><!-- HuYgTa-l2d15ct1 -->
-            <head xml:id="HuYgTa-124952-Hd1e108">Circa textum</head>
-            <p xml:id="HuYgTa-124952-d1e111">
-               <lb ed="#G" n="47"/>
-               <pc type="indent"/>DISTINCTIO XV. 
-      <lb ed="#G" n="48"/>Lucida huius distinctionis duusio, in qua dt 
-      <lb ed="#G" n="49"/>
-               <pc type="indent"/>viuentum creatione plcbre
-      per<lb ed="#G" n="50" break="no"/>
-               <pc type="indent"/>tractatir.
-    </p>
-            <p xml:id="HuYgTa-124952-d1e129">
-               <lb ed="#G" n="51"/>IIT ETIAM DEVS &amp;c. Hij 
-      <lb ed="#G" n="52"/>Magister tractat de creatione
-      viuem<lb ed="#G" n="53" break="no"/>tium, siue animatorum, quae sunt 
-      <lb ed="#G" n="54"/>ornamenta ipsorum
-      elemento<lb ed="#G" n="55" break="no"/>rum. Et diuiditur in duas partes 
-      <lb ed="#G" n="56"/>nam primo Magister determinat 
-      <lb ed="#G" n="57"/>de istorum creatione. Secundo de 
-      <lb ed="#G" n="58"/>creatoris requie in ipsa septima dic 
-      <lb ed="#G" n="59"/>abi, lam de septimae diei. Prima in duas: nam primo opera 
-      <lb ed="#G" n="60"/>quintae, &amp; sextae diei pertractat. Secundo aliqua, quae
-      di<lb ed="#G" n="61" break="no"/>cta sunt circa opera sex dierum breuiter recapitulat ibi, 
-      <lb ed="#G" n="62"/>Sed antequam. Prima in duas: quia primo ostendit, quo 
-      <lb ed="#G" n="63"/>modo opere quintae dici producti sunt pisces, &amp; volatilia 
-      <lb ed="#G" n="64"/>quibus ornantur aer, &amp; aqua Secundo ostendit, quomodo 
-      <lb ed="#G" n="65"/>per opus sextae diei sunt productae bestiae, iumenta,
-      homi<lb ed="#G" n="66" break="no"/>nes, atque reptibilia, quibus ornatur ipsa terra. Secunda 
-      <lb ed="#G" n="67"/>ibi, Sequitur dixit Deus. Tunc sequitur illa pars, lam de 
-      <!--366.xml-->
-      <cb ed="#G" n="b"/>
-               <lb ed="#G" n="68"/>septimae dici. Et diuiditur in tres partes: nam primio
-      Ma<lb ed="#G" n="69" break="no"/>gister asserit, quod Deus septimo dic ab opere quieuit. Se 
-      <lb ed="#G" n="70"/>cundo, quomodo septimo dic opus suum compleuit. Ter- 
-      <lb ed="#G" n="71"/>tio, quomodo septimum diem sanctificauit, &amp; sua
-      benedi<lb ed="#G" n="72" break="no"/>ctione repleuit. Secunda ibi, Sed quaeritur. Tertia ibi, lllu 
-      <lb ed="#G" n="73"/>autem diem. Circa istam distinctionem quaero. 
-    </p>
-         </div>
-      </body>
-   </text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Circa textum</title>
+        <author ref="#ThomasStrasbourg">Thomas of Strasbourg</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Circa textum</title>
+          <date when="2020-11-26">November 26, 2020</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="G" n="cod-TxxxqU">Genoa 1585</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2020-11-26" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#G" n="-r"/>
+        <cb ed="#G" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="HuYgTa-124952"><!-- HuYgTa-l2d15ct1 -->
+        <head xml:id="HuYgTa-124952-Hd1e108">Circa textum</head>
+        <p xml:id="HuYgTa-124952-d1e111">
+          <lb ed="#G" n="47"/>
+          <pc type="indent"/>DISTINCTIO XV. 
+          <lb ed="#G" n="48"/>Lucida huius distinctionis duusio, in qua dt 
+          <lb ed="#G" n="49"/>
+          <pc type="indent"/>viuentum creatione plcbre
+          per<lb ed="#G" n="50" break="no"/>
+          <pc type="indent"/>tractatir.
+        </p>
+        <p xml:id="HuYgTa-124952-d1e129">
+          <lb ed="#G" n="51"/>IIT ETIAM DEVS &amp;c. Hij 
+          <lb ed="#G" n="52"/>Magister tractat de creatione
+          viuem<lb ed="#G" n="53" break="no"/>tium, siue animatorum, quae sunt 
+          <lb ed="#G" n="54"/>ornamenta ipsorum
+          elemento<lb ed="#G" n="55" break="no"/>rum. Et diuiditur in duas partes 
+          <lb ed="#G" n="56"/>nam primo Magister determinat 
+          <lb ed="#G" n="57"/>de istorum creatione. Secundo de 
+          <lb ed="#G" n="58"/>creatoris requie in ipsa septima dic 
+          <lb ed="#G" n="59"/>abi, lam de septimae diei. Prima in duas: nam primo opera 
+          <lb ed="#G" n="60"/>quintae, &amp; sextae diei pertractat. Secundo aliqua, quae
+          di<lb ed="#G" n="61" break="no"/>cta sunt circa opera sex dierum breuiter recapitulat ibi, 
+          <lb ed="#G" n="62"/>Sed antequam. Prima in duas: quia primo ostendit, quo 
+          <lb ed="#G" n="63"/>modo opere quintae dici producti sunt pisces, &amp; volatilia 
+          <lb ed="#G" n="64"/>quibus ornantur aer, &amp; aqua Secundo ostendit, quomodo 
+          <lb ed="#G" n="65"/>per opus sextae diei sunt productae bestiae, iumenta,
+          homi<lb ed="#G" n="66" break="no"/>nes, atque reptibilia, quibus ornatur ipsa terra. Secunda 
+          <lb ed="#G" n="67"/>ibi, Sequitur dixit Deus. Tunc sequitur illa pars, lam de 
+          <!--366.xml-->
+          <cb ed="#G" n="b"/>
+          <lb ed="#G" n="68"/>septimae dici. Et diuiditur in tres partes: nam primio
+          Ma<lb ed="#G" n="69" break="no"/>gister asserit, quod Deus septimo dic ab opere quieuit. Se 
+          <lb ed="#G" n="70"/>cundo, quomodo septimo dic opus suum compleuit. Ter- 
+          <lb ed="#G" n="71"/>tio, quomodo septimum diem sanctificauit, &amp; sua
+          benedi<lb ed="#G" n="72" break="no"/>ctione repleuit. Secunda ibi, Sed quaeritur. Tertia ibi, lllu 
+          <lb ed="#G" n="73"/>autem diem. Circa istam distinctionem quaero. 
+        </p>
+      </div>
+    </body>
+  </text>
 </TEI>
