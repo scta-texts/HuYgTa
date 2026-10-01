@@ -1,0 +1,77 @@
+{
+  "_metadata": {
+    "schema_version": "1.0",
+    "generated_at": "2026-10-01T00:37:40Z",
+    "model": "claude-opus-5-5",
+    "prompt_version": "interpretation-v1",
+    "source_commit": "c560df2",
+    "generation_method": "hierarchical"
+  },
+  "HuYgTa-d1e285-d1e111": {
+    "summary": "Rubric introducing a brief and clear division of the whole text of Peter Lombard's prologue to the Sentences, presented as greatly aiding a distinct and complete understanding of it.",
+    "claims": [
+      "A division of the Lombard's prologue aids its distinct and complete understanding."
+    ],
+    "concepts": [
+      "divisio textus",
+      "prologue of the Sentences"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "HuYgTa-d1e285-d1e133"
+      ]
+    }
+  },
+  "HuYgTa-d1e285-d1e133": {
+    "summary": "Having already treated the causes of the book, Thomas turns to its form of treatment and divides it into the Lombard's prologue and the treatise proper (beginning 'Veteris ac novae legis'). Following the rhetorical convention that a prologue aims to make hearers benevolent, attentive and docile, he shows that the Lombard does so by displaying his humility, the arduousness of the matter ('Ardua scandere') and the order of his science ('Horum igitur Deo odibilem'). The humility section is subdivided (in itself, and by comparison with the poor widow, with a gloss on 'gazophylacium' as the treasury of Scripture). The 'Ardua scandere' section is analyzed as a battle of thoughts: three deterrents (dread of undertaking, labor of execution, fear of failing) are weighed against three attractions (divine help, delight in reward, desire to profit others), with charity toward God and neighbor as the cause of victory. Because the Lombard speaks of opening hidden theological inquiries, Thomas announces the question that follows.",
+    "claims": [
+      "The Sentences divides into a prologue and the treatise beginning 'Veteris ac novae legis.'",
+      "Prologues conventionally aim to render hearers benevolent, attentive and docile, by means of the author's humility, the difficulty of the matter, and the order of the teaching.",
+      "The Lombard's prologue accordingly has three parts: his humility, the difficulty of the work, and the order of the science.",
+      "The difficulty of the work is shown first from the sublimity of its subject and second from the malice of the envious.",
+      "Three factors deterred the Lombard and three attracted him to the work; charity toward God and neighbor caused the attractions to prevail."
+    ],
+    "concepts": [
+      "divisio textus",
+      "benevolence, attention and docility",
+      "authorial humility",
+      "difficulty of theology",
+      "charity as motive",
+      "gazophylacium"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "HuYgTa-d1e285-d1e111",
+        "HuYgTa-d1e3XX",
+        "HuYgTa-d1e566-d1e124",
+        "HuYgTa-d1e955-d1e120"
+      ]
+    }
+  },
+  "HuYgTa-d1e285": {
+    "summary": "The second 'circa textum' of the prologue: a divisio textus of the Lombard's prologue. It distinguishes the prologue from the treatise proper, shows that the prologue follows the rhetorical program of making readers benevolent (through humility), attentive (through the difficulty of the matter) and docile (through the order of the science), and analyzes the first two sections — the Lombard's humility and the struggle between the deterrents and attractions of the work, resolved by charity. It ends by introducing the question on the Lombard's claim to open hidden theological inquiries.",
+    "claims": [
+      "The Lombard's prologue is structured to render readers benevolent, attentive and docile.",
+      "Charity toward God and neighbor overcame the obstacles that deterred the Lombard from writing."
+    ],
+    "concepts": [
+      "divisio textus",
+      "prologue of the Sentences",
+      "rhetorical aims of a prologue",
+      "difficulty of theology",
+      "charity"
+    ],
+    "_metadata": {
+      "level": "div",
+      "generation_method": "descendant_summaries",
+      "input_ids": [
+        "HuYgTa-d1e285-d1e111",
+        "HuYgTa-d1e285-d1e133"
+      ]
+    }
+  }
+}

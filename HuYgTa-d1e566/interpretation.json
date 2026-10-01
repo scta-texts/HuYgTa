@@ -1,0 +1,71 @@
+{
+  "_metadata": {
+    "schema_version": "1.0",
+    "generated_at": "2026-10-01T00:37:40Z",
+    "model": "claude-opus-5-5",
+    "prompt_version": "interpretation-v1",
+    "source_commit": "c560df2",
+    "generation_method": "hierarchical"
+  },
+  "HuYgTa-d1e566-d1e111": {
+    "summary": "Rubric announcing that in this portion of the Lombard's text the difficulty of the treatise is shown from the depravity of human beings.",
+    "claims": [
+      "This section of the prologue shows the difficulty of the work from human depravity."
+    ],
+    "concepts": [
+      "divisio textus",
+      "difficulty of theology",
+      "human malice"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "HuYgTa-d1e566-d1e124"
+      ]
+    }
+  },
+  "HuYgTa-d1e566-d1e124": {
+    "summary": "Divides the prologue section beginning 'Quamvis non ambigamus.' Having shown the work's difficulty from the sublimity of its matter, the Lombard now shows it from the deceit of wicked, envious men, who typically do two evils: attack truth and preach falsehood ('Quorum professio'). The attack on truth is subdivided into the detraction itself and its cause ('Quia dissentientibus'), the cause being both intrinsic (their perverse will) and extrinsic (the devil's cunning, 'Quoniam Deus huius saeculi'). Because the Lombard mentions those who turn from the truth and the true faith to fables, Thomas introduces the following question.",
+    "claims": [
+      "The Lombard shows the difficulty of his work from the deceit of wicked men as well as from the sublimity of its matter.",
+      "The wicked attack the truth and assert falsehood.",
+      "Their attack on truth has an intrinsic cause, a perverse will, and an extrinsic cause, the cunning of the devil."
+    ],
+    "concepts": [
+      "divisio textus",
+      "heresy",
+      "perverse will",
+      "diabolical deception",
+      "impugnation of truth"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "HuYgTa-d1e566-d1e111",
+        "HuYgTa-d1e285-d1e133"
+      ]
+    }
+  },
+  "HuYgTa-d1e566": {
+    "summary": "The third 'circa textum' of the prologue, dividing the section 'Quamvis non ambigamus' in which the Lombard shows the difficulty of his work from the malice of envious men who attack truth (from a perverse will and the devil's deception) and assert falsehood. It introduces the question concerning those who turn from the faith to fables.",
+    "claims": [
+      "The difficulty of theological work arises also from the malice of those who attack truth and preach falsehood."
+    ],
+    "concepts": [
+      "divisio textus",
+      "difficulty of theology",
+      "heresy",
+      "diabolical deception"
+    ],
+    "_metadata": {
+      "level": "div",
+      "generation_method": "descendant_summaries",
+      "input_ids": [
+        "HuYgTa-d1e566-d1e111",
+        "HuYgTa-d1e566-d1e124"
+      ]
+    }
+  }
+}

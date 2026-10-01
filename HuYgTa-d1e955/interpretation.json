@@ -1,0 +1,72 @@
+{
+  "_metadata": {
+    "schema_version": "1.0",
+    "generated_at": "2026-10-01T00:37:40Z",
+    "model": "claude-opus-5-5",
+    "prompt_version": "interpretation-v1",
+    "source_commit": "c560df2",
+    "generation_method": "hierarchical"
+  },
+  "HuYgTa-d1e955-d1e111": {
+    "summary": "Rubric announcing that this portion of the Lombard's text indicates the order of this discipline.",
+    "claims": [
+      "This section of the prologue sets out the order of the science."
+    ],
+    "concepts": [
+      "divisio textus",
+      "order of the science"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "HuYgTa-d1e955-d1e120"
+      ]
+    }
+  },
+  "HuYgTa-d1e955-d1e120": {
+    "summary": "Divides the final section of the Lombard's prologue, 'Horum igitur Deo odibilem,' in which, having made readers attentive, he makes them docile by showing the order of the science. The section first shows that the work proceeds in due order and then directs the reader to the table of chapters ('Ut autem quod quaeritur'); within the first part he states his method and then, since no one proceeds without possible fault, asks readers for correction ('In hoc autem tractatu'). The statement of method is further divided into intention, recapitulation and conclusion. Thomas explains that disorder in a science arises in four ways — failing to refute falsehood, to commend truth, to confirm doubtful points, or to distinguish its parts — and that the Lombard shows his work avoids all four: it refutes falsehood, exalts truth ('lucernam veritatis'), confirms by testimonies of truth, and is properly distinguished into four books. He then announces a question on the end of the prologue.",
+    "claims": [
+      "The last section of the prologue renders the reader docile by showing the order of the science.",
+      "A science is disordered if it fails to refute falsehood, commend truth, adequately confirm what is doubtful, or properly distinguish its parts.",
+      "The Sentences avoids each of these defects and is thus nobly ordered: it refutes error, exalts truth, supports it with testimonies, and is divided into four books.",
+      "The Lombard asks for correction because no one proceeds so orderly as to be immune from error."
+    ],
+    "concepts": [
+      "divisio textus",
+      "order of a science",
+      "docility",
+      "authority (testimonia)",
+      "division into four books",
+      "fraternal correction"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "HuYgTa-d1e955-d1e111",
+        "HuYgTa-d1e285-d1e133"
+      ]
+    }
+  },
+  "HuYgTa-d1e955": {
+    "summary": "The fourth 'circa textum' of the prologue, dividing the closing section 'Horum igitur Deo odibilem' in which the Lombard makes readers docile by showing that his science is properly ordered: it refutes falsehood, exalts truth, confirms it with authoritative testimonies, and is distinguished into four books, while he directs readers to the chapter list and invites correction. It introduces a question on the end of the prologue.",
+    "claims": [
+      "The Sentences is shown to be a well-ordered science because it avoids the four sources of disorder."
+    ],
+    "concepts": [
+      "divisio textus",
+      "order of a science",
+      "docility",
+      "division into four books"
+    ],
+    "_metadata": {
+      "level": "div",
+      "generation_method": "descendant_summaries",
+      "input_ids": [
+        "HuYgTa-d1e955-d1e111",
+        "HuYgTa-d1e955-d1e120"
+      ]
+    }
+  }
+}
