@@ -1,0 +1,63 @@
+{
+  "_metadata": {
+    "schema_version": "1.0",
+    "generated_at": "2026-09-25T12:41:07Z",
+    "model": "claude-sonnet-5",
+    "prompt_version": "interpretation-v1",
+    "source_commit": "c560df2"
+  },
+  "HuYgTa-e82821-d1e111": {
+    "summary": "Rubric announcing Distinctio XXVII and stating its topic in advance: a clear and lucid division of the distinction, in which it is investigated in what ways God is said to exist in things.",
+    "claims": [
+      "Distinction 27 investigates the various ways God can be said to exist 'in' things."
+    ],
+    "concepts": [
+      "divisio textus",
+      "divine presence"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "HuYgTa-e82821-d1e127"
+      ]
+    }
+  },
+  "HuYgTa-e82821-d1e127": {
+    "summary": "A detailed divisio textus (division of the Lombard's text) for Distinction 27, tracing how the Master (Peter Lombard) first declares certain true ways God exists in things and then rejects certain false ways ('Cumque divina natura...'). The passage nests this division recursively: the treatment of God's true presence in things divides into his special presence in some things by grace and his general presence in all things by nature; the discussion of God's presence by essence divides into his transcendence/incomprehensibility, the presumption of certain thinkers about it, and the resolution of an incidental doubt; and the refutation of false ways divides into denying that God is circumscribed or determined by place, followed by a confirmation, which itself splits into whether God is in a place circumscriptively or definitively, whether spiritual creatures are in a place definitively without being circumscribed, and whether such creatures can undergo change of place. The paragraph closes by noting that a question is then posed concerning this thirty-seventh distinction (a scribal/numbering discrepancy with the stated 'Distinctio XXVII' of the rubric).",
+    "claims": [
+      "The Lombard's text for this distinction divides first into an exposition of true modes of divine presence in things and second into a refutation of false modes.",
+      "The exposition of true divine presence further divides into God's special presence in some things through grace and his general presence in all things through nature.",
+      "The refutation of false modes addresses whether God, and by extension spiritual creatures, are circumscribed or merely definitively located, and whether such creatures can move from place to place."
+    ],
+    "concepts": [
+      "divisio textus",
+      "circumscriptive vs. definitive presence",
+      "divine presence by grace vs. by nature",
+      "motion of spirits"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "HuYgTa-e82821-d1e111"
+      ]
+    }
+  },
+  "HuYgTa-e82821": {
+    "summary": "The 'circa textum' (structural outline) preceding Distinction 27, giving a scholastic divisio textus of the Lombard's discussion of the ways God can be said to be present in things — distinguishing true modes of divine presence (by grace in some things, by nature in all things, and by essence without circumscription or determination of place) from false modes that the Master goes on to reject, and closing by posing a question arising from this material.",
+    "claims": [],
+    "concepts": [
+      "divisio textus",
+      "divine presence"
+    ],
+    "_metadata": {
+      "level": "div",
+      "generation_method": "descendant_summaries",
+      "input_ids": [
+        "HuYgTa-e82821-d1e111",
+        "HuYgTa-e82821-d1e127"
+      ]
+    }
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "_metadata": {
+    "schema_version": "1.0",
+    "generated_at": "2026-09-25T12:41:07Z",
+    "model": "claude-sonnet-5",
+    "prompt_version": "interpretation-v1",
+    "source_commit": "c560df2"
+  },
+  "HuYgTa-159504-d1e111": {
+    "summary": "Rubric announcing Distinctions XLIII and XLIV together and stating their topic in advance: a complete division of these distinctions, which treat both sin against the Holy Spirit and the origin of the power to sin.",
+    "claims": [
+      "Distinctions 43-44 together treat sin against the Holy Spirit and the origin of the power to sin."
+    ],
+    "concepts": [
+      "divisio textus",
+      "sin against the Holy Spirit",
+      "potentia peccandi"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "HuYgTa-159504-d1e133"
+      ]
+    }
+  },
+  "HuYgTa-159504-d1e133": {
+    "summary": "A detailed divisio textus for Distinctions 43-44, tracing how the Master (Peter Lombard), having finished treating sins in general, turns to specific especially grave sins, namely sin against the Holy Spirit. The division nests recursively: the treatment of sin against the Holy Spirit splits into its gravity/irremissibility (following the assignments of certain doctors, then the determinations of the saints, especially Augustine and Ambrose) and, beginning at 'Post praedicta,' into the power to sin, which itself divides into the cause of the power to sin, a less true opinion about it, and the Master's own determination, followed by a further question ('Hic oritur quaestio') on the power to dominate/rule, tied forward to material to be treated in Book 3. The paragraph closes by posing a question arising from these two final distinctions of Book 2.",
+    "claims": [
+      "The text divides into a treatment of the gravity and irremissibility of sin against the Holy Spirit, followed by a treatment of the power to sin (potentia peccandi).",
+      "The treatment of sin against the Holy Spirit follows first the assignments of various doctors and then the determinations of the saints (Augustine, Ambrose).",
+      "The treatment of the power to sin leads, by way of a further question, into a discussion of the power to dominate (potentia dominandi), which serves as a bridge to Book 3."
+    ],
+    "concepts": [
+      "divisio textus",
+      "sin against the Holy Spirit",
+      "potentia peccandi",
+      "potentia dominandi"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "HuYgTa-159504-d1e111"
+      ]
+    }
+  },
+  "HuYgTa-159504": {
+    "summary": "The 'circa textum' (structural outline) preceding Distinctions 43-44, giving a scholastic divisio textus of the Lombard's transition from general treatment of sin to the specific, gravest sin against the Holy Spirit and its irremissibility, and then to the origin of the power to sin and, by extension, the power to dominate — closing with a question posed on these final two distinctions of Book 2.",
+    "claims": [],
+    "concepts": [
+      "divisio textus",
+      "sin against the Holy Spirit",
+      "potentia peccandi",
+      "potentia dominandi"
+    ],
+    "_metadata": {
+      "level": "div",
+      "generation_method": "descendant_summaries",
+      "input_ids": [
+        "HuYgTa-159504-d1e111",
+        "HuYgTa-159504-d1e133"
+      ]
+    }
+  }
+}
