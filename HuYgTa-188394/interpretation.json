@@ -1,0 +1,71 @@
+{
+  "_metadata": {
+    "schema_version": "1.0",
+    "generated_at": "2026-10-11T13:49:15Z",
+    "model": "claude-opus-5-5",
+    "prompt_version": "interpretation-v1",
+    "source_commit": "ee451f4"
+  },
+  "HuYgTa-188394-d1e111": {
+    "summary": "Rubric (with a garbled numeral for Distinctio XXIII) announcing both a general division of the treatise on the perfections belonging to Christ the head and to his members, and a particular subdivision of the present distinction, in which the discussion of the habit of faith begins.",
+    "claims": [
+      "Distinction 23 opens the treatment of the perfections common to Christ the head and his members, beginning with the habit of faith."
+    ],
+    "concepts": [
+      "divisio textus",
+      "habit of faith",
+      "Christ as head and members"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "HuYgTa-188394-d1e131"
+      ]
+    }
+  },
+  "HuYgTa-188394-d1e131": {
+    "summary": "A nested divisio textus locating Distinction 23 within the Lombard's Book 3. Having treated the conditions proper to Christ as redeemer and head, the Master turns to perfections in head and members: first those that are habits, then those that are acts. The habits divide into virtues and gifts of the Holy Spirit (with a later section on the connection of the virtues); the virtues into the three theological and four cardinal virtues; the theological into faith, hope and charity. Faith is treated first absolutely (d. 23) and then comparatively ('Hic quaeritur si fides', d. 24). The absolute treatment gives a definition of faith, an explanation of its terms, and resolution of doubts about its permanence and unity, and then considers faith's object: that it concerns things not apparent, as confirmed by the Apostle's definition, and whether that description extends to hope. The paragraph ends by announcing the specific question to be raised on this distinction.",
+    "claims": [
+      "Distinction 23 begins the Lombard's treatment of the perfections of Christ and his members, starting with the habits of virtue.",
+      "Faith is treated first absolutely, as to its definition and object, before it is treated comparatively.",
+      "The object of faith, as the Master presents it, consists of things not apparent."
+    ],
+    "concepts": [
+      "divisio textus",
+      "theological virtues",
+      "gifts of the Holy Spirit",
+      "habit vs. act",
+      "object of faith",
+      "things not apparent"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "HuYgTa-188394-d1e111"
+      ]
+    }
+  },
+  "HuYgTa-188394": {
+    "summary": "The circa textum for Book 3, Distinction 23: a divisio textus placing the distinction at the head of the Lombard's treatment of the perfections of Christ and his members, which proceeds from habits (virtues, gifts, and their connection) to acts. Within the theological virtues, faith comes first and is treated here absolutely: its definition, the explanation of that definition, doubts about its permanence and unity, and its object as things not apparent, confirmed by the Apostle's definition. The text closes by announcing the question 'Whether faith is a virtue'.",
+    "claims": [
+      "Distinction 23 begins the treatise on the virtues with faith considered absolutely.",
+      "The object of faith is presented as things not apparent."
+    ],
+    "concepts": [
+      "divisio textus",
+      "theological virtues",
+      "habit of faith",
+      "object of faith"
+    ],
+    "_metadata": {
+      "level": "div",
+      "generation_method": "descendant_summaries",
+      "input_ids": [
+        "HuYgTa-188394-d1e111",
+        "HuYgTa-188394-d1e131"
+      ]
+    }
+  }
+}

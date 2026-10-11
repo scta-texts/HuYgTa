@@ -1,10 +1,10 @@
 {
   "_metadata": {
     "schema_version": "1.0",
-    "generated_at": "2026-10-03T13:56:48Z",
+    "generated_at": "2026-10-11T13:49:15Z",
     "model": "claude-opus-5-5",
     "prompt_version": "interpretation-ancestors-v1",
-    "source_commit": "a56b5be",
+    "source_commit": "ee451f4",
     "generation_method": "hierarchical",
     "scope": "Ancestor-level (non-item) interpretations derived from item interpretation.json files via the EDF"
   },
@@ -136,6 +136,74 @@
       "source_structure": "scta-projectfiles/HuYgTa.xml"
     }
   },
+  "HuYgTa-d1e6333": {
+    "summary": "Book 3, Distinction 23, where the Lombard begins his treatment of the virtues of Christ and his members with faith considered absolutely: its definition and its object, things not apparent. Thomas's question asks whether faith is a virtue, and he answers through a general theory of habit. A habit is principally an absolute quality that connotes a relation to its object. It is neither a relation, nor a compound of absolute and relation, nor a mere mode. Habits are innate only in aptitude and acquired through exercise. The first moral virtue needs many acts to overcome contrary dispositions from original sin and custom, whereas a speculative habit can come from a single demonstration. We need habits to act well, not to act at all, and habit and power together cause the whole modified act. Applying this, acquired faith can be vicious. Infused faith is a virtue in the broad sense of a praiseworthy habit ordered to meritorious assent, but not in Aristotle's strict sense of a power's ultimate perfection, which belongs to the light of glory. The habit of faith is compatible with clear vision.",
+    "claims": [
+      "A habit is principally an absolute quality that connotes a relation, not a relation or a mere mode.",
+      "The first moral virtue cannot be acquired by one act, but a speculative habit can.",
+      "Habits are needed for acting well and cause the modified act together with the power.",
+      "Infused faith is a virtue in the broad sense but not in the strict Aristotelian sense.",
+      "Acquired faith can be a vicious habit."
+    ],
+    "concepts": [
+      "habit",
+      "quality vs relation",
+      "thing vs mode",
+      "acquisition of virtue",
+      "modified act",
+      "infused faith",
+      "light of glory",
+      "faith of Christ"
+    ],
+    "_metadata": {
+      "level": "liber3-distinctio23",
+      "generation_method": "descendant_summaries",
+      "input_ids": [
+        "HuYgTa-188394",
+        "HuYgTa-188510"
+      ],
+      "partial": false,
+      "model": "claude-opus-5-5",
+      "prompt_version": "interpretation-ancestors-v1",
+      "generated_at": "2026-10-11T13:49:15Z",
+      "source_commit": "ee451f4",
+      "source_structure": "scta-projectfiles/HuYgTa.xml"
+    }
+  },
+  "HuYgTa-d1e6400": {
+    "summary": "Book 3, Distinctions 24 and 25, treated together, where the Lombard considers faith comparatively: with respect to its object, as concerning things unseen, and with respect to believers, as required for salvation in every age. Thomas's question asks whether falsehood can underlie faith. Properly speaking, the object of faith is God alone, the first truth; broadly, it is the articles and what is annexed to them. No falsehood can underlie infused faith, formed or unformed, because it comes from uncreated truth, rests on infallible divine authority, and concerns contingent truths only as ordained by God, that is, under his ordained rather than absolute power. Acquired faith can be false. Apparent counterexamples from prophecy, the timing of the Incarnation, adoration of an unconsecrated host and Abraham's faith are resolved through distinctions such as conditional prophecy and conditional latria. There are twelve articles, after the Apostles' Creed; demonstrable truths such as God's unity are excluded. Following Hugh of St Victor, Thomas holds that before the Gospel only a minimum of explicit faith, in God as creator and redeemer, was required. The faith of all ages is one but differs in explicitness.",
+    "claims": [
+      "God alone is the principal object of faith.",
+      "No falsehood can underlie infused faith; acquired faith can be false.",
+      "Faith concerns contingent truths as falling under God's ordained power.",
+      "There are twelve articles of faith, and demonstrable truths are not articles.",
+      "Before the Gospel, only a minimum of explicit faith in God as creator and redeemer was required for salvation."
+    ],
+    "concepts": [
+      "object of faith",
+      "infallibility of faith",
+      "infused vs acquired faith",
+      "absolute vs ordained power",
+      "articles of faith",
+      "creeds",
+      "explicit vs implicit faith",
+      "faith of the ancients"
+    ],
+    "_metadata": {
+      "level": "liber3-distinctio24 liber3-distinctio25",
+      "generation_method": "descendant_summaries",
+      "input_ids": [
+        "HuYgTa-190774",
+        "HuYgTa-190886"
+      ],
+      "partial": false,
+      "model": "claude-opus-5-5",
+      "prompt_version": "interpretation-ancestors-v1",
+      "generated_at": "2026-10-11T13:49:15Z",
+      "source_commit": "ee451f4",
+      "source_structure": "scta-projectfiles/HuYgTa.xml"
+    }
+  },
   "HuYgTa-d1e86": {
     "summary": "Book 1 of Thomas of Strasbourg's commentary on the Sentences. This summary is PARTIAL: it rests only on the Prologue and Distinction 37, 2 of the book's 43 divisions. The Prologue gives Thomas's account of theology. God is its subject under a special ratio, supremely lovable truth proportioned to the wayfarer, rather than under the infinite ratio of deity. Theology is a true science according to the capacity of the knower, with the articles of faith as principles, and it is properly wisdom. By absolute power a wayfarer could receive intuitive vision, and faith can coexist with vision and science. Because theology is named from its end, the love of God, it is 'affective', neither speculative nor practical. Distinction 37 treats the presence of God and of spirits in place. God alone has simple ubiquity, attingent and conservative, neither circumscriptive nor definitive. Angels and souls are in place definitively, through the operative application of their power, are confined to one place at a time, and move in time. Universal nature is located only through its particulars. The intervening distinctions on the Trinity, the divine attributes and other topics are not covered here.",
     "claims": [
@@ -202,23 +270,61 @@
       "source_structure": "scta-projectfiles/HuYgTa.xml"
     }
   },
+  "HuYgTa-d1e5329": {
+    "summary": "Book 3 of Thomas of Strasbourg's commentary on the Sentences. This summary is PARTIAL: it rests only on Distinctions 23 and 24-25, 2 of the book's 28 direct divisions. The Prologue and the distinctions on the Incarnation, Christ's knowledge and merit, redemption, hope, charity, the cardinal virtues, the gifts and the commandments are not covered. The covered material opens the treatise on the virtues with faith. In Distinction 23 Thomas develops a general theory of habit: an absolute quality connoting a relation, acquired by exercise, needed for acting well, and causing the modified act together with the power. He concludes that infused faith is a virtue in the broad sense of a praiseworthy, meritorious habit, though not in Aristotle's strict sense, since the light of glory surpasses it. In Distinctions 24-25 he holds that God is the principal object of faith and that no falsehood can underlie infused faith, because it rests on divine authority and concerns contingents as ordained by God. He counts twelve articles following the Apostles' Creed, and he holds that before the Gospel a minimum of explicit faith in God as creator and redeemer sufficed for salvation.",
+    "claims": [
+      "A habit is principally an absolute quality connoting a relation, acquired by exercise and necessary for acting well.",
+      "Infused faith is a virtue in the broad sense but not in the strict Aristotelian sense.",
+      "No falsehood can underlie infused faith, whose principal object is God.",
+      "Before the Gospel, only a minimum of explicit faith was necessary for salvation."
+    ],
+    "concepts": [
+      "habit",
+      "theological virtues",
+      "infused faith",
+      "object of faith",
+      "infallibility of faith",
+      "articles of faith",
+      "explicit vs implicit faith",
+      "absolute vs ordained power"
+    ],
+    "_metadata": {
+      "level": "liber",
+      "generation_method": "descendant_summaries",
+      "input_ids": [
+        "HuYgTa-d1e6333",
+        "HuYgTa-d1e6400"
+      ],
+      "partial": true,
+      "coverage": "2 of 28 direct children have interpretations",
+      "model": "claude-opus-5-5",
+      "prompt_version": "interpretation-ancestors-v1",
+      "generated_at": "2026-10-11T13:49:15Z",
+      "source_commit": "ee451f4",
+      "source_structure": "scta-projectfiles/HuYgTa.xml"
+    }
+  },
   "HuYgTa": {
-    "summary": "Thomas of Strasbourg's commentary on the four books of Peter Lombard's Sentences. This summary is PARTIAL and rests on only a small fraction of the work: from Book 1, the Prologue and Distinction 37; from Book 2, Distinctions 43-44. Books 3 and 4 have no interpretations yet. In the Prologue Thomas defines theology by its end, the love of God. God is its subject under a special ratio proportioned to the wayfarer. Theology is a true science and wisdom, with the articles of faith as its principles, and it is properly 'affective', neither speculative nor practical. Book 1, Distinction 37 holds that God alone is simply ubiquitous and that created spirits are definitively in place through the application of their power. Book 2, Distinctions 43-44 hold that no sin exceeds God's power to forgive: sin against the Holy Spirit is irremissible only for want of excuse. Both the power to sin and the power to dominate come from God, and obedience to infidel rulers depends on the justice of their rule. Other recurring features of the covered material are a careful use of God's absolute power and dialogue with Giles of Rome, Scotus and Henry of Ghent.",
+    "summary": "Thomas of Strasbourg's commentary on the four books of Peter Lombard's Sentences. This summary is PARTIAL and rests on only a small fraction of the work: from Book 1, the Prologue and Distinction 37; from Book 2, Distinctions 43-44; from Book 3, Distinctions 23 and 24-25. Book 4 has no interpretations yet. In the Prologue Thomas defines theology by its end, the love of God. God is its subject under a special ratio proportioned to the wayfarer. Theology is a true science and wisdom, with the articles of faith as its principles, and it is properly 'affective', neither speculative nor practical. Book 1, Distinction 37 holds that God alone is simply ubiquitous and that created spirits are definitively in place through the application of their power. Book 2, Distinctions 43-44 hold that no sin exceeds God's power to forgive: sin against the Holy Spirit is irremissible only for want of excuse. Both the power to sin and the power to dominate come from God, and obedience to infidel rulers depends on the justice of their rule. Book 3, Distinctions 23-25 ground the treatment of faith in a theory of habit as an absolute quality connoting a relation. Infused faith is a virtue in a broad but not a strict sense; God is its principal object; and no falsehood can underlie it. There are twelve articles, and before the Gospel a minimum of explicit faith sufficed. Other recurring features of the covered material are a careful use of the distinction between God's absolute and ordained power and dialogue with Giles of Rome, Scotus and Henry of Ghent.",
     "claims": [
       "Theology is defined by its end, the love of God, and is properly affective.",
       "The wayfarer's theology is a true science according to the capacity of the knower, with the articles of faith as principles.",
       "God alone possesses simple ubiquity; created spirits are definitively in place through their operative power.",
-      "No sin is irremissible with respect to God's power."
+      "No sin is irremissible with respect to God's power.",
+      "Infused faith is an infallible virtue, in a broad sense, whose principal object is God."
     ],
     "concepts": [
       "Sentences commentary",
       "affective theology",
       "subject of theology",
       "theology as science",
-      "potentia Dei absoluta",
+      "potentia Dei absoluta vs ordinata",
       "divine presence",
       "sin against the Holy Spirit",
       "dominion",
+      "habit",
+      "infused faith",
+      "articles of faith",
       "Augustinian school"
     ],
     "_metadata": {
@@ -226,14 +332,15 @@
       "generation_method": "descendant_summaries",
       "input_ids": [
         "HuYgTa-d1e86",
-        "HuYgTa-d1e3238"
+        "HuYgTa-d1e3238",
+        "HuYgTa-d1e5329"
       ],
       "partial": true,
-      "coverage": "2 of 4 direct children have interpretations (both partial)",
+      "coverage": "3 of 4 direct children have interpretations (all partial)",
       "model": "claude-opus-5-5",
       "prompt_version": "interpretation-ancestors-v1",
-      "generated_at": "2026-10-03T13:56:48Z",
-      "source_commit": "a56b5be",
+      "generated_at": "2026-10-11T13:49:15Z",
+      "source_commit": "ee451f4",
       "source_structure": "scta-projectfiles/HuYgTa.xml"
     }
   }
